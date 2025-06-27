@@ -1,4 +1,3 @@
-
 import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
 import { FeaturesSection } from '@/components/FeaturesSection';
@@ -8,7 +7,7 @@ export const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main>
+      <main className="pt-16">
         <HeroSection />
         <FeaturesSection />
       </main>
