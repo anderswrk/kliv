@@ -1,299 +1,14 @@
 {
   "nav": {
-    "features": "Features",
-    "pricing": "Pricing",
-    "docs": "Docs",
-    "blog": "Blog",
     "signIn": "Sign In",
     "getStarted": "Get Started"
   },
-  "hero": {
-    "title": "Build apps and websites by chatting with AI",
-    "subtitle": "Describe your idea and watch Kliv create a fully functional application or website in minutes. No coding required.",
-    "placeholder": "Describe the app or website you want to build...",
-    "typingExamples": [
-      "A stunning e-commerce store with secure payments",
-      "An interactive dashboard for real-time analytics",
-      "A dynamic blog with rich content and comments",
-      "A personalized fitness tracker with progress charts",
-      "A sleek portfolio site to showcase your work",
-      "A robust booking system for any service"
-    ],
-    "examples": {
-      "label": "Try these examples:",
-      "todo": "A todo app with categories",
-      "dashboard": "A sales dashboard with charts",
-      "blog": "A personal blog with comments",
-      "todoFull": "Create a beautiful todo application with drag-and-drop functionality, color-coded categories like Work, Personal, and Shopping, and smooth animations. Include features like priority levels, due dates, and a clean dashboard that shows your progress. Make it responsive so it works perfectly on both desktop and mobile devices.",
-      "dashboardFull": "Build a stunning sales analytics dashboard with interactive charts showing revenue trends, top-performing products, and customer insights. Include beautiful data visualizations with bar charts, line graphs, and pie charts that update in real-time. Add filters for different time periods and export functionality for reports.",
-      "blogFull": "Design a modern personal blog with a clean, magazine-style layout featuring rich text editing, image galleries, and social sharing buttons. Include a comment system where readers can engage with your posts, tag-based navigation, and a search function. Make it SEO-friendly with beautiful typography and fast loading times."
-    },
-    "cta": "Start Building",
-    "watchDemo": "Watch Demo",
-    "badge": "AI-Powered Development",
-    "inputLabel": "Describe your app or website idea",
-    "charactersCount": "characters",
-    "stats": {
-      "appsCreated": "Projects Created",
-      "buildTime": "Average Build Time",
-      "satisfaction": "User Satisfaction"
-    }
-  },
-  "features": {
-    "title": "Everything you need to build amazing apps and websites",
-    "subtitle": "Kliv provides a complete development environment powered by AI, making app creation accessible to everyone.",
-    "aiPowered": {
-      "title": "AI-Powered Development",
-      "description": "Our advanced AI understands your requirements and generates clean, production-ready code automatically."
-    },
-    "realtime": {
-      "title": "Real-time Preview",
-      "description": "See your app or website come to life instantly as you chat with the AI. No waiting, no compilation."
-    },
-    "responsive": {
-      "title": "Mobile-First Design",
-      "description": "Every project is built with responsive design principles, looking great on all devices."
-    },
-    "page": {
-      "badge": "Features",
-      "title": "Powerful Features for Modern Development",
-      "subtitle": "Everything you need to build, deploy, and manage your applications with AI assistance.",
-      "core": {
-        "title": "Core Development Features",
-        "aiChat": {
-          "title": "AI Chat Interface",
-          "description": "Chat with Kliv's AI to describe your ideas in plain language. The AI understands context and builds exactly what you envision."
-        },
-        "livePreview": {
-          "title": "Live Preview",
-          "description": "See your changes instantly in the preview window as you chat. Watch your app come to life in real-time without any compilation delays."
-        },
-        "codeGeneration": {
-          "title": "Smart Code Generation",
-          "description": "Generate clean, maintainable code using React, TypeScript, and Tailwind CSS. All code follows industry best practices."
-        },
-        "responsive": {
-          "title": "Responsive Design",
-          "description": "Every app is built mobile-first with responsive design principles, ensuring perfect display on all devices and screen sizes."
-        }
-      },
-      "development": {
-        "title": "Development Tools",
-        "sourceCode": {
-          "title": "Source Code Access",
-          "description": "View and understand your project's source code with the built-in code viewer. Toggle between chat and code views seamlessly."
-        },
-        "debugging": {
-          "title": "AI-Powered Debugging",
-          "description": "Kliv can access console logs and debug issues automatically, helping you fix problems without technical knowledge."
-        },
-        "iterative": {
-          "title": "Iterative Development",
-          "description": "Make changes step by step. Kliv encourages breaking down complex features into manageable pieces for better results."
-        },
-        "versionControl": {
-          "title": "Version History",
-          "description": "Revert to any previous version of your project with a single click. Never lose your progress or accidentally break your app."
-        }
-      },
-      "deployment": {
-        "title": "Deployment & Sharing",
-        "oneClick": {
-          "title": "One-Click Publishing",
-          "description": "Deploy your app to the web instantly with Kliv's built-in hosting. Share your creation with the world in seconds."
-        },
-        "customDomain": {
-          "title": "Custom Domains",
-          "description": "Connect your own domain name to your Kliv app. Professional hosting with SSL certificates included."
-        },
-        "github": {
-          "title": "GitHub Integration",
-          "description": "Export your project to GitHub and continue development with your preferred tools and workflows."
-        },
-        "remix": {
-          "title": "Project Remixing",
-          "description": "Fork and remix existing projects to create new variations. Perfect for learning and building upon existing ideas."
-        }
-      },
-      "technology": {
-        "title": "Modern Technology Stack",
-        "react": {
-          "title": "React & TypeScript",
-          "description": "Built on the most popular web technologies. Your apps use React for the UI and TypeScript for type safety."
-        },
-        "tailwind": {
-          "title": "Tailwind CSS",
-          "description": "Beautiful, responsive styling with Tailwind CSS. Create stunning designs without writing custom CSS."
-        },
-        "shadcn": {
-          "title": "Shadcn UI Components",
-          "description": "Access to a comprehensive library of pre-built, accessible UI components for rapid development."
-        },
-        "supabase": {
-          "title": "Supabase Integration",
-          "description": "Add databases, authentication, and backend functionality with native Supabase integration."
-        }
-      }
-    }
-  },
-  "pricing": {
-    "badge": "Pricing",
-    "title": "Choose Your Plan",
-    "subtitle": "Start building for free, upgrade when you need more power",
-    "errorLoading": "Error loading pricing information",
-    "noPlansAvailable": "No plans available at this time.",
-    "getStarted": "Get Started",
-    "subscribe": "Subscribe",
-    "contactUs": "Contact Us",
-    "free": "Free",
-    "custom": "Custom",
-    "customPricing": "Custom pricing",
-    "donation": "Donation",
-    "startsAt": "Starts at",
-    "perUnit": "per unit",
-    "every": "every",
-    "month": "month",
-    "year": "year",
-    "week": "week",
-    "day": "day",
-    "months": "months",
-    "years": "years",
-    "weeks": "weeks",
-    "days": "days",
-    "testPlan": "This is a test plan",
-    "test": "Test",
-    "signupsDisabled": "Signups are disabled for this plan",
-    "disabled": "Disabled"
-  },
-  "about": {
-    "badge": "About Us",
-    "title": "Democratizing App Development",
-    "subtitle": "We believe everyone should be able to bring their ideas to life, regardless of their technical background.",
-    "mission": {
-      "title": "Our Mission",
-      "paragraph1": "At Kliv, we're on a mission to make app and website development accessible to everyone. We believe that great ideas shouldn't be limited by technical barriers or the need to learn complex programming languages.",
-      "paragraph2": "Our AI-powered platform allows anyone to describe their vision in plain language and watch as it transforms into a fully functional web application. Whether you're an entrepreneur with a startup idea, a small business owner looking to establish an online presence, or someone who simply wants to bring a creative project to life, Kliv is here to help you succeed."
-    },
-    "values": {
-      "accessibility": {
-        "title": "Accessibility First",
-        "description": "We're committed to breaking down the technical barriers that prevent people from creating digital solutions. Our platform is designed to be intuitive and approachable for users of all skill levels."
-      },
-      "innovation": {
-        "title": "Innovation",
-        "description": "We leverage cutting-edge AI technology to transform natural language descriptions into production-ready code, making the development process faster and more intuitive than ever before."
-      },
-      "empowerment": {
-        "title": "Empowerment",
-        "description": "We believe in empowering individuals and businesses to take control of their digital presence without depending on expensive development teams or lengthy learning curves."
-      },
-      "community": {
-        "title": "Community",
-        "description": "We're building a community where creators, entrepreneurs, and innovators can bring their ideas to life and share their success stories with others who are just starting their journey."
-      }
-    },
-    "story": {
-      "title": "Our Story",
-      "paragraph1": "Kliv was born from a simple observation: too many great ideas never see the light of day because of technical barriers. We saw talented entrepreneurs, creative professionals, and business owners with brilliant concepts who were held back by the complexity and cost of traditional software development.",
-      "paragraph2": "Our team of experienced developers and AI researchers came together with a shared vision: what if we could make app development as simple as having a conversation? What if anyone could describe their idea in plain English and watch it come to life instantly?",
-      "paragraph3": "Today, Kliv serves thousands of users worldwide, from solo entrepreneurs launching their first startup to established businesses expanding their digital presence. Every project built on our platform represents someone's dream becoming reality, and that's what drives us forward every day."
-    },
-    "technology": {
-      "title": "Built on Modern Technology",
-      "paragraph1": "Behind Kliv's simple interface lies a sophisticated technology stack designed for reliability, performance, and scalability. Every application built with Kliv uses industry-standard technologies including React, TypeScript, and Tailwind CSS, ensuring your projects are built on a solid foundation.",
-      "paragraph2": "Our AI understands not just what you want to build, but how to build it properly. It generates clean, maintainable code that follows best practices, so your applications are not only functional but also professional-grade and ready for growth.",
-      "paragraph3": "With built-in integrations for databases, authentication, and deployment, Kliv provides everything you need to go from idea to live application without the complexity of managing multiple tools and services."
-    }
-  },
-  "careers": {
-    "badge": "Careers",
-    "title": "Join Our Mission",
-    "subtitle": "Help us democratize app development and empower creators worldwide.",
-    "intro": {
-      "paragraph1": "At Kliv, we're building the future of software development. Our AI-powered platform is transforming how people create applications, making development accessible to everyone regardless of their technical background.",
-      "paragraph2": "We're a fast-growing startup backed by leading investors, serving thousands of users worldwide. Join our remote-first team and help shape the next generation of development tools."
-    },
-    "culture": {
-      "title": "Our Culture",
-      "remote": {
-        "title": "Remote-First",
-        "description": "Work from anywhere in the world. We believe great talent isn't limited by geography."
-      },
-      "growth": {
-        "title": "Growth Mindset",
-        "description": "We invest in our team's development and encourage continuous learning and experimentation."
-      },
-      "impact": {
-        "title": "High Impact",
-        "description": "Your work directly affects thousands of creators and entrepreneurs building their dreams."
-      },
-      "innovation": {
-        "title": "Innovation",
-        "description": "We're at the forefront of AI and development tools, pushing the boundaries of what's possible."
-      }
-    },
-    "openings": {
-      "title": "Open Positions",
-      "subtitle": "All positions are fully remote. Fluency in English is required for all roles.",
-      "apply": "To apply, email us at",
-      "email": "careers@kliv.dev",
-      "include": "Please include your resume and a brief cover letter explaining why you're interested in the role."
-    }
-  },
-  "terms": {
-    "badge": "Terms of Service",
-    "title": "Terms of Service",
-    "subtitle": "Please read these terms carefully before using our services."
-  },
-  "privacy": {
-    "badge": "Privacy Policy",
-    "title": "Your Privacy Matters",
-    "subtitle": "We're committed to protecting your data and being transparent about how we use it."
-  },
-  "security": {
-    "badge": "Security",
-    "title": "Data Security & Protection",
-    "subtitle": "Learn about our comprehensive security measures and data protection practices."
-  },
-  "footer": {
-    "description": "Build apps and websites by chatting with AI. No coding required.",
-    "product": "Product",
-    "features": "Features",
-    "pricing": "Pricing",
-    "company": "Company",
-    "about": "About",
-    "careers": "Careers",
-    "support": "Support",
-    "contact": "Contact",
-    "serviceStatus": "Service Status",
-    "legal": "Legal",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "security": "Security",
-    "copyright": "© 2024 Kliv. All rights reserved."
-  },
-  "planContent": {
-    "products": {
-      "Basic Access": "Basic Access",
-      "Professional": "Professional"
-    },
-    "plans": {
-      "Free": "Free",
-      "Professional": "Professional",
-      "100 credits / month": "100 credits / month",
-      "200 credits / month": "200 credits / month",
-      "400 credits / month": "400 credits / month",
-      "Custom": "Custom"
-    },
-    "features": {
-      "Basic Access": "* Public projects\n* 5 daily credits\n* Community support",
-      "Professional": "Everything in Free, plus:\n* Unlimited projects\n* Additional daily credits\n* Priority support\n* Custom domains\n* Unlimited users",
-      "Custom": "* Single Sign-on (SAML)\n* Custom integrations\n* Dedicated support\n* SLA guarantee"
-    }
+  "common": {
+    "loading": "Loading..."
   },
   "tenantSignup": {
-    "getStarted": "Get started",
-    "defaultTagline": "Create beautiful web apps with just a prompt",
+    "getStarted": "Get Started with Kliv",
+    "defaultTagline": "Build web applications with AI assistance",
     "step": "Step {{step}} of {{total}}",
     "email": "Email",
     "emailPlaceholder": "Enter your email",
@@ -301,23 +16,165 @@
     "namePlaceholder": "Enter your full name",
     "password": "Password",
     "passwordPlaceholder": "Create a password",
-    "passwordConfirm": "Password (again)",
-    "passwordConfirmPlaceholder": "Re-enter your password",
-    "passwordStrength": "Please select a stronger password.",
-    "passwordsDontMatch": "The passwords don't match.",
-    "companyName": "Company name",
-    "companyNamePlaceholder": "Company name",
-    "adminDomain": "Admin domain",
-    "adminDomainPlaceholder": "mycompany",
-    "adminDomainHint": "This is the domain you will use to access your admin portal and access your product until you've configured a custom domain.",
-    "domainValidationError": "The domain can only contain letters, numbers, and dashes.",
-    "signUpWithGoogle": "Sign up with Google",
-    "quickSignup": "Quick Sign Up",
-    "googleSignupDescription": "Sign up instantly with your Google account",
-    "googleSignupTerms": "By continuing, you agree to our terms and privacy policy",
+    "passwordConfirm": "Confirm Password",
+    "companyName": "Company Name",
+    "companyNamePlaceholder": "Enter your company name",
+    "adminDomain": "Admin Domain",
+    "adminDomainPlaceholder": "your-company",
+    "adminDomainHint": "This will be your admin URL",
+    "back": "Back",
+    "next": "Continue",
     "or": "or",
-    "googleAuthError": "Unable to authenticate with Google",
-    "ssoError": "Your organization is already set up with an account. Click <a href=\"/!saml/login/{{domain}}\">here</a> to sign in or contact your system administrator.",
-    "userExistsError": "There is already a user registered with that email address. You can use the password recovery function on the login screen to reset your password."
+    "signUpWithGoogle": "Sign up with Google",
+    "googleSignupTerms": "By signing up, you agree to our Terms of Service and Privacy Policy",
+    "googleAuthError": "Google authentication failed. Please try again.",
+    "ssoError": "This email is managed by {domain}. Please contact your administrator.",
+    "userExistsError": "An account with this email already exists. Please sign in instead."
+  },
+  "hero": {
+    "title": "Build Web Apps with AI",
+    "subtitle": "Create stunning web applications using natural language. No coding experience required.",
+    "cta": "Start Building",
+    "watchDemo": "Watch Demo"
+  },
+  "features": {
+    "title": "Everything you need to build amazing apps",
+    "aiAssistant": {
+      "title": "AI Assistant",
+      "description": "Chat with our AI to build your app using natural language"
+    },
+    "livePreview": {
+      "title": "Live Preview",
+      "description": "See your changes instantly as you build"
+    },
+    "responsive": {
+      "title": "Responsive Design",
+      "description": "Your apps work perfectly on all devices"
+    },
+    "deployment": {
+      "title": "One-Click Deploy",
+      "description": "Deploy your app to the web with a single click"
+    },
+    "page": {
+      "badge": "Features",
+      "title": "Powerful Features for Modern Development",
+      "subtitle": "Everything you need to build, deploy, and scale your web applications",
+      "core": {
+        "title": "Core Features",
+        "aiChat": {
+          "title": "AI-Powered Chat",
+          "description": "Build your app by chatting with our intelligent AI assistant"
+        },
+        "livePreview": {
+          "title": "Live Preview",
+          "description": "See your changes instantly with real-time preview"
+        },
+        "codeGeneration": {
+          "title": "Code Generation",
+          "description": "Generate clean, production-ready code automatically"
+        },
+        "responsive": {
+          "title": "Responsive Design",
+          "description": "Create apps that work perfectly on all devices"
+        }
+      },
+      "development": {
+        "title": "Development Tools",
+        "sourceCode": {
+          "title": "Source Code Access",
+          "description": "Full access to your application's source code"
+        },
+        "debugging": {
+          "title": "Built-in Debugging",
+          "description": "Debug your applications with integrated tools"
+        },
+        "iterative": {
+          "title": "Iterative Development",
+          "description": "Continuously improve your app with AI assistance"
+        },
+        "versionControl": {
+          "title": "Version Control",
+          "description": "Track changes and revert to previous versions"
+        }
+      },
+      "deployment": {
+        "title": "Deployment & Sharing",
+        "oneClick": {
+          "title": "One-Click Deployment",
+          "description": "Deploy your app to production with a single click"
+        },
+        "customDomain": {
+          "title": "Custom Domains",
+          "description": "Use your own domain for professional branding"
+        },
+        "github": {
+          "title": "GitHub Integration",
+          "description": "Sync your code with GitHub repositories"
+        },
+        "remix": {
+          "title": "Remix & Share",
+          "description": "Share your apps and let others remix them"
+        }
+      },
+      "technology": {
+        "title": "Technology Stack",
+        "react": {
+          "title": "React & TypeScript",
+          "description": "Built on modern React with full TypeScript support"
+        },
+        "tailwind": {
+          "title": "Tailwind CSS",
+          "description": "Beautiful, responsive designs with utility-first CSS"
+        },
+        "shadcn": {
+          "title": "Shadcn/UI Components",
+          "description": "Pre-built, accessible UI components"
+        },
+        "supabase": {
+          "title": "Supabase Integration",
+          "description": "Backend services with authentication and database"
+        }
+      }
+    }
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "Building the Future of Web Development",
+    "subtitle": "We're making web development accessible to everyone through the power of AI",
+    "mission": {
+      "title": "Our Mission",
+      "paragraph1": "At Kliv, we believe that everyone should have the power to create amazing web applications, regardless of their technical background. Our mission is to democratize web development by making it as simple as having a conversation.",
+      "paragraph2": "We're building the future where ideas can be transformed into fully functional web applications through natural language, removing the barriers that have traditionally separated creators from their visions."
+    },
+    "values": {
+      "accessibility": {
+        "title": "Accessibility First",
+        "description": "We believe technology should be accessible to everyone, regardless of their technical expertise or background."
+      },
+      "innovation": {
+        "title": "Continuous Innovation",
+        "description": "We're constantly pushing the boundaries of what's possible with AI-assisted development."
+      },
+      "empowerment": {
+        "title": "User Empowerment",
+        "description": "Our tools are designed to empower users to bring their ideas to life without limitations."
+      },
+      "community": {
+        "title": "Community Driven",
+        "description": "We build for our community and with our community, listening to feedback and evolving together."
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Kliv was born from the frustration of seeing great ideas never come to life because of technical barriers. Our founders experienced firsthand how the complexity of web development could prevent brilliant concepts from reaching the world.",
+      "paragraph2": "We started with a simple question: What if building a web application could be as easy as describing what you want? This question led us to explore the intersection of artificial intelligence and web development.",
+      "paragraph3": "Today, Kliv represents years of research, development, and refinement. We've created a platform that doesn't just generate code—it understands intent, learns from feedback, and helps users iterate on their ideas in real-time."
+    },
+    "technology": {
+      "title": "Our Technology",
+      "paragraph1": "Kliv is built on cutting-edge AI technology that understands natural language and translates it into production-ready code. Our platform leverages the latest advances in machine learning to provide an intuitive development experience.",
+      "paragraph2": "We use modern web technologies including React, TypeScript, and Tailwind CSS to ensure that the applications built with Kliv are fast, scalable, and maintainable. Our integration with Supabase provides robust backend capabilities out of the box.",
+      "paragraph3": "Security and performance are at the core of everything we build. Every application created with Kliv follows best practices for web development, ensuring that your projects are not just functional, but also secure and optimized."
+    }
   }
 }
