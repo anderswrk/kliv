@@ -41,8 +41,16 @@ export function HeroSection() {
   ];
 
   const handleStartBuilding = () => {
-    // Navigate to the signup page
-    navigate('/signup');
+    // Navigate to the signup page with the prompt as a URL parameter
+    const params = new URLSearchParams();
+    if (message.trim()) {
+      params.set('prompt', message.trim());
+    }
+    
+    const queryString = params.toString();
+    const url = queryString ? `/signup?${queryString}` : '/signup';
+    
+    navigate(url);
   };
 
   const handleExampleClick = (example: { short: string; full: string }) => {
