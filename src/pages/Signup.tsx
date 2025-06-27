@@ -420,7 +420,7 @@ export function Signup() {
             <CardHeader className="text-center pb-4 pt-6">
               <CardTitle className="text-2xl sm:text-3xl font-bold">{t('tenantSignup.getStarted')}</CardTitle>
               <CardDescription className="text-sm sm:text-base mt-1 dark:text-zinc-300">
-                {tenant?.tagline || t('tenantSignup.defaultTagline')}
+                {t('tenantSignup.defaultTagline')}
               </CardDescription>
             </CardHeader>
             <CardContent className="px-6 sm:px-10 pb-6">
