@@ -414,7 +414,7 @@ export function Signup() {
   return (
     <div className="flex flex-col min-h-screen bg-background dark:bg-background">
       <Header />
-      <main className="flex-grow flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 min-h-[calc(100vh-200px)]">
+      <main className="flex-grow flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 min-h-[calc(100vh-200px)] pt-24">
         <div className="w-full max-w-[1000px]">
           <Card className="border-0 shadow-lg dark:bg-[#18181b] dark:text-white">
             <CardHeader className="text-center pb-4 pt-6">
