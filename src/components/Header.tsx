@@ -26,7 +26,7 @@ export function Header() {
   ];
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-background border-b border-border shadow-sm">
+    <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -111,7 +111,7 @@ export function Header() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border animate-fade-in bg-background">
+          <div className="md:hidden py-4 border-t border-border animate-fade-in">
             <div className="flex flex-col space-y-4">
               {navigation.map((item) => (
                 <Link
