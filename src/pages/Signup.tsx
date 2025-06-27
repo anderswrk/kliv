@@ -446,9 +446,9 @@ export function Signup() {
                 {/* Right: Form, Divider, Google Signup */}
                 <div className="flex flex-col justify-center w-full py-8 lg:py-0 lg:pl-12">
                   <Form {...form}>
-                    <form ref={formRef} onSubmit={form.handleSubmit(step === 1 ? onStep1Submit : onStep2Submit)} className="space-y-3">
+                    <form ref={formRef} onSubmit={form.handleSubmit(step === 1 ? onStep1Submit : onStep2Submit)} className="space-y-4">
                       {step === 1 && (
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                           <FormField
                             control={form.control}
                             name="email"
@@ -460,7 +460,7 @@ export function Signup() {
                                     type="email" 
                                     placeholder={t('tenantSignup.emailPlaceholder')} 
                                     autoComplete="email"
-                                    className="h-9"
+                                    className="h-10"
                                     {...field} 
                                   />
                                 </FormControl>
@@ -478,7 +478,7 @@ export function Signup() {
                                   <Input 
                                     placeholder={t('tenantSignup.namePlaceholder')} 
                                     autoComplete="name"
-                                    className="h-9"
+                                    className="h-10"
                                     {...field} 
                                   />
                                 </FormControl>
@@ -505,7 +505,7 @@ export function Signup() {
                                     type="password" 
                                     placeholder={t('tenantSignup.passwordPlaceholder')} 
                                     autoComplete="new-password"
-                                    className="h-9"
+                                    className="h-10"
                                     {...field} 
                                   />
                                 </FormControl>
@@ -524,7 +524,7 @@ export function Signup() {
                                     type="password" 
                                     placeholder="" 
                                     autoComplete="new-password"
-                                    className="h-9"
+                                    className="h-10"
                                     {...field} 
                                   />
                                 </FormControl>
@@ -536,7 +536,7 @@ export function Signup() {
                       )}
 
                       {step === 2 && (
-                        <>
+                        <div className="space-y-4">
                           <FormField
                             control={form.control}
                             name="organizationName"
@@ -547,7 +547,7 @@ export function Signup() {
                                   <Input 
                                     placeholder={t('tenantSignup.companyNamePlaceholder')} 
                                     autoComplete="off"
-                                    className="h-9"
+                                    className="h-10"
                                     {...field} 
                                   />
                                 </FormControl>
@@ -566,7 +566,7 @@ export function Signup() {
                                     <Input 
                                       placeholder={t('tenantSignup.adminDomainPlaceholder')} 
                                       autoComplete="off"
-                                      className="rounded-r-none h-9"
+                                      className="rounded-r-none h-10"
                                       {...field} 
                                     />
                                     <span className="inline-flex items-center px-3 border border-l-0 rounded-r-md bg-muted text-muted-foreground text-sm">
@@ -581,15 +581,15 @@ export function Signup() {
                               </FormItem>
                             )}
                           />
-                        </>
+                        </div>
                       )}
 
-                      <div className="flex gap-3 pt-2">
+                      <div className="flex gap-3 pt-4">
                         {step === 2 && (
                           <Button
                             type="button"
                             variant="outline"
-                            className="w-full h-9"
+                            className="w-full h-10"
                             onClick={() => {
                               setStep(1);
                               setErrorMessage(null);
@@ -599,7 +599,7 @@ export function Signup() {
                             {t('tenantSignup.back')}
                           </Button>
                         )}
-                        <Button type="submit" className="w-full h-9" disabled={isLoading}>
+                        <Button type="submit" className="w-full h-10" disabled={isLoading}>
                           {isLoading ? t('common.loading') : t('tenantSignup.next')}
                         </Button>
                       </div>
@@ -607,7 +607,7 @@ export function Signup() {
                   </Form>
 
                   {/* Divider */}
-                  <div className="relative my-6">
+                  <div className="relative my-8">
                     <div className="absolute inset-0 flex items-center">
                       <span className="w-full border-t dark:border-zinc-700" />
                     </div>
@@ -619,7 +619,7 @@ export function Signup() {
                   {/* Google Signup Button */}
                   <Button
                     variant="outline"
-                    className="w-full mb-2"
+                    className="w-full mb-4"
                     onClick={onGoogleLoginClick}
                     disabled={isLoading}
                   >
@@ -631,7 +631,7 @@ export function Signup() {
                     </svg>
                     {t('tenantSignup.signUpWithGoogle')}
                   </Button>
-                  <p className="text-xs text-muted-foreground text-center lg:text-left mt-2">
+                  <p className="text-xs text-muted-foreground text-center lg:text-left">
                     {t('tenantSignup.googleSignupTerms')}
                   </p>
                 </div>
