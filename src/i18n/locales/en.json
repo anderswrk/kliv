@@ -290,5 +290,34 @@
       "Professional": "Everything in Free, plus:\n* Unlimited projects\n* Additional daily credits\n* Priority support\n* Custom domains\n* Unlimited users",
       "Custom": "* Single Sign-on (SAML)\n* Custom integrations\n* Dedicated support\n* SLA guarantee"
     }
+  },
+  "tenantSignup": {
+    "getStarted": "Get started",
+    "defaultTagline": "Create beautiful web apps with just a prompt",
+    "step": "Step {{step}} of {{total}}",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "name": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "password": "Password",
+    "passwordPlaceholder": "Create a password",
+    "passwordConfirm": "Password (again)",
+    "passwordConfirmPlaceholder": "Re-enter your password",
+    "passwordStrength": "Please select a stronger password.",
+    "passwordsDontMatch": "The passwords don't match.",
+    "companyName": "Company name",
+    "companyNamePlaceholder": "Company name",
+    "adminDomain": "Admin domain",
+    "adminDomainPlaceholder": "mycompany",
+    "adminDomainHint": "This is the domain you will use to access your admin portal and access your product until you've configured a custom domain.",
+    "domainValidationError": "The domain can only contain letters, numbers, and dashes.",
+    "signUpWithGoogle": "Sign up with Google",
+    "quickSignup": "Quick Sign Up",
+    "googleSignupDescription": "Sign up instantly with your Google account",
+    "googleSignupTerms": "By continuing, you agree to our terms and privacy policy",
+    "or": "or",
+    "googleAuthError": "Unable to authenticate with Google",
+    "ssoError": "Your organization is already set up with an account. Click <a href=\"/!saml/login/{{domain}}\">here</a> to sign in or contact your system administrator.",
+    "userExistsError": "There is already a user registered with that email address. You can use the password recovery function on the login screen to reset your password."
   }
 }

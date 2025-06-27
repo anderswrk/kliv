@@ -290,5 +290,34 @@
       "Professional": "Allt i Gratis, plus:\n* Obegränsade projekt\n* Ytterligare dagliga krediter\n* Prioriterad support\n* Anpassade domäner\n* Obegränsade användare",
       "Custom": "* Enkel inloggning (SAML)\n* Anpassade integrationer\n* Dedikerad support\n* SLA-garanti"
     }
+  },
+  "tenantSignup": {
+    "getStarted": "Registrera dig",
+    "defaultTagline": "Skapa vackra webbappar med bara en prompt",
+    "step": "Steg {{step}} av {{total}}",
+    "email": "E-post",
+    "emailPlaceholder": "Ange din e-postadress",
+    "name": "Fullständigt namn",
+    "namePlaceholder": "Ange ditt fullständiga namn",
+    "password": "Lösenord",
+    "passwordPlaceholder": "Skapa ett lösenord",
+    "passwordConfirm": "Lösenord (igen)",
+    "passwordConfirmPlaceholder": "Ange lösenordet igen",
+    "passwordStrength": "Välj ett starkare lösenord.",
+    "passwordsDontMatch": "Lösenorden matchar inte.",
+    "companyName": "Företagsnamn",
+    "companyNamePlaceholder": "Företagsnamn",
+    "adminDomain": "Administratörsdomän",
+    "adminDomainPlaceholder": "mittforetag",
+    "adminDomainHint": "Detta är domänen du använder för att komma åt din adminportal och produkt tills du har konfigurerat en egen domän.",
+    "domainValidationError": "Domänen kan bara innehålla bokstäver, siffror och bindestreck.",
+    "signUpWithGoogle": "Registrera dig med Google",
+    "quickSignup": "Snabb registrering",
+    "googleSignupDescription": "Registrera dig direkt med ditt Google-konto",
+    "googleSignupTerms": "Genom att fortsätta godkänner du våra villkor och integritetspolicy",
+    "or": "eller",
+    "googleAuthError": "Det gick inte att autentisera med Google",
+    "ssoError": "Din organisation är redan konfigurerad med ett konto. Klicka <a href=\"/!saml/login/{{domain}}\">här</a> för att logga in eller kontakta din systemadministratör.",
+    "userExistsError": "Det finns redan en användare registrerad med den e-postadressen. Du kan använda funktionen för lösenordsåterställning på inloggningsskärmen för att återställa ditt lösenord."
   }
 }

@@ -162,7 +162,7 @@ export function Header() {
                   <Link to="/!ui">{t('nav.signIn')}</Link>
                 </Button>
                 <Button size="sm" className="bg-primary hover:bg-primary/90" asChild>
-                  <Link to="/signup">{t('nav.getStarted')}</Link>
+                  <Link to="/!organization/create">{t('nav.getStarted')}</Link>
                 </Button>
               </div>
             </div>

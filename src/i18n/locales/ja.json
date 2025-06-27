@@ -290,5 +290,34 @@
       "Professional": "無料プランの全て、さらに：\n* 無制限プロジェクト\n* 追加の日次クレジット\n* 優先サポート\n* カスタムドメイン\n* 無制限ユーザー",
       "Custom": "* シングルサインオン（SAML）\n* カスタム統合\n* 専用サポート\n* SLA保証"
     }
+  },
+  "tenantSignup": {
+    "getStarted": "サインアップ",
+    "defaultTagline": "プロンプトだけで美しいWebアプリを作成",
+    "step": "ステップ{{step}} / {{total}}",
+    "email": "メールアドレス",
+    "emailPlaceholder": "メールアドレスを入力",
+    "name": "氏名",
+    "namePlaceholder": "氏名を入力",
+    "password": "パスワード",
+    "passwordPlaceholder": "パスワードを作成",
+    "passwordConfirm": "パスワード（確認）",
+    "passwordConfirmPlaceholder": "もう一度パスワードを入力",
+    "passwordStrength": "より強力なパスワードを選択してください。",
+    "passwordsDontMatch": "パスワードが一致しません。",
+    "companyName": "会社名",
+    "companyNamePlaceholder": "会社名",
+    "adminDomain": "管理ドメイン",
+    "adminDomainPlaceholder": "mycompany",
+    "adminDomainHint": "これはカスタムドメインを設定するまで管理ポータルや製品にアクセスするためのドメインです。",
+    "domainValidationError": "ドメインには文字、数字、ダッシュのみを含めることができます。",
+    "signUpWithGoogle": "Googleでサインアップ",
+    "quickSignup": "クイックサインアップ",
+    "googleSignupDescription": "Googleアカウントですぐにサインアップ",
+    "googleSignupTerms": "続行することで利用規約とプライバシーポリシーに同意したことになります",
+    "or": "または",
+    "googleAuthError": "Googleで認証できませんでした",
+    "ssoError": "この組織はすでにアカウントが設定されています。<a href=\"/!saml/login/{{domain}}\">こちら</a>をクリックしてサインインするか、システム管理者にお問い合わせください。",
+    "userExistsError": "このメールアドレスのアカウントは既に存在します。ログイン画面のパスワード回復機能でパスワードをリセットできます。"
   }
 }
