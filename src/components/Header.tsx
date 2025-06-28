@@ -86,7 +86,7 @@ export function Header() {
 
             {/* Auth Buttons */}
             <Button variant="ghost" size="sm" asChild>
-              <a href="/!ui">{t('nav.signIn')}</a>
+              <Link to="/login">{t('nav.signIn')}</Link>
             </Button>
             <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
               <Link to="/signup">{t('nav.getStarted')}</Link>
@@ -159,7 +159,7 @@ export function Header() {
               </div>
               <div className="flex flex-col space-y-2 pt-2">
                 <Button variant="ghost" size="sm" className="justify-start" asChild>
-                  <a href="/!ui">{t('nav.signIn')}</a>
+                  <Link to="/login">{t('nav.signIn')}</Link>
                 </Button>
                 <Button size="sm" className="bg-primary hover:bg-primary/90" asChild>
                   <Link to="/signup">{t('nav.getStarted')}</Link>
