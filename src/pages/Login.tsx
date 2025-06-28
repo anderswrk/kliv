@@ -424,7 +424,7 @@ export default function Login({
             {/* Left side - Image (desktop only) */}
             <div className="hidden lg:flex items-center justify-center">
               <img
-                src={theme === 'dark' ? '/login-dark.svg' : '/login-light.svg'}
+                src={theme === 'dark' ? "https://data.rationalbi.com/assets/kliv/img/kliv-signup-dark.png" : "https://data.rationalbi.com/assets/kliv/img/kliv-signup-light.png"}
                 alt="Login"
                 className="w-full max-w-md"
               />
