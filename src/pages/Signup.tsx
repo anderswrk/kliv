@@ -95,7 +95,7 @@ export function Signup() {
   const [isSimplified] = useState(true); // Always use simplified flow for now
   const formRef = useRef<HTMLFormElement>(null);
   const { theme } = useTheme();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   
   // Configuration
   const adminDomain = "kliv.dev";
@@ -124,7 +124,11 @@ export function Signup() {
   useEffect(() => {
     const initialize = async () => {
       try {
-        const response = await axios.get("/api/v1/tenant");
+        const response = await axios.get("/api/v1/tenant", {
+          headers: {
+            'Accept-Language': i18n.language
+          }
+        });
         setTenant(response.data);
       } catch (error) {
         console.error("Failed to load tenant info:", error);
@@ -134,7 +138,11 @@ export function Signup() {
       const keyedData = searchParams.get("key");
       if (keyedData) {
         try {
-          const response = await axios.get(`/api/v1/user/key/${keyedData}`);
+          const response = await axios.get(`/api/v1/user/key/${keyedData}`, {
+            headers: {
+              'Accept-Language': i18n.language
+            }
+          });
           const data = response.data;
           form.reset({
             email: data.email || "",
@@ -174,7 +182,7 @@ export function Signup() {
         firstInput.focus();
       }
     }, 50);
-  }, [searchParams, form]);
+  }, [searchParams, form, i18n.language]);
 
   // Google OAuth initialization
   const initializeGoogleSignin = useCallback(async () => {
@@ -221,6 +229,10 @@ export function Signup() {
       await axios.post("/api/v1/tenant/signup", {
         command: "domain",
         domain: domain
+      }, {
+        headers: {
+          'Accept-Language': i18n.language
+        }
       });
       return true;
     } catch (error: any) {
@@ -276,7 +288,7 @@ export function Signup() {
       password: values.password,
       password2: values.password2,
       ...additionalData,
-      locale: navigator.language,
+      locale: i18n.language,
       timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
       prompt: prompt
     };
@@ -295,6 +307,10 @@ export function Signup() {
         command: "payment",
         uuid: uuid,
         data: submissionData
+      }, {
+        headers: {
+          'Accept-Language': i18n.language
+        }
       });
 
       const paymentInfo = response.data;
@@ -338,6 +354,10 @@ export function Signup() {
           email: values.email,
           password: values.password,
         }
+      }, {
+        headers: {
+          'Accept-Language': i18n.language
+        }
       });
       setErrorMessage(null);
       setStep(2);
@@ -368,7 +388,7 @@ export function Signup() {
 
     const submissionData = {
       ...values,
-      locale: navigator.language,
+      locale: i18n.language,
       timezone: Intl.DateTimeFormat().resolvedOptions().timeZone
     };
 
@@ -378,6 +398,10 @@ export function Signup() {
         command: "payment",
         uuid: uuid,
         data: submissionData
+      }, {
+        headers: {
+          'Accept-Language': i18n.language
+        }
       });
 
       const paymentInfo = response.data;

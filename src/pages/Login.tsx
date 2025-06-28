@@ -67,7 +67,7 @@ export default function Login({
   oauthMicrosoftClientId,
   onAuthenticated
 }: LoginProps) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { theme } = useTheme();
   const [state, setState] = useState<LoginState>('login');
   const [loading, setLoading] = useState(false);
@@ -193,7 +193,11 @@ export default function Login({
 
   const onNotKnownUserClick = async () => {
     try {
-      await axios.delete('/api/v1/user/session');
+      await axios.delete('/api/v1/user/session', {
+        headers: {
+          'Accept-Language': i18n.language
+        }
+      });
       setIgnoreKnownEmail(true);
     } catch (error) {
       console.error('Failed to clear session:', error);
@@ -231,6 +235,10 @@ export default function Login({
       setLoading(true);
       const passkeyData = await axios.post('/api/v1/user/passkey', {
         command: 'assert'
+      }, {
+        headers: {
+          'Accept-Language': i18n.language
+        }
       });
 
       // Extract the data from the response
@@ -280,7 +288,13 @@ export default function Login({
     };
 
     try {
-      const sessionResponse = await axios.post('/api/v1/user/session', submitData);
+      const sessionResponse = await axios.post('/api/v1/user/session', submitData, {
+        headers: {
+          'Accept-Language': i18n.language
+        }
+      });
+
+      console.log("Session response", sessionResponse);
       
       if (sessionResponse.data.url) {
         window.location.href = sessionResponse.data.url;
@@ -301,13 +315,9 @@ export default function Login({
       params.delete('auth');
 
       if (params.toString() === '') {
-        targetUrl = updatedUrl.origin + updatedUrl.pathname;
+        targetUrl = updatedUrl.origin + "/!ui";
       } else {
-        targetUrl = updatedUrl.origin + updatedUrl.pathname + '?' + params.toString();
-      }
-
-      if (window.location.pathname === '/!ui/login') {
-        targetUrl = '/!ui';
+        targetUrl = updatedUrl.origin + '/!ui"?' + params.toString();
       }
 
       if (window.location.href === targetUrl) {
@@ -339,7 +349,11 @@ export default function Login({
   const onRecoverSubmit = async (data: RecoveryFormData) => {
     setMessage(null);
     try {
-      await axios.post('/api/v1/user/reset_password', { email: data.email });
+      await axios.post('/api/v1/user/reset_password', { email: data.email }, {
+        headers: {
+          'Accept-Language': i18n.language
+        }
+      });
       setResetSuccess(true);
     } catch (error: any) {
       if (error.response?.data?.message) {
@@ -360,6 +374,10 @@ export default function Login({
         password: loginData.password,
         twoFactorTotp: data.code,
         embedded
+      }, {
+        headers: {
+          'Accept-Language': i18n.language
+        }
       });
 
       if (display === 'popup') {
@@ -393,7 +411,11 @@ export default function Login({
     const domain = data.email.split('@')[1];
     
     try {
-      const ssoInfo = await axios.post('/api/v1/user/check_sso', { domain });
+      const ssoInfo = await axios.post('/api/v1/user/check_sso', { domain }, {
+        headers: {
+          'Accept-Language': i18n.language
+        }
+      });
       window.location.href = `/!saml/login/${ssoInfo.data.data}?return=${encodeURIComponent(window.location.href)}`;
     } catch (error: any) {
       if (error.response?.data?.message) {
