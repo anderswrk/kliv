@@ -63,7 +63,7 @@ export default function Login({
   ssoBoot,
   isSso = false,
   display,
-  oauthGoogleClientId = '1234567890-abcdefghijklmnopqrstuvwxyz.apps.googleusercontent.com', // Production client ID
+  oauthGoogleClientId = '154947828315-vn5v7fao25q1o5abf7dridftt0p1ehnu.apps.googleusercontent.com', // Production client ID
   oauthMicrosoftClientId,
   onAuthenticated
 }: LoginProps) {
