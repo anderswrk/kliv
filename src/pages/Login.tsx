@@ -63,7 +63,7 @@ export default function Login({
   ssoBoot,
   isSso = false,
   display,
-  oauthGoogleClientId = '154947828315-vn5v7fao25q1o5abf7dridftt0p1ehnu.apps.googleusercontent.com', // Production client ID
+  oauthGoogleClientId = '154947828315-vn5v7fao25q1o5abf7dridftt0p1ehnu.apps.googleusercontent.com',
   oauthMicrosoftClientId,
   onAuthenticated
 }: LoginProps) {
@@ -115,7 +115,6 @@ export default function Login({
       if (!oauthGoogleClientId) return;
       
       try {
-        // Load Google OAuth script
         const script = document.createElement('script');
         script.src = 'https://accounts.google.com/gsi/client';
         script.async = true;
@@ -221,8 +220,6 @@ export default function Login({
 
   const loginAzureAd = async () => {
     try {
-      // Note: This would need MSAL.js to be installed and configured
-      // For now, we'll show a message indicating it needs implementation
       setMessage('Microsoft authentication requires MSAL.js implementation');
     } catch (error) {
       setMessage('Unable to authenticate with Microsoft');
@@ -241,20 +238,15 @@ export default function Login({
         }
       });
 
-      // Extract the data from the response
       const passkeyResponse = passkeyData.data;
-
-      // Clear allowed credentials as per the Vue implementation
       passkeyResponse.data.publicKey.allowedCredentials = [];
       console.log("Assert", passkeyResponse.data);
 
-      // Call WebAuthn ceremony using webauthn-json wrapper
       const publicKeyCredential = await startAuthentication({
         optionsJSON: passkeyResponse.data.publicKey
       });
 
       setLoading(false);
-
       await onSubmit({ passkeyToken: publicKeyCredential, uuid: passkeyResponse.uuid });
 
     } catch (error) {
@@ -266,8 +258,6 @@ export default function Login({
   };
 
   const onReauthenticateWithSSOButtonClick = () => {
-    // This would redirect to SSO login for reauthentication
-    // The actual implementation would depend on the user's organization UUID
     setMessage('SSO reauthentication requires organization UUID');
   };
 
@@ -317,7 +307,7 @@ export default function Login({
       if (params.toString() === '') {
         targetUrl = updatedUrl.origin + "/!ui";
       } else {
-        targetUrl = updatedUrl.origin + '/!ui"?' + params.toString();
+        targetUrl = updatedUrl.origin + '/!ui?' + params.toString();
       }
 
       if (window.location.href === targetUrl) {
@@ -332,6 +322,7 @@ export default function Login({
         window.location.href = `/!saml/login/${error.response.data.domain}?return=${encodeURIComponent(window.location.href)}`;
         return;
       } else if (error.response?.data?.error === 'totp') {
+        setLoginData(data);
         setState('totp');
         return;
       }
@@ -369,7 +360,7 @@ export default function Login({
   const onTotpSubmit = async (data: TotpFormData) => {
     setMessage(null);
     try {
-      await axios.post('/api/v1/user/session', {
+      const sessionResponse = await axios.post('/api/v1/user/session', {
         email: loginData.email ?? knownEmail,
         password: loginData.password,
         twoFactorTotp: data.code,
@@ -380,20 +371,36 @@ export default function Login({
         }
       });
 
+      console.log("TOTP Session response", sessionResponse);
+      
+      if (sessionResponse.data.url) {
+        window.location.href = sessionResponse.data.url;
+        return;
+      }
+
       if (display === 'popup') {
         onAuthenticated?.();
         return;
       }
 
-      // Handle successful login redirect
-      const returnUrl = new URL(window.location.href);
-      returnUrl.searchParams.delete('auth');
-      returnUrl.searchParams.delete('return');
+      // Handle successful login redirect - same logic as main login
+      let targetUrl = window.location.href;
+      const updatedUrl = new URL(targetUrl);
+      const params = new URLSearchParams(updatedUrl.search);
 
-      if (window.location.href === returnUrl.href) {
+      params.delete('atoken');
+      params.delete('auth');
+
+      if (params.toString() === '') {
+        targetUrl = updatedUrl.origin + "/!ui";
+      } else {
+        targetUrl = updatedUrl.origin + '/!ui?' + params.toString();
+      }
+
+      if (window.location.href === targetUrl) {
         window.location.reload();
       } else {
-        window.location.href = returnUrl.href;
+        window.location.href = targetUrl;
       }
     } catch (error: any) {
       if (error.response?.data?.message) {
@@ -792,4 +799,17 @@ export default function Login({
       <Footer />
     </div>
   );
+}
+
+// Add Google OAuth types
+declare global {
+  interface Window {
+    google: {
+      accounts: {
+        oauth2: {
+          initCodeClient: (config: any) => any;
+        };
+      };
+    };
+  }
 }
