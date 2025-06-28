@@ -320,5 +320,51 @@
     "ssoError": "Din organisation är redan konfigurerad med ett konto. Klicka <a href=\"/!saml/login/{{domain}}\">här</a> för att logga in eller kontakta din systemadministratör.",
     "userExistsError": "Det finns redan en användare registrerad med den e-postadressen. Du kan använda funktionen för lösenordsåterställning på inloggningsskärmen för att återställa ditt lösenord.",
     "next": "Nästa"
+  },
+  "login": {
+    "welcomeBack": "Välkommen tillbaka",
+    "enterCredentials": "Ange dina uppgifter för att komma åt ditt konto",
+    "or": "ELLER",
+    "logInButton": "Logga in",
+    "continueButton": "Fortsätt",
+    "continue": "Fortsätt",
+    "send": "Skicka",
+    "cancel": "Avbryt",
+    "returnToLogin": "Återgå till inloggning",
+    "logInWithoutSSO": "Logga in utan SSO",
+    "goToLoginButton": "Gå till inloggning",
+    "logInWithSSO": "Logga in med SSO",
+    "forgotPassword": "Glömt lösenord?",
+    "resetSuccess": "Ett meddelande har skickats till dig via e-post med instruktioner för att återställa ditt lösenord.",
+    "enterCode": "Ange 6-siffrig kod från din autentiseringsapp",
+    "reauthenticateWithSAML": "Vänligen autentisera om med din SSO-leverantör",
+    "pleaseReauthenticate": "Vänligen autentisera om för att fortsätta",
+    "welcomeBackWithName": "Välkommen tillbaka, {{knownFirstName}}",
+    "loginSchema": {
+      "email": "E-post",
+      "emailPlaceholder": "Ange din e-postadress",
+      "password": "Lösenord",
+      "passwordPlaceholder": "Ange ditt lösenord"
+    },
+    "recoverySchema": {
+      "email": "E-post",
+      "emailPlaceholder": "Ange din e-postadress",
+      "hint": "Vi skickar dig en länk för att återställa ditt lösenord"
+    },
+    "totpSchema": {
+      "code": "Autentiseringskod",
+      "enterDigitCode": "Ange 6-siffrig kod"
+    },
+    "ssoSchema": {
+      "email": "E-post",
+      "emailPlaceholder": "Ange din arbets-e-postadress",
+      "hint": "Vi omdirigerar dig till din organisations inloggningssida"
+    },
+    "signInWithGoogle": "Logga in med Google",
+    "continueWithGoogle": "Fortsätt med Google",
+    "signInWithMicrosoft": "Logga in med Microsoft",
+    "continueWithMicrosoft": "Fortsätt med Microsoft",
+    "signInWithPasskey": "Logga in med passkey",
+    "continueWithPasskey": "Fortsätt med passkey"
   }
 }

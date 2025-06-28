@@ -320,5 +320,51 @@
     "ssoError": "この組織はすでにアカウントが設定されています。<a href=\"/!saml/login/{{domain}}\">こちら</a>をクリックしてサインインするか、システム管理者にお問い合わせください。",
     "userExistsError": "このメールアドレスのアカウントは既に存在します。ログイン画面のパスワード回復機能でパスワードをリセットできます。",
     "next": "次へ"
+  },
+  "login": {
+    "welcomeBack": "おかえりなさい",
+    "enterCredentials": "アカウントにアクセスするための認証情報を入力してください",
+    "or": "または",
+    "logInButton": "ログイン",
+    "continueButton": "続行",
+    "continue": "続行",
+    "send": "送信",
+    "cancel": "キャンセル",
+    "returnToLogin": "ログインに戻る",
+    "logInWithoutSSO": "SSOなしでログイン",
+    "goToLoginButton": "ログインに進む",
+    "logInWithSSO": "SSOでログイン",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "resetSuccess": "パスワードリセットの手順を記載したメールをお送りしました。",
+    "enterCode": "認証アプリから6桁のコードを入力してください",
+    "reauthenticateWithSAML": "SSOプロバイダーで再認証してください",
+    "pleaseReauthenticate": "続行するには再認証してください",
+    "welcomeBackWithName": "おかえりなさい、{{knownFirstName}}さん",
+    "loginSchema": {
+      "email": "メールアドレス",
+      "emailPlaceholder": "メールアドレスを入力",
+      "password": "パスワード",
+      "passwordPlaceholder": "パスワードを入力"
+    },
+    "recoverySchema": {
+      "email": "メールアドレス",
+      "emailPlaceholder": "メールアドレスを入力",
+      "hint": "パスワードリセット用のリンクをお送りします"
+    },
+    "totpSchema": {
+      "code": "認証コード",
+      "enterDigitCode": "6桁のコードを入力"
+    },
+    "ssoSchema": {
+      "email": "メールアドレス",
+      "emailPlaceholder": "仕事用メールアドレスを入力",
+      "hint": "組織のログインページにリダイレクトします"
+    },
+    "signInWithGoogle": "Googleでサインイン",
+    "continueWithGoogle": "Googleで続行",
+    "signInWithMicrosoft": "Microsoftでサインイン",
+    "continueWithMicrosoft": "Microsoftで続行",
+    "signInWithPasskey": "パスキーでサインイン",
+    "continueWithPasskey": "パスキーで続行"
   }
 }

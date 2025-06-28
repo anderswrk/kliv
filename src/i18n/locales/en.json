@@ -320,5 +320,51 @@
     "ssoError": "Your organization is already set up with an account. Click <a href=\"/!saml/login/{{domain}}\">here</a> to sign in or contact your system administrator.",
     "userExistsError": "There is already a user registered with that email address. You can use the password recovery function on the login screen to reset your password.",
     "next": "Next"
+  },
+  "login": {
+    "welcomeBack": "Welcome back",
+    "enterCredentials": "Enter your credentials to access your account",
+    "or": "OR",
+    "logInButton": "Log in",
+    "continueButton": "Continue",
+    "continue": "Continue",
+    "send": "Send",
+    "cancel": "Cancel",
+    "returnToLogin": "Return to login",
+    "logInWithoutSSO": "Log in without SSO",
+    "goToLoginButton": "Go to login",
+    "logInWithSSO": "Log in with SSO",
+    "forgotPassword": "Forgot password?",
+    "resetSuccess": "A message has been sent to you by email with instructions to reset your password.",
+    "enterCode": "Enter the 6-digit code from your authenticator app",
+    "reauthenticateWithSAML": "Please reauthenticate with your SSO provider",
+    "pleaseReauthenticate": "Please reauthenticate to continue",
+    "welcomeBackWithName": "Welcome back, {{knownFirstName}}",
+    "loginSchema": {
+      "email": "Email",
+      "emailPlaceholder": "Enter your email address",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password"
+    },
+    "recoverySchema": {
+      "email": "Email",
+      "emailPlaceholder": "Enter your email address",
+      "hint": "We'll send you a link to reset your password"
+    },
+    "totpSchema": {
+      "code": "Authentication code",
+      "enterDigitCode": "Enter 6-digit code"
+    },
+    "ssoSchema": {
+      "email": "Email",
+      "emailPlaceholder": "Enter your work email address",
+      "hint": "We'll redirect you to your organization's login page"
+    },
+    "signInWithGoogle": "Sign in with Google",
+    "continueWithGoogle": "Continue with Google",
+    "signInWithMicrosoft": "Sign in with Microsoft",
+    "continueWithMicrosoft": "Continue with Microsoft",
+    "signInWithPasskey": "Sign in with passkey",
+    "continueWithPasskey": "Continue with passkey"
   }
 }

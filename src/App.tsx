@@ -13,6 +13,7 @@ import { Privacy } from "./pages/Privacy";
 import { Terms } from "./pages/Terms";
 import { Security } from "./pages/Security";
 import { Signup } from "./pages/Signup";
+import Login from "./pages/Login";
 import { NotFound } from "./pages/NotFound";
 import "./i18n";
 
@@ -35,6 +36,7 @@ const App = () => (
             <Route path="/terms" element={<Terms />} />
             <Route path="/security" element={<Security />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
