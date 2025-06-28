@@ -687,11 +687,14 @@ export default function Login({
 
                       {/* OAuth Buttons */}
                       <div className="space-y-3">
-                        <Separator className="my-4">
-                          <span className="px-2 text-muted-foreground text-sm">
-                            {t('login.or')}
-                          </span>
-                        </Separator>
+                        <div className="relative my-4">
+                          <div className="absolute inset-0 flex items-center">
+                            <span className="w-full border-t dark:border-zinc-700" />
+                          </div>
+                          <div className="relative flex justify-center text-xs uppercase">
+                            <span className="bg-background dark:bg-card px-2 text-muted-foreground dark:text-zinc-400">{t('login.or')}</span>
+                          </div>
+                        </div>
 
                         {/* Google OAuth */}
                         {oauthGoogleClientId && (
