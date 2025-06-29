@@ -48,9 +48,9 @@ export function AppPreviewModal({ app, isOpen, onClose, onRemix }: AppPreviewMod
           <Button
             onClick={handleRemix}
             size="sm"
-            className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1.5 text-sm"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-3 text-sm h-7"
           >
-            {t('community.preview.remix')}
+            {t('community.preview.useAsTemplate')}
           </Button>
         </div>
         <div className="flex-1 bg-gray-100 min-h-0">
