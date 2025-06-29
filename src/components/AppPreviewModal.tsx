@@ -2,6 +2,7 @@ import React from 'react';
 import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 interface App {
   name: string;
@@ -21,12 +22,15 @@ interface AppPreviewModalProps {
 
 export function AppPreviewModal({ app, isOpen, onClose, onRemix }: AppPreviewModalProps) {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   if (!app) return null;
 
   const iframeUrl = `https://website-${app.uuid}.content.rationalbi.com`;
 
   const handleRemix = () => {
+    // Navigate to signup page with the uuid as the prompt
+    navigate(`/signup?prompt=${encodeURIComponent(app.uuid)}`);
     onRemix(app.uuid);
     onClose();
   };
@@ -48,7 +52,7 @@ export function AppPreviewModal({ app, isOpen, onClose, onRemix }: AppPreviewMod
           <Button
             onClick={handleRemix}
             size="sm"
-            className="bg-blue-500 hover:bg-blue-600 text-white px-3 text-sm h-7"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-3 text-sm h-7 focus:outline-none focus:ring-0"
           >
             {t('community.preview.useAsTemplate')}
           </Button>
