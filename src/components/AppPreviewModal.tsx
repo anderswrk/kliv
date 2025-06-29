@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { useTranslation } from 'react-i18next';
 
@@ -34,13 +34,14 @@ export function AppPreviewModal({ app, isOpen, onClose, onRemix }: AppPreviewMod
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-6xl w-[90vw] h-[85vh] p-0 overflow-hidden flex flex-col gap-0">
-        <div className="flex items-center justify-between px-4 py-3 border-b bg-white shrink-0 pr-12">
+        <div className="flex items-center justify-between px-4 py-3 border-b bg-white shrink-0 pr-16">
           <DialogTitle className="text-lg font-semibold text-gray-900">
             {app.name}
           </DialogTitle>
           <Button
             onClick={handleRemix}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2"
+            size="sm"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1.5 text-sm"
           >
             {t('community.preview.remix')}
           </Button>
