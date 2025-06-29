@@ -33,8 +33,8 @@ export function AppPreviewModal({ app, isOpen, onClose, onRemix }: AppPreviewMod
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-6xl w-[90vw] h-[85vh] p-0 overflow-hidden flex flex-col">
-        <DialogHeader className="flex flex-row items-center justify-between px-4 py-3 border-b bg-white shrink-0">
+      <DialogContent className="max-w-6xl w-[90vw] h-[85vh] p-0 overflow-hidden flex flex-col gap-0">
+        <div className="flex items-center justify-between px-4 py-3 border-b bg-white shrink-0 pr-12">
           <DialogTitle className="text-lg font-semibold text-gray-900">
             {app.name}
           </DialogTitle>
@@ -44,7 +44,7 @@ export function AppPreviewModal({ app, isOpen, onClose, onRemix }: AppPreviewMod
           >
             {t('community.preview.remix')}
           </Button>
-        </DialogHeader>
+        </div>
         <div className="flex-1 bg-gray-100 min-h-0">
           <iframe
             src={iframeUrl}
