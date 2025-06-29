@@ -1,7 +1,6 @@
 import React from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
-import { X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 interface App {
@@ -39,22 +38,12 @@ export function AppPreviewModal({ app, isOpen, onClose, onRemix }: AppPreviewMod
           <DialogTitle className="text-lg font-semibold text-gray-900">
             {app.name}
           </DialogTitle>
-          <div className="flex items-center gap-2">
-            <Button
-              onClick={handleRemix}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2"
-            >
-              {t('community.preview.remix')}
-            </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={onClose}
-              className="h-8 w-8 p-0"
-            >
-              <X className="h-4 w-4" />
-            </Button>
-          </div>
+          <Button
+            onClick={handleRemix}
+            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2"
+          >
+            {t('community.preview.remix')}
+          </Button>
         </DialogHeader>
         <div className="flex-1 bg-gray-100 min-h-0">
           <iframe
