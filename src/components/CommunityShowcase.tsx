@@ -3,7 +3,6 @@ import { Card, CardContent, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Link } from 'react-router-dom';
 import { AppPreviewModal } from './AppPreviewModal';
-import defaultAppsData from './default-apps.json';
 
 interface App {
   name: string;
@@ -11,7 +10,7 @@ interface App {
   organizationName: string;
   imageUrl: string;
   category: string;
-  mainImageHash?: string;
+  uuid: string;
 }
 
 export function CommunityShowcase() {
@@ -32,7 +31,7 @@ export function CommunityShowcase() {
       .then(data => setApps(data.data || []))
       .catch(error => {
         console.log('API failed, using fallback data:', error);
-        setApps(defaultAppsData.data || []);
+        setApps([]);
       });
   }, []);
 

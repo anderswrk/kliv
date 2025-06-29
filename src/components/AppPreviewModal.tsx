@@ -10,7 +10,7 @@ interface App {
   organizationName: string;
   imageUrl: string;
   category: string;
-  mainImageHash?: string;
+  uuid: string;
 }
 
 interface AppPreviewModalProps {
@@ -25,12 +25,10 @@ export function AppPreviewModal({ app, isOpen, onClose, onRemix }: AppPreviewMod
 
   if (!app) return null;
 
-  // Extract UUID from mainImageHash or generate a fallback
-  const appId = app.mainImageHash || 'demo-app';
-  const iframeUrl = `https://website-${appId}.content.rationalbi.com`;
+  const iframeUrl = `https://website-${app.uuid}.content.rationalbi.com`;
 
   const handleRemix = () => {
-    onRemix(appId);
+    onRemix(app.uuid);
     onClose();
   };
 
