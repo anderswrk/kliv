@@ -42,22 +42,22 @@ export function AppPreviewModal({ app, isOpen, onClose, onRemix }: AppPreviewMod
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent 
-        className="max-w-6xl w-[90vw] h-[85vh] p-0 overflow-hidden flex flex-col gap-0"
+        className="max-w-6xl w-[90vw] h-[85vh] p-0 overflow-hidden flex flex-col gap-0 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700"
         onWheel={handleModalScroll}
       >
-        <div className="flex items-center justify-between px-4 py-3 border-b bg-white shrink-0 pr-16">
-          <DialogTitle className="text-lg font-semibold text-gray-900">
+        <div className="flex items-center justify-between px-4 py-3 border-b bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700 shrink-0 pr-16">
+          <DialogTitle className="text-lg font-semibold text-gray-900 dark:text-white">
             {app.name}
           </DialogTitle>
           <Button
             onClick={handleRemix}
             size="sm"
-            className="bg-blue-500 hover:bg-blue-600 text-white px-3 text-sm h-7 focus:outline-none focus:ring-0"
+            className="bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-white px-3 text-sm h-7 focus:outline-none focus:ring-0"
           >
             {t('community.preview.useAsTemplate')}
           </Button>
         </div>
-        <div className="flex-1 bg-gray-100 min-h-0">
+        <div className="flex-1 bg-gray-100 dark:bg-gray-800 min-h-0">
           <iframe
             src={iframeUrl}
             className="w-full h-full border-0"

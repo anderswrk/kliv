@@ -3,6 +3,7 @@ import { Card, CardContent, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Link } from 'react-router-dom';
 import { AppPreviewModal } from './AppPreviewModal';
+import { useTranslation } from 'react-i18next';
 
 interface App {
   name: string;
@@ -14,6 +15,7 @@ interface App {
 }
 
 export function CommunityShowcase() {
+  const { t } = useTranslation();
   const [apps, setApps] = useState<App[]>([]);
   const [selectedApp, setSelectedApp] = useState<App | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -58,20 +60,22 @@ export function CommunityShowcase() {
 
   return (
     <>
-      <section className="py-16 bg-gradient-to-br from-pink-50 to-orange-50">
+      <section className="py-16 bg-gradient-to-br from-pink-50 to-orange-50 dark:from-gray-900 dark:to-gray-800">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center mb-8">
-            <h2 className="text-3xl font-bold">From the Community</h2>
-            <Link to="/appstore" className="text-blue-600 font-medium hover:underline">View All</Link>
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white">{t('community.title')}</h2>
+            <Link to="/appstore" className="text-blue-600 dark:text-blue-400 font-medium hover:underline">
+              {t('community.viewAll')}
+            </Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {apps.map((app, i) => (
               <Card 
                 key={i} 
-                className="overflow-hidden hover:shadow-lg transition-shadow cursor-pointer"
+                className="overflow-hidden hover:shadow-lg transition-shadow cursor-pointer bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700"
                 onClick={() => handleAppClick(app)}
               >
-                <div className="aspect-video bg-gray-100">
+                <div className="aspect-video bg-gray-100 dark:bg-gray-700">
                   <img
                     src={app.imageUrl || '/placeholder.svg'}
                     alt={app.name}
@@ -81,11 +85,15 @@ export function CommunityShowcase() {
                 </div>
                 <CardContent className="p-4">
                   <div className="flex items-center mb-2">
-                    <CardTitle className="text-base font-semibold truncate flex-1">{app.name}</CardTitle>
-                    <Badge variant="secondary" className="ml-2">{app.category}</Badge>
+                    <CardTitle className="text-base font-semibold truncate flex-1 text-gray-900 dark:text-white">
+                      {app.name}
+                    </CardTitle>
+                    <Badge variant="secondary" className="ml-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300">
+                      {app.category}
+                    </Badge>
                   </div>
-                  <div className="flex items-center text-sm text-gray-500">
-                    <span className="rounded-full bg-gray-200 w-6 h-6 flex items-center justify-center mr-2 text-xs font-bold uppercase">
+                  <div className="flex items-center text-sm text-gray-500 dark:text-gray-400">
+                    <span className="rounded-full bg-gray-200 dark:bg-gray-600 w-6 h-6 flex items-center justify-center mr-2 text-xs font-bold uppercase text-gray-700 dark:text-gray-300">
                       {app.organizationName?.[0] || '?'}
                     </span>
                     {app.organizationName}
