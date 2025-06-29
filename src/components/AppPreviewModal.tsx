@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { useTranslation } from 'react-i18next';
@@ -22,20 +22,6 @@ interface AppPreviewModalProps {
 export function AppPreviewModal({ app, isOpen, onClose, onRemix }: AppPreviewModalProps) {
   const { t } = useTranslation();
 
-  // Prevent body scroll when modal is open
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
-
-    // Cleanup function to restore scroll when component unmounts
-    return () => {
-      document.body.style.overflow = 'unset';
-    };
-  }, [isOpen]);
-
   if (!app) return null;
 
   const iframeUrl = `https://website-${app.uuid}.content.rationalbi.com`;
@@ -45,9 +31,16 @@ export function AppPreviewModal({ app, isOpen, onClose, onRemix }: AppPreviewMod
     onClose();
   };
 
+  const handleModalScroll = (e: React.WheelEvent) => {
+    e.stopPropagation();
+  };
+
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-6xl w-[90vw] h-[85vh] p-0 overflow-hidden flex flex-col gap-0">
+      <DialogContent 
+        className="max-w-6xl w-[90vw] h-[85vh] p-0 overflow-hidden flex flex-col gap-0"
+        onWheel={handleModalScroll}
+      >
         <div className="flex items-center justify-between px-4 py-3 border-b bg-white shrink-0 pr-16">
           <DialogTitle className="text-lg font-semibold text-gray-900">
             {app.name}
