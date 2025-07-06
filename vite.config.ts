@@ -19,4 +19,12 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    // Enable static site generation features
+    rollupOptions: {
+      input: {
+        main: './index.html',
+      },
+    },
+  },
 }));
