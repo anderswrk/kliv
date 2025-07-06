@@ -287,9 +287,9 @@ export default function Login({
       console.log("Session response", sessionResponse);
       
       if (sessionResponse.data.url) {
-        // Strip language code from URL using regex
+        // Strip language code from URL using regex and replace /login with /!ui
         let redirectUrl = sessionResponse.data.url;
-        redirectUrl = redirectUrl.replace(/\/[a-z]{2}\/login(\?|$)/, '/login$1');
+        redirectUrl = redirectUrl.replace(/\/[a-z]{2}\/login(\?|$)/, '/!ui$1');
         window.location.href = redirectUrl;
         return;
       }
