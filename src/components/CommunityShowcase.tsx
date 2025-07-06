@@ -42,61 +42,74 @@ export function CommunityShowcase() {
   };
 
   const handleRemix = (appId: string) => {
-    // This should trigger the same functionality as submitting a prompt
-    // For now, we'll just log the appId - this will need to be connected to the main app logic
     console.log('Remix app with ID:', appId);
-    
-    // In a real implementation, this would:
-    // 1. Navigate to the main page
-    // 2. Set the prompt input to the appId
-    // 3. Submit the form automatically
-    
-    // For now, we can simulate this by dispatching a custom event
     window.dispatchEvent(new CustomEvent('remix-app', { detail: { appId } }));
   };
 
   if (!apps.length) return null;
 
+  // Duplicate apps for seamless infinite scroll
+  const duplicatedApps = [...apps, ...apps];
+
   return (
     <>
-      <section className="py-16 bg-gradient-to-br from-pink-50 to-orange-50 dark:from-gray-900 dark:to-gray-800">
+      <section className="py-16 bg-gradient-to-br from-pink-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="mb-8">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white">{t('community.title')}</h2>
+          <div className="mb-12 text-center">
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">{t('community.title')}</h2>
+            <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+              Discover amazing apps built by our community. Click on any app to preview it or remix it for your own project.
+            </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {apps.map((app, i) => (
-              <Card 
-                key={i} 
-                className="overflow-hidden hover:shadow-lg transition-shadow cursor-pointer bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700"
-                onClick={() => handleAppClick(app)}
-              >
-                <div className="aspect-video bg-gray-100 dark:bg-gray-700">
-                  <img
-                    src={app.imageUrl || '/placeholder.svg'}
-                    alt={app.name}
-                    className="w-full h-full object-cover"
-                    onError={e => (e.currentTarget.src = '/placeholder.svg')}
-                  />
-                </div>
-                <CardContent className="p-4">
-                  <div className="flex items-center mb-2">
-                    <CardTitle className="text-base font-semibold truncate flex-1 text-gray-900 dark:text-white">
-                      {app.name}
-                    </CardTitle>
-                    <Badge variant="secondary" className="ml-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300">
-                      {app.category}
-                    </Badge>
+          
+          {/* Scrolling Container */}
+          <div className="relative">
+            <div className="flex animate-scroll-left space-x-6 w-max">
+              {duplicatedApps.map((app, i) => (
+                <Card 
+                  key={`${app.uuid}-${i}`}
+                  className="flex-shrink-0 w-80 overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700 hover:scale-105 hover:-translate-y-1"
+                  onClick={() => handleAppClick(app)}
+                >
+                  <div className="aspect-video bg-gray-100 dark:bg-gray-700 relative overflow-hidden">
+                    <img
+                      src={app.imageUrl || '/placeholder.svg'}
+                      alt={app.name}
+                      className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                      onError={e => (e.currentTarget.src = '/placeholder.svg')}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
                   </div>
-                  <div className="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                    <span className="rounded-full bg-gray-200 dark:bg-gray-600 w-6 h-6 flex items-center justify-center mr-2 text-xs font-bold uppercase text-gray-700 dark:text-gray-300">
-                      {app.organizationName?.[0] || '?'}
-                    </span>
-                    {app.organizationName}
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+                  <CardContent className="p-6">
+                    <div className="flex items-start justify-between mb-3">
+                      <CardTitle className="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 flex-1">
+                        {app.name}
+                      </CardTitle>
+                      <Badge variant="secondary" className="ml-3 bg-gradient-to-r from-purple-100 to-pink-100 dark:from-purple-900 dark:to-pink-900 text-purple-700 dark:text-purple-300 border-0">
+                        {app.category}
+                      </Badge>
+                    </div>
+                    <div className="flex items-center text-sm text-gray-500 dark:text-gray-400">
+                      <div className="rounded-full bg-gradient-to-r from-blue-500 to-purple-500 w-8 h-8 flex items-center justify-center mr-3 text-white font-bold text-xs">
+                        {app.organizationName?.[0]?.toUpperCase() || '?'}
+                      </div>
+                      <span className="truncate">{app.organizationName}</span>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+            
+            {/* Gradient overlays for smooth edges */}
+            <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-pink-50 to-transparent dark:from-gray-900 dark:to-transparent pointer-events-none z-10" />
+            <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-pink-50 to-transparent dark:from-gray-900 dark:to-transparent pointer-events-none z-10" />
+          </div>
+          
+          {/* Pause on hover hint */}
+          <div className="text-center mt-8">
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              Hover over any app to pause the scroll and explore
+            </p>
           </div>
         </div>
       </section>
