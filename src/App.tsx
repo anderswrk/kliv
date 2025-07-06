@@ -16,6 +16,7 @@ import { Security } from "./pages/Security";
 import { Signup } from "./pages/Signup";
 import Login from "./pages/Login";
 import { NotFound } from "./pages/NotFound";
+import { DynamicLandingPage } from "./pages/DynamicLandingPage";
 import "./i18n";
 
 const queryClient = new QueryClient();
@@ -42,6 +43,12 @@ const App = () => (
             <Route path="/:lang/security" element={<LanguageRouter><Security /></LanguageRouter>} />
             <Route path="/:lang/signup" element={<LanguageRouter><Signup /></LanguageRouter>} />
             <Route path="/:lang/login" element={<LanguageRouter><Login /></LanguageRouter>} />
+            
+            {/* Dynamic landing pages - two levels deep */}
+            <Route path="/:lang/:category/:subcategory" element={<LanguageRouter><DynamicLandingPage /></LanguageRouter>} />
+            
+            {/* Dynamic landing pages - one level deep */}
+            <Route path="/:lang/:category" element={<LanguageRouter><DynamicLandingPage /></LanguageRouter>} />
             
             {/* Legacy routes without language prefix - redirect to default language */}
             <Route path="/about" element={<LanguageRouter><About /></LanguageRouter>} />
