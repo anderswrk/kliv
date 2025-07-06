@@ -55,6 +55,27 @@ interface LoginProps {
   onAuthenticated?: () => void;
 }
 
+// Helper function to strip language prefix from URL
+const stripLanguageFromUrl = (url: string): string => {
+  try {
+    const urlObj = new URL(url);
+    const pathSegments = urlObj.pathname.split('/').filter(segment => segment !== '');
+    
+    // Check if the first segment is a language code (2-3 characters)
+    if (pathSegments.length > 0 && /^[a-z]{2,3}$/i.test(pathSegments[0])) {
+      // Remove the language segment
+      pathSegments.shift();
+      // Reconstruct the URL without the language prefix
+      urlObj.pathname = '/' + pathSegments.join('/');
+    }
+    
+    return urlObj.toString();
+  } catch (error) {
+    console.error('Error processing URL:', error);
+    return url; // Return original URL if parsing fails
+  }
+};
+
 export default function Login({
   knownFirstName,
   knownEmail,
@@ -287,7 +308,8 @@ export default function Login({
       console.log("Session response", sessionResponse);
       
       if (sessionResponse.data.url) {
-        window.location.href = sessionResponse.data.url;
+        const processedUrl = stripLanguageFromUrl(sessionResponse.data.url);
+        window.location.href = processedUrl;
         return;
       }
 
@@ -374,7 +396,8 @@ export default function Login({
       console.log("TOTP Session response", sessionResponse);
       
       if (sessionResponse.data.url) {
-        window.location.href = sessionResponse.data.url;
+        const processedUrl = stripLanguageFromUrl(sessionResponse.data.url);
+        window.location.href = processedUrl;
         return;
       }
 
