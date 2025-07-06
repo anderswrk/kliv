@@ -1,7 +1,7 @@
 import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
 import { FeaturesSection } from '@/components/FeaturesSection';
-import { CommunityShowcase } from '@/components/CommunityShowcase';
+import CommunityShowcase from '@/components/CommunityShowcase';
 import { Footer } from '@/components/Footer';
 
 export const Index = () => {
