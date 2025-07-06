@@ -1,7 +1,5 @@
-
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
 
 import en from './locales/en.json';
 import sv from './locales/sv.json';
@@ -14,7 +12,6 @@ const resources = {
 };
 
 i18n
-  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources,
@@ -23,10 +20,8 @@ i18n
     interpolation: {
       escapeValue: false,
     },
-    detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
-      caches: ['localStorage'],
-    },
+    // Remove automatic language detection since we'll handle it via URL
+    lng: 'en', // Default language
   });
 
 export default i18n;

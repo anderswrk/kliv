@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
+import { LocalizedLink } from './LocalizedLink';
 import { Button } from '@/components/ui/button';
 import { 
   DropdownMenu, 
@@ -15,6 +16,9 @@ export function Header() {
   const { t, i18n } = useTranslation();
   const { theme, setTheme } = useTheme();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { lang } = useParams<{ lang: string }>();
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const languages = [
     { code: 'en', name: 'English' },
@@ -25,27 +29,37 @@ export function Header() {
   const navigation = [
   ];
 
+  const handleLanguageChange = (newLang: string) => {
+    const currentPath = location.pathname;
+    const currentLang = lang || 'en';
+    
+    // Replace current language in path with new language
+    const newPath = currentPath.replace(`/${currentLang}`, `/${newLang}`);
+    
+    navigate(newPath + location.search, { replace: true });
+  };
+
   return (
     <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-gradient">
+            <LocalizedLink to="/" className="text-2xl font-bold text-gradient">
               Kliv
-            </Link>
+            </LocalizedLink>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navigation.map((item) => (
-              <Link
+              <LocalizedLink
                 key={item.name}
                 to={item.href}
                 className="text-muted-foreground hover:text-foreground transition-colors duration-200"
               >
                 {item.name}
-              </Link>
+              </LocalizedLink>
             ))}
           </nav>
 
@@ -59,13 +73,13 @@ export function Header() {
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="bg-popover">
-                {languages.map((lang) => (
+                {languages.map((language) => (
                   <DropdownMenuItem
-                    key={lang.code}
-                    onClick={() => i18n.changeLanguage(lang.code)}
-                    className={i18n.language === lang.code ? 'bg-accent' : ''}
+                    key={language.code}
+                    onClick={() => handleLanguageChange(language.code)}
+                    className={i18n.language === language.code ? 'bg-accent' : ''}
                   >
-                    {lang.name}
+                    {language.name}
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuContent>
@@ -86,10 +100,10 @@ export function Header() {
 
             {/* Auth Buttons */}
             <Button variant="ghost" size="sm" asChild>
-              <Link to="/login">{t('nav.signIn')}</Link>
+              <LocalizedLink to="/login">{t('nav.signIn')}</LocalizedLink>
             </Button>
             <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
-              <Link to="/signup">{t('nav.getStarted')}</Link>
+              <LocalizedLink to="/signup">{t('nav.getStarted')}</LocalizedLink>
             </Button>
           </div>
 
@@ -114,14 +128,14 @@ export function Header() {
           <div className="md:hidden py-4 border-t border-border animate-fade-in">
             <div className="flex flex-col space-y-4">
               {navigation.map((item) => (
-                <Link
+                <LocalizedLink
                   key={item.name}
                   to={item.href}
                   className="text-muted-foreground hover:text-foreground transition-colors duration-200"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.name}
-                </Link>
+                </LocalizedLink>
               ))}
               <div className="flex items-center justify-between pt-4 border-t border-border">
                 <div className="flex items-center space-x-2">
@@ -129,17 +143,17 @@ export function Header() {
                     <DropdownMenuTrigger asChild>
                       <Button variant="ghost" size="sm">
                         <Globe className="h-4 w-4 mr-2" />
-                        {languages.find(lang => lang.code === i18n.language)?.name}
+                        {languages.find(language => language.code === i18n.language)?.name}
                       </Button>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent align="start" className="bg-popover">
-                      {languages.map((lang) => (
+                      {languages.map((language) => (
                         <DropdownMenuItem
-                          key={lang.code}
-                          onClick={() => i18n.changeLanguage(lang.code)}
-                          className={i18n.language === lang.code ? 'bg-accent' : ''}
+                          key={language.code}
+                          onClick={() => handleLanguageChange(language.code)}
+                          className={i18n.language === language.code ? 'bg-accent' : ''}
                         >
-                          {lang.name}
+                          {language.name}
                         </DropdownMenuItem>
                       ))}
                     </DropdownMenuContent>
@@ -159,10 +173,10 @@ export function Header() {
               </div>
               <div className="flex flex-col space-y-2 pt-2">
                 <Button variant="ghost" size="sm" className="justify-start" asChild>
-                  <Link to="/login">{t('nav.signIn')}</Link>
+                  <LocalizedLink to="/login">{t('nav.signIn')}</LocalizedLink>
                 </Button>
                 <Button size="sm" className="bg-primary hover:bg-primary/90" asChild>
-                  <Link to="/signup">{t('nav.getStarted')}</Link>
+                  <LocalizedLink to="/signup">{t('nav.getStarted')}</LocalizedLink>
                 </Button>
               </div>
             </div>

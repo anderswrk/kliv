@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/components/theme-provider";
+import { LanguageRouter } from "@/components/LanguageRouter";
 import { Index } from "./pages/Index";
 import { About } from "./pages/About";
 import { Features } from "./pages/Features";
@@ -27,18 +28,34 @@ const App = () => (
         <Sonner />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/features" element={<Features />} />
-            <Route path="/pricing" element={<Pricing />} />
-            <Route path="/careers" element={<Careers />} />
-            <Route path="/privacy" element={<Privacy />} />
-            <Route path="/terms" element={<Terms />} />
-            <Route path="/security" element={<Security />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/login" element={<Login />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
+            {/* Redirect root to default language */}
+            <Route path="/" element={<LanguageRouter><Index /></LanguageRouter>} />
+            
+            {/* Language-prefixed routes */}
+            <Route path="/:lang" element={<LanguageRouter><Index /></LanguageRouter>} />
+            <Route path="/:lang/about" element={<LanguageRouter><About /></LanguageRouter>} />
+            <Route path="/:lang/features" element={<LanguageRouter><Features /></LanguageRouter>} />
+            <Route path="/:lang/pricing" element={<LanguageRouter><Pricing /></LanguageRouter>} />
+            <Route path="/:lang/careers" element={<LanguageRouter><Careers /></LanguageRouter>} />
+            <Route path="/:lang/privacy" element={<LanguageRouter><Privacy /></LanguageRouter>} />
+            <Route path="/:lang/terms" element={<LanguageRouter><Terms /></LanguageRouter>} />
+            <Route path="/:lang/security" element={<LanguageRouter><Security /></LanguageRouter>} />
+            <Route path="/:lang/signup" element={<LanguageRouter><Signup /></LanguageRouter>} />
+            <Route path="/:lang/login" element={<LanguageRouter><Login /></LanguageRouter>} />
+            
+            {/* Legacy routes without language prefix - redirect to default language */}
+            <Route path="/about" element={<LanguageRouter><About /></LanguageRouter>} />
+            <Route path="/features" element={<LanguageRouter><Features /></LanguageRouter>} />
+            <Route path="/pricing" element={<LanguageRouter><Pricing /></LanguageRouter>} />
+            <Route path="/careers" element={<LanguageRouter><Careers /></LanguageRouter>} />
+            <Route path="/privacy" element={<LanguageRouter><Privacy /></LanguageRouter>} />
+            <Route path="/terms" element={<LanguageRouter><Terms /></LanguageRouter>} />
+            <Route path="/security" element={<LanguageRouter><Security /></LanguageRouter>} />
+            <Route path="/signup" element={<LanguageRouter><Signup /></LanguageRouter>} />
+            <Route path="/login" element={<LanguageRouter><Login /></LanguageRouter>} />
+            
+            {/* Catch-all for 404 */}
+            <Route path="*" element={<LanguageRouter><NotFound /></LanguageRouter>} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
