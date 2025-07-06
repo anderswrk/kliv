@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
 import { Button } from './ui/button';
-import { ExternalLink, Star, Users } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AppPreviewModal } from './AppPreviewModal';
 
@@ -109,10 +109,10 @@ const CommunityShowcase: React.FC = () => {
         <div className="container mx-auto px-4 mb-12">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              {t('community.title', 'Built by the Community')}
+              {t('community.title', 'Explore What\'s Possible')}
             </h2>
             <p className="text-xl text-gray-600">
-              {t('community.subtitle', 'Discover amazing apps created by developers around the world using Kliv')}
+              {t('community.subtitle', 'See real applications built with Kliv by developers and creators worldwide')}
             </p>
           </div>
         </div>
@@ -154,35 +154,16 @@ const CommunityShowcase: React.FC = () => {
                     {app.description}
                   </p>
                   
-                  <div className="flex items-center justify-between text-sm text-gray-500">
-                    <div className="flex items-center">
-                      <span className="rounded-full bg-gray-200 w-6 h-6 flex items-center justify-center mr-2 text-xs font-bold uppercase text-gray-700">
-                        {app.organizationName?.[0] || '?'}
-                      </span>
-                      <span className="font-medium">by {app.organizationName}</span>
-                    </div>
-                    <div className="flex items-center space-x-4">
-                      <div className="flex items-center space-x-1">
-                        <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                        <span>{Math.floor(Math.random() * 500) + 100}</span>
-                      </div>
-                      <div className="flex items-center space-x-1">
-                        <Users className="w-4 h-4" />
-                        <span>{Math.floor(Math.random() * 5000) + 1000}</span>
-                      </div>
-                    </div>
+                  <div className="flex items-center text-sm text-gray-500">
+                    <span className="rounded-full bg-gray-200 w-6 h-6 flex items-center justify-center mr-2 text-xs font-bold uppercase text-gray-700">
+                      {app.organizationName?.[0] || '?'}
+                    </span>
+                    <span className="font-medium">by {app.organizationName}</span>
                   </div>
                 </CardContent>
               </Card>
             ))}
           </div>
-        </div>
-
-        {/* Call to Action */}
-        <div className="text-center mt-12">
-          <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
-            {t('community.cta', 'Share Your Creation')}
-          </Button>
         </div>
       </section>
 
