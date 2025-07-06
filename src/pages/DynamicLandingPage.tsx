@@ -6,7 +6,9 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { Card } from '@/components/ui/card';
-import { ArrowRight, MessageSquare } from 'lucide-react';
+import { ArrowRight, MessageSquare, Copy, ChevronDown, ChevronUp } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 interface LandingPageContent {
   title: string;
@@ -18,13 +20,16 @@ interface LandingPageContent {
     cta: string;
   };
   sections: Array<{
-    type: 'text' | 'features' | 'benefits' | 'cta';
+    type: 'text' | 'features' | 'benefits' | 'cta' | 'markdown' | 'prompt-examples' | 'faq';
     title?: string;
     content?: string;
     items?: Array<{
-      title: string;
-      description: string;
+      title?: string;
+      description?: string;
       icon?: string;
+      prompt?: string;
+      question?: string;
+      answer?: string;
     }>;
   }>;
   defaultPrompt?: string;
@@ -42,6 +47,7 @@ export function DynamicLandingPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [message, setMessage] = useState('');
+  const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
@@ -101,6 +107,18 @@ export function DynamicLandingPage() {
     navigate(url);
   };
 
+  const copyPrompt = (prompt: string) => {
+    setMessage(prompt);
+    if (textareaRef.current) {
+      textareaRef.current.focus();
+      textareaRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const toggleFaq = (index: number) => {
+    setExpandedFaq(expandedFaq === index ? null : index);
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen bg-background">
@@ -139,6 +157,67 @@ export function DynamicLandingPage() {
           </section>
         );
 
+      case 'markdown':
+        return (
+          <section key={index} className="py-16 bg-muted/30">
+            <div className="container mx-auto px-4">
+              {section.title && (
+                <h2 className="text-3xl font-bold text-center mb-12 text-foreground">
+                  {section.title}
+                </h2>
+              )}
+              {section.content && (
+                <div className="max-w-4xl mx-auto prose prose-lg dark:prose-invert prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-li:text-muted-foreground">
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                    {section.content}
+                  </ReactMarkdown>
+                </div>
+              )}
+            </div>
+          </section>
+        );
+
+      case 'prompt-examples':
+        return (
+          <section key={index} className="py-16">
+            <div className="container mx-auto px-4">
+              {section.title && (
+                <h2 className="text-3xl font-bold text-center mb-12 text-foreground">
+                  {section.title}
+                </h2>
+              )}
+              {section.items && (
+                <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+                  {section.items.map((item, i) => (
+                    <Card key={i} className="p-6 bg-card border hover:border-primary/30 transition-all duration-200">
+                      <h3 className="text-xl font-semibold mb-3 text-foreground">
+                        {item.title}
+                      </h3>
+                      <p className="text-muted-foreground mb-4 text-sm">
+                        {item.description}
+                      </p>
+                      <div className="bg-muted/50 p-4 rounded-lg mb-4">
+                        <p className="text-sm text-muted-foreground italic">
+                          "{item.prompt}"
+                        </p>
+                      </div>
+                      <Button
+                        onClick={() => copyPrompt(item.prompt || '')}
+                        variant="outline"
+                        size="sm"
+                        className="w-full"
+                      >
+                        <Copy className="w-4 h-4 mr-2" />
+                        Use This Prompt
+                      </Button>
+                    </Card>
+                  ))}
+                </div>
+              )}
+            </div>
+          </section>
+        );
+
       case 'features':
         return (
           <section key={index} className="py-16 bg-muted/50">
@@ -160,6 +239,47 @@ export function DynamicLandingPage() {
                       </h3>
                       <p className="text-muted-foreground">{item.description}</p>
                     </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </section>
+        );
+
+      case 'faq':
+        return (
+          <section key={index} className="py-16 bg-muted/30">
+            <div className="container mx-auto px-4">
+              {section.title && (
+                <h2 className="text-3xl font-bold text-center mb-12 text-foreground">
+                  {section.title}
+                </h2>
+              )}
+              {section.items && (
+                <div className="max-w-4xl mx-auto space-y-4">
+                  {section.items.map((item, i) => (
+                    <Card key={i} className="bg-card border">
+                      <button
+                        onClick={() => toggleFaq(i)}
+                        className="w-full p-6 text-left flex justify-between items-center hover:bg-muted/20 transition-colors"
+                      >
+                        <h3 className="text-lg font-semibold text-foreground pr-4">
+                          {item.question}
+                        </h3>
+                        {expandedFaq === i ? (
+                          <ChevronUp className="w-5 h-5 text-muted-foreground flex-shrink-0" />
+                        ) : (
+                          <ChevronDown className="w-5 h-5 text-muted-foreground flex-shrink-0" />
+                        )}
+                      </button>
+                      {expandedFaq === i && (
+                        <div className="px-6 pb-6">
+                          <p className="text-muted-foreground leading-relaxed">
+                            {item.answer}
+                          </p>
+                        </div>
+                      )}
+                    </Card>
                   ))}
                 </div>
               )}
