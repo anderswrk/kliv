@@ -185,28 +185,27 @@ export function DynamicLandingPage() {
                   {section.title}
                 </h2>
               )}
-              <div className="max-w-6xl mx-auto">
-                <div className={`grid gap-12 items-center ${section.image ? 'lg:grid-cols-2' : 'lg:grid-cols-1'}`}>
-                  <div className={section.image ? '' : 'max-w-4xl mx-auto'}>
-                    {section.content && (
-                      <div className="text-lg text-muted-foreground leading-relaxed">
-                        {section.content.split('\n').map((paragraph, i) => (
-                          <p key={i} className="mb-4">{paragraph}</p>
-                        ))}
-                      </div>
-                    )}
+              <div className="max-w-4xl mx-auto">
+                {section.content && (
+                  <div className="text-lg text-muted-foreground leading-relaxed mb-8">
+                    {section.content.split('\n').map((paragraph, i) => (
+                      <p key={i} className="mb-4">{paragraph}</p>
+                    ))}
                   </div>
-                  {section.image && (
-                    <div className="order-first lg:order-last">
-                      <img
-                        src={section.image}
-                        alt={section.title || 'Section illustration'}
-                        className="w-full h-auto rounded-lg shadow-lg"
-                        loading="lazy"
-                      />
-                    </div>
-                  )}
-                </div>
+                )}
+                {section.image && (
+                  <div className="mt-8">
+                    <img
+                      src={section.image}
+                      alt={section.title || 'Section illustration'}
+                      className="w-full max-w-2xl mx-auto h-auto rounded-lg shadow-lg"
+                      loading="lazy"
+                    />
+                    <p className="text-xs text-muted-foreground text-center mt-2">
+                      Photo by <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">Unsplash</a>
+                    </p>
+                  </div>
+                )}
               </div>
               {/* Add attribution text after the first text section */}
               {index === 0 && (
@@ -229,28 +228,27 @@ export function DynamicLandingPage() {
                   {section.title}
                 </h2>
               )}
-              <div className="max-w-6xl mx-auto">
-                <div className={`grid gap-12 items-start ${section.image ? 'lg:grid-cols-2' : 'lg:grid-cols-1'}`}>
-                  <div className={section.image ? '' : 'max-w-4xl mx-auto'}>
-                    {section.content && (
-                      <div className="prose prose-lg dark:prose-invert prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-li:text-muted-foreground">
-                        <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                          {section.content}
-                        </ReactMarkdown>
-                      </div>
-                    )}
+              <div className="max-w-4xl mx-auto">
+                {section.content && (
+                  <div className="prose prose-lg dark:prose-invert prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-li:text-muted-foreground mb-8">
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                      {section.content}
+                    </ReactMarkdown>
                   </div>
-                  {section.image && (
-                    <div className="lg:sticky lg:top-8">
-                      <img
-                        src={section.image}
-                        alt={section.title || 'Section illustration'}
-                        className="w-full h-auto rounded-lg shadow-lg"
-                        loading="lazy"
-                      />
-                    </div>
-                  )}
-                </div>
+                )}
+                {section.image && (
+                  <div className="mt-8">
+                    <img
+                      src={section.image}
+                      alt={section.title || 'Section illustration'}
+                      className="w-full max-w-2xl mx-auto h-auto rounded-lg shadow-lg"
+                      loading="lazy"
+                    />
+                    <p className="text-xs text-muted-foreground text-center mt-2">
+                      Photo by <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">Unsplash</a>
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
           </section>
@@ -266,48 +264,47 @@ export function DynamicLandingPage() {
                 </h2>
               )}
               <div className="max-w-6xl mx-auto">
-                <div className={`grid gap-12 items-start ${section.image ? 'lg:grid-cols-3' : 'lg:grid-cols-1'}`}>
-                  <div className={section.image ? 'lg:col-span-2' : ''}>
-                    {section.items && (
-                      <div className="grid md:grid-cols-2 gap-6">
-                        {section.items.map((item, i) => (
-                          <Card key={i} className="p-6 bg-card border hover:border-primary/30 transition-all duration-200">
-                            <h3 className="text-xl font-semibold mb-3 text-foreground">
-                              {item.title}
-                            </h3>
-                            <p className="text-muted-foreground mb-4 text-sm">
-                              {item.description}
-                            </p>
-                            <div className="bg-muted/50 p-4 rounded-lg mb-4">
-                              <p className="text-sm text-muted-foreground italic">
-                                "{item.prompt}"
-                              </p>
-                            </div>
-                            <Button
-                              onClick={() => copyPrompt(item.prompt || '')}
-                              variant="outline"
-                              size="sm"
-                              className="w-full"
-                            >
-                              <Copy className="w-4 h-4 mr-2" />
-                              {t('landing.usePrompt', 'Use this prompt')}
-                            </Button>
-                          </Card>
-                        ))}
-                      </div>
-                    )}
+                {section.items && (
+                  <div className="grid md:grid-cols-2 gap-6 mb-8">
+                    {section.items.map((item, i) => (
+                      <Card key={i} className="p-6 bg-card border hover:border-primary/30 transition-all duration-200">
+                        <h3 className="text-xl font-semibold mb-3 text-foreground">
+                          {item.title}
+                        </h3>
+                        <p className="text-muted-foreground mb-4 text-sm">
+                          {item.description}
+                        </p>
+                        <div className="bg-muted/50 p-4 rounded-lg mb-4">
+                          <p className="text-sm text-muted-foreground italic">
+                            "{item.prompt}"
+                          </p>
+                        </div>
+                        <Button
+                          onClick={() => copyPrompt(item.prompt || '')}
+                          variant="outline"
+                          size="sm"
+                          className="w-full"
+                        >
+                          <Copy className="w-4 h-4 mr-2" />
+                          {t('landing.usePrompt', 'Use this prompt')}
+                        </Button>
+                      </Card>
+                    ))}
                   </div>
-                  {section.image && (
-                    <div className="lg:sticky lg:top-8">
-                      <img
-                        src={section.image}
-                        alt={section.title || 'Section illustration'}
-                        className="w-full h-auto rounded-lg shadow-lg"
-                        loading="lazy"
-                      />
-                    </div>
-                  )}
-                </div>
+                )}
+                {section.image && (
+                  <div className="mt-8">
+                    <img
+                      src={section.image}
+                      alt={section.title || 'Section illustration'}
+                      className="w-full max-w-2xl mx-auto h-auto rounded-lg shadow-lg"
+                      loading="lazy"
+                    />
+                    <p className="text-xs text-muted-foreground text-center mt-2">
+                      Photo by <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">Unsplash</a>
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
           </section>
@@ -358,35 +355,34 @@ export function DynamicLandingPage() {
                 </h2>
               )}
               <div className="max-w-6xl mx-auto">
-                <div className={`grid gap-12 items-start ${section.image ? 'lg:grid-cols-3' : 'lg:grid-cols-1'}`}>
-                  <div className={section.image ? 'lg:col-span-2' : ''}>
-                    {section.items && (
-                      <div className="grid md:grid-cols-2 gap-8">
-                        {section.items.map((item, i) => (
-                          <div key={i} className="bg-card p-6 rounded-lg shadow-sm border">
-                            {item.icon && (
-                              <div className="text-4xl mb-4">{item.icon}</div>
-                            )}
-                            <h3 className="text-xl font-semibold mb-3 text-foreground">
-                              {item.title}
-                            </h3>
-                            <p className="text-muted-foreground">{item.description}</p>
-                          </div>
-                        ))}
+                {section.items && (
+                  <div className="grid md:grid-cols-2 gap-8 mb-8">
+                    {section.items.map((item, i) => (
+                      <div key={i} className="bg-card p-6 rounded-lg shadow-sm border">
+                        {item.icon && (
+                          <div className="text-4xl mb-4">{item.icon}</div>
+                        )}
+                        <h3 className="text-xl font-semibold mb-3 text-foreground">
+                          {item.title}
+                        </h3>
+                        <p className="text-muted-foreground">{item.description}</p>
                       </div>
-                    )}
+                    ))}
                   </div>
-                  {section.image && (
-                    <div className="lg:sticky lg:top-8">
-                      <img
-                        src={section.image}
-                        alt={section.title || 'Section illustration'}
-                        className="w-full h-auto rounded-lg shadow-lg"
-                        loading="lazy"
-                      />
-                    </div>
-                  )}
-                </div>
+                )}
+                {section.image && (
+                  <div className="mt-8">
+                    <img
+                      src={section.image}
+                      alt={section.title || 'Section illustration'}
+                      className="w-full max-w-2xl mx-auto h-auto rounded-lg shadow-lg"
+                      loading="lazy"
+                    />
+                    <p className="text-xs text-muted-foreground text-center mt-2">
+                      Photo by <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">Unsplash</a>
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
           </section>
@@ -511,71 +507,72 @@ export function DynamicLandingPage() {
       {/* Hero Section with optional hero image */}
       <section className="pt-32 pb-12">
         <div className="container mx-auto px-4">
-          <div className={`grid gap-12 items-center ${content?.hero.image ? 'lg:grid-cols-2' : 'lg:grid-cols-1'}`}>
-            <div className={`text-center ${content?.hero.image ? 'lg:text-left' : ''}`}>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
-                <span className="text-gradient">
-                  {content?.hero.title}
-                </span>
-              </h1>
-              <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto lg:mx-0">
-                {content?.hero.subtitle}
-              </p>
+          <div className="text-center max-w-4xl mx-auto">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+              <span className="text-gradient">
+                {content?.hero.title}
+              </span>
+            </h1>
+            <p className="text-xl text-muted-foreground mb-12">
+              {content?.hero.subtitle}
+            </p>
 
-              {/* Text Input Box from Hero Section */}
-              <div className="max-w-4xl mx-auto lg:mx-0">
-                <Card className="p-8 bg-card border-2 border-border hover:border-primary/30 transition-all duration-300 shadow-lg hover:shadow-xl">
-                  <div className="space-y-6">
-                    {/* Input Label */}
-                    <div className="flex items-center gap-2 text-left">
-                      <MessageSquare className="h-5 w-5 text-primary" />
-                      <label className="text-sm font-medium text-foreground">
-                        {t('hero.inputLabel')}
-                      </label>
-                    </div>
-                    
-                    {/* Text Input */}
-                    <div className="relative">
-                      <Textarea
-                        ref={textareaRef}
-                        placeholder={t('hero.placeholder')}
-                        value={message}
-                        onChange={(e) => setMessage(e.target.value)}
-                        className="min-h-[140px] text-lg resize-none border-2 border-input bg-background focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all duration-200 rounded-lg p-4"
-                      />
-                      {message.length > 0 && (
-                        <div className="absolute bottom-3 right-3 text-xs text-muted-foreground">
-                          {message.length} {t('hero.charactersCount')}
-                        </div>
-                      )}
-                    </div>
-                    
-                    <div className="flex justify-center">
-                      <Button
-                        onClick={handleStartBuilding}
-                        size="lg"
-                        className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 min-w-[160px]"
-                      >
-                        {content?.hero.cta}
-                        <ArrowRight className="ml-2 h-5 w-5" />
-                      </Button>
-                    </div>
-                  </div>
-                </Card>
-              </div>
-            </div>
-            
-            {/* Hero Image */}
+            {/* Hero Image - centered and inline */}
             {content?.hero.image && (
-              <div className="order-first lg:order-last">
+              <div className="mb-12">
                 <img
                   src={content.hero.image}
                   alt={content.hero.title}
-                  className="w-full h-auto rounded-lg shadow-xl"
+                  className="w-full max-w-3xl mx-auto h-auto rounded-lg shadow-xl"
                   loading="eager"
                 />
+                <p className="text-xs text-muted-foreground text-center mt-2">
+                  Photo by <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">Unsplash</a>
+                </p>
               </div>
             )}
+
+            {/* Text Input Box from Hero Section */}
+            <div className="max-w-4xl mx-auto">
+              <Card className="p-8 bg-card border-2 border-border hover:border-primary/30 transition-all duration-300 shadow-lg hover:shadow-xl">
+                <div className="space-y-6">
+                  {/* Input Label */}
+                  <div className="flex items-center gap-2 text-left">
+                    <MessageSquare className="h-5 w-5 text-primary" />
+                    <label className="text-sm font-medium text-foreground">
+                      {t('hero.inputLabel')}
+                    </label>
+                  </div>
+                  
+                  {/* Text Input */}
+                  <div className="relative">
+                    <Textarea
+                      ref={textareaRef}
+                      placeholder={t('hero.placeholder')}
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
+                      className="min-h-[140px] text-lg resize-none border-2 border-input bg-background focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all duration-200 rounded-lg p-4"
+                    />
+                    {message.length > 0 && (
+                      <div className="absolute bottom-3 right-3 text-xs text-muted-foreground">
+                        {message.length} {t('hero.charactersCount')}
+                      </div>
+                    )}
+                  </div>
+                  
+                  <div className="flex justify-center">
+                    <Button
+                      onClick={handleStartBuilding}
+                      size="lg"
+                      className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 min-w-[160px]"
+                    >
+                      {content?.hero.cta}
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </Button>
+                  </div>
+                </div>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
