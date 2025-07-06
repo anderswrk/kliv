@@ -1,91 +1,133 @@
 {
-  "title": "Workflow Automation Tools",
+  "title": "Workflow automation tools",
   "description": "Build custom workflow automation applications with Kliv's AI-powered platform",
   "metaDescription": "Create powerful workflow automation tools with Kliv. Streamline processes, eliminate manual tasks, and boost productivity with custom-built applications.",
   "defaultPrompt": "I want to create a workflow automation tool that can trigger actions based on conditions, process data automatically, and send notifications to team members.",
   "hero": {
-    "title": "Build Custom Workflow Automation Tools",
+    "title": "Build custom workflow automation tools",
     "subtitle": "Streamline your business processes with AI-powered workflow automation applications built on Kliv's platform.",
-    "cta": "Start Automating"
+    "cta": "Start automating"
   },
   "sections": [
     {
       "type": "text",
-      "title": "Why Build Your Own Workflow Automation Tool?",
+      "title": "Why build your own workflow automation tool?",
       "content": "The future of business software isn't about adapting your processes to fit someone else's vision—it's about creating tools that perfectly match your unique needs. With AI-powered development platforms like Kliv, building custom workflow automation has never been more accessible.\n\nWhile off-the-shelf solutions force you into rigid workflows and expensive monthly subscriptions, custom-built automation tools give you complete control over your business processes. You own the code, you control the features, and you pay once instead of forever."
     },
     {
       "type": "markdown",
-      "title": "The Case for Custom Workflow Automation",
-      "content": "## The Problem with Generic Solutions\n\nMost businesses today rely on generic workflow automation tools that promise to solve everything but end up solving nothing perfectly. These platforms force you to:\n\n- **Adapt your processes** to their limitations\n- **Pay recurring fees** that increase over time\n- **Accept security risks** by storing sensitive data on third-party servers\n- **Live with missing features** that would be perfect for your business\n- **Integrate multiple tools** that don't talk to each other well\n\n## Why Custom-Built is the Future\n\nThe democratization of AI development tools means that building custom software is no longer the exclusive domain of large tech companies. Here's why smart businesses are choosing to build their own:\n\n### Complete Control Over Your Data\nWhen you build your own workflow automation tool, your data stays exactly where you want it. No more wondering about privacy policies or worrying about data breaches at third-party companies.\n\n### Perfect Fit for Your Business\nEvery business has unique processes. Custom automation tools can be designed to match your exact workflow, terminology, and business rules—not force you to adapt to someone else's idea of how work should be done.\n\n### One-Time Investment vs. Endless Subscriptions\nWhile SaaS tools might seem cheaper upfront, the costs add up quickly. A custom solution built with Kliv is a one-time investment that pays dividends for years.\n\n### Scalability on Your Terms\nAs your business grows, your custom tool grows with you. Add new features, modify existing ones, or integrate with new systems—all without asking permission or paying upgrade fees.\n\n## Real-World Applications\n\nCustom workflow automation tools are transforming businesses across industries:\n\n**Manufacturing**: Automated quality control workflows that trigger inspections based on production metrics and automatically route defective items for review.\n\n**Healthcare**: Patient intake automation that processes forms, schedules appointments, and sends personalized follow-up communications based on treatment types.\n\n**E-commerce**: Order processing automation that handles inventory checks, payment verification, shipping coordination, and customer notifications in one seamless flow.\n\n**Professional Services**: Client onboarding workflows that automatically create project folders, assign team members, send welcome packets, and schedule kickoff meetings.\n\n## The AI Advantage\n\nBuilding custom software used to require months of development and significant technical expertise. AI-powered platforms like Kliv have changed the game:\n\n- **Natural Language Development**: Describe what you want in plain English, and AI helps build it\n- **Rapid Prototyping**: See your ideas come to life in hours, not months\n- **Intelligent Suggestions**: AI recommends improvements and optimizations as you build\n- **Automated Testing**: Built-in quality assurance ensures your automation works reliably\n\n## Getting Started\n\nThe best workflow automation tool is the one that fits your business perfectly. Instead of spending months evaluating different SaaS options and then years paying for features you don't need, invest that time and money into building exactly what you want.\n\nWith Kliv's AI-powered platform, you can start building your custom workflow automation tool today. No coding experience required—just a clear vision of how you want your business to run."
+      "title": "The case for custom workflow automation",
+      "content": "## The problem with generic solutions\n\nMost businesses today rely on generic workflow automation tools that promise to solve everything but end up solving nothing perfectly. These platforms force you to:\n\n- **Adapt your processes** to their limitations\n- **Pay recurring fees** that increase over time\n- **Accept security risks** by storing sensitive data on third-party servers\n- **Live with missing features** that would be perfect for your business\n- **Integrate multiple tools** that don't talk to each other well\n\n## Why custom-built is the future\n\nThe democratization of AI development tools means that building custom software is no longer the exclusive domain of large tech companies. Here's why smart businesses are choosing to build their own:\n\n### Complete control over your data\nWhen you build your own workflow automation tool, your data stays exactly where you want it. No more wondering about privacy policies or worrying about data breaches at third-party companies.\n\n### Perfect fit for your business\nEvery business has unique processes. Custom automation tools can be designed to match your exact workflow, terminology, and business rules—not force you to adapt to someone else's idea of how work should be done.\n\n### One-time investment vs. endless subscriptions\nWhile SaaS tools might seem cheaper upfront, the costs add up quickly. A custom solution built with Kliv is a one-time investment that pays dividends for years.\n\n### Scalability on your terms\nAs your business grows, your custom tool grows with you. Add new features, modify existing ones, or integrate with new systems—all without asking permission or paying upgrade fees.\n\n## Real-world applications\n\nCustom workflow automation tools are transforming businesses across industries:\n\n**Manufacturing**: Automated quality control workflows that trigger inspections based on production metrics and automatically route defective items for review.\n\n**Healthcare**: Patient intake automation that processes forms, schedules appointments, and sends personalized follow-up communications based on treatment types.\n\n**E-commerce**: Order processing automation that handles inventory checks, payment verification, shipping coordination, and customer notifications in one seamless flow.\n\n**Professional services**: Client onboarding workflows that automatically create project folders, assign team members, send welcome packets, and schedule kickoff meetings.\n\n## The AI advantage\n\nBuilding custom software used to require months of development and significant technical expertise. AI-powered platforms like Kliv have changed the game:\n\n- **Natural language development**: Describe what you want in plain English, and AI helps build it\n- **Rapid prototyping**: See your ideas come to life in hours, not months\n- **Intelligent suggestions**: AI recommends improvements and optimizations as you build\n- **Automated testing**: Built-in quality assurance ensures your automation works reliably\n\n## Getting started\n\nThe best workflow automation tool is the one that fits your business perfectly. Instead of spending months evaluating different SaaS options and then years paying for features you don't need, invest that time and money into building exactly what you want.\n\nWith Kliv's AI-powered platform, you can start building your custom workflow automation tool today. No coding experience required—just a clear vision of how you want your business to run."
     },
     {
       "type": "prompt-examples",
-      "title": "Workflow Automation Ideas to Get You Started",
+      "title": "Workflow automation ideas to get you started",
       "items": [
         {
-          "title": "Customer Support Ticket Routing",
+          "title": "Customer support ticket routing",
           "prompt": "Create an automated system that categorizes incoming support tickets by urgency and topic, assigns them to the right team members, and sends escalation alerts if tickets aren't resolved within SLA timeframes.",
           "description": "Automatically route and manage customer support requests"
         },
         {
-          "title": "Invoice Processing Automation",
+          "title": "Invoice processing automation",
           "prompt": "Build a workflow that automatically processes incoming invoices, extracts key information, matches them with purchase orders, routes for approval based on amount thresholds, and schedules payments.",
           "description": "Streamline accounts payable with intelligent invoice handling"
         },
         {
-          "title": "Employee Onboarding Workflow",
+          "title": "Employee onboarding workflow",
           "prompt": "Design an automated onboarding system that creates user accounts, sends welcome emails, schedules training sessions, assigns equipment, and tracks completion of required paperwork and certifications.",
           "description": "Ensure consistent and thorough new hire experiences"
         },
         {
-          "title": "Inventory Reorder Automation",
+          "title": "Inventory reorder automation",
           "prompt": "Create a system that monitors inventory levels, predicts demand based on historical data, automatically generates purchase orders when stock is low, and tracks delivery status with supplier notifications.",
           "description": "Never run out of stock with predictive inventory management"
         },
         {
-          "title": "Content Approval Pipeline",
+          "title": "Content approval pipeline",
           "prompt": "Build a workflow for content creation that routes drafts through review stages, collects feedback from stakeholders, tracks revisions, and automatically publishes approved content to designated channels.",
           "description": "Streamline content creation from draft to publication"
         },
         {
-          "title": "Lead Qualification System",
+          "title": "Lead qualification system",
           "prompt": "Develop an automated lead scoring system that evaluates prospects based on behavior, demographics, and engagement, assigns scores, routes qualified leads to sales teams, and nurtures others with targeted content.",
           "description": "Focus sales efforts on the most promising prospects"
         }
       ]
     },
     {
-      "type": "features",
-      "title": "Essential Automation Features",
+      "type": "improvement-ideas",
+      "title": "Ways to enhance your automation tool",
       "items": [
         {
-          "title": "Smart Triggers",
+          "title": "Add user authentication",
+          "prompt": "Now add a secure login system with user roles and permissions so different team members can access different parts of the workflow"
+        },
+        {
+          "title": "Create mobile notifications",
+          "prompt": "Add push notifications to mobile devices when urgent workflow events occur or approvals are needed"
+        },
+        {
+          "title": "Build analytics dashboard",
+          "prompt": "Create a dashboard that shows workflow performance metrics, bottlenecks, and completion rates over time"
+        },
+        {
+          "title": "Add email integration",
+          "prompt": "Connect the workflow to email systems so it can automatically send personalized emails based on workflow triggers"
+        },
+        {
+          "title": "Implement approval chains",
+          "prompt": "Add multi-level approval processes where different managers can approve different types of requests based on amount or category"
+        },
+        {
+          "title": "Create API endpoints",
+          "prompt": "Build REST API endpoints so other systems can trigger workflows or retrieve workflow data programmatically"
+        },
+        {
+          "title": "Add file attachments",
+          "prompt": "Allow users to attach documents and files to workflow items and automatically organize them in cloud storage"
+        },
+        {
+          "title": "Build reporting features",
+          "prompt": "Create automated reports that summarize workflow activity and send them to managers on a weekly or monthly basis"
+        },
+        {
+          "title": "Add calendar integration",
+          "prompt": "Connect to Google Calendar or Outlook to automatically schedule meetings and deadlines based on workflow events"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Essential automation features",
+      "items": [
+        {
+          "title": "Smart triggers",
           "description": "Set up automated triggers based on time, events, data changes, or complex business rules.",
           "icon": "🎯"
         },
         {
-          "title": "Data Processing",
+          "title": "Data processing",
           "description": "Automatically process, transform, and route data between systems and databases.",
           "icon": "🔄"
         },
         {
-          "title": "Notification Systems",
+          "title": "Notification systems",
           "description": "Send automated alerts, emails, and notifications to keep teams informed and aligned.",
           "icon": "🔔"
         },
         {
-          "title": "Approval Workflows",
+          "title": "Approval workflows",
           "description": "Create multi-step approval processes with routing and escalation rules.",
           "icon": "✋"
         },
         {
-          "title": "Integration Hub",
+          "title": "Integration hub",
           "description": "Connect with existing tools, APIs, and databases for seamless data flow.",
           "icon": "🔗"
         },
         {
-          "title": "Analytics Dashboard",
+          "title": "Analytics dashboard",
           "description": "Track workflow performance, bottlenecks, and optimization opportunities.",
           "icon": "📊"
         }
@@ -93,7 +135,7 @@
     },
     {
       "type": "faq",
-      "title": "Frequently Asked Questions",
+      "title": "Frequently asked questions",
       "items": [
         {
           "question": "How long does it take to build a workflow automation tool?",
@@ -131,7 +173,7 @@
     },
     {
       "type": "cta",
-      "title": "Ready to Build Your Custom Workflow Automation?",
+      "title": "Ready to build your custom workflow automation?",
       "content": "Stop paying monthly fees for tools that don't quite fit. Build exactly what your business needs with AI-powered development."
     }
   ]

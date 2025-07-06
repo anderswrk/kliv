@@ -6,7 +6,7 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { Card } from '@/components/ui/card';
-import { ArrowRight, MessageSquare, Copy, ChevronDown, ChevronUp } from 'lucide-react';
+import { ArrowRight, MessageSquare, Copy, ChevronDown, ChevronUp, Lightbulb } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
@@ -20,7 +20,7 @@ interface LandingPageContent {
     cta: string;
   };
   sections: Array<{
-    type: 'text' | 'features' | 'benefits' | 'cta' | 'markdown' | 'prompt-examples' | 'faq';
+    type: 'text' | 'features' | 'benefits' | 'cta' | 'markdown' | 'prompt-examples' | 'improvement-ideas' | 'faq';
     title?: string;
     content?: string;
     items?: Array<{
@@ -109,10 +109,14 @@ export function DynamicLandingPage() {
 
   const copyPrompt = (prompt: string) => {
     setMessage(prompt);
-    if (textareaRef.current) {
-      textareaRef.current.focus();
-      textareaRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
+    // Scroll to the top of the page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Focus the textarea after a short delay to allow scroll to complete
+    setTimeout(() => {
+      if (textareaRef.current) {
+        textareaRef.current.focus();
+      }
+    }, 500);
   };
 
   const toggleFaq = (index: number) => {
@@ -208,8 +212,43 @@ export function DynamicLandingPage() {
                         className="w-full"
                       >
                         <Copy className="w-4 h-4 mr-2" />
-                        Use This Prompt
+                        Use this prompt
                       </Button>
+                    </Card>
+                  ))}
+                </div>
+              )}
+            </div>
+          </section>
+        );
+
+      case 'improvement-ideas':
+        return (
+          <section key={index} className="py-16 bg-muted/20">
+            <div className="container mx-auto px-4">
+              {section.title && (
+                <h2 className="text-3xl font-bold text-center mb-4 text-foreground">
+                  {section.title}
+                </h2>
+              )}
+              <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+                Once you have your basic automation tool, you can enhance it with these additional features
+              </p>
+              {section.items && (
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
+                  {section.items.map((item, i) => (
+                    <Card key={i} className="p-4 bg-card border border-dashed border-muted-foreground/30">
+                      <div className="flex items-start gap-3">
+                        <Lightbulb className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                        <div>
+                          <h4 className="font-medium text-foreground mb-2 text-sm">
+                            {item.title}
+                          </h4>
+                          <p className="text-xs text-muted-foreground italic">
+                            "{item.prompt}"
+                          </p>
+                        </div>
+                      </div>
                     </Card>
                   ))}
                 </div>
