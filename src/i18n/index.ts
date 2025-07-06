@@ -22,6 +22,10 @@ i18n
     },
     // Remove automatic language detection since we'll handle it via URL
     lng: 'en', // Default language
+    // Ensure SSR compatibility
+    react: {
+      useSuspense: false,
+    },
   });
 
 export default i18n;
