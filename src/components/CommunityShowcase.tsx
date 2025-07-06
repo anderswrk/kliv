@@ -109,10 +109,10 @@ const CommunityShowcase: React.FC = () => {
         <div className="container mx-auto px-4 mb-12">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              {t('community.title', 'Explore What\'s Possible')}
+              {t('community.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              {t('community.subtitle', 'See real applications built with Kliv by developers and creators worldwide')}
+              {t('community.subtitle')}
             </p>
           </div>
         </div>
@@ -141,7 +141,7 @@ const CommunityShowcase: React.FC = () => {
                 </div>
                 
                 <CardContent className="p-6">
-                  <div className="flex items-start justify-between mb-3">
+                  <div className="flex items-start justify-between mb-2">
                     <h3 className="text-xl font-semibold text-gray-900 line-clamp-1">
                       {app.name}
                     </h3>
@@ -150,7 +150,7 @@ const CommunityShowcase: React.FC = () => {
                     </Button>
                   </div>
                   
-                  <p className="text-gray-600 mb-4 line-clamp-2 text-sm leading-relaxed">
+                  <p className="text-gray-600 mb-3 line-clamp-2 text-sm leading-relaxed">
                     {app.description}
                   </p>
                   
@@ -158,7 +158,7 @@ const CommunityShowcase: React.FC = () => {
                     <span className="rounded-full bg-gray-200 w-6 h-6 flex items-center justify-center mr-2 text-xs font-bold uppercase text-gray-700">
                       {app.organizationName?.[0] || '?'}
                     </span>
-                    <span className="font-medium">by {app.organizationName}</span>
+                    <span className="font-medium">{t('community.by')} {app.organizationName}</span>
                   </div>
                 </CardContent>
               </Card>
