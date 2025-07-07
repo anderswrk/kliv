@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate-sitemap && vite build",
-    "build:dev": "npm run generate-sitemap && vite build --mode development",
+    "build": "npm run generate-sitemap && npm run generate-inspiration && vite build",
+    "build:dev": "npm run generate-sitemap && npm run generate-inspiration && vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-sitemap": "node scripts/generate-sitemap.js",
+    "generate-inspiration": "node scripts/generate-inspiration-data.js",
     "build:sitemap": "npm run generate-sitemap && npm run build"
   },
   "dependencies": {

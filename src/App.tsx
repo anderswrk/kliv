@@ -17,6 +17,7 @@ import { Signup } from "./pages/Signup";
 import Login from "./pages/Login";
 import { NotFound } from "./pages/NotFound";
 import { DynamicLandingPage } from "./pages/DynamicLandingPage";
+import { Inspiration } from "./pages/Inspiration";
 import "./i18n";
 
 const queryClient = new QueryClient();
@@ -43,6 +44,7 @@ const App = () => (
             <Route path="/:lang/security" element={<LanguageRouter><Security /></LanguageRouter>} />
             <Route path="/:lang/signup" element={<LanguageRouter><Signup /></LanguageRouter>} />
             <Route path="/:lang/login" element={<LanguageRouter><Login /></LanguageRouter>} />
+            <Route path="/:lang/inspiration" element={<LanguageRouter><Inspiration /></LanguageRouter>} />
             
             {/* Dynamic landing pages - two levels deep */}
             <Route path="/:lang/:category/:subcategory" element={<LanguageRouter><DynamicLandingPage /></LanguageRouter>} />
@@ -60,6 +62,7 @@ const App = () => (
             <Route path="/security" element={<LanguageRouter><Security /></LanguageRouter>} />
             <Route path="/signup" element={<LanguageRouter><Signup /></LanguageRouter>} />
             <Route path="/login" element={<LanguageRouter><Login /></LanguageRouter>} />
+            <Route path="/inspiration" element={<LanguageRouter><Inspiration /></LanguageRouter>} />
             
             {/* Catch-all for 404 */}
             <Route path="*" element={<LanguageRouter><NotFound /></LanguageRouter>} />

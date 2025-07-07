@@ -22,7 +22,8 @@ const STATIC_PAGES = [
   'terms',
   'security',
   'signup',
-  'login'
+  'login',
+  'inspiration'
 ];
 
 // Function to get all landing page files
