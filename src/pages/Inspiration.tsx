@@ -84,138 +84,150 @@ export const Inspiration = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
+      <div className="min-h-screen bg-background">
         <Header />
-        <div className="container mx-auto px-4 py-16">
-          <div className="text-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mx-auto"></div>
-            <p className="mt-4 text-gray-600">Loading inspiration...</p>
+        <main className="pt-24">
+          <div className="container mx-auto px-4 py-16">
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto"></div>
+              <p className="mt-4 text-muted-foreground">{t('inspiration.loadingInspiration')}</p>
+            </div>
           </div>
-        </div>
+        </main>
         <Footer />
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
+    <div className="min-h-screen bg-background">
       <Header />
       
-      {/* Hero Section */}
-      <section className="py-16 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <div className="flex items-center justify-center mb-4">
-            <Lightbulb className="h-12 w-12 mr-4" />
-            <h1 className="text-4xl md:text-6xl font-bold">
-              App Inspiration
-            </h1>
-          </div>
-          <p className="text-xl md:text-2xl mb-8 opacity-90">
-            Discover {totalPages} app ideas across {categories.length} categories
-          </p>
-          <p className="text-lg opacity-80 max-w-2xl mx-auto">
-            Browse our collection of app concepts to spark your next project. Each idea comes with detailed features and implementation suggestions.
-          </p>
-        </div>
-      </section>
-
-      {/* Search and Filter Section */}
-      <section className="py-8 bg-white border-b">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
-            <div className="relative flex-1 max-w-md">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
-              <Input
-                type="text"
-                placeholder="Search apps..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="pl-10"
-              />
+      <main className="pt-24">
+        {/* Header */}
+        <div className="border-b border-border bg-muted/30 pt-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div className="max-w-3xl mx-auto text-center">
+              <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
+                <Lightbulb className="w-4 h-4 mr-2 text-primary" />
+                <span className="text-sm font-medium text-primary">{t('inspiration.badge')}</span>
+              </div>
+              <h1 className="text-4xl sm:text-5xl font-bold mb-4">
+                {t('inspiration.title')}
+              </h1>
+              <p className="text-xl text-muted-foreground mb-8">
+                {t('inspiration.subtitle')}
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 items-center justify-center text-sm text-muted-foreground">
+                <span>{t('inspiration.appsCount', { count: totalPages })}</span>
+                <span className="hidden sm:inline">•</span>
+                <span>{t('inspiration.categoriesCount', { count: categories.length })}</span>
+              </div>
+              <p className="text-muted-foreground mt-4">
+                {t('inspiration.description')}
+              </p>
             </div>
-            
-            <div className="flex gap-2 flex-wrap">
-              <Button
-                variant={selectedCategory === 'all' ? 'default' : 'outline'}
-                onClick={() => setSelectedCategory('all')}
-                size="sm"
-              >
-                All Categories
-              </Button>
-              {categories.map(category => (
+          </div>
+        </div>
+
+        {/* Search and Filter Section */}
+        <section className="py-8 bg-background border-b border-border">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
+              <div className="relative flex-1 max-w-md">
+                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
+                <Input
+                  type="text"
+                  placeholder={t('inspiration.searchPlaceholder')}
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="pl-10"
+                />
+              </div>
+              
+              <div className="flex gap-2 flex-wrap">
                 <Button
-                  key={category}
-                  variant={selectedCategory === inspirationData[category].slug ? 'default' : 'outline'}
-                  onClick={() => setSelectedCategory(inspirationData[category].slug)}
+                  variant={selectedCategory === 'all' ? 'default' : 'outline'}
+                  onClick={() => setSelectedCategory('all')}
                   size="sm"
                 >
-                  {category}
+                  {t('inspiration.allCategories')}
                 </Button>
-              ))}
+                {categories.map(category => (
+                  <Button
+                    key={category}
+                    variant={selectedCategory === inspirationData[category].slug ? 'default' : 'outline'}
+                    onClick={() => setSelectedCategory(inspirationData[category].slug)}
+                    size="sm"
+                  >
+                    {category}
+                  </Button>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Content Section */}
-      <section className="py-12">
-        <div className="container mx-auto px-4">
-          {Object.keys(filteredData).length === 0 ? (
-            <div className="text-center py-16">
-              <p className="text-gray-600 text-lg">No apps found matching your search.</p>
-            </div>
-          ) : (
-            Object.entries(filteredData).map(([categoryName, categoryData]) => (
-              <div key={categoryName} className="mb-12">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                  {categoryName}
-                  <span className="text-lg font-normal text-gray-500 ml-2">
-                    ({categoryData.pages.length} apps)
-                  </span>
-                </h2>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {categoryData.pages.map((page) => (
-                    <Card key={page.slug} className="hover:shadow-lg transition-shadow duration-200">
-                      <CardHeader>
-                        <CardTitle className="flex items-start justify-between">
-                          <span className="text-lg">{page.title}</span>
-                          <ExternalLink className="h-4 w-4 text-gray-400 flex-shrink-0 ml-2" />
-                        </CardTitle>
-                        <CardDescription className="text-sm">
-                          {page.description}
-                        </CardDescription>
-                      </CardHeader>
-                      <CardContent>
-                        {page.tags.length > 0 && (
-                          <div className="flex flex-wrap gap-1 mb-4">
-                            {page.tags.slice(0, 3).map((tag, index) => (
-                              <Badge key={index} variant="secondary" className="text-xs">
-                                {tag}
-                              </Badge>
-                            ))}
-                            {page.tags.length > 3 && (
-                              <Badge variant="outline" className="text-xs">
-                                +{page.tags.length - 3}
-                              </Badge>
-                            )}
-                          </div>
-                        )}
-                        
-                        <LocalizedLink to={page.url}>
-                          <Button className="w-full" variant="outline">
-                            View Details
-                          </Button>
-                        </LocalizedLink>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </div>
+        {/* Content Section */}
+        <section className="py-12">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            {Object.keys(filteredData).length === 0 ? (
+              <div className="text-center py-16">
+                <p className="text-muted-foreground text-lg">{t('inspiration.noAppsFound')}</p>
               </div>
-            ))
-          )}
-        </div>
-      </section>
+            ) : (
+              Object.entries(filteredData).map(([categoryName, categoryData]) => (
+                <div key={categoryName} className="mb-12">
+                  <h2 className="text-3xl font-bold mb-6 text-foreground">
+                    {categoryName}
+                    <span className="text-lg font-normal text-muted-foreground ml-2">
+                      ({categoryData.pages.length} apps)
+                    </span>
+                  </h2>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {categoryData.pages.map((page) => (
+                      <Card key={page.slug} className="hover:shadow-lg transition-shadow duration-200 border-border">
+                        <CardHeader>
+                          <CardTitle className="flex items-start justify-between">
+                            <span className="text-lg">{page.title}</span>
+                            <ExternalLink className="h-4 w-4 text-muted-foreground flex-shrink-0 ml-2" />
+                          </CardTitle>
+                          <CardDescription className="text-sm">
+                            {page.description}
+                          </CardDescription>
+                        </CardHeader>
+                        <CardContent>
+                          {page.tags.length > 0 && (
+                            <div className="flex flex-wrap gap-1 mb-4">
+                              {page.tags.slice(0, 3).map((tag, index) => (
+                                <Badge key={index} variant="secondary" className="text-xs">
+                                  {tag}
+                                </Badge>
+                              ))}
+                              {page.tags.length > 3 && (
+                                <Badge variant="outline" className="text-xs">
+                                  +{page.tags.length - 3}
+                                </Badge>
+                              )}
+                            </div>
+                          )}
+                          
+                          <LocalizedLink to={page.url}>
+                            <Button className="w-full" variant="outline">
+                              {t('inspiration.viewDetails')}
+                            </Button>
+                          </LocalizedLink>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+        </section>
+      </main>
 
       <Footer />
     </div>
