@@ -55,6 +55,12 @@ export const Inspiration = () => {
     loadInspirationData();
   }, [lang]);
 
+  // Function to get translated category name
+  const getTranslatedCategoryName = (categoryName: string) => {
+    const categoryKey = categoryName.replace(/\s+/g, ' ').replace(/&/g, 'And');
+    return t(`inspiration.categories.${categoryKey}`, { defaultValue: categoryName });
+  };
+
   // Filter pages based on search term and category
   const filteredData = React.useMemo(() => {
     const filtered: InspirationData = {};
@@ -160,7 +166,7 @@ export const Inspiration = () => {
                     onClick={() => setSelectedCategory(inspirationData[category].slug)}
                     size="sm"
                   >
-                    {category}
+                    {getTranslatedCategoryName(category)}
                   </Button>
                 ))}
               </div>
@@ -179,9 +185,9 @@ export const Inspiration = () => {
               Object.entries(filteredData).map(([categoryName, categoryData]) => (
                 <div key={categoryName} className="mb-12">
                   <h2 className="text-3xl font-bold mb-6 text-foreground">
-                    {categoryName}
+                    {getTranslatedCategoryName(categoryName)}
                     <span className="text-lg font-normal text-muted-foreground ml-2">
-                      ({categoryData.pages.length} apps)
+                      ({categoryData.pages.length} ideas)
                     </span>
                   </h2>
                   
