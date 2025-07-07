@@ -38,6 +38,14 @@ export function Footer() {
                   {t('footer.pricing')}
                 </LocalizedLink>
               </li>
+              <li>
+                <LocalizedLink 
+                  to="/inspiration" 
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {t('footer.inspiration')}
+                </LocalizedLink>
+              </li>
             </ul>
           </div>
 
