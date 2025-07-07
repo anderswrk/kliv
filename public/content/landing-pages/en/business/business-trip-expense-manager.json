@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a business trip expense manager that allows employees to upload receipts, categorize expenses, submit for approval, and track reimbursement status.",
+  "description": "Build custom business trip expense management applications tailored to your company's policy and workflow.",
+  "hero": {
+    "cta": "Start Managing Expenses",
+    "subtitle": "Eliminate manual expense reports, streamline approvals, and gain real-time visibility into business travel spending with your own custom app.",
+    "title": "Build your own business trip expense manager"
+  },
+  "metaDescription": "Create powerful, custom business trip expense managers with Kliv. Streamline approvals, track spending, and ensure policy compliance.",
+  "sections": [
+    {
+      "title": "Why build a custom expense manager?",
+      "type": "text",
+      "content": "Off-the-shelf expense management software often comes with rigid templates, hidden fees, and features you don't need, while lacking the ones you do. Your company's expense policies, approval workflows, and accounting integrations are unique. Why force them into a generic box?\n\nBuilding your own expense manager with Kliv means you get a system that perfectly aligns with your financial processes, audit requirements, and employee experience expectations. It's about efficiency, compliance, and saving money on recurring software subscriptions."
+    },
+    {
+      "title": "The strategic advantage of tailored expense solutions",
+      "type": "markdown",
+      "content": "## Common challenges with generic expense tools\n\nMany organizations struggle with existing expense management systems because they:\n\n- **Lack customization:** Unable to adapt to specific company policies, approval hierarchies, or accounting codes.\n- **Are overly complex:** Too many features, confusing interfaces, leading to low adoption rates and errors.\n- **Incur high recurring costs:** Monthly or annual subscriptions that add up, especially for larger teams.\n- **Offer poor integration:** Difficult to connect seamlessly with existing ERP, accounting, or HR systems.\n- **Provide limited reporting:** Generic reports that don't offer the detailed insights needed for strategic financial planning.\n\n## Why a custom-built solution excels\n\nLeveraging platforms like Kliv to build your own expense manager provides a significant competitive edge:\n\n### Policy-driven automation\nDesign rules directly into the system that enforce your specific expense policies, flagging out-of-policy spending instantly. This reduces manual reviews and ensures compliance without human oversight.\n\n### Seamless integration with your tech stack\nConnect directly to your existing accounting software (e.g., QuickBooks, SAP, Oracle Financials), payroll systems, and CRM. Automate data transfer, eliminate manual entry, and reduce reconciliation errors.\n\n### Optimized approval workflows\nDefine multi-level approval chains based on expense amount, department, project, or employee role. Automate notifications and reminders to keep reimbursements moving quickly.\n\n### Superior user experience\nBuild an intuitive interface that makes submitting expenses fast and easy for your employees, reducing frustration and increasing timely submissions. Capture receipts via mobile, auto-categorize, and pre-fill forms.\n\n### Granular financial insights\nGenerate custom reports that provide specific breakdowns of spending by department, project, trip, or vendor. Understand where company money goes in detail, enabling better budgeting and cost control.\n\n### Cost efficiency and ownership\nInvest once in a solution that you own and control. Avoid perpetual subscription fees and unexpected price hikes, making your financial operations more predictable.\n\n## Transform your financial operations\n\nCustom expense managers are not just about processing receipts; they are strategic tools that enforce financial discipline, improve cash flow visibility, and empower employees. Imagine a system that automatically:\n\n- **Audits expenses** against pre-defined rules.\n- **Allocates costs** to specific projects or clients.\n- **Notifies employees** of policy violations or missing information.\n- **Generates reimbursement files** for direct deposit.\n- **Provides real-time dashboards** for finance teams and department heads.\n\nWith Kliv's AI-assisted development, building this powerful, tailored solution is within reach without needing a team of dedicated developers."
+    },
+    {
+      "title": "Expense manager ideas to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Streamline employee expense submission and approval",
+          "prompt": "Create an expense management system where employees can upload receipt photos, categorize expenses, add notes, and submit for approval. The system should notify managers for approval and employees about reimbursement status.",
+          "title": "Basic Employee Expense Reporter"
+        },
+        {
+          "description": "Automate per diem calculations and tracking",
+          "prompt": "Build an expense manager that automatically calculates per diem allowances based on trip duration and location. Employees should be able to log trip details, and the system auto-generates per diem expenses according to company policy.",
+          "title": "Per Diem Calculator & Tracker"
+        },
+        {
+          "description": "Manage project-specific budgets and spending",
+          "prompt": "Develop an expense tracking tool for projects, allowing expenses to be tagged to specific project codes. It should provide real-time budget vs. actual spending reports for each project and alert project managers if limits are approached.",
+          "title": "Project Expense Allocator"
+        },
+        {
+          "description": "Simplify supplier invoice processing and payment",
+          "prompt": "Design a system for managing supplier invoices, including capturing invoice details, routing for internal approval, and tracking payment status. It needs to integrate with our current accounting system for ledger posting.",
+          "title": "Supplier Invoice Workflow"
+        },
+        {
+          "description": "Comprehensive travel and entertainment expense system",
+          "prompt": "Create a robust T&E platform where employees can request travel, submit itineraries, manage all associated expenses (airfare, hotel, meals), and track the entire trip's cost against a pre-approved budget. Include multi-level approvals.",
+          "title": "Advanced T&E Management"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your expense manager",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add capabilities for employees to request advances for business trips, track advance balances, and reconcile against submitted expenses.",
+          "title": "Pre-trip advance requests"
+        },
+        {
+          "prompt": "Implement a real-time analytics dashboard for finance managers, showing total spending by category, department, and individuals, with customizable date ranges.",
+          "title": "Custom spending analytics dashboard"
+        },
+        {
+          "prompt": "Integrate with a corporate credit card provider to automatically import transactions, allowing employees to simply match receipts to existing card charges.",
+          "title": "Corporate card integration"
+        },
+        {
+          "prompt": "Develop a fraud detection module that flags unusual spending patterns, duplicate receipts, or policy violations using AI.",
+          "title": "AI-powered fraud detection"
+        },
+        {
+          "prompt": "Enable multi-currency support and automatic exchange rate conversion for international business trips.",
+          "title": "Multi-currency expense handling"
+        },
+        {
+          "prompt": "Add a feature for OCR (Optical Character Recognition) to automatically extract data from uploaded receipt images, such as vendor, date, and amount.",
+          "title": "OCR for receipt scanning"
+        },
+        {
+          "prompt": "Create custom reporting features that allow users to generate reports for tax purposes, department budgeting, or specific project audits.",
+          "title": "Advanced compliance reporting"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Capture expenses quickly via mobile, web, or email with receipt uploads.",
+          "icon": "📸",
+          "title": "Digital Receipt Capture"
+        },
+        {
+          "description": "Define and automate complex multi-level approval workflows specific to your company's hierarchy.",
+          "icon": "✅",
+          "title": "Configurable Approvals"
+        },
+        {
+          "description": "Automatically categorize expenses based on rules and ensure adherence to company spending policies.",
+          "icon": "🏷️",
+          "title": "Policy Compliance Enforcement"
+        },
+        {
+          "description": "Seamlessly exchange data with existing accounting, ERP, and HR systems.",
+          "icon": "↔️",
+          "title": "System Integrations"
+        },
+        {
+          "description": "Gain real-time insights into spending with customizable dashboards and detailed reports.",
+          "icon": "📈",
+          "title": "Financial Reporting & Analytics"
+        },
+        {
+          "description": "Track the status of submissions and reimbursements with clear visibility for both employees and finance teams.",
+          "icon": "🔎",
+          "title": "Reimbursement Tracking"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Using Kliv, you can design a working prototype of your expense manager in a few hours, and have a fully functional version optimized for your business within days or a couple of weeks, depending on complexity.",
+          "question": "How quickly can I build a custom expense manager?"
+        },
+        {
+          "answer": "No, extensive coding is not required. Kliv uses AI to help you define and build your application based on your natural language descriptions of features and workflows. It's designed for business users and innovators.",
+          "question": "Do I need to be a developer or coder to build this?"
+        },
+        {
+          "answer": "Absolutely. Kliv-built applications are designed for seamless integration. You can connect your custom expense manager to existing accounting systems (like QuickBooks, Xero, SAP), HR platforms, and even CRM tools to ensure data fluidity.",
+          "question": "Can the custom expense manager integrate with my existing accounting software?"
+        },
+        {
+          "answer": "You own 100% of the application you build, including the code and all associated data. You have complete control over where it's hosted and how it evolves, ensuring data security and long-term flexibility.",
+          "question": "Who owns the software and data once it's built?"
+        },
+        {
+          "answer": "In the long run, building a custom solution can be significantly more cost-effective. While SaaS models involve perpetual subscription fees, a custom solution is a one-time development investment tailored to your exact needs, often saving substantial costs annually.",
+          "question": "Is building my own expense manager cheaper than buying off-the-shelf software?"
+        },
+        {
+          "answer": "Yes, flexibility is a core benefit. Your custom expense manager can be modified, updated, and scaled as your company's policies, size, or technological needs change. You're not rigid and dependent on a vendor's update schedule.",
+          "question": "Can I easily update or change the system as my company grows?"
+        },
+        {
+          "answer": "Kliv helps you generate secure, robust applications. You maintain full control over security configurations, data encryption, and access permissions, often resulting in a more secure environment than relying on a third-party's shared infrastructure.",
+          "question": "How secure will my custom expense manager be?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your expenses?",
+      "type": "cta",
+      "content": "Stop overpaying for generic software. Build an expense management solution that truly understands your business. Start building with Kliv today."
+    }
+  ],
+  "title": "Business Trip Expense Manager",
+  "_metadata": {
+    "generatedAt": "2025-07-06T21:55:01.021Z",
+    "category": "business",
+    "topic": "business-trip-expense-manager",
+    "language": "en",
+    "languageName": "English",
+    "schemaEnforced": true,
+    "model": "google/gemini-2.5-flash-preview-05-20"
+  }
+}

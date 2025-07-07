@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a business card management application that allows users to scan cards, extract contact information, categorize contacts, and export data.",
+  "description": "Build custom business card management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start organizing",
+    "subtitle": "Transform your physical business cards into a searchable, actionable digital database with a tailored application.",
+    "title": "Build your own business card management app"
+  },
+  "metaDescription": "Create powerful, custom business card management tools with Kliv. Scan, digitize, and organize your contacts efficiently with a bespoke application.",
+  "sections": [
+    {
+      "title": "Why a custom business card app?",
+      "type": "text",
+      "content": "In today's digital age, physical business cards still serve a vital role in networking. However, manually transcribing them or relying on generic scanning apps often leads to disorganization, data loss, and missed opportunities. Building a custom business card management application ensures your invaluable contacts are always accessible, searchable, and integrated into your workflow. Unlike off-the-shelf solutions, a bespoke app perfectly aligns with your specific organizational needs, data privacy requirements, and integration preferences, freeing you from recurring subscription fees and feature limitations."
+    },
+    {
+      "title": "The power of a personalized contact system",
+      "type": "markdown",
+      "content": "## Overcoming the limitations of generic apps\n\nMany professionals use basic scanning apps or keep stacks of cards that quickly become overwhelming. Generic solutions often fall short:\n\n- **Inaccurate OCR**: Leading to manual corrections and wasted time.\n- **Limited categorization**: Making it hard to find specific contacts later.\n- **Poor integration**: Contacts remain isolated from your CRM or email marketing tools.\n- **Data privacy concerns**: Who truly owns your digitized contacts?\n- **Recurring costs**: Monthly fees for basic functionality.\n\n## Why a tailored solution is superior\n\nWith Kliv, you can create a business card management application that truly serves your unique requirements:\n\n### Precision data capture\nDevelop an app with advanced OCR capabilities trained on your specific card types or industry jargon, ensuring higher accuracy in data extraction.\n\n### intelligent organization\nImplement custom tags, categories, and smart search filters that reflect how *you* think about your contacts, not how a generic app forces you to.\n\n### Seamless integration\nConnect your app directly to your CRM, email campaigns, project management software, or any other system you use, creating a unified contact hub.\n\n### Data ownership and security\nHost your application and data where you choose, giving you complete control over privacy, backups, and security protocols.\n\n### Cost-effectiveness\nAvoid ongoing subscription fees. A custom-built application is a one-time investment that provides long-term value and ownership.\n\n## Practical applications\n\nA custom business card management app can benefit various roles and industries:\n\n**Sales Professionals**: Instantly digitize leads from conferences, tag them by event, product interest, or follow-up priority, and push directly to Salesforce.\n\n**Event Organizers**: Rapidly scan attendee cards, categorize by interest, and segment for post-event communication or future event invitations.\n\n**Consultants**: Build a living rolodex of client and partner contacts, searchable by industry, expertise, or project association.\n\n**Small Business Owners**: Keep track of vendor and supplier contacts, easily export for email lists or accounting software.\n\n## Fast-track your development with AI\n\nBuilding a sophisticated tool like this used to require dedicated developers and significant time. Kliv's AI platform simplifies the process:\n\n- **Natural language interface**: Describe the features you need, and the AI helps build them.\n- **Component-based design**: Assemble powerful modules for scanning, storage, and export.\n- **Intelligent suggestions**: Get recommendations for database structures, UI elements, and API integrations.\n- **Rapid iteration**: See and test your application's functionality in real-time, making adjustments on the fly.\n\nStart building the ultimate tool for managing your professional network today. It's time to unleash the power of your business card collection."
+    },
+    {
+      "title": "Business card app ideas to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a simple app for digitizing and searching business cards.",
+          "prompt": "Build a business card scanner app that uses OCR to extract contact details like name, company, title, email, and phone, and stores them in a searchable database.",
+          "title": "Basic Contact Digitizer"
+        },
+        {
+          "description": "Categorize and track follow-ups for new contacts.",
+          "prompt": "Develop an app that scans business cards, automatically tags contacts based on industry, and lets me set follow-up reminders and notes for each contact.",
+          "title": "Networking Event Tracker"
+        },
+        {
+          "description": "Integrate digitized cards directly into your CRM.",
+          "prompt": "I need a business card application that scans cards, extracts data, and directly pushes the new contact information into HubSpot or Salesforce, matching existing records or creating new ones.",
+          "title": "CRM Integration Tool"
+        },
+        {
+          "description": "Generate dynamic contact lists for email marketing.",
+          "prompt": "Create an app to manage business cards that can scan and store contacts, then allow me to categorize them and export a filtered list as a CSV for email marketing campaigns.",
+          "title": "Marketing List Builder"
+        },
+        {
+          "description": "Specialized app for managing vendor relationships.",
+          "prompt": "Design a business card management system for vendors, allowing me to scan their cards, add notes about their services, assign them to specific projects, and track contracts.",
+          "title": "Vendor Contact Manager"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your business card application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate the app with my Google Contacts or Outlook to sync new entries.",
+          "title": "Add cloud contact sync"
+        },
+        {
+          "prompt": "Implement a feature to generate QR codes for my own digital business card that others can scan.",
+          "title": "Create a digital business card"
+        },
+        {
+          "prompt": "Add a map view that shows the location of my contacts' companies.",
+          "title": "Include location mapping"
+        },
+        {
+          "prompt": "Allow users to attach photos or documents to each contact record.",
+          "title": "Enable file attachments"
+        },
+        {
+          "prompt": "Build a dashboard showing statistics like number of cards scanned per month, and breakdown by industry.",
+          "title": "Develop an analytics dashboard"
+        },
+        {
+          "prompt": "Add voice recognition so I can dictate notes for each contact after scanning their card.",
+          "title": "Integrate voice notes"
+        },
+        {
+          "prompt": "Implement a 'quick call' or 'quick email' button directly from the contact's page.",
+          "title": "Add direct communication features"
+        },
+        {
+          "prompt": "Allow users to create custom fields for contact data beyond standard fields (e.g., 'Last Met At', 'Referred By').",
+          "title": "Enable custom data fields"
+        }
+      ]
+    },
+    {
+      "title": "Key app capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Accurately extract names, companies, emails, and phone numbers from scanned cards.",
+          "icon": "📸",
+          "title": "Intelligent OCR Scanning"
+        },
+        {
+          "description": "Organize contacts with custom tags, categories, and searchable notes.",
+          "icon": "🏷️",
+          "title": "Custom Data Fields"
+        },
+        {
+          "description": "Export selected contacts to CSV, vCard, or directly to CRM systems.",
+          "icon": "📤",
+          "title": "Seamless Data Export"
+        },
+        {
+          "description": "Find any contact instantly using full-text search across all stored data.",
+          "icon": "🔍",
+          "title": "Advanced Search & Filter"
+        },
+        {
+          "description": "Set reminders for follow-ups, meetings, or important contact-related tasks.",
+          "icon": "⏰",
+          "title": "Integrated Reminders"
+        },
+        {
+          "description": "Ensure your contact data remains private and secure under your control.",
+          "icon": "🔐",
+          "title": "Data Ownership & Security"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic business card scanner app can be built in a few hours. Adding advanced features like CRM integration or custom analytics dashboards might extend the development to a few days.",
+          "question": "How long does it take to build a business card management app?"
+        },
+        {
+          "answer": "No coding experience is required. Kliv uses natural language processing, allowing you to describe your desired features, and the AI assists in building the application.",
+          "question": "Do I need to be a developer to build this type of app?"
+        },
+        {
+          "answer": "Yes, your custom app can integrate with virtually any third-party service that offers an API, including popular CRMs like Salesforce, HubSpot, or even accounting software and email marketing platforms.",
+          "question": "Can I integrate my custom app with existing business tools?"
+        },
+        {
+          "answer": "You own the application and all the data it collects. Kliv is a platform for building, not a host for your data, giving you complete control over your contact information.",
+          "question": "Who owns the data stored by my custom application?"
+        },
+        {
+          "answer": "Building a custom app typically involves a one-time investment, which can be significantly more cost-effective in the long run compared to recurring monthly subscriptions of commercial products, especially as your contact database grows.",
+          "question": "How does the cost compare to off-the-shelf business card apps?"
+        },
+        {
+          "answer": "Absolutely. The beauty of a custom application is its flexibility. You can easily add new features, integrate more services, or adapt its functionality as your business needs evolve.",
+          "question": "Can I modify or expand my application after it's built?"
+        }
+      ]
+    },
+    {
+      "title": "Transform your networking today!",
+      "type": "cta",
+      "content": "Stop losing valuable connections in disorganized piles. Build the perfect business card management solution tailored to your needs and keep your network productive."
+    }
+  ],
+  "title": "Business Card Management",
+  "_metadata": {
+    "generatedAt": "2025-07-06T21:52:09.927Z",
+    "category": "business",
+    "topic": "business-card-management",
+    "language": "en",
+    "languageName": "English",
+    "schemaEnforced": true,
+    "model": "google/gemini-2.5-flash-preview-05-20"
+  }
+}
