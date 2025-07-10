@@ -638,7 +638,7 @@ export function DynamicLandingPage() {
       <Header />
       
       {/* Breadcrumb Navigation */}
-      <div className="pt-20 bg-muted/20 border-b border-border">
+      <div className="pt-16 bg-muted/20 border-b border-border">
         <Breadcrumb items={getBreadcrumbItems()} lang={lang || 'en'} />
       </div>
       

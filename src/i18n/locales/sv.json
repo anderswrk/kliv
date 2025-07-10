@@ -2,112 +2,414 @@
   "nav": {
     "features": "Funktioner",
     "pricing": "Priser",
-    "about": "Om oss",
-    "careers": "Karriär",
-    "login": "Logga in",
-    "signup": "Kom igång",
+    "docs": "Dokumentation",
+    "blog": "Blogg",
+    "signIn": "Logga in",
+    "getStarted": "Kom igång",
     "inspiration": "Inspiration"
   },
   "hero": {
-    "title": "Bygg webbappar med AI",
-    "subtitle": "Skapa kraftfulla webbapplikationer med naturligt språk. Ingen kodning krävs.",
+    "title": "Bygg appar och webbsidor genom att chatta med AI",
+    "subtitle": "Beskriv din idé och se Kliv skapa en fullt fungerande applikation eller webbsida på några minuter. Ingen kodning krävs.",
+    "placeholder": "Beskriv appen eller webbsidan du vill bygga...",
+    "typingExamples": [
+      "En fantastisk e-handelsbutik med säkra betalningar",
+      "En interaktiv dashboard för realtidsanalys",
+      "En dynamisk blogg med rikt innehåll och kommentarer",
+      "En personlig träningsspårare med framstegsdiagram",
+      "En elegant portföljwebbplats för att visa upp ditt arbete",
+      "Ett robust bokningssystem för alla tjänster"
+    ],
+    "examples": {
+      "label": "Prova dessa exempel:",
+      "todo": "En att-göra-app med kategorier",
+      "dashboard": "En försäljningsdashboard med diagram",
+      "blog": "En personlig blogg med kommentarer",
+      "todoFull": "Skapa en vacker att-göra-applikation med dra-och-släpp-funktionalitet, färgkodade kategorier som Arbete, Personligt och Shopping, och smidiga animationer. Inkludera funktioner som prioritetsnivåer, förfallodatum och en ren dashboard som visar dina framsteg. Gör den responsiv så att den fungerar perfekt på både skrivbord och mobila enheter.",
+      "dashboardFull": "Bygg en fantastisk försäljningsanalys-dashboard med interaktiva diagram som visar intäktstrender, topppresterande produkter och kundinsikter. Inkludera vackra datavisualiseringar med stapeldiagram, linjediagram och cirkeldiagram som uppdateras i realtid. Lägg till filter för olika tidsperioder och exportfunktionalitet för rapporter.",
+      "blogFull": "Designa en modern personlig blogg med en ren, tidskriftsstil layout med rik textredigering, bildgallerier och sociala delningsknappar. Inkludera ett kommentarsystem där läsare kan engagera sig med dina inlägg, taggbaserad navigering och en sökfunktion. Gör den SEO-vänlig med vacker typografi och snabba laddningstider."
+    },
     "cta": "Börja bygga",
-    "inputLabel": "Beskriv vad du vill bygga:",
-    "placeholder": "Jag vill bygga en uppgiftshanteringsapp med användarautentisering, projektorganisation och teamsamarbetsfunktioner...",
-    "charactersCount": "tecken"
+    "watchDemo": "Se demo",
+    "badge": "AI-driven utveckling",
+    "inputLabel": "Beskriv din app- eller webbsideidé",
+    "charactersCount": "tecken",
+    "stats": {
+      "appsCreated": "Projekt skapade",
+      "buildTime": "Genomsnittlig byggtid",
+      "satisfaction": "Användarnöjdhet"
+    }
+  },
+  "community": {
+    "title": "Utforska vad som är möjligt",
+    "subtitle": "Se riktiga applikationer byggda med Kliv av utvecklare och skapare världen över",
+    "by": "av",
+    "viewAll": "Visa alla",
+    "preview": {
+      "useAsTemplate": "Använd som mall",
+      "close": "Stäng"
+    }
   },
   "features": {
-    "title": "Allt du behöver för att bygga fantastiska appar",
-    "subtitle": "Kliv tillhandahåller alla verktyg och funktioner du behöver för att skapa professionella webbapplikationer",
+    "title": "Allt du behöver för att bygga fantastiska appar och webbsidor",
+    "subtitle": "Kliv tillhandahåller en komplett utvecklingsmiljö driven av AI, vilket gör appskapande tillgängligt för alla.",
     "aiPowered": {
       "title": "AI-driven utveckling",
-      "description": "Beskriv din app på naturligt språk och se hur Kliv bygger den åt dig"
+      "description": "Vår avancerade AI förstår dina krav och genererar ren, produktionsklar kod automatiskt."
     },
-    "noCode": {
-      "title": "Ingen kod krävs",
-      "description": "Bygg komplexa applikationer utan att skriva en enda rad kod"
-    },
-    "realTime": {
+    "realtime": {
       "title": "Realtidsförhandsvisning",
-      "description": "Se dina ändringar direkt med vår liveförhandsvisningsfunktion"
+      "description": "Se din app eller webbsida komma till liv direkt när du chattar med AI:n. Ingen väntan, ingen kompilering."
     },
     "responsive": {
-      "title": "Responsiv design",
-      "description": "Dina appar fungerar perfekt på dator, surfplatta och mobila enheter"
+      "title": "Mobil-först design",
+      "description": "Varje projekt byggs med responsiva designprinciper och ser bra ut på alla enheter."
     },
-    "deployment": {
-      "title": "Enklicks-distribution",
-      "description": "Distribuera dina applikationer till webben med ett enda klick"
-    },
-    "collaboration": {
-      "title": "Teamsamarbete",
-      "description": "Arbeta tillsammans med ditt team i realtid"
+    "page": {
+      "badge": "Funktioner",
+      "title": "Kraftfulla funktioner för modern utveckling",
+      "subtitle": "Allt du behöver för att bygga, distribuera och hantera dina applikationer med AI-assistans.",
+      "core": {
+        "title": "Kärnfunktioner för utveckling",
+        "aiChat": {
+          "title": "AI-chattgränssnitt",
+          "description": "Chatta med Klivs AI för att beskriva dina idéer på vanlig svenska. AI:n förstår sammanhanget och bygger exakt det du föreställer dig."
+        },
+        "livePreview": {
+          "title": "Live-förhandsvisning",
+          "description": "Se dina ändringar direkt i förhandsvisningsfönstret medan du chattar. Titta på din app komma till liv i realtid utan kompileringsförseningar."
+        },
+        "codeGeneration": {
+          "title": "Smart kodgenerering",
+          "description": "Generera ren, underhållbar kod med React, TypeScript och Tailwind CSS. All kod följer branschens bästa praxis."
+        },
+        "responsive": {
+          "title": "Responsiv design",
+          "description": "Varje app byggs med mobil-först responsiva designprinciper, vilket säkerställer perfekt visning på alla enheter och skärmstorlekar."
+        }
+      },
+      "development": {
+        "title": "Utvecklingsverktyg",
+        "sourceCode": {
+          "title": "Källkodsåtkomst",
+          "description": "Visa och förstå ditt projekts källkod med den inbyggda kodvisaren. Växla sömlöst mellan chatt- och kodvyer."
+        },
+        "debugging": {
+          "title": "AI-driven felsökning",
+          "description": "Kliv kan komma åt konsolloggar och felsöka problem automatiskt, vilket hjälper dig att lösa problem utan teknisk kunskap."
+        },
+        "iterative": {
+          "title": "Iterativ utveckling",
+          "description": "Gör ändringar steg för steg. Kliv uppmuntrar att dela upp komplexa funktioner i hanterbara delar för bättre resultat."
+        },
+        "versionControl": {
+          "title": "Versionshistorik",
+          "description": "Återgå till vilken tidigare version av ditt projekt som helst med ett enda klick. Förlora aldrig dina framsteg eller förstör din app av misstag."
+        }
+      },
+      "deployment": {
+        "title": "Distribution och delning",
+        "oneClick": {
+          "title": "Ett-klicks publicering",
+          "description": "Distribuera din app till webben direkt med Klivs inbyggda hosting. Dela din skapelse med världen på sekunder."
+        },
+        "customDomain": {
+          "title": "Anpassade domäner",
+          "description": "Anslut ditt eget domännamn till din Kliv-app. Professionell hosting med SSL-certifikat inkluderat."
+        },
+        "github": {
+          "title": "GitHub-integration",
+          "description": "Exportera ditt projekt till GitHub och fortsätt utvecklingen med dina föredragna verktyg och arbetsflöden."
+        },
+        "remix": {
+          "title": "Projektremixing",
+          "description": "Forka och remixa befintliga projekt för att skapa nya variationer. Perfekt för lärande och att bygga vidare på befintliga idéer."
+        }
+      },
+      "technology": {
+        "title": "Modern teknikstack",
+        "react": {
+          "title": "React & TypeScript",
+          "description": "Byggt på de mest populära webbteknologierna. Dina appar använder React för UI och TypeScript för typsäkerhet."
+        },
+        "tailwind": {
+          "title": "Tailwind CSS",
+          "description": "Vacker, responsiv styling med Tailwind CSS. Skapa fantastiska designer utan att skriva anpassad CSS."
+        },
+        "shadcn": {
+          "title": "Shadcn UI-komponenter",
+          "description": "Tillgång till ett omfattande bibliotek av förbyggda, tillgängliga UI-komponenter för snabb utveckling."
+        },
+        "supabase": {
+          "title": "Supabase-integration",
+          "description": "Lägg till databaser, autentisering och backend-funktionalitet med inbyggd Supabase-integration."
+        }
+      }
     }
   },
   "pricing": {
-    "title": "Enkel, transparent prissättning",
-    "subtitle": "Välj den plan som passar dig",
-    "free": {
-      "title": "Gratis",
-      "price": "0 kr",
-      "description": "Perfekt för att komma igång",
-      "features": [
-        "3 projekt",
-        "Grundläggande AI-assistans",
-        "Community-support",
-        "Standardmallar"
-      ]
+    "badge": "Priser",
+    "title": "Välj din plan",
+    "subtitle": "Börja bygga gratis, uppgradera när du behöver mer kraft",
+    "errorLoading": "Fel vid laddning av prisinformation",
+    "noPlansAvailable": "Inga planer tillgängliga för tillfället.",
+    "getStarted": "Kom igång",
+    "subscribe": "Prenumerera",
+    "contactUs": "Kontakta oss",
+    "free": "Gratis",
+    "custom": "Anpassad",
+    "customPricing": "Anpassad prissättning",
+    "donation": "Donation",
+    "startsAt": "Börjar på",
+    "perUnit": "per enhet",
+    "every": "varje",
+    "month": "månad",
+    "year": "år",
+    "week": "vecka",
+    "day": "dag",
+    "months": "månader",
+    "years": "år",
+    "weeks": "veckor",
+    "days": "dagar",
+    "testPlan": "Detta är en testplan",
+    "test": "Test",
+    "signupsDisabled": "Registreringar är inaktiverade för denna plan",
+    "disabled": "Inaktiverad"
+  },
+  "about": {
+    "badge": "Om oss",
+    "title": "Demokratisera apputveckling",
+    "subtitle": "Vi tror att alla ska kunna förverkliga sina idéer, oavsett teknisk bakgrund.",
+    "mission": {
+      "title": "Vårt uppdrag",
+      "paragraph1": "På Kliv har vi ett uppdrag att göra app- och webbsideutveckling tillgänglig för alla. Vi tror att bra idéer inte ska begränsas av tekniska hinder eller behovet av att lära sig komplexa programmeringsspråk.",
+      "paragraph2": "Vår AI-drivna plattform låter vem som helst beskriva sin vision på vanlig svenska och se den förvandlas till en fullt fungerande webbapplikation. Oavsett om du är en entreprenör med en startup-idé, en småföretagare som vill etablera en onlinenärvaro, eller någon som helt enkelt vill förverkliga ett kreativt projekt, är Kliv här för att hjälpa dig lyckas."
     },
-    "pro": {
-      "title": "Pro",
-      "price": "299 kr",
-      "description": "För seriösa byggare",
-      "features": [
-        "Obegränsade projekt",
-        "Avancerade AI-funktioner",
-        "Prioriterad support",
-        "Anpassade domäner",
-        "Teamsamarbete",
-        "Avancerad analys"
-      ]
+    "values": {
+      "accessibility": {
+        "title": "Tillgänglighet först",
+        "description": "Vi är engagerade i att bryta ner de tekniska barriärer som hindrar människor från att skapa digitala lösningar. Vår plattform är designad för att vara intuitiv och tillgänglig för användare på alla nivåer."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Vi använder banbrytande AI-teknik för att omvandla beskrivningar på naturligt språk till produktionsklar kod, vilket gör utvecklingsprocessen snabbare och mer intuitiv än någonsin tidigare."
+      },
+      "empowerment": {
+        "title": "Egenmakt",
+        "description": "Vi tror på att ge individer och företag möjlighet att ta kontroll över sin digitala närvaro utan att vara beroende av dyra utvecklingsteam eller långa inlärningskurvor."
+      },
+      "community": {
+        "title": "Gemenskap",
+        "description": "Vi bygger en gemenskap där skapare, entreprenörer och innovatörer kan förverkliga sina idéer och dela sina framgångshistorier med andra som precis börjar sin resa."
+      }
     },
-    "enterprise": {
-      "title": "Enterprise",
-      "price": "Anpassad",
-      "description": "För stora organisationer",
-      "features": [
-        "Allt i Pro",
-        "Anpassade integrationer",
-        "Dedikerad support",
-        "SLA-garanti",
-        "Avancerad säkerhet",
-        "Anpassad utbildning"
-      ]
+    "story": {
+      "title": "Vår historia",
+      "paragraph1": "Kliv föddes ur en enkel observation: alltför många bra idéer ser aldrig dagens ljus på grund av tekniska hinder. Vi såg begåvade entreprenörer, kreativa yrkesverksamma och företagare med briljanta koncept som hölls tillbaka av komplexiteten och kostnaden för traditionell mjukvaruutveckling.",
+      "paragraph2": "Vårt team av erfarna utvecklare och AI-forskare kom samman med en gemensam vision: tänk om vi kunde göra apputveckling så enkelt som att ha ett samtal? Tänk om vem som helst kunde beskriva sin idé på vanlig svenska och se den komma till liv omedelbart?",
+      "paragraph3": "Idag betjänar Kliv tusentals användare över hela världen, från soloentreprenörer som lanserar sin första startup till etablerade företag som utökar sin digitala närvaro. Varje projekt som byggs på vår plattform representerar någons dröm som blir verklighet, och det är det som driver oss framåt varje dag."
+    },
+    "technology": {
+      "title": "Byggt på modern teknik",
+      "paragraph1": "Bakom Klivs enkla gränssnitt ligger en sofistikerad teknikstack designad för tillförlitlighet, prestanda och skalbarhet. Varje applikation som byggs med Kliv använder branschstandardteknologier inklusive React, TypeScript och Tailwind CSS, vilket säkerställer att dina projekt byggs på en solid grund.",
+      "paragraph2": "Vår AI förstår inte bara vad du vill bygga, utan hur man bygger det på rätt sätt. Den genererar ren, underhållbar kod som följer bästa praxis, så dina applikationer är inte bara funktionella utan också professionella och redo för tillväxt.",
+      "paragraph3": "Med inbyggda integrationer för databaser, autentisering och distribution ger Kliv allt du behöver för att gå från idé till live-applikation utan komplexiteten av att hantera flera verktyg och tjänster."
     }
   },
+  "careers": {
+    "badge": "Karriärer",
+    "title": "Gå med i vårt uppdrag",
+    "subtitle": "Hjälp oss att demokratisera apputveckling och stärka skapare över hela världen.",
+    "intro": {
+      "paragraph1": "På Kliv bygger vi framtiden för mjukvaruutveckling. Vår AI-drivna plattform förändrar hur människor skapar applikationer och gör utveckling tillgänglig för alla oavsett teknisk bakgrund.",
+      "paragraph2": "Vi är en snabbt växande startup som stöds av ledande investerare och betjänar tusentals användare över hela världen. Gå med i vårt remote-first team och hjälp till att forma nästa generation utvecklingsverktyg."
+    },
+    "culture": {
+      "title": "Vår kultur",
+      "remote": {
+        "title": "Remote-först",
+        "description": "Arbeta var som helst i världen. Vi tror att stor talang inte begränsas av geografi."
+      },
+      "growth": {
+        "title": "Tillväxttänk",
+        "description": "Vi investerar i vårt teams utveckling och uppmuntrar kontinuerligt lärande och experimenterande."
+      },
+      "impact": {
+        "title": "Hög påverkan",
+        "description": "Ditt arbete påverkar direkt tusentals skapare och entreprenörer som bygger sina drömmar."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Vi är i framkant av AI och utvecklingsverktyg och driver gränserna för vad som är möjligt."
+      }
+    },
+    "openings": {
+      "title": "Lediga tjänster",
+      "subtitle": "Alla tjänster är helt remote. Flyt i engelska krävs för alla roller.",
+      "apply": "För att ansöka, mejla oss på",
+      "email": "careers@kliv.dev",
+      "include": "Vänligen bifoga ditt CV och ett kort personligt brev som förklarar varför du är intresserad av rollen."
+    }
+  },
+  "terms": {
+    "badge": "Användarvillkor",
+    "title": "Användarvillkor",
+    "subtitle": "Läs dessa villkor noggrant innan du använder våra tjänster."
+  },
+  "privacy": {
+    "badge": "Integritetspolicy",
+    "title": "Din integritet är viktig",
+    "subtitle": "Vi är engagerade i att skydda dina data och vara transparenta om hur vi använder dem."
+  },
+  "security": {
+    "badge": "Säkerhet",
+    "title": "Datasäkerhet & Skydd",
+    "subtitle": "Lär dig om våra omfattande säkerhetsåtgärder och dataskyddspraxis."
+  },
   "footer": {
+    "description": "Bygg appar och webbsidor genom att chatta med AI. Ingen kodning krävs.",
     "product": "Produkt",
-    "company": "Företag",
-    "resources": "Resurser",
-    "legal": "Juridiskt",
     "features": "Funktioner",
     "pricing": "Priser",
+    "inspiration": "Inspiration",
+    "company": "Företag",
     "about": "Om oss",
-    "careers": "Karriär",
-    "blog": "Blogg",
-    "documentation": "Dokumentation",
+    "careers": "Karriärer",
     "support": "Support",
+    "contact": "Kontakt",
+    "serviceStatus": "Servicestatus",
+    "legal": "Juridiskt",
     "privacy": "Integritetspolicy",
     "terms": "Användarvillkor",
     "security": "Säkerhet",
     "copyright": "© 2024 Kliv. Alla rättigheter förbehållna."
   },
-  "breadcrumb": {
-    "allInspiration": "All inspiration"
+  "planContent": {
+    "products": {
+      "Basic Access": "Grundläggande åtkomst",
+      "Professional": "Professionell"
+    },
+    "plans": {
+      "Free": "Gratis",
+      "Professional": "Professionell",
+      "100 credits / month": "100 krediter / månad",
+      "200 credits / month": "200 krediter / månad",
+      "400 credits / month": "400 krediter / månad",
+      "Custom": "Anpassad"
+    },
+    "features": {
+      "Basic Access": "* Offentliga projekt\n* 5 dagliga krediter\n* Community-support",
+      "Professional": "Allt i Gratis, plus:\n* Obegränsade projekt\n* Ytterligare dagliga krediter\n* Prioriterad support\n* Anpassade domäner\n* Obegränsade användare",
+      "Custom": "* Enkel inloggning (SAML)\n* Anpassade integrationer\n* Dedikerad support\n* SLA-garanti"
+    }
   },
+  "tenantSignup": {
+    "getStarted": "Registrera dig",
+    "defaultTagline": "Skapa vackra webbappar med bara en prompt",
+    "step": "Steg {{step}} av {{total}}",
+    "email": "E-post",
+    "emailPlaceholder": "Ange din e-postadress",
+    "name": "Fullständigt namn",
+    "namePlaceholder": "Ange ditt fullständiga namn",
+    "password": "Lösenord",
+    "passwordPlaceholder": "Skapa ett lösenord",
+    "passwordConfirm": "Lösenord (igen)",
+    "passwordConfirmPlaceholder": "Ange lösenordet igen",
+    "passwordStrength": "Välj ett starkare lösenord.",
+    "passwordsDontMatch": "Lösenorden matchar inte.",
+    "companyName": "Företagsnamn",
+    "companyNamePlaceholder": "Företagsnamn",
+    "adminDomain": "Administratörsdomän",
+    "adminDomainPlaceholder": "mittforetag",
+    "adminDomainHint": "Detta är domänen du använder för att komma åt din adminportal och produkt tills du har konfigurerat en egen domän.",
+    "domainValidationError": "Domänen kan bara innehålla bokstäver, siffror och bindestreck.",
+    "signUpWithGoogle": "Registrera dig med Google",
+    "quickSignup": "Snabb registrering",
+    "googleSignupDescription": "Registrera dig direkt med ditt Google-konto",
+    "googleSignupTerms": "Genom att fortsätta godkänner du våra villkor och integritetspolicy",
+    "or": "eller",
+    "googleAuthError": "Det gick inte att autentisera med Google",
+    "ssoError": "Din organisation är redan konfigurerad med ett konto. Klicka <a href=\"/!saml/login/{{domain}}\">här</a> för att logga in eller kontakta din systemadministratör.",
+    "userExistsError": "Det finns redan en användare registrerad med den e-postadressen. Du kan använda funktionen för lösenordsåterställning på inloggningsskärmen för att återställa ditt lösenord.",
+    "next": "Nästa"
+  },
+  "login": {
+    "welcomeBack": "Välkommen tillbaka",
+    "enterCredentials": "Ange dina uppgifter för att komma åt ditt konto",
+    "or": "ELLER",
+    "logInButton": "Logga in",
+    "continueButton": "Fortsätt",
+    "continue": "Fortsätt",
+    "send": "Skicka",
+    "cancel": "Avbryt",
+    "returnToLogin": "Återgå till inloggning",
+    "logInWithoutSSO": "Logga in utan SSO",
+    "goToLoginButton": "Gå till inloggning",
+    "logInWithSSO": "Logga in med SSO",
+    "forgotPassword": "Glömt lösenord?",
+    "resetSuccess": "Ett meddelande har skickats till dig via e-post med instruktioner för att återställa ditt lösenord.",
+    "enterCode": "Ange 6-siffrig kod från din autentiseringsapp",
+    "reauthenticateWithSAML": "Vänligen autentisera om med din SSO-leverantör",
+    "pleaseReauthenticate": "Vänligen autentisera om för att fortsätta",
+    "welcomeBackWithName": "Välkommen tillbaka, {{knownFirstName}}",
+    "loginSchema": {
+      "email": "E-post",
+      "emailPlaceholder": "Ange din e-postadress",
+      "password": "Lösenord",
+      "passwordPlaceholder": "Ange ditt lösenord"
+    },
+    "recoverySchema": {
+      "email": "E-post",
+      "emailPlaceholder": "Ange din e-postadress",
+      "hint": "Vi skickar dig en länk för att återställa ditt lösenord"
+    },
+    "totpSchema": {
+      "code": "Autentiseringskod",
+      "enterDigitCode": "Ange 6-siffrig kod"
+    },
+    "ssoSchema": {
+      "email": "E-post",
+      "emailPlaceholder": "Ange din arbets-e-postadress",
+      "hint": "Vi omdirigerar dig till din organisations inloggningssida"
+    },
+    "signInWithGoogle": "Logga in med Google",
+    "continueWithGoogle": "Fortsätt med Google",
+    "signInWithMicrosoft": "Logga in med Microsoft",
+    "continueWithMicrosoft": "Fortsätt med Microsoft",
+    "signInWithPasskey": "Logga in med passkey",
+    "continueWithPasskey": "Fortsätt med passkey"
+  },
+  "Get Started Free": "Kom igång gratis",
   "landing": {
-    "attribution": "Detta innehåll genererades av Kliv AI, baserat på 20+ produktmönster inom arbetsflödesautomatiseringssektorn som vi byggt för kunder.",
+    "attribution": "Detta innehåll genererades av Kliv AI, baserat på 20+ produktmönster inom arbetsflödesautomatisering som vi byggt för kunder.",
     "usePrompt": "Använd denna prompt",
     "improvementDescription": "När du har ditt grundläggande automatiseringsverktyg kan du förbättra det med dessa ytterligare funktioner"
+  },
+  "inspiration": {
+    "badge": "Inspiration",
+    "title": "App-idéer",
+    "subtitle": "Utforska appkoncept organiserade efter kategori för att inspirera ditt nästa projekt.",
+    "searchPlaceholder": "Sök idéer...",
+    "allCategories": "Alla kategorier",
+    "noAppsFound": "Inga idéer hittades som matchar din sökning.",
+    "viewDetails": "Visa detaljer",
+    "loadingInspiration": "Laddar inspiration...",
+    "appsCount": "{{count}} app-idéer",
+    "categoriesCount": "{{count}} kategorier",
+    "description": "Varje idé kommer med detaljerade funktioner och implementeringsförslag.",
+    "categories": {
+      "Analytics": "Analys",
+      "Business": "Företag",
+      "Business Tools": "Företagsverktyg",
+      "Calendar And Scheduling": "Kalender & Schemaläggning",
+      "Community": "Gemenskap",
+      "Financial Services And Banking": "Finansiella tjänster",
+      "Health And Wellness": "Hälsa & Välbefinnande",
+      "Hospitality": "Gästfrihet",
+      "Lifestyle": "Livsstil"
+    }
+  },
+  "breadcrumb": {
+    "allInspiration": "All inspiration"
   }
 }
