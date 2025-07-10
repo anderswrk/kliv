@@ -18,6 +18,7 @@ import Login from "./pages/Login";
 import { NotFound } from "./pages/NotFound";
 import { DynamicLandingPage } from "./pages/DynamicLandingPage";
 import { Inspiration } from "./pages/Inspiration";
+import { CategoryPage } from "./pages/CategoryPage"; // Import the new CategoryPage
 import { initializeGclidTracking } from "./utils/gclid";
 import "./i18n";
 import { useEffect } from "react";
@@ -53,6 +54,7 @@ const App = () => {
               <Route path="/:lang/signup" element={<LanguageRouter><Signup /></LanguageRouter>} />
               <Route path="/:lang/login" element={<LanguageRouter><Login /></LanguageRouter>} />
               <Route path="/:lang/inspiration" element={<LanguageRouter><Inspiration /></LanguageRouter>} />
+              <Route path="/:lang/inspiration/:categorySlug" element={<LanguageRouter><CategoryPage /></LanguageRouter>} /> {/* New route for category pages */}
               
               {/* Dynamic landing pages - two levels deep */}
               <Route path="/:lang/:category/:subcategory" element={<LanguageRouter><DynamicLandingPage /></LanguageRouter>} />

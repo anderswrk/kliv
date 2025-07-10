@@ -137,7 +137,7 @@ export function DynamicLandingPage() {
         // If we have a subcategory, add category as intermediate step
         items.push({
           label: categoryDisplayName,
-          href: `/${lang}/inspiration/${category}`
+          href: `/${lang}/inspiration/${category}` // Link to the new CategoryPage
         });
         items.push({
           label: content?.title || formatCategoryName(subcategory)
