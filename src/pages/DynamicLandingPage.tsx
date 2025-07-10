@@ -10,6 +10,7 @@ import { Card } from '@/components/ui/card';
 import { ArrowRight, MessageSquare, Copy, ChevronDown, ChevronUp, Lightbulb } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { useTypingAnimation } from '@/hooks/useTypingAnimation';
 
 interface LandingPageContent {
   title: string;
@@ -51,7 +52,36 @@ export function DynamicLandingPage() {
   const [error, setError] = useState(false);
   const [message, setMessage] = useState('');
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
+  const [isInputFocused, setIsInputFocused] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  // Get prompt examples from the content
+  const getPromptExamples = () => {
+    if (!content) return [];
+    
+    const promptSection = content.sections.find(section => section.type === 'prompt-examples');
+    if (!promptSection?.items) return [];
+    
+    return promptSection.items
+      .filter(item => item.title && item.prompt)
+      .map(item => ({
+        short: item.title!,
+        full: item.prompt!
+      }));
+  };
+
+  const promptExamples = getPromptExamples();
+  
+  // Create typing examples from prompt examples
+  const typingTexts = promptExamples.map(example => example.full);
+  
+  const { displayText, stopAnimation, startAnimation, isActive } = useTypingAnimation({
+    texts: typingTexts,
+    typingSpeed: 80,
+    deletingSpeed: 40,
+    pauseDuration: 2000,
+    loop: true
+  });
 
   // Helper function to format category names for display
   const formatCategoryName = (categorySlug: string) => {
@@ -293,6 +323,7 @@ export function DynamicLandingPage() {
 
   const copyPrompt = (prompt: string) => {
     setMessage(prompt);
+    stopAnimation();
     // Scroll to the top of the page
     window.scrollTo({ top: 0, behavior: 'smooth' });
     // Focus the textarea after a short delay to allow scroll to complete
@@ -301,6 +332,48 @@ export function DynamicLandingPage() {
         textareaRef.current.focus();
       }
     }, 500);
+  };
+
+  const handleExampleClick = (example: { short: string; full: string }) => {
+    setMessage(example.full);
+    stopAnimation();
+    if (textareaRef.current) {
+      textareaRef.current.focus();
+    }
+  };
+
+  const handleInputFocus = () => {
+    setIsInputFocused(true);
+    stopAnimation();
+  };
+
+  const handleInputBlur = () => {
+    setIsInputFocused(false);
+    if (!message.trim()) {
+      startAnimation();
+    }
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setMessage(e.target.value);
+    if (e.target.value.trim() && isActive) {
+      stopAnimation();
+    } else if (!e.target.value.trim() && !isInputFocused) {
+      startAnimation();
+    }
+  };
+
+  // Determine what to show as placeholder
+  const getPlaceholder = () => {
+    if (isInputFocused || message.trim()) {
+      return t('hero.placeholder');
+    }
+    // Only show default placeholder if animation is completely inactive
+    // Otherwise show the animated text (even if empty during deletion)
+    if (!isActive) {
+      return t('hero.placeholder');
+    }
+    return displayText || '';
   };
 
   const toggleFaq = (index: number) => {
@@ -670,10 +743,15 @@ export function DynamicLandingPage() {
               </div>
             )}
 
-            {/* Text Input Box from Hero Section */}
+            {/* Text Input Box with Typing Animation */}
             <div className="max-w-4xl mx-auto">
               <Card className="p-8 bg-card border-2 border-border hover:border-primary/30 transition-all duration-300 shadow-lg hover:shadow-xl">
                 <div className="space-y-6">
+                  {/* Reinforcement text about building apps and websites */}
+                  <p className="text-sm text-muted-foreground text-center">
+                    {t('landing.buildPrompt', `Just enter your ${formatCategoryName(category || '')} idea into the text box and Kliv will build it for you`)}
+                  </p>
+                  
                   {/* Input Label */}
                   <div className="flex items-center gap-2 text-left">
                     <MessageSquare className="h-5 w-5 text-primary" />
@@ -686,9 +764,11 @@ export function DynamicLandingPage() {
                   <div className="relative">
                     <Textarea
                       ref={textareaRef}
-                      placeholder={t('hero.placeholder')}
+                      placeholder={getPlaceholder()}
                       value={message}
-                      onChange={(e) => setMessage(e.target.value)}
+                      onChange={handleInputChange}
+                      onFocus={handleInputFocus}
+                      onBlur={handleInputBlur}
                       className="min-h-[140px] text-lg resize-none border-2 border-input bg-background focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all duration-200 rounded-lg p-4"
                     />
                     {message.length > 0 && (
@@ -698,13 +778,31 @@ export function DynamicLandingPage() {
                     )}
                   </div>
                   
-                  <div className="flex justify-center">
+                  {/* Shortcut buttons and CTA */}
+                  <div className="flex flex-col sm:flex-row gap-4 items-center justify-between">
+                    {promptExamples.length > 0 && (
+                      <div className="flex flex-wrap gap-2 items-center">
+                        <span className="text-sm text-muted-foreground">
+                          {t('hero.examples.label')}
+                        </span>
+                        {promptExamples.slice(0, 3).map((example, index) => (
+                          <button
+                            key={index}
+                            onClick={() => handleExampleClick(example)}
+                            className="text-sm text-primary hover:text-primary/80 underline underline-offset-2 transition-colors px-2 py-1 rounded hover:bg-primary/5"
+                          >
+                            {example.short}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                    
                     <Button
                       onClick={handleStartBuilding}
                       size="lg"
                       className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 min-w-[160px]"
                     >
-                      {content?.hero.cta}
+                      {t('landing.askAiToBuild', 'Ask AI to build')}
                       <ArrowRight className="ml-2 h-5 w-5" />
                     </Button>
                   </div>
