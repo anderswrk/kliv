@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "Create a cross-platform video downloader and converter that supports multiple video platforms, allows selection of output formats (MP4, AVI, MOV), and has a simple user interface.",
+  "description": "Build custom video downloading and conversion tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your tool",
+    "subtitle": "Create custom video downloaders and converters tailored to your exact specifications, with rapid development and flexible deployment.",
+    "title": "Build your own video downloader and converter"
+  },
+  "metaDescription": "Develop powerful video downloading and conversion applications using Kliv. Customize features, support various formats, and ensure an optimal user experience.",
+  "sections": [
+    {
+      "title": "Why build your own video tool?",
+      "type": "text",
+      "content": "The digital landscape is flooded with generic video downloaders and converters, often packed with ads, limited features, or intrusive software. If you're a content creator, researcher, or developer, you know the frustration of tools that don't quite meet your needs.\n\nKliv empowers you to design and build exactly the video utility you envision. Whether it's a specific format, a unique download source, or integration with your existing workflow, a custom solution offers unparalleled control and performance. Forget recurring subscriptions for features you don't use, or battling software limitations. Build once, own it forever."
+    },
+    {
+      "title": "The case for custom video tools",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf solutions\n\nExisting video downloaders and converters frequently fall short:\n\n- **Limited platform support**: They often don't support niche or specific video sources.\n- **Format inflexibility**: You're stuck with predefined output formats, lacking advanced codecs or configurations.\n- **Advertisements & bloatware**: Many free tools come with unwanted bundled software or incessant ads.\n- **Security concerns**: Downloading executables from unknown sources can pose significant security risks.\n- **Lack of integration**: They rarely integrate seamlessly with professional editing suites or content management systems.\n\n## The advantages of a custom solution\n\nBuilding your own video tool with Kliv transforms these limitations into opportunities:\n\n### Precise Functionality\nDesign a tool that downloads from your preferred sources and converts to the exact formats and quality levels you need, including less common codecs or custom settings for specific devices or editing software.\n\n### Ad-Free & Clean Experience\nYour tool, your rules. No third-party ads, no bundled software, just pure functionality focused on performance and user experience.\n\n### Enhanced Security\nDevelop and deploy your application knowing exactly what's inside. You control the codebase, reducing exposure to malware or privacy breaches associated with untrusted downloads.\n\n### Seamless Workflow Integration\nBuild features that integrate directly with your production pipeline, automatically processing videos into required formats, naming conventions, or uploading to specific cloud storage.\n\n### Future-Proof & Scalable\nAs new video platforms emerge or formats change, you can update your tool to adapt. You're not waiting for a third-party developer to release an update; you control your destiny.\n\n### Monetization Potential\nFor developers, building a unique, high-quality video tool can open doors to new revenue streams, offering a premium alternative to existing free or ad-heavy options.\n\n## Real-world applications\n\nCustom video tools can serve various purposes:\n\n**Content Archiving**: Automatically download and convert public domain videos from specific online archives for research or historical preservation.\n\n**Educational Content Creation**: Teachers can download lecture videos from various sources and convert them into accessible formats for offline student use or re-editing.\n\n**Media Production Workflows**: Studios can create custom tools to pull footage from specific review platforms, automatically re-encode it to proxy formats, and ingest it into editing systems.\n\n**Personal Media Management**: Build a bespoke tool to curate family videos from multiple cloud sources, convert them to a unified archive format, and optimize for home media servers.\n\n## The Kliv Advantage\n\nKliv simplifies the development of complex applications like video downloaders and converters:\n\n- **AI-driven development**: Describe your requirements in simple language, and Kliv's AI assists in generating the core components.\n- **Pre-built modules**: Leverage existing modules for video parsing, format conversion, and user interface design.\n- **Rapid iteration**: Quickly prototype, test, and refine your tool based on immediate feedback.\n- **Cross-platform deployment**: Build applications that run on Windows, macOS, Linux, or even web-based interfaces."
+    },
+    {
+      "title": "Video tool ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Download videos from specific academic platforms in various resolutions.",
+          "prompt": "Create a video downloader focused on educational content, allowing users to select resolution and download from platforms like Coursera, Khan Academy, and YouTube Edu.",
+          "title": "Academic Video Downloader"
+        },
+        {
+          "description": "Convert video files into audio-only formats for podcasts or music.",
+          "prompt": "Build a video to audio converter that supports MP4, AVI, and MOV inputs, outputting to MP3, WAV, or FLAC formats with customizable bitrate options.",
+          "title": "Video to Audio Converter"
+        },
+        {
+          "description": "Automate downloading and conversion for archival purposes.",
+          "prompt": "Develop a tool to download public domain archival footage from specific historical video repositories and convert them into a long-term preservation format like FFV1.",
+          "title": "Archival Video Processor"
+        },
+        {
+          "description": "Batch process video files for consistent formatting across devices.",
+          "prompt": "Design a batch video converter for personal media libraries, allowing conversion of multiple video files to a standardized format (e.g., H.265 MP4) suitable for mobile devices and smart TVs.",
+          "title": "Personal Media Converter"
+        },
+        {
+          "description": "Extract specific duration segments from videos and convert them.",
+          "prompt": "Create a video segment extractor and converter, letting users define start and end times to cut a section of a video and convert only that part to a desired format.",
+          "title": "Video Clipper & Converter"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to automatically detect and remove commercials from downloaded TV show recordings.",
+          "title": "Automatic Commercial Remover"
+        },
+        {
+          "prompt": "Integrate a metadata editor to allow users to add or modify title, artist, genre, and album art for converted audio/video files.",
+          "title": "Metadata Tagging"
+        },
+        {
+          "prompt": "Implement a 'watch folder' feature where any video dropped into a specific folder is automatically downloaded or converted.",
+          "title": "Automated Watch Folder"
+        },
+        {
+          "prompt": "Add cloud storage integration (e.g., Google Drive, Dropbox) for direct upload of converted files.",
+          "title": "Cloud Storage Upload"
+        },
+        {
+          "prompt": "Develop a scheduled download feature to queue videos for downloading at off-peak hours.",
+          "title": "Scheduled Downloads"
+        },
+        {
+          "prompt": "Include a subtitle downloader feature that can fetch and embed subtitles for downloaded videos.",
+          "title": "Subtitle Integration"
+        },
+        {
+          "prompt": "Add a video quality upscaling or downscaling option using AI algorithms during conversion.",
+          "title": "AI Video Rescaler"
+        },
+        {
+          "prompt": "Build a user authentication system and profile management to store user presets and download history.",
+          "title": "User Profiles & History"
+        }
+      ]
+    },
+    {
+      "title": "Key Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Support for a wide range of input video sources and online platforms.",
+          "icon": "🌐",
+          "title": "Broad Platform Support"
+        },
+        {
+          "description": "Convert videos to and from popular and niche formats (MP4, AVI, MOV, MKV, MP3, WAV).",
+          "icon": "🔄",
+          "title": "Versatile Format Conversion"
+        },
+        {
+          "description": "Customize output quality, resolution, bitrate, and codec settings.",
+          "icon": "⚙️",
+          "title": "Advanced Output Control"
+        },
+        {
+          "description": "Process multiple video files simultaneously for efficiency.",
+          "icon": "📦",
+          "title": "Batch Processing"
+        },
+        {
+          "description": "Intuitive drag-and-drop interface for easy operation.",
+          "icon": "🖥️",
+          "title": "User-Friendly Interface"
+        },
+        {
+          "description": "Extract only the audio stream from video files.",
+          "icon": "🎵",
+          "title": "Audio Extraction"
+        },
+        {
+          "description": "Implement features for reliable and resume-able downloads.",
+          "icon": "⬇️",
+          "title": "Robust Download Engine"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom video downloader with Kliv can take anywhere from a few hours for a basic tool to a few days for a full-featured application with advanced conversions and integrations. The AI streamlines much of the common development tasks.",
+          "question": "How long does it take to build a video downloader/converter?"
+        },
+        {
+          "answer": "No, you do not need extensive coding skills. Kliv's platform allows you to describe your desired functionalities in natural language, and its AI assists in generating and structuring the application. You can always integrate custom code if advanced requirements arise.",
+          "question": "Do I need to be a programmer to build this type of tool?"
+        },
+        {
+          "answer": "Yes, your video tool can be designed to support virtually any platform with public video access or an API. Kliv helps you integrate the necessary components to parse video links and handle downloads from various sources.",
+          "question": "Can my custom tool download from YouTube, Vimeo, or other specific sites?"
+        },
+        {
+          "answer": "You have complete control over the output formats. Kliv supports integration with powerful media conversion libraries, allowing you to configure virtually any video or audio format and codec, not just the common ones.",
+          "question": "Are there limitations on the video formats I can convert to?"
+        },
+        {
+          "answer": "Yes, a custom tool can be designed to be cross-platform, meaning it can run on Windows, macOS, Linux, or even be developed as a web-based service, depending on your prompt and deployment choices.",
+          "question": "Can the built application run on different operating systems?"
+        },
+        {
+          "answer": "Compared to perpetual subscriptions for commercial software, building a one-time custom solution with Kliv is generally more cost-effective in the long run. There are no recurring fees for features you already own, only for the Kliv platform usage during development.",
+          "question": "How does the cost compare to buying commercial video software?"
+        },
+        {
+          "answer": "Absolutely. Since you own the code, you can modify, update, and add new features to your video tool at any point. This flexibility is a key advantage over off-the-shelf software.",
+          "question": "Can I update or add features to my video tool later?"
+        },
+        {
+          "answer": "Kliv provides robust tools for debugging and testing your application. The AI also offers suggestions for optimization and helps identify potential issues during the development process.",
+          "question": "What kind of support is available for ensuring the tool works correctly?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your custom video solution?",
+      "type": "cta",
+      "content": "Stop conforming to generic software. Design and deploy your ideal video downloader and converter with Kliv's powerful, AI-accelerated platform."
+    }
+  ],
+  "title": "Video downloader & converter"
+}

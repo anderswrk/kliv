@@ -1,0 +1,155 @@
+{
+  "defaultPrompt": "Create an AI-powered greeting card generator that allows users to describe an occasion, recipient, and desired tone, then generates unique, personalized card messages and design suggestions.",
+  "description": "Generate unique, personalized greeting card messages and design concepts instantly with AI.",
+  "hero": {
+    "cta": "Start creating cards",
+    "subtitle": "No more generic cards. Build an AI-powered tool to craft perfectly personalized greetings for any occasion and recipient.",
+    "title": "Build your own AI Greeting Card Generator"
+  },
+  "metaDescription": "Design and develop custom AI-powered greeting card generators with Kliv. Create bespoke messages, themes, and visual ideas for any event or individual.",
+  "sections": [
+    {
+      "title": "The Problem with Off-the-Shelf Greeting Cards",
+      "type": "text",
+      "content": "In a world striving for personalization, generic, mass-produced greeting cards often fall flat. They lack the genuine warmth, inside jokes, or specific sentiment needed to truly connect. While custom cards exist, they can be time-consuming and creatively demanding to produce.\n\nImagine a tool that understands the nuance of your relationships and the specifics of an occasion, then instantly drafts a heartfelt message and even suggests visual themes. This isn't just a convenience; it's a way to foster deeper connections and save valuable time when expressing care."
+    },
+    {
+      "title": "Why Build Your Own AI Greeting Card Generator?",
+      "type": "markdown",
+      "content": "## Beyond the Template: Why Custom is King\n\nExisting greeting card options, whether physical or digital, often present a false choice: tedious manual creation or bland, pre-written messages. Building your own AI-powered generator disrupts this by offering unparalleled customization and efficiency.\n\n### Hyper-Personalization at Scale\n\nTraditional cards are limited by pre-set categories and generic sentiments. A custom AI generator can take inputs like: 'birthday for my quirky aunt who loves cats and sci-fi', 'sympathy card for a colleague after a pet loss, keep it professional but warm', or 'thank you note for a new client after project completion, emphasize partnership and future growth'. The AI then crafts messages that resonate on a deeply personal level, ensuring every card is unique.\n\n### Brand Consistency for Businesses\nYou're not just creating personal cards. Imagine a business sending thank you notes, holiday greetings, or customer anniversary cards. A custom generator can be fine-tuned to adhere to specific brand voice, tone, and messaging guidelines, reinforcing corporate identity with every dispatch.\n\n### Creative Block? No Problem\n\nWe've all stared at a blank card, struggling for the right words. AI eliminates creative roadblocks, providing instant inspiration and complete drafts that can be refined. This is incredibly valuable for individuals and businesses sending numerous cards.\n\n### Integrate with Your Workflow\n\nUnlike standalone apps, a custom generator can be integrated directly into your existing communication or CRM systems. Automatically generate birthday cards for clients based on data in your database, or send personalized thank you notes immediately after a sale.\n\n## The Kliv Advantage: AI-Powered Customization\n\nBuilding sophisticated AI tools used to require deep programming knowledge. Kliv changes this by allowing you to describe your desired functionality in plain language. You can:\n\n- **Define specific parameters**: Tell the AI what context, tone, or keywords to focus on.\n- **Train on your own data**: If you have a collection of favorite messages or brand guidelines, the AI can learn from them.\n- **Iterate and refine**: Easily adjust the AI's output until it perfectly matches your vision.\n- **Own your creation**: The tool you build is yours, giving you complete control over its features, data, and future enhancements.\n\nDon't settle for off-the-shelf solutions that only partially solve your needs. Create a truly intelligent greeting card generator that genuinely enhances personal and professional relationships."
+    },
+    {
+      "title": "Greeting Card Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Generate messages for various personal occasions with specific nuances.",
+          "prompt": "Create an AI tool that generates personalized birthday messages, anniversary wishes, and congratulatory notes. Users should be able to input recipient's relationship, age (optional), few key shared memories/interests, and desired tone (e.g., humorous, heartfelt, formal).",
+          "title": "Personal Occasion Generator"
+        },
+        {
+          "description": "Craft professional messages for business-related events.",
+          "prompt": "Build an AI system to create corporate greeting cards for client appreciation, employee milestones, and partnership anniversaries. The system needs options for company name, recipient's role, specific achievement to acknowledge, and desired brand voice (e.g., innovative, reliable, friendly).",
+          "title": "Business & Corporate Cards"
+        },
+        {
+          "description": "Focus on visual and thematic card suggestions.",
+          "prompt": "Design an AI application that generates greeting card design concepts based on user input for occasion (e.g., wedding, baby shower, graduation), theme (e.g., minimalist, rustic, futuristic), and a few color preferences. It should suggest imagery and layout ideas alongside message prompts.",
+          "title": "Design & Theme Suggester"
+        },
+        {
+          "description": "Create messages for sensitive or specific situations.",
+          "prompt": "Develop an AI-powered tool for specialized greeting cards, covering situations like get well soon for specific illnesses, sympathy cards for different types of loss, or apology notes. It must allow for input on the specific situation, relationship, and desired level of empathy/formality.",
+          "title": "Specialized & Sympathy Cards"
+        },
+        {
+          "description": "Generate creative short poems or prose that rhyme.",
+          "prompt": "I want an AI that can generate short rhyming poems or creative prose for greeting cards. Users should provide the core theme or sentiment and an optional keyword. The AI should aim for a cheerful, uplifting tone.",
+          "title": "Poetic Message Creator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to Enhance Your Card Generator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a stock image API (like Unsplash or Pexels) to suggest relevant visuals for the generated card concepts.",
+          "title": "Add Image Suggestion"
+        },
+        {
+          "prompt": "Implement a feature where users can upload existing text/images, and the AI suggests how to incorporate them into a new card.",
+          "title": "Include Content Upload"
+        },
+        {
+          "prompt": "Add a text-to-image AI model to generate unique, abstract card backgrounds or small illustrative elements based on keywords from the message.",
+          "title": "Generate Card Backgrounds with AI"
+        },
+        {
+          "prompt": "Create a 'send directly' feature where the generated card designs and messages can be formatted and sent via email or integrated with a print-on-demand service.",
+          "title": "Direct Sending Integration"
+        },
+        {
+          "prompt": "Add user profiles and history, allowing users to save favorite messages, track recipients, and revisit past generated cards.",
+          "title": "User Profile & History"
+        },
+        {
+          "prompt": "Develop a sentiment analysis module that evaluates the tone of the generated message and provides suggestions for adjustment (e.g., 'This message might be too formal, consider adding a personal anecdote').",
+          "title": "Sentiment Analysis Feedback"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of a Card Generator",
+      "type": "features",
+      "items": [
+        {
+          "description": "Generate unique messages based on recipient, occasion, tone, and keywords.",
+          "icon": "✍️",
+          "title": "Contextual Message Generation"
+        },
+        {
+          "description": "Adapt outputs to reflect specific writing styles or branding guidelines.",
+          "icon": "🎨",
+          "title": "Tone & Style Control"
+        },
+        {
+          "description": "Suggest visual themes, colors, and design elements for the card's presentation.",
+          "icon": "🖼️",
+          "title": "Visual Concept Suggestions"
+        },
+        {
+          "description": "Refine generated text with conversational editing or parameter adjustments.",
+          "icon": "✨",
+          "title": "Iterative Refinement"
+        },
+        {
+          "description": "Seamlessly connect with CRM, email, or print services for easy deployment.",
+          "icon": "🔗",
+          "title": "External System Integration"
+        },
+        {
+          "description": "Store and revisit previously generated cards and recipient details.",
+          "icon": "💾",
+          "title": "History & Save Feature"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic AI greeting card generator can be built in a matter of hours or a day using Kliv's platform. More complex systems with advanced integrations or specific design features might take a few days to a week of focused development.",
+          "question": "How quickly can I build an AI greeting card generator?"
+        },
+        {
+          "answer": "No coding is required. Kliv's platform allows you to describe the functionality you want in plain language. The AI interprets your requests and helps you build the application visually and with text inputs.",
+          "question": "Do I need to be a programmer to build this type of tool?"
+        },
+        {
+          "answer": "Yes, your custom generator can be configured to integrate with various APIs for direct email sending, connecting to print-on-demand services, or pulling contact data from your CRM system for automated card generation.",
+          "question": "Can the generator integrate with external services like email or print fulfillment?"
+        },
+        {
+          "answer": "Absolutely. You maintain full ownership and control over the AI model, the content it generates, and the application itself. Your data and unique generated content remain yours.",
+          "question": "Do I own the AI model and the content it generates?"
+        },
+        {
+          "answer": "The cost is primarily the development time you invest on the Kliv platform, which is significantly less than hiring developers or subscribing to multiple specific-use services. Once built, the operational costs are minimal, making it a highly cost-effective long-term solution compared to recurring SaaS fees.",
+          "question": "How much does it cost to build and run a custom AI greeting card generator?"
+        },
+        {
+          "answer": "Yes, you can continuously refine your AI and add new features. Whether it's adding new tone options, integrating new image sources, or building out a user management system, your tool can evolve with your needs.",
+          "question": "Can I update or expand my generator after it's built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to craft perfectly personalized greetings?",
+      "type": "cta",
+      "content": "Stop sending generic messages. Start building your smart, custom AI greeting card generator today."
+    }
+  ],
+  "title": "AI-Powered Greeting Card Generator"
+}

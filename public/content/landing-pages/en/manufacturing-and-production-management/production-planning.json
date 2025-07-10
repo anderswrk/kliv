@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a production planning system that can balance demand with capacity, optimize material flow, and schedule production orders efficiently while minimizing costs.",
+  "description": "Build custom production planning and scheduling applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start optimizing production",
+    "subtitle": "Gain complete control over your manufacturing operations with custom production planning software built on Kliv's platform.",
+    "title": "Build your own production planning software"
+  },
+  "metaDescription": "Create powerful production planning systems with Kliv. Optimize schedules, manage resources, and improve factory output with custom-built applications.",
+  "sections": [
+    {
+      "title": "The challenge of production planning",
+      "type": "text",
+      "content": "In today's complex manufacturing landscape, efficient production planning is the backbone of profitability. Generic off-the-shelf solutions often fall short, failing to account for unique operational nuances, specific machinery constraints, or real-time variations in demand and supply.\n\nThis leads to inefficiencies, bottlenecks, costly delays, and missed opportunities. Instead of bending your production process to fit a rigid software, imagine a tool that's built for your exact needs, adapting as your business evolves."
+    },
+    {
+      "title": "Why custom production planning is your competitive edge",
+      "type": "markdown",
+      "content": "## The limitations of one-size-fits-all solutions\n\nMany manufacturers struggle with production planning software that:\n\n- **Doesn't integrate** seamlessly with their existing systems (ERP, MES, CRM).\n- **Lacks flexibility** to adapt to sudden changes in demand or supply.\n- **Fails to truly optimize** for unique constraints like specialized equipment or skilled labor availability.\n- **Incurs high recurring costs** and complex licensing models.\n- **Offers generic reports** instead of actionable insights tailored to your KPIs.\n\n## The power of bespoke solutions\n\nBuilding your own production planning application with Kliv offers transformative benefits:\n\n### Perfect Alignment with Your Processes\nYour factory is unique. A custom tool can model your exact resources, constraints, and operational logic, ensuring schedules are truly optimal and executable. No more compromises.\n\n### Maximize Resource Utilization\nAccurately schedule machines, labor, and materials to minimize idle time, reduce waste, and improve throughput. Identify and eliminate bottlenecks with precision.\n\n### Real-time Adaptability\nRespond instantly to changes like unexpected equipment breakdowns, material shortages, or rush orders. Recalculate schedules on the fly to minimize disruption.\n\n### Cost Savings & ROI\nEliminate recurring software subscriptions and infrastructure costs. A custom solution is a tangible asset that provides long-term value, directly impacting your bottom line through improved efficiency.\n\n### Data-driven Decisions\nIntegrate all relevant data sources to provide a unified view of your production. Generate custom reports and dashboards that offer deep insights into performance, costs, and potential improvements.\n\n## Real-world impact\n\nCustom production planning systems are driving efficiency across diverse manufacturing sectors:\n\n**Automotive**: Optimizing assembly line sequencing to balance worker load, tooling availability, and part delivery, reducing production cycle times.\n\n**Food & Beverage**: Managing complex shelf-life constraints, batch sizes, and allergen cross-contamination risks while optimizing ingredient usage and delivery schedules.\n\n**Pharmaceuticals**: Ensuring strict regulatory compliance, managing cleanroom scheduling, and tracking precise material traceability from raw ingredients to finished goods.\n\n**Electronics**: Planning for high-mix, low-volume production, managing component shortages, and sequencing complex builds across multiple workstations.\n\n## The Kliv advantage\n\nBuilding sophisticated software used to be a monumental task. Kliv changes this by:\n\n- **Accelerating development**: Turn complex planning logic into a functional application in days, not months.\n- **Enabling non-developers**: Use natural language to describe your production rules and constraints; Kliv's AI helps build the system.\n- **Ensuring scalability**: Design a system that grows with your production volume and complexity, without hitting artificial limits.\n- **Providing ownership**: You own the intellectual property and have full control over future enhancements and deployments.\n\nStop adapting your operations to inadequate software. Start building a production planning system that truly empowers your manufacturing."
+    },
+    {
+      "title": "Production planning ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Optimize scheduling based on machine capacity, setup times, and due dates.",
+          "prompt": "Create a production scheduling application that takes into account machine availability, operator skills, material readiness, and product due dates to generate an optimized daily production plan.",
+          "title": "Capacity-constrained scheduling"
+        },
+        {
+          "description": "Manage material flow from raw goods to finished products.",
+          "prompt": "Build a material requirements planning (MRP) system that calculates precise raw material needs based on sales orders and production forecasts, generates purchase suggestions, and tracks inventory levels across all stages.",
+          "title": "Material requirements planning (MRP)"
+        },
+        {
+          "description": "Balance production and inventory levels for multiple products.",
+          "prompt": "Develop an aggregate production planning tool that determines optimal production rates and inventory levels for a family of products over a 6-12 month horizon, considering demand forecasts, production costs, and storage capacity.",
+          "title": "Aggregate production planning"
+        },
+        {
+          "description": "Schedule production to minimize changeover times and maximize throughput.",
+          "prompt": "Design a sequencing optimizer for a paint manufacturing plant that minimizes color changeover times between batches while ensuring all customer orders are met on time.",
+          "title": "Batch sequencing optimization"
+        },
+        {
+          "description": "Plan shop floor activities and track progress in real-time.",
+          "prompt": "Construct a shop floor control system that issues work orders to specific machines or work centers, tracks real-time progress, identifies bottlenecks, and provides immediate alerts on deviations from the plan.",
+          "title": "Shop floor control"
+        },
+        {
+          "description": "Forecast demand using historical data and market trends.",
+          "prompt": "Create a demand forecasting module that uses historical sales data, seasonal trends, and promotional impacts to generate accurate predictions for future product demand, feeding directly into production plans.",
+          "title": "Integrated demand forecasting"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your planning tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a visual Gantt chart interface for drag-and-drop scheduling adjustments and real-time progress visualization",
+          "title": "Interactive Gantt chart"
+        },
+        {
+          "prompt": "Integrate with our existing ERP system to automatically pull in sales orders, inventory levels, and material master data",
+          "title": "ERP system integration"
+        },
+        {
+          "prompt": "Implement a 'what-if' scenario planner to simulate the impact of changes in demand, capacity, or material availability on the production schedule and costs",
+          "title": "Scenario planning module"
+        },
+        {
+          "prompt": "Add machine learning capabilities to learn from past production data and automatically suggest optimal schedule adjustments or resource reallocations",
+          "title": "AI-powered optimization"
+        },
+        {
+          "prompt": "Create mobile alerts for production managers and maintenance teams when a machine breakdown occurs or a schedule deviation is detected",
+          "title": "Real-time alerts & notifications"
+        },
+        {
+          "prompt": "Develop a vendor portal where suppliers can view upcoming material requirements and confirm delivery dates, automatically updating our inventory projections",
+          "title": "Supplier collaboration portal"
+        },
+        {
+          "prompt": "Include detailed cost analysis features to calculate the cost-to-produce for each job, including labor, material, and overhead, and identify areas for cost reduction",
+          "title": "Cost analysis and reporting"
+        },
+        {
+          "prompt": "Add a feature to automatically generate and print work order travelers, picking lists, and quality inspection checklists for each production run",
+          "title": "Automated document generation"
+        },
+        {
+          "prompt": "Build a module for tracking tooling and fixture availability and maintenance schedules to prevent delays caused by missing or unmaintained tools",
+          "title": "Tooling management"
+        }
+      ]
+    },
+    {
+      "title": "Key production planning capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Balance production volumes with available capacity for optimal output.",
+          "icon": "⚙️",
+          "title": "Capacity planning"
+        },
+        {
+          "description": "Generate detailed daily or weekly production schedules for machines and labor.",
+          "icon": "📅",
+          "title": "Schedule optimization"
+        },
+        {
+          "description": "Precisely calculate and manage raw material and component needs.",
+          "icon": "📦",
+          "title": "Material planning"
+        },
+        {
+          "description": "Receive real-time updates on production progress and identify bottlenecks.",
+          "icon": "🚦",
+          "title": "Shop floor monitoring"
+        },
+        {
+          "description": "Model and manage unique production constraints, such as specific machine capabilities or limited skilled staff.",
+          "icon": "🔗",
+          "title": "Constraint handling"
+        },
+        {
+          "description": "Generate custom reports, dashboards, and analytics for performance insights.",
+          "icon": "📊",
+          "title": "Reporting & analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom production planning system with Kliv can range from a few days for a basic scheduler to a few weeks for a complex, fully integrated enterprise solution. The AI significantly accelerates the development cycle.",
+          "question": "How quickly can I build a production planning system?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Our AI-powered platform allows you to describe your factory's processes, constraints, and optimization goals in plain language, and it helps generate the application code.",
+          "question": "Do I need to be a programmer to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, custom systems built with Kliv are highly adaptable. They can integrate with virtually any ERP, MES, CRM, or IoT system that has an API, ensuring seamless data flow across your entire operation.",
+          "question": "Can this system integrate with my existing ERP or MES?"
+        },
+        {
+          "answer": "You retain full ownership of the custom application you build. This means complete control over your intellectual property, data, and deployment, without vendor lock-in or recurring licensing fees.",
+          "question": "What about data ownership and intellectual property?"
+        },
+        {
+          "answer": "While initial investment might be similar or slightly higher than a year of a robust SaaS solution, a custom system with Kliv avoids perpetual subscription fees, leading to significant cost savings and a stronger ROI over the long term.",
+          "question": "How does the cost compare to off-the-shelf planning software?"
+        },
+        {
+          "answer": "Absolutely. Your custom system can be easily modified and scaled as your business grows, processes change, or new equipment is introduced. You have direct control to update and enhance features as needed.",
+          "question": "Can the system be modified as my manufacturing processes evolve?"
+        },
+        {
+          "answer": "Yes, custom-built applications can offer superior security because you control the hosting environment, data encryption, and access permissions, rather than relying on a third-party vendor's security protocols.",
+          "question": "Is a custom planning system more secure?"
+        },
+        {
+          "answer": "Kliv provides extensive support throughout the building process, from AI-driven code generation and debugging assistance to documentation and community resources. You're never left to figure things out alone.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your custom production planning solution?",
+      "type": "cta",
+      "content": "Stop letting generic software dictate your factory's potential. Build a production planning system tailored for peak performance."
+    }
+  ],
+  "title": "Custom production planning applications"
+}

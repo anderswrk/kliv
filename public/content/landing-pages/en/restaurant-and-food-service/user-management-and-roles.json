@@ -1,0 +1,149 @@
+{
+  "defaultPrompt": "I want to create a user management and roles application for my restaurant that allows me to manage staff access, define different roles (e.g., manager, server, kitchen staff), and track their work schedules and permissions.",
+  "description": "Build custom user management and role-based access control applications for the restaurant and food service industry with Kliv.dev.",
+  "hero": {
+    "cta": "Start building your staff portal",
+    "subtitle": "Design and deploy powerful staff management and role-based access control applications tailored for your restaurant or food service business.",
+    "title": "Custom User & Role Management for Restaurants"
+  },
+  "metaDescription": "Create powerful user management and role-based access control tools for your restaurant. Manage staff, define permissions, track schedules, and streamline operations with custom-built applications on Kliv.dev.",
+  "sections": [
+    {
+      "title": "Why build a custom user and role management system?",
+      "type": "text",
+      "content": "In the fast-paced world of restaurants and food service, managing staff, schedules, and access to critical systems is paramount. Generic off-the-shelf solutions often fall short, failing to cater to the unique operational needs of a bustling kitchen or a multi-location restaurant group. \n\nBuilding your own system with Kliv.dev means creating a solution that perfectly fits your workflow, allowing you to define precise roles, manage permissions, and track employee data without compromise. Say goodbye to one-size-fits-all software and hello to a system designed to enhance your operational efficiency and security."
+    },
+    {
+      "title": "The strategic advantage of tailored staff management",
+      "type": "markdown",
+      "content": "## The challenges of managing a restaurant workforce\n\nRestaurants face unique challenges in staff management, including high turnover, diverse roles, variable schedules, and the need for strict access control to sensitive systems (POS, inventory, ordering). Standard HR software often provides limited flexibility, leading to:\n\n- **Inefficient onboarding**: Manual setup of permissions for each new hire.\n- **Security risks**: Over-permissive access for certain roles, or difficulty revoking access quickly.\n- **Scheduling headaches**: Lack of integration with permissions and role-specific availability.\n- **Compliance gaps**: Difficulty tracking training, certifications, and required access.\n- **Scalability issues**: Growing pains when adding new locations or expanding operations.\n\n## Why a custom solution is a game-changer\n\nA tailored user and role management system addresses these pain points head-on, delivering significant benefits:\n\n### Granular control over access\nDefine specific permissions for every role – from kitchen porter to head chef, from cashier to general manager. Ensure staff only access what they need, reducing errors and enhancing security.\n\n### Streamlined operations\nAutomate user provisioning, de-provisioning, and role assignment. New hires can be set up in minutes, and changes in roles or departures handled instantly.\n\n### Enhanced security\nMinimize the risk of internal fraud or unauthorized access. Track who did what and when, ensuring accountability across your organization.\n\n### Improved compliance\nEasily manage required certifications, food safety training completion, and other compliance-related access restrictions directly within the system.\n\n### Scalability and flexibility\nAs your business evolves, your system can too. Add new roles, departments, or entire locations without migrating to new software or expensive upgrades. Your system grows with you.\n\n## Real-world applications in food service\n\nCustom user management systems are transforming how restaurants operate:\n\n**Quick Service Restaurants**: Define roles for cashiers, fry cooks, and shift leaders, each with specific POS and inventory access.\n\n**Fine Dining Establishments**: Manage front-of-house (sommelier, server, maître d') and back-of-house (chef, line cook, dishwasher) roles with distinct access to reservations, ordering, and inventory.\n\n**Catering Companies**: Assign temporary event staff specific time-limited access to event management software and client databases.\n\n**Multi-Location Chains**: Centralized user management that allows regional managers to define standardized roles and permissions across all their outlets, while still allowing local managers some flexibility.\n\n### The AI-powered development advantage\n\nBuilding custom software used to be complex and expensive. Kliv.dev’s AI platform changes this:\n\n- **Natural Language Input**: Describe your desired roles and permissions in plain English.\n- **Rapid Prototyping**: See a functional prototype of your user management system within hours.\n- **Intelligent Suggestions**: AI assists in identifying optimal role structures and permission hierarchies.\n- **Code Generation**: AI translates your requirements into robust, secure code.\n\nInvest in a user management system that works *for* your restaurant, not against it. With Kliv.dev, you can define your ideal staff operations and build it yourself."
+    },
+    {
+      "title": "Staff management ideas to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Basic staff directory with roles & contact info (internal use only) and assigned location for each staff member, as a mobile-friendly app without login or advanced features needed, for a single restaurant (no multi-location support initially). Staff should be able to view their own profile and edit their contact information only, without any login. This is just for a simple staff directory with no security until a next version, just to get an app out quickly. Managers can view and edit everyone's info. No passwords, no logins required for anyone right now. Just a list of names, roles, and a phone number, and restaurant location. This will be an internal tool visible to all from the app link, so it's not super sensitive. Assume all data can be public for now within the local network or private link. NO LOGIN YET. This is important to get just the database and list out first. No API calls or advanced integrations in this first step. Just the data input, storage, and display as a simple list. We are focusing on getting the initial data structure right and then we will add security and features later as separate steps. For each staff member, we also need to store their manager's name. And if they are a manager, we need to denote that. Employees cannot see manager names of other employees, only their own manager, and managers can see every employee's manager. Also add a filter where manager can filter by staff by location and by role, and by manager name who they report to. Add search bar too. Managers are stored as staff too, with a 'manager' role. Each staff member should have a 'reports_to' field which is a foreign key to another staff member's ID who is their manager. We don't need a separate manager table. Just add fields to the existing staff table for each new feature. Make the 'reports_to' field optional, because not everyone reports to someone directly (e.g. owners do not). For new hires, there might be no assigned manager yet. For now, let's keep all data public once the link is shared. No authentication required to get the app out quickly. We only have to manage the staff by locations. Staff will be working on location, so each staff member must have an assigned location. We need to define multiple locations (e.g. Downtown, Uptown, Airport), and assign each staff member to one location. Managers can filter staff by location. We will have a new table for locations with pre-defined location names. Staff table will have a foreign key to location ID. Staff cannot change their location, only manager can. Add a new field: `status` for staff: Active, On Leave, Terminated. Only managers can change status. Managers can filter staff by status. Add an option for each staff member to upload their profile photo, and for managers to upload staff photos. Photos should be visible in the staff list. Staff can see all photos, managers can upload/change all photos. We need to store staff start date, and their last day of employment (if applicable). Only managers can see/edit these dates. Other staff cannot see these dates except their own start date. For salary information, include salary, hourly pay rate, pay frequency (weekly, bi-weekly, monthly). ONLY MANAGERS CAN SEE/EDIT THIS. Other staff cannot see salary information. We also need to store emergency contact information for each staff member for Managers only. Name and Phone number too. Add a field for 'Notes' about staff member for managers only. This could be free text for performance notes, disciplinary actions, etc. We need to keep a record of roles for each staff member with effective dates. A staff member can have multiple roles over time, and roles can change. We need a 'Roles' table with `role_name` (e.g., Server, Bartender, Kitchen Staff), and a `Staff_Roles` junction table with `staff_id`, `role_id`, `start_date`, `end_date`. Each staff member can have multiple active roles at any given time (e.g., Server and Trainer). Managers can add/edit roles and their start/end dates. Staff can only see their current active roles. "
+        },
+        {
+          "title": "Kitchen Staff Roster & Skill Tracker (no login needed as internal app with public link, but only manager can edit data to get the app out quickly) - a kitchen staff roster with assigned stations (e.g., Fryer, Grill, Prep) and skill levels (e.g., Beginner, Intermediate, Expert) per station. Include a way to mark certifications (e.g., Food Handler’s Permit) with expiration dates. Managers can view and edit all data, staff can only view their own. No logins yet, link will be shared within organization. Managers can also filter staff by stations and skill levels. Add a feature to view available staff for a specific shift based on their assigned stations, skills, and availability data. The availability data is stored for staff and it's a fixed schedule (e.g. Mon 9-5, Tue 10-6). Include search bar for managers to search staff names too. Managers can also search by certification name and expiration date to flag upcoming expirations. Add emergency contact information for EACH staff member for managers only. Include Name and phone number. Also add 'Notes' field for managers about a staff member (free text for performance notes, disciplinary actions). Store staff start date, and their last day of employment (if applicable). These dates are for managers only. Add salary/hourly pay rate and pay frequency for managers only. Add a field for 'Status' for staff: Active, On Leave, Terminated. Only managers change 'Status'. Managers can filter staff by 'Status'. Each staff member should have assigned location, and manager can filter and assign location. Pre-defined location names (e.g. Downtown, Uptown). Staff cannot change their location, managers can. For each staff member, manager can upload multiple documents/files (e.g. resume, contract, warnings). Manager can view all documents, employees can view their own documents only. No login needed for the app, just the link will be shared and it's assumed to be internally secure. No authentication is needed currently to get the app out quickly. This is just for internal HR and Kitchen Manager use."
+        },
+        {
+          "title": "Shift Planning & Availability Portal with staff's preferences like 'no morning shift on Mon'. Managers can assign staff to shifts based on availability, role, and skill level. Staff can view their assigned shifts, remaining availability, and swap shifts with other qualified staff members. Include approval workflow for shift swaps. Provide managers with a visual calendar view of the weekly schedule and allow bulk assignment of shifts. Build a separate user role for 'Shift Managers' who can only manage shifts for their assigned department/location. Staff can set their general availability (e.g., Mon 9-5, Tue 10-6) and specific unavailability for certain dates. Managers can override general availability for specific shifts but it should warn them. Also add a system where managers can communicate with staff within the shift module, e.g., send notifications about shift changes. Include message history. Managers can assign tasks to individual staff members within a shift. Staff can mark tasks as complete. Managers can track task completion status. No public access, only accessible via login where we have admin, manager, staff roles. "
+        },
+        {
+          "title": "Manager Control Panel for POS Access & Discounts - A system for managers to grant temporary or permanent access to specific POS functions (e.g., 'override price', 'void transaction', 'issue refund') based on staff role and seniority. Allow managers to set custom discount limits for staff based on product category or total bill amount. Provide an audit log of all manager overrides and discount redemptions. Implement two-factor authentication for sensitive actions. Accessible only via secure login."
+        },
+        {
+          "title": "Employee Training & Certification Tracker - Build a system to track mandatory training courses (e.g., food safety, responsible alcohol service) and certifications for each employee. Include expiration dates for certifications and automated alerts for managers when renewals are due. Staff can upload certification documents, and managers can approve them. Provide a centralized repository for training materials accessible by relevant staff roles. This system needs to be fully secure and accessible only via login for staff and managers."
+        }
+      ]
+    },
+    {
+      "title": "Boost your application with these extensions",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate an employee performance review module where managers can input performance data, assign ratings, and track development goals for each staff member.",
+          "title": "Add performance reviews"
+        },
+        {
+          "prompt": "Implement a time clock integration allowing staff to clock in/out via the app, connecting directly to payroll systems, and tracking hours worked against assigned shifts.",
+          "title": "Integrate time clock functionality"
+        },
+        {
+          "prompt": "Build a communication portal where managers can send announcements to specific roles or the entire team, and staff can send direct messages to managers or other staff members.",
+          "title": "Add an internal communication hub"
+        },
+        {
+          "prompt": "Develop an incident reporting module for staff to report workplace incidents, accidents, or customer complaints, with management review and resolution workflows.",
+          "title": "Include incident reporting"
+        },
+        {
+          "prompt": "Add a grievance submission system where employees can submit grievances confidentially, and HR/management can track the resolution process.",
+          "title": "Implement a grievance system"
+        },
+        {
+          "prompt": "Include an employee self-service portal where staff can update personal information, view pay stubs, request time off, and access company policies.",
+          "title": "Create an employee self-service portal"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities for restaurant staff management",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define custom roles (e.g., Server, Chef, Bartender) with specific permissions for each.",
+          "icon": "👥",
+          "title": "Role-Based Access Control"
+        },
+        {
+          "description": "Manage individual employee profiles, including contact details, emergency contacts, and employment history.",
+          "icon": "👤",
+          "title": "Employee Profiles"
+        },
+        {
+          "description": "Create and manage flexible staff schedules, assign shifts, and track employee availability.",
+          "icon": "🗓️",
+          "title": "Shift & Schedule Management"
+        },
+        {
+          "description": "Track training completion, certifications, and their expiration dates for compliance.",
+          "icon": "🎓",
+          "title": "Certification Tracking"
+        },
+        {
+          "description": "Implement advanced security features like multi-factor authentication and detailed audit logs of all user actions.",
+          "icon": "🔒",
+          "title": "Security & Audit Trails"
+        },
+        {
+          "description": "Connect seamlessly with existing Point-of-Sale (POS) systems, payroll, and inventory management software.",
+          "icon": "🔗",
+          "title": "System Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv.dev's AI platform significantly reduces development time. A basic user and role management application can be functional in a matter of hours or days, with more complex systems taking proportionally longer based on features and integrations.",
+          "question": "How quickly can I build a user management system?"
+        },
+        {
+          "answer": "No coding experience is necessary. Kliv's intuitive interface and AI-powered development tools allow you to describe your requirements in plain language, and the platform translates them into a working application.",
+          "question": "Do I need to be a programmer to build this?"
+        },
+        {
+          "answer": "Absolutely. Your custom application can be integrated with your existing POS, payroll systems, inventory management, and other restaurant software using APIs. This ensures a cohesive and efficient operational environment.",
+          "question": "Can this system integrate with my existing restaurant software?"
+        },
+        {
+          "answer": "You retain full ownership and control over the application you build. All data, source code, and intellectual property belong to you. This provides unparalleled flexibility and long-term control.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Custom solutions from Kliv.dev typically offer a superior long-term ROI compared to recurring SaaS subscriptions. While there's an initial build investment, you avoid ongoing, escalating fees, and precisely tailor the features to your needs.",
+          "question": "How does the cost compare to off-the-shelf software?"
+        },
+        {
+          "answer": "Yes, your application can evolve as your business does. You can easily add new features, modify existing roles, incorporate new locations, or scale the system to accommodate growth, all within the Kliv.dev platform.",
+          "question": "Can I add new features or scale the system later?"
+        },
+        {
+          "answer": "Custom-built applications can be inherently more secure as you control the hosting environment, data storage, and security protocols, rather than relying on a third-party vendor's often shared infrastructure.",
+          "question": "Is a custom solution more secure than a generic one?"
+        }
+      ]
+    },
+    {
+      "title": "Empower your restaurant operations",
+      "type": "cta",
+      "content": "Stop adapting to generic software. Build a staff management solution that works precisely the way your restaurant does. Get started with Kliv.dev today."
+    }
+  ],
+  "title": "User & Role Management for Restaurants"
+}

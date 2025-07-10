@@ -1,0 +1,185 @@
+{
+  "defaultPrompt": "I want to create an audio transcription and reporting application that supports multiple audio formats, generates accurate transcripts, allows for speaker identification, and can produce summarized reports. ",
+  "description": "Develop custom audio transcription and reporting solutions with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Transcribing",
+    "subtitle": "Transform raw audio into actionable insights with custom transcription and reporting tools designed for your specific needs.",
+    "title": "Build your own audio transcription & reporting app"
+  },
+  "metaDescription": "Create powerful audio transcription and reporting applications using Kliv. Simplify data extraction, generate insights, and enhance productivity with tailor-made solutions.",
+  "sections": [
+    {
+      "title": "The challenge of audio data analysis",
+      "type": "text",
+      "content": "In today’s data-rich world, a significant portion of valuable information is locked within audio formats: meetings, interviews, customer calls, podcasts, and more. Extracting meaningful insights from these sources manually is time-consuming, prone to errors, and often impractical.\n\nWhile off-the-shelf transcription services exist, they often fall short on accuracy for specialized terminology, lack custom reporting capabilities, and can become prohibitively expensive at scale. Building your own solution offers precision, control, and long-term cost efficiency."
+    },
+    {
+      "title": "Why a custom audio transcription and reporting platform?",
+      "type": "markdown",
+      "content": "## Limitations of generic transcription tools\n\nMany businesses rely on one-size-fits-all transcription services, which often lead to:\n\n- **Inaccurate domain-specific terminology**: Generic AI struggles with jargon unique to your industry.\n- **Lack of custom reporting**: You get a transcript, but no way to extract specific, aggregated data or trends.\n- **Data privacy concerns**: Sensitive audio data is processed and stored by third parties.\n- **Integration complexities**: Difficulty connecting transcription output with your existing CRMs, analytics tools, or databases.\n- **Scalability issues and rising costs**: Pay-per-minute models can become very expensive as your audio volume grows.\n\n## The power of a bespoke solution\n\nBuilding your own audio transcription and reporting application with Kliv provides unparalleled advantages:\n\n### Unmatched accuracy and customization\nTrain your transcription model on your specific vocabulary, accents, and unique audio characteristics. This results in superior accuracy for your niche.\n\n### Intelligent reporting and insights\nMove beyond mere text. Develop reporting features that automatically identify key topics, sentiment, speaker talking time, or even custom keywords, turning transcripts into structured data.\n\n### Data security and ownership\nProcess and store your audio and transcripts within your own secure environment, ensuring compliance with data protection regulations and intellectual property rights.\n\n### Seamless workflow integration\nDesign your application to seamlessly integrate with your existing business tools, automating the flow of transcribed data directly into your workflows.\n\n### Cost-effective at scale\nAfter initial development, the operational costs for your custom solution can be significantly lower than recurring subscription fees for high-volume usage.\n\n## Real-world impact\n\nCustom transcription and reporting applications are revolutionizing how organizations manage audio data:\n\n**Legal**: Create tools to transcribe depositions with high accuracy, automatically tag key legal terms, and generate summaries of witness statements.\n\n**Healthcare**: Build systems for transcribing patient-doctor consultations, identifying medical conditions, and generating structured clinical notes.\n\n**Market Research**: Develop applications to transcribe focus group discussions, analyze participant sentiment, and identify emerging themes for product development.\n\n**Media & Publishing**: Automate podcast show notes generation, identify popular discussion topics, and prepare content for search engine optimization.\n\n**Contact Centers**: Transcribe customer service calls, identify common caller issues, monitor agent performance, and discover trends in customer feedback.\n\n## The Kliv advantage\n\nKliv's AI-driven platform makes custom software development accessible to everyone. You no longer need a team of developers to build sophisticated AI-powered applications:\n\n- **Natural language prompts**: Describe the application you want, and Kliv's AI assists in its creation.\n- **Rapid prototyping**: Go from idea to a functional application in days, not months.\n- **Intelligent feature suggestions**: AI helps you discover powerful capabilities you might not have considered.\n- **Scalable by design**: Build an application that grows with your audio data needs and business demands.\n\nDon't settle for generic. Create an audio transcription and reporting solution that truly understands your voice."
+    },
+    {
+      "title": "Audio transcription and reporting tool ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate meeting note-taking and key decision extraction",
+          "prompt": "Create an application that transcribes virtual meetings, automatically identifies different speakers, summarizes key discussion points and action items, and generates a post-meeting report with timestamps.",
+          "title": "Automated Meeting Minutes Generator"
+        },
+        {
+          "description": "Analyze customer interactions for insights",
+          "prompt": "Build a call center analytics tool that transcribes customer service calls, performs sentiment analysis on agent and customer speech, identifies common complaints or product issues, and generates daily performance dashboards.",
+          "title": "Call Center QA & Analytics"
+        },
+        {
+          "description": "Streamline content creation for podcasts/videos",
+          "prompt": "Develop an application for podcasters that transcribes episodes, automatically generates comprehensive show notes with chapter markers, identifies key topics discussed, and suggests social media snippets.",
+          "title": "Podcast to Content Publisher"
+        },
+        {
+          "description": "Systematize interview data collection and analysis",
+          "prompt": "Design an interview transcription and analysis platform for researchers that automatically transcribes audio interviews, allows for custom tag annotation (e.g., 'theme: user experience'), and generates reports showing frequency of tagged themes across all interviews.",
+          "title": "Research Interview Analyzer"
+        },
+        {
+          "description": "Monitor and report on media mentions",
+          "prompt": "Create a media monitoring tool that can ingest audio from news broadcasts, transcribe relevant segments, identify mentions of specific brands or keywords, and generate daily email summaries of these mentions.",
+          "title": "Audio Media Monitoring"
+        },
+        {
+          "description": "Enhance accessibility with translated transcripts",
+          "prompt": "Develop an application that transcribes audio lectures or presentations, provides speaker diarization, allows for in-app editing of transcripts, and optionally translates the transcript into multiple languages.",
+          "title": "Multi-Lingual Lecture Transcriber"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your transcription app",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to automatically detect emotionally charged language in customer service calls and flag them for review.",
+          "title": "Integrate Sentiment Analysis"
+        },
+        {
+          "prompt": "Allow users to upload video files and extract the audio for transcription, then overlay the transcript onto the video.",
+          "title": "Video to Text Conversion"
+        },
+        {
+          "prompt": "Create a secure web interface where users can upload audio, view transcripts, edit them, and download reports.",
+          "title": "Build a User Interface"
+        },
+        {
+          "prompt": "Implement a feature that can summarize long transcripts into concise bullet points or abstracts.",
+          "title": "Add Text Summarization"
+        },
+        {
+          "prompt": "Develop an API that allows other internal systems to send audio files directly for transcription and receive the transcribed text.",
+          "title": "Create a REST API"
+        },
+        {
+          "prompt": "Add a feature for users to train the transcription model with specific vocabulary lists or common acronyms relevant to their industry.",
+          "title": "Enable Custom Vocabulary Training"
+        },
+        {
+          "prompt": "Implement user authentication and role-based access control, allowing different users to have different permissions.",
+          "title": "Implement User Management"
+        },
+        {
+          "prompt": "Add a module for real-time transcription of live audio streams, such as live meeting notes or broadcasting.",
+          "title": "Add Live Transcription"
+        },
+        {
+          "prompt": "Integrate with popular cloud storage services like Google Drive, Dropbox, or S3 to directly import audio files.",
+          "title": "Cloud Storage Integration"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities of your custom app",
+      "type": "features",
+      "items": [
+        {
+          "description": "Accurately convert speech to text across various audio qualities and languages, with custom vocabulary support.",
+          "icon": "🔊",
+          "title": "Advanced Audio Transcription"
+        },
+        {
+          "description": "Automatically identify and differentiate between multiple speakers in a single audio file.",
+          "icon": "🗣️",
+          "title": "Speaker Diarization"
+        },
+        {
+          "description": "Extract key topics, entities, and sentiment from transcribed text for deeper analysis.",
+          "icon": "🧠",
+          "title": "AI-Powered Insights"
+        },
+        {
+          "description": "Generate comprehensive, customizable reports and dashboards based on extracted data.",
+          "icon": "📊",
+          "title": "Custom Reporting & Analytics"
+        },
+        {
+          "description": "Process audio files in bulk, ensuring efficient handling of large volumes of data.",
+          "icon": "⚙️",
+          "title": "Scalable Batch Processing"
+        },
+        {
+          "description": "Seamlessly connect with existing CRM, ERP, or storage systems via robust APIs.",
+          "icon": "🔗",
+          "title": "Flexible Integrations"
+        },
+        {
+          "description": "Securely store and manage your audio files and generated transcripts.",
+          "icon": "🔒",
+          "title": "Secure Data Management"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic audio transcription application can take as little as a few hours to a few days, depending on the complexity of desired features like custom reporting or specific integrations. More advanced platforms will naturally take longer.",
+          "question": "How long does it take to develop an audio transcription application?"
+        },
+        {
+          "answer": "Kliv's platform is designed for users with little to no coding experience. You use natural language to describe the features and functions you need, and the AI assists in building the technical components.",
+          "question": "Do I need programming skills to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with almost any existing business tool that provides an API, including CRM systems like Salesforce, communication platforms like Zoom, project management tools, and cloud storage solutions.",
+          "question": "Can I integrate my custom app with other business software?"
+        },
+        {
+          "answer": "With a custom application, you have full control over your data. You can choose where your audio files and transcripts are stored (on-premise, your cloud provider) and implement specific security protocols relevant to your industry.",
+          "question": "What about data privacy and security for sensitive audio?"
+        },
+        {
+          "answer": "Kliv helps you build and own the software. This means a one-time development investment rather than ongoing per-minute or per-user subscription fees often associated with SaaS transcription services. This can lead to significant cost savings long-term, especially at scale.",
+          "question": "How does the cost compare to off-the-shelf transcription services?"
+        },
+        {
+          "answer": "Absolutely. Custom applications are built to evolve. You can easily add new features, refine existing transcription models, or adjust reporting formats as your business requirements change.",
+          "question": "Can I modify my transcription application after it's built?"
+        },
+        {
+          "answer": "Your application can be designed to handle vast amounts of audio data efficiently. Kliv's underlying infrastructure is built for scalability, ensuring your application performs optimally whether you're processing a few hours or thousands of hours of audio.",
+          "question": "How well can a custom solution scale with large audio volumes?"
+        },
+        {
+          "answer": "Kliv's AI provides guidance and support throughout the development process. For ongoing maintenance or complex future enhancements, owning the application gives you the flexibility to manage it with internal teams or contract external developers.",
+          "question": "What kind of support is available after the application is deployed?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your custom audio intelligence platform?",
+      "type": "cta",
+      "content": "Stop sifting through hours of audio. Build a smart, automated solution that delivers the insights you need."
+    }
+  ],
+  "title": "Audio Transcription & Reporting Platforms"
+}

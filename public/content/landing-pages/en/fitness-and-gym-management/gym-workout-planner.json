@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a gym workout planner that allows users to create custom routines, track their progress, and visualize their results. It should include a database of exercises and integrate with popular fitness wearables.",
+  "description": "Design and build custom gym workout planners to help users achieve their fitness goals.",
+  "hero": {
+    "cta": "Start building your planner",
+    "subtitle": "Create personalized gym workout planners tailored to specific fitness methodologies or client needs, empowering users with smart tracking and progress visualization.",
+    "title": "Build Your Own Gym Workout Planner"
+  },
+  "metaDescription": "Develop custom gym workout planner applications with Kliv's AI-powered platform. Offer personalized routines, progress tracking, and exercise databases for fitness enthusiasts or professional trainers.",
+  "sections": [
+    {
+      "title": "Why Develop a Custom Workout Planner?",
+      "type": "text",
+      "content": "The fitness industry is booming, and personalized training is at its core. While commercial apps offer generic solutions, a custom workout planner allows you to cater precisely to niche markets, specific training philosophies (e.g., powerlifting, endurance, bodyweight), or the unique needs of your client base. Instead of compromising on features or paying recurring subscriptions for inadequate tools, you can build an application that perfectly aligns with your vision and offers a unique value proposition."
+    },
+    {
+      "title": "The Edge of Bespoke Fitness Tools",
+      "type": "markdown",
+      "content": "## Limitations of Off-the-Shelf Apps\n\nMany existing workout planners are:\n\n- **Too generalized:** They try to appeal to everyone, ending up perfect for no one.\n- **Feature-bloated or lacking:** Either packed with irrelevant features or missing crucial ones for your specific purpose.\n- **Subscription heavy:** Locking users into endless recurring payments without full control or ownership.\n- **Data silos:** Difficult to integrate with other systems or export user data.\n- **Branding limited:** You can't fully integrate your brand identity or unique methodology.\n\n## Advantages of a Tailor-Made Solution\n\nBuilding your own workout planner with Kliv provides significant benefits:\n\n### Hyper-personalization and Niche Focus\nYou can design an app specifically for powerlifters, runners, weight loss, rehabilitation, or any other niche. This level of focus attracts dedicated users because the app speaks directly to their needs. Imagine a planner exclusively for calisthenics, with specific progressions and unique exercises.\n\n### Complete Control and Ownership\nYou own the intellectual property. You decide on features, design, data handling, and monetization. There are no limitations imposed by a third-party vendor.\n\n### One-Time Investment, Lifelong Asset\nUnlike monthly subscriptions, a custom-built app is an asset. You build it once, and it serves you and your users for years, with the flexibility to evolve as fitness trends or user needs change.\n\n### Seamless Integration Capabilities\nWant to integrate with specific smart scales, heart rate monitors, or nutrition trackers? A custom solution makes this possible, creating a holistic health ecosystem for your users.\n\n### Unique Monetization Opportunities\nBeyond simple subscriptions, you could offer premium coaching features, specialized workout packs, affiliate partnerships based on integrated products, or even exclusive content that aligns with your specific fitness philosophy.\n\n## Real-World Impact\n\n- **Personal Trainers:** A custom app to manage all client programs, track progress, and communicate directly. Imagine sending updated workouts and checking client adherence all within your branded platform.\n- **Gym Owners:** A branded app for members to access gym-specific classes, equipment guides, and track their workouts directly linked to their membership.\n- **Fitness Influencers/Coaches:** Distribute unique training programs and progress trackers to followers, building a stronger community and revenue stream.\n- **Corporates:** Develop a wellness app for employees, encouraging activity and tracking health metrics through tailored programs.\n\n## AI-Accelerated Development\n\nKliv leverages AI to simplify complex app development:\n\n- **Intuitive Interface:** Create sophisticated features by simply describing them.\n- **Rapid Iteration:** Test and refine your planner quickly based on user feedback.\n- **Code Generation:** AI handles the underlying code, ensuring efficiency and reliability.\n- **Scalability Built-In:** Design for a few users or thousands, AI helps ensure your infrastructure can handle growth."
+    },
+    {
+      "title": "Workout Planner Concepts",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Build a planner focused on progressive overload for strength training",
+          "prompt": "Create a strength training workout planner with a database of compound lifts, ability to track sets, reps, and weight, automatic calculation of 1RM, and a visual graph for progress over time.",
+          "title": "Strength & Powerlifting Planner"
+        },
+        {
+          "description": "Specialized planner for bodyweight exercises and skill progression",
+          "prompt": "Develop a bodyweight fitness planner that includes progressions for skills like handstands and pull-ups, tracks mastery of movements, and offers routines based on user's current ability level.",
+          "title": "Calisthenics Skill Trainer"
+        },
+        {
+          "description": "Design a planner for high-intensity interval training sequences",
+          "prompt": "Build a HIIT workout generator that allows users to customize work/rest intervals, select exercises from a predefined list, and guides them through timed workouts with audio cues.",
+          "title": "HIIT Session Builder"
+        },
+        {
+          "description": "Aid runners in planning and tracking their running workouts",
+          "prompt": "Create a running workout tracker that helps users plan runs by distance or time, tracks GPS routes, logs pace and elevation, and integrates with Strava for sharing activities.",
+          "title": "Running Performance Log"
+        },
+        {
+          "description": "A planner integrating diet and exercise for holistic health",
+          "prompt": "Develop a comprehensive fitness and nutrition planner where users can log workouts, input daily food intake, track macronutrients, and see how their exercise correlates with dietary goals.",
+          "title": "Holistic Fitness & Diet Manager"
+        },
+        {
+          "description": "For professionals to manage plans for multiple clients",
+          "prompt": "Build a multi-client workout manager for personal trainers to assign custom workout programs, track individual client progress, and communicate securely within the app.",
+          "title": "Personal Trainer Client Portal"
+        }
+      ]
+    },
+    {
+      "title": "Expand Your Planner's Capabilities",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a barcode scanner feature to easily add nutritional information from food products.",
+          "title": "Add Nutrition & Barcode Scanner"
+        },
+        {
+          "prompt": "Implement a machine learning model to suggest personalized workouts based on user's past performance and goals.",
+          "title": "Integrate AI Workout Recommendations"
+        },
+        {
+          "prompt": "Add a social sharing feature allowing users to share completed workouts or achievements on social media platforms.",
+          "title": "Include Social Sharing"
+        },
+        {
+          "prompt": "Build a marketplace within the app for selling premium workout plans or coaching sessions.",
+          "title": "Create a Premium Plan Marketplace"
+        },
+        {
+          "prompt": "Enable real-time synchronization with popular fitness wearables like Apple Watch or Garmin devices.",
+          "title": "Add Wearable Integration"
+        },
+        {
+          "prompt": "Implement in-app video demonstrations for each exercise in the database.",
+          "title": "Incorporate Exercise Video Demos"
+        },
+        {
+          "prompt": "Add a feature for users to track their body measurements and visualize changes over time.",
+          "title": "Include Body Measurement Tracking"
+        },
+        {
+          "prompt": "Develop a push notification system for workout reminders and motivational messages.",
+          "title": "Build Smart Notifications"
+        }
+      ]
+    },
+    {
+      "title": "Core Workout Planner Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Create, save, and manage unlimited custom workout routines.",
+          "icon": "📝",
+          "title": "Custom Routine Builder"
+        },
+        {
+          "description": "Comprehensive library of exercises with descriptions and instructions.",
+          "icon": "📚",
+          "title": "Exercise Database"
+        },
+        {
+          "description": "Log sets, reps, weight, duration, and other key metrics.",
+          "icon": "📈",
+          "title": "Progress & Performance Tracking"
+        },
+        {
+          "description": "Visual graphs and charts to display progress over time.",
+          "icon": "📊",
+          "title": "Graphical Analytics"
+        },
+        {
+          "description": "Ability to connect with existing health apps and devices.",
+          "icon": "🔗",
+          "title": "API Integrations"
+        },
+        {
+          "description": "Adjustable timers for rest periods between sets or exercises.",
+          "icon": "⏲️",
+          "title": "In-Workout Timers"
+        }
+      ]
+    },
+    {
+      "title": "Building Your Fitness Application with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, you can often build a functional prototype of a workout planner in just a few days, and a fully polished version within a few weeks, depending on complexity. This is significantly faster than traditional development methods.",
+          "question": "What is the typical development timeline for a custom workout planner?"
+        },
+        {
+          "answer": "You don't need any prior coding experience. Kliv's platform allows you to describe your desired features in natural language, and its AI assists in generating and refining the application logic and user interface.",
+          "question": "Is coding knowledge required to build a workout planner?"
+        },
+        {
+          "answer": "Yes, your custom planner can integrate with various third-party services like fitness wearables (e.g., Apple HealthKit, Google Fit), social media platforms, or even payment gateways for premium features, using standard APIs.",
+          "question": "Can my custom planner integrate with other fitness apps or devices?"
+        },
+        {
+          "answer": "You retain full ownership of the application, including all code, designs, and user data. Kliv provides the tools to build it, but the intellectual property is entirely yours.",
+          "question": "Who owns the workout planner and its data once it's built?"
+        },
+        {
+          "answer": "Initially, the cost might be similar to a few months of a premium SaaS subscription. However, unlike SaaS, your Kliv-built app is a one-time investment, eliminating recurring fees and offering long-term savings and more value over time.",
+          "question": "How does the cost compare to subscribing to an existing workout app?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the flexibility to modify, update, and add new features as your user base grows or fitness trends evolve. You are not locked into a vendor's update schedule.",
+          "question": "Can I update or add features to my workout planner after it's launched?"
+        },
+        {
+          "answer": "You control the security measures and data hosting. This often allows for higher levels of data privacy and security than relying on third-party apps, where you might not know how your users' sensitive fitness data is handled.",
+          "question": "How secure will my custom workout planner be for user data?"
+        },
+        {
+          "answer": "Kliv offers AI-guided assistance, comprehensive documentation, and community support. Since you have access to the underlying structure, troubleshooting and future development are more transparent than with black-box SaaS solutions.",
+          "question": "What kind of support is available throughout the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Start Creating Your Ultimate Fitness Companion",
+      "type": "cta",
+      "content": "Empower your users or clients with the perfect workout tool. Build it exactly how you envision it, with Kliv's intelligent platform."
+    }
+  ],
+  "title": "Custom Gym Workout Planner"
+}

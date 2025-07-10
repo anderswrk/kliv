@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a customer onboarding system that includes identity verification (KYC), document collection, automated background checks, and a personalized onboarding journey for new users.",
+  "description": "Build custom customer onboarding and KYC solutions with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your onboarding solution",
+    "subtitle": "Streamline new customer journeys, ensure compliance, and reduce fraud with a custom-built onboarding and KYC application.",
+    "title": "Build your own customer onboarding & KYC platform"
+  },
+  "metaDescription": "Create powerful, secure, and compliant customer onboarding and KYC tools with Kliv. Automate identity verification, document collection, and background checks for a seamless user experience.",
+  "sections": [
+    {
+      "title": "Why build your own onboarding & KYC system?",
+      "type": "text",
+      "content": "In today's digital economy, a smooth and secure customer onboarding process is critical. Yet, many businesses struggle with generic, off-the-shelf solutions that are either too rigid, too expensive, or lack the specific features needed for their unique compliance and customer experience demands.\n\nKliv empowers you to design, build, and deploy a bespoke customer onboarding and Know Your Customer (KYC) application. This means complete control over data privacy, user experience, and regulatory compliance, all while avoiding the recurring costs and limitations of third-party vendors."
+    },
+    {
+      "title": "The strategic advantage of tailored onboarding",
+      "type": "markdown",
+      "content": "## The challenges with common onboarding platforms\n\nMany businesses face significant hurdles when relying on generic customer onboarding and KYC providers:\n\n- **Inflexible Workflows**: Pre-defined steps often don't match specific business processes, leading to clunky user experiences and manual workarounds.\n- **High Recurring Costs**: Subscription models can become prohibitively expensive, especially as your customer base grows.\n- **Data Privacy Concerns**: Relying on third parties for sensitive customer data introduces additional security and compliance risks.\n- **Integration Headaches**: Getting generic tools to talk seamlessly with your existing CRM, payment systems, or core databases can be complex and costly.\n- **Compliance Gaps**: Industry-specific regulatory requirements (e.g., FinTech, Healthcare) are often not fully met by one-size-fits-all solutions.\n\n## Why a custom solution is a game-changer\n\nBuilding your own onboarding and KYC application with Kliv provides unparalleled benefits:\n\n### Seamless Customer Experience\nA custom platform allows you to design an onboarding flow that perfectly matches your brand and user expectations, reducing friction and abandonment rates. Personalize every step, from welcome to verification.\n\n### Robust Compliance & Security\nTailor your system to meet exact regulatory requirements (AML, GDPR, CCPA, etc.) and implement advanced security protocols. You control where and how data is stored and processed, ensuring maximum data integrity and privacy.\n\n### Cost Efficiency & Scalability\nMove from unpredictable recurring subscriptions to a capital expenditure. Once built, your system scales with your business without escalating per-user or per-transaction fees. Add new features or verification steps as needed without vendor limitations.\n\n### Full Integration Capability\nConnect your onboarding and KYC solution directly with your internal systems (CRMs, ERPs, fraud detection tools, core banking systems) without complex APIs or middleware. This creates a unified view of your customer.\n\n### Competitive Differentiation\nOffer a superior, faster, and more secure onboarding experience that sets you apart from competitors still using generic, clunky solutions.\n\n## Real-world impact\n\nCustom onboarding and KYC systems are revolutionizing various industries:\n\n**Financial Services**: Banks and FinTechs creating automated account opening with real-time identity verification, AML checks, and risk scoring.\n\n**Proptech**: Real estate platforms building tenant and buyer vetting systems that combine ID verification, credit checks, and rental history analysis.\n\n**Healthcare**: Providers developing patient registration portals that securely collect medical history, insurance details, and consent forms while verifying identity.\n\n**E-commerce Marketplaces**: Platforms automating vendor onboarding, including business registration checks, payment verification, and product compliance review.\n\n## The Kliv advantage: AI-assisted development\n\nBuilding sophisticated systems like these used to be a monumental task. Kliv makes it accessible:\n\n- **Natural Language Development**: Describe your desired onboarding flow, verification steps, and compliance rules in plain English.\n- **Rapid Prototyping**: See a working version of your application in days, allowing for quick iterations and feedback.\n- **Intelligent Compliance Assistance**: AI can suggest necessary data points and flows for specific regulatory frameworks.\n- **Automated Security Best Practices**: Built-in features ensure your application adheres to modern security standards.\n\nDon't settle for off-the-shelf. Build a customer onboarding and KYC solution that truly fits your business with Kliv."
+    },
+    {
+      "title": "Customer onboarding & KYC ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate new bank account openings with integrated ID verification.",
+          "prompt": "Create an online bank account opening system that includes identity verification via selfie and ID scan, collects proof of address, performs AML checks, and integrates with core banking systems to provision new accounts.",
+          "title": "Digital Banking Onboarding"
+        },
+        {
+          "description": "Streamline patient registration with secure data collection.",
+          "prompt": "Build a secure patient onboarding portal for a healthcare clinic that collects demographic information, insurance details, medical history forms, verifies patient identity, and integrates with the electronic health records (EHR) system.",
+          "title": "Healthcare Patient Onboarding"
+        },
+        {
+          "description": "Automate background checks and compliance for new staff.",
+          "prompt": "Develop an employee background check and compliance system for new hires that automates identity verification, criminal record checks, employment history verification, and generates compliance reports.",
+          "title": "HR Compliance & Vetting Platform"
+        },
+        {
+          "description": "Verify landlords and tenants for rental agreements.",
+          "prompt": "Design a tenant/landlord vetting platform for a property management company that includes identity verification, credit checks, eviction history checks, and automated digital lease agreement signing workflows.",
+          "title": "Property Rental Vetting System"
+        },
+        {
+          "description": "Expedite client sign-up for legal or consulting services.",
+          "prompt": "Create a client intake portal for a law firm that securely collects client personal details, case specific information, conflict of interest checks, and handles digital retainer agreements and payments.",
+          "title": "Professional Services Client Intake"
+        },
+        {
+          "description": "Onboard merchants swiftly and compliantly.",
+          "prompt": "Build a merchant onboarding system for an e-commerce marketplace that collects business registration documents, verifies beneficial ownership, performs financial health checks, and sets up payment processing accounts.",
+          "title": "E-commerce Merchant Onboarding"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your onboarding & KYC solution",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add biometric authentication support (fingerprint, facial recognition) for enhanced security during the verification process.",
+          "title": "Implement Biometric Auth"
+        },
+        {
+          "prompt": "Integrate with a third-party risk assessment API to automatically flag high-risk customers based on real-time data.",
+          "title": "Add Real-time Risk Scoring"
+        },
+        {
+          "prompt": "Develop a multi-language support feature for international customers during the onboarding flow.",
+          "title": "Expand Language Support"
+        },
+        {
+          "prompt": "Include an OCR (Optical Character Recognition) module to automatically extract data from uploaded ID documents and forms.",
+          "title": "Integrate Document OCR"
+        },
+        {
+          "prompt": "Create a customizable rules engine for dynamic onboarding paths based on customer risk profile or product selection.",
+          "title": "Build a Dynamic Workflow Engine"
+        },
+        {
+          "prompt": "Add a feature for live video calls with a compliance officer for manual verification steps when automated checks fail.",
+          "title": "Enable Video Verification"
+        },
+        {
+          "prompt": "Implement a machine learning model to predict onboarding drop-off points and trigger proactive interventions.",
+          "title": "Add Onboarding Drop-off Prediction"
+        },
+        {
+          "prompt": "Develop comprehensive audit trails and reporting tools to demonstrate compliance with anti-money laundering (AML) regulations.",
+          "title": "Generate AML Compliance Reports"
+        },
+        {
+          "prompt": "Integrate with various global watchlists and sanctions lists for automated real-time screening of new applicants.",
+          "title": "Add Global Watchlist Screening"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your onboarding system",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automated identity document capture and verification using AI.",
+          "icon": "📸",
+          "title": "Smart ID Verification"
+        },
+        {
+          "description": "Secure collection and storage of sensitive customer data and documents.",
+          "icon": "🔒",
+          "title": "Secure Data Collection"
+        },
+        {
+          "description": "Automated background checks, sanction list screening, and risk assessments.",
+          "icon": "📜",
+          "title": "Compliance & KYC Checks"
+        },
+        {
+          "description": "Configurable workflows for different customer segments and regulatory needs.",
+          "icon": "⚙️",
+          "title": "Customizable Workflows"
+        },
+        {
+          "description": "Seamless integration with CRM, ERP, and payment systems.",
+          "icon": "🔗",
+          "title": "System Integrations"
+        },
+        {
+          "description": "Dashboards to monitor onboarding progress, conversion rates, and bottlenecks.",
+          "icon": "📈",
+          "title": "Analytics & Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The time varies based on complexity. A basic secure onboarding flow might be ready in days, while a comprehensive KYC system with multiple integrations and complex verification layers could take a few weeks to perfect.",
+          "question": "How long does it take to build a custom onboarding and KYC solution?"
+        },
+        {
+          "answer": "No coding experience is necessary. Kliv's platform allows you to describe your requirements in natural language, and the AI assists in building the application logic, user interfaces, and database structures.",
+          "question": "Do I need to be a developer or have coding skills?"
+        },
+        {
+          "answer": "Yes, you can integrate your custom solution with virtually any existing system that provides an API, including CRM, ERP, core banking systems, digital signature platforms, and third-party databases for fraud checks.",
+          "question": "Can this system integrate with my existing business tools?"
+        },
+        {
+          "answer": "With Kliv, you retain full ownership of the application code and data. This allows you to host it in your preferred environment and ensures long-term control over your valuable customer information.",
+          "question": "Who owns the data and the developed application?"
+        },
+        {
+          "answer": "A custom-built solution often represents a significant cost saving over time. While there's an initial investment, you avoid recurring per-user or per-transaction fees typical of SaaS providers, making it more economical in the long run.",
+          "question": "How does the cost compare to off-the-shelf KYC solutions?"
+        },
+        {
+          "answer": "Absolutely. Your custom solution is designed for maximum flexibility. You can easily add new verification steps, adjust compliance rules, update user interfaces, or integrate new services as your business or regulatory landscape evolves.",
+          "question": "Can the solution be modified or expanded after it's built?"
+        },
+        {
+          "answer": "Building your own offers superior control over security and compliance. You define the encryption, data storage locations, access controls, and auditing features, allowing you to meet specific industry standards more precisely than with a generalized vendor.",
+          "question": "Is a custom KYC solution more secure and compliant?"
+        },
+        {
+          "answer": "Kliv provides tools for project management, collaboration, and debugging. The AI will guide you through the process, suggest best practices, and help resolve issues, ensuring a smooth development experience.",
+          "question": "What kind of support is available during the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your customer onboarding?",
+      "type": "cta",
+      "content": "Stop wrestling with rigid systems. Build a compliant, efficient, and user-friendly onboarding and KYC platform tailored specifically for your business."
+    }
+  ],
+  "title": "Customer Onboarding & KYC Solutions"
+}

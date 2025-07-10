@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an API integration application that connects with a CRM, extracts specific customer data, transforms it, and then pushes it to a marketing automation platform, with real-time syncing.",
+  "description": "Build custom API integration applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start integrating",
+    "subtitle": "Connect your disparate systems, automate data flows, and unlock new insights with custom API integration tools built on Kliv's platform.",
+    "title": "Build your own API integration tools"
+  },
+  "metaDescription": "Create powerful API integration tools with Kliv. Seamlessly connect software applications, automate data exchange, and eliminate manual data entry with custom-built solutions.",
+  "sections": [
+    {
+      "title": "Why build your own API integration tool?",
+      "type": "text",
+      "content": "In today's interconnected business world, applications rarely live in isolation. Data needs to flow freely between CRM, ERP, marketing platforms, analytics tools, and custom databases. While off-the-shelf connectors exist, they often fall short on flexibility, security, and scalability.\n\nKliv empowers you to create bespoke API integration solutions that precisely fit your data models and business logic. Stop wrestling with rigid connectors or brittle code. Build robust, secure, and fully customized integrations that become a strategic asset, not a technical debt."
+    },
+    {
+      "title": "The case for custom API integration",
+      "type": "markdown",
+      "content": "## The pitfalls of static connectors and manual processes\n\nMany organizations rely on generic API connectors or manual data transfers, leading to:\n\n- **Data silos and inconsistencies**: Information is fragmented across systems, leading to errors and incomplete views.\n- **Vendor lock-in**: Dependent on specific integration platforms or connectors that limit your choices.\n- **Limited customization**: Unable to handle complex data transformations or unique business rules.\n- **Security vulnerabilities**: Relying on unverified third-party solutions for critical data flows.\n- **High recurring costs**: Paying ongoing subscriptions for features you don't fully utilize or for every new connection.\n\n## The advantages of tailored integration solutions\n\nBuilding your own API integration tool provides unparalleled control and efficiency:\n\n### Precise data mapping and transformation\nGeneric connectors often struggle with specific data formats or complex business logic. A custom tool ensures your data is precisely mapped, transformed, and validated to meet the exact requirements of both source and target systems. This eliminates manual clean-up and ensures data integrity.\n\n### Enhanced security and compliance\nBy owning your integration logic, you maintain full control over data encryption, access permissions, and auditing. This is crucial for businesses dealing with sensitive information or strict regulatory compliance (e.g., HIPAA, GDPR).\n\n### Scalability and performance\nOff-the-shelf solutions can become bottlenecks as data volumes grow. Custom integrations can be optimized for performance, handle high throughput, and scale alongside your business needs without prohibitive costs.\n\n### Cost-effectiveness in the long run\nWhile there's an initial development investment, a custom tool built with Kliv eliminates recurring subscription fees for connectors. It's a one-time build that can be endlessly adapted, saving significant costs over time compared to multiple SaaS integrations.\n\n### Future-proof your data strategy\nAPIs evolve, and business needs change. A custom solution is inherently flexible. You can easily update endpoints, adjust data transformations, or add new integrations without waiting on a vendor or dealing with breaking changes in pre-built connectors.\n\n## Real-world applications\n\nCustom API integrations are critical for diverse business functions:\n\n**E-commerce**: Syncing order data from your online store to an ERP for inventory management and fulfillment, then pushing shipping updates to a customer communication platform.\n\n**Financial Services**: Integrating customer transactional data from a bank's core system with a fraud detection system and then with a compliance reporting tool.\n\n**Healthcare**: Securely exchanging patient records between different hospital systems, lab results platforms, and billing software.\n\n**Manufacturing**: Connecting IoT sensor data from production lines to a manufacturing execution system (MES) and a predictive maintenance analytics platform.\n\n## Why Kliv for API Integration?\n\nKliv leverages the power of AI to simplify the complex process of building API integrations:\n\n- **Rapid development**: AI assists in generating API calls, data mappings, and error handling logic, significantly accelerating development.\n- **Code ownership**: You own the resulting application, giving you complete control and avoiding vendor lock-in.\n- **Flexibility**: Easily adapt to new APIs, data models, or business requirements with agile modifications.\n- **Reduced complexity**: Focus on your integration logic, while Kliv handles the underlying infrastructure.\n\nStop letting data silos hold you back. Build the precise connections your business needs."
+    },
+    {
+      "title": "API integration ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Sync customer data between CRM and marketing automation platforms",
+          "prompt": "Create an API integration that automatically syncs new customer sign-ups from Salesforce to Mailchimp, including custom fields like 'lead source' and 'product interest'.",
+          "title": "CRM-Marketing Sync"
+        },
+        {
+          "description": "Automate order processing from e-commerce to ERP",
+          "prompt": "Build an integration that pulls new order details from Shopify, transforms the data to match our NetSuite ERP schema, and creates new sales orders in real-time, including inventory deductions.",
+          "title": "E-commerce Order Automation"
+        },
+        {
+          "description": "Consolidate financial data from various sources",
+          "prompt": "Develop an integration that fetches transaction data from multiple bank APIs, standardizes the format, and pushes it into our internal accounting system (QuickBooks Enterprise) daily.",
+          "title": "Financial Data Aggregator"
+        },
+        {
+          "description": "Bi-directional sync between support desk and project management",
+          "prompt": "Design an integration that creates a new Jira ticket whenever a high-priority Zendesk support ticket comes in, and conversely, updates the Zendesk ticket status when the Jira ticket is closed.",
+          "title": "Support-Project Management Link"
+        },
+        {
+          "description": "Automate data transfer for reporting and analytics",
+          "prompt": "Create a data pipeline that extracts advertising spend data from Google Ads and Facebook Ads APIs, merges it, and loads it into a Google BigQuery dataset for unified reporting.",
+          "title": "Ad Spend Data Hub"
+        },
+        {
+          "description": "Convert API responses for different formats",
+          "prompt": "Build a middleware API that takes an XML request from a legacy system, calls a modern REST API, transforms the JSON response into XML, and returns it to the legacy system.",
+          "title": "Legacy System Adaptor"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your integration tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a dynamic logging dashboard for monitoring API calls and data flow status in real-time.",
+          "title": "Add an operational dashboard"
+        },
+        {
+          "prompt": "Implement automatic retry mechanisms with exponential backoff for failed API calls and comprehensive error handling for data transformation issues.",
+          "title": "Implement robust error handling"
+        },
+        {
+          "prompt": "Integrate third-party authentication services like OAuth2 for secure API access management.",
+          "title": "Enhance security protocols"
+        },
+        {
+          "prompt": "Add webhook support to trigger integrations instantly upon events in source systems, rather than polling.",
+          "title": "Enable real-time triggers"
+        },
+        {
+          "prompt": "Build a module that allows non-technical users to define custom data mapping rules via a simple UI.",
+          "title": "Create a user-friendly data mapping interface"
+        },
+        {
+          "prompt": "Add support for data validation against predefined schemas (e.g., JSON Schema) before pushing to target systems.",
+          "title": "Include data validation"
+        },
+        {
+          "prompt": "Develop an alert system that notifies administrators via Slack or email when integration failures occur or data discrepancies are detected.",
+          "title": "Set up intelligent alerts"
+        },
+        {
+          "prompt": "Add version control to integration configurations so changes can be tracked and rolled back if needed.",
+          "title": "Implement configuration versioning"
+        },
+        {
+          "prompt": "Allow users to schedule integration runs based on custom time intervals or cron expressions.",
+          "title": "Add flexible scheduling options"
+        }
+      ]
+    },
+    {
+      "title": "Essential integration features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to diverse APIs (REST, SOAP, GraphQL) and databases.",
+          "icon": "🔗",
+          "title": "Universal connectivity"
+        },
+        {
+          "description": "Define custom rules for transforming and mapping data schemas.",
+          "icon": "🔀",
+          "title": "Advanced data transformation"
+        },
+        {
+          "description": "Schedule data synchronization at specific intervals or on demand.",
+          "icon": "⏰",
+          "title": "Flexible synchronization"
+        },
+        {
+          "description": "Monitor integration health, logs, and data flow status in real-time.",
+          "icon": "📈",
+          "title": "Comprehensive monitoring"
+        },
+        {
+          "description": "Implement strategies for handling API rate limits and network issues.",
+          "icon": "🛡️",
+          "title": "Robust error handling"
+        },
+        {
+          "description": "Securely manage API keys, tokens, and data privacy settings.",
+          "icon": "🔒",
+          "title": "Built-in security"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building complex API integrations can be time-consuming. With Kliv, you can rapidly prototype and deploy integrations in days, not months, by leveraging AI to generate and refine code based on your requirements.",
+          "question": "How fast can I build an API integration with Kliv?"
+        },
+        {
+          "answer": "While some technical understanding of APIs is beneficial, Kliv's platform allows you to describe your integration needs in natural language. The AI assists with code generation and guidance, significantly reducing the need for deep coding expertise.",
+          "question": "Do I need to be a developer to build an API integration tool?"
+        },
+        {
+          "answer": "Yes, your custom integration tool can connect to any system that offers an API (REST, SOAP, GraphQL), database, or even file-based systems. Kliv helps you define these connections and data mappings.",
+          "question": "Can I connect to any third-party API or internal system?"
+        },
+        {
+          "answer": "You own 100% of the code and logic generated for your integration. This means complete control, no vendor lock-in, and the ability to host, modify, and extend your integration indefinitely.",
+          "question": "What happens to the code and my integration logic after it's built?"
+        },
+        {
+          "answer": "Custom-built integrations often represent a significant long-term saving compared to paying recurring subscriptions for multiple SaaS connectors. You invest once in building the exact solution you need, avoiding ongoing fees and feature limitations.",
+          "question": "How does the cost compare to off-the-shelf integration platforms?"
+        },
+        {
+          "answer": "Absolutely. Custom integrations are designed for flexibility. As APIs change or your business needs evolve, you can easily update the integration logic, add new data fields, or modify transformation rules directly within your owned application.",
+          "question": "Can I easily modify or expand my integration tool later?"
+        },
+        {
+          "answer": "You configure the security protocols directly within your custom application, allowing you to implement best practices for data encryption, credential management, and access control. This often results in a more secure setup than relying on multi-tenant SaaS integration platforms.",
+          "question": "Are custom API integrations secure?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance throughout the building process, from initial design to debugging and optimization. Additionally, because you own the code, you have the flexibility to bring in any developer for further customizations or support.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unify your data and systems?",
+      "type": "cta",
+      "content": "Stop battling data silos. Build intelligent, seamless API integrations that drive your business forward with Kliv."
+    }
+  ],
+  "title": "API integration tools"
+}

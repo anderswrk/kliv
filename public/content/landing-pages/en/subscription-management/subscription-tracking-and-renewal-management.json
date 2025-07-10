@@ -1,0 +1,170 @@
+{
+  "defaultPrompt": "I want to create a subscription tracking and renewal management system that allows users to add all their subscriptions, track payment dates, receive renewal reminders, and analyze spending.",
+  "description": "Build custom subscription tracking and renewal management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start tracking now",
+    "subtitle": "Take control of your recurring expenses, avoid unwanted renewals, and optimize your spending with a personalized subscription tool built on Kliv.",
+    "title": "Create your own subscription tracking and renewal manager"
+  },
+  "metaDescription": "Develop powerful subscription tracking and renewal management tools tailored to your needs with Kliv. Never miss a renewal or overspend on forgotten services again.",
+  "sections": [
+    {
+      "title": "The rising tide of subscriptions: Are you drowning?",
+      "type": "text",
+      "content": "In today's 'as-a-service' economy, subscriptions have become ubiquitous, from streaming media and software licenses to gym memberships and meal kits. While convenient, this proliferation often leads to 'subscription fatigue' and 'bill shock' as consumers lose sight of what they're paying for.\n\nGeneric budgeting apps offer partial solutions, but they lack the specificity and proactive management features needed for true control. Building your own dedicated subscription tracker with Kliv empowers you to design a tool that understands your spending habits, anticipates renewals, and puts you firmly back in charge of your financial health. Move beyond reactive budgeting to proactive management."
+    },
+    {
+      "title": "Why a custom subscription manager is a game-changer",
+      "type": "markdown",
+      "content": "## The hidden costs of unchecked subscriptions\n\nMany consumers subscribe to numerous services without realizing the cumulative cost. Forgotten free trials that roll into paid plans, redundant services, and fluctuating prices can quickly erode personal budgets. Off-the-shelf finance apps often provide a static view, failing to offer the dynamic insights and proactive reminders required for effective subscription oversight.\n\n## The power of personalization\n\nA custom-built subscription tracking and renewal management tool offers unparalleled advantages:\n\n### Granular control over your finances\nUnlike broad financial tools, your custom application can focus specifically on recurring payments. This means dedicated fields for renewal dates, billing cycles, cancellation terms, and even notes about contact information for each service. This granular detail ensures you have all necessary information at your fingertips to make informed decisions.\n\n### Proactive renewal alerts\nStop being surprised by automatic renewals. Your custom tool can be precisely configured to send reminders days or weeks in advance, giving you ample time to decide whether to cancel, renew, or renegotiate. Define notification preferences down to the minute.\n\n### Tailored spending insights\nBeyond just listing subscriptions, a custom application can categorize your spending, identify trends, and highlight areas where you might be overspending. Visualize your recurring expenses in ways that make sense to you, whether by service type, monthly total, or annual commitment.\n\n### Data privacy and ownership\nWhen you build your own tool, your sensitive financial data remains under your control. You choose where it’s stored and how it’s secured, eliminating concerns about third-party data breaches or privacy policies.\n\n### Adaptability for evolving needs\nYour financial landscape changes, and so should your tools. A custom solution can evolve with you – add new features for tracking family subscriptions, integrating with specific banking APIs, or even planning for future subscription investments. You are not reliant on a vendor's product roadmap.\n\n## Real-world impact\n\nCustom subscription managers aren't just for individuals; they can be invaluable for small businesses too:\n\n**Individuals**: Track Netflix, Spotify, gym memberships, software licenses, online courses, and ensure you're only paying for services you actively use.\n\n**Freelancers & Small Businesses**: Manage SaaS tools (CRM, accounting software, project management tools), domain renewals, hosting plans, and professional licenses. Avoid service disruptions due to forgotten payments.\n\n**Families**: Keep track of multiple family members' streaming services, gaming subscriptions, and educational apps, optimizing costs and avoiding duplication.\n\n## The Kliv advantage\n\nKliv leverages AI to make complex software development accessible. Build a sophisticated, secure, and intuitive subscription tracking application without writing a single line of code:\n\n- **Conversational development**: Describe your requirements in simple language.\n- **Rapid iteration**: See your ideas come to life and refine them on the fly.\n- **Built-in intelligence**: AI assists with data structure, UI design, and feature suggestions.\n- **Deployment flexibility**: Host your application where it best suits your security and performance needs.\n\nTake the first step towards complete financial clarity by building a subscription manager that truly works for you."
+    },
+    {
+      "title": "Subscription tracking ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track personal subscriptions with basic details and reminders.",
+          "prompt": "Create an application to track my personal subscriptions, including service name, monthly cost, next payment date, and renewal frequency. Send me email reminders 7 days before payment."
+        },
+        {
+          "description": "Manage business SaaS tools with user assignments and cost allocation.",
+          "prompt": "Build a business subscription management tool that stores SaaS service details, assigned users, renewal dates, and allows for categorization by department. Include an alert system for renewals 30 days prior."
+        },
+        {
+          "description": "Compare and analyze subscription spending by category.",
+          "prompt": "Develop an app that not only tracks subscriptions but also categorizes them (e.g., streaming, productivity, fitness) and generates monthly and annual spending reports per category to help identify savings."
+        },
+        {
+          "description": "Subscription tracker with cancellation instructions and notes.",
+          "prompt": "I need a subscription manager that stores the service name, cost, next payment date, cancellation method (e.g., website, phone), and a notes section for any special terms or contact info."
+        },
+        {
+          "description": "Track free trials and their expiry dates with conversion options.",
+          "prompt": "Build a system to track free trials, their start and end dates, and options to convert to a paid subscription or cancel. Remind me 2 days before a trial ends via SMS."
+        },
+        {
+          "description": "Family shared subscription manager with individual usage tracking.",
+          "prompt": "Create an app for family subscriptions where each family member can log their usage of shared services (e.g., streaming, gaming) and see their fair share of the cost. Include a master list of all subscriptions."
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your subscription tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to connect to my bank account or credit card statements to automatically identify recurring payments and suggest adding them as subscriptions.",
+          "title": "Automated payment detection"
+        },
+        {
+          "prompt": "Integrate push notifications to my mobile device for urgent renewal alerts or changes in subscription status.",
+          "title": "Mobile push notifications"
+        },
+        {
+          "prompt": "Include visualizations like pie charts or bar graphs showing the breakdown of subscription spending by category or month.",
+          "title": "Interactive spending dashboards"
+        },
+        {
+          "prompt": "Add a user authentication system so multiple family members or team members can access and manage subscriptions, with different permission levels.",
+          "title": "Multi-user access & roles"
+        },
+        {
+          "prompt": "Implement a feature to securely store login credentials for each subscription service, with encryption.",
+          "title": "Secure credential storage"
+        },
+        {
+          "prompt": "Allow users to attach relevant documents or screenshots, like confirmation emails or cancellation policies, to each subscription entry.",
+          "title": "Document attachment"
+        },
+        {
+          "prompt": "Add a 'cancellation success' tracker where I can mark if a subscription was successfully cancelled and the date of cancellation.",
+          "title": "Cancellation confirmation"
+        },
+        {
+          "prompt": "Provide recommendations for cheaper alternatives or bundled services based on my current subscriptions and spending habits.",
+          "title": "Cost-saving recommendations"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your custom subscription manager",
+      "type": "features",
+      "items": [
+        {
+          "description": "Input and manage all your recurring services with comprehensive details.",
+          "icon": "📝",
+          "title": "Subscription Database"
+        },
+        {
+          "description": "Receive timely alerts before renewals, free trial expirations, and payment dates.",
+          "icon": "⏰",
+          "title": "Customizable Reminders"
+        },
+        {
+          "description": "Categorize spending and visualize financial trends with intuitive graphs.",
+          "icon": "📊",
+          "title": "Spending Analytics"
+        },
+        {
+          "description": "Add specific notes, cancellation methods, and even contact information for each service.",
+          "icon": "💡",
+          "title": "Detailed Service Records"
+        },
+        {
+          "description": "Securely store and retrieve payment details, avoiding manual lookups.",
+          "icon": "💳",
+          "title": "Payment Tracking"
+        },
+        {
+          "description": "Export your subscription data for personal records or integration with other financial tools.",
+          "icon": "📤",
+          "title": "Data Export"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, you can design and deploy a functional subscription tracker within hours. Complex features like bank integrations or advanced analytics might take a bit longer to refine, but the core system is rapid to build.",
+          "question": "How quickly can I build a subscription tracking application?"
+        },
+        {
+          "answer": "No coding is required. Kliv uses AI to interpret your plain language descriptions and generate the application. You focus on what you want the app to do, not how to code it.",
+          "question": "Do I need any programming skills to create this tool?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various APIs, including banking services (with proper authentication), email providers for alerts, or even budgeting software you already use. Kliv helps facilitate these connections.",
+          "question": "Can my custom subscription manager connect to other services or my bank?"
+        },
+        {
+          "answer": "You own 100% of the application and its data. Kliv provides the platform to build it, but the intellectual property and all user data within your application are yours.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Building a custom solution often provides long-term cost benefits. You pay for the development platform and hosting, but avoid recurring subscription fees for third-party tracking apps, potentially saving significant money over time.",
+          "question": "Is building a custom app more expensive than using off-the-shelf solutions?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the flexibility. As your needs evolve, you can easily add new features, change reminder settings, or even pivot the application's functionality without vendor limitations.",
+          "question": "Can I modify my subscription tracker after it's built?"
+        },
+        {
+          "answer": "You have full control over the hosting environment and data security protocols used for your application. This often allows for stronger, more personalized security measures than what typical SaaS products offer, where you're reliant on their generic security.",
+          "question": "How secure is a custom-built solution for sensitive financial data?"
+        },
+        {
+          "answer": "Kliv's platform includes AI-powered assistance throughout the building process, offering suggestions, troubleshooting, and optimization tips. The aim is to empower you to build and maintain the application yourself with smart guidance.",
+          "question": "What kind of support is available during the development process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain full control over your subscriptions?",
+      "type": "cta",
+      "content": "Stop the endless stream of recurring charges. Build a smart, personalized subscription manager that puts your money back in your pocket."
+    }
+  ],
+  "title": "Subscription tracking and renewal manager"
+}

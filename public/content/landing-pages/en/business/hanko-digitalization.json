@@ -1,0 +1,145 @@
+{
+  "defaultPrompt": "I want to create a hanko digitalization system that allows users to upload documents, apply digital hanko stamps securely, manage stamp usage, and maintain an audit trail for all stamping activities.",
+  "description": "Digitize your company's hanko (seal) usage with a custom, secure application.",
+  "hero": {
+    "cta": "Start Digitalizing",
+    "subtitle": "Transform traditional hanko stamping into a secure, auditable, and efficient digital process with a custom application built on Kliv's platform.",
+    "title": "Build your own Hanko Digitalization System"
+  },
+  "metaDescription": "Create a custom hanko digitalization system with Kliv. Securely manage digital stamps, apply them to documents, maintain audit trails, and streamline workflows for contracts and approvals.",
+  "sections": [
+    {
+      "title": "Why Digitize your Hanko?",
+      "type": "text",
+      "content": "In many business cultures, especially in Japan, the hanko (personal or corporate seal) remains a critical element for authenticating documents and formalizing agreements. However, traditional hanko processes can be cumbersome, time-consuming, and prone to physical loss or misuse.\n\nWhile off-the-shelf solutions exist, they often come with rigid workflows that don't fit specific business needs, high recurring costs, and concerns about data security and ownership. Building your own hanko digitalization system offers unparalleled flexibility, cost efficiency, and tailored security controls."
+    },
+    {
+      "title": "The Case for Custom Hanko Digitalization",
+      "type": "markdown",
+      "content": "## Challenges with Traditional Hanko Processes\n\nThe reliance on physical hanko seals introduces several inefficiencies and risks:\n\n- **Logistical Delays**: Documents requiring hanko often need physical presence, leading to delays for approvals, especially for remote teams.\n- **Security Risks**: Physical seals can be lost, stolen, or misused if not properly managed.\n- **Lack of Auditability**: Tracking who stamped what document and when can be difficult without a robust manual system.\n- **Storage and Retrieval**: Managing physical documents and archiving them for compliance is resource-intensive.\n- **Environmental Impact**: Significant paper usage and transportation costs.\n\n## Benefits of a Custom Digital Hanko System\n\nLeveraging Kliv to build your own digital hanko system empowers your business with:\n\n### Enhanced Security and Control\nCustom solutions allow you to implement stringent security protocols, including multi-factor authentication, granular access controls, and encryption, ensuring only authorized personnel can use digital hanko stamps. You control data residency and security policies.\n\n### Streamlined Workflow and Efficiency\nAutomate the stamping process by integrating it directly into your existing document management or approval workflows. Reduce processing times from days to minutes, allowing for faster contract agreements and internal approvals.\n\n### Comprehensive Audit Trails\nEvery digital stamp application can be logged with precise timestamps, user identities, and document versions, providing an immutable audit trail crucial for compliance and dispute resolution.\n\n### Cost Savings\nEliminate costs associated with physical document handling, shipping, storage, and the time spent on manual stamping. A custom build is a one-time investment, avoiding perpetual subscription fees.\n\n### Scalability and Adaptability\nAs your business evolves, your custom system can easily adapt. Add new types of hanko, integrate additional approval layers, or connect with new business systems without vendor limitations.\n\n## Real-World Applications\n\nCustom digital hanko systems benefit a wide range of business functions:\n\n**Legal & Contracts**: Expedite contract signing, non-disclosure agreements, and official correspondence.\n\n**HR**: Efficiently process employment contracts, internal policies, and employee records requiring formal approval.\n\n**Finance**: Speed up invoice approvals, financial reports, and budget authorizations.\n\n**General Administration**: Digitize internal memos, permission slips, and official company documents.\n\n## Kliv's Advantage for Hanko Digitalization\n\nBuilding a sophisticated digital hanko system used to require specialized development teams. Kliv changes this:\n\n- **No-Code/Low-Code**: Describe your system in plain English, and Kliv's AI helps generate the application.\n- **Rapid Prototyping**: See a working version of your system quickly, allowing for iterative refinement.\n- **Customizable Security**: Implement an identity management system perfectly tailored to your internal policies.\n- **Integration Capabilities**: Easily connect with existing document management systems, CRMs, or ERPs.\n\nEmbrace the future of secure document authentication. With Kliv, you can build a digital hanko system that precisely meets your business's needs, enhancing security, efficiency, and compliance."
+    },
+    {
+      "title": "Hanko Digitalization Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Basic Digital Hanko App for Documents upload and stamping workflows with audit trail and reporting features and user administration capabilities for managing digital hanko stamps and stamp usage logging on documents where a user can upload a document and select which digital hanko to apply and place it on the document. The system should also allow for generation of reports for audit purposes and log all hanko related activities including user, document, hanko type and timestamp and also allow for user role administration to manage who can access and use specific hanko stamps. The system should be able to integrate with existing document management systems through APIs or Webhooks to receive and send documents for stamping and allow for secure storage of digital hanko images and their associated metadata and allow for multiple authentication methods including single sign-on (SSO) and biometric authentication methods to ensure that only authorized individuals can access and use digital hanko stamps. The system should also support multiple document formats including PDF, Word, and Image files and allow for custom validation rules to be applied prior to hanko application and provide notification and alerts for hanko applications and approvals to relevant stakeholders. The system should also provide for version control where previous versions of documents can be retrieved, and an option for recovery of deleted documents, hanko, and logs. It should also have a dashboard with a comprehensive overview of hanko usage, document status, and system activity with an option to create customized dashboards based on user role and needs and provide for custom notifications and alerts for hanko applications and approvals to relevant stakeholders and also allow for setting up reminders for document review and hanko application due dates. The system should also provide for custom reporting features to generate reports on hanko usage, document status, and system activity with custom filters and export options and for the reports to be generated on demand or on a scheduled basis. The system should also have an option to export all data in a standard format such as CSV or JSON for compliance purposes and for data archiving purposes. The system should also be able to comply with international standards and regulations for digital signatures and electronic records by applying a PKI based digital signature along with the digital hanko which further ensures the authenticity and integrity of the stamped document. The system should also have an option for the hanko to be locked or frozen after it has been used on a document which will ensure that the hanko cannot be tampered with or used again until it has been explicitly unlocked by an administrator.The system should also have an option for the hanko to be automatically applied to documents based on predefined rules or templates which will further streamline the hanko application process as it will not require manual intervention. The system should also be integrated with a document scanning solution so that physical documents can be scanned and then the digital hankos can be applied on them. The system should be able to apply the hanko as an image to the document and also ensure that the image is not distorted or pixelated. The system should ensure that the hanko is applied with a timestamp and a user ID so that it is easily auditable. The system should also ensure that the hanko cannot be removed from the document after it has been applied. The system should also provide REST APIs for integrating with other systems to apply and verify the digital hankos on documents. The system should also allow for user authentication through a third-party identity provider and ensure that all communication with the system is encrypted using TLS. Finally, the system should allow for storing the digital hanko images securely. All the above features and functionalities should be implemented in a single application. Ensure that the database used to store the digital hankos, documents, and logs is secure and encrypted at rest and in transit. Make sure that the system is scalable to handle a large number of users and documents."
+        }
+      ]
+    },
+    {
+      "title": "Ways to Enhance Your Hanko Digitalization System",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add user-friendly drag-and-drop functionality for hanko placement on documents.",
+          "title": "Improve UI for Stamping"
+        },
+        {
+          "prompt": "Integrate with our existing document management system (e.g., SharePoint, Google Drive) for seamless document input and output.",
+          "title": "Add Document Management Integration"
+        },
+        {
+          "prompt": "Implement multi-factor authentication (MFA) for hanko usage, such as biometric or hardware token verification.",
+          "title": "Enhance Security with MFA"
+        },
+        {
+          "prompt": "Develop an automated notification system to alert users when documents require hanko stamping or have been stamped.",
+          "title": "Implement Workflow Notifications"
+        },
+        {
+          "prompt": "Add a feature for setting and enforcing hanko usage policies, defining which hankos can be used on which document types.",
+          "title": "Add Policy Enforcement"
+        },
+        {
+          "prompt": "Build a comprehensive dashboard to visualize hanko usage trends, pending documents, and audit logs.",
+          "title": "Create Analytics Dashboard"
+        },
+        {
+          "prompt": "Enable OCR (Optical Character Recognition) capabilities for documents to automatically identify areas for hanko placement.",
+          "title": "Add OCR Functionality"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Hanko Digitalization System",
+      "type": "features",
+      "items": [
+        {
+          "description": "Securely store and manage digital images of various hanko types.",
+          "icon": "🖼️",
+          "title": "Digital Hanko Management"
+        },
+        {
+          "description": "Upload documents in various formats (PDF, Word, Images) for stamping.",
+          "icon": "⬆️",
+          "title": "Document Upload & Processing"
+        },
+        {
+          "description": "Apply digital hankos directly onto documents with precise positioning.",
+          "icon": " stamp",
+          "title": "Intuitive Stamping Interface"
+        },
+        {
+          "description": "Maintain a detailed, immutable log of every hanko application, including user, timestamp, and document version.",
+          "icon": "📜",
+          "title": "Comprehensive Audit Trail"
+        },
+        {
+          "description": "Control user access and permissions for different hanko types and documents.",
+          "icon": "🔒",
+          "title": "Access Control & Security"
+        },
+        {
+          "description": "Generate custom reports on hanko usage, document status, and system activity.",
+          "icon": "📊",
+          "title": "Reporting & Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic hanko digitalization system can be done in days or weeks with Kliv, depending on the complexity of integrations and specific features you require. More sophisticated systems with advanced features might take a bit longer for fine-tuning.",
+          "question": "How long will it take to build my hanko digitalization system?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv's platform allows you to describe the functionalities of your hanko system using natural language. The AI assists in translating your requirements into a working application.",
+          "question": "Do I need coding skills to build this system?"
+        },
+        {
+          "answer": "Absolutely. Your custom system can integrate with existing document management systems (DMS), enterprise resource planning (ERP) systems, or customer relationship management (CRM) tools through APIs, ensuring a seamless workflow.",
+          "question": "Can the system integrate with my current business software?"
+        },
+        {
+          "answer": "All data, including digital hanko images, documents, and audit logs, is entirely yours. You control where it's hosted and how it's secured, giving you full ownership and compliance control.",
+          "question": "Who owns the data and the system I build?"
+        },
+        {
+          "answer": "Building a custom system with Kliv is typically a one-time development investment, leading to significant long-term savings compared to perpetual subscription fees charged by commercial hanko software. You also avoid paying for features you don't need.",
+          "question": "How does the cost compare to off-the-shelf hanko software?"
+        },
+        {
+          "answer": "Yes, a key advantage of custom-building is flexibility. You can easily add new features, adjust workflows, or change security settings as your business needs evolve, without vendor lock-in.",
+          "question": "Can I modify or expand the system after it's built?"
+        },
+        {
+          "answer": "Your custom system can be designed with robust security. You implement your own encryption, access controls, and data residency policies, often resulting in a more secure environment than relying on a third-party vendor's security practices.",
+          "question": "Is a custom-built solution secure for sensitive hanko data?"
+        },
+        {
+          "answer": "Kliv provides tools and guidance throughout the development process. Post-launch, you have complete control over your application, and can leverage Kliv's platform for future updates, or engage your own IT resources.",
+          "question": "What kind of support is available after the system is deployed?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to digitalize your hanko process?",
+      "type": "cta",
+      "content": "Step into the future of secure document authentication. Build a digital hanko system tailored perfectly to your business with Kliv."
+    }
+  ],
+  "title": "Hanko Digitalization Systems"
+}

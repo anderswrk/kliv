@@ -1,0 +1,168 @@
+{
+  "defaultPrompt": "I want to create a help center that allows customers to search articles, submit tickets, and browse FAQs. It should also have an internal knowledge base for my team to manage content and answer customer questions.",
+  "description": "Build custom help desk and knowledge management platforms with Kliv's AI-powered capabilities.",
+  "hero": {
+    "cta": "Start building your help center",
+    "subtitle": "Empower your customers and team with intelligent, custom-built help centers and knowledge management solutions using Kliv.",
+    "title": "Create your own help center & knowledge base"
+  },
+  "metaDescription": "Design and deploy powerful, tailor-made help centers and knowledge bases with Kliv. Improve customer self-service and streamline internal support processes.",
+  "sections": [
+    {
+      "title": "Why build your own help center?",
+      "type": "text",
+      "content": "In today's fast-paced environment, providing instant, accurate information is crucial for customer satisfaction and team efficiency. While off-the-shelf help desk solutions offer a one-size-fits-all approach, they often come with compromises:\n\n- **Generic user experiences**: Your brand identity gets lost behind their interface.\n- **Feature bloat or gaps**: You pay for features you don't need or lack critical ones you do.\n- **Scalability limitations**: Growing your support operations often means escalating subscription costs.\n\nBuilding your own help center and knowledge management system with Kliv's AI-powered platform puts you in control. You can design it to perfectly match your brand, integrate seamlessly with your existing tools, and scale without punitive costs."
+    },
+    {
+      "title": "The strategic advantage of a custom knowledge platform",
+      "type": "markdown",
+      "content": "## The pitfalls of off-the-shelf solutions\n\nMany businesses opt for popular help desk and knowledge base providers only to find themselves limited by:\n\n- **Inflexible branding**: Your customer-facing portal looks like everyone else's.\n- **Data silos**: Information is locked within the vendor's system, isolated from your other business data.\n- **Vendor lock-in**: Migrating to another solution becomes a complex, costly nightmare.\n- **Subscription creep**: As your team or usage grows, so do your monthly bills, often exponentially.\n\n## Why custom-built excels\n\nThe ability to custom-build critical business tools is no longer reserved for tech giants. Kliv democratizes software development, allowing you to create a superior solution tailored to your exact needs.\n\n### Perfect brand alignment\nYour help center is an extension of your brand. A custom solution ensures a consistent look, feel, and voice that reinforces your identity, enhancing customer trust and experience.\n\n### Data ownership and integration\nRetain full control over your customer interactions and knowledge data. Integrate directly with your CRM, sales tools, and internal systems to create a unified view of your customer and product information.\n\n### Optimized for your workflows\nDesign a help center that truly understands your support categories, ticket routing logic, and content management processes. No more forcing your team into generic workflows.\n\n### Cost-efficiency and scalability\nInvest once in a solution that grows with you, rather than paying perpetual, escalating subscription fees. Scale your knowledge base and support operations without worrying about increasing per-user or per-ticket costs.\n\n### Enhanced security and compliance\nHost your sensitive customer and product information in an environment you control, meeting your specific security and compliance requirements more effectively than relying on third-party vendors.\n\n## Real-world impact\n\nCustom help centers and knowledge platforms can revolutionize how businesses support their customers and internal teams:\n\n**SaaS Companies**: A dynamic, self-updating knowledge base that automatically pulls product changes from engineering documentation, providing real-time answers for users and support agents.\n\n**E-commerce Businesses**: A personalized help center that uses purchase history to proactively suggest relevant FAQs and troubleshooting guides, reducing support ticket volume.\n\n**Internal IT Departments**: A centralized internal knowledge base for IT runbooks, software documentation, and common technical issues, enabling faster resolution times for internal staff.\n\n**Healthcare Providers**: A secure patient portal integrated with medical records, offering FAQs on procedures, billing, and securely allowing patients to submit follow-up questions.\n\n### The Kliv advantage in action\n\nKliv uses AI to simplify the complex. You describe your desired help center and knowledge base features, and the platform intelligently generates the foundational components, user interfaces, database schemas, and API integrations necessary to bring it to life quickly and efficiently. This accelerates development, reduces complexity, and allows you to focus on the strategic aspects of your knowledge management."
+    },
+    {
+      "title": "Help center ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Powerful customer self-service portal.",
+          "prompt": "Create a help center for customers with a searchable knowledge base, FAQ sections, and a ticket submission form. Include user accounts for tracking past interactions and a feedback mechanism for articles.",
+          "title": "Customer Self-Service Hub"
+        },
+        {
+          "description": "Centralized resource for your team.",
+          "prompt": "Build an internal knowledge base accessible only to employees. It should contain company policies, IT troubleshooting guides, HR documents, and department-specific information, with version control and access permissions.",
+          "title": "Internal Team Knowledge Base"
+        },
+        {
+          "description": "AI-powered product support.",
+          "prompt": "Develop a product documentation portal where users can find detailed guides, tutorials, and release notes for our software. Integrate a chatbot that can answer questions based on the documentation content.",
+          "title": "Interactive Product Documentation"
+        },
+        {
+          "description": "Unified support across channels.",
+          "prompt": "Design a complete support system that aggregates customer inquiries from email, social media, and live chat into a single agent dashboard, with Canned Responses and a knowledge article suggestion engine.",
+          "title": "Omnichannel Support Platform"
+        },
+        {
+          "description": "Community-driven support forum.",
+          "prompt": "Build a community forum where users can ask questions, share solutions, and discuss topics related to our product. Include moderation tools, upvoting, and the ability to mark a question as 'answered'.",
+          "title": "Customer Community & Forum"
+        },
+        {
+          "description": "Secure portal for client operations.",
+          "prompt": "Create a client portal for project updates, shared documents, and direct communication. Clients should have individual logins and only see information relevant to their projects.",
+          "title": "Client Project Knowledge Hub"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your knowledge platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user sentiment analysis feature to ticket responses and feedback forms, so we can automatically identify unhappy customers.",
+          "title": "Implement Sentiment Analysis"
+        },
+        {
+          "prompt": "Integrate a robust reporting and analytics dashboard to track article views, search queries, ticket deflection rates, and agent performance.",
+          "title": "Build Advanced Analytics"
+        },
+        {
+          "prompt": "Add a feature for agents to create and manage 'Canned Responses' for frequently asked questions, improving response efficiency.",
+          "title": "Develop Canned Responses"
+        },
+        {
+          "prompt": "Implement multi-language support for the entire help center and knowledge base content, allowing users to select their preferred language.",
+          "title": "Add Multi-Language Support"
+        },
+        {
+          "prompt": "Add a 'Chat with an Agent' button that connects customers directly to a live support representative within the help center interface.",
+          "title": "Integrate Live Chat"
+        },
+        {
+          "prompt": "Create an automated system that suggests relevant knowledge articles to agents based on the content of an incoming support ticket.",
+          "title": "Knowledge Article Suggestions for Agents"
+        },
+        {
+          "prompt": "Add an 'Announcements' section on the help center homepage for urgent news, system status updates, or new product features.",
+          "title": "Implement Announcement Banners"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your platform",
+      "type": "features",
+      "items": [
+        {
+          "description": "Categorize and organize content logically for easy access.",
+          "icon": "🗂️",
+          "title": "Structured Content Management"
+        },
+        {
+          "description": "Powerful search options, including full-text and semantic search.",
+          "icon": "🔍",
+          "title": "Intelligent Search"
+        },
+        {
+          "description": "Manage customer inquiries with customizable forms and routing.",
+          "icon": "🎟️",
+          "title": "Ticket Management"
+        },
+        {
+          "description": "Create distinct user roles with specific access permissions.",
+          "icon": "🔐",
+          "title": "Role-Based Access Control"
+        },
+        {
+          "description": "Allow agents to view and edit content, ensuring accuracy.",
+          "icon": "✍️",
+          "title": "Agent Interface"
+        },
+        {
+          "description": "Gather customer feedback and reactions on articles.",
+          "icon": "👍",
+          "title": "Article Feedback"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional help center with Kliv can take as little as a few hours for basic setups to a few days or weeks for comprehensive, custom-integrated solutions. The AI significantly speeds up the initial development phase.",
+          "question": "How quickly can I build a help center system?"
+        },
+        {
+          "answer": "Kliv is designed for users without coding experience. You describe your requirements in plain language, and the AI assists in generating and structuring the application. Technical knowledge might be helpful for advanced integrations, but it's not a prerequisite.",
+          "question": "Do I need to be a developer to build this type of tool?"
+        },
+        {
+          "answer": "Yes, custom help centers built with Kliv can seamlessly integrate with virtually any third-party system that offers an API or standard data formats. This includes CRM systems, marketing automation, e-commerce platforms, and more.",
+          "question": "Can my custom help center integrate with existing business tools?"
+        },
+        {
+          "answer": "Absolutely. Your custom help center and all its data are owned entirely by you. You have full control over the data, its hosting location, and how it is used, ensuring privacy and compliance.",
+          "question": "Who owns the data and the application once it's built?"
+        },
+        {
+          "answer": "Initially, a custom-built solution might have an upfront cost. However, it typically becomes significantly more cost-effective than SaaS over time, as you avoid recurring per-user or per-feature subscription fees. The long-term savings are substantial.",
+          "question": "Is building my own solution more cost-effective than using SaaS?"
+        },
+        {
+          "answer": "Yes, custom help centers are inherently flexible. As your business needs evolve, you can easily modify existing features, add new functionalities, or integrate with new tools without being constrained by a vendor's roadmap or update cycles.",
+          "question": "Can I easily add new features or modify the system later?"
+        },
+        {
+          "answer": "Kliv provides an intuitive environment for making changes. Whether it's adding a new article category, refining a search algorithm, or updating a ticket workflow, you can typically implement these changes directly within the platform with AI assistance.",
+          "question": "How do I make changes or update content in my custom system?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate knowledge hub?",
+      "type": "cta",
+      "content": "Stop settling for generic solutions. Create a help center and knowledge base designed perfectly for your customers and your team."
+    }
+  ],
+  "title": "Help Center & Knowledge Management"
+}

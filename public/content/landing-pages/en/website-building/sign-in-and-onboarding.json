@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a robust user authentication system with social login, email verification, and a customizable onboarding flow for new website users that includes a profile setup and a guided tour.",
+  "description": "Build custom sign-in and onboarding solutions for your website or application with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your user flow",
+    "subtitle": "Craft perfect first impressions and secure user access with custom sign-in and onboarding experiences built on Kliv.",
+    "title": "Custom Sign-in & User Onboarding"
+  },
+  "metaDescription": "Create powerful, secure, and intuitive sign-in and user onboarding applications with Kliv. Enhance user experience from the first interaction.",
+  "sections": [
+    {
+      "title": "Why build your own sign-in and onboarding system?",
+      "type": "text",
+      "content": "The initial user experience for any digital product can make or break its success. Sign-up processes, login security, and user onboarding are not just technical necessities; they are critical touchpoints that define user retention and engagement. While off-the-shelf solutions offer quick fixes, they often come with compromises in flexibility, branding, and long-term scalability. \n\nBuilding your own custom solution with Kliv allows you to perfectly align user authentication and onboarding with your product's unique brand identity and user journey. You gain complete control over data, security, and the user experience, ensuring it's tailored precisely to your audience's needs without the bloat or restrictions of third-party services."
+    },
+    {
+      "title": "The case for custom user authentication and onboarding",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\nMany businesses opt for pre-built authentication services or basic templates for their sign-in and onboarding flows. While convenient, these often lead to:\n\n- **Inflexible user journeys**: Forced into a standard process that doesn't align with your product's specific features or user segments.\n- **Generic branding**: Lacking the ability to fully customize the look and feel, leading to a disjointed brand experience.\n- **Vendor lock-in and hidden costs**: Relying on external providers can mean escalating subscription fees, limited access to raw data, and difficulty migrating later.\n- **Security concerns**: Less transparency over how your user data is handled and secured by a third party.\n- **Limited extensibility**: Difficulty adding unique steps, integrations, or advanced features as your product evolves.\n\n## Why a custom-built solution is superior\nLeveraging platforms like Kliv empowers you to build tailored sign-in and onboarding systems that deliver significant advantages:\n\n### Seamless brand integration\nEnsure every part of your user's first interaction, from sign-up forms to welcome tours, seamlessly matches your brand's aesthetic and voice. This creates a cohesive and professional image and builds user trust from the start.\n\n### Enhanced security and data control\nDesign your authentication system with specific security protocols and data handling practices. You dictate where data is stored and how it's protected, giving you peace of mind and compliance. Integrate advanced features like multi-factor authentication (MFA), passwordless login, and custom access controls.\n\n### Optimized user experience\nTailor the onboarding flow to guide users efficiently through your product. This can include personalized welcome messages, interactive tutorials, contextual tips, and progress tracking, all designed to maximize activation and retention rates.\n\n### Future-proof scalability\nAs your user base grows or your product evolves, your custom system can scale and adapt without needing to switch providers or rebuild from scratch. Add new authentication methods (e.g., biometrics), integrate with new third-party services, or introduce new onboarding steps with ease.\n\n### Cost-efficiency in the long run\nWhile initial development requires investment, avoiding recurring subscription fees from authentication as a service (AaaS) providers can lead to significant cost savings over time, especially at scale. You own the asset, not rent it.\n\n## Real-world applications\n\nCustom sign-in and onboarding systems are vital for a wide range of digital products:\n\n**SaaS applications**: Providing tiered access, role-based permissions, and guided tours for new users based on their subscription plan.\n\n**E-commerce platforms**: Securely managing customer accounts, wishlists, order history, and personalized shopping experiences after sign-up.\n\n**Community forums/social networks**: Implementing robust identity verification, profile creation, and introductory flows to encourage immediate engagement.\n\n**Educational portals**: Managing student/instructor logins, course enrollment, and initial setup of learning preferences.\n\n## The Kliv advantage\n\nKliv's AI-powered platform simplifies the creation of complex user authentication and onboarding systems:\n\n- **Declarative design**: Describe your desired login methods, verification steps, and onboarding sequence in plain language.\n- **Component generation**: AI automatically generates the necessary UI elements and backend logic for secure authentication and smooth user flows.\n- **Integration flexibility**: Easily connect with external APIs for email services, payment gateways, or third-party identity providers.\n- **Rapid iteration**: Quickly test and refine your user flows based on feedback and analytics without extensive coding cycles.\n\nBy choosing to build with Kliv, you're not just creating a sign-in page; you're engineering a superior user journey that sets the stage for product success."
+    },
+    {
+      "title": "Onboarding and sign-in ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Secure user access with standard email/password and social logins",
+          "prompt": "Create a user authentication system that supports email/password login, Google Sign-In, and Apple ID. Include email verification for new accounts and password reset functionality.",
+          "title": "Standard Authentication with Social Logins"
+        },
+        {
+          "description": "Engage new users with a personalized tour and profile setup",
+          "prompt": "Build an onboarding flow for a new SaaS product. After sign-up, prompt the user for their company name and role, then offer a multi-step guided tour of key features based on their selected role. Track tour completion.",
+          "title": "Interactive SaaS Onboarding Tour"
+        },
+        {
+          "description": "Streamline account creation for e-commerce with progressive profiling",
+          "prompt": "Develop an e-commerce user creation process. Allow users to check out as guests but prompt them to create an account at the order confirmation stage, pre-filling details from their order. Include an option to subscribe to newsletters.",
+          "title": "Guest Checkout to Account Conversion"
+        },
+        {
+          "description": "Build a secure portal with MFA and flexible profile management",
+          "prompt": "Design a client portal login with email and phone-based multi-factor authentication (MFA). After login, allow users to manage their profile details, change passwords, and view their login history.",
+          "title": "Client Portal with MFA"
+        },
+        {
+          "description": "Verify identity and set up preferences for content platforms",
+          "prompt": "Create a sign-up and onboarding process for a content creation platform. Require phone number verification. After verification, ask users about their content interests and preferred topics to customize their initial feed.",
+          "title": "Content Platform Sign-up & Interests"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your user flows",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add multi-factor authentication (MFA) options, including SMS and authenticator app support, to the login process.",
+          "title": "Implement advanced MFA"
+        },
+        {
+          "prompt": "Integrate with a CRM (e.g., Salesforce, HubSpot) to automatically create new leads or contacts upon user sign-up and update their onboarding progress.",
+          "title": "CRM integration"
+        },
+        {
+          "prompt": "Develop an admin dashboard for managing users, resetting passwords, viewing login activity, and impersonating accounts for support purposes.",
+          "title": "Build a user management dashboard"
+        },
+        {
+          "prompt": "Incorporate analytics tracking (e.g., Google Analytics, Mixpanel) for each step of the sign-up and onboarding process to identify drop-off points.",
+          "title": "Add analytics and A/B testing"
+        },
+        {
+          "prompt": "Add a 'Remember Me' feature for persistent sessions and an option for users to view and revoke active sessions across devices.",
+          "title": "Enhance session management"
+        },
+        {
+          "prompt": "Enable self-service account deletion with a confirmation process, ensuring all associated user data is removed or anonymized.",
+          "title": "Allow self-service account deletion"
+        },
+        {
+          "prompt": "Implement role-based access control (RBAC) during sign-up, allowing different user types (e.g., administrator, standard user) to be assigned specific permissions.",
+          "title": "Add role-based access control"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for user flows",
+      "type": "features",
+      "items": [
+        {
+          "description": "Securely manage user accounts, roles, and permissions.",
+          "icon": "🔑",
+          "title": "Robust User Management"
+        },
+        {
+          "description": "Offer email/password, social, and passwordless login methods.",
+          "icon": "🚪",
+          "title": "Flexible Authentication"
+        },
+        {
+          "description": "Guide new users through product setup with personalized steps.",
+          "icon": "🚀",
+          "title": "Custom Onboarding Flows"
+        },
+        {
+          "description": "Ensure consistency and trust with fully customizable UI/UX.",
+          "icon": "🎨",
+          "title": "Brand Alignment"
+        },
+        {
+          "description": "Protect accounts with multi-factor authentication and fraud detection.",
+          "icon": "🛡️",
+          "title": "Advanced Security Features"
+        },
+        {
+          "description": "Connect with CRMs, marketing automation, and other business tools.",
+          "icon": "🔗",
+          "title": "Seamless Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Yes, security is paramount. Kliv's platform helps you build systems with industry-standard security features like secure password hashing, email verification, OAuth flows for social logins, and options for multi-factor authentication (MFA). You have control over implementation details for your specific security needs.",
+          "question": "How secure are custom sign-in systems built with Kliv?"
+        },
+        {
+          "answer": "The time varies based on complexity. A basic sign-in system with email/password and social login can be functional in a few hours. A comprehensive onboarding flow with multiple steps, integrations, and unique UI elements might take a few days to a week to perfect.",
+          "question": "What's the typical timeline for building a custom system?"
+        },
+        {
+          "answer": "Absolutely. Kliv lets you fully control the UI and UX of your sign-in and onboarding flows. You can customize branding, colors, fonts, and the layout to perfectly match your existing website or application's design language.",
+          "question": "Can I integrate the look and feel with my existing website design?"
+        },
+        {
+          "answer": "Yes, you own 100% of the code and the data. Kliv generates the underlying application, which you then deploy. This means full control over your user data, compliance, and future modifications without vendor lock-in.",
+          "question": "Do I own the code and data for the system I build?"
+        },
+        {
+          "answer": "Yes, the systems you build can connect to a wide range of third-party services. This includes email marketing platforms (e.g., Mailchimp, SendGrid), CRMs (e.g., Salesforce, HubSpot), analytics tools, and more, via their APIs.",
+          "question": "Can these systems integrate with other marketing or CRM tools?"
+        },
+        {
+          "answer": "Kliv handles the complexities of code generation and deployment for your authentication systems. While you don't need to be a coding expert, a basic understanding of web application concepts (e.g., user flow, data storage) will help you define your requirements effectively.",
+          "question": "Do I need technical expertise to build a custom sign-in/onboarding system?"
+        },
+        {
+          "answer": "Unlike SaaS solutions with recurring user-based fees, building with Kliv usually involves a one-time development cost, plus standard hosting and usage fees depending on your chosen infrastructure. This often results in significant long-term savings, especially as your user base grows.",
+          "question": "How does the cost compare to using a third-party authentication service?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to perfect your user's first impression?",
+      "type": "cta",
+      "content": "Stop relying on generic sign-in screens. Build a secure, branded, and highly effective user entry point that converts and retains users."
+    }
+  ],
+  "title": "Custom Sign-in & Onboarding Applications"
+}

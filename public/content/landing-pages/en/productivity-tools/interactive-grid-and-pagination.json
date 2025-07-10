@@ -1,0 +1,181 @@
+{
+  "defaultPrompt": "I need to build an application for managing product inventory that displays items in a sortable, filterable grid with pagination, and allows inline editing of quantities and details.",
+  "description": "Build custom interactive grid and data table applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your grid",
+    "subtitle": "Transform raw data into dynamic, interactive tables and grids with sorting, filtering, pagination, and inline editing capabilities, all built on Kliv's AI platform.",
+    "title": "Create powerful interactive data grids"
+  },
+  "metaDescription": "Develop custom interactive data grids and tables with Kliv. Enable sorting, filtering, pagination, and inline editing for efficient data management.",
+  "sections": [
+    {
+      "title": "The challenge of managing growing datasets",
+      "type": "text",
+      "content": "In today’s data-rich environment, simply viewing information isn't enough. Businesses need to interact with their data – sort, filter, search, and edit it directly within an intuitive interface. Off-the-shelf spreadsheet software often lacks the robust interactivity, integration capabilities, and custom business logic required for specific operational needs.\n\nBuilding custom interactive grids used to be a complex, time-consuming development task, requiring expertise in front-end frameworks, backend data management, and complex pagination logic. Now, with AI-powered development tools, you can create tailor-made data management applications that are perfectly suited to your workflow, without the extensive coding overhead."
+    },
+    {
+      "title": "Why build a custom interactive grid application?",
+      "type": "markdown",
+      "content": "## Beyond the basic spreadsheet\n\nWhile spreadsheets are great for simple data entry, they quickly become unwieldy for active data management, especially when multiple users need to interact with the same information simultaneously. Generic tools often fall short in critical areas:\n\n- **Lack of real-time updates**: Collaboration becomes difficult without immediate data synchronization.\n- **Poor scalability**: Performance degrades rapidly with large datasets.\n- **Limited customization**: You're stuck with pre-defined views and functions.\n- **No integrated workflows**: Data changes don't automatically trigger business processes.\n- **Security vulnerabilities**: Managing access and permissions can be cumbersome.\n\n## The advantages of a tailored solution\n\nDeveloping a custom interactive grid allows you to create a data management interface that exactly matches your operational requirements and user experience preferences. Here’s why a custom approach leveraging AI development is superior:\n\n### Seamless user experience\nDesign a clean, intuitive interface precisely for your users. Implement features like inline editing, drag-and-drop column reordering, and custom search filters that streamline data interaction, reducing errors and improving efficiency.\n\n### Optimized performance for any data volume\nCustom solutions can be optimized for performance regardless of data size. Implement efficient pagination, virtual scrolling, and server-side processing to ensure quick load times and smooth interactions, even with millions of records.\n\n### Integrate with existing systems\nConnect your interactive grid directly to your existing databases, APIs, and business applications. This eliminates data silos and ensures that changes made in the grid are reflected across your entire ecosystem, enabling intelligent workflows.\n\n### Robust security and granular permissions\nImplement specific access controls and data visibility rules based on user roles or specific data attributes. Ensure that sensitive information is only accessible to authorized personnel, meeting your compliance requirements.\n\n### Reduced long-term costs\nAvoid recurring subscription fees for generic platforms that may not fully meet your needs. A custom application built with Kliv is a one-time investment that provides a tailored solution and complete ownership, adapting as your business evolves.\n\n## Practical applications\n\nCustom interactive grids are powerful tools for various business functions:\n\n**Product Management**: A grid to manage product catalogs, allowing inline editing of prices, descriptions, and stock levels, with immediate updates to e-commerce platforms.\n\n**Project Tracking**: An agile project board where team members can update task statuses, deadlines, and assigned resources directly within a filtered view, triggering notifications for project managers.\n\n**Customer Relationship Management (CRM)**: A custom client dashboard allowing sales reps to sort leads by last contact date, filter by region, and update follow-up notes without navigating multiple pages.\n\n**Financial Reporting**: A dynamic financial statement viewer where users can filter by quarter, subsidiary, or account, and drill down into transaction details with direct links to accounting systems.\n\n## The Kliv advantage\n\nAI-powered platforms like Kliv simplify the development of sophisticated applications. You describe your desired grid features, data sources, and functionalities in plain language, and Kliv helps generate the underlying code, accelerating your project from concept to deployment.\n\nBuilding your own interactive grid means building a tool that works exactly the way you do, delivering efficiency and precision that off-the-shelf solutions simply cannot match."
+    },
+    {
+      "title": "Interactive grid ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Manage inventory with search, sort, and inline editing.",
+          "prompt": "Build an inventory management system with an interactive grid. It should display product name, SKU, quantity, and location. Users should be able to sort by any column, search by product name, filter by location, and update quantity directly in the grid. Add pagination for large datasets.",
+          "title": "Product inventory dashboard"
+        },
+        {
+          "description": "Track project tasks with status updates and assigned team members.",
+          "prompt": "Create a project task tracker. Display tasks with fields for title, description, assigned team member, due date, and status (e.g., 'To Do', 'In Progress', 'Done'). Allow filtering by assignee and status, sorting by due date, and inline editing for all fields. Include a column for drag-and-drop task reordering.",
+          "title": "Custom project task board"
+        },
+        {
+          "description": "View and update customer information efficiently.",
+          "prompt": "Develop a customer relationship management (CRM) light application. The main view should be an interactive grid showing customer name, email, phone, and last interaction date. Users must be able to search by name, filter by last interaction date, sort by any column, and click a row to view/edit full customer details on a separate form.",
+          "title": "Client record manager"
+        },
+        {
+          "description": "Manage employee details with an interactive directory.",
+          "prompt": "Design an employee directory application. Display employee ID, full name, department, title, and direct manager. Provide global search, department filtering, and sorting by name or department. Include a button to export selected rows to CSV.",
+          "title": "Employee directory with export"
+        },
+        {
+          "description": "Track and manage support tickets with filtering and sorting.",
+          "prompt": "Build a simple support ticket system. Show ticket ID, subject, requester, status (Open, In Progress, Closed), and priority. Allow users to filter by status and priority, search by subject keywords, and sort by ticket ID or priority. Implement inline editing for status and priority fields.",
+          "title": "Support ticket tracker"
+        }
+      ]
+    },
+    {
+      "title": "Extend your data grid capabilities",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature that allows users to save and load custom filter/sort configurations for quick access.",
+          "title": "Saveable views and filters"
+        },
+        {
+          "prompt": "Implement a 'quick add' row at the top or bottom of the grid to easily add new records without a separate form.",
+          "title": "Quick add new record"
+        },
+        {
+          "prompt": "Integrate a charting component that visualizes data from the currently filtered grid (e.g., a bar chart showing task statuses).",
+          "title": "Data visualization integration"
+        },
+        {
+          "prompt": "Add a 'share' button that generates a unique URL for the current grid view, including all applied filters and sorts.",
+          "title": "Shareable grid views"
+        },
+        {
+          "prompt": "Implement data validation rules for inline editing, preventing users from entering invalid data types or values.",
+          "title": "Inline data validation"
+        },
+        {
+          "prompt": "Add a 'history' tab or modal that shows a log of changes made to each record along with who made the change and when.",
+          "title": "Record change history"
+        },
+        {
+          "prompt": "Enable drag-and-drop functionality to reorder rows or group records by a specific column.",
+          "title": "Advanced drag & drop"
+        },
+        {
+          "prompt": "Add a bulk edit feature allowing users to select multiple rows and apply a change to a specific field across all selected records.",
+          "title": "Bulk editing functionality"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your data grids",
+      "type": "features",
+      "items": [
+        {
+          "description": "Effortlessly arrange data based on single or multiple column values.",
+          "icon": "⬆️⬇️",
+          "title": "Multi-column sorting"
+        },
+        {
+          "description": "Filter data to display only relevant information based on specific criteria.",
+          "icon": "🔍",
+          "title": "Advanced filtering"
+        },
+        {
+          "description": "Efficiently navigate and load large datasets without performance lags.",
+          "icon": "📄",
+          "title": "Dynamic pagination"
+        },
+        {
+          "description": "Modify data directly within the grid rows, saving time and clicks.",
+          "icon": "🖊️",
+          "title": "Inline editing"
+        },
+        {
+          "description": "Connect to various data sources like databases, APIs, or spreadsheets.",
+          "icon": "🔗",
+          "title": "Flexible data sources"
+        },
+        {
+          "description": "Export selected data to common formats like CSV or Excel with ease.",
+          "icon": "📤",
+          "title": "Export functionality"
+        },
+        {
+          "description": "Grant or restrict access to data and features based on user roles.",
+          "icon": "🔐",
+          "title": "Configurable permissions"
+        },
+        {
+          "description": "Add custom actions or buttons to rows, enabling specific workflows.",
+          "icon": "⚙️",
+          "title": "Custom row actions"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building custom grids with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv dramatically speeds up development. A basic interactive grid with sorting and filtering can be functional within hours. More complex applications with custom integrations and advanced features might take a few days to a week of focused development.",
+          "question": "How quickly can I build an interactive grid application?"
+        },
+        {
+          "answer": "You don't need to be a professional developer. Kliv's platform is designed for users to describe their requirements in plain language, and the AI assists in generating and refining the underlying code. Basic logical thinking and an understanding of your data structure are helpful.",
+          "question": "Do I need to be a programmer to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, your interactive grid can connect to almost any data source, including SQL databases (PostgreSQL, MySQL, SQL Server), NoSQL databases (MongoDB, Firebase), REST APIs, Google Sheets, or even local CSV files. Kliv helps you configure these connections.",
+          "question": "Can my custom grid integrate with my existing databases and systems?"
+        },
+        {
+          "answer": "You own 100% of the code and the intellectual property of the application you build. Kliv is a development platform, not a proprietary service that locks in your data or application logic. You can host it where you prefer and modify it independently.",
+          "question": "Who owns the applications and data I create using Kliv?"
+        },
+        {
+          "answer": "Yes, custom-built applications offer superior security because you control the hosting environment, data encryption, and access policies directly. Unlike SaaS solutions, you aren't reliant on a third-party's security practices, reducing potential vulnerabilities.",
+          "question": "Are custom-built interactive grids more secure than off-the-shelf software?"
+        },
+        {
+          "answer": "Absolutely. Custom applications are inherently flexible. As your data or business needs evolve, you can easily add new columns, modify existing features, change filters, or integrate new data sources without being constrained by vendor roadmaps or feature limitations.",
+          "question": "Can I modify my interactive grid application after it's built?"
+        },
+        {
+          "answer": "Kliv helps you optimize for performance. For large datasets, it guides you in implementing server-side pagination, intelligent data caching, and efficient queries to ensure your grid remains responsive and fast, regardless of the number of records.",
+          "question": "How does Kliv ensure performance with very large datasets?"
+        },
+        {
+          "answer": "Kliv provides intelligent suggestions, debugging tools, and guidance throughout the development process. For more complex issues or architectural advice, you can access Kliv community resources or engage with professional developers familiar with the platform.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bring your data to life?",
+      "type": "cta",
+      "content": "Stop wrestling with static data. Build dynamic, interactive grids that make managing your information intuitive and efficient. Start creating your custom data application with Kliv today."
+    }
+  ],
+  "title": "Interactive Grids & Data Tables"
+}

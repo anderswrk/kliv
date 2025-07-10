@@ -1,0 +1,164 @@
+{
+  "defaultPrompt": "I want to build a Solana-based DEX with AMM pools, token listing, and basic trading functionalities. Include a user interface connected to a smart contract.",
+  "description": "Create high-performance Solana-based DEX and DeFi platforms with Kliv's AI-powered development.",
+  "hero": {
+    "cta": "Build Your Solana DEX",
+    "subtitle": "Leverage Solana's speed and low costs to deploy your own custom Decentralized Exchange or DeFi protocol, powered by AI-assisted development.",
+    "title": "Launch Your Solana-Based DEX or DeFi Platform"
+  },
+  "metaDescription": "Build custom decentralized exchanges (DEX) and DeFi platforms on Solana with Kliv. Experience rapid development, high throughput, and low transaction costs for your crypto project.",
+  "sections": [
+    {
+      "title": "The Need for Specialized Solana DeFi",
+      "type": "text",
+      "content": "The blockchain landscape is rapidly evolving, with Solana emerging as a formidable contender for high-throughput decentralized applications. While general-purpose DEXs exist, building a platform tailored to specific user needs, unique token ecosystems, or advanced DeFi primitives requires a custom approach.\n\nOff-the-shelf solutions often compromise on performance, customization, or security, leaving innovators trapped in generic frameworks. Kliv empowers you to design, develop, and deploy a Solana-native DeFi application that precisely matches your vision, without the traditional development hurdles."
+    },
+    {
+      "title": "Why Build Your DeFi on Solana with Kliv?",
+      "type": "markdown",
+      "content": "## Overcoming the Limitations of Generic Platforms\n\nMany aspiring DeFi projects face significant obstacles when trying to fit their innovative ideas into existing, inflexible platforms. These challenges include:\n\n-   **High development costs**: Hiring specialized blockchain developers is expensive.\n-   **Long development cycles**: Building complex smart contracts and front-ends from scratch takes time.\n-   **Scalability issues**: Ethereum-based solutions often face high gas fees and network congestion.\n-   **Lack of customizability**: Generic platforms rarely allow for unique features or branding.\n-   **Security concerns**: Trusting third-party code can introduce vulnerabilities.\n\n## The Kliv Advantage for Solana DeFi\n\nKliv transforms these challenges into opportunities, making custom Solana-based DeFi development accessible and efficient:\n\n### Solana's Power, Unleashed\nSolana offers unparalleled transaction speed (up to 65,000 TPS) and incredibly low transaction fees, making it ideal for high-volume trading and complex DeFi operations. Kliv helps you harness this power to build platforms that deliver a superior user experience.\n\n### Rapid Prototyping & Deployment\nTraditional blockchain development can take months or even years. With Kliv's AI assistance, you can iterate on ideas, build smart contracts, and deploy functional prototypes in a fraction of the time. This accelerates your time to market and allows for agile development.\n\n### Customization at Your Fingertips\nForget compromise. Design the exact Automated Market Maker (AMM) logic, staking mechanisms, lending protocols, or token launchpads you envision. Kliv enables deep customization of features, UI/UX, and underlying smart contract logic.\n\n### Cost-Efficiency\nReduce your reliance on expensive development teams and minimize ongoing subscription fees associated with third-party platforms. Kliv helps you build a robust, production-ready application with a significantly lower total cost of ownership.\n\n### Ownership & Control\nWhen you build with Kliv, you own the entire codebase. This means complete control over security audits, feature updates, and future integrations, ensuring your project evolves exactly as you intend.\n\n## Real-World Potential\n\nCustom Solana DeFi platforms are opening new avenues in:\n\n**Specialized DEXs**: A DEX focused solely on NFT-backed tokens, or a regional DEX supporting local currencies.\n\n**Gaming & Metaverse Finance**: In-game currency exchanges, item trading platforms, or lending protocols for virtual assets.\n\n**DeFi Lending/Borrowing**: Tailored collateral requirements, interest rate models, or unique liquidation mechanisms.\n\n**Automated Yield Strategies**: Advanced strategies for yield farming, liquidity provision, or arbitrage that are too complex for generic platforms.\n\n## AI-Accelerated Smart Contract Development\n\nKliv leverages cutting-edge AI to streamline the most complex aspects of blockchain development:\n\n-   **Smart Contract Generation**: Describe your desired logic, and AI helps generate secure, optimized Solana smart contracts (programs).\n-   **Front-End Integration**: AI assists in connecting your user interface seamlessly with your on-chain programs.\n-   **Security Audits (AI-assisted)**: Leverage AI to identify potential vulnerabilities and recommend best practices.\n-   **Optimization Suggestions**: Get recommendations for improving contract efficiency and reducing on-chain costs.\n\nStart building your bespoke Solana DeFi application today and redefine what's possible in decentralized finance."
+    },
+    {
+      "title": "Solana DApp Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Launch a high-performance token exchange focused on specific assets.",
+          "prompt": "Create a Solana-based Decentralized Exchange (DEX) with an Automated Market Maker (AMM) liquidity pool for SOL/USDC, a trading interface, and user wallet connection.",
+          "title": "Custom AMM DEX"
+        },
+        {
+          "description": "Enable secure, permissionless lending and borrowing of crypto assets.",
+          "prompt": "Build a DeFi lending protocol on Solana where users can deposit SOL and USDC as collateral to borrow other tokens, with an adjustable interest rate model and liquidation mechanism.",
+          "title": "Decentralized Lending Platform"
+        },
+        {
+          "description": "Create a platform for new token projects to raise capital.",
+          "prompt": "Design a Solana-native launchpad for new SPL tokens, allowing projects to conduct fair token distribution events like Initial DEX Offerings (IDOs) or fair launches.",
+          "title": "Solana Token Launchpad"
+        },
+        {
+          "description": "Simplify earning yield by automating liquidity provision and staking.",
+          "prompt": "Develop a yield aggregator on Solana that automatically rebalances user-provided liquidity across multiple protocols to maximize returns and minimize impermanent loss.",
+          "title": "Automated Yield Farming Protocol"
+        },
+        {
+          "description": "Create a platform for secure asset swaps across different chains.",
+          "prompt": "Build a cross-chain bridge on Solana that allows for the secure and efficient transfer of assets from Ethereum (ERC-20 tokens) to Solana (SPL tokens) and vice-versa.",
+          "title": "Cross-Chain Asset Bridge"
+        },
+        {
+          "description": "Enable users to earn passive income by staking their tokens.",
+          "prompt": "Create a staking platform on Solana for a custom SPL token, allowing users to lock their tokens for a specified period to earn rewards in the same token.",
+          "title": "Custom Token Staking Pool"
+        }
+      ]
+    },
+    {
+      "title": "Ways to Enhance Your Platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a governance module using a DAO framework to allow token holders to vote on protocol changes and parameter adjustments.",
+          "title": "Implement DAO Governance"
+        },
+        {
+          "prompt": "Integrate oracles like Chainlink or Pyth Network to securely feed off-chain data (e.g., asset prices) into your smart contracts.",
+          "title": "Add On-Chain Oracles"
+        },
+        {
+          "prompt": "Build a real-time analytics dashboard displaying TVL (Total Value Locked), trading volume, active users, and token price charts.",
+          "title": "Develop Analytics Dashboard"
+        },
+        {
+          "prompt": "Implement a permissioned liquidity pool feature for institutional users or specific qualified participants.",
+          "title": "Create Permissioned Pools"
+        },
+        {
+          "prompt": "Add NFT support, allowing users to use NFTs as collateral for loans or trade fractionalized NFTs.",
+          "title": "Integrate NFT Functionality"
+        },
+        {
+          "prompt": "Create a custom wallet adapter that supports multiple Solana wallets (e.g., Phantom, Solflare, Backpack) within the application.",
+          "title": "Build a Custom Wallet Adapter"
+        }
+      ]
+    },
+    {
+      "title": "Core Features for Solana DeFi",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to popular Solana wallets to manage user funds and interactions.",
+          "icon": "🔑",
+          "title": "Wallet Connectivity"
+        },
+        {
+          "description": "Implement an AMM for automated, decentralized token swaps.",
+          "icon": "💱",
+          "title": "Automated Market Maker (AMM)"
+        },
+        {
+          "description": "Design and deploy custom smart contracts (Solana programs) for your specific DeFi logic.",
+          "icon": "📜",
+          "title": "Custom Smart Contracts (Programs)"
+        },
+        {
+          "description": "Create user interfaces for trading, liquidity provision, staking, and more.",
+          "icon": "🖥️",
+          "title": "Intuitive UI/UX"
+        },
+        {
+          "description": "Track and display real-time transaction data and blockchain explorer links.",
+          "icon": "🔗",
+          "title": "On-Chain Data Tracking"
+        },
+        {
+          "description": "Securely manage token listings, pools, and protocol parameters via admin dashboards.",
+          "icon": "⚙️",
+          "title": "Admin Controls & Dashboards"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's AI-powered platform can significantly reduce development time. A basic Solana DEX or DeFi prototype can be functional in days, with complex applications taking weeks rather than months.",
+          "question": "How quickly can I build a Solana DEX or DeFi protocol?"
+        },
+        {
+          "answer": "No, extensive blockchain development experience is not required. Kliv's AI assists throughout the process, from smart contract generation to front-end integration, making it accessible for builders with varying technical backgrounds.",
+          "question": "Do I need to be a Solana smart contract developer (Rust/Anchor)?"
+        },
+        {
+          "answer": "Yes, you own 100% of the intellectual property. Kliv facilitates the development process, but all the code, smart contracts, and front-end assets generated belong entirely to you.",
+          "question": "Will I own the code and intellectual property of my platform?"
+        },
+        {
+          "answer": "Solana offers significantly lower transaction fees (often fractions of a cent) and higher throughput compared to many other layer-1 blockchains, making it ideal for frequent transactions and complex DeFi operations.",
+          "question": "What are the cost advantages of building on Solana?"
+        },
+        {
+          "answer": "Yes, your custom Solana DeFi application can be designed to interact with a wide range of existing SPL tokens, NFTs, and other Solana-native protocols. AI assistance can help with integration best practices.",
+          "question": "Can my custom platform interact with existing Solana tokens or NFTs?"
+        },
+        {
+          "answer": "Kliv provides the tools and guidance to build. For deployment, you would typically use Solana's command-line tools or SDKs to deploy your compiled programs to the Solana blockchain. Kliv streamlines this entire process.",
+          "question": "How does deployment work after my platform is built?"
+        },
+        {
+          "answer": "Smart contract security is paramount. Kliv's AI assists in generating robust code and provides suggestions for best practices. However, critical smart contracts should always undergo independent, professional security audits before mainnet deployment.",
+          "question": "How does Kliv ensure the security of the smart contracts?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Innovate on Solana?",
+      "type": "cta",
+      "content": "Stop conforming to generic platforms. Build the custom Solana-based DeFi or DEX solution you've envisioned. Start building your next-generation decentralized application today and unlock Solana's full potential."
+    }
+  ],
+  "title": "Solana-Based DEX & DeFi Platform Builder"
+}

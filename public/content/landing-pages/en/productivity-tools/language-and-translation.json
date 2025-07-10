@@ -1,0 +1,171 @@
+{
+  "defaultPrompt": "I want to create a custom language and translation tool that can instantly translate text, audio, and documents, with support for industry-specific terminology and real-time collaboration for teams.",
+  "description": "Develop custom language and translation applications with Kliv's AI platform.",
+  "hero": {
+    "cta": "Start building your translator",
+    "subtitle": "Break down language barriers and enhance global communication with bespoke translation applications built on Kliv's powerful no-code platform.",
+    "title": "Build your own custom language & translation tools"
+  },
+  "metaDescription": "Create powerful, AI-driven language and translation tools with Kliv. Customize to your specific needs, ensure data privacy, and integrate seamlessly with your existing workflows.",
+  "sections": [
+    {
+      "title": "The challenge of global communication",
+      "type": "text",
+      "content": "In today's interconnected world, effective cross-cultural and multilingual communication is paramount. Generic translation apps offer a quick fix, but rarely address the nuances of technical jargon, industry-specific terminology, and sensitive data handling required by businesses. Off-the-shelf solutions often compromise accuracy, privacy, and integration capabilities.\n\nImagine a translation tool tailored precisely to your industry, understanding your unique lexicon, and integrating directly into your existing communication channels. With Kliv, this isn't just a vision—it's an attainable reality."
+    },
+    {
+      "title": "Why build a custom language & translation tool?",
+      "type": "markdown",
+      "content": "### Beyond Generic Translation\n\nStandard translation services, while accessible, fall short for professional use cases. They lack:\n\n- **Domain-specific accuracy**: General models struggle with legal, medical, or technical terms.\n- **Data privacy**: Sensitive information might be processed by third-party servers you don't control.\n- **Integration**: Limited ability to embed translations directly into your proprietary systems or workflows.\n- **Customization**: No option to train the model on your specific company documents, voice, or style guide.\n- **Cost-efficiency**: Recurring subscription models can become prohibitive with high volume usage.\n\n### The Kliv Advantage: Tailored for You\n\nBuilding your own translation tool with Kliv offers unparalleled benefits:\n\n1.  **Unmatched Accuracy**: Train your AI model on your own documents, glossaries, and style guides. This ensures translations are not just grammatically correct, but also contextually accurate and consistent with your brand voice, terminology, and industry standards. Imagine a medical device company translating technical manuals perfectly, every time.\n\n2.  **Ironclad Data Security**: Keep your sensitive data within your secure environment. No more concerns about sending confidential legal contracts or proprietary product specifications through public translation APIs. You control the data sovereignty.\n\n3.  **Seamless Integration**: Embed translation capabilities directly into your existing CRMs, ERPs, customer support platforms, or internal communication tools. Automate workflows, translate incoming customer queries in real-time within your helpdesk, or instantly localize marketing content.\n\n4.  **Cost Predictability**: Move from unpredictable, usage-based subscription fees to a more predictable, upfront investment. Optimize your resources without worrying about per-word or per-query costs.\n\n5.  **Voice & Style Consistency**: Maintain your brand's unique voice across all languages. Train your system to recognize and replicate specific tones, formalities, and cultural nuances crucial for international branding.\n\n### Real-world scenarios\n\n-   **Legal firms**: Translate complex legal documents, contracts, and court transcripts with precise legal terminology and cultural context.\n-   **Healthcare providers**: Enable patient-doctor communication, translate medical records, and instructions in real-time, respecting privacy and accuracy.\n-   **Software developers**: Localize software interfaces, user manuals, and support documentation perfectly for global markets.\n-   **E-commerce businesses**: Translate product descriptions, customer reviews, and support chat in real-time, reflecting local nuances and boosting international sales.\n-   **Global enterprises**: Streamline internal communications, translate corporate policies, and facilitate multilingual team collaborations with secure, bespoke tools.\n\nWith Kliv, you're not just getting a translator; you're building a strategic communication asset that empowers global operations and ensures linguistic precision."
+    },
+    {
+      "title": "Language & translation tool ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Translate customer support chats in real-time",
+          "prompt": "Create a real-time translation module for our customer support platform, detecting language automatically and translating agent and customer messages instantly. It should use our product jargon.",
+          "title": "Real-time support chat translator"
+        },
+        {
+          "description": "Translate legal documents while maintaining formatting",
+          "prompt": "Build a document translation tool that can upload PDF and Word files (contracts, patents), preserve their original formatting, and translate them between English, Spanish, and French with legal precision.",
+          "title": "Confidential document translator"
+        },
+        {
+          "description": "Interpret conference calls with speaker identification",
+          "prompt": "Develop an AI-powered meeting interpreter that transcribes spoken language from live calls, identifies speakers, and translates in real-time for attendees of different language backgrounds.",
+          "title": "Live meeting transcription & translation"
+        },
+        {
+          "description": "Localized content generator for marketing",
+          "prompt": "Design a tool that takes a source marketing text in English, translates it into 5 target languages, and adapts it for cultural relevance and SEO performance in each region.",
+          "title": "Marketing content localizer"
+        },
+        {
+          "description": "Medical jargon translation for clinicians and patients",
+          "prompt": "Create a secure medical translation app for healthcare professionals. It should accurately translate medical reports, patient notes, and simplify complex medical terms for patient understanding.",
+          "title": "Specialized medical translator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your language tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a voice input feature to allow users to speak directly into the application for translation.",
+          "title": "Add voice input capabilities"
+        },
+        {
+          "prompt": "Implement an optical character recognition (OCR) module to translate text from images or scanned documents.",
+          "title": "Enable image-to-text translation"
+        },
+        {
+          "prompt": "Add a feature for users to upload and manage custom glossaries and term bases.",
+          "title": "Include custom glossary management"
+        },
+        {
+          "prompt": "Develop a quality assurance module that automatically checks translated content for common errors, fluency, and adherence to style guides.",
+          "title": "Integrate a translation QA checker"
+        },
+        {
+          "prompt": "Add real-time collaboration features allowing multiple users to work on and review translations simultaneously.",
+          "title": "Implement team collaboration features"
+        },
+        {
+          "prompt": "Create an API that allows other internal systems to send text for translation and receive translated output.",
+          "title": "Build a translation API"
+        },
+        {
+          "prompt": "Add a sentiment analysis feature to translated customer feedback to gauge customer emotion.",
+          "title": "Integrate sentiment analysis"
+        },
+        {
+          "prompt": "Incorporate a feature for language learners that provides contextual examples for translated words or phrases.",
+          "title": "Add language learning features"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your custom language tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Translate text, audio, and documents with high accuracy.",
+          "icon": "🗣️",
+          "title": "Multimodal Translation"
+        },
+        {
+          "description": "Integrate custom glossaries and style guides for domain-specific precision.",
+          "icon": "📘",
+          "title": "Contextual & Terminology Handling"
+        },
+        {
+          "description": "Support a wide array of languages and dialects.",
+          "icon": "🌐",
+          "title": "Extensive Language Support"
+        },
+        {
+          "description": "Embed translation features directly into your existing business applications.",
+          "icon": "🔌",
+          "title": "Seamless Integration Options"
+        },
+        {
+          "description": "Ensure data privacy and compliance by keeping sensitive information within your control.",
+          "icon": "🔒",
+          "title": "Robust Security Standards"
+        },
+        {
+          "description": "Features for collaborative translation, review, and editing workflows.",
+          "icon": "🤝",
+          "title": "Team Collaboration Tools"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic custom translation tool with Kliv can take just a few hours. More complex systems with advanced integrations and custom model training might take a few days or weeks to perfect, depending on your data and specific requirements.",
+          "question": "How long will it take to build my custom translation tool?"
+        },
+        {
+          "answer": "No, you do not need to be a programmer. Kliv’s AI-powered platform allows you to describe your desired features in natural language, and the AI assists in generating the application. You define the requirements, and Kliv helps build the solution.",
+          "question": "Do I need coding skills to create a language and translation tool?"
+        },
+        {
+          "answer": "Yes, absolutely. Custom tools built with Kliv can be designed to integrate with almost any system with an API, including CRM, ERP, customer support platforms, and document management systems. This allows for automated translation workflows within your existing ecosystem.",
+          "question": "Can my custom translator integrate with my current business systems?"
+        },
+        {
+          "answer": "You retain full ownership of the data used for training and all the translated content. The application logic and trained models are also yours, giving you complete control over your intellectual property and data sovereignty.",
+          "question": "Who owns the data and the custom-trained models?"
+        },
+        {
+          "answer": "While generic translation services might seem cheaper per word, custom builds with Kliv often result in significant long-term savings by eliminating recurring subscription fees, ensuring higher accuracy (reducing errors and re-work), and providing features specifically tailored to your needs.",
+          "question": "How does the cost compare to off-the-shelf translation software?"
+        },
+        {
+          "answer": "Yes, one of the primary advantages of building with Kliv is the flexibility to continuously update and expand your application. As your needs evolve, you can add new language pairs, integrate new data sources for training, or enhance features without dependence on a vendor's roadmap.",
+          "question": "Can I update or add more features to my translation tool after it's built?"
+        },
+        {
+          "answer": "Kliv provides internal validation and testing tools. You can test your custom model with your own data to ensure it meets your accuracy and performance requirements before deployment. The iterative development process helps refine the model over time.",
+          "question": "How can I ensure the accuracy and quality of the translations?"
+        },
+        {
+          "answer": "Kliv provides guidance and tools for setting up secure environments. You control where your data resides and how it's accessed, ensuring higher levels of privacy and compliance than often possible with public cloud-based translation services.",
+          "question": "Is a custom translation tool more secure for sensitive data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bridge communication gaps?",
+      "type": "cta",
+      "content": "Stop relying on generic translation. Build a robust, accurate, and secure language tool that understands your business, powered by Kliv."
+    }
+  ],
+  "title": "Custom Language & Translation Tools"
+}

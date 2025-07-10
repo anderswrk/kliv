@@ -1,0 +1,159 @@
+{
+  "defaultPrompt": "I want to create a transcription and reporting platform for automotive repair shops. It should allow technicians to record diagnostic notes, transcribe them into text, and generate comprehensive repair reports for customers.",
+  "description": "Build custom transcription and reporting tools for automotive repair shops with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your diagnostic assistant",
+    "subtitle": "Transform spoken diagnostic notes into accurate, detailed repair reports for automotive maintenance.",
+    "title": "Build your own AI-powered shop assistant"
+  },
+  "metaDescription": "Create powerful transcription and reporting tools for automotive repair. Improve communication, streamline documentation, and enhance customer trust with custom-built solutions on Kliv.",
+  "sections": [
+    {
+      "title": "The challenge of manual repair documentation",
+      "type": "text",
+      "content": "In the fast-paced world of automotive repair, accurate and timely documentation is crucial. Technicians often juggle complex diagnostics with the need to clearly communicate issues and repairs to customers. Manual note-taking and typing up reports are time-consuming, prone to errors, and can delay service delivery.\n\nTraditional software often falls short, offering rigid templates or requiring extensive manual data entry. What if you could speak your observations directly into a system that not only transcribes but also structures and summarizes them for professional reports? Kliv makes building such bespoke solutions a reality, empowering shops to work smarter, not harder."
+    },
+    {
+      "title": "Why a custom transcription and reporting platform?",
+      "type": "markdown",
+      "content": "## The pitfalls of generic shop management software\n\nMany automotive repair shops rely on off-the-shelf management systems that claim to do it all. However, these systems often come with significant limitations:\n\n- **Inflexible reporting**: Generic templates don't always capture the nuances of every repair or customer interaction.\n- **Time-consuming data entry**: Technicians spend valuable time typing instead of diagnosing and repairing.\n- **Communication gaps**: Discrepancies between spoken findings and written reports can lead to customer confusion or mistrust.\n- **Lack of specialized features**: They rarely offer truly integrated voice-to-text with intelligent report generation tailored to automotive needs.\n- **Recurring costs**: Expensive subscriptions can eat into profit margins, especially for features you don't fully utilize.\n\n## The power of a tailored solution\n\nBuilding your own transcription and reporting platform with Kliv offers unparalleled advantages:\n\n### Precision for your processes\nAutomotive repair is specialized. A custom platform ensures that diagnostic terms, repair codes, and service recommendations are accurately captured and organized, reflecting your shop's specific workflow and lexicon.\n\n### Boost technician efficiency\nAllow technicians to dictate findings directly, capturing critical details in real-time. This frees them from manual typing, letting them focus on what they do best: diagnosing and fixing vehicles.\n\n### Enhance customer transparency\nGenerate clear, professional, and easy-to-understand repair reports for customers. When they see detailed, accurate documentation derived directly from the technician's notes, trust and satisfaction increase.\n\n### Data ownership and insights\nRetain full control over your diagnostic data and repair history. Analyze trends, identify common issues, and make informed business decisions based on your own granular data.\n\n### Cost-effectiveness and scalability\nAvoid perpetual subscription fees. A one-time investment in building a custom tool with Kliv delivers long-term value. As your business grows, your platform can evolve with new features without vendor limitations.\n\n## Real-world impact\n\nImagine the impact on your automotive shop:\n\n- **Faster write-ups**: Turn a 30-minute report into a 5-minute dictated summary.\n- **Improved accuracy**: Reduce errors from misinterpretations or rushed manual entry.\n- **Professional image**: Deliver consistently high-quality, comprehensive repair reports.\n- **Better historical data**: Build a rich database of repair histories for better future diagnostics and customer service.\n\nAI-powered development platforms like Kliv demystify custom software creation. You don't need to be a coding wizard; you just need to know what problems you want to solve. With Kliv, you can bring your perfect automotive documentation system to life."
+    },
+    {
+      "title": "Platform ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create detailed pre-inspection reports for customers.",
+          "prompt": "Build a system for automotive technicians to record voice notes during vehicle inspections, automatically transcribing them into a structured checklist format, and highlighting recommended services for customer review.",
+          "title": "Pre-purchase inspection reporter"
+        },
+        {
+          "description": "Automate service write-ups directly from technician notes.",
+          "prompt": "Develop a platform that allows mechanics to dictate their diagnostic findings and repair steps, which the system then transcribes, categorizes by repair type, and generates a formatted repair order ready for billing.",
+          "title": "Automated repair order generator"
+        },
+        {
+          "description": "Streamline warranty claim documentation.",
+          "prompt": "Design a tool for documenting complex warranty claims. Technicians can use voice input to describe the failure mode, causal part, and repair performed, then auto-generate a narrative that meets manufacturer submission requirements.",
+          "title": "Warranty claim documentation assistant"
+        },
+        {
+          "description": "Create a robust internal knowledge base from repair history.",
+          "prompt": "Implement a system that takes transcribed repair notes from all jobs, extracts common diagnostic patterns and repair solutions using AI, and organizes them into a searchable knowledge base for technicians to reference.",
+          "title": "Shop knowledge base builder"
+        },
+        {
+          "description": "Simplify end-of-day reporting for service managers.",
+          "prompt": "Create a tool for service managers to dictate daily operational summaries, including technician performance, parts issues, and customer feedback, which then automatically generates a concise daily report email for ownership.",
+          "title": "Daily operations summarizer"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to automatically extract vehicle VIN numbers from dictated notes and look them up in a vehicle database to auto-fill year, make, and model.",
+          "title": "VIN lookup integration"
+        },
+        {
+          "prompt": "Integrate with a shop's existing accounting or CRM software to automatically push completed repair orders and customer details.",
+          "title": "Accounting/CRM integration"
+        },
+        {
+          "prompt": "Implement a feature that highlights specific parts or labor operations mentioned in the transcription and links them to your parts inventory or labor guide for accurate pricing.",
+          "title": "Parts & labor cross-referencing"
+        },
+        {
+          "prompt": "Add a customer portal where customers can view their vehicle's inspection report, progress updates, and approve recommended services digitally.",
+          "title": "Customer portal with e-signatures"
+        },
+        {
+          "prompt": "Develop a comprehensive dashboard for management to track key metrics like average repair time, technician productivity, and popular services based on transcribed data.",
+          "title": "Management analytics dashboard"
+        },
+        {
+          "prompt": "Include a feature for technicians to snap photos or record short videos during inspection and attach them directly to the transcribed report.",
+          "title": "Photo/video attachment"
+        }
+      ]
+    },
+    {
+      "title": "Key platform features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Accurate conversion of spoken diagnostic notes into text, understanding automotive terminology.",
+          "icon": "🎤",
+          "title": "Voice-to-text transcription"
+        },
+        {
+          "description": "AI-powered summarization and structuring of transcribed notes into professional report formats.",
+          "icon": "📈",
+          "title": "Intelligent report generation"
+        },
+        {
+          "description": "Customizable templates to ensure reports align with your shop's specific branding and requirements.",
+          "icon": "📝",
+          "title": "Flexible report templates"
+        },
+        {
+          "description": "Secure storage and easy retrieval of all transcribed notes and generated reports.",
+          "icon": "💾",
+          "title": "Historical data logging"
+        },
+        {
+          "description": "User-friendly interface accessible on various devices for technicians and service advisors.",
+          "icon": "📱",
+          "title": "Mobile-friendly design"
+        },
+        {
+          "description": "Ability to integrate with existing shop management systems or parts databases.",
+          "icon": "🔗",
+          "title": "Seamless integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions for building a custom platform",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a core transcription and reporting platform with Kliv can take as little as a few days to a week. Complex integrations or highly specialized AI features might extend this to a few weeks, but it's significantly faster than traditional development.",
+          "question": "How long will it take to build a custom transcription and reporting platform?"
+        },
+        {
+          "answer": "No, extensive coding knowledge is not required. Kliv's AI-assisted development tools allow you to describe your desired features in plain language, and the platform helps translate that into functional code. You guide the AI to build exactly what you need.",
+          "question": "Do I need to be a programmer to build this type of solution?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. Kliv enables you to integrate your custom platform with existing shop management systems, CRM software, parts inventory, or accounting systems using APIs, ensuring all your tools work together seamlessly.",
+          "question": "Can this platform integrate with my current shop management software?"
+        },
+        {
+          "answer": "All the data, including transcribed notes, repair reports, and any proprietary algorithms developed for your platform, are 100% owned by you. You have full control over where it's hosted and how it's used.",
+          "question": "Who owns the data and the intellectual property of the built platform?"
+        },
+        {
+          "answer": "While there's an initial investment to build, a custom solution often becomes more cost-effective long-term. You avoid recurring subscription fees for generic software and only pay for the features you actually use and build, unlike SAAS solutions which charge for many features you may not need or use.",
+          "question": "Is building a custom platform more expensive than buying off-the-shelf software?"
+        },
+        {
+          "answer": "Absolutely. Your custom platform can evolve as your shop's needs change. Whether you want to add new reporting features, integrate with a new diagnostic tool, or refine the transcription accuracy, you have the flexibility to make those modifications.",
+          "question": "Can I modify or expand the platform after it's initially built?"
+        },
+        {
+          "answer": "Custom platforms built with Kliv are secure by design. You can implement industry-standard security protocols, control user access, and choose your hosting environment, often resulting in a more secure solution than relying on third-party SaaS providers.",
+          "question": "How secure will my custom transcription and reporting platform be?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your automotive documentation?",
+      "type": "cta",
+      "content": "Stop wrestling with manual reports and generic software. Build a custom AI-powered transcription and reporting platform that truly fits your shop's needs."
+    }
+  ],
+  "title": "Automotive Repair Transcription & Reporting Platform"
+}

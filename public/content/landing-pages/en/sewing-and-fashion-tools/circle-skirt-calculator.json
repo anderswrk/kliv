@@ -1,0 +1,159 @@
+{
+  "defaultPrompt": "Create a circle skirt calculator app that takes waist measurement and desired length as input, then calculates the inner and outer radii for cutting fabric, showing a visual diagram.",
+  "description": "Design and build your own custom circle skirt calculator apps with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Design Your Calculator",
+    "subtitle": "No more complex math or confusing patterns. Build an intuitive, precise calculator tailored for your sewing projects.",
+    "title": "Build Your Own Circle Skirt Calculator"
+  },
+  "metaDescription": "Create custom circle skirt calculator applications effortlessly with Kliv. Input measurements, get precise cutting dimensions, and visualize your design for perfect sewing projects.",
+  "sections": [
+    {
+      "title": "The Frustration of Circle Skirt Calculations",
+      "type": "text",
+      "content": "For sewers, especially beginners, calculating the precise measurements for a circle skirt can be daunting. From understanding the formulas for waist radius and hem length to accounting for seam allowances and fabric stretch, it’s a process prone to errors. Generic online calculators often lack flexibility, visual aids, or the specific features you need, leading to wasted fabric and frustrating setbacks. What if you could have a custom tool that simplifies this exact pain point?"
+    },
+    {
+      "title": "Why a Custom Circle Skirt Calculator is Your Next Essential Tool",
+      "type": "markdown",
+      "content": "### Eliminate Math Anxiety\n\nForget complex formulas and endless re-calculations. A custom tool does the hard work for you, instantly providing accurate cutting dimensions based on your specific inputs. This saves time and prevents costly fabric mistakes.\n\n### Tailored to Your Crafting Style\nGeneric calculators are one-size-fits-all. Your custom app can include precisely the features you need: specific seam allowance defaults, options for different skirt types (quarter, half, full, double full), integrated fabric width considerations, or even a printable pattern guide. It’s a tool that fits *your* sewing process.\n\n### Visual Clarity for Better Results\n\nUnderstanding the geometry of a circle skirt can be challenging. Your application can offer interactive diagrams that update in real-time, showing how changes in waist size or length affect the fabric layout. This visual feedback helps prevent errors and ensures confidence before you even pick up the scissors.\n\n### Accessibility Anywhere\nWhether you’re at your sewing machine, fabric store, or planning a project on the go, your custom web-based calculator is accessible from any device. No need to download software or struggle with paper and pencil.\n\n### The Kliv Advantage: Build with Ease\n\nBuilding custom applications used to require deep coding knowledge. Kliv changes that. With our AI-powered platform, you describe the calculator functions you envision, and Kliv helps you bring them to life. You get a professional, functional tool without writing a single line of code. It's about empowering your creativity by providing the tools you need to succeed, perfectly adapted to your niche."
+    },
+    {
+      "title": "Calculator Ideas for Your Sewing Projects",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A basic calculator for full circle skirts.",
+          "prompt": "Build a universal circle skirt calculator taking waist circumference and skirt length, showing inner and outer radii, total fabric needed.",
+          "title": "Full Circle Skirt Basic"
+        },
+        {
+          "description": "A calculator for quarter and half circle skirts with fabric layout options.",
+          "prompt": "Create a versatile circle skirt calculator that includes options for quarter, half, and full circle skirts, showing fabric layout diagrams for different widths.",
+          "title": "Versatile Skirt & Fabric Layout"
+        },
+        {
+          "description": "Calculate fabric needs for gathered or pleated skirts.",
+          "prompt": "Develop an advanced calculator that computes fabric requirements for gathered or pleated skirts based on desired fullness ratio, waist measurement, and length, with an option for lining.",
+          "title": "Gathered/Pleated Skirt Planner"
+        },
+        {
+          "description": "A tool that incorporates fabric stretch and different seam allowances.",
+          "prompt": "Design a circle skirt calculator that allows users to input fabric stretch percentage and custom seam allowances for waist and hem, showing adjusted dimensions.",
+          "title": "Stretch & Seam Allowance Pro"
+        },
+        {
+          "description": "A calculator that suggests optimal fabric consumption.",
+          "prompt": "Build an intelligent fabric optimization calculator for a circle skirt that suggests the most efficient cutting layout based on fabric width to minimize waste.",
+          "title": "Fabric Optimization Assistant"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Calculator with Extra Features",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to save and load previous skirt calculations and fabric choices.",
+          "title": "Save & Load Projects"
+        },
+        {
+          "prompt": "Integrate a unit converter for inches/cm within the calculator inputs and outputs.",
+          "title": "Imperial/Metric Unit Toggle"
+        },
+        {
+          "prompt": "Include an interactive visualizer that updates the skirt diagram as measurements are changed.",
+          "title": "Interactive Diagram"
+        },
+        {
+          "prompt": "Add a step-by-step guide or instructions for using the calculated measurements to cut fabric.",
+          "title": "Step-by-Step Cutting Guide"
+        },
+        {
+          "prompt": "Implement a 'print to PDF' function for the final calculations and diagrams.",
+          "title": "Printable Pattern Summary"
+        },
+        {
+          "prompt": "Add fields for notes about fabric type, project name, or intended recipient.",
+          "title": "Project Notes"
+        },
+        {
+          "prompt": "Allow users to choose from different fabric types (e.g., woven, knit) and adjust for stretch.",
+          "title": "Fabric Type Selector"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of a Sewing Calculator App",
+      "type": "features",
+      "items": [
+        {
+          "description": "Input waist circumference and desired skirt length easily.",
+          "icon": "📏",
+          "title": "Intuitive Measurement Input"
+        },
+        {
+          "description": "Automatically calculate precise inner (waist) and outer (hem) radii.",
+          "icon": "📐",
+          "title": "Automated Dimension Calculation"
+        },
+        {
+          "description": "See how your skirt dimensions translate to actual fabric layout.",
+          "icon": "✂️",
+          "title": "Visual Fabric Diagramming"
+        },
+        {
+          "description": "Option to include standard or custom seam allowances.",
+          "icon": "🧵",
+          "title": "Adjustable Seam Allowances"
+        },
+        {
+          "description": "Optimized calculations for different circle skirt types (quarter, half, full).",
+          "icon": "🧮",
+          "title": "Multiple Skirt Styles"
+        },
+        {
+          "description": "Access your personalized calculator from any device, anytime.",
+          "icon": "📱",
+          "title": "Web-Based Accessibility"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building on Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "You can get a functional basic circle skirt calculator up and running within hours. More complex versions with advanced features might take a day or two to refine.",
+          "question": "How long does it take to build a custom calculator?"
+        },
+        {
+          "answer": "No coding experience is necessary. Kliv uses AI to understand your natural language input and generate the application. You describe, we build.",
+          "question": "Do I need to know how to code?"
+        },
+        {
+          "answer": "Your app will be a web-based application, accessible via a URL. You can use it on any device with a browser: desktop, tablet, or smartphone.",
+          "question": "What kind of application will I get?"
+        },
+        {
+          "answer": "Yes, you have full ownership of the application you build. You can modify it, host it where you prefer, and integrate it with other tools if needed.",
+          "question": "Do I own the application I create?"
+        },
+        {
+          "answer": "Compared to ongoing subscriptions for niche software, building once with Kliv is a cost-effective solution. You pay for the development effort, not recurring fees for a tool you own.",
+          "question": "How does this compare to buying off-the-shelf software?"
+        },
+        {
+          "answer": "Absolutely! One of the core benefits is the ability to continuously refine and add new features as your sewing needs evolve. You're never locked into a static version.",
+          "question": "Can I add more features later?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to cut with confidence?",
+      "type": "cta",
+      "content": "Stop struggling with math and start sewing. Build the perfect custom circle skirt calculator that works exactly the way you need it to."
+    }
+  ],
+  "title": "Circle Skirt Calculator App"
+}

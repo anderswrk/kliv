@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a personal finance and budgeting tool that tracks income and expenses, categorizes transactions, sets budget limits, and visualizes spending patterns.",
+  "description": "Take control of your money with a custom personal finance and budgeting application tailored to your needs.",
+  "hero": {
+    "cta": "Start managing your finances",
+    "subtitle": "Gain complete control over your money with a custom personal finance and budgeting application built on Kliv's powerful platform.",
+    "title": "Build your own personal finance & budgeting tools"
+  },
+  "metaDescription": "Create powerful, personalized personal finance and budgeting tools with Kliv. Track income, manage expenses, set budgets, and gain insights into your financial health with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why settle for off-the-shelf finance apps?",
+      "type": "text",
+      "content": "In a world of one-size-fits-all financial apps, your unique spending habits, income streams, and financial goals often get squeezed into predefined categories. These apps may offer a standard set of features, but they rarely adapt perfectly to how _you_ manage your money.\n\nBuilding your own personal finance and budgeting tool means you get to dictate every rule, every category, and every report. You interact with your money on your terms, not theirs. Kliv empowers you to create a system that truly reflects your financial life, offering unparalleled flexibility and insights that generic tools simply can't match."
+    },
+    {
+      "title": "The power of a personalized financial system",
+      "type": "markdown",
+      "content": "## Common frustrations with existing financial apps\n\nMany users find commercial personal finance applications limiting:\n\n- **Predefined categories**: They often don't match your unique spending (e.g., 'Hobbies' vs. 'Model Trains' vs. 'Gaming').\n- **Subscription fees**: Paying monthly for features you don't use, or hitting paywalls for basic functionality.\n- **Data privacy concerns**: Granting access to sensitive financial data to third-party companies with opaque security practices.\n- **Lack of customization**: Inability to integrate with specific banks, manage custom investment portfolios, or create niche reports.\n- **Bloated features**: Overwhelmed by features irrelevant to your financial goals, making the app cumbersome.\n\n## Why a custom solution is a game-changer\n\nBuilding your own personal finance tool means designing a system that works *for* you, not against you. Here’s why it's the future of financial management:\n\n### Unrivaled customization\nDesign your own expense categories, income sources, saving goals, and reporting dashboards. Want to track spending on 'art supplies' or 'vintage records' specifically? No problem. Need a custom budget for your side-hustle? You build it.\n\n### Complete data ownership\nYour financial data is highly sensitive. With a custom tool, you control where your data is stored, how it's encrypted, and who has access. No more concerns about third-party breaches or data sharing policies.\n\n### Eliminate recurring costs\nSay goodbye to monthly subscriptions. Once your tool is built, the core functionality is yours. You invest once, and reap the benefits for years to come, scaling it as your financial life evolves.\n\n### Perfect integration with your life\nConnect seamlessly with your specific bank APIs (if supported), personal investment platforms, or even integrate with unique income streams like freelancing platforms. Your tool becomes a central hub tailored to your financial ecosystem.\n\n### Focus on what matters\nBuild only the features you need. No more cluttered interfaces or irrelevant functionalities. Your financial dashboard will show you exactly what's important to your financial health, helping you make better decisions faster.\n\n## Practical applications of custom finance tools\n\nCustom personal finance tools are not just for experts. They empower anyone to achieve financial clarity:\n\n**Family Budgeting**: Create a shared dashboard with custom categories for family spending, track allowances, and manage household bills collaboratively.\n\n**Freelancer Income/Expense Tracker**: Monitor irregular income, track project-specific expenses, manage tax deductions, and forecast cash flow based on client payments.\n\n**Debt Management System**: Build a tool to visualize debt payoff progress (e.g., snowball or avalanche methods), track interest rates, and set repayment reminders.\n\n**Investment Portfolio Manager**: Beyond basic stock tracking, monitor specific asset allocations, calculate real-time returns across different platforms, and model future growth scenarios.\n\n**Travel Budget Planner**: Plan and track spending for specific trips, allocate funds for flights, accommodation, and activities, and ensure you stay within budget while exploring.\n\n## The Kliv advantage in financial tool creation\n\nCreating sophisticated financial software has traditionally been complex. Kliv changes this:\n\n- **AI-powered design**: Describe your ideal financial tracker in plain English, and Kliv helps bring it to life.\n- **Rapid prototyping**: See your income/expense tracker, budget planner, or investment dashboard materialize quickly.\n- **Intelligent suggestions**: Get AI-driven recommendations for financial calculations, reporting structures, and security best practices.\n- **Secure foundation**: Kliv assists in building robust security features to protect your sensitive financial data.\n\nDon't let rigid software dictate your financial future. With Kliv, you can create the ultimate personal finance companion, perfectly designed for your journey to financial freedom."
+    },
+    {
+      "title": "Personal finance ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track all your monthly income and expenses by custom categories.",
+          "prompt": "Create a personal finance app that allows me to input my monthly income and expenses, categorize each transaction (e.g., groceries, rent, entertainment), and view a summary of my spending by category.",
+          "title": "Basic Income & Expense Tracker"
+        },
+        {
+          "description": "Set spending limits and visualize your progress towards financial goals.",
+          "prompt": "Build a budgeting tool where I can set monthly budgets for different categories, track my spending against those budgets, and see how much I have left to spend or if I'm over budget.",
+          "title": "Custom Budget Planner"
+        },
+        {
+          "description": "Monitor and strategize to pay off various debts efficiently.",
+          "prompt": "Develop a debt management application that lists all my debts, their interest rates, and minimum payments. It should allow me to track extra payments and visualize my progress using the debt snowball method.",
+          "title": "Debt Payoff Strategizer"
+        },
+        {
+          "description": "Manage savings for multiple goals like a down payment or vacation.",
+          "prompt": "I need a savings goal tracker that lets me define multiple financial goals (e.g., new car, house down payment, vacation), set target amounts and dates, and track my contributions to each goal over time.",
+          "title": "Multi-Goal Savings Tracker"
+        },
+        {
+          "description": "Track spending across different currencies for international travel.",
+          "prompt": "Design a travel expense manager where I can input spending in various currencies during a trip, automatically convert it to my home currency, and categorize expenses by trip or activity.",
+          "title": "Travel Expense Manager"
+        },
+        {
+          "description": "Keep tabs on subscriptions and recurring bills to avoid surprises.",
+          "prompt": "Build a subscription management tool that lists all my recurring monthly and annual subscriptions, their due dates, and costs, with reminders before payments are due.",
+          "title": "Subscription & Recurring Bill Tracker"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your financial tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to automatically import transactions from bank statements (e.g., via CSV upload or Open Banking API integration).",
+          "title": "Automated Transaction Import"
+        },
+        {
+          "prompt": "Integrate a feature that analyzes spending patterns and suggests ways to optimize my budget.",
+          "title": "AI-Driven Spending Analysis"
+        },
+        {
+          "prompt": "Include an investment tracking module where I can log my stock, crypto, and mutual fund holdings, view real-time prices, and calculate portfolio performance.",
+          "title": "Investment Portfolio Tracker"
+        },
+        {
+          "prompt": "Develop a net worth calculator that combines assets (cash, investments, property) and liabilities (debts) to show my overall net worth trend over time.",
+          "title": "Net Worth Calculator"
+        },
+        {
+          "prompt": "Add a visual dashboard with charts and graphs to represent income vs. expenses, budget adherence, and savings progress.",
+          "title": "Interactive Financial Dashboards"
+        },
+        {
+          "prompt": "Implement a forecasting tool that predicts future cash flow based on historical income and expenses, and upcoming bills.",
+          "title": "Cash Flow Forecasting"
+        },
+        {
+          "prompt": "Include push notifications or email reminders for upcoming bills, budget overspending alerts, or low savings balances.",
+          "title": "Personalized Financial Alerts"
+        },
+        {
+          "prompt": "Add a multi-user feature so a family or small business can collaboratively manage shared finances with different access levels.",
+          "title": "Multi-User Access & Sharing"
+        },
+        {
+          "prompt": "Build a module for tax-related expense tracking, allowing me to flag deductible expenses and generate reports for tax season.",
+          "title": "Tax Expense Optimization"
+        }
+      ]
+    },
+    {
+      "title": "Essential financial tracking capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Effortlessly categorize all income and expense transactions using custom tags.",
+          "icon": "💰",
+          "title": "Custom Transaction Tagging"
+        },
+        {
+          "description": "Set, track, and adjust budget limits for all your spending categories.",
+          "icon": "📉",
+          "title": "Flexible Budget Creation"
+        },
+        {
+          "description": "Gain insights into your money with powerful, customizable charts and reports.",
+          "icon": "📊",
+          "title": "Visual Spending Analytics"
+        },
+        {
+          "description": "Track progress towards any financial goal, from down payments to retirement funds.",
+          "icon": "🎯",
+          "title": "Goal-Based Savings Tracker"
+        },
+        {
+          "description": "Manage recurring bills and subscriptions with automated reminders.",
+          "icon": "🗓️",
+          "title": "Bill & Subscription Management"
+        },
+        {
+          "description": "Ensure your sensitive financial data is protected with robust security measures.",
+          "icon": "🔒",
+          "title": "Secure Data Handling"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional personal finance tool with Kliv can take anywhere from a few hours for a basic tracker to a few days for a complex system with integrations and advanced analytics. The AI significantly speeds up development.",
+          "question": "How quickly can I build a personal finance application?"
+        },
+        {
+          "answer": "No, you don't need any special financial development knowledge or advanced coding skills. Kliv's platform allows you to describe the financial features and logic in plain English, and the AI assists in generating the application structure and code.",
+          "question": "Do I need financial or coding expertise to build this type of app?"
+        },
+        {
+          "answer": "Yes, you can integrate with various financial services. Kliv helps you implement connections to bank APIs (if your bank offers one), CSV imports from financial institutions, or even manual data entry for full flexibility. You decide the level of integration.",
+          "question": "Can my custom finance tool connect to my bank accounts?"
+        },
+        {
+          "answer": "Your data remains entirely yours. The application you build is owned by you, and you control the hosting environment and data storage. Kliv assists in creating a secure application, but you maintain full sovereignty over your financial data.",
+          "question": "Who owns my financial data if I build an app with Kliv?"
+        },
+        {
+          "answer": "Custom-built applications built with Kliv typically result in significant long-term savings. You avoid recurring subscription fees common with commercial financial apps, meaning your investment pays for itself over time, often within the first year.",
+          "question": "Is building a custom finance app more cost-effective than using a subscription service?"
+        },
+        {
+          "answer": "Absolutely. One of the main advantages is the ability to evolve your tool as your financial life changes. Add new modules, adjust categories, or integrate new features effortlessly. Your app can grow with you.",
+          "question": "Can I modify or expand my financial app after it's built?"
+        },
+        {
+          "answer": "Yes, Kliv emphasizes building secure applications. For a personal finance tool, this means implementing robust authentication, data encryption, and secure storage practices. You have control over these security layers.",
+          "question": "How secure will my custom personal finance application be?"
+        },
+        {
+          "answer": "Kliv's platform provides tools and AI assistance for development, debugging, and deployment. Since you own the code, you also have the freedom to hire any developer for future maintenance or enhancements, ensuring you're never locked into a single provider for support.",
+          "question": "What kind of support is available if I get stuck or need help?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your money?",
+      "type": "cta",
+      "content": "Stop letting generic apps dictate your finances. Take charge and build a personalized financial management tool that truly works for you."
+    }
+  ],
+  "title": "Personal finance & budgeting tools"
+}

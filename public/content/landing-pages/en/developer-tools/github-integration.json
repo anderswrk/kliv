@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a custom GitHub integration that can automatically analyze pull requests for common issues, enforce branch policies, and generate release notes based on merged commits.",
+  "description": "Build custom GitHub integrations tailored to your development workflow with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your integration",
+    "subtitle": "Elevate your development workflow with custom GitHub integrations built on Kliv's AI-powered platform. Automate tasks, enforce standards, and gain deeper insights.",
+    "title": "Build your own GitHub integrations"
+  },
+  "metaDescription": "Create powerful, tailored GitHub integrations with Kliv. Automate code reviews, streamline CI/CD, generate reports, and enhance collaboration for your specific development needs.",
+  "sections": [
+    {
+      "title": "Why build a custom GitHub integration?",
+      "type": "text",
+      "content": "Off-the-shelf GitHub apps offer great utility, but often fall short of meeting specific, nuanced workflow requirements. They might do 80% of what you need, leaving friction or manual steps for the remaining 20%. Instead of adapting your intricate development processes to a generic tool, build a custom integration that perfectly complements your team's unique rhythm.\n\nWith AI-powered development platforms like Kliv, creating bespoke GitHub integrations is no longer a complex, resource-intensive task. Empower your team with tools that enforce your exact standards, automate unique processes, and provide insights exactly how you need them—without compromises or ongoing subscription fees for features you don't fully utilize."
+    },
+    {
+      "title": "The power of tailored GitHub automation",
+      "type": "markdown",
+      "content": "## Limitations of standard GitHub apps\n\nWhile the GitHub Marketplace offers a vast array of tools, many development teams encounter limitations:\n\n- **Generic functionality**: Designed for a broad audience, they may lack the specific features or customizations your team requires.\n- **Workflow rigidty**: They often impose their own workflows, which might not align with your existing development practices.\n- **Vendor lock-in**: You become dependent on external vendors for functionality, updates, and security.\n- **Pricing models**: Recurring costs can add up, especially for larger teams or when using multiple apps that collectively don't meet all needs.\n- **Data privacy concerns**: Sharing sensitive repository data with numerous third-party services can raise compliance and security questions.\n\n## Why custom integrations gain an edge\n\nBuilding your own GitHub integration harnesses the platform's API to create solutions that are perfectly aligned with your unique operational requirements. Here's why custom is increasingly the preferred path for discerning teams:\n\n### Perfect workflow fit\nYour custom integration will understand and automate your specific pull request workflows, commit conventions, branching strategies, and release procedures. No more shoehorning your process into a tool's limitations.\n\n### Enhanced security and data control\nHost your integration on your own infrastructure or a cloud provider you trust. You control access, data flow, and security protocols, minimizing exposure to third-party vulnerabilities.\n\n### Cost-efficiency\nOne-time build cost, infinite value. Avoid recurring subscription fees that escalate with user count or feature tiers. Invest in a solution that you own and can evolve with your needs.\n\n### Competitive advantage\nStreamlined, highly customized development workflows lead to faster development cycles, higher code quality, and more agile responses to market demands.\n\n### Infinite extensibility\nAs your processes evolve, so can your integration. Easily add new features, support new repository types, or integrate with new internal systems without waiting for a vendor update.\n\n## Practical applications\n\nCustom GitHub integrations are transforming how development teams operate:\n\n**Automated Code Review**: A custom bot that analyzes pull requests against internal style guides, security policies, and best practices, automatically adding comments or blocking merges.\n\n**Release Management**: A tool that aggregates commit messages, generates draft release notes, and triggers automated deployment pipelines upon merging to a release branch.\n\n**Hyper-personalized Notifications**: Instead of generic alerts, send targeted notifications to specific Slack channels or email lists based on team-specific code ownership or issue types.\n\n**Developer Productivity Dashboards**: Collect custom metrics on code churn, review times, and issue resolution from GitHub data to populate internal dashboards.\n\n**Smart Branch Protection**: Enforce complex branch protection rules that go beyond GitHub's native capabilities, such as requiring specific status checks from external tools or custom user groups.\n\n## Accelerate with AI\n\nKliv's platform simplifies the creation of sophisticated custom integrations:\n\n- **Natural language programming**: Describe the integration's behavior in plain English, and the AI helps generate the underlying logic and code.\n- **Rapid prototyping**: Quickly iterate on features and deploy changes to test environments to see immediate results.\n- **Intelligent API assistance**: AI suggestions guide you on how to best utilize GitHub's extensive API for your specific needs.\n- **Built-in deployment**: Seamlessly deploy your integration to popular cloud providers or your own servers.\n\nStop compromising on your development tools. Build a GitHub integration that's as unique and efficient as your team."
+    },
+    {
+      "title": "GitHub integration ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Ensure code quality and consistency with automated checks.",
+          "prompt": "Create a GitHub bot that automatically lints new pull requests based on YAML configurations, reports errors directly in the PR, and prevents merging if critical issues are found.",
+          "title": "Custom PR Linter and Enforcer"
+        },
+        {
+          "description": "Streamline release documentation and deployment triggers.",
+          "prompt": "Build an integration that monitors merges to the 'main' branch, automatically generates preliminary release notes from commit messages and issues, and creates a draft release on GitHub.",
+          "title": "Automated Release Note Generator"
+        },
+        {
+          "description": "Assign reviewers and manage code ownership transparently.",
+          "prompt": "Develop a GitHub App that automatically assigns pull request reviewers based on code ownership (e.g., using a CODEOWNERS file with advanced rules) and ensures all required teams approve before merge.",
+          "title": "Smart Code Owner Reviewer"
+        },
+        {
+          "description": "Get deep insights into repository activity.",
+          "prompt": "Design an integration that collects custom metrics from GitHub like lines of code added/deleted per developer, average PR review time, and issue closure rates, then exports them to a dashboard service daily.",
+          "title": "Developer Productivity Metrics Dashboard"
+        },
+        {
+          "description": "Keep issues organized and current.",
+          "prompt": "Build a bot that scans open issues for inactivity, automatically adds a 'stale' label after 30 days, and closes issues after another 7 days of no activity if no one responds.",
+          "title": "Issue Stale Bot with Custom Logic"
+        },
+        {
+          "description": "Control who can merge what, with custom conditions.",
+          "prompt": "Create a custom branch protection tool that prevents merging into the 'production' branch unless all CI/CD checks pass, at least two approvals from senior engineers are present, and no critical security vulnerabilities are detected in the latest scan.",
+          "title": "Advanced Branch Protection System"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your integration",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a web UI for configuration management.",
+          "title": "Build a configuration dashboard"
+        },
+        {
+          "prompt": "Integrate with JIRA or Asana for ticket synchronization.",
+          "title": "Add project management syncing"
+        },
+        {
+          "prompt": "Implement machine learning for predictive insights.",
+          "title": "Incorporate AI for anomaly detection"
+        },
+        {
+          "prompt": "Add notifications to Slack or Microsoft Teams.",
+          "title": "Enable cross-platform notifications"
+        },
+        {
+          "prompt": "Create a custom webhook for external service triggers.",
+          "title": "Expose custom webhooks"
+        },
+        {
+          "prompt": "Add detailed logging and auditing capabilities.",
+          "title": "Enhance logging and audit trails"
+        },
+        {
+          "prompt": "Implement a feature to generate custom reports daily/weekly.",
+          "title": "Build scheduled reporting"
+        },
+        {
+          "prompt": "Allow integration with specific self-hosted Git instances.",
+          "title": "Support Github Enterprise and other Git hosts"
+        },
+        {
+          "prompt": "Add functionality to automatically rebase or squash commits.",
+          "title": "Automate Git operations"
+        }
+      ]
+    },
+    {
+      "title": "Key integration features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Listen for, and react to, specific GitHub events like PR opened, commit pushed, or issue commented.",
+          "icon": "👂",
+          "title": "Event-driven workflows"
+        },
+        {
+          "description": "Programmatically interact with GitHub resources: repos, issues, PRs, users, and more.",
+          "icon": "🤖",
+          "title": "Full API control"
+        },
+        {
+          "description": "Trigger external services (CI/CD, notifications) based on GitHub activity.",
+          "icon": "🔗",
+          "title": "External service hooks"
+        },
+        {
+          "description": "Automatically comment, label, assign, or close issues and pull requests.",
+          "icon": "✍️",
+          "title": "Automated repository actions"
+        },
+        {
+          "description": "Support for fine-grained permissions to ensure secure access to repositories.",
+          "icon": "🔒",
+          "title": "Secure authentication"
+        },
+        {
+          "description": "Process and analyze commit messages, code changes, and issue descriptions with natural language processing.",
+          "icon": "🔍",
+          "title": "Content parsing & analysis"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Using Kliv, you can often build functional GitHub integrations in a matter of hours or days. More complex integrations involving multiple external services might take a bit longer for fine-tuning, but significantly less than traditional development.",
+          "question": "How quickly can I build a custom GitHub integration?"
+        },
+        {
+          "answer": "No deep coding experience is required. Kliv uses natural language processing to understand your requirements and builds the integration logic. You specify the desired behavior, and the AI helps translate it into a working solution.",
+          "question": "Do I need to be a coding expert to build this?"
+        },
+        {
+          "answer": "Yes, you can integrate with virtually any external tool that has an API, including Slack, Jira, Jenkins, custom CI/CD pipelines, security scanners, and more. Kliv helps generate the necessary API calls.",
+          "question": "Can my custom integration interact with other tools?"
+        },
+        {
+          "answer": "You own the entire integration. This includes the code, the deployed application, and control over where it's hosted. You're never locked into a vendor's ecosystem.",
+          "question": "Who owns the integration once it's built?"
+        },
+        {
+          "answer": "The cost is primarily your time and any hosting fees you incur. Compared to recurring SaaS subscription models for a multitude of apps, a custom build quickly becomes more cost-effective, often saving significant amounts within the first year.",
+          "question": "What are the costs involved in building with Kliv versus buying off-the-shelf?"
+        },
+        {
+          "answer": "Security is paramount. By building and hosting your own integration, you control the data flow and security protocols, minimizing reliance on third-party security practices. Kliv facilitates secure coding patterns and deployment methods.",
+          "question": "Is a custom GitHub integration secure?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the ability to continuously evolve your tool. As your team's needs change, you can easily modify, extend, or retract features directly within the Kliv environment.",
+          "question": "Can I modify or expand the integration after it's live?"
+        },
+        {
+          "answer": "Kliv offers intelligent assistance throughout the building process, providing suggestions, debugging help, and deployment guidance. For specific technical issues regarding GitHub's API, their comprehensive documentation is also available.",
+          "question": "What kind of support is available if I run into problems?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your dev workflow?",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Build the custom GitHub integration that your team deserves – efficient, secure, and perfectly tailored."
+    }
+  ],
+  "title": "Custom GitHub Integrations"
+}

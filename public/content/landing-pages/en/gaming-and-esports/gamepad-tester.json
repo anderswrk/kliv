@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a gamepad testing application that provides real-time input visualization, dead zone calibration, and button latency checks for various controllers.",
+  "description": "Build custom gamepad testing applications with Kliv's AI-powered platform for gamers and developers.",
+  "hero": {
+    "cta": "Start Testing Controllers",
+    "subtitle": "Ensure precision and performance with custom gamepad testing applications built on Kliv's platform.",
+    "title": "Build your own Gamepad Testing Tools"
+  },
+  "metaDescription": "Create powerful gamepad testing tools with Kliv. Visualize inputs, calibrate dead zones, and check latency for any controller to optimize your gaming experience.",
+  "sections": [
+    {
+      "title": "Why build your own gamepad testing tool?",
+      "type": "text",
+      "content": "The accuracy and responsiveness of your gamepad can make or break your gaming experience, especially in competitive play. While basic system utilities exist, they often lack the detailed diagnostics and customization options professional gamers, hardware enthusiasts, and independent developers truly need.\n\nBuilding your own gamepad testing application with AI-powered development platforms like Kliv means you can tailor it precisely to your needs, whether it's for pre-purchase evaluation, post-repair verification, or competitive optimization. Instead of relying on generic, limited tools, create a bespoke solution that highlights every nuance of your controller's performance."
+    },
+    {
+      "title": "The case for custom gamepad testing",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf testers\n\nExisting gamepad testing solutions often fall short in several areas:\n\n- **Lack of depth:** Many tools offer only basic button press and axis movement detection, missing crucial metrics like input latency, precise dead zone calibration, or stick drift severity.\n- **Limited compatibility:** They might not support a wide range of controllers (e.g., specific fight sticks, niche racing wheels, or vintage controllers) or struggle with different operating systems.\n- **No customization:** You can't add features specific to your testing routine, such as logging test results, comparing multiple controllers, or integrating with game-specific profiles.\n- **Obsolete updates:** Third-party tools might not be regularly updated to support new controllers or operating system changes, leaving you with an outdated solution.\n\n## Why custom-built offers a superior solution\n\nLeveraging AI platforms for custom development empowers you to overcome these limitations:\n\n### Unparalleled precision and detail\nDesign a tool that provides granular insights into every aspect of your controller's performance—from millisecond latency values to detailed axis curves and repeatable drift measurements.\n\n### Broad compatibility\nWith a custom application, you can implement support for virtually any USB or Bluetooth HID-compliant device, or even integrate specific vendor SDKs for specialized controllers.\n\n### Tailored feature set\nNeed a specific visualization? Want to automate a sequence of button presses for stress testing? Require data export for analysis? You can build exactly those features, making your tester a truly professional-grade instrument.\n\n### Long-term relevance\nAs new controllers come out or operating systems evolve, you control the updates. Your tool remains relevant because you can adapt it as needed, ensuring it's always current.\n\n## Real-world applications\n\nCustom gamepad testing applications can benefit a wide array of users:\n\n**Gamers**: Identify and calibrate controller issues like stick drift or unresponsive buttons to gain a competitive edge or simply ensure a smooth gaming experience.\n\n**Hardware Enthusiasts**: Thoroughly test new or refurbished controllers, compare performance across different brands, and verify modifications.\n\n**Independent Game Developers**: Debug game input systems, test controller compatibility across platforms, and provide robust in-game calibration options.\n\n**Repair Shops/Resellers**: Quickly diagnose controller faults, verify repairs, and provide objective proof of controller functionality to customers.\n\n**Esports Teams**: Analyze controller performance of team members, identify subtle input delays, and standardize calibration settings for competitive play.\n\n## The AI advantage\n\nBuilding sophisticated tools no longer requires a specialized development team. AI-powered platforms like Kliv simplify the process:\n\n- **Intuitive development**: Describe the testing parameters and visualizations you need in plain language.\n- **Rapid iteration**: See your testing interface take shape quickly, allowing for immediate feedback and adjustments.\n- **Intelligent suggestions**: The AI can suggest advanced testing methods or display options you might not have considered.\n- **Accelerated debugging**: AI can help identify and resolve issues with input parsing or visualization logic.\n\n## Getting started\n\nDon't settle for generic controller diagnostics. Unleash the full potential of your gaming peripherals with a custom-engineered testing application. Kliv's AI-driven low-code platform makes it accessible for anyone to build a precise, comprehensive gamepad tester tailored to their exact specifications."
+    },
+    {
+      "title": "Gamepad testing ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize inputs from a single controller with highly responsive feedback.",
+          "prompt": "Create a real-time gamepad input visualizer showing button presses, joystick positions, and trigger depths, with on-screen graphical feedback.",
+          "title": "Basic Real-time Input Display"
+        },
+        {
+          "description": "Precisely define and test dead zones for analog sticks.",
+          "prompt": "Build a dead zone calibration tool for joysticks that allows users to adjust and visualize circular and axial dead zones, with a graphical representation of input paths as a user moves the stick.",
+          "title": "Analog Stick Dead Zone Calibrator"
+        },
+        {
+          "description": "Measure and display input latency for buttons and triggers.",
+          "prompt": "Develop a button and trigger latency tester that measures the time between a physical input and its detection by the system, displaying average and peak latency values in milliseconds.",
+          "title": "Input Latency Measurer"
+        },
+        {
+          "description": "Automatically detect and quantify stick drift.",
+          "prompt": "Design a stick drift detection tool that monitors analog stick inputs for unintended movement when the stick is at rest, providing a drift magnitude score and a visual plot over time.",
+          "title": "Automated Stick Drift Detector"
+        },
+        {
+          "description": "Test vibration motors and haptic feedback strength.",
+          "prompt": "Create a vibration motor testing application that allows users to activate and adjust the intensity of different rumble motors within a gamepad.",
+          "title": "Haptic Feedback Tester"
+        },
+        {
+          "description": "Compare input values between two different controllers simultaneously.",
+          "prompt": "Build a dual-controller comparison tool that displays real-time input data from two connected gamepads side-by-side for comparison of responsiveness and accuracy.",
+          "title": "Multi-Controller Comparator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your testing tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to save and load controller profiles, including custom deadzone settings and button mappings.",
+          "title": "Profile Management System"
+        },
+        {
+          "prompt": "Implement a test recording and playback feature to capture input sequences for repeatable testing.",
+          "title": "Input Recording and Playback"
+        },
+        {
+          "prompt": "Add support for XInput and DirectInput APIs to ensure broad controller compatibility.",
+          "title": "Cross-API Compatibility"
+        },
+        {
+          "prompt": "Integrate a database to store and analyze historical test data for multiple controllers over time.",
+          "title": "Historical Data Logging & Analysis"
+        },
+        {
+          "prompt": "Include advanced visualization options like 3D representations of joystick movement paths or force curves for triggers.",
+          "title": "Advanced Visualizations"
+        },
+        {
+          "prompt": "Develop a 'macro record' feature that records a sequence of button presses and plays them back repeatedly for stress testing durability.",
+          "title": "Macro-based Stress Testing"
+        },
+        {
+          "prompt": "Add an export function to generate detailed test reports in PDF or CSV format.",
+          "title": "Test Report Generation"
+        },
+        {
+          "prompt": "Allow users to map virtual inputs to their physical gamepad for remapping purposes within the tool itself.",
+          "title": "Virtual Button Remapping"
+        }
+      ]
+    },
+    {
+      "title": "Essential gamepad testing features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Visualize real-time button presses, joystick movements, and trigger depths with graphical feedback.",
+          "icon": "🕹️",
+          "title": "Real-time Input Display"
+        },
+        {
+          "description": "Precisely calibrate dead zones and anti-dead zones for analog sticks and triggers.",
+          "icon": "🎯",
+          "title": "Dead Zone Calibration"
+        },
+        {
+          "description": "Accurately measure the time delay between physical input and software registration.",
+          "icon": "⏱️",
+          "title": "Input Latency Measurement"
+        },
+        {
+          "description": "Identify and quantify unintended joystick movement when the stick is at rest.",
+          "icon": "👻",
+          "title": "Stick Drift Detection"
+        },
+        {
+          "description": "Comprehensive report of all detected controller capabilities and features.",
+          "icon": "🔎",
+          "title": "Controller Capability Scan"
+        },
+        {
+          "description": "Test vibration motors and haptic feedback intensity for optimal immersion.",
+          "icon": "📳",
+          "title": "Vibration & Haptics Test"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional gamepad tester with Kliv can take anywhere from a few hours for a basic version to a couple of days for a more advanced, feature-rich application. The AI handles the complex coding, letting you focus on the desired functionality.",
+          "question": "How quickly can I build a gamepad testing application?"
+        },
+        {
+          "answer": "No, extensive coding knowledge is not required. Kliv's platform allows you to describe the features and functionalities you want using natural language, and the AI assists in generating the underlying code.",
+          "question": "Do I need to be a programmer to build this?"
+        },
+        {
+          "answer": "Yes, you can design your application to support a wide range of controllers, including standard Xbox and PlayStation controllers, fight sticks, racing wheels, and more, as long as they are recognized by your operating system or have accessible APIs.",
+          "question": "Can the custom tool support different types of gamepads?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property of the application you build. Kliv provides the platform and tools, but the output is yours to use, distribute, or modify as you see fit.",
+          "question": "Who owns the gamepad testing application I build?"
+        },
+        {
+          "answer": "Compared to acquiring a full-featured commercial testing suite, building a custom tool with Kliv is typically more cost-effective as it involves a one-time development investment rather than recurring subscription fees. You only pay for the features you build and need.",
+          "question": "Is building a custom tester more expensive than buying one?"
+        },
+        {
+          "answer": "Absolutely. One of the primary advantages of building with Kliv is the flexibility to continuously update and expand your application. As new controller types emerge or your testing needs evolve, you can easily add new features or modify existing ones.",
+          "question": "Can I add new features to my tester after it's built?"
+        },
+        {
+          "answer": "Since you control the code and deployment, you can implement robust security measures to protect your system. This level of control often results in a more secure solution tailored to your specific environment than relying on third-party, closed-source software.",
+          "question": "How secure is a custom-built gamepad tester?"
+        },
+        {
+          "answer": "Kliv offers active support during your development process, including AI-driven guidance, documentation, and a community forum. For any complex issues, direct platform support is also available to ensure your project's success.",
+          "question": "What if I get stuck or need help during development?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to perfect your gaming experience?",
+      "type": "cta",
+      "content": "Stop guessing about your gamepad's performance. Build the ultimate custom testing application with Kliv's AI-powered platform."
+    }
+  ],
+  "title": "Custom Gamepad Tester"
+}

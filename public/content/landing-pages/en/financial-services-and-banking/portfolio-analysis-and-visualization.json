@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to build a portfolio analysis and visualization tool that can connect to multiple brokerage accounts, track performance, analyze risk metrics, and display data through interactive charts and dashboards.",
+  "description": "Build custom portfolio analysis and visualization applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Analyzing",
+    "subtitle": "Gain an edge in financial markets with bespoke portfolio analysis and visualization tools built on Kliv's platform.",
+    "title": "Build your own portfolio analysis tools"
+  },
+  "metaDescription": "Create powerful portfolio analysis and visualization tools with Kliv. Track performance, assess risk, and visualize data for smarter investment decisions.",
+  "sections": [
+    {
+      "title": "The challenge of effective portfolio analysis",
+      "type": "text",
+      "content": "In today's dynamic financial landscape, off-the-shelf portfolio management software often falls short. They are designed for the masses, offering generic features that may not align with your specific investment strategies, data sources, or analytical requirements. This forces investors and financial professionals to either compromise on their analytical capabilities or juggle multiple, disparate tools.\n\nBuilding your own custom solution leverages unparalleled flexibility, allowing you to integrate unique data feeds, apply proprietary algorithms, and visualize performance exactly how you need it. Kliv's AI-powered development platform makes this level of customization accessible, transforming what was once a complex, costly endeavor into a practical reality."
+    },
+    {
+      "title": "Why bespoke portfolio analysis makes sense",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf finance tools\n\nGeneric portfolio analysis solutions come with inherent drawbacks that can hinder effective decision-making and precise risk management:\n\n- **Inflexible data integration**: Limited ability to connect to diverse data sources, including niche markets, private investments, or non-standard feeds.\n- **Generic reporting**: Dashboards and reports often lack the specific metrics, visualizations, and custom calculations crucial for your unique strategy.\n- **Subscription burdens**: High recurring costs that accumulate, providing features you don't use while missing critical ones you do.\n- **Security and privacy concerns**: Data residency and security policies may not meet stringent internal or regulatory requirements.\n- **Feature bloat vs. gaps**: Overloaded with irrelevant functions, yet lacking the precise analytical depth required for alpha generation.\n\n## The compelling case for custom-built solutions\n\nAI-assisted development shifts the paradigm, making powerful, personalized financial tools available to anyone. Here’s why financial professionals and sophisticated investors are turning to custom builds:\n\n### Proprietary insights and algorithms\nImplement your secret sauce – custom valuation models, risk assessment algorithms, or unique scenario analysis tools – directly into your application. This intellectual property gives you a distinct analytical edge.\n\n### Seamless data aggregation\nConnect to any data source, from conventional market data APIs to internal databases, alternative data providers, and even unstructured financial news feeds. Consolidate all your investment data in one coherent platform.\n\n### Tailored visualization and reporting\nDesign dashboards and reports that highlight the most critical insights for your investment philosophy. Visualize complex relationships, track custom benchmarks, and generate compliance-ready reports with ease.\n\n### Cost efficiency and ownership\nTransition from ongoing, expensive subscriptions to a one-time development investment. You own the software, control its evolution, and eliminate recurring vendor lock-in.\n\n### Enhanced security and compliance\nHost your application within your own secure environment, ensuring full control over data encryption, access controls, and adherence to specific regulatory standards like GDPR, CCPA, or FINRA.\n\n## Real-world applications of custom analytics\n\nCustom portfolio analytics are empowering users across the financial spectrum:\n\n**Wealth Management**: Developing client-facing portals that offer personalized performance breakdowns, goal tracking, and interactive risk tolerance assessments.\n\n**Hedge Funds**: Building tools for real-time tracking of complex derivatives, stress testing portfolios against black swan events, and backtesting algorithmic trading strategies.\n\n**Corporate Finance**: Creating internal systems to manage treasury portfolios, analyze cash flow scenarios, and optimize hedging strategies.\n\n**Retail Investors**: Simple, powerful apps to consolidate self-directed brokerage accounts, calculate true portfolio diversification, and simulate future portfolio growth under various market conditions.\n\n## The Kliv advantage in FinTech\n\nKliv transforms the concept of software development for financial applications:\n\n- **Natural Language Programming**: Describe complex financial models or visualization requirements in plain English, and the AI assists in building them.\n- **Rapid Iteration**: Quickly prototype, test, and deploy new analytical modules or visualization types based on evolving market conditions.\n- **Built-in Security**: AI-driven code generation often incorporates best practices for security by design, crucial for financial applications.\n- **Scalability**: Design your application to scale from managing a few personal accounts to hundreds of client portfolios with robust backend infrastructure.\n\n## Your analytical edge starts here\n\nStop adapting your sophisticated financial needs to generic software. With Kliv's AI-powered platform, you can design and deploy a portfolio analysis and visualization tool that is as unique and precise as your investment strategy. Begin shaping your financial future today."
+    },
+    {
+      "title": "Portfolio analysis ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track performance and allocate assets across diverse investment types.",
+          "prompt": "Create a multi-asset portfolio tracker with performance attribution, showing contributions from stocks, bonds, real estate, and alternative investments. Include asset allocation charts.",
+          "title": "Multi-asset class portfolio tracker"
+        },
+        {
+          "description": "Assess and visualize portfolio risk using various metrics.",
+          "prompt": "Build a risk analysis dashboard that calculates Value at Risk (VaR), Conditional VaR (CVaR), and beta for a portfolio, displaying historical and projected risk profiles with stress testing scenarios.",
+          "title": "Advanced risk management dashboard"
+        },
+        {
+          "description": "Simulate outcomes to aid in financial planning and decision-making.",
+          "prompt": "Develop a Monte Carlo simulation tool for portfolio projection that estimates future portfolio values based on historical returns, inflation, and withdrawal strategies, displaying probability distributions.",
+          "title": "Portfolio projection simulator"
+        },
+        {
+          "description": "Monitor and manage positions across multiple brokerage accounts.",
+          "prompt": "Design a comprehensive account aggregation platform that connects to major brokerage APIs (e.g., Fidelity, Schwab, Interactive Brokers) to consolidate all positions, transactions, and cash balances into a single view.",
+          "title": "Consolidated brokerage account viewer"
+        },
+        {
+          "description": "Track ESG scores and align investments with sustainability goals.",
+          "prompt": "Build an ESG (Environmental, Social, Governance) impact analyzer for a portfolio, integrating data from ESG rating agencies and visualizing the portfolio's overall sustainability score and carbon footprint.",
+          "title": "ESG portfolio impact analyzer"
+        },
+        {
+          "description": "Automate tax-loss harvesting opportunities based on real-time data.",
+          "prompt": "Develop a tax-loss harvesting tool that identifies opportunities to sell losing investments to offset capital gains, considering wash sale rules and displaying potential tax savings.",
+          "title": "Automated tax-loss harvesting"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your analysis tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for rebalancing alerts based on target asset allocations, notifying when a portfolio deviates beyond a set threshold.",
+          "title": "Implement rebalancing alerts"
+        },
+        {
+          "prompt": "Integrate real-time news feeds and sentiment analysis for holdings, displaying relevant financial news directly in the portfolio view.",
+          "title": "Add real-time news & sentiment"
+        },
+        {
+          "prompt": "Build a backtesting module to test various trading strategies against historical market data, showcasing hypothetical performance.",
+          "title": "Incorporate backtesting module"
+        },
+        {
+          "prompt": "Enable multi-currency support, allowing users to track portfolios in different base currencies and view exchange rate impacts.",
+          "title": "Add multi-currency feature"
+        },
+        {
+          "prompt": "Create custom reporting capabilities, allowing users to generate and export detailed performance, risk, and tax reports in various formats (PDF, Excel).",
+          "title": "Develop custom reporting"
+        },
+        {
+          "prompt": "Add a social sharing feature for anonymized portfolio insights or performance summaries to a selected network.",
+          "title": "Include social sharing (anonymized)"
+        },
+        {
+          "prompt": "Integrate with personal finance software like Mint or Quicken for a holistic financial overview encompassing investments, debts, and cash flow.",
+          "title": " Integrate with personal finance software"
+        },
+        {
+          "prompt": "Implement a machine learning model to predict future market volatility and its potential impact on portfolio holdings.",
+          "title": "Add predictive volatility modeling"
+        },
+        {
+          "prompt": "Develop an alert system for dividend payouts, bond maturities, and corporate actions for tracked securities.",
+          "title": "Create corporate action alerts"
+        }
+      ]
+    },
+    {
+      "title": "Essential analysis features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to various data sources like brokerage APIs, market data feeds, and proprietary databases.",
+          "icon": "🔗",
+          "title": "Data Integration"
+        },
+        {
+          "description": "Calculate and display critical performance metrics (e.g., CAGR, Sharpe Ratio, drawdown) with customizable timeframes.",
+          "icon": "📈",
+          "title": "Performance Tracking"
+        },
+        {
+          "description": "Visualize portfolio composition, sector exposure, geographic distribution, and asset allocation with interactive charts.",
+          "icon": "📊",
+          "title": "Interactive Dashboards"
+        },
+        {
+          "description": "Assess risk factors like volatility, beta, Value at Risk (VaR), and conduct stress tests.",
+          "icon": "⚠️",
+          "title": "Risk Analysis"
+        },
+        {
+          "description": "Apply custom models for valuation, fundamental analysis, and technical indicators.",
+          "icon": "🧠",
+          "title": "Custom Analytics Engine"
+        },
+        {
+          "description": "Securely manage user accounts, permissions, and data access, ensuring financial privacy.",
+          "icon": "🔒",
+          "title": "Security & User Management"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional portfolio analysis tool can take anywhere from a few hours for a basic version to a few days for a sophisticated, integrated system. Kliv's AI significantly accelerates the development process.",
+          "question": "How long does it take to build a custom portfolio analysis tool?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv allows you to describe your desired features and functionalities in plain English. The AI assists in generating the underlying code and structure.",
+          "question": "Do I need coding expertise to build a financial analysis app?"
+        },
+        {
+          "answer": "Yes, custom tools built with Kliv are highly adaptable. They can integrate with a wide range of financial APIs for market data, brokerage accounts, news feeds, and more, as well as connect to internal databases.",
+          "question": "Can my custom tool connect to live market data and brokerage accounts?"
+        },
+        {
+          "answer": "You retain full ownership and control over your application and its data. Kliv provides the platform for building, but the intellectual property and data remain yours, enabling you to manage hosting and security as needed.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "While there's an initial development investment, custom solutions often prove more cost-effective in the long run compared to recurring subscription fees of commercial software, especially for highly specific or large-scale needs.",
+          "question": "How does the cost compare to off-the-shelf financial software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the ability to continuously refine and add features. As your investment strategy or data needs evolve, you can easily adapt your tool.",
+          "question": "Can I modify or expand my tool after it's initially built?"
+        },
+        {
+          "answer": "Custom-built tools offer superior security by allowing you to control the hosting environment, encryption, and access policies, often exceeding the security guarantees of third-party SaaS providers. It reduces your reliance on external vendor security practices.",
+          "question": "Are custom financial applications built with Kliv secure?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance throughout the building process, offering suggestions, debugging help, and optimization insights. You specify what you want, and the AI helps you achieve it efficiently.",
+          "title": "What kind of support is available during development?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate portfolio analysis tool?",
+      "type": "cta",
+      "content": "Stop conforming to generic financial software. Create a powerful, personalized analytical application that truly serves your investment goals with Kliv's AI-driven development platform."
+    }
+  ],
+  "title": "Portfolio Analysis & Visualization"
+}

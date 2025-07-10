@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I need to build a user management system with role-based access control, allowing me to manage users, assign them to groups, and define permissions for different parts of my application.",
+  "description": "Build custom user management and role-based access control applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your user admin",
+    "subtitle": "Securely manage users, roles, and permissions with custom-built applications tailored to your specific needs.",
+    "title": "Build your own User Management & Roles App"
+  },
+  "metaDescription": "Create powerful user management and role-based access control systems with Kliv. Securely manage users, define roles, and control permissions with custom-built applications.",
+  "sections": [
+    {
+      "title": "The challenge of effective user management",
+      "type": "text",
+      "content": "Managing user access and defining permissions can be a complex and critical task for any application or business system. Off-the-shelf solutions often come with rigid structures, unnecessary features, or licensing costs that scale uncomfortably with your user base. Moreover, they may not perfectly align with your unique organizational hierarchy or security requirements.\n\nBuilding your own user management and roles application ensures complete control, customizability, and security tailored specifically to your operational nuances."
+    },
+    {
+      "title": "Why a custom user management solution?",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf solutions\n\nGeneric user management systems often present significant drawbacks:\n\n- **Over-engineered complexity**: Many come with features you'll never use, complicating setup and ongoing maintenance.\n- **Scalability issues (cost/performance)**: Licensing models often penalize growth, making them expensive as your user count increases. Performance can also degrade in highly customized environments.\n- **Security vulnerabilities**: Relying on a third-party for such a critical component introduces external dependencies and potential single points of failure.\n- **Integration headaches**: Getting them to talk seamlessly with your existing applications and internal systems can be a constant battle.\n- **Lack of granular control**: They might not offer the precise level of role definition or permission granularity your unique business logic demands.\n\n## The advantages of building your own\n\nLeveraging platforms like Kliv to custom-build your user management system offers unparalleled benefits:\n\n### Perfect Fit\nDesign roles, permissions, and user attributes that perfectly mirror your organizational structure and application logic. No more shoehorning your needs into a predefined framework.\n\n### Enhanced Security\nYou control the entire security stack and data residency. Implement security protocols precisely as you need them, reducing reliance on third-party security practices.\n\n### Cost Efficiency\nEliminate recurring subscription fees. A custom-built solution is a one-time investment in development, saving you significant operational costs in the long run.\n\n### Seamless Integration\nBecause you build it, you can design it to integrate flawlessly with your existing databases, internal tools, and external services via custom APIs.\n\n### Future-Proof Scalability\nYour system grows with you. Easily add new roles, refine permissions, or integrate new authentication methods as your business evolves, without vendor lock-in.\n\n## Real-world applications\n\nCustom user management systems are crucial across various sectors:\n\n**SaaS Platforms**: Manage customer accounts, define different subscription tiers, and control feature access for each user.\n\n**Internal Business Dashboards**: Granularly control what data employees can view or modify based on their department, seniority, or project role.\n\n**Client Portals**: Create secure client-specific logins, allowing them to access only their relevant documents, progress reports, or communication threads.\n\n**Educational Platforms**: Manage student, teacher, and administrator accounts with distinct access levels to courses, grades, and administrative functions.\n\n## The Kliv development advantage\n\nKliv simplifies the development of complex systems like user management:\n\n- **Natural Language Interaction**: Describe your desired user hierarchy and permissions in plain English.\n- **Rapid Prototyping**: See your user tables, role assignments, and permission interfaces come to life in hours.\n- **Built-in Security Best Practices**: AI assists in implementing secure authentication, authorization, and data handling.\n- **Flexible Database Integration**: Easily connect to your preferred database to store user information.\n\nBuilding a user management system doesn't have to be a monumental task. With Kliv, you can create a powerful, secure, and perfectly tailored solution that puts you in complete control."
+    },
+    {
+      "title": "Ideas for your user management system",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a secure admin panel for internal users",
+          "prompt": "Build an admin dashboard where I can add, edit, and delete users for my internal tool. I need basic roles like 'Admin', 'Editor', and 'Viewer' with different permissions.",
+          "title": "Internal User Admin Panel"
+        },
+        {
+          "description": "Manage customer access to a product portal",
+          "prompt": "Develop a customer portal user management system. Customers should be able to register, log in, view their subscription status, and access content based on their plan (Basic, Pro, Enterprise).",
+          "title": "Customer Portal User Management"
+        },
+        {
+          "description": "Define staff roles for different retail operations",
+          "prompt": "I need a system to manage retail store staff roles. Store Managers should have full control over their store's inventory, while Sales Associates can only process sales and view product details.",
+          "title": "Retail Staff Role Management"
+        },
+        {
+          "description": "Control access to different project sections",
+          "prompt": "Create a project management access system. Project A members can only see Project A tasks, while Project Managers can view all projects and assign tasks across them.",
+          "title": "Project-Based Access Control"
+        },
+        {
+          "description": "Multi-tenant user and subscription management",
+          "prompt": "Build a multi-tenant user management system for my SaaS application. Each 'company' should have its own set of users and administrators, separate from other companies. Companies can select different feature sets.",
+          "title": "SaaS Multi-Tenant Management"
+        },
+        {
+          "description": "Manage partner and vendor permissions",
+          "prompt": "Develop a partner portal where I can invite external vendors. Some vendors can upload documents, others can only view specific reports, and a 'Primary Vendor Contact' manages their team's access.",
+          "title": "Partner/Vendor Access Portal"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your user management application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add multi-factor authentication (MFA) options like OTP or authenticator app integration.",
+          "title": "Implement MFA"
+        },
+        {
+          "prompt": "Integrate with an external identity provider like OAuth2, Google Sign-in or Okta for single sign-on (SSO).",
+          "title": "Add SSO Integration"
+        },
+        {
+          "prompt": "Develop an audit log that records all user login attempts, permission changes, and data access activities.",
+          "title": "Build an Audit Trail"
+        },
+        {
+          "prompt": "Create a feature for self-service password reset and account lockout after multiple failed attempts.",
+          "title": "Enable Password Management"
+        },
+        {
+          "prompt": "Add a feature to define permissions at a more granular, object-level (e.g., 'can edit specific record X').",
+          "title": "Granular Object Permissions"
+        },
+        {
+          "prompt": "Implement a 'super admin' role that can override all permissions and settings for emergency access.",
+          "title": "Create a Super Admin Role"
+        },
+        {
+          "prompt": "Add user groups and allow assigning permissions to groups instead of individual users.",
+          "title": "Introduce User Groups"
+        },
+        {
+          "prompt": "Create a dashboard showing active users, recent logins, and attempts to access restricted areas.",
+          "title": "User Activity Dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities for User Management",
+      "type": "features",
+      "items": [
+        {
+          "description": "Create, edit, and delete user profiles with custom attributes.",
+          "icon": "👤",
+          "title": "User Lifecycle Management"
+        },
+        {
+          "description": "Define custom roles and assign specific permissions to each.",
+          "icon": "🔑",
+          "title": "Role-Based Access Control (RBAC)"
+        },
+        {
+          "description": "Assign users to specific roles or groups to manage access efficiently.",
+          "icon": "👥",
+          "title": "User/Role Assignment"
+        },
+        {
+          "description": "Secure user authentication (password hashing, session management).",
+          "icon": "🔒",
+          "title": "Secure Authentication"
+        },
+        {
+          "description": "Manage user sessions, including forced logout for security.",
+          "icon": "⏱️",
+          "title": "Session Management"
+        },
+        {
+          "description": "Integrate with your existing database for user data storage.",
+          "icon": "🔗",
+          "title": "Database Integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform accelerates development significantly. A basic user management system with core CRUD (Create, Read, Update, Delete) and RBAC can be functional within hours. More complex systems with advanced features like MFA or SSO might take a few days of iteration.",
+          "question": "How quickly can I build a user management application?"
+        },
+        {
+          "answer": "No, extensive coding is not required. Kliv uses natural language processing. You describe the user types, roles, and permissions you need, and the AI helps generate the underlying structure and functionality.",
+          "question": "Do I need to be a developer to build this type of application?"
+        },
+        {
+          "answer": "Yes. A custom application built with Kliv gives you full control. You can integrate with virtually any external system or service that provides an API, including HR systems, CRM, ERP, or other security protocols like LDAP/AD.",
+          "question": "Can my custom user management system integrate with other enterprise tools?"
+        },
+        {
+          "answer": "You retain full ownership of the application, including the code and all user data. Kliv provides the platform for building, but the intellectual property and data remain yours, allowing for self-hosting or deployment to your preferred cloud environment.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "While there's an initial development investment, building once on Kliv eliminates ongoing subscription fees to third-party providers. Over time, particularly as your user base grows, a custom solution is significantly more cost-effective than scaling commercial UAM SaaS.",
+          "question": "How does the cost compare to buying an off-the-shelf solution?"
+        },
+        {
+          "answer": "Yes, flexibility is a core benefit. You can continuously iterate and add new features. As your business evolves, you can easily define new roles, permissions, or integrate more advanced security features without being dependent on a vendor's product roadmap.",
+          "question": "Can I modify or expand the system after it's initially built?"
+        },
+        {
+          "answer": "When built correctly, a custom system can be more secure. You control the hosting, data encryption, and access policies, eliminating risks associated with multi-tenancy or shared infrastructure of many SaaS providers.",
+          "question": "Is a custom-built solution more secure than a pre-built one?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your user data?",
+      "type": "cta",
+      "content": "Stop adapting to rigid systems. Build a user management and roles application that fits your exact security and operational requirements."
+    }
+  ],
+  "title": "User Management & Role-Based Access Control"
+}

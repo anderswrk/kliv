@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I need to build a transcription and reporting platform that accepts audio/video files, accurately transcribes them, and generates custom reports based on keywords, speaker identification, and sentiment analysis.",
+  "description": "Build custom transcription and reporting platforms for media, research, and analysis with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Transcribing Smarter",
+    "subtitle": "Transform raw audio and video into actionable insights with custom transcription and reporting tools built on Kliv's AI platform.",
+    "title": "Custom Transcription & Reporting Platforms"
+  },
+  "metaDescription": "Create powerful transcription and reporting platforms with Kliv. Automate media analysis, generate custom reports, and extract valuable insights from audio and video content.",
+  "sections": [
+    {
+      "title": "Why build your own transcription and reporting tool?",
+      "type": "text",
+      "content": "In today's data-rich environment, extracting meaningful insights from spoken content is crucial. Generic transcription services often fall short, providing basic text without the context or analytical capabilities needed for deep understanding. For media professionals, researchers, legal teams, and marketers, a custom-built solution is not just a convenience—it's a competitive advantage.\n\nOff-the-shelf tools come with rigid formats, limited reporting options, and recurring costs that escalate with usage. By building your own platform on Kliv, you gain complete control over accuracy, customization, data ownership, and cost efficiency. It's about creating a tool that perfectly aligns with your specific analytical needs, from media monitoring to qualitative research analysis."
+    },
+    {
+      "title": "The power of custom media analysis",
+      "type": "markdown",
+      "content": "## The limitations of standard transcription\n\nWhile many services offer basic transcription, they rarely go beyond converting speech to text. This leaves a significant gap for users who need:\n\n- **Industry-specific terminology**: Generic models often struggle with niche jargon from medical, legal, or technical fields.\n- **Speaker differentiation**: Identifying who said what, especially in complex multi-speaker scenarios.\n- **Sentiment analysis**: Understanding the emotional tone behind the words.\n- **Keyword extraction**: Pinpointing critical topics and themes automatically.\n- **Actionable reporting**: Not just a transcript, but a structured report highlighting key findings.\n- **Data privacy and security**: Sensitive content requires full control over where data resides and how it's processed.\n\n## Why custom-built excels\n\nAI-powered platforms like Kliv empower you to move beyond basic transcription and build sophisticated media analysis tools tailored to your exact requirements:\n\n### Unparalleled Accuracy & Customization\nTrain your transcription models on your specific vocabulary, accents, and audio types. This leads to significantly higher accuracy and a tool that understands your content better than any off-the-shelf alternative.\n\n### Advanced Analytical Capabilities\nIntegrate features like sentiment analysis, topic modeling, named entity recognition, and speaker diarization directly into your platform. Generate reports that automatically summarize insights, track trends, and identify crucial information.\n\n### Data Sovereignty & Security\nMaintain full control over your valuable data. Built with Kliv, your platform can be hosted in environments compliant with your security and privacy standards, crucial for handling confidential interviews, legal proceedings, or sensitive research.\n\n### Cost Efficiency & Scalability\nMove from per-minute pricing models to a self-managed solution. Once built, you own the infrastructure, allowing you to scale usage without ballooning subscription fees. Pay for compute, not for vendor markup.\n\n## Real-world applications\n\nCustom transcription and reporting platforms are revolutionizing various sectors:\n\n**Media & Broadcast**: Automated content monitoring for news syndication, ad verification, and theme tracking across channels. Quickly find segments discussing specific topics or individuals.\n\n**Market Research**: Analyze focus group discussions and in-depth interviews. Identify emerging themes, participant sentiment, and key insights far faster than manual review.\n\n**Legal & Compliance**: Transcribe depositions, court proceedings, and compliance calls with speaker identification, timestamping, and keyword flagging for rapid eDiscovery and evidence review.\n\n**Education**: Create searchable archives of lectures and seminars, with automated summaries and key concept extraction for student review.\n\n**Journalism**: Quickly sift through interview footage, extract quotes by speaker, and pinpoint crucial information for faster story creation.\n\n## The Kliv advantage in media analysis\n\nBuilding such a platform used to require a team of specialized developers and data scientists. Kliv's AI-powered platform makes it accessible:\n\n- **Natural language interfaces**: Describe your desired features, and Kliv helps generate the core application.\n- **Pre-trained AI models**: Utilize state-of-the-art speech-to-text, NLP, and analytics models that can be fine-tuned to your data.\n- **Modular development**: Easily add components for custom reporting, data visualization, and integration with other systems.\n- **Rapid iteration**: Prototype, test, and deploy specialized features quickly, adapting to evolving needs.\n\nInvest in a solution that empowers deep content understanding and robust reporting, instead of merely transcribing words. With Kliv, your custom media analysis platform is within reach."
+    },
+    {
+      "title": "Transcription and reporting ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate content analysis for news and broadcast media",
+          "prompt": "Create a media monitoring platform that transcribes live TV/radio broadcasts, identifies specific keywords and brand mentions, and generates real-time alerts or daily summary reports.",
+          "title": "Broadcast Media Monitoring"
+        },
+        {
+          "description": "Efficiently manage and analyze legal audio evidence",
+          "prompt": "Build a legal transcription tool that transcribes depositions and court hearings with high accuracy, includes speaker diarization, timestamps, and allows for searching and exporting sections based on legal terminology.",
+          "title": "Legal Evidence Analysis Platform"
+        },
+        {
+          "description": "Extract insights from customer calls and feedback",
+          "prompt": "Develop a call center analytics tool that transcribes customer service calls, performs sentiment analysis to flag unhappy customers, and summarizes common issues/feedback for agents and managers.",
+          "title": "Customer Call Analytics"
+        },
+        {
+          "description": "Automate research data processing and insights",
+          "prompt": "Design a qualitative research platform that transcribes focus group discussions and interviews, identifies key themes and emotional tones, and generates structured reports for researchers.",
+          "title": "Academic Research Transcription"
+        },
+        {
+          "description": "Centralize and analyze meeting content",
+          "prompt": "Create an intelligent meeting transcription system that automatically records and transcribes online meetings, identifies action items, and summarizes key discussions, then sends summaries to participants.",
+          "title": "Smart Meeting Assistant"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user management system with different roles (e.g., transcriber, analyst, admin) and access permissions for different reports.",
+          "title": "Implement user roles and permissions"
+        },
+        {
+          "prompt": "Integrate with cloud storage services (e.g., S3, Google Drive) for secure large file uploads and storage.",
+          "title": "Add cloud storage integration"
+        },
+        {
+          "prompt": "Implement a custom dictionary feature so users can add industry-specific terms or proper nouns to improve transcription accuracy.",
+          "title": "Enable custom vocabulary"
+        },
+        {
+          "prompt": "Add a feature to visualize sentiment trends over time or across different speakers within a transcript.",
+          "title": "Integrate sentiment visualization"
+        },
+        {
+          "prompt": "Develop an interactive reporting dashboard where users can filter, sort, and drill down into transcription data based on various criteria.",
+          "title": "Build dynamic reporting dashboards"
+        },
+        {
+          "prompt": "Create an API that allows external systems to submit audio/video for transcription and retrieve results programmatically.",
+          "title": "Expose an API"
+        },
+        {
+          "prompt": "Add a media player directly into the platform so users can click on a transcribed word and jump to that point in the audio/video file.",
+          "title": "Enable interactive media playback"
+        },
+        {
+          "prompt": "Implement multi-language transcription and translation capabilities.",
+          "title": "Add multi-language support"
+        }
+      ]
+    },
+    {
+      "title": "Key platform capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "High-accuracy speech-to-text conversion optimized for diverse audio.",
+          "icon": "📝",
+          "title": "Advanced Transcription Engine"
+        },
+        {
+          "description": "Automatic identification and labeling of different speakers in a conversation.",
+          "icon": "🗣️",
+          "title": "Speaker Diarization"
+        },
+        {
+          "description": "Analyze text for emotional tone and detect positive, negative, or neutral sentiments.",
+          "icon": "😊",
+          "title": "Sentiment Analysis"
+        },
+        {
+          "description": "Extract relevant keywords, entities, and themes from transcribed content.",
+          "icon": "🔑",
+          "title": "Intelligent Keyword Extraction"
+        },
+        {
+          "description": "Generate summary reports, trend analyses, and custom data visualizations.",
+          "icon": "📊",
+          "title": "Customizable Reporting"
+        },
+        {
+          "description": "Secure upload and management of audio/video files and transcripts.",
+          "icon": "☁️",
+          "title": "Secure Content Management"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom transcription and reporting platform with Kliv can be significantly faster than traditional development, often taking days or weeks for a functional prototype, and then iteratively adding features. The AI accelerates core component generation.",
+          "question": "How long does it take to develop a custom platform?"
+        },
+        {
+          "answer": "No, extensive coding is not required. Kliv's platform allows you to describe your desired features and functionalities in natural language, and the AI helps translate that into the application's core structure and components. Some customization or integration work might involve light scripting, but the heavy lifting is automated.",
+          "question": "Do I need to be a programmer to build this type of platform?"
+        },
+        {
+          "answer": "Custom platforms offer superior data privacy as you control the hosting environment (e.g., your private cloud), ensuring data never leaves your infrastructure unless you choose to integrate with external tools. This is a critical advantage for highly sensitive media content.",
+          "question": "What about data privacy and security for sensitive content?"
+        },
+        {
+          "answer": "Absolutely. Your custom platform can be designed to integrate with virtually any existing system that offers an API, including CRM, DAM (Digital Asset Management), analytics tools, or content management systems. This ensures seamless workflows.",
+          "question": "Can my custom platform integrate with my existing media workflows or data sources?"
+        },
+        {
+          "answer": "The cost of building with Kliv is typically a one-time development investment tailored to your specific needs, plus ongoing infrastructure costs (which you control). This often leads to significant long-term savings compared to recurring, usage-based subscription fees of commercial transcription services, especially for high volumes.",
+          "question": "How does the cost compare to off-the-shelf transcription services?"
+        },
+        {
+          "answer": "Yes, a core benefit of building with Kliv is the flexibility to continuously adapt and scale. You can add new features, integrate new AI models (e.g., for specific accents or languages), increase processing capacity, or change reporting formats as your business evolves.",
+          "question": "Can I modify or expand the platform after it's built?"
+        },
+        {
+          "answer": "While Kliv simplifies the building process via AI, you maintain full ownership of the intellectual property of the final application. This means you have ultimate control over its functionality, hosting, and future development.",
+          "question": "Who owns the intellectual property of the custom platform?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your bespoke media analysis tool?",
+      "type": "cta",
+      "content": "Stop sifting through hours of content manually. Create an intelligent transcription and reporting platform that works exactly how you need it to."
+    }
+  ],
+  "title": "Transcription & Reporting Platforms"
+}

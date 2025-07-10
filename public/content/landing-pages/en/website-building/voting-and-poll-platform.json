@@ -1,0 +1,158 @@
+{
+  "defaultPrompt": "I want to create a secure online voting platform for community decisions, allowing registered members to vote on proposals and view results in real-time.",
+  "description": "Build custom online voting and poll platforms with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your platform",
+    "subtitle": "Engage your audience, gather feedback, and make data-driven decisions with custom-built voting and polling applications.",
+    "title": "Design your own voting and poll platforms"
+  },
+  "metaDescription": "Create powerful online voting and polling tools with Kliv. Conduct secure elections, gather feedback, and analyze results with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own voting and poll platform?",
+      "type": "text",
+      "content": "In today's digital landscape, gathering accurate opinions and making informed decisions requires robust, flexible tools. Generic survey platforms often fall short, offering limited customization, data ownership concerns, and recurring costs.\n\nKliv empowers you to build tailored voting and polling solutions that fit your precise needs—whether it's for community governance, internal company decisions, market research, or public engagement. Gain full control over your data, features, and user experience, without adapting to rigid templates."
+    },
+    {
+      "title": "The case for custom voting and polling",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf solutions\n\nExisting voting and polling software often comes with significant drawbacks:\n\n- **Lack of Customization**: They rarely fit your brand, specific voting logic, or user authentication requirements.\n- **Data Silos & Ownership**: Your valuable data resides on third-party servers, raising privacy and control issues.\n- **Pricing Models**: Subscription fees can be prohibitive, especially for high-volume or long-term use.\n- **Security & Trust**: Generic systems may not meet the stringent security and transparency demands for critical decisions.\n- **Integration Challenges**: Connecting them with your existing CRM, member databases, or internal systems can be difficult.\n\n## The advantages of a tailored platform\n\nBuilding with Kliv revolutionizes how organizations collect opinions and make collective decisions:\n\n### Uncompromised Security & Integrity\nFor sensitive votes, trust is paramount. A custom platform allows you to implement advanced security measures, audit trails, and anti-fraud mechanisms precisely suited to your risk profile.\n\n### Perfect Fit & Branding\nDesign the user experience, integrate your branding, and create specific voting flows that align perfectly with your organization's identity and requirements. No more generic interfaces or forced workflows.\n\n### Complete Data Ownership\nRetain full control over all collected data. Analyze results in-house, integrate with your preferred analytics tools, and ensure compliance with your data governance policies without third-party interference.\n\n### Cost-Effectiveness\nBeyond the initial build, eliminate recurring subscription fees. You own the software, allowing for significant long-term savings compared to perpetual licensing.\n\n### Seamless Integration\nConnect your voting platform directly with your existing member databases, CRMs, marketing automation tools, or internal systems, creating a truly unified ecosystem.\n\n## Real-world applications\n\nCustom polling and voting platforms built with Kliv enable diverse use cases:\n\n**Non-profits/Associations**: Secure online elections for board members, policy votes, and budget approvals with verified member identities.\n\n**SMBs**: Internal employee pulse surveys, product feature prioritization polls, or anonymous feedback collection mechanisms.\n\n**Educational Institutions**: Student government elections, course feedback surveys, or alumni association voting.\n\n**Market Research Firms**: Highly customized surveys with complex branching logic, multimedia integration, and secure participant management.\n\n**Event Organizers**: Live audience polling, interactive session feedback, or award nominations during virtual or hybrid events.\n\n## The power of AI in platform creation\n\nKliv leverages advanced AI to simplify the development process:\n\n- **Intuitive Design**: Describe your ideal platform, and the AI assists in generating components and interfaces.\n- **Smart Feature Suggestions**: AI identifies common patterns and suggests relevant features like voter authentication or result display.\n- **Rapid Iteration**: Quickly prototype and test different voting mechanisms and user experiences.\n- **Automated Code Generation**: Focus on your requirements, not on writing boilerplate code.\n\nBuilding your own platform means designing a solution that evolves with your needs, ensuring accuracy, security, and integrity in every decision."
+    },
+    {
+      "title": "Voting and poll platform ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Community Decision Voting System (CDVS) for a Local Town Council (Secure & Transparent with Resident ID Verification and Real-Time Results Dashboard) - MVP Development Plan: Phase 1: Core Functionality & User Management, Phase 2: Secure Voting & Results Display, Phase 3: Administrative Features & Reporting, Phase 4: Integrations & Scalability, Phase 5: Audit Trails & Compliance Reporting, Phase 6: User Experience Enhancements, Phase 7: Mobile Responsiveness & Notification System, Phase 8: Data Archiving & Long-Term Storage Solution, Phase 9: Third-Party Authentication Integrations (e.g., Civic Sign-On Providers), Phase 10: Customizable Vote Types (e.g., Ranked Choice, Approval Voting, Cumulative Voting) - Detailed Functionality Breakdown: \n\n*   User Authentication & Authorization: \n    *   Resident ID Verification (e.g., via Government-Issued ID API integration for secure identity verification). \n    *   Role-Based Access Control (RBAC) for Admins, Voters, and Observers. \n    *   Multi-Factor Authentication (MFA) for added security. \n\n*   Proposal Management: \n    *   Admins can create, edit, publish, and archive proposals. \n    *   Support for rich text descriptions, attachments (PDFs, images), and external links for proposals. \n    *   Proposal categorization and tagging for easy search and filtering. \n\n*   Voting Mechanisms: \n    *   Secure, encrypted ballot submission to ensure anonymity and integrity. \n    *   Support for multiple vote types: Yes/No, Multiple Choice, Single Choice, Ranked Choice, Approval Voting, and Cumulative Voting. \n    *   Option to set voting periods (start and end dates/times). \n    *   Prevention of multiple votes from the same resident. \n\n*   Real-Time Results & Analytics: \n    *   Dynamic dashboard displaying current vote counts and percentages. \n    *   Ability to filter results by demographics (if collected anonymously and aggregated). \n    *   Exportable reports (PDF, CSV) for audit purposes. \n    *   Secure, publicly viewable (optional) results portal after vote closure, displaying aggregated, anonymous data. \n\n*   Administrative Features: \n    *   User management: Add, edit, remove residents; reset passwords. \n    *   Audit logs for all administrative actions and voting events. \n    *   System configuration settings (e.g., notification preferences, security parameters). \n    *   Comprehensive monitoring of system health and performance. \n\n*   Communication & Notifications: \n    *   Automated email notifications for new proposals, voting reminders, and results announcements. \n    *   In-app notification system. \n\n*   Security & Compliance: \n    *   End-to-end encryption for all data in transit and at rest. \n    *   Compliance with relevant data privacy regulations (e.g., GDPR, CCPA). \n    *   Regular security audits and vulnerability assessments. \n\n*   User Interface & Experience: \n    *   Responsive design for seamless access on desktop and mobile devices. \n    *   Intuitive navigation and clear instructions for voters and administrators. \n\n*   Scalability: \n    *   Architecture designed to handle a large number of concurrent users and votes. \n    *   Ability to integrate with external systems (e.g., town's resident database) via secure APIs. \n\n*   Audit Trails: \n    *   Detailed, immutable logs of every vote and system event, ensuring transparency and verifiability. \n    *   Cryptographic proof of vote integrity. \n\n*   Data Archiving: \n    *   Solution for secure, long-term storage of historical voting data. \n\n*   Future Enhancements (post-MVP): \n    *   Integration with video conferencing platforms for live Q&A during proposal discussions. \n    *   Interactive data visualization tools for results analysis. \n    *   Support for multi-language interfaces. \n    *   Offline voting capabilities with eventual synchronization.  (No, not possible – remove from prompt!) and Blockchain-based vote immutable ledger – to be considered for future enhancement only for data immutability and not for core MVP.  (No, not possible – remove from prompt!)"
+        },
+        {
+          "title": "Employee Engagement Poll System for Internal Product Prioritization (Anonymous Feedback & Departmental Dashboards) - Functionality: \n\n*   Anonymous polling for employee feedback on potential product features. \n*   Multi-question polls supporting various input types (e.g., single choice, multiple choice, rating scales, open-text comments). \n*   Departmental dashboards showing aggregated results, but individual responses remain anonymous. \n*   Admins can create, launch, and close polls, defining target audiences (e.g., specific departments or roles). \n*   Automated reminders for employees who haven't participated. \n*   Exportable summary reports for management review. \n*   Secure internal access control based on company directory integration. \n*   Sentiment analysis on open-text responses (optional advanced feature). \n*   Trend analysis over time for recurring polls. \n*   Notification system for new polls and closing deadlines. \n\n*   MVP Features: \n    *   User authentication via company SSO. \n    *   Poll creation (question types: single/multi-choice, text). \n    *   Anonymous response collection. \n    *   Basic aggregated results view (charts). \n    *   Department/group targeting for polls. \n\n*   Future Enhancements: \n    *   Data export (CSV/Excel). \n    *   Trend analysis. \n    *   Sentiment analysis. \n    *   Advanced reporting and filtering. \n    *   Scheduled polls. \n    *   Integration with internal communication tools (e.g., Slack, Teams). \n    *   Customizable branding. \n    *   Mobile optimization."
+        },
+        {
+          "title": "Market Research Survey Platform with Advanced User Segmentation (Targeted Surveys for Demographic Segments & A/B Testing Capabilities) - Detailed Functionality for Market Research Survey Platform:\n\n*   **Survey Creation & Design**: \n    *   Intuitive drag-and-drop interface for building surveys. \n    *   Support for a wide range of question types (e.g., multiple choice, open-ended, Likert scale, ranking, image choice, video embedding). \n    *   Advanced survey logic: branching, skip logic, piping (inserting previous answers into later questions). \n    *   Customizable themes and branding to match client requirements. \n    *   Preview mode for desktop and mobile before launch. \n\n*   **User Segmentation & Targeting**: \n    *   Define audience segments based on demographics (age, gender, location, income), psychographics, past behavior, and custom attributes. \n    *   Integrate with existing CRM or audience management systems for seamless participant invitation. \n    *   Ability to target specific survey links to different segments for A/B testing or comparative analysis. \n    *   Quota management to ensure representative sample sizes for each segment. \n\n*   **A/B Testing Capabilities**: \n    *   Design and deploy multiple versions of a survey or specific questions to different segments. \n    *   Compare response rates, completion times, and answer distributions between variations. \n    *   Reporting features to highlight statistically significant differences between A/B test groups. \n\n*   **Data Collection & Management**: \n    *   Secure data collection with encryption in transit and at rest. \n    *   Prevention of duplicate submissions and bot activity. \n    *   Real-time monitoring of survey progress, response rates, and abandonment rates. \n    *   Geo-fencing capabilities for location-based surveys (optional). \n\n*   **Reporting & Analytics**: \n    *   Dynamic dashboards displaying aggregated survey results with interactive charts and graphs. \n    *   Filter results by demographic segment, question, and time period. \n    *   Cross-tabulation tool to analyze relationships between different survey questions. \n    *   Export raw data (CSV, Excel) and summarized reports (PDF, PPT). \n    *   Text analysis for open-ended questions (e.g., keyword extraction, sentiment analysis). \n    *   Ability to create custom reports and share secure links to results with clients.\n\n*   **Security & Compliance**: \n    *   Adherence to data privacy regulations (e.g., GDPR, CCPA, HIPAA if applicable). \n    *   Role-based access control for different user roles (e.g., administrator, researcher, client viewer).\n\n*   **Participant Management**: \n    *   Ability to import participant lists and manage invitations. \n    *   Track participation status and send automated reminders. \n    *   Option for anonymous or identified participation based on survey requirements. \n\n*   **Integrations**: \n    *   API access for integration with third-party analytical tools, CRMs, or data visualization platforms. \n    *   Webhooks for real-time data notifications. \n\n*   **Scalability**: \n    *   Designed to handle large volumes of respondents and complex survey structures. \n\n*   **User Interface**: \n    *   Responsive design for access on various devices. \n    *   Intuitive interface for both survey creators and respondents."
+        },
+        {
+          "title": "Interactive Live Event Polling & Q&A Platform (Audience Engagement for Conferences & Webinars with Real-Time Data Visualization) - Core Features:\n\n*   **Live Polling**: \n    *   Creation of single-choice, multiple-choice, and open-ended polls that update in real-time. \n    *   Audience members can vote via a unique event code or URL. \n    *   Live visualization of poll results (bar charts, word clouds for open text) projected to the audience.\n    \n*   **Interactive Q&A**: \n    *   Attendees can submit questions anonymously or with their names. \n    *   Ability for attendees to 'upvote' questions, bringing popular questions to the top. \n    *   Moderator dashboard to approve, dismiss, answer, and display questions.\n    \n*   **Session Feedback**: \n    *   Post-session rating and comment collection. \n    *   Customizable feedback questions per session.\n    \n*   **Moderator Dashboard**: \n    *   Control polls (launch, close, reset). \n    *   Manage Q&A (approve, reject, highlight questions).\n    *   View real-time analytics on engagement.\n    \n*   **Customization**: \n    *   Branding with event logos, colors, and backgrounds. \n    *   Customizable welcome messages and instructions.\n\n*   **Exportable Data**: \n    *   Download poll results, Q&A transcripts, and feedback data for post-event analysis (CSV, PDF).\n\n*   **Scalability**: \n    *   Designed to handle hundreds or thousands of simultaneous participants during live events.\n\n*   **Security & Privacy**: \n    *   Secure data transmission and storage. \n    *   Options for anonymous participation.\n\n*   **Integrations**: \n    *   Potential for integration with popular webinar platforms (Zoom, Webex) for seamless user experience.\n    \n*   **User Interface**: \n    *   Intuitive, mobile-responsive interface for attendees and moderators."
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your voting and poll platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add blockchain integration to ensure immutable vote records and enhanced transparency.",
+          "title": "Implement blockchain for verified results"
+        },
+        {
+          "prompt": "Integrate advanced data analytics and visualization tools to provide deeper insights into voting patterns.",
+          "title": "Build a sophisticated analytics suite"
+        },
+        {
+          "prompt": "Develop a multi-language interface to accommodate a diverse international audience.",
+          "title": "Add multi-language support"
+        },
+        {
+          "prompt": "Incorporate biometric authentication (e.g., fingerprint, face ID) for enhanced voter identity verification.",
+          "title": "Add biometric authentication"
+        },
+        {
+          "prompt": "Create a robust notification system for voters and administrators, including email, SMS, and in-app alerts.",
+          "title": "Enhance notification capabilities"
+        },
+        {
+          "prompt": "Develop an API to allow seamless integration with existing CRM systems, member databases, or internal systems.",
+          "title": "Build comprehensive APIs"
+        },
+        {
+          "prompt": "Add a feature for setting up complex voting rules, such as weighted voting, ranked-choice, or cumulative voting.",
+          "title": "Include advanced voting mechanisms"
+        },
+        {
+          "prompt": "Implement a public verification portal where voters can confidentially verify that their vote was cast and counted correctly.",
+          "title": "Develop a vote verification system"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your platform",
+      "type": "features",
+      "items": [
+        {
+          "description": "Securely authenticate voters and ensure one-person-one-vote integrity.",
+          "icon": "🔒",
+          "title": "Robust User Authentication"
+        },
+        {
+          "description": "Create diverse poll types: single choice, multiple choice, open-ended, and ranked-choice voting.",
+          "icon": "📊",
+          "title": "Flexible Poll Creation"
+        },
+        {
+          "description": "View results in real-time, with dynamic charts and exportable reports.",
+          "icon": "📈",
+          "title": "Instant Results & Analytics"
+        },
+        {
+          "description": "Customize branding, themes, and vote logic to match your organization's needs.",
+          "icon": "🎨",
+          "title": "Full Customization Options"
+        },
+        {
+          "description": "Implement role-based access control for administrators, moderators, and voters.",
+          "icon": "🔑",
+          "title": "Granular Access Control"
+        },
+        {
+          "description": "Connect your platform to existing databases, CRMs, or communication tools.",
+          "icon": "🔗",
+          "title": "Seamless Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic voting or polling platform with Kliv can take just a few hours. More complex systems with advanced security or custom integrations might require a few days of refinement and testing.",
+          "question": "How quickly can I build a functional voting platform?"
+        },
+        {
+          "answer": "Kliv is designed for users without coding experience. You describe your requirements in natural language, and our AI assists in generating the platform's structure and features.",
+          "question": "Is coding knowledge required to build this type of platform?"
+        },
+        {
+          "answer": "Absolutely. Kliv-built applications are designed to be integrated. You can connect your voting platform with your existing member databases, CRMs, or communication tools via APIs.",
+          "question": "Can my custom platform integrate with my existing systems?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property. All code, data, and design elements created are yours. This means you have ultimate control and no vendor lock-in.",
+          "question": "Who owns the data and the platform I build?"
+        },
+        {
+          "answer": "While SaaS solutions have recurring fees, building with Kliv is a one-time project cost. Over the long term, you'll find it significantly more cost-effective, especially when considering customization and data ownership benefits.",
+          "question": "What are the cost implications compared to subscribing to a SaaS solution?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. You can continuously modify, add new features, or adapt your platform as your organizational needs evolve, without relying on a vendor's release schedule.",
+          "question": "Can I modify or expand the platform after it's initially built?"
+        },
+        {
+          "answer": "Yes, in many cases, it can be more secure. By owning the platform, you control the hosting environment, security protocols, and data encryption, allowing you to implement measures precisely to your standards, rather than relying on a third-party's generic security.",
+          "question": "Is a custom-built voting platform more secure than generic options?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance throughout the build process, offering suggestions, helping debug, and optimizing your platform. For ongoing maintenance, since you own the code, you can manage it internally or work with any developer.",
+          "question": "What kind of support is available if I encounter issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to empower your decisions?",
+      "type": "cta",
+      "content": "Stop compromising with off-the-shelf tools. Build the precise voting and poll platform your organization needs for secure, insightful, and transparent decision-making."
+    }
+  ],
+  "title": "Voting and Poll Platform Builder"
+}

@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a custom calculator application that can perform basic arithmetic, store calculation history, and be accessible online.",
+  "description": "Build custom calculator applications tailored to your specific needs with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Calculating",
+    "subtitle": "Go beyond basic calculators. Create specialized tools for finance, engineering, science, or everyday tasks with Kliv's intuitive development environment.",
+    "title": "Build your own custom calculator apps"
+  },
+  "metaDescription": "Create powerful, specialized calculator applications with Kliv. Design tools for complex computations, conversions, or specific industry needs, easily and efficiently.",
+  "sections": [
+    {
+      "title": "Why build your own calculator application?",
+      "type": "text",
+      "content": "In a world of generic apps, sometimes what you really need is a tool built just for you. Whether it's a specific formula, a niche conversion, or a custom user interface that makes complex calculations simple, off-the-shelf calculators often fall short. Building your own gives you precision control, a tailored user experience, and the ability to integrate with your existing workflows.\n\nTraditional development of such tools can be time-consuming and expensive. Kliv changes this by empowering you to create exactly what you need without deep coding knowledge, turning your precise requirements into a functional application that works exactly how you envision."
+    },
+    {
+      "title": "The case for a custom calculation tool",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf calculators\n\nStandard calculators, whether physical, desktop, or web-based, are designed for general use. They rarely cater to specialized needs, leading to:\n\n- **Inefficiency**: Manual input of complex formulas or multiple steps for repetitive calculations.\n- **Lack of Customization**: Inability to add specific functions, units, or industry-specific logic.\n- **Data Silos**: No integration with existing data sources or business systems.\n- **Generic Interfaces**: User experiences that aren't optimized for your specific tasks or users.\n- **Subscription Costs**: Many advanced or niche calculators come with recurring fees for features you only partially use.\n\n## Why a custom calculator is a game-changer\n\nBuilding a tailor-made calculator application using Kliv transforms how you handle computations. Here's why custom is superior:\n\n### Precision for specific tasks\nFrom financial modeling to engineering estimations or dietary tracking, a custom calculator can incorporate specific algorithms, databases, and validation rules unique to your domain. This eliminates errors and saves significant time.\n\n### Streamlined user experience\nDesign the interface and workflow precisely for your users. Input fields can be pre-filled, relevant data can be pulled automatically, and results can be presented in a clear, actionable format. This boosts productivity and reduces training needs.\n\n### Integration with existing systems\nLink your custom calculator to data sources, CRM, ERP, or other business intelligence tools. Calculations can leverage real-time data, and results can automatically update other systems, creating a seamless workflow.\n\n### Data ownership and security\nWith a custom application, you control where your data resides and how it's secured. This is critical for sensitive financial, health, or proprietary business calculations.\n\n### Cost-effectiveness in the long run\nBeyond initial development, maintaining a custom tool can be more cost-effective than continuous subscriptions to multiple niche tools, especially for a large number of users or specific use cases.\n\n## Real-world applications\n\nCustom calculators are not just for basic math; they are powerful engines for specific business needs:\n\n**Financial Services**: Loan amortization calculators, investment return estimators, or real-time currency converters with custom fee structures.\n\n**Construction & Engineering**: Material estimators, load bearing calculators, or custom unit conversion tools for specific building codes.\n\n**Healthcare**: Dosage calculators, BMI calculators with integrated health metrics, or appointment scheduling calculators based on procedure times.\n\n**Retail & E-commerce**: Custom pricing calculators for product bundles, shipping cost estimators based on complex logic, or sales commission calculators.\n\n**Education**: Interactive learning tools for students to explore mathematical concepts with visual feedback.\n\n## The Kliv advantage for calculator development\n\nKliv leverages AI to make application development accessible and fast:\n\n- **Natural language interface**: Describe the calculation, inputs, and outputs you need in plain English.\n- **Pre-built components**: Utilize readily available components for number inputs, sliders, graphs, and result displays.\n- **Database integration**: Link your calculator to a database to manage reference data, user inputs, or calculation history.\n- **Secure deployment**: Deploy your application securely online, accessible from any device.\n\nIt's time to stop fitting your problems to generic tools. Build a calculator that fits your business perfectly."
+    },
+    {
+      "title": "Calculator ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Calculate loan payments with custom interest rates and terms",
+          "prompt": "Create a loan amortization calculator that takes principal, interest rate, and loan term as inputs, and outputs monthly payments, total interest paid, and an amortization schedule table.",
+          "title": "Loan Payment Calculator"
+        },
+        {
+          "description": "Estimate construction material needs for projects",
+          "prompt": "Build a material estimator for construction that calculates the quantity of concrete, rebar, and lumber needed based on project dimensions (length, width, height) and material thickness, with custom waste percentages.",
+          "title": "Construction Material Estimator"
+        },
+        {
+          "description": "Convert different units with custom factors",
+          "prompt": "Develop a multi-unit converter for engineering. It should convert between length (mm, cm, m, inches, feet), weight (grams, kg, pounds), and volume (ml, liters, gallons). Allow users to add custom conversion factors.",
+          "title": "Advanced Unit Converter"
+        },
+        {
+          "description": "Forecast sales commissions based on tiered structures",
+          "prompt": "Create a sales commission calculator that applies different commission percentages based on sales tiers (e.g., 5% up to $10k, 7% for $10k-$20k, 10% over $20k). Include inputs for gross sales and a field for sales representative name.",
+          "title": "Sales Commission Predictor"
+        },
+        {
+          "description": "Calculate calories for custom recipes",
+          "prompt": "Design a recipe nutrition calculator. Users input ingredients and their quantities, and the app calculates total calories, protein, carbs, and fat for the whole recipe and per serving. Include a database of common ingredient nutrition values.",
+          "title": "Recipe Nutrition Calculator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your custom calculator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to save, load, and share calculation sessions with a unique URL.",
+          "title": "Save and Load Sessions"
+        },
+        {
+          "prompt": "Integrate a charting library to visualize calculation results, like a trend line for financial forecasts or a bar chart for material breakdowns.",
+          "title": "Visualize Results with Graphs"
+        },
+        {
+          "prompt": "Implement a real-time data API connection for currency exchange rates, stock prices, or weather data to inform calculations.",
+          "title": "Real-time Data Integration"
+        },
+        {
+          "prompt": "Add user authentication and roles, allowing different user groups to access specific calculators or input restricted data.",
+          "title": "User Authentication & Permissions"
+        },
+        {
+          "prompt": "Develop an export functionality to PDF or CSV for calculation reports, including inputs, outputs, and any applied formulas.",
+          "title": "Exportable Reports"
+        },
+        {
+          "prompt": "Include an input validation system that alerts users to common errors, incorrect units, or out-of-range values.",
+          "title": "Enhanced Input Validation"
+        },
+        {
+          "prompt": "Design a mobile-responsive interface to ensure usability on smartphones and tablets.",
+          "title": "Mobile Responsiveness"
+        },
+        {
+          "prompt": "Add custom branding options for logos, color schemes, and fonts.",
+          "title": "Custom Branding"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for custom calculators",
+      "type": "features",
+      "items": [
+        {
+          "description": "Perform basic arithmetic, complex algebraic functions, and logical operations.",
+          "icon": "➕",
+          "title": "Advanced Calculation Engine"
+        },
+        {
+          "description": "Design custom input fields (numbers, text, dates, dropdowns) and display results clearly.",
+          "icon": "🎨",
+          "title": "Flexible User Interface"
+        },
+        {
+          "description": "Store calculation history, user data, and output results securely.",
+          "icon": "💾",
+          "title": "Data Storage & Management"
+        },
+        {
+          "description": "Connect to external APIs, databases, or spreadsheets for dynamic data access.",
+          "icon": "🔗",
+          "title": "Seamless Integrations"
+        },
+        {
+          "description": "Add condition-based logic, decision trees, and custom validation rules.",
+          "icon": "🧠",
+          "title": "Conditional Logic & Rules"
+        },
+        {
+          "description": "Make your calculator accessible anywhere, online, on any device.",
+          "icon": "🌐",
+          "title": "Web-Based Deployment"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, a basic custom calculator can be prototyped in a few hours. More complex applications with integrations and rich UIs can be ready in a few days to a week.",
+          "question": "How quickly can I build a custom calculator?"
+        },
+        {
+          "answer": "No, Kliv's AI-powered platform allows you to describe your calculator's functionality in plain language. The AI assists with generating the underlying structure and components.",
+          "question": "Do I need to be a programmer to build a calculator app?"
+        },
+        {
+          "answer": "Yes, your custom calculator can connect to various external systems, including databases, spreadsheets like Google Sheets, and third-party APIs for real-time data or CRM integration.",
+          "question": "Can my custom calculator integrate with other tools or data sources?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property for applications created on Kliv. All code, data, and design elements are yours to control, modify, and deploy as you see fit.",
+          "question": "Who owns the calculator application I build?"
+        },
+        {
+          "answer": "While generic calculator apps might have a low entry cost, they come with recurring fees and limitations. A custom Kliv-built application offers a one-time investment for a perfectly tailored, endlessly flexible tool, often leading to significant long-term savings.",
+          "question": "How does the cost compare to off-the-shelf calculator apps?"
+        },
+        {
+          "answer": "Absolutely. Unlike fixed SaaS solutions, your Kliv-built calculator is entirely flexible. You can add new features, change formulas, update interfaces, or integrate new data sources at any time as your needs evolve.",
+          "question": "Can I modify my calculator after it's built?"
+        },
+        {
+          "answer": "Kliv facilitates secure deployment. You control hosting and data security measures, ensuring your sensitive calculations and data are protected according to your specific requirements, often exceeding generic public calculator security.",
+          "question": "Is a custom calculator secure for sensitive calculations?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your specialized calculation tool?",
+      "type": "cta",
+      "content": "Stop settling for generic. Create a powerful, precise calculator that meets your exact needs, without the complexity of traditional development."
+    }
+  ],
+  "title": "Custom Calculator Applications"
+}

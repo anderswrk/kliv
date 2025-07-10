@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create an influencer discovery and outreach platform that allows me to search for influencers based on niche, audience demographics, and engagement rates, then manage outreach campaigns and track responses.",
+  "description": "Build custom influencer discovery and outreach platforms with Kliv's AI-powered low-code development solution.",
+  "hero": {
+    "cta": "Start building your platform",
+    "subtitle": "Discover, connect, and collaborate with the perfect influencers using your own tailored platform, built with Kliv's AI.",
+    "title": "Create your own influencer discovery & outreach tool"
+  },
+  "metaDescription": "Create powerful influencer discovery and outreach tools with Kliv. Find ideal partners, automate communications, and manage campaigns efficiently with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build a custom influencer platform?",
+      "type": "text",
+      "content": "In the rapidly evolving world of influencer marketing, generic platforms often fall short. They come with limitations on search criteria, outreach volume, integration capabilities, and data ownership. Your business is unique, and so should be your approach to influencer relations.\n\nOff-the-shelf solutions can be costly, restrictive, and don't always align with your specific campaign objectives or brand values. By building your own, you gain complete control, reduce recurring costs, and create a system that truly reflects your strategic needs."
+    },
+    {
+      "title": "The strategic advantage of a custom platform",
+      "type": "markdown",
+      "content": "## Overcome the limitations of commercial tools\n\nMany businesses struggle with mainstream influencer platforms due to:\n\n- **Generic search filters**: Lacking the granularity needed to find truly niche influencers.\n- **Pricing models**: Restrictive tiers, per-user fees, or limitations on campaigns and outreach.\n- **Data ownership & privacy**: Uncertainty about where your influencer data resides and how it's used.\n- **Limited customization**: Inability to integrate with your specific CRM, analytics, or email systems.\n- **Cold outreach limits**: Imposed daily sending limits or template restrictions that hinder personalized communication.\n\n## Why a tailored solution is a game-changer\n\nBuilding a custom influencer discovery and outreach platform with Kliv empowers you to:\n\n### Define your ideal influencer with precision\nYour platform can incorporate highly specific filters based on your brand's unique criteria, whether it's micro-influencers in a particular city, creators with a specific engagement rate on TikTok, or those who align with complex brand values.\n\n### Own your data and relationships\nAll discovered influencer data, contact details, communication history, and campaign performance metrics are yours. This builds a valuable internal database that grows with your business, fostering stronger, long-term relationships.\n\n### Streamline outreach with bespoke automation\nDesign outreach sequences that perfectly match your brand's voice and campaign types. Automate follow-ups, contract sending, and payment reminders, all while maintaining a personal touch.\n\n### Integrate seamlessly with your tech stack\nConnect your platform directly to your CRM, analytics dashboards, email marketing tools, or even e-commerce platforms. This ensures data consistency and automates workflows across your entire marketing ecosystem.\n\n### Scale efficiently and cost-effectively\nAvoid escalating subscription fees as your campaign volume or team grows. A custom solution is a one-time development cost that delivers long-term value, allowing you to scale your influencer marketing efforts without prohibitive expenses.\n\n## Real-world impact\n\nCustom influencer platforms are reshaping how brands engage with creators:\n\n**E-commerce brands**: Building systems to find creators who frequently purchase their products and turn them into brand ambassadors with automated affiliate link generation and performance tracking.\n\n**SaaS companies**: Developing platforms to identify tech reviewers and industry thought leaders based on very specific software categories and audience demographics, then automating personalized outreach for product launches.\n\n**Agencies**: Creating bespoke client portals within their platform that allow clients to review influencer lists, approve outreach messages, and view real-time campaign performance.\n\n**Non-profits**: Launching tools to discover mission-aligned activists and community leaders for awareness campaigns, with integrated volunteer management and impact reporting.\n\n## The AI-driven development advantage\n\nKliv leverages AI to make custom software development accessible:\n\n- **Intuitive interface**: Translate your ideas into functional software without complex coding.\n- **Rapid iteration**: Quickly build, test, and refine features to match evolving marketing trends.\n- **Automated quality assurance**: AI assists in ensuring your platform is robust and reliable.\n- **Intelligent suggestions**: Get recommendations for maximizing campaign effectiveness within your tool.\n\n## Start crafting your competitive edge\n\nStop adapting your strategy to flawed tools. Build a platform that empowers your team, optimizes your campaigns, and establishes lasting relationships with the right influencers. Kliv puts the power of custom development directly in your hands."
+    },
+    {
+      "title": "Influencer discovery ideas to spark your creativity",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Niche influencer search engine with audience demographics filters and engagement rate tracking across platforms like Instagram, TikTok, and YouTube. Include contact management features and campaign tracking for direct outreach campaigns with automated follow-ups based on response status and custom fields for negotiation terms and content requirements.\n\nEnhance the search functionality to identify influencers based on specific keywords in their content or follower comments, and allow users to export identified influencer lists to CSV or integrate with a CRM like HubSpot. Add a dashboard for tracking overall campaign progress, including total influencers contacted, response rates, and content delivery status. Implement a simple content approval workflow where influencers can upload content for review, and the brand can provide feedback or approve it, triggering automated payment reminders upon approval and content going live. Also, include AI-powered content analysis to identify brand safety risks or inappropriate content in influencer profiles before outreach. Additionally, add a feature to analyze the historical performance of influencers for past campaigns, helping to inform future hiring decisions and negotiation strategies.\n\nDevelop a module for managing affiliate partnerships including tracking unique referral codes, commission calculations, and automated payment disbursements to influencers upon reaching specific sales thresholds. Introduce a feature for tracking influencer sentiment and brand mentions across social media. Allow for sentiment analysis tools to gauge public perception towards your brand mentions by influencers. Finally, add the ability to generate performance reports for individual influencers and overall campaigns, including ROI calculations and a visual representation of key metrics over time through charts and graphs for presentations. Add a secure file sharing system where contracts, brief documents, and creative assets can be shared with influencers and tracked for receipt and reads. Also add a notification system for different events, such as when an influencer replies, a contract is signed, or a content piece is uploaded, and allow for custom notification settings for different users within the platform. Finally, consider implementing a messaging system within the platform for direct communication with influencers, reducing the need to switch between different email or messaging apps, making communication more centralized and tracked. This platform should be designed for both internal teams and potential for external client use through a multi-tenant architecture with separate client dashboards and reporting capabilities. It should also have robust user management roles and permissions to allow different levels of access and functionality based on user roles (e.g., administrator, campaign manager, outreach specialist, client view only). Ensure that the data is meticulously organized, indexed, and searchable with high performance to handle millions of influencer profiles and interactions. Consider implementing advanced data filtering and sorting options, allowing for complex queries based on multiple criteria. The system should also prioritize data security and compliance, especially with GDPR and CCPA, given the personal nature of influencer data. It should also have full audit trails for tracking all changes and actions taken within the system. Provide an intuitive and customizable user interface that allows users to drag and drop elements to build custom reports and dashboards. It should be responsive and accessible across different devices.\n\nThe system needs to support multi-language interfaces to cater to global teams and influencers. The backend should be scalable to handle increasing data volumes and user concurrency. This includes using cloud-native services and microservices architecture where appropriate. For data storage, a mix of relational and NoSQL databases might be used based on the nature of the data (e.g., influencer profiles in NoSQL for flexibility, campaign data in relational for ACID properties). The platform should also incorporate robust error handling and logging for operational visibility. Finally, implement a version control system for campaign briefs and creative assets to track changes and revisions. Implement an automated contract generation system that pre-populates influencer details and campaign terms, allowing for e-signatures through integration with services like DocuSign. Add a feature to monitor competitor influencer campaigns and identify their top-performing creators. Include trend analysis to identify emerging content categories or platforms where new influencers are gaining traction. Also, integrate with payment gateways like Stripe or PayPal to directly process influencer payments based on performance metrics or fixed fees. Lastly, allow for customizable data export formats beyond CSV, such as JSON or XML, for advanced data analysis or integration with other business intelligence tools."
+        }
+      ]
+    },
+    {
+      "title": "Influencer discovery and outreach",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Find influencers by niche, location, and audience demographics.",
+          "prompt": "Create an influencer discovery tool that searches across social media platforms by content niche, audience demographics (age, gender, location), and engagement rates.",
+          "title": "Targeted influencer discovery"
+        },
+        {
+          "description": "Automate personalized email sequences for campaign outreach.",
+          "prompt": "Build an outreach automation platform that sends personalized email sequences to influencers, tracks open rates and replies, and automates follow-ups.",
+          "title": "Multi-stage outreach automation"
+        },
+        {
+          "description": "Manage contracts, payments, and content approval workflows.",
+          "prompt": "Design a campaign management system that handles influencer contracts, automates payment processing upon content approval, and manages content submission and review workflows.",
+          "title": "Campaign & contract manager"
+        },
+        {
+          "description": "Track influencer performance and calculate ROI for campaigns.",
+          "prompt": "Develop an analytics dashboard that tracks key influencer performance metrics like reach, engagement, conversions, and calculates campaign ROI.",
+          "title": "Performance analytics & ROI tracker"
+        },
+        {
+          "description": "Create a private network of vetted brand ambassadors.",
+          "prompt": "Set up a private portal for brand ambassadors to access exclusive briefs, submit content, and view their personalized affiliate earnings dashboard.",
+          "title": "Brand ambassador portal"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your influencer platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add AI-powered content analysis to screen influencer profiles for brand safety and content relevance before outreach.",
+          "title": "Brand safety AI screening"
+        },
+        {
+          "prompt": "Integrate with social listening tools to identify emerging trends and relevant conversations for influencer pitches.",
+          "title": "Social listening integration"
+        },
+        {
+          "prompt": "Implement a machine learning model to predict potential influencer performance based on historical data and audience fit.",
+          "title": "Predictive performance scoring"
+        },
+        {
+          "prompt": "Add a feature for competitive analysis, allowing users to track which influencers competitors are working with.",
+          "title": "Competitor insight dashboard"
+        },
+        {
+          "prompt": "Include multi-currency support and automated tax form collection for global influencer payments.",
+          "title": "Global payment & tax compliance"
+        },
+        {
+          "prompt": "Develop a mobile app version for influencers to easily submit content and view campaign updates.",
+          "title": "Influencer mobile app"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities for your platform",
+      "type": "features",
+      "items": [
+        {
+          "description": "Search and filter influencers by diverse criteria.",
+          "icon": "🔍",
+          "title": "Advanced Discovery Engine"
+        },
+        {
+          "description": "Automated, personalized multi-channel outreach.",
+          "icon": "✉️",
+          "title": "Automated Outreach Sequences"
+        },
+        {
+          "description": "Track communications and manage replies effectively.",
+          "icon": "💬",
+          "title": "Integrated CRM & Communication"
+        },
+        {
+          "description": "Monitor campaign KPIs, content performance, and ROI.",
+          "icon": "📈",
+          "title": "Real-time Metrics & Analytics"
+        },
+        {
+          "description": "Centralize campaign briefs, contracts, and content assets.",
+          "icon": "📁",
+          "title": "Centralized Campaign Management"
+        },
+        {
+          "description": "Seamlessly connect with your existing marketing tools.",
+          "icon": "🔗",
+          "title": "Custom Integration Adapters"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom influencer platform with Kliv is significantly faster than traditional development. A basic functional prototype can be ready in days, with advanced features added incrementally over weeks, not months or years.",
+          "question": "How long does it take to create an influencer platform?"
+        },
+        {
+          "answer": "You do not need to be a programmer. Kliv's platform allows you to describe your desired features in plain language, and the AI assists in generating the application code. It's designed for marketing professionals and business strategists, not developers.",
+          "question": "Do I need coding skills to build this type of platform?"
+        },
+        {
+          "answer": "Absolutely. Your platform can integrate with virtually any third-party tool that offers an API. This includes social media platforms, email marketing services, CRMs, payment gateways, and analytics tools like Google Analytics or Salesforce.",
+          "question": "Can my custom platform integrate with other marketing tools I use?"
+        },
+        {
+          "answer": "Yes, you own 100% of the developed application, its code, and all the data within it. Kliv provides the tools to build it; you retain full control and ownership of the final product and your valuable influencer data.",
+          "question": "Who owns the platform and data once it's built?"
+        },
+        {
+          "answer": "While there's an initial development investment, a custom platform eliminates recurring subscription fees common with commercial tools. Over time, particularly as your influencer marketing scales, a custom solution becomes significantly more cost-effective.",
+          "question": "How does the cost compare to off-the-shelf influencer marketing software?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. You can continuously iterate, add new features, refine existing functionalities, or adjust your platform to adapt to new social media trends or business strategies without vendor limitations.",
+          "question": "Can I modify or expand my platform after it's launched?"
+        },
+        {
+          "answer": "You have complete control over data storage and security protocols, allowing you to implement industry-leading measures. This often results in a more secure setup than relying on a third-party vendor's shared infrastructure.",
+          "question": "Is a custom-built influencer platform secure?"
+        },
+        {
+          "answer": "Kliv provides comprehensive support and resources throughout the building process, including AI-driven guidance and documentation. You also have the advantage of owning the code, allowing you to engage any developer for future enhancements if needed beyond the platform itself.",
+          "question": "What kind of support is available if I encounter issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your influencer strategy?",
+      "type": "cta",
+      "content": "Stop conforming to generic platforms. Start building an influencer discovery and outreach solution perfectly aligned with your brand's vision and goals."
+    }
+  ],
+  "title": "Custom Influencer Discovery & Outreach"
+}

@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a web application that takes data from a Google Sheet, displays it in a searchable table, allows users to edit certain fields, and saves changes back to the sheet.",
+  "description": "Transform your spreadsheets into powerful web applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Build your sheet app now",
+    "subtitle": "Turn your Google Sheets, Excel files, or CSVs into dynamic web applications without writing a single line of code.",
+    "title": "Build web apps from your spreadsheets"
+  },
+  "metaDescription": "Easily create custom web applications directly from your existing spreadsheets using Kliv. Build dashboards, internal tools, CRMs, and more.",
+  "sections": [
+    {
+      "title": "Unlock the power of your data in spreadsheets",
+      "type": "text",
+      "content": "You already have valuable data organized in spreadsheets. Why keep it locked away in static files, prone to errors, and difficult to share or update collaboratively? Traditional web development can be expensive and time-consuming, making it seem impossible to unleash your data's full potential.\n\nKliv offers a revolutionary way to transform your spreadsheets into living, breathing web applications. Whether it's for internal tools, client portals, or simple data collection, you can build a custom solution that truly fits your needs, using the data source you already know and trust."
+    },
+    {
+      "title": "Why turn your spreadsheets into web apps?",
+      "type": "markdown",
+      "content": "### The limitations of spreadsheets\n\nSpreadsheets are excellent for data entry and basic calculations, but they often fall short when it comes to:\n\n- **User experience**: Not intuitive for non-technical users\n- **Collaboration**: Prone to version control issues and accidental deletions\n- **Security**: Difficult to control who sees and edits what data\n- **Scalability**: Can become slow and cumbersome with large datasets\n- **Functionality**: Limited in terms of advanced features like dashboards, graphs, or automated workflows\n\n### The power of custom web applications\n\nTurning your spreadsheets into web applications allows you to:\n\n- **Improve data integrity**: Implement validation rules and prevent errors.\n- **Enhance collaboration**: Multiple users can access and update data concurrently without conflicts.\n- **Control access**: Define user roles and permissions to secure sensitive information.\n- **Visualize data**: Create beautiful dashboards and reports directly from your sheet data.\n- **Streamline workflows**: Add forms, action buttons, and integrations to automate processes.\n- **Provide a better user experience**: Design intuitive interfaces tailored to your specific use case.\n\n## Real-world applications for a spreadsheet-powered app\n\nImagine transforming your business with these custom tools:\n\n**Small Business CRM**: Manage leads, contacts, and sales pipelines directly from a Google Sheet, accessible by sales team members from anywhere.\n\n**Project Management Tool**: Track tasks, assign responsibilities, and monitor project progress in a simple interface powered by an Excel sheet.\n\n**Event Registration System**: Collect attendee information, manage registrations, and send confirmations based on data in a CSV file.\n\n**Inventory Management**: Track stock levels, log movements, and trigger reorders for a small warehouse, all controlled through a centralized web app linked to your inventory spreadsheet.\n\n**Financial Tracker**: Build a custom expense tracking or budget management app that connects to your financial data in a spreadsheet, allowing for categorized entry and easy reporting.\n\n**Employee Directory**: Create a searchable, interactive employee directory from a spreadsheet, including contact info, departments, and roles.\n\n## Kliv's AI advantage\n\nBuilding web apps from spreadsheets used to require complex coding or expensive low-code platforms. Kliv changes this by:\n\n- **Understanding your intent**: Describe your desired app in plain English, and the AI helps configure it.\n- **Automating the connection**: Seamlessly link to Google Sheets, Excel Online, or CSVs.\n- **Generating the UI**: Automatically create tables, forms, dashboards, and more.\n- **Ensuring data sync**: Keep your app and spreadsheet data perfectly synchronized.\n- **Providing customization**: Adjust layouts, add logic, and define permissions with intuitive controls.\n\nWith Kliv, your spreadsheet isn't just data; it's the foundation for a powerful application that can transform how you work."
+    },
+    {
+      "title": "Web app ideas from spreadsheets",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Manage customer interactions and sales leads.",
+          "prompt": "Create a simple CRM application from my Google Sheet. It should display customer names, contact info, and deal stages. Allow sales reps to update the deal stage and add notes, with changes syncing back to the sheet.",
+          "title": "CRM for sales teams"
+        },
+        {
+          "description": "Streamline task assignments and progress tracking.",
+          "prompt": "Build a project task tracker from my Excel file. It needs to show tasks, assignees, due dates, and completion status. Allow team members to filter tasks by assignee and mark them as complete.",
+          "title": "Project task manager"
+        },
+        {
+          "description": "Track stock levels and movements.",
+          "prompt": "Develop an inventory management application that connects to my CSV file. Display product names, quantities, and locations. Users should be able to update quantities for products and add new inventory items.",
+          "title": "Simple inventory tracker"
+        },
+        {
+          "description": "Manage bookings and reservations.",
+          "prompt": "I need an online booking system for appointments. My Google Sheet holds available slots and booked appointments. The app should show available times, allow users to book a slot, and update the sheet instantly.",
+          "title": "Appointment booking system"
+        },
+        {
+          "description": "Track team expenses and manage approvals.",
+          "prompt": "Create an expense reporting tool. Team members submit expenses through a form which goes into a sheet. Managers should see pending expenses from the sheet, approve or reject them, and add comments.",
+          "title": "Team expense report app"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your spreadsheet-powered app",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user login system with different roles. Admins can edit all data, while regular users can only view their own assigned data.",
+          "title": "Implement user authentication and roles"
+        },
+        {
+          "prompt": "Integrate charting capabilities to visualize data from the spreadsheet, such as sales trends or project progress.",
+          "title": "Include data visualization"
+        },
+        {
+          "prompt": "Add email notifications to alert specific users when a new entry is added to the sheet or an item's status changes.",
+          "title": "Set up automated notifications"
+        },
+        {
+          "prompt": "Create custom forms for data entry that validate input before saving to the spreadsheet, ensuring data quality.",
+          "title": "Build custom data entry forms"
+        },
+        {
+          "prompt": "Allow users to upload files (e.g., invoices, images) directly through the app, with links stored in the spreadsheet.",
+          "title": "Enable file uploads"
+        },
+        {
+          "prompt": "Add a search bar and advanced filtering options so users can easily find specific data within large datasets.",
+          "title": "Improve search and filtering"
+        }
+      ]
+    },
+    {
+      "title": "Key features for spreadsheet apps",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect directly to Google Sheets, Excel Online, or uploaded CSV files.",
+          "icon": "🔗",
+          "title": "Direct spreadsheet connection"
+        },
+        {
+          "description": "Display your sheet data in dynamic, interactive tables with search and sort.",
+          "icon": "📊",
+          "title": "Interactive data tables"
+        },
+        {
+          "description": "Allow users to add, edit, or delete data directly from the web interface, syncing with your sheet.",
+          "icon": "✏️",
+          "title": "Real-time data editing"
+        },
+        {
+          "description": "Set up user roles and permissions to control who can view or modify specific data.",
+          "icon": "🔒",
+          "title": "Role-based access control"
+        },
+        {
+          "description": "Design custom forms and views tailored to your specific data and user needs.",
+          "icon": "🎨",
+          "title": "Customizable UI/UX"
+        },
+        {
+          "description": "Automate actions, send notifications, or integrate with other services based on sheet changes.",
+          "icon": "⚙️",
+          "title": "Workflow automation"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv streamlines the process so you can often build a functional app from your spreadsheet in a few hours or a day. More complex apps with advanced logic and integrations might take a couple of days.",
+          "question": "How quickly can I build a web app from my spreadsheet?"
+        },
+        {
+          "answer": "No, you don't need any coding or web development experience. Kliv's AI guides you through the process, allowing you to describe your desired functionality in plain language.",
+          "question": "Do I need to be a developer to create these apps?"
+        },
+        {
+          "answer": "Yes, you can connect to Google Sheets, Excel files (via Excel Online/OneDrive), and CSV files. Custom API connections can also be set up for other data sources if needed.",
+          "question": "What types of spreadsheets can I connect to?"
+        },
+        {
+          "answer": "The data in your spreadsheet remains secure. Kliv facilitates the connection and application logic; you maintain control over your data source's security settings and permissions. The resulting application can run on your preferred hosting environment.",
+          "question": "Is my spreadsheet data secure when I build an app?"
+        },
+        {
+          "answer": "Building an app with Kliv involves a one-time development effort rather than recurring subscription fees often associated with low-code platforms. For many use cases, this results in significant cost savings over time.",
+          "question": "How does the cost compare to traditional low-code platforms?"
+        },
+        {
+          "answer": "Yes, the apps are fully responsive and designed to work seamlessly across desktops, tablets, and mobile phones, ensuring accessibility for all users.",
+          "question": "Are the web applications mobile-friendly?"
+        },
+        {
+          "answer": "Absolutely. You have full control to adapt the app as your needs evolve. Add new fields, modify logic, or enhance the user interface easily.",
+          "question": "Can I modify the app after it's been built?"
+        },
+        {
+          "answer": "Kliv helps you generate the application code and setup. You can deploy it to any standard web hosting service or cloud provider that supports modern web applications.",
+          "question": "Where are these applications hosted after they are built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bring your spreadsheets to life?",
+      "type": "cta",
+      "content": "Stop wrestling with static data. Convert your spreadsheets into dynamic, powerful web applications that drive efficiency and collaboration. Start building your custom solution today!"
+    }
+  ],
+  "title": "Spreadsheet-powered web applications"
+}

@@ -1,0 +1,155 @@
+{
+  "defaultPrompt": "I want to create a music analytics platform that can ingest audio files, extract features like tempo, key, and mood, and visualize trends over time for a large audio library, enabling search and recommendation features.",
+  "description": "Unlock insights from your audio content with custom music and audio analytics tools powered by Kliv.",
+  "hero": {
+    "cta": "Analyze Your Audio",
+    "subtitle": "Transform raw audio into actionable insights with self-built music and audio analytics applications.",
+    "title": "Build Your Own Music & Audio Analytics Platform"
+  },
+  "metaDescription": "Create powerful music and audio analytics tools with Kliv. Analyze sound, extract features, and visualize data for content management, production, and discovery.",
+  "sections": [
+    {
+      "title": "The Power of Custom Audio Intelligence",
+      "type": "text",
+      "content": "In today's content-rich world, audio is everywhere. From music libraries and podcasts to sound effects and spoken word, understanding the intrinsic properties of audio is crucial for organization, monetization, and recommendation. While generic analytics tools exist, they often fall short of providing the deep, tailored insights specific to your unique audio domain.\n\nBuilding your own music and audio analytics application allows you to define exactly what insights matter, how they are extracted, and how they are presented. With Kliv, this powerful customization is now within reach, empowering you to turn vast audio collections into intelligent, searchable, and manageable assets."
+    },
+    {
+      "title": "Making the Case for Bespoke Audio Analytics",
+      "type": "markdown",
+      "content": "## Why a generic audio solution won't cut it\n\nOff-the-shelf music and audio analytics tools typically offer a one-size-fits-all approach. For those serious about leveraging their audio data, these solutions often present significant drawbacks:\n\n- **Limited feature extraction:** They might miss specific audio features critical to your niche (e.g., precise instrument detection for music, speaker diarization for podcasts).\n- **Rigid dashboards:** Generic visuals don't always align with the way *you* need to see and interact with your audio data.\n- **Data privacy concerns:** Uploading sensitive or proprietary audio to third-party services can pose significant security risks.\n- **Scalability bottlenecks:** As your audio library grows, generic solutions can become prohibitively expensive or slow.\n- **Lack of integration:** Difficulty connecting insights directly into your existing workflows, databases, or content management systems.\n\n## The strategic advantage of custom-built\n\nKliv transforms the complex process of audio feature engineering and data visualization into something accessible. By building your own, you gain:\n\n### Unparalleled granular insight\nTailor the analysis to extract very specific audio features that are relevant to your business, whether it's identifying specific vocalists, detecting genre shifts, or analyzing emotional tone in speech.\n\n### Proprietary data ownership\nKeep your audio assets and their derived analytical data secure within your own infrastructure. This is crucial for protecting intellectual property and maintaining compliance.\n\n### Seamless workflow integration\nDesign your analytics platform to integrate directly with your production pipeline, content delivery networks, or recommendation engines, creating a streamlined, automated process.\n\n### Cost-effective scalability\nPay only for the resources you use, without recurring per-track or per-minute fees that can quickly escalate with growing audio volumes.\n\n### Future-proof adaptability\nEvolve your analytics as new audio technologies emerge or as your business needs change, without being limited by a vendor's product roadmap.\n\n## Practical applications\n\nCustom audio analytics tools can revolutionize various industries:\n\n**Music Industry**: Automatically tag, categorize, and recommend tracks based on detailed sonic characteristics, aiding in music discovery, licensing, and playlist generation.\n\n**Podcasting & Broadcasting**: Analyze speaker demographics, identify key topics, detect sentiment, and even auto-generate transcripts for improved content searchability and audience understanding.\n\n**Film & Game Development**: Organize vast sound effect libraries by mood, energy, or instrument type, making asset management and retrieval significantly faster.\n\n**Security & Compliance**: Identify specific keywords, anomalous sounds, or speaker identities in monitoring streams for rapid incident response and auditing.\n\n## The Kliv edge\n\nAI-powered development makes building sophisticated audio analytics tools feasible for almost anyone:\n\n- **Efficient feature extraction**: Leverage a library of pre-trained models or train custom ones to identify specific audio characteristics.\n- **Interactive dashboards**: Design custom visualizations that bring your audio data to life and reveal hidden patterns.\n- **Intelligent search & filtering**: Create powerful queries based on extracted audio features, facilitating rapid asset discovery.\n- **Automated processing pipelines**: Set up workflows that automatically ingest, analyze, and store audio with minimal manual intervention.\n\nBy leveraging Kliv, you're not just getting an analytics tool; you're building a competitive advantage fueled by the intelligence hidden within your audio."
+    },
+    {
+      "title": "Analytics Ideas to Explore",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Extract key musical features for large music libraries",
+          "prompt": "Create an application that can ingest thousands of music tracks, automatically detect tempo, key, primary instruments, and genre, then store these as metadata for intelligent search.",
+          "title": "Music Catalog Analyzer"
+        },
+        {
+          "description": "Identify and analyze spoken content in audio files",
+          "prompt": "Build a tool that processes podcast episodes, performs speaker diarization to identify different speakers, transcribes the speech, and then analyzes sentiment for each speaker segment.",
+          "title": "Podcast Content Classifier"
+        },
+        {
+          "description": "Organize and search sound effect libraries by sonic characteristics",
+          "prompt": "Develop an application for game developers to upload sound effect collections. The tool should analyze sound events, classify them by type (e.g., explosion, nature, vehicle), and extract characteristics like loudness and duration, making them easily searchable.",
+          "title": "Sound Effect Librarian"
+        },
+        {
+          "description": "Detect anomalies or specific events in continuous audio streams",
+          "prompt": "I need a system that monitors live audio feeds, capable of detecting specific predefined sound events like a glass breaking, a human scream, or a car alarm, and then logs the time and type of event.",
+          "title": "Real-time Anomaly Detector"
+        },
+        {
+          "description": "Analyze vocal performance and characteristics",
+          "prompt": "Build an app for singers to upload vocal recordings. The app should analyze pitch accuracy, vibrato rate, and identify common vocal techniques, providing visual feedback on performance trends.",
+          "title": "Vocal Performance Feedback"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Audio Intelligence",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication system with roles to manage access to different analytics dashboards or audio libraries.",
+          "title": "Implement User Access Control"
+        },
+        {
+          "prompt": "Integrate a recommendation engine that suggests similar audio tracks or sound effects based on extracted features and user listening history.",
+          "title": "Build a Recommendation Engine"
+        },
+        {
+          "prompt": "Develop an automated pipeline that can ingest audio from cloud storage (e.g., S3 buckets), process it, and then store the analytics results back into a dedicated database.",
+          "title": "Automate Ingestion from Cloud Storage"
+        },
+        {
+          "prompt": "Create an API endpoint that allows other applications to query your audio analytics database and retrieve specific insights based on parameters.",
+          "title": "Expose Analytics via API"
+        },
+        {
+          "prompt": "Add a feature to visualize the waveform and spectrogram of the ingested audio, overlaid with markers for detected events or features.",
+          "title": "Add Audio Visualization"
+        },
+        {
+          "prompt": "Implement a machine learning module that can learn new audio categories or recognize new types of sound events based on user-provided examples.",
+          "title": "Enable Custom Audio Classification"
+        }
+      ]
+    },
+    {
+      "title": "Core Capabilities for Audio Analytics",
+      "type": "features",
+      "items": [
+        {
+          "description": "Extract tempo, key, mood, genre, and more from musical pieces.",
+          "icon": "🎵",
+          "title": "Music Feature Extraction"
+        },
+        {
+          "description": "Identify speakers, transcribe speech, and analyze sentiment in spoken audio.",
+          "icon": "🗣️",
+          "title": "Speech & Voice Analysis"
+        },
+        {
+          "description": "Automate the ingestion, processing, and management of large audio datasets.",
+          "icon": "🗄️",
+          "title": "Large-scale Audio Processing"
+        },
+        {
+          "description": "Design interactive dashboards to visualize audio metrics and trends.",
+          "icon": "📈",
+          "title": "Custom Data Visualization"
+        },
+        {
+          "description": "Build powerful search capabilities to find audio based on its intrinsic features.",
+          "icon": "🔍",
+          "title": "Intelligent Audio Search"
+        },
+        {
+          "description": "Seamlessly connect with existing content management systems or databases.",
+          "icon": "🔌",
+          "title": "API & System Integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform accelerates development significantly. A basic audio analytics tool could be operational in a few hours to days, while more complex systems with custom machine learning models might take weeks, far less than traditional development cycles.",
+          "question": "How quickly can I build an audio analytics tool with Kliv?"
+        },
+        {
+          "answer": "No, you do not need to be an expert in signal processing or machine learning. Kliv provides high-level APIs and AI-powered assistance to help you define the features you want to extract and how you want to analyze them, abstracting away the low-level complexities.",
+          "question": "Do I need expertise in machine learning or audio signal processing?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various input sources, including local file storage, cloud storage services (like AWS S3, Google Cloud Storage), or even direct audio streams, depending on your prompt and requirements.",
+          "question": "Can the tool process audio from different sources?"
+        },
+        {
+          "answer": "You retain full ownership of your data, the audio files, and all derived analytical insights. Kliv provides the platform for building, but your intellectual property remains yours.",
+          "question": "Who owns the data and the analytical models created?"
+        },
+        {
+          "answer": "Absolutely. Custom tools excel at integrating into your existing workflow precisely because they are custom-built. You can define API endpoints, connect to your existing databases, and even automate data exports to other systems.",
+          "question": "Can the custom tool integrate with my existing content management or production workflow?"
+        },
+        {
+          "answer": "While Kliv helps you define and generate the application, you'll manage its deployment and operational costs. These are typically charged based on compute resources used, which can be significantly more cost-effective and transparent than perpetual SaaS subscriptions based on audio volume.",
+          "question": "What are the ongoing costs associated with running a custom audio analytics application?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to hear what your audio has to say?",
+      "type": "cta",
+      "content": "Stop guessing and start analyzing. Build a powerful, bespoke audio analytics platform that provides the insights you need to make informed decisions."
+    }
+  ],
+  "title": "Music & Audio Analytics"
+}

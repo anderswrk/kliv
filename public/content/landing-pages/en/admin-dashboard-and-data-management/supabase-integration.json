@@ -1,0 +1,169 @@
+{
+  "defaultPrompt": "I want to create an admin panel to manage users and content in my Supabase database. It should include search, filtering, and CRUD operations, and allow me to define access roles.",
+  "description": "Build custom admin dashboards and data management tools with Kliv for your Supabase projects.",
+  "hero": {
+    "cta": "Start building your Supabase admin",
+    "subtitle": "Create powerful and intuitive admin panels for your Supabase projects. Manage data, users, and settings with custom interfaces tailored to your specific needs.",
+    "title": "Custom Supabase Admin & Data Tools"
+  },
+  "metaDescription": "Develop custom admin dashboards and data management interfaces for your Supabase backend using Kliv. Get full control over your data with flexible, secure applications.",
+  "sections": [
+    {
+      "title": "Why build a custom Supabase admin tool?",
+      "type": "text",
+      "content": "While Supabase provides excellent dashboard capabilities, many projects require a more tailored, user-friendly, or permission-specific interface for non-technical users or specific business workflows. Generic dashboards often fall short when dealing with complex data relationships, custom business logic, or strict role-based access control.\n\nBuilding a custom admin tool gives you complete control over the user experience, data presentation, and operational workflows. With Kliv, you can create these bespoke tools quickly, integrating directly with your Supabase backend, without the usual development overhead."
+    },
+    {
+      "title": "The power of custom Supabase management",
+      "type": "markdown",
+      "content": "## Beyond the generic dashboard\n\nSupabase offers a robust backend with powerful features, but its standard dashboard is designed for developers. When you need to empower your team, clients, or specific business units to manage data effectively, a custom solution becomes invaluable.\n\n### Granular control and optimized workflows\n\nGeneric dashboards often present data in a one-size-fits-all table format. A custom admin tool allows you to:\n\n- **Tailor interfaces**: Design specific views for different data types (e.g., a rich text editor for blog posts, a map interface for location data).\n- **Implement custom workflows**: Embed business logic directly into the admin panel, guiding users through specific processes (e.g., order fulfillment, content moderation).\n- **Define precise permissions**: Go beyond simple row-level security. Control access to specific fields, actions (read, create, update, delete), or even entirely different sections of your application based on user roles.\n\n### Enhanced security and data integrity\n\nBy building your own admin tool, you can implement custom security measures and data validation rules at the application layer, complementing Supabase's built-in security features:\n\n- **Pre-validation**: Ensure data meets specific criteria before it even attempts to hit your database.\n- **Audit trails**: Log every action taken within your custom admin panel for compliance and accountability.\n- **Reduced risk**: Limit access to sensitive data and operations to only what's absolutely necessary for each user role.\n\n### A seamless user experience\n\nYour team productivity depends on intuitive tools. A custom Supabase admin panel can:\n\n- **Simplify complex operations**: Turn multi-step database operations into simple button clicks.\n- **Improve data entry**: Create custom forms with intelligent auto-completion, conditional fields, and rich input types.\n- **Provide actionable insights**: Embed custom dashboards, charts, and reports directly alongside your operational data.\n\n## Practical applications\n\nCustom Supabase admin tools are being used across various industries:\n\n*   **E-commerce**: Manage product catalogs, customer orders, shipping logistics, and promotions with a dedicated interface for staff.\n*   **SaaS Platforms**: Empower support teams to manage user subscriptions, reset passwords, track feature usage, and resolve issues directly.\n*   **Content Management Systems (CMS)**: Provide content creators with an intuitive interface to write, edit, publish, and manage media for websites or mobile apps.\n*   **Internal Tools**: Build custom applications for HR to manage employee data, for operations to track assets, or for finance to handle invoices.\n*   **On-Demand Services**: Create dispatch panels for ride-sharing, food delivery, or service appointments, enabling real-time management of drivers/providers and customer requests.\n\nWith Kliv, you're not just getting a generic interface; you're building a powerful, tailored operational hub for your Supabase-powered application."
+    },
+    {
+      "title": "Supabase admin ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Customizable content management for marketing teams",
+          "prompt": "Create a content management system (CMS) with a rich text editor for blog posts, image uploaders, and a publishing workflow, all connected to my Supabase 'blog_posts' table.",
+          "title": "Blog/Content Management System"
+        },
+        {
+          "description": "Manage user accounts and profiles with custom roles",
+          "prompt": "Build a user management dashboard that displays all users from 'auth.users' table, allows me to view user profiles, reset passwords, assign custom roles, and ban users.",
+          "title": "User & Role Management Portal"
+        },
+        {
+          "description": "Oversee product inventory, orders, and customer data",
+          "prompt": "Develop an e-commerce backend to manage products (add, edit, delete with image upload), view and update order statuses, and access customer contact information from my Supabase database.",
+          "title": "E-commerce Operations Dashboard"
+        },
+        {
+          "description": "Streamline customer support ticket resolution",
+          "prompt": "Design a support ticket management system where support agents can view, assign, update status, and add notes to customer support tickets stored in Supabase, with real-time updates.",
+          "title": "Customer Support Ticket System"
+        },
+        {
+          "description": "Control and configure application settings dynamically",
+          "prompt": "Create an application settings panel that allows administrators to change feature flags, email templates, and other configuration variables stored in a Supabase 'settings' table, with different views for each setting type.",
+          "title": "Application Configuration Panel"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your Supabase admin tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add granular access control based on user roles fetched from a 'user_roles' table in Supabase, so different users see different data/actions.",
+          "title": "Implement role-based access"
+        },
+        {
+          "prompt": "Integrate real-time subscriptions so that changes in the Supabase database are immediately reflected in the admin panel without manual refreshes.",
+          "title": "Add real-time data updates"
+        },
+        {
+          "prompt": "Include an audit log feature that records every create, update, and delete operation performed within the admin panel, storing it in a 'audit_logs' table.",
+          "title": "Build comprehensive audit trails"
+        },
+        {
+          "prompt": "Develop custom reports and charts based on data from various Supabase tables (e.g., 'sales', 'users', 'events') to visualize key metrics.",
+          "title": "Add analytics and reporting"
+        },
+        {
+          "prompt": "Create complex custom queries withjoins across multiple Supabase tables to display aggregated or related data in a single view.",
+          "title": "Implement advanced data querying"
+        },
+        {
+          "prompt": "Add a feature to export data from any table view into CSV or Excel format for easier offline analysis.",
+          "title": "Enable data export functions"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your Supabase admin",
+      "type": "features",
+      "items": [
+        {
+          "description": "Perform Create, Read, Update, Delete on your Supabase tables.",
+          "icon": "CRUD",
+          "title": "Full CRUD operations"
+        },
+        {
+          "description": "Define and manage user roles, and control access to data and features programmatically.",
+          "icon": "🔑",
+          "title": "Role-Based Access Control"
+        },
+        {
+          "description": "Search, filter, and sort your Supabase data with intuitive controls.",
+          "icon": "🔍",
+          "title": "Advanced Data Filtering"
+        },
+        {
+          "description": "Create custom forms and input fields tailored to your data structures.",
+          "icon": "📝",
+          "title": "Custom Data Forms"
+        },
+        {
+          "description": "Directly interact with Supabase functions and stored procedures from your UI.",
+          "icon": "⚙️",
+          "title": "Supabase Function Integration"
+        },
+        {
+          "description": "Monitor and log all administrative actions for security and compliance.",
+          "icon": "📜",
+          "title": "Activity Logging & Audit Trails"
+        },
+        {
+          "description": "Display related data from multiple tables in a single, comprehensive view.",
+          "icon": "🔗",
+          "title": "Related Data Views"
+        },
+        {
+          "description": "Visualize key metrics and data trends with integrated charts and dashboards.",
+          "icon": "📊",
+          "title": "Built-in Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom Supabase admin tool with Kliv can take anywhere from a few hours for a basic CRUD interface to a few days for a complex application with custom workflows and advanced permissions.",
+          "question": "How quickly can I build a Supabase admin tool?"
+        },
+        {
+          "answer": "No, you don't need to be a developer. Kliv's AI-assisted platform allows you to describe the features and UI elements you need for your admin tool in natural language, and it generates the application logic and interface for you.",
+          "question": "Do I need coding skills to create this?"
+        },
+        {
+          "answer": "Yes, Kliv is designed to seamlessly integrate with your existing Supabase project. You'll specify your Supabase project URL and API key, and Kliv will help you connect to your tables and functions.",
+          "question": "Can I connect my existing Supabase project?"
+        },
+        {
+          "answer": "You retain full ownership of the application you build. Kliv helps you generate the code, which you can then host and manage yourself. Your data remains in your Supabase project, fully under your control.",
+          "question": "Who owns the generated application and my data?"
+        },
+        {
+          "answer": "Compared to off-the-shelf admin dashboards or hiring a development team, building with Kliv is significantly more cost-effective. You invest a one-time effort to create the precise tool you need, avoiding recurring subscription fees or ongoing development costs.",
+          "question": "How does the cost compare to other solutions?"
+        },
+        {
+          "answer": "Yes, the tools you build are fully extensible. You can always go back and modify existing features, add new ones, or integrate with other services as your requirements evolve. This flexibility is a core advantage of custom-built applications.",
+          "question": "Can I modify the admin tool after it's built?"
+        },
+        {
+          "answer": "Security is paramount. The tools you build with Kliv leverage Supabase's robust Row Level Security (RLS) and your own defined application-level permissions. You have direct control over data access and can implement custom validation tailored to your security needs, often making it more secure than generic SaaS alternatives.",
+          "question": "How secure are these custom admin tools?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your custom Supabase admin?",
+      "type": "cta",
+      "content": "Take full control of your data management. Design an admin tool that perfectly fits your project's unique needs and workflow."
+    }
+  ],
+  "title": "Supabase Admin & Data Management Tools"
+}

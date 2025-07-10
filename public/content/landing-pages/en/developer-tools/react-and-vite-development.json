@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a React/Vite development environment with hot module reloading, component library integration, and E2E testing capabilities.",
+  "description": "Build custom React & Vite development tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Building Your Dev Tool",
+    "subtitle": "Accelerate your React and Vite development workflows with custom-built tools tailored to your team's needs.",
+    "title": "Craft Bespoke React + Vite Dev Tools"
+  },
+  "metaDescription": "Create powerful, tailored React and Vite development tools with Kliv. Streamline your frontend build processes, enhance developer experience, and boost productivity with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why Build Your Own React/Vite Dev Tool?",
+      "type": "text",
+      "content": "In today's fast-paced web development landscape, off-the-shelf development tools often come with compromises. They might be too generic, lack specific features crucial to your workflow, or introduce unnecessary bloat. While React and Vite provide excellent foundational technologies, integrating them into a perfectly optimized development environment can still be a challenge.\n\nBuilding your own dev tool allows you to create an environment perfectly tuned to your team's unique stack, project requirements, and development style. With AI-assisted platforms like Kliv, this isn't a monumental engineering task but an achievable goal for any dedicated developer."
+    },
+    {
+      "title": "The Strategic Advantage of Custom Dev Tools",
+      "type": "markdown",
+      "content": "## Overcoming Generic Tooling Limitations\n\nExisting React/Vite tooling, while powerful, often presents challenges:\n\n- **Configuration Overhead:** Setting up a new project or integrating complex features can involve significant boilerplate and manual configuration.\n- **Performance Bottlenecks:** Generic tools might not be optimized for your specific project size, module structure, or number of dependencies.\n- **Lack of Specialization:** They may not cater to niche requirements like specific component library integrations, complex testing strategies, or unique deployment pipelines.\n- **Vendor Lock-in/Bloat:** Relying heavily on opinionated third-party tools can limit flexibility and introduce dependencies you don't fully control.\n\n## The Power of Tailored Solutions\n\nEmbracing custom development tooling with Kliv empowers your team to:\n\n### Maximize Development Velocity\nBy automating repetitive tasks, standardizing project setups, and providing instant access to context-aware information, custom tools drastically reduce time spent on configuration and debugging.\n\n### Optimize Performance Your Way\nDesign a build process that precisely fits your application's architecture. Implement custom caching, pre-compilation, or bundling strategies that off-the-shelf solutions can't offer.\n\n### Enhance Developer Experience (DX)\nProvide a seamless, intuitive environment that mirrors your team's mental model. Integrate your internal component libraries, design systems, and coding standards directly into the tool.\n\n### Maintain Full Control and Adaptability\nOwn the toolchain. As your project evolves or new technologies emerge, you can quickly adapt your custom tool without waiting for third-party updates or workarounds.\n\n## Real-World Impact\n\nConsider how a custom dev tool could transform workflows across various scenarios:\n\n**Large Enterprises**: A custom tool that bootstraps new micro-frontend projects with pre-configured authentication, centralized logging, and internal component libraries, ensuring consistency and adherence to architectural standards.\n\n**Startup Teams**: An integrated development environment (IDE) snippet generator and code scaffolding tool that rapidly produces common UI patterns, API service integrations, and test stubs, accelerating feature delivery.\n\n**Open Source Projects**: A local development server with built-in analytics and performance monitoring specifically designed to optimize contributions and ensure code quality across a distributed team.\n\n## The AI Difference\n\nBuilding sophisticated tooling no longer requires deep DevOps or infrastructure expertise. Kliv's AI-driven approach makes it accessible:\n\n- **Intelligent Scaffolding**: Describe your desired project structure, and AI generates the initial setup.\n- **Automated Configuration**: Let AI handle complex Webpack/Rollup/Vite configurations, often with superior results.\n- **Contextual Suggestions**: Receive recommendations for optimizations, dependency management, or testing frameworks based on your needs.\n- **Interactive Development**: Use natural language to modify existing tool features or add new ones on the fly.\n\n## Your Future Development Workflow\n\nImagine a development process where your tools anticipate your needs, automate the mundane, and empower creativity. That's the promise of custom React/Vite dev tools built on a platform like Kliv. Stop wrestling with generic setups and start creating an environment that fuels your team's success."
+    },
+    {
+      "title": "React/Vite Dev Tool Ideas to Spark Your Creativity",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A local development server with hot module replacement and custom proxy configurations.",
+          "prompt": "Create a local development server for a React/Vite project that supports hot module replacement (HMR), proxies API requests to a backend server running on port 3000, and includes a file watcher for automatic rebuilds on code changes.",
+          "title": "Advanced Local Dev Server"
+        },
+        {
+          "description": "A CLI tool to scaffold new components, pages, or entire projects with predefined templates.",
+          "prompt": "Build a command-line interface (CLI) tool that can scaffold new React functional components with associated CSS modules and test files. It should prompt the user for the component name and provide options for common hooks.",
+          "title": "Component Scaffolding CLI"
+        },
+        {
+          "description": "An interactive environment for isolated UI component development and documentation.",
+          "prompt": "Develop a tool similar to Storybook that allows developers to visually test and document individual React components in isolation. It should support prop controls and provide code snippets for usage.",
+          "title": "Component Playground/Documenter"
+        },
+        {
+          "description": "A build analyzer that visualizes bundle size, dependency tree, and performance metrics.",
+          "prompt": "Create a build analysis tool for a Vite project that generates an interactive treemap of bundle contents, identifies large dependencies, and provides suggestions for performance optimizations like code splitting.",
+          "title": "Bundle Analyzer & Optimizer"
+        },
+        {
+          "description": "A desktop app to manage multiple React/Vite projects, run commands, and view logs.",
+          "prompt": "Design a desktop application (for Electron) that allows users to manage multiple local React/Vite projects. It should provide a centralized dashboard to start/stop dev servers, run tests, and view console output for each project.",
+          "title": "Multi-Project Dashboard"
+        },
+        {
+          "description": "A tool to convert design system tokens into React component styles or CSS variables.",
+          "prompt": "Implement a design token compiler that takes JSON-based design tokens (colors, typography, spacing) and generates corresponding CSS variables or styled-components themes for a React application.",
+          "title": "Design Token Compiler"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for Your Bespoke Dev Tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate an E2E testing framework like Playwright or Cypress with automated test execution on every build.",
+          "title": "Add E2E Testing Integration"
+        },
+        {
+          "prompt": "Implement robust error reporting and logging for the build process, including source map support for debugging.",
+          "title": "Enhanced Error Reporting"
+        },
+        {
+          "prompt": "Develop a feature to automatically update dependencies to their latest compatible versions and report potential breaking changes.",
+          "title": "Automated Dependency Updates"
+        },
+        {
+          "prompt": "Build a dashboard to display real-time performance metrics (e.g., render times, re-renders) during development.",
+          "title": "Real-time Performance Monitoring"
+        },
+        {
+          "prompt": "Add capabilities to generate production-ready builds optimized for different environments (e.g., staging, production) with environment variable management.",
+          "title": "Multi-Environment Builds"
+        },
+        {
+          "prompt": "Integrate with a version control system (e.g., Git) to automate pre-commit hooks, linting, and formatting checks.",
+          "title": "Git Hooks Automation"
+        },
+        {
+          "prompt": "Include a feature for live code collaboration, allowing multiple developers to work on the same codebase simultaneously with shared state.",
+          "title": "Live Collaboration Feature"
+        },
+        {
+          "prompt": "Add support for server-side rendering (SSR) or static site generation (SSG) pre-configurations.",
+          "title": "SSR/SSG Support"
+        },
+        {
+          "prompt": "Implement a plugin system that allows developers to easily extend the tool's functionality with custom scripts or integrations.",
+          "title": "Extensible Plugin Architecture"
+        }
+      ]
+    },
+    {
+      "title": "Core Capabilities of Your Custom Dev Tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Rapidly set up new React/Vite projects with predefined templates and configurations.",
+          "icon": "🚀",
+          "title": "Project Scaffolding"
+        },
+        {
+          "description": "Automatic recompilation and instant feedback during development.",
+          "icon": "⚡",
+          "title": "Hot Module Reloading"
+        },
+        {
+          "description": "Streamlined dependency management and resolution for faster builds.",
+          "icon": "📦",
+          "title": "Optimized Bundling"
+        },
+        {
+          "description": "Integrated unit, integration, and end-to-end testing frameworks.",
+          "icon": "✅",
+          "title": "Automated Testing"
+        },
+        {
+          "description": "Tools for analyzing bundle sizes, performance bottlenecks, and code quality.",
+          "icon": "🔬",
+          "title": "Build Analysis & QA"
+        },
+        {
+          "description": "Seamless integration with internal APIs, design systems, and deployment pipelines.",
+          "icon": "🔗",
+          "title": "Custom Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building Dev Tools with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom React/Vite dev tool with Kliv can range from a few hours for a basic CLI wrapper to a few days for a comprehensive, multi-featured IDE-like application, depending on complexity. Kliv's AI significantly reduces manual coding time.",
+          "question": "How long does it take to create a custom React/Vite development tool?"
+        },
+        {
+          "answer": "You don't need to be a DevOps expert or have deep knowledge of build tools like Webpack or Rollup. Kliv's AI can interpret your requirements in plain language and generate the underlying configurations and code, abstracting away much of the complexity.",
+          "question": "Do I need extensive build system knowledge (e.g., Webpack/Rollup) to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, your custom tool can integrate with virtually any external service or internal system that offers an API. This includes Git repositories, CI/CD pipelines, cloud platforms, and internal backend services.",
+          "question": "Can the custom dev tool integrate with my existing CI/CD or cloud services?"
+        },
+        {
+          "answer": "Kliv helps you generate the code and infrastructure for your tool, which you fully own. You can deploy and host it on your chosen infrastructure, whether it's a private server, a cloud platform, or simply distributed as a local package, ensuring your IP is protected.",
+          "question": "Where does the custom dev tool run, and who owns the intellectual property?"
+        },
+        {
+          "answer": "While commercial off-the-shelf dev tools might seem cheaper monthly, they often come with limitations and recurring costs. A custom tool built with Kliv is a one-time investment in development time, delivering long-term savings through tailored efficiency and no license fees.",
+          "question": "Is building a custom tool more cost-effective than buying a commercial solution?"
+        },
+        {
+          "answer": "Absolutely. The primary benefit of a custom tool is its flexibility. You can continuously add new features, modify workflows, or adapt to new technology stacks as your project and team evolve, without being constrained by vendor roadmaps.",
+          "question": "Can I modify or extend the custom dev tool after it has been built?"
+        },
+        {
+          "answer": "Yes, custom tools built with Kliv provide superior security because you control the entire stack and can adhere to your organization's specific security policies, rather than relying on third-party security practices.",
+          "question": "How secure are custom-built development tools compared to open-source or commercial alternatives?"
+        }
+      ]
+    },
+    {
+      "title": "Unlock Your Ultimate React/Vite Dev Workflow",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Define your ideal development experience and build it with Kliv's intelligent platform today."
+    }
+  ],
+  "title": "Custom React + Vite Development Tools"
+}

@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an AI-powered data analysis and visualization tool that can ingest data from various sources, perform advanced analytics, and generate interactive dashboards with natural language querying capabilities.",
+  "description": "Build custom AI-powered data analysis and visualization tools with Kliv's platform.",
+  "hero": {
+    "cta": "Start analyzing",
+    "subtitle": "Transform raw data into actionable insights with custom AI-powered analysis and visualization tools built on Kliv's platform.",
+    "title": "Build your own AI data analysis & visualization tools"
+  },
+  "metaDescription": "Create powerful AI-powered data analysis and visualization tools with Kliv. Unlock insights, build interactive dashboards, and drive data-driven decisions with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own AI data analysis tool?",
+      "type": "text",
+      "content": "In today's data-rich world, generic business intelligence (BI) tools often fall short. They force you into predefined templates, limited data sources, and complex, proprietary languages. The real power comes from tools tailored to your unique data, business questions, and users.\n\nWith AI development platforms like Kliv, building custom data analysis and visualization applications is now within reach for any organization. Instead of adapting to a vendor's vision, you create a solution that precisely fits your needs, giving you unparalleled control and insights."
+    },
+    {
+      "title": "The case for custom AI data analytics & visualization",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf BI solutions\n\nMany businesses struggle with traditional BI tools because they are:\n\n- **Too generalized**: Not designed for your specific industry data nuances.\n- **Costly overhead**: Recurring subscriptions, per-user fees, and steep learning curves.\n- **Integration nightmares**: Difficult to connect with niche or legacy data sources.\n- **Rigid visualizations**: Limited options to present data in the most impactful way for your audience.\n- **Lack of true AI insight**: Often provide descriptive analytics but lack predictive or prescriptive capabilities.\n\n## Why custom-built delivers superior insights\n\nLeveraging AI to build your own data analysis and visualization platform offers distinct advantages:\n\n### Unmatched data integration\nConnect to any data source, whether it's internal databases, spreadsheets, third-party APIs, or streaming data, giving you a complete, unified view.\n\n### Hyper-personalized insights\nDesign the AI to ask and answer the precise business questions critical to your operations. Develop custom algorithms for specific forecasting, anomaly detection, or segmentation.\n\n### Tailored user experience\nCreate dashboards and reports that resonate with your specific users, from executives to operational teams, ensuring data is consumed and acted upon effectively.\n\n### Cost efficiency & ownership\nA one-time development investment often leads to significant long-term savings compared to perpetual licensing fees, and you own the intellectual property.\n\n### Scalability and adaptability\nAs your data grows and business questions evolve, your custom tool can effortlessly scale and be modified to meet new demands without vendor lock-in.\n\n## Real-world applications of custom data analytics\n\nCustom AI data analysis tools are transforming how organizations operate:\n\n**Retail**: Real-time sales performance dashboards with AI-driven recommendations for inventory reordering and promotional strategies based on regional demand shifts.\n\n**Manufacturing**: Predictive maintenance systems that analyze sensor data from machinery to forecast failures, minimizing downtime and optimizing production schedules.\n\n**Healthcare**: Patient outcome prediction models that use historical patient data and AI to identify risk factors for specific conditions, aiding proactive care planning.\n\n**Marketing**: Customer churn prediction tools that analyze user behavior and engagement data to identify at-risk customers, allowing targeted retention campaigns.\n\n**Finance**: Fraud detection systems that leverage AI to analyze transaction patterns in real-time, flagging suspicious activities for immediate investigation.\n\n## The Kliv advantage in data tool building\n\nBuilding sophisticated data tools no longer requires a team of data scientists and engineers. Kliv's AI-powered platform makes it accessible:\n\n- **Natural Language Interaction**: Describe your data, desired analyses, and visualizations in plain English.\n- **Automated Data Prep**: AI assists with data cleaning, transformation, and normalization.\n- **Intelligent Modeling**: Leverage AI to suggest optimal analysis models and algorithms for your data.\n- **Interactive Front-end Generation**: Auto-generate dynamic charts, graphs, and dashboards.\n- **Rapid Iteration**: Quickly prototype, test, and refine your analytics application to perfection.\n\nEmpower your team with a data analysis and visualization tool that thinks like your business. Kliv puts the power of AI-driven data insights directly in your hands."
+    },
+    {
+      "title": "AI data analysis & visualization ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize sales trends and predict future revenue",
+          "prompt": "Create an AI sales analytics dashboard that connects to Salesforce, extracts sales data, visualizes historical sales trends, and uses AI to forecast future revenue based on seasonality and marketing spend.",
+          "title": "Sales Performance & Forecasting Dashboard"
+        },
+        {
+          "description": "Track website engagement and user behavior",
+          "prompt": "Build an AI web analytics tool that ingests Google Analytics data, visualizes user journeys, identifies conversion bottlenecks, and uses AI to suggest A/B test ideas for improving engagement.",
+          "title": "Customer Behavior Analytics Portal"
+        },
+        {
+          "description": "Monitor production quality and detect anomalies",
+          "prompt": "Develop an AI manufacturing quality control system that processes IoT sensor data from production lines, visualizes real-time product defects, and uses AI to predict equipment failures before they occur.",
+          "title": "Real-time Operations Monitoring"
+        },
+        {
+          "description": "Analyze customer support patterns and sentiment",
+          "prompt": "Design an AI customer service insights tool that analyzes text from support tickets and chat logs, visualizes common issues, categorizes sentiment, and identifies high-impact areas for agent training.",
+          "title": "Customer Support Insights"
+        },
+        {
+          "description": "Visualize financial data and flag anomalies",
+          "prompt": "Create an AI financial reporting dashboard that visualizes P&L statements, balance sheets, and cash flow, detects unusual spending patterns using AI, and generates variance reports.",
+          "title": "Financial Performance Analyzer"
+        },
+        {
+          "description": "Track supply chain efficiency and risks",
+          "prompt": "Build an AI supply chain optimizer that integrates with inventory systems and logistics data, visualizes delivery times and stock levels, and uses AI to identify potential bottlenecks or risks.",
+          "title": "Supply Chain Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your data analysis tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a dynamic filter system so users can slice and dice data by date range, region, or product category.",
+          "title": "Implement advanced filtering"
+        },
+        {
+          "prompt": "Integrate natural language querying capabilities so users can ask questions like 'Show me sales in Q1 from EMEA' and get chart responses.",
+          "title": "Add natural language querying"
+        },
+        {
+          "prompt": "Develop an alert system that notifies key stakeholders via email or Slack when specific data thresholds are met or anomalies are detected.",
+          "title": "Build intelligent alerts"
+        },
+        {
+          "prompt": "Implement user role-based access control to ensure different departments or user groups only see relevant data and dashboards.",
+          "title": "Add user authentication and roles"
+        },
+        {
+          "prompt": "Allow users to export specific charts or entire dashboards to PDF, CSV, or image formats.",
+          "title": "Enable data export features"
+        },
+        {
+          "prompt": "Incorporate a data storytelling module that automatically generates textual summaries and key takeaways from the visualized data.",
+          "title": "Add AI-powered data storytelling"
+        },
+        {
+          "prompt": "Add capabilities to directly connect to live streaming data sources and visualize real-time updates.",
+          "title": "Enable real-time data streaming"
+        },
+        {
+          "prompt": "Integrate a 'what-if' scenario planning feature, allowing users to adjust variables and see how they impact predictions or outcomes.",
+          "title": "Include 'what-if' analysis"
+        },
+        {
+          "prompt": "Add a feedback mechanism on each dashboard section, allowing users to provide comments or flag data discrepancies.",
+          "title": "Implement user feedback loops"
+        }
+      ]
+    },
+    {
+      "title": "Key analysis & visualization capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to diverse sources: databases, APIs, spreadsheets, and cloud services.",
+          "icon": "🔗",
+          "title": "Versatile Data Ingestion"
+        },
+        {
+          "description": "Perform advanced statistical, predictive, and prescriptive analytics with AI.",
+          "icon": "🧠",
+          "title": "AI-Powered Analytics Engine"
+        },
+        {
+          "description": "Generate interactive charts, graphs, maps, and custom data visualizations.",
+          "icon": "📈",
+          "title": "Dynamic Dashboard Builder"
+        },
+        {
+          "description": "Utilize natural language processing to query data using plain English.",
+          "icon": "💬",
+          "title": "Natural Language Querying (NLQ)"
+        },
+        {
+          "description": "Clean, transform, and prepare raw data for analysis automatically.",
+          "icon": "✨",
+          "title": "Automated Data Preparation"
+        },
+        {
+          "description": "Set up automated reports, alerts, and anomaly detection based on data changes.",
+          "icon": "🔔",
+          "title": "Custom Alerting & Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional AI data analysis tool can take anywhere from a few hours for basic prototypes to a few days or weeks for comprehensive, enterprise-grade solutions. Kliv's platform significantly reduces development time.",
+          "question": "How long does it take to build a custom AI data analysis tool?"
+        },
+        {
+          "answer": "No deep technical or coding expertise is required. Kliv uses AI to interpret your descriptions of data, desired analyses, and visualizations, guiding you through the build process with natural language.",
+          "question": "Do I need to be a data scientist or programmer to build this?"
+        },
+        {
+          "answer": "Yes, custom tools built with Kliv are highly adaptable. You can integrate with virtually any common database (SQL, NoSQL), cloud storage (S3, GCS), enterprise applications (CRM, ERP), or public APIs.",
+          "question": "Can I connect it to my existing databases and business applications?"
+        },
+        {
+          "answer": "You retain full ownership of the application, including the data models, algorithms, and generated code. You can host it in your preferred environment and manage your data with complete control.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "While there's an initial investment, a custom-built solution often becomes more cost-effective quickly. You avoid recurring per-user or feature-based fees, leading to significant savings over the long term compared to many commercial BI platforms.",
+          "question": "How does the cost compare to off-the-shelf BI solutions?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are designed for flexibility. You can easily add new data sources, refine AI models, create new dashboards, or adjust existing visualizations as your business objectives evolve.",
+          "question": "Can I modify or expand the tool after it's been built?"
+        },
+        {
+          "answer": "You have complete control over data security and compliance. Since you own the application and infrastructure, you can implement your organization's specific security protocols, which can often be more robust than those offered by third-party vendors.",
+          "question": "Is building my own data analysis tool secure?"
+        },
+        {
+          "answer": "Kliv's platform provides AI-driven assistance throughout the development process, offering suggestions, debugging help, and optimization tips. The goal is to empower self-sufficiency in building and maintaining your tools.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unlock insights from your data?",
+      "type": "cta",
+      "content": "Stop struggling with generic BI tools. Build a custom AI-powered data analysis and visualization solution that speaks your business language."
+    }
+  ],
+  "title": "AI data analysis & visualization tools"
+}

@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create an interactive story platform where authors can design branching narratives, manage character states, and allow readers to make choices that impact the plot and ending.",
+  "description": "Empower authors to design rich, branching narratives and dynamic characters with custom interactive storytelling tools.",
+  "hero": {
+    "cta": "Start Crafting Your Story",
+    "subtitle": "Unleash your creativity and build immersive, dynamic narratives that respond to reader choices. Kliv helps you create powerful interactive storytelling applications.",
+    "title": "Build Your Own Interactive Storytelling Platform"
+  },
+  "metaDescription": "Create custom interactive storytelling and choose-your-own-adventure applications with Kliv's AI-powered platform. Design branching narratives, dynamic character states, and multiple endings.",
+  "sections": [
+    {
+      "title": "Why Build Your Own Interactive Storytelling Tool?",
+      "type": "text",
+      "content": "The digital publishing landscape is evolving. Readers crave more than passive consumption; they want to engage, influence, and experience stories from within. While some platforms offer basic 'choose your own adventure' functionalities, they often lock authors into rigid structures, limit creative freedom, and control distribution.\n\nBuilding your own interactive storytelling tool means owning your narrative, your distribution, and your relationship with readers. Kliv empowers you to design a platform perfectly tailored to your unique vision, whether it's for educational simulations, game-like narratives, or deeply personal conversational experiences."
+    },
+    {
+      "title": "The Power of Custom Interactive Narratives",
+      "type": "markdown",
+      "content": "## Beyond the Page: A New Frontier for Storytellers\n\nTraditional books offer a single, linear path. Modern audiences, however, are accustomed to interactivity from games, applications, and social media. This shift creates a massive opportunity for storytellers willing to explore new formats. Yet, existing tools often fall short:\n\n- **Limited Flexibility**: Pre-built platforms dictate how your story can branch, what data it can track, and how it can be presented.\n- **Vendor Lock-in**: Your content is tied to their ecosystem, making it hard to migrate or monetize independently.\n- **Missing Features**: Need a complex inventory system for your adventure? Or dynamic character relationships that evolve with choices? Generic tools rarely offer this depth.\n\n## Why a Custom Solution Ignites Creativity\n\nImagine a platform where your story's possibilities are endless, limited only by your imagination. Building with Kliv gives you that power:\n\n### Granular Control Over Narrative Flow\nDesign intricate branching paths, create multiple endings, and implement complex decision trees that dynamically adapt the plot based on cumulative reader choices. You're not confined to simple A/B branches but can build truly emergent narratives.\n\n### Dynamic Character & World States\nBeyond static text, your characters can have traits, inventories, and relationships that change throughout the story. The world itself can react to reader actions, opening or closing paths, and revealing hidden content.\n\n### Unique Reader Experiences\nCraft personalized journeys for each reader. Track their progress, offer tailored feedback, or even integrate external data to create truly unique interactions. This transforms reading into an active, immersive experience.\n\n### Unrestricted Monetization & Distribution\nYour platform, your rules. Sell directly, integrate subscription models, or offer tiered content. Distribute through your own website, app stores, or even embed interactive stories within other digital products without third-party limitations.\n\n## Real-World Applications of Custom Interactive Storytelling\n\nInteractive narratives aren't just for fantasy adventures; they're transforming education, training, and even marketing:\n\n**Education**: Build adaptive learning modules where students' choices lead to different explanations or difficulty levels, providing personalized instruction.\n\n**Training**: Develop interactive simulations for corporate training, allowing employees to practice decision-making in realistic scenarios without real-world consequences.\n\n**Marketing**: Create engaging, interactive product tours or brand experiences where customers explore features or learn about services through a narrative journey.\n\n**Therapy & Wellness**: Design guided interactive journals or self-help narratives that adapt to user input, providing personalized reflective exercises.\n\n## The AI-Powered Narrative Revolution\n\nBuilding sophisticated interactive tools used to require deep coding knowledge. Kliv's AI changes this:\n\n- **Prompt-driven Design**: Describe your narrative structure, plot points, and character dynamics in plain language, and Kliv helps generate the underlying logic.\n- **Rapid Prototyping**: See your story's framework come to life quickly, allowing for immediate testing and iteration.\n- **Intelligent Branching**: AI can assist in identifying potential plot holes or suggesting new branching possibilities you might not have considered.\n- **Automated Consistency Checks**: Ensure character states, inventory items, and plot flags remain consistent across complex narrative paths.\n\n## Your Story, Your Rules\n\nDon't let rigid platforms stifle your narrative vision. With Kliv, the complexities of building a custom interactive storytelling engine are simplified, allowing you to focus on what you do best: telling incredible stories."
+    },
+    {
+      "title": "Interactive Storytelling Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Design a text-based adventure with inventory management and multiple puzzle solutions.",
+          "prompt": "Create an interactive fiction game engine that supports inventory items, branching dialogue options, and a system for tracking player stats like 'courage' and 'knowledge' that influence available choices.",
+          "title": "Fantasy Text Adventure"
+        },
+        {
+          "description": "Build a branching corporate training simulation for decision-making.",
+          "prompt": "Develop an interactive training module for new managers where their decisions in simulated scenarios affect team morale and project outcomes, leading to different feedback paths and learning points.",
+          "title": "Management Training Simulator"
+        },
+        {
+          "description": "Create a personalized educational story for young readers.",
+          "prompt": "Design an educational storybook for 6-8 year olds where choices about characters, settings, and plot elements dynamically change the story's vocabulary emphasis (e.g., science vs. history terms) and moral lessons.",
+          "title": "Adaptive Children's Story"
+        },
+        {
+          "description": "Develop a complex murder mystery where player deductions matter.",
+          "prompt": "Build an interactive mystery narrative where players investigate clues, interview suspects, and make deductions. The system should track collected evidence, witness credibility, and lead to different correct or incorrect conclusions based on player actions.",
+          "title": "Detective Mystery Game"
+        },
+        {
+          "description": "Design a dynamic personal development guide.",
+          "prompt": "Create an interactive self-help guide that adapts exercises and advice based on user responses to questions about their goals, challenges, and preferences, providing a personalized development path.",
+          "title": "Personal Growth Journey"
+        }
+      ]
+    },
+    {
+      "title": "Ways to Enhance Your Storytelling Tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication system so readers can save their progress and return to their stories later.",
+          "title": "User Account Management"
+        },
+        {
+          "prompt": "Implement a rich text editor for authors to easily format their story content, including images and multimedia embeds.",
+          "title": "Rich Text Authoring"
+        },
+        {
+          "prompt": "Integrate analytics to track reader engagement, popular choices, and story completion rates.",
+          "title": "Reader Analytics Dashboard"
+        },
+        {
+          "prompt": "Add a system for managing story assets like images, audio files, and video clips, linked to specific narrative nodes.",
+          "title": "Multimedia Asset Management"
+        },
+        {
+          "prompt": "Create a 'shared story' feature where multiple readers can collaboratively make choices in a single narrative instance.",
+          "title": "Collaborative Storytelling"
+        },
+        {
+          "prompt": "Develop an API for external applications to integrate with stories or retrieve story data (e.g., for showcasing on a website).",
+          "title": "External API Integration"
+        },
+        {
+          "prompt": "Add support for different language versions of stories or allow authors to community-translate their works.",
+          "title": "Multi-language Support"
+        },
+        {
+          "prompt": "Implement a peer review or beta reader system where authors can invite users to test their stories and provide feedback.",
+          "title": "Beta Reading Functionality"
+        }
+      ]
+    },
+    {
+      "title": "Core Interactive Storytelling Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Visualize and manage complex branching narratives with ease.",
+          "icon": "🌳",
+          "title": "Node-based Story Editor"
+        },
+        {
+          "description": "Define and track character attributes, inventory, and relationship states.",
+          "icon": "👥",
+          "title": "Dynamic State Tracking"
+        },
+        {
+          "description": "Design decision points where reader choices trigger different narrative paths.",
+          "icon": "➕",
+          "title": "Conditional Logic & Choices"
+        },
+        {
+          "description": "Implement multiple unique endings based on aggregated reader decisions.",
+          "icon": "🔚",
+          "title": "Multiple Endings Support"
+        },
+        {
+          "description": "Seamlessly integrate text, images, audio, and video into story nodes.",
+          "icon": "🖼️",
+          "title": "Rich Media Integration"
+        },
+        {
+          "description": "Preview and test narrative flows from the reader's perspective during creation.",
+          "icon": "🧪",
+          "title": "Interactive Story Tester"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building on Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform significantly reduces development time. A basic interactive story engine can be prototyped in a day, while more complex systems with custom features might take anywhere from a few days to a couple of weeks to fully implement.",
+          "question": "How long does it take to build a custom interactive storytelling application?"
+        },
+        {
+          "answer": "No coding background is strictly necessary. Kliv leverages AI to translate your natural language descriptions of features and logic into functional code. While some understanding of narrative structure and desired functionality is helpful, you don't need to be a programmer.",
+          "question": "Do I need to be a developer or have coding skills to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various services. This includes payment gateways for monetization, analytics platforms for insights, or even external APIs if your story needs to pull in real-time data or connect with other systems.",
+          "question": "Can my custom storytelling tool integrate with other platforms or services?"
+        },
+        {
+          "answer": "With Kliv, you retain full ownership of the application, its code, and all the content you create. You can deploy it to your own web servers, app stores, or any platform you choose, ensuring complete creative and intellectual property control.",
+          "question": "Who owns the intellectual property and code for the application I build?"
+        },
+        {
+          "answer": "The cost of building with Kliv is typically a one-time development investment, which is usually significantly less than long-term subscription fees for proprietary platforms. You avoid ongoing per-user or feature-gated charges, making it more cost-effective in the long run.",
+          "question": "How does the cost compare to using existing interactive narrative platforms?"
+        },
+        {
+          "answer": "Absolutely. Custom tools built with Kliv are designed for flexibility. You can continuously add new features, refine existing mechanics, or adapt the entire architecture as your creative vision or audience needs evolve.",
+          "question": "Can I update or add new features to my interactive story application after it's built?"
+        },
+        {
+          "answer": "Kliv provides tools and guidance to help ensure your application is robust. The platform assists with generating clean code, setting up secure structures, and can advise on best practices for data handling, allowing you to focus on the story itself.",
+          "question": "How can I ensure the performance and security of my interactive story application?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bring your stories to life?",
+      "type": "cta",
+      "content": "Stop conforming to generic platforms. Build the interactive narrative experience you've always envisioned with Kliv's powerful, AI-driven development capabilities."
+    }
+  ],
+  "title": "Interactive Storytelling & Choose-Your-Own-Adventure"
+}

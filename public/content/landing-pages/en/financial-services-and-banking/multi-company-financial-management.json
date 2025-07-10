@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a multi-company financial management application that can consolidate data from various entities, generate cross-company reports, manage intercompany transactions, and support complex financial hierarchies.",
+  "description": "Consolidate and manage finances for multiple entities with your own custom application.",
+  "hero": {
+    "cta": "Start consolidating",
+    "subtitle": "Gain complete financial oversight across all your business entities with a custom-built, AI-powered multi-company financial management solution.",
+    "title": "Build your own multi-company financial management system"
+  },
+  "metaDescription": "Create powerful, custom multi-company financial management applications with Kliv. Consolidate financials, streamline reporting, and manage complex intercompany transactions with ease.",
+  "sections": [
+    {
+      "title": "Why a custom multi-company financial system?",
+      "type": "text",
+      "content": "Managing the finances of multiple, often interconnected, companies or divisions within an organization presents unique challenges. Off-the-shelf accounting software often falls short, forcing complex workarounds, manual consolidations, and a lack of real-time insight across your entire financial landscape.\n\nBuilding a custom application empowers you to design a system that precisely mirrors your corporate structure, accounting policies, and reporting needs, rather than adapting your operations to rigid software. With Kliv's AI-powered platform, creating such a sophisticated tool is no longer the exclusive domain of large enterprises with massive IT budgets."
+    },
+    {
+      "title": "The strategic advantage of tailored financial oversight",
+      "type": "markdown",
+      "content": "## The limitations of generic financial software\n\nTraditional accounting solutions are typically designed for single entities, or offer limited multi-company capabilities that quickly become cumbersome for complex organizational structures. This often leads to:\n\n- **Manual data consolidation**: Tedious, error-prone processes to combine financial statements from disparate systems.\n- **Lack of unified reporting**: Inability to generate real-time, consolidated reports or perform cross-entity analysis.\n- **Intercompany transaction headaches**: Difficulties in reconciling and eliminating intercompany balances and transactions.\n- **Inflexible hierarchies**: Struggling to define and manage complex parent-subsidiary or divisional structures.\n- **High licensing costs**: Paying per entity or user, leading to rapidly escalating expenses for growing portfolios.\n\n## Why custom solutions lead the way\n\nThe ability to build bespoke financial tools using AI development platforms like Kliv offers unparalleled advantages, transforming financial management from a bottleneck into a strategic asset:\n\n### Seamless data consolidation\nAutomate the aggregation of financial data from all your entities into a single, unified database. No more manual exports and imports. Enjoy real-time consolidated views including profit & loss, balance sheets, and cash flow statements.\n\n### Precision intercompany management\nDesign rules for automatic intercompany eliminations and reconciliations. Track loans, services, and transfers between entities with unparalleled accuracy, ensuring compliance and clean consolidated financials.\n\n### Tailored reporting and analytics\nGenerate custom reports that reflect your specific business needs, across any combination of entities, departments, or cost centers. Perform drill-downs from consolidated totals to individual entity transactions.\n\n### Adaptable organizational structures\nYour system can precisely model your unique corporate hierarchy, allowing for flexible modifications as your business evolves through acquisitions, divestitures, or internal restructuring. Define parent-subsidiary relationships, joint ventures, or regional groupings with ease.\n\n### Cost-efficiency and data ownership\nOnce built, your custom application avoids recurring subscription costs. You own the software and data, giving you full control over security, hosting, and future enhancements, eliminating vendor lock-in.\n\n## Real-world impact\n\nCustom multi-company financial management systems are critical for businesses with varied structures:\n\n**Holding Companies**: Consolidate financials from diverse portfolio companies, track investment performance, and manage capital flows.\n\n**Franchise Operations**: Centralize financial reporting from multiple franchise units, ensuring consistency and compliance with brand standards.\n\n**International Corporations**: Manage financial reporting across different currencies, tax jurisdictions, and accounting standards with automated conversions and rule sets.\n\n**Large Non-Profits**: Oversee budgets and expenditures across various programs, grants, and regional chapters effectively.\n\n**Private Equity Firms**: Gain immediate, accurate financial insights into all controlled entities, facilitating faster decision-making and exit strategies.\n\n## The Kliv difference\n\nBuilding a custom multi-company financial system used to imply significant time and resource investment. Kliv drastically simplifies this by:\n\n- **Understanding your requirements**: Use natural language to describe the complexity of your financial structure and reporting needs.\n- **Accelerating development**: Rapidly prototype and deploy sophisticated applications tailored to your exact specifications.\n- **Ensuring accuracy**: AI-assisted development minimizes errors in logic and data handling critical for financial applications.\n\nDon't settle for off-the-shelf software that almost fits. Create a multi-company financial management system that serves your unique strategic and operational demands perfectly."
+    },
+    {
+      "title": "Application ideas for multi-company finance",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate consolidation of P&L, balance sheets, and cash flow across all entities.",
+          "prompt": "Create an application that pulls trial balances from 10 different subsidiaries' accounting systems (e.g., QuickBooks, SAP, Xero), consolidates them into a single set of financial statements, and performs automated intercompany eliminations for reporting.",
+          "title": "Consolidated financial reporting hub"
+        },
+        {
+          "description": "Streamline tracking and reconciliation of transactions between related entities.",
+          "prompt": "Develop an intercompany transaction management system that allows users to record intercompany sales, purchases, loans, and services, automatically generates elimination journals, and provides real-time reconciliation reports between entities.",
+          "title": "Intercompany transaction manager"
+        },
+        {
+          "description": "Manage budgets from multiple entities and track performance against consolidated targets.",
+          "prompt": "Build a multi-entity budgeting and forecasting tool that allows each subsidiary to submit their budgets, aggregates them into a master corporate budget, and tracks actual performance against these consolidated budgets with variance analysis.",
+          "title": "Global budget and forecasting platform"
+        },
+        {
+          "description": "Ensure tax compliance and optimize tax strategies across various legal entities.",
+          "prompt": "Design a multi-entity tax compliance and planning application that aggregates financial data, identifies taxable income in different jurisdictions, calculates tax liabilities, and generates country-specific tax reports, considering intercompany pricing rules.",
+          "title": "Multi-jurisdictional tax compliance tool"
+        },
+        {
+          "description": "Automate treasury operations and cash visibility across diverse entities.",
+          "prompt": "Create a multi-company treasury management system that consolidates cash balances from all bank accounts across various entities, tracks intercompany cash transfers, manages foreign exchange exposures, and optimizes liquidity.",
+          "title": "Cross-entity treasury dashboard"
+        },
+        {
+          "description": "Create a central repository for diverse legal entity financial data.",
+          "prompt": "I need a system to manage master data for all my legal entities, including their financial profiles, bank accounts, tax IDs, and intercompany relationships, with version control and audit trails.",
+          "title": "Entity master data management"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your financial management solution",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with various ERP systems (e.g., SAP, Oracle, NetSuite) to automatically pull financial data instead of manual uploads.",
+          "title": "Add ERP integrations"
+        },
+        {
+          "prompt": "Implement multi-currency conversion capabilities with exchange rate management and automatic revaluation for consolidated reporting.",
+          "title": "Introduce multi-currency support"
+        },
+        {
+          "prompt": "Incorporate advanced analytics and business intelligence features, including custom dashboards and drill-down capabilities for financial performance metrics.",
+          "title": "Build a financial analytics dashboard"
+        },
+        {
+          "prompt": "Add a module for multi-entity compliance reporting (e.g., GAAP, IFRS, local statutory reporting) with configurable templates.",
+          "title": "Develop compliant reporting"
+        },
+        {
+          "prompt": "Implement robust user roles and permissions based on entity, department, or function, ensuring data security and access control.",
+          "title": "Enhance security with granular permissions"
+        },
+        {
+          "prompt": "Add functionality for managing and tracking intercompany loans, equity contributions, and dividend payments.",
+          "title": "Include intercompany financing module"
+        },
+        {
+          "prompt": "Build a workflow for intercompany invoice processing and automated settlement.",
+          "title": "Automate intercompany invoicing"
+        },
+        {
+          "prompt": "Generate audit trails for all data changes and transactions, ensuring transparency and regulatory compliance.",
+          "title": "Implement comprehensive audit trails"
+        },
+        {
+          "prompt": "Add AI-driven forecasting models to predict consolidated financial performance and identify potential risks/opportunities.",
+          "title": "Add AI-powered forecasting"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for powerful financial oversight",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automatically aggregate and consolidate financials from diverse entities.",
+          "icon": "📊",
+          "title": "Unified Data Consolidation"
+        },
+        {
+          "description": "Automated elimination and reconciliation of transactions between related companies.",
+          "icon": "🔗",
+          "title": "Intercompany Management"
+        },
+        {
+          "description": "Design and generate custom financial reports across any entity or group.",
+          "icon": "📈",
+          "title": "Flexible Reporting Engine"
+        },
+        {
+          "description": "Map and manage complex corporate structures with ease.",
+          "icon": "🏗️",
+          "title": "Configurable Entity Hierarchy"
+        },
+        {
+          "description": "Securely manage financial data with role-based access and audit logs.",
+          "icon": "🔒",
+          "title": "Robust Security & Compliance"
+        },
+        {
+          "description": "Visualize key financial metrics and performance indicators on customizable dashboards.",
+          "icon": "💡",
+          "title": "Real-time Financial Insights"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a core multi-company financial management system can be achieved rapidly, often within days or weeks, depending on the complexity of your financial structure and integration needs. AI accelerators significantly reduce traditional development timelines.",
+          "question": "How long does it take to develop a custom multi-company financial solution?"
+        },
+        {
+          "answer": "No, you do not need to be a programmer. Kliv's platform allows you to describe your financial processes, entities, and reporting needs using natural language. The AI guides you through defining the system, translating your requirements into a functional application.",
+          "question": "Is coding knowledge required to build this type of application?"
+        },
+        {
+          "answer": "Yes, custom solutions built with Kliv are highly adaptable. They can integrate with a wide range of existing accounting systems (e.g., SAP, QuickBooks, Oracle, Xero), ERPs, bank APIs, and other financial tools via APIs or data connectors to ensure seamless data flow.",
+          "question": "Can this system integrate with my existing accounting software or ERPs?"
+        },
+        {
+          "answer": "You retain full ownership and control over the custom application, its data, and intellectual property. Kliv facilitates the creation process, but the developed solution is entirely yours, portable and deployable as you see fit.",
+          "question": "Who owns the financial data and the application built on Kliv?"
+        },
+        {
+          "answer": "Custom-built solutions typically offer a superior long-term ROI. While there's an initial development investment, you avoid ongoing, often escalating, per-user or per-entity subscription fees common with SaaS platforms, leading to significant savings over time.",
+          "question": "How does the cost compare to off-the-shelf multi-entity financial software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the flexibility to evolve. You can easily add new entities, modify reporting structures, incorporate new accounting policies, or integrate additional features as your business grows and changes, without waiting for vendor updates.",
+          "question": "Can the application be modified or scaled as my company structure changes?"
+        },
+        {
+          "answer": "A custom solution allows you to implement security measures tailored to your specific policies. You have full control over where data is hosted, encryption standards, and access protocols, often resulting in a more secure environment than relying on a third-party SaaS provider's generic security.",
+          "question": "What about data security and compliance for sensitive financial information?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance throughout the building process, offering suggestions, debugging, and optimization recommendations. Post-development, as you own the code, you have the flexibility to manage it yourself or engage any developer for future enhancements.",
+          "question": "What kind of support is available after the application is built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready for unified financial clarity?",
+      "type": "cta",
+      "content": "Stop struggling with fragmented financial data and inefficient processes. Empower your finance team with a custom multi-company management system built precisely for your business."
+    }
+  ],
+  "title": "Multi-company financial management"
+}

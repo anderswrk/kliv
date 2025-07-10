@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an AI-powered bookmark manager that automatically categorizes links, summarizes content, and suggests related resources.",
+  "description": "Build intelligent bookmark managers with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start organizing",
+    "subtitle": "Transform your chaotic browser bookmarks into an intelligent, AI-powered knowledge base.",
+    "title": "Build your own AI-powered bookmark manager"
+  },
+  "metaDescription": "Create powerful AI-powered bookmark managers with Kliv. Automatically categorize, summarize, and retrieve your saved links with custom-built applications.",
+  "sections": [
+    {
+      "title": "The struggle with traditional bookmarks",
+      "type": "text",
+      "content": "In today's information-rich world, we constantly save links—articles, tutorials, research papers, interesting websites, and more. But what happens after you hit 'bookmark'? They often disappear into an unsearchable, uncategorized abyss. Traditional bookmarking tools are passive storage, not active knowledge organizers. They lack context, insights, and the ability to truly help you retrieve information when you need it most."
+    },
+    {
+      "title": "Why build a custom AI bookmark manager?",
+      "type": "markdown",
+      "content": "## Beyond simple saving: The need for intelligence\n\nGeneric bookmarking tools, browser favorites, and even basic 'read-it-later' apps fall short when you're dealing with hundreds or thousands of saved links. They fail to provide:\n\n- **Automatic organization**: Manual tagging is tedious and inconsistent.\n- **Content understanding**: They don't know what the link is *about*.\n- **Efficient retrieval**: Finding that one link from months ago is a nightmare.\n- **Contextual insights**: No related suggestions or knowledge graph.\n\n## The power of a personalized AI solution\n\nBuilding your own AI-powered bookmark manager with Kliv empowers you to create a system that truly understands and works for *you*. Imagine a tool that:\n\n### Understands and categorizes automatically\nNo more manual tagging. Your custom AI can read the content of a page and instantly assign relevant categories, tags, and even themes. This makes retrieval intuitive and lightning-fast.\n\n### Summarizes key information on demand\nEver wanted a quick recap of a long article without reopening it? Your AI manager can generate concise summaries of saved content, saving you immense time and helping you prioritize what to revisit.\n\n### Connects related ideas and resources\nAn intelligent bookmark manager can identify connections between your saved links, suggesting related articles, videos, or even local files based on content similarity. It transforms your bookmarks into a robust personal knowledge base.\n\n### Adapts to your learning and retrieval patterns\nUnlike static tools, your AI can learn from your interactions. The more you use it, the better it becomes at predicting what you're looking for, surfacing relevant information, and suggesting new ways to organize.\n\n### Ensures privacy and ownership\nYour curated knowledge is your asset. Building your own solution means your data remains private and under your control, free from third-party data mining or unexpected service changes.\n\n## Real-world benefits\n\n- **For Researchers**: Instantly find that obscure paper, connect it to related studies, and get quick summaries.\n- **For Content Creators**: Store inspiration, organize source material by topic, and quickly recall details to inform new pieces.\n- **For Developers**: Keep track of code snippets, API documentation, and solutions to problems, categorized by language or framework.\n- **For Students**: Organize lecture notes, research materials, and study guides for specific courses, with AI-generated summaries for quick revision.\n- **For Anyone with lots of links**: Transform digital clutter into a highly organized, searchable, and intelligent personal library.\n\nWith Kliv's AI platform, designing and deploying such a sophisticated tool is no longer the domain of expert programmers. You describe the functionality, and our AI helps bring your vision to life."
+    },
+    {
+      "title": "AI bookmark manager ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "An intelligent system for academic research papers",
+          "prompt": "Create an AI bookmark manager for academic papers that extracts abstracts, identifies key authors, suggests related articles based on citations, and allows full-text search.",
+          "title": "Academic Research Hub"
+        },
+        {
+          "description": "Organize and retrieve cooking recipes and techniques",
+          "prompt": "Build a bookmark manager for recipes that automatically identifies ingredients, cooking time, and cuisine type, and allows searches based on dietary restrictions.",
+          "title": "Personal Cookbook AI"
+        },
+        {
+          "description": "A curated library for design inspirations and resources",
+          "prompt": "Develop an AI-powered bookmark manager for graphic designers that visually categorizes images, extracts color palettes, and suggests fonts and design trends based on saved links.",
+          "title": "Visual Inspiration Board"
+        },
+        {
+          "description": "Track and summarize news articles and long reads",
+          "prompt": "Design a sophisticated news aggregator bookmark manager that summarizes articles, tracks recurring themes across different sources, and filters by specific topics of interest.",
+          "title": "Intelligent News Reader"
+        },
+        {
+          "description": "Manage software documentation and code snippets",
+          "prompt": "Build a bookmark manager for developers that can parse code snippets, link to relevant documentation, and suggest best practices based on the programming language of the saved content.",
+          "title": "Dev Snippet & Doc Hub"
+        },
+        {
+          "description": "A system to enrich and organize personal growth content",
+          "prompt": "Create a bookmark manager for self-improvement articles and videos that captures key takeaways, tracks progress on learning goals, and connects concepts across different readings.",
+          "title": "Personal Growth AI"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your bookmark manager",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a browser extension component to easily save pages with one click and send them to the manager.",
+          "title": "Browser Extension Integration"
+        },
+        {
+          "prompt": "Implement a 'read later' queue with AI-powered prioritization based on my interests and available time.",
+          "title": "Smart Read Later Queue"
+        },
+        {
+          "prompt": "Develop a feature that scans linked PDFs and documents, extracting text for search and summarization.",
+          "title": "PDF & Document Processing"
+        },
+        {
+          "prompt": "Include a daily or weekly digest email that summarizes new bookmarks and highlights key insights from previously saved content.",
+          "title": "Automated Digest Emails"
+        },
+        {
+          "prompt": "Add voice input capabilities for saving notes or additional context to bookmarks while browsing.",
+          "title": "Voice Input for Notes"
+        },
+        {
+          "prompt": "Connect with an online document editor to allow direct annotation and highlighting of saved web content within the manager.",
+          "title": "In-App Annotation Tools"
+        },
+        {
+          "prompt": "Integrate with personal calendar or task managers to set reminders related to saved content (e.g., 'revisit this tutorial next Tuesday').",
+          "title": "Calendar/Task Integration"
+        },
+        {
+          "prompt": "Build a collaborative feature where multiple users can share and collectively manage a library of bookmarks.",
+          "title": "Collaborative Spaces"
+        },
+        {
+          "prompt": "Add advanced analytics to track my most frequently accessed topics, sources, and types of content.",
+          "title": "Usage Analytics Dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Core features of an intelligent bookmark manager",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automatically categorizes and tags saved links based on content analysis.",
+          "icon": "🧠",
+          "title": "Contextual AI Tagging"
+        },
+        {
+          "description": "Generates concise summaries of long articles and web pages on demand.",
+          "icon": "📝",
+          "title": "Content Summarization"
+        },
+        {
+          "description": "Powerful search engine that understands natural language queries and content meaning.",
+          "icon": "🔍",
+          "title": "Semantic Search"
+        },
+        {
+          "description": "Suggests related articles and resources based on your saved links and interests.",
+          "icon": "🔗",
+          "title": "Related Content Discovery"
+        },
+        {
+          "description": "Organizes your links into custom collections, projects, or themes.",
+          "icon": "🗂️",
+          "title": "Flexible Organization"
+        },
+        {
+          "description": "Securely stores your data, giving you complete control and privacy.",
+          "icon": "🔒",
+          "title": "Private Knowledge Base"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom AI bookmark manager with Kliv can take anywhere from a few hours for basic functionality to a few days for advanced features like deep content analysis and integrations. Much faster than traditional development cycles.",
+          "question": "How long does it take to build a custom AI bookmark manager?"
+        },
+        {
+          "answer": "Not at all. Kliv's platform allows you to describe your desired features in plain language. The AI translates your requirements into functional code, making advanced application development accessible to everyone.",
+          "question": "Do I need to be a programmer to build this type of tool?"
+        },
+        {
+          "answer": "Yes, your custom bookmark manager can integrate with various services. This includes connecting to cloud storage for documents, other productivity tools via API, or even synchronizing with your browser's history if you choose.",
+          "question": "Can my AI bookmark manager integrate with other apps or services?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property of the application built on Kliv. This means your data, the code, and all insights derived from your saved links are exclusively yours to control and manage.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "The cost of building a custom solution is typically a one-time investment, which offers significant long-term savings compared to recurring subscription fees of commercial software, especially for tools with advanced AI capabilities.",
+          "question": "Is building my own solution more cost-effective than using commercial products?"
+        },
+        {
+          "answer": "Absolutely. One of the core advantages of building with Kliv is the flexibility. As your needs evolve, you can easily add new features, adjust existing ones, or pivot the application's focus without external dependencies.",
+          "question": "Can I modify or expand my bookmark manager after it's built?"
+        },
+        {
+          "answer": "Since you control the hosting environment and data handling practices, custom-built solutions can often be more secure than third-party services. You define the security protocols and where your data resides.",
+          "question": "How secure is a custom-built AI bookmark manager?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance throughout the development process, offering suggestions, helping debug, and optimizing your application. You're empowered to build and maintain without being locked into specific support agreements.",
+          "question": "What kind of support is available during and after the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate knowledge companion?",
+      "type": "cta",
+      "content": "Stop just saving links and start building an intelligent system that organizes, understands, and enhances your digital knowledge."
+    }
+  ],
+  "title": "AI-powered bookmark manager"
+}

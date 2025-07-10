@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an AI-powered stock screener that allows users to filter stocks based on fundamental and technical indicators, identify trends, and backtest strategies against historical data.",
+  "description": "Build custom AI-powered stock screeners with Kliv's platform.",
+  "hero": {
+    "cta": "Start screening",
+    "subtitle": "Develop personalized AI stock screeners to uncover market opportunities and refine your investment strategies.",
+    "title": "Build your own AI-powered stock screener"
+  },
+  "metaDescription": "Create powerful AI stock screeners with Kliv. Filter stocks, analyze trends, backtest strategies, and gain a competitive edge in your market analysis.",
+  "sections": [
+    {
+      "title": "The challenge of finding market opportunities",
+      "type": "text",
+      "content": "In today's fast-paced financial markets, identifying winning investment opportunities requires more than just intuition. Generic stock screeners often fall short, offering limited customization, outdated data, and a one-size-fits-all approach that doesn't align with your unique investment philosophy.\n\nBuilding your own AI-powered stock screener on Kliv allows for unparalleled flexibility, real-time data integration, and the ability to train AI models on your specific criteria, giving you a distinct advantage in analyzing market trends and making informed decisions."
+    },
+    {
+      "title": "Why a custom AI stock screener is your edge",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf screeners\n\nMany standard stock screeners provide basic filters, but they rarely offer the depth and customization required for sophisticated market analysis. You're often confined to:\n\n- **Pre-defined metrics**: Can't add proprietary indicators or combine metrics in unique ways.\n- **Static data snapshots**: Lack real-time updates or dynamic data feeds necessary for agile decision-making.\n- **Limited AI capabilities**: Most don't leverage machine learning for predictive analysis or pattern recognition.\n- **Generic alerts**: Missing personalized, actionable notifications based on your specific criteria.\n- **Subscription costs**: Recurring fees for tools that don't fully meet your needs.\n\n## The power of a bespoke solution\n\nWith Kliv, you can design a stock screener that's intimately aligned with your investment methodology and risk appetite. Here's why custom is superior:\n\n### Proprietary analysis without limits\nYou can define any combination of fundamental, technical, and alternative data points. Integrate unique algorithms or AI models to detect patterns and anomalies no generic screener can.\n\n### Real-time data and actionable insights\nConnect directly to market data feeds for instantaneous updates. Your screener can process new information as it happens, generating real-time alerts and re-ranking opportunities dynamically.\n\n### Personalized AI-driven discovery\nTrain AI to identify correlations, predict future performance, or even find 'dark horse' investments based on your historical successes. The AI learns from your preferences and market behavior.\n\n### Fully owned and customizable\nUnlike SaaS solutions, you own your custom screener. This means full control over features, data sources, security, and future enhancements without vendor lock-in or escalating costs.\n\n### Scalable for any investor\nWhether you're a day trader needing high-frequency data, a long-term investor focused on value, or a quantitative analyst building complex models, your custom screener can scale to meet your demands.\n\n## Real-world applications of custom screeners\n\nCustom AI stock screeners aren't just for institutional investors; they serve a wide range of needs:\n\n**Retail Investors**: Build a screener to identify undervalued growth stocks based on a combination of P/E ratios, revenue growth, and social sentiment.\n\n**Fund Managers**: Develop a system to filter ESG-compliant companies that also meet specific financial health and sector diversification criteria.\n\n**Quantitative Analysts**: Create an advanced screener for high-frequency trading signals, integrating machine learning models for pattern recognition in tick data.\n\n**Portfolio Managers**: Design a tool to stress-test portfolios against historical market crashes and identify vulnerable assets based on custom risk metrics.\n\n## Kliv's AI advantage in financial development\n\nBuilding sophisticated financial tools used to require specialized programming skills. Kliv changes this:\n\n- **Natural language interface**: Describe your desired filtering logic and AI capabilities in plain English.\n- **Rapid prototyping**: See your screener's core functionality come to life quickly, allowing for iterative refinement.\n- **Intelligent data integration**: AI assists in connecting to market data APIs and structuring financial datasets.\n- **AI model generation**: Kliv helps generate and fine-tune AI models for predictive analysis, trend identification, and anomaly detection.\n\nReady to transcend the limitations of generic tools? Build your analytical edge with a custom AI stock screener."
+    },
+    {
+      "title": "Build your financial advantage with these ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Identify companies with strong financial health and growth potential.",
+          "prompt": "Create a stock screener that filters companies based on revenue growth over the last 5 years, positive free cash flow, debt-to-equity ratio below 0.5, and a P/E ratio lower than their sector average.",
+          "title": "Fundamental Analysis Screener"
+        },
+        {
+          "description": "Discover stocks exhibiting specific price and volume patterns.",
+          "prompt": "Develop a technical analysis screener that identifies stocks with a 50-day moving average crossing above their 200-day moving average (golden cross), relative strength index (RSI) between 40-60, and increasing trading volume over the past 3 days.",
+          "title": "Technical Pattern Screener"
+        },
+        {
+          "description": "Find undervalued assets or those experiencing market overreaction.",
+          "prompt": "Build a value investing screener that looks for stocks trading below their intrinsic value (e.g., Benjamin Graham formula), with a dividend yield above 3%, and a positive analyst rating consensus from at least 5 different firms.",
+          "title": "Value Investing Screener"
+        },
+        {
+          "description": "Identify companies with high momentum for short-to-medium term trading.",
+          "prompt": "Create a momentum screener that finds stocks that have increased by more than 15% in the last month, are near their 52-week high, and have a bullish sentiment score based on news analysis.",
+          "title": "Market Momentum Screener"
+        },
+        {
+          "description": "Filter companies based on environmental, social, and governance criteria.",
+          "prompt": "Develop an ESG (Environmental, Social, Governance) focused screener that filters companies with a high Sustainalytics ESG score, low carbon footprint, diverse board of directors, and no recent history of labor law violations.",
+          "title": "ESG Investment Screener"
+        },
+        {
+          "description": "Find stocks based on news events, social media trends, and public sentiment.",
+          "prompt": "Build an alternative data screener that identifies stocks mentioned positively on financial news outlets, showing increasing social media buzz on X and Reddit, and experiencing unusual trading activity indicating institutional interest.",
+          "title": "Sentiment & News Screener"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your stock screener",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now add real-time streaming data integration for live price updates and news feeds.",
+          "title": "Add real-time data feeds"
+        },
+        {
+          "prompt": "Implement a backtesting module to test screening strategies against historical market data.",
+          "title": "Integrate backtesting capabilities"
+        },
+        {
+          "prompt": "Add a module for natural language processing (NLP) to analyze financial news and social media sentiment.",
+          "title": "Incorporate sentiment analysis"
+        },
+        {
+          "prompt": "Enable users to create custom-defined formulas and indicators for filtering.",
+          "title": "Allow custom indicator creation"
+        },
+        {
+          "prompt": "Build a feature that uses machine learning to predict stock movements based on selected criteria.",
+          "title": "Add predictive AI modeling"
+        },
+        {
+          "prompt": "Include an alert system that notifies users via email or SMS when new stocks meet their screening criteria.",
+          "title": "Implement intelligent alerts"
+        },
+        {
+          "prompt": "Develop a portfolio management feature that allows users to track screened stocks' performance.",
+          "title": "Add portfolio tracking"
+        },
+        {
+          "prompt": "Integrate with brokerage APIs for direct trade execution from the screener.",
+          "title": "Enable direct trading"
+        },
+        {
+          "prompt": "Add a visualization dashboard to display screening results with charts and graphs.",
+          "title": "Create data visualization"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your custom screener",
+      "type": "features",
+      "items": [
+        {
+          "description": "Filter stocks using a vast array of fundamental accounting metrics.",
+          "icon": "📝",
+          "title": "Fundamental Filtering"
+        },
+        {
+          "description": "Apply technical indicators like moving averages, RSI, and MACD for analysis.",
+          "icon": "📈",
+          "title": "Technical Indicator Support"
+        },
+        {
+          "description": "Connect to real-time market data providers for up-to-the-minute information.",
+          "icon": "⚡",
+          "title": "Real-time Data Integration"
+        },
+        {
+          "description": "Train AI models to identify complex patterns and make intelligent predictions.",
+          "icon": "🧠",
+          "title": "AI Pattern Recognition"
+        },
+        {
+          "description": "Graphically test screening strategies against historical data to evaluate performance.",
+          "icon": "🧪",
+          "title": "Strategy Backtesting"
+        },
+        {
+          "description": "Set up personalized alerts that notify you when specific criteria are met.",
+          "icon": "🔔",
+          "title": "Customizable Alert System"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic stock screener with Kliv can take just a few hours. More complex systems with advanced AI or multiple data integrations might take a few days to a week of focused development.",
+          "question": "How long does it take to build an AI stock screener?"
+        },
+        {
+          "answer": "No, you do not need to be a programmer or have a finance background. Kliv's AI-powered platform allows you to describe your desired screener functionality using natural language, and it assists in generating the necessary code and structure.",
+          "question": "Do I need coding or financial expertise to build a screener?"
+        },
+        {
+          "answer": "Yes, your custom screener can integrate with a wide range of financial data providers (e.g., Alpha Vantage, IEX Cloud, Finnhub) and brokerage APIs. Kliv helps you establish these connections.",
+          "question": "Can I connect my screener to real-time market data and brokerage accounts?"
+        },
+        {
+          "answer": "You retain full ownership of the custom stock screener you build. This includes the code, the AI models, and any proprietary filtering logic you develop. You can host it yourself or deploy it wherever you prefer.",
+          "question": "Who owns the stock screener I build on Kliv?"
+        },
+        {
+          "answer": "The cost of building a custom screener with Kliv is typically a one-time development investment, which is often significantly less than long-term subscriptions to premium third-party financial tools, especially when considering the level of customization you achieve.",
+          "question": "How does the cost compare to subscribing to existing stock screener platforms?"
+        },
+        {
+          "answer": "Absolutely. One of the main advantages is the ability to adapt. As your investment strategy evolves or market conditions change, you can easily modify your screener's filters, add new AI models, or integrate new data sources.",
+          "question": "Can I modify my stock screener after it's been built?"
+        },
+        {
+          "answer": "Yes, you have full control over data security. You can choose where your data is stored and how it's encrypted. This often leads to a more secure setup than relying on third-party platforms that manage data for multiple clients.",
+          "question": "Is a custom-built stock screener more secure for my financial data?"
+        },
+        {
+          "answer": "Kliv provides an intuitive environment for building and debugging. If you encounter issues, AI-driven suggestions and detailed documentation are available. For complex needs, the community and optional expert support can assist.",
+          "question": "What kind of support is available if I run into problems?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your investing edge?",
+      "type": "cta",
+      "content": "Stop settling for generic tools. Create an AI-powered stock screener tailored to your unique strategy and gain a competitive analytical advantage."
+    }
+  ],
+  "title": "AI-Powered Stock Screener"
+}

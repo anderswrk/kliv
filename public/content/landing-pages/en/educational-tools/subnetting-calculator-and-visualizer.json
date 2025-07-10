@@ -1,0 +1,159 @@
+{
+  "defaultPrompt": "Create a subnetting calculator that can take an IP address and CIDR or subnet mask, calculate network address, broadcast address, range of usable IPs, and number of hosts. It should also visually represent the subnet divisions.",
+  "description": "Build custom subnetting calculators and visualizers with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Calculating",
+    "subtitle": "Empower network students and professionals with intuitive, custom-built tools for IP addressing.",
+    "title": "Build Your Own Subnetting Toolkit"
+  },
+  "metaDescription": "Design and deploy powerful subnetting calculators and visualizers with Kliv. Simplify network education and professional tasks with custom IP addressing tools.",
+  "sections": [
+    {
+      "title": "The Challenge of IP Addressing",
+      "type": "text",
+      "content": "Subnetting and IP addressing are fundamental concepts in networking, yet they can be complex and intimidating for students and even seasoned professionals. The need for clear, interactive tools to simplify these calculations and visualize network segmentation is immense. While generic online calculators exist, they often lack the custom features, educational context, or visual clarity required for effective learning and practical application.\n\nBuilding your own subnetting tool means you define the learning experience, integrate it with specific curricula, or tailor it for unique professional workflows, unlike one-size-fits-all solutions."
+    },
+    {
+      "title": "Why a Custom Subnetting Tool is the Smart Choice",
+      "type": "markdown",
+      "content": "## Limitations of Off-the-Shelf Calculators\n\nExisting subnetting calculators are often:\n\n- **Generic**: They provide basic calculations without context or interactive learning features.\n- **Ad-burdened**: Many free tools are cluttered with ads, disrupting the learning or work process.\n- **Non-customizable**: You can't add specific features like custom visual representations, scenario-based learning, or integration with other educational platforms.\n- **Lacking Analytics**: Educators can't track student progress or common errors.\n- **Outdated interfaces**: Many have clunky UIs that make them less engaging to use.\n\n## The Advantage of Tailored Solutions\n\nLeveraging platforms like Kliv to build a custom subnetting and visualization tool offers significant benefits:\n\n### Perfect Learning Fit\nDesign a tool that aligns precisely with your teaching methodology or your team's operational needs. Incorporate specific challenges, real-world examples, or custom terminology.\n\n### Enhanced Visualization\nGo beyond simple text results. Create interactive diagrams, network topology views, or even animated explanations of how subnets are formed and utilized.\n\n### Control and Ownership\nUnlike relying on third-party websites, your custom tool is yours. Host it where you need, control access, and ensure data privacy. No surprise feature changes or advertisements.\n\n### Streamlined Workflow\nFor professionals, integrate the calculator directly into your network planning or documentation processes, saving time on context switching and manual data entry.\n\n### Monetization Opportunities\nIf you're an educator or content creator, a unique, high-quality tool can be a valuable asset for courses, workshops, or premium content.\n\n## Real-World Applications\n\nCustom subnetting tools can serve various purposes:\n\n**Educational platforms**: Embed an interactive subnetting module directly into online courses for IT certification (e.g., CCNA, CompTIA Network+).\n\n**Corporate Training**: Develop internal tools for new network engineers to quickly grasp IP addressing schemes specific to the company's infrastructure.\n\n**Network Design & Planning**: Create a tool that also suggests optimal subnet sizes based on host requirements and helps visualize future network expansion plans.\n\n**Troubleshooting Aids**: A quick, visual reference tool for engineers to verify IP configurations on the fly during network outages or changes.\n\n## Kliv's Role in Building Your Vision\n\nKliv transforms your ideas into functional applications with the power of AI. Imagine describing the features you want, and watching the basic structure of your subnetting calculator and visualizer materialize. This iterative process allows for rapid development, testing, and refinement, putting powerful bespoke tools within reach without extensive coding knowledge."
+    },
+    {
+      "title": "Subnetting Tool Ideas to Get Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Calculate all subnet details for a given IP and mask.",
+          "prompt": "Build a basic subnetting calculator that takes an IPv4 address and subnet mask (or CIDR), then outputs the network ID, broadcast address, first and last usable host IPs, and the total number of usable hosts.",
+          "title": "Basic IPv4 Calculator"
+        },
+        {
+          "description": "Visualize subnet divisions and host ranges.",
+          "prompt": "Create a tool that visualizes a given network address space, showing how it's divided into subnets, with interactive elements to highlight host ranges within each subnet.",
+          "title": "Subnet Visualizer"
+        },
+        {
+          "description": "Help students practice subnetting problems.",
+          "prompt": "Develop an interactive subnetting quiz application that generates random subnetting problems (e.g., 'Given an IP and desired hosts, find the correct subnet mask'), validates answers, and provides explanations.",
+          "title": "Interactive Subnetting Quiz"
+        },
+        {
+          "description": "Plan network addresses with a hierarchical view.",
+          "prompt": "Design a network planning tool that allows users to input a large network block and then subdivide it hierarchically, visualizing the allocation of IP ranges to different departments or locations.",
+          "title": "Hierarchical Network Planner"
+        },
+        {
+          "description": "IPv6 address calculation and explanation tool.",
+          "prompt": "Build an IPv6 address interpreter that parses IPv6 addresses, identifies prefix, interface ID, and provides information on common IPv6 address types (e.g., link-local, global unicast).",
+          "title": "IPv6 Address Analyzer"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for Your Subnetting Tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a feature that allows users to save and load their network designs or subnetting problems for later review.",
+          "title": "Add Save/Load Functionality"
+        },
+        {
+          "prompt": "Develop a module that generates scenario-based subnetting problems, like 'A company needs to divide a /24 network into 4 subnets with specific host requirements. Calculate the subnet details.'",
+          "title": "Implement Scenario Generation"
+        },
+        {
+          "prompt": "Add a historical logging feature that tracks calculations made, allowing users to review their subnetting work over time.",
+          "title": "Include Calculation History"
+        },
+        {
+          "prompt": "Integrate an explanation section for each calculation result, detailing the steps on how values like network ID or broadcast address are derived.",
+          "title": "Provide Step-by-Step Explanations"
+        },
+        {
+          "prompt": "Create an export function to download subnetting results and visualizations into common formats like CSV, PDF, or image files.",
+          "title": "Add Export Options"
+        },
+        {
+          "prompt": "Develop a feature that accepts a list of required host groups and automatically suggests optimal subnet masks or even calculates a Variable Length Subnet Mask (VLSM) schema.",
+          "title": "Introduce VLSM Planning"
+        },
+        {
+          "prompt": "Add a drag-and-drop interface where users can visually resize subnet blocks and see the CIDR and host count change dynamically.",
+          "title": "Implement Interactive Visual Editing"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Network Tools",
+      "type": "features",
+      "items": [
+        {
+          "description": "Perform precise IPv4/IPv6 calculations for network ID, broadcast, hosts, and ranges.",
+          "icon": "🧮",
+          "title": "Accurate IP Calculation Engine"
+        },
+        {
+          "description": "Graphical representation of network address spaces, subnet divisions, and host ranges.",
+          "icon": "📊",
+          "title": "Interactive Visualizer"
+        },
+        {
+          "description": "Generate practice problems and validate user solutions for self-paced learning.",
+          "icon": "🧠",
+          "title": "Problem Generator & Solver"
+        },
+        {
+          "description": "Adapt to different input formats like CIDR notation or dotted decimal subnet masks.",
+          "icon": "⚙️",
+          "title": "Flexible Input Handling"
+        },
+        {
+          "description": "Provide clear, step-by-step explanations for how calculations are derived.",
+          "icon": "📚",
+          "title": "Educational Explanations"
+        },
+        {
+          "description": "Mobile-friendly design for on-the-go learning or quick lookups.",
+          "icon": "📱",
+          "title": "Responsive Design"
+        }
+      ]
+    },
+    {
+      "title": "Questions on Building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv provides the platform to generate the application's code and infrastructure. You will need a cloud hosting provider (like AWS, Azure, Google Cloud, or even a local server) to deploy the application. Kliv can help generate deployment scripts.",
+          "question": "Where will my custom subnetting tool be hosted?"
+        },
+        {
+          "answer": "No, extensive coding is not required. Kliv uses AI to interpret your descriptions and build the application's components. While understanding basic networking concepts is helpful, you don't need to be a programmer to create a functional tool.",
+          "question": "Do I need to be a software developer to build this type of application?"
+        },
+        {
+          "answer": "Absolutely. Since you own the generated code, you have full control over its customization. You can add new features, integrate with other systems, or modify the user interface as your requirements evolve. Kliv's AI can assist with these modifications too.",
+          "question": "Can I modify the tool after it's initially built?"
+        },
+        {
+          "answer": "The time varies based on complexity. A basic calculator can be prototyped in hours. Adding advanced visualizations, quiz modes, or API integrations might take a few days of iterative development and refinement.",
+          "question": "How long does it typically take to go from concept to a working tool?"
+        },
+        {
+          "answer": "Costs primarily involve your Kliv subscription for development and the ongoing hosting fees for your chosen cloud provider. In the long run, this is typically more cost-effective than licensing specialized, feature-limited software, especially if you plan to use or distribute it widely.",
+          "question": "What are the typical costs associated with building and maintaining such a tool?"
+        },
+        {
+          "answer": "Kliv outputs the application in standard programming languages and frameworks (e.g., Python, JavaScript with React/Vue, Go). This means the code is open and auditable, allowing you to ensure its accuracy and security, and make improvements if needed.",
+          "question": "How can I ensure the accuracy and reliability of the calculations and visualizations?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Demystify IP Addressing?",
+      "type": "cta",
+      "content": "Stop relying on generic tools. Build a custom, intuitive subnetting calculator and visualizer tailored for your educational or professional needs with Kliv."
+    }
+  ],
+  "title": "Subnetting Calculator & Visualizer"
+}

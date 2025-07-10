@@ -1,0 +1,175 @@
+{
+  "defaultPrompt": "I want to create a data visualization and reporting tool that can connect to multiple data sources, generate interactive dashboards, and schedule automated reports for my team.",
+  "description": "Transform complex data into clear insights with custom data visualization and reporting applications built on Kliv.",
+  "hero": {
+    "cta": "Start building your dashboard",
+    "subtitle": "Turn raw data into actionable intelligence with AI-powered data visualization and reporting applications.",
+    "title": "Build your own data visualization & reporting tools"
+  },
+  "metaDescription": "Create powerful, custom data visualization and reporting tools with Kliv. Connect diverse data sources, build interactive dashboards, and automate insights for better decision-making.",
+  "sections": [
+    {
+      "title": "Why build your own data visualization and reporting tool?",
+      "type": "text",
+      "content": "In today's data-rich environment, simply collecting data isn't enough. Businesses need to understand it, quickly. Generic dashboard and reporting solutions often fall short, offering limited customization, rigid data connectors, and a 'one-size-fits-all' approach that rarely fits anyone perfectly.\n\nBuilding your own data visualization and reporting tool with a platform like Kliv means you gain complete control. You can tailor every chart, every report, and every data connection to your precise business needs, delivering insights that are truly relevant and actionable, not just pre-packaged."
+    },
+    {
+      "title": "The power of custom data insights",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nMany organizations rely on commercial business intelligence (BI) tools that promise comprehensive analytics. However, these tools often come with significant drawbacks:\n\n- **Steep learning curves**: Complex interfaces and features mean long adoption times.\n- **Connector limitations**: Struggle to integrate with niche or custom internal data sources.\n- **Generic visualizations**: Lack the specific chart types or custom layouts unique to your industry or business processes.\n- **Costly licenses**: Subscription models can become prohibitively expensive, especially as users scale.\n- **Data silo issues**: Often require data to be moved or transformed repeatedly, leading to inconsistencies.\n\n## Why a custom-built solution is a game-changer\n\nLeveraging Kliv's AI-powered platform for data visualization and reporting offers unparalleled advantages:\n\n### Unrestricted data connectivity\nConnect directly to any database, API, spreadsheet, or legacy system. No more forcing your data into a pre-defined schema or struggling with missing connectors. Your data, however it lives, is accessible.\n\n### Tailored visual storytelling\nDesign dashboards and reports that speak your business's language. Create custom chart types, combine data from disparate sources into a single view, and build bespoke interactive elements that guide users to key insights.\n\n### Complete ownership and cost efficiency\nPay for the development, not perpetual licenses. Your custom tool is an asset you own, free from recurring subscription fees that escalate with usage or features. This means predictable costs and long-term savings.\n\n### Scalable and adaptable\nAs your business evolves, so can your reporting tool. Add new metrics, integrate new data streams, or enhance functionalities without vendor lock-in or additional per-feature costs. Your solution grows with you.\n\n### Enhanced security and data governance\nControl precisely where your data resides and who can access it. Implement custom security protocols that align with your company's compliance requirements, reducing external data exposure risks.\n\n## Real-world impact\n\nCustom data visualization tools are transforming how businesses operate:\n\n**Financial Services**: A custom dashboard integrating real-time market data with internal client portfolios, allowing wealth managers to quickly identify investment opportunities and risks.\n\n**Manufacturing**: An operations reporting tool combining IoT sensor data from production lines with ERP inventory levels, identifying bottlenecks and optimizing throughput in real-time.\n\n**Healthcare**: A patient outcome tracking system that visualizes treatment efficacy based on demographic data and clinical trials, supporting evidence-based medicine and personalized patient care.\n\n**Retail**: A sales performance dashboard merging online and in-store sales data, customer demographics, and marketing campaign performance to optimize promotional strategies.\n\n## The AI-assistance for rapid development\n\nBuilding sophisticated data applications used to require a team of specialized developers. Kliv revolutionizes this by:\n\n- **Natural language interface**: Describe the charts, reports, and data connections you need in plain English.\n- **Automated setup**: AI assists in configuring data connectors and initial dashboard layouts.\n- **Intelligent suggestions**: Receive recommendations for chart types, data transformations, and performance optimizations.\n- **Rapid iteration**: See your visualizations come to life quickly, allowing for immediate feedback and adjustments.\n\nWith Kliv, the power to build precise, high-impact data visualization and reporting tools is now within reach for anyone with a clear vision of their data needs."
+    },
+    {
+      "title": "Data visualization ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track website visits, conversions, and user behavior in real-time",
+          "prompt": "Create an interactive web analytics dashboard that pulls data from Google Analytics and my CRM, displaying real-time traffic, conversion rates by source, and user engagement metrics.",
+          "title": "Website performance dashboard"
+        },
+        {
+          "description": "Monitor sales trends, customer segments, and product performance",
+          "prompt": "Build a sales performance reporting tool that connects to my Salesforce account and ERP system, allowing me to view monthly sales trends, top-performing products, regional sales distribution, and individual rep performance.",
+          "title": "Sales & revenue insights"
+        },
+        {
+          "description": "Visualize key financial metrics and forecast future performance",
+          "prompt": "Develop a financial dashboard that integrates data from QuickBooks and my budgeting software, showing revenue vs. expense, profit margins, cash flow, and providing a customizable forecasting module.",
+          "title": "Custom financial reporting"
+        },
+        {
+          "description": "Gain insights into employee productivity and project status",
+          "prompt": "Design a project management dashboard that pulls data from Jira and Slack, displaying active projects, task completion rates, team workload distribution, and communication volume by project.",
+          "title": "Project & team productivity"
+        },
+        {
+          "description": "Track supply chain efficiency and identify bottlenecks",
+          "prompt": "Create a supply chain visualization tool that combines data from my inventory management system and shipping providers, showing real-time stock levels, delivery statuses, supplier performance, and potential disruptions.",
+          "title": "Supply chain efficiency tracker"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your reporting tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication system with different roles (e.g., admin, viewer) to control access to specific dashboards or reports.",
+          "title": "Implement user access controls"
+        },
+        {
+          "prompt": "Integrate AI-driven anomaly detection to automatically flag unusual data patterns or performance deviations in the dashboards.",
+          "title": "Add AI-powered anomaly detection"
+        },
+        {
+          "prompt": "Build a mobile-responsive interface for all dashboards so they are easily viewable and interactive on smartphones and tablets.",
+          "title": "Create a mobile-friendly view"
+        },
+        {
+          "prompt": "Add a feature to export dashboards to PDF or CSV, and schedule these exports to be sent via email to stakeholders weekly.",
+          "title": "Automate report distribution"
+        },
+        {
+          "prompt": "Incorporate predictive analytics models to forecast future trends based on historical data within the reports.",
+          "title": "Integrate predictive analytics"
+        },
+        {
+          "prompt": "Allow users to drill down into specific data points on charts to view underlying raw data or related dimensions.",
+          "title": "Enable drill-down functionality"
+        },
+        {
+          "prompt": "Add functionality for users to create and save their own custom report views or dashboard layouts.",
+          "title": "Allow custom report creation"
+        },
+        {
+          "prompt": "Connect to a public API (e.g., weather data, stock prices) and overlay that data on existing business metrics.",
+          "title": "Add external data integration"
+        },
+        {
+          "prompt": "Implement an alerting system that sends notifications (email, Slack) when a certain metric crosses a predefined threshold.",
+          "title": "Set up customizable alerts"
+        }
+      ]
+    },
+    {
+      "title": "Key visualization & reporting features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to diverse data sources: databases, APIs, spreadsheets, cloud services, and more.",
+          "icon": "🔗",
+          "title": "Universal Data Connectivity"
+        },
+        {
+          "description": "Design interactive dashboards with customizable charts, graphs, and widgets.",
+          "icon": "📈",
+          "title": "Custom Dashboard Builder"
+        },
+        {
+          "description": "Generate automated reports on a schedule, with options for various formats (PDF, CSV).",
+          "icon": "📧",
+          "title": "Scheduled Reporting"
+        },
+        {
+          "description": "Filter, sort, and segment data dynamically for deeper dives and focused analysis.",
+          "icon": "🔬",
+          "title": "Interactive Data Filters"
+        },
+        {
+          "description": "Ensure data accuracy and consistency with built-in validation and transformation tools.",
+          "icon": "⚙️",
+          "title": "Data Transformation & ETL"
+        },
+        {
+          "description": "Define user roles and permissions to control access to sensitive data and dashboards.",
+          "icon": "🔒",
+          "title": "Secure Access Controls"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic data visualization and reporting tool can take anywhere from a few hours to a few days using Kliv, depending on the complexity of your data sources and desired visualizations. Larger, more integrated systems might take a bit longer.",
+          "question": "How quickly can I build a data visualization tool with Kliv?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv uses AI to interpret your natural language descriptions of the dashboards and reports you want, guiding you through the process of connecting data and designing layouts.",
+          "question": "Do I need to know how to code to build these tools?"
+        },
+        {
+          "answer": "Yes, your custom tool can connect to virtually any data source that has an API, a database connection, or can export data into common formats (like CSV, Excel). This includes your CRM, ERP, marketing platforms, financial systems, and more.",
+          "question": "Can I connect my existing business data sources?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and your data. Kliv is a platform for building, not a host that locks you into its ecosystem. You own the intellectual property.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Custom-built solutions typically have a higher upfront cost but result in significant long-term savings by eliminating recurring subscription fees. Over time, they are often much more cost-effective than commercial BI tools.",
+          "question": "How does the cost compare to off-the-shelf BI tools?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are designed for flexibility. You can easily modify dashboards, add new data sources, adjust reports, or implement new features as your business requirements evolve, without relying on a vendor's update schedule.",
+          "question": "Can I modify or expand my reporting tool after it's built?"
+        },
+        {
+          "answer": "Since you control the deployment and hosting, you can implement robust security measures tailored to your specific compliance needs. This often provides a higher level of security assurance than relying on a third-party SaaS provider.",
+          "question": "Is a custom data visualization tool secure?"
+        },
+        {
+          "answer": "Kliv's platform provides AI-driven assistance throughout the building process. For ongoing maintenance, since you own the code, you have complete control. We also offer resources and communities to help you manage your applications.",
+          "question": "What kind of support is available after the tool is built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unlock your data's full potential?",
+      "type": "cta",
+      "content": "Stop wrestling with generic dashboards. Build a data visualization and reporting tool that truly empowers your decisions."
+    }
+  ],
+  "title": "Data Visualization & Reporting Tools"
+}

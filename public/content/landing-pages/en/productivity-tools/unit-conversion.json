@@ -1,0 +1,171 @@
+{
+  "defaultPrompt": "I want to create a highly customizable unit conversion tool with support for various categories like length, weight, volume, and temperature, and the ability to add custom units.",
+  "description": "Build custom unit conversion tools with Kliv to handle any measurement challenge.",
+  "hero": {
+    "cta": "Start Converting",
+    "subtitle": "Create powerful, accurate, and personalized unit conversion applications tailored to your specific industry or daily needs.",
+    "title": "Build Your Own Custom Unit Conversion Tools"
+  },
+  "metaDescription": "Develop bespoke unit conversion software with Kliv. Support any unit type, integrate into workflows, and ensure precision for your professional and personal projects.",
+  "sections": [
+    {
+      "title": "Why off-the-shelf converters fall short",
+      "type": "text",
+      "content": "In a world of diverse measurements, standard unit conversion apps often lack the specificity and flexibility required by professionals and hobbyists alike. They might miss obscure units, fail to integrate with your workflow, or present an overwhelming interface without customization options. Kliv empowers you to build a converter that not only handles common units but also supports industry-specific, historical, or even custom-defined measurements."
+    },
+    {
+      "title": "The power of a custom conversion solution",
+      "type": "markdown",
+      "content": "## Precision and Personalization\n\nOff-the-shelf unit converters, while convenient, are designed for the masses. This means they often miss the nuanced requirements of specialized fields like engineering, construction, scientific research, or even culinary arts where precision and specific unit sets are paramount.\n\n### Limits of Generic Solutions:\n\n- **Missing Niche Units**: Rarely include historical units, highly specific industry units (e.g., specific gravity in petroleum, bespoke material densities), or the ability to define your own.\n- **Lack of Workflow Integration**: You're constantly switching apps, copy-pasting values, disrupting your focus.\n- **Interface Clutter**: Packed with conversions you never use, making it less efficient for your frequent tasks.\n- **Data Privacy Concerns**: Relying on web-based tools might expose sensitive project data.\n\n## The Argument for Bespoke Converters\n\nBuilding your own unit conversion tool with Kliv allows you to develop an application that is perfectly aligned with your requirements, offering significant advantages:\n\n### Unrivaled Accuracy & Specificity\nImplement conversion factors and rules that are precisely relevant to your domain. Need to convert between different regional systems for construction, or handle archaic units for historical research? No problem. Define them once, use them consistently.\n\n### Seamless Workflow Integration\nDesign your converter to live where you work. As a desktop application, a mobile app, or even a component embedded within a larger project management system. Eliminate manual data transfer and reduce errors.\n\n### Streamlined User Experience\nCreate an interface that's intuitive *for you*. Only display the unit categories and conversion types you frequently use. This customization drastically improves efficiency and reduces mental overhead.\n\n### Data Security & Ownership\nYour custom tool runs on your infrastructure (or a secure cloud setup you control), ensuring that sensitive data conversions (e.g., material quantities for a confidential project) remain private and secure.\n\n## Transformative Applications:\n\n**Engineering Firms**: Custom tool for converting between various international pipe sizes, material strengths, and flow rates, integrating specific industry standards.\n\n**Scientific Researchers**: Application that handles complex chemical concentrations, light intensities, or subatomic particle measurements, potentially linking directly to lab equipment.\n\n**Architects & Builders**: Converter for imperial to metric measurements, material weights, and volume calculations, considering regional building codes and material specifications.\n\n**Culinary Professionals**: Tool for precise conversions between weight, volume, and density for ingredients, adaptable to international recipes and specific cooking methods.\n\n## AI-Powered Development for Precision\n\nKliv leverages advanced AI to simplify the creation of complex calculations and robust interfaces. Describe the units, categories, and conversion logic you need, and Kliv helps generate the underlying code and structure, making it faster and easier than ever to build highly specialized tools."
+    },
+    {
+      "title": "Unit conversion ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Convert between standard and metric length, weight, and volume units.",
+          "prompt": "Create a general-purpose unit converter for common measurements like feet to meters, pounds to kilograms, and liters to gallons.",
+          "title": "General Purpose Converter"
+        },
+        {
+          "description": "Specific conversions for building materials and site measurements.",
+          "prompt": "Build a construction unit converter that handles cubic yards to cubic meters, pounds per square inch to kilopascals, and rebar sizes.",
+          "title": "Construction Measurement Tool"
+        },
+        {
+          "description": "Conversions for chemical concentrations, volumes, and reaction rates.",
+          "prompt": "Develop a scientific unit converter that includes conversions for moles to grams, joules to calories, and Kelvin to Celsius, with support for significant figures.",
+          "title": "Scientific Lab Converter"
+        },
+        {
+          "description": "Adjust recipes for different scales, ingredients, and regional units.",
+          "prompt": "Design a culinary unit converter that converts between cups, grams, ounces, and liters, and allows saving custom ingredient densities for accurate conversions.",
+          "title": "Recipe Scaling Converter"
+        },
+        {
+          "description": "Convert file sizes, data transfer rates, and storage capacities.",
+          "prompt": "Create a data storage unit converter that handles bytes, kilobytes, megabytes, gigabytes, and terabytes, including network speed units like Mbps and Gbps.",
+          "title": "Digital Measurement Converter"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your converter",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to save frequently used conversions or custom unit sets for quick access.",
+          "title": "Save Custom Presets"
+        },
+        {
+          "prompt": "Integrate calculation history and allow users to revisit or reuse past conversions.",
+          "title": "Conversion History"
+        },
+        {
+          "prompt": "Enable the tool to work offline for use in remote locations or low-connectivity environments.",
+          "title": "Offline Capability"
+        },
+        {
+          "prompt": "Allow users to input conversion formulas for entirely new or highly specialized units.",
+          "title": "Custom Unit Definitions"
+        },
+        {
+          "prompt": "Create an API endpoint so other applications or scripts can access the conversion functionality programmatically.",
+          "title": "API Integration"
+        },
+        {
+          "prompt": "Add a user interface for managing and displaying conversion ratios and an editor for them.",
+          "title": "Manage Conversion Ratios"
+        },
+        {
+          "prompt": "Implement a 'copy to clipboard' button for results and an auto-paste for input from clipboard.",
+          "title": "Clipboard Integration"
+        },
+        {
+          "prompt": "Allow the application to export conversion logs or reports to CSV or PDF.",
+          "title": "Export Results"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of Custom Converters",
+      "type": "features",
+      "items": [
+        {
+          "description": "Support for a vast array of unit categories, from common to highly specialized.",
+          "icon": "📐",
+          "title": "Flexible Unit Categories"
+        },
+        {
+          "description": "Define and save your own unique units and their conversion factors.",
+          "icon": "✨",
+          "title": "Custom Unit Support"
+        },
+        {
+          "description": "High-precision calculation engine for reliable results every time.",
+          "icon": "💡",
+          "title": "Accurate Conversion Engine"
+        },
+        {
+          "description": "Tailor the interface and unit selection to your specific needs.",
+          "icon": "🖥️",
+          "title": "Personalized Interface"
+        },
+        {
+          "description": "Seamlessly integrate with other software or workflows you use.",
+          "icon": "🚀",
+          "title": "Integration Capabilities"
+        },
+        {
+          "description": "Ensure your conversion data is secure and private, managed by you.",
+          "icon": "🔒",
+          "title": "Data Security"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The time varies depending on complexity. A basic, general-purpose converter can be operational in hours, while highly specialized tools with custom unit definitions and integrations might take a few days to fully develop and refine.",
+          "question": "How long will it take to build my custom unit converter?"
+        },
+        {
+          "answer": "No coding expertise is needed. Kliv's platform allows you to describe your desired unit categories, specific units, and conversion logic using natural language. The AI translates your requirements into a functional application.",
+          "question": "Do I need to be a programmer to build a converter with Kliv?"
+        },
+        {
+          "answer": "Absolutely. Your custom converter can be designed to integrate with existing APIs, databases, or even popular productivity suites, allowing you to pull or push data seamlessly within your current tools.",
+          "question": "Can my custom converter integrate with my existing software or systems?"
+        },
+        {
+          "answer": "You retain full ownership of the application you build. This includes the code, the custom unit definitions, and any data processed by your converter. You have complete control and can host it as you wish.",
+          "question": "Who owns the custom unit converter once it's built?"
+        },
+        {
+          "answer": "While there's an initial development investment, in the long run, building your own tool on Kliv can be significantly more cost-effective than continuous subscriptions to commercial software that may not even meet all your needs. You pay once and own it.",
+          "question": "How does the cost compare to subscribing to commercial conversion software?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. You can easily add new unit categories, update conversion factors, introduce new functionalities, or modify the interface as your requirements evolve over time, without relying on third-party updates.",
+          "question": "Can I modify or expand my converter after its initial creation?"
+        },
+        {
+          "answer": "Kliv facilitates building secure applications. Since you control the deployment environment and data handling, you can implement robust security measures tailored to your specific needs, often exceeding the security of generic online tools.",
+          "question": "Is a custom unit converter built with Kliv secure for sensitive calculations?"
+        },
+        {
+          "answer": "Kliv provides AI-driven assistance throughout the development process. For specific implementation challenges or advanced features, the platform offers guided solutions and suggestions. Since you gain access to the underlying code, you can also involve traditional developers if highly specialized customization is needed.",
+          "question": "What kind of support is available during the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate conversion tool?",
+      "type": "cta",
+      "content": "Stop settling for generic. Create a unit converter that's as precise and specialized as your work demands. Start building with Kliv today."
+    }
+  ],
+  "title": "Custom Unit Conversion Tools"
+}

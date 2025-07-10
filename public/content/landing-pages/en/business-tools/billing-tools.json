@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a custom billing tool that can manage subscriptions, generate invoices, track payments, and integrate with my accounting software.",
+  "description": "Build custom billing and invoicing applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your billing tool",
+    "subtitle": "Create bespoke billing and invoicing applications tailored to your business needs, powered by Kliv's intelligent development platform.",
+    "title": "Build your own custom billing tools"
+  },
+  "metaDescription": "Create powerful custom billing and invoicing tools with Kliv. Automate payments, manage subscriptions, and ensure financial accuracy with applications built specifically for your business.",
+  "sections": [
+    {
+      "title": "The challenge with generic billing solutions",
+      "type": "text",
+      "content": "In today's dynamic business environment, off-the-shelf billing software often falls short. It's either too restrictive for your unique pricing models, lacks specific reporting capabilities, or forces you into expensive, convoluted integrations. This leads to manual workarounds, data silos, and a lack of real-time financial visibility. Your billing system should be an asset, not a bottleneck."
+    },
+    {
+      "title": "Why a custom billing solution is a strategic advantage",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf software\n\nMany businesses struggle with billing software that:\n\n- **Doesn't support complex pricing**: From usage-based models to tiered subscriptions, generic tools can't handle nuanced business logic.\n- **Lacks integration flexibility**: Connecting to your CRM, ERP, or custom internal systems becomes a costly, developer-heavy nightmare.\n- **Forces compromise**: You end up adjusting your business processes to fit the software, rather than the software supporting your processes.\n- **Incurs growing costs**: Per-user fees, transaction charges, and add-on modules can quickly escalate, impacting your bottom line.\n- **Provides limited insights**: Standard reports don't always give you the granular data needed for strategic financial decisions.\n\n## The power of tailored billing\n\nBuilding your own billing tool with Kliv allows you to:\n\n### Handle any billing model\nWhether you operate with subscriptions, one-time payments, usage-based fees, or complex hybrid models, your custom tool can be designed to automate every aspect, including pro-rata calculations, discounts, and custom tax rules.\n\n### Seamlessly integrate with your ecosystem\nConnect directly to your existing sales, service, and accounting platforms. Eliminate manual data entry, reduce errors, and ensure a single source of truth for all financial data.\n\n### Gain unparalleled financial intelligence\nDesign custom dashboards and reports that provide real-time insights into revenue, arrears, customer churn, and payment trends, empowering smarter business decisions.\n\n### Reduce operational overhead\nAutomate invoice generation, payment reminders, dunning processes, and reconciliation. Free up your finance team to focus on strategic tasks rather than repetitive administrative work.\n\n### Future-proof your operations\nAs your business evolves, your billing system can evolve with it. Easily add new features, adjust pricing structures, or onboard new product lines without costly software migrations or vendor lock-in.\n\n## Real-world impact\n\nCustom billing tools are driving efficiency and growth across various sectors:\n\n**SaaS Companies**: Automated subscription management with personalized tiered pricing, usage tracking, and automatic prorated adjustments for upgrades/downgrades.\n\n**Professional Services**: Project-based billing with detailed time tracking, expense management, and client-specific payment terms and milestone invoicing.\n\n**Utility Providers**: Complex consumption-based billing that factors in different rates, peak/off-peak usage, and regulatory fees with integrated payment gateways.\n\n**Education**: Student tuition management systems with flexible payment plans, scholarship tracking, and automated overdue payment notifications.\n\n## The Kliv advantage\n\nCreating custom software used to be complex and expensive. Kliv changes this by:\n\n- **Leveraging AI for rapid development**: Describe your billing needs in plain language, and Kliv helps generate the core application.\n- **Providing customizable templates**: Start with powerful foundations and tailor them to your precise specifications.\n- **Handling technical complexities**: Focus on your business logic, not server management or database architecture.\n- **Ensuring scalability and reliability**: Your custom tool can grow with your business, handling increasing transaction volumes securely."
+    },
+    {
+      "title": "Billing tool ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate recurring payments and subscription lifecycle management",
+          "prompt": "Create a subscription billing system for a SaaS product that handles monthly and annual plans, prorated upgrades/downgrades, and automated dunning for failed payments.",
+          "title": "Subscription management platform"
+        },
+        {
+          "description": "Generate and send professional invoices automatically",
+          "prompt": "Build an invoicing application that generates professional invoices from sales orders, sends them to clients, tracks payment status, and sends automated reminders for overdue amounts.",
+          "title": "Automated invoicing system"
+        },
+        {
+          "description": "Manage customer balances and collect payments efficiently",
+          "prompt": "Develop an accounts receivable solution that tracks outstanding invoices, manages payment terms, processes various payment methods, and provides a clear overview of customer balances.",
+          "title": "Accounts receivable tracker"
+        },
+        {
+          "description": "Bill clients based on actual service consumption",
+          "prompt": "Design a usage-based billing tool for a cloud service that processes consumption data from APIs, calculates charges based on different rate cards, and generates consolidated statements.",
+          "title": "Usage-based billing calculator"
+        },
+        {
+          "description": "Streamline client project billing and revenue recognition",
+          "prompt": "Build a project billing tool for a consulting firm that integrates with time tracking, allows for milestone billing, handles retainers, and generates detailed project invoices.",
+          "title": "Project billing & expense manager"
+        },
+        {
+          "description": "Automate refunds, credits, and dispute resolution",
+          "prompt": "Create a billing adjustments system that can process refunds, issue credit memos, manage chargebacks, and provide a clear audit trail for all billing corrections.",
+          "title": "Billing adjustments & credit manager"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your billing application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now, add a feature for multi-currency support and real-time exchange rate conversion for international clients.",
+          "title": "Multi-currency invoicing"
+        },
+        {
+          "prompt": "Integrate a payment gateway (e.g., Stripe, PayPal) to process credit card payments directly within the application.",
+          "title": "Integrated payment processing"
+        },
+        {
+          "prompt": "Add a customer portal where clients can view invoices, check payment history, and update their billing information.",
+          "title": "Customer self-service portal"
+        },
+        {
+          "prompt": "Develop a reporting dashboard that visualizes MRR, ARR, churn rate, and payment trends over time.",
+          "title": "Advanced financial analytics"
+        },
+        {
+          "prompt": "Implement a dunning management system to automatically send reminders for upcoming and overdue payments with customizable escalation logic.",
+          "title": "Automated dunning processes"
+        },
+        {
+          "prompt": "Add functionality for managing discount codes, promotional offers, and complex pricing rules with validity periods.",
+          "title": "Flexible pricing & promotions"
+        },
+        {
+          "prompt": "Incorporate automated tax calculation based on location and product type, with compliance for various tax regulations.",
+          "title": "Automated tax compliance"
+        },
+        {
+          "prompt": "Add a robust audit trail and compliance reporting feature to meet financial regulations and internal controls.",
+          "title": "Audit trail & compliance reporting"
+        }
+      ]
+    },
+    {
+      "title": "Core billing functionalities you can build",
+      "type": "features",
+      "items": [
+        {
+          "description": "Generate professional invoices automatically based on services rendered or products sold.",
+          "icon": "📄",
+          "title": "Automated Invoice Generation"
+        },
+        {
+          "description": "Manage recurring subscriptions, plans, and customer billing cycles with ease.",
+          "icon": "🔄",
+          "title": "Subscription & Recurring Billing"
+        },
+        {
+          "description": "Track incoming payments, reconcile accounts, and manage receivables efficiently.",
+          "icon": "💰",
+          "title": "Payment Tracking & Reconciliation"
+        },
+        {
+          "description": "Define and apply custom pricing rules, discounts, and tiered structures.",
+          "icon": "💲",
+          "title": "Flexible Pricing Models"
+        },
+        {
+          "description": "Automate reminders for due payments, overdue notices, and dunning sequences.",
+          "icon": "🔔",
+          "title": "Automated Reminders & Dunning"
+        },
+        {
+          "description": "Generate detailed reports on revenue, churn, payment status, and financial health.",
+          "icon": "📊",
+          "title": "Customizable Financial Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions about building billing tools with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic custom billing tool with Kliv can take anywhere from a few hours to a couple of days for more complex features. The AI accelerates the setup significantly compared to traditional development.",
+          "question": "How quickly can I build a custom billing system?"
+        },
+        {
+          "answer": "No, extensive coding is not required. Kliv's platform allows you to describe your desired billing logic and features using natural language, and the AI assists in generating the application. You primarily focus on defining your business rules.",
+          "question": "Do I need to be a programmer to create a billing tool?"
+        },
+        {
+          "answer": "Yes, custom billing tools built with Kliv can be integrated with virtually any third-party system that offers an API or standard data export options. This includes popular accounting software (e.g., QuickBooks, Xero), CRMs (e.g., Salesforce), and ERPs.",
+          "question": "Can my custom billing tool integrate with my existing accounting or CRM software?"
+        },
+        {
+          "answer": "With Kliv, you own the intellectual property and the complete codebase of your custom billing tool. This ensures total control over your financial data and operational logic, without vendor lock-in.",
+          "question": "Who owns the billing application once it's built?"
+        },
+        {
+          "answer": "Typically, a custom-built solution involves an upfront investment for development, which often becomes more cost-effective than continuous, escalating SaaS subscription fees over the medium to long term. You avoid per-transaction or per-user charges found in many off-the-shelf solutions.",
+          "question": "Is building a custom billing tool more cost-effective than using commercial software?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are designed for flexibility. As your business evolves, you can easily modify pricing models, add new product lines, integrate new payment methods, or adjust reporting insights without relying on a vendor's release schedule.",
+          "question": "How flexible is a custom billing tool for future business changes?"
+        },
+        {
+          "answer": "Kliv’s platform provides the tools to build secure applications, including features for access control, data encryption, and compliance readiness. You retain control over your data environment, which can often exceed the security postures of generic SaaS providers.",
+          "question": "Is a custom-built billing tool secure and compliant?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your billing operations?",
+      "type": "cta",
+      "content": "Stop conforming to generic billing software. Build a precision-engineered financial tool that works exactly how your business needs it to, with Kliv's powerful no-code platform."
+    }
+  ],
+  "title": "Custom billing & invoicing tools"
+}

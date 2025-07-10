@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "Create a modern leaderboard application for esports tournaments that tracks player stats, displays real-time rankings, and includes player profiles with match history.",
+  "description": "Build custom leaderboard and scorekeeping applications for gaming and esports with Kliv's AI platform.",
+  "hero": {
+    "cta": "Start building your leaderboard",
+    "subtitle": "Track player performance, build competitive communities, and showcase achievements with custom-built scoring apps.",
+    "title": "Build your own gaming leaderboards & scorekeeping apps"
+  },
+  "metaDescription": "Create powerful, custom leaderboard and scorekeeping tools for any game or esports league. Kliv's AI-powered platform lets you build exactly what you need.",
+  "sections": [
+    {
+      "title": "The challenge of off-the-shelf scorekeeping",
+      "type": "text",
+      "content": "In the fast-paced world of gaming and esports, generic leaderboards often fall short. They lack crucial integrations, customizable scoring rules, and the dynamic real-time updates that competitive players and organizers demand.\n\nBuilding your own gives you the flexibility to define unique ranking systems, integrate with specific game APIs, and create an engaging experience tailored precisely to your community or tournament."
+    },
+    {
+      "title": "Why custom leaderboards give you the competitive edge",
+      "type": "markdown",
+      "content": "## Beyond basic rankings\n\nMost off-the-shelf leaderboard solutions are built for very generic use cases. They offer limited customization, often only tracking simple scores or wins. For serious gaming communities, esports organizations, or even casual competitive groups, this isn't enough.\n\n### Limitations of generic tools:\n- **Rigid scoring**: Can't implement complex scoring algorithms based on multi-variable performance.\n- **Lack of integration**: Struggles to pull data directly from game APIs or custom data sources.\n- **Poor scalability**: Fails under high concurrent user load during major events.\n- **Limited presentation**: Generic templates don't reflect your brand or audience's aesthetic.\n- **Missing features**: No player profiles, historical data, or deep analytics.\n\n## The power of a tailored solution\n\nBuilding your own leaderboard and scorekeeping app with Kliv means you're creating a system that's a perfect fit. Here's why it's a game-changer:\n\n### Precision Scoring & Ranking\nImplement any scoring logic imaginable. Track kills, assists, objectives, accuracy, gold per minute, or any custom metric relevant to your game. Create advanced ranking algorithms that factor in multiple stats, consistency, or match difficulty. Your leaderboards will genuinely reflect skill.\n\n### Real-time Dynamics\nIntegrate directly with game servers or APIs to update scores and rankings in real-time. Players see immediate feedback, boosting engagement and competitive spirit. No more manual updates or delayed results.\n\n### Full Data Control & Ownership\nYour data, your rules. Host your data securely, define access levels, and ensure privacy. You're not beholden to a third-party platform's data policies or potential service interruptions.\n\n### Enhanced Community Engagement\nOffer rich player profiles, head-to-head comparisons, match history archives, and even predictive analytics. Turn a simple list of names into a vibrant hub for your gaming community.\n\n### Scalability & Performance\nBuild for the scale you need. From a small club to a massive esports league, your custom application can handle thousands of concurrent players and millions of data points without breaking a sweat.\n\n## Real-world applications\n\n- **Esports Tournament Management**: Automated score ingestion from game APIs, live ranking updates, bracket generation, and player statistics.\n- **Casual Gaming Leagues**: Track progress in weekly gaming sessions, manage handicaps, and maintain historical performance data across seasons.\n- **Arcade & Event Scoring**: Custom interfaces for tracking high scores on specific games during events, complete with public display screens.\n- **Fitness Gaming Challenges**: Create leaderboards for exergames, tracking performance metrics like steps, distance, or calories burned.\n\nWith Kliv, the complexities of custom software development are handled by AI. You focus on defining the perfect competitive experience, and Kliv helps you build it."
+    },
+    {
+      "title": "Leaderboard & scorekeeping ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track player stats and rankings for a single game tournament.",
+          "prompt": "Build a leaderboard for a Valorant tournament that tracks kills, assists, deaths, and calculates KDA, displaying live rankings with player profiles.",
+          "title": "Esports tournament leaderboard"
+        },
+        {
+          "description": "Manage a recurring league with season-based rankings.",
+          "prompt": "Create a scorekeeping app for a local bowling league, tracking individual game scores, series totals, handicaps, and league standings across multiple seasons.",
+          "title": "Community gaming league tracker"
+        },
+        {
+          "description": "Display high scores for arcade or casual games.",
+          "prompt": "Develop a public-facing digital high score board for an arcade game, allowing players to submit scores and see their rank instantly.",
+          "title": "Arcade high score system"
+        },
+        {
+          "description": "Track performance in real-time for multi-game events.",
+          "prompt": "Design a scorekeeping system for a competitive board game event (e.g., Catan tournament), allowing judges to input scores per round and automatically calculating overall standings.",
+          "title": "Tabletop game event scorer"
+        },
+        {
+          "description": "Monitor internal team performance in competitive video games.",
+          "prompt": "Build an internal company leaderboard for a team playing Rocket League, tracking wins, losses, goals, and saves, with weekly performance reports.",
+          "title": "Internal gaming team tracker"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your competitive platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add capabilities for users to create and manage their own private leagues within the application.",
+          "title": "Add custom league creation"
+        },
+        {
+          "prompt": "Implement a chat system for players and organizers to communicate directly within the app.",
+          "title": "Integrate player chat"
+        },
+        {
+          "prompt": "Include a news feed or announcement section for tournament updates and community news.",
+          "title": "Develop a news feed"
+        },
+        {
+          "prompt": "Add a feature for visual bracket generation that updates automatically with match results.",
+          "title": "Build dynamic tournament brackets"
+        },
+        {
+          "prompt": "Allow players to upload VODs (video on demand) of their matches to their profiles.",
+          "title": "Enable VOD uploads"
+        },
+        {
+          "prompt": "Provide an API for third-party tools to interact with the leaderboard data.",
+          "title": "Create public APIs"
+        },
+        {
+          "prompt": "Implement a prediction market feature where users can bet virtual currency on match outcomes.",
+          "title": "Add a prediction market"
+        },
+        {
+          "prompt": "Create a 'hall of fame' section for top players or past champions.",
+          "title": "Develop a Hall of Fame"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your app",
+      "type": "features",
+      "items": [
+        {
+          "description": "Implement any custom scoring rules based on multiple game metrics.",
+          "icon": "🔢",
+          "title": "Flexible Scoring Engine"
+        },
+        {
+          "description": "Integrate with game APIs for automated, real-time score ingestion.",
+          "icon": "⚡",
+          "title": "Real-time Data Sync"
+        },
+        {
+          "description": "Create individual player profiles with stats, match history, and achievements.",
+          "icon": "👤",
+          "title": "Player Profiles"
+        },
+        {
+          "description": "Display custom leaderboards, rankings, and historical data.",
+          "icon": "🏆",
+          "title": "Dynamic Leaderboards"
+        },
+        {
+          "description": "Visualize player performance and trends with charts and graphs.",
+          "icon": "📈",
+          "title": "Advanced Analytics"
+        },
+        {
+          "description": "Ensure your app handles high volumes of players and data seamlessly.",
+          "icon": "🚀",
+          "title": "Scalable Architecture"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom leaderboard with Kliv can take anywhere from a few hours for a basic system to a few days or weeks for a comprehensive, feature-rich platform, depending on complexity.",
+          "question": "How long does it take to create a custom leaderboard application?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv’s AI-driven platform allows you to describe your requirements in plain language, and it assists in generating the application code and infrastructure.",
+          "question": "Do I need coding skills to build a gaming leaderboard?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with almost any game API (like Riot Games API, Steamworks API, etc.), custom databases, or data sources to pull real-time stats and information.",
+          "question": "Can I integrate my leaderboard with specific game APIs?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and your data. Kliv helps you build it; you control it completely.",
+          "question": "Who owns the leaderboard application and data once it's built?"
+        },
+        {
+          "answer": "Custom-built applications offer significant long-term cost benefits. While there's an initial build cost, you avoid recurring subscription fees common with off-the-shelf solutions, saving money over time.",
+          "question": "How does the cost compare to using existing leaderboard SaaS platforms?"
+        },
+        {
+          "answer": "Absolutely. One of the main advantages of building with Kliv is the flexibility to modify, expand, or add new features to your leaderboard application at any time as your needs evolve.",
+          "question": "Can I update or add features to my leaderboards after they are live?"
+        },
+        {
+          "answer": "Your application can be designed to handle significant user loads, making it suitable for small community leagues up to large-scale esports tournaments. Scalability is built into the architecture.",
+          "question": "Will a custom leaderboard be able to handle a large number of players or tournaments?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to elevate your game?",
+      "type": "cta",
+      "content": "Stop relying on generic tools. Build the ultimate competitive platform tailored to your community today."
+    }
+  ],
+  "title": "Custom Leaderboard & Scorekeeping Apps"
+}

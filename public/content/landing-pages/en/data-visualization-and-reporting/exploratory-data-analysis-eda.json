@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create an Exploratory Data Analysis (EDA) tool that can connect to various data sources, generate interactive visualizations, identify patterns and outliers, and provide basic statistical summaries.",
+  "description": "Unlock insights from your data with custom Exploratory Data Analysis (EDA) tools built on Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start exploring your data",
+    "subtitle": "Transform raw data into actionable insights with tailor-made EDA applications powered by Kliv's intuitive development environment.",
+    "title": "Build your own Exploratory Data Analysis (EDA) tools"
+  },
+  "metaDescription": "Create powerful Exploratory Data Analysis (EDA) tools with Kliv. Connect to diverse data sources, generate interactive visualizations, and uncover hidden patterns for better decision-making.",
+  "sections": [
+    {
+      "title": "The challenge of data exploration",
+      "type": "text",
+      "content": "In today's data-rich world, mere data collection isn't enough. To make informed decisions, you need to understand your data deeply—its structure, patterns, anomalies, and underlying relationships. While off-the-shelf EDA tools offer broad functionality, they often fall short when it comes to domain-specific needs, unique data formats, or integrating seamlessly with your existing infrastructure.\n\nBuilding your own custom EDA tool addresses these limitations directly. It allows you to create an analytical environment perfectly suited to your data, your questions, and your team's specific workflows, without the overhead of unused features or rigid templates."
+    },
+    {
+      "title": "Why custom EDA is a game-changer",
+      "type": "markdown",
+      "content": "## Standard tools vs. tailored insights\n\nGeneric business intelligence (BI) and analytics platforms are powerful, but they are designed for a wide audience. This often means:\n\n- **Limited flexibility**: Struggling to connect exotic data sources or perform highly specialized transformations.\n- **Feature bloat**: Paying for complex features you'll never use, while lacking niche functionalities critical to your analysis.\n- **Integration headaches**: Difficulty in embedding analyses directly into operational workflows or proprietary systems.\n- **Steep learning curves**: Requiring users to adapt to the tool's paradigms rather than the tool adapting to the user.\n\n## The power of bespoke data exploration\n\nCreating an EDA tool with Kliv offers unparalleled advantages:\n\n### Precision-engineered for your data\nWhether you're dealing with sensor data, customer behavior logs, financial transactions, or scientific measurements, a custom EDA tool can be built to natively understand and process your data's unique characteristics. This means faster insights, fewer errors, and more relevant visualizations.\n\n### Seamless integration\nEmbed your analytical capabilities directly into your existing operational dashboards, internal applications, or reporting systems. This eliminates manual data exports and imports, streamlining the analytical pipeline.\n\n### Focused insights, less noise\nDesign your tool to answer specific business questions. Remove unnecessary clutter and provide only the most relevant visual and statistical outputs, making it easier for users to identify key trends and anomalies without getting lost in generic reports.\n\n### Cost-effective and scalable\nAvoid perpetual subscription fees that scale with users or data volume. A custom solution is a one-time build that you own, ensuring long-term cost predictability. As your data grows, your self-built tool scales with your infrastructure, not an external vendor's pricing model.\n\n### Empowering non-technical users\nAbstract away the complexity of data science by pre-configuring critical analytical functions. Business analysts, domain experts, and decision-makers can perform sophisticated explorations with intuitive interfaces, without needing to write a single line of code or understand complex statistical models.\n\n## Real-world impact through custom EDA\n\nCustom EDA tools are revolutionizing various sectors:\n\n**Financial Services**: Analyzing trading data for high-frequency patterns, detecting fraudulent transactions in real-time, or performing granular risk assessments.\n\n**Healthcare**: Exploring patient demographics to identify disease clusters, analyzing clinical trial data for drug efficacy, or optimizing hospital resource allocation.\n\n**Manufacturing**: Identifying root causes of production defects, optimizing supply chain logistics based on sensor data, or predicting equipment failures through historical maintenance logs.\n\n**Marketing**: Understanding customer journeys across multiple touchpoints, segmenting audiences based on behavior, or A/B test result analysis at a granular level.\n\n## AI-driven development for data exploration\n\nKliv leverages the power of AI to simplify the creation of sophisticated EDA tools:\n\n- **Intuitive interface generation**: Describe your data and desired explorations, and AI helps generate the right UI.\n- **Smart visualization suggestions**: AI analyzes your data types and suggests optimal charts and graphs.\n- **Automated data preparation**: Simplify data cleaning, transformation, and feature engineering with AI-guided processes.\n- **Interactive query building**: Build complex data queries using natural language, making data extraction effortless.\n\nBuilding your custom EDA tool isn't about replacing data scientists; it's about empowering everyone in your organization to ask better questions and find faster answers. With Kliv, you control your analytical destiny."
+    },
+    {
+      "title": "EDA tool ideas to spark your innovation",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize sales trends, customer segments, and product performance.",
+          "prompt": "Create an EDA tool for retail sales data. It should connect to our CRM database, visualize monthly sales figures by product category and region, identify top-performing sales reps, and highlight discount impact on margins.",
+          "title": "Retail Sales Analytics Dashboard"
+        },
+        {
+          "description": "Analyze website visitor behavior, traffic sources, and conversion funnels.",
+          "prompt": "Build an EDA application to explore website analytics data. I need to visualize user paths, identify common exit pages, compare traffic sources effectiveness, and analyze conversion rates for different landing pages.",
+          "title": "Web Traffic & User Behavior Explorer"
+        },
+        {
+          "description": "Track sensor readings, identify anomalies, and predict maintenance needs.",
+          "prompt": "Develop an EDA system for IoT sensor data from manufacturing equipment. It should display real-time temperature and pressure readings, highlight unusual spikes or drops, and allow for historical trend analysis to predict equipment failure.",
+          "title": "IoT Device Performance Monitor"
+        },
+        {
+          "description": "Review clinical trial outcomes, patient demographics, and treatment efficacy.",
+          "prompt": "I need an EDA tool for clinical trial data. It should allow me to explore patient demographics, track adverse events, visualize drug efficacy over time, and compare outcomes across different treatment groups.",
+          "title": "Clinical Trial Data Investigator"
+        },
+        {
+          "description": "Explore transactional data for fraud detection patterns and financial health.",
+          "prompt": "Create an EDA application for financial transaction data. It should visualize transaction volumes over time, identify high-risk transactions based on deviations from normal patterns, and allow filtering by transaction type, value, and origin.",
+          "title": "Financial Transaction Anomaly Detector"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your EDA capabilities",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a natural language processing module to allow users to ask data questions in plain English and generate relevant visualizations.",
+          "title": "Add Natural Language Query (NLQ)"
+        },
+        {
+          "prompt": "Implement a machine learning module for automated outlier detection and anomaly flagging in time-series data.",
+          "title": "Incorporate Anomaly Detection ML"
+        },
+        {
+          "prompt": "Enable users to create and save custom dashboards and share them with specific team members with varying access levels.",
+          "title": "Build Shareable Dashboards"
+        },
+        {
+          "prompt": "Add capabilities to connect directly to cloud data warehouses like Snowflake, BigQuery, and Redshift.",
+          "title": "Expand Cloud Data Integrations"
+        },
+        {
+          "prompt": "Develop mobile-optimized views for key visualizations and reports, enabling on-the-go data exploration.",
+          "title": "Create Mobile Reporting Views"
+        },
+        {
+          "prompt": "Add a feature for data storytelling, allowing users to annotate charts and export a narrative report.",
+          "title": "Introduce Data Storytelling"
+        },
+        {
+          "prompt": "Integrate with external APIs to pull in real-time public data (e.g., weather, stock prices) for contextual analysis.",
+          "title": "Enable External API Data Pulls"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your custom EDA tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to databases, APIs, spreadsheets, and cloud data sources.",
+          "icon": "🔌",
+          "title": "Versatile Data Connectors"
+        },
+        {
+          "description": "Generate interactive charts, graphs, and statistical plots instantly.",
+          "icon": "📈",
+          "title": "Dynamic Visualizations"
+        },
+        {
+          "description": "Apply filters, sort, and group data on the fly for focused insights.",
+          "icon": "🔍",
+          "title": "Advanced Filtering & Grouping"
+        },
+        {
+          "description": "Automatically detect and highlight outliers and unusual data points.",
+          "icon": "🚨",
+          "title": "Anomaly Detection"
+        },
+        {
+          "description": "Quickly view descriptive statistics (mean, median, std dev, etc.).",
+          "icon": "📊",
+          "title": "Statistical Summaries"
+        },
+        {
+          "description": "Transform, clean, and prepare data for analysis with intuitive tools.",
+          "icon": "⚙️",
+          "title": "Data Transformation"
+        },
+        {
+          "description": "Store and manage analytical projects, dashboards, and reports.",
+          "icon": "🗄️",
+          "title": "Project Management"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic EDA tool on Kliv can take just a few hours. More complex systems with advanced integrations or machine learning modules might extend to a few days or weeks, depending on your requirements.",
+          "question": "How quickly can I build an EDA tool using Kliv?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer or a data scientist. Kliv's platform is designed for users to describe their needs in natural language, and the AI assists in generating the necessary components and logic.",
+          "question": "Is coding knowledge required to build an EDA application?"
+        },
+        {
+          "answer": "Yes, custom EDA applications built on Kliv can integrate with virtually any data source, including SQL/NoSQL databases, cloud data warehouses, APIs, flat files (CSV, Excel), and even streaming data sources.",
+          "question": "What kind of data sources can my custom EDA tool connect to?"
+        },
+        {
+          "answer": "You retain full ownership of the custom EDA tool you build, including its code and intellectual property. You can deploy it anywhere and modify it as your needs evolve, free from vendor lock-in.",
+          "question": "Who owns the EDA tool I create on Kliv?"
+        },
+        {
+          "answer": "Custom EDA tools built with Kliv generally have a lower total cost of ownership compared to recurring SaaS subscriptions. You invest once in development and avoid ongoing user or data volume-based fees.",
+          "question": "How does the cost compare to existing EDA software licenses?"
+        },
+        {
+          "answer": "Absolutely. The flexibility of a custom-built solution means you can continuously add new features, adjust visualizations, integrate new data sources, or refine analytical models as your business questions change.",
+          "question": "Can I modify or expand my EDA tool after it's been built?"
+        },
+        {
+          "answer": "Security is paramount. When you build with Kliv, you control the data's journey from source to insight. You can implement your organization's specific security protocols, compliance measures, and access controls tailored to your policies.",
+          "question": "How secure are custom EDA applications?"
+        },
+        {
+          "answer": "Kliv provides AI-guided assistance throughout the development process, including intelligent suggestions for data modeling, visualization choices, and debugging. Additionally, you'll find extensive documentation and community support.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unlock your data's full potential?",
+      "type": "cta",
+      "content": "Stop conforming to off-the-shelf limitations. Build the exact data exploration tool your business needs to uncover game-changing insights."
+    }
+  ],
+  "title": "Exploratory Data Analysis Tools"
+}

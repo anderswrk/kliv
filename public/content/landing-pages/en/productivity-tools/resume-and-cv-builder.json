@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a resume/CV builder that allows users to select from templates, input their professional information, customize content, and export as PDF. It should also offer AI-powered suggestions for improvements.",
+  "description": "Develop custom, intelligent resume and CV builders tailored to specific professional niches or user needs using Kliv's AI platform.",
+  "hero": {
+    "cta": "Start Building Your Builder",
+    "subtitle": "Go beyond generic templates. Create dynamic, intelligent resume and CV builders that help users stand out, crafted precisely for your niche or audience.",
+    "title": "Build Your Own Resume & CV Builder"
+  },
+  "metaDescription": "Empower job seekers with a powerful, custom resume and CV builder. Use Kliv to create an application with AI writing assistance, tailored templates, intuitive design, and seamless export options.",
+  "sections": [
+    {
+      "title": "Why Develop a Specialized Resume/CV Builder?",
+      "type": "text",
+      "content": "In today's competitive job market, a generic resume simply won't cut it. Job seekers need tools that help them present their skills and experience in the most impactful way, often tailored to specific industries, roles, or even company cultures. While many online builders exist, they rarely offer the deep specialization or unique features that niche audiences truly need.\n\nBuilding your own resume and CV builder with Kliv lets you address these unmet needs directly. You can embed specific industry jargon, offer AI-driven content suggestions unique to a field, or design export formats that align with particular application systems. This isn't just about creating another tool; it's about building a highly targeted solution that empowers your users to succeed."
+    },
+    {
+      "title": "The Strategic Advantage of Custom Resume & CV Tools",
+      "type": "markdown",
+      "content": "## The Limitations of Off-the-Shelf Resume Software\n\nMany existing resume builders are designed for the broadest possible audience, leading to several key drawbacks:\n\n-   **Generic Templates**: Lacking the specific visual or structural requirements for certain professions (e.g., creative portfolios vs. corporate CVs).\n-   **Limited Customization**: Users are often stuck with predefined sections and rigid formatting, making it hard to highlight unique qualifications.\n-   **No Niche Expertise**: They don't understand the nuances of specific industries, like legal, medical, tech, or artistic fields, often resulting in bland or inappropriate language.\n-   **Data Privacy Concerns**: Users are often wary of uploading sensitive career data to third-party services that may not have robust privacy policies.\n-   **Subscription Traps**: Many free builders hide essential features behind paywalls, frustrating users.\n\n## Why a Tailored Solution Wins\n\nDeveloping a custom resume and CV builder provides significant benefits, allowing you to:\n\n### Serve a Specific Niche with Precision\nImagine a builder specifically for tech professionals, automatically formatting GitHub links and project portfolios. Or one for academics, specializing in publications and research grants. A custom tool can speak directly to the unique needs of a vertical market.\n\n### Integrate Intelligent Assistance\nLeverage AI to offer real-time suggestions for action verbs, industry-specific keywords, or even rewrite sentences to better fit a job description. This level of personalized assistance is rarely found in generic tools.\n\n### Maintain Full Control Over Data & Features\nIf you're building a tool for your university's career services, your recruitment agency, or a professional association, you control the data and ensure it adheres to your privacy standards. You also dictate the feature roadmap, adding functionalities as your users' needs evolve.\n\n### Offer Unique Value Propositions\nPerhaps your builder integrates directly with a specific job board, offers a unique CV analysis feature, or generates cover letters automatically from resume content. Customization allows for true innovation.\n\n## Real-world Impact Scenarios\n\n-   **University Career Centers**: Provide students with a branded, highly effective builder that understands academic achievements and internship structuring.\n-   **Recruitment Agencies**: Expedite candidate screening by generating uniform, parsable resumes from diverse candidate inputs, or offering a premium service to clients for job application optimization.\n-   **Professional Associations**: Equip members with a tool that highlights industry-specific certifications, contributions, and project methodologies.\n-   **Tech Incubators**: Offer a builder focused on startup roles, showcasing agile methodologies, product ownership, and technical stacks.\n\n## The Kliv Advantage in Builder Development\n\nBuilding a sophisticated application like a resume builder used to require extensive coding. Kliv's AI-powered platform changes that:\n\n-   **Rapid Prototyping**: Quickly iterate on designs and features without writing lines of code.\n-   **AI-Assisted Content Generation**: Embed features that suggest improvements to users' descriptions with smart AI prompts.\n-   **Flexible Data Models**: Easily define and manage the structured data (experience, education, skills) that drives the resume content.\n-   **Export & Integration**: Seamlessly implement PDF export, web publishing, or API integrations with job platforms.\n\nBy leveraging Kliv, you can create a powerful, highly specialized resume and CV builder that delivers exceptional value, rather than just another generic utility."
+    },
+    {
+      "title": "Resume Builder Ideas to Inspire You",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a builder for specific industry nuances.",
+          "prompt": "Design a resume builder optimized for software engineers, specifically with sections for GitHub profile, coding languages, project links, and an AI assistant that suggests technical keywords for job descriptions.",
+          "title": "Niche-Specific Builder (e.g., Tech)"
+        },
+        {
+          "description": "Simplify resume creation from LinkedIn profiles.",
+          "prompt": "Build a tool that imports a user's LinkedIn profile data, allows them to select a template, and then generates a professional resume that adheres to best practices for ATS (Applicant Tracking Systems).",
+          "title": "LinkedIn-to-Resume Converter"
+        },
+        {
+          "description": "Generate CVs specific to academic roles.",
+          "prompt": "Develop a CV builder for academics and researchers, including specific sections for publications (APA/MLA formatting), research grants, conferences, and teaching experience. Include templates optimized for academic job applications.",
+          "title": "Academic CV Generator"
+        },
+        {
+          "description": "Focus on visual appeal and portfolio integration.",
+          "prompt": "Create a creative portfolio builder that also generates a concise resume. It should prioritize visual elements, allow embedding of design projects or art, and export as a visually rich PDF.",
+          "title": "Graphic Designer/Artist Resume"
+        },
+        {
+          "description": "Automate cover letter generation.",
+          "prompt": "Build a combined resume and cover letter builder where the AI automatically drafts a personalized cover letter based on keywords from the user's resume and a provided job description.",
+          "title": "Resume + AI Cover Letter"
+        },
+        {
+          "description": "Integrate interview preparation features.",
+          "prompt": "Design a resume tool that, once the resume is finalized, suggests common interview questions based on the listed skills and experience, and allows users to practice responses.",
+          "title": "Resume & Interview Prep Tool"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Builder with Advanced Features",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add an AI-powered content improver that can rephrase bullet points for impact and suggest action verbs.",
+          "title": "AI Content Optimization"
+        },
+        {
+          "prompt": "Implement an ATS (Applicant Tracking System) compatibility checker that scans the generated resume and offers suggestions for keyword inclusion.",
+          "title": "ATS Compatibility Checker"
+        },
+        {
+          "prompt": "Develop a feature allowing users to create multiple versions of their resume tailored to different job applications, saving each version.",
+          "title": "Multi-Version Resume Management"
+        },
+        {
+          "prompt": "Integrate a module for generating personalized cover letters based on the resume content and a target job description.",
+          "title": "Automated Cover Letter Generator"
+        },
+        {
+          "prompt": "Add a collaboration feature where users can share their resume drafts with mentors or friends for review and feedback.",
+          "title": "Collaborative Editing"
+        },
+        {
+          "prompt": "Include an analytics dashboard for users to track how many times their resume has been viewed or downloaded via a shared link.",
+          "title": "Resume View Analytics"
+        },
+        {
+          "prompt": "Implement a 'quick apply' feature that auto-fills application forms on popular job boards using the resume data.",
+          "title": "Job Application Auto-Filler"
+        },
+        {
+          "prompt": "Develop a feature to import data directly from external sources like academic transcripts or project management tools.",
+          "title": "External Data Import"
+        },
+        {
+          "prompt": "Allow users to purchase premium templates or receive expert review services directly within the builder interface.",
+          "title": "Monetization & Service Integration"
+        }
+      ]
+    },
+    {
+      "title": "Core Capabilities for Your Resume Builder",
+      "type": "features",
+      "items": [
+        {
+          "description": "Provide a range of professional, customizable templates.",
+          "icon": "📝",
+          "title": "Template Library"
+        },
+        {
+          "description": "Intuitive forms for inputting personal, experience, and education details.",
+          "icon": "✍️",
+          "title": "Guided Data Entry"
+        },
+        {
+          "description": "Ensure resumes can be parsed accurately by Applicant Tracking Systems.",
+          "icon": "🔍",
+          "title": "ATS Optimization"
+        },
+        {
+          "description": "Allow users to download their complete resume in PDF format.",
+          "icon": "📄",
+          "title": "PDF Export"
+        },
+        {
+          "description": "Allow direct control over fonts, colors, and layout for brand consistency.",
+          "icon": "🎨",
+          "title": "Styling Customization"
+        },
+        {
+          "description": "Intelligent suggestions for improving content, keywords, and phrasing.",
+          "icon": "✨",
+          "title": "AI Writing Assistant"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional resume builder with core features on Kliv can be achieved in a matter of days or even hours. More advanced features like AI integration and complex analytics might extend development time slightly.",
+          "question": "How long will it take to build a resume builder on Kliv?"
+        },
+        {
+          "answer": "No prior coding experience is required. Kliv's platform uses natural language processing, allowing you to describe the features and functionality you want, and the AI translates that into a working application.",
+          "question": "Do I need to be a programmer to build this application?"
+        },
+        {
+          "answer": "Yes, you have full control over data storage and privacy settings. You can host the application securely on your own servers or a cloud provider of your choice, ensuring compliance with your specific data handling requirements.",
+          "question": "Can I ensure user data privacy and security?"
+        },
+        {
+          "answer": "Absolutely. Kliv-built applications are designed for flexibility. You can continuously add new features, adjust templates, or modify existing logic as the job market or your users' needs evolve.",
+          "question": "Can I easily update or add new features after the initial build?"
+        },
+        {
+          "answer": "With Kliv, you own the intellectual property and the underlying code. This means you have complete freedom to define your monetization strategy, whether it's through premium features, subscriptions, or partnership integrations.",
+          "question": "Can I monetize the resume builder I create?"
+        },
+        {
+          "answer": "Certainly. Kliv allows for the integration of various APIs, enabling your builder to connect with other services like email providers for sharing, cloud storage for saving, or even job boards for direct application.",
+          "question": "Is it possible to integrate the builder with other services or platforms?"
+        },
+        {
+          "answer": "Yes, applications built with Kliv are inherently scalable. Whether you have dozens or millions of users, the platform allows you to scale resources up or down as needed, ensuring consistent performance.",
+          "question": "How scalable are applications built with Kliv?"
+        },
+        {
+          "answer": "Kliv provides extensive documentation, tutorials, and an active community forum. For more complex challenges, dedicated support is available to guide you through the development and deployment process.",
+          "question": "What kind of support is available if I encounter issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Help Professionals Land Their Dream Jobs?",
+      "type": "cta",
+      "content": "Stop relying on limited, generic tools. Build a specialized resume and CV builder that genuinely empowers job seekers and stands out in the market."
+    }
+  ],
+  "title": "Custom Resume & CV Builder"
+}

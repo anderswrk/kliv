@@ -1,0 +1,161 @@
+{
+  "defaultPrompt": "I want to create a document generation tool for legal contracts that pulls client data from a CRM, selects clauses based on case type, and generates a review-ready PDF with version control.",
+  "description": "Build custom document automation and generation applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start generating",
+    "subtitle": "Eliminate manual document creation, reduce errors, and accelerate your workflows with AI-powered custom apps.",
+    "title": "Build your own document automation and generation tools"
+  },
+  "metaDescription": "Create powerful document automation and generation tools with Kliv. Streamline operations, reduce manual effort, and ensure data accuracy in your documents.",
+  "sections": [
+    {
+      "title": "The burden of manual document creation",
+      "type": "text",
+      "content": "In many businesses, creating documents remains a time-consuming, error-prone, and frustrating process. From contracts and proposals to reports and invoices, the manual assembly of information, formatting, and proofreading saps productivity and introduces risks.\n\nOff-the-shelf document solutions often fall short, failing to adapt to unique business logic, specific data sources, or the precise formatting requirements your organization demands. The promise of efficiency is lost in endless template adjustments and data re-entry.\n\nImagine a world where your documents generate themselves, perfectly tailored, error-free, and instantly ready for use. This isn't just a dream – with Kliv, you can build it."
+    },
+    {
+      "title": "Why build a custom document automation hub?",
+      "type": "markdown",
+      "content": "## The hidden costs of manual document processes\n\nMany organizations underestimate the true cost of manual document creation. It's not just about the time spent; it's about:\n\n- **Increased errors**: Human error in data entry or clause selection can lead to significant financial or legal repercussions.\n- **Slow turnaround times**: Delays in generating critical documents can impact sales cycles, client onboarding, or project delivery.\n- **Inconsistent branding and messaging**: Without centralized control, documents can vary widely in appearance and content.\n- **Security risks**: Manually handling sensitive data across multiple unsecure systems increases vulnerability.\n- **Lost productivity**: Valuable employee time is spent on repetitive tasks instead of strategic work.\n\n## The power of precision: Custom document generation\n\nBuilding your own document automation and generation tool with Kliv transforms these challenges into opportunities. Here’s why a custom solution designed for your specific needs is superior:\n\n### Unmatched accuracy and compliance\nCustom tools ensure that every document adheres to predefined rules, pulls correct data, and includes all necessary clauses, significantly reducing errors and ensuring regulatory compliance.\n\n### Lightning-fast turnaround\nAutomate document assembly, data population, and formatting to generate complex documents in seconds, not hours or days.\n\n### Perfect fit for your data and workflows\nGeneric tools struggle with unique data structures or complex business logic. A custom application integrates seamlessly with your existing databases, CRMs, or other systems, using *your* data, *your* way.\n\n### Cost-efficiency beyond subscriptions\nWhile SaaS tools come with perpetual subscription fees that scale with usage or features, a custom solution is a tangible asset. Invest once, operate indefinitely, and scale functionality without escalating costs.\n\n### Centralized control and version management\nEnsure brand consistency and legal compliance across all documents. Implement robust version control and audit trails to track every change.\n\n## Real-world impact\n\nCustom document automation solutions are revolutionizing operations across diverse sectors:\n\n**Legal**: Instantly generate tailored contracts, agreements, and pleadings by integrating client data and case specifics, ensuring legal accuracy and consistency.\n\n**Sales**: Automatically produce personalized proposals, quotes, and sales agreements, featuring dynamic pricing and product descriptions, accelerating the sales cycle.\n\n**Human Resources**: Streamline the creation of offer letters, employment contracts, policy documents, and performance reviews, ensuring compliance and reducing HR workload.\n\n**Financial Services**: Automate the generation of loan documents, investment reports, and client statements, ensuring regulatory adherence and reducing manual data handling.\n\n## How AI makes it accessible\n\nKliv revolutionizes document automation by enabling you to articulate your needs in plain language. Our AI platform then crafts the application, allowing you to:\n\n- **Describe your document logic**: Tell the AI how you want data to flow and what rules govern content.\n- **Rapidly prototype templates**: Design and test document layouts and content blocks iteratively.\n- **Integrate with existing systems**: Connect to your data sources without complex coding.\n- **Iterate and refine swiftly**: Modify your document generation logic or templates on the fly.\n\nStop adapting your needs to rigid software. Start building the precise document automation tool that empowers your business to operate faster, with greater accuracy, and complete control."
+    },
+    {
+      "title": "Document automation inspiration",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Automated sales proposal generator with dynamic pricing and product info driven by CRM data and pre-approved clause library, outputting a branded PDF, and notifying sales rep upon completion of proposal generation, ready to be sent to clients and saved to CRM records for historical tracking and audit purposes. The sales rep can preview and make minor edits before finalizing the document, and the system should also include an approval workflow for proposals exceeding a certain value or containing custom clauses and then track the approval status, ensuring that all necessary approvals are obtained before a proposal is sent out. After approval, the system should allow for secure electronic signature capture and then automatically update the CRM when the document is signed, creating a complete audit trail of the process and ensuring data accuracy across all systems, while also ensuring that new products and pricing updates are automatically reflected in the proposals without manual intervention, and that the system can generate proposals on demand or based on predefined triggers such as an opportunity stage change. The system should manage multiple proposal templates so that reps can select the most appropriate one based on account type or opportunity size, ensuring consistency across the entire sales organization and reducing manual customization efforts. The system will also provide analytics on proposal generation times and approval rates, helping sales leadership continuously optimize the proposal process and identify areas for improvement. The system should send automated reminders to approvers if a proposal is pending their review for more than 24 hours, ensuring that no bottleneck occurs in the sales cycle. Additionally, the system will support multilingual proposals allowing sales representatives to generate documents in the client’s preferred language, with content automatically translated where appropriate, and should automatically save a copy of the generated proposal in a designated cloud storage, tagged with relevant metadata for easy retrieval and compliance purposes. Finally, the system should integrate with a contract lifecycle management (CLM) system to ensure smooth handoff from proposal to contract, reducing data duplication and errors between systems. The goal is to minimize administrative burdens on the sales team, allowing them to focus more on selling rather than on document preparation. Additionally, the system should include features for version control and change tracking, ensuring that all iterations of proposals are recorded and auditable, especially when modifications are made prior to final approval or signing. This level of detail ensures that all legal and sales-related requirements are met comprehensively through fully automated processes. It should also be scalable to handle increasing volumes of proposals and users, adapting to the growth of the sales organization. The system should provide a user-friendly interface that allows sales representatives to quickly input necessary information and generate proposals without requiring extensive training, and also allow for custom branding to be applied to different proposal templates based on product line or regional requirements, maintaining a consistent professional image across all client interactions. It supports the generation of proposals with complex product configurations, allowing for the inclusion of detailed technical specifications and pricing models, ensuring that even intricate offerings are accurately presented. The system offers a robust reporting module that enables sales managers to generate reports on proposal activity, conversion rates, and pipeline health, providing valuable insights for strategic decision-making. Lastly, it integrates with popular email platforms to enable seamless distribution of proposals directly from the system, tracking email opens and clicks to provide further insights into client engagement and follow-up activities, ensuring a complete and efficient sales process from initial contact to successful deal closure. It will also have an offline mode capability, allowing sales reps to generate proposals even without an internet connection, with data syncing once connected. This ensures continuity of business operations in various environments and provides flexibility for remote sales teams. Additionally, the system will support custom workflows for different proposal types, allowing for tailored approval processes and routing based on the complexity or value of the proposal, ensuring that all unique business requirements are met. It will also provide an interactive element within the proposal, such as embedded videos or interactive pricing calculators, enhancing the client experience and engagement. The system should also notify the sales rep if any required fields are missing before proposal generation, ensuring completeness of information, and validate data entries against predefined rules to maintain accuracy and consistency. It will offer a robust audit trail, logging all actions performed on a proposal, from creation to approval and delivery, ensuring compliance with internal policies and external regulations. Finally, the system should recommend relevant content dynamically based on the proposal type and client industry during the creation process, leveraging AI to improve efficiency and relevance, and should allow for automated follow-up emails to be scheduled after a proposal is sent, reminding clients and tracking engagement to improve conversion rates. The ultimate goal is to empower sales teams with a tool that not only generates proposals but also intelligently assists them in securing deals more effectively and efficiently. Moreover, the system should include a feedback loop for continuous improvement of proposal templates and content, allowing sales management to identify what content performs best and optimize for future use. It also should integrate with other marketing automation tools to ensure that lead data and client interactions are seamlessly synchronized across platforms, providing a holistic view of the customer journey, and allowing for A/B testing of proposal elements to determine the most effective strategies for different client segments. The system should also handle localization, enabling the generation of proposals that adhere to regional legal and cultural nuances, providing a truly global solution. It supports various output formats beyond PDF, such as interactive web-based proposals or PowerPoint presentations, offering flexibility for client presentations. The system will track the actual time spent from proposal creation to deal closure, providing metrics for process optimization, and will include a secure client portal where clients can access their proposals, collaborate, and sign documents securely, enhancing the client experience. The system also should alert sales managers when a proposal is updated or accessed by a client, providing real-time engagement insights. And finally, the system will prevent duplicate proposals from being generated for the same client on the same opportunity, reducing clutter and ensuring data integrity. Automatically generate an executive summary, based on the proposal content for quick review."
+        },
+        {
+          "title": "HR offer letter & onboarding pack automation for a new recruit to an existing company within various different roles including standard employment, fixed term and part time, located across multiple countries that may have different local labor laws requiring different clauses or documents. The system pulls employee data from the HRIS, automatically selects relevant legal clauses based on country and contract type (standard, fixed-term, part-time), generates an offer letter, and an onboarding document pack (e.g. tax forms, policy acknowledgements, benefits enrollment forms). All documents should be pre-populated where possible for new joiners, with electronic signature integration, and then automatically filed in the employee's digital HR file. It also needs to trigger onboarding tasks for IT, payroll, and the hiring manager immediately as soon as the offer letter has been digitally signed, and sends a welcome notification to the new employee with instructions for accessing their onboarding portal and submitting documents, along with their start date and manager details. It should also send automated reminders to incomplete tasks, ensuring a smooth and compliant onboarding process until completion. The system needs to manage different offer letter templates per country and employment type (full-time, part-time, contractor), accommodating local legal requirements (e.g. notice periods, working hours, statutory benefits) and currency formats automatically. It should track the status of offer letters (sent, viewed, signed, declined) and onboarding tasks in real-time, providing an HR dashboard for oversight of all new hires. The system should also integrate with external background check services, triggering checks automatically once an offer is accepted and storing results securely, ensuring proper compliance. Additionally, it should allow HR to easily modify or create new document templates using a drag-and-drop interface without IT intervention, and include version control for all legal documents. The system should automatically generate a comprehensive onboarding checklist for each new hire based on their role and location, ensuring all necessary steps are completed. It must also support multi-language options for documents and communications to accommodate a diverse workforce. For audit purposes, the system should maintain a detailed log of all actions and modifications made to employee documents. It should also send automated notifications to relevant departments (e.g., IT for account setup, facilities for desk allocation) upon new hire confirmation, streamlining cross-departmental coordination. Finally, the system needs to be scalable to support a growing global workforce and integrate with an expense management system for initial setup of employee expense accounts, ensuring a seamless start for new employees and the ability to process expenses from day one without manual intervention, and additionally, create an automated workflow for sending initial training material packages (PDFs, videos, links to e-learning platforms) relevant to the employee's role and department as soon as their onboarding is confirmed. This will ensure they begin their training promptly and have access to necessary resources from the start. The system should also include an automated feedback mechanism for new hires to provide input on the onboarding process, allowing HR to continuously improve the experience and identify potential areas for optimization ensuring a smooth transition into the company. It should also manage probationary period reviews, automatically notifying managers when reviews are due and providing templates for feedback. This ensures timely performance assessment and supports employee development. And finally, the system should allow for secure remote access for new hires to complete onboarding documents from any location, enhancing convenience and reducing geographical barriers to onboarding. It should also track the completion rates of various onboarding tasks, providing insights into potential bottlenecks in the process. The system should integrate with calendaring applications to automatically schedule induction meetings and team introductions for the new hire, ensuring they are quickly integrated into their teams. It should also have a self-service portal for new employees to update their personal information, reducing administrative burden on HR. Additionally, the system should automatically generate welcome messages to be sent to the team about the new hire, fostering a welcoming environment. The system will handle document archiving automatically based on retention policies, ensuring legal compliance. And also provide a robust reporting feature for HR to analyze onboarding metrics, such as time-to-hire and completion rates, aiding in strategic workforce planning. This will create a holistic HR document automation and generation system."
+        },
+        {
+          "title": "Automated financial report generator for quarterly and annual financial statements based on general ledger data and a chart of accounts. It should include profit & loss statements, balance sheets, and cash flow statements, with comparative data from previous periods. The system should also include dynamic commentary generation for significant variances and key performance indicators. The reports need to be output in an excel and PDF format, ready for review by the finance team and distribution to stakeholders, ensuring data accuracy and compliance with accounting standards (e.g., IFRS/GAAP). It should also have an audit trail for all data sources and calculations used in the reports. The system should support multiple currencies and consolidation for various subsidiaries across different regions (e.g. EU, US, APAC), and be capable of generating reports for different business units within the company structure, allowing for granular financial analysis. It should integrate with the Enterprise Resource Planning (ERP) system to pull real-time financial data directly, reducing manual data extraction and risk of errors. Additionally, it should allow the finance team to define custom reporting periods and segment reports by specific criteria such as product line or customer segment. The system should automatically flag any discrepancies or anomalies in the data during the generation process, alerting the finance team for immediate investigation. It should also include a secure distribution module for sharing reports with specified stakeholders, with access controls and tracking for report views. For compliance, the system should ensure that all reports are version-controlled and archived according to regulatory requirements. Furthermore, it should provide a dashboard for finance managers to monitor the status of report generation and review cycles. It should also support the inclusion of non-financial data, such as operational metrics or market insights, to provide a more comprehensive view of the company's performance. The system should be able to generate ad-hoc reports based on specific queries from senior management, offering flexibility for urgent information needs. It must also have multi-level approval workflows for reports before finalization and distribution, ensuring accuracy and accountability. Finally, the system should automate the scheduling of recurring reports (e.g., weekly, monthly, quarterly) and facilitate their automatic distribution to predefined recipients. It should also provide a commentary feature that allows finance professionals to input qualitative analysis directly into the reports, alongside the quantitative data. This enhances the comprehensiveness of financial insights. The system needs to support the integration of budget and forecast data for variance analysis, ensuring that actual performance can be directly compared against planned figures. Also, the system should include robust data validation rules to prevent incorrect or incomplete financial data from being used in reports. This ensures the integrity of financial statements. It should also allow for drilling down into specific accounts or transactions directly from the generated reports, providing granular detail for deeper analysis. The system should automatically generate a narrative summary of key financial trends and anomalies, leveraging AI for preliminary analysis, and should also integrate with external market data sources to provide comparative industry benchmarks within the reports. This offers context for the company's financial performance. Finally, the system will provide a secure web-based portal for stakeholders to access and interact with reports, including capabilities for self-service analysis and custom views, ensuring that decision-makers have immediate access to the financial insights they need. Also, the system should allow for easy customization of report layouts and branding to align with corporate guidelines, maintaining a professional and consistent appearance across all financial communications. This will create a comprehensive document automation and generation system for financial reporting."
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your document generation tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user interface for creating and managing custom templates, including drag-and-drop elements and conditional logic for content insertion.",
+          "title": "Custom template builder"
+        },
+        {
+          "prompt": "Implement a machine learning model to suggest relevant clauses or data points based on the document's type and intended recipient, improving efficiency and accuracy.",
+          "title": "AI-powered content suggestions"
+        },
+        {
+          "prompt": "Integrate with various e-signature platforms (e.g., DocuSign, Adobe Sign) for a seamless digital signing process and automated status tracking.",
+          "title": "Enhanced e-signature integration"
+        },
+        {
+          "prompt": "Develop a module for real-time collaborative editing on generated documents, allowing multiple users to review and make changes before finalization, with full version history.",
+          "title": "Collaborative editing and version control"
+        },
+        {
+          "prompt": "Create custom APIs to allow other internal or external systems to trigger document generation programmatically and retrieve output files, enabling broader automation.",
+          "title": "API for external system integration"
+        },
+        {
+          "prompt": "Add a compliance module that analyzes generated documents against predefined legal or regulatory standards, flagging potential non-compliance or missing information.",
+          "title": "Automated compliance checks"
+        },
+        {
+          "prompt": "Implement a dynamic language translation feature within the document generator, allowing for documents to be generated in multiple languages based on recipient preference or location.",
+          "title": "Multi-language document generation"
+        },
+        {
+          "prompt": "Build a comprehensive analytics dashboard to track document generation volume, time savings, error rates, and user adoption, providing insights for continuous improvement.",
+          "title": "Document performance analytics"
+        }
+      ]
+    },
+    {
+      "title": "Key document automation capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automatically populate documents with data from various sources like CRMs, databases, and spreadsheets.",
+          "icon": "⚙️",
+          "title": "Dynamic data population"
+        },
+        {
+          "description": "Define rules-based logic to conditionally include or exclude clauses, paragraphs, or fields.",
+          "icon": "🧠",
+          "title": "Intelligent content selection"
+        },
+        {
+          "description": "Generate documents in various formats including PDF, Word, Excel, and HTML, retaining perfect formatting.",
+          "icon": "📤",
+          "title": "Multi-format output"
+        },
+        {
+          "description": "Track different versions of documents and maintain a clear audit trail of changes.",
+          "icon": "🕰️",
+          "title": "Version control & audit trails"
+        },
+        {
+          "description": "Integrate with electronic signature providers for streamlined signing workflows.",
+          "icon": "✍️",
+          "title": "E-signature integration"
+        },
+        {
+          "description": "Configure multi-step approval processes before document finalization and distribution.",
+          "icon": "✅",
+          "title": "Configurable approval flows"
+        },
+        {
+          "description": "Enable secure storage and organized retrieval of all generated documents.",
+          "icon": "🗄️",
+          "title": "Document archiving"
+        },
+        {
+          "description": "Set up automated triggers for document generation based on events, schedules, or database changes.",
+          "icon": "⏱️",
+          "title": "Automated triggers"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom document generation tool with Kliv can be remarkably fast. A basic system for templated documents can be operational within hours. More complex systems with multiple data integrations and approval workflows might take a few days to refine and deploy.",
+          "question": "How quickly can I build a document generation tool with Kliv?"
+        },
+        {
+          "answer": "You do not need to be a programmer to build tools with Kliv. Our platform uses advanced AI that understands natural language. You describe the documents you want to generate, the data sources, and the rules, and the AI translates that into a functional application.",
+          "question": "Do I need coding skills to create a document automation tool?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with most business systems that have an API. This includes CRMs (e.g., Salesforce), ERPs (e.g., SAP), HRIS (e.g., Workday), databases (e.g., SQL, MongoDB), cloud storage (e.g., SharePoint, Google Drive), and more.",
+          "question": "Can the document generation tool integrate with my existing data sources and systems?"
+        },
+        {
+          "answer": "All documents generated, the underlying logic, and the associated data belong completely to you. Kliv provides the platform to build and host your application, but you retain full ownership and control over your intellectual property and data.",
+          "question": "Who owns the documents and data generated by my custom tool?"
+        },
+        {
+          "answer": "While generic document solutions charge recurring subscription fees that can quickly escalate, building with Kliv is a one-time investment in your own custom software. Over time, particularly for high-volume document processes, a custom solution typically offers significant cost savings and a higher ROI.",
+          "question": "How does the cost of building a custom tool compare to off-the-shelf document software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is complete flexibility. You can easily modify templates, adjust data sources, add new document types, or refine logic as your business needs evolve, without being locked into vendor roadmaps or feature limitations.",
+          "question": "Can I modify or expand my document automation tool after it's built?"
+        },
+        {
+          "answer": "Custom-built document generation tools can be highly secure because you control the hosting environment, data storage, and access permissions. This often provides a higher level of security and compliance assurance compared to relying on third-party SaaS vendors and their blanket security policies.",
+          "question": "Is it secure to manage sensitive documents within a custom-built solution?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform your document processes?",
+      "type": "cta",
+      "content": "Stop the manual grind. Start building intelligent, automated document solutions that streamline your operations and unleash productivity."
+    }
+  ],
+  "title": "Document Automation & Generation"
+}

@@ -1,0 +1,162 @@
+{
+  "defaultPrompt": "I want to create a compound interest calculator that allows users to input initial principal, annual interest rate, compounding frequency, and investment duration to see future value and interest earned.",
+  "description": "Build custom compound interest calculators and financial projection tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start calculating your future",
+    "subtitle": "Empower users to visualize financial growth with personalized, powerful compound interest calculators built on Kliv's platform.",
+    "title": "Build your own compound interest calculator"
+  },
+  "metaDescription": "Create powerful compound interest calculators and financial planning tools with Kliv. Help users model investment growth, visualize future value, and make informed financial decisions.",
+  "sections": [
+    {
+      "title": "Why build a custom compound interest calculator?",
+      "type": "text",
+      "content": "In today's financial landscape, individuals and businesses are constantly looking for clear ways to understand their investment potential. While generic online calculators exist, they often lack the specificity, personalization, and integration features that users truly need.\n\nBuilding your own compound interest calculator allows you to tailor the tool to a specific audience, integrate it seamlessly into existing financial platforms, or even create a unique educational resource. With AI-powered development, creating sophisticated financial tools is no longer a complex programming challenge."
+    },
+    {
+      "title": "The power of custom financial modeling tools",
+      "type": "markdown",
+      "content": "## Beyond basic calculations\n\nMost off-the-shelf compound interest calculators provide a simple input-output. But what if you need more? What if your users require:\n\n- **Multiple investment scenarios**: Comparing different rates or additional contributions.\n- **Inflation adjustments**: Showing real vs. nominal returns.\n- **Tax implications**: Factoring in capital gains or withdrawal taxes.\n- **Personalized reporting**: Generating clear summaries and actionable insights.\n- **Integration with other data**: Connecting with budgeting apps or portfolio trackers.\n\nGeneric solutions fall short. They force you into their limited frameworks, often come with unwanted branding, and lack the flexibility to evolve with user needs.\n\n## Advantages of a tailored approach\n\nCreating a bespoke compound interest calculator allows you to:\n\n### Deliver precise value\nDesign a tool that speaks directly to your target audience's needs, whether they are individual investors, financial advisors, or students learning about finance. You control the specific inputs, outputs, and financial concepts presented.\n\n### Enhance user engagement\nOffer an intuitive, branded experience that keeps users on your platform. A well-designed custom calculator can be a powerful lead magnet or a core feature that drives valuable user interaction.\n\n### Gain a competitive edge\nStand out by providing a unique tool that offers features or insights not found elsewhere. This could be specialized calculation logic, advanced visualization, or specific integration points.\n\n### Own your intellectual property\nWhen you build it, you own it. This means full control over features, updates, and monetization strategies, free from third-party vendor limitations or changing terms of service.\n\n## Practical applications\n\nCustom compound interest calculators aren't just for predicting a single investment's future. They can be integrated into broader financial solutions:\n\n**Financial planning portals**: Allow users to model retirement savings, college funds, or mortgage payments with detailed projections.\n\n**Educational platforms**: Create interactive tools that demonstrate financial concepts, helping users understand savings growth, debt accumulation, or the impact of early investment.\n\n**Investment advisory dashboards**: Enable advisors to quickly show clients the long-term impact of different investment strategies or regular contributions.\n\n**Real estate analysis tools**: Project property value appreciation based on various growth rates over time.\n\n**Personal finance blogs/websites**: Offer a valuable, interactive resource that attracts and retains visitors, potentially leading to increased ad revenue or service sign-ups.\n\n## Building smart with AI\n\nThe complexity of financial logic used to mean significant development time. Kliv's AI-powered platform simplifies this:\n\n- **Natural language prompts**: Describe the calculation you need, and the AI helps construct it.\n- **Rapid iteration**: Test different calculation models and UI designs quickly.\n- **Automated logic generation**: Let AI handle the underlying financial formulas and data structuring.\n- **Scalable and secure**: Build robust applications capable of handling sensitive financial data and high user loads."
+    },
+    {
+      "title": "Compound interest calculator ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Basic Compound Interest Calculator for Savings Growth with Visualizer Graph and Detailed Breakdown by Year or Month, Showing Initial Principal, Total Contributions, Total Interest Earned, and Future Value, with adjustable Compounding Frequency (Daily, Monthly, Quarterly, Annually) and options for both one-time contributions and regular additional contributions (e.g., monthly deposits). It should also include a feature where users can compare two different scenarios side-by-side to see the impact of varying rates or contributions. The calculator should display results in a clear table and generate a line graph illustrating the growth over time. Additionally, provide a PDF export option for the results summary. The app should be responsive for desktop and mobile devices and include a disclaimer about investment risks. Implement basic user authentication so users can save calculation scenarios for later reference, and ensure data privacy with encryption for saved scenarios. The user interface should be clean, intuitive, and branded, allowing for custom color schemes. Allow users to save and load different scenarios, and suggest relevant financial tips based on their projections, such as 'Consider contributing more monthly to reach your goal faster.' Include a 'What if...' feature allowing users to quickly see the impact of changing one variable, like the interest rate, without re-entering all data. Finally, add integration with a public stock market API to pull historical average returns for various indexes that users can use as a benchmark for their rate expectations (e.g., S&P 500 average annual return). Display key performance indicators prominently, such as annual interest earned and cumulative interest earned, and provide a share button to share calculation results via email or social media. Implement an optional 'inflation adjustment' toggle to show results in real terms, and a 'tax impact' section allowing users to input a marginal tax rate for a rough estimate of after-tax returns. Add a 'Goal Tracker' feature where users can input a target future amount and the calculator suggests the required contribution or time period. Also, include an explanation of compound interest principles within the app, perhaps as an 'i' (information) icon next to key terms. Ensure the backend is stateless for general calculations but stores user-specific saved data securely in a database. Support multiple currencies for input and output, with current exchange rate lookup. The app should perform real-time calculations as inputs are changed. Provide an easily accessible 'Reset' button. Consider adding a printable summary page. The tech stack should favor reliability for financial calculations. Include robust input validation to prevent incorrect data entries. Users should be able to switch between different compounding periods on the fly. The graph should be zoomable and allow users to hover for precise values at specific points in time. The comparison feature should highlight the differences visually in both the table and graph. For the PDF export, ensure it's well-formatted and includes all relevant details and the graph. The stock market API integration should be optional and clearly labeled as advisory. For the 'What if...' scenario, ensure smooth transitions in the UI. Make sure the financial tips are context-sensitive. Goal Tracker should suggest actionable changes. The 'Reset' button should clear all inputs to default values. Provide accessibility features where possible, such as high-contrast modes. The app should run entirely in the browser for non-logged-in users, with server-side processing for saved data and PDF generation. All financial terms should have tooltips with brief explanations. The app should not require any personal financial data beyond the calculation inputs. Ensure the calculation engine adheres to standard financial formulas for compound interest, and any approximations are clearly stated. Finally, allow users to download the detailed projection table as a CSV file for further analysis outside the application."
+        },
+        {
+          "title": "Retirement Planner with Contribution Adjustments and inflation-adjusted future value and the ability to model different retirement ages and initial capital, with options for regular contributions and lump-sum additions. Users should be able to specify a pre-retirement and post-retirement investment growth rate. The tool should then project annual retirement income possible based on a specified withdrawal rate. Include a feature to adjust for inflation annually and display results in today's dollars. Allow users to save multiple retirement scenarios and compare them side-by-side. The app should also suggest potential shortfalls or surpluses based on target retirement goals. Provide a visual timeline of wealth accumulation and decumulation. Integrate with current life expectancy data for various demographics to provide a more realistic projection of retirement duration. Add an option to include Social Security income estimates for a more comprehensive view. Ensure that the calculator handles both pre-tax and after-tax contributions and withdrawals appropriately, allowing users to specify account types (e.g., 401k, Roth IRA, taxable brokerage). Include an 'optimisation' feature that can suggest how much more to save per month to reach a specified retirement income goal. The interface should be sophisticated yet user-friendly, with clear labels for all inputs and outputs. All calculations should be transparent, with explanations of assumptions. The app should be secure for personal financial planning and allow users to export detailed reports for financial advisors. It should also include educational pop-ups about different retirement account types and withdrawal strategies. Finally, provide resources for seeking professional financial advice, stressing that the tool is for estimation only."
+        },
+        {
+          "title": "College Savings Projector with variable tuition inflation rates and the ability to compare savings plans for multiple children simultaneously. Users should input current age of child, target college start age, annual college cost (current), and expected tuition inflation rate. The calculator should then determine the total projected cost of college at the start date and suggest a required monthly or annual savings contribution to meet this goal. Allow for initial lump sum contributions and regular additions. Include the ability to model different investment growth rates within the college savings plan. Provide a graphical representation of the savings growth overlaid with the rising cost of tuition. The app should also offer advice on different college savings vehicles (e.g., 529 plans, Coverdell ESAs) and their tax implications. Users should be able to adjust the number of college years (e.g., 4 or 5) and include options for graduate school costs. The tool should also highlight the impact of starting earlier vs. later. Ensure privacy for all entered data. The interface should be family-friendly and easy to understand. Provide links to external resources for college planning and financial aid. The app should clearly distinguish between projected costs and actual savings goals. Additionally, incorporate a 'scholarship impact' feature where users can input expected scholarship amounts to see their reduced savings requirement. The app should allow saving scenarios for multiple children and automatically adjust calculations for each child's specific timeline."
+        },
+        {
+          "title": "Loan Amortization Calculator with extra payment impact and the ability to generate a full amortization schedule, including principal, interest, and remaining balance for each payment. Users should input original loan amount, annual interest rate, loan term, and payment frequency (monthly, bi-weekly). The calculator should display total interest paid and total payments made. Crucially, it must also include a feature to model the impact of extra payments (one-time or recurring) on the loan term and total interest paid, highlighting the savings. Provide a visual breakdown of interest vs. principal paid over the loan term. The app should support various loan types (mortgage, auto, personal). Allow users to export the full amortization schedule to CSV or PDF. The interface should be clear for financial novices. Include a Debt Payoff Accelerator feature that suggests optimal extra payment strategies to minimize interest. The tool should also allow comparing two different loan scenarios (e.g., different interest rates or terms) side-by-side. Display a concise summary of savings from extra payments. Ensure the calculator adheres to financial industry standards for loan calculations. Offer insights into how compounding frequency (e.g., daily compounding used by some lenders) can affect total interest paid. Add a 'what if' scenario for refinancing options. Include a disclaimer about real-world lender variations."
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your financial calculator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to adjust for inflation, allowing users to see investment growth in real (purchasing power) terms.",
+          "title": "Inflation Adjustment"
+        },
+        {
+          "prompt": "Create a comparison tool where users can side-by-side analyze two different investment scenarios.",
+          "title": "Scenario Comparison"
+        },
+        {
+          "prompt": "Implement user authentication so users can save, load, and manage their various calculation scenarios.",
+          "title": "User Account & Saving"
+        },
+        {
+          "prompt": "Build a graph visualization that dynamically shows the growth of the principal and interest over time as inputs change.",
+          "title": "Interactive Growth Graph"
+        },
+        {
+          "prompt": "Allow users to input and model additional regular contributions (e.g., monthly deposits) to their initial principal.",
+          "title": "Regular Contributions"
+        },
+        {
+          "prompt": "Generate a detailed report of the projection (e.g., year-by-year breakdown) that can be exported as a PDF or CSV.",
+          "title": "Exportable Reports"
+        },
+        {
+          "prompt": "Add an educational section explaining the concepts of compound interest, compounding frequency, and time value of money.",
+          "title": "Educational Content"
+        },
+        {
+          "prompt": "Incorporate a feature that suggests optimal strategies, like 'save X more per month to reach your goal by Y date.'",
+          "title": "Optimization Suggestions"
+        },
+        {
+          "prompt": "Include options for different tax treatments (e.g., tax-deferred, taxable) and an estimate of the tax impact on returns.",
+          "title": "Tax Impact Modeling"
+        }
+      ]
+    },
+    {
+      "title": "Key features for any financial calculator",
+      "type": "features",
+      "items": [
+        {
+          "description": "Accurate, real-time calculations that update as users adjust inputs.",
+          "icon": "🧮",
+          "title": "Dynamic Calculations"
+        },
+        {
+          "description": "Clear numerical tables and interactive charts to visualize financial growth.",
+          "icon": "📈",
+          "title": "Data Visualization"
+        },
+        {
+          "description": "Multiple compounding frequencies (daily, monthly, annually) for precise modeling.",
+          "icon": "📅",
+          "title": "Flexible Compounding"
+        },
+        {
+          "description": "Support for one-time investments and recurring contributions.",
+          "icon": "💰",
+          "title": "Contribution Modeling"
+        },
+        {
+          "description": "Intuitive forms with clear labels and helpful tooltips for every input.",
+          "icon": "✨",
+          "title": "User-Friendly Interface"
+        },
+        {
+          "description": "Ensuring data privacy and secure handling of all user inputs.",
+          "icon": "🔒",
+          "title": "Data Security"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom financial calculator with Kliv can take anywhere from a few hours for a basic version to a few days for a sophisticated tool with advanced features, depending on the complexity you require.",
+          "question": "How long does it take to build a financial calculator using Kliv?"
+        },
+        {
+          "answer": "No specialized coding knowledge is required. Kliv's platform allows you to describe your desired calculator using natural language, and the AI assists in generating the underlying logic and structure.",
+          "question": "Do I need to be a programmer or financial expert to use Kliv for this?"
+        },
+        {
+          "answer": "Absolutely. Kliv enables you to develop tools that can connect with various APIs for real-time data like stock prices, historical returns, or exchange rates, enhancing the calculator's utility and accuracy.",
+          "question": "Can my calculator integrate with external financial data sources or APIs?"
+        },
+        {
+          "answer": "Yes, you have full ownership and control over the calculator you build. You own the code, the design, and the data, giving you complete flexibility for deployment and future modifications.",
+          "question": "Will I own the financial calculator I build on Kliv?"
+        },
+        {
+          "answer": "Your custom calculator can be hosted on any standard web hosting service or integrated directly into your existing website. Kliv provides the output in a format that's easy to deploy.",
+          "question": "Where can I host or deploy the financial calculator once it's built?"
+        },
+        {
+          "answer": "Custom-built tools offer cost-effectiveness in the long run. While SaaS solutions come with recurring subscription fees, your Kliv-built calculator is a one-time development investment, saving you money over time.",
+          "question": "How does building with Kliv compare in cost to subscribing to a pre-built financial calculator service?"
+        },
+        {
+          "answer": "Yes, our platform is designed for agility. You can easily add new features, adjust calculation logic, or update the user interface as your needs or market conditions change. This flexibility is a key advantage of custom development.",
+          "question": "Can I modify or add new features to my calculator after it's initially created?"
+        },
+        {
+          "answer": "Kliv provides tools and guidance for building secure applications. You'll have control over data handling, ensuring that sensitive financial inputs are processed and stored according to your security best practices.",
+          "question": "How secure are the financial calculators built on this platform, especially regarding sensitive user data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to empower your users with financial insights?",
+      "type": "cta",
+      "content": "Stop relying on generic tools. Build a custom, powerful compound interest calculator that perfectly serves your audience's financial vision."
+    }
+  ],
+  "title": "Compound Interest Calculator Builder"
+}

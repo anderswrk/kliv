@@ -1,0 +1,145 @@
+{
+  "defaultPrompt": "I want to create a voice-controlled game where users can navigate a dungeon, interact with NPCs, and cast spells using only spoken commands.",
+  "description": "Unlock new dimensions of play with custom voice-controlled game applications built on Kliv's AI platform.",
+  "hero": {
+    "cta": "Start building your voice game",
+    "subtitle": "Create immersive, hands-free gaming experiences using powerful AI-driven voice interaction. No coding required.",
+    "title": "Build your own voice-controlled games"
+  },
+  "metaDescription": "Develop unique voice-controlled games and entertainment apps with Kliv. Design interactive adventures, choose-your-own-path narratives, and more using advanced voice AI.",
+  "sections": [
+    {
+      "title": "The rise of voice in gaming",
+      "type": "text",
+      "content": "Voice interfaces are no longer just for smart speakers. They're revolutionizing how we interact with technology, and gaming is next. Imagine games where your voice is the controller, where you command characters, solve puzzles, or even dictate narratives.\n\nWhile established game studios are just beginning to explore this frontier, Kliv empowers independent creators and small teams to innovate rapidly. You can build bespoke voice games that offer truly novel play styles, accessibility features, and interactive storytelling without needing deep programming knowledge."
+    },
+    {
+      "title": "Why custom voice games are the next frontier",
+      "type": "markdown",
+      "content": "## Beyond the screen: A new way to play\n\nTraditional gaming often relies on visual cues and complex button inputs. Voice-controlled games open up entirely new possibilities:\n\n- **Enhanced Immersion**: Speak directly to characters, cast spells with incantations, or navigate worlds with natural language commands. Players feel more connected to the game.\n- **Accessibility**: Provide gaming experiences for players with visual impairments or limited motor skills, making entertainment more inclusive.\n- **Second Screen Experiences**: Extend console or PC games with voice commands for companion apps, inventory management, or tactical overlays.\n- **Novel Gameplay Mechanics**: Introduce puzzles solvable only through spoken riddles, create interactive audio dramas, or design games that adapt to a player's tone of voice.\n\n## The limitations of off-the-shelf solutions\n\nExisting voice platforms are often generic and lack the specific gaming-centric features needed for rich interactive experiences. They typically fall short in:\n\n- **Contextual Understanding**: Failing to grasp game-specific terminology or player intent in complex scenarios.\n- **Low Latency**: Delays in processing voice commands can break immersion and frustrate players.\n- **Customizable Voices & Sounds**: Limited options for character voices, sound effects, or background audio that are crucial for game atmosphere.\n- **Integration Challenges**: Difficulty connecting voice commands directly to game engines, databases, or narrative progression systems.\n\n## Building your solution with Kliv\n\nKliv provides the tools to overcome these challenges, enabling you to build voice-controlled games that are:\n\n### Hyper-responsive\nLeverage advanced speech-to-text and intent recognition to ensure commands are processed almost instantly, maintaining seamless gameplay flow.\n\n### Richly interactive\nIntegrate sophisticated natural language understanding (NLU) to interpret complex player commands and adapt game states dynamically. Build branching narratives and dynamic character interactions.\n\n### Fully customizable\nFrom character voices and sound effects to unique gameplay logic, every aspect of your game can be tailored to your vision. You control the narrative, the rules, and the player experience.\n\n### Accessible by design\nBy focusing purely on voice, your games can offer unique accessibility options, allowing a broader audience to enjoy interactive entertainment.\n\n## Real-world potential\n\nImagine applications like:\n\n- **Interactive Audio Adventures**: Games where players listen to descriptions and progress the story by speaking choices.\n- **Educational Learning Games**: Voice-controlled quizzes or language learning tools that adapt to a child's or student's responses.\n- **Smart Home Entertainment**: Voice commands to control aspects of a game displayed on a TV or even interact with an escape room-style experience in a physical space.\n\nWith Kliv, the barrier to entry for creating these innovative experiences is dramatically lowered. You just need an idea, and the AI helps bring it to life."
+    },
+    {
+      "title": "Voice game ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Fantasy RPG adventure game (audio-only type adventure game where users use voice commands to explore a virtual world and solve quests.)\n\nGenerate a game where users explore a dungeon purely through spoken commands. They can say 'go north', 'look around', 'attack goblin with sword', or 'cast fire spell'. The game should describe the environment and character actions back to the user with a narrator voice and character voices for NPCs. Ensure the game tracks inventory, health, and progress through quests.\n\nGenerate a detective mystery game based on voice commands. Users interrogate suspects by saying 'ask about the theft', 'where were you on Tuesday?', or 'show me your alibi'. The game should present clues, track deductions, and allow users to accuse suspects when they have enough evidence. Provide different character voices for suspects and a narrator.\n\nBuild a simulation game where players manage a virtual pet, like a dragon or a robot. Users can issue commands like 'feed the dragon', 'train flying', 'clean its scales', or 'tell it a joke'. The pet should respond with unique voice lines and animations (if a visual component is added later). The game should track the pet's happiness, hunger, and skill levels.\n\nCreate a choose-your-own-adventure story game where players make decisions by speaking choices ('I pick the left path', 'I attack the monster', 'I try to persuade the guard'). The game should dynamically narrate the story based on player choices and track multiple story paths and endings.\n\nDesign a simple voice-controlled strategy game like 'Battleship' or 'Connect Four'. Players might say 'A5' to target a ship or 'drop disk in column 3'. The game should announce turns, hits/misses, and win conditions using distinct voices for each player or a neutral announcer.\n\nBuild a voice-activated escape room game. Users describe actions like 'look under the rug', 'try the key in the lock', 'read the inscription on the wall', or 'what's the password?'. The game should respond to their attempts, provide environmental descriptions, and track solved puzzles. Narrate clues and responses with a thematic voice.\n\nCreate a voice-controlled interactive quiz game covering topics like history, science, or pop culture. Users answer questions by speaking the answer or choosing from multiple-choice options. The game provides immediate feedback, tracks scores, and offers different difficulty levels. Use a game show host persona for the narrator.\n\nDesign a verbal memory game where the system recites a list of items or numbers, and the user must repeat them back in order after a pause. The game tracks correct sequences, increases difficulty over time, and provides score updates. Use a clear, distinct voice for the item recitation."
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your voice game",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate advanced emotional intelligence so the game can detect user tone (frustration, excitement) and adapt gameplay or dialogue accordingly.",
+          "title": "Add emotional detection"
+        },
+        {
+          "prompt": "Implement a 'push-to-talk' feature or wake word functionality to improve listening accuracy and prevent accidental commands.",
+          "title": "Refine voice activation"
+        },
+        {
+          "prompt": "Connect the voice game to a visual interface or 3D engine to provide graphical feedback alongside audio for enhanced immersion.",
+          "title": "Add visual components"
+        },
+        {
+          "prompt": "Introduce multi-user support, allowing two or more players to interact with the game simultaneously using their individual voices.",
+          "title": "Enable multiplayer voice"
+        },
+        {
+          "prompt": "Allow users to customize narrator voices, character voices, and background soundscapes from a selection of options.",
+          "title": "Expand audio customization"
+        },
+        {
+          "prompt": "Develop a persistent world or character profile that remembers progress, inventory, and decisions across different play sessions.",
+          "title": "Add persistent save states"
+        },
+        {
+          "prompt": "Incorporate AI-driven NPC personalities that can engage in open-ended conversations with players beyond predefined scripts.",
+          "title": "Enhance NPC dialogue"
+        }
+      ]
+    },
+    {
+      "title": "Key voice game capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Convert spoken commands into text with high accuracy, even in noisy environments or with varied accents.",
+          "icon": "🗣️",
+          "title": "Advanced Speech-to-Text"
+        },
+        {
+          "description": "Interpret nuanced player intent and context from natural language, not just keywords.",
+          "icon": "🧠",
+          "title": "Intelligent Intent Recognition"
+        },
+        {
+          "description": "Generate dynamic, natural-sounding speech for narrators, characters, and system responses.",
+          "icon": "📢",
+          "title": "Realistic Text-to-Speech"
+        },
+        {
+          "description": "Manage game state, inventory, character stats, and narrative branches based on player voice input.",
+          "icon": "⚙️",
+          "title": "Dynamic Game Logic"
+        },
+        {
+          "description": "Integrate custom audio assets, sound effects, and music to create rich, immersive audio environments.",
+          "icon": "🎧",
+          "title": "Custom Audio Integration"
+        },
+        {
+          "description": "Design branching narratives and interactive dialogue trees that respond to player choices and progress.",
+          "icon": "📖",
+          "title": "Interactive Story Engine"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building voice-controlled games",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic voice-controlled game with Kliv can take a few hours. More complex games with intricate narratives or advanced AI might take a few days or weeks of iteration.",
+          "question": "How quickly can I build a voice-controlled game?"
+        },
+        {
+          "answer": "No, Kliv allows you to describe your game logic and interactions using natural language. The AI translates your vision into a functional application, managing the underlying code.",
+          "question": "Do I need to be a programmer or game developer?"
+        },
+        {
+          "answer": "Yes, you can integrate your voice game with other platforms or services via APIs. This allows you to connect to visual engines, external databases, or even smart home devices for unique experiences.",
+          "question": "Can my voice game connect to other systems or game engines?"
+        },
+        {
+          "answer": "You own 100% of the game logic and intellectual property. Kliv is a platform for creation, not a licensor of your content. You can deploy and publish your game as you see fit.",
+          "question": "Who owns the games I build on Kliv?"
+        },
+        {
+          "answer": "Compared to traditional game development, Kliv significantly reduces costs by automating much of the coding. You pay for the development time on the platform, not for expensive licenses or lengthy development cycles.",
+          "question": "What's the cost comparison to traditional game development?"
+        },
+        {
+          "answer": "Absolutely. Kliv provides tools to easily modify dialogue, add new scenarios, change character voices, or update game mechanics even after your game is live.",
+          "question": "Is it easy to update or add new content to my voice game later?"
+        },
+        {
+          "answer": "Voice games can be deployed on various platforms. If it's a web-based game, it can run in a browser. If you integrate with specific voice assistants (like Alexa, Google Assistant), it can be deployed there. Kliv helps you prepare your game for distribution.",
+          "question": "Where can I deploy or host my voice-controlled game?"
+        },
+        {
+          "answer": "Yes, voice games offer inherent accessibility benefits for players with visual impairments or mobility challenges. Kliv helps you design intuitive voice interactions that prioritize accessibility.",
+          "question": "Can voice-controlled games be particularly accessible?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bring your voice game to life?",
+      "type": "cta",
+      "content": "Step into the future of interactive entertainment. Start building your groundbreaking voice-controlled game with Kliv today."
+    }
+  ],
+  "title": "Voice-controlled games"
+}

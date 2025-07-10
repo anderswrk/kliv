@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "Create a transcript reader application that can upload audio files, generate timestamps for each word, highlight keywords, and allow quick navigation through the transcript.",
+  "description": "Build custom transcript reader applications for optimized content review and analysis.",
+  "hero": {
+    "cta": "Start building your reader",
+    "subtitle": "Transform raw transcripts into interactive tools for analysis, search, and collaboration using Kliv's AI platform.",
+    "title": "Build your own powerful transcript reader"
+  },
+  "metaDescription": "Develop custom transcript reader applications with Kliv. Enhance research, content creation, and analysis of audio and video transcripts.",
+  "sections": [
+    {
+      "title": "Why build a custom transcript reader?",
+      "type": "text",
+      "content": "In a world saturated with audio and video content, efficiently navigating and extracting insights from transcripts is crucial. Generic text editors or simple search functions fall short when dealing with detailed conversations, interviews, or meetings.\n\nBuilding your own transcript reader means you can tailor it precisely to your workflow, whether you're a journalist sifting through interviews, a researcher analyzing qualitative data, a podcaster editing content, or a legal professional reviewing depositions. Forget clunky software; create a tool that understands your actual needs."
+    },
+    {
+      "title": "The case for a custom transcript analysis tool",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nExisting transcript tools often come with a frustrating set of compromises:\n\n- **Lack of specialized features:** They rarely offer the specific annotation, export, or analytical capabilities unique to your domain.\n- **Data privacy concerns:** Uploading sensitive interviews or proprietary meeting notes to third-party services can pose significant security risks.\n- **Vendor lock-in & recurring costs:** Subscriptions can become expensive, and migrating your data or workflows if you switch providers is a nightmare.\n- **Integration hurdles:** It's often difficult to connect these tools seamlessly with your existing data pipelines or collaboration platforms.\n\n## Why a custom-built solution excels\n\nLeveraging AI-powered development with Kliv enables you to create a transcript reader that is:\n\n### Perfectly aligned with your workflow\nNo more shoehorning your process into a pre-defined software. Design a tool that integrates directly with your existing research methodologies, content pipelines, or legal review policies. Define your own annotation categories, search filters, and export formats.\n\n### Fully secure and private\nHost your application and data on your own infrastructure or designated cloud environment. Maintain complete control over sensitive information, ensuring compliance with privacy regulations without reliance on external vendors' security practices.\n\n### A one-time investment with long-term benefits\nUnlike perpetual subscriptions, building your own tool is a capital expenditure that provides lasting value. You own the software, allowing for unlimited use without recurring fees for basic functionality.\n\n### Infinitely customizable and extensible\nAs your needs evolve, so can your tool. Add new AI analysis features, integrate with novel data sources, or adapt its interface. Your tool grows with your challenges, not as a separate, stagnant product.\n\n## Real-world applications of custom readers\n\nCustom transcript readers are enabling breakthrough efficiencies across various sectors:\n\n**Academic Research**: Researchers build tools to analyze qualitative interview data, automatically tag themes, identify speaker patterns, and generate reports for thematic analysis.\n\n**Media Production**: Podcasters and video editors create readers that sync audio with text, highlight filler words, enable rapid cutting, and export time-coded edits for efficient post-production.\n\n**Legal Review**: Law firms develop readers for depositions and court proceedings, allowing quick search for specific legal terms, speaker identification, and synchronized playback to evidence clips.\n\n**User Experience (UX) Research**: UX teams build interfaces to analyze user interviews, identify recurring pain points, and visualize sentiment trends across multiple sessions.\n\n## Kliv's AI and your custom reader\n\nBuilding sophisticated applications is no longer exclusive to large engineering teams. Kliv's AI-driven platform democratizes this process:\n\n- **Natural language interface**: Describe the features you need in plain English; the AI helps translate your ideas into a functional application.\n- **Rapid iteration**: Quickly prototype, test, and refine your reader based on immediate feedback.\n- **Component-based development**: Leverage pre-built components for common tasks like audio playback, text display, and search, accelerating your development.\n- **Intelligent feature suggestions**: The AI can suggest enhancements or integrations to make your reader even more powerful.\n\n## Ready to redefine transcript analysis?\n\nStop adapting your valuable time and complex needs to generic software. Invest in a precise, powerful tool crafted exactly for you. With Kliv, the complexities of building a custom transcript reader are dramatically reduced, allowing you to focus on the insights, not the tool."
+    },
+    {
+      "title": "Transcript reader ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Analyse customer feedback from support calls",
+          "prompt": "Create an application that takes uploaded customer support call transcripts, highlights common product issues, identifies customer sentiment, and generates a summary report of pain points.",
+          "title": "Customer feedback analyzer"
+        },
+        {
+          "description": "Efficiently edit podcast audio using synchronized text",
+          "prompt": "Build a podcast editing tool that displays a transcript synchronized with audio playback, allows users to highlight text segments to mark cuts, and exports an edit list with timestamps.",
+          "title": "Podcast editor for transcripts"
+        },
+        {
+          "description": "Quickly review legal depositions and court proceedings",
+          "prompt": "Develop a legal transcript review application that supports secure document upload, allows for tagging specific legal terms, marks testimony segments as 'evidence' or 'objection', and exports annotated sections.",
+          "title": "Legal deposition reviewer"
+        },
+        {
+          "description": "Systematic review of qualitative research interviews",
+          "prompt": "Design a qualitative research tool that imports interview transcripts, enables the creation of custom thematic tags, automatically identifies speaker changes, and allows for exporting segments by theme.",
+          "title": "Qualitative research assistant"
+        },
+        {
+          "description": "Enhance UX research with searchable user interviews",
+          "prompt": "Build a user interview analysis platform that can upload interview transcripts, automatically detect mention of competitor names, identify user needs/frustrations, and generate a heat map of frequently discussed topics.",
+          "title": "UX Interview insights dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your transcript reader",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature that allows users to export full transcripts or selected segments to PDF, DOCX, or plain text.",
+          "title": "Export functionality"
+        },
+        {
+          "prompt": "Integrate a real-time transcription service so users can transcribe live audio inputs directly within the application.",
+          "title": "Real-time transcription"
+        },
+        {
+          "prompt": "Implement a speaker diarization feature to automatically identify and label different speakers in the transcript.",
+          "title": "Speaker identification"
+        },
+        {
+          "prompt": "Add sentiment analysis to show the emotional tone of different parts of the conversation.",
+          "title": "Sentiment analysis"
+        },
+        {
+          "prompt": "Enable multi-user collaboration, allowing different team members to add notes and highlights to the same transcript simultaneously.",
+          "title": "Collaborative editing"
+        },
+        {
+          "prompt": "Integrate with cloud storage services like Google Drive, Dropbox, or OneDrive for direct file imports and exports.",
+          "title": "Cloud storage integration"
+        },
+        {
+          "prompt": "Develop a visual dashboard that shows key statistics from transcripts, such as talk time per speaker, keyword frequency, and overall transcript length.",
+          "title": "Analytics dashboard"
+        },
+        {
+          "prompt": "Add a summary generation feature powered by AI to automatically distill key points from lengthy transcripts.",
+          "title": "AI summarization"
+        }
+      ]
+    },
+    {
+      "title": "Essential transcript reader features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Upload audio/video files to generate and view transcripts.",
+          "icon": "⬆️",
+          "title": "File upload & processing"
+        },
+        {
+          "description": "Time-coded text synchronized with audio/video playback.",
+          "icon": "⏱️",
+          "title": "Synchronized playback"
+        },
+        {
+          "description": "Quickly search for keywords and navigate to exact points.",
+          "icon": "🔎",
+          "title": "Advanced search"
+        },
+        {
+          "description": "Add notes, highlights, and custom tags to transcript segments.",
+          "icon": "📝",
+          "title": "Annotation & tagging"
+        },
+        {
+          "description": "Easily jump between speakers or predefined sections.",
+          "icon": "➡️",
+          "title": "Navigation controls"
+        },
+        {
+          "description": "Support for various file formats (MP3, WAV, MP4, TXT, SRT).",
+          "icon": "🔀",
+          "title": "Multi-format support"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform significantly reduces development time. A basic transcript reader can be functional within hours or days, depending on complexity. More advanced features like AI summarization or multi-user collaboration might take a few weeks to implement and refine.",
+          "question": "How long will it take to build my custom transcript reader?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv uses an AI-powered, low-code/no-code approach. You describe your desired features in plain language, and the platform assists in building the application. Technical expertise can help, but it's not a prerequisite.",
+          "question": "Do I need coding skills to build an application like this?"
+        },
+        {
+          "answer": "Yes, you have full control. Kliv helps you generate the application, but the code and data are entirely yours. You decide where it's hosted, how it performs, and how it's integrated with your existing systems.",
+          "question": "Do I own the transcript reader application once it's built?"
+        },
+        {
+          "answer": "Absolutely. Custom applications built with Kliv can integrate with various third-party services via APIs. This means you can connect to your existing cloud storage, CRM, project management tools, or transcription services.",
+          "question": "Can my custom reader integrate with other tools I use?"
+        },
+        {
+          "answer": "The cost can be significantly lower in the long run. While there's an initial investment in building, you avoid recurring monthly subscription fees characteristic of SaaS solutions. For complex, specialized needs, building custom often becomes more cost-effective quickly.",
+          "question": "How does the cost compare to off-the-shelf transcript software?"
+        },
+        {
+          "answer": "You have complete flexibility to update and expand your application. Since you own the code, you can continuously add new features, adjust existing functionalities, or scale it to handle more users or larger data volumes as your needs change.",
+          "question": "What if I need to add or change features after the initial build?"
+        },
+        {
+          "answer": "You control the security of your data. You can implement your own security protocols, choose your hosting environment (on-premise or a cloud provider you trust), and ensure compliance with your specific industry regulations, often exceeding the security guarantees of generic online tools.",
+          "question": "How secure will my custom-built transcript reader be?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate transcript analysis tool?",
+      "type": "cta",
+      "content": "Stop settling for generic. Create a powerful, personalized transcript reader that empowers your workflow and insights."
+    }
+  ],
+  "title": "Transcript Reader Applications"
+}

@@ -1,0 +1,168 @@
+{
+  "defaultPrompt": "I want to create a custom Google Workspace management tool that simplifies user provisioning, manages group memberships, enforces security policies, and tracks license usage across our organization.",
+  "description": "Build custom Google Workspace management solutions with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start managing Workspace",
+    "subtitle": "Streamline user provisioning, group management, security policies, and license tracking with custom applications built on Kliv's platform.",
+    "title": "Build your own Google Workspace management tools"
+  },
+  "metaDescription": "Create powerful Google Workspace management tools with Kliv. Automate user tasks, enhance security, and optimize license costs with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own Google Workspace management tool?",
+      "type": "text",
+      "content": "Managing Google Workspace for a growing organization can quickly become a complex, time-consuming task. From onboarding new hires and managing group access to enforcing security policies and tracking licenses, off-the-shelf tools often fall short or introduce unnecessary complexity.\n\nWhile existing solutions offer a broad range of features, they often come with limitations: rigid workflows, unexpected licensing costs, and a lack of specific integrations your business needs. Building a custom tool with an AI-powered platform like Kliv allows you to create a solution tailored precisely to your organization's unique requirements, ensuring maximum efficiency and security."
+    },
+    {
+      "title": "The case for custom Google Workspace management",
+      "type": "markdown",
+      "content": "## Limitations of standard Google Workspace administration\n\nGoogle Workspace provides robust administrative consoles, but for organizations with specific needs, custom solutions offer significant advantages over relying solely on the default interface or generic third-party tools. Common challenges include:\n\n-   **Tedious user lifecycle management**: Onboarding and offboarding processes are often manual and prone to errors.\n-   **Granular access control**: Achieving precise control over who has access to which resources can be difficult.\n-   **Security policy enforcement**: Ensuring consistent application of security settings across all users and groups requires diligent manual effort.\n-   **License cost optimization**: Identifying inactive users or unused licenses to cut costs manually is a continuous struggle.\n-   **Lack of integration**: Syncing Workspace data with HR systems, identity providers, or custom internal applications is often clunky.\n\n## Benefits of a bespoke management application\n\nBuilding a custom Google Workspace management tool with Kliv allows you to overcome these limitations and create an administration experience perfectly suited to your organization.\n\n### Automated provisioning and de-provisioning\n\nIntegrate your HR system directly with Workspace to automate the creation and deletion of user accounts, assign appropriate roles, and manage group memberships based on employee status. This reduces manual errors and saves countless hours.\n\n### Tailored group and organizational unit (OU) management\n\nDevelop dynamic group management features that automatically add or remove users based on department, role, or other attributes. Create custom interfaces for self-service group requests or approval workflows, enhancing agility while maintaining control.\n\n### Enhanced security and compliance enforcement\n\nImplement custom checks and automated actions for security policies. For example, automatically disable accounts for unusual login activity, enforce specific password policies, or monitor for compliance with data retention policies. Generate audit-ready reports with the exact data points you need.\n\n### Optimized license utilization\n\nBuild a dashboard that tracks active and inactive user licenses, identifies opportunities to reallocate or reduce licenses, and automates notifications for expiring licenses, leading to significant cost savings.\n\n### Seamless integration with internal systems\n\nConnect your Workspace management tool directly to critical internal applications such as your CRM, ERP, project management software, or custom internal databases. This eliminates data silos and streamlines administrative tasks across your entire tech stack.\n\n## The Kliv advantage for administrators and IT teams\n\nKliv's AI-powered platform transforms the way IT teams build custom management tools. Instead of relying on complex scripting or expensive off-the-shelf software, you can:\n\n-   **Develop with natural language**: Describe your desired features in plain English, and the AI helps generate the application.\n-   **Rapidly prototype**: See your management tools come to life quickly, allowing for iterative development and immediate feedback.\n-   **Maintain full control**: You own the code and the deployment, ensuring maximum security and customization flexibility.\n-   **Reduce vendor lock-in**: Avoid proprietary systems and build a solution that truly belongs to your organization."
+    },
+    {
+      "title": "Workspace management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create new users and set up their initial access automatically.",
+          "prompt": "Build a user provisioning tool for Google Workspace that integrates with an HR system to automatically create new user accounts, assign them to correct organizational units (OUs) and groups, and generate temporary passwords.",
+          "title": "Automated User Onboarding"
+        },
+        {
+          "description": "Simplify group management and access requests.",
+          "prompt": "Develop an application for Google Workspace group management that allows department heads to request new groups or add/remove members, with an approval workflow routed to IT administrators.",
+          "title": "Self-Service Group Management"
+        },
+        {
+          "description": "Ensure secure login and data access policies are met.",
+          "prompt": "Design a Google Workspace security policy enforcement tool that scans all user settings daily, identifies accounts not meeting password complexity requirements or 2FA mandates, and automates remediation actions or sends alerts to administrators.",
+          "title": "Security Policy Auditor"
+        },
+        {
+          "description": "Track and optimize Google Workspace license usage.",
+          "prompt": "Create a Google Workspace license management dashboard that shows current license usage, identifies inactive users who can have licenses reclaimed, and forecasts future license needs based on hiring plans.",
+          "title": "License Optimization Dashboard"
+        },
+        {
+          "description": "Automate offboarding procedures for departing employees.",
+          "prompt": "Build an employee offboarding workflow for Google Workspace that deactivates accounts, transfers data ownership, removes group memberships, and archives necessary data upon an employee's departure date.",
+          "title": "Automated Offboarding"
+        },
+        {
+          "description": "Provide a centralized view of all user activity.",
+          "prompt": "Develop an audit log viewer for Google Workspace that consolidates login activity, Google Drive access events, and admin console changes into a single searchable interface for security and compliance teams.",
+          "title": "Unified Activity Log"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your Workspace management tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to manage Google Drive sharing permissions, allowing administrators to revoke public shares or identify over-shared files.",
+          "title": "Google Drive Share Management"
+        },
+        {
+          "prompt": "Integrate with our existing ticketing system (e.g., Jira, Zendesk) to automatically create IT tickets for detected security policy violations.",
+          "title": "Ticketing System Integration"
+        },
+        {
+          "prompt": "Implement a 'delegated admin' feature, allowing specific department leads to manage users within their own OU without full admin privileges.",
+          "title": "Delegated Administration"
+        },
+        {
+          "prompt": "Add a module for calendar resource management, simplifying booking and viewing availability for meeting rooms or shared equipment.",
+          "title": "Calendar Resource Booking"
+        },
+        {
+          "prompt": "Build an analytics section that provides visual reports on email usage, storage consumption per user, and app adoption rates within our organization.",
+          "title": "Usage Analytics & Reporting"
+        },
+        {
+          "prompt": "Create an automated alert system that notifies IT administrators via Slack or email for critical events, such as unusual login attempts or large data exports.",
+          "title": "Real-time Alerting"
+        },
+        {
+          "prompt": "Enable self-service password resets for users, with a secure verification process, reducing IT support tickets.",
+          "title": "User Self-Service Password Reset"
+        }
+      ]
+    },
+    {
+      "title": "Essential Workspace management tool features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automate user account creation, modification, and deletion.",
+          "icon": "👥",
+          "title": "User Lifecycle Management"
+        },
+        {
+          "description": "Efficiently manage user groups, mailing lists, and organizational units.",
+          "icon": "🗂️",
+          "title": "Group & OU Administration"
+        },
+        {
+          "description": "Enforce and audit security policies across all Workspace services.",
+          "icon": "🔒",
+          "title": "Security Policy Compliance"
+        },
+        {
+          "description": "Monitor and optimize Google Workspace license allocation to reduce costs.",
+          "icon": "💲",
+          "title": "License Management"
+        },
+        {
+          "description": "Connect your tool with other HR, identity, or business systems.",
+          "icon": "🔗",
+          "title": "Custom Integration Capabilities"
+        },
+        {
+          "description": "Generate custom reports and dashboards for auditing and insights.",
+          "icon": "📈",
+          "title": "Reporting & Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic Google Workspace management tool with Kliv can take anywhere from a few hours to a couple of days, depending on the complexity of desired features. The AI accelerates development significantly.",
+          "question": "How quickly can I build a functional Google Workspace management tool?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv utilizes natural language processing, allowing you to describe your requirements in plain English, and the AI assists in generating the application. Basic understanding of IT administration concepts helps, but you don't need to be a developer.",
+          "question": "Do I need to be a software developer or IT ops expert to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, your custom tool can integrate with Google Workspace APIs (Admin SDK, Directory API, Reports API, etc.) to securely manage users, groups, licenses, and other settings. You control the scope of access your tool has.",
+          "question": "Can the tool built with Kliv interact directly with Google Workspace APIs?"
+        },
+        {
+          "answer": "The cost of building a custom tool with Kliv is typically a one-time development investment, contrasting with the recurring monthly or annual subscriptions of third-party SaaS solutions. Over time, this usually results in significant cost savings, especially for larger organizations.",
+          "question": "How does the cost compare to buying a third-party Google Workspace management solution?"
+        },
+        {
+          "answer": "Absolutely. Since you own the underlying code and infrastructure, you have full flexibility to modify, extend, or update your tool as your organization's needs evolve or Google Workspace introduces new features. You're never locked into a vendor's roadmap.",
+          "question": "Can I modify my custom Workspace management tool after it's deployed?"
+        },
+        {
+          "answer": "You have complete control over data security. The tool can be deployed within your own secure environment, and all interactions with Google Workspace occur via your authenticated and authorized service accounts, minimizing external exposure compared to sharing data with third-party vendors.",
+          "question": "Where does the data reside, and how secure is it?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance and suggestions throughout the development process. For more specific issues, our documentation and community resources are available. Since the code is yours, you can also leverage your internal IT team or external contractors for ongoing support if needed.",
+          "question": "What kind of support is available if I encounter issues during development or after deployment?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your Google Workspace administration?",
+      "type": "cta",
+      "content": "Stop wrestling with generic tools and build an intelligent, custom solution that perfectly fits your organization's IT needs."
+    }
+  ],
+  "title": "Google Workspace Management Tools"
+}

@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a test management application for educators that can generate quizzes, manage student submissions, and provide instant grading and feedback.",
+  "description": "Build custom test management applications for education with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your test app",
+    "subtitle": "Design, create, and deploy powerful assessment tools tailored to your teaching methods and student needs.",
+    "title": "Create Your Own Educational Test Management System"
+  },
+  "metaDescription": "Develop bespoke test management applications for schools and universities with Kliv. Streamline assessment creation, student tracking, and performance analysis.",
+  "sections": [
+    {
+      "title": "Why Develop a Custom Test Management Tool?",
+      "type": "text",
+      "content": "The educational landscape is constantly evolving, and a one-size-fits-all approach to assessment often falls short. Generic tools can be inflexible, lack specific features crucial for your subject matter, or integrate poorly with existing school systems. Building your own test management application means creating a solution that perfectly aligns with your curriculum, teaching style, and assessment philosophy.\n\nWith Kliv's AI-powered development platform, educators and administrators can now craft sophisticated, secure, and intuitive testing environments without needing extensive technical skills. Break free from restrictive licenses and start building the ideal assessment solution that genuinely supports learning outcomes."
+    },
+    {
+      "title": "The Power of Tailored Assessment Tools",
+      "type": "markdown",
+      "content": "## Limitations of Off-the-Shelf Solutions\n\nMany commercial testing platforms come with inherent limitations that can hinder effective assessment:\n\n- **Lack of Customization**: Unable to adapt to unique questioning formats, subject-specific grading rubrics, or diverse student needs.\n- **Data Silos**: Poor integration with school information systems (SIS) or learning management systems (LMS), leading to manual data entry.\n- **Costly Subscriptions**: Recurring fees that can strain educational budgets, especially for features that aren't fully utilized.\n- **Security Concerns**: Relying on third-party vendors for sensitive student data and intellectual property (test questions).\n- **Feature Bloat/Deficiency**: Overloaded with unnecessary functions or missing critical capabilities required for your specific context.\n\n## Advantages of a Custom-Built Approach\n\nBuilding your own test management application offers unparalleled benefits:\n\n### Perfect Alignment with Pedagogy\nYour custom tool can be designed to support specific pedagogical approaches, whether it's competency-based assessment, project-based learning, or traditional summative exams. Include unique question types, detailed feedback mechanisms, and adaptive learning paths.\n\n### Seamless Integration\nConnect directly with existing school databases, student records, and grading systems. Eliminate manual data transfer and ensure consistency across all platforms.\n\n### Cost Efficiency & Ownership\nInvest once in developing a system you own, rather than perpetually paying subscription fees. This long-term saving can be significant for institutions.\n\n### Enhanced Security & Privacy\nMaintain full control over student data and assessment content. Implement security protocols that meet your institution's strict requirements, safeguarding sensitive information.\n\n### Scalability & Flexibility\nAs your institution grows or educational methodologies evolve, your custom application can easily adapt. Add new features, modify assessment types, or scale to accommodate more students and courses without vendor limitations.\n\n## Real-World Applications in Education\n\nCustom test management systems can revolutionize various aspects of education:\n\n- **K-12 Schools**: Personalized skill assessments for early learners, automated spelling tests, or interactive quizzes for different subjects.\n- **Higher Education**: Secure proctored exams, complex rubric-based grading for essays and projects, or adaptive learning pathways that suggest resources based on student performance.\n- **Vocational Training**: Practical skills tests with multimedia components, certification exam simulations, or performance-based evaluations for hands-on subjects.\n- **Corporate Training**: Employee onboarding knowledge checks, compliance training assessments, or professional development progress tracking with integrated learning modules.\n\n## AI-Powered Development for Educators\n\nKliv simplifies the development process, making custom solutions accessible:\n\n- **Intuitive Interface**: Describe your desired features in plain language, and the AI assists in building the structure and functionality.\n- **Rapid Prototyping**: See your ideas translated into a working application quickly, allowing for immediate testing and refinement.\n- **Smart Suggestions**: AI can suggest optimal database structures, user interfaces, and assessment logic based on your requirements.\n- **Automated Quality Checks**: Built-in mechanisms ensure the reliability and security of your assessment platform.\n\nEmpower your institution with an assessment tool that truly serves its purpose and fosters student success."
+    },
+    {
+      "title": "Test Management Ideas to Inspire You",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Generate dynamic quizzes with various question types.",
+          "prompt": "Create a test management system for high school teachers. It needs to generate multiple-choice, true/false, and short answer quizzes, allow teachers to upload their own questions, and support automatic grading for objective questions.",
+          "title": "Interactive Quiz Generator"
+        },
+        {
+          "description": "Streamline essay grading with customizable rubrics.",
+          "prompt": "Develop an application for university professors to manage essay submissions. It should allow for uploading assignments, defining custom grading rubrics, enabling peer review, and tracking revision history.",
+          "title": "Essay Grading & Feedback Tool"
+        },
+        {
+          "description": "Track student progress and identify learning gaps.",
+          "prompt": "Build a diagnostic assessment portal for elementary school children. It should administer short, adaptive tests in math and reading, track student progress over time, and highlight areas where students need extra help.",
+          "title": "Adaptive Diagnostic Assessment"
+        },
+        {
+          "description": "Securely manage exams with remote proctoring features.",
+          "prompt": "Design a secure online examination platform for a university that supports webcam monitoring, screen sharing detection, and IP address logging for remote proctoring of timed exams.",
+          "title": "Secure Online Exam Portal"
+        },
+        {
+          "description": "Automate grading for programming assignments.",
+          "prompt": "Create a code submission and auto-grading system for computer science courses. Students submit code, the system runs test cases against it, and provides immediate feedback on correctness and efficiency.",
+          "title": "Programming Assessment System"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Assessment System",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature that allows students to view detailed feedback on their submitted answers, including correct solutions and explanations.",
+          "title": "Detailed Student Feedback"
+        },
+        {
+          "prompt": "Implement user roles (student, teacher, admin) with different access permissions to sections like test creation, grading, and reporting.",
+          "title": "Role-Based Access Control"
+        },
+        {
+          "prompt": "Integrate with a popular learning management system (LMS) like Canvas or Moodle to import student rosters and export grades automatically.",
+          "title": "LMS Integration"
+        },
+        {
+          "prompt": "Develop an analytics dashboard for teachers showing class performance trends, common mistakes, and individual student progress over time.",
+          "title": "Performance Analytics Dashboard"
+        },
+        {
+          "prompt": "Add a question bank feature where teachers can store, categorize, and reuse questions across multiple tests.",
+          "title": "Centralized Question Bank"
+        },
+        {
+          "prompt": "Include a feature for creating and managing different versions of the same test to prevent cheating, with randomized question order and answer options.",
+          "title": "Test Versioning & Randomization"
+        }
+      ]
+    },
+    {
+      "title": "Core Features of a Test Management System",
+      "type": "features",
+      "items": [
+        {
+          "description": "Create various question types (MCQ, essay, fill-in-the-blank) with multimedia support.",
+          "icon": "📝",
+          "title": "Flexible Question Authoring"
+        },
+        {
+          "description": "Automate grading for objective questions and provide tools for efficient manual grading.",
+          "icon": "✅",
+          "title": "Intelligent Grading"
+        },
+        {
+          "description": "Securely manage student profiles, enrollments, and performance records.",
+          "icon": "🧑‍🎓",
+          "title": "Student Management"
+        },
+        {
+          "description": "Generate detailed reports on student and class performance, identifying strengths and weaknesses.",
+          "icon": "📈",
+          "title": "Reporting & Analytics"
+        },
+        {
+          "description": "Control access and visibility based on user roles (student, teacher, administrator).",
+          "icon": "🔐",
+          "title": "Access Control"
+        },
+        {
+          "description": "Customize feedback mechanisms for students, offering insights into their performance.",
+          "icon": "💬",
+          "title": "Customizable Feedback"
+        }
+      ]
+    },
+    {
+      "title": "Questions About Building Your Test App with Kliv?",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The development timeline is surprisingly short. A basic version can be functional within days, with more complex features added incrementally. Kliv's AI significantly accelerates the traditional development cycle.",
+          "question": "How long does it take to build a test management application?"
+        },
+        {
+          "answer": "No coding expertise is needed. Kliv's platform allows you to describe your desired functionalities in plain English. The AI then translates these requirements into a working application.",
+          "question": "Do I need to be a programmer to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, custom apps built with Kliv can integrate with existing educational platforms like LMS (Canvas, Moodle), SIS, and cloud storage solutions through APIs, ensuring seamless data flow.",
+          "question": "Can my custom test application integrate with our existing school systems?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and all data generated. Kliv provides the tooling, but the intellectual property remains yours, giving you complete autonomy.",
+          "question": "Who owns the intellectual property of the application I build?"
+        },
+        {
+          "answer": "A custom-built solution often has a higher upfront cost than a monthly SaaS subscription. However, it represents a one-time investment, leading to significant long-term savings by eliminating recurring fees and providing a perfectly tailored tool.",
+          "question": "How does the cost compare to off-the-shelf test platforms?"
+        },
+        {
+          "answer": "Indeed. A major advantage of building with Kliv is the flexibility to modify and expand your application as pedagogical needs change, new technologies emerge, or your institution grows. You're never locked into a fixed feature set.",
+          "question": "Can I add new features or modify existing ones after the initial build?"
+        },
+        {
+          "answer": "As the owner of the application, you have full control over data security and privacy protocols, allowing you to implement measures that meet your institution's specific compliance requirements (e.g., FERPA, GDPR) much more granularly than with third-party vendors.",
+          "question": "How secure is a custom-built test management tool for student data?"
+        },
+        {
+          "answer": "Kliv offers comprehensive support throughout the development process, including AI-driven guidance, debugging assistance, and best practice recommendations. Post-launch, you have the flexibility to manage and iterate on the application independently or with external support as needed.",
+          "question": "What kind of support is available if I run into issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Transform Your Assessments?",
+      "type": "cta",
+      "content": "Stop conforming to generic testing tools. Build the precise, powerful assessment application your students and educators deserve with Kliv's AI-driven platform."
+    }
+  ],
+  "title": "Custom Test Management Applications for Education"
+}

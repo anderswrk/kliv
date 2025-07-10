@@ -1,0 +1,158 @@
+{
+  "defaultPrompt": "I want to create a paper trading application for learning stock market strategies. It should include real-time price feeds, a virtual portfolio, and a transaction history.",
+  "description": "Build custom paper trading and market simulation applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start your simulation",
+    "subtitle": "Test trading strategies, learn market dynamics, and refine your skills in a risk-free environment.",
+    "title": "Build your own custom paper trading & market simulation tools"
+  },
+  "metaDescription": "Create powerful paper trading and market simulation tools with Kliv. Develop and test trading strategies, understand market behavior, and practice risk-free.",
+  "sections": [
+    {
+      "title": "Why build your own paper trading or market simulation tool?",
+      "type": "text",
+      "content": "The world of finance is complex and constantly evolving. Whether you're an aspiring trader, a quantitative analyst, or an educator, having a robust platform to test theories, understand market mechanics, and train without financial risk is invaluable. While generic simulators exist, they often lack the specificity and flexibility required for serious analysis or tailored learning.\n\nBuilding your own paper trading or market simulation tool with Kliv allows you to precisely control data sources, simulation parameters, and analytical outputs. This gives you an unparalleled environment to innovate, learn, and validate strategies against various market conditions, all while owning the underlying technology."
+    },
+    {
+      "title": "The strategic advantage of tailored market simulations",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf simulators\n\nExisting paper trading platforms and market simulators often come with significant drawbacks:\n\n- **Limited data access**: Restricted to certain asset classes, historical periods, or data granularity.\n- **Fixed functionalities**: Inflexibility to add custom indicators, order types, or backtesting parameters.\n- **Generic interfaces**: Not optimized for specific analytical needs or user education programs.\n- **Subscription costs**: Recurring fees without full ownership or customization capabilities.\n\n## Why a custom solution excels\n\nLeveraging Kliv to build your own market simulation tool provides distinct advantages:\n\n### Simulate any market condition\nDesign models to replicate specific historical events, stress-test under hypothetical scenarios, or even simulate entirely new market structures. Your tool, your rules.\n\n### Integrate diverse data sources\nCombine real-time feeds with alternative data, custom economic indicators, or proprietary datasets. Your simulation can be as rich and complex as your research demands.\n\n### Tailored learning & development\nFor educational institutions or corporate training, a custom simulator allows you to craft precise learning modules, introduce specific financial instruments, or create challenges relevant to your curriculum.\n\n### Proprietary strategy testing\nKeep your unique trading algorithms and backtesting methodologies private and secure. Develop and refine your edge without exposing it to third-party platforms.\n\n### Cost-effective in the long run\nAvoid perpetual subscription fees. A custom-built application is a one-time investment that serves your specific needs indefinitely, adapting and evolving with you.\n\n## Real-world applications of custom simulations\n\nCustom paper trading and market simulation tools are crucial for:\n\n**Individual traders**: Experiment with new strategies without risking capital, analyze performance in detail, and build confidence.\n\n**Financial institutions**: Develop and backtest complex quantitative trading strategies, assess risk exposure under various scenarios, and train new analysts.\n\n**Academia**: Provide students with realistic, hands-on experience in financial markets, build case studies around specific economic events, and facilitate research in market microstructure.\n\n**Fintech startups**: Develop and refine investment products, test user interfaces for new trading apps, or build educational modules for their users.\n\n## The Kliv difference\n\nKliv transforms the traditional software development process, making complex financial applications accessible to everyone:\n\n- **AI-driven blueprinting**: Describe your desired features in plain language, and Kliv generates the foundational code.\n- **Iterative refinement**: Quickly adjust parameters and add functionality as your needs evolve.\n- **Data integration made easy**: Connect with various market data providers or internal databases seamlessly.\n- **Scalable architecture**: Build a system that can handle anything from personal practice to institutional-grade simulations.\n\nEmpower your journey into financial markets with a simulation tool built precisely for your ambition."
+    },
+    {
+      "title": "Simulation ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Practice discretionary trading with real-time data.",
+          "prompt": "Create a paper trading platform that simulates real-time stock market conditions, allows users to place market and limit orders, tracks profit/loss, and shows a virtual portfolio.",
+          "title": "Basic stock paper trader"
+        },
+        {
+          "description": "Test algorithmic strategies against historical data.",
+          "prompt": "Build a backtesting simulator for options trading strategies, allowing users to define entry/exit rules based on technical indicators and simulate performance with historical options chain data.",
+          "title": "Options strategy backtester"
+        },
+        {
+          "description": "Understand micro-level market dynamics.",
+          "prompt": "Develop a market microstructure simulator where users can model order book dynamics, simulate high-frequency trading strategies, and analyze the impact of liquidity on price."
+        },
+        {
+          "description": "Train new traders with guided exercises.",
+          "prompt": "Design an educational trading simulator for beginners that includes a 'guided mode' for specific scenarios, explains trade outcomes, and offers quizzes on financial concepts.",
+          "title": "Educational trading academy"
+        },
+        {
+          "description": "Simulate foreign exchange market movements.",
+          "prompt": "Create a Forex market simulator that includes major currency pairs, allows for leveraging, and incorporates economic news events that impact exchange rates for scenario analysis.",
+          "title": "Forex market simulator"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your simulation capabilities",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add capabilities to simulate custom economic scenarios, like high inflation or a recession, and observe their impact on portfolio performance.",
+          "title": "Scenario planning module"
+        },
+        {
+          "prompt": "Integrate a news feed API to bring real-time financial news into the simulation, allowing users to react to events.",
+          "title": "Real-time news integration"
+        },
+        {
+          "prompt": "Develop a module that automatically generates in-depth performance reports, including Sharpe ratio, max drawdown, and win rate, for simulated strategies.",
+          "title": "Advanced analytics & reporting"
+        },
+        {
+          "prompt": "Implement a feature allowing multiple users to compete in a simulated trading contest, tracking leaderboards and performance metrics.",
+          "title": "Multi-user trading competition"
+        },
+        {
+          "prompt": "Add support for simulating cryptocurrencies with real-time exchange data and common crypto trading pairs.",
+          "title": "Cryptocurrency simulation"
+        },
+        {
+          "prompt": "Allow users to design and test custom technical indicators using a drag-and-drop interface within the simulation.",
+          "title": "Custom indicator builder"
+        },
+        {
+          "prompt": "Include modules for simulating specific asset classes like commodities, bonds, or real estate.",
+          "title": "Alternative asset simulation"
+        }
+      ]
+    },
+    {
+      "title": "Core simulation capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to real-time market data providers for accurate price feeds.",
+          "icon": "📈",
+          "title": "Live data integration"
+        },
+        {
+          "description": "Simulate various order types (market, limit, stop-loss, etc.) and their execution.",
+          "icon": "🛒",
+          "title": "Flexible order routing"
+        },
+        {
+          "description": "Track virtual portfolios, profit/loss, and historical transactions.",
+          "icon": "💰",
+          "title": "Virtual portfolio management"
+        },
+        {
+          "description": "Run strategies against historical data for performance validation.",
+          "icon": "⏳",
+          "title": "Robust backtesting engine"
+        },
+        {
+          "description": "Visualize price action, indicators, and trade executions.",
+          "icon": "📊",
+          "title": "Interactive charting"
+        },
+        {
+          "description": "Define custom parameters and assumptions for diverse simulation scenarios.",
+          "icon": "⚙️",
+          "title": "Customizable market models"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv can rapidly generate the core framework for your simulator in hours or days, depending on complexity. Adding advanced features and custom integrations will extend the timeline, but overall development is significantly faster than traditional methods.",
+          "question": "How quickly can I build a functional paper trading application?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv uses AI to interpret your descriptions and build the application's underlying code. You focus on the financial logic and user experience, while Kliv handles the development.",
+          "question": "Do I need to be a programmer to build a market simulator?"
+        },
+        {
+          "answer": "You can connect your custom simulator to various market data providers, historical data archives, or even proprietary internal databases. Kliv facilitates these integrations, allowing you to feed the simulation with precise data.",
+          "question": "How do I get market data into my custom simulation tool?"
+        },
+        {
+          "answer": "Absolutely. Your custom application can integrate with charting libraries, advanced analytics tools, and even machine learning frameworks to enhance its capabilities. The flexibility is a key advantage.",
+          "question": "Can I integrate advanced financial analytics and charting libraries?"
+        },
+        {
+          "answer": "One of the major benefits is complete ownership. The code and data are yours. You can host it on your own servers, ensuring maximum privacy and control over sensitive financial models and strategies.",
+          "question": "Who owns the simulation and data once it's built?"
+        },
+        {
+          "answer": "Yes, custom-built solutions are inherently more adaptable. As market conditions change or your research evolves, you can modify any aspect of the simulator, from data sources to strategy logic, without vendor limitations.",
+          "question": "Is it easy to modify or expand the simulator after initial development?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to simulate your success?",
+      "type": "cta",
+      "content": "Stop relying on limited, generic tools. Build the precise paper trading and market simulation platform you need to learn, test, and innovate."
+    }
+  ],
+  "title": "Paper Trading & Market Simulation Tools"
+}

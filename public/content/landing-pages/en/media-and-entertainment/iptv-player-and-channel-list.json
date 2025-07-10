@@ -1,0 +1,185 @@
+{
+  "defaultPrompt": "I want to create a custom IPTV player that allows users to manage their M3U playlists, view channel EPG data, and stream live TV channels and VOD content on multiple devices.",
+  "description": "Build your own custom IPTV player and channel list management application with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Building Your Player",
+    "subtitle": "Create personalized IPTV players and robust channel management systems tailored to your content and audience.",
+    "title": "Develop Your Own IPTV Player & Channel List App"
+  },
+  "metaDescription": "Create powerful, custom IPTV players and channel list management applications with Kliv. Offer live TV, VOD, EPG, and multi-device support tailored to your needs.",
+  "sections": [
+    {
+      "title": "Why Develop Your Own IPTV Player?",
+      "type": "text",
+      "content": "In the crowded world of media consumption, generic IPTV players often fall short. They lack the specific features you desire, push unwanted ads, or limit your content sources. If you're a content creator, a media enthusiast, or part of a community with shared media interests, building your own IPTV player and channel list application offers unparalleled control and a superior user experience.\n\nWith Kliv, you're not just creating an app; you're crafting a tailored media hub. Move beyond the limitations of off-the-shelf software and deliver exactly the viewing experience you envision, complete with custom features, branding, and content control."
+    },
+    {
+      "title": "The Case for a Custom IPTV Solution",
+      "type": "markdown",
+      "content": "## The Limitations of Ready-Made Players\n\nExisting IPTV players, while functional, often impose significant restrictions:\n\n- **Lack of Customization**: You're stuck with their interface, branding, and limited feature sets.\n- **Content Restrictions**: Some players might not support specific codecs, formats, or integrate with your preferred content providers.\n- **Monetization Challenges**: Difficult to integrate custom advertising or subscription models.\n- **User Experience Gaps**: Generic UIs may not align with your audience's preferences or provide intuitive navigation for your unique content library.\n- **Dependency on Third Parties**: Relying on external services for core functionality can lead to instability or unexpected changes.\n\n## Advantages of Building Your Own\n\nLeveraging Kliv's AI platform helps you overcome these issues and gain significant advantages:\n\n### Complete Customization and Branding\nTailor every aspect of your player, from the user interface and color scheme to unique navigation flows. Embed your brand identity seamlessly, offering a professional and unique viewing experience.\n\n### Direct Content Control\nIntegrate directly with your specific content sources, whether they are live streams, VOD libraries, or EPG data. Ensure compatibility with all your media formats without external dependencies.\n\n### Enhanced Feature Set\nDevelop exactly the features your audience needs: advanced search, personalized recommendations, multi-device sync, parental controls, or specific content categorization that generic players simply don't offer.\n\n### Flexible Monetization Options\nIf applicable, build in custom ad servers, subscription models, or pay-per-view options directly into your player, giving you full control over revenue streams.\n\n### Ownership and Scalability\nOwn the entire application. As your content library grows or your audience expands, your custom player can scale alongside, without being bottlenecked by third-party infrastructure or pricing models.\n\n## Real-World Applications for Custom IPTV Players\n\nCustom IPTV solutions aren't just for large broadcasters; they serve niche communities and innovative creators:\n\n**Community Media Hubs**: Create a private player for a community to share self-produced content, local news, or educational programming.\n\n**Educational Platforms**: Deliver structured video courses, live lectures, and archived academic content within a controlled environment.\n\n**Corporate Communications**: Develop an internal streaming platform for company-wide meetings, training videos, and internal broadcasts.\n\n**Niche Content Providers**: Build a dedicated player for specific genres like indie films, documentaries, historical footage, or sports leagues that generic platforms overlook.\n\n**Event Streaming**: Host live events, conferences, or concerts with custom player features like audience interaction, multi-angle views, or exclusive behind-the-scenes content.\n\n## The Kliv Advantage in Media Development\n\nBuilding a media streaming application used to involve complex backend development, video protocol knowledge, and UI/UX design from scratch. Kliv simplifies this:\n\n- **Natural Language Design**: Describe your desired features and the AI assists in generating the core application structure.\n- **Rapid Prototyping**: See your player's interface and core functionalities materialize quickly, allowing for iterative design.\n- **Component-Based Building**: Leverage pre-built components for video playback, EPG display, and list management, accelerating development.\n- **Scalable Architecture**: The AI ensures the underlying code is robust and capable of handling varying user loads and content volumes.\n\nStart building your unique media experience today. With Kliv, your vision for an IPTV player is within reach."
+    },
+    {
+      "title": "IPTV Player Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A player for live public domain streams with EPG data.",
+          "prompt": "Create a simple IPTV player app for Android and iOS that can load M3U playlists, display channel logos, and show a 7-day EPG. Users should be able to mark favorite channels and switch between light and dark themes.",
+          "title": "Basic Live TV Player"
+        },
+        {
+          "description": "A player focused on user content organization and VOD playback.",
+          "prompt": "Develop an IPTV player that allows users to upload and manage their personal M3U lists, supports both live TV and video-on-demand (VOD) streaming. Include category filtering, a search function, and a 'continue watching' feature for VOD.",
+          "title": "Personal Media Hub with VOD"
+        },
+        {
+          "description": "A family-friendly player with content controls.",
+          "prompt": "Build an IPTV player for smart TVs and mobile devices with parental control features (PIN-protected channels/categories), multi-user profiles, and the ability to download VOD content for offline viewing. Ensure it has a clean, intuitive interface.",
+          "title": "Family Friendly Streaming App"
+        },
+        {
+          "description": "A player specializing in sports content with advanced features.",
+          "prompt": "Design an IPTV player optimized for sports streaming. It should feature a calendar view for upcoming matches, multi-stream support for watching multiple games simultaneously (picture-in-picture), and real-time score overlays if possible.",
+          "title": "Sports Streaming Player"
+        },
+        {
+          "description": "An IPTV player integrated with social sharing.",
+          "prompt": "Create an IPTV player that includes social sharing features, allowing users to share what they're watching on social media. It should also have a built-in chat function for channels and support for HLS and DASH streaming protocols.",
+          "title": "Interactive Social Player"
+        },
+        {
+          "description": "A player designed for educational content with bookmarking.",
+          "prompt": "Develop an IPTV application for educational institutions. It needs to support scheduled live lectures, VOD access to archived content, a bookmarking system for lectures, and progress tracking for users. Allow for content to be grouped by course."
+        }
+      ]
+    },
+    {
+      "title": "Ways to Enhance Your IPTV Application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for users to record live TV streams to local storage or cloud.",
+          "title": "Live TV Recording (PVR)"
+        },
+        {
+          "prompt": "Implement a recommendation engine based on viewing history and user ratings.",
+          "title": "Personalized Content Recommendations"
+        },
+        {
+          "prompt": "Integrate third-party content providers or subscription services via API.",
+          "title": "Third-Party Content Integration"
+        },
+        {
+          "prompt": "Develop a casting feature to stream content to Chromecast or AirPlay devices.",
+          "title": "Device Casting Support"
+        },
+        {
+          "prompt": "Add multi-language audio track and subtitle selection.",
+          "title": "Multi-Language Support"
+        },
+        {
+          "prompt": "Implement a robust content management system (CMS) for administrators to upload, categorize, and manage channels and VOD.",
+          "title": "Admin Content Management Panel"
+        },
+        {
+          "prompt": "Include in-app purchase options for premium content or ad removal.",
+          "title": "Monetization Features"
+        },
+        {
+          "prompt": "Develop an analytics dashboard showing popular channels, viewing times, and user engagement.",
+          "title": "Usage Analytics Dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Essential IPTV Player Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Load and manage M3U playlists for live TV and VOD content.",
+          "icon": "📝",
+          "title": "M3U Playlist Management"
+        },
+        {
+          "description": "Display Electronic Program Guide (EPG) data for channels.",
+          "icon": "📅",
+          "title": "EPG Integration"
+        },
+        {
+          "description": "Seamless streaming of live television channels and video-on-demand content.",
+          "icon": "▶️",
+          "title": "Live & VOD Streaming"
+        },
+        {
+          "description": "Categorize channels and content for easy navigation.",
+          "icon": "🗂️",
+          "title": "Content Categorization"
+        },
+        {
+          "description": "Search functionality for channels, shows, and movies.",
+          "icon": "🔍",
+          "title": "Search & Filter"
+        },
+        {
+          "description": "Support for multiple streaming protocols (e.g., HLS, RTMP).",
+          "icon": "⚡",
+          "title": "Protocol Compatibility"
+        },
+        {
+          "description": "Intuitive, customizable user interface for viewing and channel browsing.",
+          "icon": "🖥️",
+          "title": "User Interface (UI)"
+        },
+        {
+          "description": "Track recently watched content and favorite channels for quick access.",
+          "icon": "⭐",
+          "title": "History & Favorites"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building IPTV Apps with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional IPTV player or channel list app can take anywhere from a few hours for a basic version to a few days for a feature-rich, polished application using Kliv. The AI significantly accelerates the development process.",
+          "question": "How long does it take to create an IPTV player with Kliv?"
+        },
+        {
+          "answer": "Kliv's platform is designed for users with varying technical backgrounds. You can describe your app in natural language, and the AI will help generate the core functionality, reducing the need for deep coding knowledge. Technical expertise helps, but isn't required.",
+          "question": "Do I need to be a streaming expert or coder to build an IPTV app?"
+        },
+        {
+          "answer": "Yes, your custom IPTV player can support various streaming protocols like HLS, DASH, RTMP, and others, depending on your prompt. Kliv helps you integrate the necessary components to handle these effectively.",
+          "question": "Can the custom player handle different streaming protocols and video formats?"
+        },
+        {
+          "answer": "Absolutely. You can integrate EPG data by providing the M3U or XMLTV links. Kliv can help you generate the code to parse and display this information alongside your channel list.",
+          "question": "Can I integrate EPG (Electronic Program Guide) data into my player?"
+        },
+        {
+          "answer": "Kliv allows you to generate code that can connect to various content sources, including M3U playlists, custom APIs for VOD content, and other publicly accessible stream URLs. You define your content sources during the building process.",
+          "question": "Where does the content for the IPTV player come from?"
+        },
+        {
+          "answer": "You retain full ownership. Kliv helps you generate code and application infrastructure, but the intellectual property of the final application is entirely yours. You can deploy and host it as you see fit.",
+          "question": "Who owns the custom IPTV application once it's built?"
+        },
+        {
+          "answer": "Yes, the applications built with Kliv can be deployed across various platforms including Android (phones, tablets, Android TV), iOS (iPhones, iPads, Apple TV), and web browsers, depending on how you specify your requirements.",
+          "question": "Can the built application run on multiple devices or smart TVs?"
+        },
+        {
+          "answer": "The cost greatly varies. While SaaS solutions charge recurring fees, building with Kliv is a one-time investment in development. Your primary ongoing costs would relate to hosting, content delivery (CDNs), and any third-party APIs you choose to integrate, which are typically under your control.",
+          "question": "What are the costs involved, compared to using a pre-made IPTV solution?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Deliver Your Custom Media Experience?",
+      "type": "cta",
+      "content": "Stop conforming to generic player limitations. Build an IPTV application that truly reflects your vision and serves your audience perfectly. Get started with Kliv today."
+    }
+  ],
+  "title": "Custom IPTV Player & Channel List Applications"
+}

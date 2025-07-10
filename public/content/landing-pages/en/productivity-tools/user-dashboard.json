@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a user dashboard that displays key metrics, allows users to manage their settings, and provides access to relevant tools and information.",
+  "description": "Build custom user dashboards tailored to your exact needs with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your dashboard",
+    "subtitle": "Empower your users or internal teams with intuitive, personalized dashboards built exactly to your specifications.",
+    "title": "Create bespoke user dashboards"
+  },
+  "metaDescription": "Design and build custom user dashboards for any application or internal tool using Kliv. Personalize user experience, visualize data, and centralize access.",
+  "sections": [
+    {
+      "title": "The challenge of generic dashboards",
+      "type": "text",
+      "content": "In today's digital landscape, a 'one-size-fits-all' approach to user interfaces rarely works. Whether it's for your customers, employees, or partners, a truly effective dashboard needs to be tailored to specific roles, data points, and workflows.\n\nOff-the-shelf dashboard solutions often fall short, forcing compromises in functionality, design, and integration. This leads to user frustration, underutilized features, and a disconnect between the data and the decisions that need to be made."
+    },
+    {
+      "title": "Why a custom user dashboard makes all the difference",
+      "type": "markdown",
+      "content": "## Beyond off-the-shelf: The unique power of custom\n\nGeneric dashboard tools provide a starting point, but they rarely deliver the precise functionality and user experience your unique application or business process demands. Here's why building a custom user dashboard with Kliv is a game-changer:\n\n### Perfect alignment with user needs\nYour users aren't generic. Their needs, roles, and the data they interact with are specific to your context. A custom dashboard ensures that every element, every report, and every call to action is precisely what they need, eliminating clutter and boosting efficiency.\n\n### Seamless data integration\nPulling data from disparate sources can be a nightmare with pre-built solutions. Build a custom dashboard, and you decide exactly which data points from your CRM, ERP, analytics tools, or custom databases are prominently displayed, in real-time, without complex workarounds.\n\n### Enhanced user engagement & retention\nAn intuitive, personalized dashboard reduces the learning curve, increases daily usage, and ultimately leads to happier, more productive users. For customer-facing applications, this translates directly into higher retention and satisfaction.\n\n### Cost-efficiency and future-proofing\nWhile commercial SaaS dashboards come with recurring subscription fees that scale with users and features, a Kliv-built custom dashboard is a one-time investment. You own the code, control its evolution, and adapt it freely as your business grows without being locked into vendor roadmaps or unexpected price hikes.\n\n## Real-world applications of custom dashboards\n\n- **SaaS Customer Portals**: Give subscribers personalized dashboards to manage their subscriptions, view usage analytics, access support, and discover new features.\n- **Internal Employee Dashboards**: Centralize access to HR information, project statuses, sales metrics, and company announcements for different departments or roles.\n- **Client Reporting Dashboards**: Provide clients with a secure, real-time view of campaign performance, financial data, or project progress, customized to their specific contract.\n- **IoT Device Monitoring**: Build dashboards to visualize data streams from sensors, track device health, set up alerts, and manage configurations for industrial or consumer IoT solutions.\n\n## AI empowers rapid development\n\nBuilding sophisticated user dashboards used to be a costly, time-consuming endeavor. Kliv's AI platform changes this paradigm:\n\n- **Natural Language Design**: Describe the layout, data points, and interactions you want, and the AI helps construct the dashboard.\n- **Component Generation**: Instantly generate charts, tables, forms, and other UI components based on your data models.\n- **Automated Backend Integration**: Connect your dashboard to various data sources and APIs with AI-assisted mapping.\n- **Iterative Refinement**: Quickly make design changes and add new features based on user feedback."
+    },
+    {
+      "title": "Dashboard ideas to get started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize key sales metrics and track progress.",
+          "prompt": "Create a sales dashboard with interactive charts showing revenue by region, sales team performance, lead conversion rates, and a real-time sales pipeline.",
+          "title": "Sales Performance Dashboard"
+        },
+        {
+          "description": "Centralize project updates and team tasks.",
+          "prompt": "Build a project management dashboard displaying open tasks, project timelines with progress bars, team member assignments, and a notification system for overdue items.",
+          "title": "Team Project Overview"
+        },
+        {
+          "description": "Give customers insights into their service usage.",
+          "prompt": "Build a customer portal dashboard allowing users to view their subscription details, manage billing, see their service usage statistics (e.g., data consumption, API calls), and access support tickets.",
+          "title": "Customer Usage Portal"
+        },
+        {
+          "description": "Monitor and manage IT infrastructure.",
+          "prompt": "Design an IT operations dashboard that shows server health, network traffic, active alerts, and a quick-access panel for common administrative tasks like restarting services.",
+          "title": "IT Operations Dashboard"
+        },
+        {
+          "description": "Track website or app engagement.",
+          "prompt": "Develop an analytics dashboard displaying unique visitors, page views, bounce rate, conversion funnels, and real-time active users for a web application.",
+          "title": "Web Analytics Dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your dashboard further",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add user authentication and role-based access control so different users see different data and features.",
+          "title": "Implement user roles and permissions"
+        },
+        {
+          "prompt": "Integrate with a CRM system (e.g., Salesforce, HubSpot) to pull customer data directly into the dashboard.",
+          "title": "Connect to external APIs"
+        },
+        {
+          "prompt": "Add real-time data streaming capabilities to update charts and metrics without page refreshes.",
+          "title": "Enable real-time updates"
+        },
+        {
+          "prompt": "Allow users to customize their dashboard layout by dragging and dropping widgets.",
+          "title": "Add customizable widgets"
+        },
+        {
+          "prompt": "Include an export function for all data tables and charts to CSV, Excel, or PDF formats.",
+          "title": "Export data functionality"
+        },
+        {
+          "prompt": "Develop a notification center that alerts users to important updates, impending deadlines, or system issues.",
+          "title": "Build a notification system"
+        },
+        {
+          "prompt": "Implement a 'dark mode' toggle for improved user comfort in low-light environments.",
+          "title": "Add dark mode support"
+        },
+        {
+          "prompt": "Integrate with an email service to send automated daily or weekly summary reports.",
+          "title": "Automated email reports"
+        }
+      ]
+    },
+    {
+      "title": "Core dashboard capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automatically import and display data from various internal and external sources.",
+          "icon": "🔗",
+          "title": "Multi-source data integration"
+        },
+        {
+          "description": "Create a secure login system with granular control over who sees what information.",
+          "icon": "🔐",
+          "title": "User authentication & roles"
+        },
+        {
+          "description": "Personalize what each user sees based on their role, preferences, or specific data context.",
+          "icon": "✨",
+          "title": "Customizable views"
+        },
+        {
+          "description": "Visualize complex data with a variety of interactive charts, graphs, and tables.",
+          "icon": "📊",
+          "title": "Dynamic data visualization"
+        },
+        {
+          "description": "Allow users to perform actions directly from the dashboard, such as updating records or triggering workflows.",
+          "icon": "⚡",
+          "title": "Actionable insights"
+        },
+        {
+          "description": "Scale seamlessly to support thousands of users and vast amounts of data.",
+          "icon": "📈",
+          "title": "Scalability & performance"
+        }
+      ]
+    },
+    {
+      "title": "Questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform significantly reduces development time. A basic, functional dashboard can be built in a matter of hours, while more complex systems with intricate integrations might take a few days to a week.",
+          "question": "How quickly can I build a custom dashboard with Kliv?"
+        },
+        {
+          "answer": "No prior coding experience is necessary. Kliv's AI translates your plain language descriptions into functional application code, guiding you through the process of designing and building your dashboard.",
+          "question": "Do I need to be a developer to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, custom-built dashboards are highly adaptable. You can integrate with virtually any REST API, database, or third-party service, ensuring your dashboard connects seamlessly with your existing tech stack.",
+          "question": "Can my custom dashboard integrate with existing systems and data sources?"
+        },
+        {
+          "answer": "You retain full ownership of all code and intellectual property generated. The dashboard is yours to host, modify, and deploy as you see fit, without any vendor lock-in.",
+          "question": "Who owns the dashboard I build?"
+        },
+        {
+          "answer": "When compared to continuous subscription costs of commercial dashboard software, building a custom solution with Kliv is typically more cost-effective in the long run, especially considering its perfect fit and scalability.",
+          "question": "Is building a custom dashboard more expensive than buying off-the-shelf software?"
+        },
+        {
+          "answer": "Absolutely. Custom dashboards built with Kliv are inherently flexible. You can easily add new features, change layouts, integrate new data sources, or modify existing functionality as your business requirements evolve.",
+          "question": "Can I modify my dashboard after it's built and deployed?"
+        },
+        {
+          "answer": "Custom-built dashboards offer superior security as you control the hosting environment, data encryption, and access policies. You dictate the security measures, avoiding reliance on third-party security practices.",
+          "question": "How secure are custom dashboards built with Kliv?"
+        }
+      ]
+    },
+    {
+      "title": "Start crafting your ideal dashboard today",
+      "type": "cta",
+      "content": "Stop settling for generic. Create a powerful, personalized user dashboard that truly serves your needs and delights your users."
+    }
+  ],
+  "title": "Custom User Dashboards"
+}

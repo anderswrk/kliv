@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a crypto address validator tool that supports Bitcoin, Ethereum, and Solana addresses, includes checksum validation, and can identify common errors.",
+  "description": "Build custom crypto address validation tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Validating",
+    "subtitle": "Ensure accuracy and prevent costly errors by building a custom crypto address validator tailored to your exact needs.",
+    "title": "Build Your Own Crypto Address Validator"
+  },
+  "metaDescription": "Create powerful crypto address validation tools with Kliv. Prevent loss of funds, reduce human error, and enhance security with custom-built applications.",
+  "sections": [
+    {
+      "title": "The importance of precise crypto address validation",
+      "type": "text",
+      "content": "In the world of cryptocurrency, a single misplaced character in an address can lead to irreversible loss of funds. Generic online validators often lack the specific features, custom rules, or integration capabilities that businesses or advanced users require. Building your own validation tool means you define the security, accuracy, and user experience, all while maintaining full control over your data and infrastructure."
+    },
+    {
+      "title": "Why a custom crypto address validator is indispensable",
+      "type": "markdown",
+      "content": "## The pitfalls of relying on external validators\n\nMost existing crypto address validation services offer basic checks, but they often fall short for serious users or businesses due to:\n\n- **Limited coin support**: Many validators only cover a few major cryptocurrencies, leaving gaps for less common (but still valuable) assets.\n- **Lack of advanced checks**: Beyond basic format, they rarely perform crucial checks like checksum validation or network-specific nuances.\n- **Privacy concerns**: Sending sensitive address data to third-party services can expose your operational details or even compromise security.\n- **Integration complexity**: Retrofitting a public API into a custom workflow is often more trouble than it's worth, requiring extensive development.\n- **No customization**: You're stuck with their features, unable to add specific error handling, user interfaces, or rate limits.\n\n## The undeniable advantages of a custom-built solution\n\nDeveloping your own validator with Kliv's platform offers unparalleled benefits:\n\n### Comprehensive asset coverage\nBeyond BTC and ETH, you can build a validator that understands a vast array of cryptocurrencies—from new altcoins to obscure tokens—ensuring no address is left unchecked.\n\n### Advanced validation logic\nImplement sophisticated checks like network-specific rules, checksum algorithms, and even historical transaction patterns to identify potentially compromised or invalid addresses before any funds are sent.\n\n### Enhanced security and privacy\nYour validator runs on your infrastructure, or a secure private cloud, keeping sensitive financial data entirely within your control. No third parties, no data sharing, just pure, secure validation.\n\n### Seamless workflow integration\nDesign the validator to perfectly fit your existing payment gateways, wallet systems, or exchange platforms. Automate the validation process directly within your transactional flows.\n\n### Tailored user experience\nCraft a user interface that makes sense for your team or customers, providing clear feedback on address validity, potential issues, and suggested corrections.\n\n## Practical applications of custom validators\n\n- **Exchanges and Trading Platforms**: Implement robust pre-transaction validation to minimize deposit/withdrawal errors and improve user trust.\n- **Payment Processors**: Ensure outgoing payments are always directed to valid, well-formed addresses, preventing costly customer service issues.\n- **Mining Pools/Staking Services**: Validate payout addresses to guarantee rewards reach their rightful recipients consistently.\n- **Custodial Solutions**: Add an extra layer of security and verification for institutional-grade asset management.\n- **Individual Investors/Traders**: Create a personal tool for quick, reliable validation before sending any significant amounts.\n\n## Kliv's AI-powered approach to building validators\n\nKliv revolutionizes custom software development, making complex tools like crypto address validators accessible to anyone:\n\n- **Natural Language Interaction**: Describe the cryptocurrencies you need to support and the validation rules, and AI translates it into code.\n- **Component-Based Building**: Assemble robust validation logic from pre-optimized modules or entirely new ones generated on demand.\n- **Real-Time Feedback**: See your validator take shape instantly, iterating on features and refining accuracy with immediate results.\n- **Deployment Flexibility**: Easily deploy your custom validator as a web app, API service, or even an internal script.\n\nDon't let the complexity of crypto addresses lead to preventable errors. With Kliv, you can arm yourself with a precise, secure, and custom-built validation tool that gives you peace of mind."
+    },
+    {
+      "title": "Crypto address validation scenarios",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Validate common Bitcoin address types and detect format errors.",
+          "prompt": "Create a tool that validates Bitcoin (BTC) addresses, distinguishing between P2PKH, P2SH, and Bech32 formats, and performs checksum validation.",
+          "title": "Multi-format Bitcoin Validator"
+        },
+        {
+          "description": "Ensure Ethereum addresses are correct, including checksum and EIP-55.",
+          "prompt": "Develop an Ethereum (ETH) address validator that checks for valid length, hexadecimal characters, and EIP-55 checksum compliance.",
+          "title": "Ethereum Checksum Validator"
+        },
+        {
+          "description": "Verify Solana addresses for correct format and length.",
+          "prompt": "Build a Solana (SOL) address validator that checks for base58 encoding, correct length, and can identify common encoding mistakes.",
+          "title": "Solana Address Verification"
+        },
+        {
+          "description": "Support multiple networks in one integrated tool.",
+          "prompt": "Create a universal crypto address validator supporting BTC, ETH, SOL, XRP, and ADA, with specific format and checksum checks for each.",
+          "title": "Universal Crypto Validator"
+        },
+        {
+          "description": "Identify if an address belongs to a known exchange or smart contract.",
+          "prompt": "Design a validator that not only checks the format of an Ethereum address but also cross-references it with a list of known exchange hot wallets or common smart contract addresses.",
+          "title": "Smart Contract/Exchange Address Identifier"
+        },
+        {
+          "description": "Validate addresses used for specific token standards.",
+          "prompt": "Build a validator for Polygon (MATIC) addresses specifically designed to ensure they are compatible with ERC-20 token transfers, including network prefix checks.",
+          "title": "Token-Specific Address Validator"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your validator's capabilities",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add functionality to perform network status checks for the associated blockchain to verify address activity.",
+          "title": "Integrate Network Checks"
+        },
+        {
+          "prompt": "Implement a feature to suggest corrections for common typos in addresses, for example, missing characters or transposed digits.",
+          "title": "Add Typo Correction Suggestions"
+        },
+        {
+          "prompt": "Build an API endpoint for the validator so it can be integrated into other applications programmatically.",
+          "title": "Develop a Validation API"
+        },
+        {
+          "prompt": "Include a feature to check if an address has a history of suspicious activity or is on a known blacklist.",
+          "title": "Add Blacklist/Scam Address Check"
+        },
+        {
+          "prompt": "Create a user interface that visually indicates whether an address is valid and highlights any identified errors.",
+          "title": "Design Intuitive UI"
+        },
+        {
+          "prompt": "Implement multi-language support for the validator's interface and error messages.",
+          "title": "Add Multi-Language Support"
+        },
+        {
+          "prompt": "Add a feature to log all validation attempts and their outcomes for auditing and security purposes.",
+          "title": "Implement Audit Logging"
+        },
+        {
+          "prompt": "Allow users to upload a batch of addresses via a CSV file for bulk validation.",
+          "title": "Enable Batch Validation"
+        },
+        {
+          "prompt": "Integrate with transaction history explorers for supported chains to provide more context about valid addresses.",
+          "title": "Integrate with Blockchain Explorers"
+        }
+      ]
+    },
+    {
+      "title": "Key features for a custom validator",
+      "type": "features",
+      "items": [
+        {
+          "description": "Support for a wide range of cryptocurrencies and tokens.",
+          "icon": "💸",
+          "title": "Multi-Coin Support"
+        },
+        {
+          "description": "Algorithms to verify address formats and checksums for each chain.",
+          "icon": "✅",
+          "title": "Format & Checksum Validation"
+        },
+        {
+          "description": "Ability to integrate with existing systems via APIs.",
+          "icon": "🔗",
+          "title": "API Integration Ready"
+        },
+        {
+          "description": "Clear and custom error messages for invalid addresses.",
+          "icon": "🚨",
+          "title": "Custom Error Handling"
+        },
+        {
+          "description": "Runs on your secure infrastructure, safeguarding sensitive data.",
+          "icon": "🔒",
+          "title": "Enhanced Data Security"
+        },
+        {
+          "description": "Option to add user accounts and access controls for different teams.",
+          "icon": "👥",
+          "title": "User Management (Optional)"
+        }
+      ]
+    },
+    {
+      "title": "Questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic crypto address validator with Kliv can take as little as a few hours. More complex systems with extensive integrations and custom UIs might take a few days of iterative development.",
+          "question": "How quickly can I build a crypto address validator?"
+        },
+        {
+          "answer": "No coding experience is required. Kliv’s AI platform translates your natural language descriptions into functional code. You specify the validation rules, and the AI handles the technical implementation.",
+          "question": "Do I need to be a blockchain developer or coder?"
+        },
+        {
+          "answer": "Yes, your custom validator can be designed to integrate with any system that offers an API or webhooks, including payment gateways, enterprise CRMs, or your custom applications. The Kliv generated code is fully compatible.",
+          "question": "Can my validator integrate with other business applications?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property generated. The validator’s code, logic, and data are entirely yours to host, modify, and manage as you see fit.",
+          "question": "Who owns the intellectual property of the validator I build?"
+        },
+        {
+          "answer": "Building a custom validator eliminates ongoing subscription costs associated with third-party services. While there's an initial development effort, it quickly becomes more cost-effective as you scale or require specialized features.",
+          "question": "Is building a validator with Kliv more cost-effective than using external services?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the ability to continuously evolve your tool. You can add new coin support, refine validation rules, or implement new features as your needs change.",
+          "question": "Can I update or expand my validator after it's built?"
+        },
+        {
+          "answer": "Kliv-built applications prioritize data security. Since you control where the application is deployed and how it handles data, you can implement robust security protocols tailored to your specific compliance and privacy needs, often surpassing what a generic SaaS offers.",
+          "question": "How secure is a custom-built crypto address validator?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to ensure transaction integrity?",
+      "type": "cta",
+      "content": "Stop worrying about lost funds due to invalid crypto addresses. Build your precision validator today."
+    }
+  ],
+  "title": "Crypto Address Validator"
+}

@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a retro game development platform that allows users to design 8-bit style games with pixel art tools, a simple scripting language for game logic, and exporting options for old console formats.",
+  "description": "Build custom retro game development tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your retro game engine",
+    "subtitle": "Create powerful, nostalgic game development environments tailored to your vision, from pixel art editors to custom scripting languages.",
+    "title": "Build your own retro game development tools"
+  },
+  "metaDescription": "Create powerful retro game development tools with Kliv. Design pixel-perfect graphics, implement game logic, and export for classic platforms with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own retro game dev tool?",
+      "type": "text",
+      "content": "The world of retro gaming is passionate and niche, often requiring very specific tools that simply don't exist off-the-shelf, or are too generic to truly capture the essence of classic platforms. With AI-powered development platforms like Kliv, creating custom retro game development environments has never been more accessible.\n\nWhile existing engines might offer some retro features, they rarely provide the deep customization needed for authentic pixel accuracy, specific hardware constraints, or unique vintage aesthetics. Building your own allows for unparalleled control, ownership, and the ability to perfectly match the tools to your creative vision or a specific retro platform's nuances."
+    },
+    {
+      "title": "The case for custom retro game creation",
+      "type": "markdown",
+      "content": "## The limitations of generic game engines\n\nModern game engines are powerful, but often overkill or ill-suited for true retro development. They typically struggle with:\n\n- **Authentic constraints:** Emulating limited color palettes, screen resolutions, or sprite counts is often an afterthought, not core functionality.\n- **Specific hardware simulation:** Creating for a particular vintage console (e.g., NES, Game Boy) requires precise control over memory, sound chips, and input methods that general engines don't offer.\n- **Learning curve:** Many engines are complex, designed for 3D or high-fidelity 2D, burdening retro developers with irrelevant features.\n- **Tooling philosophy:** The workflow in modern engines doesn't always align with the simpler, more direct approach of retro development.\n\n## Why custom-built excels for retro gaming\n\nAI development tools have democratized software creation, making it feasible to build specialized tools for niche markets like retro game development:\n\n### Uncompromised Authenticity\nWith a custom tool, you can hardcode limitations to perfectly mimic a specific retro console. Control every pixel, every sound wave, every frame rate to achieve true vintage authenticity.\n\n### Tailored Workflow\nDesign your development environment exactly how you want it. Integrate a pixel art editor, a chiptune music sequencer, a tile map editor, and a simple code editor all in one seamless application.\n\n### Owned & Evergreen\nUnlike third-party tools that might change features or cease support, your custom solution is yours. You own the codebase, ensuring your development pipeline remains stable and adaptable for years to come.\n\n### Targeted Output\nGenerate ROMs, specific assembly code, or emulator-compatible files directly, bypassing complex export pipelines or compatibility issues common with generalized engines.\n\n## Real-world applications\n\nCustom retro game dev tools can empower creators in various ways:\n\n**Indie Devs**: A solo developer creating a new game for an old system can build a tightly integrated toolchain that speeds up their specific workflow.\n\n**Game Jams**: Teams can use a simplified, custom engine built specifically for a retro-themed game jam, focusing purely on creation rather than setup.\n\n**Educational Platforms**: Build an educational tool that simplifies game development for beginners by focusing on core retro concepts without modern complexities.\n\n**Hardware Emulation**: Develop a testing platform that generates specific data or graphics to stress-test new emulator builds.\n\n## The AI advantage\n\nBuilding specialized software used to be a monumental task. AI platforms like Kliv redefine this:\n\n- **Natural language design**: Describe the features you need (e.g., 'a pixel art editor with custom palettes'), and the AI assists in building it.\n- **Rapid iteration**: See your ideas come to life quickly, enabling fast prototyping and testing of your development environment.\n- **Intelligent suggestions**: AI can recommend best practices for retro graphics, sound, or code styles.\n- **Automated module creation**: Core components like sprite editors, tilemap tools, or basic assemblers can be generated with ease.\n\n## Getting started\n\nThe best retro game development tool is the one that brings your specific creative vision to life without compromise. Instead of struggling with generalized engines, invest in a custom environment.\n\nWith Kliv's AI-powered platform, you can start building your unique retro game development tool today. No deep coding expertise is required to get started—just a passion for pixel perfection and vintage gaming."
+    },
+    {
+      "title": "Retro game dev tool ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create pixel-perfect art within your custom tool.",
+          "prompt": "Build a pixel art editor supporting 16-color palettes, custom brush sizes, and animation frames for classic sprite creation.",
+          "title": "8-bit Sprite Editor"
+        },
+        {
+          "description": "Design authentic chiptune music and sound effects.",
+          "prompt": "Develop a chiptune music sequencer with a limited number of channels, customizable waveforms, and noise generation for authentic retro sound.",
+          "title": "Chiptune Music Maker"
+        },
+        {
+          "description": "Simple, visual logic for character movement and interaction.",
+          "prompt": "Design a drag-and-drop visual scripting interface for game logic, focusing on character movement, collision detection, and basic AI behavior.",
+          "title": "Visual Game Logic Designer"
+        },
+        {
+          "description": "Build levels using tilesets and custom collision layers.",
+          "prompt": "Create a tilemap editor that allows users to import sprite sheets, draw levels with tiles, and define collision properties for each tile.",
+          "title": "Tilemap & Level Builder"
+        },
+        {
+          "description": "Manage game assets like sprites, sounds, and maps.",
+          "prompt": "Develop an asset management system specifically for retro game components, allowing easy importing, organizing, and linking of sprites, backgrounds, and audio files.",
+          "title": "Retro Asset Manager"
+        },
+        {
+          "description": "Export games to common retro console ROM formats.",
+          "prompt": "Implement an export feature that compiles game assets and logic into a format compatible with emulators for classic 8-bit or 16-bit consoles (e.g., `.nes`, `.gb`).",
+          "title": "Emulator ROM Exporter"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your retro game dev tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a simple text-based scripting language interpreter with variable support and control flow (if/else, loops) for advanced game logic.",
+          "title": "Custom Scripting Language"
+        },
+        {
+          "prompt": "Integrate a basic physics engine optimized for retro-style platformers, handling gravity, jumping, and simple collisions.",
+          "title": "Basic Physics Engine"
+        },
+        {
+          "prompt": "Build a simple debugger that allows users to step through game logic, inspect variable states, and view sprite positions in real-time.",
+          "title": "In-tool Debugger"
+        },
+        {
+          "prompt": "Add collaborative features allowing multiple users to work on the same game project simultaneously with real-time updates.",
+          "title": "Multiplayer Project Support"
+        },
+        {
+          "prompt": "Include a feature for creating and managing custom font sets, optimized for different pixel art styles.",
+          "title": "Custom Font Tool"
+        },
+        {
+          "prompt": "Develop a system to automatically optimize pixel art for specific console palettes, reducing colors and dither, if needed.",
+          "title": "Palette Optimization Utility"
+        },
+        {
+          "prompt": "Add a module for creating and importing custom simple 2D shapes for collision masks or visual effects.",
+          "title": "Basic Geometric Shape Tool"
+        },
+        {
+          "prompt": "Offer a version control system integrated directly into the tool, allowing users to track changes and revert to previous versions of their games.",
+          "title": "Integrated Version Control"
+        },
+        {
+          "prompt": "Create a customizable project template system, allowing users to quickly start new games based on themes or console types.",
+          "title": "Game Project Templates"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for retro game creation",
+      "type": "features",
+      "items": [
+        {
+          "description": "Create and edit authentic pixel art sprites, tiles, and backgrounds with custom color palettes.",
+          "icon": "🎨",
+          "title": "Pixel Art Editor"
+        },
+        {
+          "description": "Design multi-layered game levels using tile-based systems, enabling quick construction of scenes.",
+          "icon": "🧱",
+          "title": "Tilemap & Level Editor"
+        },
+        {
+          "description": "Implement game logic using visual scripting or a simple, intuitive text-based language.",
+          "icon": "⚙️",
+          "title": "Game Logic Engine"
+        },
+        {
+          "description": "Compose retro-style sound effects and chiptune music with dedicated audio tools and limited channels.",
+          "icon": "🎶",
+          "title": "Chiptune Audio Workstation"
+        },
+        {
+          "description": "Preview your game in real-time within the development environment, with options for target platform resolution and aspect ratio.",
+          "icon": "🕹️",
+          "title": "In-Engine Playtesting"
+        },
+        {
+          "description": "Export finished games to formats compatible with popular retro emulators or specific console hardware requirements.",
+          "icon": "📦",
+          "title": "Customizable Exporter"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The time varies based on complexity. A basic pixel art editor or a simple game logic tool can be functional in hours. A comprehensive suite with advanced features might take a few days or weeks to fully refine.",
+          "question": "How long will it take to build a retro game development tool?"
+        },
+        {
+          "answer": "No deep coding experience is required. Kliv's AI assists in translating your natural language requests into functional software components, making specialized tool creation accessible to designers and artists, not just programmers.",
+          "question": "Do I need to be a programmer to build my own retro game dev tool?"
+        },
+        {
+          "answer": "Yes. Your custom tool can be designed to import and export various file formats (e.g., PNG for sprites, WAV for sounds, JSON for level data) and interact with external applications if they expose an API.",
+          "question": "Can I integrate my custom tool with existing art software or audio tools?"
+        },
+        {
+          "answer": "You retain full ownership of any software built using Kliv. All code, assets, and project files generated from your tool belong entirely to you, allowing for complete control over your creative work.",
+          "question": "Who owns the tools and games I create with Kliv?"
+        },
+        {
+          "answer": "Building a custom tool offers a unique competitive advantage. While there might be an initial investment in time and resources, it often saves money long-term by avoiding subscription fees and providing highly specialized functionality that generic engines can't.",
+          "question": "Is building a custom tool cost-effective compared to using existing game engines?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the ability to continuously evolve your tool. As your game development needs change or as new retro platforms emerge, you can adapt, add features, or refine your custom environment.",
+          "question": "Can I modify my retro game dev tool after it's built?"
+        },
+        {
+          "answer": "Kliv provides an intuitive, iterative development process. You describe your desired features, the AI generates initial components, and you refine them through natural language prompts. Built-in testing and debugging support help ensure your tool functions as intended.",
+          "question": "What is the development process like with Kliv?"
+        },
+        {
+          "answer": "Kliv assists with the development process itself. For support with the specific challenges of retro game development (e.g., understanding 8-bit graphics limitations), online communities and specialized forums are excellent resources. Kliv's platform documentation and AI assistance can guide you in implementing these concepts.",
+          "question": "What kind of support is available for retro game development specific challenges?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to craft your ideal retro game development experience?",
+      "type": "cta",
+      "content": "Stop conforming to generic engines. Build the specialized tools that bring your pixel-perfect dreams to life with AI-powered efficiency."
+    }
+  ],
+  "title": "Retro game development platforms"
+}

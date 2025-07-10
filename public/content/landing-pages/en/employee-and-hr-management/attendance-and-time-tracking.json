@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an employee attendance and time tracking application that allows staff to clock in/out, view their hours, and managers to approve timesheets and generate reports.",
+  "description": "Build custom attendance and time tracking applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start tracking now",
+    "subtitle": "Gain precise control over employee hours, streamline payroll, and ensure compliance with custom-built attendance and time tracking applications on Kliv.",
+    "title": "Create your own attendance and time tracking system"
+  },
+  "metaDescription": "Create powerful attendance and time tracking tools with Kliv. Monitor hours, simplify payroll, and manage employee presence effectively with tailor-made applications.",
+  "sections": [
+    {
+      "title": "Why build your own time tracking solution?",
+      "type": "text",
+      "content": "In today's dynamic work environment, off-the-shelf attendance and time tracking software often falls short. They might offer too many features you don't need, lack critical ones you do, or simply don't align with your specific operational nuances.\nWith Kliv's AI-powered platform, you can design a system that fits your business like a glove. Move beyond generic subscriptions and embrace a tailored approach that saves time, reduces errors, and gives you total ownership."
+    },
+    {
+      "title": "The strategic advantage of tailored time tracking",
+      "type": "markdown",
+      "content": "## Limitations of standard software\nGeneric attendance and time tracking platforms often present challenges:\n\n- **Inflexible reporting**: Difficulty generating custom reports needed for specific projects or compliance audits.\n- **Integration hurdles**: Poor integration with existing HRIS or payroll systems, leading to manual data entry.\n- **Feature bloat/gaps**: Paying for unused features while critical functionalities pertinent to your business are missing.\n- **Privacy and security**: Concerns over data residency and compliance with local labor laws when using third-party cloud services.\n- **Scalability issues**: Solutions not designed for your growth trajectory, leading to costly migrations.\n\n## Why custom development with Kliv is superior\nLeveraging Kliv to build your own system provides distinct benefits:\n\n### Adapt to your unique policies\nEvery company has specific rules for breaks, overtime, project billing, or remote work. A custom system can perfectly incorporate your company's unique policies, ensuring accurate time capture and compliance.\n\n### Seamless payroll integration\nEliminate manual data transfer and reduce payroll errors. Your custom application can integrate directly with your existing payroll system, automating the entire process from clock-in to paycheck.\n\n### Data ownership and security\nMaintain complete control over sensitive employee data. You decide where your data resides and how it's secured, greatly enhancing privacy and regulatory compliance.\n\n### Cost-efficiency over time\nWhile there's an initial investment, a custom solution built with Kliv typically offers a lower total cost of ownership compared to continuous subscription fees for inadequate software.\n\n### Enhanced employee experience\nDesign an intuitive interface that simplifies clocking in/out, requesting time off, and viewing schedules, leading to higher adoption rates and fewer administrative queries.\n\n## Real-world impact\n\nCustom time tracking systems are revolutionizing how businesses manage their workforce:\n\n**Construction**: Mobile clock-in/out for field teams, geo-fencing to ensure presence on site, and project-based time allocation for accurate billing.\n\n**Healthcare**: Tracking shift differentials, managing on-call hours, and ensuring compliance with healthcare labor laws for nursing staff and clinicians.\n\n**Retail**: Granular tracking for part-time staff across multiple locations, break enforcement, and integration with POS systems for sales-based commissions.\n\n**Professional Services**: Detailed time logging against client projects and tasks, automated billing reports, and utilization rate tracking for consultants and lawyers.\n\n## The Kliv development advantage\nBuilding complex applications is now simpler than ever:\n\n- **Natural language interface**: Describe your needs in plain English.\n- **Component-based design**: Visually assemble your application's elements.\n- **Pre-built templates**: Accelerate development with industry-specific starting points.\n- **Automated deployment**: Go live quickly and securely.\n\n**Ready to take control of your workforce management?** Kliv empowers you to build a time tracking solution that truly works for your business, not against it."
+    },
+    {
+      "title": "Application ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Streamline time logging for field workers with GPS verification.",
+          "prompt": "Create a mobile attendance application for construction workers that allows them to clock in/out from job sites, using GPS to verify their location, and track hours per project.",
+          "title": "Mobile Field Worker Time Tracker"
+        },
+        {
+          "description": "Manage shifts, breaks, and overtime for a busy restaurant.",
+          "prompt": "Build an attendance system for a restaurant with multiple locations, allowing employees to clock in/out via an iPad kiosk, manage break times, and automatically calculate overtime based on state regulations.",
+          "title": "Restaurant Staff Timesheet App"
+        },
+        {
+          "description": "Track remote employee hours, tasks, and project contributions.",
+          "prompt": "Develop a web-based time tracking tool for remote employees that enables them to log daily hours, specify tasks completed, assign hours to specific client projects, and submit timesheets for manager approval.",
+          "title": "Remote Employee Time Logger"
+        },
+        {
+          "description": "Simplify time-off requests, approvals, and balance tracking.",
+          "prompt": "Design an online portal for employees to request paid time off (PTO), sick leave, or unpaid leave, with automated routing to managers for approval, and a dashboard showing accrued and used balances.",
+          "title": "Automated Leave Request System"
+        },
+        {
+          "description": "Create a simple, secure time clock for small businesses.",
+          "prompt": "I need a simple attendance system for my small retail store. Employees should be able to clock in/out using a unique PIN, and I want to generate weekly summary reports of hours worked for payroll.",
+          "title": "Simple PIN-Based Attendance Kiosk"
+        },
+        {
+          "description": "Track time for client billing and project profitability.",
+          "prompt": "Build a time and expense tracking application for my consulting firm where consultants can log billable hours against client projects, categorize expenses, and generate reports for client invoicing.",
+          "title": "Consulting Project Time & Expense"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your application with these features",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for employees to request time off directly within the app, with manager approval workflows and a calendar view of approved leave.",
+          "title": "Integrate Leave Management"
+        },
+        {
+          "prompt": "Implement geo-fencing capabilities to restrict clock-in/out to specific work locations for mobile employees.",
+          "title": "Add Geo-fencing for Clock-in"
+        },
+        {
+          "prompt": "Include an automated alert system to notify managers if an employee fails to clock in for a scheduled shift or clocks in late.",
+          "title": "Develop Missed Clock-in Alerts"
+        },
+        {
+          "prompt": "Add a module for employees to view their past timesheets, including detailed breakdowns by day or project, and download summary reports.",
+          "title": "Create Employee Time History View"
+        },
+        {
+          "prompt": "Integrate the system with a popular payroll provider (e.g., ADP, QuickBooks Payroll) to export approved timesheet data directly for payroll processing.",
+          "title": "Implement Payroll System Sync"
+        },
+        {
+          "prompt": "Allow employees to attach notes or documentation to their timesheets, for example, reasons for overtime or sick leave records.",
+          "title": "Enable Timesheet Attachments"
+        },
+        {
+          "prompt": "Add facial recognition or fingerprint scanning for more secure and efficient clock-in/out, especially for shared kiosks.",
+          "title": "Integrate Biometric Authentication"
+        },
+        {
+          "prompt": "Build a robust reporting dashboard for managers to view attendance trends, identify absenteeism, analyze overtime costs, and export data in various formats.",
+          "title": "Enhance Reporting & Analytics"
+        },
+        {
+          "prompt": "Develop a feature that automatically calculates overtime based on predefined company policies and local labor laws.",
+          "title": "Automate Overtime Calculation"
+        }
+      ]
+    },
+    {
+      "title": "Core application capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Allow employees to clock in and out with ease, from any device or designated kiosk.",
+          "icon": "⏰",
+          "title": "Flexible Clock Options"
+        },
+        {
+          "description": "Managers can review, edit, and approve employee timesheets before payroll processing.",
+          "icon": "✅",
+          "title": "Timesheet Approval Workflows"
+        },
+        {
+          "description": "Create custom rules for overtime, breaks, and shift differentials to ensure compliance.",
+          "icon": "📜",
+          "title": "Custom Policy Enforcement"
+        },
+        {
+          "description": "Generate detailed reports on employee hours, attendance trends, and payroll data.",
+          "icon": "📈",
+          "title": "Comprehensive Reporting"
+        },
+        {
+          "description": "Assign hours to specific projects or tasks for precise cost tracking and client billing.",
+          "icon": "📊",
+          "title": "Project & Task Tracking"
+        },
+        {
+          "description": "Seamlessly transfer approved hours to your existing payroll system.",
+          "icon": "➡️",
+          "title": "Payroll Integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic attendance and time tracking system can take a few hours to a few days with Kliv, depending on the complexity of your requirements and integrations.",
+          "question": "How quickly can I build an attendance and time tracking application?"
+        },
+        {
+          "answer": "No, you don't need any prior coding experience. Kliv's intuitive AI-powered platform allows you to describe your desired features in plain language, and it handles the technical development.",
+          "question": "Is coding knowledge required to build this type of app?"
+        },
+        {
+          "answer": "Yes, your custom app can be designed to integrate with almost any existing HRIS, payroll system, or other business software that offers an API (Application Programming Interface).",
+          "question": "Can the custom app integrate with my existing HR and payroll systems?"
+        },
+        {
+          "answer": "You retain full ownership and control over the application, its code, and all data generated. You decide on hosting and data management strategies.",
+          "question": "Who owns the data and the application once it's built?"
+        },
+        {
+          "answer": "Building a custom solution often results in significant long-term savings by eliminating ongoing subscription fees for software that doesn't fully meet your needs. It's an investment that pays off.",
+          "question": "Is a custom attendance app more cost-effective than off-the-shelf solutions?"
+        },
+        {
+          "answer": "Absolutely. Your custom application is fully extensible. You can add new features, adjust policies, and scale functionalities as your business evolves, without relying on vendor updates.",
+          "question": "Can I modify the application after it's been created?"
+        },
+        {
+          "answer": "Yes, when built and maintained correctly, a custom application can offer superior security and compliance because you control data storage, access, and implement specific security protocols relevant to your industry.",
+          "question": "How secure are custom-built attendance applications?"
+        },
+        {
+          "answer": "Kliv provides guidance and AI assistance during the building process, offering suggestions and troubleshooting. Since you own the source code, you also have the flexibility to seek external development support if needed.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ideal attendance solution?",
+      "type": "cta",
+      "content": "Stop conforming to rigid software. Start creating a time tracking system that perfectly aligns with your operations and empowers your workforce."
+    }
+  ],
+  "title": "Attendance & Time Tracking applications"
+}

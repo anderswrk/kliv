@@ -1,0 +1,186 @@
+{
+  "defaultPrompt": "I want to create a logistics and transportation management system that can track shipments in real-time, optimize routes, manage vehicle maintenance, and handle order fulfillment from a centralized dashboard.",
+  "description": "Build custom logistics and transportation management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start optimizing your logistics",
+    "subtitle": "Gain complete control over your supply chain with bespoke logistics and transportation management applications built on Kliv.",
+    "title": "Build your own logistics & transportation management system"
+  },
+  "metaDescription": "Create powerful, custom logistics and transportation management systems with Kliv. Optimize routes, track shipments, manage fleets, and streamline operations with a tailored solution.",
+  "sections": [
+    {
+      "title": "Why build your own logistics management system?",
+      "type": "text",
+      "content": "In a world of complex supply chains and demanding delivery schedules, off-the-shelf logistics software often falls short. These generic solutions are built for the masses, not for your unique operational intricacies, leading to inefficiencies, manual workarounds, and hidden costs.\n\nBuilding your own logistics and transportation management system (LTMS) means creating a tool that perfectly aligns with your fleet, routes, inventory, and customer needs. Kliv's AI-powered platform makes custom development accessible, allowing you to design a system that truly drives efficiency and profitability, without the recurring subscription fees or feature limitations of commercial platforms."
+    },
+    {
+      "title": "The strategic advantage of tailored logistics systems",
+      "type": "markdown",
+      "content": "## Overcoming generic software limitations\n\nCommercial LTMS solutions, while robust, often impose significant limitations:\n\n- **Inflexible workflows:** They dictate how you operate rather than adapting to your best practices.\n- **Feature bloat:** You pay for many features you don't need, while critical niche requirements are missing.\n- **Integration headaches:** Connecting them to your ERP, WMS, or accounting software can be costly and complex.\n- **Subscription trap:** Ongoing, escalating costs that eat into your margins.\n- **Data silos:** Your valuable operational data might be locked away in their ecosystem, limiting your true insights.\n\n## Why a custom-built solution is a game-changer\n\nA custom-built LTMS offers unparalleled benefits for businesses striving for operational excellence:\n\n### Designed for your unique operations\nEvery logistics operation has its quirks. A custom system can perfectly model your specific dispatch logic, routing constraints (e.g., vehicle types, height restrictions), driver schedules, and customer-specific delivery windows. This eliminates manual adjustments and ensures seamless execution.\n\n### Maximize efficiency and minimize costs\nBy precisely aligning with your operational flow, a custom LTMS can optimize routes with greater accuracy, reduce fuel consumption, minimize empty miles, and improve driver productivity. It identifies inefficiencies that off-the-shelf systems might miss.\n\n### Seamless integration with all your systems\nConnect your LTMS directly to your inventory management, accounting, CRM, and even external GPS tracking or telematics devices. This creates a unified data flow, eliminates double data entry, and provides a single source of truth for all operational data.\n\n### Ownership and future-proofing\nYou own the code, the intellectual property, and the control. As your business evolves, you can easily modify, extend, or pivot the system without being dependent on a third-party vendor's roadmap or pricing structure. This future-proofs your investment.\n\n### Enhanced customer satisfaction\nImproved on-time deliveries, accurate tracking information, and proactive communication—all driven by a highly optimized custom system—translate directly into higher customer satisfaction and repeat business.\n\n## Real-world impact\n\nConsider how custom logistics systems transform various sectors:\n\n**E-commerce**: Automated last-mile delivery scheduling, customer notification systems, and real-time package tracking perfectly integrated with their online store and warehouse.\n\n**Construction**: Systems that manage heavy equipment transport, driver certifications, permit tracking, and site-specific delivery windows, ensuring resources arrive on time.\n\n**Field Service Management**: Routing for technicians with specific tools or certifications, real-time job status updates, and automated invoicing upon job completion.\n\n**Food & Beverage Distribution**: Temperature-controlled fleet tracking, expiry date management, and dynamic route adjustments for urgent deliveries to restaurants and retailers.\n\n## The Kliv advantage: AI-powered development\n\nBuilding sophisticated software used to be prohibitive. Kliv changes this by:\n\n- **Understanding your needs**: Describe your desired features in plain language, and AI generates the underlying architecture.\n- **Rapid iteration**: See functional components quickly and iterate on your design in real-time.\n- **Smart optimizations**: AI suggests best practices for database design, security, and performance.\n- **Accelerated deployment**: Get your system up and running faster and more cost-effectively than traditional development."
+    },
+    {
+      "title": "Logistics application ideas to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track vehicles and shipments in real-time on a map interface.",
+          "prompt": "Create a real-time fleet tracking system showing vehicle locations, current speed, and detailed trip history for each driver and route.",
+          "title": "Real-time fleet tracking"
+        },
+        {
+          "description": "Automate the planning of optimal delivery routes for multiple stops.",
+          "prompt": "Build a route optimization tool that takes a list of delivery addresses and vehicle capacities, then calculates the most efficient multi-stop routes considering traffic and time windows.",
+          "title": "Dynamic route optimization"
+        },
+        {
+          "description": "Manage warehouse inventory, order fulfillment, and picking processes.",
+          "prompt": "Develop a warehouse management system that handles incoming goods, monitors stock levels, generates pick lists for orders, and tracks inventory movement within the warehouse.",
+          "title": "Warehouse & inventory management"
+        },
+        {
+          "description": "Streamline maintenance scheduling and record-keeping for vehicles.",
+          "prompt": "I need a vehicle maintenance tracker that records service history, schedules preventative maintenance based on mileage or time, and alerts managers when services are due.",
+          "title": "Vehicle maintenance scheduler"
+        },
+        {
+          "description": "Provide customers with an interface to track their orders and communicate.",
+          "prompt": "Create a customer portal where clients can view the status of their orders, track live deliveries, access delivery proofs, and communicate directly with dispatch.",
+          "title": "Customer order tracking portal"
+        },
+        {
+          "description": "Manage driver assignments, hours, and compliance.",
+          "prompt": "Build a driver management module that assigns routes, tracks driver hours for compliance, manages licensing information, and records daily performance metrics.",
+          "title": "Driver and dispatch management"
+        }
+      ]
+    },
+    {
+      "title": "Potential enhancements for your LTMS",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a predictive analytics module that forecasts demand based on historical data and suggests optimal inventory levels.",
+          "title": "Predictive demand forecasting"
+        },
+        {
+          "prompt": "Integrate with various vehicle IoT sensors to monitor fuel consumption, tire pressure, and engine diagnostics in real-time.",
+          "title": "IoT sensor integration"
+        },
+        {
+          "prompt": "Implement a machine learning algorithm to dynamically adjust routes in real-time based on live traffic, weather, and road closures.",
+          "title": "AI-powered dynamic routing"
+        },
+        {
+          "prompt": "Develop a mobile application for drivers to receive routes, update delivery statuses, capture proof of delivery, and communicate with dispatch.",
+          "title": "Driver mobile app"
+        },
+        {
+          "prompt": "Add a sustainability reporting feature that tracks carbon emissions per delivery and suggests greener routing options.",
+          "title": "Sustainability reporting"
+        },
+        {
+          "prompt": "Integrate with external APIs for freight exchanges or last-mile delivery services to automatically find and book additional capacity when needed.",
+          "title": "Third-party logistics (3PL) integration"
+        },
+        {
+          "prompt": "Build a comprehensive reporting suite that generates customizable reports on delivery performance, cost per mile, driver efficiency, and vehicle utilization.",
+          "title": "Advanced reporting & analytics"
+        },
+        {
+          "prompt": "Incorporate a smart pricing module that calculates real-time shipping costs based on distance, weight, vehicle type, and current fuel prices.",
+          "title": "Automated freight pricing"
+        },
+        {
+          "prompt": "Add a feature for automated invoicing based on completed deliveries and integrated with an accounting system.",
+          "title": "Automated billing and invoicing"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities of a custom LTMS",
+      "type": "features",
+      "items": [
+        {
+          "description": "Visualize and manage all vehicles and shipments on a dynamic map.",
+          "icon": "📍",
+          "title": "Geospatial mapping & tracking"
+        },
+        {
+          "description": "Algorithmically determine the most efficient delivery and pickup routes.",
+          "icon": "🛣️",
+          "title": "Route optimization"
+        },
+        {
+          "description": "Track, manage, and optimize inventory levels across multiple locations.",
+          "icon": "📦",
+          "title": "Inventory management"
+        },
+        {
+          "description": "Automate dispatch assignments and driver communication.",
+          "icon": "📞",
+          "title": "Dispatch & driver management"
+        },
+        {
+          "description": "Monitor and schedule vehicle maintenance to ensure fleet readiness.",
+          "icon": "🔧",
+          "title": "Fleet maintenance oversight"
+        },
+        {
+          "description": "Connect seamlessly with ERP, WMS, CRM, and accounting systems.",
+          "icon": "🔗",
+          "title": "Third-party integrations"
+        },
+        {
+          "description": "Generate detailed reports on operational performance, costs, and efficiency.",
+          "icon": "📈",
+          "title": "Performance analytics"
+        },
+        {
+          "description": "Provide real-time updates and proof-of-delivery for customers.",
+          "icon": "✅",
+          "title": "Customer communication & POD"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform accelerates development significantly. A basic LTMS can be functional in days, while more complex systems with advanced integrations might take weeks, far less than traditional development cycles.",
+          "question": "How long will it take to build my custom logistics system?"
+        },
+        {
+          "answer": "No, extensive coding knowledge is not required. Kliv uses AI to interpret your requirements described in plain language and translate them into functional application components. You focus on what you need the system to do.",
+          "question": "Do I need to be a programmer to build an LTMS with Kliv?"
+        },
+        {
+          "answer": "Yes, custom systems built with Kliv are designed for deep integration. You can connect to virtually any existing system with an API, including ERPs like SAP or Oracle, WMS, accounting software, and telematics systems.",
+          "question": "Can my custom LTMS integrate with my existing business software?"
+        },
+        {
+          "answer": "With Kliv, you retain full ownership of the developed system and all your operational data. You decide where it's hosted and how it's managed, providing complete data sovereignty and control.",
+          "question": "Who owns the data and the system after it's built?"
+        },
+        {
+          "answer": "While the initial investment for a custom system might be higher than a monthly SaaS fee, it's a one-time cost. Over time, you avoid recurring subscriptions, gain features perfectly suited to your needs, and achieve long-term savings in operational efficiency, making it significantly more cost-effective.",
+          "question": "How does the cost compare to off-the-shelf logistics software?"
+        },
+        {
+          "answer": "The platform supports robust security practices. You can implement highly customized access controls, data encryption, and network security measures, often resulting in a more secure environment than generic cloud-based solutions prone to larger attack surfaces.",
+          "question": "Is a custom-built logistics system secure?"
+        },
+        {
+          "answer": "Absolutely. One of the core advantages is flexibility. As your business needs evolve, you can easily add new features, adjust workflows, and scale the system to accommodate growth without being tied to vendor roadmaps or expensive upgrades.",
+          "question": "Can I modify or expand my logistics system after it's deployed?"
+        }
+      ]
+    },
+    {
+      "title": "Transform your logistics from generic to genius.",
+      "type": "cta",
+      "content": "Stop fitting your operations into rigid software. Build the perfect logistics and transportation management system tailored exclusively for your business."
+    }
+  ],
+  "title": "Custom logistics & transportation management"
+}

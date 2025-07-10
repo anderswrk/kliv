@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create an AI-powered crypto trading signal platform that can analyze market sentiment, identify arbitrage opportunities, and send real-time alerts to my mobile phone.",
+  "description": "Build custom AI-powered trading signal and alert applications for the crypto market with Kliv's platform.",
+  "hero": {
+    "cta": "Start building your signals",
+    "subtitle": "Leverage advanced AI to build your own real-time trading signal and alert systems for the volatile crypto market. Gain an edge with personalized insights.",
+    "title": "Build your own AI-powered Crypto Trading Signals & Alerts"
+  },
+  "metaDescription": "Create powerful AI-driven crypto trading signal and alert apps with Kliv. Analyze market data, detect opportunities, and receive real-time notifications for informed trading decisions.",
+  "sections": [
+    {
+      "title": "Why build your own AI-powered trading signals?",
+      "type": "text",
+      "content": "In the fast-paced world of cryptocurrency, timing is everything. Generic trading signals often miss nuances or are too slow for volatile markets. The real advantage comes from tools custom-tailored to your specific strategies, risk tolerance, and preferred assets.\n\nBuilding your own AI-powered signal and alert system means you're no longer relying on black-box algorithms or expensive, one-size-fits-all services. With Kliv, you can design a system that precisely monitors the indicators, patterns, and news events that matter most to your trading success, giving you a competitive edge."
+    },
+    {
+      "title": "The strategic advantage of custom crypto intelligence",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nMany crypto traders rely on publicly available signals or subscription services. While these can be a starting point, they inherently suffer from several drawbacks:\n\n- **Lagging information**: Public signals are often already priced into the market by the time you receive them.\n- **Generic strategies**: They don't account for your unique risk profile, capital, or preferred trading pairs.\n- **Data overload**: Often, they provide too much irrelevant noise, making it hard to identify actionable insights.\n- **Subscription costs**: Recurring fees can eat into your profits, especially for multiple signal sources.\n- **Lack of flexibility**: You can't easily customize the indicators, thresholds, or alert mechanisms.\n\n## Why custom-built signals are crucial for crypto\n\nThe volatility and complexity of the crypto market demand precision. Custom-built AI solutions offer:\n\n### Hyper-personalization\nDesign your system to focus on the cryptocurrencies, exchanges, and trading strategies that you specialize in. Set up specific entry/exit conditions, volume anomalies, or even social sentiment shifts that trigger your alerts.\n\n### Real-time advantage\nWhen you own the infrastructure, you control the data ingestion and processing speed. This allows for near real-time analysis and immediate alerts, helping you capitalize on fleeting opportunities before the broader market reacts.\n\n### Cost efficiency\nAfter the initial build, your custom system operates without recurring subscription fees for the signal generation itself. This significantly reduces overhead, letting you keep more of your trading profits.\n\n### Proprietary edge\nYour custom AI model learns from your unique data and preferences, creating a truly unique trading advantage that isn't available to the general public. This can include integrating with specialized data sources or incorporating complex inter-asset correlations.\n\n## Practical applications in crypto trading\n\nCustom AI signal tools can transform your crypto trading:\n\n**Arbitrage detection**: Monitor price discrepancies across multiple exchanges and alert you to profitable arbitrage opportunities instantly.\n\n**Sentiment analysis**: Scan social media, news, and forums for sentiment changes around specific coins, predicting potential pumps or dumps.\n\n**Whale activity tracking**: Identify large transactions (whale movements) that often precede significant price shifts.\n\n**DeFi protocol monitoring**: Track liquidity pool changes, impermanent loss warnings, or yield farming opportunities.\n\n**NFT floor price alerts**: Get notified when the floor price of a specific NFT collection drops below a certain threshold.\n\n## How AI simplifies complex trading tools\n\nBuilding sophisticated trading algorithms used to require deep programming expertise. AI development platforms like Kliv change this:\n\n- **Natural language interface**: Describe your trading strategy in plain English, and the AI helps translate it into executable logic.\n- **Rapid iteration**: Test and refine your signal conditions quickly, adapting to changing market dynamics in hours, not weeks.\n- **Automated data integration**: AI assists in connecting to various crypto data feeds, exchanges, and blockchain explorers.\n- **Intelligent pattern recognition**: AI can identify subtle patterns and correlations in market data that human analysis might miss.\n\n## Getting started\n\nStop trading with one hand tied behind your back. The most effective trading signals are the ones you custom-design for your edge. Kliv empowers you to build precisely that, without needing to become a professional developer. Begin constructing your personalized crypto advantage today."
+    },
+    {
+      "title": "Crypto trading signal ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Receive alerts for sudden volume spikes indicating potential price movements",
+          "prompt": "Create an AI system that monitors trading volume for my top 10 cryptocurrencies across Binance and Coinbase, sending an alert if the 15-minute volume for any asset is 300% above its 24-hour average.",
+          "title": "Volume Anomaly Detector"
+        },
+        {
+          "description": "Identify price differences across exchanges for arbitrage",
+          "prompt": "Build a real-time arbitrage scanner that compares Bitcoin (BTC) and Ethereum (ETH) prices on Kraken, KuCoin, and Bybit, sending an instant notification if a price difference of 0.5% or more exists.",
+          "title": "Cross-Exchange Arbitrage Alert"
+        },
+        {
+          "description": "Get notified about significant market sentiment shifts",
+          "prompt": "Develop an AI to analyze Twitter sentiment for Solana (SOL) and Cardano (ADA), triggering an alert if the positive sentiment score drops by 15% or more within an hour, indicating increasing FUD.",
+          "title": "Social Sentiment Tracker"
+        },
+        {
+          "description": "Track large transactions that could impact market prices",
+          "prompt": "Implement a 'Whale Watcher' that monitors the Ethereum blockchain for transfers exceeding 10,000 ETH to or from exchange wallets, and sends an SMS alert immediately.",
+          "title": "Whale Movement Detector"
+        },
+        {
+          "description": "Receive alerts for new listings on major exchanges",
+          "prompt": "Design a system that scrapes major exchange announcement pages (like Coinbase, Binance, Kraken) for new coin listings and sends an email notification within 5 minutes of a new announcement.",
+          "title": "New Listing Notifier"
+        },
+        {
+          "description": "Monitor specified DeFi pool conditions for opportunities",
+          "prompt": "Build a bot that monitors the APY of the USDC-ETH liquidity pool on Uniswap v3 and sends a Telegram alert if the APY exceeds 10%, or if impermanent loss for assets in my connected wallet exceeds 5%.",
+          "title": "DeFi Yield & Risk Monitor"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your crypto signal platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to backtest my signal strategies against historical market data before deploying them live.",
+          "title": "Add backtesting capabilities"
+        },
+        {
+          "prompt": "Integrate an automated trading execution module so that signals can automatically place orders on my linked exchange accounts, with user-defined limits.",
+          "title": "Automate trade execution"
+        },
+        {
+          "prompt": "Incorporate additional data sources like on-chain metrics (e.g., active addresses, transaction fees, hash rate) into the AI analysis.",
+          "title": "Enrich with on-chain data"
+        },
+        {
+          "prompt": "Develop a user dashboard to visualize the performance of different signal strategies, including win rates, profit/loss per trade, and drawdown.",
+          "title": "Build a performance dashboard"
+        },
+        {
+          "prompt": "Add voice alerts or custom sound notifications for critical signals when the market is highly volatile.",
+          "title": "Implement multi-channel alerts"
+        },
+        {
+          "prompt": "Create a module for dynamic position sizing recommendations based on signal strength and current portfolio risk.",
+          "title": "Add dynamic position sizing"
+        },
+        {
+          "prompt": "Allow the AI to learn from my past trading decisions on its generated signals, adjusting its future signal generation parameters for better accuracy.",
+          "title": "Incorporate AI feedback loop"
+        }
+      ]
+    },
+    {
+      "title": "Essential features for crypto intelligence tools",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to multiple crypto exchanges, public APIs, and blockchain nodes for comprehensive data.",
+          "icon": "🔗",
+          "title": "Multi-source data aggregation"
+        },
+        {
+          "description": "Customize indicators, chart patterns, and fundamental data points for AI analysis.",
+          "icon": "️⚙️",
+          "title": "Customizable AI models"
+        },
+        {
+          "description": "Get instant notifications via SMS, email, Telegram, or push notifications for critical events.",
+          "icon": "🔔",
+          "title": "Real-time alert delivery"
+        },
+        {
+          "description": "Scan social media, news, and on-chain data for sentiment and unusual activity.",
+          "icon": "🧠",
+          "title": "Advanced market analysis"
+        },
+        {
+          "description": "Define complex conditions and filters to generate highly specific trading signals.",
+          "icon": "🎯",
+          "title": "Precise signal generation"
+        },
+        {
+          "description": "Visualize market trends, signal occurrences, and predicted movements on interactive charts.",
+          "icon": "📊",
+          "title": "Intuitive data visualization"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building complex AI trading signals can typically be done within days to weeks. Kliv's platform significantly reduces development time compared to traditional coding, allowing you to iterate and refine quickly.",
+          "question": "How long will it take to build a sophisticated AI trading signal system?"
+        },
+        {
+          "answer": "You do not need to be a professional coder. Kliv's intuitive interface allows you to describe your desired functionalities in plain language, and the AI assists in generating the underlying code and logic for your system.",
+          "question": "Do I need to be a software developer to build these types of tools?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various crypto exchanges (like Binance, Coinbase, Kraken), blockchain explorers, social media APIs, and market data providers, enabling comprehensive data analysis.",
+          "question": "Can my custom AI signal system integrate with specific crypto exchanges or data feeds?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property. The code, algorithms, and models generated by Kliv for your application are entirely yours to use, modify, and deploy as you see fit.",
+          "question": "Who owns the AI models and code generated for my trading signals?"
+        },
+        {
+          "answer": "You have complete control over where your system is deployed. This allows you to implement robust security measures tailored to your needs, potentially making it more secure than relying on third-party services.",
+          "question": "What about the security of my trading strategies and data?"
+        },
+        {
+          "answer": "Custom-built applications built with Kliv typically incur a one-time development cost, often significantly less than long-term subscriptions for premium signal services, which can quickly add up.",
+          "question": "How does the cost compare to subscribing to commercial trading signal services?"
+        },
+        {
+          "answer": "Absolutely. The flexibility of a custom-built system means you can continuously update your AI models, add new data sources, refine signal conditions, or implement new alert methods as market conditions or your strategies evolve.",
+          "question": "Can I easily update or modify my AI signal system after it's built?"
+        },
+        {
+          "answer": "Kliv offers built-in tools for debugging, performance monitoring, and optimization. Since you have access to the underlying code, you can also leverage common development tools and resources for maintenance.",
+          "question": "What kind of support is available for maintaining my custom signal system?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your custom crypto trading advantage?",
+      "type": "cta",
+      "content": "Stop reacting, start predicting. Take control of your crypto trading with AI-powered signals designed by you, for you."
+    }
+  ],
+  "title": "AI-powered Trading Signals & Alerts for Crypto"
+}

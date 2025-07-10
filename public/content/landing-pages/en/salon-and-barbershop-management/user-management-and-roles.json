@@ -1,0 +1,159 @@
+{
+  "defaultPrompt": "I want to create a user management and roles system for a salon, allowing me to add staff, define their roles (e.g., stylist, receptionist, manager), and assign specific permissions for booking, client data, and reporting.",
+  "description": "Build custom user management and access control applications for salons and barbershops with Kliv's AI platform.",
+  "hero": {
+    "cta": "Start managing staff",
+    "subtitle": "Create bespoke user management and role-based access control systems tailored for salon and barbershop operations.",
+    "title": "Custom User Management & Roles for Salons"
+  },
+  "metaDescription": "Easily build custom user management and role-based access control systems for your salon or barbershop with Kliv. Define staff roles, assign permissions, and secure your business operations.",
+  "sections": [
+    {
+      "title": "Why build a custom user management system for your salon?",
+      "type": "text",
+      "content": "Off-the-shelf salon management software often comes with fixed user roles and limited permission customization. This can lead to security vulnerabilities, inefficiency, and frustration when you can't tailor access exactly to your operational needs.\n\nBuilding your own user management and roles application with Kliv empowers you to design a system that precisely reflects your salon's hierarchy and security requirements. Give managers access to sensitive reports, receptionists control over bookings, and stylists visibility into their client lists—all with granular permission settings that you define."
+    },
+    {
+      "title": "The power of tailored access for your business",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\nMost salon and barbershop management platforms offer basic user profiles (e.g., admin, employee). This one-size-fits-all approach often fails to address the nuanced access control needed in a dynamic small business:\n\n- **Overly broad permissions**: Giving too much access to employees who don't need it, risking data integrity or security.\n- **Lack of granular control**: Inability to restrict certain actions (like deleting client records or modifying pricing) to specific roles.\n- **Inefficient workflows**: Staff spending time navigating menus and features irrelevant to their role, slowing down operations.\n- **Security risks**: Without proper role segregation, sensitive business data (sales, client history, payroll) can be exposed.\n- **Poor scalability**: Difficulty adding new roles or adjusting permissions as your business grows or staff responsibilities change.\n\n## Custom-built: Your competitive edge\nWith Kliv, you can move beyond these limitations and create a system that truly supports your salon's unique structure:\n\n### Precision access control\nDefine specific roles like 'Senior Stylist', 'Junior Stylist', 'Apprentice', 'Front Desk Lead', 'Inventory Manager', and set precise permissions for each. Control who can view client history, modify appointments, access sales reports, or adjust inventory levels.\n\n### Enhanced security\nMinimize the risk of accidental changes or malicious actions by limiting data access and functional capabilities to only those who need it. Protect sensitive financial data and client information.\n\n### Streamlined operations\nStaff benefit from simplified interfaces that only show relevant functions, reducing clutter and improving efficiency. A receptionist's view can focus purely on scheduling and client check-ins, while a manager's view highlights performance metrics.\n\n### Adaptability and future-proofing\nAs your salon evolves, easily modify existing roles, add new ones, or adjust permissions without waiting for a software update or paying for premium features. Your system grows with you.\n\n## Practical applications in your salon\n\n- **Stylist portals**: Allowing stylists to see their schedule, client notes, and service history, but restricting access to payroll or other stylists' client lists.\n- **Receptionist dashboards**: Empowering front desk staff to manage bookings, client check-ins, and product sales, while preventing access to sensitive back-office financial reports.\n- **Manager oversight**: Providing managers with comprehensive dashboards to monitor daily sales, staff performance, inventory levels, and client feedback, with the ability to adjust pricing or manage staff profiles.\n- **Inventory management**: Designating specific staff (or a specific role) to manage product stock, receive new shipments, and reconcile inventory.\n\n## The Kliv advantage for salon owners\nBuilding custom software used to be out of reach for most small businesses. Kliv changes that:\n\n- **Descriptive development**: Simply describe the roles, permissions, and features you need in plain language, and Kliv helps bring them to life.\n- **Rapid deployment**: Get your custom system up and running quickly, often in days, not months.\n- **Cost-effective**: Avoid ongoing subscription fees and only pay for what you build and use.\n- **Full ownership**: You own the code and the data, giving you ultimate control and flexibility."
+    },
+    {
+      "title": "User management ideas for your salon",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Basic staff profiles with logins",
+          "prompt": "Create a system to manage salon staff members, including their contact information and a secure login. Each staff member should have a 'Role' field.",
+          "title": "Basic Staff Directory"
+        },
+        {
+          "description": "Permissions for viewing, editing, and deleting bookings",
+          "prompt": "Extend the staff management system to include specific permissions. For example, a 'Receptionist' role can create and modify bookings, but only a 'Manager' can delete them.",
+          "title": "Booking Access Control"
+        },
+        {
+          "description": "Control access to client data like history and notes",
+          "prompt": "Develop roles with detailed access to client information. 'Stylists' can view their own client's service history and notes, but 'Managers' can view all client data, and 'Apprentices' have no access.",
+          "title": "Client Data Visibility"
+        },
+        {
+          "description": "Restrict access to financial reports and payroll",
+          "prompt": "Implement a 'Financial Admin' role that has exclusive access to daily sales reports, payroll information, and profit/loss statements. Other roles should not see this data.",
+          "title": "Financial Report Access"
+        },
+        {
+          "description": "Manage permissions for product inventory adjustments",
+          "prompt": "Build an 'Inventory Role' that can add new products, adjust stock levels, and mark products as received. Other roles should only be able to view current stock.",
+          "title": "Inventory Management Rights"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your salon management tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for specific services tied to stylists, so only certain roles can assign specific services.",
+          "title": "Service-Specific Permissions"
+        },
+        {
+          "prompt": "Integrate time clock functionality so staff can clock in/out within their user profile, with manager oversight.",
+          "title": "Time Clock Integration"
+        },
+        {
+          "prompt": "Implement an audit trail for sensitive actions (e.g., who deleted a client record, who changed a price), visible only to managers.",
+          "title": "Action Audit Trails"
+        },
+        {
+          "prompt": "Create a customizable dashboard for each role, showing relevant KPIs and quick links based on their permissions.",
+          "title": "Role-Based Dashboards"
+        },
+        {
+          "prompt": "Allow managers to temporarily elevate a staff member's permissions for a specific task or period.",
+          "title": "Temporary Permission Escalation"
+        },
+        {
+          "prompt": "Develop an announcement board visible to all staff, but only managers can post or delete announcements.",
+          "title": "Staff Announcement Board"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define unlimited custom roles like 'Stylist', 'Receptionist', 'Manager', 'Apprentice'.",
+          "icon": "👤",
+          "title": "Custom Role Creation"
+        },
+        {
+          "description": "Grant or restrict access to specific features (bookings, reports, client data) for each role.",
+          "icon": "🔒",
+          "title": "Granular Permissions"
+        },
+        {
+          "description": "Assign multiple roles to a single staff member or easily change roles as responsibilities evolve.",
+          "icon": "🔄",
+          "title": "Flexible Role Assignment"
+        },
+        {
+          "description": "Maintain secure staff logins with custom password policies and multi-factor authentication options.",
+          "icon": "🔑",
+          "title": "Secure User Authentication"
+        },
+        {
+          "description": "Add, edit, or remove staff profiles, capture contact info, and manage employment details.",
+          "icon": "📄",
+          "title": "Staff Profile Management"
+        },
+        {
+          "description": "See who did what, when, with optional audit logs for critical data interactions.",
+          "icon": "📜",
+          "title": "Activity Monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a core user management and roles system for your salon can take just a few hours to a few days, depending on the complexity of your desired permissions and integrations.",
+          "question": "How quickly can I build a custom user management system?"
+        },
+        {
+          "answer": "No coding is required. Kliv's AI-driven platform allows you to describe your desired roles, permissions, and features in natural language, and it generates the core application for you.",
+          "question": "Do I need technical skills or coding knowledge?"
+        },
+        {
+          "answer": "Yes, your custom system can integrate with existing salon software, booking platforms, payment gateways, and other tools via APIs, allowing for seamless data flow.",
+          "question": "Can this system integrate with my existing booking or POS software?"
+        },
+        {
+          "answer": "You own 100% of the application code and data. You have full control over where your data is stored and how your system operates, ensuring complete privacy and security.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "While there's an initial investment, building with Kliv eliminates recurring subscription fees for user seats or premium features. This often leads to significant cost savings compared to off-the-shelf software, especially as your business grows.",
+          "question": "Is building my own system more expensive than buying ready-made software?"
+        },
+        {
+          "answer": "Absolutely. One of the main benefits of building with Kliv is the ability to continuously evolve your application. You can add new roles, modify permissions, or integrate new features at any time.",
+          "question": "Can I modify or expand my custom system after it's built?"
+        },
+        {
+          "answer": "Yes, often more securely. You control the hosting environment, security protocols, and data access, removing reliance on third-party security practices. This puts data privacy directly in your hands.",
+          "question": "How secure is a custom-built user management system?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to tailor your salon's operations?",
+      "type": "cta",
+      "content": "Stop fitting your salon into rigid software. Build the perfect staff management and access control system with Kliv's AI platform."
+    }
+  ],
+  "title": "Custom User Management & Roles for Salons"
+}

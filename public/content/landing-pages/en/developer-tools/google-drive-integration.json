@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "Create a tool that integrates with Google Drive to securely upload and organize files from a web application, including folder creation and access controls.",
+  "description": "Build custom Google Drive integration tools with Kliv to manage files, synchronize data, and automate workflows directly from your applications.",
+  "hero": {
+    "cta": "Start your Google Drive Integration",
+    "subtitle": "Develop bespoke applications that seamlessly connect with Google Drive for advanced file management, data synchronization, and automated processes.",
+    "title": "Custom Google Drive Integration Applications"
+  },
+  "metaDescription": "Create powerful Google Drive integration apps using Kliv. Automate file uploads, synchronizations, and custom workflows directly from your platform.",
+  "sections": [
+    {
+      "title": "Why build a custom Google Drive integration?",
+      "type": "text",
+      "content": "Off-the-shelf solutions often fall short when your business requires intricate file management, precise access controls, or specific automated workflows involving Google Drive. Building a tailored integration gives you complete command over how your application interacts with Google Drive, optimizing efficiency, enhancing security, and delivering a superior user experience.\n\nGeneric plugins impose limitations, force workarounds, and often come with recurring costs for features you don't fully utilize. A custom solution is built to your exact specifications, offering unparalleled flexibility and a clear return on investment."
+    },
+    {
+      "title": "The power of customized Google Drive integration",
+      "type": "markdown",
+      "content": "## The limitations of pre-built integrations\n\nMany businesses opt for existing Google Drive plugins or connectors, only to discover their inherent limitations:\n\n- **Lack of granular control**: Inability to define specific folder structures, naming conventions, or user permissions.\n- **Security vulnerabilities**: Relying on third-party security protocols can expose sensitive data.\n- **Performance bottlenecks**: Generic solutions not optimized for your specific data volume or usage patterns.\n- **Feature bloat vs. missing functionality**: Paying for features you don't need while critical functions for your workflow are absent.\n- **Scalability issues**: Pre-built tools rarely scale efficiently with your evolving business demands.\n\n## Advantages of a bespoke solution\n\nDeveloping your own Google Drive integration with platforms like Kliv offers significant strategic advantages:\n\n### Perfect workflow alignment\nDesign an integration that perfectly mirrors your business processes, not force your processes to adapt to a generic tool. Automate file organization, version control, and sharing based on your business logic.\n\n### Enhanced security and compliance\nImplement custom security measures, encryption protocols, and audit trails tailored to your data governance policies, ensuring compliance with industry regulations.\n\n### Cost-efficiency over time\nWhile there's an initial development investment, a custom solution eliminates recurring subscription fees for redundant features, providing long-term cost savings.\n\n### Unrestricted scalability\nYour custom integration can scale precisely with your data and user growth, without hitting arbitrary limits or incurring escalating costs.\n\n### Deeper data insights\nBuild in custom analytics to monitor file usage, storage trends, and user activity, providing valuable insights often unavailable from off-the-shelf tools.\n\n## Real-world applications\n\nCustom Google Drive integrations are transforming operations across diverse sectors:\n\n**E-commerce**: Automatically upload order confirmations, customer invoices, and shipping labels directly to specific Google Drive folders, accessible to relevant teams.\n\n**Legal firms**: Securely manage case files, client documents, and contracts, with automated versioning and strict access controls based on case type and user roles.\n\n**Educational institutions**: Streamline the submission and grading of assignments, storing student work directly in organized Google Drive folders per course and student.\n\n**Marketing agencies**: Centralize creative assets, design files, and campaign reports in Google Drive, with automated updates and sharing permissions for clients and internal teams.\n\n## The Kliv advantage\n\nBuilding sophisticated applications used to require a large development team and extensive coding knowledge. Kliv’s AI-powered platform simplifies this, enabling you to:\n\n- **Describe your needs**: Use natural language to define your desired integration behavior.\n- **Rapid development**: See functional prototypes in hours, accelerating your development cycle.\n- **Intelligent assistance**: AI provides suggestions for best practices, API usage, and optimization.\n- **Built-in reliability**: AI assists in generating robust, bug-free code for critical integrations.\n\n## Your files, your rules\n\nDon't let rigid third-party tools dictate how you manage your essential documents. Invest in a custom Google Drive integration that gives you full control, security, and efficiency. With Kliv, bringing your ideal file management system to life is more accessible than ever."
+    },
+    {
+      "title": "Google Drive integration ideas to start with",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automatically save web form submissions as documents in Drive",
+          "prompt": "Design a system that takes data from a web form and creates a Google Doc or Sheet in a specified Google Drive folder, naming it based on form fields.",
+          "title": "Web form to Google Drive document creator"
+        },
+        {
+          "description": "Securely manage client-specific files and folders",
+          "prompt": "Build an application that, upon creating a new client record, automatically generates a dedicated Google Drive folder structure for that client with specific sharing permissions.",
+          "title": "Client document management portal"
+        },
+        {
+          "description": "Synchronize local files with Google Drive",
+          "prompt": "Develop a tool that monitors a local directory for new or modified files and automatically uploads/syncs them to a corresponding folder in Google Drive, maintaining version history.",
+          "title": "Automated file synchronizer"
+        },
+        {
+          "description": "Categorize and organize bulk uploads",
+          "prompt": "Create an application allowing users to upload multiple files, which are then automatically categorized and moved into appropriate Google Drive folders based on file type, content, or metadata.",
+          "title": "Smart file uploader and organizer"
+        },
+        {
+          "description": "Generate dynamic reports and save them to Drive",
+          "prompt": "Build a reporting tool that processes data from a database, generates a PDF or Google Sheet report, and saves it to a designated Google Drive folder with time-stamped names.",
+          "title": "Automated report generator"
+        },
+        {
+          "description": "Build an asset library with search capabilities",
+          "prompt": "Develop an internal asset library where users can upload images and videos to Google Drive, and the application adds metadata for easy searching and displays previews.",
+          "title": "Digital asset management"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your Google Drive solution",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add user authentication and authorization so only specific users can access certain folders or files within Google Drive through my app.",
+          "title": "Implement granular access control"
+        },
+        {
+          "prompt": "Integrate a robust search engine that can search not only file names but also file content within the connected Google Drive folders.",
+          "title": "Add advanced search capabilities"
+        },
+        {
+          "prompt": "Enable real-time notifications or webhooks when files are added, modified, or deleted in monitored Google Drive folders.",
+          "title": "Set up real-time change detection"
+        },
+        {
+          "prompt": "Implement a public sharing feature with customizable expiration dates and password protection for shared Google Drive links.",
+          "title": "Add secure public sharing"
+        },
+        {
+          "prompt": "Allow users to preview various file types (documents, spreadsheets, images, videos) directly within the application without needing to download them.",
+          "title": "Integrate in-app file previews"
+        },
+        {
+          "prompt": "Add an activity log that tracks all file operations (uploads, downloads, moves, deletions) performed through the application, along with user details.",
+          "title": "Develop an audit trail"
+        },
+        {
+          "prompt": "Connect with other cloud storage providers like Dropbox or OneDrive to allow users to transfer or synchronize files between platforms.",
+          "title": "Enable multi-cloud synchronization"
+        },
+        {
+          "prompt": "Build a feature that allows users to create custom templates for Google Docs, Sheets, or Slides directly from the application.",
+          "title": "Add template creation functionality"
+        }
+      ]
+    },
+    {
+      "title": "Core integration features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Upload, download, delete, and copy files and folders programmatically.",
+          "icon": "📂",
+          "title": "Comprehensive file management"
+        },
+        {
+          "description": "Create, modify, and manage folder structures automatically.",
+          "icon": "📁",
+          "title": "Dynamic folder organization"
+        },
+        {
+          "description": "Set and modify sharing permissions and access roles on files and folders.",
+          "icon": "🔒",
+          "title": "Granular permission control"
+        },
+        {
+          "description": "Utilize Google Drive's robust versioning for document history and rollbacks.",
+          "icon": "💾",
+          "title": "Automated version control"
+        },
+        {
+          "description": "Retrieve file metadata, including type, size, owner, and last modified date.",
+          "icon": "📄",
+          "title": "Metadata extraction"
+        },
+        {
+          "description": "Automatically convert documents between Google Workspace formats and others (e.g., PDF, DOCX).",
+          "icon": "🔄",
+          "title": "Format conversion"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions about building integrations with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic Google Drive integration with Kliv can take as little as a few hours, depending on complexity. More sophisticated systems with advanced features might take a few days to a week for initial deployment.",
+          "question": "How long will it take to build a custom Google Drive integration?"
+        },
+        {
+          "answer": "No prior coding experience is required. Kliv's platform uses AI to interpret your plain language descriptions and translate them into functional application code, including API integrations.",
+          "question": "Do I need to be a developer to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, your custom integration can work with any other application that offers an API or common data formats. This means you can connect Google Drive to your CRM, ERP, accounting software, or custom internal tools.",
+          "question": "Can I integrate this with my existing business applications?"
+        },
+        {
+          "answer": "You own 100% of the code generated. You have full control over where it's hosted, how it's deployed, and its long-term maintenance. Kliv provides the development platform, but the intellectual property is yours.",
+          "question": "Who owns the code and the data from the custom application?"
+        },
+        {
+          "answer": "While there's an upfront cost for development, building with Kliv typically results in significant savings compared to perpetual SaaS subscriptions or custom development by external agencies. You pay for the development once, not forever.",
+          "question": "How cost-effective is building this compared to buying a SaaS solution?"
+        },
+        {
+          "answer": "Absolutely. Custom applications built with Kliv are designed for flexibility. You can easily add new features, adjust workflows, or change integrations as your business requirements evolve, without being locked into a vendor's roadmap.",
+          "question": "Can I modify my Google Drive integration after it's built?"
+        },
+        {
+          "answer": "Yes, custom solutions offer superior security by allowing you to implement specific security protocols, data encryption, and access policies tailored to your organization's needs, often exceeding generic SaaS security limitations.",
+          "question": "Are custom integrations more secure than off-the-shelf options?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance throughout the development process, offering suggestions, debugging help, and optimization tips. For ongoing maintenance, since you own the code, you can manage it internally or with any developer of your choice.",
+          "question": "What kind of support is available after the application is built?"
+        }
+      ]
+    },
+    {
+      "title": "Level up your file management.",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Build the Google Drive integration that works exactly how you need it to, with Kliv."
+    }
+  ],
+  "title": "Google Drive Integration Tools"
+}

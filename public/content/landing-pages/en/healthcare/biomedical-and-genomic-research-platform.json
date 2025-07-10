@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a biomedical research platform that can manage vast amounts of genomic data, integrate with lab instruments, and provide secure collaboration tools for researchers.",
+  "description": "Build custom biomedical and genomic research platforms with Kliv's AI-powered low-code platform.",
+  "hero": {
+    "cta": "Start building your research platform",
+    "subtitle": "Accelerate scientific discovery with custom biomedical and genomic research platforms tailored to your exact needs.",
+    "title": "Develop your own Biomedical & Genomic Research Platform"
+  },
+  "metaDescription": "Create powerful, secure, and scalable biomedical and genomic research platforms with Kliv. Manage data, integrate instruments, and foster collaboration for advanced scientific insights.",
+  "sections": [
+    {
+      "title": "The challenge of modern biomedical research",
+      "type": "text",
+      "content": "In the rapidly evolving fields of biomedical and genomic research, off-the-shelf software solutions often fall short. Generic platforms struggle to handle the sheer volume and complexity of data, lack the specific integration capabilities required for advanced lab equipment, and fail to provide the highly secure, customizable collaborative environments scientists need.\n\nBuilding your own research platform offers unparalleled control, security, and scalability. With AI-assisted development tools like Kliv, designing a system that precisely fits your research protocols, data types, and security standards is more accessible than ever. Stop adapting your ground-breaking research to inadequate tools, and start building the ideal environment for your discoveries."
+    },
+    {
+      "title": "Why custom platforms are critical for scientific advancement",
+      "type": "markdown",
+      "content": "## The limitations of commercial research software\n\nCommercial biomedical and genomic research software often presents significant hurdles for scientific organizations:\n\n-   **Data volume and variety**: Struggles to manage petabytes of varied data (genomic, proteomics, imaging, clinical).\n-   **Integration gaps**: Limited ability to seamlessly connect with specialized lab instruments, LIMS, or EMRs.\n-   **Security and compliance**: May not meet stringent industry-specific regulatory requirements (HIPAA, GLP, GDPR).\n-   **Scalability issues**: Difficult to scale with growing research demands or new data types.\n-   **Lack of customization**: Generic workflows don't align with unique experimental designs or analytical pipelines.\n-   **High recurring costs**: Expensive licensing fees and vendor lock-in.\n\n## The strategic advantage of custom-built platforms\n\nDeveloping a custom biomedical and genomic research platform provides a profound competitive and scientific advantage:\n\n### Optimized for your unique research\nEvery research lab, hospital, or biotech company has distinct research goals and methodologies. A custom platform ensures workflows, data models, and analytical tools are perfectly aligned with your specific projects, from drug discovery to personalized medicine.\n\n### Uncompromised data security and compliance\nMaintain complete control over sensitive patient and genomic data. Implement security protocols, access controls, and auditing features that precisely meet HIPAA, GDPR, and other regulatory standards, far beyond what generic tools might offer.\n\n### Seamless instrument and LIMS integration\nBuild direct, real-time connections with your lab instruments (sequencers, mass spectrometers) and Laboratory Information Management Systems (LIMS). Automate data ingestion, reduce manual errors, and accelerate experimental turnaround times.\n\n### Future-proof scalability and flexibility\nAs your research evolves, your custom platform can evolve with it. Easily integrate new analytical modules, adapt to emerging data standards, or scale computing resources without vendor constraints or expensive upgrades.\n\n### Cost efficiency in the long run\nWhile there's an initial investment, a custom platform eliminates recurring subscription fees, often leading to substantial cost savings over time. You pay for what you need, not for a bundle of unused features.\n\n## Real-world impact\n\nCustom research platforms are enabling breakthroughs across the life sciences:\n\n**Genomics Labs**: Platforms that automate the processing and analysis of whole-genome sequencing data, integrating with bioinformatics pipelines and variant databases for clinical interpretation.\n\n**Drug Discovery**: Systems that manage compound libraries, screen high-throughput data, track experimental progress, and visualize results for lead optimization.\n\n**Clinical Research**: Secure platforms for managing patient cohorts, integrating clinical trial data with omics data, and providing tools for statistical analysis and reporting.\n\n**Biorepositories**: Centralized systems for tracking biological samples, associated consent forms, and comprehensive metadata, enabling efficient sample retrieval and utilization.\n\n## AI's role in accelerating development\n\nBuilding complex platforms once required massive development teams and years of effort. Kliv's AI-powered platform transforms this:\n\n-   **Rapid prototyping**: Quickly prototype complex data models and user interfaces.\n-   **Code generation**: Automate the creation of robust, scalable code for data handling, APIs, and security.\n-   **Intelligent integration**: AI can suggest and help implement connections to lab instruments and external databases.\n-   **Compliance templates**: Leverage AI to build in security and compliance features automatically.\n\nWith Kliv, your vision for a cutting-edge research platform can become a reality faster and more efficiently than ever before. Empower your scientists and accelerate discoveries."
+    },
+    {
+      "title": "Biomedical research platform concepts",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Securely manage, analyze, and share large genomic datasets",
+          "prompt": "Create a genomic data management platform that can ingest raw sequencing data (FASTQ, BAM), perform QC, align to a reference genome, variant calling, and store results securely, allowing researchers to query and visualize genetic variants.",
+          "title": "Genomic Data Repository & Analysis Engine"
+        },
+        {
+          "description": "Streamline clinical trial data collection and analysis workflows",
+          "prompt": "Build a clinical research data management system that supports patient recruitment tracking, electronic case report forms (eCRFs) with validation rules, adverse event reporting, and secure data export for statistical analysis, ensuring HIPAA compliance.",
+          "title": "Clinical Trial Management & EDC System"
+        },
+        {
+          "description": "Track, manage, and utilize biosamples and associated data",
+          "prompt": "Develop a biorepository management system to track physical sample locations (freezers, racks, boxes), manage sample metadata (donor details, collection date, processing history), integrate with LIMS, and support sample aliquoting and retrieval.",
+          "title": "Biorepository Sample Tracking System"
+        },
+        {
+          "description": "Accelerate drug discovery with integrated data and tools",
+          "prompt": "Design a drug discovery platform for managing small molecule compound libraries, automating high-throughput screening data analysis, visualizing SAR (Structure-Activity Relationship) data, and fostering collaborative project management.",
+          "title": "Drug Discovery & Screening Platform"
+        },
+        {
+          "description": "Integrate data from diverse instruments for comprehensive analysis",
+          "prompt": "Create a multi-omics data integration platform that combines genomic, transcriptomic, proteomic, and metabolomic datasets, provides tools for cross-omics analysis, and visualizes molecular pathways and networks.",
+          "title": "Multi-omics Data Integration Platform"
+        },
+        {
+          "description": "Enable secure, real-time collaboration for research teams",
+          "prompt": "Build a collaborative research workspace with secure project folders, integrated version control for experimental protocols and data files, shared annotation tools for genomic data, and real-time communication features, restricted by user roles.",
+          "title": "Secure Research Collaboration Portal"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your research platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add advanced querying capabilities including fuzzy search, range queries on clinical markers, and structural queries on genomic variants like SNPs and indels.",
+          "title": "Implement advanced search and filtering"
+        },
+        {
+          "prompt": "Integrate the platform with popular bioinformatics tools and pipelines such as GATK, samtools, or R/Bioconductor for automated data processing and analysis.",
+          "title": "Incorporate third-party bioinformatics tools"
+        },
+        {
+          "prompt": "Develop an intuitive data visualization dashboard for researchers to explore genomic variations, gene expression patterns, and patient phenotypical data with interactive charts and graphs.",
+          "title": "Create interactive data visualization dashboards"
+        },
+        {
+          "prompt": "Add robust user and role management features, allowing for detailed access controls based on research projects, data sensitivity, and compliance requirements.",
+          "title": "Enhance security with granular access control"
+        },
+        {
+          "prompt": "Build an API layer to enable programmatic access to data and functionalities, allowing other internal or external systems to interact with the research platform.",
+          "title": "Develop RESTful API for external access"
+        },
+        {
+          "prompt": "Integrate features for auditing all data access, modifications, and computational analyses, providing a complete, immutable audit trail for regulatory compliance.",
+          "title": "Add comprehensive auditing and logging"
+        },
+        {
+          "prompt": "Implement machine learning models for predictive analytics, such as identifying potential drug targets, predicting disease progression, or classifying genomic mutations associated with specific conditions.",
+          "title": "Integrate AI/ML for predictive analytics"
+        },
+        {
+          "prompt": "Enable direct data streaming and control for lab instruments like sequencers or automated liquid handlers, minimizing manual intervention and transcription errors.",
+          "title": "Add direct lab instrument integration"
+        },
+        {
+          "prompt": "Incorporate a workflow engine that allows researchers to define, execute, and monitor complex computational pipelines for genomic analysis or experimental data processing.",
+          "title": "Include a customizable workflow automation engine"
+        }
+      ]
+    },
+    {
+      "title": "Platform capabilities for research excellence",
+      "type": "features",
+      "items": [
+        {
+          "description": "Effortlessly manage petabytes of genomic, proteomic, and clinical data with robust indexing and retrieval.",
+          "icon": "🗄️",
+          "title": "Scalable Data Management"
+        },
+        {
+          "description": "Connect seamlessly with lab instruments, sequencers, and LIMS for automated data ingestion and experiment tracking.",
+          "icon": "🔗",
+          "title": "Instrument & System Integration"
+        },
+        {
+          "description": "Implement HIPAA-compliant encryption, access controls, and audit trails to protect sensitive research data.",
+          "icon": "🔒",
+          "title": "Advanced Security & Compliance"
+        },
+        {
+          "description": "Provide secure virtual workspaces, shared notebooks, and real-time communication for distributed research teams.",
+          "icon": "🤝",
+          "title": "Collaborative Research Environment"
+        },
+        {
+          "description": "Empower researchers with integrated bioinformatics tools, customizable pipelines, and interactive visualization options.",
+          "icon": "🔬",
+          "title": "Powerful Analytics & Visualization"
+        },
+        {
+          "description": "Tailor every feature, workflow, and data model to precisely match your unique research protocols and organizational needs.",
+          "icon": "⚙️",
+          "title": "Complete Customization"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building a research platform with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a core biomedical research platform can take from a few days to a few weeks, depending on complexity. Kliv's AI significantly accelerates development, particularly for data modeling and user interface creation.",
+          "question": "How long does it take to develop a custom research platform?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv uses natural language processing to understand your requirements and generate the underlying code and infrastructure. Your scientific domain knowledge is far more valuable.",
+          "question": "Do I need to be a software developer to build this type of platform?"
+        },
+        {
+          "answer": "Yes, custom-built platforms offer superior flexibility for integration. You can connect to virtually any lab instrument, LIMS, EMR, or public database with an API (Application Programming Interface).",
+          "question": "Can the custom platform integrate with our existing lab instruments and systems?"
+        },
+        {
+          "answer": "Kliv helps you build HIPAA, GDPR, and other compliance features directly into your platform. You maintain full ownership and control of your data, providing a higher level of security than many third-party SaaS solutions.",
+          "question": "How does a custom platform ensure data security and regulatory compliance (e.g., HIPAA)?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property. The code, data models, and deployed application are yours. You're not locked into a vendor or proprietary data formats.",
+          "question": "Who owns the intellectual property of the platform once it's built?"
+        },
+        {
+          "answer": "A custom platform built with Kliv typically involves a one-time development investment. This contrasts with recurring, often escalating, subscription fees for commercial software, leading to significant long-term savings, especially for complex systems.",
+          "question": "What are the cost implications compared to purchasing off-the-shelf software?"
+        },
+        {
+          "answer": "Yes, custom platforms are inherently flexible. You can continuously iterate, add new functionalities, modify workflows, or integrate new technologies as your research needs or regulatory landscape evolves.",
+          "question": "Can the platform be modified or expanded after initial development?"
+        },
+        {
+          "answer": "Kliv is designed to help you build cloud-native applications that can scale horizontally to handle vast datasets and increasing computational demands. Infrastructure scales as your research grows.",
+          "question": "How does the platform scale to handle growing data volumes and user numbers?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your research?",
+      "type": "cta",
+      "content": "Stop limiting your scientific potential with generic software. Build the precise, powerful, and secure research platform your discoveries deserve."
+    }
+  ],
+  "title": "Biomedical & Genomic Research Platforms"
+}

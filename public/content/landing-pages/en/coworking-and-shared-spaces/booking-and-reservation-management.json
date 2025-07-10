@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I need to build a booking system for a coworking space that allows members to reserve meeting rooms, hot desks, and event spaces. It should handle payments, send confirmations, and manage member profiles.",
+  "description": "Build custom booking and reservation management tools for coworking and shared spaces with Kliv's AI platform.",
+  "hero": {
+    "cta": "Start managing reservations",
+    "subtitle": "Streamline bookings, membership, and resource allocation for coworking spaces, meeting rooms, and shared facilities with AI-powered custom solutions.",
+    "title": "Custom booking & reservation management"
+  },
+  "metaDescription": "Create powerful, flexible booking and reservation management systems for coworking spaces, hot desks, and meeting rooms using Kliv. Automate scheduling, payments, and member access.",
+  "sections": [
+    {
+      "title": "Why a custom booking system for your shared space?",
+      "type": "text",
+      "content": "Off-the-shelf booking software often falls short for the dynamic needs of coworking spaces, flexible offices, and shared facilities. They’re either too rigid, too complex, or too expensive for what you actually need.\n\nBuilding your own reservation management tool with Kliv allows you to create a system that perfectly fits your unique space, pricing models, and member experience, without the bloat or recurring subscription fees. Gain full control and adaptability."
+    },
+    {
+      "title": "The case for tailored reservation solutions",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf platforms\n\nGeneric booking platforms are designed for the masses, not for the specific nuances of shared spaces. This often leads to:\n\n- **Inflexible pricing models**: Can't easily handle tiered memberships, credits, or dynamic hourly rates.\n- **Limited resource types**: Struggle with managing diverse resources like hot desks, private offices, meeting rooms, and event spaces simultaneously.\n- **Poor member experience**: Clunky interfaces or lack of customization for your brand and services.\n- **Integration headaches**: Difficulty connecting with your existing CRM, access control, or billing systems.\n- **Recurring costs**: Monthly fees add up, especially as your member base grows, eating into your margins.\n\n## Advantages of building your own\n\nKliv empowers you to design a reservation system that is precisely aligned with your operational needs and growth strategy:\n\n### Perfect fit for your unique setup\nDo you offer daily passes, monthly memberships, or credits for room bookings? Do you have different types of hot desks or multiple meeting rooms with varied capacities? A custom system can differentiate and manage every resource exactly how you want, including specific booking rules, minimum durations, and blackout periods.\n\n### Enhanced member experience\nProvide a seamless, branded booking journey for your members. A custom portal can reflect your space's aesthetic and offer features tailor-made for your community, like easy-to-view availability calendars, smart recommendations, or direct messaging with staff.\n\n### Optimized resource utilization\nImplement intelligent algorithms to maximize space usage. A custom system can track peak hours, identify underutilized assets, and even suggest dynamic pricing or promotions to fill gaps.\n\n### Simplified billing and access control\nIntegrate directly with your payment processor and access control systems. Automate invoicing for bookings, manage credit usage, and instantly grant or revoke access based on reservation status, eliminating manual oversight.\n\n### Data-driven insights\nWith full control over your data, you can generate custom reports on resource occupancy, member behavior, revenue per space, and more. Use these insights to optimize your operations, marketing, and future expansion plans.\n\n### Future-proof and scalable\nAs your business evolves, your system can too. Easily add new space types, introduce new membership tiers, or integrate with new technologies without being dependent on a third-party vendor's development roadmap or pricing structure."
+    },
+    {
+      "title": "Booking system ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Manage reservations for meeting rooms, phone booths, and quiet zones.",
+          "prompt": "Create a booking system for a coworking space where members can reserve meeting rooms by the hour, phone booths by 30-minute slots, and quiet zones by the day. Include a calendar view showing availability.",
+          "title": "Meeting room & amenity booking"
+        },
+        {
+          "description": "Automate hot desk assignment and check-ins for flexible workspaces.",
+          "prompt": "Develop a hot desk management system that allows members to book a desk for a specific day. The system should assign a desk automatically or allow manual selection, and track check-ins/check-outs.",
+          "title": "Hot desk reservation and check-in"
+        },
+        {
+          "description": "Full-stack system for managing private offices and their associated services.",
+          "prompt": "Build a portal for private office tenants to book additional services like mail handling, printing credits, and special event spaces. It should integrate with their office lease terms and billing.",
+          "title": "Private office tenant portal"
+        },
+        {
+          "description": "Schedule events and workshops within shared facility spaces.",
+          "prompt": "Design an event booking system for our community space. It needs to show event schedules, allow members to RSVP, handle ticket payments for paid events, and track attendance.",
+          "title": "Community event & workshop booking"
+        },
+        {
+          "description": "System for members to reserve specialized equipment or studios.",
+          "prompt": "I need a booking tool for members to reserve specialized equipment: podcasting booth, photography studio, and 3D printers. Include usage tracking and maintenance scheduling for each item.",
+          "title": "Specialized equipment booking"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your booking tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Implement a credit-based booking system where members purchase credits and use them to book different resources.",
+          "title": "Add credit-based booking"
+        },
+        {
+          "prompt": "Integrate with a popular payment gateway (e.g., Stripe) to process booking payments and handle refunds.",
+          "title": "Enable secure payment processing"
+        },
+        {
+          "prompt": "Build a real-time occupancy dashboard for staff, showing which desks and rooms are currently in use.",
+          "title": "Create an occupancy dashboard"
+        },
+        {
+          "prompt": "Add automated email and SMS reminders for upcoming bookings, cancellations, and overage notifications.",
+          "title": "Implement automated notifications"
+        },
+        {
+          "prompt": "Develop a system for managing different membership tiers with varying access rights and booking discounts.",
+          "title": "Integrate membership management"
+        },
+        {
+          "prompt": "Connect with smart lock systems or building access controls to automatically grant/revoke access based on bookings.",
+          "title": "Integrate with access control"
+        },
+        {
+          "prompt": "Add a feature for members to invite guests to their booked meeting rooms, and send guest passes.",
+          "title": "Include guest management"
+        },
+        {
+          "prompt": "Develop a reporting module that shows resource utilization, peak booking times, and revenue breakdown by resource.",
+          "title": "Add analytics and reporting"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your booking system",
+      "type": "features",
+      "items": [
+        {
+          "description": "Intuitive calendar interface for viewing and making reservations.",
+          "icon": "📅",
+          "title": "Real-time availability"
+        },
+        {
+          "description": "Define multiple resource types (desks, rooms, equipment) with specific booking rules.",
+          "icon": "🗂️",
+          "title": "Flexible resource management"
+        },
+        {
+          "description": "Set up various pricing structures, including hourly, daily, and credit-based rates.",
+          "icon": "💰",
+          "title": "Custom pricing models"
+        },
+        {
+          "description": "Securely manage member profiles, booking history, and billing details.",
+          "icon": "👥",
+          "title": "Member management"
+        },
+        {
+          "description": "Automate booking confirmations, reminders, and cancellations via email or SMS.",
+          "icon": "📧",
+          "title": "Automated notifications"
+        },
+        {
+          "description": "Integrate with payment gateways for seamless transaction processing.",
+          "icon": "💳",
+          "title": "Integrated payments"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom booking system with Kliv can take anywhere from a few days for a basic setup to a couple of weeks for a comprehensive system with advanced features like payment integration and access control.",
+          "question": "How long does it take to build a custom booking system?"
+        },
+        {
+          "answer": "No, Kliv allows you to describe your desired system in plain language. The AI translates your requirements into functional code, making it accessible even if you have no programming background.",
+          "question": "Do I need to be a developer to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom system can be designed to integrate with almost any third-party service that offers an API, including payment processors (Stripe, PayPal), CRM systems (Salesforce), calendar apps (Google Calendar, Outlook), or even smart lock systems.",
+          "question": "Can my custom booking system integrate with other tools I use?"
+        },
+        {
+          "answer": "You retain full ownership of the custom application and its data. You can choose where it's hosted and have complete control over its features, modifications, and future development.",
+          "question": "What about data ownership and hosting?"
+        },
+        {
+          "answer": "While there's an initial investment in building, a custom solution built with Kliv eliminates recurring subscription fees typical of SaaS. Over time, particularly for growing businesses, a custom system can be significantly more cost-effective.",
+          "question": "Is building a custom system more affordable than using an off-the-shelf solution?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of a custom system is its adaptability. You can easily add new features, adjust booking rules, introduce new resource types, or change pricing models as your business needs evolve.",
+          "question": "Can I modify the booking system after it's been built?"
+        },
+        {
+          "answer": "Yes, custom solutions can often be more secure because you control the data storage, encryption, and access permissions, minimizing reliance on third-party security protocols and reducing exposure to their vulnerabilities.",
+          "question": "How secure is a custom-built booking system?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to optimize your space and services?",
+      "type": "cta",
+      "content": "Stop conforming to generic software. Build a reservation management system that perfects your operations and delights your members. Get started with Kliv today."
+    }
+  ],
+  "title": "Booking & Reservation Management"
+}

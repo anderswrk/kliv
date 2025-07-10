@@ -1,0 +1,152 @@
+{
+  "defaultPrompt": "I want to create an e-commerce management system for cannabis and CBD products that handles inventory, sales tracking, customer information, and compliance reporting.",
+  "description": "Build custom e-commerce management solutions for the cannabis and CBD industry with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Building Your Compliant Store",
+    "subtitle": "Navigate the complexities of cannabis and CBD sales with custom e-commerce management applications built on Kliv's AI platform.",
+    "title": "Tailored E-commerce for Cannabis & CBD"
+  },
+  "metaDescription": "Create powerful, compliant e-commerce management tools for cannabis and CBD products with Kliv. Manage inventory, sales, customers, and regulatory reporting seamlessly.",
+  "sections": [
+    {
+      "title": "The unique challenge of cannabis & CBD e-commerce",
+      "type": "text",
+      "content": "The cannabis and CBD industry operates within a dynamic and often restrictive regulatory landscape. Generic e-commerce platforms often fall short, lacking the specific features needed for seed-to-sale tracking, age verification, state-specific compliance, and nuanced inventory management. This leads to manual workarounds, compliance risks, and missed opportunities.\n\nBuilding your own custom e-commerce management system gives you the control and flexibility to address these unique challenges head-on. With Kliv's AI-powered development platform, you can create a solution that perfectly adapts to the intricacies of your business and the rules of your market, ensuring compliance and maximizing efficiency."
+    },
+    {
+      "title": "Why custom e-commerce management is essential for cannabis & CBD",
+      "type": "markdown",
+      "content": "## Beyond off-the-shelf limitations\n\nStandard e-commerce platforms are designed for general retail, not for highly regulated markets like cannabis and CBD. This often results in:\n\n- **Compliance headaches**: Lack of built-in features for age verification, product testing data, and state-mandated reporting.\n- **Inventory complexity**: Difficulty managing product variants (THC/CBD content, strain specifics), batch tracking, and expiry dates.\n- **Payment processing issues**: Limited integration with high-risk payment gateways.\n- **Scalability concerns**: Difficulty adapting to evolving regulations or expanding into new markets.\n- **Data silos**: Information scattered across multiple systems, making unified reporting impossible.\n\n## The advantages of a tailored solution\n\nBuilding your own e-commerce management tool with Kliv empowers you to create a system that is:\n\n### Fully compliant by design\nIntegrate specific age verification protocols, state tracking system APIs (e.g., Metrc), and custom reporting features directly into your system. Ensure every transaction meets regulatory requirements, mitigating risk and saving audit headaches.\n\n### Precision inventory control\nTrack products by batch, origin, cannabinoid profile, and specific testing results. Manage inventory across multiple locations or storefronts with real-time accuracy, reducing waste and ensuring product availability.\n\n### Seamless payment integration\nWork with your chosen high-risk payment processors and integrate them directly without relying on third-party platform limitations.\n\n### Scalable and adaptable\nAs regulations change or your business expands, your custom system can evolve with you. Easily add new product categories, comply with new state laws, or integrate new functionalities without being constrained by platform updates.\n\n### Enhanced customer experience\nProvide your customers with accurate product information (including lab results), age-gated access, and a smooth checkout process tailored to your unique product offerings.\n\n### Actionable business intelligence\nCentralize all your sales, inventory, and customer data. Generate custom reports on everything from best-selling strains to compliance audit trails, giving you invaluable insights for strategic decision-making.\n\n## Real-world impact\n\nCustom e-commerce management systems are vital for businesses in this niche:\n\n**Dispensaries**: Manage online orders, in-store pickup schedules, and delivery logistics while seamlessly integrating with state monitoring systems for accurate sales reporting.\n\n**CBD Retailers**: Handle diverse product lines (tinctures, edibles, topicals), ensure compliant labeling, and manage subscription services with ease.\n\n**Grow Operations**: Integrate cultivation data with retail sales, providing seed-to-sale traceability and ensuring accurate product information for consumers.\n\n## Accelerate development with AI\n\nDeveloping complex, compliant e-commerce systems used to be a massive undertaking. Kliv's AI changes that:\n\n- **Smart compliance assistance**: AI can suggest data fields and workflows to meet known regulatory requirements.\n- **Rapid prototyping**: Quickly build out order flows, inventory modules, and customer dashboards.\n- **Code generation**: AI writes the technical code based on your business logic, reducing development time.\n\nBy leveraging Kliv, you can bring a sophisticated, compliant e-commerce management system to market faster and more affordably than ever before."
+    },
+    {
+      "title": "Cannabis & CBD e-commerce ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Age-gated online storefront creation & management for a dispensary chain with multiple locations, requiring each product to display lab test results and specific cannabinoid profiles, with integrated Metrc reporting for sales data based on state regulations, and local delivery scheduling from nearest store for customers who passed age verification online and upon delivery. Include a customer facing interface and an admin interface for dispatchers and store managers, for managing and organizing orders, inventory, and customer data. The site should let the customers browse products, view product details (including images, descriptions, price, and lab results), add products to cart, and checkout easily. The admin panel should allow for creation, editing, and deletion of products, management of orders, and viewing and exporting of compliance reports daily, weekly, and monthly data for each store. Only users of legal cannabis age in their state of delivery or pick up should be able to create an account and place an order. Customers should only be presented with products and pricing available at their selected location, and this location can be changed at any time by the customer by selecting a different one from the location selector. The site should also have an About Us page, and a FAQ page that can be edited from the admin dashboard. The admin should also be able to add and delete store staff, store locations, and manage their working hours and their roles. Allow for management of delivery drivers and customers, and assign orders to delivery drivers. Provide a full customer support portal for customer and staff to message each other, and for the customer support team to update order statues, issue refunds or giftcards, or notify relevant staff for assistance. The delivery tracking can be done without GPS via QR codes that delivery drivers can scan upon pickup an delivery to update the delivery status of orders. All admin edits to products, inventory, orders, customer details, delivery driver details, and store locations, should be logged for proper audit trails (who, what, when, old and new values, and associated transaction ID). The logs should be exportable for any specified period. Create a system for automated Metrc Manifest importing for incoming deliveries, and automated Metrc syncing and export for sales data and inventory adjustments, to automatically push all compliance required info to Metrc. The system should also support Metrc-compliant product quantity calculations for packages for compliant sales. For example, if a package has 28 grams of Flower, and the sales limit for flower is 28 grams, the system should ensure the customer cannot add 2 units of 28 grams to their carts for the same product to prevent overage. This logic applies to all product types based on the state compliance rules, for the customer and admins alike. The system should also notify customers when their loyalty rewards are expiring, and notify admin, customers, and delivery drivers when their orders or deliveries are delayed, or have changed delivery or pickup date or time, or when their orders are ready. Notifications should be email and SMS based, and can be edited via the admin dashboard."
+        },
+        {
+          "title": "CBD product subscription box manager with multi-variant inventory tracking, secure payment processing, and automated reorder notifications for low stock, allowing customers to customize their monthly box contents, pause or cancel subscriptions easily. Include a customer-facing interface and an admin interface to manage subscriptions, orders, customers, and inventory. The system should integrate with a shipping carrier API for automated label generation and tracking updates. The system should provide a full overview of product availability and inventory for each variant for each product, and allow for creating and importing new products and product variants. The admin should be able to manage shipping zones and shipping rates. The system should also include a discounts and promotions management module allowing admins to create discount codes (fixed amounts, percentages, or free shipping), with various rules: purchase amount, product categories, or for specific customer segments, and set validity dates, maximum uses, and apply to specific shipping zones. Admins should also be able to create coupons for free products. Provide customer loyalty program that awards points for each purchase, which customers can redeem for discounts on future orders. Both the loyalty program and discount modules should be enabled and disabled from the admin dashboard, and all settings for each module must be configurable by the admin. The system should generate monthly sales reports to highlight best-selling products and subscription growth metrics. It should also have a customer relationship management (CRM) module that allows admins to view customer purchase history, contact information, and communication logs. The system should send automated email notifications to customers about their subscription status (upcoming charge, shipment confirmation, renewal reminders, cancellation confirmations). The system must allow for managing returns and refunds, and allow for applying various states to each order. The system should also provide for the admin a full audit trail of inventory adjustments (who, what, when, new and old values, and notes) and customer data edits (who, what, when, new and old values, and notes), and should be exportable to CSV."
+        },
+        {
+          "title": "Seed-to-sale compliance tracker for a cannabis cultivation facility, connecting cultivation data (strain, harvest date, yield) with processing and packaging information, and generating compliant manifests for transfers to dispensaries, ensuring regulatory reporting readiness at every stage. Include ability to integrate with Metrc, and automatically update package tags from Metrc for products, and automatically create product packages in Metrc for harvested plants that underwent processing, and creating Metrc manifests for them for transfer to a dispensary with required compliancy rules. The portal should also be able to receive incoming Metrc manifests for plants transferred into the cultivation facility from clones or seeds, update their statues to active in the system, and allow the admin to assign employees/growers to them and allow for accurate plant tracking at any stage of growth. The system should also allow the creation of multiple facilities (cultivation, processing, storage, lab, dispensary), and manage product transfers between facilities owned by the same license, and generate the required internal manifests to comply with local regulations. All manifests should pass automatic validation processes, and if any rule is broken, the system should highlight them as errors and prevent the manifest from being finalized until all rules are respected. The system should also provide automated reports for each process step, including reports on plant growth, nutrient usage, humidity, temperature, any detected issues, and employee assigned to them with notes for each step they take during the cultivation for audit purposes. The system should be accessible on mobile devices for easy data entry by staff on the go right from the grow room or during processing. It should include user authentication with role-based access for different staff members (e.g., growers, processors, inventory managers). The system should manage all stages of the cannabis plant: seed, clone, vegetation, flowering, harvesting, drying, curing, processing, packaging, and provide a full audit trail of products at each stage, from seed to sale. All info should be exportable from the admin view for custom reporting."
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your cannabis & CBD e-commerce system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a predictive inventory feature that uses sales data to forecast future demand and suggest reorder points for specific products.",
+          "title": "Predictive Inventory Management"
+        },
+        {
+          "prompt": "Integrate a personalized product recommendation engine that suggests products to customers based on their purchase history and browsing behavior, taking into account cannabinoid preferences or desired effects.",
+          "title": "AI-Powered Product Recommendations"
+        },
+        {
+          "prompt": "Develop a vendor portal where suppliers can securely upload product data, lab results, and inventory availability, streamlining product onboarding and updates.",
+          "title": "Supplier Integration Portal"
+        },
+        {
+          "prompt": "Implement a robust delivery route optimization module that assigns orders to drivers, plans the most efficient routes, and provides real-time tracking for customers and dispatchers.",
+          "title": "Advanced Delivery Logistics"
+        },
+        {
+          "prompt": "Build a comprehensive analytics dashboard that visualizes key performance indicators (e.g., sales by strain, customer lifetime value, compliance report summaries) for actionable insights.",
+          "title": "Dynamic Business Intelligence Dashboard"
+        },
+        {
+          "prompt": "Add multi-currency and multi-language support for international expansion or diverse customer bases, ensuring compliance with local regulations in each region.",
+          "title": "Global Market Readiness"
+        },
+        {
+          "prompt": "Create an automated customer service chatbot that can answer common questions about products, orders, and compliance, and escalate complex queries to human agents.",
+          "title": "AI-Powered Customer Support"
+        }
+      ]
+    },
+    {
+      "title": "Key features for compliant cannabis & CBD e-commerce",
+      "type": "features",
+      "items": [
+        {
+          "description": "Verify customer age and identity to comply with legal purchasing requirements for regulated products.",
+          "icon": "🔞",
+          "title": "Integrated Age Verification"
+        },
+        {
+          "description": "Track products from cultivation to sale, including batch numbers, lab results, and expiry dates.",
+          "icon": "🌿",
+          "title": "Seed-to-Sale Tracking"
+        },
+        {
+          "description": "Automate reporting to state monitoring systems (e.g., Metrc, BioTrackTHC) for seamless compliance.",
+          "icon": "📝",
+          "title": "Regulatory Reporting Automation"
+        },
+        {
+          "description": "Manage diverse product lines with detailed cannabinoid profiles, strain information, and testing data.",
+          "icon": "🧬",
+          "title": "Advanced Product Catalog"
+        },
+        {
+          "description": "Connect with high-risk payment gateways suitable for the cannabis and CBD industry.",
+          "icon": "💳",
+          "title": "Secure Payment Gateway Integration"
+        },
+        {
+          "description": "Handle specific state and local sales limits per product category or customer transaction.",
+          "icon": "⚖️",
+          "title": "Automated Sales Limit Enforcement"
+        },
+        {
+          "description": "Detailed audit trails for inventory adjustments, sales, and customer data to ensure transparency and accountability.",
+          "icon": "🕵️",
+          "title": "Comprehensive Audit Logs"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform accelerates development significantly. A basic cannabis e-commerce management system with core features can be prototyped in days, while a comprehensive, enterprise-grade solution might take weeks to fully refine and deploy.",
+          "question": "How quickly can I build a cannabis & CBD e-commerce management system?"
+        },
+        {
+          "answer": "No prior coding is mandatory. Kliv's AI allows you to describe your compliance rules, inventory logic, and user interfaces using natural language. The platform then generates the necessary code and infrastructure.",
+          "question": "Do I need to be a programmer or a compliance expert to use Kliv?"
+        },
+        {
+          "answer": "Yes, your custom solution can integrate with various third-party services. This includes state-mandated tracking systems (like Metrc), payment processors, shipping carriers, and existing ERP or CRM systems, usually via APIs.",
+          "question": "Can the custom system interface with state tracking systems (e.g., Metrc) or other external services?"
+        },
+        {
+          "answer": "You retain full ownership and control over the source code and all data generated by your application. This means you are not locked into any vendor and can modify, host, or deploy your solution as you see fit.",
+          "question": "Who owns the intellectual property and data for the application I build?"
+        },
+        {
+          "answer": "Building a custom solution often represents a more cost-effective long-term investment compared to recurring subscription fees for off-the-shelf software, especially when factoring in the exact fit for your specific compliance needs and avoidance of unnecessary features.",
+          "question": "Is building a custom cannabis e-commerce system more expensive than using existing platforms?"
+        },
+        {
+          "answer": "Absolutely. One of the primary benefits of building with Kliv is the flexibility to adapt. As regulations evolve or your business needs change, you can easily modify existing features, add new ones, or expand functionality without vendor limitations.",
+          "question": "Can I update my system to adapt to new regulations or business changes after it's built?"
+        },
+        {
+          "answer": "Custom solutions built with Kliv can be designed with robust security measures from the ground up, tailored to the sensitive nature of the cannabis industry. You have direct control over data encryption, access controls, and hosting environment, potentially offering greater security than relying on a third-party's generic security protocols.",
+          "question": "How secure are custom-built e-commerce management systems for highly regulated industries?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to tailor your cannabis & CBD e-commerce for success?",
+      "type": "cta",
+      "content": "Stop conforming to generic platforms. Build a compliant, efficient, and scalable e-commerce management solution that truly fits your unique cannabis and CBD business with Kliv."
+    }
+  ],
+  "title": "E-commerce Management for Cannabis & CBD Products"
+}

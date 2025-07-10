@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a school transport management system that optimizes routes, tracks vehicles in real-time, manages student attendance, and communicates with parents.",
+  "description": "Build custom school transport management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start managing transport",
+    "subtitle": "Ensure student safety, optimize routes, and streamline operations with custom-built school transport management systems.",
+    "title": "Build your own school transport management system"
+  },
+  "metaDescription": "Create powerful school transport management tools with Kliv. Enhance safety, improve efficiency, and provide transparent communication for parents and administrators.",
+  "sections": [
+    {
+      "title": "The operational challenges of school transport",
+      "type": "text",
+      "content": "Managing school transportation is a complex task involving safety, efficiency, and communication across multiple stakeholders. Off-the-shelf software often falls short in addressing the unique requirements of individual schools or districts, forcing compromises that impact student well-being and operational costs. Building a tailored solution allows for complete control and integration with existing school systems."
+    },
+    {
+      "title": "Why a custom school transport system makes sense",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\nStandard school transport software can be rigid, expensive, and difficult to integrate. You often face:\n\n- **Inflexible routing**: Preset algorithms that don't adapt to specific traffic patterns or student needs.\n- **Poor communication**: Limited tools for real-time updates to parents or emergency services.\n- **Scalability issues**: Struggle to grow with student populations or expand service areas.\n- **Data silos**: Inability to integrate with existing student information systems (SIS) or HR platforms.\n- **Recurring costs**: Expensive subscription models that add up over time.\n\n## The power of custom development\nAI-powered platforms like Kliv democratize software development, making custom solutions accessible. Here's why smart educational institutions are building their own:\n\n### Enhanced safety and security\nA custom system allows you to build in specific safety protocols, real-time tracking, emergency alerts, and secure communication channels tailored to your local regulations and unique risks.\n\n### Optimized efficiency and cost savings\nDesign routing algorithms that perfectly match your fleet, minimize fuel consumption, and optimize driver schedules. Automate administrative tasks, reducing manual errors and overhead.\n\n### Seamless communication\nIntegrate direct messaging for parents, real-time bus location updates, and automated notifications for delays or changes, all within a secure, dedicated portal.\n\n### Complete control and ownership\nUnlike proprietary software, you own your custom system. This means no vendor lock-in, full control over data, and the ability to modify or expand features as your needs evolve.\n\n### Tailored to your unique needs\nEvery school, district, or transport provider has distinct requirements. A custom application can be built from the ground up to support your specific operational processes, student demographics, and geographic challenges.\n\n## Real-world impact\n\nCustom school transport solutions are revolutionizing how students get to school:\n\n**School Districts**: Building highly localized routing systems that account for specific school bell times, walk zones, and special needs student requirements.\n\n**Private Schools**: Developing integrated platforms that manage student pick-up/drop-off points, parent notifications, and billing for transport services.\n\n**Transport Contractors**: Creating advanced fleet management tools that track vehicle maintenance, driver compliance, and fuel efficiency across multiple school contracts.\n\n**Universities**: Implementing shuttle management systems with real-time tracking for students and staff on campus and surrounding areas.\n\n## AI's role in custom development\n\nKliv leverages AI to simplify complex software creation:\n\n- **Faster development**: Turn ideas into functional applications rapidly, reducing time-to-market.\n- **Intelligent design**: AI assists in structuring databases, user interfaces, and backend logic.\n- **Code generation**: Reduces manual coding, allowing you to focus on functional requirements.\n- **Scalable architectures**: Design systems that can handle increasing numbers of students, routes, and vehicles.\n\n## Your transport solution, perfected\n\nDon't settle for off-the-shelf software that almost fits. Customize your school transportation management system to deliver superior safety, efficiency, and communication. With Kliv, you can create a system that truly meets your needs, putting you in control."
+    },
+    {
+      "title": "School transport management ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Optimize routes and schedules for maximum efficiency",
+          "prompt": "Create a school bus routing system that optimizes daily routes based on student addresses, school bell times, and vehicle capacity, dynamically adjusting for road closures or traffic.",
+          "title": "Automated Bus Route Optimization"
+        },
+        {
+          "description": "Track students and vehicles in real-time for safety",
+          "prompt": "Build a real-time tracking application for school buses that allows parents to view their child's bus location on a map and receive notifications when the bus is nearby or delayed.",
+          "title": "Student & Vehicle Tracking Portal"
+        },
+        {
+          "description": "Manage student pick-up/drop-off and attendance",
+          "prompt": "Develop a student attendance management system for bus drivers, allowing them to mark students present/absent during boarding and record pick-up/drop-off times at stops, with data accessible to school administrators.",
+          "title": "On-Bus Student Attendance"
+        },
+        {
+          "description": "Streamline communication with parents and staff",
+          "prompt": "Design a parent communication platform that sends automated SMS/email alerts for bus delays, changes, or emergencies, and allows parents to submit special transport requests directly.",
+          "title": "Parent Communication Hub"
+        },
+        {
+          "description": "Oversee fleet maintenance and driver records",
+          "prompt": "Create a fleet management module that tracks bus maintenance schedules, vehicle inspection reports, fuel consumption, and driver licensing/training records, with automated reminders for upcoming tasks.",
+          "title": "Fleet and Driver Management"
+        },
+        {
+          "description": "Manage student enrolment and transport eligibility",
+          "prompt": "Build a student enrollment system for transport services that captures student details, calculates eligibility for bus routes based on address, and manages waitlists if capacity is exceeded.",
+          "title": "Student Transport Enrollment"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your transport system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now add a feature for parents to report their child absent from the bus for a specific day or period, updating the driver's manifest automatically.",
+          "title": "Parent Absence Reporting"
+        },
+        {
+          "prompt": "Add a module for emergency services to access real-time bus locations and student manifests in case of an incident or evacuation, with appropriate security measures.",
+          "title": "Emergency Services Integration"
+        },
+        {
+          "prompt": "Implement predictive analytics to forecast bus delays based on historical traffic data and weather patterns, providing more accurate ETA updates.",
+          "title": "Predictive Delay Forecasting"
+        },
+        {
+          "prompt": "Integrate with mapping services to visualize optimal routes on a map and allow manual adjustments by dispatchers, with immediate impact on driver apps.",
+          "title": "Map-Based Route Visualizer"
+        },
+        {
+          "prompt": "Add a driver behavior monitoring system using telematics data (speeding, harsh braking) to improve safety and identify training needs.",
+          "title": "Driver Behavior Monitoring"
+        },
+        {
+          "prompt": "Create a feedback system allowing parents to rate bus services or report issues directly, with a workflow for administrative follow-up.",
+          "title": "Parent Feedback Portal"
+        },
+        {
+          "prompt": "Implement a custom report builder for administrators to generate reports on ridership, route efficiency, fuel consumption, and driver hours.",
+          "title": "Custom Reporting Toolkit"
+        }
+      ]
+    },
+    {
+      "title": "Key school transport features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Dynamic route planning and optimization for efficiency and safety.",
+          "icon": "🗺️",
+          "title": "Intelligent Route Optimization"
+        },
+        {
+          "description": "GPS-enabled tracking of vehicles and student boarding/alighting.",
+          "icon": "📍",
+          "title": "Real-time Tracking"
+        },
+        {
+          "description": "Automated status updates and alerts for parents and school staff.",
+          "icon": "📢",
+          "title": "Automated Notifications"
+        },
+        {
+          "description": "Digital manifests, attendance tracking, and parent/guardian verification.",
+          "icon": "📋",
+          "title": "Student Management"
+        },
+        {
+          "description": "Scheduling, maintenance logs, and compliance tracking for buses and drivers.",
+          "icon": "🚌",
+          "title": "Fleet & Driver Management"
+        },
+        {
+          "description": "Customizable dashboards and reports on operational performance and safety metrics.",
+          "icon": "📈",
+          "title": "Analytics & Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic school transport management application can be functional within days using Kliv. Comprehensive systems with advanced integrations might take a few weeks to fully develop and deploy.",
+          "question": "How quickly can I build a school transport management system?"
+        },
+        {
+          "answer": "No, Kliv's platform allows you to describe your system in plain language, and the AI assists in generating the application. You don't need to write code.",
+          "question": "Do I need to be a developer to build this type of system?"
+        },
+        {
+          "answer": "Yes, custom systems built with Kliv can integrate with existing student information systems (SIS), GPS hardware, and communication platforms (SMS, email gateways) via APIs.",
+          "question": "Can I integrate my custom system with existing school software or GPS devices?"
+        },
+        {
+          "answer": "You retain full ownership of the custom application and your data. Kliv provides the tools to build it, but the resulting software is entirely yours to control, host, and modify.",
+          "question": "Who owns the data and the system after it's built?"
+        },
+        {
+          "answer": "Custom solutions eliminate recurring subscription fees, typically leading to significant cost savings over time compared to off-the-shelf software. Initial investment is often recouped quickly through increased efficiency and reduced overhead.",
+          "question": "Is building a custom system more cost-effective than buying a commercial solution?"
+        },
+        {
+          "answer": "Absolutely. Custom systems offer unparalleled flexibility. As your school or district's needs change, you can easily add new features, modify existing workflows, or scale capabilities without vendor limitations.",
+          "question": "Can the system be modified or expanded after it's deployed?"
+        },
+        {
+          "answer": "Custom systems can be designed with specific security protocols, data encryption, and access controls tailored to your policies and regulatory compliance (e.g., student privacy laws). This often results in a more secure environment than generic solutions.",
+          "question": "How secure are custom-built school transport management systems?"
+        },
+        {
+          "answer": "While Kliv streamlines the building process, you'll need to define your requirements, provide data for routing and student information, and manage the deployment to your chosen infrastructure (e.g., cloud hosting).",
+          "question": "What are the technical requirements on my end?"
+        }
+      ]
+    },
+    {
+      "title": "Take control of your school transportation",
+      "type": "cta",
+      "content": "Stop struggling with inadequate software. Build a precision-engineered solution that prioritizes student safety and operational excellence."
+    }
+  ],
+  "title": "School Transport Management"
+}

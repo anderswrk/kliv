@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a minimal SaaS boilerplate with user authentication, subscription management (Stripe integration), a simple dashboard, and a pricing page.",
+  "description": "Launch your SaaS idea faster with a custom minimal boilerplate application built with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Build your SaaS boilerplate",
+    "subtitle": "Stop building from scratch. Create a custom-fitted minimal SaaS boilerplate with user management, subscriptions, and a dashboard in hours.",
+    "title": "Minimal SaaS Boilerplate"
+  },
+  "metaDescription": "Quickly generate a custom minimal SaaS boilerplate with Kliv. Includes user auth, subscription billing via Stripe, and a basic dashboard to jumpstart your product development.",
+  "sections": [
+    {
+      "title": "The challenge of bootstrapping a SaaS product",
+      "type": "text",
+      "content": "Starting a new SaaS product is exciting, but the initial setup can be daunting. Before you even get to your core product features, you need to handle user authentication, subscription billing, basic dashboards, and account management. This 'boilerplate' takes valuable time and resources away from what truly differentiates your product.\n\nTraditional approaches involve either building everything from the ground up—a time-consuming and error-prone process—or using generic, opinionated templates that may not align with your specific needs. What if you could generate a custom minimal boilerplate, tailored exactly to your requirements, and then iterate from there?"
+    },
+    {
+      "title": "Why build your SaaS boilerplate with AI?",
+      "type": "markdown",
+      "content": "## The hidden costs of manual boilerplate\n\nMany entrepreneurs spend weeks, even months, reinventing the wheel by building basic SaaS infrastructure. This includes:\n\n- **Authentication systems**: Sign-up, login, password resets, account security.\n- **Billing integration**: Connecting to Stripe or other payment processors, handling subscriptions, invoices, and cancellations.\n- **User dashboards**: A place for users to manage their profile, view subscription status, and access basic features.\n- **Deployment pipelines**: Setting up continuous integration and deployment for consistent updates.\n- **Database setup**: Choosing and configuring a database, managing migrations.\n\nThis foundational work is critical, but it doesn't directly contribute to your unique value proposition. It's necessary overhead.\n\n## The Kliv advantage: Speed, Customization, Control\n\nKliv's platform changes this paradigm by allowing you to rapidly generate a custom minimal SaaS boilerplate that includes exactly what you need, and nothing more. Here's why it's a game-changer:\n\n### 1. **Launch Faster**: Drastically reduce development time from months to hours or days. Get your core offering in front of users sooner.\n\n### 2. **Tailored to Your Vision**: Unlike off-the-shelf templates, you can specify your exact requirements. Need multi-tenancy? Or a specific database? Just ask. The AI generates code that fits your design philosophy.\n\n### 3. **Own Your Codebase**: You receive a clean, production-ready codebase. This isn't a proprietary platform you're locked into; it's *your* code to extend, modify, and deploy anywhere.\n\n### 4. **No Unnecessary Bloat**: Start lean. Avoid the complexity and performance overhead of features you don't need in a generic template. Add complexity only when your product demands it.\n\n### 5. **Focus on Core Product**: With the boilerplate handled, your team can immediately dive into building the features that deliver real value to your customers.\n\n### 6. **Consistent Best Practices**: AI-generated code often adheres to modern programming best practices, ensuring a solid foundation for future development.\n\n## Real-world impact\n\nImagine launching a new marketing analytics tool. Instead of spending 2 months on user management and billing, you generate a boilerplate in 2 days and immediately start working on the analytics engine. Or, perhaps you're building a niche project management tool; you can customize the basic UI and data model from day one without fighting a rigid template.\n\nKliv empowers you to move from idea to MVP (Minimum Viable Product) with unprecedented speed, giving you a competitive edge in a crowded market. It's not just about building faster; it's about building smarter."
+    },
+    {
+      "title": "Minimal SaaS boilerplate ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A basic subscription app with user accounts and Stripe integration",
+          "prompt": "Create a minimal SaaS boilerplate that includes user authentication, subscription management with Stripe for recurring billing, and a simple user dashboard.",
+          "title": "Subscription management app"
+        },
+        {
+          "description": "Boilerplate for a content management system",
+          "prompt": "Generate a SaaS boilerplate for a content publishing platform, including user roles (admin, editor), a simple content creation interface, and basic analytics reporting.",
+          "title": "CMS Boilerplate"
+        },
+        {
+          "description": "Foundation for an internal tool or dashboard",
+          "prompt": "Build a SaaS boilerplate for an internal dashboard tool with user logins, multi-tenancy support for different client accounts, and a basic data display table.",
+          "title": "Internal Dashboard"
+        },
+        {
+          "description": "A startup app with a landing page and email capture",
+          "prompt": "I need a minimal SaaS boilerplate that includes a marketing landing page, email signup form (with Mailchimp integration), basic user authentication, and a coming-soon dashboard.",
+          "title": "Pre-launch SaaS starter"
+        },
+        {
+          "description": "An e-commerce backend with basic product and order management",
+          "prompt": "Develop a minimal SaaS boilerplate for a simplified e-commerce platform, including product listing, shopping cart functionality, and order processing, with user accounts.",
+          "title": "E-commerce foundation"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your boilerplate",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add secure password recovery functionality, including email verification for reset links.",
+          "title": "Implement password reset"
+        },
+        {
+          "prompt": "Integrate a robust analytics dashboard showing user activity, subscription metrics, and feature usage.",
+          "title": "Add an analytics dashboard"
+        },
+        {
+          "prompt": "Implement multi-tenancy support so each user or team has their own isolated data and settings.",
+          "title": "Enable multi-tenancy"
+        },
+        {
+          "prompt": "Integrate with a CRM like Salesforce or HubSpot to sync user data and subscription changes.",
+          "title": "Connect to CRM"
+        },
+        {
+          "prompt": "Add a customizable user profile editor where users can update their personal information.",
+          "title": "Build user profile management"
+        },
+        {
+          "prompt": "Introduce role-based access control (RBAC) to differentiate between admin, super user, and standard user permissions.",
+          "title": "Implement user roles and permissions"
+        },
+        {
+          "prompt": "Create API endpoints for core functionalities, allowing other applications to interact with your SaaS.",
+          "title": "Expose a public API"
+        },
+        {
+          "prompt": "Integrate a notification system to send in-app or email alerts for subscription events or new features.",
+          "title": "Add notifications"
+        },
+        {
+          "prompt": "Set up automated tests for critical features like user authentication and subscription billing.",
+          "title": "Add automated testing"
+        }
+      ]
+    },
+    {
+      "title": "Essential Boilerplate Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Secure user registration, login, and session management for account privacy.",
+          "icon": "🔒",
+          "title": "User Authentication"
+        },
+        {
+          "description": "Integrated billing with payment gateways like Stripe for smooth subscriptions and invoicing.",
+          "icon": "💳",
+          "title": "Subscription Management"
+        },
+        {
+          "description": "A foundational dashboard providing users with an overview of their account and key features.",
+          "icon": "🖥️",
+          "title": "Basic User Dashboard"
+        },
+        {
+          "description": "Tools for managing user profiles, settings, and subscription details.",
+          "icon": "⚙️",
+          "title": "Account Management"
+        },
+        {
+          "description": "Pre-configured environment for rapid development and deployment of your application.",
+          "icon": "⚡",
+          "title": "Developer-friendly Setup"
+        },
+        {
+          "description": "Designed for easy expansion, allowing you to add new features without refactoring core systems.",
+          "icon": "📈",
+          "title": "Scalable Architecture"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, you can generate a functional minimal SaaS boilerplate in a matter of hours or days, not weeks or months. The complexity and required features will influence the exact time.",
+          "question": "How quickly can I get my SaaS boilerplate built?"
+        },
+        {
+          "answer": "No, you don't need to be a seasoned developer. Kliv's AI platform allows you to describe your requirements in plain language, and it generates the underlying code. You define the features, and AI helps build it.",
+          "question": "Do I need to be a developer to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, you own 100% of the code generated. Kliv provides you with a clean, well-structured codebase that you can host, modify, and extend as you see fit. There are no vendor lock-ins.",
+          "question": "Do I own the code generated for my boilerplate?"
+        },
+        {
+          "answer": "Kliv can generate boilerplate code in popular frameworks and languages (e.g., React, Node.js, Python, Ruby on Rails) and for various database types (e.g., PostgreSQL, MongoDB). You specify your preferences.",
+          "question": "What technologies or frameworks will the boilerplate use?"
+        },
+        {
+          "answer": "Absolutely. The generated boilerplate is designed to be a strong foundation that you can fully customize and expand upon. You can add your unique features, modify the UI, integrate with other services, and evolve it into a full-fledged SaaS product.",
+          "question": "Can I extend or modify the boilerplate after it's generated?"
+        },
+        {
+          "answer": "Building a boilerplate with Kliv means a one-time investment in its creation, giving you full ownership. This often proves more cost-effective in the long run compared to recurring monthly fees for generic SaaS boilerplate templates or hiring a development team to build from scratch.",
+          "question": "How does the cost compare to buying a pre-built SaaS template?"
+        }
+      ]
+    },
+    {
+      "title": "Stop procrastinating, start building.",
+      "type": "cta",
+      "content": "Your next big idea deserves a fast start. Generate your custom SaaS boilerplate today and focus on what truly matters: your users and your core product."
+    }
+  ],
+  "title": "Minimal SaaS Boilerplate"
+}

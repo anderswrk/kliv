@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a kayak design and simulation tool that allows users to input dimensions, material properties, and expected water conditions to simulate hydrodynamic performance and stability.",
+  "description": "Design, simulate, and optimize custom kayaks with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start designing",
+    "subtitle": "Leverage AI to custom design, simulate, and refine your kayak concepts, bringing your visions to life with precision and efficiency.",
+    "title": "Build your own kayak design and simulation tools"
+  },
+  "metaDescription": "Create powerful kayak design and simulation tools with Kliv. Optimize hydrodynamics, stability, and aesthetics for custom watercraft projects.",
+  "sections": [
+    {
+      "title": "Why build your own kayak design and simulation tool?",
+      "type": "text",
+      "content": "In the specialized world of watercraft design, generic CAD software often falls short. Existing solutions are either too broad, lacking specific hydrodynamic and stability analysis, or too expensive, with features you may never use.\n\nBuilding your own custom design and simulation tool with Kliv allows you to focus on the unique parameters critical for kayak performance: hull shape, material properties, weight distribution, and real-world water conditions. This approach eliminates unnecessary complexity, reduces costs, and provides a tailored environment for innovation that off-the-shelf software simply cannot match."
+    },
+    {
+      "title": "The case for tailored maritime design software",
+      "type": "markdown",
+      "content": "## The limitations of generic design tools\n\nMany designers find that conventional CAD and simulation software presents significant hurdles when it comes to specialized applications like kayak design:\n\n-   **Overly complex interfaces:** Packed with features irrelevant to your specific needs, leading to a steep learning curve and inefficient workflows.\n-   **High recurring costs:** Subscriptions for comprehensive engineering suites can be prohibitively expensive for focused projects or smaller design studios.\n-   **Lack of domain-specific insights:** Generic simulation engines may not accurately model the unique hydrodynamic and stability characteristics crucial for kayak performance.\n-   **Integration challenges:** Difficulty in connecting design iterations directly with manufacturing processes or specific material databases.\n\n## Why custom-built delivers superior results\n\nDeveloping a specialized design and simulation tool using AI platforms like Kliv offers a strategic advantage:\n\n### Precision-engineered for performance\nYour custom tool can incorporate specific formulas and algorithms for hydrodynamics, buoyancy, and stability directly pertinent to kayak design. This means more accurate simulations and optimized performance from the outset.\n\n### Cost efficiency and ownership\nInstead of perpetual subscription fees, a custom solution represents a one-time investment with long-term cost benefits. You own the software and can adapt it without additional licensing burdens.\n\n### Streamlined workflow\nDesign your tool to automate repetitive tasks, integrate specific material libraries, and generate manufacturing files directly. This significantly speeds up the design-to-production cycle.\n\n### Intellectual property protection\nBy developing your own platform, you maintain greater control over your proprietary design data and simulation methods, enhancing security.\n\n## Real-world applications of specialized design tools\n\nCustom design and simulation software is transforming niche engineering fields:\n\n**Naval Architecture**: Tools for optimizing ship hull forms for fuel efficiency tailored to specific cargo types and operating routes.\n\n**Aerospace Engineering**: Applications that simulate wing deformation under various atmospheric conditions for drone development, focusing on lightweight materials and unique aerodynamic profiles.\n\n**Automotive Design**: Software custom-built for optimizing vehicle chassis for specific racing conditions, analyzing torsional rigidity and suspension dynamics.\n\n**Consumer Product Design**: Specialized tools for ergonomic analysis of handheld devices, simulating user interaction and comfort based on anthropometric data.\n\n## The AI paradigm shift\n\nAI-powered development platforms like Kliv simplify the creation of sophisticated engineering tools:\n\n-   **Natural language interface**: Describe complex simulation parameters and design rules in plain English.\n-   **Iterative design assistance**: AI suggests design improvements based on simulation results, accelerating the optimization process.\n-   **Automated code generation**: The AI handles the underlying programming, allowing designers to focus on engineering principles.\n-   **Component library generation**: Automatically create and manage libraries of common components or material properties.\n\n## Getting started\n\nIf your goal is to innovate in kayak design, relying on general-purpose software will only limit your potential. Building a precise, cost-effective, and powerful design and simulation tool tailored to your needs is now within reach with Kliv's AI-powered platform."
+    },
+    {
+      "title": "Kayak design ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Design a touring kayak for long-distance stability and speed.",
+          "prompt": "Create a kayak design tool focusing on touring models. Include parameters for hull length, beam, rocker, and allow simulation of initial stability, secondary stability, and cruising speed in calm waters. Incorporate material options for fiberglass and composite with corresponding weight calculations.",
+          "title": "Touring Kayak Designer"
+        },
+        {
+          "description": "Visualize and optimize whitewater kayak performance.",
+          "prompt": "Build an application for whitewater kayak design. Focus on hull volume distribution, chine angle, and a rocker profile suitable for agile maneuvering. Simulate performance in turbulent water, including boofing capability and eddy turning efficiency.",
+          "title": "Whitewater Kayak Simulator"
+        },
+        {
+          "description": "Develop a fishing kayak with optimized storage and rigging.",
+          "prompt": "Design a fishing kayak tool. Include aspects for stand-up stability, transducer mounting, rod holder placement, and storage for tackle. Simulate stability with varying angler weights and gear loads in choppy conditions.",
+          "title": "Fishing Kayak Configurator"
+        },
+        {
+          "description": "Create a modular kayak system for transport and versatility.",
+          "prompt": "Develop a modular kayak design studio. Allow users to define segment lengths and connection mechanisms. Simulate the structural integrity and waterline behavior of assembled segments versus a single hull, optimizing for quick assembly and transport.",
+          "title": "Modular Kayak Designer"
+        },
+        {
+          "description": "Analyze and compare material impact on kayak characteristics.",
+          "prompt": "Build a material science tool for kayak hulls. Let users compare the impact of different resins, fabrics (carbon fiber, Kevlar), and core materials on stiffness, weight, impact resistance, and cost for a given hull shape.",
+          "title": "Kayak Material Analyzer"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your design tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a 3D visualization engine to render kayak designs in real-time.",
+          "title": "Add 3D visualization"
+        },
+        {
+          "prompt": "Incorporate computational fluid dynamics (CFD) modules for advanced hydrodynamic analysis.",
+          "title": "Advanced fluid dynamics"
+        },
+        {
+          "prompt": "Add a feature to generate manufacturing-ready files (e.g., CNC cutting paths, 3D print files) directly from the design.",
+          "title": "Export manufacturing files"
+        },
+        {
+          "prompt": "Include a database of common kayak accessories and allow users to model their impact on stability and balance.",
+          "title": "Integrate accessory library"
+        },
+        {
+          "prompt": "Develop a module for structural analysis to predict stress points and material fatigue under different loads.",
+          "title": "Structural stress analysis"
+        },
+        {
+          "prompt": "Implement a machine learning algorithm to suggest optimal hull designs based on desired performance criteria (e.g., speed, stability, maneuverability).",
+          "title": "AI design optimization"
+        },
+        {
+          "prompt": "Add a user authentication and project management system to save, share, and collaborate on designs.",
+          "title": "User and project management"
+        }
+      ]
+    },
+    {
+      "title": "Essential design and simulation features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define and manipulate hull parameters like length, beam, rocker, and volume distribution.",
+          "icon": "📐",
+          "title": "Parametric hull modeling"
+        },
+        {
+          "description": "Simulate buoyancy, center of gravity, and initial/secondary stability.",
+          "icon": "🌊",
+          "title": "Hydrostatic analysis"
+        },
+        {
+          "description": "Analyze drag, speed potential, and general flow characteristics.",
+          "icon": "💨",
+          "title": "Hydrodynamic simulation"
+        },
+        {
+          "description": "Input and compare various materials (fiberglass, composite, plastic) and their effect on weight and performance.",
+          "icon": "🔬",
+          "title": "Material property integration"
+        },
+        {
+          "description": "Visualize waterlines, cross-sections, and design curves.",
+          "icon": "📊",
+          "title": "2D/3D visualization"
+        },
+        {
+          "description": "Track design iterations and compare performance metrics between versions.",
+          "icon": "🔄",
+          "title": "Design version control"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic kayak design and simulation tool can take as little as a few hours with Kliv. More complex systems with advanced CFD or AI optimization features might take a few days to a week to fully develop and integrate.",
+          "question": "How long does it take to build a specialized design tool?"
+        },
+        {
+          "answer": "No, you do not need to be a programmer. Kliv’s AI allows you to describe the functionalities and features of your design tool using natural language. The AI translates your specifications into a functional application.",
+          "question": "Do I need coding experience to build this type of tool?"
+        },
+        {
+          "answer": "Yes, you can integrate with various external libraries or APIs for specific functionalities, such as advanced CFD solvers, material databases, or 3D rendering engines. Kliv provides the framework for seamless integration.",
+          "question": "Can I integrate with existing engineering libraries or external data sources?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property. Kliv is a platform for building, not a service that hosts your IP. Your designs, data, and the code generated are entirely yours.",
+          "question": "Who owns the intellectual property of the designs and the tool itself?"
+        },
+        {
+          "answer": "While commercial design software involves high, ongoing licensing fees, building with Kliv is a one-time development investment. You control the costs, and often recoup the investment rapidly compared to perpetual subscriptions.",
+          "question": "How does the cost compare to off-the-shelf CAD/CAE software?"
+        },
+        {
+          "answer": "Absolutely. Your custom tool is fully adaptable. You can add new simulation models, integrate new material properties, or expand its capabilities as your design needs evolve, all with the assistance of Kliv's AI.",
+          "question": "Can the tool be extended or modified after its initial build?"
+        },
+        {
+          "answer": "Custom tools built on Kliv can be significantly more secure. You control the hosting environment, access permissions, and data encryption. You're not reliant on a third-party vendor’s security protocols, giving you greater peace of mind.",
+          "question": "Is building my own engineering design tool secure?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your kayak design process?",
+      "type": "cta",
+      "content": "Stop conforming to generic software. Create a precision design instrument tailored to your exact specifications with AI-powered development."
+    }
+  ],
+  "title": "Kayak design and hydrodynamic simulation tools"
+}

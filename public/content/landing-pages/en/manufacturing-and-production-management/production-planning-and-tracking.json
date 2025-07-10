@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "Create a production planning system that can schedule jobs based on machine availability and material readiness, track real-time progress on the shop floor, and generate reports on production efficiency.",
+  "description": "Build custom production planning and tracking applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start planning",
+    "subtitle": "Optimize your manufacturing operations with custom production planning and tracking applications built on Kliv's platform.",
+    "title": "Build your own production planning & tracking tools"
+  },
+  "metaDescription": "Create powerful production planning and tracking tools with Kliv. Streamline manufacturing, improve scheduling, and gain real-time visibility into your shop floor.",
+  "sections": [
+    {
+      "title": "Why build your own production planning and tracking tool?",
+      "type": "text",
+      "content": "In today's competitive manufacturing landscape, off-the-shelf software often falls short. Generic Manufacturing Execution Systems (MES) or Enterprise Resource Planning (ERP) modules can be rigid, expensive, and fail to address your unique production challenges. With AI-powered development platforms like Kliv, designing and deploying a custom production planning and tracking solution is no longer reserved for large enterprises with massive IT budgets.\n\nBuilding your own tool means adapting the software to your process, not the other way around. Gain complete control over scheduling logic, real-time data capture, and performance metrics, ultimately leading to higher efficiency and reduced costs."
+    },
+    {
+      "title": "The case for custom production management",
+      "type": "markdown",
+      "content": "## The limitations of standard software\n\nMany manufacturers struggle with systems that:\n\n- **Lack process flexibility**: Can't easily adapt to unique production lines, custom jobs, or evolving methodologies.\n- **Are cost-prohibitive**: High licensing fees, lengthy implementation projects, and costly customizations.\n- **Offer poor real-time visibility**: Struggle to provide accurate, up-to-the-minute data from the shop floor.\n- **Suffer from integration headaches**: Don't seamlessly connect with existing machinery, sensors, or other business systems.\n- **Provide generic reporting**: Don't offer the specific insights needed for your operational improvements.\n\n## Why tailored solutions are indispensable\n\nThe ability to craft software that perfectly mirrors your manufacturing ecosystem is a game-changer. Leveraging platforms like Kliv empowers you to create:\n\n### Precision planning tailored to your capacity\nYour custom tool can incorporate your exact machine capacities, labor availability, material lead times, and unique production constraints to generate highly accurate and optimized schedules. No more trying to fit your complex operations into a simplistic scheduling algorithm.\n\n### Real-time shop floor intelligence\nConnect directly to your machines, sensors, and operators to capture real-time production data. Monitor job status, identify bottlenecks as they occur, track material consumption, and ensure quality control, all from a unified dashboard.\n\n### Cost optimization through efficiency\nBy visualizing the true flow of production, you can identify inefficiencies, reduce idle time, minimize waste, and improve resource allocation. A custom system allows you to build in your preferred optimization algorithms, leading to significant cost savings.\n\n### Seamless integration with your ecosystem\nInstead of struggling with clunky interfaces or costly middleware, a custom application can be designed to integrate smoothly with your existing ERP, CRM, inventory systems, or even individual PLCs on your machines. Create a truly connected factory.\n\n## Practical applications of custom production tools\n\nCustom production planning and tracking tools are revolutionizing manufacturing across various sectors:\n\n**Discrete Manufacturing**: Scheduling complex assembly lines, tracking individual part production, managing bill of materials, and ensuring on-time delivery for custom orders.\n\n**Process Manufacturing**: Monitoring batch production, tracking ingredient consumption, managing quality control checks at various stages, and optimizing yield for chemical or food production.\n\n**Job Shop Environments**: Dynamically re-scheduling jobs based on machine breakdowns, material delays, or urgent customer requests, providing accurate lead times to clients.\n\n**Textile Production**: Planning fabric cutting and sewing schedules, tracking order progress through different departments, and managing material flow from warehouse to finished goods.\n\n## The AI advantage in manufacturing software\n\nBuilding sophisticated manufacturing software used to demand specialized development teams. AI tools from Kliv democratize this capability:\n\n- **Describe your process**: Use natural language to explain your production flow, constraints, and tracking needs.\n- **Rapid iteration**: Quickly prototype and test different scheduling rules or tracking methods.\n- **Intelligent optimization**: AI can suggest improvements to your planning algorithms or real-time data capture strategies.\n- **Reduced development time**: Go from concept to deployment in days or weeks, not months or years.\n\n## Take control of your production\n\nStop relying on outdated spreadsheets or expensive, inflexible software. A custom production planning and tracking tool ensures your manufacturing operations are as efficient and precise as they can be. Kliv's AI-powered platform makes this a reality, allowing you to design a solution that truly fits your unique operational rhythm."
+    },
+    {
+      "title": "Production planning and tracking ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Optimize scheduling for multiple production lines",
+          "prompt": "Create a production planning system that can manage jobs across 5 distinct production lines, each with different machine types and capacities. The system should prioritize urgent orders and minimize changeover times.",
+          "title": "Multi-line production scheduler"
+        },
+        {
+          "description": "Monitor shop floor progress in real-time",
+          "prompt": "Build a shop floor tracking application that allows operators to log job start/stop times, report material usage, and flag quality issues. Display real-time progress on a central dashboard.",
+          "title": "Real-time shop floor tracker"
+        },
+        {
+          "description": "Manage raw materials and finished goods",
+          "prompt": "Develop an inventory management module that integrates with production orders to automatically deduct raw materials when a job starts and add finished goods to stock when complete. Include low-stock alerts.",
+          "title": "Integrated production inventory"
+        },
+        {
+          "description": "Track maintenance and machine status",
+          "prompt": "Design a system to log machine downtime events, schedule preventive maintenance, and track machine availability. Integrate this with the production scheduler to avoid scheduling jobs on unavailable machines.",
+          "title": "Machine maintenance & availability"
+        },
+        {
+          "description": "Generate work orders automatically",
+          "prompt": "Build an application that automatically generates work orders based on customer demand or forecast, assigns them to specific production lines, and provides a clear sequence of operations.",
+          "title": "Automated work order creation"
+        },
+        {
+          "description": "Analyze production bottlenecks and efficiency",
+          "prompt": "Create a reporting tool that analyzes production data to identify bottlenecks, calculate overall equipment effectiveness (OEE) for each machine, and track production efficiency trends over time.",
+          "title": "Production analytics dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your production tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add real-time data collection from PLC/sensors on machines to automatically update job progress",
+          "title": "Integrate with machine PLCs"
+        },
+        {
+          "prompt": "Implement a 'what-if' scenario planner to simulate changes in production schedules due to unexpected events (e.g., machine break down, rush orders)",
+          "title": "'What-if' scenario planner"
+        },
+        {
+          "prompt": "Add a predictive maintenance module that uses historical data to forecast potential machine failures and schedule maintenance proactively",
+          "title": "Predictive maintenance"
+        },
+        {
+          "prompt": "Develop a mobile app for shop floor operators to easily log data, view instructions, and report issues from tablets or smartphones",
+          "title": "Mobile operator interface"
+        },
+        {
+          "prompt": "Incorporate AI-driven demand forecasting to optimize production schedules based on predicted future orders",
+          "title": "AI demand forecasting"
+        },
+        {
+          "prompt": "Add a quality control module that tracks defects, performs statistical process control (SPC), and links issues back to specific production batches or operators",
+          "title": "Integrated quality control"
+        },
+        {
+          "prompt": "Create dashboards for different roles (e.g., Production Manager, Shop Floor Supervisor, Planner) showing relevant KPIs and alerts",
+          "title": "Role-based dashboards"
+        },
+        {
+          "prompt": "Implement a visual drag-and-drop Gantt chart for production scheduling to allow easy re-ordering and adjustment of jobs",
+          "title": "Visual scheduling Gantt"
+        }
+      ]
+    },
+    {
+      "title": "Essential production management features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Create optimal production schedules based on resources, constraints, and priorities.",
+          "icon": "🗓️",
+          "title": "Dynamic Scheduling"
+        },
+        {
+          "description": "Monitor and update job progress, machine status, and operator activities in real-time.",
+          "icon": "⏱️",
+          "title": "Real-time Tracking"
+        },
+        {
+          "description": "Manage raw materials, work-in-progress, and finished goods to prevent stockouts or overstock.",
+          "icon": "📦",
+          "title": "Inventory Control"
+        },
+        {
+          "description": "Generate work orders, routings, and instructions automatically for the shop floor.",
+          "icon": "📄",
+          "title": "Automated Workflows"
+        },
+        {
+          "description": "Connect with ERPs, MES, PLCs, and other systems for a unified data flow.",
+          "icon": "🔌",
+          "title": "Seamless Integration"
+        },
+        {
+          "description": "Customizable reports and dashboards to visualize KPIs, identify bottlenecks, and drive improvements.",
+          "icon": "📈",
+          "title": "Performance Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic production planning and tracking tool can take a few days, while comprehensive systems with multiple integrations might take a few weeks. The AI assist speeds up development considerably.",
+          "question": "How long does it take to build a custom production tool?"
+        },
+        {
+          "answer": "No, technical expertise is not required. Kliv's AI-assisted platform allows you to describe your needs in plain language, and it helps generate the application structure and code, making it accessible to non-developers.",
+          "question": "Do I need to be a software developer to build this?"
+        },
+        {
+          "answer": "Yes, custom tools can integrate with almost any existing system, including ERPs (like SAP, Oracle), accounting software (QuickBooks), CRM, and direct connections to shop floor machinery via APIs or OPC UA.",
+          "question": "Can this integrate with my existing ERP or shop floor equipment?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property. The application, its data, and the underlying code are entirely yours. You retain full control and can host it on your preferred infrastructure.",
+          "question": "Who owns the software and data once it's built?"
+        },
+        {
+          "answer": "Custom-built solutions typically have a higher upfront cost but eliminate recurring monthly SaaS fees. Over a few years, a custom solution often becomes significantly more cost-effective, offering a much higher ROI.",
+          "question": "How does the cost compare to off-the-shelf MES or planning software?"
+        },
+        {
+          "answer": "Absolutely. Unlike rigid commercial software, your custom tool can be easily modified and expanded as your production processes evolve, new machines are added, or business requirements change. You have complete flexibility.",
+          "question": "Can I modify or expand the tool after it's deployed?"
+        },
+        {
+          "answer": "Custom tools can be highly secure because you control the hosting environment, access permissions, and data encryption. This often provides a higher level of security than relying on third-party cloud providers.",
+          "question": "Is a custom-built solution secure for sensitive production data?"
+        },
+        {
+          "answer": "Kliv provides AI-driven guidance, code generation, and debugging assistance throughout the building process. Ongoing support can be managed by your internal team, or you can engage specialized Kliv partners for maintenance.",
+          "question": "What kind of support is available after the tool is built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to optimize your production planning?",
+      "type": "cta",
+      "content": "Stop fitting your unique factory into generic software. Build a production planning and tracking solution that’s perfectly designed for your operations with Kliv’s AI-powered platform."
+    }
+  ],
+  "title": "Production Planning & Tracking Tools"
+}

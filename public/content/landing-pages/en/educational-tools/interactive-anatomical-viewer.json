@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an interactive 3D anatomical viewer that allows users to explore human body systems, overlay conditions, and access detailed information about each structure.",
+  "description": "Develop custom, interactive anatomical viewers for education and training with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your viewer",
+    "subtitle": "Transform medical education and training with highly customizable 3D anatomical visualization tools built on 클립.",
+    "title": "Build your own interactive anatomical viewers"
+  },
+  "metaDescription": "Create powerful interactive anatomical viewers with Kliv. Enhance learning, medical training, and patient education with custom 3D models and detailed information.",
+  "sections": [
+    {
+      "title": "Why build your own interactive anatomical viewer?",
+      "type": "text",
+      "content": "In an era where visual learning is paramount, generic anatomical apps fall short. They offer limited customization, static content, and often come with prohibitive licensing fees. Building your own interactive anatomical viewer means creating a tool that perfectly aligns with your educational goals, research focus, or training needs.\n\nWith AI-powered platforms like Kliv, this sophisticated development is now within reach for educators, medical professionals, and content creators. You gain full control over content, features, and user experience, moving beyond the 'one-size-fits-all' limitations of off-the-shelf solutions."
+    },
+    {
+      "title": "The power of custom anatomical visualization",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nExisting anatomical viewers, while useful, often present significant drawbacks:\n\n- **Generic content**: Not tailored to specific curricula or patient conditions.\n- **Limited interactivity**: Often lack advanced dissection, annotation, or quiz features.\n- **Subscription models**: Recurring costs can be substantial, especially for institutions.\n- **Data privacy concerns**: Health information or proprietary research might be exposed.\n- **Integration challenges**: Difficult to embed into existing learning management systems (LMS) or research platforms.\n\n## Why custom-built excels\n\nCustom interactive anatomical viewers empower you to transform learning and practice:\n\n### Hyper-specialized content\nFocus on specific organs, systems, or even rare conditions with highly detailed, accurate models and information. Include custom pathologies, surgical approaches, or unique patient cases that off-the-shelf solutions never would.\n\n### Advanced interactive features\nGo beyond simple rotation. Implement real-time dissection, layer-by-layer exploration, interactive quizzes, direct annotation tools, and dynamic physiological simulations.\n\n### Ownership and control\nMaintain full ownership of your intellectual property, data, and models. Host the application on your own servers for enhanced security and privacy, free from vendor lock-in.\n\n### One-time investment, lasting value\nShift from perpetual subscription cycles to a single development investment that continually delivers value. Update and adapt your viewer as your needs evolve, without paying extra for 'premium' features.\n\n### Seamless integration\nDesign your viewer to integrate perfectly with your existing educational platforms, electronic health records (EHR), or research databases, creating a cohesive learning or diagnostic environment.\n\n## Real-world impact\n\nCustom anatomical viewers are revolutionizing various sectors:\n\n**Medical education**: Create bespoke modules for cardiology, neurology, or orthopedics, allowing students to virtually \"dissect\" and understand complex anatomical relationships with unparalleled clarity.\n\n**Surgical training**: Develop virtual surgical environments where trainees can practice procedures on precise 3D models, simulating different patient anatomies and complications.\n\n**Patient education**: Design intuitive, interactive tools for patients to understand their diagnoses, proposed treatments, and recovery processes, improving compliance and peace of mind.\n\n**Pharmaceutical research**: Visualize drug-target interactions in 3D, explore anatomical effects of new compounds, or present research findings with compelling visual aids.\n\n## The Kliv advantage\n\nKliv's AI-driven platform democratizes the creation of sophisticated interactive applications:\n\n- **Natural language interfaces**: Describe your desired features and content in plain English.\n- **Rapid prototyping**: Turn concepts into functional prototypes in hours.\n- **Intelligent asset generation**: AI assists in creating or integrating 3D models, textures, and data.\n- **Scalable and secure**: Built on modern architectures, ensuring your viewer is performant and protected.\n\n## Get started today\n\nDon't settle for generic. With Kliv, you can build a cutting-edge interactive anatomical viewer that meets your exact specifications and drives deeper understanding. Focus on your vision, and let AI handle the development."
+    },
+    {
+      "title": "Interactive viewer ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Explore detailed individual cranial nerves with interactive labeling.",
+          "prompt": "Create an interactive viewer focused on the human cranial nerves. Users should be able to select each nerve, see its 3D path, and get information on function and associated pathologies.",
+          "title": "Cranial nerve dissection tool"
+        },
+        {
+          "description": "Visualize cardiac cycles and associated pathologies in 3D.",
+          "prompt": "Develop an interactive heart viewer that shows blood flow through chambers, valve movements, and allows users to overlay common heart conditions like stenosis or arrhythmia effects.",
+          "title": "Dynamic cardiac simulator"
+        },
+        {
+          "description": "Understand muscle groups, attachments, and actions.",
+          "prompt": "Build a musculoskeletal system viewer where users can highlight individual muscles, see their origin and insertion points, and simulate their contraction effects on bone movement.",
+          "title": "Musculoskeletal functional anatomy"
+        },
+        {
+          "description": "Explore the brain's detailed structures and pathways.",
+          "prompt": "Design an interactive brain viewer that allows depth-slice navigation, highlight specific cortical regions, and displays associated cognitive functions or neurological disorder impacts.",
+          "title": "Neurological pathways explorer"
+        },
+        {
+          "description": "Simulate and understand drug delivery at cellular levels.",
+          "prompt": "Create a microscopic anatomy viewer, focusing on the cellular structure of the lungs. Users should be able to click on cells to see their organelles and molecular interactions related to respiratory function.",
+          "title": "Pulmonary microanatomy"
+        },
+        {
+          "description": "Visualize tooth morphology, nerve supply, and common dental issues.",
+          "prompt": "Develop an interactive dental anatomy viewer showing each tooth, its root structure, and nerve pathways. Allow users to simulate common dental procedures like fillings or root canals.",
+          "title": "Dental anatomy and procedure simulator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your anatomical viewer",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a real-time collaborative feature allowing multiple users to interact with the same 3D model simultaneously for group learning.",
+          "title": "Add multi-user collaboration"
+        },
+        {
+          "prompt": "Incorporate AI-powered diagnostic support where users can input symptoms, and the viewer suggests relevant anatomical areas or conditions.",
+          "title": "Integrate AI diagnostics"
+        },
+        {
+          "prompt": "Add augmented reality (AR) capabilities so users can overlay anatomical models onto their real-world environment via mobile devices.",
+          "title": "Implement AR display mode"
+        },
+        {
+          "prompt": "Include a quiz and assessment module with interactive questions directly linked to specific anatomical structures. ",
+          "title": "Develop assessment module"
+        },
+        {
+          "prompt": "Add a feature to upload and view medical imaging data (CT, MRI) directly onto the 3D anatomical models for personalized training.",
+          "title": "Enable DICOM image overlay"
+        },
+        {
+          "prompt": "Build a comprehensive search function that allows users to quickly find and highlight specific anatomical structures, pathologies, or terms.",
+          "title": "Create intelligent search"
+        },
+        {
+          "prompt": "Integrate voice control capabilities for hands-free navigation and interaction with the anatomical models.",
+          "title": "Add voice control"
+        },
+        {
+          "prompt": "Implement a journaling or note-taking feature allowing users to tag specific anatomical points with personal notes or research findings.",
+          "title": "Include personal note-taking"
+        },
+        {
+          "prompt": "Allow users to customize the visual appearance of the anatomical models, including transparency, color, and texture, for enhanced focus.",
+          "title": "Add visual customization tools"
+        }
+      ]
+    },
+    {
+      "title": "Key features for anatomical viewers",
+      "type": "features",
+      "items": [
+        {
+          "description": "Explore complex 3D models with rotation, zoom, and pan controls.",
+          "icon": "🌐",
+          "title": "Dynamic 3D navigation"
+        },
+        {
+          "description": "Select, isolate, or hide specific structures for focused study.",
+          "icon": "🔬",
+          "title": "Interactive selection"
+        },
+        {
+          "description": "View precise details for each anatomical part, including labels and textual descriptions.",
+          "icon": "📝",
+          "title": "Detailed information overlay"
+        },
+        {
+          "description": "Integrate and display clinical pathology or disease states on models.",
+          "icon": "😷",
+          "title": "Pathology visualization"
+        },
+        {
+          "description": "Simulate and visualize physiological processes (e.g., blood flow, nerve impulses).",
+          "icon": "⚡",
+          "title": "Physiological simulation"
+        },
+        {
+          "description": "Add new 3D models, textures, and data as your needs evolve.",
+          "icon": "➕",
+          "title": "Custom content modularity"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's AI significantly accelerates the development process. A basic interactive anatomical viewer can be prototyped in days, while more complex systems with extensive features might take a few weeks to fully develop and refine.",
+          "question": "How quickly can I build an anatomical viewer with Kliv?"
+        },
+        {
+          "answer": "No specialized 3D modeling or programming experience is required. Kliv's AI-driven platform allows you to describe your desired viewer using natural language, and it handles the underlying technical complexities, including 3D model integration.",
+          "question": "Do I need expertise in 3D modeling or coding?"
+        },
+        {
+          "answer": "Yes, Kliv supports the integration of various 3D asset formats. You can either use your existing models, generate new ones with AI assistance, or work with Kliv to source professional anatomical models.",
+          "question": "Can I use my own 3D anatomical models or data?"
+        },
+        {
+          "answer": "Absolutely. Custom viewers offer unparalleled flexibility for integration. You can connect your viewer to Learning Management Systems (LMS), Electronic Health Records (EHR) systems, research databases, or custom APIs to pull and push data seamlessly.",
+          "question": "Can the viewer integrate with my existing educational or medical platforms?"
+        },
+        {
+          "answer": "You own all intellectual property generated. The source code, 3D models, and data are yours. This gives you complete control over distribution, monetization, and future modifications.",
+          "question": "Who owns the intellectual property of the viewer I build?"
+        },
+        {
+          "answer": "Building a custom viewer is a one-time development investment, unlike recurring SaaS subscriptions. While initial costs vary based on complexity, many institutions find it significantly more cost-effective long-term, especially for specialized or widely distributed tools.",
+          "question": "How does the cost compare to off-the-shelf anatomical software?"
+        },
+        {
+          "answer": "Yes, security is a core consideration. Since you control the hosting environment and data flow, you can implement robust security protocols tailored to your specific compliance needs (e.g., HIPAA for medical data), often exceeding the capabilities of generic third-party apps.",
+          "question": "Is building a custom viewer more secure for sensitive data?"
+        },
+        {
+          "answer": "Kliv offers comprehensive support through the development process. You'll receive AI-powered guidance, smart suggestions, and debugging assistance. For more complex needs, expert support and consultation services are available.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Empower your educational and training programs",
+      "type": "cta",
+      "content": "Stop limiting your learning tools to what's available. Build a custom, interactive anatomical viewer that truly stands out and elevates understanding."
+    }
+  ],
+  "title": "Interactive anatomical viewers"
+}

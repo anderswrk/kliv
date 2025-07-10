@@ -1,0 +1,154 @@
+{
+  "defaultPrompt": "I want to create a gold price transparency calculator that retrieves live gold spot prices, allows users to input weight, purity, and local currency, and calculates a fair buy/sell price with adjustable dealer margins.",
+  "description": "Empower users with transparent gold pricing. Build your own custom gold price calculators.",
+  "hero": {
+    "cta": "Build Your Calculator",
+    "subtitle": "Create custom applications to bring clarity to gold valuations in real-time, empowering consumers and businesses.",
+    "title": "Build Your Own Gold Price Transparency Calculator"
+  },
+  "metaDescription": "Develop powerful gold price transparency calculators with Kliv. Access real-time data, customize valuation logic, and build user-friendly tools for accurate gold appraisal.",
+  "sections": [
+    {
+      "title": "Why a Custom Gold Price Calculator Matters",
+      "type": "text",
+      "content": "In the world of precious metals, transparency is gold. Generic calculators often lack the flexibility for regional nuances, specific purity standards, or customizable margin considerations. Building your own gold price transparency calculator means you control every variable, providing unparalleled accuracy and trust."
+    },
+    {
+      "title": "The Quest for True Gold Value",
+      "type": "markdown",
+      "content": "## The Problem with Off-the-Shelf Solutions\n\nMany existing gold price tools are one-size-fits-all, leading to inaccuracies and a lack of trust. They often fail to account for:\n\n- **Regional Price Variations**: Gold prices can differ based on local markets and demand.\n- **Specific Purity Levels**: Standard calculators might not account for nuanced karats or assay results.\n- **Custom Margins**: Dealers and buyers need to factor in operating costs and profit margins dynamically.\n- **Real-time Data Challenges**: Static tools quickly become outdated in a volatile market.\n- **User Experience**: Clunky interfaces can deter users seeking quick, clear information.\n\n## The Power of a Custom-Built Calculator\n\nLeveraging platforms like Kliv, you can construct a tool that precisely meets your needs, or the needs of your audience. Here's why custom is superior:\n\n### Adaptable to Market Dynamics\nYour tool can connect to multiple reliable data sources for real-time spot prices, ensuring calculations are always current, regardless of market volatility.\n\n### Precision in Purity & Weight\nGo beyond typical 24K and 18K. Your calculator can support a wide range of purities (e.g., 999, 995, 916) and various weight units (grams, ounces, tolas, etc.) for ultimate accuracy.\n\n### Customizable Business Logic\nIntegrate your own buy/sell margins, hallmarking fees, or processing costs directly into the calculation logic. This is crucial for businesses aiming for transparent, yet profitable, operations.\n\n### Enhance Trust and Credibility\nProviding a transparent, accurate valuation tool can build significant trust with customers or provide internal teams with consistent, verifiable data.\n\n## Real-World Applications\n\nCustom gold price transparency calculators can serve diverse user groups:\n\n**Jewelry Retailers**: Offer customers on-the-spot, transparent valuations for old gold, increasing conversion and trust.\n\n**Gold Scrap Buyers**: Quickly calculate fair buy prices based on real-time spot prices, purity, and adjustable acquisition margins.\n\n**Investors & Enthusiasts**: Create a personal dashboard to track the value of their gold holdings with custom purity and weight inputs.\n\n**Pawn Shops**: Streamline the evaluation process for loan or purchase decisions, ensuring consistent and fair appraisals.\n\n## The Kliv Advantage\n\nBuilding sophisticated financial tools used to be complex and expensive. Kliv empowers you to:\n\n- **Describe intricate logic**: Translate complex gold valuation rules into functional applications via natural language.\n- **Integrate external data**: Effortlessly pull live spot prices from financial APIs.\n- **Design intuitive interfaces**: Create user-friendly front-ends for input and display.\n- **Deploy rapidly**: Launch your custom calculator in a fraction of the time compared to traditional development.\n\nIn a market where trust and accuracy are paramount, a custom gold price transparency calculator is an invaluable asset. Begin crafting yours with Kliv today."
+    },
+    {
+      "title": "Gold Calculator Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Calculate the buy-back price for specific jewelry items based on weight, purity, and current market rates.",
+          "prompt": "Build a gold jewelry buy-back calculator for a retail store. It should take inputs for item weight in grams, marked purity (e.g., 14K, 18K, 22K), and apply a customizable percentage deduction for findings and a customizable profit margin from the live spot price.",
+          "title": "Jewelry Buy-Back Calculator"
+        },
+        {
+          "description": "Estimate investment value of gold based on current prices and varying purchase weights.",
+          "prompt": "Create an investment gold value tracker. Users should be able to input their gold holdings by weight (grams, ounces, or tolas) and purity (e.g., 999, 916), and the tool should display their current portfolio value updated with live international gold spot prices.",
+          "title": "Personal Gold Investment Tracker"
+        },
+        {
+          "description": "Provide a quick estimate for gold content in coins or bars based on commonly known specifications.",
+          "prompt": "Develop a gold coin and bar value estimator. It should have a pre-defined list of common gold coins (e.g., American Eagle, Krugerrand) and bars (e.g., PAMP Suisse) with their specific weights and purities. Users select the item and quantity, and the tool displays its current market value based on live spot prices.",
+          "title": "Standard Gold Item Valuator"
+        },
+        {
+          "description": "Help consumers compare gold prices across different retailers, factoring in local currency.",
+          "prompt": "Design a gold price comparison tool for consumers. It should allow them to input a reference weight (e.g., 10 grams) and purity (e.g., 22K), pull live international gold prices, allow conversion to a local currency, and then allow users to compare this 'fair value' against prices offered by multiple local jewelers.",
+          "title": "Consumer Gold Price Comparison Tool"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Gold Calculator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to display historical gold price trends over the last 7 days, 30 days, and 1 year using interactive charts.",
+          "title": "Historical Price Trend Charts"
+        },
+        {
+          "prompt": "Integrate advanced user management with role-based access, so different internal users (e.g., managers, sales associates) see different margin settings.",
+          "title": "Role-Based Access Control"
+        },
+        {
+          "prompt": "Add a module for real-time currency conversion rates, allowing calculations to be displayed in any major global currency.",
+          "title": "Multi-Currency Support"
+        },
+        {
+          "prompt": "Implement a notification system that alerts users when gold prices hit a certain threshold (e.g., 'price dropped by 2%').",
+          "title": "Price Alert System"
+        },
+        {
+          "prompt": "Create an API endpoint for the calculator so other internal systems (e.g., ERP, inventory) can programmatically fetch gold valuations.",
+          "title": "API for Integrations"
+        },
+        {
+          "prompt": "Add the ability to generate and print a simple, branded valuation certificate for each calculation.",
+          "title": "Printable Valuation Certificates"
+        }
+      ]
+    },
+    {
+      "title": "Core Features for Gold Valuation Tools",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connects to reliable APIs for real-time gold spot prices.",
+          "icon": "📈",
+          "title": "Live Spot Price Integration"
+        },
+        {
+          "description": "Supports various weight units (grams, ounces, tolas, etc.) and purity levels (e.g., 999, 916, 22K).",
+          "icon": "⚖️",
+          "title": "Flexible Input Parameters"
+        },
+        {
+          "description": "Allows custom dealer margins, processing fees, and other business-specific deductions.",
+          "icon": "⚙️",
+          "title": "Customizable Calculation Logic"
+        },
+        {
+          "description": "Enables conversion of calculated values into various global or local currencies.",
+          "icon": "💰",
+          "title": "Multi-Currency Conversion"
+        },
+        {
+          "description": "User-friendly interface for easy input and clear display of results.",
+          "icon": "🖥️",
+          "title": "Intuitive User Interface"
+        },
+        {
+          "description": "Securely fetches data and perform calculations, ensuring data integrity.",
+          "icon": "🔒",
+          "title": "Data Security & Reliability"
+        }
+      ]
+    },
+    {
+      "title": "Gold Calculator FAQ",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom gold price calculator with Kliv can take anywhere from a few hours to a couple of days, depending on the complexity of features and integrations. The AI-driven process significantly reduces development time.",
+          "question": "How long will it take to build my gold price calculator?"
+        },
+        {
+          "answer": "You do not need to be a programmer. Kliv allows you to describe your calculator's requirements in plain language. The AI translates these into functional code, guiding you through the process.",
+          "question": "Do I need coding skills to build this type of application?"
+        },
+        {
+          "answer": "Yes, you can integrate with various financial data providers to pull live gold spot prices and currency exchange rates. Kliv facilitates secure connections to external APIs.",
+          "question": "Can I integrate live gold price feeds and currency rates?"
+        },
+        {
+          "answer": "The cost of building your own tool on Kliv is a one-time project cost, often significantly less than recurring subscription fees for limited off-the-shelf solutions over time. You gain full ownership and customization flexibility.",
+          "question": "How does the cost compare to subscribing to existing gold price services?"
+        },
+        {
+          "answer": "Yes, Kliv enables you to design your calculator's appearance to match your brand's aesthetics and user experience preferences. You have full control over the look and feel.",
+          "question": "Can I customize the look and feel of my calculator to match my brand?"
+        },
+        {
+          "answer": "All the intellectual property, including the code and logic of your custom gold price calculator, is entirely yours. You retain full ownership and control.",
+          "question": "Who owns the calculator once it's built?"
+        },
+        {
+          "answer": "Yes, your custom calculator can be deployed as a web application or integrated into existing websites and platforms, making it accessible to your target users wherever they are.",
+          "question": "Can the calculator be accessed from a website or mobile device?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bring transparency to gold?",
+      "type": "cta",
+      "content": "Stop relying on generic tools. Build a gold price calculator tailored to your exact specifications and foster trust through ultimate transparency."
+    }
+  ],
+  "title": "Gold Price Transparency Calculator"
+}

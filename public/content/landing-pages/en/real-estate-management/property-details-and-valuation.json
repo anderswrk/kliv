@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a property details and valuation tool that can store comprehensive property data, perform automated valuations, and generate reports for clients.",
+  "description": "Build custom property details and valuation applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your valuation tool",
+    "subtitle": "Gain competitive edge with custom AI-powered property details and valuation applications built on Kliv's platform.",
+    "title": "Build Your Own Property Valuation & Data Tools"
+  },
+  "metaDescription": "Create powerful property details and valuation tools with Kliv. Aggregate data, automate valuations, and generate insights for better real estate decisions.",
+  "sections": [
+    {
+      "title": "Why build your own property valuation tool?",
+      "type": "text",
+      "content": "In the fast-paced real estate market, accurate and instant property insights are key. Generic valuation tools often fall short, failing to adapt to unique local market nuances, specific property types, or your precise data needs. With AI-powered development platforms like Kliv, creating a custom property details and valuation system that perfectly fits your business has never been more achievable.\n\nWhile off-the-shelf solutions come with limitations, hidden costs, and often lack critical integrations, a custom-built solution gives you complete control over your data, valuation models, and reporting. You own the software, tailor it to your exact methodology, and invest once for long-term strategic advantage."
+    },
+    {
+      "title": "The case for custom property data and valuation systems",
+      "type": "markdown",
+      "content": "## The pitfalls of off-the-shelf valuation tools\n\nMany real estate professionals rely on generic tools that promise comprehensive valuation but often deliver generalized results. These platforms typically:\n\n- **Lack granular data import**: Struggle to integrate your unique local data sources or proprietary property attributes.\n- **Offer rigid valuation models**: Don't allow customization for specific market conditions, property categories, or investment strategies.\n- **Come with recurring, escalating fees**: Entrap you in subscription models that become costly over time for features you might not fully utilize.\n- **Provide generic reports**: Fail to generate reports branded to your business or tailored to specific client needs.\n- **Limit scalability and integration**: Don't easily connect with your existing CRM, marketing platforms, or unique data feeds.\n\n## Why a custom-built system provides superiority\n\nThe advent of accessible AI development tools means tailored software is no longer just for large enterprises. Here’s why building your own is a strategic move:\n\n### Proprietary data management\nControl precisely what data you collect, how it's stored, and how it's used. Integrate your unique internal data with external feeds without privacy concerns or vendor lock-in.\n\n### Customized valuation logic\nImplement your specific valuation methodologies, algorithms, and market adjustments. This ensures valuations are truly accurate and relevant to your niche or local market, reflecting your expert knowledge.\n\n### Cost efficiency & ownership\nA custom solution built with Kliv is a capital investment, not an operational expense that constantly drains your budget. After initial development, you own the asset and avoid endless subscription costs.\n\n### Seamless integration\nDesign your tool to seamlessly integrate with your existing technology stack—your CRM, GIS mapping software, financial systems, or even local municipality databases. Eliminate manual data entry and disjointed workflows.\n\n### Enhanced client reporting\nGenerate professional, branded valuation reports that consolidate all relevant data points, analysis, and custom insights, elevating your client interactions and professionalism.\n\n## Real-world applications\n\nCustom property data and valuation tools are revolutionizing various segments of the real estate industry:\n\n**Residential Real Estate**: A tool that combines MLS data with local sentiment analysis and neighborhood-specific amenities to provide highly accurate home valuations for buyers and sellers.\n\n**Commercial Real Estate**: A system that analyzes zoning laws, demographic shifts, foot traffic data, and comparable lease transactions to provide precise valuations for commercial properties.\n\n**Property Investment Firms**: A platform that rapidly evaluates potential acquisitions by incorporating expected rental yields, maintenance costs, and capital improvement projections into a comprehensive valuation model.\n\n**Property Management**: A solution for portfolio management that tracks individual property performance against market benchmarks and provides updated valuations for re-leasing or sales strategies.\n\n## The AI advantage\n\nBuilding sophisticated software used to demand extensive technical expertise and significant time. AI-powered platforms like Kliv have changed this landscape:\n\n- **Natural language interface**: Describe your desired features and data points in plain English, and AI assists in building the application.\n- **Rapid iteration**: See functional prototypes of your valuation models and data forms emerge quickly, allowing for immediate feedback and refinement.\n- **Intelligent data processing**: AI can suggest ways to clean, standardize, and analyze diverse property data sources for better insights.\n- **Automated report generation**: AI can help design and populate complex valuation reports with dynamic data fields and narratives.\n\n## Paving the way forward\n\nThe most effective property valuation tool is one that perfectly aligns with your real estate expertise and business model. Instead of compromising with generic software, invest in building a solution that’s truly yours.\n\nWith Kliv's AI-powered platform, you can begin developing your custom property details and valuation application today. No deep coding knowledge required—just your vision for smarter real estate insights."
+    },
+    {
+      "title": "Property valuation ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Calculate residential property values based on comps and features",
+          "prompt": "Create a residential property valuation tool that takes property address, square footage, number of beds/baths, and recent comparable sales, then calculates an estimated market value. Allow users to add a custom adjustment factor.",
+          "title": "Residential Comparative Market Analysis (CMA)"
+        },
+        {
+          "description": "System to track and value commercial real estate assets",
+          "prompt": "Build a commercial real estate asset management tool. It should store details like property type (office, retail, industrial), current leases, tenant information, operating expenses, and automate income capitalization valuations.",
+          "title": "Commercial Property Portfolio Valuator"
+        },
+        {
+          "description": "Tool for assessing investment property potential",
+          "prompt": "Develop an investment property analysis application. Users should input purchase price, rental income, operating expenses, and debt service. The tool should calculate Cap Rate, Cash-on-Cash Return, and Net Operating Income.",
+          "title": "Investment Property ROI Calculator"
+        },
+        {
+          "description": "Web-based tool for quick property value estimates",
+          "prompt": "Design a simple online property valuation form where users can enter an address and receive an instant estimated value based on publicly available data sources (e.g., Zillow API, public records). Include a disclaimer.",
+          "title": "Quick Online Property Valuation Portal"
+        },
+        {
+          "description": "Dashboard for tracking property value changes over time",
+          "prompt": "Build a property value tracking dashboard. Users can add multiple properties and the system should pull updated estimated values periodically, displaying historical trends and annual appreciation rates.",
+          "title": "Portfolio Value Trend Monitor"
+        },
+        {
+          "description": "GIS-enabled property search with integrated valuation",
+          "prompt": "Create a mapping interface where users can click on a parcel to see its details and an instant valuation based on nearby comparable sales, zoning data, and land characteristics. Integrate with a GIS layer.",
+          "title": "Geospatial Property Valuation Explorer"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your valuation tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add the ability for users to upload property photos and documents, linking them directly to each property record.",
+          "title": "Integrate document and photo storage"
+        },
+        {
+          "prompt": "Implement a user authentication system with different roles (e.g., agent, admin, client) to control access to sensitive valuation data.",
+          "title": "Add user authentication and roles"
+        },
+        {
+          "prompt": "Connect the application to a third-party API for demographic data (e.g., population growth, income levels) for more comprehensive neighborhood analysis.",
+          "title": "Incorporate demographic data APIs"
+        },
+        {
+          "prompt": "Build a feature that automatically generates a professional PDF valuation report, fully customizable with branding, charts, and detailed comparables.",
+          "title": "Add automated report generation (PDF)"
+        },
+        {
+          "prompt": "Create an automated alert system that notifies users when a property's estimated value changes by a certain percentage or when new comparable sales become available in a tracked area.",
+          "title": "Implement value change alerts"
+        },
+        {
+          "prompt": "Add a feature that allows users to mark properties as 'favorites' and receive weekly digest emails with updated valuations and market insights for those properties.",
+          "title": "Develop 'watch list' functionality"
+        },
+        {
+          "prompt": "Integrate interactive charting capabilities to visualize historical value trends, comparable property distribution, and cap rate performance over time.",
+          "title": "Include data visualization charts"
+        },
+        {
+          "prompt": "Build a CRM-like module within the application to track client interactions related to specific properties and valuations.",
+          "title": "Add client management features"
+        },
+        {
+          "prompt": "Enable bulk import of property data from CSV or Excel files to quickly populate the database for large portfolios.",
+          "title": "Allow bulk data import"
+        }
+      ]
+    },
+    {
+      "title": "Essential property valuation features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Create detailed databases for properties with custom fields.",
+          "icon": "🏡",
+          "title": "Custom Property Database"
+        },
+        {
+          "description": "Connect to external data sources for comps, tax records, and market data.",
+          "icon": "🔗",
+          "title": "Data Aggregation & Integration"
+        },
+        {
+          "description": "Implement custom algorithms for automated property valuation.",
+          "icon": "💲",
+          "title": "Automated Valuation Models (AVMs)"
+        },
+        {
+          "description": "Generate professional, branded valuation reports instantly.",
+          "icon": "📈",
+          "title": "Customizable Reporting"
+        },
+        {
+          "description": "Visualize property locations and market data on interactive maps.",
+          "icon": "🗺️",
+          "title": "Geospatial & Mapping Tools"
+        },
+        {
+          "description": "Analyze trends, market conditions, and investment performance.",
+          "icon": "📊",
+          "title": "Advanced Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic property valuation tool with Kliv can take as little as a few hours to a couple of days, depending on the complexity of your data sources and valuation logic.",
+          "question": "How quickly can I build a property valuation tool?"
+        },
+        {
+          "answer": "No, you don't need coding skills. Kliv's platform allows you to describe your requirements in natural language, and its AI assists in building the application logic and user interface.",
+          "question": "Do I need to be a programmer to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom tool can integrate with various data sources, including MLS APIs, public records databases, GIS systems, and even your own proprietary spreadsheets or internal databases.",
+          "question": "Can I integrate my existing property data sources?"
+        },
+        {
+          "answer": "As the builder, you retain full ownership and control over your data and the application itself. Kliv is a platform for creation, not a data custodian.",
+          "question": "Who owns the data and the valuation models I create?"
+        },
+        {
+          "answer": "A custom-built solution typically involves a one-time development investment rather than ongoing subscription fees. Over time, this often proves significantly more cost-effective than proprietary SaaS valuation tools, especially for niche markets or high-volume users.",
+          "question": "How does the cost compare to off-the-shelf valuation software?"
+        },
+        {
+          "answer": "Absolutely. Your custom tool is fully adaptable. You can modify valuation algorithms, add new data fields, integrate new APIs, or redesign reports as your business needs evolve or market conditions change.",
+          "question": "Can I easily update or modify the tool after it's built?"
+        },
+        {
+          "answer": "You have complete control over the security measures, including data encryption, access controls, and hosting environment, potentially making your custom tool more secure than relying on third-party vendors for sensitive data.",
+          "question": "How secure are custom-built valuation applications?"
+        },
+        {
+          "answer": "Kliv offers AI-guided assistance throughout the development process, providing suggestions, debugging help, and best practices. For specific questions, you can consult Kliv's documentation resources or community forums.",
+          "question": "What kind of support is available if I run into issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your precise property valuation solution?",
+      "type": "cta",
+      "content": "Stop relying on generic tools. Build a property data and valuation system that perfectly matches your expertise and market strategy with AI-powered development."
+    }
+  ],
+  "title": "Property Details and Valuation Applications"
+}

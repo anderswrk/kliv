@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a device management and monitoring tool that can track inventory, monitor device status, send automated alerts for issues, and manage software deployments across all devices.",
+  "description": "Build custom device management and monitoring applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your device manager",
+    "subtitle": "Gain complete control over your hardware, software, and network assets with custom-built tools tailored to your operations.",
+    "title": "Build your own device management and monitoring tools"
+  },
+  "metaDescription": "Create powerful device management and monitoring tools with Kliv. Track inventory, manage deployments, monitor health, and automate alerts for all your IT assets.",
+  "sections": [
+    {
+      "title": "Why build a custom device management solution?",
+      "type": "text",
+      "content": "In today's complex IT environments, off-the-shelf device management solutions often fall short. They might be too generic, lack specific integrations, or come with licensing costs that scale unmanageably. Building your own device management and monitoring tool allows you to create a system that perfectly aligns with your unique infrastructure, security protocols, and operational workflows.\n\nLeveraging Kliv's AI-powered platform, you can develop a robust, scalable, and highly customized solution that provides granular control and real-time insights, eliminating the compromises often associated with proprietary software."
+    },
+    {
+      "title": "The strategic advantage of tailored device oversight",
+      "type": "markdown",
+      "content": "## The limitations of generic device platforms\n\nMany businesses struggle with device management because they adopt tools not designed for their specific scale or complexity. This often leads to:\n\n- **Feature bloat**: Paying for capabilities you don't need, making the system cumbersome.\n- **Integration headaches**: Difficulty connecting with your existing security systems, inventory databases, or CMDB.\n- **Vendor lock-in**: Being tied to one vendor's roadmap and pricing structure.\n- **Suboptimal performance**: Generic solutions can be slower or less efficient when managing highly specialized or numerous devices.\n- **Security vulnerabilities**: Relying on third-party update schedules rather than your own controlled patches.\n\n## Why a bespoke solution empowers your IT operations\n\nCustom device management tools are no longer exclusive to large enterprises. Kliv empowers you to design a system that precisely fits your operational needs, offering:\n\n### Unparalleled visibility and control\nTrack every device, from laptops and servers to IoT sensors and network equipment. Monitor their health, performance, and security status in real-time. Implement granular policies tailored to specific device types or user groups.\n\n### Optimized resource allocation\nUnderstand device utilization, identify underutilized assets, and plan hardware upgrades or software licence needs precisely, leading to significant cost savings.\n\n### Enhanced security posture\nEnforce security policies uniformly across your device fleet, manage patch deployments, monitor for anomalies, and react swiftly to potential threats, all configured to your internal compliance standards.\n\n### Streamlined maintenance and support\nAutomate routine tasks like software updates, configuration changes, and troubleshooting, reducing manual effort and minimizing downtime.\n\n### Future-proof scalability\nAs your business grows and your device count increases, your custom solution can scale seamlessly. Adapt to new technologies or expand monitoring capabilities without external vendor dependencies.\n\n## Real-world applications of custom device management\n\nCustom device management tools can revolutionize operations across various industries:\n\n**Manufacturing**: Monitor the health and performance of industrial machinery (IoT devices), track scheduled maintenance, and predict failures before they occur.\n\n**Healthcare**: Securely manage medical devices, patient monitoring equipment, and workstations, ensuring compliance with strict privacy regulations (e.g., HIPAA) and rapid response to alerts.\n\n**Retail**: Track POS systems, handheld scanners, and digital signage across multiple locations. Automate software updates and troubleshoot connectivity issues remotely.\n\n**Logistics**: Manage fleets of delivery vehicles, their onboard diagnostics, and mobile inventory scanners. Optimize routes based on real-time device data.\n\n## The acceleration of AI-driven development\n\nDeveloping complex IT tools traditionally required significant in-house expertise or expensive consultants. Kliv fundamentally changes this:\n\n- **Conversational development**: Describe your requirements in simple language, and Kliv's AI assists in building the application.\n- **Rapid iteration**: Quickly prototype and refine monitoring dashboards or management workflows.\n- **Intelligent integration**: AI suggestions for connecting with existing network infrastructure or third-party APIs.\n- **Automated code generation**: Focus on functionality, not syntax, as the AI handles underlying code.\n\n## Your journey to ultimate device control\n\nInstead of fitting your device management needs into a pre-defined box, build a solution that's a perfect fit. With Kliv, you can move from concept to deployment of a sophisticated device management system faster and more efficiently than ever before."
+    },
+    {
+      "title": "Device management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Monitor server health and performance metrics in real-time.",
+          "prompt": "Create a server monitoring tool that displays CPU usage, memory consumption, disk space, and network throughput for a cluster of Linux servers, sending alerts if any metric exceeds a threshold.",
+          "title": "Server health monitor"
+        },
+        {
+          "description": "Manage software installations and updates across endpoints.",
+          "prompt": "Build an endpoint management system that can remotely deploy software packages, uninstall applications, and push security updates to all connected Windows and macOS workstations, with a status dashboard.",
+          "title": "Software deployment manager"
+        },
+        {
+          "description": "Keep track of all IT assets and their lifecycle.",
+          "prompt": "Develop an IT asset inventory system that logs device serial numbers, purchase dates, warranty info, assigned user, current location, and maintenance history for laptops, monitors, and networking gear.",
+          "title": "Asset inventory tracker"
+        },
+        {
+          "description": "Automate network device configuration backups.",
+          "prompt": "Design a network device manager that connects to Cisco routers and switches via SSH, backs up their configuration files nightly, and stores them in a version-controlled repository, alerting on configuration changes.",
+          "title": "Network configuration backup"
+        },
+        {
+          "description": "Monitor and control IoT devices remotely.",
+          "prompt": "Create an IoT device dashboard that shows sensor data (temperature, humidity), battery levels, and connectivity status for dozens of remote environmental sensors, allowing remote reboot and configuration changes.",
+          "title": "Remote IoT monitoring"
+        },
+        {
+          "description": "Manage compliance and security policies for all devices.",
+          "prompt": "Implement a security policy enforcement tool that scans all endpoints for missing security patches, checks for unauthorized software installations, and ensures antivirus definitions are up-to-date, generating compliance reports.",
+          "title": "Endpoint security compliance"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your device management tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to remotely wipe or lock a lost/stolen device and provide an audit trail of such actions.",
+          "title": "Integrate remote wipe/lock for security"
+        },
+        {
+          "prompt": "Implement an API endpoint for other internal systems (e.g., HR, helpdesk) to query device status or initiate actions programmatically.",
+          "title": "Expose management APIs"
+        },
+        {
+          "prompt": "Add predictive analytics to forecast hardware failures based on historical performance data and usage patterns.",
+          "title": "Introduce predictive maintenance"
+        },
+        {
+          "prompt": "Develop a self-service portal for users to request software installations, report device issues, or view their assigned assets.",
+          "title": "Build a user self-service portal"
+        },
+        {
+          "prompt": "Connect to a CMDB (Configuration Management Database) to automatically populate device information and keep it synchronized.",
+          "title": "Integrate with CMDB"
+        },
+        {
+          "prompt": "Add a module for licensed software tracking, alerting when license counts are exceeded or about to expire.",
+          "title": "Include software license management"
+        },
+        {
+          "prompt": "Create a ticketing system integration that automatically generates a helpdesk ticket when a critical device alert is triggered.",
+          "title": "Integrate with a helpdesk system"
+        },
+        {
+          "prompt": "Build a mobile app version for IT administrators to monitor and manage devices on the go.",
+          "title": "Develop a mobile companion app"
+        },
+        {
+          "prompt": "Add reporting capabilities to generate daily/weekly health reports, compliance summaries, and asset utilization charts.",
+          "title": "Generate comprehensive reports"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for device oversight",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automate discovery and inventory of all connected devices on your network.",
+          "icon": "🔍",
+          "title": "Automated discovery"
+        },
+        {
+          "description": "Monitor real-time performance metrics, health, and status of devices.",
+          "icon": "📈",
+          "title": "Live monitoring"
+        },
+        {
+          "description": "Remotely deploy software, configure settings, and apply security patches.",
+          "icon": "⚙️",
+          "title": "Remote configuration"
+        },
+        {
+          "description": "Set up customizable alerts for critical events, thresholds, or anomalies.",
+          "icon": "⚠️",
+          "title": "Event alerts"
+        },
+        {
+          "description": "Manage user access, security policies, and compliance across devices.",
+          "icon": "🔒",
+          "title": "Security & compliance"
+        },
+        {
+          "description": "Track change logs, audit trails, and generate detailed activity reports.",
+          "icon": "📚",
+          "title": "Auditing & reporting"
+        }
+      ]
+    },
+    {
+      "title": "Practicalities of building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The initial build of a functional device management tool can take anywhere from a few hours to a few days, depending on complexity. Subsequent refinements and feature additions can be done iteratively.",
+          "question": "What's the typical timeline for building a device management tool?"
+        },
+        {
+          "answer": "No traditional coding experience is required. Kliv uses AI to interpret your natural language instructions and construct the application logic and user interface. Familiarity with IT concepts will help you define your needs clearly.",
+          "question": "Do I need to be a developer to create these tools?"
+        },
+        {
+          "answer": "Yes, custom-built tools can integrate with a wide range of systems including network devices (via SNMP, SSH), cloud platforms (AWS, Azure), databases, helpdesk software, and other enterprise applications, often through APIs.",
+          "question": "Can my custom tool integrate with existing IT infrastructure?"
+        },
+        {
+          "answer": "You retain full ownership of the application logic and all data. Kliv provides the platform for creation, but the intellectual property of your custom tool resides entirely with you.",
+          "question": "Who owns the intellectual property of the tool I build?"
+        },
+        {
+          "answer": "While there's an initial investment of time and resources into building, custom tools eliminate ongoing subscription fees common with SaaS. Over the medium to long term, custom solutions almost always offer superior cost efficiency and greater ROI.",
+          "question": "How do costs compare to buying off-the-shelf device management software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the ability to continuously evolve your tool. You can add new monitoring capabilities, support new device types, or integrate new IT processes as your needs change.",
+          "question": "Can I modify or expand the tool after it's initially deployed?"
+        },
+        {
+          "answer": "You can host your custom device management tool in a variety of environments, including your own private cloud, on-premises servers, or a managed hosting provider, giving you complete control over security and data sovereignty.",
+          "question": "Where can the custom device management tool be hosted?"
+        },
+        {
+          "answer": "Kliv's platform offers AI-driven assistance throughout the design and building process, helping you optimize and troubleshoot. For ongoing maintenance, since you own the code, you have full control over future updates and enhancements without vendor lock-in.",
+          "question": "What kind of support is available for maintaining my custom tool?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take command of your devices?",
+      "type": "cta",
+      "content": "Stop wrestling with generic solutions. Build a device management and monitoring system that works exactly how you need it to, with the power of AI-driven development."
+    }
+  ],
+  "title": "Device management and monitoring tools"
+}

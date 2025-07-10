@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I need to build a custom camera application that uses computer vision to detect defects on a production line, log metadata, and send alerts.",
+  "description": "Build custom camera-and-imaging applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Building Your Vision App",
+    "subtitle": "Leverage AI and computer vision to create powerful, tailored camera applications for inspection, analysis, and productivity.",
+    "title": "Build Your Own Camera & Imaging Applications"
+  },
+  "metaDescription": "Create powerful custom camera and imaging tools with Kliv. Enhance quality control, automate visual inspections, and derive insights from images and videos.",
+  "sections": [
+    {
+      "title": "Why build your own camera and imaging application?",
+      "type": "text",
+      "content": "Off-the-shelf camera and imaging software often fall short when precise, industry-specific visual analysis is required. Building your own application means you get exactly what you need, without bloated features or workflow compromises. With Kliv, custom computer vision and imaging tools are now within reach for any business, regardless of coding expertise.\n\nGeneric solutions provide general capabilities, but your unique operational needs demand specialized visual intelligence. Custom-built applications offer unparalleled flexibility to integrate with existing hardware, define precise detection rules, and generate actionable insights tailored to your data."
+    },
+    {
+      "title": "The case for custom vision tools",
+      "type": "markdown",
+      "content": "## Limitations of standard imaging software\n\nMany businesses struggle with generic camera and imaging solutions because they:\n\n- **Lack specificity**: Not designed for your unique product, defect types, or analysis criteria.\n- **Are inflexible**: Difficult to adapt to evolving operational needs or changing image formats.\n- **Have high recurring costs**: Subscription models can become expensive, especially for niche use cases.\n- **Offer poor integration**: Rarely connect seamlessly with your existing manufacturing, ERP, or quality systems.\n- **Provide generic insights**: Output data that requires significant manual interpretation before it's useful.\n\n## Why custom-built visual intelligence provides an edge\n\nDeveloping a custom camera and imaging solution with Kliv offers significant advantages:\n\n### Precision for your purpose\nTailor image capture, processing, and analysis precisely to your specific objects, environments, and conditions. Recognize unique patterns, measure highly specific dimensions, or identify subtle anomalies that off-the-shelf solutions miss.\n\n### Seamless workflow integration\nIntegrate your vision application directly into your production lines, quality control stations, or operational workflows. Trigger actions, update databases, or alert personnel based on real-time visual data.\n\n### Cost-efficiency over time\nAfter the initial development, your custom application is an asset you own. Avoid endless subscription fees and gain a perpetually tailored solution that evolves with your business.\n\n### Data ownership and security\nMaintain full control over your visual data and analysis results. Implement your own security protocols and ensure data privacy, especially for sensitive operations.\n\n## Real-world applications\n\nCustom camera and imaging applications are revolutionizing various sectors:\n\n**Manufacturing**: Automated surface defect detection, component assembly verification, and quality assurance for complex parts.\n\n**Agriculture**: Crop health monitoring, automated fruit sorting by ripeness/size, and pest detection on large farms.\n\n**Retail**: Shelf stock monitoring, customer behavior analysis, and automated checkout systems.\n\n**Healthcare**: Microscope image analysis for pathology, automated pill counting, and surgical tool recognition.\n\n**Logistics**: Package damage detection, automated barcode reading, and freight volume calculation.\n\n## The AI advantage in vision\n\nBuilding advanced computer vision applications used to require deep expertise in machine learning and image processing. Kliv's AI-powered platform simplifies this:\n\n- **Intuitive setup**: Describe your visual challenge in plain language.\n- **Rapid prototyping**: See visual recognition models train and deploy quickly.\n- **Intelligent model optimization**: AI suggests optimal model architectures and training parameters.\n- **Automated deployment**: Deploy your vision model to various cameras or edge devices effortlessly.\n\n## Getting started\n\nInstead of making do with generic vision solutions, empower your operations with a custom camera and imaging application. Kliv's platform makes it possible to define, develop, and deploy a bespoke solution that perfectly fits your visual analysis needs. Start building your competitive advantage today."
+    },
+    {
+      "title": "Camera & imaging ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate quality checks on a production line for uniform products.",
+          "prompt": "Create an application that uses a camera to inspect newly manufactured widgets for surface defects like scratches or discoloration and logs any anomalies with timestamps and images.",
+          "title": "Automated Defect Detection for Manufacturing"
+        },
+        {
+          "description": "Track inventory and analyze shelf compliance without manual checks.",
+          "prompt": "Build an app for a retail store that periodically captures images of shelves, uses computer vision to identify missing products and misplacements, and generates a restock report for employees.",
+          "title": "Retail Shelf Stock Audit System"
+        },
+        {
+          "description": "Ensure consistency and quality in food preparation.",
+          "prompt": "Develop a camera system for a bakery that monitors the browning level of bread during baking, alerts staff if it's over/under cooked, and logs quality control data.",
+          "title": "Food Quality Control (Browning)"
+        },
+        {
+          "description": "Streamline sorting and packaging by identifying objects visually.",
+          "prompt": "I need a system that can identify different types of plastic recycling materials on a conveyor belt and trigger pneumatic sorting arms based on material type detected by a camera.",
+          "title": "Automated Material Sorting"
+        },
+        {
+          "description": "Detect fall incidents in elderly care or industrial settings.",
+          "prompt": "Create a discreet camera monitoring application that detects if a person has fallen in a defined area and sends an immediate alert to designated caregivers or supervisors, distinguishing falls from normal sitting.",
+          "title": "Fall Detection System"
+        },
+        {
+          "description": "Visually verify the correct assembly of complex products.",
+          "prompt": "Build an application that, after assembly, uses a camera to confirm that all required components are present and correctly positioned on an electronic circuit board, highlighting any missing or misplaced parts.",
+          "title": "Assembly Verification Tool"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your vision application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user interface for calibrating camera settings and viewing real-time outputs.",
+          "title": "Implement a real-time monitoring dashboard"
+        },
+        {
+          "prompt": "Integrate the application with an existing inventory management system to update stock levels based on visual counts.",
+          "title": "Connect to external data systems"
+        },
+        {
+          "prompt": "Allow the system to automatically adjust lighting or focus based on detected image quality issues.",
+          "title": "Add adaptive image capture"
+        },
+        {
+          "prompt": "Enable the export of analysis reports containing aggregated data, images of anomalies, and performance metrics in various formats.",
+          "title": "Develop comprehensive reporting features"
+        },
+        {
+          "prompt": "Add an authentication system so different users have varying levels of access to the application's controls and data.",
+          "title": "Include user management and roles"
+        },
+        {
+          "prompt": "Build functionality to allow real-time feedback via a touchscreen to correct detections, improving the AI model continuously.",
+          "title": "Incorporate human-in-the-loop ML feedback"
+        },
+        {
+          "prompt": "Add a module for automatically identifying and archiving detected defects with high-resolution images for future auditing or training.",
+          "title": "Implement defect archiving and retrieval"
+        },
+        {
+          "prompt": "Integrate with a notification service (e.g., SMS, email, Slack) to send immediate alerts upon critical detection events.",
+          "title": "Add advanced alert notifications"
+        }
+      ]
+    },
+    {
+      "title": "Essential camera & imaging features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Capture images and video from various camera types and streaming sources.",
+          "icon": "📸",
+          "title": "Flexible Image Capture"
+        },
+        {
+          "description": "Utilize AI and computer vision for object detection, classification, and analysis.",
+          "icon": "🧠",
+          "title": "AI-Powered Visual Analysis"
+        },
+        {
+          "description": "Integrate with existing databases, control systems, and enterprise software.",
+          "icon": "🔗",
+          "title": "Data & System Integration"
+        },
+        {
+          "description": "Program real-time actions and alerts based on visual detection outcomes.",
+          "icon": "⚡",
+          "title": "Automated Triggers & Actions"
+        },
+        {
+          "description": "Store and manage captured images, video clips, and associated metadata.",
+          "icon": "🗄️",
+          "title": "Image & Data Management"
+        },
+        {
+          "description": "Visualize analysis results and system performance with customizable dashboards.",
+          "icon": "📈",
+          "title": "Insightful Dashboards"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The time varies depending on complexity. A basic image classification tool could be ready in hours. More sophisticated applications with complex computer vision models and integrations might take a few days of iterative building.",
+          "question": "How quickly can I build a custom camera application?"
+        },
+        {
+          "answer": "No prior experience in coding or computer vision is required. Kliv's platform allows you to describe your needs using natural language, and the AI assists in generating and refining the application components.",
+          "question": "Do I need to be a programmer or a vision expert to build this?"
+        },
+        {
+          "answer": "Yes, custom-built applications can connect to most standard industrial cameras, webcams, IP cameras, and even drone feeds. Integration with existing enterprise systems like ERP, MES, or quality management software is also standard.",
+          "question": "Can I integrate my existing cameras and factory systems?"
+        },
+        {
+          "answer": "Entirely. You define where your data is stored (on-premise, your cloud, etc.), and you own all the intellectual property for the application you build. Kliv provides the tools, but you retain full control and ownership.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Building custom with Kliv is typically a one-time investment, compared to ongoing subscription fees for off-the-shelf software. Over time, custom solutions almost always prove more cost-effective as they perfectly match your needs instead of forcing compromises.",
+          "question": "What's the cost comparison between custom and off-the-shelf solutions?"
+        },
+        {
+          "answer": "Absolutely. Custom applications are inherently flexible. You can modify features, add new visual inspection criteria, integrate new hardware, or scale processing power as your operational needs evolve, all without vendor lock-in.",
+          "question": "Can I modify the application after it's built and deployed?"
+        },
+        {
+          "answer": "Yes, often more secure. You control deployment environments, network access, and data handling. This avoids reliance on third-party security practices and allows for adherence to specific industry compliance standards.",
+          "question": "Is a custom camera application more secure than a commercial one?"
+        },
+        {
+          "answer": "Kliv provides AI-guided assistance throughout the development process. You'll get suggestions, debugging help, and best practices. For specific training data or model optimization, the platform offers tools to guide you.",
+          "question": "What kind of support is available for complex vision tasks?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your custom vision-powered application?",
+      "type": "cta",
+      "content": "Stop adapting your operations to generic software. Create precisely the camera and imaging tool your business needs with AI-powered development."
+    }
+  ],
+  "title": "Camera & Imaging Applications"
+}

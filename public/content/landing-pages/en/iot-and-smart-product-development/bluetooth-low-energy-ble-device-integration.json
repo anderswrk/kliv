@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a mobile application that can scan for Bluetooth Low Energy devices, connect to them, read characteristic values, and send commands, with data logging capabilities.",
+  "description": "Develop custom applications for Bluetooth Low Energy (BLE) device integration.",
+  "hero": {
+    "cta": "Start connecting devices",
+    "subtitle": "Bridge the gap between your mobile applications and BLE-enabled IoT devices with custom-built solutions.",
+    "title": "Build your own BLE device integration apps"
+  },
+  "metaDescription": "Create powerful Bluetooth Low Energy (BLE) device integration applications with Kliv. Connect, control, and manage IoT devices effortlessly.",
+  "sections": [
+    {
+      "title": "Why build a custom BLE integration solution?",
+      "type": "text",
+      "content": "Connecting to and managing Bluetooth Low Energy (BLE) devices often requires specialized applications. Off-the-shelf solutions are rarely sufficient, either lacking specific features, imposing restrictive data models, or bottlenecking scalability. Building your own BLE integration app with Kliv allows you to precisely define how your application interacts with devices, giving you full control over data flow, user experience, and scalability, all without deep programming knowledge."
+    },
+    {
+      "title": "The power of custom BLE connectivity",
+      "type": "markdown",
+      "content": "## The limitations of generic BLE apps\n\nWhile some generic BLE scanner apps exist, they fall short for professional or product-specific needs. They often:\n\n- **Lack specific device profiles**: Cannot properly interpret or control unique custom BLE services and characteristics.\n- **Offer limited data handling**: Provide basic read/write but no advanced data parsing, logging, or visualization.\n- **Have poor user experience**: Not tailored to your specific use case or brand.\n- **Pose security risks**: Generic apps might not implement the necessary authentication or encryption for sensitive data.\n\n## Why a tailored approach is essential\n\nCustom BLE integration applications address these issues by providing:\n\n### Precise device interaction\nYou define the exact service UUIDs, characteristic UUIDs, and descriptor UUIDs your app needs to interact with. This allows for seamless reading, writing, and notification setup tailored to your specific hardware.\n\n### Custom data processing\nBeyond just reading raw bytes, your app can parse data according to your device's protocol, perform calculations, apply business logic, and store it in a structured format.\n\n### Enhanced user experience\nDesign the interface to be intuitive for your users, displaying device status, sensor readings, and controls in a way that makes sense for your product or service.\n\n### Robust data logging and analysis\nImplement custom logging strategies, send data to your specific cloud endpoints, and integrate with analytics tools for insights into device performance and usage.\n\n### Flexible control mechanisms\nSend complex commands, update firmware (OTA), or manage device configurations directly from your custom application, all built to your specifications.\n\n## Real-world applications\n\nCustom BLE integration apps are vital across various industries:\n\n**Healthcare**: Apps for monitoring patient vital signs from wearable BLE sensors, sending alerts to caregivers, and logging data securely.\n\n**Industrial IoT**: Solutions for configuring and monitoring industrial sensors, tracking asset locations, and predictive maintenance triggered by BLE beacon data.\n\n**Smart Home/Building**: Custom apps to control smart lighting, thermostats, access control systems, and environmental sensors via BLE.\n\n**Consumer Electronics**: Companion apps for smartwatches, fitness trackers, smart toys, or specialized gadgets for setup, data display, and firmware updates.\n\n**Logistics & Supply Chain**: Applications for tracking goods with BLE tags, monitoring temperature/humidity during transit, and managing inventory in warehouses.\n\n## The Kliv advantage for BLE development\n\nDeveloping custom BLE applications traditionally requires expertise in mobile development (iOS/Android), platform-specific BLE APIs, and often, familiarity with embedded systems. Kliv simplifies this:\n\n- **Abstracted complexity**: Focus on *what* you want the app to do, not the intricate BLE API calls.\n- **Rapid prototyping**: Quickly build and test connectivity with your devices.\n- **Cross-platform potential**: Design once, deploy across multiple mobile platforms where applicable.\n- **Direct API access**: Integrate your app with cloud services, databases, or other backend systems to leverage your BLE data.\n\nStart building your tailored BLE integration app today and unlock the full potential of your connected devices."
+    },
+    {
+      "title": "BLE integration ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Connect to a smart scale, read weight, and log it to a user profile.",
+          "prompt": "Create a mobile app that scans for a specific BLE smart scale, connects to it, reads the weight characteristic, and displays it, then saves it to a cloud database with a timestamp.",
+          "title": "Fitness device data logger"
+        },
+        {
+          "description": "Control smart lights (on/off, brightness, color) via BLE.",
+          "prompt": "Build an app that discovers BLE smart light bulbs, allows users to connect, and provides controls for turning them on/off, dimming, and changing RGB color values through characteristic writes.",
+          "title": "Smart home light controller"
+        },
+        {
+          "description": "Monitor temperature/humidity from a BLE sensor in a facility.",
+          "prompt": "Develop an application for an industrial environment to scan for BLE temperature and humidity sensors, read their values every 5 seconds, and display them on a dashboard, raising an alert if thresholds are exceeded.",
+          "title": "Environmental sensor monitoring"
+        },
+        {
+          "description": "Track the location of assets using BLE beacons.",
+          "prompt": "Create a utility to scan for nearby BLE beacons, display their advertising data including RSSI, and estimate proximity to a list of known assets, updating their locations on a map.",
+          "title": "Asset tracking with beacons"
+        },
+        {
+          "description": "Update firmware on a custom BLE device remotely.",
+          "prompt": "Design an app that can connect to a custom BLE device, check its current firmware version, and initiate an Over-The-Air (OTA) firmware update process by sending new firmware segments.",
+          "title": "BLE firmware updater"
+        },
+        {
+          "description": "Measure and log heart rate from a wearable BLE strap.",
+          "prompt": "Build a health monitoring app that connects to a BLE heart rate monitor, subscribes to heart rate notifications, displays the real-time BPM, and logs data for historical analysis.",
+          "title": "Wearable health monitor"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your BLE app",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for custom service and characteristic UUID configuration, allowing users to input specific values.",
+          "title": "Custom UUID input"
+        },
+        {
+          "prompt": "Integrate a secure user authentication system to manage access to device controls and data.",
+          "title": "User authentication"
+        },
+        {
+          "prompt": "Implement charting capabilities to visualize historical sensor data over time.",
+          "title": "Data visualization"
+        },
+        {
+          "prompt": "Add cloud synchronization for logged data, enabling multi-device access and backup.",
+          "title": "Cloud data sync"
+        },
+        {
+          "prompt": "Include an 'auto-reconnect' feature for devices that frequently disconnect or go out of range.",
+          "title": "Automatic reconnection"
+        },
+        {
+          "prompt": "Develop an alert system for critical readings or device status changes, sending push notifications or emails.",
+          "title": "Custom alerts and notifications"
+        },
+        {
+          "prompt": "Add a device management console for listing, naming, and grouping multiple connected BLE devices.",
+          "title": "Multi-device management"
+        },
+        {
+          "prompt": "Implement a 'debug log' view to show raw BLE communication for troubleshooting purposes.",
+          "title": "Raw BLE logging"
+        },
+        {
+          "prompt": "Create an export function for logged data, allowing users to save data as CSV or JSON files.",
+          "title": "Data export functionality"
+        }
+      ]
+    },
+    {
+      "title": "Key BLE integration capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Efficiently scan for nearby BLE devices and filter by advertising data.",
+          "icon": "🔍",
+          "title": "Device scanning & discovery"
+        },
+        {
+          "description": "Establish reliable connections and manage multiple device pairings.",
+          "icon": "🤝",
+          "title": "Secure connections"
+        },
+        {
+          "description": "Read and write data to specific BLE characteristics easily.",
+          "icon": "↔️",
+          "title": "Characteristic read/write"
+        },
+        {
+          "description": "Subscribe to characteristic notifications for real-time data updates.",
+          "icon": "🔔",
+          "title": "Notification handling"
+        },
+        {
+          "description": "Implement custom data parsing and formatting for device-specific protocols.",
+          "icon": "⚙️",
+          "title": "Custom data processing"
+        },
+        {
+          "description": "Log device data locally or synchronize with cloud services.",
+          "icon": "☁️",
+          "title": "Data logging & storage"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv handles the underlying mobile (iOS/Android) BLE API complexity. You describe the BLE characteristics and services you want to interact with, and Kliv helps generate the code to perform those actions, abstracting away the low-level details.",
+          "question": "How does Kliv simplify BLE development?"
+        },
+        {
+          "answer": "Yes, your application can be designed to connect to any BLE device, whether it's off-the-shelf or custom-made, as long as you know its service and characteristic UUIDs and communication protocols.",
+          "question": "Can I connect to any BLE device, or only specific ones?"
+        },
+        {
+          "answer": "The time varies based on complexity. A basic scanner and data reader could be ready in hours. A more sophisticated app with custom UIs, cloud integration, and advanced logic might take a few days to a week.",
+          "question": "How long does it take to build a BLE integration app?"
+        },
+        {
+          "answer": "Yes, Kliv enables you to build apps that can be deployed across multiple platforms (e.g., iOS and Android) from a single codebase, accelerating your development and reducing maintenance overhead.",
+          "question": "Are the apps cross-platform compatible?"
+        },
+        {
+          "answer": "You own 100% of the code and the intellectual property. Kliv is a development platform that helps you build, not a vendor that locks you into their ecosystem.",
+          "question": "Who owns the intellectual property and code of the built app?"
+        },
+        {
+          "answer": "Absolutely. Since you own the code, you have full control. You can add new features, change UI elements, or modify the BLE interaction logic at any time as your devices or requirements evolve.",
+          "question": "Can I easily modify my BLE app after it's built?"
+        },
+        {
+          "answer": "If you have an existing backend or cloud service, Kliv can help you generate API integration code to send or receive data from your BLE application to those systems.",
+          "question": "Can the app integrate with my existing cloud services or databases?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bring your BLE devices to life?",
+      "type": "cta",
+      "content": "Stop wrestling with complex BLE APIs. Rapidly build custom mobile applications to connect, control, and collect data from your Bluetooth Low Energy products."
+    }
+  ],
+  "title": "BLE Device Integration"
+}

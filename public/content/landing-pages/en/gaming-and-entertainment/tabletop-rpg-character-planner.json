@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "Create a sophisticated character planner for Dungeons & Dragons 5th Edition that allows users to manage multiple characters, track stats, spells, inventory, and automatically calculate abilities based on level and selected options.",
+  "description": "Design and build custom character planners for any tabletop RPG with Kliv's AI-assisted platform.",
+  "hero": {
+    "cta": "Start Planning",
+    "subtitle": "No more messy spreadsheets or forgotten rules. Build your perfect digital companion for any TTRPG system.",
+    "title": "Build Your Own Tabletop RPG Character Planner"
+  },
+  "metaDescription": "Create powerful, customizable tabletop RPG character planners with Kliv. Track stats, spells, inventory, and more for any game system.",
+  "sections": [
+    {
+      "title": "Why a custom character planner?",
+      "type": "text",
+      "content": "For tabletop RPG enthusiasts, character creation and progression are core to the experience. Yet, generic apps often fall short, struggling to adapt to homebrew rules, specific system nuances, or the unique needs of a long-running campaign. Building your own character planner means tailoring it precisely to the games you play, the rulesets you love, and the way you organize your characters.\n\nImagine a tool that perfectly understands your custom magic item, tracks every obscure Feat from a third-party sourcebook, or calculates your character's combat modifiers instantly for a niche system no one else supports. That's the power of custom-built—you define the rules, you define the functionality, and you own the experience."
+    },
+    {
+      "title": "The Quest for the Perfect Character Sheet",
+      "type": "markdown",
+      "content": "## The Limitations of Off-the-Shelf Tools\n\nMany players resort to paper sheets, PDFs, or generic spreadsheets because existing digital tools often come with significant drawbacks:\n\n- **System Lock-in**: Most apps are tied to one popular system (e.g., D&D 5e), leaving players of other RPGs (Pathfinder, Call of Cthulhu, FATE, custom systems) out in the cold.\n- **Lack of Customization**: Limited support for homebrew content, house rules, or unique campaign elements. You're stuck with what the app provides.\n- **Subscription Costs**: Many robust planners are hidden behind paywalls, adding ongoing expenses for features that might not even fully meet your needs.\n- **Data Portability Issues**: Your character data is often trapped within a proprietary app, making it difficult to export or migrate.\n- **Overly Complex Interfaces**: Some tools are feature-rich but clunky, making quick stat lookups or in-game adjustments cumbersome.\n\n## Why Forging Your Own Path is the Ultimate Campaign Strategy\n\nBuilding a custom character planner addresses these pain points directly, giving you unparalleled control and flexibility:\n\n### Adapt to Any RPG System\nWhether it's a mainstream game or a niche indie title, your custom planner can be designed from the ground up to handle its specific stats, skills, magic, and inventory. No more waiting for developers to add support for your favorite game.\n\n### Embrace Homebrew & House Rules\nIntegrate all your custom items, spells, subclasses, races, or house rules directly into your planner. Calculations, inventory, and character sheets will automatically reflect your unique game world.\n\n### One-Time Investment for Infinite Play\nInstead of recurring subscriptions, a custom-built planner is an asset you own. Develop it once, and use it for countless campaigns and characters across various game systems.\n\n### Your Data, Your Control\nKeep your character data exactly where you want it. Build in import/export features, or integrate with cloud storage for easy backup and sharing.\n\n### Tailored User Experience\nDesign an interface that works best for *you* and your group. Prioritize the information you need most during play, create custom tabs for lore or campaign notes, and streamline the character management process.\n\n## Real Adventures, Real Benefits\n\nCustom character planners aren't just for power-gamers; they enhance the experience for everyone:\n\n**For the Player**: Quickly access stats, spell slot tracking, inventory management, and lore notes. No more flipping through pages or searching for rules definitions.\n\n**For the Game Master**: Streamline NPC creation, track monster stats on the fly, or even manage campaign-specific items and lore linked to player characters.\n\n**For System Designers**: Prototype new game mechanics or rule sets by building a planner that helps you test and balance systems quickly.\n\n## The Age of AI-Assisted Crafting\n\nGone are the days when building custom software meant months of coding. Kliv's AI platform empowers you to:\n\n- **Describe & Generate**: Simply tell the AI what features your planner needs (e.g., \"track spell slots for each level,\" \"calculate attack bonuses based on stat and proficiency\"), and it begins building.\n- **Iterate Rapidly**: See your planner evolve in real-time. Make adjustments, add new fields, or refine calculations instantly.\n- **Intelligent Data Structuring**: The AI helps design the underlying database to efficiently store character data, ensuring scalability and flexibility.\n\nDon't settle for off-the-rack. Craft the ultimate character planner that truly enhances your tabletop adventures."
+    },
+    {
+      "title": "Character planner ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A comprehensive D&D 5e character manager with automated calculations.",
+          "prompt": "Build a Dungeons & Dragons 5th Edition character planner that tracks all character sheet values, manages spells and spell slots, inventory with weight calculations, and allows saving multiple character profiles.",
+          "title": "D&D 5e Character Manager"
+        },
+        {
+          "description": "Streamlined character creation and tracking for Pathfinder 2e.",
+          "prompt": "Develop a Pathfinder 2nd Edition character builder that guides users through ancestry, background, class choice, automatically applies feats and skill proficiencies, and manages combat stats.",
+          "title": "Pathfinder 2e Builder"
+        },
+        {
+          "description": "A simple, flexible planner for narrative-focused RPGs.",
+          "prompt": "Create a minimalist character sheet app for generic narrative RPGs like FATE or Powered by the Apocalypse, focusing on freeform tags, aspects, and custom attribute fields without complex calculations.",
+          "title": "Generic Narrative RPG Planner"
+        },
+        {
+          "description": "Track sanity, skills, and gear for investigative horror.",
+          "prompt": "Design a Call of Cthulhu 7th Edition character tracker that monitors Sanity and Luck points, tracks skill progression, manages investigator gear and personal details, and includes a quick reference for common rules.",
+          "title": "Call of Cthulhu Investigator Tool"
+        },
+        {
+          "description": "A system to integrate and track custom homebrew content.",
+          "prompt": "Build a character planner for a custom homebrew RPG system. It needs fields for unique attributes, specific skill trees, and a module to input and link custom spells, items, or abilities specific to this world.",
+          "title": "Homebrew System Companion"
+        },
+        {
+          "description": "A utility for GMs to quickly generate and manage NPCs.",
+          "prompt": "Develop an NPC generator and manager for a chosen RPG system (e.g., D&D). It should allow for quick randomized stat block generation, personality traits, and basic inventory, with the ability to save and organize NPCs for campaigns.",
+          "title": "GM NPC Management Tool"
+        }
+      ]
+    },
+    {
+      "title": "Ways to Enhance Your Character Planner",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a dice roller feature directly integrated into the character sheet for skill checks and attacks.",
+          "title": "Integrate a Dice Roller"
+        },
+        {
+          "prompt": "Implement a searchable database for spells, feats, and items, linked directly to the character sheet.",
+          "title": "Add Rules Database Lookup"
+        },
+        {
+          "prompt": "Allow users to share character sheets with others via a unique link or export to PDF.",
+          "title": "Enable Character Sharing"
+        },
+        {
+          "prompt": "Include modules for tracking campaign-specific elements like quest logs, faction reputation, or custom lore.",
+          "title": "Add Campaign Tracking"
+        },
+        {
+          "prompt": "Develop a mobile-responsive interface for easy use on smartphones and tablets during play.",
+          "title": "Optimize for Mobile Play"
+        },
+        {
+          "prompt": "Add a 'level up' assistant that guides users through the process and automatically applies new abilities and calculations.",
+          "title": "Build a Level-Up Assistant"
+        },
+        {
+          "prompt": "Integrate image uploads for character portraits and item icons.",
+          "title": "Allow Image Uploads"
+        },
+        {
+          "prompt": "Implement a real-time multiplayer editing feature so multiple players can cooperatively build a party.",
+          "title": "Enable Collaborative Editing"
+        },
+        {
+          "prompt": "Add an 'encounter mode' that tracks initiative, hit points, and status effects during combat.",
+          "title": "Develop Encounter Mode"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Planner",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define and manage any character statistic, from strength to sanity.",
+          "icon": "🔢",
+          "title": "Customizable Stat Fields"
+        },
+        {
+          "description": "Input and track spells, abilities, and unique class features with ease.",
+          "icon": "✨",
+          "title": "Ability & Spell Management"
+        },
+        {
+          "description": "Keep track of all gear, currency, and items with automated weight or capacity limits.",
+          "icon": "🎒",
+          "title": "Dynamic Inventory System"
+        },
+        {
+          "description": "Automate complex calculations like attack bonuses, skill checks, and saving throws.",
+          "icon": "🧮",
+          "title": "Automated Calculations"
+        },
+        {
+          "description": "Quickly create and switch between multiple character profiles for different campaigns or systems.",
+          "icon": "👤",
+          "title": "Multi-Character Support"
+        },
+        {
+          "description": "Easily import or export character data in various formats (e.g., JSON, PDF).",
+          "icon": "📤",
+          "title": "Data Import/Export"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv optimizes the development process into hours or days, depending on the complexity of your desired features. A basic character planner can be functional very quickly.",
+          "question": "How quickly can I build a working character planner?"
+        },
+        {
+          "answer": "No coding is required. Kliv’s AI understands your descriptions and generates the application code for you. You focus on the features and functionality you want.",
+          "question": "Do I need programming skills to build this?"
+        },
+        {
+          "answer": "Yes, you have complete ownership. The code, data, and design are yours. This means you can host it anywhere and customize it infinitely without vendor lock-in.",
+          "question": "Will I own the character planner I build?"
+        },
+        {
+          "answer": "Absolutely. Custom planners built with Kliv can be designed to accept and process any game system's rules and custom content, no matter how niche or homebrewed.",
+          "question": "Can I use it for obscure or homebrew RPG systems?"
+        },
+        {
+          "answer": "The cost is typically a one-time development investment rather than ongoing subscriptions. This often results in significant long-term savings compared to feature-rich SaaS solutions, especially when considering the exact fit for your needs.",
+          "question": "How does the cost compare to subscription-based apps?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. You can always add new features, adjust calculations, or even integrate with other tools as your gaming needs evolve.",
+          "question": "Can I add features or change the layout later?"
+        },
+        {
+          "answer": "Since you control the hosting and data storage, you can implement robust security measures tailored to your needs, often providing more control than generic third-party apps.",
+          "question": "Is my character data secure?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance throughout the building process, offering suggestions, helping with debugging, and optimizing your design. You're guided every step of the way.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to craft your ultimate character planner?",
+      "type": "cta",
+      "content": "Stop wrestling with generic tools that don't fit your game. Build your bespoke digital companion and elevate your tabletop experience today."
+    }
+  ],
+  "title": "Tabletop RPG Character Planner"
+}

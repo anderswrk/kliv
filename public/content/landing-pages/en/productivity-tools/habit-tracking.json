@@ -1,0 +1,159 @@
+{
+  "defaultPrompt": "I want to create a habit tracking app that helps users build consistent routines, visualize progress, and receive smart reminders.",
+  "description": "Build custom habit tracking applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building healthy habits",
+    "subtitle": "Develop personalized habit tracking applications designed for your specific goals, built on Kliv's intuitive platform.",
+    "title": "Create your own habit tracking app"
+  },
+  "metaDescription": "Create powerful habit tracking apps with Kliv. Cultivate consistency, visualize progress, and achieve your personal or team goals with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own habit tracking tool?",
+      "type": "text",
+      "content": "Off-the-shelf habit trackers often come with limitations: rigid categories, generic reminders, and a 'one-size-fits-all' approach. You end up adapting to their system rather than having a system that adapts to you. With Kliv, you can create a highly personalized habit tracker that truly aligns with your unique lifestyle, goals, or even your team's specific needs.\n\nImagine a tool that tracks exactly what you need, integrates with your existing workflows, and motivates you in a way generic apps simply can't. Whether it's for personal growth, team productivity, or a niche community, a custom app gives you the flexibility and control to design a tracking experience that works."
+    },
+    {
+      "title": "The power of personalized habit tracking",
+      "type": "markdown",
+      "content": "## Generic solutions fall short\n\nThe market is flooded with habit tracking apps, but most suffer from common drawbacks:\n\n- **Inflexible categories**: Pre-defined habit types that don't always fit your specific goals.\n- **Limited customization**: You can't truly tailor the interface, metrics, or reminder logic.\n- **Subscription fatigue**: Monthly fees add up for features you might not even use.\n- **Privacy concerns**: Unsure how your personal data, habit patterns, and progress are being handled.\n\n## Custom-built: Your path to consistency\n\nBuilding your own habit tracking app with Kliv offers unparalleled advantages:\n\n### Hyper-personalization\nDesign tracking mechanisms, visual progress indicators, and reminder systems that resonate directly with your motivation. Track daily meditation, weekly budget reviews, monthly skill checks, or even team rituals with precision.\n\n### Data ownership and privacy\nYour habits are personal. With a custom app, you control where your data lives and who can access it. No third-party data mining or privacy policy changes to worry about.\n\n### Tailored motivation and insights\nIntegrate custom analytics to identify patterns, generate personalized insights, and even include unique motivational quotes or rewards. The app can evolve with your needs.\n\n### One-time development, endless utility\nUnlike recurring subscriptions, building with Kliv is an investment in a durable tool. You own it, you manage it, and it costs you nothing more over time unless you choose to add significant new features.\n\n### Seamless integration\nConnect your habit tracker to other tools you use daily—your calendar, task manager, fitness apps, or even team communication platforms—to create a unified personal or team operating system.\n\n## Real-world custom habit tracking examples\n\nCustom habit trackers aren't just for individuals; they can be powerful for groups and specific use cases:\n\n**Wellness Coaches**: Create a bespoke app for clients to track fitness, nutrition, and mindfulness habits, with direct coach access to progress monitoring.\n\n**Study Groups**: Design a collaborative app where students track study hours, participate in reading challenges, and share progress towards academic goals.\n\n**Corporate Wellness Programs**: Develop an internal tool for employees to track healthy habits, participate in company-wide challenges, and earn rewards, all within a private, secure environment.\n\n**Creative Professionals**: Build an app to track creative output, practice hours, or consistent project work (e.g., daily writing word counts, design iterations).\n\n## The Kliv advantage for builders\n\nKliv simplifies the development process, making custom app creation accessible:\n\n- **Prompt-based development**: Describe your desired features in plain language, and the AI helps generate the functional code.\n- **Visual builder**: Drag-and-drop components to design your app's interface and flow.\n- **Pre-built templates**: Start from a template and customize it to accelerate your process.\n- **Scalable architecture**: Your app can grow with you, from a simple personal tracker to a complex community platform.\n\nStop adapting to generic tools. Start building the habit tracker that understands you, supports your unique journey, and truly empowers consistency."
+    },
+    {
+      "title": "Habit tracking ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Daily personal habits tracker with streaks and reminders for morning routine, workout, and reading habits, with a simple dashboard showing progress over time. Include weekly and monthly reporting of habit completion rates and streak data. Allow users to add custom habits, set target frequencies (e.g., 3 times a week), and receive smart reminders. Visualize progress with calendar heatmaps and streak counters. Support data export to CSV. Ensure the app has user authentication and stores data securely for each user. Implement a simple onboarding flow to guide new users on how to define their first habit.\n\nProvide options for different habit types: binary (yes/no), numerical (e.g., 8 glasses of water), and time-based (e.g., 30 minutes of meditation). Make setup user-friendly and intuitive for non-technical users. Design an encouraging UI with motivational quotes and visual cues for successful habit completion.\n\nConsider adding a journaling feature connected to each habit entry for users to record reflections. Add the ability to pause habits temporarily without breaking streaks. Allow users to set specific colors or icons for each habit for better visual differentiation on the dashboard. Integrate with basic calendar APIs (like Google Calendar) to sync habit reminders. Ensure the application is responsive and works well on both desktop and mobile web browsers. Include a simple settings page where users can manage notifications and customize the app's theme (light/dark mode). Implement a challenge feature where users can create multi-habit challenges for themselves for a set duration (e.g., \"30-Day Health Challenge\"). Enable users to set custom notification sounds for reminders. Make sure the app clearly distinguishes between daily, weekly, and custom-frequency habits in its display and tracking logic. Provide a 'skip' option for habits on certain days with a short note explaining why. Build a feature that suggests new habits based on user goals (e.g., if a user tracks reading, suggest 'journaling'). Implement robust data integrity checks to prevent data corruption. Include social sharing options for users to share their habit streaks (optional). Make the 'add habit' flow clearly guided with prompts for frequency, reminders, and habit naming. Provide clear user help documentation within the app. Optimize for fast loading times and smooth user interaction. Ensure all user data is encrypted at rest and in transit. Plan for future extensibility for adding collaboration features. Support export/import of habit data for backup purposes. Allow users to set a \"bad habit\" to track and reduce, not just positive ones. Implement a \"rewards\" system based on achieving specific milestones or streaks. Offer different reminder types: fixed time, time window, or intelligent reminders based on user activity patterns. Include a robust search/filter function for habits. Provide an undo option for accidental habit marking. Give users control over notification frequency (e.g., daily, every other day). Add a 'notes' field for each habit entry for additional context. Support setting accountability partners (opt-in feature) that receive progress updates. Build a 'habit library' with popular habit ideas. Allow for categorization of habits (e.g., Health, Work, Personal). Implement a quick-add widget option for mobile. Make sure all dates/times are handled correctly across timezones. Include a progress line graph for each habit showing completion trends over time. Design a clean, minimalist interface to reduce cognitive load."
+        },
+        {
+          "title": "Team accountability and tracking platform for workplace rituals, with features like shared habit lists, progress visibility among team members (opt-in), and joint streak challenges. Enable team leaders to preset recommended habits and track aggregate team participation rates. Provide a dashboard for team leaders to oversee general engagement without revealing individual specifics (unless opted-in). Allow for private habit tracking within the same app. Implement role-based access control for team leaders vs. regular members. Include a team chat feature for motivation and sharing tips related to habits. Support integration with popular business communication tools like Slack or Microsoft Teams for notifications. Make sure data is segregated for different teams if multiple teams use the platform. Enable creation of team-wide challenges with leaderboards. Allow for anonymous participation in certain team tracking activities. Provide an admin panel for managing users and teams. Ensure security and data privacy. Implement automated weekly or monthly team progress reports. Allow team members to send each other motivational messages. Support custom branding for different teams or departments. Include a 'lessons learned' section for teams to reflect on successful habits. Add a feature to suggest team-building habits. Integrate with HR systems for user provisioning. Provide robust analytics on team habit adoption and impact. Ensure the platform scales for large teams. Implement gamification elements like badges or points for team achievements. Offer a resource library with articles on team productivity and habit formation. Support multi-language for global teams. Design an intuitive user experience for both individual and team habit management. Enable teams to set collective goals based on habits. Provide robust audit trails for administrative actions."
+        },
+        {
+          "title": "Niche community habit app for a wellness challenge, focusing on specific health habits like meditation, hydration, and steps. Include community forums, progress sharing with chosen friends, and moderated challenge creation. Allow community administrators to set up new challenges and monitor overall participant engagement. Include badge systems or virtual rewards for completing challenge milestones. Support direct messaging between participants. Implement leaderboards for challenges. Provide content resources (articles, videos) related to the wellness habits. Allow users to join multiple challenges. Ensure the app adheres to health data privacy regulations (e.g., HIPAA compliance considerations). Implement a tiered access system (e.g., free tier with basic tracking, premium tier with advanced features). Allow community moderators to remove inappropriate content from forums. Provide robust search and filtering for community challenges. Schedule automated push notifications for challenge updates and reminders. Include comprehensive analytics for community administrators on user engagement and challenge success rates. Implement user feedback mechanisms. Ensure scalability for a growing community. Support different monetization models (e.g., premium subscriptions, challenge passes). Enable integration with fitness wearables for automatic data sync. Offer personalized recommendations based on past challenge participation. Support multi-device access."
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your habit tracker",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a social sharing feature allowing users to share their progress or streaks on social media platforms.",
+          "title": "Implement social sharing options"
+        },
+        {
+          "prompt": "Integrate with popular wellness apps or smart wearables (e.g., Apple Health, Google Fit, Fitbit) to automatically log certain habits like steps or sleep.",
+          "title": "Connect with external health data"
+        },
+        {
+          "prompt": "Introduce a 'gamification' element with points, badges, or a leveling system to reward consistency and motivate users.",
+          "title": "Add gamification"
+        },
+        {
+          "prompt": "Build an AI coach feature that provides personalized insights, prompts for reflection, and adaptive nudges based on user progress and patterns.",
+          "title": "Integrate an AI coaching assistant"
+        },
+        {
+          "prompt": "Allow users to set up accountability partners who can view their progress and offer encouragement.",
+          "title": "Include accountability partners"
+        },
+        {
+          "prompt": "Develop unique visual themes and customization options for the app's interface (e.g., dark mode, different color palettes) to improve user experience.",
+          "title": "Enhance UI customization"
+        },
+        {
+          "prompt": "Add a journaling section so users can add notes and reflections directly within the habit entry, helping them understand challenges and successes.",
+          "title": "Add an integrated journal"
+        },
+        {
+          "prompt": "Implement a 'challenge' feature where users can create or join group challenges for a set period, promoting friendly competition and shared motivation.",
+          "title": "Introduce group challenges"
+        },
+        {
+          "prompt": "Expand reminder functionalities to include location-based reminders or adaptive reminders that learn user's daily patterns.",
+          "title": "Develop smart reminders"
+        }
+      ]
+    },
+    {
+      "title": "Key habit tracking features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define custom habits, set frequencies, and track progress daily, weekly, or monthly.",
+          "icon": "📝",
+          "title": "Flexible Habit Definitions"
+        },
+        {
+          "description": "Visual dashboards with heatmaps, streak counters, and completion rates to show progress at a glance.",
+          "icon": "📈",
+          "title": "Progress Visualization"
+        },
+        {
+          "description": "Personalized reminders and notifications to keep users on track without being intrusive.",
+          "icon": "⏰",
+          "title": "Smart Reminders"
+        },
+        {
+          "description": "Secure user accounts ensuring data privacy and personalized habit management.",
+          "icon": "🔒",
+          "title": "User Authentication"
+        },
+        {
+          "description": "Robust analytics to identify patterns, monitor consistency, and provide actionable insights.",
+          "icon": "📊",
+          "title": "Insightful Analytics"
+        },
+        {
+          "description": "Synchronize data across multiple devices for seamless access anytime, anywhere.",
+          "icon": "🔗",
+          "title": "Multi-device Sync"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform allows you to get a functional habit tracking app running in a matter of hours or days, depending on the complexity of your features. The AI assists in generating code and setting up the basic structure rapidly.",
+          "question": "How quickly can I build a habit tracking app with Kliv?"
+        },
+        {
+          "answer": "No, you do not need traditional coding skills. Kliv's AI uses natural language prompts to understand and build your application. You describe your desired features, and the platform translates them into functional code.",
+          "question": "Do I need to be a developer to build a habit tracker on Kliv?"
+        },
+        {
+          "answer": "Yes, your custom app can be designed to integrate with various APIs to pull in data from other health apps, calendars, productivity tools, or even wearables, greatly expanding its utility.",
+          "question": "Can my custom habit app integrate with other services or wearables?"
+        },
+        {
+          "answer": "The application and all its data are entirely yours. You have full control over where it's hosted and how the data is managed, ensuring maximum privacy and data ownership.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Building a custom app is an investment. While SaaS habit trackers charge recurring fees indefinitely, your Kliv-built app is a one-time development that you own, often leading to significant long-term savings.",
+          "question": "Is building my own app more cost-effective than using subscription services?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the flexibility to easily modify, add features, or change the functionality of your app as your needs evolve, without being constrained by a vendor's roadmap.",
+          "question": "Can I modify my habit tracker after it's been built?"
+        },
+        {
+          "answer": "You design the security protocols. By hosting your own application, you maintain complete control over data encryption, access management, and compliance, often exceeding the security guarantees of third-party platforms.",
+          "question": "How secure is a custom-built habit tracking application?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance throughout the building process, offering suggestions, debugging help, and optimization insights. You're empowered to manage and evolve your application independently.",
+          "question": "What if I get stuck or need support during the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to cultivate lasting habits?",
+      "type": "cta",
+      "content": "Stop settling for generic apps. Build the personalized habit tracker that truly helps you achieve your goals and cultivate consistency."
+    }
+  ],
+  "title": "Custom Habit Tracking Apps"
+}

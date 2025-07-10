@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a tool that can analyze real-time market data across multiple asset classes, apply custom technical indicators, and backtest trading strategies efficiently.",
+  "description": "Build custom tools for technical analysis and strategy backtesting using Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your analyzer",
+    "subtitle": "Develop sophisticated technical analysis tools and backtesting platforms tailored to your investment strategies.",
+    "title": "Build your own technical analysis & strategy tools"
+  },
+  "metaDescription": "Create powerful custom technical analysis tools, indicators, and backtesting platforms with Kliv. Access real-time data, apply custom logic, and validate strategies efficiently.",
+  "sections": [
+    {
+      "title": "The challenge of off-the-shelf trading tools",
+      "type": "text",
+      "content": "In the world of financial markets, every edge counts. Generic charting and strategy platforms offer a baseline, but they rarely provide the unique insights or proprietary advantages that truly differentiate successful traders. Relying on pre-defined indicators and limited backtesting capabilities means you're trading with the same tools as everyone else, making it harder to find alpha.\n\nCustomization is key. What if you could build a tool that precisely implements your unique market theories, integrates specific data sources, and allows for iterative refinement of strategies? Kliv makes this accessible. Instead of adapting your strategy to a tool's limitations, build a tool that adapts to your strategy's needs."
+    },
+    {
+      "title": "Why custom technical analysis provides a unique edge",
+      "type": "markdown",
+      "content": "## The limitations of generic platforms\n\nMost traders and quantitative analysts understand the shortcomings of widely available technical analysis software:\n\n- **Limited indicator libraries**: Often missing niche or proprietary indicators.\n- **Rigid backtesting environments**: Difficult to model complex conditions or non-linear strategies.\n- **Data silos**: Inability to easily integrate disparate or alternative data sources.\n- **Vendor lock-in**: Dependent on platform updates and feature roadmaps.\n- **Performance bottlenecks**: Not optimized for high-frequency data processing or large-scale simulations.\n\n## The power of tailored solutions\n\nBuilding your own analysis and backtesting system offers unparalleled advantages:\n\n### Proprietary Insights\n\nDevelop and implement unique technical indicators, overlays, and charting patterns that are specific to your trading philosophy. This creates an analytical edge not available to the general market.\n\n### Unrestricted Strategy Design\n\nGo beyond simple moving average crossovers. Design complex, multi-variable strategies that incorporate machine learning models, sentiment analysis, or intermarket correlations. Test edge cases and conditional logic that off-the-shelf tools can't handle.\n\n### Data Integration Flexibility\n\nConnect to any data source—historical tick data, real-time news feeds, macroeconomic indicators, social media sentiment, or alternative datasets. Your tool can become a true data aggregator, providing a holistic market view.\n\n### Optimized Performance\n\nBuild systems designed for speed and efficiency. If your strategy requires crunching terabytes of historical data or reacting to real-time events in milliseconds, a custom solution can be optimized for that specific workload.\n\n### Complete Ownership & Control\n\nOwn the intellectual property. Your strategies, indicators, and backtesting results remain confidential. You control the software's evolution, ensuring it always aligns with your evolving market views.\n\n### Cost Efficiency in the Long Run\n\nWhile initial development might seem a hurdle, repeated subscription fees for feature-limited platforms add up. A custom-built solution, especially with Kliv's rapid development capabilities, becomes a highly cost-effective asset over time.\n\n## Real-world applications\n\nCustom tools are transforming how quantitative firms and sophisticated traders operate:\n\n**Algorithmic Trading Firms**: Developing proprietary low-latency indicators and custom execution algorithms directly integrated with exchange APIs.\n\n**Hedge Funds**: Building advanced risk management dashboards that dynamically adjust portfolio exposure based on custom volatility metrics and market regime detection.\n\n**Individual Quants**: Creating personal research environments for exploring new market theories, developing novel indicators, and testing hundreds of strategy variations simultaneously.\n\n**Proprietary Trading Desks**: Designing highly specialized order flow analysis tools that visualize order book depth, trade imbalances, and 'iceberg' orders in ways generic platforms cannot.\n\nWith Kliv's AI-powered platform, the complexities of software development are abstracted away. You can focus on your financial models and strategies, while the AI helps you build the robust, high-performance tools you need to implement them."
+    },
+    {
+      "title": "Strategy tool ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize custom market breadth, volatility, and momentum indicators",
+          "prompt": "Create a charting application that displays real-time price data for equities and crypto, overlays multiple custom technical indicators including a proprietary volume-weighted average price (VWAP) and a dynamic support/resistance levels based on historical order book data.",
+          "title": "Advanced Charting & Indicator Tool"
+        },
+        {
+          "description": "Test trading strategies against historical data with detailed performance metrics",
+          "prompt": "Build a robust backtesting engine that allows me to define entry/exit rules using a combination of RSI, MACD, and custom sentiment scores from news feeds, run simulations against a decade of historical data for various FX pairs, and generate performance reports including P&L, drawdown, Sharpe ratio, and individual trade details.",
+          "title": "Multi-asset Backtesting Engine"
+        },
+        {
+          "description": "Quantify and monitor market sentiment from various sources",
+          "prompt": "Develop a real-time market sentiment dashboard that aggregates data from Twitter, financial news headlines, and analyst ratings, processes it using natural language processing (NLP) to generate a sentiment score, and displays this alongside price charts for selected stocks.",
+          "title": "Real-time Sentiment Analyser"
+        },
+        {
+          "description": "Identify and track price action patterns across multiple timeframes",
+          "prompt": "Design a pattern recognition tool that automatically identifies common candlestick patterns (e.g., engulfing, doji) and chart patterns (e.g., head and shoulders, triangles) across multiple timeframes for a watchlist of commodities, and sends alerts when confirmed patterns emerge.",
+          "title": "Automated Pattern Discovery"
+        },
+        {
+          "description": "Analyze relationships between different asset classes",
+          "prompt": "Create a correlation analysis dashboard that visualizes the rolling correlation between various asset classes (equities, bonds, commodities, cryptocurrencies) over different periods, and highlights unusual divergences or convergences that could signal arbitrage opportunities or risk shifts.",
+          "title": "Intermarket Correlation Tracker"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your analysis capabilities",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate real-time data feeds from multiple providers (e.g., Bloomberg, Refinitiv, cryptocurrency exchanges) into the core data engine.",
+          "title": "Add multi-source real-time data integration"
+        },
+        {
+          "prompt": "Implement a machine learning module for predicting price movements based on historical indicator values and external market factors.",
+          "title": "Incorporate ML-powered predictive analytics"
+        },
+        {
+          "prompt": "Develop an automated alert system that sends notifications via email, SMS, or Telegram when specific indicator cross-overs occur, or strategy conditions are met.",
+          "title": "Build a customizable alert system"
+        },
+        {
+          "prompt": "Add a feature to connect directly to broker APIs for automated order placement and execution based on backtested strategies.",
+          "title": "Enable direct broker integration"
+        },
+        {
+          "prompt": "Create a user interface for drag-and-drop strategy building and visual backtesting, minimizing the need for manual coding of rules.",
+          "title": "Develop a visual strategy builder"
+        },
+        {
+          "prompt": "Include robust risk management parameters, such as position sizing based on account equity, dynamic stop-loss, and profit-taking levels.",
+          "title": "Implement advanced risk management modules"
+        },
+        {
+          "prompt": "Add capabilities for optimizing strategy parameters using genetic algorithms or other optimization techniques to find the best performing settings.",
+          "title": "Integrate strategy optimization"
+        },
+        {
+          "prompt": "Build a comprehensive reporting suite that generates detailed performance analytics, including daily equity curves, maximum drawdown, winning percentages, and R-multiples.",
+          "title": "Enhance reporting and analytics"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your custom tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Access and integrate various historical and real-time market data streams.",
+          "icon": "📈",
+          "title": "Flexible Data Connectors"
+        },
+        {
+          "description": "Implement any technical indicator, from standard to highly proprietary, with custom parameters.",
+          "icon": "📊",
+          "title": "Custom Indicator Engine"
+        },
+        {
+          "description": "Design and rigorously backtest complex trading strategies against historical data.",
+          "icon": "⏱️",
+          "title": "Robust Backtesting Framework"
+        },
+        {
+          "description": "Visualize data, indicators, and strategy performance with customizable charts and dashboards.",
+          "icon": "🖥️",
+          "title": "Interactive Visualizations"
+        },
+        {
+          "description": "Define and receive alerts for market conditions or strategy signals via multiple channels.",
+          "icon": "🔔",
+          "title": "Configurable Alerting System"
+        },
+        {
+          "description": "Optimize strategy parameters to find the best-performing settings for different market conditions.",
+          "icon": "⚙️",
+          "title": "Strategy Optimization Tools"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom technical analysis tool with Kliv can range from a few hours for a basic charting system to a few days or weeks for highly complex backtesting engines with multiple data integrations. The AI significantly accelerates the development process.",
+          "question": "How long does it take to build a custom technical analysis tool?"
+        },
+        {
+          "answer": "No deep programming knowledge is required. Kliv's platform allows you to describe your desired features and logic in natural language. The AI translates these into functional code, making it accessible to financial analysts and traders, not just developers.",
+          "question": "Do I need to be a programmer to build these tools?"
+        },
+        {
+          "answer": "Yes, your custom tool can connect to virtually any data source with an API, whether it's real-time market data providers, historical databases, news feeds, or alternative datasets. This flexibility is a core advantage over pre-built platforms.",
+          "question": "Can I integrate with specific data sources like historical tick data or real-time news APIs?"
+        },
+        {
+          "answer": "You retain full ownership of all the code, algorithms, and models generated. Your strategies and intellectual property remain entirely yours, which is crucial for proprietary trading systems.",
+          "question": "Who owns the intellectual property and code generated?"
+        },
+        {
+          "answer": "While there's an initial development investment, building with Kliv eliminates recurring subscription fees common with commercial trading platforms. Over time, particularly for frequently used or high-value tools, a custom solution typically offers significant cost savings.",
+          "question": "How does the cost compare to subscribing to commercial trading analysis platforms?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are designed for evolution. You can modify indicators, adjust strategy parameters, add new data sources, or extend functionality as your market insights and needs change, without being dependent on a vendor's roadmap.",
+          "question": "Can I easily modify and update my tool as my strategies evolve?"
+        },
+        {
+          "answer": "Yes, security is paramount. When building with Kliv, you control the deployment environment and data access. This means you can implement high-level security protocols specific to your requirements, often surpassing the generic security offered by shared SaaS platforms.",
+          "question": "Are custom-built tools secure for sensitive trading strategies and data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate trading edge?",
+      "type": "cta",
+      "content": "Stop fitting your strategies into someone else's tools. Design and implement the precise analytical instruments you need to dominate the markets."
+    }
+  ],
+  "title": "Technical Indicators & Strategy Tools"
+}

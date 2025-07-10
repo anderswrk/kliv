@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a location management and mapping application that allows me to visualize asset locations on a map, track movements, and manage field service routes.",
+  "description": "Build custom location management and mapping applications tailored to your business needs with Kliv.",
+  "hero": {
+    "cta": "Start building your map tool",
+    "subtitle": "Visualize assets, optimize routes, and enhance field operations with custom-built geospatial applications.",
+    "title": "Create your own location management & mapping tools"
+  },
+  "metaDescription": "Develop powerful custom location management and mapping tools on Kliv. Track assets, manage routes, and gain spatial insights for your business.",
+  "sections": [
+    {
+      "title": "Why build a custom location & mapping tool?",
+      "type": "text",
+      "content": "Off-the-shelf mapping solutions often fall short when your business has specific, intricate location-based requirements. They might offer generic pins and routes but lack the deep integration with your unique data, custom visualizations, or specialized workflow automations you need.\n\nBuilding your own location management and mapping application with Kliv’s AI-powered platform gives you precise control. You can integrate directly with your existing systems, display exactly the data points that matter, and design a user experience that perfectly aligns with your operational needs, all without the recurring costs and feature limitations of SaaS platforms."
+    },
+    {
+      "title": "The strategic advantage of tailored spatial intelligence",
+      "type": "markdown",
+      "content": "## The limitations of generic mapping platforms\n\nMany businesses rely on popular mapping services or generic GIS (Geographic Information System) software. While useful, these often come with significant drawbacks:\n\n- **Data Silos**: Difficulty integrating with your proprietary datasets.\n- **Generic Visualizations**: Maps that don't highlight your critical business information.\n- **Limited Workflow Integration**: No seamless connection to your operational processes.\n- **Scaling Challenges**: Costs increase with usage or data volume.\n- **Security & Privacy Concerns**: Data residing on third-party servers.\n- **Feature Bloat vs. Gaps**: Paying for features you don't use, while missing crucial ones you do.\n\n## Why a custom solution excels\n\nCreating a bespoke location management and mapping application unlocks unparalleled benefits:\n\n### Hyper-relevance to your operations\nDesign a map that’s not just a map, but a dynamic dashboard for your specific business. Display real-time data from your vehicles, assets, or field teams directly on the map, with custom icons, color-coding, and layers that reflect your internal logic.\n\n### Seamless data integration\nConnect directly to your internal databases, IoT sensors, fleet management systems, or CRM. Your mapping tool becomes a central hub, pulling in relevant information without manual imports or clunky integrations.\n\n### Optimized decision-making\nFrom logistics and delivery route optimization to site selection and resource allocation, a tailored application provides the exact spatial insights needed for faster, more accurate decisions.\n\n### Cost efficiency & ownership\nAvoid endless subscription fees. A custom tool delivered by Kliv is a one-time build, giving you full ownership. Evolve it as your business changes, without vendor lock-in.\n\n### Enhanced security & privacy\nHost your application and data where you choose, ensuring compliance with your internal security protocols and data privacy regulations.\n\n## Real-world impact\n\nCustom location tools are revolutionizing various sectors:\n\n**Logistics & Transportation**: Real-time tracking of delivery vehicles, dynamic route optimization based on traffic, and instant communication with drivers.\n\n**Field Service Management**: Dispatching technicians to the closest service call, visualizing service areas, and tracking job progress on a live map.\n\n**Asset Management**: Mapping the precise location of infrastructure assets (e.g., utility poles, pipelines), tracking maintenance schedules, and visualizing inspection routes.\n\n**Real Estate & Property Management**: Overlaying demographic data, zoning laws, and property features on a map for better site analysis and investment decisions.\n\n## The Kliv advantage in geospatial development\n\nBuilding complex mapping applications used to require GIS specialists and extensive coding. Kliv transforms this:\n\n- **Natural Language Interaction**: Describe your mapping needs in plain language, and AI helps construct the application.\n- **Interactive Design**: Drag-and-drop interfaces for map layers, custom markers, and analytical overlays.\n- **API Integration Made Easy**: Effortlessly connect to external mapping services, weather APIs, or your own IoT devices.\n- **Scalable Architecture**: Applications built to grow with your data and user base.\n\nDon't settle for off-the-shelf. Build a location and mapping tool that truly understands and serves your business operations."
+    },
+    {
+      "title": "Location management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize your field teams and their active job locations",
+          "prompt": "Create a live map application to track the real-time locations of our field service technicians, display their assigned jobs, and show their estimated arrival times.",
+          "title": "Field technician tracker"
+        },
+        {
+          "description": "Optimize delivery routes for multiple stops and vehicles",
+          "prompt": "Build a route optimization tool that takes a list of delivery addresses, assigns them to available drivers, and generates the most efficient routes considering traffic and vehicle capacity.",
+          "title": "Multi-stop delivery route planner"
+        },
+        {
+          "description": "Map all company assets and their maintenance status",
+          "prompt": "Develop an asset mapping system that plots all company equipment (e.g., generators, vending machines) on a map, color-coded by their maintenance status and showing their next scheduled service date.",
+          "title": "Fixed asset mapping portal"
+        },
+        {
+          "description": "Interactive map for store locations with customer analytics",
+          "prompt": "Design a store locator application for customers that also overlays internal sales data and demographic information for each location, allowing management to analyze regional performance.",
+          "title": "Retail store performance map"
+        },
+        {
+          "description": "Automated geo-fencing alerts and entry/exit logging",
+          "prompt": "Create a system that uses geofences around key locations. When a tracked asset enters or exits these zones, send an alert and log the time and duration of the event.",
+          "title": "Geo-fencing and alert system"
+        },
+        {
+          "description": "Visualize available properties and their unique features",
+          "prompt": "Build a real estate property management map that displays rental units, shows their current occupancy status, highlights nearby amenities, and links to property details.",
+          "title": "Property portfolio map"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your mapping solution",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to dynamically calculate the shortest path between two points on the map, considering real-time traffic data.",
+          "title": "Implement shortest path routing"
+        },
+        {
+          "prompt": "Integrate a module that allows users to draw custom polygons on the map and apply filters to show only assets within those boundaries.",
+          "title": "Add custom geo-fencing capabilities"
+        },
+        {
+          "prompt": "Develop a heat map overlay that visualizes the density of customer orders or service requests in different geographic areas.",
+          "title": "Overlay data heat maps"
+        },
+        {
+          "prompt": "Enable users to upload CSV files with new location data, and automatically parse and plot these points on the map.",
+          "title": "Add bulk data import"
+        },
+        {
+          "prompt": "Integrate with a weather API to display current weather conditions or forecasts for locations on the map.",
+          "title": "Display local weather conditions"
+        },
+        {
+          "prompt": "Create a mobile version of the application with GPS integration for field users to update their location and status.",
+          "title": "Develop mobile companion app"
+        },
+        {
+          "prompt": "Allow different user roles (e.g., manager, field agent) to see different sets of data or map layers.",
+          "title": "Implement role-based access"
+        },
+        {
+          "prompt": "Add a historical playback feature to show the movement of assets over a specific time period.",
+          "title": "Enable historical tracking playback"
+        },
+        {
+          "prompt": "Include an integrated chat feature for dispatchers to communicate directly with field personnel via the map interface.",
+          "title": "Integrate real-time chat"
+        }
+      ]
+    },
+    {
+      "title": "Key geospatial capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Plot and track assets, vehicles, or personnel on interactive maps in real-time.",
+          "icon": "📍",
+          "title": "Live Location Tracking"
+        },
+        {
+          "description": "Define and manage geographic boundaries to trigger alerts or actions.",
+          "icon": "🚧",
+          "title": "Custom Geo-fencing"
+        },
+        {
+          "description": "Layer your business data directly onto maps for powerful visual insights.",
+          "icon": "📊",
+          "title": "Data Visualization & Overlays"
+        },
+        {
+          "description": "Generate optimized routes for deliveries, service calls, or patrols.",
+          "icon": "🛣️",
+          "title": "Route Planning & Optimization"
+        },
+        {
+          "description": "Connect with external mapping services, CRM, ERP, and IoT devices.",
+          "icon": "🔗",
+          "title": "API & System Integrations"
+        },
+        {
+          "description": "Tailor the map interface, icons, and information displays to your brand.",
+          "icon": "🎨",
+          "title": "Customizable Map UI"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv drastically reduces development time. A basic location and mapping tool can be operational in days, with more complex systems requiring just a few weeks for full implementation and customization.",
+          "question": "How quickly can I build a custom mapping application?"
+        },
+        {
+          "answer": "No specialized GIS or coding expertise is required. Kliv’s intuitive platform, guided by AI, allows you to describe your desired features and functionalities in plain language.",
+          "question": "Do I need to be a GIS expert or a coder?"
+        },
+        {
+          "answer": "Absolutely. Kliv-built applications are designed for seamless integration. You can connect to your existing CRM, ERP, IoT devices, fleet management systems, and other data sources via APIs.",
+          "question": "Can I integrate my custom mapping tool with my existing business systems?"
+        },
+        {
+          "answer": "You own the entire intellectual property of the application built on Kliv. This includes the design, data structure, and all code, giving you full control and portability.",
+          "question": "Who owns the mapping application and data once it's built?"
+        },
+        {
+          "answer": "While initial investment might be comparable, custom solutions eliminate recurring subscription fees common with SaaS. Over time, you'll find significant cost savings, especially as your usage scales, as you own the asset outright.",
+          "question": "How does the cost compare to off-the-shelf mapping software?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. You can easily modify features, add new data layers, or expand functionalities through Kliv’s platform as your business needs evolve, without relying on external vendors for updates.",
+          "question": "Can I modify my location application after it's built?"
+        },
+        {
+          "answer": "Custom-built applications offer superior security because you control the hosting environment and data protocols. Unlike shared SaaS platforms, you dictate the security measures, significantly reducing exposure to third-party vulnerabilities.",
+          "question": "Is a custom mapping solution secure for sensitive location data?"
+        },
+        {
+          "answer": "Kliv provides an AI-guided development experience with integrated tools for testing and debugging. Our support resources and documentation are also available to assist throughout your building journey.",
+          "question": "What kind of support is available during the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Unlock the power of spatial data for your business",
+      "type": "cta",
+      "content": "Stop conforming to generic mapping tools. Build a location and mapping solution that truly maps to your unique business operations and data."
+    }
+  ],
+  "title": "Custom Location Management & Mapping Applications"
+}

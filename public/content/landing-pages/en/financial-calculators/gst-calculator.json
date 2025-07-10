@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "Create a GST calculator that allows users to input a value and automatically compute net price, GST amount, and gross price for multiple GST rates. It should also have a feature to save calculations and generate reports.",
+  "description": "Build custom GST calculator applications tailored to your business rules and local tax regulations with Kliv.",
+  "hero": {
+    "cta": "Start Calculating",
+    "subtitle": "Create bespoke GST calculation tools perfectly aligned with your business needs and regional tax laws.",
+    "title": "Build Your Own Custom GST Calculator"
+  },
+  "metaDescription": "Develop powerful and precise GST calculator tools with Kliv. Customize tax rates, save calculations, and generate reports for accurate financial management.",
+  "sections": [
+    {
+      "title": "Why a custom GST calculator?",
+      "type": "text",
+      "content": "Off-the-shelf GST calculators often fall short, offering generic functionalities that don't account for specific business scenarios, varying tax rates by product, or complex reporting needs. Relying on such tools can lead to manual adjustments, errors, and compliance risks. Building your own GST calculator empowers you with complete control, ensuring accuracy, efficiency, and full compliance tailored to your unique operations."
+    },
+    {
+      "title": "The power of tailored tax solutions",
+      "type": "markdown",
+      "content": "## Limitations of generic GST tools\nStandard GST calculators are designed for a broad audience, which means they are rarely perfect for anyone. They often:\n\n-   Lack support for **multiple, dynamic GST rates** based on product categories or services.\n-   Offer limited or no capability to **store historical calculations** for audit or review.\n-   Provide **basic reporting** that doesn't integrate with your existing accounting systems.\n-   Are general-purpose, not accounting for **specific regional tax nuances** or exceptions.\n-   May not handle **reverse charge mechanisms** or unique input tax credit rules.\n\n## Advantages of a custom-built calculator\nLeveraging Kliv to build your own GST calculator transforms a generic necessity into a powerful business asset:\n\n### Precision and adaptability\nYour business is unique, and so are your transactions. A custom calculator can be designed to apply specific GST rates based on product codes, customer types, or geographical locations, ensuring every calculation is perfectly accurate and compliant.\n\n### Enhanced reporting and audit trails\nBeyond simple calculations, your custom tool can generate detailed reports, maintain historical records of all transactions, and provide a robust audit trail, simplifying compliance checks and financial reconciliation.\n\n### Seamless integration\nIntegrate your GST calculator directly with your existing ERP, accounting software, or e-commerce platform. This eliminates data re-entry, reduces errors, and streamlines your financial workflows.\n\n### Future-proof design\nTax laws change. With a custom solution, you own the underlying structure, allowing you to quickly update tax rates, add new functionalities, or adapt to evolving regulatory requirements without waiting for vendor updates.\n\n### Cost efficiency\nAvoid recurring subscription fees for tools that almost fit. A one-time investment in a custom Kliv application provides a long-term, scalable solution that minimizes operational costs.\n\n## Real-world applications\nCustom GST calculators aren't just for large corporations. Businesses of all sizes can benefit:\n\n**Retail businesses**: Instantly calculate GST for diverse product ranges, including taxable and exempt items, at the point of sale.\n\n**Service providers**: Apply varying GST rates for different services (e.g., professional fees, consulting, repair services) and generate invoices with detailed tax breakdowns.\n\n**Manufacturers**: Manage complex input tax credits and calculate output GST for multi-stage production processes.\n\n**E-commerce platforms**: Dynamically calculate GST based on the customer's location and product type, ensuring compliance across different states or territories.\n\n**Freelancers & Consultants**: Quickly generate compliant invoices with accurate GST components, simplifying personal tax filings.\n\nInvesting in a custom GST calculator means investing in accuracy, efficiency, and peace of mind. Kliv makes this powerful custom solution accessible to everyone."
+    },
+    {
+      "title": "GST calculator ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Calculate GST for retail transactions with multiple product types.",
+          "prompt": "Build a retail GST calculator that allows input of multiple item prices, applies different GST rates based on item categories (e.g., 5%, 12%, 18%, 28%), calculates total GST, and generates a printable bill summary.",
+          "title": "Retail Transaction GST Calculator"
+        },
+        {
+          "description": "Manage GST for import/export duties and services.",
+          "prompt": "Develop an import/export GST calculator that computes GST on imported goods, considering customs duty, freight, and insurance, and also helps calculate GST for export services, including zero-rated supplies.",
+          "title": "Global Trade GST Tool"
+        },
+        {
+          "description": "Automate GST calculation for recurring service contracts.",
+          "prompt": "Create a service contract GST calculator that automatically applies GST based on the service type and billing cycle (monthly, quarterly), tracks pending payments, and generates GST-compliant invoices for multiple clients.",
+          "title": "Recurring Services GST Billing"
+        },
+        {
+          "description": "Calculate and manage GST for construction projects.",
+          "prompt": "Design a construction project GST calculator that accounts for GST on materials, labor, and subcontracts, allows for input tax credit adjustments, and provides a project-wise GST summary.",
+          "title": "Construction Project GST Estimator"
+        },
+        {
+          "description": "Simplify reverse charge mechanism GST calculations.",
+          "prompt": "Build a reverse charge GST calculator that identifies services and goods subject to reverse charge, calculates the applicable GST, and reminds users about compliance deadlines for filing.",
+          "title": "Reverse Charge GST Helper"
+        },
+        {
+          "description": "Determine GST implications for real estate transactions.",
+          "prompt": "Develop a real estate GST calculator that computes GST on property sales, rental income, and new construction, considering different property types and potential abatements.",
+          "title": "Property GST Analyst"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your GST calculator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to automatically pull the latest GST rates from a relevant government API or a manually editable database.",
+          "title": "Dynamic Rate Updates"
+        },
+        {
+          "prompt": "Implement user authentication and roles so different team members can view or edit calculations, with audit logs for changes.",
+          "title": "Multi-User Access & Logs"
+        },
+        {
+          "prompt": "Integrate the calculator with popular accounting software (e.g., Zoho Books, Tally, QuickBooks) to export calculation data directly.",
+          "title": "Accounting Software Integration"
+        },
+        {
+          "prompt": "Add a module to track input tax credits (ITC) against output GST liability, providing an estimated net GST payable.",
+          "title": "Input Tax Credit (ITC) Tracker"
+        },
+        {
+          "prompt": "Develop a reporting dashboard that visualizes total GST collected, ITC claimed, and net GST payable over various periods.",
+          "title": "Reporting & Analytics Dashboard"
+        },
+        {
+          "prompt": "Enable the generation of GST-compliant invoices directly from the calculator, pre-filled with calculated tax details and your business information.",
+          "title": "Invoice Generation"
+        },
+        {
+          "prompt": "Add a feature to manage and apply different HSN/SAC codes for goods and services to ensure correct GST classification.",
+          "title": "HSN/SAC Code Management"
+        },
+        {
+          "prompt": "Implement a warning system for potential GST compliance issues, such as exceeding turnover thresholds or missed filing dates.",
+          "title": "Compliance Alerts"
+        }
+      ]
+    },
+    {
+      "title": "Core GST calculator capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Quickly add or remove GST from a given value.",
+          "icon": "➕➖",
+          "title": "Add/Remove GST"
+        },
+        {
+          "description": "Support custom input of various GST rates (e.g., 5%, 12%, 18%, 28%).",
+          "icon": "🔢",
+          "title": "Configurable Tax Rates"
+        },
+        {
+          "description": "Break down values into net price, GST amount, and gross price.",
+          "icon": "📊",
+          "title": "Detailed Tax Breakdown"
+        },
+        {
+          "description": "Save, retrieve, and organize past calculations for future reference.",
+          "icon": "💾",
+          "title": "Calculation History"
+        },
+        {
+          "description": "Generate summary reports of calculations for specific periods or projects.",
+          "icon": "📄",
+          "title": "Custom Reporting"
+        },
+        {
+          "description": "Handle multiple items or services in a single transaction with mixed GST rates.",
+          "icon": "🛒",
+          "title": "Batch Calculation"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions about building financial tools with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom GST calculator from scratch on Kliv can take anywhere from a few hours for a basic version to a few days for a complex tool with integrations and advanced reporting, depending on your specific requirements.",
+          "question": "How long does it take to build a GST calculator application?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv's platform is designed for users to describe their desired functionality in natural language. Our AI assists in translating these descriptions into a working application.",
+          "question": "Do I need to know how to code to build this?"
+        },
+        {
+          "answer": "Yes, custom GST calculators built with Kliv can be integrated with various external systems such as accounting software (e.g., QuickBooks, Xero), ERP systems, and e-commerce platforms using APIs.",
+          "question": "Can I integrate this calculator with my existing accounting software?"
+        },
+        {
+          "answer": "All data and the application logic you build on Kliv are yours. You have full control over your data, can export it, and choose where it resides or how it's managed, ensuring full privacy and ownership.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Compared to ongoing subscription fees for off-the-shelf software, building a custom tool with Kliv is typically a one-time investment. This often results in significant long-term cost savings, especially for tools with very specific or niche requirements.",
+          "question": "Is building a custom calculator more cost-effective than buying off-the-shelf software?"
+        },
+        {
+          "answer": "Yes, your custom application is fully modifiable. As tax laws or business needs evolve, you can easily update GST rates, add new features, or modify existing functionalities within your Kliv-built tool.",
+          "question": "Can I update the calculator if GST rates or tax rules change?"
+        },
+        {
+          "answer": "Kliv ensures that the tools you build adhere to strict security best practices. You can implement robust access controls, data encryption, and audit trails, often making your custom solution more secure than relying on third-party vendors whose security protocols you don't fully control.",
+          "question": "How secure are applications built on Kliv, especially with sensitive financial data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to tailor your tax calculations?",
+      "type": "cta",
+      "content": "Stop wrestling with generic tools. Build the precise GST solution your business demands and gain ultimate control over your financial compliance."
+    }
+  ],
+  "title": "Custom GST Calculator"
+}

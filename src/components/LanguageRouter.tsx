@@ -16,11 +16,13 @@ export function LanguageRouter({ children }: LanguageRouterProps) {
   const defaultLanguage = 'en';
 
   useEffect(() => {
-    // If no language in URL, redirect to default language
+    // If no language in URL, detect browser language
     if (!lang) {
-      const detectedLang = i18n.language || defaultLanguage;
-      const supportedLang = supportedLanguages.includes(detectedLang) ? detectedLang : defaultLanguage;
-      navigate(`/${supportedLang}${location.pathname}${location.search}`, { replace: true });
+      // Get browser language preference
+      const browserLang = navigator.language.split('-')[0]; // Get just the language code (e.g., 'ja' from 'ja-JP')
+      const detectedLang = supportedLanguages.includes(browserLang) ? browserLang : defaultLanguage;
+      
+      navigate(`/${detectedLang}${location.pathname}${location.search}`, { replace: true });
       return;
     }
 

@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create an electricity comparison and contract management tool that allows users to compare different electricity plans, track their energy usage, and manage their contract details.",
+  "description": "Build custom electricity comparison and contract management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Comparing Smarter",
+    "subtitle": "Empower consumers and businesses with AI-driven tools for comparing electricity plans and managing energy contracts.",
+    "title": "Build Your Own Electricity Comparison & Contract Management Tools"
+  },
+  "metaDescription": "Create powerful electricity comparison and contract management tools with Kliv. Help users find the best energy rates and easily manage their agreements.",
+  "sections": [
+    {
+      "title": "The Challenge: Navigating the Complex Energy Market",
+      "type": "text",
+      "content": "The electricity market is a maze of varying rates, complex contract terms, and often confusing offers. For consumers and small businesses, finding the truly best deal can be overwhelming, leading to overspending and missed opportunities. Existing comparison sites often offer limited options or are biased, while managing contract renewals and usage can be a manual headache."
+    },
+    {
+      "title": "Why a Custom Energy Tool is a Game Changer",
+      "type": "markdown",
+      "content": "## The Pitfalls of Generic Energy Solutions\n\nMany current options for comparing electricity plans or managing contracts fall short:\n\n-   **Limited Scope:** They might only compare a few providers or overlook specific tariffs crucial for certain users.\n-   **Outdated Data:** Pricing and terms change rapidly, and generic platforms often struggle to keep up.\n-   **Lack of Personalization:** They rarely account for individual energy usage patterns, specific appliance loads, or time-of-use rates.\n-   **No Contract Management:** The process usually ends at comparison, leaving users to manually track their contracts, renewal dates, and terms.\n-   **Data Privacy Concerns:** Users often hesitate to share sensitive usage data with third-party sites.\n\n## The Power of a Tailored Solution\n\nBuilding your own electricity comparison and contract management application with Kliv provides unparalleled advantages:\n\n### Hyper-Personalized Comparisons\nGo beyond simple price lists. Integrate detailed usage data (e.g., from smart meters), household size, appliance types, and specific needs (e.g., EV charging) to offer truly optimal plan recommendations.\n\n### Dynamic Data Integration\nConnect directly to energy provider APIs (where available) or leverage advanced scraping techniques to ensure your pricing and plan information is always real-time and accurate.\n\n### Comprehensive Contract Tracking\nAllow users to upload or input their contract details. Your application can then automatically track renewal dates, highlight key terms, alert them to price changes, and even suggest better alternatives proactively.\n\n### Empowering Users with Usage Insights\nBeyond just comparison, help users understand their energy consumption patterns. Integrate with smart home devices or utility data to provide insights that can lead to significant savings.\n\n### Build Trust with Transparency\nBy owning the platform, you control the algorithms and data sources, allowing you to build a system that is transparent, unbiased, and focused solely on the user's best interest.\n\n### Diverse Applications for Custom Tools\n\nCustom energy tools aren't just for individuals. Consider these real-world impacts:\n\n**Residential**: A tool that analyzes smart meter data to recommend the best time-of-use plan and notifies users when a better deal becomes available based on their actual consumption habits.\n\n**Small Business**: A system designed for SMEs to manage multiple electricity contracts across various locations, analyzing aggregate usage and negotiating bulk deals.\n\n**Real Estate**: An application for real estate agents or property managers to quickly assess potential energy costs for properties or manage utility transfers for new tenants.\n\n**Renewable Energy Consultants**: A platform that helps clients compare traditional utility rates against proposed solar or wind energy savings, factoring in payback periods and incentives.\n\n## The Kliv Advantage: AI-Powered Development\n\nYears ago, creating such a sophisticated application would require a large team and months of development. Kliv changes this:\n\n-   **Rapid Prototyping:** Turn your idea for dynamic energy comparisons into a functional prototype within hours.\n-   **Schema-driven Data Handling:** Easily define and manage complex data structures for electricity plans, consumer data, and contract terms.\n-   **Scalable Infrastructure:** Your application can handle thousands of data points and user queries as you grow.\n-   **Natural Language Interaction:** Describe the logic and features, and Kliv's AI assists in building the technical components.\n\nInvest in a solution that truly serves the user, built by you, powered by Kliv."
+    },
+    {
+      "title": "Electricity Comparison & Contract Management Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a tool for residential users to compare plans based on their smart meter data.",
+          "prompt": "Design a web application where users can upload their smart meter data (e.g., Green Button API output) to receive personalized recommendations for the cheapest electricity plan in their area, including fixed vs. variable rates.",
+          "title": "Residential Smart Compare"
+        },
+        {
+          "description": "A dashboard for small businesses to manage and optimize multiple service contracts.",
+          "prompt": "Build an online portal for small businesses to input details for all their electricity contracts across different locations, track usage per site, receive alerts for contract expirations, and generate reports on total energy expenditure.",
+          "title": "Commercial Energy Hub"
+        },
+        {
+          "description": "An app that predicts future savings with different solar system configurations.",
+          "prompt": "Develop an application that allows users to input their average electricity bill and roof size, then estimates potential savings and payback periods for installing solar panels, comparing it to ongoing grid electricity costs from various providers.",
+          "title": "Solar Savings Predictor"
+        },
+        {
+          "description": "A tool to help property managers switch tenants' utility services.",
+          "prompt": "Create an internal application for property management companies to streamline the process of transferring electricity service for new tenants, including comparing initial plans, submitting change of occupancy forms, and tracking service activation.",
+          "title": "Property Utility Switcher"
+        },
+        {
+          "description": "Automated monitoring and alerts for commercial energy contract terms.",
+          "prompt": "Build a system that monitors large commercial electricity contracts, specifically looking for clauses related to demand charges, peak usage penalties, and automatic renewal terms, then sends proactive alerts to facility managers.",
+          "title": "High-Volume Contract Monitor"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Energy Tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now, add a feature for users to securely upload their last 12 months of utility bills for automated data extraction and analysis.",
+          "title": "Bill Upload & OCR"
+        },
+        {
+          "prompt": "Integrate a real-time market data feed for wholesale electricity prices to influence dynamic plan recommendations.",
+          "title": "Real-time Market Data"
+        },
+        {
+          "prompt": "Implement a notification system that alerts users via SMS or email when their contract is within 90 days of expiration.",
+          "title": "Expiration Reminders"
+        },
+        {
+          "prompt": "Add a feature that allows users to initiate a switch to a new provider directly through the application.",
+          "title": "In-App Provider Switching"
+        },
+        {
+          "prompt": "Develop a module for visualizing energy usage trends over time, broken down by hour, day, and month.",
+          "title": "Usage Analytics Dashboard"
+        },
+        {
+          "prompt": "Incorporate a chatbot that can answer common questions about electricity tariffs and contract terms.",
+          "title": "AI-Powered Tariff Chatbot"
+        },
+        {
+          "prompt": "Create a secure user account system where users can save multiple properties and their respective energy contracts.",
+          "title": "Multi-Property Accounts"
+        },
+        {
+          "prompt": "Add a rating and review system for different electricity providers based on user feedback.",
+          "title": "Provider Rating System"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Energy Solution",
+      "type": "features",
+      "items": [
+        {
+          "description": "Allow users to compare electricity plans from multiple providers side-by-side.",
+          "icon": "⚡",
+          "title": "Plan Comparison Engine"
+        },
+        {
+          "description": "Enable input or upload of historical energy usage data for tailored recommendations.",
+          "icon": "📈",
+          "title": "Usage Data Integration"
+        },
+        {
+          "description": "Securely store and manage details of active electricity contracts.",
+          "icon": "📄",
+          "title": "Contract Repository"
+        },
+        {
+          "description": "Receive automated alerts for contract renewals and price changes.",
+          "icon": "⏰",
+          "title": "Automated Notifications"
+        },
+        {
+          "description": "Visualize energy consumption patterns and identify cost-saving opportunities.",
+          "icon": "📊",
+          "title": "Energy Usage Analytics"
+        },
+        {
+          "description": "Provide personalized recommendations based on user profiles and consumption habits.",
+          "icon": "💡",
+          "title": "Smart Recommendations"
+        }
+      ]
+    },
+    {
+      "title": "Building with Kliv: Your Energy Tool FAQs",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The development timeline depends on complexity, but with Kliv, a functional prototype for electricity comparison can be ready in days, with advanced contract management features implemented within a few weeks.",
+          "question": "How quickly can I launch an electricity comparison and contract management tool?"
+        },
+        {
+          "answer": "Kliv simplifies connection to various data sources. You can integrate public utility data, smart meter APIs (like Green Button), or even build custom web scrapers for provider websites. Kliv's AI helps structure and manage this complex data.",
+          "question": "How do I integrate up-to-date electricity plan data from providers?"
+        },
+        {
+          "answer": "Kliv helps you develop solutions with robust security features. You'll have full control over data encryption, access controls, and compliance features, ensuring sensitive user and contract data is protected.",
+          "question": "Is it secure to handle sensitive user energy data and contract details?"
+        },
+        {
+          "answer": "Yes, your application on Kliv can be designed to scale from serving individual consumers to managing large portfolios for businesses or property managers, adapting resources based on demand.",
+          "question": "Can this type of application handle both residential and commercial electricity contracts?"
+        },
+        {
+          "answer": "Building with Kliv means a one-time development investment rather than ongoing SaaS subscription fees. Over time, this typically results in significant cost savings, especially as your user base grows.",
+          "question": "What are the cost implications compared to licensing existing energy comparison software?"
+        },
+        {
+          "answer": "Absolutely. Kliv gives you the flexibility to continuously update your application. As energy markets or regulations change, you can quickly modify logic, add new data sources, or introduce new features.",
+          "question": "Can I easily update my tool if electricity plans or market regulations change?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate energy management solution?",
+      "type": "cta",
+      "content": "Stop relying on limited, generic tools. Create an intelligent, custom energy comparison and contract management platform that truly empowers users."
+    }
+  ],
+  "title": "Electricity Comparison & Contract Management"
+}

@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a fishing tournament management system that allows captains to register teams, submit catches with photos and measurements, and displays a real-time leaderboard. It needs to handle different scoring rules for various species and have a secure admin panel.",
+  "description": "Build custom fishing tournament management software tailored to your specific competition rules and community needs.",
+  "hero": {
+    "cta": "Start managing tournaments",
+    "subtitle": "Streamline operations, engage anglers, and make your next fishing competition unforgettable with a custom-built solution.",
+    "title": "Build your own fishing tournament management system"
+  },
+  "metaDescription": "Create powerful fishing tournament management tools with Kliv. Handle registrations, live scoring, leaderboards, and rules with a custom application tailored for your event.",
+  "sections": [
+    {
+      "title": "Why build a custom fishing tournament app?",
+      "type": "text",
+      "content": "Running a successful fishing tournament involves countless details: registrations, fluctuating angler numbers, complex scoring, real-time leaderboards, and keeping participants engaged. Generic solutions often fall short, forcing you to adapt your event to rigid software or rely on manual, error-prone processes.\n\nKliv empowers you to design a system that precisely fits your tournament's unique rules, structure, and community. Imagine a platform built to your specifications, reducing administrative burden, enhancing transparency, and improving the overall experience for anglers and organizers alike."
+    },
+    {
+      "title": "The strategic advantage of custom tournament software",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nMany tournament organizers struggle with generic platforms that are:\n\n- **Inflexible**: Unable to accommodate unique scoring methods, species limits, or regional rules.\n- **Expensive**: Recurring fees, per-angler charges, and hidden costs add up, especially for non-profit or community events.\n- **Outdated**: Providing clunky interfaces, poor mobile experience, or lacking real-time updates.<br>\n- **Impersonal**: Offering no branding, lacking direct communication tools, or failing to capture the specific vibe of your event.\n\n## Why custom-built is the ultimate catch\n\nLeveraging platforms like Kliv to build your own system offers unparalleled benefits:\n\n### Adaptable to any rule set\nWhether it's catch-and-release, weight-based, length-based, multi-species, or intricate bonus points systems, your custom tool can be programmed to handle every nuance. No more manually calculating or disputing scores.\n\n### Cost-effective in the long run\nInvest once in a tool you own, eliminating recurring subscriptions and per-participant fees. This means more funds can go towards prizes, conservation efforts, or the general growth of your event.\n\n### Enhanced angler experience\nProvide your participants with a seamless registration process, easy catch submission, and real-time access to the leaderboard from their devices. A better experience attracts more participants and encourages repeat entries.\n\n### Data ownership and insights\nKeep all participant data, catch logs, and historical performance records securely in your system. This allows for deep analysis, identifying trends, and making data-driven decisions for future tournaments.\n\n### Unwavering reliability\nDesign your system with robust features to handle peak traffic during registration or weigh-ins, ensuring smooth operations even under pressure.\n\n## Real-world applications\n\nCustom tournament management systems are elevating various sporting events:\n\n**Local Fishing Clubs**: Managing weekly bass tournaments with specific lake rules, species limits, and angler-of-the-year standings.\n\n**Charity Derbies**: Handing sign-ups, donation tracking, catch submissions, and multi-category prize distribution for fundraising events.\n\n**Professional Circuits**: Offering advanced registration, live satellite-tracked vessel locations, AI-powered catch verification, and instant global leaderboards.\n\n**Youth Programs**: Creating simplified interfaces for young anglers, focusing on participation, educational content, and fun scoring mechanics.\n\n## The Kliv advantage in action\n\nBuilding sophisticated software used to require a team of developers. Kliv revolutionizes this by:\n\n- **Understanding your needs**: Describe your tournament rules and desired features in plain language.\n- **Accelerated development**: Go from concept to a working prototype in days, not months.\n- **Scalable architectures**: Build a system that can grow from a small local derby to a large regional championship.\n- **Integrated components**: Easily add features like payment processing, photo verification, or sponsor dashboards.\n\n## Step up your tournament game\n\nDon't let software limitations hold back your next fishing tournament. With Kliv's AI-assisted development, you can build a cutting-edge management system that stands out, delights participants, and simplifies your organizational tasks. It's time to build the tool that truly understands the spirit of your competition."
+    },
+    {
+      "title": "Tournament management ideas to get caught up on",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Streamline angler and team sign-ups with tiered pricing",
+          "prompt": "Create a tournament registration system that allows individual anglers and teams to sign up, select different entry categories (e.g., pro, amateur, youth), manage payment processing, and send automated confirmation emails.",
+          "title": "Angler & Team Registration Portal"
+        },
+        {
+          "description": "Automatically update ranks based on submitted catches",
+          "prompt": "Build a real-time leaderboard system that updates as anglers submit their catches via a mobile app. It needs to accommodate different scoring metrics (weight, length, points per species) and display top performers across multiple categories.",
+          "title": "Live Scoring & Leaderboard"
+        },
+        {
+          "description": "Simplify catch evidence submission and verification",
+          "prompt": "Develop a catch submission module where anglers can upload photos of their catch with rulers for measurement, enter species and weight, and have an administrator panel for quick verification and approval.",
+          "title": "Digital Catch Submission & Verification"
+        },
+        {
+          "description": "Manage specific fish types and their regulations",
+          "prompt": "Design a system to define and manage various fish species, their minimum/maximum lengths, daily limits, and specific scoring rules for each, ensuring compliance with tournament regulations.",
+          "title": "Species & Rule Configuration"
+        },
+        {
+          "description": "Track historical performance and share stats",
+          "prompt": "Create an archive where organizers can store past tournament results, analyze angler performance over time, and generate reports on catch data, participation trends, and prize distribution.",
+          "title": "Historical Data & Reporting"
+        },
+        {
+          "description": "Enhance communication between organizers and participants",
+          "prompt": "Build a central communication hub where organizers can send broadcast messages, updates, and emergency notifications to all registered anglers via SMS or in-app alerts, and also allow participants to submit inquiries.",
+          "title": "Event Communication System"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your tournament system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a module for sponsors to create profiles, display their logos, and link to their websites within the tournament portal.",
+          "title": "Integrate Sponsor Management"
+        },
+        {
+          "prompt": "Implement a feature allowing spectators and non-participants to view the live leaderboard and receive push notifications on key event updates.",
+          "title": "Frontend Spectator View"
+        },
+        {
+          "prompt": "Develop a map integration that shows live locations of registered boats during the tournament, respecting privacy settings.",
+          "title": "Live Boat Tracking (GPS)"
+        },
+        {
+          "prompt": "Include a waiver management system where participants can electronically sign liability waivers and release forms during registration.",
+          "title": "Digital Waiver & Release Forms"
+        },
+        {
+          "prompt": "Create an automated system to generate and distribute prizes based on leaderboard rankings at the tournament's conclusion.",
+          "title": "Automated Prize Distribution"
+        },
+        {
+          "prompt": "Add a photo gallery feature where participants can upload additional images of their catches which can be publicly shared (or moderated) after the tournament.",
+          "title": "Community Photo Gallery"
+        },
+        {
+          "prompt": "Incorporate a weather forecasting API to provide real-time weather updates and alerts to participants during the event.",
+          "title": "Weather Integration"
+        },
+        {
+          "prompt": "Add a messaging function allowing direct communication between event organizers and individual anglers or teams for private inquiries.",
+          "title": "Direct Messaging Feature"
+        },
+        {
+          "prompt": "Build a survey tool to collect feedback from participants after the tournament about their experience, the app, and suggestions for future events.",
+          "title": "Post-Tournament Survey System"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your tournament app",
+      "type": "features",
+      "items": [
+        {
+          "description": "Effortless online sign-ups for individuals and teams, with customizable categories and pricing.",
+          "icon": "📝",
+          "title": "Flexible Registration"
+        },
+        {
+          "description": "Instant updates of rankings and standings as catches are submitted and verified.",
+          "icon": "🏆",
+          "title": "Dynamic Leaderboards"
+        },
+        {
+          "description": "Anglers can easily submit catch photos, measurements, and details from any device.",
+          "icon": "📸",
+          "title": "Mobile Catch Submission"
+        },
+        {
+          "description": "Configure any scoring system, species limits, and unique rules specific to your tournament.",
+          "icon": "⚙️",
+          "title": "Custom Rule Engine"
+        },
+        {
+          "description": "Secure dashboard for organizers to manage participants, verify catches, and update event details.",
+          "icon": "🛡️",
+          "title": "Admin Control Panel"
+        },
+        {
+          "description": "Access historical tournament data for analysis, trend identification, and future event planning.",
+          "icon": "📈",
+          "title": "Analytics & Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, a basic tournament management system can be functional in a few days. More complex systems with advanced features might take a couple of weeks to fully implement and refine for your specific needs.",
+          "question": "How quickly can I build a working fishing tournament system?"
+        },
+        {
+          "answer": "No traditional coding experience is necessary. Kliv's platform allows you to describe your tournament's requirements and rules using natural language, and the AI assists in building the application accordingly.",
+          "question": "Do I need to be a programmer to build this type of application?"
+        },
+        {
+          "answer": "Absolutely. Your custom application can integrate with payment gateways for registration fees, email/SMS services for communication, and potentially mapping services for event locations.",
+          "question": "Can my custom tournament app integrate with third-party services?"
+        },
+        {
+          "answer": "You retain full ownership of the application logic and data. You can host it on your own server or a cloud provider of your choice, ensuring complete control and data privacy.",
+          "question": "Who owns the data and the application once it's built?"
+        },
+        {
+          "answer": "Building a custom application with Kliv is typically a one-time development investment. This often becomes significantly more cost-effective than continuous monthly or per-participant fees associated with commercial tournament software, especially for recurring events.",
+          "question": "How does the cost compare to off-the-shelf tournament software?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. You can always add new features, modify scoring rules, update the interface, or adapt it for different types of tournaments as your needs evolve.",
+          "question": "Is it possible to modify or expand the system after it's initially built?"
+        },
+        {
+          "answer": "You control the security measures. Since you own the code and choose the hosting, you can implement robust security protocols, data encryption, and access controls tailored to protect participant information and tournament integrity.",
+          "question": "How secure will my custom fishing tournament application be?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance throughout the development process, including suggestions for features, logic refinement, and troubleshooting. You're never alone in building your ideal tournament management solution.",
+          "question": "What kind of support is available during the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to cast your line into custom development?",
+      "type": "cta",
+      "content": "Stop settling for generic tournament software. Build a system that perfectly matches your event's unique rhythm and scale."
+    }
+  ],
+  "title": "Fishing tournament management"
+}

@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a task management application with an AI assistant that can help me prioritize tasks, break down complex projects, and remind me of deadlines.",
+  "description": "Build custom task and to-do management tools with an integrated AI assistant using Kliv.dev's platform.",
+  "hero": {
+    "cta": "Start Building Your AI Assistant",
+    "subtitle": "Go beyond basic to-do lists. Create intelligent task management tools that adapt to your workflow and provide AI-powered assistance for maximum productivity.",
+    "title": "Build Your Own AI-Powered Task Manager"
+  },
+  "metaDescription": "Create highly personalized task and to-do management applications augmented with AI assistants using Kliv.dev. Boost productivity, prioritize effectively, and automate routine tasks.",
+  "sections": [
+    {
+      "title": "Why build your own AI-powered task manager?",
+      "type": "text",
+      "content": "In a world flooded with generic productivity apps, off-the-shelf task managers often fall short. They either dictate how you work, lack deep customization, or offer AI only as a superficial add-on. The true power of an AI assistant comes when it intimately understands your unique workflow, priorities, and habits.\n\nWith Kliv.dev, you're not just getting another app; you're building a bespoke productivity partner. Imagine a task manager that learns from your behavior, helps you focus, and even drafts follow-up emails for you. This level of personalized intelligence is only possible when you own and evolve the underlying system."
+    },
+    {
+      "title": "The case for a custom intelligent task management system",
+      "type": "markdown",
+      "content": "## The limitations of current solutions\n\nExisting task management applications, even those with AI features, often present significant roadblocks:\n\n- **Generic AI**: Their AI provides generalized advice, not personalized insights relevant to your specific projects.\n- **Rigid Structures**: Many force you into predefined task hierarchies or project methodologies, rather than adapting to your natural working style.\n- **Data Silos**: Your tasks, notes, and AI interactions are often isolated, preventing a holistic view of your productivity.\n- **Feature Overload/Underload**: You either pay for dozens of features you'll never use, or you find critical functionalities missing.\n- **Subscription Fatigue**: Continuous monthly fees for tools that don't quite fit your needs.\n\n## Why custom-built with AI is the future of productivity\n\nLeveraging Kliv.dev allows you to transcend these limitations and build a task manager that is truly an extension of your mind and workflow:\n\n### Hyper-personalization\nDesign an AI that learns your specific context, project types, and even your energy levels. It can prioritize tasks based on your actual availability, not just a static deadline.\n\n### Integrated AI Assistant\nBeyond simple reminders, your AI can help you:\n- **Break down complex goals** into actionable steps.\n- **Draft outlines** for projects based on task descriptions.\n- **Suggest optimal times** for deep work based on your calendar and historical data.\n- **Automate routine follow-ups** or report generation from completed tasks.\n\n### Data Ownership & Privacy\nKeep your sensitive project data and personal productivity patterns secure. You dictate storage and access, not a third-party vendor.\n\n### Cost Efficiency\nInvest once in a tool that grows with you. Avoid recurring subscription fees that escalate with added features or users.\n\n### Seamless Integration\nConnect your task manager directly to your email, calendar, communication tools, and even custom business systems for a unified productivity hub.\n\n## Real-world applications of intelligent task management\n\nImagine the possibilities with a custom AI-powered task manager:\n\n**For Solo Professionals**: A system that analyzes your client deadlines, helps draft proposals, and reminds you to follow up with leads, all while managing your personal to-dos and learning your work rhythms.\n\n**For Project Managers**: Auto-generates project plans from high-level goals, assigns tasks, identifies potential bottlenecks before they occur, and synthesizes progress reports for stakeholders.\n\n**For Students**: Prioritizes assignments across multiple courses, suggests study schedules based on exam dates, and helps break down large research papers into manageable sections, even suggesting research topics.\n\n**For Sales Teams**: Manages prospect follow-ups, drafts personalized email templates based on CRM data, schedules call backs, and analyzes lead interaction history to suggest next steps.\n\n## The Kliv.dev advantage\n\nBuilding an intelligent task manager used to require a team of developers and data scientists. Kliv.dev makes it accessible:\n\n- **Low-code/No-code AI**: Describe the AI assistant's desired behavior in plain language.\n- **Pre-built Templates**: Start with robust foundations for common task management features.\n- **Flexible APIs**: Easily connect to external services for calendar, email, and CRM integration.\n- **Scalable Architecture**: Your personal productivity tool can scale to manage team projects as your needs evolve.\n\nDon't settle for off-the-shelf. Build the ultimate productivity partner that truly understands you."
+    },
+    {
+      "title": "AI-Powered Task Management Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "An AI-powered daily planner that prioritizes tasks based on deadlines and estimated effort.",
+          "prompt": "Create a smart daily planner that uses AI to prioritize my tasks. It should consider deadlines, estimated time needed, and my energy levels throughout the day (which I can input). It should also suggest breaks.",
+          "title": "Smart Daily Planner with Energy-Aware AI"
+        },
+        {
+          "description": "A project breakdown tool that uses AI to split large projects into actionable sub-tasks.",
+          "prompt": "Build a project management tool where I can enter high-level goals, and an AI assistant breaks them down into detailed, actionable sub-tasks with estimated timelines. It should also identify potential dependencies.",
+          "title": "AI Project Decomposition Engine"
+        },
+        {
+          "description": "A proactive reminder system that uses AI to determine the best time to send notifications.",
+          "prompt": "Develop an intelligent reminder system that learns my habits and context to send reminders optimally. For example, it shouldn't remind me of grocery shopping when I'm at work, but when I'm leaving the office or near a store.",
+          "title": "Context-Aware AI Reminder"
+        },
+        {
+          "description": "A meeting preparation tool with AI that summarizes past interactions and suggests agenda items.",
+          "prompt": "Design a tool that integrates with my calendar and CRM. Before a meeting, an AI assistant summarizes relevant past interactions with attendees, suggests key discussion points, and even drafts a meeting agenda.",
+          "title": "AI Meeting Prep & Agenda Builder"
+        },
+        {
+          "description": "A personal knowledge management system that links tasks to relevant notes and documents.",
+          "prompt": "Build a personal knowledge management system where I can link tasks to notes, documents, and web articles. An AI should be able to retrieve relevant information based on the task context and suggest related topics.",
+          "title": "AI-Linked Task & Knowledge Hub"
+        },
+        {
+          "description": "An AI coach that analyzes your completed tasks and suggests productivity improvements.",
+          "prompt": "Create a productivity coach AI that analyzes my completed tasks, how long they took, and my stated goals. It should provide weekly insights on my productivity patterns and suggest areas for improvement and new habits.",
+          "title": "AI Productivity Coach"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your AI Task Manager",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with specific project management software (like Jira or Asana) to import and export tasks.",
+          "title": "Connect to Existing PM Tools"
+        },
+        {
+          "prompt": "Add a feature where the AI can draft emails or messages based on task completion or remaining work.",
+          "title": "AI-Powered Communication Drafts"
+        },
+        {
+          "prompt": "Implement a voice interface for adding tasks, asking questions of the AI, and getting updates.",
+          "title": "Voice Command Integration"
+        },
+        {
+          "prompt": "Build a dashboard that visualizes AI-generated productivity reports and insights over time.",
+          "title": "Enhanced Analytics Dashboard"
+        },
+        {
+          "prompt": "Add capabilities for the AI to learn and adapt prioritization rules based on user feedback and past behavior.",
+          "title": "Adaptive AI Prioritization"
+        },
+        {
+          "prompt": "Develop a Chrome extension or desktop app for quick task capture from any application or website.",
+          "title": "Browser/Desktop Integration"
+        },
+        {
+          "prompt": "Add multi-user and team collaboration features, allowing shared projects and AI delegation.",
+          "title": "Team Collaboration Features"
+        },
+        {
+          "prompt": "Create custom prompts for specific AI assistant functionalities (e.g., 'Draft a project summary', 'Brainstorm ideas for X').",
+          "title": "Custom AI Prompt Templates"
+        },
+        {
+          "prompt": "Include gamification elements like progress bars, streaks, and achievement badges to motivate users.",
+          "title": "Gamification Elements"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Intelligent Task Manager",
+      "type": "features",
+      "items": [
+        {
+          "description": "AI-driven prioritization that adapts to your goals, deadlines, and personal work patterns.",
+          "icon": "🧠",
+          "title": "Adaptive AI Prioritization"
+        },
+        {
+          "description": "Sophisticated AI assistant to help break down tasks, suggest next steps, and analyze progress.",
+          "icon": "🤖",
+          "title": "Conversational AI Assistant"
+        },
+        {
+          "description": "Customizable task views (lists, kanban, calendar) to match any workflow.",
+          "icon": "📊",
+          "title": "Flexible Task Views"
+        },
+        {
+          "description": "Seamless integration with your email, calendar, and other productivity tools.",
+          "icon": "🔌",
+          "title": "Cross-Platform Sync"
+        },
+        {
+          "description": "Smart notifications that learn your context to deliver reminders at the optimal time.",
+          "icon": "⏰",
+          "title": "Context-Aware Reminders"
+        },
+        {
+          "description": "Generate insightful reports on your productivity, bottlenecks, and completed milestones.",
+          "icon": "📈",
+          "title": "AI-Powered Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building on Kliv.dev",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom AI-powered task manager can take anywhere from a few hours for a basic prototype to several days for a sophisticated system with numerous integrations. Kliv.dev significantly accelerates the development process.",
+          "question": "How long will it take to build my own AI task manager?"
+        },
+        {
+          "answer": "You do not need to be a coding expert. Kliv.dev's platform allows you to describe your desired functionalities using natural language. The AI translates your vision into a working application.",
+          "question": "Do I need any programming skills to build this?"
+        },
+        {
+          "answer": "Yes, your custom task manager can integrate with popular services like Google Calendar, Outlook, Slack, Trello, Salesforce, and many more, often via their APIs.",
+          "question": "Can my custom task manager integrate with other apps I use?"
+        },
+        {
+          "answer": "You fully own all the data, the application logic, and the code generated. Kliv.dev empowers you to create and control your intellectual property, ensuring your privacy and flexibility.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "While there's an initial investment in building, a custom solution built with Kliv.dev eliminates recurring subscription fees. Over time, it's typically far more cost-effective than continuous monthly payments for off-the-shelf software.",
+          "question": "Is building my own solution more expensive than buying an existing one?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the ability to continuously evolve your application. You can add new features, fine-tune existing ones, and change the AI's behavior as your needs grow and change.",
+          "question": "Can I modify or expand my task manager after it's built?"
+        },
+        {
+          "answer": "You control the hosting environment and data security protocols, which can often lead to a more secure solution than relying on third-party vendors' varying security standards.",
+          "question": "How secure is a custom-built AI task manager?"
+        },
+        {
+          "answer": "Kliv.dev provides robust documentation, community support, and AI-driven assistance during the building process. For complex needs, professional support services are also available.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform your productivity?",
+      "type": "cta",
+      "content": "Stop conforming to generic apps. Start building an intelligent task manager that truly elevates your personal and professional efficiency. Your custom AI assistant awaits."
+    }
+  ],
+  "title": "AI-Powered Task & To-Do Management"
+}

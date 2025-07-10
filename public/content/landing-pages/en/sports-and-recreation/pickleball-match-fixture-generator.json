@@ -1,0 +1,155 @@
+{
+  "defaultPrompt": "Create a pickleball match fixture generator that allows users to input player names, court availability, and generate balanced match schedules for round-robin tournaments, ensuring equitable play time and varied opponents.",
+  "description": "Design and build custom pickleball match generators and league management tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Generate your first fixture",
+    "subtitle": "Stop wasting time meticulously planning every match. Build intelligent applications that simplify pickleball league and tournament management, ensuring fair play and dynamic matchups.",
+    "title": "Build your own Pickleball Match Fixture Generator"
+  },
+  "metaDescription": "Create powerful, custom pickleball match fixture generators and league management software with Kliv. Automate court assignments, player pairings, and fair schedule creation for any size event.",
+  "sections": [
+    {
+      "title": "The Challenge of Manual Matchmaking",
+      "type": "text",
+      "content": "Organizing pickleball matches, especially for leagues, social play, or tournaments, often involves tedious manual efforts. Balancing skill levels, ensuring varied opponents, managing court availability, and distributing play time fairly can quickly become a complex, time-consuming task.\n\nGeneric spreadsheet solutions fall short, lacking the intelligence to optimize pairings or adapt to real-time changes. Off-the-shelf software can be expensive, rigid, and might not cater to the specific rules or preferences of your community.\n\nWhat if you could build a tool that understands your group's unique needs, automates the scheduling, and helps everyone focus on playing, not planning?"
+    },
+    {
+      "title": "Why Build Your Own Pickleball Match Generator?",
+      "type": "markdown",
+      "content": "## Escape the Spreadsheet Trap and SaaS Limitations\n\nMany pickleball organizers juggle complex schedules using manual methods or generic software, leading to frustration and inefficiencies. This often means:\n\n-   **Unfair Play**: Some players get more court time, or always play with the same partners/opponents.\n-   **Tedious Planning**: Hours spent building schedules, only for them to fall apart with last-minute changes.\n-   **Limited Flexibility**: Off-the-shelf tools don't adapt to your unique league rules, court configurations, or player preferences.\n-   **Subscription Burnout**: Recurring costs for features you partly use, or critical features you lack.\n\n## The Unbeatable Advantages of Custom-Built Solutions\n\nBuilding your own pickleball match fixture generator with Kliv isn't just about escaping these problems; it's about gaining a competitive edge and providing a superior experience for your community.\n\n### Tailored to Your Rules, Not Someone Else's\nEvery pickleball group, club, or league has unique dynamics. Your tool can account for:\n-   Specific court rotation rules (e.g., King of the Court, challenge ladders)\n-   Player skill ratings (e.g., DUPR, in-house ratings) for balanced matches\n-   Preferred partners or 'can't play with' lists\n-   Custom break times or round lengths\n\n### Optimize for Fairness and Fun\nA custom algorithm can prioritize:\n-   **Equal Playing Time**: Ensure everyone gets a fair share of court time.\n-   **Varied Opponents**: Mix up pairings to promote social interaction and diverse play styles.\n-   **Skill Balancing**: Create competitive yet fair matches by distributing skill levels across courts.\n\n### Cost-Effectiveness and Ownership\nUnlike recurring SaaS subscriptions that drain your budget indefinitely, a custom solution is a one-time build that you own. You invest once and get a tool perfectly suited to your needs for years to come, without ongoing fees for features you don't use.\n\n### Dynamic Adaptability\nPlayer no-shows or last-minute sign-ups? Your custom tool can be designed to dynamically re-generate fixtures on the fly, minimizing disruptions and maximizing court utilization. No more scrambling with pen and paper.\n\n### Enhanced Player Experience\nA well-organized, transparent, and fair scheduling system leads to happier players who feel their time is valued. This can boost participation, retention, and the overall enjoyment of your pickleball events.\n\n## How AI Transforms the Build Process\n\nBuilding sophisticated scheduling algorithms used to require deep programming knowledge. Kliv's AI platform changes that:\n-   **Natural Language Instructions**: Describe your desired features in plain English.\n-   **Rapid Prototyping**: See a functional system emerge quickly, allowing for immediate feedback.\n-   **Intelligent Logic Generation**: The AI helps design complex pairing and scheduling logic.\n-   **Iterative Improvement**: Easily refine and add new capabilities as your needs evolve.\n\nInvest in a solution that truly serves your pickleball community. Build a custom match fixture generator that makes organizing a breeze and playing pure fun."
+    },
+    {
+      "title": "Pickleball Generator Ideas to Get Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Generate fair round-robin schedules for social play.",
+          "prompt": "Build a simple pickleball match generator that takes a list of players and available courts, then generates a round-robin schedule ensuring each player plays with and against varied opponents over multiple rounds.",
+          "title": "Social Play Rotations"
+        },
+        {
+          "description": "Automate court assignments for open play with skill balancing.",
+          "prompt": "Create an open play manager that accepts player sign-ins (including self-reported skill levels), assigns players to courts matching similar skill levels, and rotates players off courts after a set number of points or games, while maintaining balanced groups.",
+          "title": "Open Play & Skill Balancing"
+        },
+        {
+          "description": "Manage a DUPR-rated league with automated ranking adjustments.",
+          "prompt": "Develop a league management tool that allows players to register with their DUPR ratings, automatically generates weekly schedules based on rating groups, tracks match results, and updates player win/loss records within the system.",
+          "title": "Competitive League Scheduler"
+        },
+        {
+          "description": "Visualize court usage and player activity over time.",
+          "prompt": "Design a dashboard application that visualizes real-time court availability, shows current matches in progress, and provides historical data on court utilization and player participation trends.",
+          "title": "Court & Player Analytics"
+        },
+        {
+          "description": "A system for players to self-organize ad-hoc matches.",
+          "prompt": "Build a 'Challenge Board' application where players can post availability and challenge requests, and other players can accept, automatically forming ad-hoc matches and reserving courts if integrated.",
+          "title": "Ad-Hoc Match Organizer"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Fixture Generator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate player self-registration with email verification and profile management.",
+          "title": "Player self-registration and profiles"
+        },
+        {
+          "prompt": "Add a feature to send automated SMS or email notifications to players regarding their upcoming matches, court assignments, and schedule changes.",
+          "title": "Automated Player Notifications"
+        },
+        {
+          "prompt": "Implement a public-facing page where players can view current and upcoming schedules.",
+          "title": "Public Schedule View"
+        },
+        {
+          "prompt": "Add functionality for administrators and players to report match scores directly into the system, which then updates standings.",
+          "title": "Real-time Score Reporting"
+        },
+        {
+          "prompt": "Enable players to set 'prefer to play with/against' or 'cannot play with' preferences, and have the generator try to accommodate these in scheduling.",
+          "title": "Player Preferences & Constraints"
+        },
+        {
+          "prompt": "Develop a system to manage multiple pickleball courts, allowing administrators to mark courts as unavailable for maintenance or other reasons, which the scheduling algorithm then accounts for.",
+          "title": "Multi-court Management"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Pickleball Tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Input player lists, skill ratings, and specific availability.",
+          "icon": "👨‍👩‍👧‍👦",
+          "title": "Player Management"
+        },
+        {
+          "description": "Define courts, availability times, and special conditions.",
+          "icon": "🏟️",
+          "title": "Court Configuration"
+        },
+        {
+          "description": "Advanced algorithms for fair player pairing and court assignment.",
+          "icon": "🧠",
+          "title": "Intelligent Matchmaking"
+        },
+        {
+          "description": "Generate optimized round-robin, ladder, or knockout schedules.",
+          "icon": "📅",
+          "title": "Automated Fixture Generation"
+        },
+        {
+          "description": "Handle last-minute changes, player no-shows, or late arrivals dynamically.",
+          "icon": "♻️",
+          "title": "Dynamic Rescheduling"
+        },
+        {
+          "description": "Track standings, individual stats, and league progress.",
+          "icon": "🏆",
+          "title": "Score Tracking & Standings"
+        }
+      ]
+    },
+    {
+      "title": "Common Questions About Building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic pickleball match generator can be up and running within a day. More complex systems with advanced features like DUPR integration or real-time score updates might take a few days to a week, depending on complexity and iterative refinement.",
+          "question": "How quickly can I build a functional pickleball fixture generator?"
+        },
+        {
+          "answer": "No coding is required. You describe the features, rules, and logic for your pickleball tool in natural language, and Kliv's AI assists in generating the application. It translates your vision into a working application.",
+          "question": "Do I need to be a programmer to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with external APIs for services like SMS notifications, DUPR for player ratings, or even payment systems if you want to manage league fees.",
+          "question": "Can my custom pickleball app integrate with other services or platforms?"
+        },
+        {
+          "answer": "You retain full ownership of the application code and data. Kliv helps you build it, but the resulting tool is yours to host, modify, and manage as you see fit.",
+          "question": "Who owns the match generator application once it's built?"
+        },
+        {
+          "answer": "Building a custom application with Kliv is typically a one-time investment. This often proves more cost-effective in the long run compared to recurring subscription fees for off-the-shelf software, especially if your needs are specific or evolve over time.",
+          "question": "Is building a custom solution more expensive than using existing pickleball software?"
+        },
+        {
+          "answer": "Absolutely. The beauty of a custom application is its flexibility. You can easily add new features, adjust algorithms, or modify the user interface as your club grows or your league rules change, without being limited by a vendor's update cycle.",
+          "question": "Can I modify or expand my pickleball match generator after it's initially created?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Master Your Pickleball Scheduling?",
+      "type": "cta",
+      "content": "Take control of your pickleball events. Design and deploy a powerful match fixture generator that perfectly fits your league, club, or social group."
+    }
+  ],
+  "title": "Pickleball Match Fixture Generator"
+}

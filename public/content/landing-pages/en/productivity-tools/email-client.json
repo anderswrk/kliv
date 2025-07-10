@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a custom email client that prioritizes messages, integrates with my CRM, and has a clean, minimalist interface.",
+  "description": "Build a custom email client tailored to your exact productivity needs using Kliv's AI platform.",
+  "hero": {
+    "cta": "Build Your Email Client",
+    "subtitle": "Tired of generic email clients? Design and deploy your own, perfectly suited to your workflow, with Kliv's AI-powered development.",
+    "title": "Create Your Own Custom Email Client"
+  },
+  "metaDescription": "Design and build a personalized email client with Kliv. Integrate desired features, enhance productivity, and control your communication environment.",
+  "sections": [
+    {
+      "title": "Why Settle for Off-the-Shelf Email Clients?",
+      "type": "text",
+      "content": "For many, email is the central hub of their work. Yet, most email clients force you to adapt to their features, clutter, and limitations. Standard clients are built for the masses, not for the focused professional, specific team, or niche business. This often leads to wasted time, missed opportunities, and digital fatigue.\n\nImagine an email experience without irrelevant features, with deeply integrated workflows, and a user interface designed precisely for how *you* work. With Kliv, you can move beyond compromise and build the communication tool you actually need."
+    },
+    {
+      "title": "The Strategic Advantage of a Bespoke Email Client",
+      "type": "markdown",
+      "content": "## The Limitations of Generic Email Clients\n\nExisting email clients often fall short in critical areas:\n\n- **Feature Bloat**: Overwhelmed by features you never use?\n- **Lack of Customization**: Can't mold the UI or workflow to your unique habits?\n- **Integration Gaps**: Struggling to link email with your specific CRM, project management tool, or internal systems?\n- **Privacy Concerns**: Worried about data handling by third-party providers?\n- **Performance Issues**: Slow loading times or clunky interfaces hindering your speed?\n\n## Why Build Your Own?\n\nBuilding a custom email client with Kliv gives you unparalleled control and efficiency:\n\n### Hyper-Tailored Workflow\nDesign an interface and feature set that eliminates distractions and focuses purely on what matters to you. Integrate custom rules for inbox prioritization, automated replies, or specialized archiving.\n\n### Seamless System Integration\nConnect directly with your specific business applications. Pull customer data from your CRM into email, link messages to project tasks automatically, or trigger follow-ups based on email content — all within a single application.\n\n### Enhanced Data Security and Privacy\nHost your email client on your own infrastructure if desired, giving you complete sovereignty over your communication data. No more relying on third-party security protocols.\n\n### Optimized Performance\nBy cutting out unneeded features and optimizing for your specific use cases, your custom client can be significantly faster and more responsive.\n\n### Cost Efficiency in the Long Run\nAvoid recurring subscription fees for multiple tools. A custom solution built once on Kliv means long-term savings and a tool that continuously serves your evolving needs without additional per-user costs.\n\n### Future-Proofing\nYour business evolves, and so should your tools. With full ownership of the codebase, you can adapt your email client as your requirements change, adding new features or integrating with future technologies effortlessly.\n\n## Real-World Applications\n\nCustom email clients aren't just for tech giants. Here's how businesses are benefiting:\n\n- **Sales Teams**: An email client integrated directly with a custom CRM, allowing quick contact lookup, deal stage updates, and automated follow-up scheduling from within emails.\n- **Customer Support**: A client that automatically triages support tickets based on keywords, links directly to customer profiles, and suggests relevant knowledge base articles.\n- **Legal Firms**: A secure email client with built-in compliance checks, advanced e-discovery features, and automated document generation based on email content.\n- **Marketing Agencies**: An email client that tracks campaign engagement (opens, clicks), segments leads based on email interactions, and automatically adds contacts to drip campaigns.\n\n## The Kliv Advantage for Email Clients\n\nKliv leverages AI to make complex application development accessible. Describe your ideal email client, and Kliv helps you build it, accelerating development from months to days or even hours. Focus on *what* you want your client to do, not *how* to code it."
+    },
+    {
+      "title": "Email Client Ideas to Spark Your Imagination",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A focused email client for sales professionals with direct CRM integration.",
+          "prompt": "Create an email client that integrates with Salesforce, automatically logs emails to contact records, and allows users to update opportunity stages directly from the inbox.",
+          "title": "Sales-Optimized Inbox"
+        },
+        {
+          "description": "An email client designed for project teams with built-in task management.",
+          "prompt": "Build an email client where users can convert emails into project tasks in Jira, assign them to team members, and track status updates directly within the email interface.",
+          "title": "Project-Centric Inbox"
+        },
+        {
+          "description": "A privacy-focused client with robust encryption and data control.",
+          "prompt": "Develop a secure email client with end-to-end encryption, self-destructing messages, and the ability to store attachments only on a private cloud server.",
+          "title": "Secure Communication Hub"
+        },
+        {
+          "description": "A minimalist client for deep work, stripping away all distractions.",
+          "prompt": "Design an email client with a highly minimalist interface, 'focus mode' to hide all non-essential elements, and advanced filtering to only show high-priority emails during specific times.",
+          "title": "Distraction-Free Workspace"
+        },
+        {
+          "description": "Capture key data from emails and populate databases automatically.",
+          "prompt": "Build an email client that uses AI to extract specific data points (e.g., order numbers, names, addresses) from incoming emails and automatically populates corresponding fields in a custom database or spreadsheet.",
+          "title": "Data Extraction & Entry Client"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for Your Bespoke Email Client",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a customizable dashboard showing email analytics like response times and busiest hours.",
+          "title": "Analytics Dashboard"
+        },
+        {
+          "prompt": "Integrate a calendar view where users can drag and drop emails to create events or tasks.",
+          "title": "Calendar Integration"
+        },
+        {
+          "prompt": "Implement AI-powered smart replies that learn from user's past responses.",
+          "title": "AI-Powered Smart Replies"
+        },
+        {
+          "prompt": "Add an 'undo send' feature with a customizable delay.",
+          "title": "Undo Send Functionality"
+        },
+        {
+          "prompt": "Develop a plugin architecture to allow users to add their own custom tools and integrations.",
+          "title": "Extensible Plugin System"
+        },
+        {
+          "prompt": "Integrate video conferencing capabilities directly into email threads.",
+          "title": "Video Call Integration"
+        },
+        {
+          "prompt": "Add a feature for creating and managing email templates, with dynamic fields.",
+          "title": "Template Management"
+        }
+      ]
+    },
+    {
+      "title": "Core Capabilities of a Custom Email Client",
+      "type": "features",
+      "items": [
+        {
+          "description": "Personalize the user interface, layout, and theme to match your preferences.",
+          "icon": "✨",
+          "title": "Flexible UI/UX"
+        },
+        {
+          "description": "Connect seamlessly with internal databases, CRMs, and external APIs.",
+          "icon": "🔗",
+          "title": "Deep Integrations"
+        },
+        {
+          "description": "Set up custom rules and AI models for inbox prioritization and automated actions.",
+          "icon": "🧠",
+          "title": "Intelligent Triage"
+        },
+        {
+          "description": "Implement advanced search with natural language processing and custom filters.",
+          "icon": "🔍",
+          "title": "Powerful Search"
+        },
+        {
+          "description": "Create custom labels, folders, and archiving rules specific to your needs.",
+          "icon": "🗂️",
+          "title": "Custom Organization"
+        },
+        {
+          "description": "Ensure your data remains private with customizable encryption and hosting options.",
+          "icon": "🔒",
+          "title": "Enhanced Security"
+        }
+      ]
+    },
+    {
+      "title": "Building Your Email Client with Kliv: FAQs",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The time varies based on complexity, but a functional prototype can often be ready in a day, with a full-featured client taking a few days to weeks depending on custom integrations and advanced features.",
+          "question": "How long does it take to build a custom email client?"
+        },
+        {
+          "answer": "No coding experience is required. Kliv's platform allows you to describe your desired functionalities in plain language, and the AI assists in generating the underlying code and structure.",
+          "question": "Do I need to be a programmer to build this?"
+        },
+        {
+          "answer": "Absolutely. Kliv-built applications are designed for integration. You can connect your custom email client to virtually any system with an API, including popular CRMs, project management tools, and cloud storage services.",
+          "question": "Can my custom email client integrate with other business tools?"
+        },
+        {
+          "answer": "With Kliv, you own the intellectual property and can host your application wherever you choose, including private servers, giving you complete control over data security and privacy.",
+          "question": "Who owns the data and the application after it's built?"
+        },
+        {
+          "answer": "While there's an initial development cost, custom solutions eliminate recurring per-user SaaS fees and allow you to build exactly what you need without paying for unused features, leading to significant long-term savings.",
+          "question": "Is building a custom email client more expensive than using a ready-made solution?"
+        },
+        {
+          "answer": "Yes, you have full control to modify, update, and add new features to your custom email client as your business needs evolve, without vendor lock-in.",
+          "question": "Can I modify my email client after it’s created?"
+        },
+        {
+          "answer": "Yes, Kliv’s platform supports building cross-platform applications, so your custom email client can be designed to work seamlessly on desktop, web, and mobile devices.",
+          "question": "Can the custom email client work on multiple devices (desktop, mobile)?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Reclaim Your Inbox?",
+      "type": "cta",
+      "content": "Stop letting your email client dictate your workflow. Build the ultimate productivity tool tailored precisely for you."
+    }
+  ],
+  "title": "Custom Email Client Builder"
+}

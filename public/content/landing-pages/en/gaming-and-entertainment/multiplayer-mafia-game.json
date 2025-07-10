@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "Create a multiplayer online mafia game with roles, chat, voting, and a game master interface.",
+  "description": "Develop custom multiplayer social deduction games like Mafia with dynamic roles, real-time communication, and flexible game mechanics.",
+  "hero": {
+    "cta": "Build Your Social Deduction Game",
+    "subtitle": "Unleash your creativity and build custom online multiplayer social deduction games tailored to your vision.",
+    "title": "Create Your Own Online Mafia Game"
+  },
+  "metaDescription": "Build custom online multiplayer social deduction games, like Mafia, Werewolf, or custom role-playing scenarios, with Kliv's AI-powered platform. Design unique roles, rules, and game experiences.",
+  "sections": [
+    {
+      "title": "The Challenge of Generic Social Deduction Games",
+      "type": "text",
+      "content": "In the world of social deduction games like Mafia or Werewolf, players crave unique experiences, custom roles, and specific rule sets. Off-the-shelf apps often fall short, offering limited customization, generic gameplay, and a 'one-size-fits-all' approach. This can stifle creativity and limit the depth of player interaction.\n\nBuilding your own game allows you to craft the exact experience your players desire, from intricate role interactions to custom victory conditions, making your game stand out in a crowded market."
+    },
+    {
+      "title": "Why Build Your Own Multiplayer Social Deduction Game?",
+      "type": "markdown",
+      "content": "For dedicated fans and creators in the social deduction genre, generic applications present significant limitations. Here’s why building your own with Kliv offers a superior alternative:\n\n## Unmatched Customization\n\nExisting platforms often force you into predefined roles, limited scripts, and rigid rule sets. A custom-built game, however, grants you:\n\n- **Unique Roles and Abilities**: Design roles like 'The Gravedigger' who knows who died last night, 'The Informant' who can glean secrets, or 'The Doppelganger' who takes on another's role upon their death. Your imagination is the only limit.\n- **Flexible Game Mechanics**: Implement custom voting systems (e.g., weighted votes, public/private), custom phases (e.g., 'Investigation Phase', 'Trial Phase'), and unique conditions for winning or losing.\n- **Personalized Themes**: Move beyond standard 'Mafia' or 'Werewolf' themes to create 'Cyberpunk Infiltrators', 'Fantasy Guild Conspiracies', or 'Space Station Saboteurs'.\n\n## Player Engagement and Community Building\n\nGeneric apps rarely foster a strong sense of community. A custom game, however, can be built with community in mind:\n\n- **Integrated Communication Features**: Include custom in-game chat, private messaging for specific roles, or even voice chat integration.\n- **Moderation Tools**: Provide game masters with robust tools for managing games, enforcing rules, and handling player disputes.\n- **Replayability**: With endless role combinations and rule tweaks, your game can offer a fresh experience every time, encouraging players to return.\n\n## Cost-Effectiveness and Ownership\n\nWhile some platforms charge for expanded features or custom content, building your own application with Kliv is a one-time investment that gives you full ownership:\n\n- **No Recurring Fees**: Avoid subscription models for features that should be core to your game.\n- **Full Control**: You own the code and the intellectual property. Modify, expand, and distribute your game as you see fit.\n\n## Simplified Development with AI\n\nTraditionally, building a real-time multiplayer game was a complex undertaking requiring extensive coding knowledge. Kliv’s AI-powered platform changes this:\n\n- **Natural Language Design**: Describe your game mechanics, roles, and UI elements in plain English.\n- **Rapid Prototyping**: See your game come to life quickly, allowing for immediate testing and iteration.\n- **Scalable Architecture**: The AI helps generate robust backend code capable of handling multiple concurrent games and players.\n\nBy leveraging Kliv, you're not just building a game; you're building a unique, engaging, and fully customizable social experience that can captivate players for hours."
+    },
+    {
+      "title": "Social Deduction Game Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A classic Mafia game with custom roles like 'Doctor', 'Detective', 'Godfather', and 'Serial Killer'.",
+          "prompt": "Create an online multiplayer social deduction game. It should feature a town vs. mafia setup. Roles include Townspeople, Mafia, Doctor (heals one person per night), Detective (investigates one person per night), and a Godfather (immune to first kill). Implement day and night phases, voting for lynching, and a simple text chat.",
+          "title": "Classic Mafia with Custom Roles"
+        },
+        {
+          "description": "A Werewolf variant focusing on character traits and hidden alliances.",
+          "prompt": "Develop an online game similar to Werewolf, but centered around a medieval village. Introduce roles like 'Seer', 'Hunter', 'Villager', and 'Werewolf'. Add a 'Full Moon' event that changes game dynamics and requires players to use special items.",
+          "title": "Medieval Werewolf with Events"
+        },
+        {
+          "description": "A futuristic game where players uncover robot saboteurs on a spaceship.",
+          "prompt": "Design a sci-fi social deduction game. Players are crew members on a space station, some are human and some are AI saboteurs masquerading as humans. Implement tasks for humans to complete, and sabotage actions for AIs. Include an 'emergency meeting' button for discussions and voting.",
+          "title": "Sci-Fi Space Sabotage"
+        },
+        {
+          "description": "A game themed around a fantasy kingdom, with different magical factions.",
+          "prompt": "Build a fantasy-themed social deduction game set in a magical academy. Factions include 'Light Mages' (innocent), 'Shadow Mages' (evil), and 'Neutral Alchemists' (win by specific conditions). Roles have unique spells or abilities that can be used during night phases. Focus on strategic alliances.",
+          "title": "Fantasy Magic Academy Intrigue"
+        },
+        {
+          "description": "A flexible framework for game masters to design and run custom scenarios.",
+          "prompt": "Create an online game master (GM) tool for social deduction. The GM can define custom roles, assign them to players, set up phases (discussion, action, revelation), and manually advance the game. Players join via a unique room code and only see information relevant to their role. Include public and private GM-controlled chat channels.",
+          "title": "Game Master Sandbox Tool"
+        },
+        {
+          "description": "A horror-themed game in a haunted mansion, with spirits possessing players.",
+          "prompt": "Develop a horror social deduction game where players are guests in a haunted mansion. Some players are secretly 'possessed' by malevolent spirits. Spirits try to eliminate guests, while guests try to perform a ritual. Introduce 'fear' mechanics that affect player actions and perception. Dynamic lighting or sound effects should be configurable.",
+          "title": "Haunted Mansion Mystery"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Game with Advanced Features",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication system so players can create accounts, track stats, and save their favorite custom game settings.",
+          "title": "Implement User Accounts & Profiles"
+        },
+        {
+          "prompt": "Integrate real-time voice chat for in-game communication, with options for push-to-talk and proximity chat for role-specific interactions.",
+          "title": "Add Voice Chat Integration"
+        },
+        {
+          "prompt": "Develop a replay system where players can review past game rounds, including player actions, votes, and chat logs.",
+          "title": "Build a Game Replay Feature"
+        },
+        {
+          "prompt": "Design a 'Lobby System' where players can browse public games, host private games, and invite friends with unique room codes.",
+          "title": "Create a Robust Lobby System"
+        },
+        {
+          "prompt": "Add an in-game tutorial or interactive guide to help new players understand core mechanics and role abilities.",
+          "title": "Develop Interactive Tutorials"
+        },
+        {
+          "prompt": "Implement a 'Game Master Tool' with advanced controls for GMs to customize game rules on the fly, introduce random events, and moderate player behavior.",
+          "title": "Deepen Game Master Controls"
+        },
+        {
+          "prompt": "Allow players to save and share their custom game configurations (role sets, rules, themes) with others in the community.",
+          "title": "Enable Custom Game Sharing"
+        },
+        {
+          "prompt": "Integrate notifications to alert players when it's their turn, a vote has started, or a critical game event occurs, even when the app is in the background.",
+          "title": "Add Real-time Notifications"
+        },
+        {
+          "prompt": "Develop a simple 'matchmaking' system that pairs players with similar skill levels or preferences for more balanced games.",
+          "title": "Implement Basic Matchmaking"
+        }
+      ]
+    },
+    {
+      "title": "Core Features for Social Deduction Games",
+      "type": "features",
+      "items": [
+        {
+          "description": "Assign distinct roles with unique abilities and win conditions to players.",
+          "icon": "🎭",
+          "title": "Dynamic Role Assignment"
+        },
+        {
+          "description": "Enable real-time communication channels for discussion, private messages, and role-specific dialogue.",
+          "icon": "💬",
+          "title": "Integrated Chat System"
+        },
+        {
+          "description": "Implement flexible voting mechanics for nominations, eliminations, and in-game decisions.",
+          "icon": "🗳️",
+          "title": "Customizable Voting Systems"
+        },
+        {
+          "description": "Manage game progression through defined day/night cycles, action phases, and outcome resolution.",
+          "icon": "⏳",
+          "title": "Phase Management & Game Flow"
+        },
+        {
+          "description": "Provide a comprehensive interface for game hosts to setup, monitor, and advance game sessions.",
+          "icon": "🎮",
+          "title": "Game Master Interface"
+        },
+        {
+          "description": "Support multiple concurrent game rooms and a persistent backend for player sessions.",
+          "icon": "🌐",
+          "title": "Multiplayer Session Handling"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building Games with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic social deduction game with core features can take just a few hours using Kliv's AI. More complex games with intricate mechanics and advanced UI might take a few days of focused development and iteration.",
+          "question": "How long does it take to build a multiplayer social deduction game?"
+        },
+        {
+          "answer": "No, extensive coding is not required. Kliv’s platform allows you to describe your game logic and design in natural language. The AI translates your vision into functional code, making game development accessible to designers and enthusiasts.",
+          "question": "Do I need to be a professional game developer or coder?"
+        },
+        {
+          "answer": "Yes, your game will be fully self-contained. You'll receive the complete codebase, allowing you to host it on any suitable server, modify it as you see fit, or even distribute it through app stores. You own all the assets.",
+          "question": "Will I own the final game application?"
+        },
+        {
+          "answer": "Absolutely. Kliv supports integrations with various external services. You can connect to third-party APIs for voice chat, analytics, user authentication (like OAuth), or even payment processing if you plan for monetization.",
+          "question": "Can I integrate third-party services like voice chat or analytics?"
+        },
+        {
+          "answer": "Kliv helps you generate highly optimized and scalable backend architecture suitable for real-time multiplayer games. The platform assists with features like WebSocket management, concurrent user handling, and database interactions, ensuring smooth gameplay for many players.",
+          "question": "How does Kliv handle the technical complexity of real-time multiplayer?"
+        },
+        {
+          "answer": "Yes, the AI can assist with defining complex game states, role interactions, and event triggers. You can specify intricate rules, and the AI will help structure the logic to manage game progression, player actions, and victory conditions automatically.",
+          "question": "Can I implement very complex game logic and role interactions?"
+        },
+        {
+          "answer": "You can design your game to be playable across web browsers (HTML5, JavaScript) and potentially package it for mobile platforms (iOS/Android) using frameworks like React Native or Electron, which the AI can also help structure.",
+          "question": "What platforms can my game run on?"
+        },
+        {
+          "answer": "The cost is primarily your time and the Kliv platform usage. Unlike traditional development that requires salaries for multiple specialists, Kliv offers an efficient, AI-accelerated path. There are no ongoing per-player costs from Kliv once your app is deployed on your chosen hosting.",
+          "question": "What are the typical costs involved compared to traditional game development?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Design Your Next Masterpiece?",
+      "type": "cta",
+      "content": "Stop playing by others' rules. Craft your ultimate social deduction experience with Kliv's intuitive AI development platform."
+    }
+  ],
+  "title": "Multiplayer Mafia Game Builder"
+}

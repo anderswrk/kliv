@@ -1,0 +1,159 @@
+{
+  "defaultPrompt": "I want to create an event management tool specifically designed to track and reduce the carbon footprint of live events, from planning to execution.",
+  "description": "Build custom applications for carbon-neutral event management with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your green event tool",
+    "subtitle": "Design, plan, and execute events with minimal environmental impact using custom applications built on Kliv.",
+    "title": "Build your own carbon-neutral event management tool"
+  },
+  "metaDescription": "Create powerful carbon-neutral event management tools with Kliv. Track emissions, optimize resources, and minimize environmental impact for any event.",
+  "sections": [
+    {
+      "title": "The growing need for sustainable events",
+      "type": "text",
+      "content": "The global event industry faces increasing pressure to adopt sustainable practices. From corporate conferences to music festivals, organizers are seeking ways to reduce their environmental footprint, minimize waste, and achieve carbon neutrality. While generic event planning software exists, it rarely offers the specialized features required for robust environmental tracking and reporting.\n\nBuilding your own custom carbon-neutral event management tool allows you to integrate specific sustainability metrics, tailor reporting to certification standards, and gain competitive advantage. Kliv empowers you to create sophisticated, purpose-built applications without extensive coding knowledge."
+    },
+    {
+      "title": "Why a custom green event platform is essential",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf event software\n\nStandard event management platforms are built for broad appeal, not deep specialization. They typically lack critical features for true carbon footprint analysis and sustainable resource management:\n\n- **Generic metrics**: Insufficient ability to track specific emissions sources (travel, energy, waste, catering).\n- **Limited reporting**: Inability to generate detailed sustainability reports or align with certifications (ISO 20121, GRI).\n- **Poor integration**: Difficulty connecting with specialized carbon accounting databases or supplier sustainability data.\n- **Reactive, not proactive**: Focus on logistical planning rather than proactive environmental impact reduction.\n- **Fixed costing**: Recurring fees that don't scale efficiently with your specific needs.\n\n## The power of custom-built sustainability tools\n\nDeveloping a tailored application using Kliv offers unparalleled advantages for eco-conscious event organizers:\n\n### Precise carbon tracking & reporting\nInput detailed data on travel (attendees, staff, performers), venue energy consumption, catering choices, waste streams, and material sourcing. Generate comprehensive reports that detail your carbon footprint and highlight areas for reduction.\n\n### Supplier sustainability management\nIntegrate with a database of eco-friendly suppliers, track their certifications, and prioritize those committed to sustainability. Automate supplier vetting based on environmental criteria.\n\n### Resource optimization\nPlan for optimal resource use, from energy-efficient lighting and sound to waste reduction strategies and water conservation, all tracked within your system.\n\n### Real-time impact dashboards\nVisualize your event's environmental performance in real-time, allowing for on-the-fly adjustments to minimize impact during the event itself.\n\n### Competitive differentiation\nShowcase your commitment to sustainability with verifiable data and a transparent approach. Attract clients and attendees who prioritize environmental responsibility.\n\n### Ownership and flexibility\nUnlike SaaS solutions, you own the intellectual property and can evolve the tool as environmental standards change or your business needs grow, without vendor lock-in.\n\n## Real-world applications for custom green event tools\n\n- **Large-scale conferences**: Track emissions from thousands of attendees' flights, venue energy use, and extensive catering, providing a detailed post-event sustainability report for sponsors.\n- **Music festivals**: Manage waste streams (recycling, composting), monitor energy consumption from stages and lighting, and calculate carbon offsets for artist travel.\n- **Product launches**: Ensure that all components, from venue choice to promotional materials, meet specific sustainability targets, providing transparent reporting to stakeholders.\n- **Sporting events**: Track spectator travel impact, waste generation, and the sustainable sourcing of merchandise and infrastructure.\n\n## The Kliv advantage for sustainability tech\n\nKliv leverages AI to make custom software development accessible. This means you can:\n\n- **Define with clarity**: Use natural language to describe the complex sustainability metrics and reporting features you need.\n- **Rapid iteration**: Quickly build and refine specific modules for carbon calculation, waste tracking, or supplier management.\n- **Data integration**: Seamlessly pull data from various sources (ticket sales, energy meters, composting services) to create a holistic view.\n- **Intelligent suggestions**: AI assists in structuring your database for optimal environmental data capture and analysis.\n\nBuilding your custom carbon-neutral event management tool with Kliv is an investment in both your business and the planet. It’s about creating a tool that precisely measures, manages, and minimizes environmental impact."
+    },
+    {
+      "title": "Green event management ideas to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Calculate and report event carbon footprint based on various inputs",
+          "prompt": "Create an event carbon footprint calculator that accounts for attendee travel (air, car), venue energy consumption, waste generated, and catering choices, providing a total CO2e estimate and a detailed breakdown.",
+          "title": "Comprehensive Carbon Footprint Calculator"
+        },
+        {
+          "description": "Manage and track waste streams for reduction and diversion goals",
+          "prompt": "Build a waste management system for events that tracks different waste types (recycling, compost, landfill), measures diversion rates, and generates reports on waste reduction efforts, with real-time input capabilities for event staff.",
+          "title": "Event Waste Management Tracker"
+        },
+        {
+          "description": "Rate and select suppliers based on their sustainability credentials",
+          "prompt": "Develop a sustainable supplier rating platform where event organizers can input supplier environmental certifications, green practices, and ethical sourcing policies. Allow for filtering and ranking suppliers based on these criteria.",
+          "title": "Sustainable Supplier Vetting Tool"
+        },
+        {
+          "description": "Plan and monitor event energy and water usage",
+          "prompt": "Design an energy and water consumption planner and tracker for events. It should allow planning for efficient use during setup and live event, and input actual consumption to compare against targets and identify areas for improvement.",
+          "title": "Resource Consumption Optimizer"
+        },
+        {
+          "description": "Track and promote carbon offset initiatives for events",
+          "prompt": "Create a carbon offsetting dashboard for events where organizers can record purchased offsets (e.g., reforestation projects), track their impact, and present this information transparently to attendees or sponsors.",
+          "title": "Event Carbon Offset Dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your green event tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate third-party carbon accounting APIs to automate emission factor lookups and calculations for specific activities like flights or energy grids.",
+          "title": "Automated Carbon Factor Integration"
+        },
+        {
+          "prompt": "Add a feature that allows attendees to calculate and offset their personal travel emissions when registering for the event.",
+          "title": "Attendee Travel Offset Integration"
+        },
+        {
+          "prompt": "Implement predictive modeling for waste and energy based on historical data and event size, offering suggestions for reducing consumption.",
+          "title": "Predictive Sustainability Analytics"
+        },
+        {
+          "prompt": "Build a module for certifying events against established sustainability standards (e.g., ISO 20121, APEX/ASTM), guiding users through requirements and documentation.",
+          "title": "Sustainability Certification Compliance"
+        },
+        {
+          "prompt": "Develop an interactive public-facing dashboard that showcases an event's real-time environmental impact data during the live event.",
+          "title": "Public-Facing Impact Dashboard"
+        },
+        {
+          "prompt": "Add a feature for tracking and facilitating the donation or reuse of leftover event materials and food to local charities.",
+          "title": "Surplus Material Management"
+        }
+      ]
+    },
+    {
+      "title": "Key features for sustainable event planning",
+      "type": "features",
+      "items": [
+        {
+          "description": "Effortlessly calculate and visualize your event's carbon footprint.",
+          "icon": "📊",
+          "title": "Emission Tracking & Reporting"
+        },
+        {
+          "description": "Manage and minimize waste, with tracking for recycling, composting, and landfill.",
+          "icon": "♻️",
+          "title": "Waste Management Module"
+        },
+        {
+          "description": "Evaluate and select vendors based on their environmental practices.",
+          "icon": "🤝",
+          "title": "Sustainable Supplier Vetting"
+        },
+        {
+          "description": "Monitor and optimize energy, water, and material consumption.",
+          "icon": "💡",
+          "title": "Resource Efficiency Planner"
+        },
+        {
+          "description": "Generate comprehensive reports for stakeholders, certifications, and marketing.",
+          "icon": "📄",
+          "title": "Customizable Sustainability Reports"
+        },
+        {
+          "description": "Analyze performance data and identify opportunities for continuous improvement.",
+          "icon": "📈",
+          "title": "Impact Analytics Dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom carbon-neutral event management tool with Kliv can be surprisingly fast. A core system can be operational in days, with advanced features added incrementally.",
+          "question": "How quickly can I build a functional carbon-neutral event management tool?"
+        },
+        {
+          "answer": "No, you don't need to be an experienced developer. Kliv's platform is designed for users to describe their needs in natural language, and our AI assists in translating those into functional applications.",
+          "question": "Do I need coding skills to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom tool can integrate with various data sources, including venue energy meters, travel booking APIs, waste management services, and existing event registration platforms.",
+          "question": "Can my custom tool integrate with existing environmental data sources or event platforms?"
+        },
+        {
+          "answer": "Absolutely. You retain full ownership and control over your application, its data, and its evolution. This means your tool can adapt precisely as sustainability standards and your operational needs change.",
+          "question": "Will I own the intellectual property and be able to customize the tool later?"
+        },
+        {
+          "answer": "While there's an upfront development cost, a custom tool built with Kliv typically offers significant savings over time compared to perpetually subscribing to multiple specialized SaaS platforms, especially as your feature needs grow.",
+          "question": "How does the cost compare to using multiple off-the-shelf sustainability and event tools?"
+        },
+        {
+          "answer": "Kliv emphasizes robust security practices. Because you control the hosting and data management, you can implement specific security protocols tailored to your organization's compliance requirements, often leading to a more secure setup than relying on third-party vendors.",
+          "question": "What are the security implications of managing sensitive event and environmental data?"
+        },
+        {
+          "answer": "Kliv provides support throughout the development process, including AI-driven guidance, extensive documentation, and community forums. For ongoing maintenance, since you own the code, you have full flexibility for updates or bringing in external developers if needed.",
+          "question": "What kind of support is available after the application is built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to green your next event?",
+      "type": "cta",
+      "content": "Stop relying on spreadsheets and generic software. Start building a custom, powerful tool that makes achieving carbon-neutral events a reality."
+    }
+  ],
+  "title": "Carbon-neutral event management"
+}

@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a digital account opening and KYC platform that automates identity verification, document collection, and compliance checks for financial services, while providing a seamless user experience.",
+  "description": "Build custom digital account opening and KYC solutions with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your KYC solution",
+    "subtitle": "Streamline customer onboarding and meet compliance requirements with custom-built Digital Account Opening and KYC applications.",
+    "title": "Build your own Digital Account Opening & KYC platform"
+  },
+  "metaDescription": "Create powerful digital account opening and KYC tools with Kliv. Automate identity verification, enhance compliance, and provide a frictionless onboarding experience for financial services.",
+  "sections": [
+    {
+      "title": "The growing need for custom Digital Account Opening & KYC",
+      "type": "text",
+      "content": "In today's digital-first financial landscape, a seamless, secure, and compliant customer onboarding process is no longer a luxury – it's a necessity. Traditional manual processes for account opening and Know Your Customer (KYC) checks are slow, error-prone, and frustrating for both institutions and customers. With increasing regulatory scrutiny and customer expectations for instant gratification, off-the-shelf solutions often fall short, forcing compromises on user experience or compliance rigor.\n\nBuilding your own tailored Digital Account Opening & KYC platform allows you to perfectly align with your specific business logic, risk appetite, and regulatory environment, while maintaining full control over data security and customer journey. Kliv's AI-powered platform makes this a reality, even without extensive coding expertise."
+    },
+    {
+      "title": "Why a tailor-made KYC solution beats generic tools",
+      "type": "markdown",
+      "content": "## The challenges with off-the-shelf KYC solutions\n\nMany financial institutions rely on generic vendor solutions for digital account opening and KYC. While these might offer a quick start, they often come with significant drawbacks:\n\n- **Rigid workflows**: They force you to adapt your unique onboarding process to their pre-defined logic.\n- **Integration nightmares**: Connecting them seamlessly with your existing core banking systems, CRM, and risk engines can be complex and costly.\n- **Limited customization**: Tailoring the user interface or specific verification steps to your brand and customer segments is often difficult or impossible.\n- **Data sovereignty concerns**: You might lose control over sensitive customer data or face limitations on where it can be stored.\n- **Vendor lock-in & recurring costs**: Perpetual subscription fees and dependence on a single vendor for updates and support.\n- **Suboptimal user experience**: Generic solutions rarely offer the perfectly optimized, frictionless journey your customers expect.\n\n## The undeniable advantages of building your own\n\nLeveraging platforms like Kliv to build your own Digital Account Opening & KYC solution transforms these challenges into opportunities:\n\n### Perfect fit for your operations\nDesign onboarding flows that precisely match your business processes, regulatory requirements (e.g., AML, CFT), and risk models. Incorporate specific data points, document types, and verification methods unique to your products or customer segments.\n\n### Seamless integration with existing systems\nDevelop an application that speaks fluently with your core banking system, fraud detection tools, CRM, and data warehouses. This eliminates manual data entry, reduces errors, and provides a unified view of your customers.\n\n### Enhanced customer experience\nCraft an intuitive, branded, and frictionless onboarding journey. From intelligent form autofill to real-time status updates and customized communication, a tailored solution delights customers and reduces abandonment rates.\n\n### Full control over data & security\nHost the application and data in your own secure environment, ensuring compliance with data privacy regulations (e.g., GDPR, CCPA) and internal security policies. You dictate encryption, access controls, and auditing.\n\n### Cost efficiency & long-term value\nShift from recurring subscription fees to a one-time build investment. While there are ongoing maintenance costs, you gain full ownership and the ability to evolve the platform without vendor constraints, leading to significant long-term savings.\n\n### Agility & future-proofing\nQuickly adapt to new regulations, integrate emerging technologies (e.g., advanced biometrics, AI-driven risk scoring), or launch new products without waiting for vendor updates or paying for costly custom development add-ons.\n\n## Real-world impact\n\nCustom Digital Account Opening & KYC platforms are empowering financial institutions to:\n\n- **Reduce onboarding time**: From days to minutes, significantly improving customer satisfaction.\n- **Lower operational costs**: By automating manual reviews and reducing human error.\n- **Improve compliance accuracy**: With built-in rules engines and automated document verification.\n- **Increase conversion rates**: Through a smoother, more engaging user experience.\n- **Enhance fraud prevention**: By integrating advanced verification techniques and real-time risk assessment."
+    },
+    {
+      "title": "Digital Account Opening & KYC ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Retail Banking Account Opening (Individual KYC) platform with document verification and liveness checks for national ID and passport, integrated with a credit check API and core banking system for new account creation. Must support multiple languages and send real-time status updates via email/SMS. Also include a 'save and resume' feature for unfinished applications, and an admin dashboard to review pending applications and audit trails for compliance, along with a customisable rule engine for automated decision making based on KYC results and credit scores, and an API for external systems to query customer risk profiles. Include a secure document storage module with version control and audit logs. The system should automatically flag high-risk applications for manual review and provide reasons for the flag. Implement a robust anti-fraud module that includes IP address checks, device fingerprinting, and transactional behavior monitoring during the application process to detect suspicious activities and notify relevant teams for immediate investigation. Additionally, integrate with an external PEP/Sanctions screening database to ensure that applicants are not on any watchlists. The platform should also provide an audit log for every action performed on the system, for regulatory compliance and internal review. Lastly, the platform should be able to generate comprehensive compliance reports daily or on-demand, detailing KYC metrics, decision outcomes, and audit trails for regulatory submission. Include a customizable workflow editor for financial institutions to define their own branching logic for different product types or customer segments, ensuring maximum flexibility. Ensure all data is encrypted both in transit and at rest using industry-standard protocols, and implement role-based access control for all internal users to ensure data security and prevent unauthorized access. The system must also be scalable to handle thousands of concurrent applications without degradation in performance. Finally, provide robust error handling and logging capabilities to quickly identify and resolve any issues during the onboarding process. The system should also include an internal messaging system between compliance officers and applicants for clarification on documents or information. Provide comprehensive API documentation for all exposed endpoints so that external systems can easily integrate with the platform for seamless data exchange. Also, implement a callback mechanism to notify external systems upon completion of an application or a status change. The platform needs to use AI to intelligently extract data from submitted documents and cross-reference it with third-party databases, reducing manual review efforts and enhancing accuracy. The UI should be user-friendly with clear progress indicators, validation messages, and document upload guidelines to guide applicants through the process. The platform must also capture consent for data usage and terms and conditions digitally with robust audit trails for legal compliance. Real-time identity verification using video calls or advanced selfie matching should be an option for enhanced security. For cross-border applications, the system should be adaptable to different jurisdictional KYC requirements and data residency laws. The system needs to be cloud-agnostic with support for multi-cloud deployments for disaster recovery and scalability. Finally, a built-in notification engine needs to send automated alerts for application status changes, pending actions, and document expiry reminders to applicants and internal teams. Also, implement a webhook system to trigger external systems upon specific events, like application submission or status change, enabling real-time process orchestration throughout the ecosystem. The platform should also contain a robust case management system for flagged applications, allowing compliance officers to manage, track, and resolve exceptions efficiently. The KYC module needs to perform continuous monitoring of customer risk profiles post-onboarding, triggering re-KYC processes when certain risk factors change or after a defined period, ensuring ongoing compliance. Provide a comprehensive analytics dashboard for management, showing key performance indicators like application conversion rates, average processing time, and KYC pass rates, allowing for continuous optimization of the onboarding funnel. This platform should use blockchain for tamper-proof storage of KYC data and audit trails, ensuring data integrity and enhanced security. It should also support multiple international identification document types and leverage AI for advanced fraud detection by analyzing patterns in application data and social media insights. Provide a customizable API for integrating with different biometrics providers for fingerprint or facial recognition during the onboarding process to enhance security and user convenience."
+        },
+        {
+          "title": "Corporate Client Onboarding (B2B KYC) system with beneficial ownership identification and complex corporate structure analysis, integration with business registries, and automated sanctions screening for entities and individuals. With a custom workflow for legal entity verification and multi-level approvals for high-risk clients. The system must support document collection for Articles of Incorporation, financial statements, and shareholder agreements, with OCR for data extraction. The platform should also be capable of generating a clear corporate hierarchy tree for complex ownership structures, facilitating compliance reviews. Additionally, it must allow for the onboarding of various business types (e.g., sole proprietorships, partnerships, corporations, trusts, non-profits), each with specific KYC requirements and document checklists. Provide a secure portal for corporate clients to upload documents and track application progress, reducing back-and-forth communication, and include a collaborative review feature for internal teams to add comments and share insights during the due diligence process. Implement a risk scoring module that assesses the entity's industry, jurisdiction, and ownership structure to assign a dynamic risk rating. The system should also support ongoing monitoring of corporate entities for changes in ownership, directorship, or regulatory status, triggering alerts for re-KYC or enhanced due diligence when necessary. Provide a comprehensive reporting suite for audits and regulatory submissions, detailing the entire corporate onboarding journey and compliance checks. The platform should also integrate with an external data provider for real-time validation of company registration numbers and tax IDs to ensure authenticity."
+        },
+        {
+          "title": "Custom KYC for Crypto Exchange including wallet verification, transaction monitoring, and source of wealth attestation. The platform should include real-time transaction monitoring for suspicious activities like large transfers or transfers to blacklisted addresses, flagging them for human review, and integrate with blockchain analytics tools for tracing cryptocurrency flows. It must also provide mechanisms for collecting proof of source of funds/wealth for high-value transactions, supporting various document types and secure upload. The system should incorporate a robust risk-based approach to adjust verification levels based on transaction volume, user behavior, and geographic location. The platform needs to comply with global AML/CFT regulations specific to virtual assets, such as FATF Travel Rule, and include a mechanism for automated reporting of suspicious transaction reports (STRs) to regulatory bodies. Provide a customizable framework for defining risk thresholds and triggers for enhanced due diligence, ensuring flexibility for evolving market conditions and regulatory changes. The system should also support ongoing behavioral analysis of user accounts to detect unusual trading patterns or withdrawal activities that might indicate illicit activities, notifying risk teams. Finally, implement a secure multi-factor authentication (MFA) system for all user logins and critical actions within the platform to protect sensitive customer data."
+        },
+        {
+          "title": "Automated Re-KYC and Periodic Review System with scheduled automated re-verification based on customer risk profiles. The system should trigger re-KYC processes based on predefined schedules (e.g., every 1, 3, or 5 years depending on risk) or when specific events occur (e.g., change of address, significant transaction increase). It must provide a self-service portal for existing customers to update their information and re-submit documents, with automated validation. The platform should compare updated information against existing records and flag discrepancies for review, streamlining the process. Integrate with external databases for real-time checks on updated customer data, such as adverse media screenings or PEP/Sanctions list updates, ensuring continuous compliance. The system needs to intelligently batch re-KYC requests to optimize workload for compliance teams and provide a clear dashboard showing the status of all ongoing re-KYC processes. Implement an escalation matrix for uncompleted re-KYC requests, notifying customers and internal teams for timely resolution. Provide an audit trail for every re-KYC action, including communications with the customer and review decisions, for regulatory scrutiny. The platform must also support different re-KYC workflows based on the customer's risk level, allowing for a more tailored and efficient process for low-risk clients, and enhanced due diligence for high-risk ones."
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your Digital Account Opening & KYC solution",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add AI-powered document extraction and OCR capabilities to automatically read and verify data from IDs and forms.",
+          "title": "Integrate intelligent document processing"
+        },
+        {
+          "prompt": "Implement real-time video verification and liveness detection for enhanced identity assurance during onboarding, supporting various devices.",
+          "title": "Incorporate advanced biometric verification"
+        },
+        {
+          "prompt": "Build a customizable rules engine that allows compliance officers to define dynamic risk scoring, automated decision logic, and exceptions.",
+          "title": "Develop a flexible rules & risk engine"
+        },
+        {
+          "prompt": "Integrate with a wider range of global identity verification databases, credit bureaus, and fraud prevention services.",
+          "title": "Expand third-party data integrations"
+        },
+        {
+          "prompt": "Create a multi-language support system for the customer-facing interface and document processing to cater to a global user base.",
+          "title": "Add multi-language support"
+        },
+        {
+          "prompt": "Implement a machine learning model for anomaly detection in applicant data to proactively identify potential fraud patterns.",
+          "title": "Enhance fraud detection with machine learning"
+        },
+        {
+          "prompt": "Develop an internal case management system for flagged applications, allowing compliance teams to track, manage, and resolve complex cases efficiently.",
+          "title": "Build a robust case management module"
+        },
+        {
+          "prompt": "Add a module for continuous customer monitoring, automatically triggering re-KYC or enhanced due diligence based on predefined events or periods, like PEP/Sanctions re-screening.",
+          "title": "Enable continuous KYC monitoring"
+        },
+        {
+          "prompt": "Design a comprehensive analytics and reporting dashboard for compliance officers and management, showing key metrics like conversion rates, average processing time, and compliance status.",
+          "title": "Create powerful analytics and reporting"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your KYC platform",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automate digital identity verification using multiple data sources and methods.",
+          "icon": "✅",
+          "title": "Automated Identity Verification"
+        },
+        {
+          "description": "Securely collect and validate required documents like IDs, proofs of address, and financial statements.",
+          "icon": "📄",
+          "title": "Document Collection & Validation"
+        },
+        {
+          "description": "Integrate with PEP (Politically Exposed Persons) and sanctions screening databases for compliance.",
+          "icon": "⚖️",
+          "title": "Compliance Screening (PEP/Sanctions)"
+        },
+        {
+          "description": "Define and automate complex workflows for different customer types and products.",
+          "icon": "⚙️",
+          "title": "Customizable Onboarding Workflows"
+        },
+        {
+          "description": "Provide a seamless and intuitive user experience for applicants on web and mobile.",
+          "icon": "✨",
+          "title": "Frictionless User Journey"
+        },
+        {
+          "description": "Maintain detailed audit trails and generate compliance reports automatically.",
+          "icon": "📊",
+          "title": "Audit & Reporting Tools"
+        },
+        {
+          "description": "Connect with your core banking system, CRM, and fraud detection tools.",
+          "icon": "🔗",
+          "title": "API Integrations"
+        },
+        {
+          "description": "Implement multi-factor authentication and data encryption to protect sensitive information.",
+          "icon": "🛡️",
+          "title": "Robust Security Measures"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic digital account opening and KYC tool can take as little as a few days to a week with Kliv’s AI. More complex systems with deep integrations and advanced features might take several weeks to a few months, significantly faster than traditional development methods.",
+          "question": "How long does it take to build a Digital Account Opening & KYC platform with Kliv?"
+        },
+        {
+          "answer": "No, you don't need to be a coding expert. Kliv's platform is designed for natural language input. You describe the features, workflows, and compliance rules you need, and the AI assists in building the application framework and integrations.",
+          "question": "Do I need to be a developer or have extensive coding experience?"
+        },
+        {
+          "answer": "Yes, you can integrate with virtually any third-party service or existing internal system that has an API. This includes identity verification services, credit bureaus, core banking systems, CRM, and fraud detection platforms.",
+          "question": "Can the custom KYC platform integrate with external identity verification services or existing core systems?"
+        },
+        {
+          "answer": "You retain full ownership and control over your data and the developed application. Kliv helps you build it, but the resulting solution is yours to deploy, manage, and customize as needed, ensuring data sovereignty.",
+          "question": "Who owns the data and the application built on Kliv?"
+        },
+        {
+          "answer": "The cost model differs significantly. Instead of recurring monthly or annual fees often associated with SaaS KYC solutions, you incur a one-time development cost, potentially with ongoing infrastructure costs (which you select). This often results in substantial long-term savings, especially for bespoke requirements.",
+          "question": "How does building with Kliv compare in cost to buying an off-the-shelf KYC solution?"
+        },
+        {
+          "answer": "Yes, a key benefit of building your own solution is complete flexibility. You can easily modify workflows, add new verification steps, integrate new compliance rules, or enhance the user experience as your regulatory landscape or business needs evolve.",
+          "question": "Can the platform be easily modified or updated to adapt to new regulations or business needs?"
+        },
+        {
+          "answer": "Custom-built solutions allow you to implement security measures tailored to your specific risk profile and regulatory obligations. You control data encryption, access management, and hosting environment, potentially providing higher security than relying on a third-party vendor's standard practices.",
+          "question": "Is a custom-built Digital Account Opening & KYC platform more secure?"
+        },
+        {
+          "answer": "Kliv provides AI-guided assistance throughout the development process, including intelligent suggestions, debugging, and optimization for performance and security. For ongoing maintenance, since you own the code, you can manage it internally or with external resources.",
+          "question": "What kind of support is available after the platform is built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your customer onboarding?",
+      "type": "cta",
+      "content": "Stop settling for rigid, generic solutions. Build a Digital Account Opening & KYC platform that perfects your customer journey and strengthens your compliance posture. Start with Kliv today."
+    }
+  ],
+  "title": "Digital Account Opening & KYC"
+}

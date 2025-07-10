@@ -1,49 +1,163 @@
 {
-  "title": "Calendar and Scheduling Applications",
-  "description": "Build custom calendar and scheduling applications with Kliv",
-  "metaDescription": "Create powerful calendar and scheduling apps with Kliv. Build booking systems, appointment managers, and event planning tools with AI assistance.",
-  "defaultPrompt": "I want to build a calendar and scheduling app with appointment booking, availability management, automated reminders, and calendar integrations.",
+  "defaultPrompt": "I want to create a custom scheduling tool that allows users to book appointments, manage availability, send automated reminders, and integrate with their existing calendars.",
+  "description": "Build custom calendar and scheduling applications with Kliv's AI-powered platform.",
   "hero": {
-    "title": "Build Calendar & Scheduling Applications",
-    "subtitle": "Create custom calendar applications, booking systems, and scheduling tools that fit your exact business needs.",
-    "cta": "Build Your Calendar App"
+    "cta": "Start scheduling",
+    "subtitle": "Design and deploy tailor-made calendar and scheduling solutions that perfectly fit your unique needs, powered by Kliv's AI.",
+    "title": "Build your own calendar & scheduling tools"
   },
+  "metaDescription": "Create powerful custom calendar and scheduling tools with Kliv. Manage appointments, availability, and reminders efficiently with applications built to your exact specifications.",
   "sections": [
     {
+      "title": "Why build a custom calendar and scheduling tool?",
       "type": "text",
-      "title": "Scheduling Made Simple",
-      "content": "Whether you need appointment booking, event management, or resource scheduling, Kliv helps you build the perfect calendar application for your business.\n\nCreate intuitive interfaces that make scheduling effortless for both you and your customers."
+      "content": "Off-the-shelf calendar and scheduling software often comes with limitations – forcing you to adapt your workflows to their features, dealing with unnecessary complexities, or paying for features you'll never use. Kliv empowers you to create a solution that works exactly the way you do.\n\nImagine a scheduling system designed not just for general use, but specifically for your unique business logic, client flow, and team structure. With Kliv, this is not only possible but straightforward."
     },
     {
-      "type": "features",
-      "title": "Calendar App Features",
+      "title": "The strategic advantage of tailored scheduling",
+      "type": "markdown",
+      "content": "## Limitations of generic scheduling platforms\n\nWhile convenient, popular scheduling tools frequently fall short when it comes to specific business needs:\n\n- **Inflexible booking rules**: Can't handle complex availability logic or special service types.\n- **Limited customization**: Branding and user experience often feel generic.\n- **Integration challenges**: Difficulty connecting seamlessly with your existing CRM, payment gateways, or internal systems.\n- **Pricing models**: Per-user fees or tiered features can become costly as your business scales.\n- **Data privacy concerns**: Control over your appointment and client data might be limited.\n\n## The tailored solution from Kliv\n\nBuilding your own gives you total command and a competitive edge:\n\n### Precise fit for your workflow\nNo more shoehorning your business into a pre-defined template. Design booking flows, define resource availability, and set up notifications that mirror your exact operational requirements.\n\n### Enhanced user experience\nProvide a professional, on-brand interface for your clients. A custom tool reflects your company's identity and can be optimized for an intuitive booking journey.\n\n### Seamless system integration\nYour custom tool can connect directly with your chosen payment processors, CRM, email marketing platforms, and internal databases, creating a truly unified ecosystem.\n\n### Cost control and ownership\nMove from recurring subscriptions to a controlled development investment. You own the application, its data, and its evolution, reducing long-term overhead.\n\n### Scalability and adaptability\nAs your services or team grow, your scheduling solution can effortlessly expand. Add new calendars, modify services, or introduce new booking types without external dependencies.\n\n## Real-world applications\n\nCustom scheduling tools can revolutionize various sectors:\n\n**Healthcare clinics**: Patient appointment booking with specific doctor availability, procedure room scheduling, and automated follow-up reminders.\n\n**Consulting services**: Client meeting booking with built-in pre-call questionnaires, secure video conference links, and automated payment processing.\n\n**Educational institutions**: Student-teacher conference scheduling, facility booking (labs, meeting rooms), and online course enrollment with capacity management.\n\n**Fitness studios**: Class and personal training session booking, instructor availability management, and automated waitlist functionality.\n\n## Accelerate development with AI\n\nKliv leverages advanced AI to simplify complex development:\n\n- **Natural language interface**: Describe your desired features in plain English and watch them take shape.\n- **Rapid prototyping**: Turn ideas into functional prototypes in a fraction of the time.\n- **Intelligent code generation**: AI assists in building robust and efficient backend systems for your scheduling logic.\n\nCreating a scheduling tool tailored to your exact needs is no longer a privilege of large enterprises. Kliv makes it accessible, efficient, and truly yours."
+    },
+    {
+      "title": "Calendar and scheduling tool ideas to inspire you",
+      "type": "prompt-examples",
       "items": [
         {
-          "title": "Appointment Booking",
-          "description": "Allow customers to book appointments with availability checking and confirmation.",
-          "icon": "📅"
+          "description": "Smart scheduling for one-on-one and group consultations",
+          "prompt": "Create a consultation booking system that allows clients to view consultant availability, select service types, book time slots, and receive automated confirmation and reminder emails. Include options for video call integration and pre-payment.",
+          "title": "Client consultation scheduler"
         },
         {
-          "title": "Event Management",
-          "description": "Create and manage events with attendee tracking and notifications.",
-          "icon": "🎉"
+          "description": "Effective resource allocation and space management",
+          "prompt": "Build a room and equipment booking tool for an office that shows real-time availability of meeting rooms, projectors, and other shared resources. Users should be able to reserve items for specific durations and receive approval notifications.",
+          "title": "Internal resource booking system"
         },
         {
-          "title": "Resource Scheduling",
-          "description": "Schedule rooms, equipment, and other resources with conflict prevention.",
-          "icon": "🏢"
+          "description": "Streamline service appointments with automated client communication",
+          "prompt": "Develop a service appointment scheduler for a repair shop where customers can select a service, choose a preferred date and time from available slots, provide details about the issue, and get SMS reminders.",
+          "title": "Service appointment booking"
         },
         {
-          "title": "Calendar Integration",
-          "description": "Sync with Google Calendar, Outlook, and other popular calendar services.",
-          "icon": "🔄"
+          "description": "Manage instructor availability and class registrations",
+          "prompt": "Design a class and workshop registration system for a studio. It should allow multiple instructors to manage their schedules, students to sign up for classes, and include waitlist management for full sessions.",
+          "title": "Class and workshop registration"
+        },
+        {
+          "description": "Simplify event sign-ups and attendee management",
+          "prompt": "Create a comprehensive event registration platform for community events. It needs to handle multiple event types, custom registration forms, ticket sales, and automated event information delivery to attendees.",
+          "title": "Event registration platform"
         }
       ]
     },
     {
+      "title": "Enhancements for your scheduling application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a secure payment processing system directly into the booking flow for paid services or appointments.",
+          "title": "Add payment gateway integration"
+        },
+        {
+          "prompt": "Implement a recurring appointment feature for repeat clients or subscription-based services, allowing automated re-booking.",
+          "title": "Enable recurring appointments"
+        },
+        {
+          "prompt": "Connect with major calendar services like Google Calendar, Outlook Calendar, and Apple Calendar for seamless two-way sync of bookings.",
+          "title": "Integrate with external calendars"
+        },
+        {
+          "prompt": "Develop a customizable dashboard for administrators to view overall bookings, manage staff availability, and generate scheduling reports.",
+          "title": "Build an admin dashboard"
+        },
+        {
+          "prompt": "Incorporate automated SMS notifications for booking confirmations, reminders, and cancellations.",
+          "title": "Add SMS notifications"
+        },
+        {
+          "prompt": "Design a referral system where existing clients can share a custom link and receive a discount when new clients book.",
+          "title": "Include referral program functionality"
+        },
+        {
+          "prompt": "Allow clients to manage and reschedule their own appointments through a secure portal, reducing administrative load.",
+          "title": "Implement client self-service portal"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities of custom scheduling tools",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define specific time blocks, breaks, and capacity limits for various services or resources.",
+          "icon": "⏳",
+          "title": "Granular availability management"
+        },
+        {
+          "description": "Automated email, SMS, or in-app notifications for bookings, changes, and reminders.",
+          "icon": "🔔",
+          "title": "Intelligent notification system"
+        },
+        {
+          "description": "Connect to external calendars (Google, Outlook), CRMs, or payment platforms effortlessly.",
+          "icon": "🔗",
+          "title": "Seamless external integrations"
+        },
+        {
+          "description": "Customizable intake forms to gather essential client information during booking.",
+          "icon": "📝",
+          "title": "Configurable booking forms"
+        },
+        {
+          "description": "Define roles and permissions for administrators, staff, and clients to control access.",
+          "icon": "🔒",
+          "title": "Secure user access & roles"
+        },
+        {
+          "description": "Real-time insights into appointments, cancellations, and resource utilization.",
+          "icon": "📊",
+          "title": "Analytics and reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional custom scheduling application with Kliv can take anywhere from a few hours for a basic setup to a few days for complex systems with multiple integrations and advanced logic. The AI streamlines much of the initial development.",
+          "question": "How quickly can I build a working scheduling application?"
+        },
+        {
+          "answer": "No, extensive coding knowledge is not required. Kliv's platform allows you to describe your desired functionalities in plain language, and the AI translates these into a working application. While some familiarity with business logic helps, you don't need to be a developer.",
+          "question": "Do I need to be a programmer to build a scheduling tool using Kliv?"
+        },
+        {
+          "answer": "Yes, custom-built tools typically offer superior integration capabilities. You can directly connect with almost any external service that provides an API, including CRM systems, payment gateways like Stripe or PayPal, video conferencing tools, and various marketing platforms.",
+          "question": "Can my custom scheduling tool integrate with other software I already use?"
+        },
+        {
+          "answer": "Absolutely. You maintain full ownership and control over your application's design, features, and underlying code. This means you can modify, update, and scale your scheduling tool as your business evolves, without vendor lock-in.",
+          "question": "Will I own the scheduling application I build on Kliv?"
+        },
+        {
+          "answer": "Compared to ongoing SaaS subscription fees, a custom solution built with Kliv represents a one-time development investment. For many businesses, this results in significant cost savings over time, especially as user counts or feature needs grow.",
+          "question": "How does the cost compare to off-the-shelf scheduling software?"
+        },
+        {
+          "answer": "Yes, custom applications often provide greater security. You have direct control over data storage, encryption, and access permissions, allowing you to implement specific security protocols that meet your compliance requirements and protect sensitive client information.",
+          "question": "Is a custom-built scheduling tool more secure than a generic one?"
+        },
+        {
+          "answer": "Kliv provides AI-driven assistance throughout the development process, offering guidance, problem-solving suggestions, and optimization tips. If you need more in-depth support, our documentation and community resources are available.",
+          "question": "What kind of support is available if I get stuck while building?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your bespoke scheduling solution?",
       "type": "cta",
-      "title": "Ready to Build Your Scheduling Solution?",
-      "content": "Create the perfect calendar application for your business needs."
+      "content": "Stop conforming to generic software. Craft a calendar and scheduling tool that perfectly aligns with your vision and elevates your operations with Kliv's AI-powered platform."
     }
-  ]
+  ],
+  "title": "Custom Calendar & Scheduling Tools"
 }

@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a mobile-friendly bill splitting and tip calculator app that can handle multiple diners, split items unevenly, calculate tax, and suggest tip percentages.",
+  "description": "Build custom bill splitting and tip calculation applications with Kliv's AI-powered platform for friends, families, and businesses.",
+  "hero": {
+    "cta": "Start calculating better",
+    "subtitle": "No more awkward silences or math mistakes. Build your perfect bill-splitting and tip-calculating app with Kliv.",
+    "title": "Create your own smart bill splitting & tip calculator app"
+  },
+  "metaDescription": "Easily create a custom bill splitting and tip calculator app with Kliv. Handle complex scenarios, multiple diners, uneven splits, and more. Perfect for restaurants, group dinners, and shared expenses.",
+  "sections": [
+    {
+      "title": "Why build your own bill splitting app?",
+      "type": "text",
+      "content": "Off-the-shelf bill splitting apps are often too simple, too complicated, or riddled with ads. When you regularly split bills – whether it’s for group dinners, shared household expenses, or travel – a generic solution can fall short.\n\nBuilding your own customized app with Kliv means you get exactly the features you need without the bloat. Tailor it to your specific use cases, from complex restaurant tabs with uneven item distribution to simple tip calculations, and ensure accuracy every time. This isn't just about convenience; it's about eliminating friction and stress from shared financial interactions."
+    },
+    {
+      "title": "The case for a custom splitting solution",
+      "type": "markdown",
+      "content": "## The pitfalls of generic apps\n\nMany existing bill splitting apps come with annoying limitations:\n\n- **Inflexible splitting options:** Struggle with uneven item distribution, shared appetizers, or specific people paying for specific things.\n- **Cluttered interfaces:** Overloaded with features you don't use, or hard to navigate during a busy dinner.\n- **Data privacy concerns:** Unsure where your financial data (even if it's just amounts) is being stored or used.\n- **Lack of integration:** Can't easily link to payment apps or expense trackers.\n- **Ads and subscriptions:** Constant interruptions or recurring costs for basic functionality.\n\n## Why a tailored solution makes sense\n\nLeveraging Kliv's AI-powered platform transforms how you approach shared expenses:\n\n### Precision for every scenario\nFrom splitting a complex restaurant bill with appetizers and drinks shared among different people, to simple calculation of individual contributions for a group trip, your custom app handles every nuance. No more manual calculations or debates over who owes what.\n\n### User experience designed by you\nCreate an interface that works intuitively for your regular users, whether it's your family, friends, or a project team. Place the most-used features front and center, simplify input, and make calculations transparent.\n\n### Privacy and control\nKeep your financial interactions private. Your app runs where you want it, ensuring sensitive (even if just temporary) financial data isn't exposed to third-party services you don't trust.\n\n### Adaptable to your needs\nNeed to add a 'round up for charity' option? Or integrate with a specific budgeting tool? Your custom app can evolve with your needs without waiting for updates from a developer.\n\n## Real-world applications\n\nCustom bill splitting tools aren't just for friends. They have practical uses in various settings:\n\n**Restaurants & hospitality**: Internal tool for wait staff to quickly calculate complex tables, or for managers to train new staff on bill finalization.\n\n**Travel groups**: Manage shared expenses for joint trips, ensuring all accommodation, activity, and food costs are fairly distributed.\n\n**Household budgeting**: For roommates or partners, simplify splitting rent utilities, groceries, and other recurring household bills.\n\n**Event planning**: Track and distribute costs for group events like parties, concerts, or collective gifts.\n\n## The power of AI-powered development\n\nBuilding a sophisticated tool no longer requires months of development. Kliv helps you:\n\n- **Describe functionally in plain language**: Tell the AI what you want your app to do, e.g., 'split items unevenly', 'add custom tax rates'.\n- **Rapid iteration**: See your ideas come to life quickly, making it easy to test and refine features.\n- **Automated setup**: Kliv handles the complex coding, server setup, and database integration, allowing you to focus on the user experience.\n\nBy building your own, you invest in a solution that's designed to fit your life, not make your life fit a pre-made app."
+    },
+    {
+      "title": "Bill splitting ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Quickly calculate individual shares for lunch with customizable tip and tax.",
+          "prompt": "Create a simple mobile app for splitting a restaurant bill including custom tip percentages, sales tax, and equal splitting among up to 10 people.",
+          "title": "Simple dining bill splitter"
+        },
+        {
+          "description": "Manage shared expenses for a trip, including payments and balances.",
+          "prompt": "Build a web application for a group of friends to track shared travel expenses, allowing for uneven contributions to specific items (e.g., one person pays for accommodation, others for activities), and showing who owes whom at the end.",
+          "title": "Travel expense manager"
+        },
+        {
+          "description": "Automate splitting household bills among roommates and track payments.",
+          "prompt": "Develop an app for roommates to evenly split recurring household bills like rent, utilities, and internet. Include features to mark payments as 'paid' and send reminders.",
+          "title": "Roommate bill tracker"
+        },
+        {
+          "description": "A robust app for complex restaurant bills with shared items.",
+          "prompt": "Design a bill splitting app where users can input itemized costs, assign items to specific individuals, or split items evenly among selected members, then calculate individual totals including tax and tip.",
+          "title": "Itemized restaurant bill splitter"
+        },
+        {
+          "description": "Calculate tips and divide them among service staff.",
+          "prompt": "Create a tip calculator that allows for different service quality ratings (e.g., 15%, 18%, 20%), custom tip amounts, and the ability to split the total tip among multiple servers based on customizable percentages or equal division.",
+          "title": "Advanced tip distribution"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your splitting tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to log in users and save past bills to their accounts so they can review them later.",
+          "title": "User authentication and history"
+        },
+        {
+          "prompt": "Integrate with common payment apps (e.g., Venmo, PayPal) to facilitate direct payment requests from within the app.",
+          "title": "Payment service integration"
+        },
+        {
+          "prompt": "Implement a currency converter for international travel expense splitting.",
+          "title": "Multi-currency support"
+        },
+        {
+          "prompt": "Add a feature to scan receipts using the device camera and automatically extract itemized costs.",
+          "title": "Receipt scanning"
+        },
+        {
+          "prompt": "Include an in-app chat function for group members to discuss shared expenses.",
+          "title": "In-app communication"
+        },
+        {
+          "prompt": "Allow users to invite others to a shared bill session in real-time, letting everyone input their items.",
+          "title": "Real-time collaborative editing"
+        },
+        {
+          "prompt": "Add functionality to generate and export summary reports of shared expenses over a period.",
+          "title": "Expense reporting"
+        }
+      ]
+    },
+    {
+      "title": "Essential calculation features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Accurately calculate tips based on customizable percentages or fixed amounts.",
+          "icon": "💰",
+          "title": "Flexible tip calculation"
+        },
+        {
+          "description": "Easily divide total bills among any number of people, evenly or unevenly.",
+          "icon": "👥",
+          "title": "Multi-person splitting"
+        },
+        {
+          "description": "Assign specific items to certain individuals or split shared items among selected members.",
+          "icon": "🧩",
+          "title": "Itemized bill distribution"
+        },
+        {
+          "description": "Apply custom tax rates or additional fees per bill or item.",
+          "icon": "🧾",
+          "title": "Custom tax & fees"
+        },
+        {
+          "description": "Get a clear breakdown of who owes what, including subtotals, tax, and tip.",
+          "icon": "📊",
+          "title": "Detailed summaries"
+        },
+        {
+          "description": "Allow manual adjustments for rounding or specific agreements.",
+          "icon": "✏️",
+          "title": "Manual adjustments"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic bill splitting app with Kliv can take just a few hours. More complex features like receipt scanning or payment gateway integration might add a few days of development.",
+          "question": "How quickly can I build a custom bill splitting app?"
+        },
+        {
+          "answer": "No, you don't need any coding skills. Kliv's platform allows you to describe your desired features in plain English, and the AI assists in generating the application components.",
+          "question": "Do I need to be a developer to create this app?"
+        },
+        {
+          "answer": "Absolutely. You can integrate your app with various third-party services that offer APIs, such as payment platforms (e.g., Stripe, PayPal), or even export data to popular budgeting software.",
+          "question": "Can my custom app integrate with other services?"
+        },
+        {
+          "answer": "With Kliv, you own the intellectual property of your custom application. Your data and the application's logic are entirely yours to manage and control.",
+          "question": "Who owns the app once it's built?"
+        },
+        {
+          "answer": "Unlike subscription-based apps, building with Kliv is generally a one-time development cost, potentially with hosting fees depending on your deployment choice. This often results in significant long-term savings.",
+          "question": "Is it more cost-effective than using subscription-based apps?"
+        },
+        {
+          "answer": "Your custom app can be deployed as a web application accessible via any browser, or as a Progressive Web App (PWA) for a native-like experience on mobile devices, or even as a standalone mobile app.",
+          "question": "What platforms can my app run on?"
+        },
+        {
+          "answer": "Yes, you can continuously evolve your app. Kliv's platform makes it straightforward to add new features, modify existing ones, or adapt to new splitting scenarios as your needs change.",
+          "question": "Can I add more features to my app after it's initially built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to simplify your shared expenses?",
+      "type": "cta",
+      "content": "Stop overpaying for generic apps or manually calculating. Start building the perfect bill splitting and tip calculator tailored to your needs today."
+    }
+  ],
+  "title": "Custom Bill Splitting & Tip Calculator Apps"
+}

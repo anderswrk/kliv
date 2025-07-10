@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "Create a Python-based model interface and wrapper that standardizes input/output for different machine learning models, handles versioning, and provides a REST API endpoint.",
+  "description": "Streamline AI model deployment and management by building custom model interfaces and wrappers with Kliv.",
+  "hero": {
+    "cta": "Start building your wrapper",
+    "subtitle": "Create custom interfaces and wrappers for your machine learning models, ensuring seamless integration, version control, and consistent API access.",
+    "title": "Build your own model interfaces and wrappers"
+  },
+  "metaDescription": "Develop robust model interfaces and wrappers with Kliv. Standardize inputs/outputs, manage multiple model versions, and create unified APIs for your AI applications.",
+  "sections": [
+    {
+      "title": "The challenge of managing AI models in production",
+      "type": "text",
+      "content": "Deploying machine learning models into production can be complex. Different models often have varying input/output formats, require specific pre-processing, and need careful version management. This fragmentation leads to brittle integrations, slow deployment cycles, and challenges in maintaining consistent performance.\n\nWhile general-purpose MLOps platforms offer some solutions, they often come with vendor lock-in, rigid architectures, and unnecessary overhead. What if you could build targeted, lightweight tools tailored exactly to your model's needs, giving you full control and flexibility?"
+    },
+    {
+      "title": "Why a custom model interface and wrapper is essential",
+      "type": "markdown",
+      "content": "## The fragmentation problem\n\nIn modern AI applications, you often deal with:\n\n- **Diverse models**: From scikit-learn to PyTorch, TensorFlow, and custom algorithms.\n- **Inconsistent interfaces**: Each model might expect data in a different format, leading to complex data transformations.\n- **Version sprawl**: Managing multiple iterations of a model, and ensuring older versions can still be served.\n- **Deployment hurdles**: Making models accessible via standard APIs (e.g., REST, gRPC) while handling scaling and latency.\n\nGeneric solutions don't always cut it, forcing compromises that impact performance, maintainability, and scalability. This is where custom-built model interfaces and wrappers shine.\n\n## The benefits of building your own\n\n### Standardized access\nA well-designed wrapper provides a consistent API for your models, abstracting away their internal complexities. This makes integration with downstream applications simpler and more robust, regardless of the underlying model framework.\n\n### Seamless versioning\nEasily switch between model versions without changing client code. A wrapper can handle routing requests to the correct model iteration, facilitating A/B testing, rollbacks, and phased deployments.\n\n### Optimized performance\nFine-tune pre-processing, post-processing, and inference logic within your wrapper for specific performance requirements. Integrate custom caching, batching, or hardware acceleration logic that generic platforms can't provide.\n\n### Reduced complexity\nConsolidate all model-specific logic—data validation, feature engineering, result parsing—into a single, manageable component. This simplifies deployment and debugging.\n\n### Full control & ownership\nAvoid vendor lock-in and retain complete control over your deployment environment, security, and feature set. You own the code, and you dictate its evolution.\n\n## Real-world applications\n\nCustom model interfaces and wrappers are critical for:\n\n**Financial Services**: A fraud detection system using multiple models (e.g., rule-based, ML) where a wrapper ensures all inputs are normalized and outputs are consistently scored.\n\n**Healthcare**: A diagnostic tool that uses different image recognition models for various conditions, each accessed via a unified API for medical practitioners.\n\n**E-commerce**: A recommendation engine that dynamically serves different types of recommendations (e.g., personalized, trending) from various models through a single user-facing endpoint.\n\n**Autonomous Systems**: An on-device inference system that wraps multiple small models, providing a consistent API to the main control unit while managing model updates over time.\n\n## The Kliv advantage\n\nBuilding such specialized tools used to require deep software engineering skills and significant development time. With Kliv's AI-powered platform, you can:\n\n- **Describe your requirements**: Explain your models, inputs, outputs, and desired API in natural language.\n- **Rapidly prototype**: Get a functional wrapper tailored to your needs in minutes or hours.\n- **Generate clean code**: Kliv produces production-ready code that you can inspect, modify, and deploy.\n- **Iterate quickly**: Easily modify your wrapper's logic, add new models, or update APIs with simple prompts."
+    },
+    {
+      "title": "Model interface and wrapper ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Standardize access to classification models with unified input/output formats.",
+          "prompt": "Build a wrapper that exposes a REST API for binary classification models. It should accept JSON input, perform data validation and normalization, pass data to a scikit-learn model, and return prediction probabilities. Include logging and error handling.",
+          "title": "Universal Classifier API"
+        },
+        {
+          "description": "Manage multiple versions of a text generation model and route requests.",
+          "prompt": "Develop a model interface for a large language model (LLM) that allows switching between different fine-tuned versions (e.g., v1, v2). It should take a prompt string as input and return generated text, handling model loading and request routing based on a version parameter.",
+          "title": "LLM Version Router"
+        },
+        {
+          "description": "Serve diverse image processing models through a single endpoint.",
+          "prompt": "Create an image processing API wrapper that can apply different computer vision models (e.g., object detection, image classification, segmentation) based on the requested endpoint. It should accept image files or URLs, perform pre-processing (resizing, normalization), and return structured JSON results.",
+          "title": "Unified Image Model Gateway"
+        },
+        {
+          "description": "Wrap regression models to provide standardized predictions for numerical tasks.",
+          "prompt": "Implement a wrapper for regression models that exposes endpoints for price prediction. It should handle feature engineering based on raw input data, invoke a TensorFlow model, and return a single numerical prediction, along with confidence intervals if available.",
+          "title": "Predictive Regression Service"
+        },
+        {
+          "description": "Abstract different backend databases with a consistent data access layer for models.",
+          "prompt": "Design a data access layer wrapper for models that need to fetch data from different sources (e.g., SQL database, NoSQL store, S3 bucket). It should provide a unified `get_data(entity_id)` method that retrieves and formats data consistently for consumption by various ML models.",
+          "title": "Model Data Access Wrapper"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your model wrapper",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add API key authentication and rate limiting to the wrapper's REST API.",
+          "title": "Implement authentication & rate limiting"
+        },
+        {
+          "prompt": "Incorporate a monitoring dashboard showing request latency, error rates, and model inference statistics.",
+          "title": "Integrate performance monitoring"
+        },
+        {
+          "prompt": "Add functionality to dynamically load and unload model versions without restarting the wrapper service.",
+          "title": "Enable dynamic model loading"
+        },
+        {
+          "prompt": "Add the ability to perform A/B testing of different model versions by routing a percentage of traffic to each.",
+          "title": "Add A/B testing capabilities"
+        },
+        {
+          "prompt": "Implement request batching to process multiple inference requests simultaneously for improved throughput.",
+          "title": "Introduce request batching"
+        },
+        {
+          "prompt": "Add health check endpoints that report the status of loaded models and underlying resources.",
+          "title": "Create health check endpoints"
+        },
+        {
+          "prompt": "Allow the wrapper to serve models remotely from an S3 bucket or a model registry.",
+          "title": "Support remote model storage"
+        },
+        {
+          "prompt": "Include detailed logging for all requests, responses, and internal model errors, with configurable log levels.",
+          "title": "Enhance logging capabilities"
+        }
+      ]
+    },
+    {
+      "title": "Key model wrapper features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define consistent input and output contracts for various models.",
+          "icon": "📝",
+          "title": "Standardized Interfaces"
+        },
+        {
+          "description": "Manage and serve multiple iterations of a model simultaneously.",
+          "icon": "♻️",
+          "title": "Model Versioning"
+        },
+        {
+          "description": "Expose models via REST or gRPC APIs for easy application integration.",
+          "icon": "🔌",
+          "title": "API Endpoints"
+        },
+        {
+          "description": "Implement custom data transformations before and after model inference.",
+          "icon": "⚙️",
+          "title": "Pre/Post-processing Logic"
+        },
+        {
+          "description": "Ensure data integrity and consistency with integrated validation rules.",
+          "icon": "✅",
+          "title": "Input Validation & Scheme"
+        },
+        {
+          "description": "Log requests, responses, and errors for debugging and performance analysis.",
+          "icon": "📊",
+          "title": "Logging & Monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, building a basic model interface and wrapper can take anywhere from a few hours to a day. More complex systems with advanced routing or integrations might take a few days to a week.",
+          "question": "How long does it take to build a custom model wrapper?"
+        },
+        {
+          "answer": "While you don't need to be an expert, a basic understanding of your machine learning models (their inputs/outputs, frameworks) helps. Kliv's AI handles the code generation, but you guide the design.",
+          "question": "Do I need to be an MLOps expert or coder to use this?"
+        },
+        {
+          "answer": "Yes, your custom wrapper can integrate with nearly any ML framework (TensorFlow, PyTorch, Scikit-learn, etc.) and expose standard REST or gRPC APIs to connect with other services.",
+          "question": "Can this integrate with my existing machine learning models and services?"
+        },
+        {
+          "answer": "You own 100% of the generated code. You can deploy it to any cloud provider (AWS, Azure, GCP), on-premise, or even on edge devices. Kliv simply helps you generate the initial codebase.",
+          "question": "Where can I deploy the model interface and wrapper I build?"
+        },
+        {
+          "answer": "Custom wrappers offer superior flexibility, allowing you to optimize for specific use cases, integrate proprietary logic, and avoid vendor lock-in. While MLOps platforms provide breadth, a custom wrapper gives you tailored depth where it matters most, often at a lower long-term TCO.",
+          "question": "How does this compare to using a full MLOps platform?"
+        },
+        {
+          "answer": "Yes. Since you get the full codebase, you can modify it as your models evolve, experiment with new features, or adapt to changing production requirements without any restrictions or vendor dependencies.",
+          "question": "Can I modify the wrapper after it's built?"
+        },
+        {
+          "answer": "Yes, by generating your own wrapper, you control data handling and security protocols directly. This can often lead to a more secure setup than relying on third-party services whose internal security might be opaque.",
+          "question": "Is building my own wrapper more secure?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unify your AI models?",
+      "type": "cta",
+      "content": "Stop struggling with fragmented model deployments. Build the tailor-made interfaces and wrappers your AI applications deserve."
+    }
+  ],
+  "title": "Model interfaces & wrappers"
+}

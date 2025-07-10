@@ -1,0 +1,159 @@
+{
+  "defaultPrompt": "I want to create a tax calculator that estimates federal and state income tax based on income, deductions, and credits. It should support different filing statuses and provide a clear breakdown.",
+  "description": "Build custom tax calculator applications for individuals, businesses, or specific tax scenarios with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start calculating",
+    "subtitle": "Develop precise, custom tax calculators for any scenario, from personal finance to complex business tax planning, powered by Kliv's intuitive AI tools.",
+    "title": "Build your own tax calculator applications"
+  },
+  "metaDescription": "Create powerful, custom tax calculators using Kliv. Develop tools for income tax, sales tax, property tax, and more, tailored to your exact needs without coding.",
+  "sections": [
+    {
+      "title": "Why build your own tax calculator?",
+      "type": "text",
+      "content": "In a world of generic financial tools, a 'one-size-fits-all' tax calculator often falls short. Every individual and business has unique financial situations, requiring specific calculations, localized tax laws, and specialized deductions. Relying on off-the-shelf solutions means adapting your needs to their limitations, often missing out on critical nuances.\n\nWith Kliv, you can create a tax calculator that is perfectly tailored. Whether it's for a specific niche, a unique financial product, or just to provide a specialized service, custom-built tax tools empower you with precision and control. Skip the hefty subscription fees and vague results. Instead, build a transparent, accurate, and completely customizable solution."
+    },
+    {
+      "title": "The case for custom tax calculation tools",
+      "type": "markdown",
+      "content": "## The limitations of generic tax tools\n\nExisting tax calculators often come with significant drawbacks:\n\n-   **Lack of Specificity**: Most tools only cover general federal and state income tax, neglecting niche taxes, local levies, or industry-specific deductions.\n-   **Outdated Information**: Tax laws change frequently, and generic tools can lag, providing inaccurate or obsolete calculations.\n-   **Limited Customization**: You can't add unique fields for specific income sources, complex investment deductions, or specialized credits.\n-   **Data Privacy Concerns**: Relying on third-party calculators means trusting your sensitive financial data to external systems.\n-   **Costly Subscriptions**: Premium features for advanced calculations often come with recurring, high-priced subscriptions.\n\n## Why a custom tax calculator is a strategic advantage\n\nBuilding your own tax calculator with Kliv isn't just about avoiding these pitfalls; it's about gaining a competitive edge and providing superior value:\n\n### Hyper-Accuracy and Relevance\nYour custom tool can incorporate the most current tax laws, specific local ordinances, and precise rules relevant to your target audience. This ensures unparalleled accuracy and directly addresses niche needs, whether it's for freelancers, real estate investors, or specific small businesses.\n\n### Complete Control and Flexibility\nOwn the logic, the data, and the design. Adapt your calculator instantly to new tax changes, integrate with other internal systems, or pivot its functionality as your business evolves. This agility is impossible with pre-built software.\n\n### Enhanced User Experience\nDesign an interface that is intuitive and relevant to your users. Include only the fields they need, explain complex terms simply, and provide results in a format that makes sense for their specific context. This leads to higher engagement and trust.\n\n### One-Time Investment, Lasting Value\nInstead of endless subscription fees, invest once in building a tool that becomes a permanent asset. This model offers superior long-term cost-effectiveness and builds a valuable intellectual property for your business.\n\n### Data Security and Privacy\nHost and manage your own data securely. You define the privacy parameters, reducing reliance on third parties and increasing user confidence, especially when dealing with sensitive financial information.\n\n## Real-world applications of custom tax calculators\n\nCustom tax tools are highly versatile and can serve diverse needs:\n\n-   **Financial Advisors**: Offer bespoke tax planning calculators for clients with complex investment portfolios or unique income streams.\n-   **Real Estate Professionals**: Develop property tax estimators that account for local assessments, special districts, and property types.\n-   **E-commerce Businesses**: Create sales tax calculators specifically configured for multi-state sales tax nexus and product categories.\n-   **Freelancers/Gig Economy Workers**: Build income tax estimators that factor in self-employment taxes, business deductions, and quarterly payment planning.\n-   **Non-Profits**: Design calculators to show the tax deductible portion of donations based on specific charity rules.\n\n## The power of AI in tax calculator development\n\nKliv leverages AI to make complex tax calculator development accessible:\n\n-   **Natural Language Input**: Describe the tax scenario, and AI helps structure the calculation logic.\n-   **Rapid Prototyping**: Quickly test different tax scenarios and iterations.\n-   **Intelligent Validation**: AI can suggest common deductions or compliance checks based on the described scenario.\n-   **Automated Updates**: Configure your tool to pull in public tax data, streamlining updates when laws change.\n\nBuild a tax calculator that stands out. With Kliv, you can turn intricate tax regulations into user-friendly, precise, and custom applications."
+    },
+    {
+      "title": "Tax calculator ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Estimate individual federal and state income tax liability.",
+          "prompt": "Create an income tax calculator for individuals that accounts for filing status (single, married filing jointly, etc.), standard/itemized deductions, common credits like child tax credit, and taxable income thresholds for both federal and a specific state (e.g., California).",
+          "title": "Personal Income Tax Estimator"
+        },
+        {
+          "description": "Calculate various tax implications for property owners.",
+          "prompt": "Build a property tax calculator that takes into account property value, local millage rates, homeowner exemptions, and any special assessments common in a particular county or city.",
+          "title": "Real Estate Property Tax Calculator"
+        },
+        {
+          "description": "Determine sales tax based on location and product type.",
+          "prompt": "Develop a sales tax calculator that can apply different tax rates based on the buyer's location (zip code) and product category, including handling sales tax holidays or specific exemptions.",
+          "title": "Multi-State Sales Tax Calculator"
+        },
+        {
+          "description": "Estimate tax for independent contractors.",
+          "prompt": "Design a self-employment tax calculator that helps freelancers estimate their federal self-employment tax (social security and Medicare) and quarterly estimated income tax payments based on projected net earnings and common business expenses.",
+          "title": "Freelancer Tax Estimator"
+        },
+        {
+          "description": "Calculate capital gains tax for investments.",
+          "prompt": "Create a capital gains tax calculator that distinguishes between short-term and long-term gains, applies the correct tax rates based on income level, and allows for input of cost basis and sale price.",
+          "title": "Investment Capital Gains Calculator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your tax calculator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to compare different filing statuses to see which results in the lowest tax liability.",
+          "title": "Filing Status Comparison"
+        },
+        {
+          "prompt": "Integrate with a public API to automatically pull current tax bracket information for various tax years and states.",
+          "title": "Real-time Tax Law Updates"
+        },
+        {
+          "prompt": "Include a section where users can input specific types of income (e.g., W-2, 1099, rental income) and expenses (e.g., business expenses, mortgage interest) and see a detailed breakdown.",
+          "title": "Detailed Income & Deduction Inputs"
+        },
+        {
+          "prompt": "Add a feature to generate a summary report or PDF of the tax calculation for printing or saving.",
+          "title": "Exportable Tax Report"
+        },
+        {
+          "prompt": "Implement a user authentication system to allow users to save their tax profiles and access past calculation summaries.",
+          "title": "User Profile Management"
+        },
+        {
+          "prompt": "Build in a scenario testing feature, allowing users to adjust income/deductions to see how it impacts their tax liability.",
+          "title": "What-If Scenario Planning"
+        }
+      ]
+    },
+    {
+      "title": "Core tax calculation features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Apply federal and state tax laws, deductions, and credits accurately.",
+          "icon": "⚖️",
+          "title": "Dynamic Tax Logic"
+        },
+        {
+          "description": "Tailor inputs and outputs for specific tax types (income, sales, property, etc.).",
+          "icon": "🎯",
+          "title": "Customizable Parameters"
+        },
+        {
+          "description": "Securely process and store sensitive financial data.",
+          "icon": "🔒",
+          "title": "Data Privacy & Security"
+        },
+        {
+          "description": "Provide a clear, detailed breakdown of all calculations and results.",
+          "icon": "📝",
+          "title": "Transparent Output"
+        },
+        {
+          "description": "Design an intuitive interface for easy data entry and understanding.",
+          "icon": "✨",
+          "title": "User-Friendly Interface"
+        },
+        {
+          "description": "Connect to external data sources for real-time tax rate updates or financial data.",
+          "icon": "🔗",
+          "title": "API Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic tax calculator with Kliv can take as little as a few hours, depending on complexity. More detailed tools with advanced features or integrations might take a few days of iterative refinement.",
+          "question": "How quickly can I develop a custom tax calculator?"
+        },
+        {
+          "answer": "No coding experience is necessary. Kliv's platform allows you to describe the tax rules, inputs, and desired outputs in plain language, and the AI assists in building the functional calculator.",
+          "question": "Do I need to be a programmer or tax expert to build one?"
+        },
+        {
+          "answer": "Yes, your custom tax calculator can be designed to pull in data from various sources through APIs. This means you can integrate with public tax data APIs for current rates or even private financial systems.",
+          "question": "Can the calculator integrate with external tax data or financial APIs?"
+        },
+        {
+          "answer": "You retain full ownership of the calculator logic, design, and any data processed. Kliv provides the development platform, but the intellectual property of your custom tool is entirely yours.",
+          "question": "Who owns the tax calculator once it's built?"
+        },
+        {
+          "answer": "A custom solution built with Kliv generally involves a one-time development investment, which is often more cost-effective in the long run than recurring subscription fees for advanced commercial tax software that may not perfectly fit your needs.",
+          "question": "Is building a custom tax calculator more expensive than buying off-the-shelf software?"
+        },
+        {
+          "answer": "Absolutely. One of the primary benefits is the ability to easily update tax rules, add new deductions, or modify calculation logic as tax laws change. You have ultimate control to keep your tool current.",
+          "question": "How easy is it to update the calculator when tax laws change?"
+        },
+        {
+          "answer": "Your custom tax calculator can be hosted wherever you choose, giving you direct control over data security protocols and compliance. This often provides more granular security than relying on third-party vendors whose security practices you cannot directly audit.",
+          "question": "How secure is a custom-built tax calculator for sensitive financial data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your precise tax calculation tool?",
+      "type": "cta",
+      "content": "Stop settling for generic. Create a tax calculator that meets your exact specifications and financial needs with AI-powered development."
+    }
+  ],
+  "title": "Custom Tax Calculator Applications"
+}

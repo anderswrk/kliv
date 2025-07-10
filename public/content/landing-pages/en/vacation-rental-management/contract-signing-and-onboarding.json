@@ -1,0 +1,153 @@
+{
+  "defaultPrompt": "Create a contract signing and onboarding application for vacation rental property owners to manage agreements, collect documents, and automate setup tasks.",
+  "description": "Build custom contract signing and onboarding applications for streamlined vacation rental owner management.",
+  "hero": {
+    "cta": "Start building your PMS tool",
+    "subtitle": "Automate contract generation, e-signatures, and owner onboarding for your vacation rental management business with custom applications built on Kliv.",
+    "title": "Custom contract & onboarding for vacation rentals"
+  },
+  "metaDescription": "Create powerful, tailored contract signing and onboarding tools for vacation rental property owners. Automate agreements, e-signatures, document collection, and setup with Kliv's AI-powered platform.",
+  "sections": [
+    {
+      "title": "Why build a custom contract and onboarding tool?",
+      "type": "text",
+      "content": "In the fast-paced vacation rental industry, efficiently onboarding new property owners and managing critical contracts is key to growth. Generic CRM systems or static e-signature platforms often fall short, failing to address the specific nuances of property management agreements, commission structures, and owner documentation.\n\nBuilding your own bespoke application ensures full control over legal compliance, data privacy, and a seamless onboarding experience that truly reflects your brand and operational needs. Kliv's platform allows you to create a system that fits your unique approach, rather than forcing your process into an off-the-shelf solution's limitations."
+    },
+    {
+      "title": "The strategic advantage of tailored solutions",
+      "type": "markdown",
+      "content": "## The challenges with off-the-shelf tools\n\nMany property managers find that standard software for contracts and onboarding presents significant hurdles:\n\n- **Lack of customization**: Unable to handle unique clauses, variable commission rates, or diverse property types.\n- **Disjointed workflows**: Requires jumping between multiple systems for e-signatures, document storage, and owner communication.\n- **Data silos**: Owner information, property details, and contract terms are often spread across different platforms.\n- **Limited automation**: Manual entry errors and time-consuming tasks persist, slowing down the onboarding process.\n- **Compliance risks**: Difficulty in ensuring all necessary disclosures and legal documents are consistently collected and stored.\n\n## Why a custom solution is a game changer\n\nDeveloping a dedicated contract and onboarding application specifically for vacation rental management offers unparalleled benefits:\n\n### Seamless owner experience\nA professional, intuitive onboarding process leaves a strong first impression. Automate document delivery, secure e-signatures, and provide a clear pathway for owners to submit necessary information, reducing friction and increasing satisfaction.\n\n### Legal precision and compliance\nTailor contract templates with dynamic fields that auto-populate property-specific data, legal disclosures, and personalized terms. Ensure every agreement precisely reflects your business model and complies with local regulations.\n\n### Operational efficiency\nEliminate manual paperwork, data re-entry, and administrative bottlenecks. Automate notifications for incomplete tasks, contract expiration reminders, and document collection, freeing up your team to focus on revenue-generating activities.\n\n### Centralized data management\nConsolidate owner contact information, property details, contract versions, and supporting documents in one secure, accessible place. This single source of truth improves accuracy and streamlines reporting.\n\n### Scalability and adaptability\nAs your portfolio grows or legal requirements change, effortlessly update contract templates, add new forms, or integrate with other property management systems (PMS), Channel Managers, or accounting software.\n\n## Real-world impact\n\nCustom contract and onboarding solutions empower vacation rental businesses to:\n\n**Rapidly expand their portfolio**: Expedite the process of bringing new properties under management without increasing administrative overhead.\n\n**Enhance owner relationships**: Provide a modern, transparent, and trustworthy experience from day one, fostering long-term partnerships.\n\n**Minimize legal exposure**: Ensure all agreements are accurately executed, terms are clearly communicated, and necessary disclosures are made.\n\n**Boost team productivity**: Free up staff from repetitive administrative tasks, allowing them to focus on guest services, marketing, and property maintenance.\n\n## Building with AI on Kliv\n\nLeveraging Kliv's AI platform simplifies building complex applications like this. You can define your contract logic, document requirements, and workflow steps using natural language. The AI assists in generating the application's structure, database schema, and user interface, dramatically accelerating development without requiring deep programming skills.\n\nInvest in a solution that truly understands the intricacies of vacation rental management. Build a custom contract and onboarding application that transforms your operational efficiency and sets you apart in the competitive market."
+    },
+    {
+      "title": "Ideas to kickstart your application",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Property management agreement workflow with e-signature and variable commissions based on property type and services selected. Ensure automated reminders for missing signatures and contract expiry dates. Allow upload of landlord ID and bank details if contract is signed. Auto generate landlord welcome pack after contract is fully signed and all documents uploaded. Generate a welcome pack with details of how much commission they are paying and what is included in our service. Add a page to view the services we are providing once they are onboarded. Show their monthly statements on a page once onboarded. Allow them to upload documents."
+        },
+        {
+          "title": "Owner onboarding portal with dynamic forms for property details, a secure document upload feature for permits and insurance, and automated task assignments for internal setup teams upon successful contract signing. Auto generate a link to setup direct debit."
+        },
+        {
+          "title": "Guest booking contract system with integrated e-signature, payment gateway integration, and automated pre-arrival communication triggered by contract completion. Allow the guest to upload their photo ID. Automatically block calendar dates if a booking is made and the contract is generated. Auto generate a welcome message once booked to the guest. Once the payment is made, send a welcome message with details of the property and how to check in."
+        },
+        {
+          "title": "Maintenance service agreement management for external vendors, including contract version control, service level agreement (SLA) tracking, and automated renewal notifications."
+        },
+        {
+          "title": "Supplier onboarding platform for linen services or cleaning companies, with agreement templates, compliance document submission (e.g., insurance certificates), and payment term setup."
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with a popular Property Management System (PMS) to sync owner and property data.",
+          "title": "PMS integration"
+        },
+        {
+          "prompt": "Add a landlord communication module with automated messaging templates and integrated chat functionality.",
+          "title": "Owner communication module"
+        },
+        {
+          "prompt": "Incorporate a calendaring feature to schedule property handovers, inspections, or onboarding calls.",
+          "title": "Integrated calendar"
+        },
+        {
+          "prompt": "Build a comprehensive analytics dashboard to track onboarding funnel efficiency, contract completion rates, and document compliance.",
+          "title": "Performance analytics"
+        },
+        {
+          "prompt": "Enable multi-language support for owner contracts and the onboarding portal to serve international clients.",
+          "title": "Multi-language support"
+        },
+        {
+          "prompt": "Implement an API for seamless integration with external accounting software for commission payouts.",
+          "title": "Accounting software integration"
+        },
+        {
+          "prompt": "Add a feedback mechanism for new owners to rate their onboarding experience.",
+          "title": "Owner feedback system"
+        }
+      ]
+    },
+    {
+      "title": "Core application capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Generate dynamic contract templates with customizable clauses, fields, and branding.",
+          "icon": "📝",
+          "title": "Dynamic contract generation"
+        },
+        {
+          "description": "Securely capture legally binding electronic signatures from property owners and partners.",
+          "icon": "✍️",
+          "title": "Integrated e-signature"
+        },
+        {
+          "description": "Define and automate multi-step onboarding workflows from contract signing to property listing.",
+          "icon": "➡️",
+          "title": "Configurable workflows"
+        },
+        {
+          "description": "Securely collect and manage required documents (e.g., IDs, insurance, property deeds).",
+          "icon": "📂",
+          "title": "Document management"
+        },
+        {
+          "description": "Automate notifications, reminders, and tasks based on workflow progress and contract status.",
+          "icon": "🔔",
+          "title": "Automated alerts & tasks"
+        },
+        {
+          "description": "Maintain a full audit trail of all contract versions, signatures, and document submissions.",
+          "icon": "📜",
+          "title": "Version control & audit trail"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Using Kliv, a basic contract and onboarding application for vacation rentals can be ready in days, not months. Complex features like deep PMS integrations or advanced analytics might extend development by a few days.",
+          "question": "How long will it take to build this tool?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv’s AI-powered platform allows you to describe your desired functionalities using natural language. The platform assists in building the underlying code, database structure, and user interface.",
+          "question": "Do I need to be a developer to build this application?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various third-party services like e-signature providers (if not built-in), payment gateways, cloud storage, property management systems (PMS), and CRM software via APIs or direct integrations.",
+          "question": "Can this application integrate with my existing PMS or other tools?"
+        },
+        {
+          "answer": "You retain full ownership of the application, data, and intellectual property. Kliv provides the platform for building, but what you create is yours to manage and deploy.",
+          "question": "Who owns the data and the application once it's built?"
+        },
+        {
+          "answer": "Building a custom application typically involves a one-time development cost, sometimes with minimal hosting fees, which often yields significant long-term savings compared to recurring subscription costs of specialized SaaS solutions. You aren't paying for features you don't use.",
+          "question": "What's the cost comparison to buying an off-the-shelf solution?"
+        },
+        {
+          "answer": "Absolutely. Custom applications are designed for flexibility. You can easily add new features, modify workflows, update contract templates, or adapt the system as your business evolves or legal requirements change.",
+          "question": "Can I modify the application after it’s gone live?"
+        },
+        {
+          "answer": "Custom applications built on Kliv can be highly secure, as you control the hosting environment, data encryption, and access permissions, often surpassing the security of multi-tenant SaaS solutions.",
+          "question": "How secure is a custom-built contract and onboarding solution?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to simplify your owner onboarding?",
+      "type": "cta",
+      "content": "Stop wrestling with generic software. Build a truly intelligent, integrated system that accelerates your growth and streamlines your vacation rental operations."
+    }
+  ],
+  "title": "Custom contract & onboarding tools for vacation rentals"
+}

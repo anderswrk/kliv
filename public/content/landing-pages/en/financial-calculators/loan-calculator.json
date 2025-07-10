@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a loan calculator that can handle different loan types (mortgage, auto, personal), calculate monthly payments, total interest, and provide an amortization schedule. It needs to be easy to use and embeddable on a website.",
+  "description": "Build custom loan calculators with Kliv's AI-powered platform to serve your specific audience or business needs.",
+  "hero": {
+    "cta": "Start calculating",
+    "subtitle": "Develop precise, custom loan calculators tailored to your specific financial products or user base, built efficiently with Kliv's AI-powered platform.",
+    "title": "Create Advanced Loan Calculators"
+  },
+  "metaDescription": "Design and deploy custom loan calculation tools with Kliv. Easily calculate mortgages, auto loans, personal loans, and generate detailed amortization schedules for your clients or website visitors.",
+  "sections": [
+    {
+      "title": "Why build your own loan calculator?",
+      "type": "text",
+      "content": "Off-the-shelf loan calculators are generic. They miss the nuances of your specific loan products, fail to capture unique regional regulations, or lack the branding and user experience that resonates with your audience. Building your own allows for perfect alignment with your business goals, offering a superior tool that clients will trust and use.\n\nWith Kliv, leveraging AI, custom development is no longer complex or costly. You can now craft precise, interactive financial tools that serve as powerful lead generation, educational resources, or essential internal utilities, all designed to your exact specifications."
+    },
+    {
+      "title": "The strategic advantage of custom financial tools",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\n\nPublicly available or template-based loan calculators often fall short. They frequently:\n\n- **Lack specificity**: Unable to factor in specific fees, rates, or repayment structures unique to your offerings.\n- **Offer poor user experience**: Not designed with your brand's aesthetics or user flow in mind.\n- **Are not integrated**: Cannot connect seamlessly with your CRM, lead management, or application systems.\n- **Have hidden costs**: Many sophisticated calculators require subscriptions or per-use fees.\n- **Provide inaccurate data**: Generic tools may not account for regional or product-specific financial regulations.\n\n## Why a tailored solution makes sense\n\nBuilding a custom loan calculator with Kliv transforms a simple utility into a strategic asset:\n\n### Precision and Accuracy\nYour calculator will reflect your exact loan products, including specific interest calculation methods, fees, and down payment requirements. This ensures the information provided to your clients is always accurate and relevant.\n\n### Enhanced User Experience & Branding\nDesign a calculator that matches your brand's look and feel, providing a consistent and professional experience. An intuitive interface improves user engagement and builds trust.\n\n### Seamless Integration\nConnect your calculator directly to your existing systems. Capture lead information, track user interactions, or populate application forms automatically, streamlining your sales and operations.\n\n### Cost Efficiency & Ownership\nAvoid recurring subscription fees. A custom-built tool is a one-time investment that you own completely. This means full control over features, updates, and data security.\n\n### Versatility & Scalability\nEasily adapt your calculator as your product offerings or market regulations change. Develop multiple calculators for different loan types or audiences from a single, flexible foundation.\n\n## Real-world impact\n\nCustom loan calculators are not just for banks. They add significant value across various sectors:\n\n**Real Estate Agencies**: Provide instant mortgage payment estimates for listings, including property taxes and HOA fees.\n\n**Automotive Dealerships**: Allow customers to calculate car payments based on various terms, down payments, and trade-in values.\n\n**Financial Advisors**: Offer personalized retirement planning or debt consolidation calculators for client scenario planning.\n\n**Education Institutions**: Help students estimate student loan repayments based on different aid packages and future income projections.\n\n**Small Businesses**: Provide financing options for large purchases, helping customers understand repayment terms clearly.\n\n## The Kliv advantage\n\nKliv's AI-powered platform makes creating complex financial tools straightforward:\n\n- **Conversational Development**: Describe your desired calculator in plain language, and Kliv's AI assists in bringing it to life.\n- **Rapid Iteration**: Build, test, and refine your calculator quickly, responding to market needs in days, not months.\n- **Intelligent Features**: AI can suggest relevant financial formulas, validation rules, and UI improvements.\n- **Secure & Robust**: The underlying architecture is built for performance and security, crucial for financial applications.\n\n## Your path to a better financial tool\n\nInstead of settling for generic solutions, invest in a custom loan calculator that truly serves your business and clients. Kliv empowers you to specify and build the exact tool you need, without deep coding knowledge. Start designing your bespoke financial calculator today."
+    },
+    {
+      "title": "Loan calculator ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Calculate monthly principal and interest for a home loan, factoring in down payment and term.",
+          "prompt": "Build a mortgage calculator that takes loan amount, interest rate, loan term, and down payment to compute monthly payments and total interest paid. Include an amortization schedule.",
+          "title": "Basic mortgage calculator"
+        },
+        {
+          "description": "Estimate monthly payments for vehicles, considering trade-ins and sales tax.",
+          "prompt": "Create an auto loan calculator that calculates monthly payments given vehicle price, interest rate, loan term, sales tax, and a trade-in value.",
+          "title": "Automotive loan calculator"
+        },
+        {
+          "description": "Help users understand personal loan affordability and total payback.",
+          "prompt": "Develop a personal loan calculator that lets users input desired loan amount, interest rate, and repayment period to see monthly payments and total cost.",
+          "title": "Personal loan affordability tool"
+        },
+        {
+          "description": "Show the impact of extra payments on mortgage payoff time and interest.",
+          "prompt": "Design a mortgage early payoff calculator where users can add extra principal payments to see how much faster they can pay off their loan and how much interest they save.",
+          "title": "Mortgage early payoff calculator"
+        },
+        {
+          "description": "Compare scenarios for debt consolidation loans.",
+          "prompt": "Build a debt consolidation calculator that allows users to input multiple existing debts (balance, interest rate, minimum payment) and compare them to a new consolidation loan, showing potential savings.",
+          "title": "Debt consolidation calculator"
+        },
+        {
+          "description": "Evaluate investment property returns based on financing.",
+          "prompt": "Create a cash flow calculator for rental properties, including mortgage payments, rental income, operating expenses, and vacancy rates.",
+          "title": "Rental property cash flow calculator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your calculator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add the ability for users to save and email their calculation results.",
+          "title": "Add save & email results"
+        },
+        {
+          "prompt": "Integrate a lead capture form that automatically sends calculation details to a CRM like HubSpot or Salesforce.",
+          "title": "Integrate lead capture"
+        },
+        {
+          "prompt": "Include an interactive chart for the amortization schedule showing principal vs. interest over time.",
+          "title": "Add interactive amortization chart"
+        },
+        {
+          "prompt": "Implement dynamic parameters that adjust based on regional average rates or real-time market data via an external API.",
+          "title": "Add dynamic rate lookup"
+        },
+        {
+          "prompt": "Create a comparison tool to show how different loan terms or interest rates affect the total cost.",
+          "title": "Build 'what if' scenarios"
+        },
+        {
+          "prompt": "Add multi-language support and currency conversion options.",
+          "title": "Implement localization"
+        },
+        {
+          "prompt": "Develop a backend admin panel to manage default loan parameters, add new loan types, or view usage analytics.",
+          "title": "Create admin dashboard"
+        },
+        {
+          "prompt": "Allow users to securely pre-qualify for a loan directly from the calculator results page.",
+          "title": "Add pre-qualification form"
+        },
+        {
+          "prompt": "Include detailed breakdown text explaining each calculated field (e.g., 'total interest', 'effective APR').",
+          "title": "Add explanatory text"
+        }
+      ]
+    },
+    {
+      "title": "Key calculator capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Accurately calculate monthly payments, total interest, and total cost.",
+          "icon": "💰",
+          "title": "Precise Calculations"
+        },
+        {
+          "description": "Generate detailed, interactive tables showing principal, interest, and remaining balance over time.",
+          "icon": "📅",
+          "title": "Amortization Schedules"
+        },
+        {
+          "description": "Easily embed your custom calculator on any website or integrate it into existing platforms.",
+          "icon": "🔗",
+          "title": "Embeddable & Integrable"
+        },
+        {
+          "description": "Tailor inputs and outputs to your specific loan products and business logic.",
+          "icon": "⚙️",
+          "title": "Customizable Parameters"
+        },
+        {
+          "description": "Design a user-friendly interface that matches your brand's aesthetics.",
+          "icon": "✨",
+          "title": "Branded Experience"
+        },
+        {
+          "description": "Ensure accurate results with validation rules and clear error handling for user inputs.",
+          "icon": "🛡️",
+          "title": "Input Validation & Security"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, you can quickly build the core functionality of a loan calculator in a matter of hours. More complex calculators with integrations or advanced features might take a few days of iterative development.",
+          "question": "How quickly can I build a custom loan calculator?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv's AI-powered platform allows you to describe the calculator you need using natural language. The AI assists with generating the code and structure.",
+          "question": "Do I need to know how to code to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom calculator can connect with virtually any third-party system that offers an API, including CRMs (e.g., Salesforce, HubSpot), email marketing platforms, and lead management systems.",
+          "question": "Can the custom calculator integrate with my existing CRM or lead capture tools?"
+        },
+        {
+          "answer": "You fully own the application and its data. Kliv provides the platform to build it, but the intellectual property of your custom calculator belongs to you.",
+          "question": "Who owns the loan calculator I build and its data?"
+        },
+        {
+          "answer": "Building a custom calculator is a one-time development cost, often significantly less than ongoing subscription fees for enterprise-grade SaaS calculator solutions, especially when considering long-term use.",
+          "question": "How cost-effective is building custom versus using off-the-shelf calculators?"
+        },
+        {
+          "answer": "Absolutely. One of the main benefits of building with Kliv is flexibility. You can easily add new fields, adjust formulas, change the design, or implement new features as your business evolves.",
+          "question": "Can I modify the calculator after it's been built and deployed?"
+        },
+        {
+          "answer": "Yes, Kliv helps you build secure applications. You'll have control over data handling, encryption, and where the application is hosted, allowing you to meet your specific security and compliance requirements.",
+          "question": "Is a custom-built financial calculator secure?"
+        },
+        {
+          "answer": "Kliv's platform provides AI-driven assistance during development, intelligent suggestions, and debugging support. Since you own the code, you can also leverage standard development practices and resources for maintenance.",
+          "question": "What kind of support is available for maintaining the calculator?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your perfectly precise loan calculator?",
+      "type": "cta",
+      "content": "Stop settling for generic. Create a powerful financial tool that uniquely serves your business and truly engages your audience."
+    }
+  ],
+  "title": "Custom Loan Calculators"
+}

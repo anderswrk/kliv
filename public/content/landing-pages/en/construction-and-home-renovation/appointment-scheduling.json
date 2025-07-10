@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create an appointment scheduling tool for my construction business that allows clients to book consultations, schedules technicians for on-site estimates, and manages project timelines, accounting for travel and material delivery.",
+  "description": "Build custom appointment scheduling apps tailored for the construction and home renovation industry with Kliv. Streamline bookings, estimates, and project management.",
+  "hero": {
+    "cta": "Start building your scheduler",
+    "subtitle": "Optimize project planning, client consultations, and field team deployment with custom scheduling applications built on Kliv's platform.",
+    "title": "Custom Appointment Scheduling for Construction & Renovation"
+  },
+  "metaDescription": "Create powerful, custom appointment scheduling software for construction, home renovation, and field services. Manage bookings, estimates, and work orders efficiently with Kliv.",
+  "sections": [
+    {
+      "title": "The scheduling challenge in construction",
+      "type": "text",
+      "content": "Traditional scheduling tools often fall short for construction and home renovation businesses. They don't account for complex factors like travel time between sites, material delivery windows, crew availability, equipment allocation, or variable estimate durations. This leads to missed appointments, inefficient site visits, and frustrated clients.\n\nOff-the-shelf solutions are generic, forcing you to adapt your intricate workflows to their rigid structures. Building your own scheduling application with Kliv's AI-powered platform allows you to create a system that perfectly fits your unique operational needs, from initial client contact to project completion."
+    },
+    {
+      "title": "Why a custom scheduling tool is essential for your business",
+      "type": "markdown",
+      "content": "## The limitations of generic scheduling software\n\nMost calendaring and booking apps are designed for simple, fixed-duration appointments. They typically lack the sophistication required for dynamic, multi-faceted operations like those found in construction and renovation:\n\n- **No resource management**: Doesn't track specific technician skills, equipment availability, or material stock.\n- **Poor location awareness**: Struggles to optimize routes or account for travel time between dispersed job sites.\n- **Lack of customizability**: Can't easily integrate with your CRM, invoicing system, or project management tools.\n- **Client inflexibility**: Standard booking portals don't offer dynamic service options or conditional scheduling logic.\n- **Hidden costs**: Per-user fees and 'premium' features quickly add up, especially for growing teams.\n\n## The power of a tailored solution\n\nBuilding a custom appointment scheduling application with Kliv empowers you to design a system that directly addresses the nuances of your business:\n\n### Optimized resource allocation\nAssign the right crew with the right skills and equipment to each job. Account for technician certifications, specialized tools, and even vehicle capacity when scheduling.\n\n### Dynamic availability & lead times\nSet up complex rules for availability based on project type, duration, or required resources. Automatically factor in travel time, prep, and clean-up.\n\n### Seamless client experience\nOffer a professional, custom-branded booking portal where clients can select services, provide necessary details (e.g., photos of existing issues), and even get instant estimates if applicable.\n\n### Integrated workflow management\nConnect your scheduling app directly to your CRM to track client interactions, to your inventory system for material readiness, and to your accounting software for automated invoicing.\n\n### Data-driven insights\nAccess real-time data on team utilization, popular services, booking patterns, and lead conversion rates to make informed business decisions.\n\n## Real-world impact\n\nCustom scheduling tools are transforming how construction and renovation businesses operate:\n\n**Residential Renovation**: A system that allows homeowners to book initial consultations, specify project scope, and automatically suggests available slots based on contractor availability and distance.\n\n**HVAC & Plumbing Services**: An app that dispatches technicians based on current location, required skills for the service request, and integrates with parts inventory to ensure quick fixes.\n\n**Commercial Construction**: A multi-user platform for project managers to schedule sub-contractor visits, material deliveries, and inspections, with real-time updates and conflict warnings.\n\n**Landscaping & Outdoor Projects**: A client-facing portal that allows booking of estimates for varying project sizes (e.g., small garden design vs. full landscape overhaul), with dynamic pricing and crew allocation.\n\n## Get started with tailored scheduling\n\nStop wrestling with inadequate software. Kliv's AI-powered platform makes it feasible to build a sophisticated, custom scheduling tool without extensive coding knowledge. Focus on what you need your system to do, and let AI handle the development."
+    },
+    {
+      "title": "Scheduling app ideas for construction & renovation",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Streamlined booking for initial client discussions.",
+          "prompt": "Create an online booking system for prospective clients to schedule 30-minute residential renovation consultations, allowing them to upload photos of their current space prior to the call.",
+          "title": "Client Consultation Scheduler"
+        },
+        {
+          "description": "Efficiently dispatch field teams for on-site assessments.",
+          "prompt": "Build an app that schedules technicians for on-site estimates, optimizing routes for multiple daily visits, and matching technician skills to job requirements (e.g., plumbing, electrical).",
+          "title": "On-Site Estimate Dispatcher"
+        },
+        {
+          "description": "Manage sub-contractor and vendor appointments.",
+          "prompt": "Develop a calendar that allows project managers to schedule specific sub-contractor teams (e.g., electricians, painters) and material deliveries, ensuring no time conflicts at the job site.",
+          "title": "Sub-Contractor & Delivery Coordinator"
+        },
+        {
+          "description": "Internal crew scheduling and allocation.",
+          "prompt": "Design a crew management tool that assigns specific construction teams to projects based on their availability, specialization, and current workload, with a drag-and-drop interface.",
+          "title": "Crew & Equipment Scheduler"
+        },
+        {
+          "description": "Booking and tracking for ongoing maintenance services.",
+          "prompt": "Create a portal for commercial clients to schedule recurring maintenance services (e.g., HVAC checks, roof inspections), allowing them to view past service history and technicians notes.",
+          "title": "Commercial Maintenance Booker"
+        },
+        {
+          "description": "Specialized appointment booking for unique services.",
+          "prompt": "Build a scheduling system for specialized services like drone mapping or structural inspections, allowing clients to provide property details and receive a custom quote alongside booking confirmation.",
+          "title": "Specialty Service Booking System"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your scheduling application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate the scheduler with a mapping service to calculate optimal travel routes and estimated travel times between appointments.",
+          "title": "Add route optimization"
+        },
+        {
+          "prompt": "Implement SMS and email reminders that automatically send to clients and technicians 24 hours and 1 hour before an appointment.",
+          "title": "Automate reminders & notifications"
+        },
+        {
+          "prompt": "Add a feature that allows clients to reschedule or cancel appointments directly through the online portal, with clear rules for lead time.",
+          "title": "Enable self-service rescheduling"
+        },
+        {
+          "prompt": "Build a module for tracking crew certifications and equipment maintenance schedules, preventing double-booking of specialized resources.",
+          "title": "Integrate resource management"
+        },
+        {
+          "prompt": "Add functionality for clients to upload relevant documents or photos (e.g., blueprints, site conditions) when booking an estimate.",
+          "title": "Allow document uploads"
+        },
+        {
+          "prompt": "Create a reporting dashboard that visualizes technician utilization, peak booking times, and client no-show rates.",
+          "title": "Develop performance analytics"
+        },
+        {
+          "prompt": "Connect the appointment system to your accounting software to automatically generate invoices or track labor hours based on completed appointments.",
+          "title": "Link to invoicing/payroll"
+        },
+        {
+          "prompt": "Implement a payment gateway so clients can pay deposits or full service fees directly when booking certain types of appointments.",
+          "title": "Add payment processing"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your scheduling app",
+      "type": "features",
+      "items": [
+        {
+          "description": "Provide a professional, custom-branded online portal for clients to book.",
+          "icon": "🌐",
+          "title": "Client Booking Interface"
+        },
+        {
+          "description": "Define services, durations, buffer times, and available staff/resources.",
+          "icon": "⚙️",
+          "title": "Configurable Service Types"
+        },
+        {
+          "description": "Manage multiple calendars for teams, equipment, and locations.",
+          "icon": "📆",
+          "title": "Multi-Resource Calendars"
+        },
+        {
+          "description": "Prevent conflicts and optimize schedules with intelligent slot allocation.",
+          "icon": "🧠",
+          "title": "Smart Availability Logic"
+        },
+        {
+          "description": "Automated email and SMS confirmations, reminders, and updates.",
+          "icon": "📧",
+          "title": "Automated Notifications"
+        },
+        {
+          "description": "Sync with external calendars (Google, Outlook) and integrate with CRM or project management tools.",
+          "icon": "🔗",
+          "title": "Integrated Ecosystem"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "You can build a functional custom scheduling tool for construction in days, not months. The complexity and specific features will influence the exact timeline, but Kliv significantly accelerates development.",
+          "question": "How quickly can I build a custom scheduling application?"
+        },
+        {
+          "answer": "No, Kliv simplifies development greatly. You describe your desired features and workflows in plain language, and the AI assists in generating the application. It empowers businesses without dedicated development teams.",
+          "question": "Do I need to be a programmer to create this software?"
+        },
+        {
+          "answer": "Absolutely. Your custom scheduling app can integrate with virtually any third-party system that offers an API, including CRM platforms, accounting software (e.g., QuickBooks), project management tools, and external calendars.",
+          "question": "Can I integrate my new scheduling app with existing business tools?"
+        },
+        {
+          "answer": "Compared to ongoing SaaS subscriptions, a custom-built solution with Kliv can offer significant long-term cost savings. You make a one-time investment in development and own the asset outright, avoiding escalating monthly fees.",
+          "question": "What is the cost efficiency of building vs. buying a scheduling solution?"
+        },
+        {
+          "answer": "With Kliv, you retain complete ownership of the application and its data. You have full control over future modifications, hosting options, and data security, without vendor lock-in.",
+          "question": "Who owns the software and data once it's built?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage of custom software. As your construction business evolves, you can easily modify existing features, add new functionalities, or adjust workflows to meet changing demands.",
+          "question": "Can I modify the scheduling app after it's been deployed?"
+        },
+        {
+          "answer": "Kliv facilitates building secure applications by allowing you to define security protocols and data handling practices that meet your specific compliance needs. You control your environment, which can often be more secure than relying on a third-party vendor's blanket solution.",
+          "question": "How secure are custom scheduling applications built with Kliv?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your scheduling?",
+      "type": "cta",
+      "content": "Stop letting generic software dictate your construction and renovation workflows. Build a scheduling application that precisely fits your business needs, improves efficiency, and enhances client satisfaction. Get started with Kliv today."
+    }
+  ],
+  "title": "Custom Appointment Scheduling for Construction"
+}

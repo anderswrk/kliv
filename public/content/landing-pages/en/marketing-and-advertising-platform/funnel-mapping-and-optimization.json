@@ -1,0 +1,159 @@
+{
+  "defaultPrompt": "I want to create a funnel mapping and optimization tool that visualizes customer journeys, identifies bottlenecks, and suggests improvements based on conversion data.",
+  "description": "Visualize, analyze, and optimize your customer journeys with custom-built funnel mapping tools on Kliv.dev.",
+  "hero": {
+    "cta": "Start building your funnel tool",
+    "subtitle": "Gain deep insights into your customer journeys and conversion paths with bespoke funnel mapping applications, built precisely for your marketing needs.",
+    "title": "Build your own funnel mapping & optimization tools"
+  },
+  "metaDescription": "Create powerful, custom funnel mapping and optimization tools with Kliv. Visualize customer journeys, pinpoint leaks, and drive conversions with AI-powered development.",
+  "sections": [
+    {
+      "title": "The challenge of generic funnel analytics",
+      "type": "text",
+      "content": "In today's complex digital landscape, understanding the customer journey is paramount. However, off-the-shelf analytics platforms often provide a one-size-fits-all view that misses the nuances of your unique funnels. They might track clicks and conversions, but they rarely empower you to truly map, diagnose, and optimize bottlenecks across diverse marketing channels and user behaviors.\n\nBuilding your own funnel mapping and optimization tool ensures it perfectly aligns with your specific data sources, business goals, and visualization preferences. It's about moving beyond static reports to dynamic, actionable insights that drive real growth."
+    },
+    {
+      "title": "Why custom funnel tools are a game-changer",
+      "type": "markdown",
+      "content": "## Overcoming the limitations of out-of-the-box solutions\n\nGeneric funnel analytics tools, while useful, have inherent limitations that custom solutions can overcome:\n\n- **Rigid definitions**: They often force you into pre-defined funnel steps, rather than allowing you to map journeys exactly as your customers experience them.\n- **Data silos**: Integrating data from CRM, ad platforms, website analytics, and email marketing can be challenging, leading to incomplete or fragmented funnel views.\n- **Limited visualization**: Standard dashboards might lack the ability to truly visualize complex multi-touchpoint journeys or segment data in unique ways.\n- **Actionable insights dearth**: They may show 'what' happened, but rarely 'why' or 'how' to fix it, requiring significant manual analysis.\n- **Cost scalability**: As your data and team grow, subscription costs for advanced features can skyrocket.\n\n## The power of a tailored solution\n\nA custom-built funnel mapping and optimization application addresses these pain points directly:\n\n### Visualize your unique journeys\nDefine custom funnel steps based on your actual business processes, product features, and lead stages. Map complex, non-linear customer paths that off-the-shelf tools simply can't represent.\n\n### Unify your data sources\nSeamlessly pull data from all your marketing platforms (Google Analytics, Facebook Ads, CRM, email software, etc.), creating a single, comprehensive view of your entire customer journey. No more fragmented insights.\n\n### Dynamic, interactive visualizations\nBuild interactive dashboards and flow diagrams that allow you to drill down into specific funnel stages, identify drop-off points, and segment data by dozens of custom attributes (e.g., source, persona, product).\n\n### Predictive analytics & AI insights\nIntegrate AI to not just show where users drop off, but to analyze behavioral patterns, predict future conversions, and even suggest specific A/B tests or content improvements to stem leaks.\n\n### Cost-effective scalability\nPay for the development once, then scale your usage without incurring exponentially increasing monthly subscription fees. You own the asset, adapting it as your business evolves.\n\n## Real-world impact\n\nCustom funnel tools are transforming how businesses understand and act on customer data:\n\n**E-commerce**: Mapping user paths from ad click to purchase, identifying friction points in the checkout process, and personalizing offers based on abandonment points.\n\n**SaaS**: Visualizing customer onboarding funnels, understanding feature adoption rates, and predicting churn risk by analyzing engagement drops at specific stages.\n\n**Lead Generation**: Tracking lead progression from first touch to closed deal across multiple marketing channels, optimizing content, and improving sales hand-off points.\n\n**Content Marketing**: Analyzing how users consume content, which pieces lead to subscriptions or conversions, and optimizing content paths to guide users deeper into the funnel.\n\n## Building with Kliv\n\nKliv's AI-powered platform makes custom software development accessible. You don't need a team of data scientists or developers. You describe your funnel, your data, and your desired insights in plain language, and Kliv helps you build a powerful, bespoke optimization engine.\n\nEmpower your marketing team with the exact tool they need to identify opportunities, minimize friction, and maximize conversions."
+    },
+    {
+      "title": "Funnel insights to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize user journey from landing page to conversion, segmenting by traffic source and device.",
+          "prompt": "Create a marketing funnel mapping tool that tracks user progression from initial website visit through lead capture and conversion, allowing segmentation by traffic source (organic, paid, social) and device type (desktop, mobile). Identify top drop-off points.",
+          "title": "Website Conversion Funnel"
+        },
+        {
+          "description": "Map the sales pipeline stages, highlighting where deals stall or are lost.",
+          "prompt": "Build a sales pipeline visualization tool that shows lead qualification, proposal generation, negotiation, and closing stages. It should identify common sticking points and win/loss rates at each stage, integrated with CRM data.",
+          "title": "Sales Pipeline Optimization"
+        },
+        {
+          "description": "Analyze user engagement with product features from onboarding to daily use.",
+          "prompt": "Develop a product adoption funnel that maps new user onboarding, initial feature usage, sustained engagement, and potential churn points within our SaaS application. Highlight which features lead to higher retention.",
+          "title": "Product Feature Adoption"
+        },
+        {
+          "description": "Track the journey from email open to purchase, including abandoned cart recovery.",
+          "prompt": "Design an email marketing funnel tracker that monitors user path from email open, click-through, product view, add-to-cart, and purchase. Include metrics for abandoned cart recovery success.",
+          "title": "Email Campaign Funnel"
+        },
+        {
+          "description": "Understand how trial users convert to paid customers.",
+          "prompt": "Create a free trial conversion funnel that tracks users from trial sign-up, key feature engagement during trial, and conversion to paid subscription. Identify behaviors common among converters.",
+          "title": "Free Trial Conversion"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for deeper insights",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add predictive analytics to forecast future conversion rates based on current funnel performance.",
+          "title": "Integrate Predictive Modules"
+        },
+        {
+          "prompt": "Create A/B testing modules allowing users to define experiments and measure impact on funnel steps directly within the tool.",
+          "title": "Build A/B Testing Integration"
+        },
+        {
+          "prompt": "Add real-time alerting for significant drops or changes in funnel conversion rates, notifying marketing managers via Slack/email.",
+          "title": "Implement Anomaly Detection & Alerts"
+        },
+        {
+          "prompt": "Allow the tool to suggest specific content improvements or new ad copies based on drop-off points in different funnel stages.",
+          "title": "Add AI-powered Content Recommendations"
+        },
+        {
+          "prompt": "Enable users to create and compare different funnel segments side-by-side (e.g., by geography, acquisition channel, customer lifetime value).",
+          "title": "Enhance Advanced Segmentation"
+        },
+        {
+          "prompt": "Build a module for marketing budget allocation optimization, suggesting where to spend more based on funnel efficiency and ROI.",
+          "title": "Integrate Budget Optimization"
+        }
+      ]
+    },
+    {
+      "title": "Core funnel mapping capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Visually map customer journeys with customizable steps and paths.",
+          "icon": "🗺️",
+          "title": "Dynamic Funnel Visualizer"
+        },
+        {
+          "description": "Connect & unify data from all your marketing, sales, and analytics platforms.",
+          "icon": "🔗",
+          "title": "Cross-Platform Data Integration"
+        },
+        {
+          "description": "Identify exact drop-off points and visualize conversion rates at each stage.",
+          "icon": "📉",
+          "title": "Bottleneck Identification"
+        },
+        {
+          "description": "Segment funnel data by any customer attribute, source, or behavior.",
+          "icon": "✂️",
+          "title": "Advanced Segmentation"
+        },
+        {
+          "description": "Get AI-driven suggestions for improving conversion rates and user experience.",
+          "icon": "💡",
+          "title": "Actionable Optimization Insights"
+        },
+        {
+          "description": "Track historical performance and compare funnels over time.",
+          "icon": "📈",
+          "title": "Historical Trend Analysis"
+        }
+      ]
+    },
+    {
+      "title": "Common questions about building funnel tools with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom funnel mapping tool with Kliv can range from a few hours for a basic visualization to a few days or weeks for complex, multi-source, AI-integrated systems. The AI significantly accelerates the development process.",
+          "question": "How long does it take to build a custom funnel mapping tool?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv utilizes AI to translate your natural language descriptions of funnel steps, data sources, and desired visualizations into functional application code.",
+          "question": "Do I need to be a developer or data scientist to build this?"
+        },
+        {
+          "answer": "Yes, your custom tool can integrate with virtually any marketing, sales, or analytics platform that offers an API or data export capability, including Google Analytics, Facebook Ads, HubSpot, Salesforce, etc.",
+          "question": "Can my custom tool integrate with my existing marketing platforms (e.g., Google Analytics, CRM)?"
+        },
+        {
+          "answer": "With Kliv, you own 100% of the intellectual property. The code and data infrastructure are yours, giving you complete control over security, hosting, and future modifications.",
+          "question": "Who owns the data and the custom funnel tool after it's built?"
+        },
+        {
+          "answer": "The initial investment for a custom tool often pays for itself rapidly by eliminating recurring subscription fees for multiple SaaS tools, especially as your data and usage scale. It's a strategic asset.",
+          "question": "Is building my own tool more cost-effective than using off-the-shelf software?"
+        },
+        {
+          "answer": "Absolutely. You can continuously iterate, add new data sources, refine visualizations, or integrate new machine learning models as your business needs evolve, without vendor lock-in.",
+          "question": "Can I modify or expand the tool after it's initially built?"
+        },
+        {
+          "answer": "Yes, as you own the infrastructure, you have full control over data security and compliance (e.g., GDPR, CCPA). Your data stays within your controlled environment, reducing third-party risks.",
+          "question": "How secure is a self-built funnel optimization tool?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your customer journey?",
+      "type": "cta",
+      "content": "Stop guessing and start optimizing. Build a funnel mapping and optimization tool that gives you unparalleled clarity and control over your marketing performance. Start building with Kliv today."
+    }
+  ],
+  "title": "Funnel Mapping & Optimization Tools"
+}

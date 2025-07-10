@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an interactive map application that displays real-time traffic data, allows users to select different map layers (e.g., population density, building types), and includes search functionality for addresses and points of interest.",
+  "description": "Build custom interactive map and geospatial visualization tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start mapping",
+    "subtitle": "Transform complex location data into intuitive, interactive maps and powerful geospatial visualizations with Kliv's AI platform.",
+    "title": "Create custom interactive maps and geospatial tools"
+  },
+  "metaDescription": "Develop powerful interactive map and geospatial visualization applications with Kliv. Highlight data patterns, analyze spatial relationships, and make informed decisions with custom-built tools.",
+  "sections": [
+    {
+      "title": "Why build your own interactive map application?",
+      "type": "text",
+      "content": "In a world driven by location intelligence, off-the-shelf mapping tools often fall short of specific needs. They force compromises on data integration, visualization styles, and analytical capabilities. With Kliv, you can move beyond generic solutions and build a geospatial tool that is perfectly tailored to your project, data, and users.\n\nCustom interactive maps provide unparalleled flexibility. You control the aesthetic, the data sources, the analysis tools, and the user experience. Instead of adapting to a vendor's roadmap, you define your own, creating a tool that provides precise insights and solves your unique spatial challenges."
+    },
+    {
+      "title": "The power of custom geospatial visualizations",
+      "type": "markdown",
+      "content": "## Limitations of standard mapping platforms\n\nGeneric mapping services and GIS software are powerful, but they are designed for broad use cases, not your specific one. This often leads to:\n\n- **Data Silos**: Difficulty integrating proprietary or niche datasets.\n- **Limited Customization**: Inability to brand, style, or tailor the user interface.\n- **Subscription Costs**: Escalating fees as data usage or user count grows.\n- **Feature Bloat**: Overly complex interfaces with irrelevant functions.\n- **Security Concerns**: Relying on third-party servers for sensitive location-based data.\n\n## Why custom-built excels\n\nAI-powered development platforms like Kliv redefine what's possible for businesses or researchers needing spatial insights. Here's why building your own is revolutionary:\n\n### Precise Data Integration\nCombine data from disparate sources—CSV files, databases, real-time IoT sensors, or external APIs—and visualize them seamlessly on your map. Your map becomes a true reflection of your integrated data landscape.\n\n### Tailored User Experience\nDesign an interface that is intuitive for your specific audience. Highlight the most relevant information and functionality, eliminating distractions and simplifying complex spatial analysis.\n\n### Cost-Effectiveness\nAvoid recurring software licenses and per-user fees. A custom application, once built, offers long-term value with predictable costs for hosting and maintenance.\n\n### Unique Analytical Capabilities\nImplement bespoke spatial analysis functions that are critical to your operations, from optimized routing algorithms to predictive mapping of phenomena specific to your field.\n\n### Enhanced Data Security & Ownership\nMaintain full control over your geographic data. Host your application on your own infrastructure or a secure cloud environment of your choice, ensuring compliance and privacy.\n\n## Real-world impact\n\nCustom interactive maps are transforming various sectors:\n\n**Urban Planning**: Visualizing zoning laws, demographics, transportation networks, and development proposals on a single map for informed city growth.\n\n**Environmental Monitoring**: Tracking pollution spread, deforestation, or wildlife migration patterns in real-time with integrated sensor data overlays.\n\n**Logistics & Supply Chain**: Optimizing delivery routes, monitoring fleet locations, and visualizing distribution networks for efficiency gains.\n\n**Real Estate**: Displaying property values, school districts, amenities, and demographic data to help clients make informed purchasing decisions.\n\n**Emergency Services**: Mapping incident locations, resource availability, and evacuation zones for faster, more coordinated responses.\n\n## AI's role in making it happen\n\nBuilding sophisticated mapping tools used to require specialized GIS developers and significant time. Kliv changes this equation:\n\n- **Natural Language Design**: Describe your ideal map interface, data layers, and interactive features in plain English.\n- **Rapid Prototyping**: See your map application take shape quickly, allowing for immediate feedback and iterations.\n- **Intelligent Feature Generation**: AI suggests relevant mapping libraries, spatial analysis functions, and visualization techniques based on your data and goals.\n- **Automated Code Generation**: Redundant coding tasks are automated, letting you focus on the unique aspects of your geographical problem.\n\nEmpower yourself to create the precise spatial intelligence tools you need without relying on off-the-shelf solutions that compromise your vision."
+    },
+    {
+      "title": "Interactive map ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize public transit routes and real-time vehicle locations",
+          "prompt": "Create an interactive map for a city's public transportation system, showing bus and train routes, real-time vehicle positions, and estimated arrival times at stops. Allow users to search for stops and plan journeys.",
+          "title": "Public Transit Tracker"
+        },
+        {
+          "description": "Map customer locations and sales territories for business analysis",
+          "prompt": "Develop a business intelligence map that displays current customer locations, aggregates sales data by region, and allows filtering by customer type, product purchased, and sales period.",
+          "title": "Sales Territory Analyzer"
+        },
+        {
+          "description": "Show event locations, dates, and filter by category",
+          "prompt": "Build a community event map where users can view local events by category (e.g., music, sports, festivals), click on markers for event details, and filter events by date or distance from their current location.",
+          "title": "Local Event Finder"
+        },
+        {
+          "description": "Track asset locations and status in real-time",
+          "prompt": "Design an asset tracking map that shows the real-time location of company vehicles or equipment, displaying their operational status and historical movement paths. Include geofencing alerts for defined zones.",
+          "title": "Fleet Tracking System"
+        },
+        {
+          "description": "Visualize environmental sensor data across an area",
+          "prompt": "Create a climate data visualization map that overlays real-time sensor readings for temperature, humidity, and air quality across a region, using color-coded heatmaps to show intensity.",
+          "title": "Environmental Sensor Atlas"
+        },
+        {
+          "description": "Explore historical data with time-slider functionality",
+          "prompt": "Develop a historical data map that visualizes changes over time, for example, urban growth or demographic shifts, using a time-slider to animate map layers and data points across different years.",
+          "title": "Historical Data Explorer"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your map application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to calculate optimized routes between multiple points on the map, considering traffic conditions.",
+          "title": "Implement Route Optimization"
+        },
+        {
+          "prompt": "Integrate a search bar that allows users to find locations by address, specific points of interest, or custom data attributes.",
+          "title": "Add Advanced Search Functionality"
+        },
+        {
+          "prompt": "Create custom heatmaps and cluster visualizations to show data density for selected metrics.",
+          "title": "Enhance Data Visualization"
+        },
+        {
+          "prompt": "Allow users to draw polygons or circles on the map and retrieve aggregated data for the selected area.",
+          "title": "Add Spatial Query Tools"
+        },
+        {
+          "prompt": "Integrate third-party weather APIs to display real-time weather conditions as an optional map overlay.",
+          "title": "Include Weather Overlays"
+        },
+        {
+          "prompt": "Develop a mobile-responsive interface for the map application, ensuring full functionality on smartphones and tablets.",
+          "title": "Optimize for Mobile Devices"
+        },
+        {
+          "prompt": "Implement a user authentication system with different access levels, allowing certain map layers or features only to authorized users.",
+          "title": "Add User Roles and Permissions"
+        },
+        {
+          "prompt": "Connect the map application to a real-time data API to automatically update specific map layers or markers (e.g., live vehicle positions).",
+          "title": "Enable Real-time Data Updates"
+        },
+        {
+          "prompt": "Add a reporting module that allows users to generate and export PDFs or CSVs of current map views or selected data attributes.",
+          "title": "Implement Map Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Key geospatial capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Display and manipulate various map layers, including satellite imagery, custom vector data, and external WMS/WFS services.",
+          "icon": "🗺️",
+          "title": "Multi-Layer Mapping"
+        },
+        {
+          "description": "Integrate data from diverse sources like databases, spreadsheets, APIs, and IoT devices directly onto your map.",
+          "icon": "🔄",
+          "title": "Flexible Data Integration"
+        },
+        {
+          "description": "Visualize data using custom markers, polygons, heatmaps, cluster maps, and thematic coloring to reveal patterns.",
+          "icon": "📊",
+          "title": "Advanced Data Visualization"
+        },
+        {
+          "description": "Perform spatial queries, buffer analysis, proximity analysis, and custom geoprocessing directly within your app.",
+          "icon": "🧠",
+          "title": "Built-in Spatial Analytics"
+        },
+        {
+          "description": "Allow users to interact with map elements, click for detailed information, filter data, and perform custom actions.",
+          "icon": "👆",
+          "title": "Interactive Controls"
+        },
+        {
+          "description": "Ensure your map application is responsive and performs well across web browsers and mobile devices.",
+          "icon": "📱",
+          "title": "Scalable & Responsive Design"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic interactive map application with Kliv can take as little as a few hours to a day. More complex systems with real-time data feeds and advanced analytics might take a few days to a week to refine.",
+          "question": "How long does it take to develop an interactive map application?"
+        },
+        {
+          "answer": "No specialized GIS or programming experience is required. Kliv's AI platform helps you define your map's features, data sources, and desired interactions using natural language, then it assists in generating the application code.",
+          "question": "Do I need GIS or coding expertise to build these tools?"
+        },
+        {
+          "answer": "Yes, your custom map can connect to almost any data source, including your existing databases (e.g., PostgreSQL, SQL Server), external APIs (e.g., weather, traffic), CSV/GeoJSON files, and real-time IoT feeds.",
+          "question": "Can I integrate my existing spatial data sources?"
+        },
+        {
+          "answer": "Your map application and all underlying data are entirely yours. You own the code, the design, and the deployment. Kliv is a tool for creation, not a repository for your proprietary information.",
+          "question": "Who owns the intellectual property of the mapping application I build?"
+        },
+        {
+          "answer": "While generic mapping services often have recurring fees based on usage or features, a custom application built with Kliv is typically a one-time development investment. Hosting costs are usually minimal and under your control.",
+          "question": "How does the cost compare to using commercial mapping platforms?"
+        },
+        {
+          "answer": "Absolutely. One of the biggest advantages is complete flexibility. You can easily add new map layers, change styling, implement new analytical functions, or integrate additional data sources as your needs evolve.",
+          "question": "Can I modify or expand the map application after it's built?"
+        },
+        {
+          "answer": "Yes. By building your own app, you dictate the security protocols, data storage location, and access controls, which can often lead to a more secure system than relying on a third-party's shared infrastructure.",
+          "question": "Are custom-built map applications secure for sensitive data?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance throughout the development process, offering suggestions for data visualization, spatial analysis, and UI/UX design. You also have access to resources and community support.",
+          "question": "What kind of support is available during the development process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bring your geographic data to life?",
+      "type": "cta",
+      "content": "Stop struggling with generic maps. Start building the precise geospatial solution you need with AI-assisted development."
+    }
+  ],
+  "title": "Interactive Map & Geospatial Visualization Tools"
+}

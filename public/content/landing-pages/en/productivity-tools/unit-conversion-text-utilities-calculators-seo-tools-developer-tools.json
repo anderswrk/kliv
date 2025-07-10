@@ -1,0 +1,155 @@
+{
+  "defaultPrompt": "I want to create an online suite of utility tools, including a unit converter, text manipulation tools like a character counter, a simple calculator, and a basic SEO meta tag generator.",
+  "description": "Build custom online utility and productivity tool suites with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Building Your Toolkit",
+    "subtitle": "Create custom unit converters, text utilities, calculators, and SEO tools tailored to your exact needs with Kliv's AI platform.",
+    "title": "Your Custom Utility Tool Suite"
+  },
+  "metaDescription": "Design and deploy your own online utility tools like unit converters, text manipulation, calculators, and SEO page analysis tools. Kliv's AI platform makes it easy to build powerful, custom productivity applications.",
+  "sections": [
+    {
+      "title": "Why build your own utility tools?",
+      "type": "text",
+      "content": "In a world flooded with generic, often ad-heavy, and sometimes unreliable online tools, having your own custom utility suite is a distinct advantage. Whether for personal productivity, internal team use, or as a valuable resource for your clients, a custom-built tool offers control, reliability, and precision.\n\nOff-the-shelf solutions frequently come with limitations: unsupported units, lack of specific text transformations, irrelevant calculation features, or outdated SEO recommendations. With Kliv, you're not just getting a tool; you're creating the exact solution you need, free from bloat and tailored to your workflow."
+    },
+    {
+      "title": "The power of tailored utility applications",
+      "type": "markdown",
+      "content": "## The limitations of generic utilities\n\nMany free online utility tools come with hidden costs:\n\n- **Ad overload:** Distracting ads that slow down your workflow and compromise user experience.\n- **Feature bloat:** Unnecessary features that clutter the interface and make the tool harder to use.\n- **Lack of customization:** Inability to add specific units, custom text operations, or integrate with your existing systems.\n- **Data privacy concerns:** Uncertainty about how your input data is handled or stored.\n- **Inconsistent reliability:** Tools that may go offline, change functionalities, or become unsupported.\n\n## Why building your own stands out\n\nKliv empowers you to create utility applications that are:\n\n### Precisely tailored to specific needs\nImagine a unit converter that only includes the specific measurements you use daily, or a text utility that performs transformations unique to your content strategy. Custom tools cater directly to your workflow, saving time and increasing accuracy.\n\n### Brand-aligned and professional\nIf you're building a tool for your audience or clients, integrating it seamlessly into your website's design and branding enhances professionalism and trust. It becomes a valuable resource associated directly with you or your business.\n\n### Secure and reliable\nHosting your own tool gives you full control over data security and uptime. You dictate how data is processed and stored, ensuring privacy and consistent availability, free from third-party outages.\n\n### Ad-free and distraction-free\nNo more pop-ups or banner ads getting in the way. Your custom tool provides a clean, efficient, and uninterrupted user experience.\n\n### A powerful lead magnet or internal asset\nFor businesses, a highly specialized, free-to-use utility can attract new users, establish authority in your niche, and even become a valuable internal asset for your team's daily operations.\n\n## Practical applications\n\nCustom utility tools are essential across various professions:\n\n**Engineers/Scientists**: Specialized unit converters for complex scientific notations or specific industry standards that off-the-shelf tools don't support.\n\n**Marketers/Content Creators**: Text analysis tools for keyword density, readability scores, or unique text formatting for specific platforms. Custom SEO tools to optimize on-page elements efficiently.\n\n**Developers**: Base converters, code minifiers, JSON/XML formatters, or character escaper tools designed for their specific programming languages or frameworks.\n\n**Educators/Students**: Simplified calculators for specific subjects, or tools to generate practice problems with custom parameters.\n\n## The Kliv advantage\n\nBuilding sophisticated web tools used to require deep coding knowledge. Kliv’s AI platform changes this:\n\n- **Declarative design**: Describe the tool's function in plain English; the AI handles the implementation.\n- **Rapid iteration**: Quickly adjust and expand features based on real-world use.\n- **No-code to low-code**: Focus on what the tool does, not how to write every line of code.\n- **Seamless deployment**: Go from idea to live application with minimal effort.\n\nUnlock new levels of precision and efficiency by crafting your own perfect suite of online utilities."
+    },
+    {
+      "title": "Utility tool ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Advanced Unit Converter (Engineering Focus): Convert between various engineering units, including force, pressure, energy, and power, with support for Imperial and Metric systems. Include common constants for quick lookups. Provide a simple and clear user interface for selecting units and entering values, and display results in real-time. Allow users to add custom conversion factors for specific materials or contexts if needed. Display a conversion history for quick reference. The tool should be mobile-responsive for on-the-go calculations. It should also include a visual representation of how different units relate to each other (e.g., a hierarchy or graph). The design should be clean and minimalist, focusing on usability and speed. It must be able to handle very large and very small numbers accurately. Finally, consider implementing a 'most used' units section for personalized quick access to frequently used conversions. Also, integrate a search function for units to quickly find specific unit types. The tool should support conversions involving temperature and currency, including historical exchange rate data for currency conversion. Allow users to save their favorite conversion sets for future use. The interface should be multilingual. Ensure the tool provides clear explanations of common units and their applications. It should also have a dark mode option for user comfort. The application should also support chained conversions, for example, converting from feet to meters and then to kilometers in one go. Include a section for defining and saving custom unit groups for specific projects. The tool should offer an API for integration into other applications. Provide a tutorial or guide on how to effectively use all features. Finally, consider adding a community-driven section where users can share their custom unit sets. The tool should also have an offline mode for continued functionality without internet access. This tool should be able to handle complex or compound units as well.\n\nExample Output Design: A clean web interface with two dropdown menus (From Unit, To Unit), an input field for value, and a real-time output display. Below, a section for 'Custom Units' and 'Conversion History'. A search bar at the top for units. Include a toggle for dark mode. A currency converter section using live exchange rates from a reliable API (e.g., European Central Bank). A small graph icon next to unit types to show their relation when clicked. Provide an easy way to switch between standard and scientific notation for results. It should clearly show input errors (e.g., non-numeric input). The design should prioritize quick access to commonly used units while also making it easy to find less common ones. The custom unit conversion feature should be intuitive so that users with no programming background can easily define new conversions, including defining the relationship between two custom units. The overall design should reflect a modern and professional aesthetic suitable for STEM professionals. The tool should be easily shareable and embeddable.\n\nNote: The user's prompt is exceptionally detailed. This response focuses on creating a comprehensive plan that covers all aspects of the request. Ensure the tool includes robust error handling and informative messages for user inputs.\n\nPrompt refined for clarity, conciseness, and actionable steps within Kliv's platform. This is a comprehensive request, suggesting a multi-phase development process. Focus on the core functionalities first, then iterate. Please consider breaking this down into smaller, manageable requests for initial development if it seems too large.\n\n\n\nCreate a scientific unit converter that handles conversions for length, mass, time, temperature, and specific engineering units like force (N, lbf), pressure (Pa, psi), energy (J, BTU), and power (W, hp). It should support both Imperial and Metric systems, allow users to input values, and display converted results instantly. Include common scientific constants (e.g., pi, Avogadro's number) for quick reference. The user interface should be clean and intuitive, suitable for quick calculations. Allow users to customize and save their most frequently used unit pairs. The tool should be responsive for desktop and mobile use. Integrate a clear 'help' or 'info' section explaining each unit type and its use. Ensure complex unit combinations can be handled. Consider a feature to define custom conversion factors for specific specialized materials or conditions. Add a conversion history log and the ability to export the history. Finally, implement a batch conversion feature where multiple values can be converted at once for the same unit pair, and an API for programmatic access to conversions. Make sure the output format is clear and allows for scientific notation when appropriate. Enable quick swapping of 'From' and 'To' units. The tool should be able to provide precision control for the output. It should also offer visually appealing charts or graphs if applicable for certain conversions. The overall design should be professional yet user-friendly, catering to both students and professionals. Include a dark mode option. The tool should also be shareable, allowing users to easily share specific conversions with others. The tool should support conversion for angles (degrees to radians).\nUnit Converter Features:  \n- Supports length, mass, time, temperature, force, pressure, energy, power, and angles.  \n- Imperial and Metric system support.  \n- Input value, instant conversion output.  \n- Includes common scientific constants.  \n- User-friendly and clean interface.  \n- Customizable and savable frequently used unit pairs.  \n- Responsive design (desktop and mobile).  \n- Help/info section for unit explanations.  \n- Handles complex unit combinations.  \n- Custom conversion factor definition.  \n- Conversion history log with export option.  \n- Batch conversion feature for multiple values.  \n- API for programmatic access.  \n- Scientific notation support for output.  \n- Quick swap 'From' and 'To' units.  \n- Precision control for output.  \n- Dark mode option.  \n- Shareable conversion results.  \n\nConsider the user experience regarding complex calculations and ensure clarity in presenting results. The tool should be robust in handling edge cases (e.g., zero, negative inputs where applicable).\n\nAdd a feature that allows users to create their own custom unit categories and units within those categories, specifying their relationships to existing units. This would enable highly specialized conversions for niche fields.\n\nFor example, a user could define a 'Baking' category with units like 'cup (US)', 'tbsp', 'tsp', and relate them to existing volume units (ml, L). They could then define 'pinch' and relate it to 'tsp'.\n\nThis feature needs an intuitive interface for defining these custom units and their conversions, possibly involving a simple formula builder.\n\nMake sure the tool allows for the conversion of complex units (e.g., kg*m/s^2 to lbf*ft/s^2), requiring algebraic manipulation of base units. The engine should be able to parse expressions like 'A to B*C'. The user interface should allow for the input and display of such compound units clearly. The tool should perform dimensional analysis to ensure that conversion of compound units is valid. The tool should be able to break down complex units into their base components and then convert them. This is a crucial advanced feature.\n\nAdd a real-time currency converter that pulls live exchange rates from a reliable API (e.g., Open Exchange Rates, European Central Bank). The converter should allow users to select from a comprehensive list of world currencies, input an amount, and instantly see the converted value. Include historical rate lookup for a selected period. The interface should be simple and intuitive, focusing on quick conversions. The tool should display the date and time of the last exchange rate update. It should also allow users to set 'favorite' currencies for quick access. Provide a clear disclaimer about the real-time nature of rates, as they can fluctuate. The tool should handle multiple decimal places for accurate currency display. Consider adding a small chart showing recent currency trends for a selected pair. Make sure it fetches data efficiently to avoid delays.\n\nAdd a feature for a simple calculator with basic arithmetic operations (addition, subtraction, multiplication, division), percentage calculation, square root, and exponentiation. The interface should mimic a standard scientific calculator, allowing for chained operations. Include memory functions (M+, M-, MR, MC). Support both integer and decimal numbers. The calculator should display the full ongoing expression. It should also have basic scientific functions like sin, cos, tan, log, ln. The calculator should have a clear button layout and display. It should handle operator precedence correctly. Add a history log of calculations that can be cleared. The design should be clean and responsive. Ensure it handles large numbers and floating-point precision effectively. Include a 'copy to clipboard' feature for results. The calculator should support parenthesis for complex expressions. The tool should also have a dedicated section for unit conversion, text manipulation, and calculation. The unit conversion part would allow conversions between various measurement units, the text manipulation for operations like character counting or case conversion, and the calculation part for mathematical operations. Each tool should have its own clear section or tab within the overall application. The overall design should be cohesive and easy to navigate between these different utilities. The tools should load quickly and be very responsive. The user can switch between different modes (Unit, Text, Calc) easily. All these individual tools are part of one unified web application. This comprehensive tool encompasses a Unit Converter, a Text Utility, and a Calculator. This single application should have a clean, tabbed interface to easily switch between these functionalities. It needs to be fast and responsive, suitable for everyday use.\n\nAdd a text manipulation utility that performs the following operations: word count, character count (with and without spaces), line count, sentence count, case conversion (uppercase, lowercase, title case, sentence case), remove extra spaces, remove line breaks, reverse text, and sort lines alphabetically. The tool should have a large input text area and display results instantly in a separate output area or alongside the input. Provide clear buttons for each operation. The application should be web-based and responsive. Include a 'copy to clipboard' feature for the processed text. The tool should efficiently handle large text inputs without performance degradation. Add a feature to find and replace text, with options for case sensitivity and whole word matching. Also, include a URL encoder/decoder and an HTML entity encoder/decoder. Add a base64 encode/decode function. Provide a feature to extract unique words from the text. Make sure the UI is intuitive and easy to use. The tool should offer a 'clear' button for the input area. The tool should be suitable for developers, writers, and anyone needing quick text processing. The tool should also include a feature for stripping HTML tags, and another for generating random strings (e.g., passwords or IDs) with customizable length and character sets. Consider adding a feature to calculate text readability scores (e.g., Flesch-Kincaid). Also, provide an option to remove duplicate lines. The tool should enable users to import text from a file and export the processed text to a file. Add a JSON formatter and validator within the text utility, allowing users to input raw JSON, pretty-print it, and check for syntax errors. This would be very useful for developers.\n\nAdd a basic SEO (Search Engine Optimization) tool focused on on-page analysis. It should include:\n1.  **Meta Tag Generator/Analyzer**: Input a page title, description, and keywords; the tool generates the corresponding HTML meta tags. Conversely, input existing HTML, and it extracts and displays the meta tags. It should also provide character count limits for title and description for optimal display in search results.\n2.  **Keyword Density Checker**: Input text and a keyword; the tool calculates the keyword's frequency and density percentage.\n3.  **Readability Score**: Analyze input text for readability metrics (e.g., Flesch-Kincaid).\n4.  **Header Tag Analyzer (H1-H6)**: Input HTML and display all H1-H6 tags and their content.\n5.  **Internal/External Link Counter**: Input HTML and count the number of internal and external links.\n\nThe interface should be simple, with clear input fields and immediate, well-formatted output. The tool should highlight potential SEO issues or provide recommendations based on best practices. It should be web-based and responsive. The tool should allow users to input a URL and automatically fetch its HTML content for analysis. Include a clear 'Copy HTML' button for the generated meta tags. Provide actionable advice based on the analysis (e.g., 'Title too long'). Add a feature to check for duplicate content within the provided text. The tool should be able to analyze structured data (Schema Markup) if present on a page. The tool should also have a feature to check for image alt tags. The overall design should be professional and easy to navigate for marketers and webmasters.\n\nAdd a developer utility section with specific tools like:\n1.  **Base Converter**: Convert numbers between binary, octal, decimal, and hexadecimal.\n2.  **JSON Formatter/Validator**: Input raw JSON, pretty-print it, and validate its syntax.\n3.  **URL Encoder/Decoder**: Encode and decode URL strings.\n4.  **Base64 Encoder/Decoder**: Encode and decode Base64 strings.\n5.  **MD5/SHA Hasher**: Input text and generate MD5 and SHA-1/SHA-256 hashes.\n6.  **Timestamp Converter**: Convert between human-readable dates and Unix timestamps.\n7.  **UUID Generator**: Generate new UUIDs (Universally Unique Identifiers).\n\nThe interface for each tool should be clean, intuitive, and provide instant results. The entire section should be clearly structured, allowing developers to quickly switch between different utilities. It should be web-based and responsive. Ensure that all conversions and transformations are accurate and efficient. Each tool should have a 'copy to clipboard' button for results. The JSON formatter should provide error highlighting. The Timestamp converter should support both current timestamp generation and conversion of specific dates. The UUID generator should offer different UUID versions (e.g., v4). The tool should also include a simple Regex Tester, allowing users to input a regex pattern and test strings against it, highlighting matches. And a CSV to JSON converter. The overall design should cater to the technical user, providing quick access to common developer operations.\n\nConsolidate the diverse utility tools into a single, cohesive web application that can be easily accessed and navigated. The application should have a primary navigation system (e.g., tabs, sidebar menu) that allows users to seamlessly switch between the following main categories:\n\n1.  **Unit Converter**: For converting various units of measurement (length, weight, volume, temperature, etc.).\n2.  **Text Utilities**: For text manipulation such as case conversion, character/word count, line operations, encode/decode, etc.\n3.  **Calculators**: A general-purpose calculator with basic and scientific functions.\n4.  **SEO Tools**: For on-page SEO analysis (meta tags, keyword density, headers, links).\n5.  **Developer Tools**: For base conversion, JSON formatting, URL encoding, hashing, etc.\n\nEach category should then present its specific tools, maintaining a consistent and intuitive user interface across the entire application. The application must be fast, responsive, and provide instant results for all operations. Ensure search functionality within each utility category for quick access to specific tools. Implement a system for users to 'favorite' frequently used tools across categories for personalized access. The overall design should be clean, modern, and professional, minimizing clutter and maximizing usability. The application should be optimized for both desktop and mobile devices. Provide a clear 'About' or 'Help' section that briefly explains the purpose and usage of each tool. The application should be robust enough to handle various inputs and provide clear error messages when necessary. It should be easily deployable as a standalone web application. This comprehensive utility hub will serve as a one-stop solution for everyday productivity needs, catering to a wide range of users from basic to advanced. It should also have comprehensive dark mode support and maintain state across different tool selections. Ensure all tools are self-contained and perform their functions effectively without cross-interference.\n\nThis comprehensive tool combines unit conversion, text utilities, and calculation. The single application should have a clean, tabbed interface for easy switching between functionalities. It needs to be very fast and responsive for everyday use."
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your utility suite",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now add a user authentication system so users can save their favorite tools and custom settings.",
+          "title": "Add user profiles and personalization"
+        },
+        {
+          "prompt": "Integrate an auto-suggestion feature for unit types or text operations as the user types.",
+          "title": "Implement intelligent real-time suggestions"
+        },
+        {
+          "prompt": "Extend the calculator with graphing capabilities for mathematical functions.",
+          "title": "Include graphing calculator functions"
+        },
+        {
+          "prompt": "Add a feature to fetch and analyze HTML content directly from a URL for SEO tools.",
+          "title": "Enable URL-based SEO analysis"
+        },
+        {
+          "prompt": "Develop a browser extension version of the most used tools for quick access.",
+          "title": "Create a browser extension"
+        },
+        {
+          "prompt": "Allow users to customize the theme and layout of the utility suite.",
+          "title": "Offer theme customization"
+        },
+        {
+          "prompt": "Integrate a 'share results' feature via deep links or social media.",
+          "title": "Add sharing functionality"
+        },
+        {
+          "prompt": "Enable offline mode for core utilities like converters and calculators for use without internet.",
+          "title": "Develop an offline mode"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your custom tools",
+      "type": "features",
+      "items": [
+        {
+          "description": "Convert between any unit type, including custom or specialized units relevant to your field.",
+          "icon": "🔄",
+          "title": "Universal Unit Conversion"
+        },
+        {
+          "description": "Perform complex text operations, from simple case changes to advanced parsing and encoding.",
+          "icon": "📄",
+          "title": "Advanced Text Manipulation"
+        },
+        {
+          "description": "Built-in basic and scientific calculators with customizable functions and history.",
+          "icon": "➕",
+          "title": "Integrated Calculators"
+        },
+        {
+          "description": "Analyze and optimize web page elements using custom SEO auditing tools.",
+          "icon": "📈",
+          "title": "Custom SEO Analysis"
+        },
+        {
+          "description": "Essential utilities for developers, including base converters, formatters, and encoders.",
+          "icon": "💻",
+          "title": "Dedicated Developer Tools"
+        },
+        {
+          "description": "Design an intuitive layout that makes switching between tools seamless and efficient.",
+          "icon": "✨",
+          "title": "Streamlined User Interface"
+        },
+        {
+          "description": "Ensure your tools function perfectly across all devices and screen sizes.",
+          "icon": "📱",
+          "title": "Fully Responsive Design"
+        },
+        {
+          "description": "Process inputs and display outputs instantly, ensuring a smooth user experience.",
+          "icon": "⚡",
+          "title": "Real-time Processing"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, a basic utility tool can be functional in a few hours. A comprehensive suite with multiple integrated tools might take a few days or weeks, depending on complexity and desired features. The AI handles the heavy lifting, accelerating development.",
+          "question": "How quickly can I build a utility tool suite like this?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv's platform allows you to describe the desired functionality in plain language. The AI translates your requirements into a working application.",
+          "question": "Do I need to know how to code to build these tools?"
+        },
+        {
+          "answer": "Your privacy and security are paramount. With Kliv, you control where your application is hosted and how it handles data. You can ensure that your custom tools don't track users or display ads, unlike many free online alternatives.",
+          "question": "Are custom tools built with Kliv more secure than public ones?"
+        },
+        {
+          "answer": "Absolutely. You can integrate your custom tools with virtually any external service that offers an API. This means you can pull live data (e.g., currency exchange rates) or push results to other applications as needed.",
+          "question": "Can my custom tools fetch data from external APIs?"
+        },
+        {
+          "answer": "While the initial development requires Kliv, the resulting application is yours. You can host it on your own servers or preferred cloud provider, ensuring full ownership and independence.",
+          "question": "Do I own the tools I build on Kliv, or are they tied to your platform?"
+        },
+        {
+          "answer": "Yes. One of the core benefits is the ability to continuously modify and expand your tools. As your needs evolve, you can easily add new features, adjust existing ones, or introduce new utility categories.",
+          "question": "Can I easily update or add new features to my tools after they are built?"
+        },
+        {
+          "answer": "Kliv optimizes the generated code for performance and responsiveness. Your custom tools are designed to be fast, providing instant results and a smooth user experience, even with complex operations.",
+          "question": "Will tools built with Kliv be fast and responsive?"
+        }
+      ]
+    },
+    {
+      "title": "Start building your indispensable toolkit today!",
+      "type": "cta",
+      "content": "Stop relying on generic, limited tools. Empower yourself and your team with precisely what you need, built to perfection."
+    }
+  ],
+  "title": "Custom Online Utility Tools & Calculators"
+}

@@ -1,0 +1,159 @@
+{
+  "defaultPrompt": "I want to create a contact center performance dashboard that tracks agent metrics, call volumes, customer satisfaction, and includes real-time reporting.",
+  "description": "Build custom contact center performance reporting solutions powered by AI and tailored to your operations.",
+  "hero": {
+    "cta": "Start building your dashboard",
+    "subtitle": "Gain real-time insights into your contact center performance with custom dashboards and reporting applications built on Kliv's AI platform.",
+    "title": "Custom Contact Center Performance Reporting"
+  },
+  "metaDescription": "Create powerful, custom contact center performance dashboards and reporting tools with Kliv. Track agent KPIs, call metrics, customer satisfaction, and optimize operations.",
+  "sections": [
+    {
+      "title": "The challenge of generic contact center reporting",
+      "type": "text",
+      "content": "Off-the-shelf contact center software often provides generic reports that don't deeply integrate with your unique business processes or data sources. This leads to time-consuming manual data compilation, incomplete insights, and difficulty in making agile operational decisions. Your contact center is unique, and its performance metrics should reflect that, not be limited by rigid templates. Building a custom solution allows you to integrate data from all relevant systems, including CRM, ticketing, and even internal databases, giving you a truly holistic view of your operations."
+    },
+    {
+      "title": "Why build your own contact center performance dashboard?",
+      "type": "markdown",
+      "content": "For mission-critical operations like contact centers, generic reporting simply isn't enough. Custom-built performance dashboards and reporting applications offer unparalleled advantages:\n\n### Gain a Single Source of Truth\nIntegrate data from disparate systems—ACD, CRM, ticketing platforms, even internal databases—into one unified dashboard. No more toggling between applications or manual data collation. Your custom tool can pull exactly the data you need from wherever it resides.\n\n### Tailored KPIs and Metrics\nEvery contact center has unique goals. Generic solutions offer standard KPIs like AHT or FCR, but a custom system lets you define, track, and visualize metrics that are truly critical to your business. Whether it's resolution rates for specific product lines, sentiment analysis from call transcripts, or agent proficiency across multiple languages, you decide what matters.\n\n### Real-time Actionable Insights\nMove beyond historical reports. A custom dashboard can provide real-time updates, allowing supervisors and managers to identify trends, pinpoint issues, and intervene proactively. Monitor call queues, agent status, and customer sentiment as they happen.\n\n### Complete Data Ownership and Security\nUnlike SaaS solutions where your sensitive customer and performance data reside on third-party servers, a Kliv-built application gives you full control. Host your application where you prefer, ensuring compliance with internal security policies and regulatory requirements.\n\n### Future-Proof Scalability\nAs your contact center grows or its needs evolve, your custom application grows with it. easily add new data sources, introduce new metrics, or expand reporting capabilities without being constrained by vendor roadmaps or expensive upgrades. Your system adapts to you, not the other way around.\n\n### Cost Efficiency in the Long Run\nWhile SaaS platforms demand continuous subscription fees that escalate with usage or features, a custom solution built with Kliv is a one-time investment. This empowers you to allocate resources more effectively, shifting from operational expenditure to capital investment in your own core assets.\n\n## Real-world impact\n\nCustom performance reporting solutions are transforming how contact centers operate:\n\n- **Optimizing Staffing**: Predictive analytics based on historical call volumes and agent availability to optimize shift scheduling.\n- **Improving Training**: Identifying agent skill gaps through performance metrics and call monitoring analysis to tailor training programs.\n- **Enhancing Customer Experience**: Tracking resolution times, first call resolution, and customer satisfaction scores to proactively address service bottlenecks.\n- **Boosting Agent Productivity**: Live dashboards for agents showing their personal KPIs, gamification, and performance against targets.\n- **Strategic Decision Making**: Comprehensive executive dashboards correlating contact center performance with overall business outcomes and profitability."
+    },
+    {
+      "title": "Performance dashboard ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize key agent metrics and individual performance.",
+          "prompt": "Create a live agent performance dashboard that displays Average Handle Time (AHT), First Call Resolution (FCR), Customer Satisfaction (CSAT) scores, and call volume for each agent in real-time, with historical trends.",
+          "title": "Agent Performance Summary"
+        },
+        {
+          "description": "Monitor call queues, wait times, and service levels.",
+          "prompt": "Build a call queue management system that shows current call volume, average wait time per queue, calls in queue, and service level adherence for the past hour, with alerts for breaches.",
+          "title": "Real-time Queue Monitor"
+        },
+        {
+          "description": "Analyze customer feedback and sentiment from interactions.",
+          "prompt": "Develop a customer satisfaction analytics tool that processes post-call survey data and sentiment analysis from call transcripts, identifying common themes and correlating them with agent performance.",
+          "title": "Customer Feedback Analyzer"
+        },
+        {
+          "description": "Track hourly call traffic and identify peak periods.",
+          "prompt": "Design a historical call volume report that breaks down inbound and outbound call counts by hour, day, and week, allowing me to identify peak times and forecast staffing needs.",
+          "title": "Call Volume Analytics"
+        },
+        {
+          "description": "Identify and track reasons for customer contact.",
+          "prompt": "Create a contact reason analysis report that categorizes calls based on customer query types (e.g., billing, technical support, order status) and tracks the frequency and resolution rates for each category.",
+          "title": "Contact Reason Insights"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your reporting tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add predictive analytics to forecast future call volumes based on historical data and external factors like marketing campaigns or seasonal trends.",
+          "title": "Predictive Forecasting"
+        },
+        {
+          "prompt": "Integrate a module for agent gamification, allowing agents to see their performance ranked against peers and achieve badges for reaching KPIs.",
+          "title": "Agent Gamification"
+        },
+        {
+          "prompt": "Add a feature to perform root cause analysis on low CSAT scores, linking specific customer feedback to agent interactions and call details.",
+          "title": "Root Cause Analysis Tool"
+        },
+        {
+          "prompt": "Develop a module for automatically generating and sending customizable daily, weekly, or monthly performance reports to key stakeholders via email.",
+          "title": "Automated Report Scheduling"
+        },
+        {
+          "prompt": "Implement a drill-down capability, allowing supervisors to click on an agent's performance metric and view specific call recordings or interaction logs related to that metric.",
+          "title": "Drill-down to Call Details"
+        },
+        {
+          "prompt": "Add a module for real-time alerts if specific metrics (e.g., wait time, service level) exceed predefined thresholds, notifying supervisors via SMS or internal chat.",
+          "title": "Custom Alerting System"
+        }
+      ]
+    },
+    {
+      "title": "Key features for contact center dashboards",
+      "type": "features",
+      "items": [
+        {
+          "description": "Visualize real-time and historical performance data through customizable charts and graphs.",
+          "icon": "📊",
+          "title": "Interactive Dashboards"
+        },
+        {
+          "description": "Connect seamlessly with ACD, CRM, WFM, and other data sources for a unified view.",
+          "icon": "🔗",
+          "title": "Multi-source Integration"
+        },
+        {
+          "description": "Track agent-specific metrics, efficiency, and quality scores.",
+          "icon": "👤",
+          "title": "Agent Performance Tracking"
+        },
+        {
+          "description": "Monitor call traffic, queue times, and service levels in real-time.",
+          "icon": "📞",
+          "title": "Call Flow Analytics"
+        },
+        {
+          "description": "Incorporate CSAT, NPS, and sentiment analysis for comprehensive CX insights.",
+          "icon": "😊",
+          "title": "Customer Experience Metrics"
+        },
+        {
+          "description": "Automate report generation and delivery for key stakeholders.",
+          "icon": "📧",
+          "title": "Automated Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom contact center performance dashboard with Kliv can take anywhere from a few hours for a basic version to a few days or weeks for a highly complex, integrated system. The AI significantly accelerates the development process.",
+          "question": "How long does it take to build a custom contact center dashboard?"
+        },
+        {
+          "answer": "No coding experience is required. Kliv's platform allows you to describe your desired dashboard, metrics, and data sources in plain language, and the AI helps generate the application.",
+          "question": "Do I need technical skills or coding knowledge to build this?"
+        },
+        {
+          "answer": "Yes, a key strength of custom applications built with Kliv is their ability to integrate with diverse data sources. This includes common contact center platforms, CRMs, databases (SQL, NoSQL), APIs, and even flat files (CSV, Excel).",
+          "question": "Can I integrate data from my existing ACD, CRM, and other systems?"
+        },
+        {
+          "answer": "You own the application and all its components, including the code and the data. You have complete control over deployment, hosting, and data security.",
+          "question": "Who owns the dashboard application and the data once it's built?"
+        },
+        {
+          "answer": "Building a custom solution is a one-time investment, unlike recurring SaaS subscriptions that can increase with users or features. Over time, custom solutions often prove significantly more cost-effective, especially for specific or evolving needs.",
+          "question": "How does the cost compare to off-the-shelf contact center reporting software?"
+        },
+        {
+          "answer": "Yes, custom solutions offer unparalleled flexibility. You can continuously iterate, add new metrics, integrate new data sources, or modify existing reports as your contact center's needs evolve without relying on vendor updates.",
+          "question": "Can I modify or expand the dashboard after it's initially built?"
+        },
+        {
+          "answer": "You define the security protocols. Since you control the hosting environment and data access, you can implement robust security measures tailored to your organization's specific compliance and regulatory requirements, often exceeding generic SaaS offerings.",
+          "question": "What about data security and compliance for sensitive contact center data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to optimize your contact center operations?",
+      "type": "cta",
+      "content": "Stop relying on incomplete reports. Build a custom performance dashboard that gives you the insights you need to excel."
+    }
+  ],
+  "title": "Contact Center Performance Reporting"
+}

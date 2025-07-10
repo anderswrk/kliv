@@ -1,0 +1,158 @@
+{
+  "defaultPrompt": "I want to create a guitar learning game that uses microphone input to detect notes played on an acoustic guitar, provides real-time feedback, and includes a library of songs with tab playback and performance tracking.",
+  "description": "Build custom interactive guitar learning games and entertainment applications powered by AI.",
+  "hero": {
+    "cta": "Start Jamming",
+    "subtitle": "Create immersive and educational guitar games that analyze acoustic input, provide intelligent feedback, and track player progress.",
+    "title": "Design your own Acoustic Guitar Game"
+  },
+  "metaDescription": "Develop engaging acoustic guitar games and interactive learning tools with Kliv's AI-driven platform. Real-time note detection, guided practice, and performance analytics.",
+  "sections": [
+    {
+      "title": "Why develop a custom acoustic guitar game?",
+      "type": "text",
+      "content": "The market for music education and interactive entertainment is booming, but generic apps often miss the mark for acoustic guitarists. They either lack precise feedback, customization, or engaging content.\n\nBuilding your own allows you to create a truly tailor-made experience. Imagine a game that adapts to a player's skill, focuses on specific techniques, or lets them play along to a dynamically generated backing track, all while using their own acoustic instrument.\n\nWith Kliv's AI capabilities, you can bring complex musical interaction to life without needing a deep understanding of audio signal processing or game engine development from scratch."
+    },
+    {
+      "title": "The unique potential of custom guitar games",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf guitar apps\n\nExisting guitar learning and game applications often fall short for acoustic players:\n\n- **Reliance on electric guitars**: Many apps are designed for electric guitars with direct input, ignoring the nuances of acoustic sound.\n- **Generic feedback**: Feedback is often basic, lacking the intelligence to identify subtle mistakes in timing, dynamics, or finger placement.\n- **Limited content**: Users are restricted to the app's pre-loaded songs and lessons, with little room for personalization or community content.\n- **Subscription models**: Expensive recurring costs for features that might not exactly fit a user's learning style or entertainment preference.\n- **Lack of innovation**: Few apps leverage advanced AI for truly adaptive learning or creative gameplay.\n\n## The advantages of building your own\n\nLeveraging Kliv to build a custom acoustic guitar game unlocks several powerful benefits:\n\n### Precise acoustic recognition\nDevelop sophisticated algorithms that accurately detect notes, chords, and rhythmic patterns from microphone input, even in varying environments. This means true real-time feedback for genuine acoustic playing.\n\n### Personalized learning paths\nDesign games that adapt to individual player progress, identifying weaknesses and suggesting targeted exercises. Create dynamic difficulty adjustments based on real-time performance.\n\n### Engage with unique gameplay\nGo beyond simple \"follow the tab\" games. Imagine rhythm challenges, improvisation exercises, or collaborative jam sessions powered by AI, all designed for acoustic instruments.\n\n### Own your content and community\nControl your song library, lesson plans, and user-generated content features. Foster a community around your unique game, allowing users to share their creations or challenges.\n\n### Monetization flexibility\nChoose your own business model – one-time purchase, premium content, in-game assets, or even integration with physical accessories. You're not tied to a platform's rigid structure.\n\n## Real-world applications\n\nCustom acoustic guitar games can serve a variety of purposes:\n\n**Educational**: A game that teaches specific genres (e.g., fingerstyle blues) with adaptive exercises and performance analysis.\n\n**Performance-focused**: An app that helps musicians prepare for live gigs by practicing with a virtual band, offering critical feedback on timing and dynamics.\n\n**Creative exploration**: A game that provides AI-generated chord progressions or melodies for improvisation, encouraging musical experimentation.\n\n**Audition preparation**: A tool that analyzes a player's performance against specific song targets, highlighting areas for improvement for auditions or recordings.\n\n**Casual entertainment**: A fun rhythm game where players use their acoustic guitar as the controller, reacting to on-screen cues.\n\n## The AI difference in music tech\n\nDeveloping complex audio analysis and adaptive game logic used to be reserved for specialized teams. AI platforms like Kliv simplify this:\n\n- **Intelligent audio processing**: AI handles complex sound analysis, transforming raw audio into usable musical data.\n- **Adaptive game logic**: AI can learn player patterns and dynamically adjust game challenges or learning paths.\n- **Rapid prototyping**: Quickly test different game mechanics and feedback systems without extensive coding.\n- **Personalized experiences**: Deliver unique experiences to each user based on their performance and preferences.\n\n## Get started with your musical vision\n\nStop settling for generic solutions. With Kliv, you can build an acoustic guitar game that truly stands out, offering an unparalleled interactive experience for musicians and enthusiasts alike. Your unique idea can become a playable reality."
+    },
+    {
+      "title": "Acoustic game concepts to create",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Learn songs with real-time note and rhythm detection.",
+          "prompt": "Create a guitar learning game that displays tablature and sheet music, uses microphone input to detect notes and chords played on an acoustic guitar, and provides instant feedback on accuracy and timing. Include a library of popular songs.",
+          "title": "Interactive Song Learning Application"
+        },
+        {
+          "description": "Practice scales and arpeggios with adaptive challenges.",
+          "prompt": "Build an acoustic guitar practice game focused on scales and arpeggios. The game should listen to the player's input via microphone, identify correct notes and patterns, and dynamically adjust difficulty or suggest new exercises based on performance.",
+          "title": "Scale and Arpeggio Trainer"
+        },
+        {
+          "description": "Boost rhythm skills through engaging challenges.",
+          "prompt": "Develop a rhythm game for acoustic guitar where players strum along to backing tracks. The game should analyze their strumming patterns for accuracy against the beat and provide a score, with varying difficulty levels and soundscapes.",
+          "title": "Rhythm Challenge Game"
+        },
+        {
+          "description": "Turn improvisation into a fun, guided experience.",
+          "prompt": "Design an improvisation game that provides an AI-generated backing track and prompts the player with suggested scales or modes to play over it. The game should recognize their improvised melodies and offer constructive feedback on musicality and fit.",
+          "title": "Improvisation Sandbox"
+        },
+        {
+          "description": "Master chord changes with timed exercises.",
+          "prompt": "Create a chord transition game for acoustic guitar. It should present a sequence of chords, use microphone input to verify correct changes, and time the transitions, providing a score and identifying problematic changes for the player."
+        }
+      ]
+    },
+    {
+      "title": "Enhance your guitar game",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a virtual band feature where the game's AI plays along with the user, adapting its tempo and dynamics to match the human player.",
+          "title": "Add adaptive virtual band"
+        },
+        {
+          "prompt": "Implement a 'challenge mode' where users can compete against each other by uploading their recorded performances to a leaderboard.",
+          "title": "Introduce competitive challenges"
+        },
+        {
+          "prompt": "Enable users to upload their own custom backing tracks and generate guitar tabs or chord suggestions for them using AI.",
+          "title": "Allow custom audio import"
+        },
+        {
+          "prompt": "Add a feature that analyzes a user's playing style over time and provides personalized recommendations for exercises or songs to learn.",
+          "title": "Implement personalized learning paths"
+        },
+        {
+          "prompt": "Develop a visualizer that creates dynamic on-screen effects or animations synchronized with the player's musical performance.",
+          "title": "Create a performance visualizer"
+        },
+        {
+          "prompt": "Integrate advanced audio processing to detect subtle nuances like vibrato, bends, slides, and hammering-on/pulling-off for more detailed feedback.",
+          "title": "Enhance note articulation detection"
+        }
+      ]
+    },
+    {
+      "title": "Core Acoustic Guitar Game Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Accurately detects notes, chords, and rhythm from microphone input.",
+          "icon": "👂",
+          "title": "Precision Acoustic Input"
+        },
+        {
+          "description": "Provides instant, intelligent feedback on pitch, timing, and technique.",
+          "icon": "💡",
+          "title": "Real-time Feedback Engine"
+        },
+        {
+          "description": "Dynamically adjusts challenges and learning paths based on player performance.",
+          "icon": "🧠",
+          "title": "Adaptive Difficulty"
+        },
+        {
+          "description": "Displays tablature, sheet music, or chord diagrams synchronized with audio playback.",
+          "icon": "📜",
+          "title": "Interactive Music Display"
+        },
+        {
+          "description": "Tracks progress, identifies areas for improvement, and visualizes performance data.",
+          "icon": "📈",
+          "title": "Performance Analytics"
+        },
+        {
+          "description": "Includes a library of songs, exercises, and customizable practice routines.",
+          "icon": "🎵",
+          "title": "Content Library"
+        }
+      ]
+    },
+    {
+      "title": "Common questions for game developers",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional prototype for an acoustic guitar game with Kliv can take as little as a few days, depending on complexity. A more polished, feature-rich application might take a few weeks to iterate and refine.",
+          "question": "How long does it take to develop an acoustic guitar game with Kliv?"
+        },
+        {
+          "answer": "You don't need to be a game developer or an audio engineer. Kliv's AI assists with generating the core logic for audio analysis and game mechanics, allowing you to focus on the creative aspects.",
+          "question": "Do I need game development or audio engineering experience?"
+        },
+        {
+          "answer": "Yes, your game can run on various platforms. Kliv helps generate cross-platform compatible code, meaning your game can be deployed as a web application, or with further packaging, as a desktop or mobile application.",
+          "question": "Can the developed game be deployed to multiple platforms (web, desktop, mobile)?"
+        },
+        {
+          "answer": "Your intellectual property, including all game logic, audio analysis algorithms, and content, belongs solely to you. Kliv is a platform for creation, not a holder of your game's rights.",
+          "question": "Who owns the intellectual property of the game I build?"
+        },
+        {
+          "answer": "Kliv optimizes the development cost by automating much of the complex coding. While there might be initial platform usage costs, you avoid ongoing subscription fees typical of licensed game engines or specialized audio recognition SDKs, often resulting in significant long-term savings.",
+          "question": "How does the cost compare to traditional game development or licensing audio recognition technology?"
+        },
+        {
+          "answer": "Yes, you can integrate third-party assets like custom sound packs, visual themes, or even connect to external music APIs (if compatible with their terms) to enrich your game experience.",
+          "question": "Can I integrate custom audio assets or visual elements into the game?"
+        },
+        {
+          "answer": "Kliv provides tools for iterative development and testing. You can quickly make changes to game rules, feedback mechanisms, or content without complex recompilations, enabling rapid refinement.",
+          "question": "How difficult is it to update or add new features after the initial version is built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to compose your own interactive guitar experience?",
+      "type": "cta",
+      "content": "Stop waiting for the perfect off-the-shelf app. Start building your vision for the ultimate acoustic guitar game today with Kliv."
+    }
+  ],
+  "title": "Acoustic Guitar Game Development"
+}

@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a screen recording application that captures video, audio, and webcam, allows for basic editing like trimming and annotations, and can share recordings via a link or direct download.",
+  "description": "Build custom screen recording and collaboration tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Recording",
+    "subtitle": "Capture, edit, and share high-quality screen recordings with powerful, custom-built applications.",
+    "title": "Build your own screen recording application"
+  },
+  "metaDescription": "Create powerful screen recording applications with Kliv. Capture screen, audio, and webcam, annotate, edit, and share effortlessly. Ideal for tutorials, presentations, and team collaboration.",
+  "sections": [
+    {
+      "title": "Why build your own screen recording solution?",
+      "type": "text",
+      "content": "In today’s remote-first world, effective communication often requires more than just text. Screen recordings have become essential for tutorials, feedback, presentations, and asynchronous collaboration. But generic tools often force compromises, imposing limitations on recording length, storage, branding, or integration.\n\nKliv empowers you to create a screen recording application tailored precisely to your needs. Imagine a tool that seamlessly integrates with your existing workflows, offers unique editing capabilities, or prioritizes specific sharing methods, all without recurring subscription costs or data privacy concerns imposed by third-party vendors."
+    },
+    {
+      "title": "The case for custom screen recording tools",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf recorders\n\nWhile many screen recording tools exist, most fall short for businesses and individuals with specific requirements:\n\n- **Feature bloat vs. missing essentials:** Generic solutions often come packed with features you don't need, while lacking the critical functionalities you do.\n- **Subscription fatigue:** Recurring monthly or annual fees can add up, especially for team usage.\n- **Branding constraints:** Most tools don't allow for custom branding, making your shared content look generic.\n- **Data privacy concerns:** Storing sensitive recordings on third-party servers can be a security risk.\n- **Integration headaches:** Making a generic tool work seamlessly with your existing collaboration platforms is often clunky or impossible.\n\n## Why a custom-built solution is superior\n\nBuilding your own screen recording application with Kliv offers unparalleled advantages:\n\n### Perfect Feature Set\nOnly include the features you need and design them exactly how you want. Whether it's advanced annotation, specific file formats, or unique sharing workflows, your tool will be purpose-built.\n\n### Cost Efficiency\nTransition from ongoing subscriptions to a one-time development investment. Owning your application means no more increasing monthly fees.\n\n### Complete Branding & Control\nIntegrate your company branding, logos, and color schemes directly into the application and the recordings themselves. Control data storage, access, and security policies entirely.\n\n### Seamless Integration\nDesign your application to integrate perfectly with your internal tools, CRM, project management software, or communication platforms. Automate workflows like uploading to specific cloud storage or automatically notifying team members upon completion.\n\n### Enhanced Privacy & Security\nKeep sensitive recordings on your own servers or within your controlled cloud environment, minimizing exposure to third parties.\n\n## Real-world applications\n\nCustom screen recording tools can revolutionize operations across various sectors:\n\n**Software Development**: Quickly record bug reproductions for QA, create detailed onboarding videos for new developers, or explain complex code changes to team members.\n\n**Customer Support**: Create personalized video explanations for customer issues, record troubleshooting steps, or provide visual answers to frequently asked questions.\n\n**Education & Training**: Develop interactive tutorials, record lecture snippets, or create training modules with embedded quizzes directly within the recording.\n\n**Sales & Marketing**: Produce custom product demos, personalized outreach videos, or record presentations for stakeholders with branded intros and outros.\n\n**Project Management**: Capture workflow steps, record explanations for task handoffs, or provide visual feedback on design iterations.\n\n## The Kliv advantage for building recorders\n\nKliv leverages AI to make custom software development accessible. You don't need to be a seasoned developer to build a sophisticated screen recording application. Our platform transforms your natural language ideas into functional software, handling the complex coding and infrastructure setup.\n\nThis means faster development cycles, lower costs, and a final product that perfectly aligns with your vision."
+    },
+    {
+      "title": "Screen recording ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Capture bug reproductions with system info",
+          "prompt": "Create a screen recording application for developers that captures screen and audio, automatically includes system information (OS, browser version), and uploads recordings to a JIRA ticket.",
+          "title": "Bug reproduction tool"
+        },
+        {
+          "description": "Personalized video support for customers",
+          "prompt": "Build a customer support screen recorder that allows reps to record their screen and webcam, annotate on the fly, and automatically generate a shareable link that expires after 7 days.",
+          "title": "Customer support video explainer"
+        },
+        {
+          "description": "Fast, embedded video feedback for designs",
+          "prompt": "Develop a screen recording tool for UX/UI designers to record feedback on mockups, highlight areas with a mouse pointer, and embed recordings directly into Figma comments.",
+          "title": "Design feedback recorder"
+        },
+        {
+          "description": "Internal training video creation and sharing",
+          "prompt": "Design an internal training screen recorder that can capture specific application windows, allow for text overlays during recording, and automatically upload to an internal knowledge base with keywords.",
+          "title": "Internal training video generator"
+        },
+        {
+          "description": "Quick sales demo creation with branding",
+          "prompt": "Build a sales demo recording tool that automatically adds a custom intro/outro video, records webcam, screen, and system audio, and tracks views on generated shareable links.",
+          "title": "Branded sales demo recorder"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your recording tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a real-time collaborative annotation feature where multiple users can draw on the shared screen recording simultaneously.",
+          "title": "Real-time collaborative annotations"
+        },
+        {
+          "prompt": "Add AI-powered speech-to-text transcription for all recorded audio, making recordings searchable and generating automatic captions.",
+          "title": "AI transcription and captions"
+        },
+        {
+          "prompt": "Implement a 'smart blur' feature that automatically detects and blurs sensitive information (e.g., passwords, credit card numbers) from the screen during recording and playback.",
+          "title": "Automated sensitive data blurring"
+        },
+        {
+          "prompt": "Develop a video analytics dashboard for shared recordings showing views, unique viewers, average watch time, and engagement hotspots.",
+          "title": "Advanced video analytics"
+        },
+        {
+          "prompt": "Add a feature for recording specific application windows or browser tabs, rather than the entire screen, with a clean user interface.",
+          "title": "Application/tab specific recording"
+        },
+        {
+          "prompt": "Integrate with a popular CRM system so that recording links can be automatically attached to contact records or opportunities.",
+          "title": "CRM integration"
+        },
+        {
+          "prompt": "Enable multi-language audio recording and instant translation during playback for global teams.",
+          "title": "Multi-language support"
+        }
+      ]
+    },
+    {
+      "title": "Essential screen recording features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Capture full screen, specific windows, or custom regions.",
+          "icon": "🖥️",
+          "title": "Flexible capture modes"
+        },
+        {
+          "description": "Record system audio, microphone input, and webcam simultaneously.",
+          "icon": "🎙️",
+          "title": "Audio & webcam capture"
+        },
+        {
+          "description": "Trim, cut, add text overlays, and highlight key areas post-recording.",
+          "icon": "✂️",
+          "title": "In-app editing & annotation"
+        },
+        {
+          "description": "Generate shareable links, download MP4, or integrate with cloud storage.",
+          "icon": "🔗",
+          "title": "Diverse sharing options"
+        },
+        {
+          "description": "Control resolution, frame rate, and file size to optimize recordings.",
+          "icon": "⚙️",
+          "title": "Customizable settings"
+        },
+        {
+          "description": "Implement watermarks and custom branding on all output videos.",
+          "icon": "🎨",
+          "title": "Branding & white-labeling"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom screen recording application with Kliv can take anywhere from a few hours for a basic version to a few days or weeks for a highly complex, integrated solution, much faster than traditional development cycles.",
+          "question": "How long does it take to create a screen recording application?"
+        },
+        {
+          "answer": "No, you don't. Kliv is designed for rapid development using natural language. You describe the features and functionalities you need, and the AI assists in generating the application. Basic technical understanding is helpful, but not required.",
+          "question": "Do I need programming skills to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with a wide range of external services like cloud storage (Google Drive, Dropbox), project management tools (Jira, Asana), communication platforms (Slack, Teams), CRMs, and more, via APIs.",
+          "question": "Can my custom screen recording tool integrate with other software?"
+        },
+        {
+          "answer": "Absolutely. You retain full ownership and control over the source code and all data generated by your application. This means you dictate where data is stored and how it's handled, which is a significant advantage for privacy and security.",
+          "question": "Who owns the screen recordings and the application I build?"
+        },
+        {
+          "answer": "Compared to ongoing SaaS subscriptions, a custom-built solution requires a one-time development investment. Over time, particularly for team or enterprise use, this often results in substantial cost savings and a better ROI.",
+          "question": "How does the cost compare to paying for commercial screen recording software?"
+        },
+        {
+          "answer": "Yes, screen recording involves managing video data, which can be large. Kliv helps you implement efficient storage solutions (local or cloud-based) and optimize file sizes and formats to ensure smooth performance.",
+          "question": "Are there any specific technical considerations for handling video files?"
+        },
+        {
+          "answer": "While Kliv simplifies the development process, understanding basic concepts of user interface design and user experience will help you create a more intuitive and effective tool. Our platform offers guidance on best practices.",
+          "question": "What level of design expertise is helpful for building a good recording app?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your custom screen recording solution?",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Create a screen recording application that's perfectly suited for your unique communication and collaboration needs. Start building your custom solution today."
+    }
+  ],
+  "title": "Custom Screen Recording Applications"
+}

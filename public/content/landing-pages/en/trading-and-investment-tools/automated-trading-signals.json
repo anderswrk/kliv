@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create an automated trading signal tool that monitors multiple stock market indicators, identifies potential buy/sell opportunities, and sends real-time alerts via email or SMS.",
+  "description": "Build custom automated trading signal tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your signals",
+    "subtitle": "Develop personalized automated trading signal applications tailored to your investment strategies with Kliv's AI platform.",
+    "title": "Create your own automated trading signals"
+  },
+  "metaDescription": "Design and deploy powerful automated trading signal tools using Kliv. Customize indicators, set rules, and receive real-time alerts for smarter trading decisions.",
+  "sections": [
+    {
+      "title": "Why build your own trading signal tool?",
+      "type": "text",
+      "content": "In the fast-paced world of financial markets, quick and informed decisions are paramount. Off-the-shelf trading signal services often come with limitations: generic strategies, delayed alerts, and recurring costs that eat into your profits.\n\nKliv empowers you to bypass these limitations by building a trading signal tool that is precisely calibrated to your unique investment philosophy, risk tolerance, and chosen assets. Unlike broad-brush solutions, your custom application monitors exactly what you need, when you need it, giving you a competitive edge.\n\nImagine a system that learns your preferences, adapts to market changes, and delivers insights directly aligned with your trading style. This is no longer the domain of large institutions; with AI, you can bring this power to your personal trading desk."
+    },
+    {
+      "title": "The strategic advantage of personalized trading signals",
+      "type": "markdown",
+      "content": "## The challenges with generic signal services\n\nMany individual investors and small trading firms rely on third-party signal providers, which often:\n\n- **Lack customization**: One-size-fits-all signals don't account for individual risk profiles or specific market niches.\n- **Charge high subscription fees**: These costs erode potential profits, especially for active traders.\n- **Offer delayed information**: In microseconds-driven markets, even slight delays can mean missed opportunities.\n- **Provide opaque logic**: You don't know how the signals are generated, leading to a lack of trust or understanding.\n- **Come with integration headaches**: Difficult to connect with your specific brokerage or existing analytics tools.\n\n## Why a tailored solution excels\n\nBuilding your automated trading signal tool with Kliv offers unparalleled advantages:\n\n### Perfect alignment with your strategy\n\nFrom technical indicators like RSI and MACD to fundamental data points or even sentiment analysis, your tool can be programmed to monitor precisely what you value. This means signals are always relevant to *your* strategy, not a generalized approach.\n\n### Cost-efficiency over time\n\nWhile initial development is an investment, it quickly pays off compared to perpetual subscription fees. You own the asset, and there are no recurring charges for the signals themselves.\n\n### Real-time, low-latency alerts\n\nHosted on robust infrastructure, your custom tool can process data and send alerts with minimal latency, giving you the critical edge needed to act swiftly on market movements.\n\n### Full transparency and control\n\nUnderstand the exact conditions and logic behind every signal generated. You maintain complete control over parameters, ensuring the tool evolves with your learning and market conditions.\n\n### Seamless integration\n\nDesign your tool to integrate directly with your preferred data sources, brokerage APIs, or notification channels (email, SMS, push notifications), creating a truly cohesive trading environment.\n\n## Practical applications in real-world trading\n\nCustom automated trading signal tools can revolutionize various aspects of investing:\n\n**Swing Trading**: Generate signals for entry and exit points on specific assets based on short-to-medium term chart patterns and volume spikes.\n\n**Day Trading**: Identify micro-trends and breakout opportunites in highly volatile assets with ultra-fast signal generation.\n\n**Portfolio Management**: Receive alerts when specific portfolio allocations are breached, or when certain assets demonstrate high correlation or divergence.\n\n**Options Trading**: Develop signals based on implied volatility changes, open interest, or time decay for complex options strategies.\n\n**Cryptocurrency Trading**: Monitor decentralized exchanges, blockchain data, and social sentiment for highly specific crypto trading signals.\n\n## The AI advantage in signal generation\n\nTraditionally, developing such tools required deep programming knowledge. Kliv’s AI platform changes this:\n\n- **Natural language input**: Describe your desired indicators and rules in plain English.\n- **Rapid prototyping**: See your signal logic translate into a functional tool within hours.\n- **Intelligent parameter tuning**: AI can suggest optimal thresholds or combinations of indicators based on your stated goals.\n- **Automated backtesting environment**: Quickly test your signal logic against historical data to evaluate performance.\n\nBuild the analytical edge you've always wanted. Your custom trading signal tool provides clarity and actionable insights, moving you beyond guesswork and towards data-driven decisions."
+    },
+    {
+      "title": "Trading signal ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Identify assets showing strong momentum divergence",
+          "prompt": "Create an automated trading signal tool that monitors stocks on the NYSE and NASDAQ. It should generate a 'buy' signal when a stock's 14-day RSI crosses above 70 and its MACD line crosses above the signal line, with increasing volume, and send an email notification with the stock ticker and current price.",
+          "title": "Momentum Reversal Signals"
+        },
+        {
+          "description": "Alerts for potential trend changes",
+          "prompt": "Build a signal generator for currency pairs (FOREX) that sends an SMS alert when the 50-period Exponential Moving Average (EMA) crosses above the 200-period EMA on a 4-hour chart, indicating a potential bullish trend change. Include the currency pair and cross price.",
+          "title": "Moving Average Crossover"
+        },
+        {
+          "description": "Detect breakouts from consolidation periods",
+          "prompt": "Develop a trading signal system that identifies equities trading within a tight price range for at least 10 consecutive days (low volatility), then generates a 'breakout' signal if the price moves more than 2% above or below this range, sending a push notification to my mobile app.",
+          "title": "Volatility Breakout Signals"
+        },
+        {
+          "description": "Indicators for overbought/oversold conditions",
+          "prompt": "I need an automated signal tool for major cryptocurrencies that issues a 'sell' signal when the Stochastic Oscillator (K% and D%) are both above 80 and the price starts declining from a recent high, and a 'buy' signal when both are below 20 and price starts moving up. Alerts should go to a specified Telegram channel.",
+          "title": "Oscillator Extremes"
+        },
+        {
+          "description": "Signals based on trading volume and price action",
+          "prompt": "Design a signal tool that monitors options contracts for a specific underlying asset. It should alert me via email when the 5-day average trading volume for a specific strike price call option increases by more than 50% overnight, accompanied by a decline in the underlying asset's price, suggesting potential bearish sentiment or hedging activity.",
+          "title": "Unusual Options Activity"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your signal tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to backtest the signal logic against 5 years of historical stock data and display performance metrics like win rate and maximum drawdown.",
+          "title": "Integrate backtesting capabilities"
+        },
+        {
+          "prompt": "Enable the system to connect with a specific brokerage API (e.g., Interactive Brokers, Robinhood) to automatically place trades when signals are generated, subject to user confirmation.",
+          "title": "Automate trade execution"
+        },
+        {
+          "prompt": "Incorporate sentiment analysis from news headlines and social media feeds (Twitter, Reddit) as an additional indicator for signal generation.",
+          "title": "Add sentiment analysis"
+        },
+        {
+          "prompt": "Allow users to receive signals via a custom mobile application with push notifications and a simple 'act' or 'dismiss' button.",
+          "title": "Develop a mobile app interface"
+        },
+        {
+          "prompt": "Build a web-based dashboard that displays real-time market data, active signals, historical signal performance, and customizable charts for analysis.",
+          "title": "Create a real-time dashboard"
+        },
+        {
+          "prompt": "Add functionality to track the performance of generated signals over time and automatically adjust signal parameters (e.g., RSI thresholds) to optimize profitability.",
+          "title": "Implement adaptive signal optimization"
+        },
+        {
+          "prompt": "Extend the tool to cover a broader range of asset classes, including commodities, bonds, and mutual funds, with tailored indicators for each.",
+          "title": "Expand to more asset classes"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your signal system",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define and combine multiple technical, fundamental, or custom indicators for signal generation.",
+          "icon": "📊",
+          "title": "Customizable Indicators"
+        },
+        {
+          "description": "Set specific conditions and rules that must be met for a signal to be triggered.",
+          "icon": "⚙️",
+          "title": "Rule-Based Logic"
+        },
+        {
+          "description": "Receive instant alerts via email, SMS, push notifications, or custom integrations to act quickly.",
+          "icon": "🔔",
+          "title": "Real-time Notifications"
+        },
+        {
+          "description": "Fetch and process live market data from various financial APIs and data feeds.",
+          "icon": "🔗",
+          "title": "Data Connectivity"
+        },
+        {
+          "description": "Evaluate signal performance against historical data to refine your strategies before live deployment.",
+          "icon": "📈",
+          "title": "Strategy Backtesting"
+        },
+        {
+          "description": "Adapt signal parameters and logic automatically based on changing market conditions or predefined performance metrics.",
+          "icon": "🧠",
+          "title": "Adaptive Algorithms"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic automated trading signal tool can take as little as a few hours with Kliv. More complex systems with advanced indicators or integrations might take a few days or weeks, depending on your requirements for sophistication and testing.",
+          "question": "How long does it take to develop a trading signal tool?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv's platform allows you to describe your desired indicators, rules, and alert mechanisms using natural language. The AI translates your requirements into a functional application.",
+          "question": "Do I need to be a programmer to build this?"
+        },
+        {
+          "answer": "Yes, your custom tool can integrate with many popular data providers and brokerage APIs (e.g., Yahoo Finance, IEX Cloud, Alpaca, Interactive Brokers). You can specify which integrations you need during the building process.",
+          "question": "Can my tool connect to my brokerage account or favorite data source?"
+        },
+        {
+          "answer": "You retain full ownership of the application and its underlying logic. The intellectual property rights belong to you. Your data is stored securely and privately, under your control.",
+          "question": "Who owns the trading signal logic and data I generate?"
+        },
+        {
+          "answer": "Compared to ongoing monthly subscriptions for external signal services, building an automated trading signal tool with Kliv is a one-time development investment. This often results in significant cost savings over the long term, making it a more economical choice.",
+          "question": "What's the cost-benefit compared to subscribing to signal services?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building your own tool is its flexibility. You can easily modify indicators, adjust rules, add new alert channels, or integrate with new data sources as your trading strategy evolves or market conditions change.",
+          "question": "Can I modify my trading signal tool after it's built?"
+        },
+        {
+          "answer": "Yes, you dictate the level of security. You can deploy your custom application on private secure servers, and implement custom authentication and authorization mechanisms, potentially making it more secure than relying on third-party services whose security practices you cannot control.",
+          "question": "How secure are these custom-built trading signal applications?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain an edge in the markets?",
+      "type": "cta",
+      "content": "Stop reacting to the market and start anticipating it with your custom-built automated trading signals. Design the perfect analytical partner for your investment journey today."
+    }
+  ],
+  "title": "Automated Trading Signals"
+}

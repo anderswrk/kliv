@@ -30,6 +30,7 @@ import { cn } from "@/lib/utils";
 import axios from "axios";
 import { useTheme } from "@/components/theme-provider";
 import { useTranslation } from "react-i18next";
+import { initializeGclidTracking, getStoredGclid } from "@/utils/gclid";
 
 // Types
 interface Tenant {
@@ -123,6 +124,9 @@ export function Signup() {
   // Initialize component
   useEffect(() => {
     const initialize = async () => {
+      // Initialize GCLID tracking
+      initializeGclidTracking();
+      
       try {
         const response = await axios.get("/api/v1/tenant", {
           headers: {
@@ -266,6 +270,12 @@ export function Signup() {
         'plan_type': planType,
         'eventCallback': gtmCallback
       };
+
+      // Add GCLID if available
+      const gclid = getStoredGclid();
+      if (gclid) {
+        gtmData.gclid = gclid;
+      }
 
       if (submissionData.email) gtmData.user_email = submissionData.email;
       if (submissionData.name) gtmData.user_name = submissionData.name;

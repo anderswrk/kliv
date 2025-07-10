@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an AI-powered interview assistant that generates personalized interview questions, provides real-time feedback on responses, and helps analyze performance to prepare users for job interviews.",
+  "description": "Prepare for any job interview with confidence using a custom AI-powered assistant built on Kliv.",
+  "hero": {
+    "cta": "Start building your assistant",
+    "subtitle": "Leverage AI to practice, personalize, and perfect your interview skills for any role.",
+    "title": "Build your own AI Interview Assistant"
+  },
+  "metaDescription": "Develop a personalized AI interview assistant with Kliv. Generate role-specific questions, receive instant feedback, and track your progress to ace your next job interview.",
+  "sections": [
+    {
+      "title": "The challenge of job interview preparation",
+      "type": "text",
+      "content": "Job interviews are high-stakes situations, and effective preparation is key to success. However, generic advice and practice questions often fall short. What if you could have a personalized coach available 24/7, tailored to the specific role and company you're targeting?\n\nOff-the-shelf interview prep software can be costly, limited in customization, or simply don't provide the depth of feedback needed. Building your own AI interview assistant with Kliv means creating a tool that perfectly adapts to your unique learning style and career goals, offering an unparalleled advantage."
+    },
+    {
+      "title": "Why a custom AI Interview Assistant gives you the edge",
+      "type": "markdown",
+      "content": "## Beyond generic advice\n\nTraditional interview prep often relies on memorizing answers or general tips. This approach misses the mark when facing highly specific or nuanced questions. A custom AI assistant can:\n\n- **Generate hyper-relevant questions:** Tailor questions based on job descriptions, company culture, and even the interviewer's profile.\n- **Provide instant, objective feedback:** Get real-time analysis on your delivery, content, clarity, and conciseness, without human bias.\n- **Simulate realistic scenarios:** Practice mock interviews that mirror the actual interview format (e.g., behavioral, technical, case studies).\n\n## The limitations of existing tools\n\nMany commercial interview preparation platforms come with significant drawbacks:\n\n- **One-size-fits-all approach:** They rarely adapt deeply enough to *your* specific job target or weaknesses.\n- **Subscription costs:** Ongoing fees can add up, especially if your job search extends over time.\n- **Limited customization:** You're often stuck within their predefined modules and feedback types.\n- **Data privacy concerns:** You might be wary of entering sensitive career information into third-party systems.\n\n## The power of self-built solutions\n\nWith Kliv's AI platform, developing a custom interview assistant is more accessible than ever. This gives you:\n\n### Unmatched personalization\nYour assistant learns from your input, identifies your weak spots, and generates practice sessions designed to specifically address them. It's like having a dedicated interview coach for every single role you apply for.\n\n### Complete control and privacy\nYour data, your insights. You control the information, ensuring maximum privacy and the ability to refine your tool precisely as you see fit. No vendor lock-in, no data sharing policies you didn't create.\n\n### Cost-effectiveness and long-term value\nInstead of recurring subscriptions, you make a one-time investment in building a tool that serves you for many years and many different career stages. It's an asset you own.\n\n### Continuous improvement\nAs AI capabilities evolve, you can easily integrate new features or fine-tune existing ones, keeping your assistant at the cutting edge of interview preparation technology.\n\n## Real-world impact\n\nImagine an AI interview assistant that:\n\n**For a recent graduate:** Helps them craft compelling answers to common behavioral questions, providing confidence for their first big interviews.\n\n**For a career changer:** Assists in translating past experiences into relevant skills for a new industry, generating targeted questions for the desired field.\n\n**For a technical professional:** Conducts mock coding interviews or system design discussions, giving instant feedback on approach and optimal solutions.\n\nBuilding your own AI interview assistant isn't just about preparing for a single interview; it's about building a robust, lifelong career development tool that continually adapts to your professional journey."
+    },
+    {
+      "title": "Interview assistant ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Practice answering common and behavioral interview questions with AI feedback.",
+          "prompt": "Create an AI interview assistant that can ask common behavioral questions like 'Tell me about yourself' or 'Why do you want this job?' and provide feedback on clarity, conciseness, and relevance of the answer.",
+          "title": "Behavioral Interview Prep"
+        },
+        {
+          "description": "Simulate technical interviews for software development roles with real-time coding question practice.",
+          "prompt": "Build an AI interviewer for software engineers that poses coding challenges, evaluates code syntax and logic, and provides hints or alternative solutions.",
+          "title": "Technical Interview Simulator"
+        },
+        {
+          "description": "Get AI-generated questions and feedback tailored to a specific job description.",
+          "prompt": "Develop an AI assistant where I can paste a job description, and it generates interview questions specifically for that role, then evaluates my responses based on keywords and required skills.",
+          "title": "Role-Specific Question Generator"
+        },
+        {
+          "description": "Improve your communication and delivery style during mock interviews.",
+          "prompt": "Design an AI tool that analyzes my speaking pace, use of filler words (um, like), and overall tone during practice interviews, and gives suggestions for improvement.",
+          "title": "Communication Style Coach"
+        },
+        {
+          "description": "Practice answering case study questions and structure your problem-solving approach.",
+          "prompt": "Create an AI that presents a business case study, asks follow-up questions, and evaluates my problem-solving framework and proposed solutions.",
+          "title": "Case Study Interview Practice"
+        },
+        {
+          "description": "Tailor your answers to specific company values and culture.",
+          "prompt": "Build an AI assistant that takes a company's mission statement or values, and helps me practice answering questions in a way that aligns with their culture, providing feedback on alignment.",
+          "title": "Company Culture Alignment Tool"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your Interview Assistant",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature that records the interview session (audio/video) and allows users to review their performance afterward.",
+          "title": "Session Recording and Playback"
+        },
+        {
+          "prompt": "Integrate natural language processing to identify and suggest improvements for 'weak' phrases or non-assertive language.",
+          "title": "Weak Language Detection"
+        },
+        {
+          "prompt": "Allow users to input a target salary range and have the AI practice salary negotiation scenarios.",
+          "title": "Salary Negotiation Practice"
+        },
+        {
+          "prompt": "Add a feature for users to upload their resume and have the AI generate questions specifically based on their work history and skills.",
+          "title": "Resume-Based Question Generation"
+        },
+        {
+          "prompt": "Implement a sentiment analysis feature to gauge the emotional tone of the user's responses (e.g., confidence, enthusiasm).",
+          "title": "Sentiment Analysis"
+        },
+        {
+          "prompt": "Create a dashboard to track user progress over time, showing improvements in areas like conciseness, confidence, or question types mastered.",
+          "title": "Progress Tracking Dashboard"
+        },
+        {
+          "prompt": "Add integration with external learning resources (e.g., links to articles, videos) based on areas of weakness identified.",
+          "title": "Resource Recommendation Engine"
+        },
+        {
+          "prompt": "Develop a feature for the AI to provide specific examples of strong answers to various questions, explaining *why* they are effective.",
+          "title": "Example Answer Library"
+        },
+        {
+          "prompt": "Enable multi-language support so users can practice interviews in different languages.",
+          "title": "Multi-Language Practice"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities of an AI Interview Assistant",
+      "type": "features",
+      "items": [
+        {
+          "description": "Generates personalized interview questions based on job descriptions or user input.",
+          "icon": "📝",
+          "title": "Question Generation"
+        },
+        {
+          "description": "Provides immediate, objective feedback on clarity, conciseness, and content of responses.",
+          "icon": "💬",
+          "title": "Real-time Feedback"
+        },
+        {
+          "description": "Analyzes speaking pace, filler words, and other speech patterns for improvement.",
+          "icon": "🗣️",
+          "title": "Speech Analysis"
+        },
+        {
+          "description": "Simulates various interview formats, from behavioral to technical and case study scenarios.",
+          "icon": "🎭",
+          "title": "Mock Interview Simulation"
+        },
+        {
+          "description": "Tracks performance over time, identifying strengths and areas needing further practice.",
+          "icon": "📈",
+          "title": "Performance Analytics"
+        },
+        {
+          "description": "Offers suggestions for better answers, delivery techniques, and follow-up questions.",
+          "icon": "💡",
+          "title": "Intelligent Coaching"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, a functional AI interview assistant can be set up in a few hours. More complex features or integrations might extend development to a few days, but it's significantly faster than traditional software development.",
+          "question": "How long does it take to build an AI interview assistant with Kliv?"
+        },
+        {
+          "answer": "No, you do not need to be a programmer. Kliv's platform allows you to describe the features and functionalities you want using natural language, and the AI helps generate the application logic and structure.",
+          "question": "Do I need coding skills to build this type of application?"
+        },
+        {
+          "answer": "Your data, including your interview practice sessions and personal input, remains entirely under your control. Kliv facilitates the building process, but you own the application and its data, ensuring maximum privacy.",
+          "question": "Who owns the data generated by my AI interview assistant?"
+        },
+        {
+          "answer": "Yes, you can integrate your custom AI assistant with various external services or APIs, such as job boards for new listings, or cloud storage for saving practice sessions, enhancing its functionality.",
+          "question": "Can I integrate my custom AI assistant with other platforms or services?"
+        },
+        {
+          "answer": "The cost of building with Kliv is typically a one-time development investment, which is often far less than recurring subscription fees for commercial interview prep software, especially over the long term.",
+          "question": "How does the cost of building compare to subscribing to commercial interview prep tools?"
+        },
+        {
+          "answer": "Absolutely. One of the primary advantages of building with Kliv is the flexibility to modify, update, and add new features to your AI interview assistant as your needs evolve or as new AI capabilities emerge.",
+          "question": "Can I update or add new features to my AI assistant after it's built?"
+        },
+        {
+          "answer": "Since you control the application, you can implement robust security measures and data handling protocols tailor-made for your specific requirements, potentially offering greater security than third-party SaaS solutions.",
+          "question": "Is building my own AI assistant more secure for my personal career data?"
+        },
+        {
+          "answer": "Kliv provides guidance throughout the development process. Post-development, as you own the application, you have full control over its maintenance. Many users find the initial effort provides a powerful, lasting tool.",
+          "question": "What kind of support is available after I build my AI assistant?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your next interview?",
+      "type": "cta",
+      "content": "Stop leaving your interview success to chance. Build the ultimate personalized AI interview assistant that works for you, when you need it."
+    }
+  ],
+  "title": "AI Interview Assistant"
+}

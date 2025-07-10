@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create an advanced search engine for a freelance marketplace focusing on specialized tech skills. It needs to include filters for programming languages, experience level, project type, and availability. User profiles should be searchable by portfolio keywords.",
+  "description": "Develop sophisticated search applications for gig and freelance marketplaces with Kliv's AI platform.",
+  "hero": {
+    "cta": "Start Building Your Search Engine",
+    "subtitle": "Empower your users to find the perfect match with intelligent, customizable search experiences built on Kliv.",
+    "title": "Build Advanced Search for Gig & Freelance Marketplaces"
+  },
+  "metaDescription": "Create powerful, custom-built advanced search engines for gig and freelance marketplaces. Connect talent with opportunities using Kliv's AI-powered development platform.",
+  "sections": [
+    {
+      "title": "The Challenge of Finding the Right Talent (or Gig)",
+      "type": "text",
+      "content": "In today's dynamic gig economy, the sheer volume of freelancers and projects can make finding the ideal match a monumental task. Generic search functions often fall short, leading to frustration, wasted time, and missed opportunities. Freelancers struggle to get discovered by relevant clients, and clients spend hours sifting through unsuitable profiles.\n\nOff-the-shelf marketplace platforms offer limited search customization, forcing users into predefined categories and basic keyword queries. This isn't just inefficient; it’s a barrier to growth for both talent and those seeking it. Imagine a search solution tailored precisely to the nuances of your niche, going beyond simple tags to truly understand and connect supply with demand."
+    },
+    {
+      "title": "Why Custom Advanced Search is Your Marketplace's Secret Weapon",
+      "type": "markdown",
+      "content": "## Beyond Basic Keywords: The Need for Nuance\n\nMost mainstream gig platforms offer search capabilities that rarely evolve beyond simple keyword matching and a few basic filters. This works for general searches, but fails when precision is critical.\n\n### The Limitations of Off-the-Shelf Search\n\n- **Lack of Specificity**: Can't differentiate between 'Python developer for AI' and 'Python developer for web scraping'.\n- **Poor Relevance**: Returns too many irrelevant results, leading to discovery fatigue.\n- **Limited Customization**: Can't add new filters or search dimensions as your marketplace evolves.\n- **Subpar User Experience**: Users abandon searches if they can't quickly find what they need.\n- **Data Silos**: Often disconnected from user profiles, portfolios, and project descriptions.\n\n## The Power of a Custom-Built Search Engine\n\nBuilding your own advanced search application for a gig or freelance marketplace with Kliv puts you in control. You can design a search experience that precisely reflects the unique characteristics of your niche and the specific needs of your users.\n\n### Benefits of a Tailored Search Solution:\n\n- **Hyper-Relevance**: Implement industry-specific filters (e.g., 'blockchain protocol expertise', 'medical writing specialty', 'video editing software proficiency') that traditional platforms lack.\n- **Semantic Search**: Understand user intent beyond keywords. Search for 'expert in natural language processing' and get results for 'NLP specialist' or 'AI text analysis engineer'.\n- **Intelligent Filtering**: Combine multiple complex criteria like 'remote, full-stack developer with 5+ years experience in React and Node.js, available for 20+ hours/week, with a portfolio showcasing e-commerce projects'.\n- **Dynamic Ranking**: Prioritize results based on factors like reputation, project completion rate, response time, or recent activity, not just keyword density.\n- **Personalized Recommendations**: Leverage AI to suggest freelancers or gigs based on past interactions, saved searches, and user behavior.\n- **Scalability**: As your marketplace grows, your search engine can adapt and scale to handle increasing data complexity and user traffic without performance degradation.\n\n## Real-World Impact\n\nImagine a niche legal marketplace where clients can search for lawyers not just by 'practice area' but by 'experience with specific case types (e.g., patent infringement, environmental litigation)' and 'successful jury trial record'. Or a creative agency marketplace where search extends to 'graphic designer specializing in minimalist branding for B2B SaaS' with 'example logos in portfolio'.\n\nThese levels of specificity transform a good marketplace into an indispensable resource, driving higher engagement, faster matches, and ultimately, greater success for both service providers and clients.\n\nWith Kliv's AI-powered platform, you can bring this vision to life. Describe the unique attributes of your talent or projects, and let AI build the intelligent search engine that will revolutionize your marketplace."
+    },
+    {
+      "title": "Advanced Search Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Connect highly specialized medical researchers with relevant clinical trials",
+          "prompt": "Build an advanced search for a medical freelance platform. Key criteria include medical specialty, specific disease research experience, publication history, and availability for clinical trials. Users should be able to upload relevant documents for AI analysis.",
+          "title": "Niche Medical Research Platform Search"
+        },
+        {
+          "description": "Find specific game development talent by engine, genre, and role.",
+          "prompt": "Create a search engine for a game development freelance marketplace. Filters should include game engine (Unity, Unreal, Godot), specific programming languages (C++, C#, Blueprints), artistic style (stylized, realistic, pixel art), and previous game genres worked on (RPG, FPS, Puzzle).",
+          "title": "Game Development Talent Finder"
+        },
+        {
+          "description": "Match content creators with brands based on audience demographics and engagement.",
+          "prompt": "Develop an advanced search for an influencer marketing platform. Search criteria should include influencer niche, audience demographics (age, gender, location), average engagement rate, preferred content format (video, blog, Instagram), and past brand collaborations.",
+          "title": "Influencer Marketing Platform Search"
+        },
+        {
+          "description": "Locate specific legal experts by case type, court experience, and jurisdiction.",
+          "prompt": "Design a search function for a legal gig platform. Users should be able to search by specific legal practice area, previous court appearances (local, federal, international), industry specialization (e.g., tech law, environmental law), and success rate in specific case types.",
+          "title": "Specialized Legal Counsel Search"
+        },
+        {
+          "description": "Enable precise searches for technical writers based on industry and documentation type.",
+          "prompt": "Build a search tool for a technical writing marketplace. Key filters include industry expertise (e.g., biotech, cybersecurity, aerospace), documentation type (API docs, user manuals, white papers), and experience with specific authoring tools (e.g., Gitbook, DocuSign).",
+          "title": "Technical Writing Specialist Search"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Search Application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication system with roles for clients and freelancers, enabling personalized search result saving and alerts.",
+          "title": "Implement User Profiles & Favorites"
+        },
+        {
+          "prompt": "Integrate an AI-powered natural language processing module to understand conversational search queries and extract entity information.",
+          "title": "Add Natural Language Search (NLP)"
+        },
+        {
+          "prompt": "Develop a real-time analytics dashboard to track popular search terms, conversion rates from search, and filter usage data.",
+          "title": "Build Search Analytics Dashboard"
+        },
+        {
+          "prompt": "Incorporate a 'Did you mean?' suggestion system and fuzzy matching for misspelled search terms or similar concepts.",
+          "title": "Include Spell Check & Fuzzy Matching"
+        },
+        {
+          "prompt": "Create a customizable alert system where users can receive email or in-app notifications for new listings matching their saved search criteria.",
+          "title": "Develop Saved Search Alerts"
+        },
+        {
+          "prompt": "Add a feature that allows users to compare multiple freelancer profiles or project listings side-by-side based on key attributes.",
+          "title": "Implement Side-by-Side Comparison"
+        },
+        {
+          "prompt": "Integrate with a mapping service to allow geographic radius searching for local gigs or freelancers, with travel availability filters.",
+          "title": "Add Location-Based Search"
+        },
+        {
+          "prompt": "Build a rating and review system that feeds into search ranking, allowing users to filter by highest-rated freelancers/projects.",
+          "title": "Incorporate Reputation Scoring"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Advanced Search Engine",
+      "type": "features",
+      "items": [
+        {
+          "description": "Configure an unlimited number of filters based on your marketplace's unique requirements.",
+          "icon": "⚙️",
+          "title": "Customizable Filters & Facets"
+        },
+        {
+          "description": "Utilize AI to understand context and intent, returning highly relevant results beyond exact keyword matches.",
+          "icon": "🧠",
+          "title": "Semantic Search Capabilities"
+        },
+        {
+          "description": "Dynamically adjust result rankings based on parameters like recency, ratings, availability, or project fit.",
+          "icon": "📈",
+          "title": "Intelligent Ranking Algorithms"
+        },
+        {
+          "description": "Enable complex boolean queries (AND, OR, NOT) and nested filtering for precise results.",
+          "icon": "➕",
+          "title": "Advanced Query Logic"
+        },
+        {
+          "description": "Connect seamlessly with existing user profiles, project databases, and portfolio content.",
+          "icon": "🔗",
+          "title": "Integrated Data Sources"
+        },
+        {
+          "description": "Design an intuitive and responsive search interface that enhances the user experience on any device.",
+          "icon": "✨",
+          "title": "User-Friendly UI/UX"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building an advanced search application with Kliv generally takes days or weeks, not months or years. The AI accelerates the development of complex logic and user interfaces, allowing rapid deployment.",
+          "question": "How long will it take to build a sophisticated search application?"
+        },
+        {
+          "answer": "Kliv is designed to enable founders and business owners to build powerful applications without writing a single line of code. You describe your requirements in natural language, and the AI assists in generating the application.",
+          "question": "Do I need to be a developer or have coding knowledge?"
+        },
+        {
+          "answer": "Yes, your custom search application can integrate with virtually any backend system or database through APIs, webhooks, or direct connections. This means it can seamlessly search and display data from your existing freelance profiles, project listings, or user data stores.",
+          "question": "Can this search application integrate with my existing marketplace data?"
+        },
+        {
+          "answer": "One of the key benefits of building with Kliv is complete ownership. You own all the intellectual property, code, and design of your search application. This gives you full control and flexibility for future modifications.",
+          "question": "Who owns the advanced search application once it's built?"
+        },
+        {
+          "answer": "Kliv provides the tools and environment to build secure applications. You maintain full control over data handling, encryption, and access policies, allowing you to implement the highest security standards tailored to your specific needs.",
+          "question": "How secure are applications built with Kliv?"
+        },
+        {
+          "answer": "Totally. Your application is modular. You can add new filters, modify ranking logic, integrate new data sources, or change the user interface at any time. The AI assists in iterative improvements and scaling as your marketplace evolves.",
+          "question": "Can I modify or expand the search capabilities after the initial build?"
+        },
+        {
+          "answer": "Absolutely. Applications built with Kliv are designed for scalability. Whether you have hundreds or millions of users and listings, your custom search engine can be configured to handle large data volumes and high query loads efficiently.",
+          "question": "Is the solution scalable for a growing marketplace?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Transform Your Marketplace's Search Experience?",
+      "type": "cta",
+      "content": "Stop limiting your users with generic search. Build a powerful, custom-tailored search engine that truly connects talent with opportunity. Start building your custom advanced search application today."
+    }
+  ],
+  "title": "Advanced Search for Gig & Freelance Marketplaces"
+}

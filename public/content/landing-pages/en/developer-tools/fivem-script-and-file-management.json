@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I need a FiveM script and file management system that allows me to upload, version control, and deploy scripts to multiple servers, track changes, and manage user permissions.",
+  "description": "Build custom FiveM script and file management solutions with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your FiveM Manager",
+    "subtitle": "Streamline script deployment, version control, and server management with a tailor-made application built on Kliv's platform.",
+    "title": "Build your own FiveM Script & File Management System"
+  },
+  "metaDescription": "Create powerful FiveM script and file management tools with Kliv. Easily upload, version, deploy, and manage your server resources with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build a custom FiveM management tool?",
+      "type": "text",
+      "content": "Managing FiveM servers, especially multiple ones, can quickly become a chaotic juggling act of scripts, configurations, and updates. Off-the-shelf solutions are often too generic, lack specific features you need, or come with hefty recurring costs.\n\nKliv empowers you to build a system perfectly tailored to your FiveM ecosystem. Imagine a single dashboard where you can manage all your resources, deploy updates seamlessly, and maintain version control—all without adapting to someone else's limits. It's about taking control of your server infrastructure and optimizing your development workflow."
+    },
+    {
+      "title": "The case for custom FiveM resource management",
+      "type": "markdown",
+      "content": "## The challenges of generic tools for FiveM\n\nMany FiveM server owners and developers face common frustrations with existing solutions or manual processes:\n\n- **Inconsistent deployments:** Manually updating scripts across multiple servers leads to errors and desynchronization.\n- **Lack of version control:** Losing track of script changes, especially with multiple developers, can cause major headaches.\n- **Permission nightmares:** Managing who can change what without proper user roles is risky and inefficient.\n- **Scalability issues:** Growing your server empire becomes impossible to manage without a central system.\n- **Security vulnerabilities:** Relying on insecure file transfer methods or shared drives exposes your server to risks.\n\n## Why a custom-built solution is superior\n\nThe unique demands of FiveM development call for a specialized tool. Here's why building your own with Kliv offers a significant advantage:\n\n### Perfect fit for your workflow\nEvery FiveM community and development team operates differently. A custom tool ensures that the system aligns precisely with your specific deployment pipelines, testing procedures, and resource organization.\n\n### Centralized control across all servers\nManage scripts, configurations, and assets for all your FiveM servers from a single, intuitive interface. Push updates, revert changes, and monitor status effortlessly.\n\n### Robust version control\nNever lose a line of code again. Implement proper versioning for all your scripts and files, allowing you to track changes, review history, and roll back to previous stable versions instantly.\n\n### Fine-grained access control\nDefine detailed user roles and permissions. Grant specific developers access to certain scripts or servers, ensuring that only authorized personnel can make critical changes.\n\n### Cost-effective long-term\nAvoid escalating subscription fees from generic service providers. A custom solution built with Kliv is a one-time development investment that provides lasting value and avoids continuous operational costs.\n\n## Real-world applications for your custom manager\n\nYour custom tool can handle critical operations:\n\n- **Automated script deployment**: Push updates to live servers or staging environments with a single click.\n- **Config file management**: Easily manage and synchronize `server.cfg` or resource configuration files across instances.\n- **Asset synchronization**: Ensure all custom MLOs, vehicles, and streamed assets are consistent across your servers.\n- **Developer collaboration**: Provide a structured environment for multiple developers to contribute without stepping on each other's toes.\n\n## The power of AI-assisted development\n\nBuilding sophisticated applications like these used to be a daunting task. Kliv changes that:\n\n- **Describe your needs:** Use plain language to outline the features and functionalities you require.\n- **Rapid prototyping:** See a functional version of your manager come to life quickly.\n- **Intelligent suggestions:** AI helps refine your design and suggests optimal solutions for common challenges.\n- **Deployment readiness:** Kliv helps generate production-ready code, reducing manual effort and potential errors."
+    },
+    {
+      "title": "FiveM management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A system to upload, organize, and track versions of FiveM scripts and resources.",
+          "prompt": "Build a web-based repository for FiveM scripts with version control, allowing uploads, downloads, and a history of changes for each resource.",
+          "title": "Script & Resource Version Control"
+        },
+        {
+          "description": "Deploy scripts and configurations to multiple FiveM servers with a single action.",
+          "prompt": "Create a deployment tool that can push selected FiveM scripts and configuration files to different remote servers, with options for rollback and progress monitoring.",
+          "title": "Multi-Server Script Deployment"
+        },
+        {
+          "description": "Manage user access and permissions for different FiveM resources and server instances.",
+          "prompt": "Develop a user management system for my FiveM server infrastructure, allowing me to assign specific access rights to developers for different scripts or server groups.",
+          "title": "User-Based Access Control System"
+        },
+        {
+          "description": "Automatically check script compatibility and potential conflicts before deployment.",
+          "prompt": "I need a tool that can analyze FiveM scripts for common errors or conflicts before they are deployed to a live server, and highlight potential issues.",
+          "title": "Script Conflict Checker"
+        },
+        {
+          "description": "Monitor and log changes to crucial FiveM server files and configurations.",
+          "prompt": "Build a file integrity monitoring system for my FiveM servers that alerts me to unauthorized changes in key script files or server configurations.",
+          "title": "Server File Change Tracker"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your management tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to compare different versions of a script side-by-side to easily identify changes.",
+          "title": "Integrate code diff viewer"
+        },
+        {
+          "prompt": "Implement automated backups of all active FiveM server configurations and scripts before deploying new changes.",
+          "title": "Automated server backups"
+        },
+        {
+          "prompt": "Add a live log viewer that can connect to and display logs from all managed FiveM servers in real-time.",
+          "title": "Centralized log streaming"
+        },
+        {
+          "prompt": "Develop a dashboard that provides an overview of each server's status, online players, and resource usage.",
+          "title": "Server status dashboard"
+        },
+        {
+          "prompt": "Enable scheduled script deployments for specific times or maintenance windows.",
+          "title": "Scheduled deployments"
+        },
+        {
+          "prompt": "Integrate with Discord to send notifications upon successful deployments, errors, or unauthorized file changes.",
+          "title": "Discord notifications"
+        },
+        {
+          "prompt": "Add a public API so other tools or scripts can interact with the management system.",
+          "title": "Expose an API"
+        },
+        {
+          "prompt": "Include a built-in code editor for minor script adjustments directly within the web interface.",
+          "title": "In-browser code editor"
+        }
+      ]
+    },
+    {
+      "title": "Essential management features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Upload, download, and organize all your FiveM scripts and resources in one place.",
+          "icon": "📁",
+          "title": "Resource Repository"
+        },
+        {
+          "description": "Track every change to your scripts, with the ability to revert to any previous version.",
+          "icon": "💾",
+          "title": "Version Control"
+        },
+        {
+          "description": "Deploy selected scripts and configurations to multiple FiveM servers with ease.",
+          "icon": "🚀",
+          "title": "Multi-Server Deployment"
+        },
+        {
+          "description": "Control who can access and modify specific scripts or server configurations.",
+          "icon": "🔒",
+          "title": "Granular Permissions"
+        },
+        {
+          "description": "View a complete history of deployments, changes, and user actions.",
+          "icon": "📜",
+          "title": "Activity Logging"
+        },
+        {
+          "description": "Create different environments (e.g., development, staging, production) for testing and deployment.",
+          "icon": "⚙️",
+          "title": "Environment Management"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv dramatically accelerates the process. A basic script management system can be functional in a day or two, with advanced features added incrementally over a week or more, depending on complexity.",
+          "question": "How long will it take to build this type of management tool?"
+        },
+        {
+          "answer": "No, Kliv allows you to describe your desired features and functionalities in natural language. The AI translates these into the underlying code and structure for your application, making it accessible to non-developers.",
+          "question": "Do I need to be a programmer to build a FiveM management application?"
+        },
+        {
+          "answer": "Absolutely. Your custom tool can integrate with your FiveM server (via API or direct file access, depending on your setup), Git repositories, Discord for notifications, or any other service with an accessible API.",
+          "question": "Can this tool integrate with my existing FiveM servers or other services?"
+        },
+        {
+          "answer": "You own 100% of the application code and data. This means you have full control over where it's hosted, how it's used, and its long-term evolution, without vendor lock-in.",
+          "question": "Who owns the software and data I create with Kliv?"
+        },
+        {
+          "answer": "Building a custom solution often yields significant long-term savings by eliminating recurring subscription fees. While there's an initial development effort, the total cost of ownership is typically lower, and you gain a system perfectly suited to your needs.",
+          "question": "Is building a custom tool more cost-effective than buying an off-the-shelf solution?"
+        },
+        {
+          "answer": "Yes, flexibility is a core benefit. As your FiveM servers or development practices evolve, you can easily add new features, modify existing ones, or integrate with new tools directly within the Kliv platform.",
+          "question": "Can I modify my FiveM management tool after it's been built?"
+        },
+        {
+          "answer": "Custom tools built with Kliv provide superior security because you control the hosting environment, access policies, and data flow. You can implement security practices tailored to your specific needs, unlike generic SaaS solutions where you rely on their security posture.",
+          "question": "How secure is a custom-built solution compared to third-party tools?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your FiveM servers?",
+      "type": "cta",
+      "content": "Stop wrestling with manual deployments and disorganized files. Build a custom FiveM script and file management system that works exactly how you need it to."
+    }
+  ],
+  "title": "FiveM Script & File Management"
+}

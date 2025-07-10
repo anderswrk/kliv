@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a clan management dashboard for my online gaming community. It needs to track member activity, schedule events, manage roles, and integrate with Discord.",
+  "description": "Empower your gaming community with custom clan management dashboards built on Kliv's AI platform.",
+  "hero": {
+    "cta": "Start building your dashboard",
+    "subtitle": "Unite your community, track performance, and dominate the competition with a custom dashboard tailored to your clan's needs.",
+    "title": "Build Your Own Clan Management Dashboard"
+  },
+  "metaDescription": "Create powerful, custom clan management dashboards with Kliv. Track member stats, organize events, manage rosters, and enhance your gaming community's coordination.",
+  "sections": [
+    {
+      "title": "Why a custom clan management dashboard?",
+      "type": "text",
+      "content": "Off-the-shelf gaming community tools often fall short. They're either too generic, missing crucial features, or require you to adapt your unique clan culture to their rigid structures. With Kliv, you can build a dashboard that perfectly aligns with your specific game, team dynamics, and strategic goals.\n\nStop compromising on features or paying for bloated software. A custom dashboard is an investment in your community's future, giving you the flexibility and control to evolve as your clan grows and games change."
+    },
+    {
+      "title": "The strategic advantage of a tailored solution",
+      "type": "markdown",
+      "content": "## The limitations of public forums and generic tools\n\nMany gaming clans rely on basic forums, Discord channels, or simplistic spreadsheets for management. While these tools are good for communication, they lack the sophisticated features needed for serious competitive play or large, active communities. This often leads to:\n\n- **Disjointed information**: Key data scattered across multiple platforms.\n- **Inefficient coordination**: Manual scheduling, resulting in missed events.\n- **Poor performance tracking**: Difficulty identifying top players or areas for improvement.\n- **Limited member engagement**: Lack of personalized experiences or recognition.\n- **Security concerns**: Open access to sensitive information or difficult role management.\n\n## Why a custom-built dashboard elevates your clan\n\nHaving a dashboard tailored precisely to your clan's needs isn't just about convenience; it's about competitive edge and community cohesion. Here’s why and how:\n\n### Centralized information hub\nBring all vital clan data—member rosters, game stats, event schedules, internal resources, and communication logs—into one accessible place. This single source of truth streamlines operations and keeps everyone aligned.\n\n### Optimized for your game(s)\nUnlike generic tools, your custom dashboard can be built with specific game APIs in mind. Track leaderboards, in-game stats, or even specific loot drops relevant to your primary game titles, giving your clan a data advantage.\n\n### Enhanced member engagement\nCreate personalized member profiles, track individual contributions, celebrate achievements, and foster a stronger sense of belonging. Features like custom ranking systems, reward tracking, or a dedicated 'hall of fame' can boost morale.\n\n### Dynamic event planning\nAutomate event scheduling, attendance tracking, and squad assignments. Integrate with calendars and notification systems to ensure no one misses a critical raid, tournament, or practice session.\n\n### Scalable and adaptable\nAs your clan expands or transitions to new games, your dashboard can grow and adapt with you. Easily add new features, integrate new services, or modify existing functionality without being held back by a vendor's roadmap.\n\n## Real-world impact on gaming communities\n\nCustom dashboards are transforming how competitive teams and large communities operate:\n\n**Esports Teams**: Tracking individual player performance metrics (K/D ratios, damage output, objective control), analyzing opponent strategies, and managing rigorous training schedules for peak competitive edge.\n\n**MMO Guilds**: Coordinating raid progression, managing loot distribution fairness, tracking resource contributions, and overseeing complex guild economy systems.\n\n**Casual Gaming Communities**: Organizing regular casual play sessions, running internal mini-tournaments, managing content creator schedules, and fostering a friendly, inclusive environment.\n\n## The AI advantage in development\n\nBuilding sophisticated tools used to require specialized development teams. Kliv's AI-powered platform makes it accessible:\n\n- **Natural language commands**: Describe your desired features in plain English.\n- **Rapid iteration**: See features come to life quickly, allowing for fast concept testing.\n- **Smart integration**: AI assists in connecting to game APIs, Discord, or other services.\n- **Maintenance independence**: Generate clean code you own, reducing reliance on third-party developers.\n\n## Your clan, your rules, your dashboard\n\nThe most effective clan management tool is one that's designed by you, for you. Stop fitting a square peg in a round hole with off-the-shelf software. With Kliv's AI platform, the power to create the ultimate clan dashboard is at your fingertips.\n\nStart building today and give your clan the strategic advantage it deserves."
+    },
+    {
+      "title": "Clan dashboard ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track member participation and performance across different games.",
+          "prompt": "Create a member activity tracker that logs player logins to the system, participation in scheduled events, and integrates with a specific game's API to pull in individual performance stats (e.g., K/D ratio, win rate).",
+          "title": "Comprehensive Member Activity Tracker"
+        },
+        {
+          "description": "Streamline scheduling and attendance for raids or tournaments.",
+          "prompt": "Build an event scheduler that allows clan leaders to create events with specific dates/times, RSVP functionality for members, and automatic reminders via Discord webhooks. Include options for recurring events.",
+          "title": "Advanced Event & Raid Planner"
+        },
+        {
+          "description": "Manage member roles, permissions, and internal ranks.",
+          "prompt": "Develop a customizable member roster with dynamic role assignment, internal ranking systems (e.g., Elder, Veteran, Recruit), and permission levels for accessing different parts of the dashboard.",
+          "title": "Dynamic Roster & Role Management"
+        },
+        {
+          "description": "Track clan-wide progression and achievements.",
+          "prompt": "Design a progression tracker to log clan achievements, such as raid boss kills, tournament wins, or collective in-game goals. Display these milestones on a main dashboard view.",
+          "title": "Clan Progression & Achievements"
+        },
+        {
+          "description": "Facilitate internal trade or resource management.",
+          "prompt": "Create an internal marketplace or resource management system where members can post items for trade, request resources, or manage a shared guild bank inventory.",
+          "title": "Internal Economy & Resource Hub"
+        },
+        {
+          "description": "Manage recruitment applications and onboarding.",
+          "prompt": "Build a recruitment portal that allows external players to submit applications, and clan officers to review, accept/reject, and trigger an automated onboarding process for new recruits.",
+          "title": "Recruitment & Onboarding Workflow"
+        }
+      ]
+    },
+    {
+      "title": "Improvement ideas for your dashboard",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a public-facing section to the dashboard that displays clan achievements, member spotlights, and recruitment information for potential new members.",
+          "title": "Public Recruitment Page"
+        },
+        {
+          "prompt": "Implement a forum or general chat section directly into the dashboard for announcements and general discussions.",
+          "title": "Integrated Discussion Forum"
+        },
+        {
+          "prompt": "Add leaderboards for internal clan competitions, tracking stats like most active member, top PvP player, or highest PVE damage.",
+          "title": "Internal Skill Leaderboards"
+        },
+        {
+          "prompt": "Integrate a news feed that automatically pulls updates from game developers, news sites, or official game forums.",
+          "title": "Game News Integration"
+        },
+        {
+          "prompt": "Develop a system for managing clan finances, tracking donations, and expenditures for tournament fees or server costs.",
+          "title": "Clan Treasury Manager"
+        },
+        {
+          "prompt": "Add functionality for managing clan-owned assets, such as in-game strongholds, vehicles, or shared progression items.",
+          "title": "Asset Management Module"
+        },
+        {
+          "prompt": "Enable personalized member dashboards where each player can see their own stats, upcoming events, and personal goals.",
+          "title": "Personalized Member Views"
+        },
+        {
+          "prompt": "Build a voting system for clan decisions, such as new game adoption, policy changes, or officer elections.",
+          "title": "Voting & Poll System"
+        },
+        {
+          "prompt": "Implement a mentor program module, allowing senior members to offer guidance to new members, tracking progress and pairing mentors with mentees.",
+          "title": "Mentor Program Tracking"
+        }
+      ]
+    },
+    {
+      "title": "Key dashboard capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Manage members, assign roles, and track individual contributions within your clan.",
+          "icon": "👥",
+          "title": "Roster Management"
+        },
+        {
+          "description": "Centralize all clan events, practice sessions, and tournament schedules with RSVPs and reminders.",
+          "icon": "📅",
+          "title": "Event Coordination"
+        },
+        {
+          "description": "Automate data fetching and display of in-game statistics, leaderboards, and achievements.",
+          "icon": "📊",
+          "title": "Game Data Integration"
+        },
+        {
+          "description": "Ensure secure access and define what different roles (e.g., officers, members) can see and do.",
+          "icon": "🔒",
+          "title": "Role-Based Access"
+        },
+        {
+          "description": "Connect seamlessy with communication tools like Discord for announcements and notifications.",
+          "icon": "💬",
+          "title": "Communication Hub"
+        },
+        {
+          "description": "Visualize key clan metrics, member activity, and performance trends over time.",
+          "icon": "📈",
+          "title": "Performance Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional clan management dashboard can take anywhere from a few hours for a basic version to a few days for a richly featured system. The AI accelerates development significantly.",
+          "question": "How quickly can I build a clan management tool with Kliv?"
+        },
+        {
+          "answer": "No coding experience is required. Kliv's platform allows you to describe your desired features in plain language, and the AI assists in generating the underlying structure and functionality.",
+          "question": "Do I need to be a developer to create this dashboard?"
+        },
+        {
+          "answer": "Yes, your custom dashboard can integrate with almost any game or service that provides an API, including major game titles, Discord, Twitch, and other community platforms.",
+          "question": "Can the dashboard integrate with specific games or Discord?"
+        },
+        {
+          "answer": "You retain full ownership and control over the dashboard. The code generated is yours, allowing you to host it where you prefer and modify it freely without vendor lock-in.",
+          "question": "Who owns the dashboard once it's built?"
+        },
+        {
+          "answer": "Custom solutions often cost less in the long run than recurring SaaS subscriptions. You invest once in building the tool, saving continuous monthly fees and gaining complete customization control.",
+          "question": "How does the cost compare to existing clan management software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the ability to continuously evolve your dashboard. You can add new features, change layouts, or integrate with new games as your clan's needs change.",
+          "question": "Can I add features or modify the dashboard after it's live?"
+        },
+        {
+          "answer": "You control the hosting environment and security protocols. This often allows for more robust security measures tailored to your specific needs than what off-the-shelf solutions provide.",
+          "question": "Is a custom dashboard secure for my clan's data?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance throughout the building process, offering suggestions, troubleshooting help, and best practices to ensure your dashboard is robust and effective.",
+          "question": "What if I get stuck during the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to lead your clan to victory?",
+      "type": "cta",
+      "content": "Stop managing your community with scattered tools. Build a unified, powerful dashboard designed to make your clan stronger and more organized."
+    }
+  ],
+  "title": "Clan Management Dashboard"
+}

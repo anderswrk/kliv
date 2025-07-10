@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I need a system to manage my restaurant's recipes, track inventory for ingredients, generate daily prep lists, and automatically calculate dish costs based on current ingredient prices.",
+  "description": "Develop tailored menu and recipe management software for your food business.",
+  "hero": {
+    "cta": "Build My Recipe System",
+    "subtitle": "Gain total control over your kitchen operations, costs, and consistency with custom software built on Kliv's platform.",
+    "title": "Build Your Own Menu & Recipe Management System"
+  },
+  "metaDescription": "Create custom menu and recipe management software with Kliv. Optimize ingredient costs, track inventory, ensure consistency, and streamline kitchen operations for restaurants, catering, and food service.",
+  "sections": [
+    {
+      "title": "Why Build a Custom Menu & Recipe System?",
+      "type": "text",
+      "content": "In the fast-paced world of food service, off-the-shelf software often falls short. Every kitchen has unique recipes, inventory flows, and operational needs. Pre-built solutions force you to adapt your proven processes, leading to inefficiencies, inaccurate costing, and inconsistent dishes.\n\nWith Kliv, you can design a system that precisely fits your culinary operations. Eliminate waste, standardize quality, and gain real-time insights into your food costs—without compromising your unique flair. This isn't just about managing recipes; it's about optimizing your entire kitchen."
+    },
+    {
+      "title": "The Culinary Advantage of Custom Software",
+      "type": "markdown",
+      "content": "## Standard Software vs. Tailored Control\n\nCommercial menu and recipe management software packages often come with:\n\n- **Generic Structures**: Not adaptable to unique culinary concepts or multi-faceted operations.\n- **Bloated Features**: Paying for features you'll never use, while missing critical ones you need.\n- **Rigid Costs**: Fixed subscription fees regardless of your usage or specific requirements.\n- **Limited Integration**: Difficulty connecting with your existing POS, accounting, or supplier systems.\n- **Data Silos**: Recipe, inventory, and cost data are often disconnected.\n\n## Why Custom is the Recipe for Success\n\nBuilding your own system with Kliv leverages AI to accelerate development, allowing you to create a tool perfectly aligned with your business model:\n\n### Precise Cost Control\nTrack ingredient prices in real-time and calculate dish costs with pinpoint accuracy. Understand your margins for every item on your menu, empowering smarter pricing decisions and reducing food waste.\n\n### Unwavering Consistency\nStandardize recipes down to the gram, ensuring every dish tastes the same, no matter who cooks it. Reduce training time and maintain brand integrity across all locations.\n\n### Optimized Inventory & Ordering\nLink recipes directly to inventory. Automatically generate prep lists, shopping lists, and reorder alerts based on sales forecasts and stock levels. Minimize spoilage and avoid stockouts.\n\n### Adaptable to Any Scale\nWhether you run a single restaurant, a multi-unit chain, a catering company, or a ghost kitchen, your custom system can scale with your growth. Add new features, locations, or cuisine types effortlessly.\n\n### Data-Driven Decisions\nAccess powerful analytics on popular dishes, ingredient usage, seasonal cost fluctuations, and labor efficiency. Make informed decisions that boost profitability and operational smoothness.\n\n## Real-World Applications\n\nCustom food management systems are transforming diverse culinary businesses:\n\n**Restaurants**: Centralized recipe database, allergen tracking, automatic prep list generation, and precise plate costing.\n\n**Catering Companies**: Menu customization for events, portion control, batch scaling for large orders, and ingredient procurement based on client bookings.\n\n**Bakeries & Cafes**: Managing complex recipes for baked goods, tracking ingredient shelf-life, and optimizing daily production schedules.\n\n**Food Manufacturing**: Bill of materials (BOM) management, compliance tracking for ingredients, and production line optimization based on recipe yields.\n\n## The Kliv Advantage\n\nBuilding sophisticated software used to demand significant technical investment. Kliv's AI-driven approach puts this power in your hands:\n\n- **Intuitive Development**: Describe your needs in plain language; AI translates it into functional software.\n- **Rapid Prototyping**: See your system take shape in days, not months, allowing for quick adjustments.\n- **Smart Suggestions**: AI offers organizational and feature enhancements as you build.\n- **Integrated Tools**: Seamlessly connect your system with existing hardware or software like scales, POS systems, or accounting platforms."
+    },
+    {
+      "title": "Recipe & Menu System Ideas to Build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Manage all your standardized recipes in one central, scalable database.",
+          "prompt": "Create a centralized recipe database for my restaurant that allows chefs to input ingredients, preparation steps, yield, and portion sizes. It should also have fields for allergen information and dietary tags.",
+          "title": "Standardized Recipe Database"
+        },
+        {
+          "description": "Precisely calculate the cost of every dish on your menu.",
+          "prompt": "Build a module that automatically calculates the theoretical cost of each dish based on real-time ingredient prices. It should alert me when a dish's cost percentage exceeds a certain threshold.",
+          "title": "Automated Dish Costing Tool"
+        },
+        {
+          "description": "Generate daily prep lists and optimize ingredient ordering.",
+          "prompt": "Develop a system that generates a daily prep list for the kitchen based on forecasted sales and current inventory levels. It should also suggest ingredient reorder quantities.",
+          "title": "Intelligent Prep & Order Requisition"
+        },
+        {
+          "description": "Streamline menu creation and updates across multiple locations.",
+          "prompt": "Design a menu management interface that allows me to create seasonal menus, update prices, and publish changes to digital menu boards and online ordering platforms for multiple restaurant locations.",
+          "title": "Dynamic Menu Management"
+        },
+        {
+          "description": "Track and manage inventory from delivery to plate.",
+          "prompt": "Build an inventory management system specifically for food ingredients. It needs to track quantities, unit conversions, supplier information, and calculate stock turns.",
+          "title": "Ingredient Inventory Tracking"
+        },
+        {
+          "description": "Manage catering orders, custom menus, and ingredient scaling.",
+          "prompt": "Create a catering management solution where I can build custom menus for events, automatically scale recipes for large groups, and generate a consolidated shopping list for all upcoming events.",
+          "title": "Catering & Event Menu Planner"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for Your Culinary System",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user role management system so different kitchen staff have appropriate access levels.",
+          "title": "Staff Access Control"
+        },
+        {
+          "prompt": "Integrate with our Point-of-Sale (POS) system to pull sales data and forecast ingredient needs more accurately.",
+          "title": "POS Integration"
+        },
+        {
+          "prompt": "Implement a QR code system for tracking ingredient batches and expiration dates.",
+          "title": "QR-Based Inventory Tracking"
+        },
+        {
+          "prompt": "Develop a supplier portal where our suppliers can update their price lists directly into our system.",
+          "title": "Supplier Price Feed"
+        },
+        {
+          "prompt": "Add a feature to alert us when an ingredient is used in a dish that hasn't been reordered, ensuring we catch potential stockouts.",
+          "title": "Low Stock Alerts"
+        },
+        {
+          "prompt": "Create a food waste tracking module that allows staff to log discarded items and reasons for waste.",
+          "title": "Food Waste Analytics"
+        },
+        {
+          "prompt": "Build a module for nutritional analysis to automatically calculate macros and calories for each dish.",
+          "title": "Nutritional Information Generator"
+        },
+        {
+          "prompt": "Integrate with our accounting software to streamline vendor payments and expense tracking related to ingredients.",
+          "title": "Accounting System Sync"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of a Custom Kitchen System",
+      "type": "features",
+      "items": [
+        {
+          "description": "Digitize, standardize, and scale all your culinary creations with detailed instructions.",
+          "icon": "🍜",
+          "title": "Centralized Recipe Database"
+        },
+        {
+          "description": "Accurately calculate plate costs based on current ingredient pricing and yield percentages.",
+          "icon": "💰",
+          "title": "Real-time Costing"
+        },
+        {
+          "description": "Track ingredients from delivery to consumption, reducing waste and optimizing freshness.",
+          "icon": "📦",
+          "title": "Integrated Inventory Management"
+        },
+        {
+          "description": "Generate dynamic prep lists and optimized ordering suggestions based on sales and stock.",
+          "icon": "📝",
+          "title": "Automated Prep & Ordering"
+        },
+        {
+          "description": "Manage multiple menus, update prices instantly, and ensure cross-location consistency.",
+          "icon": "🍽️",
+          "title": "Flexible Menu Management"
+        },
+        {
+          "description": "Identify popular items, analyze food cost trends, and optimize kitchen efficiency.",
+          "icon": "📈",
+          "title": "Performance Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Answers for Your Custom Build",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a core menu and recipe management system can take as little as a few days with Kliv's AI-assisted platform. More complex systems with extensive integrations might take a few weeks to fully perfect.",
+          "question": "How long will it take to build a custom system?"
+        },
+        {
+          "answer": "No specialized coding knowledge is needed. Kliv's platform allows you to describe your desired features and workflows in plain language, and the AI helps translate that into a functional application.",
+          "question": "Do I need to be a software developer to build this?"
+        },
+        {
+          "answer": "Yes, your custom system can integrate with existing POS systems, accounting software, supplier databases, and even specialized kitchen equipment via APIs or custom connectors.",
+          "question": "Can it integrate with my existing restaurant software (POS, accounting, etc.)?"
+        },
+        {
+          "answer": "The system you build is entirely yours. You own the code, the data, and the intellectual property. Kliv facilitates the creation process, but you retain full ownership and control.",
+          "question": "Who owns the software and data once it's built?"
+        },
+        {
+          "answer": "While initial development has a cost, a custom system eliminates ongoing subscription fees associated with commercial software. Over time, the cost savings, combined with improved efficiency and reduced waste, make it a highly cost-effective solution.",
+          "question": "Is a custom solution more expensive than off-the-shelf software?"
+        },
+        {
+          "answer": "Absolutely. Your business evolves, and so can your software. You have complete flexibility to add new features, modify existing workflows, or scale the system to accommodate new locations or offerings.",
+          "question": "Can I modify or expand the system after it's built?"
+        },
+        {
+          "answer": "You can choose exactly where your data resides and implement stringent security protocols. This often provides a higher level of security than relying on third-party cloud providers where you have less control.",
+          "question": "How secure is a custom-built recipe and menu management system?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance throughout the development process, including debugging and optimization suggestions. For ongoing maintenance, you control your hosting and can implement changes as needed without reliance on a specific vendor.",
+          "question": "What kind of support is available after the system is live?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Master Your Kitchen Operations?",
+      "type": "cta",
+      "content": "Stop limiting your culinary ambition with generic tools. Build a menu and recipe management system that truly serves your unique business. Start creating your custom solution with Kliv today."
+    }
+  ],
+  "title": "Menu & Recipe Management Systems"
+}

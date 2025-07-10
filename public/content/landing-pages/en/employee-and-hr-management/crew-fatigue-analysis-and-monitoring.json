@@ -1,0 +1,155 @@
+{
+  "defaultPrompt": "I want to create a crew fatigue analysis and monitoring system that tracks work hours, rest periods, and flight duty times for pilots, alerts when thresholds are breached, and visualizes fatigue risk.",
+  "description": "Build custom crew fatigue analysis and monitoring applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start managing crew fatigue",
+    "subtitle": "Ensure operational safety and compliance by building advanced crew fatigue analysis and monitoring tools tailored to your specific needs.",
+    "title": "Build your own Crew Fatigue Analysis & Monitoring Systems"
+  },
+  "metaDescription": "Create powerful crew fatigue analysis and monitoring tools with Kliv. Enhance safety, ensure compliance, and optimize crew scheduling with custom-built applications.",
+  "sections": [
+    {
+      "title": "The growing challenge of crew fatigue management",
+      "type": "text",
+      "content": "In high-stakes industries like aviation, maritime, and long-haul transportation, crew fatigue is a critical safety issue and a complex operational challenge. Existing commercial solutions often fall short, failing to adapt to unique operational nuances, specific regulatory requirements, or provide the comprehensive insights needed for proactive fatigue risk management.\n\nDeveloping a custom crew fatigue analysis and monitoring system allows organizations to precisely address their unique operational context, integrate disparate data sources, and develop predictive capabilities that go beyond off-the-shelf software. With modern AI-powered development platforms, building such a sophisticated tool is now within reach, offering unparalleled control and strategic advantage."
+    },
+    {
+      "title": "Why a custom crew fatigue system is essential",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf solutions\n\nMany organizations rely on generic crew fatigue software that:\n\n- **Lacks specific integration**: Struggles to connect with proprietary scheduling, HR, or operational data systems.\n- **Offers limited customization**: Cannot adapt to unique regulatory frameworks, union agreements, or internal fatigue policies.\n- **Provides insufficient real-time insights**: Often operates on historical data, missing critical real-time risk factors.\n- **Incurs high recurring costs**: Subscription models can become prohibitively expensive, especially for large crews or global operations.\n- **Ignores specific operational context**: What works for a regional airline may not apply to a global cargo carrier or an offshore drilling crew.\n\n## The unmatched benefits of custom development\n\nBuilding your own crew fatigue analysis application with Kliv empowers you to:\n\n### Achieve precise regulatory compliance\nDesign the system to perfectly align with specific national and international regulations (e.g., FAA, EASA, IMO) as well as internal policies and collective bargaining agreements, reducing the risk of non-compliance.\n\n### Integrate all relevant data sources\nUnify data from scheduling platforms, actual flight/duty logs, biometric devices, operational disruptions, and incident reports to create a holistic fatigue risk profile.\n\n### Implement predictive analytics\nGo beyond reactive monitoring. Use your own models to predict fatigue based on historical data, upcoming schedules, and environmental factors, allowing for proactive intervention.\n\n### Tailor user experience and reporting\nCreate dashboards, alerts, and reports that are specifically designed for your safety managers, operations teams, and crew members, delivering actionable insights in the most effective format.\n\n### Ensure data security and ownership\nMaintain complete control over sensitive operational and personal data, hosting it securely within your infrastructure and customizing security protocols to meet stringent industry standards.\n\n### Drive operational efficiency and safety culture\nA well-designed custom system not only enhances safety by proactively managing fatigue but also improves resource allocation, reduces overtime, and fosters a strong safety culture through transparent, data-driven approaches.\n\n## Practical applications across industries\n\n**Aviation**: Monitor pilot and cabin crew Flight Duty Period (FDP), Rest Periods, and Cumulative Fatigue Hours against FAA/EASA limits, predicting fatigue for long-haul routes.\n\n**Maritime**: Track watchkeeping hours, port calls, and rest declarations for ship crews, ensuring compliance with STCW (Standards of Training, Certification and Watchkeeping) conventions.\n\n**Logistics & Transportation**: Analyze driver hours of service (HOS) for truck drivers, railway operators, or bus drivers to prevent fatigue-related accidents and optimize routing.\n\n**Emergency Services**: Manage shift fatigue for paramedics, firefighters, or police officers, especially during prolonged incidents or disaster relief operations.\n\n## The Kliv advantage for fatigue management\n\nKliv's AI-powered platform simplifies the development of complex systems:\n\n- **Natural Language Interaction**: Describe your fatigue rules, data inputs, and desired outputs in plain English.\n- **Rapid Iteration**: Quickly build prototypes, test different fatigue models, and refine features with immediate feedback.\n- **Intelligent Data Handling**: Seamlessly process and analyze large volumes of crew data, identifying patterns and generating insights.\n- **Scalable Architecture**: Design a system that can grow with your operations, supporting thousands of crew members and complex calculations.\n\nBy leveraging Kliv, you can quickly build sophisticated, tailored crew fatigue management systems that enhance safety, compliance, and operational effectiveness without excessive time or cost."
+    },
+    {
+      "title": "Crew fatigue analysis ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Calculate accumulated fatigue risk based on various parameters.",
+          "prompt": "Create a system that calculates a real-time 'fatigue score' for each pilot based on their last 72 hours of duty, number of consecutive duty days, and time zones crossed, with thresholds for 'low', 'medium', and 'high' risk.",
+          "title": "Pilot fatigue risk score calculator"
+        },
+        {
+          "description": "Automate compliance checks against industry regulations.",
+          "prompt": "Build an application that ingests flight crew duty rosters and automatically flags any violations of EASA Flight Time Limitations (FTL) for maximum flight duty periods, minimum rest periods, and cumulative thresholds, providing detailed reports.",
+          "title": "EASA FTL compliance checker"
+        },
+        {
+          "description": "Visualize crew schedules and potential fatigue hot spots.",
+          "prompt": "Develop a visual dashboard showing all crew members' upcoming 14-day schedule, highlighting periods of potential high fatigue risk in red based on flight hours, early starts, and late finishes, allowing managers to re-schedule proactively.",
+          "title": "Proactive schedule fatigue visualizer"
+        },
+        {
+          "description": "Integrate biometric data for personalized fatigue insights.",
+          "prompt": "Design a system that integrates with wearable devices to collect heart rate variability and sleep duration data, correlating it with reported fatigue levels and duty cycles to provide personalized fatigue insights and predictive alerts for individual crew members.",
+          "title": "Biometric-driven fatigue monitoring"
+        },
+        {
+          "description": "Forecast fatigue patterns for long-haul operations.",
+          "prompt": "Create a tool that simulates different long-haul flight schedules, applying various fatigue models (e.g., SAFTE-FAST, biomathematical models) to predict fatigue levels at different points of the journey, helping optimize crew rotation and rest strategies.",
+          "title": "Long-haul flight fatigue predictor"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your fatigue monitoring system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with our HR system to automatically pull employee profiles and rostering data, minimizing manual data entry.",
+          "title": "HR system integration"
+        },
+        {
+          "prompt": "Add a feature for crew members to self-report fatigue levels and quality of rest through a simple mobile interface.",
+          "title": "Crew self-reporting module"
+        },
+        {
+          "prompt": "Implement a machine learning model that analyzes historical data to predict future fatigue patterns based on operational variables like delays, cancellations, and irregular work assignments.",
+          "title": "Predictive analytics engine"
+        },
+        {
+          "prompt": "Develop a module for generating audit-ready compliance reports for regulatory bodies, showing adherence to fatigue management regulations.",
+          "title": "Automated compliance reporting"
+        },
+        {
+          "prompt": "Add role-based access control, so operations managers can see all data, while individual crew members can only view their own fatigue profiles.",
+          "title": "Role-based access control"
+        },
+        {
+          "prompt": "Create custom alert configurations for different fatigue thresholds, sending notifications via SMS or email to operations managers and safety officers.",
+          "title": "Customizable alert system"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for crew fatigue management",
+      "type": "features",
+      "items": [
+        {
+          "description": "Track actual duty and rest periods against planned schedules.",
+          "icon": "⏳",
+          "title": "Duty & rest period tracking"
+        },
+        {
+          "description": "Apply custom or regulatory fatigue models (e.g., FTL, HOS) to calculate risk.",
+          "icon": "⚠️",
+          "title": "Fatigue risk modeling"
+        },
+        {
+          "description": "Generate alerts for impending or actual compliance breaches.",
+          "icon": "🚨",
+          "title": "Compliance alerting"
+        },
+        {
+          "description": "Visualize crew schedules and fatigue levels on intuitive dashboards.",
+          "icon": "📈",
+          "title": "Interactive dashboards"
+        },
+        {
+          "description": "Integrate with rostering systems, HR platforms, and operational data sources.",
+          "icon": "🔌",
+          "title": "Data source integration"
+        },
+        {
+          "description": "Produce detailed reports for internal review and regulatory audits.",
+          "icon": "📄",
+          "title": "Customizable reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a core crew fatigue analysis system can take a few days to a couple of weeks, depending on the complexity of your rules and integrations. Kliv's AI significantly accelerates the development cycle.",
+          "question": "How long does it take to build a custom crew fatigue management system?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv's platform allows you to describe your requirements in natural language. The AI translates these into a functional application, enabling subject matter experts to build powerful tools.",
+          "question": "Do I need to be a programmer to build this kind of system?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with most existing systems through APIs (Application Programming Interfaces). This includes scheduling software, HR platforms, time-tracking systems, and even biometric devices, provided they offer integration capabilities.",
+          "question": "Can the custom system integrate with my existing operational software?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property generated. The code, data, and models developed within the Kliv environment are yours. This gives you complete control over future modifications, hosting, and data security.",
+          "question": "Who owns the intellectual property of the system I build?"
+        },
+        {
+          "answer": "While there's an initial investment, a custom system eliminates recurring subscription fees and avoids paying for unused features. Over time, the cost savings, combined with improved safety and compliance, typically make a custom solution far more cost-effective than commercial off-the-shelf products.",
+          "question": "How does the cost compare to purchasing commercial fatigue management software?"
+        },
+        {
+          "answer": "Absolutely. One of the primary advantages of building with Kliv is the flexibility to evolve your system. You can easily add new regulatory rules, integrate new data sources, develop more sophisticated predictive models, or refine existing features as your operational needs change.",
+          "question": "Can I modify or expand the system after it's initially built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to enhance your operational safety?",
+      "type": "cta",
+      "content": "Stop making compromises with generic software. Build a precise, powerful crew fatigue analysis and monitoring system that truly meets your organizational and regulatory demands. Start building with Kliv today."
+    }
+  ],
+  "title": "Crew fatigue analysis & monitoring systems"
+}

@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a tool that can convert React components into Next.js pages or components, handling file structure, imports, and data fetching methods.",
+  "description": "Convert React applications to Next.js with an AI-powered migration tool built on Kliv.",
+  "hero": {
+    "cta": "Start converting",
+    "subtitle": "Streamline your migration from React to Next.js with an intelligent conversion tool.",
+    "title": "Build your own React to Next.js converter"
+  },
+  "metaDescription": "Create custom React to Next.js conversion tools with Kliv. Automate migration of components, pages, routing, and data fetching for faster development.",
+  "sections": [
+    {
+      "title": "Why build a custom React to Next.js converter?",
+      "type": "text",
+      "content": "Migrating a large React application to Next.js can be a daunting and time-consuming process. While Next.js offers significant advantages for performance, SEO, and developer experience, manual conversion involves tedious refactoring of components, file structures, routing, and data fetching. Generic scripts fall short, often missing nuanced patterns specific to your codebase.\n\nBy building a tailored conversion tool with Kliv, you can create a highly intelligent assistant that understands your project's unique architecture. This allows for a precise, automated, and repeatable migration process, saving countless developer hours and reducing potential errors."
+    },
+    {
+      "title": "The case for a bespoke migration tool",
+      "type": "markdown",
+      "content": "## The challenge of manual migration\n\nMoving an existing React application to Next.js isn't just a matter of changing a few lines of code. It involves a fundamental shift in architecture and conventions:\n\n- **File structure changes**: React components often reside together; Next.js enforces a specific `pages` directory and API routes.\n- **Routing refactoring**: React Router needs to be replaced with Next.js's file-system based routing.\n- **Data fetching paradigms**: Client-side fetching in React often needs to be rethought for `getServerSideProps`, `getStaticProps`, or `getStaticPaths` in Next.js.\n- **Component adjustments**: Handling SSR, CSS modules, image optimization, and other Next.js specific features.\n- **Context and State Management**: Ensuring global state or context providers adapt correctly to Next.js's lifecycle.\n\nGeneric scripts and manual processes often lead to:\n\n- **High error rates**: Missing edge cases, incorrect imports, or misplaced files.\n- **Time consumption**: Developers spend weeks on repetitive, error-prone tasks.\n- **Inconsistent code quality**: Different developers might refactor components in varying ways.\n- **Loss of productivity**: Resources are diverted from feature development to migration.\n\n## Why a custom-built tool is your best approach\n\nLeveraging Kliv's AI-powered platform to build a custom converter transforms a massive undertaking into a manageable, automated process. Here's how:\n\n### Codebase awareness\nUnlike generic solutions, your custom tool can be trained on your specific React codebase. It learns your component patterns, utility functions, and architectural quirks, allowing it to perform a much more accurate and intelligent conversion.\n\n### Precision and consistency\nAutomated conversion ensures consistency across your entire application. Every component, routing definition, and data fetch is refactored according to your defined rules, eliminating human error and maintaining high code standards.\n\n### Accelerated development cycle\nBy automating the bulk of the migration, your development team can focus on verifying the converted code and implementing new Next.js specific features, drastically cutting down the migration timeline from months to days or weeks.\n\n### Future-proofing\nYour custom tool becomes a reusable asset. If you have multiple React applications or plan future migrations, the investment in building this tool pays off repeatedly.\n\n### Cost-effectiveness\nBeyond the initial build, a custom tool eliminates recurring subscription costs associated with commercial migration tools (if they even exist for such specific tasks) and significantly reduces labor costs.\n\n## The AI advantage in code conversion\n\nBuilding code transformation tools used to require deep compiler knowledge or complex AST manipulation. Kliv simplifies this by:\n\n- **Semantic Code understanding**: The AI understands the purpose and context of your code, not just its syntax.\n- **Pattern recognition**: Identifies common React patterns (e.g., `useState`, `useEffect`, `Context.Provider`) and automatically refactors them to their Next.js equivalents.\n- **Contextual refactoring**: Handles global imports, relative paths, and component structure based on the new Next.js environment.\n- **Error detection and suggestions**: The tool can flag areas that require manual review or suggest alternative conversion strategies."
+    },
+    {
+      "title": "Converter ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Convert all functional React components to Next.js pages.",
+          "prompt": "Create a tool that iterates through a given React project directory, identifies all functional components, determines if they should be a Next.js page based on file path conventions (e.g., `/pages`), and automatically refactors them to Next.js 13 App Router pages, adding 'use client' where necessary and handling import paths.",
+          "title": "React component to Next.js page converter"
+        },
+        {
+          "description": "Automate data fetching migration from useEffect to getServerSideProps.",
+          "prompt": "Build a CLI tool that analyzes React components using 'useEffect' for data fetching, then refactors these components to use 'getServerSideProps' or 'getStaticProps' based on a user-defined configuration, moving the fetching logic and passing props accordingly.",
+          "title": "Data fetching migration utility"
+        },
+        {
+          "description": "Port React Router configurations to Next.js file-system routing.",
+          "prompt": "Develop a script that reads a React Router configuration file (e.g., `react-router-dom` routes), then generates the corresponding file-system based routing structure and `link` components for a Next.js application, including dynamic routes.",
+          "title": "React Router to Next.js Router converter"
+        },
+        {
+          "description": "Refactor CSS Modules and inline styles for Next.js.",
+          "prompt": "Create a tool that helps migrate existing CSS Module setups from a React project to a Next.js project, ensuring correct import paths and handling of global styles. Additionally, identify and convert inline styles to CSS Modules where appropriate.",
+          "title": "CSS/Styling conversion tool"
+        },
+        {
+          "description": "Transition React Context API to Next.js Server Components-friendly patterns.",
+          "prompt": "Build a utility that helps refactor React Context API usage to patterns more compatible with Next.js Server Components, suggesting client component boundaries or alternative data passing methods where Context might not be optimal.",
+          "title": "Context API migration assistant"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your converter tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a pre-conversion analysis step that reports potential issues or manual intervention points before conversion starts.",
+          "title": "Pre-conversion analysis report"
+        },
+        {
+          "prompt": "Implement a rollback feature that can revert the last conversion operation if issues are found.",
+          "title": "Rollback functionality"
+        },
+        {
+          "prompt": "Integrate with a linter (like ESLint) to automatically fix linting errors introduced during conversion.",
+          "title": "Linter integration"
+        },
+        {
+          "prompt": "Add a GUI for configuring conversion rules and viewing conversion progress and results.",
+          "title": "User-friendly Graphical Interface"
+        },
+        {
+          "prompt": "Develop a plugin architecture to allow users to add custom conversion rules for specific React libraries or patterns.",
+          "title": "Extensible plugin system"
+        },
+        {
+          "prompt": "Add support for TypeScript conversion, preserving types and refactoring as needed for Next.js.",
+          "title": "TypeScript support"
+        },
+        {
+          "prompt": "Implement a diff viewer to show changes made by the converter, allowing for easy review.",
+          "title": "Integrated diff viewer"
+        },
+        {
+          "prompt": "Add functionality to automatically adapt image imports and usage to Next.js Image component.",
+          "title": "Next.js Image component adaptation"
+        },
+        {
+          "prompt": "Include a feature to migrate test files (e.g., Jest/Enzyme) to a Next.js testing setup (e.g., React Testing Library/Playwright).",
+          "title": "Test file migration"
+        }
+      ]
+    },
+    {
+      "title": "Key conversion builder features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Intelligent code analysis to understand your React code structure and patterns.",
+          "icon": "🧠",
+          "title": "Semantic Code Analysis"
+        },
+        {
+          "description": "Automated refactoring of React components into Next.js pages or reusable components.",
+          "icon": "🔄",
+          "title": "Component Refactoring"
+        },
+        {
+          "description": "Smart conversion of client-side data fetching to Next.js server-side methods.",
+          "icon": "⚡",
+          "title": "Data Fetching Transformation"
+        },
+        {
+          "description": "Automated adjustment of import paths and file structures consistent with Next.js conventions.",
+          "icon": "📁",
+          "title": "Path & File Restructuring"
+        },
+        {
+          "description": "Adaptation of routing logic from React Router to Next.js's file-system based routing.",
+          "icon": "🛣️",
+          "title": "Routing Migration"
+        },
+        {
+          "description": "Customizable rules and configurations to precisely control the conversion process.",
+          "icon": "⚙️",
+          "title": "Configurable Conversion Rules"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Utilizing Kliv's AI, you can generate a functional conversion tool in hours to a few days, depending on the complexity and specificity of your current React codebase and desired Next.js features.",
+          "question": "How long will it take to build this React to Next.js converter?"
+        },
+        {
+          "answer": "No deep coding experience in AST manipulation or compilers is required. Kliv's platform allows you to describe the conversion logic in natural language, and the AI translates that into executable code transformation rules.",
+          "question": "Do I need to be an expert in code parsing or ASTs to build this?"
+        },
+        {
+          "answer": "Yes, you can specify custom rules and heuristics for the AI to follow. This enables the tool to handle unique patterns, component libraries, or architectural decisions specific to your project.",
+          "question": "Can the tool be customized to my specific codebase's patterns?"
+        },
+        {
+          "answer": "The cost of building a custom tool with Kliv is typically a one-time development investment. This often proves more economical than retaining developers for weeks or months for manual migration or relying on generic tools that may not fully cover your needs.",
+          "question": "How does the cost compare to manual migration or off-the-shelf tools?"
+        },
+        {
+          "answer": "You retain full ownership of the generated conversion tool, including its source code. This means you can further modify, reuse, and distribute it for your internal purposes without proprietary locks.",
+          "question": "Who owns the intellectual property of the generated converter?"
+        },
+        {
+          "answer": "Yes, a core benefit is the ability to iteratively refine the tool. As you test the conversions, you can update your conversion logic and rules (via new prompts) to improve accuracy and handle edge cases.",
+          "question": "Can I refine the converter's logic after the initial build?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to accelerate your Next.js migration?",
+      "type": "cta",
+      "content": "Stop the manual grind and build an intelligent, custom migration tool that understands your code and saves immense time and effort."
+    }
+  ],
+  "title": "React to Next.js Migration Tools"
+}

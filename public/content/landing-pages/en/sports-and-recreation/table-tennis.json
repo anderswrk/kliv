@@ -1,0 +1,154 @@
+{
+  "defaultPrompt": "I want to create a table tennis scoring and ranking application that tracks match results, player statistics, and automatically updates a leader board, with features for league management and challenge matches.",
+  "description": "Build custom table tennis applications for scoring, ranking, and league management with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your app",
+    "subtitle": "Create custom table tennis applications for clubs, leagues, and casual play. Track scores, manage rankings, and organize tournaments with ease.",
+    "title": "Build your own table tennis app"
+  },
+  "metaDescription": "Develop powerful table tennis scoring, ranking, and league management apps with Kliv. Perfect for clubs, coaches, and enthusiasts looking for custom solutions.",
+  "sections": [
+    {
+      "title": "The challenge of managing table tennis data",
+      "type": "text",
+      "content": "Are you tired of manual scorekeeping, complicated spreadsheets for rankings, and disjointed league management tools? Generic sports apps often miss the specific nuances of table tennis, leaving clubs and players frustrated.\n\nBuilding a custom application means you get exactly what you need, without limitations or unnecessary features. With Kliv, the power to create a dedicated table tennis system is now within reach, allowing you to focus on the game, not the administration."
+    },
+    {
+      "title": "Why a custom table tennis application beats off-the-shelf solutions",
+      "type": "markdown",
+      "content": "For table tennis clubs, casual groups, and even professional organizations, a dedicated application can revolutionize how you track progress, manage events, and engage players. While generic sports apps exist, they rarely offer the tailored functionality required for the unique dynamics of table tennis.\n\n## The drawbacks of generic solutions:\n\n- **Inflexible scoring rules**: Many apps struggle with specific table tennis scoring, deuce rules, or best-of-X sets.\n- **Poor ranking algorithms**: Generic systems often use simplistic formulas, not accounting for player ratings (like Elo or ITTF points) or specific challenge match rules.\n- **Limited event management**: Organizing round-robins, knockouts, or ladder challenges can be cumbersome.\n- **Lack of player engagement features**: No dedicated profiles, head-to-head stats, or bragging rights.\n- **High subscription costs**: Paying for features you don't need, or being limited by free tiers.\n\n## The advantages of building your own with Kliv:\n\n### Precision-engineered for table tennis\nYour application can incorporate exact scoring rules, complex ranking systems (e.g., Elo, Glicko, or custom club-specific algorithms), and match formats (singles, doubles, teams) specific to your needs. This ensures fair play and accurate representation of player skill.\n\n### Tailored player experience\nCreate robust player profiles with detailed match history, head-to-head records against opponents, win/loss ratios, and progression over time. This fosters competition and provides valuable insights for players.\n\n### Streamlined event organization\nBuild in modules for league scheduling, tournament brackets (single elimination, double elimination, round-robin), and ladder challenges. Automate score entry and ranking updates, drastically reducing administrative burden.\n\n### Data ownership and privacy\nWith a custom application, you control all player data and match results. No worries about third-party data breaches or privacy policies that don't align with your club's ethos. You decide where your data lives and how it's used.\n\n### Cost-effective in the long run\nInvest once in building your perfect application, and avoid recurring subscription fees that add up over time. As your club grows or needs evolve, you can easily add or modify features without vendor lock-in.\n\n## Real-world impact:\n\nImagine a local table tennis club that transforms weekend tournaments from disorganized paper-based events into smooth, digitally managed competitions. Players can easily check their match schedule, see real-time results, and monitor their ranking climb from their phones. Coaches can use granular player statistics to identify areas for improvement. This level of insight and organization is rarely possible with off-the-shelf tools.\n\nKliv's AI-powered platform makes this vision a reality. Describe the functionality you need in plain language, and the AI assists in generating and refining the underlying code. It's about empowering enthusiasts, coaches, and club managers to create the digital tools they truly need, without needing extensive programming knowledge."
+    },
+    {
+      "title": "Application ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Develop a system for a local club to track matches and manage rankings.",
+          "prompt": "Create an application that allows users to record table tennis match scores (best of 5 sets to 11, with deuce at 10-10). It should calculate and update player rankings using an Elo rating system. Implement a leaderboard and player profiles showing win-loss records.",
+          "title": "Club ranking and ladder system"
+        },
+        {
+          "description": "An application to manage league schedules, results, and team standings.",
+          "prompt": "Build a table tennis league management system. It needs features for creating teams, scheduling round-robin matches, entering match results, and automatically calculating league points and standings. Include player statistics for each league season.",
+          "title": "League management platform"
+        },
+        {
+          "description": "A tool for organizing and running single-day tournaments.",
+          "prompt": "Design a tournament bracket application for table tennis. It should support single-elimination and round-robin formats, allow for seeding players, automatically advance winners, and display real-time match results and brackets on a large screen.",
+          "title": "Tournament organizer"
+        },
+        {
+          "description": "A personal training progress tracker for players.",
+          "prompt": "Develop a personal table tennis training log app. Players can record training sessions, drill types, and self-assess performance. It should track progress over time and provide data visualization on skill improvement metrics.",
+          "title": "Player progress tracker"
+        }
+      ]
+    },
+    {
+      "title": "Ways to extend your table tennis application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for players to challenge each other directly from their profile pages, with an automated match challenge notification system.",
+          "title": "Automated challenge system"
+        },
+        {
+          "prompt": "Integrate a real-time notification system to alert players when their match is about to start or when new results are posted.",
+          "title": "Push notifications"
+        },
+        {
+          "prompt": "Include a video analysis module where players can upload match videos, tag key shots, and analyze their technique frame by frame.",
+          "title": "Video analysis integration"
+        },
+        {
+          "prompt": "Add functionality for managing court bookings and availability within the club.",
+          "title": "Court booking system"
+        },
+        {
+          "prompt": "Implement a 'Find an Opponent' feature that matches players based on skill level and availability for casual play.",
+          "title": "Opponent matching"
+        },
+        {
+          "prompt": "Develop a module for managing club memberships, including renewals, payments, and member directories.",
+          "title": "Membership management"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Table Tennis App",
+      "type": "features",
+      "items": [
+        {
+          "description": "Easily input match scores and results for singles, doubles, or team matches.",
+          "icon": "🔢",
+          "title": "Customizable Scoring"
+        },
+        {
+          "description": "Implement Elo, Glicko, or club-specific algorithms for dynamic player rankings.",
+          "icon": "🏆",
+          "title": "Automated Ranking Systems"
+        },
+        {
+          "description": "Browse detailed profiles with match history, statistics, and head-to-head records.",
+          "icon": "👤",
+          "title": "Player Management"
+        },
+        {
+          "description": "Organize leagues, tournaments (knockout, round-robin), and ladder challenges.",
+          "icon": "📅",
+          "title": "Event & League Management"
+        },
+        {
+          "description": "Vizualize player performance trends and club statistics over time.",
+          "icon": "📈",
+          "title": "Performance Analytics"
+        },
+        {
+          "description": "Communicate updates, match schedules, and results directly to players.",
+          "icon": "📣",
+          "title": "Communication Hub"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform lets you rapidly prototype and build applications. A basic scoring and ranking app can be operational in a matter of days, with more complex league management systems taking a few weeks, depending on features.",
+          "question": "How long will it take to build a table tennis application?"
+        },
+        {
+          "answer": "No coding experience is required. You describe the features and logic you want using natural language, and Kliv's AI assists in generating the application components. It's designed for users who understand their sport, not necessarily programming.",
+          "question": "Do I need to be a programmer to build an app with Kliv?"
+        },
+        {
+          "answer": "Absolutely. Your application can be designed to run on any device with a web browser – desktops, tablets, and smartphones – providing a consistent experience for all users.",
+          "question": "Can the app be used on mobile devices?"
+        },
+        {
+          "answer": "You own 100% of the application and its data. Kliv helps you build it, but the intellectual property and all information are yours to control and manage.",
+          "question": "Who owns the data and the application once it's built?"
+        },
+        {
+          "answer": "Yes, custom applications offer superior customization for table tennis specific rules like scoring variations, unique deuce situations, and highly specialized ranking algorithms (e.g., custom club ladder systems). Generic apps often hardcode these elements.",
+          "question": "Can I implement specific table tennis rules and ranking systems?"
+        },
+        {
+          "answer": "Your table tennis app can integrate with various services via APIs, such as payment gateways for memberships, email for notifications, or even social media for sharing results.",
+          "question": "Can I integrate my custom app with other services?"
+        },
+        {
+          "answer": "Unlike SaaS products with recurring fees, building with Kliv usually involves a one-time development cost, potentially with hosting fees depending on your chosen deployment. This often results in significant long-term savings for clubs and organizations.",
+          "question": "How does the cost compare to off-the-shelf table tennis software?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to serve up your perfect table tennis app?",
+      "type": "cta",
+      "content": "Stop conforming to generic sports software. Build a table tennis application that truly fits your club's or league's unique needs and elevate your game management."
+    }
+  ],
+  "title": "Table Tennis Applications"
+}

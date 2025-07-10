@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a game library management tool that can automatically import my games from various platforms, track playtime, categorize by genre, and suggest new games based on my preferences.",
+  "description": "Organize, track, and discover games with a custom-built management application.",
+  "hero": {
+    "cta": "Start building your library",
+    "subtitle": "Tired of scattered game collections? Build your personalized game library manager with Kliv's intuitive platform.",
+    "title": "Your Custom Game Library Management App"
+  },
+  "metaDescription": "Create a powerful game library management application. Track playtime, organize collections, discover new games, and integrate with platforms like Steam, Epic, and GOG.",
+  "sections": [
+    {
+      "title": "Why build your own game library manager?",
+      "type": "text",
+      "content": "For serious gamers, managing a growing collection across multiple platforms can be a real challenge. Spreadsheets become unwieldy, and individual platform launchers offer limited functionality. A custom-built game library management application gives you total control, allowing you to create the ultimate hub for your gaming universe. Kliv empowers you to design a solution that perfectly fits your unique needs, integrating all your games, tracking progress, and recommending new adventures—all without relying on restrictive third-party software."
+    },
+    {
+      "title": "The ultimate gaming command center",
+      "type": "markdown",
+      "content": "## The problem with scattered game collections\n\nModern gaming means games are spread across Steam, Epic Games Store, GOG, Xbox Game Pass, PlayStation, and even classic emulators. This fragmentation leads to:\n\n- **Difficulty finding games**: \"Which platform was that game on again?\"\n- **Lack of overview**: No single place to see your entire collection.\n- **Missing data**: No unified way to track playtime, completion status, or personal notes.\n- **Limited discovery**: Generic storefront recommendations don't always align with your specific tastes.\n- **Data privacy concerns**: Sharing your entire gaming history with various third parties.\n\n## Why a custom solution is a game-changer\n\nBuilding your own game library management tool isn't just about convenience; it's about empowerment. With Kliv, you can create a system that:\n\n### Unifies your entire collection\nImport games from all your platforms into one central database. Whether it's PC, console, or retro titles, everything lives in one place.\n\n### Tracks what truly matters to you\nCustomize fields to track playtime, completion rates, personal ratings, notes, desired achievements, or even custom tags like 'couch co-op' or 'story-rich adventure'.\n\n### Personalizes game discovery\nLeverage your existing library data to build a recommendation engine that suggests games based on your actual preferences, not just what a publisher wants to promote.\n\n### Provides total data ownership\nYour game data, your rules. Host your application yourself, ensuring your personal gaming habits remain private and secure.\n\n### Evolves with your gaming habits\nAs you discover new ways to play or new features you desire, you can easily modify and expand your application without waiting for a third-party update or paying for premium features.\n\n## Real-world applications for gamers\n\nImagine possibilities beyond simple lists:\n\n**Curated game review hub**: A personal system where you not only list games but also write and save your reviews, link to external articles, and track critical reception.\n\n**Achievement/Trophy tracker**: An application that pulls your achievement data and helps you prioritize which games to play next based on your completionist goals.\n\n**Multiplayer session planner**: Track which friends own which games, plan online sessions, and even integrate with Discord to coordinate.\n\n**Retro game emulator frontend**: A visually rich frontend for your emulated game ROMs, complete with box art, descriptions, and launch capabilities.\n\n## Building with the power of AI\n\nKliv leverages AI to simplify complex development. You describe the features you want, and the AI assists in generating the underlying structure and logic:\n\n- **Natural language interface**: Describe your desired features in plain English.\n- **Component generation**: AI helps create the database models, user interfaces, and API integrations.\n- **Iterative development**: Rapidly build and test new features, refining your app as you go.\n- **Smart integrations**: AI can suggest and help implement connections to gaming APIs or data sources.\n\nYour passion for gaming deserves a tool built with that same passion. Stop settling for less and start building your custom game library today."
+    },
+    {
+      "title": "Game library ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Consolidate your entire game collection into one view",
+          "prompt": "Create a personal game library application where I can add games, specify their platform (PC, Xbox, PS5, Switch), track their status (Beat, Playing, Backlog), and add custom tags like 'RPG', 'Indie', 'Multiplayer'.",
+          "title": "Universal Game Collection Tracker"
+        },
+        {
+          "description": "Know exactly how much time you've invested in each game",
+          "prompt": "Build a game tracker that connects to my Steam and Epic Games accounts to automatically import my game list and track playtime for each title. I also want to manually add games from other platforms and input their playtime.",
+          "title": "Playtime Logging Dashboard"
+        },
+        {
+          "description": "Discover new games tailored to your personal taste",
+          "prompt": "Develop a game recommendation engine. Based on the genres and tags of games I've rated highly in my collection, suggest new titles from a connected game database (e.g., IGDB API).",
+          "title": "Personalized Game Recommender"
+        },
+        {
+          "description": "Manage your backlog and upcoming releases effectively",
+          "prompt": "I need a game backlog management tool. It should allow me to prioritize games, set deadlines for completion, and automatically pull release dates for upcoming games I'm interested in from various gaming news sources.",
+          "title": "Backlog & Wishlist Organizer"
+        },
+        {
+          "description": "Never buy a game you already own again!",
+          "prompt": "Create a tool that lets me manage my owned games across different storefronts. When I search for a game, it should show me if I already own it on any connected platform and where.",
+          "title": "Duplicate Game Detector"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your gaming hub",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to synchronize game data (e.g., playtime, achievements) with publicly available APIs like Steam's or Xbox Live's.",
+          "title": "Integrate with Gaming Platforms"
+        },
+        {
+          "prompt": "Implement a user authentication system so multiple users (e.g., family members) can have their own profiles and game lists within the application.",
+          "title": "Multi-user Profiles"
+        },
+        {
+          "prompt": "Add a visual dashboard that displays statistics about my game library, such as total playtime, distribution across genres, and completion rates.",
+          "title": "Interactive Playtime Dashboard"
+        },
+        {
+          "prompt": "Allow users to import and export their game library data in common formats like CSV or JSON, enabling backups or migration.",
+          "title": "Data Import/Export"
+        },
+        {
+          "prompt": "Add a social feature where users can see what their friends are playing (if they also use the app) and share game recommendations.",
+          "title": "Friend Activity Feed"
+        },
+        {
+          "prompt": "Integrate a feature that fetches game news and updates related to games in my library or on my wishlist.",
+          "title": "News Feed Integration"
+        },
+        {
+          "prompt": "Develop a mobile-responsive interface so I can access and update my game library from my phone or tablet.",
+          "title": "Mobile Responsiveness"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your game library",
+      "type": "features",
+      "items": [
+        {
+          "description": "Centrally manage games from Steam, Epic, GOG, consoles, and emulators.",
+          "icon": "📚",
+          "title": "Unified Game Database"
+        },
+        {
+          "description": "Track playtime, completion status, achievements, and personal ratings.",
+          "icon": "⏳",
+          "title": "Detailed Game Tracking"
+        },
+        {
+          "description": "Automatically or manually add cover art, screenshots, and game descriptions.",
+          "icon": "🖼️",
+          "title": "Rich Media Support"
+        },
+        {
+          "description": "Categorize games by genre, platform, mood, or custom tags.",
+          "icon": "🏷️",
+          "title": "Advanced Tagging & Filtering"
+        },
+        {
+          "description": "Get personalized suggestions based on your play history and preferences.",
+          "icon": "💡",
+          "title": "Custom Recommendation Engine"
+        },
+        {
+          "description": "Keep track of games you want to play next and monitor upcoming releases.",
+          "icon": "🗓️",
+          "title": "Wishlist & Backlog Management"
+        }
+      ]
+    },
+    {
+      "title": "Building your custom gaming solution with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic game library manager with core features can take just a few hours. More complex systems with advanced integrations and AI-driven recommendations might take a few days of iterative development.",
+          "question": "How long will it take to build my game library app?"
+        },
+        {
+          "answer": "Not at all. Kliv's platform allows you to describe your desired features using natural language. The AI helps translate your ideas into a functional application, managing the underlying code and structure.",
+          "question": "Do I need to be a programmer or know how to code to build this?"
+        },
+        {
+          "answer": "Yes, your application can connect to various gaming APIs (e.g., Steam, IGDB) to import game data, track achievements, or pull news feeds. Kliv's AI can assist in setting up these integrations.",
+          "question": "Can I integrate my app with existing gaming platforms like Steam or Epic Games Store?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property. Kliv provides the platform to build, but the application and all its data are yours. You can host it on your own server or adjust its functionality at any time.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Custom-built applications generally offer significant cost savings over time compared to subscription-based services. Your primary cost is the development time (which Kliv significantly reduces) and hosting if you choose an external solution.",
+          "question": "Is building my own app more cost-effective than using commercial solutions?"
+        },
+        {
+          "answer": "Absolutely. One of the main benefits of a custom application is its flexibility. You can continuously add new features, adjust existing ones, or change integrations as your gaming habits or technological needs evolve.",
+          "question": "Can I modify or expand my game library application after it's initially built?"
+        },
+        {
+          "answer": "Your app's security is entirely within your control. You choose where to host it and how to manage data. This often allows for greater privacy and security measures than relying on third-party services.",
+          "question": "How secure is a custom-built game library management application?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your game collection?",
+      "type": "cta",
+      "content": "Stop letting your games get lost in the digital ether. Build the ultimate management tool that puts you in control of your entire gaming universe. Start creating with Kliv today."
+    }
+  ],
+  "title": "Game Library Management Tools"
+}

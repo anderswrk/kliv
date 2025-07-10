@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "Build a real-time monitoring system for tunnel blasting operations that tracks vibration, dust levels, and noise, provides predictive analytics, and generates compliance reports.",
+  "description": "Develop custom tunnel blasting and monitoring applications for enhanced safety, compliance, and efficiency.",
+  "hero": {
+    "cta": "Start building your system",
+    "subtitle": "Ensure peak safety and operational control in underground excavation with custom-built, real-time monitoring solutions.",
+    "title": "Precision blasting & monitoring solutions"
+  },
+  "metaDescription": "Create bespoke tunnel blasting and monitoring tools with Kliv to improve safety, achieve regulatory compliance, and optimize construction projects. Leverage real-time data and AI for critical decision-making.",
+  "sections": [
+    {
+      "title": "The challenge of underground construction",
+      "type": "text",
+      "content": "Tunneling projects, especially those involving blasting, are among the most complex and high-risk endeavors in civil engineering. Current solutions often suffer from data silos, delayed reporting, and a lack of real-time insights, leading to potential safety hazards, regulatory non-compliance, and project delays. Off-the-shelf software rarely provides the granular control or specific integrations required for unique geological conditions or project specifications.\n\nBuilding your own specialized application allows you to integrate disparate data sources, customize alerts for specific thresholds, and ensure that every aspect of your blasting and monitoring aligns with your company’s safety protocols and local regulations. This level of customization is crucial for mitigating risks and optimizing complex operations."
+    },
+    {
+      "title": "Why tailor your tunnel monitoring system?",
+      "type": "markdown",
+      "content": "## Limitations of general software\n\nMany construction management platforms offer modules for environmental monitoring, but few provide the depth and specificity needed for controlled blasting operations. Standard software often presents hurdles such as:\n\n- **Inadequate sensor integration**: Limited compatibility with specialized geophones, dust monitors, or seismic sensors.\n- **Generic reporting**: Compliance reports may not meet specific regional or project-based legal requirements.\n- **Lack of predictive capabilities**: No integrated analytics to forecast ground movement or air blast propagation.\n- **Rigid workflows**: Inability to adapt to dynamic site conditions or changing operational procedures.\n- **Dispersed data**: Information from pre-blast surveys, blast designs, and post-blast analyses residing in separate systems.\n\n## Advantages of a custom solution\n\nLeveraging Kliv to build a tailored tunnel blasting and monitoring system transforms these challenges into opportunities for superior performance:\n\n### Unified data environment\nConsolidate input from all sensors, geological surveys, bore logs, and blasting parameters into a single, intuitive dashboard. This holistic view enables rapid analysis and informed decision-making.\n\n### Enhanced regulatory compliance\nDesign your system to automatically generate reports formatted to specific national or international standards (e.g., MSHA, OSHA, local environmental agencies). Set up configurable alerts for threshold breaches, ensuring immediate action and audit readiness.\n\n### Predictive analytics for risk mitigation\nIncorporate AI models to analyze historical data and predict potential ground vibrations, flyrock trajectories, or air blast overpressure. This foresight allows for proactive adjustments to blast designs, minimizing risks to personnel and nearby structures.\n\n### Optimized operational efficiency\nStreamline the entire blasting cycle, from charge design validation to post-blast environmental assessment. Automate data collection, reduce manual errors, and accelerate decision loops, leading to faster excavation rates and reduced project timelines.\n\n### Adaptable to unique conditions\nEvery tunnel project is unique. A custom system can be iteratively refined to account for varying rock types, fault lines, water ingress, and urban proximity, ensuring optimal blasting outcomes and minimal environmental impact.\n\n## Practical applications\n\nCustom tunnel monitoring systems are invaluable for:\n\n- **Urban tunneling**: Precisely controlling vibrations and noise to protect adjacent infrastructure and minimize public disturbance.\n- **Mining operations**: Optimizing fragmentation and minimizing dilution in large-scale underground mines.\n- **Hydroelectric power projects**: Managing blast-induced rock mass damage in critical infrastructure development.\n- **Transportation tunnels**: Ensuring stability and safety during the construction of railway and road tunnels.\n\n## AI's role in precision engineering\n\nAI-powered development with Kliv makes designing sophisticated systems for complex engineering tasks accessible:\n\n- **Intelligent data routing**: AI ensures data from various sensors is correctly interpreted and directed.\n- **Automated anomaly detection**: AI identifies unusual patterns in real-time data that might indicate evolving risks.\n- **Predictive modeling**: Utilize machine learning to forecast outcomes based on current and historical operational data.\n- **Dynamic report generation**: AI assists in creating complex, regulatory-compliant reports on demand.\n\n## Pathway to innovation\n\nInstead of fitting a square peg into a round hole with off-the-shelf products, engineer a solution that precisely meets the demands of your critical infrastructure projects. Kliv's platform allows you to lead the way in safety and efficiency in the demanding field of underground construction."
+    },
+    {
+      "title": "Blasting & monitoring system ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Real-time tracking of ground vibrations and air blast for nearby structures.",
+          "prompt": "Create a real-time vibration and air blast monitoring platform for urban tunnel construction, with customizable threshold alerts and automated email notifications to project managers and local authorities if limits are exceeded.",
+          "title": "Urban Vibe & Air Blast Monitor"
+        },
+        {
+          "description": "Manage charge sizes, detonation sequences, and safety zones digitally.",
+          "prompt": "Develop a blast design and management application that allows engineers to input geological data, calculate optimal charge patterns, simulate detonation sequences to predict fragmentation, and generate pre-blast safety checklists.",
+          "title": "Explosives Design & Safety Planner"
+        },
+        {
+          "description": "Automate compliance reporting for environmental and safety standards.",
+          "prompt": "Build a compliance reporting system that automatically pulls data from environmental sensors (dust, noise, air quality) and blasting events, generates daily/weekly reports conforming to MSHA/OSHA standards, and archives all data for audits.",
+          "title": "Regulatory Reporting & Archiver"
+        },
+        {
+          "description": "Monitor and control ventilation systems based on dust and gas levels.",
+          "prompt": "Design a tunnel air quality system that integrates with dust and gas sensors, visualizes real-time levels, and automatically adjusts ventilation fan speeds to maintain safe working conditions, sending alerts for critical deviations.",
+          "title": "Automated Ventilation Control"
+        },
+        {
+          "description": "Live visualization of tunnel face movement and ground stability.",
+          "prompt": "Create a ground deformation monitoring tool that processes data from extensometers and total stations, displays real-time displacement maps of the tunnel face, and triggers warnings for critical movement rates indicating instability.",
+          "title": "Geotechnical Stability Tracker"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for post-blast fragmentation analysis using image recognition from drone footage.",
+          "title": "AI-powered fragmentation analysis"
+        },
+        {
+          "prompt": "Incorporate weather data integration to adjust blast designs based on wind speed and direction for air blast control.",
+          "title": "Weather-adaptive blast planning"
+        },
+        {
+          "prompt": "Implement a machine learning model to predict optimal charge quantities based on rock type, desired fragmentation, and environmental constraints.",
+          "title": "Predictive charge optimization"
+        },
+        {
+          "prompt": "Develop a mobile app for field engineers to record pre-blast checks and receive real-time alerts.",
+          "title": "Mobile field operations access"
+        },
+        {
+          "prompt": "Add a module for personnel tracking and real-time location mapping within the tunnel for safety.",
+          "title": "In-tunnel personnel tracking"
+        },
+        {
+          "prompt": "Integrate with a drone system for visual inspections of the tunnel face before and after blasting.",
+          "title": "Drone-based visual inspections"
+        },
+        {
+          "prompt": "Create a simulation environment for 'what-if' scenarios based on different blasting parameters.",
+          "title": "Blasting simulation module"
+        },
+        {
+          "prompt": "Add an inventory management system for explosives and blasting caps with automated reorder points.",
+          "title": "Explosives inventory management"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities for deep excavation",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect various geotechnical and environmental sensors for comprehensive data capture.",
+          "icon": "📡",
+          "title": "Multi-sensor integration"
+        },
+        {
+          "description": "Receive instant warnings for critical thresholds in ground vibration, dust, or noise.",
+          "icon": "🚨",
+          "title": "Automated safety alerts"
+        },
+        {
+          "description": "Generate dynamic reports tailored to specific regulatory standards and project requirements.",
+          "icon": "📄",
+          "title": "Customizable compliance reporting"
+        },
+        {
+          "description": "Visualize key metrics and blast parameters on an intuitive dashboard for quick oversight.",
+          "icon": "📊",
+          "title": "Real-time operational dashboard"
+        },
+        {
+          "description": "Apply machine learning to foresee potential issues like ground instability or excessive overpressure.",
+          "icon": "🔮",
+          "title": "Predictive risk analysis"
+        },
+        {
+          "description": "Store all blast plans, sensor data, and reports in a secure, auditable digital archive.",
+          "icon": "🗄️",
+          "title": "Secure data archival"
+        }
+      ]
+    },
+    {
+      "title": "Common questions for project managers",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom tunnel monitoring system on Kliv can be significantly faster than traditional software development. A functional prototype for basic monitoring might be ready in days, with advanced features implemented iteratively over weeks, depending on complexity.",
+          "question": "How quickly can I deploy a custom blasting and monitoring system?"
+        },
+        {
+          "answer": "Not necessarily. Kliv's platform allows you to describe your system requirements in natural language. While technical understanding of blasting operations is crucial for defining features, you don't need to be a programmer to build the application.",
+          "question": "Do I need a team of software developers to build this kind of specialized application?"
+        },
+        {
+          "answer": "Absolutely. Custom systems excel at integrating with specific hardware, legacy systems, and industry-standard tools like geological modeling software, CAD systems, or project management platforms via APIs.",
+          "question": "Can this system integrate with our existing geotechnical sensors and project management software?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and all data generated. This means complete control over intellectual property and data sovereignty, a key advantage over vendor-locked solutions.",
+          "question": "Who owns the intellectual property and data generated by the custom system?"
+        },
+        {
+          "answer": "For highly specialized applications like tunnel blasting, a custom solution can often be more cost-effective long-term. You invest once in a system perfectly tailored to your needs, avoiding recurring subscription fees for unused features and expensive customizations from vendors.",
+          "question": "Is building a custom solution more expensive than buying an off-the-shelf blasting software?"
+        },
+        {
+          "answer": "Yes, flexibility is a core benefit. As project requirements evolve, new regulations emerge, or new sensor technologies become available, you can easily modify, expand, or refine your application to adapt.",
+          "question": "Can the system be modified or expanded as our project needs or regulations change?"
+        },
+        {
+          "answer": "Custom-built applications can offer superior security. You define the security protocols, control data hosting, and implement access controls precisely tailored to your company's robust security policies, unlike relying on a third-party vendor's often generic security framework.",
+          "question": "How secure are custom-built applications compared to commercial off-the-shelf software?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to engineer safer, smarter tunnels?",
+      "type": "cta",
+      "content": "Take control of your underground projects. Build a precise, intelligent blasting and monitoring solution that keeps your operations on target and your team safe."
+    }
+  ],
+  "title": "Tunnel Blasting & Monitoring Platforms"
+}

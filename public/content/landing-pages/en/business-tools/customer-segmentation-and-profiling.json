@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a customer segmentation tool that uses purchase history and website behavior to identify distinct customer groups, and then generates detailed profiles for each segment.",
+  "description": "Build custom customer segmentation and profiling applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start profiling customers",
+    "subtitle": "Uncover deep customer insights and tailor your strategies with custom-built segmentation tools on Kliv's platform.",
+    "title": "Build your own customer segmentation and profiling tools"
+  },
+  "metaDescription": "Create powerful customer segmentation and profiling tools with Kliv. Understand your customers better, personalize marketing, and drive growth with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own customer segmentation tool?",
+      "type": "text",
+      "content": "In today's competitive landscape, generic customer approaches fall flat. To truly connect with your audience, you need to understand their unique behaviors, preferences, and needs. While many off-the-shelf CRM and marketing automation platforms offer some segmentation features, they often lack the depth, flexibility, and customizability required for truly actionable insights.\n\nBuilding your own customer segmentation and profiling tool empowers you to define segments based on criteria specific to your business, integrate with all your diverse data sources, and generate granular profiles that drive hyper-personalized strategies. With Kliv, this powerful capability is within your reach, without extensive coding or high recurring costs."
+    },
+    {
+      "title": "The strategic advantage of granular customer insights",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf segmentation\n\nMany businesses struggle with their customer understanding because they rely on pre-defined segmentation models or limited data connectors. This often leads to:\n\n- **Surface-level insights**: Inability to dig deep into customer behavior beyond basic demographics.\n- **Rigid definitions**: Segmentation criteria that don't perfectly align with unique business models or product offerings.\n- **Data silos**: Difficulty integrating customer data from various sources (CRM, website, purchase history, support tickets, social media).\n- **High recurring costs**: Paying for features you don't use while still missing critical capabilities.\n- **Lack of flexibility**: Inability to adapt segmentation logic as your business or market evolves.\n\n## Why custom-built is your competitive edge\n\nBy leveraging AI-powered development platforms like Kliv, businesses can create bespoke customer segmentation and profiling tools that overcome these challenges. Here's why tailoring your solution makes strategic sense:\n\n### Unparalleled data integration\nConnect all your disparate data sources—transactional, behavioral, demographic, social—to create a holistic view of each customer. Your custom tool can pull exactly the data points you need for precise segmentation.\n\n### Custom segmentation logic\nDefine segments based on *your* specific business rules, product lifecycle stages, customer lifetime value (CLTV), engagement levels, or any other unique criteria. Go beyond basic demographics to behavioral and psychographic segmentation.\n\n### Deep, actionable profiles\nGenerate comprehensive customer profiles for each segment, detailing their preferences, pain points, purchasing patterns, communication styles, and projected future value. These insights directly inform tailored marketing, product development, and sales strategies.\n\n### Owned intelligence, not rented\nWhen you build your own tool, the intellectual property and the refined customer insights remain yours. You control the analysis, the security, and the evolution of your customer intelligence.\n\n### Future-proof flexibility\nAs your business grows and market dynamics shift, your custom tool can evolve with you. Easily add new data sources, refine segmentation algorithms, or introduce new profiling metrics without vendor lock-in.\n\n## Transformative applications across industries\n\nCustom segmentation and profiling tools are not just for large enterprises. Businesses of all sizes are leveraging them to:\n\n**E-commerce**: Identify high-value shoppers, lapsed customers, or product loyalists to run hyper-targeted promotions and re-engagement campaigns.\n\n**SaaS/Tech**: Segment users by feature usage, subscription tier, and engagement level to optimize onboarding, reduce churn, and drive upsells.\n\n**Financial Services**: Profile clients based on financial behavior, risk tolerance, and life stages to offer personalized financial products and advice.\n\n**Healthcare**: Segment patients by health condition, treatment adherence, or preferred communication channels to improve patient outcomes and engagement.\n\n**Retail**: Understand in-store vs. online shopping habits, brand loyalty, and product affinities to optimize inventory, merchandising, and personalized recommendations.\n\n## The AI acceleration\n\nBuilding sophisticated data tools used to be a long, expensive process. Kliv's AI-driven approach significantly reduces this barrier:\n\n- **Natural language interface**: Describe desired segments and profiles in plain English.\n- **Automated data mapping**: AI assists in mapping and integrating disparate data sets.\n- **Predictive modeling**: Utilize AI to forecast future customer behavior and identify potential churn risks or upsell opportunities.\n- **Iterative development**: Rapidly prototype, test, and refine your segmentation models.\n\nStop guessing what your customers want. Start definitively knowing. With Kliv, you can build the precise customer intelligence system your business needs to thrive."
+    },
+    {
+      "title": "Customer segmentation ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Analyze purchasing habits and product preferences.",
+          "prompt": "Create a customer segmentation tool that groups customers based on their purchase frequency, average order value, and preferred product categories. Generate a profile for each segment including their top 3 purchase categories and next likely product interests.",
+          "title": "Purchase-behavior segmentation"
+        },
+        {
+          "description": "Segment users by their engagement with your digital platforms.",
+          "prompt": "Build a tool to segment users by their website activity (pages visited, time on site, bounce rate) and email engagement (open rates, click-through rates). Provide a profile for each segment detailing their engagement level and preferred content types.",
+          "title": "Website and email engagement analysis"
+        },
+        {
+          "description": "Identify customers at risk of leaving or those with high lifetime value.",
+          "prompt": "Develop a system that uses RFM (Recency, Frequency, Monetary) analysis to segment customers. For each segment, provide insights into their potential churn risk or their Customer Lifetime Value (CLTV), and suggest tailored re-engagement strategies.",
+          "title": "RFM and CLTV segmentation"
+        },
+        {
+          "description": "Group customers based on how they interact with your support channels.",
+          "prompt": "Design a segmentation tool that analyzes customer support ticket history, identifying segments based on common issues, channels used (chat, email, phone), and satisfaction scores. Generate profiles that highlight key pain points and optimal support approaches for each group.",
+          "title": "Customer support interaction analysis"
+        },
+        {
+          "description": "Understand how market segments respond to marketing campaigns.",
+          "prompt": "Create a tool to segment customers by their response to different marketing campaigns (e.g., promo codes, content downloads, event registrations). Detail engagement rates and conversion paths for each segment, identifying which campaign types resonate most.",
+          "title": "Marketing campaign responsiveness"
+        },
+        {
+          "description": "Profile B2B clients by industry, size, and adoption of your service.",
+          "prompt": "Build a B2B customer segmentation tool that groups companies by industry, company size, and product feature adoption. For each segment, create a profile that includes typical challenges, preferred communication channels, and potential upsell opportunities for other services.",
+          "title": "B2B client profiling"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your segmentation tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a predictive analytics module to forecast which customers are likely to churn in the next 30 days.",
+          "title": "Integrate churn prediction"
+        },
+        {
+          "prompt": "Implement a feature allowing users to dynamically adjust segmentation parameters and visualize the new segments in real-time.",
+          "title": "Add dynamic segment adjustment"
+        },
+        {
+          "prompt": "Develop a module that suggests personalized product recommendations for each customer segment based on their profile and past interactions.",
+          "title": "Incorporate product recommendations"
+        },
+        {
+          "prompt": "Enable direct integration with marketing automation platforms (e.g., Mailchimp, HubSpot) to export segmented customer lists for targeted campaigns.",
+          "title": "Connect to marketing platforms"
+        },
+        {
+          "prompt": "Create an automated reporting feature that generates weekly or monthly summaries of segment performance, changes, and key trends.",
+          "title": "Build automated reporting"
+        },
+        {
+          "prompt": "Add a visualization dashboard that displays customer segment sizes, growth rates, and key demographic/behavioral attributes.",
+          "title": "Develop a segment visualization dashboard"
+        },
+        {
+          "prompt": "Include sentiment analysis from customer reviews or social media data to enrich customer profiles with emotional insights.",
+          "title": "Add sentiment analysis"
+        },
+        {
+          "prompt": "Implement A/B testing capabilities for marketing campaigns directly within the tool, comparing segment responses.",
+          "title": "Integrate A/B testing"
+        },
+        {
+          "prompt": "Build an API endpoint to allow other internal systems (e.g., sales CRM, customer service software) to query customer segment data.",
+          "title": "Create API access for segments"
+        }
+      ]
+    },
+    {
+      "title": "Unlock key customer intelligence",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to diverse customer data sources (CRM, e-commerce, web analytics, social).",
+          "icon": "🔗",
+          "title": "Multi-source data integration"
+        },
+        {
+          "description": "Define custom rules and algorithms for precise customer grouping.",
+          "icon": "⚙️",
+          "title": "Customizable segmentation logic"
+        },
+        {
+          "description": "Generate rich, detailed profiles for each segment, highlighting key characteristics.",
+          "icon": "📝",
+          "title": "Automated profile generation"
+        },
+        {
+          "description": "Visualize segment sizes, trends, and attributes with interactive charts.",
+          "icon": "📊",
+          "title": "Intuitive analytics dashboard"
+        },
+        {
+          "description": "Identify customers at risk of churning or those with high future value.",
+          "icon": "🔮",
+          "title": "Predictive insights"
+        },
+        {
+          "description": "Create targeted customer lists for marketing, sales, or product development.",
+          "icon": "🎯",
+          "title": "Actionable segment exports"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "You can deploy a basic customer segmentation tool with Kliv in as little as a few hours. More complex systems with deep integrations and predictive models might take a few days to a week to fine-tune.",
+          "question": "How quickly can I build a customer segmentation tool?"
+        },
+        {
+          "answer": "Kliv's platform is designed for users without programming knowledge. You use natural language to describe the data you have and the types of segments and profiles you want to generate. The AI handles the underlying code.",
+          "question": "Is coding expertise required to build these tools?"
+        },
+        {
+          "answer": "Yes, your custom tool can connect to virtually any data source with an API or data export capability. This includes CRMs, e-commerce platforms, web analytics tools, marketing automation systems, and databases.",
+          "question": "Can I integrate data from all my existing customer systems?"
+        },
+        {
+          "answer": "You retain full ownership of your data, your custom application, and the insights generated. Kliv provides the platform to build and manage it, but the intellectual property is entirely yours.",
+          "question": "Who owns the customer data and insights generated by the tool?"
+        },
+        {
+          "answer": "Building a custom tool often results in significant long-term savings compared to recurring SaaS subscriptions. You invest once in building the solution perfectly tailored to your needs, avoiding ongoing fees for unused features.",
+          "question": "What's the cost comparison to off-the-shelf segmentation software?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are inherently flexible. As your business evolves, you can easily modify segmentation criteria, add new data sources, or introduce new profiling metrics within the Kliv platform.",
+          "question": "Can I modify the segmentation logic or add new data sources later?"
+        },
+        {
+          "answer": "You control the deployment environment, giving you direct control over security protocols and data residency. This often provides a higher level of security and compliance assurance than relying on a third-party SaaS vendor's infrastructure.",
+          "question": "How secure is a custom-built segmentation tool?"
+        },
+        {
+          "answer": "Kliv offers AI-guided assistance throughout the development process. You can refine your requests, troubleshoot issues, and optimize your tool with AI suggestions. For deeper support, Kliv's resources and community are available.",
+          "question": "What kind of support is available during development?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to truly know your customers?",
+      "type": "cta",
+      "content": "Stop generalizing and start personalizing. Build the custom customer segmentation and profiling solution that unlocks your business's true potential."
+    }
+  ],
+  "title": "Customer Segmentation & Profiling Tools"
+}

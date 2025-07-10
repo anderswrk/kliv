@@ -1,0 +1,175 @@
+{
+  "defaultPrompt": "Create a mortgage rate tracker that allows users to input loan details, get real-time rate updates, and receive alerts when rates hit a target.",
+  "description": "Build a custom mortgage rate tracker application with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start tracking rates",
+    "subtitle": "Provide your users with real-time insights and automated alerts for mortgage rates, tailored to their financial goals.",
+    "title": "Build your own mortgage rate tracker"
+  },
+  "metaDescription": "Create powerful mortgage rate tracking tools with Kliv. Empower users with real-time data, trend analysis, and personalized alerts to secure the best rates.",
+  "sections": [
+    {
+      "title": "Why a custom mortgage rate tracker?",
+      "type": "text",
+      "content": "The home financing landscape is constantly shifting, with mortgage rates fluctuating daily. Off-the-shelf solutions often provide generic data, lack deep integration, or come with hefty subscription fees. Building your own mortgage rate tracker means you can offer highly personalized, data-driven insights directly relevant to your specific audience—be they real estate agents, loan officers, or individual home buyers. Kliv empowers you to create a precise tool that stands out in a crowded market."
+    },
+    {
+      "title": "The strategic advantage of tailored rate tracking",
+      "type": "markdown",
+      "content": "## The limitations of public data and generic tools\n\nMost financial websites offer basic mortgage rate comparisons, but they often fall short for users needing granular, actionable data. These generic tools typically:\n\n- **Lack personalization**: They don't account for specific borrower profiles, credit scores, or down payments.\n- **Offer static data**: Rates change constantly, and generic tools might not provide true real-time updates.\n- **Miss key integrations**: The inability to link with other financial data or CRM systems limits their utility.\n- **Incur recurring high costs**: Licensing generic software can become a significant cumulative expense.\n\n## Why custom-built is the intelligent choice\n\nDeveloping a bespoke mortgage rate tracker with Kliv’s AI-powered platform offers unique benefits:\n\n### Hyper-personalized rate insights\nDesign a system that allows users to input their specific financial situation (e.g., credit score, loan amount, property type, location) to receive highly accurate and relevant rate quotes. This level of customization builds trust and provides genuine value.\n\n### Real-time data advantage\nIntegrate with multiple data sources to provide the most up-to-the-minute rate information, giving your users a competitive edge in decision-making. No more relying on outdated averages.\n\n### Seamless integration opportunities\nConnect your tracker directly with your internal CRM, lead generation systems, or even other financial calculators. This creates a powerful ecosystem that streamlines operations and enhances user experience.\n\n### Cost-effectiveness and ownership\nUnlike perpetual SaaS subscriptions, building a custom tool is a one-time development investment. You own the software, control its evolution, and eliminate ongoing licensing fees.\n\n### Brand alignment and control\nYour custom tracker will reflect your brand identity, user experience preferences, and specific methodologies. This reinforces your market position and differentiates your offering.\n\n## Transformative applications\n\nCustom mortgage rate trackers can revolutionize various financial services:\n\n**For Loan Officers**: A personalized dashboard showing specific rates for their clientele, with automated alerts for rate changes relevant to their current pipeline.\n\n**For Real Estate Professionals**: A tool that quickly provides current mortgage estimates to potential buyers based on property type and neighborhood, enhancing buyer consultations.\n\n**For Financial Advisors**: A robust system to monitor mortgage market trends and advise clients on refinancing opportunities or new home purchases based on favorable rate shifts.\n\n**For Developers / Fintech Startups**: A core product offering that can be rapidly iterated and integrated into a broader financial planning suite, providing a competitive edge.\n\n## AI makes it accessible\n\nBuilding sophisticated financial tools used to demand extensive coding expertise. Kliv's AI platform democratizes this process:\n\n- **Natural language prompts**: Describe the features and data sources you need, and the AI assists in building the structure.\n- **Accelerated development**: Go from concept to deployment in days, not months, drastically reducing time to market.\n- **Intelligent data handling**: AI can help structure data connections and ensure accuracy in financial calculations.\n- **Scalable architecture**: Build a robust, scalable application ready for growth and increased user demand.\n\nInvest in a tailored solution that empowers your users with precise, timely mortgage rate information, giving them the confidence to make critical financial decisions."
+    },
+    {
+      "title": "Mortgage rate tracker ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Notify users when rates drop to a predefined threshold for refinancing.",
+          "prompt": "Create an application that tracks 30-year fixed mortgage rates, allowing users to set a target rate. When the rate drops to or below that target, send an email alert to the user.",
+          "title": "Refinance alert system"
+        },
+        {
+          "description": "Provide a daily summary of local mortgage rate trends with historical context.",
+          "prompt": "Build a daily mortgage rate report accessible via a web portal. Include average rates for 15-year fixed, 30-year fixed, and 5/1 ARM, and show their change from the previous day and the past week, broken down by major metropolitan area.",
+          "title": "Regional rate trend reporter"
+        },
+        {
+          "description": "Enable loan officers to monitor specific client rate lock opportunities.",
+          "prompt": "Develop a dashboard for mortgage loan officers that displays real-time rates for various loan types (FHA, VA, Conventional), allows them to input specific client credit scores and loan amounts, and alerts them when a client's pre-approved rate becomes available or improves.",
+          "title": "Loan officer client rate dashboard"
+        },
+        {
+          "description": "Help users compare live rates based on custom loan scenarios.",
+          "prompt": "Create a public-facing tool where users can input their desired loan amount, down payment percentage, credit score range, and zip code to receive customized, real-time mortgage rate quotes from multiple hypothetical lenders.",
+          "title": "Personalized rate comparison tool"
+        },
+        {
+          "description": "Track commercial property loan rates and related financial benchmarks.",
+          "prompt": "Build a tracker for commercial mortgage rates (e.g., for office buildings or multifamily properties), including associated benchmarks like LIBOR or SOFR, providing weekly updates and historical data visualization.",
+          "title": "Commercial mortgage rate analyzer"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your tracker",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a personalized debt-to-income (DTI) calculator based on user-provided financial data.",
+          "title": "Add DTI calculator"
+        },
+        {
+          "prompt": "Implement a feature that analyzes a user's credit profile and suggests ways to improve their credit score for better rates.",
+          "title": "Credit score improvement suggestions"
+        },
+        {
+          "prompt": "Add a feature that allows users to simulate how different interest rates would impact their monthly mortgage payments and total interest paid.",
+          "title": "Mortgage payment simulator"
+        },
+        {
+          "prompt": "Enable users to subscribe to daily or weekly email newsletters summarizing current mortgage rate trends and market commentary.",
+          "title": "Email newsletter subscription"
+        },
+        {
+          "prompt": "Incorporate a secure document upload portal where users can submit necessary financial documents for pre-qualification or application.",
+          "title": "Secure document upload"
+        },
+        {
+          "prompt": "Add functionality to send SMS notifications for critical rate changes or new loan offers.",
+          "title": "SMS alerts for rate drops"
+        },
+        {
+          "prompt": "Integrate with mapping services to show average mortgage rates by specific geographic regions or neighborhoods.",
+          "title": "Geographic rate mapping"
+        },
+        {
+          "prompt": "Build a CRM integration feature so loan officers can push promising leads directly into their sales pipeline from the rate tracker.",
+          "title": "CRM integration for leads"
+        },
+        {
+          "prompt": "Develop a feature to compare mortgage rates with other investment vehicles, helping users decide between paying down a mortgage or investing.",
+          "title": "Mortgage vs. investment analysis"
+        }
+      ]
+    },
+    {
+      "title": "Core tracking capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Access current mortgage rates in real time from diverse data sources.",
+          "icon": "📈",
+          "title": "Real-time rate feeds"
+        },
+        {
+          "description": "Users receive automated alerts for rate changes, specific targets, or market shifts.",
+          "icon": "🔔",
+          "title": "Customizable alerts"
+        },
+        {
+          "description": "Track and visualize historical rate data to identify trends and patterns.",
+          "icon": "📊",
+          "title": "Historical data analysis"
+        },
+        {
+          "description": "Allow users to input specific loan parameters for tailored rate quotes.",
+          "icon": "👤",
+          "title": "Personalized rate scenarios"
+        },
+        {
+          "description": "Connect with external APIs for additional financial data or lead management.",
+          "icon": "🔗",
+          "title": "Robust API integrations"
+        },
+        {
+          "description": "Generate comprehensive reports and visual dashboards of rate movements.",
+          "icon": "📑",
+          "title": "Reporting & analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional mortgage rate tracker with Kliv's AI can take as little as a few hours for a basic version, and a few days to a week for a more complex application with multiple integrations and advanced features.",
+          "question": "How quickly can I build a mortgage rate tracker?"
+        },
+        {
+          "answer": "No prior coding knowledge is required. Kliv's platform allows you to describe your desired system using natural language, and the AI assists in generating the underlying code and structure.",
+          "question": "Do I need to be a developer to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various financial data providers, public rate APIs, or your existing CRM and marketing automation platforms. Kliv helps facilitate these connections.",
+          "question": "Can my tracker connect to financial data sources and other platforms?"
+        },
+        {
+          "answer": "When you build with Kliv, you completely own the intellectual property of your custom application. Your data, logic, and user information remain yours.",
+          "question": "Who owns the intellectual property and data of the tracker?"
+        },
+        {
+          "answer": "A custom-built tracker typically offers a better long-term ROI. While there's an initial development cost, it eliminates recurring subscription fees common with off-the-shelf software, leading to significant savings over time.",
+          "question": "Is building a custom tracker more cost-effective than buying a ready-made solution?"
+        },
+        {
+          "answer": "Absolutely. One of the primary benefits of building with Kliv is the flexibility. You can continuously add new features, adjust algorithms, or scale the application as market conditions or user demands evolve.",
+          "question": "Can I modify or expand the tracker after it's initially built?"
+        },
+        {
+          "answer": "Kliv provides tools to help you implement robust security measures, including data encryption, access controls, and compliance features, ensuring your financial application meets industry security standards.",
+          "question": "How secure will my custom financial application be?"
+        },
+        {
+          "answer": "Kliv offers AI-powered assistance throughout the development process, including debugging and optimization suggestions. For advanced needs, you can easily integrate third-party developer support.",
+          "question": "What kind of support is available if I encounter technical issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your smart mortgage rate tracker?",
+      "type": "cta",
+      "content": "Stop relying on generic data. Empower your users with precise, real-time mortgage insights tailored exactly to their needs."
+    }
+  ],
+  "title": "Mortgage Rate Tracker"
+}

@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "Create an AI-powered technical interview practice platform that simulates real-world coding interviews, offers instant feedback on code, and provides personalized improvement suggestions.",
+  "description": "Build an AI-powered technical interview practice application with Kliv. Master your coding skills, get instant feedback, and ace your next technical interview.",
+  "hero": {
+    "cta": "Start practicing",
+    "subtitle": "Practice technical interviews with AI. Get instant feedback on your code and communication, and personalize your learning path to success.",
+    "title": "Your AI Technical Interview Coach"
+  },
+  "metaDescription": "Create powerful AI-powered technical interview practice tools with Kliv. Simulate interviews, receive real-time code feedback, and get tailored advice to improve your performance.",
+  "sections": [
+    {
+      "title": "The gap in technical interview preparation",
+      "type": "text",
+      "content": "Preparing for technical interviews is a grueling process. Generic platforms offer static problems, and human mock interviews are expensive and infrequent. The real challenge isn't just solving problems, but doing so under pressure, explaining your thought process, and handling curveballs.\n\nTraditional methods often fall short in providing real-time, objective feedback on not just the correctness of your code, but also its efficiency, your communication style, and your problem-solving approach. This is where a custom AI-powered solution built on Kliv can revolutionize technical interview preparation, offering a dynamic, personalized, and always-available coaching experience."
+    },
+    {
+      "title": "Why build your own AI interview practice platform?",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf solutions\n\nExisting technical interview platforms and services, while useful, often present significant drawbacks:\n\n-   **Generic feedback**: Most platforms only check for correct output, not the nuance of your solution, efficiency, or thought process.\n-   **Lack of realism**: Static problems don't simulate the interactive, spontaneous nature of a live interview.\n-   **High cost of human coaches**: Personalized human coaching is effective but expensive and not always available on demand.\n-   **Limited scope**: Often focused solely on coding, ignoring system design, behavioral questions, and communication skills.\n-   **Data privacy concerns**: Your performance data, code, and weaknesses might be used by third parties.\n\n## The power of a custom AI platform\n\nBuilding your own AI-powered technical interview practice tool through Kliv offers unparalleled advantages:\n\n### Hyper-personalized learning\nAn AI coach can learn from your strengths and weaknesses, tailoring problems and feedback specifically to areas where you need to improve, unlike a one-size-fits-all approach.\n\n### Real-time, comprehensive feedback\nReceive instant analysis on your code's correctness, efficiency, style, and even a critique of your verbal explanations and problem-solving strategy, all powered by AI.\n\n### Authentic interview simulation\nDesign your platform to simulate realistic interview scenarios, including follow-up questions, time constraints, and even a 'mock interviewer' AI to interact with.\n\n### Cost-effective & unlimited practice\nOnce built, your application provides unlimited practice sessions without recurring subscription fees or scheduling limitations of human coaches.\n\n### Data ownership & privacy\nKeep all your practice data, performance metrics, and sensitive information private and secure within your own application.\n\n## Real-world impact & examples\n\nImagine the impact of a dedicated AI interview coach:\n\n-   **For job seekers**: Access to unlimited, high-quality practice that adapts to their needs, boosting confidence and performance.\n-   **For educators/bootcamps**: Provide a cutting-edge resource for students, enhancing their market readiness for technical roles.\n-   **For corporate training**: Help upskill current employees for internal promotions or new technical challenges with bespoke training modules.\n\n## The Kliv advantage in building an AI coach\n\nDeveloping such a sophisticated system traditionally requires significant programming expertise and AI knowledge. Kliv democratizes this process:\n\n-   **Natural language development**: Simply describe the features and behaviors you want for your AI coach.\n-   **Interactive prototyping**: See your interview simulations and feedback mechanisms come to life rapidly.\n-   **AI model integration**: Seamlessly incorporate advanced AI models for code analysis, natural language understanding, and personalized feedback.\n-   **Scalability**: Build a system that can handle individual users or an entire cohort of students.\n\nInvesting in a custom AI technical interview practice tool isn't just about preparing for an interview; it's about building a robust, intelligent learning system that provides an unfair advantage in a competitive job market."
+    },
+    {
+      "title": "Interview practice ideas to get started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Practice data structure and algorithm problems with automated grading.",
+          "prompt": "Create an application that generates random coding challenges (e.g., array manipulations, linked lists), allows users to write code in an IDE, and provides instant feedback on correctness and time/space complexity.",
+          "title": "Algorithm & Data Structure Drills"
+        },
+        {
+          "description": "Simulate whiteboard coding and communication skills during an interview.",
+          "prompt": "Build an AI system that presents a technical problem, records user's verbal explanation and approach, and then provides feedback on communication clarity, problem-solving strategy, and code efficiency.",
+          "title": "Interactive Whiteboard Interview Prep"
+        },
+        {
+          "description": "Get feedback on system design solutions from a virtual architect.",
+          "prompt": "Develop a platform that poses system design questions (e.g., 'Design Twitter Scale'), allows users to describe their architecture, and an AI analyzes the design for scalability, reliability, and correctness.",
+          "title": "System Design Simulator with AI Critic"
+        },
+        {
+          "description": "Practice answering common behavioral and leadership questions.",
+          "prompt": "Design an AI interviewer that asks behavioral questions ('Tell me about a time you failed'), listens to user responses, and offers feedback on structure, relevance, and impact.",
+          "title": "Behavioral Interview Coach"
+        },
+        {
+          "description": "Focus on domain-specific technical questions for various roles.",
+          "prompt": "Create a practice tool that focuses on specific tech stacks (e.g., React front-end, Python backend, AWS DevOps) and generates role-specific coding and conceptual questions with detailed AI explanations.",
+          "title": "Role-Specific Technical Q&A"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your practice tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for users to track their progress, including score history, time spent on problems, and areas of improvement visualized over time.",
+          "title": "Progress Tracking Dashboard"
+        },
+        {
+          "prompt": "Integrate a natural language processing module to critically evaluate user explanations verbally given during problem-solving sessions.",
+          "title": "Verbal Explanation Analysis"
+        },
+        {
+          "prompt": "Implement a feature that generates personalized practice plans based on a user's past performance and identified weaknesses.",
+          "title": "Personalized Study Plans"
+        },
+        {
+          "prompt": "Allow users to record their video and audio responses during mock interviews, and have the AI provide feedback on presentation skills and clarity.",
+          "title": "Video Interview Simulation"
+        },
+        {
+          "prompt": "Add a module that explains the optimal solution for a problem after the user attempts it, breaking it down step-by-step with code examples.",
+          "title": "Optimal Solution Explanations"
+        },
+        {
+          "prompt": "Incorporate a peer review system where users can review each other's code and explanations, moderated by AI to ensure quality feedback.",
+          "title": "Peer Review Functionality"
+        },
+        {
+          "prompt": "Expand the questions database to include specific FAANG-style interview questions and case studies.",
+          "title": "FAANG-style Questions Database"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your AI coach",
+      "type": "features",
+      "items": [
+        {
+          "description": "Instantly analyze submitted code for correctness, efficiency, and style, providing detailed, actionable feedback.",
+          "icon": "📝",
+          "title": "Real-time Code Evaluation"
+        },
+        {
+          "description": "Generate dynamic interview questions and follow-ups based on user input and performance.",
+          "icon": "💬",
+          "title": "AI Interviewer Simulation"
+        },
+        {
+          "description": "Offer tailored practice problems and study recommendations based on individual strengths and weaknesses.",
+          "icon": "🧠",
+          "title": "Personalized Learning Path"
+        },
+        {
+          "description": "Support various programming languages and technical domains (e.g., web dev, mobile, data science).",
+          "icon": "💻",
+          "title": "Multi-language & Domain Support"
+        },
+        {
+          "description": "Provide a virtual coding environment where users can write, test, and debug their solutions.",
+          "icon": "✍️",
+          "title": "Integrated Code Editor"
+        },
+        {
+          "description": "Track user progress, performance metrics, and improvement areas over time through intuitive dashboards.",
+          "icon": "📈",
+          "title": "Performance Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom AI technical interview practice tool can range from a few days for a basic version to several weeks for a highly sophisticated, feature-rich platform. Kliv’s AI-assist vastly accelerates this timeline compared to traditional development.",
+          "question": "How long will it take to build a comprehensive AI interview practice application?"
+        },
+        {
+          "answer": "No, extensive coding experience is not required. Kliv uses AI to interpret your natural language descriptions and build the application's components, making it accessible to non-developers.",
+          "question": "Do I need to be a coding expert to create this type of application on Kliv?"
+        },
+        {
+          "answer": "Your custom AI coach can be designed to interface with various external services through APIs, such as integrated development environments (IDEs), specific coding challenge databases, or even calendar scheduling for mock interviews.",
+          "question": "Can my custom AI interview tool integrate with other services or platforms?"
+        },
+        {
+          "answer": "Yes, your data and the AI models you train are entirely yours. You maintain full control over intellectual property, ensuring privacy and customization beyond what off-the-shelf solutions offer.",
+          "question": "What about data privacy and ownership of the content and AI models I build?"
+        },
+        {
+          "answer": "While there's an initial investment in building, a custom Kliv application typically becomes significantly more cost-effective in the long run than recurring subscription fees for commercial platforms, especially for high-volume usage or educational institutions.",
+          "question": "How does the cost compare to subscribing to existing AI interview prep services?"
+        },
+        {
+          "answer": "Absolutely. The beauty of a custom application lies in its flexibility. You can easily add new question types, integrate advanced AI feedback mechanisms, or update content as interview trends evolve.",
+          "question": "Can I update or add new features to my AI practice tool after it's launched?"
+        },
+        {
+          "answer": "Yes, you can deploy your application to various environments, including cloud hosting providers, ensuring it's accessible to your users on demand. Kliv provides guidance and tools for deployment.",
+          "question": "Will my AI interview platform be scalable and deployable to a large user base?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate technical interview prep tool?",
+      "type": "cta",
+      "content": "Stop settling for generic practice. Create an AI coach that truly understands and adapts to your unique learning needs, helping you secure your dream job."
+    }
+  ],
+  "title": "AI-Powered Technical Interview Practice"
+}

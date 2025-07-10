@@ -1,0 +1,171 @@
+{
+  "defaultPrompt": "I want to create a rental booking calculator and management tool for my vacation property business. It needs to calculate dynamic pricing based on dates, group sizes, and special events, manage availability, process bookings, and generate invoices automatically.",
+  "description": "Customizable rental and booking calculator applications tailored to your business needs.",
+  "hero": {
+    "cta": "Build your calculator",
+    "subtitle": "Develop powerful, custom rental and booking calculation tools with Kliv to streamline operations and maximize revenue.",
+    "title": "Build your own rental & booking calculator"
+  },
+  "metaDescription": "Create custom rental and booking calculators with Kliv's AI platform. Perfect for vacation rentals, equipment hire, event spaces, and more. Integrate dynamic pricing, availability, and instant quotes.",
+  "sections": [
+    {
+      "title": "Why build a custom rental & booking calculator?",
+      "type": "text",
+      "content": "Off-the-shelf rental calculator and booking systems often come with rigid features, high recurring costs, and a one-size-fits-all approach that rarely fits your unique business. Whether you manage vacation rentals, equipment hire, or event spaces, your operation has specific nuances that generic software can't address.\n\nBuilding a custom tool with Kliv means you get exactly what you need: a powerful application that optimizes your pricing, manages availability seamlessly, and provides instant, accurate quotes, all without monthly fees or vendor lock-in. It's about empowering your business with precision and control."
+    },
+    {
+      "title": "The case for tailored rental solutions",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nMany businesses discover that pre-built rental and booking calculators, while convenient upfront, often fall short:\n\n- **Infexible pricing models**: Struggle to implement dynamic pricing, seasonal adjustments, or complex discount rules.\n- **Limited customization**: Cannot adapt to unique inventory types, custom booking flows, or specific branding.\n- **Integration headaches**: Difficulty connecting with your existing CRM, accounting software, or marketing tools.\n- **Recurring subscription costs**: Monthly or annual fees that eat into your profits, regardless of usage.\n- **Data control issues**: Your valuable business data resides on third-party servers, raising privacy and security concerns.\n\n## Why a custom-built solution excels\n\nKliv transforms the way businesses approach their software needs, making custom development accessible and efficient. Here’s why building your own calculator is a game-changer:\n\n### Precision pricing\nImplement highly sophisticated pricing algorithms that factor in demand, seasonality, duration, specific dates, add-ons, and even customer loyalty. Achieve maximum revenue optimization by quoting exactly what your services are worth.\n\n### Seamless availability management\nDevelop a real-time availability system that prevents double-bookings, manages turnaround times, and links directly to your public booking interface. Complete control over your inventory at all times.\n\n### Enhanced customer experience\nProvide instant, accurate quotes directly on your website or through a dedicated portal. This transparency builds trust and accelerates the booking process for your customers.\n\n### Full data ownership & security\nYour customer data, booking history, and pricing logic are yours and hosted on your chosen infrastructure, ensuring maximum privacy and compliance.\n\n### Significant cost savings\nEliminate ongoing subscription fees. A custom tool built with Kliv is a one-time investment that delivers long-term value, with potential for exponential ROI as your business scales.\n\n## Real-world applications of custom calculators\n\nCustom rental and booking calculators can transform various business models:\n\n**Vacation Rentals**: A calculator that dynamically prices properties based on peak seasons, local events, length of stay, number of guests, and available amenities.\n\n**Equipment Rental**: A tool that quotes machinery rentals based on hours of use, delivery distance, maintenance packages, and required certifications.\n\n**Event Venue Booking**: A system that calculates venue costs based on attendee count, room configuration, catering choices, A/V equipment needs, and specific event dates.\n\n**Vehicle Hire**: A calculator that factors in mileage limits, insurance options, pickup/drop-off locations, and vehicle type for a comprehensive quote.\n\n**Service Appointments**: A booking platform that calculates service costs based on technician availability, service complexity, duration, and customer location.\n\n## The Kliv advantage for building custom tools\n\nKliv’s AI-powered platform makes custom development faster and more intuitive than ever before:\n\n- **Natural Language Input**: Describe your calculator's logic in plain English.\n- **Rapid Prototyping**: See your calculation rules and interface come to life quickly.\n- **Intelligent Refinement**: AI helps optimize your pricing models and user flows.\n- **Integrated Features**: Seamlessly add booking calendars, payment gateways, and CRM hooks.\n\nStop adapting your business to limiting software. Start building a rental and booking calculator that is perfectly aligned with your market, your services, and your success. Kliv provides the power; you provide the vision."
+    },
+    {
+      "title": "Rental & booking calculator ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Dynamic pricing for short-term property rentals",
+          "prompt": "Create a vacation rental calculator that takes check-in/check-out dates, number of adults/children, and optional add-ons like pet fee or cleaning service, and calculates a total price factoring in seasonal rates and discounts for longer stays. Include an availability calendar.",
+          "title": "Vacation Property Quote Generator"
+        },
+        {
+          "description": "Calculate costs for event space booking",
+          "prompt": "Build an event venue booking calculator where users select a date, time slot, expected number of guests, and choose from different room layouts or packages. It should calculate total cost including A/V equipment rental and catering options, showing real-time availability.",
+          "title": "Event Space Booking & Quote"
+        },
+        {
+          "description": "Quote system for construction equipment hire",
+          "prompt": "Develop an equipment rental calculator for construction tools. Users select equipment type, rental duration (daily/weekly/monthly), optional insurance, and delivery distance. It should handle minimum rental periods and offer maintenance packages.",
+          "title": "Construction Equipment Rental"
+        },
+        {
+          "description": "Calculate expenses for unique travel experiences",
+          "prompt": "Design a personalized travel package calculator. Users input destination, number of days, activity preferences (e.g., adventure, relaxation), and accommodation type. The tool should generate a custom itinerary with a total estimated cost, integrating third-party flight data.",
+          "title": "Custom Travel Package Builder"
+        },
+        {
+          "description": "Pricing for specialized services based on complexity",
+          "prompt": "Create a service quote calculator for a consulting firm. Clients select service categories (e.g., marketing strategy, IT audit), project complexity (low, medium, high), and estimated project duration. It should provide an instant quote based on hourly rates and project scope, allowing for custom notes.",
+          "title": "Consulting Service Quote"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your calculator tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a payment gateway integration (e.g., Stripe, PayPal) so customers can pay directly after receiving a quote.",
+          "title": "Integrate secure payments"
+        },
+        {
+          "prompt": "Implement a user authentication system with user roles, allowing administrators to manage inventory and pricing, and customers to view their booking history.",
+          "title": "Add user accounts & roles"
+        },
+        {
+          "prompt": "Connect the calculator to an external calendar (e.g., Google Calendar, Outlook) to automatically update availability and block out booked slots.",
+          "title": "Sync with external calendars"
+        },
+        {
+          "prompt": "Build a CRM module to store customer information, track booking history, and manage communication logs.",
+          "title": "Add customer management"
+        },
+        {
+          "prompt": "Create custom reports and analytics dashboards to track popular rental items, busiest booking periods, and revenue trends.",
+          "title": "Develop reporting & analytics"
+        },
+        {
+          "prompt": "Add a feature for sending automated booking confirmations, reminders, and follow-up emails to customers after their rental period.",
+          "title": "Automate communications"
+        },
+        {
+          "prompt": "Implement multi-currency support and allow users to select their preferred currency for quotes and payments.",
+          "title": "Enable multi-currency"
+        },
+        {
+          "prompt": "Develop a mobile-responsive design for the calculator and booking interface, ensuring a smooth experience on all devices.",
+          "title": "Optimize for mobile"
+        },
+        {
+          "prompt": "Integrate SMS notifications for urgent booking alerts or last-minute changes.",
+          "title": "Add SMS notifications"
+        }
+      ]
+    },
+    {
+      "title": "Key calculator features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Set up complex pricing rules based on dates, duration, quantity, and custom variables.",
+          "icon": "💰",
+          "title": "Dynamic Pricing Engine"
+        },
+        {
+          "description": "Real-time updates to reflect what's available and prevent overbooking.",
+          "icon": "🗓️",
+          "title": "Availability Management"
+        },
+        {
+          "description": "Generate professional invoices and receipts automatically upon booking confirmation.",
+          "icon": "📄",
+          "title": "Automated Invoicing"
+        },
+        {
+          "description": "Offer custom add-ons, services, or packages that impact the final quote.",
+          "icon": "➕",
+          "title": "Configurable Add-ons"
+        },
+        {
+          "description": "Seamlessly connect with payment gateways, CRM, or accounting software.",
+          "icon": "🔗",
+          "title": "API Integrations"
+        },
+        {
+          "description": "Securely store customer, inventory, and booking data in your own controlled database.",
+          "icon": "🔒",
+          "title": "Secure Data Storage"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional minimum viable product (MVP) for a rental calculator can take just a few hours or days with Kliv's platform. More complex systems with advanced integrations might take a few weeks to fully develop and refine.",
+          "question": "How long does it take to build a custom rental calculator?"
+        },
+        {
+          "answer": "No, you don't need coding expertise. Kliv's AI allows you to describe your calculator's logic and features using natural language, and it generates the underlying code. You define the rules, and the AI builds the application.",
+          "question": "Is coding knowledge required to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with almost any third-party service that offers an API. This includes popular payment gateways (Stripe, PayPal), CRM systems (Salesforce), marketing tools, and calendar services (Google Calendar).",
+          "question": "Can my custom calculator integrate with existing tools like payment gateways or CRMs?"
+        },
+        {
+          "answer": "You retain full ownership of the custom application and all its data. You can host it on your preferred server or cloud provider, giving you complete control over security, privacy, and future modifications.",
+          "question": "Who owns the calculator application and its data after it's built?"
+        },
+        {
+          "answer": "While there's an initial investment in building the custom tool, you eliminate recurring subscription fees typical of SaaS solutions. Over time, particularly as your business scales, a custom-built solution generally offers significant cost savings and a higher return on investment.",
+          "question": "How does the cost compare to off-the-shelf rental software?"
+        },
+        {
+          "answer": "Absolutely. Custom-built tools offer unparalleled flexibility. You can easily add new pricing rules, integrate new features, adjust tax calculations, or modify the user interface as your business needs evolve, without relying on vendor updates.",
+          "question": "Can I modify or expand the calculator after it's developed?"
+        },
+        {
+          "answer": "Yes. When you build with Kliv, you have control over security measures and data hosting. This often allows for a more secure setup tailored to your specific compliance requirements than relying on a third-party vendor's security protocols.",
+          "question": "Are custom rental calculators secure?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to optimize your rentals and bookings?",
+      "type": "cta",
+      "content": "Stop overpaying for generic solutions and start building a calculator that pays for itself. Precision, control, and profitability await with a custom-built application."
+    }
+  ],
+  "title": "Rental & Booking Calculator"
+}

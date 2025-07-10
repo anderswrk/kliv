@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create an AI-powered interview preparation tool that offers mock interviews, personalized feedback, and practice questions for various job roles.",
+  "description": "Build custom AI-powered interview preparation and practice applications with Kliv's platform.",
+  "hero": {
+    "cta": "Start practicing with AI",
+    "subtitle": "Develop personalized interview preparation platforms with AI, offering mock interviews, tailored feedback, and role-specific questions.",
+    "title": "Build your own AI Interview Prep Tool"
+  },
+  "metaDescription": "Create powerful interview preparation tools with Kliv. Offer personalized mock interviews, instant feedback, and targeted practice to help users ace their job interviews.",
+  "sections": [
+    {
+      "title": "Why build your own Interview Prep Tool?",
+      "type": "text",
+      "content": "In today's competitive job market, effective interview preparation is crucial. While generic online resources exist, they often lack the personalized, iterative feedback that truly hones a candidate's skills. Building your own AI-driven interview prep tool allows you to offer a unique, highly effective solution tailored to specific industries, roles, or candidate needs.\n\nOff-the-shelf interview practice tools can be rigid, expensive, and don't allow for real innovation. With Kliv, you can design an application that directly addresses market gaps, incorporates sophisticated AI models, and provides an unparalleled user experience, giving you full control over its features, data, and business model."
+    },
+    {
+      "title": "The case for custom AI-powered Interview Preparation",
+      "type": "markdown",
+      "content": "## The limitations of current solutions\n\nExisting interview preparation platforms often fall short by:\n\n- **Lacking personalization**: Generic questions and feedback that don't adapt to the user's progress or specific job requirements.\n- **Limited feedback**: Relying on self-assessment or basic scoring, rather than in-depth analytical insights.\n- **High cost**: Subscription models that become prohibitive for extended practice or specialized needs.\n- **Generic content**: Not offering deep dives into niche roles or behavioral interview nuances.\n- **No real-time interaction**: Failing to simulate the dynamic nature of a live interview scenario.\n\n## Why a custom solution stands out\n\nLeveraging Kliv's AI platform for your interview preparation tool offers distinct advantages:\n\n### Hyper-personalized practice\nTailor practice sessions to specific job descriptions, industries, or even company cultures. AI can adapt question difficulty and focus areas based on a user's performance, providing a truly adaptive learning experience.\n\n### Advanced feedback mechanisms\nGo beyond simple scores. AI can analyze tone, pace, vocabulary, body language (via webcam), and provide detailed, actionable feedback on both content and delivery.\n\n### Specialized role simulations\nDevelop modules for technical interviews, case studies, behavioral questions, executive roles, or even specific company interview styles. This level of specificity is rarely found in generic tools.\n\n### Own your intellectual property\nBuilding with Kliv means you own the application, the algorithms (that you define), and the user data (with proper consent). This ensures long-term value and avoids vendor lock-in.\n\n### One-time cost vs. recurring subscriptions\nInvest upfront in a product you own and can iterate on indefinitely, rather than perpetual subscription fees and feature limitations.\n\n## Real-world applications of custom interview prep tools\n\nCustom AI interview tools can revolutionize how people prepare:\n\n**University career services**: A white-labeled platform for students to practice interviews specific to their majors and target industries, integrated with the university's career resources.\n\n**Recruitment agencies**: A tool to quickly assess and improve candidates' interview skills before submitting them to clients, ensuring higher success rates.\n\n**Corporate L&D**: An internal platform for employees to practice for promotions, leadership roles, or specific internal project interviews, maintaining consistency in evaluation.\n\n**Specialized bootcamps**: For coding, data science, or design bootcamps, a tool offering mock interviews with questions directly relevant to the skills taught and typical roles sought by graduates.\n\n## The AI development advantage\n\nKliv transforms the development process for complex AI applications:\n\n- **Natural language prompts**: Describe the features you envision in plain English; AI assists in bringing them to life.\n- **Rapid prototyping**: Turn an idea for a new practice module into a functional component in days.\n- **Built-in AI models**: Access state-of-the-art NLP, speech-to-text, and potentially vision models to power sophisticated feedback.\n- **Scalable architecture**: Design an application that can handle hundreds or thousands of concurrent users as your audience grows.\n\nThe best interview preparation tool is one that evolves with the job market and the needs of its users. By building your own with Kliv, you're not just creating a tool; you're building a highly adaptable and powerful asset."
+    },
+    {
+      "title": "Interview prep ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Practice common behavioral questions with AI feedback.",
+          "prompt": "Create an interview practice tool that focuses on behavioral questions (e.g., 'Tell me about a time you faced a challenge'). The AI should listen to responses, identify STAR method elements, and provide feedback on structure and relevance.",
+          "title": "Behavioral Interview Simulator"
+        },
+        {
+          "description": "Simulate technical coding interviews with real-time feedback.",
+          "prompt": "Build a technical interview platform for software engineers. It should present coding challenges, allow users to write code, and provide automated feedback on code correctness, efficiency, and common pitfalls, along with verbal feedback on their thought process.",
+          "title": "Technical Coding Interview Prep"
+        },
+        {
+          "description": "Prepare for case study interviews with step-by-step guidance.",
+          "prompt": "Develop a case study interview simulator for consulting roles. The tool should present a business case, guide the user through problem structuring, analysis, and recommendations, and provide AI feedback on their approach and logical reasoning.",
+          "title": "Consulting Case Interview Coach"
+        },
+        {
+          "description": "Master product management interview questions.",
+          "prompt": "Design an interview tool specifically for product management roles. It should include product design questions, technical questions, and strategic thinking scenarios, with AI evaluating the user's frameworks and assumptions.",
+          "title": "Product Management Interview Practice"
+        },
+        {
+          "description": "Practice interviews for specific industries like healthcare or finance.",
+          "prompt": "Create an industry-specific interview preparation tool for healthcare administration roles. It should include common questions, ethical scenarios, and industry terminology, providing feedback on both content accuracy and professional communication.",
+          "title": "Industry-Specific Interview Prep"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your interview prep tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature that allows users to record their responses via webcam and receive AI analysis on body language, eye contact, and facial expressions.",
+          "title": "Video Response Analysis"
+        },
+        {
+          "prompt": "Integrate a speech-to-text engine to transcribe user responses and provide detailed feedback on filler words, speech pace, and clarity.",
+          "title": "Speech Analysis and Transcriptions"
+        },
+        {
+          "prompt": "Implement a progress tracking dashboard that visualizes user improvement over time, showing scores, common errors, and areas of strength.",
+          "title": "Personalized Progress Dashboard"
+        },
+        {
+          "prompt": "Add a module that suggests pre-interview research tasks based on a specific company or role, prompting users to prepare targeted questions.",
+          "title": "Company Research Integration"
+        },
+        {
+          "prompt": "Develop a feature allowing users to create custom interview scenarios or upload job descriptions for hyper-personalized practice sessions.",
+          "title": "Custom Scenario Builder"
+        },
+        {
+          "prompt": "Include modules for practicing non-verbal communication, such as active listening exercises or appropriate gesture usage.",
+          "title": "Non-Verbal Communication Training"
+        },
+        {
+          "prompt": "Build a peer review system where users can share anonymized mock interview recordings with others for additional feedback.",
+          "title": "Community Peer Review"
+        }
+      ]
+    },
+    {
+      "title": "Essential Interview Prep Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "AI-driven and customizable mock interview sessions for various roles.",
+          "icon": "🤖",
+          "title": "AI Mock Interviews"
+        },
+        {
+          "description": "Instant, detailed feedback on content, delivery, and communication style.",
+          "icon": "💡",
+          "title": "Intelligent Feedback"
+        },
+        {
+          "description": "A diverse library of questions for different industries and job functions.",
+          "icon": "📚",
+          "title": "Extensive Question Bank"
+        },
+        {
+          "description": "Personalized learning paths adapting to user performance and goals.",
+          "icon": "📈",
+          "title": "Adaptive Learning Paths"
+        },
+        {
+          "description": "Record and review practice sessions for self-assessment.",
+          "icon": "🎥",
+          "title": "Recording & Playback"
+        },
+        {
+          "description": "Track progress, identify strengths, and target areas for improvement.",
+          "icon": "📊",
+          "title": "Performance Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "You can launch a functional MVP (Minimum Viable Product) of an interview prep tool in a matter of days or weeks with Kliv, depending on the complexity of AI features. Full-featured, polished applications might take a few months.",
+          "question": "How quickly can I build and launch an interview preparation tool?"
+        },
+        {
+          "answer": "No deep coding expertise is needed. Kliv's platform is designed for intuitive development, allowing you to focus on the application's logic and user experience rather than intricate coding. You define the features, and AI assists in the technical implementation.",
+          "question": "Do I need to be an experienced developer to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, your tool can integrate with various AI models (e.g., for NLP, speech analysis, sentiment analysis) and external APIs (e.g., job boards, HR systems) to enhance functionality and data flow.",
+          "question": "Can my custom tool integrate with other AI services or external platforms?"
+        },
+        {
+          "answer": "Absolutely. You maintain complete ownership of your application's code, data, and intellectual property. Kliv provides the platform for creation, but your application is entirely yours to control and monetize.",
+          "question": "Who owns the interview questions and feedback models I create?"
+        },
+        {
+          "answer": "Building a custom tool offers a significant long-term cost advantage. While there's an initial development investment, you avoid recurring subscription fees common with off-the-shelf solutions, saving money over time as your user base grows.",
+          "question": "Is building my own tool more cost-effective than using existing platforms?"
+        },
+        {
+          "answer": "Yes, scalability is a core advantage. Your custom application can be designed to accommodate a growing number of users and increasing data loads without significant architectural changes, unlike pre-built tools that may have user limits or tiered pricing.",
+          "question": "Can the tool handle a large number of users or complex data?"
+        },
+        {
+          "answer": "Kliv adheres to high security standards, and since you own the application, you have direct control over data storage, encryption, and privacy protocols, allowing you to meet specific compliance requirements (e.g., GDPR, CCPA).",
+          "question": "How secure are the applications built on Kliv, especially with sensitive user data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize interview practice?",
+      "type": "cta",
+      "content": "Stop relying on generic tools. Build a truly impactful, AI-powered interview preparation platform that stands out and genuinely helps people succeed."
+    }
+  ],
+  "title": "AI Interview Preparation & Practice Tools"
+}

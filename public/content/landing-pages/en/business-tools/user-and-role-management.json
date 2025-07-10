@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a user and role management system that allows administrators to create users, assign roles with specific permissions, and manage access to different parts of an application.",
+  "description": "Build custom user and role management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start managing access",
+    "subtitle": "Securely manage user access and permissions with tailored applications built on Kliv's AI platform.",
+    "title": "Build Your Own User & Role Management System"
+  },
+  "metaDescription": "Create powerful user and role management tools with Kliv. Control access, define permissions, and secure your applications with custom-built user systems.",
+  "sections": [
+    {
+      "title": "Why build a custom user and role management solution?",
+      "type": "text",
+      "content": "In today's interconnected digital landscape, controlling who accesses what within your applications is paramount. Generic solutions often fall short, forcing you to compromise on granularity, integration, or cost. Building a custom User and Role Management (URM) application ensures your security protocols perfectly align with your business logic.\n\nOff-the-shelf URM systems might offer basic functionality, but they rarely cater to the unique hierarchies, permission structures, or compliance requirements of every organization. With Kliv, you can design a URM that integrates seamlessly with your existing infrastructure, offers precise control, and evolves with your business without recurring costs."
+    },
+    {
+      "title": "The case for custom access control",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\n\nMany businesses struggle with inadequate user and role management due to:\n\n- **Inflexible permission models:** Standard tools often lack the nuanced control needed for complex organizational structures.\n- **Integration headaches:** Difficulty connecting to existing applications, databases, or single sign-on (SSO) providers.\n- **Vendor lock-in and high costs:** Recurring subscription fees for features you may not fully utilize, with limited options for customization.\n- **Security vulnerabilities:** A one-size-fits-all approach can leave gaps specific to your unique operational environment.\n- **Lack of audit trails:** Insufficient logging for compliance and security monitoring.\n\n## Why a custom-built solution excels\n\nBuilding your own URM system with Kliv offers unparalleled advantages:\n\n### Granular control and flexibility\nDefine roles and permissions down to the minutest detail, aligning access precisely with job functions and responsibilities. Implement complex hierarchies, multi-level approvals, and dynamic access rules that off-the-shelf solutions can't.\n\n### Seamless integration\nDesign a system that natively connects with your specific applications, internal tools, and data sources. This eliminates data silos and streamlines user provisioning across your entire ecosystem.\n\n### Cost-effectiveness\nAvoid ongoing subscription fees. A custom development means a one-time investment that delivers long-term value, especially as your user base or feature requirements grow.\n\n### Enhanced security and compliance\nBy owning the system, you maintain complete control over security protocols, data residency, and audit logging. Tailor your URM to meet specific industry regulations (e.g., GDPR, HIPAA) with ease.\n\n### Scalability and adaptability\nAs your business evolves, your custom URM system can too. Add new roles, permissions, or authentication methods without being bound by a vendor's roadmap or pricing structure.\n\n## Real-world applications\n\nCustom URM systems are vital across various sectors:\n\n**SaaS Platforms**: Manage different tiers of user access (e.g., basic, premium, admin) and feature availability for subscribers.\n\n**Internal Business Tools**: Control which departments or employees can access sensitive financial data, HR records, or project management modules.\n\n**Healthcare Systems**: Ensure HIPAA compliance by restricting patient record access based on roles (doctors, nurses, administrative staff) and specific patient assignments.\n\n**Education Portals**: Differentiate student, teacher, and administrator access to courses, grades, and school resources.\n\n### The AI advantage\n\nKliv leverages AI to make custom URM development accessible to everyone:\n\n- **Rapid prototyping**: Turn complex access logic into functional applications quickly.\n- **Automated code generation**: AI assists in building secure and efficient user management components.\n- **Intelligent security recommendations**: Get AI-driven insights for robust authentication and authorization.\n\nWith Kliv's AI-powered platform, you can quickly build the precise URM solution your business needs, ensuring security, compliance, and operational efficiency."
+    },
+    {
+      "title": "User and role management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create distinct user roles with specific app permissions",
+          "prompt": "Build a user management system allowing me to define roles like 'Admin', 'Editor', and 'Viewer', each with specific access rights to different sections of my content management system.",
+          "title": "Content Management System Access"
+        },
+        {
+          "description": "Enforce data access based on customer ID",
+          "prompt": "Develop an application that allows me to manage customer accounts, ensuring each customer can only view and modify their own data, and sales reps can only see customers assigned to them.",
+          "title": "Customer Portal Access Control"
+        },
+        {
+          "description": "Control employee access to HR modules",
+          "prompt": "I need an HR portal with roles for 'Employee', 'Manager', and 'HR Administrator'. Employees should only see their own data, Managers their direct reports, and HR Admins everything.",
+          "title": "Internal HR System Permissions"
+        },
+        {
+          "description": "Manage student and faculty access to courses",
+          "prompt": "Create an education platform where 'Students' can view subscribed courses, 'Teachers' can manage their own courses and grades, and 'Admins' have full control.",
+          "title": "University Learning Platform"
+        },
+        {
+          "description": "Control feature access for different SaaS tiers",
+          "prompt": "Build a system to manage user subscriptions for a SaaS product. Users on the 'Standard' plan have limited features, while 'Premium' users get full functionality, and 'Admins' can manage all subscriptions.",
+          "title": "SaaS Subscription Access"
+        },
+        {
+          "description": "Define product team access to development tools",
+          "prompt": "Design a development tool access system where 'Developers' can commit code, 'QA Testers' can only run tests, and 'Product Managers' can create tickets but not code.",
+          "title": "DevOps Tool Permissions"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your access control tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now, add multi-factor authentication (MFA) using OTP via email or an authenticator app.",
+          "title": "Implement MFA"
+        },
+        {
+          "prompt": "Integrate with an existing LDAP or Active Directory for user synchronization and authentication.",
+          "title": "Add LDAP/AD Integration"
+        },
+        {
+          "prompt": "Create a detailed audit log that tracks all user logins, role changes, and permission modifications.",
+          "title": "Build Audit Trails"
+        },
+        {
+          "prompt": "Include a self-service password reset functionality with email verification.",
+          "title": "Enable Self-Service Password Reset"
+        },
+        {
+          "prompt": "Add a feature for role-based dashboards, showing different information based on the user's assigned role.",
+          "title": "Create Role-Based Dashboards"
+        },
+        {
+          "prompt": "Allow for time-based access restrictions, so certain roles or users can only access the system during specific hours.",
+          "title": "Add Time-Based Access"
+        },
+        {
+          "prompt": "Develop an API for external applications to query user roles and permissions programmatically.",
+          "title": "Expose API for Access Queries"
+        },
+        {
+          "prompt": "Implement a feature for temporary role assignment or permission elevation for specific tasks.",
+          "title": "Add Temporary Permissions"
+        },
+        {
+          "prompt": "Integrate with a single sign-on (SSO) provider like Okta or Google for centralized authentication.",
+          "title": "Integrate SSO"
+        }
+      ]
+    },
+    {
+      "title": "Essential access management features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define and manage various roles (e.g., Admin, User, Editor) with custom permissions.",
+          "icon": "🎭",
+          "title": "Custom Role Definitions"
+        },
+        {
+          "description": "Assign specific access rights to different features, modules, or data points.",
+          "icon": "🔑",
+          "title": "Granular Permissions"
+        },
+        {
+          "description": "Securely manage user accounts, including creation, modification, and deactivation.",
+          "icon": "👤",
+          "title": "User Account Management"
+        },
+        {
+          "description": "Establish clear hierarchical relationships between roles for inherited permissions.",
+          "icon": "🔗",
+          "title": "Role Hierarchies"
+        },
+        {
+          "description": "Track all user activities, access attempts, and permission changes for auditing.",
+          "icon": "📜",
+          "title": "Activity Logging"
+        },
+        {
+          "description": "Integrate with existing authentication methods like email/password, social logins, or corporate directories.",
+          "icon": "🤝",
+          "title": "Flexible Authentication"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's AI-powered platform significantly accelerates development. A robust URM system can often be built and deployed in days or weeks, depending on complexity, compared to months with traditional development.",
+          "question": "How long does it take to build a custom URM system with Kliv?"
+        },
+        {
+          "answer": "No, you don't need to be a coding expert. Kliv's intuitive interface and AI assistance allow you to describe your requirements in natural language, and the platform generates the underlying code for you.",
+          "question": "Do I need programming skills to create a URM application?"
+        },
+        {
+          "answer": "Yes, custom URM systems built with Kliv are highly adaptable. They can integrate with virtually any existing application that offers an API, including common business tools, legacy systems, and custom software.",
+          "question": "Can the custom URM system integrate with my existing applications?"
+        },
+        {
+          "answer": "You retain full ownership of the application, including the code and data. This means you have complete control over its deployment, modifications, and long-term maintenance, without vendor lock-in.",
+          "question": "Who owns the URM system and its data after it's built?"
+        },
+        {
+          "answer": "While there's an initial development investment, you avoid ongoing subscription fees that accumulate significantly over time with SaaS URM solutions. For businesses with specific or evolving needs, a custom system often proves more cost-effective in the long run.",
+          "question": "How does the cost compare to off-the-shelf URM solutions?"
+        },
+        {
+          "answer": "Absolutely. Custom systems offer unparalleled flexibility to adapt as your organization grows. You can add new roles, modify permissions, implement new authentication methods, or integrate with new systems as your needs change.",
+          "question": "Can the URM system be modified or expanded after initial development?"
+        },
+        {
+          "answer": "A custom URM system built with best practices on Kliv can be inherently more secure. You control the hosting, security configurations, and can implement specific industry compliance requirements without relying on a third-party's security framework.",
+          "question": "Is a custom URM system more secure than a generic one?"
+        },
+        {
+          "answer": "Kliv provides comprehensive tools for ongoing management and updates. The platform is designed for maintainability, and you can easily make changes or add features as needed, often without developer assistance.",
+          "question": "What about maintenance and updates after the system is deployed?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your custom user and role management system?",
+      "type": "cta",
+      "content": "Take full control of your application access and security. Build a URM solution that perfectly fits your unique requirements with Kliv's AI-powered platform."
+    }
+  ],
+  "title": "User & Role Management Systems"
+}

@@ -1,0 +1,182 @@
+{
+  "defaultPrompt": "I want to create a secure file sharing application that allows users to upload, encrypt, and share files with specific recipients, track access, and set expiry dates.",
+  "description": "Develop custom, secure file sharing applications tailored to your specific compliance and security needs with Kliv.",
+  "hero": {
+    "cta": "Build your secure sharing app",
+    "subtitle": "Create custom, compliant, and highly secure file sharing applications that protect your sensitive data and workflows.",
+    "title": "Build your own secure file sharing applications"
+  },
+  "metaDescription": "Create powerful, custom secure file sharing tools with Kliv. Ensure data privacy, control access, and meet compliance requirements with self-built solutions.",
+  "sections": [
+    {
+      "title": "The growing need for secure, custom file sharing",
+      "type": "text",
+      "content": "In today's interconnected business world, sharing files is a daily necessity. However, generic cloud storage and consumer-grade sharing tools often fall short when it comes to enterprise-level security, compliance, and granular control. Businesses need solutions that can handle sensitive data, meet regulatory requirements (like HIPAA, GDPR, ISO 27001), and integrate seamlessly with existing infrastructure.\n\nWhile off-the-shelf secure file transfer solutions exist, they frequently come with rigid feature sets, vendor lock-in, and steep recurring costs. Building your own allows for unparalleled customization, data sovereignty, and a precise fit for your unique security protocols."
+    },
+    {
+      "title": "Why custom secure file sharing is critical",
+      "type": "markdown",
+      "content": "## The limitations of generic file sharing\n\nMany organizations rely on standard cloud drives or email attachments for file sharing. These methods, while convenient, introduce significant risks:\n\n- **Lack of granular control**: Difficulty managing who sees what and for how long.\n- **Compliance nightmares**: Struggling to meet industry-specific regulations like HIPAA, GDPR, or PCI DSS.\n- **Data sovereignty concerns**: Data might reside in regions with different legal frameworks.\n- **Integration hurdles**: Poor compatibility with internal systems, leading to manual workflows.\n- **Security vulnerabilities**: Generic tools are often targets for cyber attacks; custom solutions can be hardened and tailored.\n- **Subscription costs**: Monthly fees add up, especially for large teams or extensive storage needs.\n\n## The unmatched benefits of a custom solution\n\nLeveraging Kliv's platform to build your own secure file sharing application offers distinct advantages:\n\n### Uncompromised security and privacy\nYou define the encryption protocols, access controls, and data residency. Your sensitive information is protected exactly how you need it to be, with end-to-end encryption and robust authentication mechanisms.\n\n### Regulatory compliance by design\nTailor your application to meet specific industry regulations from the ground up. Implement audit trails, data retention policies, and access logs that prove compliance effortlessly.\n\n### Complete control and ownership\nUnlike SaaS solutions, you own the application, the data, and the underlying code. This means no vendor lock-in, full control over features, and the ability to adapt as your business evolves.\n\n### Seamless integration with existing systems\nBuild APIs and connectors that link your secure sharing tool directly with your CRM, ERP, HR systems, or internal databases, automating workflows and reducing manual data entry.\n\n### Cost-efficiency over time\nWhile there's an initial development investment, a custom solution built with Kliv eliminates recurring subscription fees, making it a more economical choice in the long run.\n\n### Enhanced user experience\nDesign an interface and workflow that perfectly matches your users' needs, reducing friction and improving adoption rates compared to clunky, feature-overloaded off-the-shelf products.\n\n## Real-world applications\n\nCustom secure file sharing tools are indispensable across various sectors:\n\n**Healthcare**: Securely sharing patient records between departments, clinics, and specialists while ensuring HIPAA compliance.\n\n**Legal**: Exchanging confidential legal documents, case files, and privileged information with clients and opposing counsel.\n\n**Finance**: Distributing sensitive financial reports, audit documents, and investment portfolios to stakeholders under strict security policies.\n\n**Manufacturing**: Sharing proprietary designs, intellectual property, and supply chain data with partners under non-disclosure agreements.\n\n**Government**: Handling classified documents and inter-agency communications with precise access controls and audit trails.\n\n## The Kliv advantage for building secure systems\n\nKliv uses AI to accelerate the development of complex applications, including those with stringent security requirements:\n\n- **Focus on logic, not code**: Describe your security rules and sharing flows in plain language.\n- **Automated security best practices**: AI helps implement encryption, access control, and auditing features.\n- **Rapid iteration**: Quickly prototype and test different security models and sharing workflows.\n- **Scalable architecture**: Build solutions that can grow with your data and user base while maintaining performance and security.\n\nBuilding your own secure file sharing application is no longer an insurmountable technical challenge. With Kliv, you can create a system that truly protects your assets and empowers your workflows."
+    },
+    {
+      "title": "Secure file sharing ideas to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Share HIPAA-compliant patient data securely with external partners.",
+          "prompt": "Create a secure patient data sharing portal for medical professionals that ensures HIPAA compliance, requires two-factor authentication, and automatically encrypts all files before transfer. Implement an audit log for every access and download.",
+          "title": "Medical records exchange"
+        },
+        {
+          "description": "Distribute confidential financial reports with granular access.",
+          "prompt": "Build an application for financial firms to securely share quarterly reports and investment analyses with clients. Include features for watermarking documents, setting view-only access, and revoking access remotely.",
+          "title": "Confidential financial reporting"
+        },
+        {
+          "description": "Collaborate on legal documents with version control.",
+          "prompt": "Develop a secure legal document collaboration platform for law firms to share case files with external counsel. Incorporate version control, encrypted real-time commenting, and immutable audit trails.",
+          "title": "Legal document exchange"
+        },
+        {
+          "description": "Securely transfer large design files between teams.",
+          "prompt": "Design a system for engineering firms to securely transfer large CAD files and schematics to manufacturing partners. It must support resumable transfers, checksum verification, and recipient-specific download limits.",
+          "title": "Engineering design file transfer"
+        },
+        {
+          "description": "Onboard new employees with secure access to sensitive HR documents.",
+          "prompt": "Create an HR document sharing system for new employee onboarding that securely distributes contracts, policies, and benefits information. Ensure documents are encrypted at rest and in transit, and allow for digital signatures.",
+          "title": "HR document onboarding portal"
+        },
+        {
+          "description": "Manage secure software release delivery to partners.",
+          "prompt": "Build a secure software distribution platform for developers to deliver release builds and patches to partners. Include features for digital signing of files, integrity checking upon download, and automated vulnerability scanning of uploaded packages.",
+          "title": "Secure software distribution"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your secure sharing app",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now add multi-factor authentication (MFA) options including TOTP and biometric integration to enhance login security.",
+          "title": "Implement MFA options"
+        },
+        {
+          "prompt": "Add a comprehensive audit logging and reporting module that tracks file access, downloads, uploads, and sharing events, allowing for easy generation of compliance reports.",
+          "title": "Integrate advanced audit logging"
+        },
+        {
+          "prompt": "Develop an integration with single sign-on (SSO) providers like Okta or Azure AD for seamless enterprise authentication.",
+          "title": "Add SSO integration"
+        },
+        {
+          "prompt": "Include a feature for automatic virus and malware scanning of all uploaded files before they are made available for download.",
+          "title": "Embed anti-malware scanning"
+        },
+        {
+          "prompt": "Allow administrators to remotely revoke access to individual files or entire folders, even after they have been shared, and automatically delete shared content after a set expiry period.",
+          "title": "Add remote access revocation & expiry"
+        },
+        {
+          "prompt": "Build real-time notification system for file uploads, downloads, and access attempts, configurable by users and administrators.",
+          "title": "Create custom notification alerts"
+        },
+        {
+          "prompt": "Implement watermarking for shared documents, applying dynamic watermarks with user and timestamp information to prevent unauthorized distribution.",
+          "title": "Add dynamic watermarking"
+        },
+        {
+          "prompt": "Develop a full version control system for files, allowing users to track changes, revert to previous versions, and comment on revisions.",
+          "title": "Include file version control"
+        }
+      ]
+    },
+    {
+      "title": "Key features of secure file sharing applications",
+      "type": "features",
+      "items": [
+        {
+          "description": "Ensure data protection at rest and in transit with strong encryption standards.",
+          "icon": "🔒",
+          "title": "End-to-end encryption"
+        },
+        {
+          "description": "Define who can access, view, edit, or download files with precise permissions.",
+          "icon": "🔑",
+          "title": "Granular access control"
+        },
+        {
+          "description": "Maintain immutable records of all file activities for compliance and oversight.",
+          "icon": "📜",
+          "title": "Comprehensive audit trails"
+        },
+        {
+          "description": "Authenticates users with multiple verification steps for enhanced security.",
+          "icon": "📱",
+          "title": "Multi-factor authentication"
+        },
+        {
+          "description": "Set automatic expiration dates for shared links and files, ensuring temporary access.",
+          "icon": "⏲️",
+          "title": "Time-limited access & expiry"
+        },
+        {
+          "description": "Seamlessly connect with your existing directory services and business applications.",
+          "icon": "🤝",
+          "title": "Integrations & APIs"
+        },
+        {
+          "description": "Guarantee data residency and sovereignty by hosting data in specified geographic regions.",
+          "icon": "📍",
+          "title": "Data residency controls"
+        },
+        {
+          "description": "Automatically scan uploaded files for malware and viruses to prevent threats.",
+          "icon": "🛡️",
+          "title": "Integrated security scanning"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building secure file sharing tools with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform provides the flexibility to build secure applications from scratch. This means you specify encryption methods, data storage location, access controls, and compliance features, giving you higher control over security than most off-the-shelf solutions.",
+          "question": "How secure is an application built with Kliv compared to commercial options?"
+        },
+        {
+          "answer": "No, extensive coding is not required. Kliv’s AI-powered development environment allows you to describe your security requirements and features in natural language, and the platform assists in generating the underlying code and infrastructure.",
+          "question": "Do I need to be a cybersecurity expert or a professional developer to build a secure file sharing app?"
+        },
+        {
+          "answer": "Yes, you can integrate your custom-built application with existing systems like Active Directory, Okta, CRM platforms, and even legacy systems via APIs. Kliv helps you generate the necessary integration points.",
+          "question": "Can the custom file sharing application integrate with my current IT infrastructure and authentication systems?"
+        },
+        {
+          "answer": "The development duration depends on complexity, but with Kliv, a basic secure sharing prototype can be operational in days, and a full-featured application within weeks. This is significantly faster than traditional development cycles.",
+          "question": "What is the typical timeframe for developing a custom secure file sharing solution?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its data, and the source code. Kliv facilitates the building process, but the intellectual property remains yours, allowing for complete control over modifications and deployment.",
+          "question": "Who owns the intellectual property of the application once it’s built using Kliv?"
+        },
+        {
+          "answer": "You determine the hosting environment. You can deploy your custom application on your preferred cloud provider (AWS, Azure, Google Cloud), on-premise, or leverage Kliv’s secure deployment options, ensuring data residency and compliance requirements are met.",
+          "question": "Where will the data and the application be hosted?"
+        },
+        {
+          "answer": "Yes, custom solutions are inherently more adaptable. As regulations or your business security needs evolve, you can easily modify, update, and add new features to your application without being tied to a vendor's product roadmap or update schedule.",
+          "question": "Can the application be easily updated or modified to adapt to new security threats or compliance mandates?"
+        }
+      ]
+    },
+    {
+      "title": "Protect your data with a tailor-made sharing solution",
+      "type": "cta",
+      "content": "Stop compromising on security and control. Build a secure file sharing application that perfectly aligns with your organizational needs and compliance standards."
+    }
+  ],
+  "title": "Secure File Sharing Applications"
+}

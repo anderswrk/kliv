@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create an ad performance tracking and reporting tool that consolidates data from multiple ad platforms like Google Ads, Facebook Ads, and LinkedIn Ads, provides real-time dashboards, and generates custom reports.",
+  "description": "Unlock deeper insights into your advertising spend and performance with custom-built tracking and reporting tools.",
+  "hero": {
+    "cta": "Start tracking now",
+    "subtitle": "Gain complete control and unparalleled insights over your ad campaigns with bespoke performance tracking and reporting solutions built on Kliv's AI platform.",
+    "title": "Build your own ad performance tracking & reporting tools"
+  },
+  "metaDescription": "Create powerful, custom ad performance tracking and reporting tools with Kliv. Consolidate data, visualize insights, and optimize campaigns to maximize your ROI.",
+  "sections": [
+    {
+      "title": "Why build a custom ad performance tracker?",
+      "type": "text",
+      "content": "In today's competitive digital landscape, understanding your advertising performance is paramount. Off-the-shelf reporting tools often fall short, offering generic dashboards and limited customization. They force you to adapt your needs to their features, rather than the other way around. \n\nBuilding your own ad performance tracking and reporting tool empowers you with complete control, allowing you to integrate precisely with your existing data sources, define metrics that matter most to your business, and visualize data in a way that truly drives actionable insights. With AI-powered platforms like Kliv, this level of customization is no longer reserved for large enterprises with massive development budgets."
+    },
+    {
+      "title": "The strategic advantage of tailored ad reporting",
+      "type": "markdown",
+      "content": "## The frustration with generic reporting solutions\n\nMany marketers and agencies grapple with the limitations of standard ad platform interfaces and generic analytics tools. These often lead to:\n\n-   **Data Silos**: Information scattered across Google Ads, Facebook, LinkedIn, TikTok, and other platforms, making a holistic view impossible.\n-   **Limited Customization**: Inability to create specific metrics, combine data points, or tailor reports to particular stakeholders (e.g., sales, executives).\n-   **Manual Reporting**: Tedious, time-consuming manual aggregation and manipulation of data in spreadsheets.\n-   **Delayed Insights**: Reports are often static and historical, lacking real-time visibility into campaign fluctuations.\n-   **Costly Subscriptions**: Paying recurring fees for features you don't use, or locked into restrictive data limits.\n\n## Why a custom solution is a game-changer\n\nLeveraging AI-driven development to build your own ad performance tool offers profound advantages:\n\n### Unified Data View\nPull data from all your ad channels into one central hub. No more switching tabs or exporting CSVs. See your entire media spend and performance at a glance.\n\n### Hyper-Customizable Metrics\nDefine exactly what constitutes a 'Conversion' or 'ROI' for your business. Calculate custom blended metrics (e.g., 'Cost per Qualified Lead' across all channels) that off-the-shelf tools can't support.\n\n### Actionable Real-time Dashboards\nBuild dynamic dashboards that update in real-time, allowing you to react quickly to campaign performance shifts. Spot trends, identify underperforming ads, and capitalize on opportunities instantly.\n\n### Automated & Tailored Reports\nGenerate scheduled reports automatically, customized for different audiences – be it a high-level executive summary, a detailed campaign manager report, or a client-facing performance overview.\n\n### Cost Efficiency & Ownership\nEliminate recurring SaaS subscriptions. A custom solution with Kliv is a one-time effort that puts you in control of the underlying data and logic, allowing for infinite scalability and future modifications without vendor lock-in.\n\n## Real-world impact\n\nCustom ad tracking tools can transform how businesses manage their marketing: \n\n**E-commerce**: Track product-level ad profitability across Google Shopping and Facebook Dynamic Ads, identifying top-performing product categories by ad spend and revenue.\n\n**SaaS Companies**: Correlate ad spend directly with sign-ups, free-to-paid conversions, and customer lifetime value (LTV) from various acquisition channels.\n\n**Marketing Agencies**: Provide white-labeled, branded client dashboards that automatically update with performance data, showcasing ROI and campaign effectiveness transparently.\n\n**Lead Generation**: Optimize campaigns based on lead quality metrics (e.g., 'Cost per Qualified Appointment') rather than just 'Cost per Lead'."
+    },
+    {
+      "title": "Ad reporting ideas to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Consolidate spend & performance from all primary ad platforms",
+          "prompt": "Create an ad dashboard that pulls daily spend, impressions, clicks, conversions, and conversion value from Google Ads, Facebook Ads, and LinkedIn Ads, displaying them in a single, aggregated view.",
+          "title": "Unified Multi-Channel Ad Dashboard"
+        },
+        {
+          "description": "Report on ROI and CPA with custom conversion definitions",
+          "prompt": "Build a reporting tool that calculates true Return on Ad Spend (ROAS) and Cost Per Acquisition (CPA) by integrating ad platform data with CRM sales data, allowing for custom attribution models.",
+          "title": "Custom ROI & CPA Calculator"
+        },
+        {
+          "description": "Optimize budget allocation based on real-time performance",
+          "prompt": "Develop an automated budget pacing and optimization tool that constantly monitors performance against daily/monthly targets for each ad platform and suggests budget shifts or alerts if campaigns are off track.",
+          "title": "Real-time Budget Pacing Monitor"
+        },
+        {
+          "description": "Show clients custom branded reports automatically",
+          "prompt": "I need a client reporting portal that automatically generates white-labeled, scheduled performance reports (daily, weekly, monthly) for different clients, showing key metrics and trends for their respective campaigns.",
+          "title": "Automated Client Reporting Portal"
+        },
+        {
+          "description": "Visualise performance trends and anomalies",
+          "prompt": "Design a system that tracks ad performance over time, identifies significant deviations from historical averages or set benchmarks, and sends alerts for sudden spikes or drops in key metrics.",
+          "title": "Performance Anomaly Detector"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your ad reporting tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add the ability to compare current performance against previous periods (e.g., week-over-week, month-over-month) directly on the dashboard.",
+          "title": "Historical Comparison Features"
+        },
+        {
+          "prompt": "Integrate data from Google Analytics and other web analytics platforms to show post-click user behavior alongside ad performance.",
+          "title": "Web Analytics Integration"
+        },
+        {
+          "prompt": "Implement a predictive analytics module that forecasts future ad performance based on current trends and historical data.",
+          "title": "Predictive Performance Forecasting"
+        },
+        {
+          "prompt": "Add user authentication and role-based access control so different team members or clients see only relevant data.",
+          "title": "User Permissions & Client Access"
+        },
+        {
+          "prompt": "Build an alert system that triggers email or Slack notifications when specific KPIs deviate beyond a set threshold (e.g., CPM spikes, conversions drop).",
+          "title": "Automated Anomaly Alerts"
+        },
+        {
+          "prompt": "Allow users to create custom segments for campaign data (e.g., by geography, device, audience type) and apply them to all reports.",
+          "title": "Advanced Data Segmentation"
+        },
+        {
+          "prompt": "Add capabilities to directly push optimization recommendations (e.g., bid adjustments, budget changes) back to ad platforms via API.",
+          "title": "Bid & Budget Optimization Engine"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to all major ad platforms (Google Ads, Facebook Ads, LinkedIn Ads, etc.) to pull comprehensive data.",
+          "icon": "🔗",
+          "title": "Multi-Platform Integration"
+        },
+        {
+          "description": "Design interactive dashboards with customizable widgets and real-time data updates.",
+          "icon": "📈",
+          "title": "Dynamic Dashboards"
+        },
+        {
+          "description": "Define and track any custom metric relevant to your business, beyond standard ad platform KPIs.",
+          "icon": "🔬",
+          "title": "Custom Metric Definitions"
+        },
+        {
+          "description": "Generate automated, scheduled reports in various formats (PDF, CSV) with branding and specific data views.",
+          "icon": "📧",
+          "title": "Automated Reporting"
+        },
+        {
+          "description": "Visualize data with a variety of charts and graphs for clearer insights into performance trends and patterns.",
+          "icon": "📊",
+          "title": "Advanced Data Visualization"
+        },
+        {
+          "description": "Set up alerts based on performance thresholds to immediately notify you of critical changes.",
+          "icon": "🔔",
+          "title": "Performance Alerts"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic ad performance tracking tool with core integrations can take just hours or a couple of days using Kliv's AI platform. The complexity and number of integrations will determine the total time, but it's significantly faster than traditional development.",
+          "question": "How quickly can I build an ad reporting tool myself?"
+        },
+        {
+          "answer": "No, you don't need to be a developer. Kliv's platform allows you to describe your desired features and integrations in plain language. The AI assists in translating your requirements into a functional application.",
+          "question": "Do I need technical skills or coding knowledge for this?"
+        },
+        {
+          "answer": "Yes, your custom tool can connect to any ad platform or data source that offers an API. This includes Google Ads, Facebook Ads, LinkedIn Ads, TikTok Ads, CRMs (Salesforce, HubSpot), Google Analytics, and more.",
+          "question": "Can I integrate data from all my current ad platforms and CRMs?"
+        },
+        {
+          "answer": "Unlike SaaS solutions with recurring monthly fees, building with Kliv is typically a one-time upfront effort. Over time, this often proves significantly more cost-effective, especially as your data volume or integration needs grow.",
+          "question": "How does the cost compare to existing ad reporting software?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and all the data. Kliv provides the platform for building, but the resulting tool and its intellectual property belong to you entirely.",
+          "question": "Who owns the data and the custom application I build?"
+        },
+        {
+          "answer": "Yes, the beauty of a custom solution is its flexibility. You can add new integrations, modify dashboards, create new report types, and adapt it as your advertising strategy or business needs evolve.",
+          "question": "Can I easily add new features or integrations later?"
+        },
+        {
+          "answer": "Custom tools built on Kliv can be highly secure as you control the hosting environment and data access policies. You're not reliant on a third-party vendor's security practices, giving you more direct control over sensitive ad and sales performance data.",
+          "question": "How secure is a custom-built solution for sensitive ad performance data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your ad performance?",
+      "type": "cta",
+      "content": "Stop guessing and start optimizing with precision. Build the exact ad intelligence platform your business needs."
+    }
+  ],
+  "title": "Ad Performance Tracking & Reporting Tools"
+}

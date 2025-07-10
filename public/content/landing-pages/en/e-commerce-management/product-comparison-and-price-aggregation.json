@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I need a tool that aggregates product data and prices from multiple e-commerce sites, allowing for real-time comparison and historical trend analysis for specific categories.",
+  "description": "Build custom product comparison and price aggregation tools for smarter e-commerce decisions with Kliv.",
+  "hero": {
+    "cta": "Start Aggregating",
+    "subtitle": "Gain a competitive edge with custom-built tools that real-time monitor product information and prices across various e-commerce platforms.",
+    "title": "Build Your Own Product Comparison & Price Aggregation Tool"
+  },
+  "metaDescription": "Create powerful product comparison and price aggregation tools with Kliv. Track competitor pricing, analyze market trends, and optimize your e-commerce strategy with custom solutions.",
+  "sections": [
+    {
+      "title": "The Challenge of Distributed Data in E-commerce",
+      "type": "text",
+      "content": "E-commerce is a vast and dynamic landscape, with prices and product details shifting by the minute. For businesses, retailers, and even savvy consumers, keeping track of optimal pricing, product availability, and competitive offerings across countless platforms is a monumental task. Generic tools often fall short, either lacking the necessary depth of data, real-time updates, or the specific customization needed to glean actionable insights.\n\nBuilding your own aggregation tool gives you complete control, allowing you to focus on the data that matters most to your business and integrate it directly into your decision-making processes, bypassing the limitations and recurring costs of off-the-shelf solutions."
+    },
+    {
+      "title": "Why Custom Product Comparison Tools Are Essential",
+      "type": "markdown",
+      "content": "## The Limitations of Ready-Made Solutions\n\nOff-the-shelf product comparison and price aggregation services often come with significant drawbacks:\n\n-   **Limited Data Sources:** They might not cover all the specific retailers or marketplaces relevant to your niche.\n-   **Delayed Updates:** Real-time data is crucial in e-commerce, but many tools update too slowly.\n-   **Lack of Customization:** You can't tailor the data points collected, the analysis performed, or the reporting format to your unique business needs.\n-   **High Recurring Costs:** Subscription fees can quickly add up, especially for comprehensive data.\n-   **Data Ownership Concerns:** Your valuable competitive intelligence might be shared or leveraged by the tool provider.\n\n## The Power of a Custom-Built Solution\n\nLeveraging platforms like Kliv to build your own tool transforms these challenges into opportunities:\n\n### Unparalleled Data Depth & Coverage\n\nSpecify exactly which websites, products, and data points you want to monitor. Need to track obscure components from specialty retailers? No problem. Want to compare a specific attribute across 50 different vendors? You have the power.\n\n### Real-time Market Intelligence\n\nSet up dynamic data fetching schedules that match the volatility of your market. Get instant alerts on price drops, stock changes, or new competitor listings, enabling immediate strategic responses.\n\n### Tailored Analytics & Reporting\n\nDesign dashboards and reports that visualize the specific trends and metrics critical to your business. Identify pricing opportunities, understand competitor strategies, and forecast market movements with precision.\n\n### Cost Efficiency & Ownership\n\nInvest once in building the tool, and then run it on your terms. Avoid endless subscription fees and retain full ownership of your data and insights.\n\n### Strategic Advantages\n\n-   **Competitive Pricing:** Always know if you're offering the best price or if you need to adjust.\n-   **Product Gap Identification:** Discover products or features your competitors offer but you don't.\n-   **Demand Sensing:** Track product popularity and availability to anticipate market shifts.\n-   **Supplier Negotiation:** Use aggregated data to negotiate better deals with your suppliers.\n\n## AI-Powered Development for E-commerce Insights\n\nThanks to AI-driven development, building sophisticated data aggregation tools is no longer reserved for large enterprises with dedicated dev teams. Kliv's platform empowers you to:\n\n-   **Describe Your Needs in Plain Language:** Tell the AI what data you need to collect and from where.\n-   **Rapidly Iterative Prototyping:** See working versions of your tool quickly and refine them on the fly.\n-   **Intelligent Data Extraction:** AI can learn to extract complex data points from various web structures.\n-   **Automated Updates & Maintenance:** Build in mechanisms for robust, self-healing data collection.\n\nTake control of your e-commerce data strategy. Build a tool that provides the specific, real-time insights you need to win in today's competitive landscape."
+    },
+    {
+      "title": "Product Comparison & Aggregation Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Monitor competitor pricing for key products in real-time.",
+          "prompt": "Create a tool that scrapes product prices and stock levels for 'gaming laptops' from Amazon, Best Buy, and Newegg every hour, and sends an alert if a competitor's price drops below 95% of mine.",
+          "title": "Competitor Price Tracker"
+        },
+        {
+          "description": "Analyze price fluctuations of specific SKUs over time.",
+          "prompt": "Develop an application that tracks the historical price data for 'Apple iPhone 15 Pro Max' across eBay, Swappa, and Gazelle, showing daily average prices and identifying significant price drops.",
+          "title": "Historical Price Trend Analyzer"
+        },
+        {
+          "description": "List all sellers and their prices for a given product.",
+          "prompt": "Build a system where I can input a product UPC or ISBN, and it returns a list of all online retailers selling it, along with their current prices, shipping costs, and customer ratings.",
+          "title": "Multi-Vendor Product Lister"
+        },
+        {
+          "description": "Compare features and specifications of similar products.",
+          "prompt": "I need a tool that can compare 'DSLR camera bodies' by extracting specifications like sensor size, megapixels, ISO range, and video capabilities from manufacturer websites and major photography retailers, presenting them in a side-by-side comparison.",
+          "title": "Product Specification Comparator"
+        },
+        {
+          "description": "Receive alerts for new product listings matching criteria.",
+          "prompt": "Create an aggregator that constantly monitors new listings for 'vintage comic books' on Etsy, eBay, and dedicated comic marketplaces, filtering for items priced under $500 and alerting me with a link.",
+          "title": "New Listing Discovery Tool"
+        },
+        {
+          "description": "Evaluate seller reputation across various platforms.",
+          "prompt": "Develop a tool that pulls seller ratings and reviews for 'Used Auto Parts' from specific sellers on eBay, Reddit Marketplace, and local classifieds sites, to help identify reliable sources.",
+          "title": "Seller Reputation Monitor"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Aggregation Capabilities",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to alert me via SMS or email when a specific product's price drops below a threshold.",
+          "title": "Real-time Price Drop Alerts"
+        },
+        {
+          "prompt": "Integrate a demand prediction module based on historical price and sales data, to recommend optimal pricing.",
+          "title": "Demand Forecasting Integration"
+        },
+        {
+          "prompt": "Build an API endpoint for my e-commerce store to automatically import competitor pricing data.",
+          "title": "E-commerce Platform API Integration"
+        },
+        {
+          "prompt": "Implement a user interface with customizable dashboards to visualize price trends, competitor landscape, and product availability.",
+          "title": "Interactive Data Dashboard"
+        },
+        {
+          "prompt": "Add a module for sentiment analysis of product reviews extracted from aggregated data sources.",
+          "title": "Customer Review Sentiment Analysis"
+        },
+        {
+          "prompt": "Develop a search function that allows users to quickly find the best current price across all monitored sites for any product.",
+          "title": "Universal Product Search"
+        },
+        {
+          "prompt": "Include anomaly detection to flag unusually high or low prices, or sudden stock outs.",
+          "title": "Anomaly Detection for Pricing"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automatically gather data from specified e-commerce websites and marketplaces.",
+          "icon": "🕷️",
+          "title": "Custom Data Scraping"
+        },
+        {
+          "description": "Consolidate and normalize product information and prices from diverse sources.",
+          "icon": "📊",
+          "title": "Data Aggregation Engine"
+        },
+        {
+          "description": "Set up alerts for price changes, stock levels, or new listings based on your criteria.",
+          "icon": "🔔",
+          "title": "Real-time Alerting System"
+        },
+        {
+          "description": "Visualize historical price trends and market dynamics with customizable charts.",
+          "icon": "📈",
+          "title": "Historical Data Analysis"
+        },
+        {
+          "description": "Identify and compare product features, specifications, and variations across vendors.",
+          "icon": "🔎",
+          "title": "Product Attribute Comparison"
+        },
+        {
+          "description": "Export aggregated data in various formats (CSV, Excel, API) for further analysis or integration.",
+          "icon": "📤",
+          "title": "Flexible Data Export"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic price aggregation tool can take as little as a few hours with Kliv. More complex systems with custom analytics and integrations might span a few days or weeks, depending on your requirements.",
+          "question": "How long does it take to create a product comparison tool?"
+        },
+        {
+          "answer": "Not at all. Kliv's AI-powered platform allows you to describe your desired tool in natural language. The AI interprets your needs and helps generate the application logic and structure.",
+          "question": "Do I need to be a programmer to build this type of tool?"
+        },
+        {
+          "answer": "Yes, you can configure your tool to pull data from virtually any public e-commerce website, marketplace, or API. You have full control over your data sources.",
+          "question": "Can I integrate with specific e-commerce sites or just major ones?"
+        },
+        {
+          "answer": "With Kliv, you own the entire application and its code. This means complete control over your data, its usage, and its security, unlike SaaS solutions where your data resides on their servers.",
+          "question": "Who owns the data collected by my custom tool?"
+        },
+        {
+          "answer": "The initial investment for a custom tool often pays for itself rapidly by eliminating recurring SaaS fees. Over time, a custom solution is significantly more cost-effective as you scale without increasing subscription costs.",
+          "question": "Is building my own tool more expensive than using a ready-made solution?"
+        },
+        {
+          "answer": "Absolutely. Your custom tool is fully adaptable. You can easily add new data sources, refine data extraction rules, introduce new analysis modules, or connect to other internal systems as your business evolves.",
+          "question": "Can I modify or expand the tool after it's built?"
+        },
+        {
+          "answer": "You manage the deployment and hosting, giving you full control over security measures. This can often be more secure than relying on third-party SaaS providers who might be a larger target for attacks.",
+          "question": "What about the legality and security of data scraping?"
+        },
+        {
+          "answer": "Kliv provides AI assistance and comprehensive documentation throughout the building process. Since you have access to the underlying code, you or any developer can maintain and extend the tool independently.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Master Your E-commerce Data?",
+      "type": "cta",
+      "content": "Stop guessing and start knowing. Build your precise, real-time product comparison and price aggregation tool with Kliv today."
+    }
+  ],
+  "title": "Product Comparison & Price Aggregation Tools"
+}

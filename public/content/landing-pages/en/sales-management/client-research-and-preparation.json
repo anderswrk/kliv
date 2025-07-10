@@ -1,0 +1,168 @@
+{
+  "defaultPrompt": "I need a tool that can pull information about potential clients from various public sources, summarize their interests, recent news, and key people, and help me prepare personalized outreach messages.",
+  "description": "Build custom client research and sales preparation tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Prepping Now",
+    "subtitle": "Equip your sales team with AI-powered tools for deep client insights and tailored outreach, all built on Kliv's platform.",
+    "title": "Build Your Own Client Research & Sales Prep Tool"
+  },
+  "metaDescription": "Create powerful client research and sales preparation tools with Kliv. Gain deep insights, personalize outreach, and close more deals with custom-built applications.",
+  "sections": [
+    {
+      "title": "The Challenge of Modern Sales Preparation",
+      "type": "text",
+      "content": "In today's competitive sales landscape, a generic pitch won't cut it. Reps need to understand their prospects inside and out—their business, their challenges, their recent activities, and even their personal interests. This level of preparation is crucial for building rapport and delivering value, but manual research is incredibly time-consuming.\n\nOff-the-shelf CRM systems offer some data, but they rarely provide the deep, tailored insights needed for truly impactful conversations. Relying on fragmented information or spending hours sifting through news articles and social media drains valuable selling time. What if you could build a tool that automatically gathers and synthesizes exactly the intelligence your team needs, formatted precisely how they use it?"
+    },
+    {
+      "title": "Why a Custom Client Prep Tool Gives You an Unfair Advantage",
+      "type": "markdown",
+      "content": "## The Flaws of Standard Sales Tools\n\nMany sales organizations rely on a patchwork of generic tools that simply don't deliver the precision needed for modern sales excellence. These often lead to:\n\n- **Shallow Personalization**: CRM data is often limited to basic company info.\n- **Wasted Time**: Manual research is slow, inconsistent, and often missed.\n- **Generic Messaging**: Without specific insights, outreach remains bland and unengaging.\n- **Missed Opportunities**: Timely events or shifts in a prospect's business are often overlooked.\n- **Data Silos**: Relevant client data is scattered across numerous platforms.\n\n## The Power of a Tailored Prep Solution\n\nDeveloping a custom client research and sales preparation tool with an AI-powered platform like Kliv transforms your sales approach:\n\n### Hyper-Relevant Insights\nYour custom tool can be designed to pull precisely the information most valuable to your sales cycle—whether it's recent company announcements, executive moves, competitive analyses, or specific industry trends. No more digging for needles in haystacks.\n\n### Automated Information Gathering\nLeverage AI to automatically scan news, social media, financial reports, and other public data sources. The tool can identify key talking points, potential challenges, and opportunities, presenting them in a concise, actionable format.\n\n### Personalized Outreach at Scale\nWith relevant, up-to-date information at their fingertips, your sales team can craft highly personalized emails, voicemails, and presentations that resonate deeply with each prospect, significantly increasing engagement rates.\n\n### Shortened Sales Cycles\nPrepared reps build trust faster, navigate objections more effectively, and focus conversations on the prospect's needs, leading to quicker decisions and higher close rates.\n\n### Reduced Rep Prep Time\nHundreds of hours are wasted annually on manual research. Automating this process frees up your sales team to do what they do best: sell.\n\n## Real-World Impact\n\nCustom sales prep tools can transform various sales functions:\n\n**Enterprise Sales**: Automatically aggregate complex corporate structures, recent M&A activities, key decision-makers' public statements, and relevant industry reports for large account planning.\n\n**SMB Sales**: Quickly generate personalized ice-breakers based on local news, common business challenges faced by similar companies, or recent social media activity of key contacts.\n\n**Account Management**: Proactively identify churn risks or upsell opportunities by monitoring client sentiment, competitor activities, or changes in their business model.\n\n**Sales Development (SDRs)**: Equip SDRs with concise, impactful bullet points for cold outreach, referencing specific company news or shared connections to immediately differentiate their approach.\n\n## Why AI Makes it Possible\n\nBuilding such a sophisticated tool used to require extensive development resources. AI platforms simplify this by:\n\n- **Natural Language Understanding**: Define what information you need in plain English, and the AI translates it into data extraction logic.\n- **Content Summarization**: AI can distill vast amounts of text into actionable summaries and bullet points.\n- **Pattern Recognition**: Identify trends and connections in data that human researchers might miss.\n- **Rapid Iteration**: Quickly refine and add new data sources or intelligence types as your sales strategy evolves.\n\nStop settling for generic data. Empower your sales team with bespoke intelligence and start closing deals based on truly informed conversations."
+    },
+    {
+      "title": "Client Research Tool Ideas to Inspire You",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate tailored insights for every prospecting call",
+          "prompt": "Build an application that, given a company name and a contact person, automatically searches for recent company news, the contact's LinkedIn profile, and any shared connections to generate a call prep sheet with key talking points.",
+          "title": "Automated Call Prep Sheet Generator"
+        },
+        {
+          "description": "Keep account managers updated on client activities",
+          "prompt": "Create a daily digest tool that monitors social media mentions, news articles, and financial reports for a list of key accounts, summarizing any significant updates relevant to our product/service.",
+          "title": "Account Monitoring & Alert System"
+        },
+        {
+          "description": "Personalize emails based on real-time data",
+          "prompt": "Develop a system that takes a prospect's email and identifies their company's industry, recent hires, and technology stack, then suggests personalized email opening lines.",
+          "title": "Personalized Email Opener"
+        },
+        {
+          "description": "Understand prospect's tech stack and spending",
+          "prompt": "Design a tool that identifies what software and cloud services a prospect company uses, combined with public spending data, to inform our sales strategy.",
+          "title": "Tech Stack and Spending Insights"
+        },
+        {
+          "description": "Identify ideal client profiles from public data",
+          "prompt": "Build a lead scoring system that identifies and prioritizes inbound leads based on their company's growth stage, funding rounds, employee count changes, and industry trends from public data.",
+          "title": "Intelligent Lead Scoring and Prioritization"
+        },
+        {
+          "description": "Create tailored content for specific personas",
+          "prompt": "Develop a tool that, given a buyer persona and their company details, suggests relevant case studies, whitepapers, and customer testimonials that align with their specific challenges and industry.",
+          "title": "Persona-Based Content Recommender"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Sales Prep Arsenal",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to connect with our CRM (e.g., Salesforce) to automatically log research notes and update contact records after each prep session.",
+          "title": "CRM Integration"
+        },
+        {
+          "prompt": "Integrate with our email platform to automatically import the generated personalized email drafts directly into Gmail or Outlook.",
+          "title": "Email Platform Link"
+        },
+        {
+          "prompt": "Build a browser extension that allows sales reps to trigger research on a prospect's company directly from their LinkedIn profile or company website.",
+          "title": "Browser Extension for On-Demand Insights"
+        },
+        {
+          "prompt": "Include sentiment analysis for recent news and social media mentions of the prospect company or contact to gauge their current mood or challenges.",
+          "title": "Sentiment Analysis"
+        },
+        {
+          "prompt": "Add a competitive analysis module that also pulls information about our competitors' recent activities with that prospect or in that industry.",
+          "title": "Competitive Monitoring"
+        },
+        {
+          "prompt": "Implement a 'suggested questions' feature based on the gathered insights that reps can use to guide discovery calls.",
+          "title": "Discovery Call Question Generation"
+        },
+        {
+          "prompt": "Develop a dashboard for sales managers to track how often reps are using the tool and measure the correlation between its use and sales performance.",
+          "title": "Usage Analytics for Managers"
+        }
+      ]
+    },
+    {
+      "title": "Core Client Research Capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automatically gather data from diverse public and private sources.",
+          "icon": "🔍",
+          "title": "Automated Data Aggregation"
+        },
+        {
+          "description": "AI-powered summarization of complex articles, reports, and social feeds.",
+          "icon": "🧠",
+          "title": "Intelligent Summarization"
+        },
+        {
+          "description": "Instant generation of tailored talking points and personalized outreach suggestions.",
+          "icon": "💬",
+          "title": "Contextual Messaging Prompts"
+        },
+        {
+          "description": "Real-time alerts for crucial client-related events or news.",
+          "icon": "🚨",
+          "title": "Event-Driven Alerts"
+        },
+        {
+          "description": "Connect seamlessly with existing CRMs, email clients, and sales engagement platforms.",
+          "icon": "🔗",
+          "title": "Seamless System Integration"
+        },
+        {
+          "description": "Secure storage and organization of all researched client data.",
+          "icon": "🗄️",
+          "title": "Centralized Client Intelligence"
+        }
+      ]
+    },
+    {
+      "title": "Ready for Deeper Client Knowledge?",
+      "type": "cta",
+      "content": "Stop guessing and start knowing. Build a client research and sales prep tool that gives your team the edge they need to close more deals."
+    },
+    {
+      "title": "Frequently Asked Questions About Building Sales Tools",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform significantly reduces development time. A core client research tool can often be prototyped in a few hours and become fully functional within days, depending on the complexity of data sources and logic.",
+          "question": "How quickly can I build a client research tool with Kliv?"
+        },
+        {
+          "answer": "No deep technical expertise is needed. The platform is designed for natural language interaction, meaning you describe the tool you want, and the AI assists in building it. You define the data points and sources, and Kliv handles the underlying code.",
+          "question": "Do I need to be a programmer to build this type of tool?"
+        },
+        {
+          "answer": "Yes, your custom tool can integrate with most popular CRMs (like Salesforce, HubSpot), sales engagement platforms (Outreach, Salesloft), and other data sources via their APIs. Kliv helps you define these connections.",
+          "question": "Can my custom sales prep tool integrate with our existing CRM or sales platforms?"
+        },
+        {
+          "answer": "You retain full ownership and control over the data collected and the intelligence generated by your tool. Privacy and security can be configured to meet your organization's specific compliance requirements, often surpassing that of third-party SaaS solutions.",
+          "question": "Who owns the data and intelligence gathered by my custom tool?"
+        },
+        {
+          "answer": "A custom solution is a strategic asset. While there's an upfront investment, it eliminates recurring per-user SaaS fees and provides a tool precisely aligned with your unique sales process, offering a faster ROI and long-term cost efficiency.",
+          "question": "How does the cost compare to buying an off-the-shelf sales intelligence platform?"
+        },
+        {
+          "answer": "Absolutely. One of the primary advantages is its adaptability. As your sales strategy or market changes, you can easily modify data sources, refine intelligence outputs, or add new features without external vendor dependency.",
+          "question": "Can I easily modify or expand the tool's capabilities once it's built?"
+        },
+        {
+          "answer": "Yes! Kliv's platform supports building robust and secure applications. You can implement custom access controls, data encryption, and ensure compliance with relevant data privacy regulations (e.g., GDPR, CCPA) more precisely than with generic tools.",
+          "question": "Is a custom client research tool secure for sensitive sales data?"
+        }
+      ]
+    }
+  ],
+  "title": "Client Research & Sales Preparation Tools"
+}

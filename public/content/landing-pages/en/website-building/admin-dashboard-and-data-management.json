@@ -1,0 +1,185 @@
+{
+  "defaultPrompt": "I want to create an admin dashboard for managing website content, user registrations, and order fulfillment for my e-commerce site.",
+  "description": "Build custom admin dashboards and data management tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your dashboard",
+    "subtitle": "Gain complete control over your website's data and operations with a custom-built admin dashboard, designed exactly to your specifications.",
+    "title": "Build your own Admin Dashboard & Data Management Tools"
+  },
+  "metaDescription": "Create powerful, tailored admin dashboards and data management applications with Kliv. Oversee content, users, and operations with custom-built UIs effortlessly.",
+  "sections": [
+    {
+      "title": "Why a custom admin dashboard is essential",
+      "type": "text",
+      "content": "Off-the-shelf content management systems and e-commerce platforms often provide generic admin interfaces that don’t quite fit your unique workflows or specific data needs. These tools can be overly complex for simple tasks or lack the functionality required for advanced operations.\n\nBuilding your own admin dashboard allows you to consolidate all your critical data and management functions into a single, intuitive interface. You dictate the data structures, user roles, and reporting needs, ensuring your team has exactly what it needs to manage your digital presence efficiently."
+    },
+    {
+      "title": "The power of tailored administration",
+      "type": "markdown",
+      "content": "## Outgrowing existing admin panels\n\nAs your website or application grows, so does the complexity of managing it. Generic admin dashboards often present significant challenges:\n\n- **Irrelevant features**: Cluttered interfaces with features you never use, making it harder to find what you need.\n- **Missing capabilities**: Crucial reports or specific data management functions are often absent.\n- **Poor performance**: Slow loading times and clunky navigation hinder productivity.\n- **Security concerns**: Relying on generic admin logins can expose your backend to common vulnerabilities.\n- **Integration nightmares**: Difficult to connect with proprietary or niche business systems.\n\n## The advantages of a custom solution\n\nDeveloping a custom admin dashboard with Kliv offers unparalleled advantages:\n\n### Precision control and efficiency\nDesign an interface that mirrors your business logic. Access frequently used data points instantly, perform bulk actions with ease, and automate routine management tasks with tailored buttons and workflows.\n\n### Enhanced security\nImplement robust, custom authentication and authorization mechanisms. Decide who sees what, protecting sensitive data and operations from unauthorized access.\n\n### Seamless data integration\nConnect your dashboard directly to all your databases, APIs, and external services. View and manage customer data, inventory, sales, content, and analytics from one central hub, irrespective of their original source.\n\n### Cost-effectiveness in the long run\nAvoid recurring licensing fees associated with feature-rich but bloated third-party admin suites. A custom solution is a one-time build that scales with your growth without increasing monthly overhead.\n\n### Adaptability and future-proofing\nYour business evolves, and so should your tools. A custom dashboard can be updated and expanded as new features are needed, ensuring it remains a perfect fit for years to come. You're not beholden to a vendor's update schedule or feature roadmap.\n\n## Real-world applications\n\nCustom dashboards are not just for tech giants. Businesses of all sizes leverage them for specific needs:\n\n**E-commerce**: Manage product catalogs, customer orders, shipping details, and inventory levels with custom views and quick edit functions.\n\n**Content Platforms**: Oversee articles, authors, categories, publishing schedules, and moderating user comments from a unified interface.\n\n**SaaS Applications**: Provide customer success teams with tools to view user activity logs, manage subscriptions, reset passwords, and troubleshoot issues.\n\n**Real Estate**: Administer property listings, agent profiles, client inquiries, and showing schedules.\n\n**Educational Portals**: Manage student registrations, course content, grades, and communication features for faculty and students.\n\n## The Kliv advantage for admin tools\n\nKliv transforms the complex process of building backend management tools into a straightforward task. Our AI-powered platform allows you to:\n\n- **Describe your needs**: Use plain language to specify the data you want to manage and how you want to manage it.\n- **Visualize your interface**: AI assists in laying out intuitive UI components based on your requirements.\n- **Connect your data sources**: Effortlessly link to SQL databases, NoSQL, APIs, and even spreadsheets.\n- **Generate code instantly**: Kliv produces clean, maintainable code for your dashboard's frontend and backend.\n- **Deploy with confidence**: Get a production-ready application that's secure and scalable."
+    },
+    {
+      "title": "Admin dashboard ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Streamline product updates and inventory tracking for an online store.",
+          "prompt": "Create an e-commerce admin dashboard that allows me to add, edit, and delete products, manage inventory levels, process orders, and view customer purchase history.",
+          "title": "E-commerce Product & Order Management"
+        },
+        {
+          "description": "Efficiently manage blog posts, authors, and reader comments.",
+          "prompt": "Build a content management system admin panel where I can create, edit, publish, and unpublish blog posts, manage authors, categorize content, and moderate comments.",
+          "title": "Blog CMS Admin Panel"
+        },
+        {
+          "description": "Oversee user accounts, permissions, and activity within your application.",
+          "prompt": "Develop a user management dashboard that enables me to view, edit, and delete user accounts, assign user roles (admin, editor, user), and track last login times and activity.",
+          "title": "User Account Administration"
+        },
+        {
+          "description": "Track client projects, tasks, and team assignments.",
+          "prompt": "Design a project management dashboard for internal use, allowing me to create new projects, assign team members, set deadlines, track task completion, and view project summaries.",
+          "title": "Internal Project Tracker"
+        },
+        {
+          "description": "Handle subscriptions, billing cycles, and customer support for a SaaS application.",
+          "prompt": "Construct a SaaS billing and subscription management panel where I can activate/deactivate subscriptions, view payment history, apply discounts, and manage customer support tickets.",
+          "title": "SaaS Subscription Manager"
+        },
+        {
+          "description": "Centralize all incoming support requests and monitor their status.",
+          "prompt": "Create a customer support ticket system dashboard that allows support agents to view, assign, update the status, and resolve customer support tickets, with search and filter capabilities.",
+          "title": "Customer Support Ticketing System"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your admin tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user activity log that records all changes made by administrators, including timestamps and the specific action performed.",
+          "title": "Implement an audit trail"
+        },
+        {
+          "prompt": "Integrate real-time analytics from Google Analytics or other sources directly into the dashboard to display key website metrics.",
+          "title": "Add analytics integration"
+        },
+        {
+          "prompt": "Introduce multi-factor authentication (MFA) for admin logins to enhance security measures.",
+          "title": "Enhance security with MFA"
+        },
+        {
+          "prompt": "Create custom reporting features that allow users to generate CSV or PDF reports based on selected data and date ranges.",
+          "title": "Build custom reporting"
+        },
+        {
+          "prompt": "Add a notification system within the dashboard to alert admins about critical events, such as new orders, low stock, or unread support tickets.",
+          "title": "Include internal notifications"
+        },
+        {
+          "prompt": "Develop a mobile-responsive version of the dashboard so it can be used effectively on tablets and smartphones.",
+          "title": "Make it mobile-responsive"
+        },
+        {
+          "prompt": "Incorporate a quick search bar that allows searching across all data types (users, products, orders, etc.) with predictive text.",
+          "title": "Add global search functionality"
+        },
+        {
+          "prompt": "Allow administrators to customize their dashboard layout by rearranging widgets or choosing which data sections are visible.",
+          "title": "Offer dashboard customization"
+        },
+        {
+          "prompt": "Add bulk editing capabilities for products, users, or content, allowing multiple items to be updated at once.",
+          "title": "Enable bulk editing"
+        }
+      ]
+    },
+    {
+      "title": "Essential admin dashboard features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Manage user accounts, roles, and permissions securely.",
+          "icon": "👥",
+          "title": "User Management"
+        },
+        {
+          "description": "Edit, delete, and publish various types of content with ease.",
+          "icon": "✍️",
+          "title": "Content Editing Interface"
+        },
+        {
+          "description": "Connect and display data from multiple sources in one place.",
+          "icon": "🔗",
+          "title": "Integrated Data Views"
+        },
+        {
+          "description": "Filter, sort, and search through large datasets quickly.",
+          "icon": "🔎",
+          "title": "Advanced Data Filtering"
+        },
+        {
+          "description": "Generate custom reports and export data in various formats.",
+          "icon": "📈",
+          "title": "Reporting & Analytics"
+        },
+        {
+          "description": "Control access to different dashboard sections based on user roles.",
+          "icon": "🔑",
+          "title": "Role-Based Access Control"
+        },
+        {
+          "description": "Visualize key metrics and operational statuses at a glance.",
+          "icon": "📊",
+          "title": "Customizable Dashboards"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The time varies based on complexity, but a basic admin dashboard can be functional within a day. More intricate systems with multiple integrations might take a few days to a week.",
+          "question": "How long does it take to build a custom admin dashboard?"
+        },
+        {
+          "answer": "No, Kliv allows you to describe your desired dashboard functionalities in plain language. The AI translates your requests into code and structures the application for you.",
+          "question": "Is coding knowledge required to build an admin tool?"
+        },
+        {
+          "answer": "Absolutely. Kliv-built applications can connect to nearly any database (SQL, NoSQL), APIs, or even common file formats like CSV. You control which data sources are integrated.",
+          "question": "Can I integrate my existing databases or APIs?"
+        },
+        {
+          "answer": "You retain full ownership of the custom dashboard you build. The code, data, and design are entirely yours to manage, host, and modify as needed.",
+          "question": "Who owns the admin dashboard once it's built?"
+        },
+        {
+          "answer": "While there's an initial investment, you avoid recurring subscription fees typically associated with third-party admin tools. Over time, custom solutions often prove more cost-effective and provide better ROI due to perfect fit and no vendor lock-in.",
+          "question": "How does the cost compare to off-the-shelf admin solutions?"
+        },
+        {
+          "answer": "Yes, custom dashboards are inherently flexible. You can continually refine, add new features, or modify existing ones as your business processes or data needs change, without being limited by a vendor's roadmap.",
+          "question": "Can the dashboard be updated or modified later?"
+        },
+        {
+          "answer": "You have complete control over hosting and security measures. This often allows for a more secure setup than shared-instance SaaS solutions, as you can implement highly customized security protocols relevant to your specific data and operational environment.",
+          "question": "How secure are these custom-built admin tools?"
+        },
+        {
+          "answer": "Kliv provides AI-driven assistance throughout the build process, offering code suggestions, debugging prompts, and deployment guidance. For direct support, community forums and documentation are also available.",
+          "question": "What kind of support is available during and after the build process?"
+        }
+      ]
+    },
+    {
+      "title": "Take control of your data and operations.",
+      "type": "cta",
+      "content": "Stop wrestling with generic interfaces. Build a powerful, precise admin dashboard that perfectly fits your business."
+    }
+  ],
+  "title": "Admin Dashboards & Data Management Tools"
+}

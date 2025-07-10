@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a physics simulation tool that allows students to interact with various physical phenomena, visualize forces, motion, and energy, and conduct virtual experiments.",
+  "description": "Create custom physics simulation tools for education and research with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start your simulation",
+    "subtitle": "Empower interactive learning and research by building custom physics simulation applications that run in the browser.",
+    "title": "Build your own physics simulation tools"
+  },
+  "metaDescription": "Design and deploy powerful physics simulation tools with Kliv. Visualize complex phenomena, enable interactive experiments, and enhance STEM education with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build a custom physics simulation tool?",
+      "type": "text",
+      "content": "In an era where interactive and visual learning is paramount, generic physics simulation software often falls short. These off-the-shelf solutions constrain educators and researchers to pre-defined scenarios, limiting true exploration and customization.\n\nBuilding your own physics simulation tool using an AI-powered development platform like Kliv allows you to create highly specialized, engaging, and flexible educational or research instruments designed precisely for your needs. Instead of adapting your curriculum or research questions to existing software, you create the software that truly supports your objectives."
+    },
+    {
+      "title": "The case for custom physics simulations",
+      "type": "markdown",
+      "content": "## Limitations of standard simulation software\n\nMany educational and research institutions rely on generic physics simulation tools that come with inherent limitations:\n\n- **Rigid Scenarios**: Restricted to a fixed set of experiments and adjustable parameters.\n- **Subscription Costs**: Often come with recurring licenses that can be prohibitive for long-term use or large student bodies.\n- **Lack of Customization**: Inability to integrate specific scenarios, data inputs, or output formats relevant to unique research or curriculum needs.\n- **Complex Interfaces**: Generic tools can be overly complicated or too simplistic, not matching the specific learning curve or research rigor required.\n- **No Ownership**: You lease the software, but you don't own the underlying capabilities or data generated.\n\n## Advantages of a tailored approach\n\nWith Kliv, creating a custom physics simulation tool transforms these limitations into opportunities:\n\n### Perfect Pedagogical Fit\nDesign simulations that directly align with very specific learning objectives, allowing students to visualize concepts like quantum mechanics, fluid dynamics, or astrophysics with unparalleled clarity and interactivity. Tailor the complexity and UI to different educational levels.\n\n### Research Agility\nFor researchers, custom tools mean you can model novel physical systems, test specific hypotheses, and integrate with unique data sets without being limited by software vendor roadmaps. Rapidly iterate on your models and visualize new outcomes.\n\n### One-Time Investment\nUnlike perpetual subscription models, building your own tool is a one-time development investment. Once built, you own the asset, reducing long-term operational costs and providing indefinite access.\n\n### Scalable & Deployable\nDeploy your custom simulation tool as a web application, accessible to students or collaborators anywhere, on any device. Scale its usage without worrying about per-user licensing fees.\n\n### Data & Insights Ownership\nCapture and analyze all simulation data in the format you need. Gain deeper insights into student interactions, common misconceptions, or experimental outcomes, fostering data-driven improvements in both teaching and research.\n\n## Transformative Applications\n\nCustom physics simulations are not just theoretical; they are practical tools revolutionizing various fields:\n\n**Education**: An interactive simulation for high school physics where students can adjust gravitational force and observe planetary orbits, fostering intuitive understanding of orbital mechanics.\n\n**Engineering**: A tool for material scientists to simulate stress distribution in novel alloys under various loads, optimizing for design before physical prototyping.\n\n**Environmental Science**: A fluid dynamics simulator to model pollutant dispersion in a simulated river system, aiding in environmental impact assessments.\n\n**Robotics**: A virtual testing ground for robotic arm kinematics and collision detection without the need for expensive physical prototypes.\n\n## The Kliv Advantage for Simulation Design\n\nBuilding sophisticated simulations used to require extensive coding expertise. Kliv changes this narrative:\n\n- **Declarative Design**: Describe physical laws, initial conditions, and desired interactions in natural language.\n- **Visual Builder**: See your simulation take shape visually, adjusting parameters and observing real-time changes.\n- **Pre-built Components**: Leverage pre-optimized physics engines and rendering modules to accelerate development.\n- **Iterative Refinement**: Quickly test, refine, and deploy new simulation scenarios and features.\n\n## Getting Started\n\nStop compromising with generic software. Invest in simulation tools that truly serve your educational and research goals. With Kliv, you can begin crafting your perfect physics simulation application today. No deep coding knowledge is needed—just your understanding of physics and your vision for its application."
+    },
+    {
+      "title": "Physics simulation ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize forces, acceleration, and collisions in various scenarios",
+          "prompt": "Create a 2D physics sandbox where users can apply forces to objects, observe collisions, and adjust friction and gravity. Include tools to display vector fields for forces and velocity.",
+          "title": "Interactive Mechanics Sandbox"
+        },
+        {
+          "description": "Simulate wave propagation and interference patterns",
+          "prompt": "Develop a wave simulator that allows users to adjust frequency, amplitude, and medium properties for sound and light waves, showing interference, diffraction, and reflection.",
+          "title": "Wave Phenomena Explorer"
+        },
+        {
+          "description": "Simulate planetary motion and gravitational interactions",
+          "prompt": "Build an N-body gravity simulator where users can place celestial bodies with custom masses and initial velocities, observing their orbital paths and gravitational influences over time.",
+          "title": "Orbital Mechanics Simulator"
+        },
+        {
+          "description": "Explore electricity and magnetism concepts interactively",
+          "prompt": "Design a circuit builder and electromagnetism simulator where users can place resistors, capacitors, inductors, batteries, and magnets, visualizing current flow, magnetic fields, and induced currents.",
+          "title": "Electromagnetism Lab"
+        },
+        {
+          "description": "Analyze fluid behavior under different conditions",
+          "prompt": "Create a fluid dynamics simulation for basic scenarios like flow in pipes or around obstacles, allowing adjustments for viscosity, density, and flow rate, visualizing streamlines and pressure points.",
+          "title": "Basic Fluid Dynamics Model"
+        },
+        {
+          "description": "Visualize quantum effects and particle behavior",
+          "prompt": "Develop a simple quantum mechanics simulator to demonstrate particle-in-a-box or tunneling effects, allowing users to adjust potential barriers and observe probability distributions.",
+          "title": "Introductory Quantum Visualizer"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your simulation tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to save and load custom simulation scenarios created by users.",
+          "title": "Scenario Saving & Loading"
+        },
+        {
+          "prompt": "Integrate a real-time data plotting module for graphing variables like position, velocity, or energy over time.",
+          "title": "Real-time Data Plotting"
+        },
+        {
+          "prompt": "Implement a 'reset' and 'step-by-step' execution feature for detailed analysis of simulation events.",
+          "title": "Step-by-step Simulation Control"
+        },
+        {
+          "prompt": "Add a user authentication system to manage student progress and access to specific experiments.",
+          "title": "User Account Management"
+        },
+        {
+          "prompt": "Include a feature for importing external data sets (e.g., CSV, JSON) to use as initial conditions for simulations.",
+          "title": "Data Import Capabilities"
+        },
+        {
+          "prompt": "Develop a module to export simulation results as CSV, image sequences, or animated GIFs.",
+          "title": "Export Simulation Results"
+        },
+        {
+          "prompt": "Add voice-over explanations or interactive guided tours for new users exploring complex simulations.",
+          "title": "Interactive Tutorials"
+        },
+        {
+          "prompt": "Implement a collaborative mode where multiple users can interact with the same simulation in real-time.",
+          "title": "Multi-user Collaboration"
+        },
+        {
+          "prompt": "Add AI-powered insights that analyze simulation outcomes and suggest optimal parameters or flag anomalies.",
+          "title": "AI-driven Insights"
+        }
+      ]
+    },
+    {
+      "title": "Essential simulation features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Interactive manipulation of physical parameters and objects.",
+          "icon": "👆",
+          "title": "Real-time Interaction"
+        },
+        {
+          "description": "Accurate, customizable physics engines for various phenomena.",
+          "icon": "⚙️",
+          "title": "Robust Physics Engine"
+        },
+        {
+          "description": "Clear visual representation of forces, motion, and fields.",
+          "icon": "📊",
+          "title": "Dynamic Visualization"
+        },
+        {
+          "description": "Ability to define and save custom experimental setups.",
+          "icon": "🧪",
+          "title": "Scenario Customization"
+        },
+        {
+          "description": "Tools for measuring and analyzing simulation data.",
+          "icon": "📏",
+          "title": "Measurement & Analysis"
+        },
+        {
+          "description": "Deployable across web browsers for wide accessibility.",
+          "icon": "🌐",
+          "title": "Web-based Deployment"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's AI allows you to describe the physics concepts and interactions in plain language. The platform then generates the foundational code and visual components, significantly reducing the need for manual coding.",
+          "question": "How does Kliv's AI help in building complex physics simulations without extensive coding?"
+        },
+        {
+          "answer": "The time varies based on complexity. Simple simulations can be prototyped in hours, while advanced, research-grade tools might take a few days or weeks to refine fully.",
+          "question": "What is the typical development timeline for a physics simulation tool using Kliv?"
+        },
+        {
+          "answer": "Yes, simulations built on Kliv are web-based, making them accessible via any modern browser. You can host them on your own servers or preferred cloud provider for broad distribution.",
+          "question": "Can the physics simulation tools be distributed and accessed by students or researchers remotely?"
+        },
+        {
+          "answer": "Absolutely. Kliv provides a framework that allows you to integrate your custom simulation with external data sources, analysis tools, or learning management systems via APIs.",
+          "question": "Is it possible to integrate my custom simulation with existing educational platforms or research databases?"
+        },
+        {
+          "answer": "Kliv's approach results in a one-time development cost, often significantly lower than long-term subscriptions for specialized commercial simulation software. While there might be hosting costs, you avoid perpetual licensing fees.",
+          "question": "How does the cost of building a custom simulation compare to purchasing off-the-shelf software?"
+        },
+        {
+          "answer": "Yes, you have full control over the precision. Kliv's underlying engines can support various levels of numerical accuracy, allowing you to balance performance with the required fidelity for your simulation's purpose.",
+          "question": "Can I control the level of physical accuracy and computational performance of the simulation?"
+        },
+        {
+          "answer": "Yes, Kliv provides tools for iterative development. You can easily modify parameters, add new features, or alter the visual interface as your educational goals or research questions evolve.",
+          "question": "How easy is it to update or modify the simulation tool once it's built?"
+        },
+        {
+          "answer": "As the creator, you retain full ownership of the simulation logic and any data it generates, ensuring intellectual property rights and full control over your educational content or research findings.",
+          "question": "Who owns the intellectual property of the simulations created on Kliv?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bring physics to life?",
+      "type": "cta",
+      "content": "Stop limiting your students or research with generic tools. Build the precise, interactive physics simulation you need with AI-powered development."
+    }
+  ],
+  "title": "Physics Simulation Tools"
+}

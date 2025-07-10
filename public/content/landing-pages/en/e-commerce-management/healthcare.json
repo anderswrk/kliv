@@ -1,0 +1,158 @@
+{
+  "defaultPrompt": "I want to create an e-commerce platform for medical devices that includes inventory management, order processing, patient information, and integrates with a secure payment gateway.",
+  "description": "Build custom e-commerce solutions for healthcare products and services with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your health e-commerce",
+    "subtitle": "Create secure, compliant, and intuitive e-commerce platforms tailored for healthcare products, medical devices, and patient services.",
+    "title": "Custom Healthcare E-Commerce Solutions"
+  },
+  "metaDescription": "Develop specialized e-commerce applications for the healthcare sector using Kliv. Manage medical supplies, pharmaceuticals, or patient services efficiently and securely.",
+  "sections": [
+    {
+      "title": "The unique challenges of healthcare e-commerce",
+      "type": "text",
+      "content": "Selling products or services in the healthcare sector is far more complex than typical retail e-commerce. It demands strict adherence to regulatory compliance (like HIPAA), secure handling of sensitive patient data, precise inventory management for critical supplies, and often integration with existing clinical systems. \n\nGeneric e-commerce platforms simply aren't built for these intricacies. They lack the necessary security protocols, customization options for medical workflows, and often fall short on compliance requirements, leading to significant risks and operational inefficiencies. Building your own specialized platform ensures a perfect fit for these unique demands."
+    },
+    {
+      "title": "Why a custom e-commerce platform for healthcare?",
+      "type": "markdown",
+      "content": "## Tailored for compliance and security\nWith patient data and regulated products, compliance isn't optional. Building your own platform allows you to bake in HIPAA, FDA, and other relevant regulatory requirements from the ground up, ensuring data privacy and product traceability. Off-the-shelf solutions often require cumbersome workarounds or simply cannot meet these stringent standards.\n\n## Precision in inventory and order fulfillment\nHealthcare products, especially medical devices or pharmaceuticals, require meticulous inventory tracking, batch management, and expiration date control. A custom system can integrate deeply with your supply chain, preventing stockouts of critical items and managing complex distribution logistics.\n\n## Seamless integration with existing systems\nHealthcare providers often rely on Electronic Health Records (EHR) systems, practice management software, or specialized billing tools. A bespoke e-commerce solution can be designed to seamlessly exchange data with these systems, creating a unified patient experience and streamlined workflow, avoiding manual data entry and errors.\n\n## Enhanced patient and customer experience\nFrom ordering medical supplies to booking virtual consultations, a custom platform can provide an intuitive, personalized experience for patients and healthcare professionals. Features like prescription uploads, insurance verification, and integration with telehealth services can be natively supported, not bolted on as an afterthought.\n\n## Cost-efficiency and future scalability\nSubscription fees for enterprise-level e-commerce platforms can be prohibitive. Building your own is a one-time investment that gives you complete ownership and avoids recurring costs. More importantly, it scales precisely with your needs—add new product lines, expand services, or integrate new technologies without vendor limitations or costly upgrades."
+    },
+    {
+      "title": "Healthcare e-commerce ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Medical device sales portal B2B/B2C with serialization tracking for devices and consumables. Including user-specific pricing and multi-level approval for large orders. Should capture surgeon preferences and integrate with CRM for sales teams to follow up on abandoned carts or inquiries. Add a resource library for training videos and manuals, and a chat support function. Create a module to manage warranties and service requests effectively. Include a subscription model for recurring purchases of consumables for specific devices, with automated reordering and usage tracking. Implement a system for managing product recalls, notifying affected customers and providing return/replacement instructions. Ensure compliance with medical device regulations for sales and distribution. Offer detailed analytics on product performance, customer segments, and regional sales trends. Securely store and transmit all data in compliance with HIPAA and GDPR. Develop a customer portal where medical professionals can view their order history, manage subscriptions, and access product certifications."
+        },
+        {
+          "title": "Online pharmacy platform for prescription and OTC medications and patient ordering, prescription verification, insurance billing, and secure home delivery scheduling. It should allow patients to upload prescriptions, communicate securely with pharmacists, track their order status in real-time, and view their medication history. Include dosage reminders and potential drug interaction alerts. Ensure all patient data and communication are encrypted and comply with privacy regulations. Implement secure payment processing using HIPAA-compliant gateways and integrate with major insurance providers for direct billing. Add a feature to allow refills to be easily requested, with an option for auto-refills when appropriate. Provide a robust backend for pharmacists to manage inventory, verify prescriptions, and handle customer service inquiries efficiently. Enable personalized recommendations for OTC products based on a patient's medication history (with consent). A notification system for delivery updates and prescription expiry should be included. Finally, implement a system for managing and documenting controlled substances securely, adhering to all federal and state regulations. Provide detailed reporting capabilities for sales, inventory, and prescription fulfillment metrics to assist management and regulatory audits. Ensure mobile responsiveness for access on any device."
+        },
+        {
+          "title": "Durable Medical Equipment (DME) rental/sales platform for home healthcare with inventory management, rental agreements, service scheduling, and patient history tracking. Include a feature for managing equipment cleaning and maintenance schedules, with notifications for required services. Allow patients or their caregivers to easily browse and reserve equipment online, specify delivery and pickup times, and upload necessary medical documentation for orders. Securely process payments and manage recurring rental billing. Provide a comprehensive inventory system that tracks each item's location, rental status, and service history, including unique identifiers for each piece. Implement automated communication for rental returns and overdue equipment, with options for extended rentals. Create a portal for healthcare providers to refer patients and manage their referred equipment orders. Offer a library of instructional videos and guides for equipment setup and usage. Ensure all data handling complies with HIPAA for patient privacy. Develop a module for processing insurance claims related to DME rentals and sales. Add a review system for equipment and service quality, visible to potential renters. Provide analytics on equipment utilization, service needs, and rental duration trends to optimize inventory and operations. Ensure robust security measures for patient data and payment information."
+        },
+        {
+          "title": "Telehealth service booking portal with payment integration, secure video conferencing links, and automated appointment reminders. It should allow patients to browse available specialists, view their credentials, and book appointments directly. Integrate with a secure, HIPAA-compliant video conferencing tool. Implement automated reminders for appointments via email and SMS. Allow for pre-appointment questionnaires and secure document uploads (e.g., lab results). Process payments securely using a PCI-compliant gateway, with options for insurance information capture for later billing. Provide a dashboard for healthcare providers to manage their schedules, view patient information, and conduct virtual consultations. Include a feature for patients to rate their consultation experience. Develop a secure messaging system between patients and providers for follow-up questions. Ensure all communication and data storage adhere to strict privacy regulations like HIPAA. Add a patient portal feature where they can view consultation summaries, prescribed treatments, and follow-up instructions. Support multi-specialty practices and allow for group therapy session bookings. Include comprehensive reporting on appointment volume, consultation duration, and patient satisfaction. Integrate with existing EHR systems to update patient records automatically after sessions. Include a robust patient consent management system for data sharing and telehealth services."
+        }
+      ]
+    },
+    {
+      "title": "Enhance your healthcare e-commerce platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with a CRM system to manage customer relationships and track sales interactions.",
+          "title": "CRM Integration"
+        },
+        {
+          "prompt": "Implement a machine learning model for personalized product recommendations based on patient history or common co-morbidities.",
+          "title": "AI-Powered Personalization"
+        },
+        {
+          "prompt": "Add a module for managing unique patient discounts or insurance-specific pricing rules.",
+          "title": "Dynamic Pricing Engine"
+        },
+        {
+          "prompt": "Develop a feature for live chat or integrated helplines directly within the e-commerce platform.",
+          "title": "Real-time Support"
+        },
+        {
+          "prompt": "Include advanced analytics and reporting dashboards specifically for regulatory compliance reporting (e.g., FDA reports).",
+          "title": "Compliance Reporting Dashboards"
+        },
+        {
+          "prompt": "Build a secure patient portal for managing profiles, prescriptions, order history, and direct communication with providers.",
+          "title": "Dedicated Patient Portal"
+        },
+        {
+          "prompt": "Add capabilities for managing product recalls, notifying affected customers, and processing returns efficiently.",
+          "title": "Product Recall Management"
+        },
+        {
+          "prompt": "Implement a robust security audit trail for all sensitive data access and modifications to ensure compliance.",
+          "title": "Audit Logging and Security"
+        },
+        {
+          "prompt": "Integrate with supply chain management (SCM) systems for real-time inventory synchronization and automated procurement.",
+          "title": "Advanced SCM Integration"
+        }
+      ]
+    },
+    {
+      "title": "Key features for healthcare e-commerce",
+      "type": "features",
+      "items": [
+        {
+          "description": "Ensure adherence to HIPAA, FDA, and other healthcare regulations for data and product handling.",
+          "icon": "🛡️",
+          "title": "Regulatory Compliance Modules"
+        },
+        {
+          "description": "Securely manage patient information, prescriptions, and order history with robust encryption.",
+          "icon": "🔒",
+          "title": "Secure Patient Data Handling"
+        },
+        {
+          "description": "Process orders, manage inventory with batch/lot tracking, and handle returns efficiently.",
+          "icon": "📦",
+          "title": "Advanced Order & Inventory Management"
+        },
+        {
+          "description": "Integrate with existing EHR, pharmacy systems, and billing software for seamless data flow.",
+          "icon": "🔗",
+          "title": "System Interoperability"
+        },
+        {
+          "description": "Implement flexible pricing, insurance billing, and secure payment gateway integrations.",
+          "icon": "💳",
+          "title": "Sophisticated Payment & Billing"
+        },
+        {
+          "description": "Provide a personalized shopping/service experience for patients and medical professionals.",
+          "icon": "🌐",
+          "title": "Intuitive User Experience"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building healthcare e-commerce with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building complex, compliant healthcare e-commerce can take anywhere from a few days for a core system to a few weeks for a comprehensive solution with deep integrations. Kliv accelerates this significantly compared to traditional development.",
+          "question": "How long does it typically take to build a healthcare e-commerce platform?"
+        },
+        {
+          "answer": "Kliv's platform is designed for rapid development without requiring deep coding knowledge. You specify your compliance needs and functional requirements in natural language, and the AI assists in generating the robust, secure application.",
+          "question": "Do I need to be a healthcare IT expert or a developer to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, security and compliance are paramount. Kliv's generated code can integrate with industry-standard encryption, authentication, and compliance frameworks (like HIPAA-compliant hosting solutions) to ensure your platform meets all required standards.",
+          "question": "Can the platform built with Kliv be HIPAA compliant and secure enough for patient data?"
+        },
+        {
+          "answer": "Absolutely. Systems built with Kliv are highly adaptable. As regulations evolve or your business expands, you can easily modify existing features, add new ones (like telehealth integration or device tracking), and adjust compliance protocols.",
+          "question": "How flexible is the platform for future regulatory changes or business growth?"
+        },
+        {
+          "answer": "Yes, custom solutions built with Kliv can integrate with a wide range of external systems, including EHRs (e.g., Epic, Cerner), practice management software, payment gateways, and shipping APIs via their respective APIs.",
+          "question": "Can the custom e-commerce system integrate with our existing Electronic Health Records (EHR) or other medical software?"
+        },
+        {
+          "answer": "While the initial investment for a custom build can be higher than a basic SaaS subscription, the total cost of ownership is often lower. You avoid recurring, escalating monthly fees and gain a precisely tailored system that drives efficiency, leading to significant long-term savings.",
+          "question": "Is building a custom healthcare e-commerce more cost-effective than using off-the-shelf solutions?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its data, and the underlying code. Kliv facilitates the creation process, but the intellectual property remains yours, giving you complete control and portability.",
+          "question": "Who owns the intellectual property of the e-commerce platform built on Kliv?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize healthcare commerce?",
+      "type": "cta",
+      "content": "Stop adapting to generic software. Build a secure, compliant, and perfectly tailored e-commerce solution for your healthcare business with Kliv's intelligent platform. Start creating today."
+    }
+  ],
+  "title": "Healthcare E-Commerce Solutions"
+}

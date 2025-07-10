@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a marketing dashboard application that combines data from Google Ads, Facebook Ads, and Google Analytics to show key performance indicators like CPC, impressions, conversions, and ROI in real-time.",
+  "description": "Build custom marketing dashboards to visualize performance and drive growth with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your dashboard",
+    "subtitle": "Gain real-time insights into your marketing performance with custom dashboards tailored to your exact needs.",
+    "title": "Build your own marketing dashboard application"
+  },
+  "metaDescription": "Create powerful, custom marketing dashboards with Kliv. Aggregate data from all your channels, visualize KPIs, and make data-driven decisions to optimize your campaigns and achieve marketing success.",
+  "sections": [
+    {
+      "title": "Why build a custom marketing dashboard?",
+      "type": "text",
+      "content": "In today's fast-paced digital marketing landscape, relying on fragmented data from multiple platforms is a recipe for missed opportunities. Generic analytics tools offer siloed views, preventing marketers from seeing the full picture and identifying true growth drivers.\n\nBuilding your own marketing dashboard means unifying all your data sources into a single, intuitive interface. Say goodbye to endless tab-switching and manual report compilation. With Kliv, you can create a centralized hub that perfectly aligns with your marketing goals, enabling faster, smarter decisions without the limitations or recurring costs of off-the-shelf software."
+    },
+    {
+      "title": "The strategic advantage of custom marketing analytics",
+      "type": "markdown",
+      "content": "## The challenges with off-the-shelf solutions\n\nMany marketers juggle multiple platforms – Google Ads, Facebook Ads, Google Analytics, CRM, email marketing, and more. This often leads to:\n\n- **Fragmented data:** No single source of truth, making it hard to see cross-channel impact.\n- **Generic reporting:** Dashboards that don't prioritize your specific KPIs or business context.\n- **Integration headaches:** Difficulty connecting disparate data sources without custom development.\n- **Steep learning curves:** Wasted time trying to configure complex, bloated software.\n- **Recurring costs:** Expensive subscriptions that don't always justify the limited features.\n\n## Why custom is your competitive edge\n\nThe ability to build a marketing dashboard tailored specifically for your business offers unparalleled advantages:\n\n### Unified data view\nConnect all your marketing channels (paid ads, organic, social, email, CRM) to get a true 360-degree view of your performance. See how each channel influences the others and impacts your bottom line.\n\n### Custom KPIs and metrics\nTrack exactly what matters to your business. Whether it's custom conversion paths, specific customer segments, or blend ROI across channels, a custom dashboard displays the metrics most crucial for your success.\n\n### Real-time visibility\nMonitor campaigns as they happen, allowing for immediate optimization. Spot trends, anomalies, and opportunities faster than ever before, turning insights into immediate action.\n\n### Reduced operational overhead\nEliminate manual data pulling, spreadsheet manipulation, and report creation. Automate data aggregation and visualization, freeing up your team to focus on strategy and execution rather than data wrangling.\n\n### Cost-efficiency and ownership\nAvoid endless monthly subscriptions. A custom dashboard built with Kliv represents a one-time investment in a tool you own, control, and can evolve without vendor lock-in.\n\n## Real-world impact\n\nCustom marketing dashboards are empowering businesses to:\n\n**E-commerce**: Track product-level profitability across all ad platforms, identifying which channels drive the most valuable sales.\n\n**SaaS Companies**: Monitor user acquisition costs (CAC) and customer lifetime value (LTV) in real-time, segmenting by acquisition channel to optimize ad spend.\n\n**Agencies**: Provide clients with transparent, tailored performance reports that pull data directly from their various campaigns into one accessible dashboard.\n\n**Content Publishers**: Analyze content performance metrics like engagement rates by traffic source, informing future content strategy.\n\n## AI makes building simple\n\nBuilding complex data visualization tools used to require specialized data engineers. AI-powered platforms like Kliv democratize this process:\n\n- **Declarative design**: Describe the data you want to see and how you want to see it.\n- **Automated data connectors**: AI assists in setting up integrations to popular marketing APIs.\n- **Intelligent visualization**: Get suggestions for charts and graphs that best represent your data.\n- **Interactive prototypes**: See your dashboard come to life quickly and iterate with ease.\n\nInstead of adapting to rigid dashboard templates, build a tool that truly reflects your marketing strategy. With Kliv, you can begin designing your bespoke marketing intelligence hub today."
+    },
+    {
+      "title": "Marketing dashboard ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Combine performance from paid search and social campaigns",
+          "prompt": "Create a cross-channel paid advertising dashboard showing spend, impressions, clicks, conversions, CPC, and CPA from Google Ads, Facebook Ads, and LinkedIn Ads, with trend lines over time.",
+          "title": "Paid Ads Performance Overview"
+        },
+        {
+          "description": "Track website traffic sources and engagement metrics",
+          "prompt": "Build a website analytics dashboard displaying unique visitors, page views per session, bounce rate, average session duration, and top traffic channels from Google Analytics data, with segmentation options.",
+          "title": "Website Traffic & Engagement"
+        },
+        {
+          "description": "Monitor lead generation from different marketing efforts",
+          "prompt": "Design a lead generation dashboard that pulls lead counts, conversion rates, and cost per lead from CRM (e.g., Salesforce) and marketing automation (e.g., HubSpot), broken down by source campaign.",
+          "title": "Lead Generation Dashboard"
+        },
+        {
+          "description": "Visualize your marketing funnel's efficiency",
+          "prompt": "Develop a marketing funnel dashboard that tracks users through awareness, consideration, and conversion stages, showing conversion rates between each step and identifying bottlenecks.",
+          "title": "Marketing Funnel Analysis"
+        },
+        {
+          "description": "See the impact of content on engagement and conversions",
+          "prompt": "Create a content marketing performance dashboard displaying post views, social shares, comments, and lead conversions associated with specific content pieces, integrated with blog analytics and a CRM.",
+          "title": "Content Performance Tracker"
+        },
+        {
+          "description": "Evaluate email campaign effectiveness",
+          "prompt": "Build an email marketing dashboard showing open rates, click-through rates, unsubscribe rates, and conversion metrics for individual campaigns and overall email list health, pulling data from an email platform like Mailchimp or SendGrid.",
+          "title": "Email Campaign Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your marketing dashboard",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate CRM data like sales cycles and customer lifetime value to link marketing efforts directly to revenue.",
+          "title": "Add CRM integration"
+        },
+        {
+          "prompt": "Implement predictive analytics to forecast future performance and identify potential challenges or opportunities.",
+          "title": "Include predictive analytics"
+        },
+        {
+          "prompt": "Set up automated alerts for significant changes in KPIs (e.g., sudden drop in CTR, spike in CPA) delivered via email or Slack.",
+          "title": "Configure real-time alerts"
+        },
+        {
+          "prompt": "Add the ability to drill down into specific campaigns, ad sets, or keywords for more granular analysis.",
+          "title": "Enable drill-down functionality"
+        },
+        {
+          "prompt": "Incorporate competitive intelligence data to benchmark your performance against competitors.",
+          "title": "Integrate competitive data"
+        },
+        {
+          "prompt": "Develop user role-based access so different teams (e.g., paid media, SEO, content) see only relevant data.",
+          "title": "Implement user roles and permissions"
+        },
+        {
+          "prompt": "Add custom date range selectors and comparison features to analyze performance over different periods.",
+          "title": "Add flexible date range selection"
+        },
+        {
+          "prompt": "Create automated weekly or monthly summary reports that can be exported as PDFs or sent via email to stakeholders.",
+          "title": "Generate automated reports"
+        },
+        {
+          "prompt": "Integrate with project management tools to link marketing performance data directly to ongoing tasks and initiatives.",
+          "title": "Connect to project management tools"
+        }
+      ]
+    },
+    {
+      "title": "Key dashboard capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Seamlessly pull data from marketing platforms like Google Ads, Facebook Ads, Google Analytics, and CRMs.",
+          "icon": "🔗",
+          "title": "Multi-source data integration"
+        },
+        {
+          "description": "Visualize your data with interactive charts, graphs, tables, and custom KPIs for clear insights.",
+          "icon": "📊",
+          "title": "Customizable data visualization"
+        },
+        {
+          "description": "Create segments and filters to analyze performance by channel, campaign, audience, or any other dimension.",
+          "icon": "🔍",
+          "title": "Advanced filtering & segmentation"
+        },
+        {
+          "description": "Schedule automated data refreshes and report generation to keep stakeholders informed.",
+          "icon": "⏰",
+          "title": "Automated reporting"
+        },
+        {
+          "description": "Access your marketing performance data from any device, anywhere, securely.",
+          "icon": "📱",
+          "title": "Mobile-ready access"
+        },
+        {
+          "description": "Set up custom alerts for critical performance changes, ensuring no opportunity is missed.",
+          "icon": "🚨",
+          "title": "Real-time alerts & notifications"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic marketing dashboard pulling data from 2-3 sources can be fully functional within hours to a couple of days. More complex dashboards with advanced analytics and numerous integrations might take a bit longer, but often still within a week.",
+          "question": "How quickly can I build a marketing dashboard with Kliv?"
+        },
+        {
+          "answer": "No coding is required. Kliv’s AI understands your natural language commands to set up data connectors, design visuals, and define metrics. You describe the dashboard you envision, and the AI helps bring it to life.",
+          "question": "Do I need to be a developer or data scientist?"
+        },
+        {
+          "answer": "Kliv provides robust options for connecting to major marketing platforms like Google Ads, Facebook Ads, Google Analytics, Bing Ads, CRM systems (Salesforce, HubSpot), email marketing platforms (Mailchimp), and more, usually via their APIs or direct database connections.",
+          "question": "What marketing platforms can I integrate with my dashboard?"
+        },
+        {
+          "answer": "You own 100% of the built application, including its source code and data. This means complete control, no vendor lock-in, and the freedom to host and modify it as your business evolves.",
+          "question": "Who owns the dashboard application and its data?"
+        },
+        {
+          "answer": "Custom dashboards built with Kliv typically result in significant long-term cost savings compared to continually paying for expensive, feature-limited SaaS tools. You invest once in a solution tailored exactly to your needs.",
+          "question": "How does the cost compare to off-the-shelf dashboard tools?"
+        },
+        {
+          "answer": "Yes, absolutely. Marketing needs change constantly. Your custom dashboard is fully adaptable. You can add new data sources, analytics, visualizations, or features whenever your strategy evolves, directly within the Kliv platform.",
+          "question": "Can I modify or expand the dashboard after it's built?"
+        },
+        {
+          "answer": "Since you control the hosting and data flow, you can implement enterprise-grade security protocols tailored to your specific compliance needs, often making it more secure than relying on a third-party vendor's security measures.",
+          "question": "Is a custom dashboard secure for handling sensitive marketing data?"
+        },
+        {
+          "answer": "Kliv's platform includes AI-powered assistance for troubleshooting, optimization, and feature expansion. Additionally, because you own the code, you can leverage any development resources you choose for ongoing maintenance or advanced customization.",
+          "question": "What kind of support is available for maintaining my dashboard?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unify your marketing data?",
+      "type": "cta",
+      "content": "Stop sifting through scattered reports. Build a marketing dashboard that gives you clear, actionable insights and empowers your growth strategy."
+    }
+  ],
+  "title": "Marketing Dashboard Application"
+}

@@ -1,0 +1,150 @@
+{
+  "defaultPrompt": "Create an AI-powered system for medication recycling and disposal that identifies usable medications, tracks inventory, ensures compliance, and provides secure disposal options.",
+  "description": "Build custom AI-powered applications for medication recycling and safe disposal with Kliv's platform.",
+  "hero": {
+    "cta": "Start building now",
+    "subtitle": "Leverage AI to create intelligent systems for medication recycling, inventory management, and secure disposal, improving public health and safety.",
+    "title": "Build your own AI-powered Medication Recycling & Disposal Platform"
+  },
+  "metaDescription": "Develop custom AI-driven solutions for medication recycling and disposal with Kliv. Enhance safety, streamline processes, and ensure regulatory compliance.",
+  "sections": [
+    {
+      "title": "The growing need for intelligent medication management",
+      "type": "text",
+      "content": "Millions of pounds of unused or expired medications are improperly disposed of each year, leading to environmental contamination and public health risks. While existing systems offer solutions, they often lack the intelligence and efficiency needed to scale.\n\nTraditional methods for medication collection, sorting, and redistribution are resource-intensive and prone to human error. There's a critical need for smarter, AI-driven solutions that can accurately identify usable drugs, manage complex inventories, and ensure strict regulatory compliance, all while safeguarding public health and the environment."
+    },
+    {
+      "title": "Why custom AI is essential for medication recycling & disposal",
+      "type": "markdown",
+      "content": "## The challenges of current systems\n\nExisting medication recycling and disposal programs, while valuable, often face significant hurdles:\n\n- **Manual identification and sorting:** Time-consuming and error-prone process for distinguishing usable from unusable medications.\n- **Inventory complexity:** Managing diverse drug types, expiration dates, and donor/recipient details is difficult without advanced tools.\n- **Regulatory compliance:** Navigating a labyrinth of local, state, and federal regulations for handling and disposing of controlled substances and pharmaceuticals.\n- **Security and accountability:** Ensuring chain of custody and preventing diversion of medications.\n- **Scalability:** Difficulty expanding programs without disproportionately increasing operational costs.\n\n## The power of custom AI solutions\n\nBuilding your own AI-powered platform with Kliv offers a transformative approach:\n\n### Intelligent drug identification\nAI can analyze packaging, labels, and chemical properties (when integrated with detection hardware) to quickly and accurately identify medications, assess their usability, and flag controlled substances, vastly accelerating the sorting process.\n\n### Dynamic inventory management\nTrack every single medication from collection to redeployment or disposal. AI can predict demand patterns, optimize storage locations, and automatically flag nearing expirations, minimizing waste and maximizing redistribution opportunities.\n\n### Automated compliance checks\nIntegrate all relevant regulatory databases. Your custom system can automatically verify compliance for each medication based on its type, status, and intended use, generating necessary documentation and audit trails effortlessly.\n\n### Enhanced security and traceability\nImplement robust logging and tracking features. Every step of a medication's journey is recorded, providing full transparency and accountability, crucial for preventing diversion and meeting security protocols.\n\n### Efficient resource allocation\nAI can optimize logistics for collection drives, route planning for disposal, and even predict staffing needs, leading to significant cost savings and better public service.\n\n## Real-world impact\n\nCustom AI solutions are vital for organizations committed to responsible medication management:\n\n**Pharmacies & healthcare facilities**: Automated systems for returns, expired drug handling, and secure destruction, ensuring compliance and reducing internal waste.\n\n**Community collection programs**: Streamlined intake processes, intelligent sorting at collection sites, and real-time inventory updates for redistributed medications.\n\n**Environmental agencies**: Better tracking of pharmaceutical waste, improved data for policy-making, and targeted interventions to reduce environmental contamination.\n\n**Emergency services**: Rapid assessment and secure disposal of medications found at incident sites, protecting first responders and the public.\n\n## Why Kliv for AI-powered solutions?\n\nKliv's platform simplifies the development of complex AI systems, even for those without deep technical expertise. You can describe the nuanced logic required for medication identification, the specific compliance rules, and the multi-step workflows, and our AI assists in bringing your vision to life. This means:\n\n- **Faster deployment**: Go from concept to working system in days or weeks.\n- **Complete customization**: The system is built for your exact needs, not a generic template.\n- **Data ownership**: Your sensitive data remains under your control.\n- **Cost-effectiveness**: Avoid recurring subscriptions and build a lasting asset."
+    },
+    {
+      "title": "Medication recycling and disposal ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a centralized system for managing donations and distribution.",
+          "prompt": "Build an AI-powered medication donation and redistribution platform that identifies usable, non-controlled prescription and over-the-counter drugs, manages inventory across multiple collection points, and matches them with eligible patients or charities.",
+          "title": "Community Medication Redistribution Hub"
+        },
+        {
+          "description": "Automate the process of expired or unusable medication disposal.",
+          "prompt": "Develop an application for secure, compliant disposal of unused or expired medications. It should categorize drugs, generate disposal manifests, track chain of custody, and ensure adherence to DEA and environmental regulations.",
+          "title": "Secure Drug Disposal Management System"
+        },
+        {
+          "description": "Track the journey of medications through a recycling program.",
+          "prompt": "Design a comprehensive medication lifecycle tracking system that uses AI to verify drug authenticity upon intake, monitors storage conditions, records all transfers between parties, and provides an immutable audit trail for every medication until its final disposition.",
+          "title": "Pharmaceutical Lifecycle Tracking Platform"
+        },
+        {
+          "description": "Optimize collection points based on community needs and drug volume.",
+          "prompt": "Create an AI-driven system to identify optimal medication take-back locations and schedules based on demographic data, historical collection volumes, and accessibility, improving community participation and efficiency.",
+          "title": "Optimized Collection Site Planner"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your medication management tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate optical character recognition (OCR) and machine learning to automatically scan and extract information from medication labels and packaging.",
+          "title": "Add AI-driven label scanning"
+        },
+        {
+          "prompt": "Implement a public-facing module allow citizens to easily find the nearest authorized drop-off location for medications, with clear instructions on what can be accepted.",
+          "title": "Develop public drop-off locator"
+        },
+        {
+          "prompt": "Integrate with pharmacy dispensing systems to identify and flag medications that are frequently unused or lead to high waste, informing prevention strategies.",
+          "title": "Connect to pharmacy dispensing data"
+        },
+        {
+          "prompt": "Add a feature for detailed compliance reporting, automatically generating reports required by state and federal agencies for medication handling and disposal.",
+          "title": "Build automated compliance reporting"
+        },
+        {
+          "prompt": "Develop a module that uses predictive analytics to forecast the volume and type of medications expected for disposal or donation based on historical data and demographic trends.",
+          "title": "Incorporate predictive volume forecasting"
+        },
+        {
+          "prompt": "Enable multi-level user authentication with specific roles (e.g., collector, sorter, disposer, auditor) and granular permissions based on regulatory requirements.",
+          "title": "Implement role-based access control"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your medication management platform",
+      "type": "features",
+      "items": [
+        {
+          "description": "AI-powered identification and sorting of medications based on type, expiry, and usability.",
+          "icon": "🧠",
+          "title": "Intelligent Drug Sorter"
+        },
+        {
+          "description": "Real-time tracking of medication inventory, including location, status, and expiration dates.",
+          "icon": "📦",
+          "title": "Dynamic Inventory Management"
+        },
+        {
+          "description": "Automated checks against regulatory databases (DEA, EPA, FDA) for compliant handling and disposal.",
+          "icon": "⚖️",
+          "title": "Regulatory Compliance Engine"
+        },
+        {
+          "description": "Secure digital audit trails and chain-of-custody tracking for every medication item.",
+          "icon": "🔒",
+          "title": "Secure Traceability"
+        },
+        {
+          "description": "Dashboard views with real-time analytics on collection volumes, disposal rates, and compliance status.",
+          "icon": "📊",
+          "title": "Performance Analytics"
+        },
+        {
+          "description": "Automated alert system for expiring medications, compliance issues, or critical inventory levels.",
+          "icon": "🚨",
+          "title": "Automated Alerts"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom medication recycling and disposal system with Kliv can take anywhere from a few days for a basic prototype to several weeks for a comprehensive, production-ready system, depending on complexity and features.",
+          "question": "How long will it take to build a robust medication recycling system?"
+        },
+        {
+          "answer": "Yes, absolutely. Kliv's platform is designed to build highly secure and compliant applications. You maintain full control over data hosting and can implement robust security protocols tailored to healthcare regulations, such as HIPAA.",
+          "question": "Can I ensure data security and compliance (e.g., HIPAA) with a custom-built solution?"
+        },
+        {
+          "answer": "Kliv's platform significantly reduces development time and costs by using AI to generate code. While there's an initial investment, it often proves more cost-effective in the long run compared to recurring SaaS fees, especially for complex or highly specialized needs.",
+          "question": "Is building a custom solution more expensive than using off-the-shelf software?"
+        },
+        {
+          "answer": "Yes, you can integrate with various external systems. This includes government databases for compliance checks, local pharmacy systems, logistics providers for transport, and inventory hardware scanners, via APIs.",
+          "question": "Can the custom system integrate with existing pharmacy systems or regulatory databases?"
+        },
+        {
+          "answer": "Yes, as the owner of the custom application, you have complete control. You can add new features, modify workflows, update compliance rules, or integrate new technologies as your program evolves, without vendor limitations.",
+          "question": "Can the system be easily modified or scaled as our program grows or regulations change?"
+        },
+        {
+          "answer": "While Kliv's AI assists in code generation, you or your team will have full access to the generated code. This means you own the intellectual property and are not locked into any proprietary system.",
+          "question": "Do I own the intellectual property and code generated by Kliv?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform medication management?",
+      "type": "cta",
+      "content": "Create an intelligent, compliant, and efficient system that addresses critical needs in public health and environmental safety. Start building your custom AI solution today."
+    }
+  ],
+  "title": "AI-Powered Medication Recycling & Disposal"
+}

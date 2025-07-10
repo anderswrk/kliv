@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a meeting room scheduling and compliance application that allows users to book rooms, view availability, manage capacity limits, and enforce cleaning protocols.",
+  "description": "Build custom meeting room scheduling and compliance applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start managing rooms",
+    "subtitle": "Optimize space utilization, ensure compliance, and streamline bookings with custom applications designed for your facility management needs.",
+    "title": "Build your own meeting room scheduling and compliance tools"
+  },
+  "metaDescription": "Create powerful meeting room scheduling and compliance tools with Kliv. Enhance facility management, ensure safety, and improve meeting efficiency with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own room scheduling and compliance tool?",
+      "type": "text",
+      "content": "In today's dynamic work environments, managing meeting spaces isn't just about bookings—it's about maximizing efficiency, ensuring health and safety compliance, and providing a seamless experience for every user. Generic, off-the-shelf solutions often fall short, lacking the flexibility to adapt to unique facility layouts, specific regulatory requirements, or organizational workflows.\n\nBuilding a custom application empowers you to create a system that perfectly aligns with your operational realities, integrates with existing infrastructure, and evolves with your needs. With AI-powered development platforms like Kliv, the complexity and cost of creating such tailored solutions have drastically reduced, making true customization an attainable goal."
+    },
+    {
+      "title": "The case for tailored facility management applications",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\n\nMany facility managers face frustrations with commercial meeting room systems that:\n\n- **Lack deep customization**: Unable to incorporate unique room features, specific clean-up schedules, or complex booking rules.\n- **Come with hidden costs**: Recurring subscriptions, per-user fees, and costly integrations add up.\n- **Offer poor data insights**: Limited reporting on room usage, peak times, and compliance adherence.\n- **Struggle with integration**: Difficult to connect with existing HVAC systems, access control, or other building management platforms.\n- **Are not compliant**: May not easily adapt to evolving health codes, capacity restrictions, or specialized usage policies (e.g., hazmat rooms, quiet zones).\n\n## Why a custom solution is a strategic advantage\n\nThe advent of AI-driven development has transformed how businesses approach software. Building your own facility management tools offers compelling benefits:\n\n### Precise fit for your environment\nEvery building is unique. A custom application can model your exact floor plans, room types (e.g., huddle rooms, conference halls, private offices), equipment available, and specific usage policies. This ensures accurate bookings and resource allocation.\n\n### Dynamic compliance enforcement\nFrom social distancing protocols to post-meeting cleaning requirements, compliance needs are constantly changing. Your custom tool can dynamically enforce these rules, automatically flag violations, and generate compliance reports, providing peace of mind and reducing risk.\n\n### Optimized space utilization\nGain granular insights into how your spaces are truly being used. Identify underutilized rooms, popular times, and resource bottlenecks to make data-driven decisions on facility layouts, resource allocation, and future investments.\n\n### Seamless integration\nIntegrate directly with your building management systems, access control, calendar platforms (Outlook, Google Calendar), and even HVAC or lighting controls. Imagine a system that automatically adjusts room temperature for a scheduled meeting or turns off lights upon vacancy.\n\n### Cost efficiency and ownership\nMove away from endless subscription fees to a one-time development investment. You own the software, the data, and the flexibility to modify it without vendor lock-in or additional licensing costs.\n\n## Real-world impact\n\nCustom meeting room management tools can revolutionize operations:\n\n**Corporate Campuses**: Automated booking, integrated visitor management, and compliance checks for daily capacity limits.\n\n**Educational Institutions**: Schedule lecture halls and study rooms, manage equipment checkout (projectors, whiteboards), and track student usage patterns.\n\n**Healthcare Facilities**: Coordinate consultation rooms, specialized equipment usage, and enforce strict sanitation protocols between appointments.\n\n**Co-working Spaces**: Members can book hot desks, meeting rooms, and amenities, with integrated billing and usage reports for operators.\n\n## AI empowers your vision\n\nBuilding sophisticated applications once required dedicated development teams. Kliv's AI platform changes this paradigm:\n\n- **Natural language interface**: Describe your room types, rules, and desired features in plain English.\n- **Rapid prototyping**: See functional prototypes of your booking system, compliance dashboards, and user interfaces almost instantly.\n- **Intelligent suggestions**: AI assists by recommending optimal database structures, API integrations, and user experience flows.\n- **Automated quality assurance**: Built-in checks ensure your application is robust and reliable.\n\n## Shape your ideal space\n\nDon't settle for a system that almost works. Build a meeting room scheduling and compliance application that perfectly fits your facility, enhances operational efficiency, and ensures a safer, more productive environment. With Kliv, your vision for smarter facility management becomes a tangible reality."
+    },
+    {
+      "title": "Room management ideas to inspire your build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Smart booking system that adjusts availability based on cleaning schedules",
+          "prompt": "Create a meeting room booking system that shows real-time availability, allows users to book rooms, and automatically reserves 30 minutes after each booking for cleaning crew allocation, marking the room unavailable during that time.",
+          "title": "Dynamic cleaning-aware scheduler"
+        },
+        {
+          "description": "Enforce maximum occupancy and track utilization",
+          "prompt": "Build an application to manage meeting room capacity, allowing users to book a room only if the number of attendees is below the set maximum capacity for that room. Include a dashboard to show historic room occupancy rates.",
+          "title": "Capacity-controlled booking tool"
+        },
+        {
+          "description": "Integrate with access control and equipment management",
+          "prompt": "Develop a system where booking a meeting room automatically grants temporary access to attendees via their badges, and also reserves specific equipment like projectors or video conference units available in that room.",
+          "title": "Integrated room & resource manager"
+        },
+        {
+          "description": "Monitor and report on compliance for health and safety",
+          "prompt": "Design a facility management tool to log and report on cleaning schedules for meeting rooms, track incidents of non-compliance (e.g., rooms booked over capacity), and send alerts to facility staff for required actions.",
+          "title": "Compliance tracking & reporting system"
+        },
+        {
+          "description": "Personalized wayfinding and meeting notifications",
+          "prompt": "Create an app that not only books rooms but also sends personalized push notifications to attendees with wayfinding instructions to the meeting room 15 minutes before the start time.",
+          "title": "Smart meeting assistant"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your facility management application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for users to report maintenance issues directly from the room booking interface, including photo uploads.",
+          "title": "Integrate maintenance reporting"
+        },
+        {
+          "prompt": "Implement a QR code system for each room. Scanning the QR code allows users to quickly check in/out of a room and view its current status.",
+          "title": "Add QR code room check-in"
+        },
+        {
+          "prompt": "Include a feature to analyze the optimal number of meeting rooms based on historical booking data and employee growth projections.",
+          "title": "Add space optimization analytics"
+        },
+        {
+          "prompt": "Connect the room booking system with smart building sensors to automatically adjust lighting and temperature when a meeting starts or ends.",
+          "title": "Automate environmental controls"
+        },
+        {
+          "prompt": "Develop an administrative dashboard that displays real-time room usage, upcoming bookings, and a heatmap of facility activity.",
+          "title": "Build a facility overview dashboard"
+        },
+        {
+          "prompt": "Implement an API endpoint that allows other internal systems (e.g., HR, project management) to query room availability and make bookings.",
+          "title": "Create external API access"
+        },
+        {
+          "prompt": "Add a user feedback mechanism to rate meeting rooms and report on amenity functionality (e.g., projector working, reliable Wi-Fi).",
+          "title": "Incorporate user feedback"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Meeting Room Management",
+      "type": "features",
+      "items": [
+        {
+          "description": "Intuitive calendar interface for viewing and booking available rooms.",
+          "icon": "📅",
+          "title": "Real-time availability"
+        },
+        {
+          "description": "Set and enforce rules for capacity, cleaning buffers, and special usage types.",
+          "icon": "✅",
+          "title": "Configurable compliance rules"
+        },
+        {
+          "description": "Detailed metrics on room utilization, peak times, and compliance adherence.",
+          "icon": "📈",
+          "title": "Comprehensive analytics"
+        },
+        {
+          "description": "Connect with existing calendars, access control, and building management systems.",
+          "icon": "🔗",
+          "title": "Seamless integrations"
+        },
+        {
+          "description": "Send automated reminders, booking confirmations, and cleaning notifications.",
+          "icon": "🔔",
+          "title": "Automated notifications"
+        },
+        {
+          "description": "Create customizable room types, equipment lists, and facility layouts.",
+          "icon": "⚙️",
+          "title": "Flexible room configuration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic meeting room scheduling application can be functional within hours or a few days. More complex systems with advanced compliance features and integrations might take a few weeks to fully refine.",
+          "question": "How long does it take to develop a custom room scheduling system?"
+        },
+        {
+          "answer": "No, Kliv allows you to describe your application's requirements in plain language. The AI guides you through the development process, automating the code generation and infrastructure setup.",
+          "question": "Do I need programming skills to build this type of application?"
+        },
+        {
+          "answer": "Absolutely. Kliv-built applications are designed to easily integrate with your existing systems (e.g., Microsoft 365, Google Workspace, facility management software, access control systems) via APIs.",
+          "question": "Can the custom application integrate with my existing IT infrastructure?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and all data generated. Kliv provides the platform for creation; your intellectual property remains yours.",
+          "question": "Who owns the intellectual property of the application I build?"
+        },
+        {
+          "answer": "Custom-built applications often result in significant long-term savings by eliminating recurring SaaS subscription fees, licensing costs, and vendor lock-in. You pay for the development once and own the asset.",
+          "question": "How does the cost compare to off-the-shelf room scheduling software?"
+        },
+        {
+          "answer": "Yes, our applications are cloud-native and designed for scalability. As your organization grows or your facility needs change, you can easily add new features, rooms, or adjust capacity rules.",
+          "question": "Is the application scalable and adaptable to future needs?"
+        },
+        {
+          "answer": "Yes, you have complete control over data storage and security protocols. This allows you to implement configurations that meet your organization's specific compliance and security standards, often surpassing generic SaaS offerings.",
+          "question": "How secure are custom-built applications for sensitive facility data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your bespoke facility management solution?",
+      "type": "cta",
+      "content": "Take control of your spaces. Create a meeting room scheduling and compliance application that meets your exact needs, powered by AI development."
+    }
+  ],
+  "title": "Meeting Room Scheduling & Compliance"
+}

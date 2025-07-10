@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a web-based virtual machine platform that allows users to spin up isolated development environments directly in their browser, with access management and persistent storage.",
+  "description": "Build custom web-based virtual machine platforms with Kliv. Provide on-demand, isolated development or testing environments directly in the browser.",
+  "hero": {
+    "cta": "Start Building Your Virtual Environments",
+    "subtitle": "Provide instant, browser-accessible virtual environments for development, testing, or education, tailored precisely to your needs.",
+    "title": "Build Your Own Web-Based Virtual Machine Platform"
+  },
+  "metaDescription": "Create powerful web-based virtual machine platforms with Kliv. Offer secure, isolated, and highly customizable browser-based development or testing environments for your users.",
+  "sections": [
+    {
+      "title": "Why Develop a Custom Web-Based VM Platform?",
+      "type": "text",
+      "content": "The demand for instant, isolated computing environments accessible from anywhere is growing. From online coding academies to enterprise development teams needing standardized sandboxes, generic cloud offerings often fall short on customization, cost-efficiency, or specific feature sets.\n\nBuilding your own web-based virtual machine platform gives you unparalleled control over the user experience, underlying infrastructure, and cost model. Avoid vendor lock-in and tailor the environment to perfectly match your unique use case, whether it's for education, secure testing, or rapid prototyping."
+    },
+    {
+      "title": "The Case for Custom Web-Based Virtualization",
+      "type": "markdown",
+      "content": "## Standardized Environments, Everywhere\n\nThe ability to provide a consistent, pre-configured development or execution environment directly in a browser simplifies onboarding, reduces 'it works on my machine' issues, and ensures all users are working with the same setup. This is invaluable for:\n\n*   **Online Education**: Offer hands-on coding, data science, or cybersecurity labs with zero setup time for students.\n*   **Software Demos**: Provide live, interactive product demonstrations without installation hassles.\n*   **Secure Sandboxes**: Isolate untrusted code execution or sensitive data processing in a controlled environment.\n*   **Automated Testing**: Run integration or end-to-end tests quickly in disposable, identical VMs.\n*   **Internal Tooling**: Give internal teams quick access to specific tools or legacy systems without local installs.\n\n## Limitations of Off-the-Shelf Solutions\n\nExisting cloud VM services or browser-based IDEs often have limitations:\n\n*   **Fixed Configurations**: Limited choices for OS, software stacks, or resource allocation.\n*   **Cost Overruns**: Pay-per-use models can become unpredictable and expensive for continuous use or many users.\n*   **Limited Customization**: Difficulty integrating with private repos, internal APIs, or specific authentication systems.\n*   **Vendor Lock-in**: Migrating data or user configurations can be complex if you decide to switch providers.\n*   **Generically Secure**: Security models might not align with your specific compliance requirements.\n\n## The Advantages of Building Your Own\n\nKliv enables you to craft a web-based VM solution that precisely fits your operational needs:\n\n### Total Control & Customization\n\nDefine base images, pre-install software, configure network access, and integrate with your existing user management systems. Tailor the entire experience from start to finish.\n\n### Optimized Resource Management\n\nAllocate resources (CPU, RAM, storage) dynamically per user or project. Implement intelligent shutdown policies to minimize idle costs. Pay for exactly what you use, how you use it.\n\n### Enhanced Security & Isolation\n\nDesign your isolation boundaries. Implement granular access controls, network segregation, and data persistence policies to meet strict security and compliance standards.\n\n### Seamless Integration\n\nConnect your VM platform with your existing CI/CD pipelines, internal APIs, user directories (e.g., LDAP, OAuth), and data storage solutions. Create a truly unified ecosystem.\n\n### Superior User Experience\n\nOffer a simplified, branded interface for users to launch and manage their environments. Pre-configure projects, provide auto-save features, and offer a truly seamless in-browser experience.\n\n## Getting Started\n\nBuilding a custom web-based VM platform once required specialized DevOps and virtualization expertise. With Kliv, you can architect and deploy such a system by describing your requirements. Focus on the user experience and functionality your platform needs, and let AI assist in generating the underlying infrastructure and application logic."
+    },
+    {
+      "title": "Web-Based VM Platform Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Provide a secure, pre-configured Linux instance for cybersecurity training.",
+          "prompt": "Create an in-browser Linux terminal environment with common cybersecurity tools pre-installed (e.g., Wireshark, Nmap) for a training platform. Users should have root access but environments reset after session end.",
+          "title": "Cybersecurity Training Labs"
+        },
+        {
+          "description": "Offer isolated, collaborative coding environments for educational purposes.",
+          "prompt": "Build a web-based coding environment that supports Python and Node.js. It needs real-time collaboration features, file persistence per user, and the ability to run code directly in the browser.",
+          "title": "Online Code Editor for Education"
+        },
+        {
+          "description": "Enable instant, disposable environments for testing web applications.",
+          "prompt": "Develop a platform that spins up isolated web server environments (e.g., Apache, Nginx) for testing web application deployments. Each environment should have unique public URLs and disappear after 2 hours of inactivity.",
+          "title": "Disposable Web Test Sandboxes"
+        },
+        {
+          "description": "Deliver a consistent setup for internal developer onboarding.",
+          "prompt": "Create a standardized development environment in the browser for new hires, pre-loaded with our company's specific IDE configuration, Git repositories cloned, and dependency managers installed. Allow persistent storage for user files.",
+          "title": "Developer Onboarding Environments"
+        },
+        {
+          "description": "Run untrusted user-submitted code in a secure, isolated sandbox.",
+          "prompt": "Design a system that takes arbitrary Python code submitted via an API, executes it in a highly isolated, ephemeral container, captures stdout/stderr, and returns the output, ensuring no side effects on the host.",
+          "title": "Secure Code Execution Sandbox"
+        },
+        {
+          "description": "Provide a browser-accessible environment for data analysis tools.",
+          "prompt": "Build an online platform featuring Jupyter notebooks with pre-installed data science libraries (Pandas, NumPy, Matplotlib, Scikit-learn). Users should be able to upload data, save notebooks, and share results.",
+          "title": "Browser-Based Data Science Workstation"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for Your VM Platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add functionality for users to upload and download files directly to/from their virtual environments via the browser interface.",
+          "title": "File Upload/Download Interface"
+        },
+        {
+          "prompt": "Implement a real-time collaborative editing feature within the code editor of the virtual environment, similar to Google Docs.",
+          "title": "Real-time Collaboration"
+        },
+        {
+          "prompt": "Integrate with a version control system (e.g., GitHub, GitLab) to allow users to clone repositories and push changes directly from their VM.",
+          "title": "Version Control Integration"
+        },
+        {
+          "prompt": "Develop a dashboard for administrators to monitor active sessions, resource usage, and manage user permissions for virtual environments.",
+          "title": "Admin Monitoring Dashboard"
+        },
+        {
+          "prompt": "Add support for multiple operating system base images (e.g., Ubuntu, Debian, CentOS) that users can select when creating a new environment.",
+          "title": "Multi-OS Support"
+        },
+        {
+          "prompt": "Create a template system where administrators can define and share pre-configured environment snapshots for specific projects or courses.",
+          "title": "Environment Templates"
+        },
+        {
+          "prompt": "Implement automatic saving and periodic backups of user files within their persistent virtual environments.",
+          "title": "Automatic File Persistence & Backup"
+        },
+        {
+          "prompt": "Add a billing and usage tracking module to monitor resource consumption per user or project and generate invoices.",
+          "title": "Usage-Based Billing Module"
+        },
+        {
+          "prompt": "Enable direct SSH access to the underlying virtual machines for advanced users.",
+          "title": "Direct SSH Access Option"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities for Your Platform",
+      "type": "features",
+      "items": [
+        {
+          "description": "Launch isolated virtual environments with specific operating systems and software stacks.",
+          "icon": "🚀",
+          "title": "On-Demand Environment Provisioning"
+        },
+        {
+          "description": "Grant granular access control to environments and resources based on user roles.",
+          "icon": "🔒",
+          "title": "Robust Access Management"
+        },
+        {
+          "description": "Access fully functional terminals, code editors, and GUIs directly in the browser.",
+          "icon": "💻",
+          "title": "Browser-Based Interface"
+        },
+        {
+          "description": "Save user data and configurations for continuity across sessions or provide ephemeral sandboxes.",
+          "icon": "💾",
+          "title": "Persistent & Ephemeral Storage"
+        },
+        {
+          "description": "Configure CPU, RAM, and disk space for each virtual machine to optimize cost and performance.",
+          "icon": "⚙️",
+          "title": "Resource Customization"
+        },
+        {
+          "description": "Integrate with external APIs, cloud storage, and existing authentication systems.",
+          "icon": "🔗",
+          "title": "Seamless Third-Party Integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building on Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The time varies based on complexity. A basic web-based terminal can be functional in hours. A full-fledged platform with user management, custom images, and billing might take a few days of iterative development.",
+          "question": "How quickly can I build a web-based VM platform using Kliv?"
+        },
+        {
+          "answer": "No deep knowledge of virtualization or operating systems is required. Kliv's AI assists in configuring the underlying components. You define the user experience and environmental requirements.",
+          "question": "Do I need to be a virtualization expert or DevOps engineer?"
+        },
+        {
+          "answer": "Yes, your platform can integrate with a wide range of services including cloud providers (AWS, Azure, GCP for infrastructure), identity providers (OAuth, LDAP), and CI/CD tools (Jenkins, GitLab CI).",
+          "question": "Can the platform integrate with my existing cloud infrastructure or services?"
+        },
+        {
+          "answer": "You own the complete codebase and deployment configuration. This means you have full control over data security, compliance, and where your data resides, unlike SaaS solutions.",
+          "question": "Who owns the data and the generated platform code?"
+        },
+        {
+          "answer": "Instead of recurring subscriptions, you make a one-time investment in developing your platform. This often leads to significant cost savings long-term, especially with custom resource management.",
+          "question": "How does the cost compare to using commercial web-based VM services?"
+        },
+        {
+          "answer": "Absolutely. You can modify any aspect of the platform after it's built – add new features, adjust resource allocations, change the UI, or integrate new services – as your needs evolve.",
+          "question": "Is the built platform flexible and modifiable after initial deployment?"
+        },
+        {
+          "answer": "Kliv provides tools for building secure applications with robust access controls and isolated environments. You control the deployment and network configuration, enhancing overall security.",
+          "question": "What about security? Are environments truly isolated and secure?"
+        },
+        {
+          "answer": "Kliv offers AI-powered assistance during development, intelligent suggestions, and debugging tools. Since you own the code, you also have the flexibility to bring in any external support if needed.",
+          "question": "What kind of support is available if I encounter issues during development or after deployment?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Launch Your Custom Virtual Environments?",
+      "type": "cta",
+      "content": "Stop adapting to rigid third-party solutions. Create an intuitive, powerful web-based VM platform tailored exclusively for your users and use cases with Kliv."
+    }
+  ],
+  "title": "Web-Based Virtual Machine Platforms"
+}

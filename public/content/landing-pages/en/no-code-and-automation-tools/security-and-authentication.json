@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a robust security and authentication system that supports multi-factor authentication, integrates with existing user directories, and provides detailed audit logs for all access events.",
+  "description": "Build custom security and authentication applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Build Your Auth System",
+    "subtitle": "Develop robust, custom security and authentication solutions tailored to your exact needs, powered by Kliv's AI-driven platform.",
+    "title": "Build Your Own Security & Authentication Tools"
+  },
+  "metaDescription": "Create powerful custom security and authentication tools with Kliv. Implement MFA, SSO, role-based access, and detailed logging for your unique applications.",
+  "sections": [
+    {
+      "title": "Why build custom security and authentication?",
+      "type": "text",
+      "content": "In a world where data breaches are daily news, off-the-shelf security solutions often fall short of specific organizational needs. They can be overly complex, lack critical features, or force you to compromise on your security posture.\n\nKliv empowers you to design and deploy bespoke security and authentication systems that perfectly align with your operational requirements and risk tolerance. This isn't about reinventing the wheel, but about building a wheel that fits your vehicle perfectly, rather than trying to adapt a generic one."
+    },
+    {
+      "title": "The case for a tailored approach to security",
+      "type": "markdown",
+      "content": "## The limitations of generic security solutions\n\nMany businesses rely on out-of-the-box authentication providers or generic security plugins. While convenient, these often come with significant drawbacks:\n\n- **One-size-fits-none**: They don't integrate seamlessly with your unique internal systems or custom applications.\n- **Feature bloat/gaps**: You either pay for features you don't need or lack critical functionalities specific to your environment.\n- **Vendor lock-in**: Migrating or adapting to new security standards becomes a complex, costly endeavor.\n- **Data residency and compliance issues**: Generic solutions might not meet strict regulatory requirements for data handling.\n- **Performance overhead**: Unnecessary layers can introduce latency or complicate troubleshooting.\n\n## Why a custom solution offers unparalleled advantages\n\nBuilding your own security and authentication framework with Kliv provides precise control and superior alignment with your business objectives:\n\n### Perfect Integration and Compatibility\nYour custom system can be designed from the ground up to integrate flawlessly with your existing infrastructure, databases, and legacy applications, avoiding brittle connectors or workarounds.\n\n### Tailored Security Policies\nImplement granular access controls, multi-factor authentication (MFA) policies, and password requirements that match your specific risk profile and industry compliance needs, not a generic template.\n\n### Enhanced User Experience\nDesign authentication flows that are intuitive for your users while maintaining high security standards. Minimize friction and reduce support tickets related to complex login procedures.\n\n### Full Data Ownership and Compliance\nControl where your authentication data resides and how it's processed, making it easier to meet stringent regulations like GDPR, HIPAA, or industry-specific standards.\n\n### Cost-Effectiveness in the Long Run\nWhile there's an initial build investment, you eliminate recurring subscription fees for unused features and gain the flexibility to evolve your system without vendor pressure.\n\n### Rapid Adaptability\nAs threats evolve or business needs change, you can quickly modify your custom system. Add new authentication methods, integrate advanced threat detection, or update access rules without waiting for a third-party vendor.\n\n## Real-world security scenarios enabled by custom builds\n\n**Financial Services**: A custom system for secure client portals, incorporating biometric MFA, real-time fraud detection based on behavior, and immutable audit trails for every transaction.\n\n**Healthcare**: Patient record access portals with strict role-based access control (RBAC), secure single sign-on (SSO) for clinicians across multiple internal applications, and HIPAA-compliant logging.\n\n**Manufacturing**: An internal IoT device authentication system that uses unique device IDs, supports certificate-based authentication, and securely registers new devices to the network.\n\n**SaaS Providers**: A custom multi-tenant authentication service that manages customer-specific branding, integrates with their customers' external identity providers (IdPs), and offers flexible subscription-based access tiers.\n\n## Kliv and the future of secure development\n\nKliv's AI-powered platform makes building these sophisticated systems accessible. You define the security parameters, integration points, and user flows in natural language, and the AI helps generate the underlying architecture and code. This accelerates development, reduces human error, and allows security professionals to focus on strategy, not syntax."
+    },
+    {
+      "title": "Security & authentication ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Custom authentication for internal tools with MFA.",
+          "prompt": "Create an authentication system for internal employee applications that uses email/password, supports Google Authenticator for MFA, and integrates with our existing HR database for user provisioning.",
+          "title": "Employee Portal Authentication"
+        },
+        {
+          "description": "Secure access to client data with granular permissions.",
+          "prompt": "Build a secure client login portal that allows customers to view their specific data, implements role-based access for different data types (e.g., invoices vs. support tickets), and includes a password reset flow.",
+          "title": "Client Data Portal Security"
+        },
+        {
+          "description": "Device authentication for IoT or sensor networks.",
+          "prompt": "Develop an authentication service for network-connected smart devices that uses unique device IDs, validates against a central registry, and restricts access based on device type and location.",
+          "title": "IoT Device Authentication"
+        },
+        {
+          "description": "Single Sign-On (SSO) capabilities for a suite of applications.",
+          "prompt": "Design a Single Sign-On (SSO) solution that allows users to access multiple linked web applications after authenticating once, maintaining session security across all applications.",
+          "title": "Application SSO System"
+        },
+        {
+          "description": "Time-based access control for privileged users.",
+          "prompt": "Create an authentication system for administrative users that requires MFA, enforces session timeouts, and restricts access to sensitive systems during non-business hours.",
+          "title": "Privileged Access Management"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your security system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now add support for biometric authentication methods like fingerprint or facial recognition for mobile access.",
+          "title": "Integrate Biometric MFA"
+        },
+        {
+          "prompt": "Add a comprehensive audit logging module that records all login attempts, access failures, and changes to user permissions, storing them securely.",
+          "title": "Implement Detailed Audit Logs"
+        },
+        {
+          "prompt": "Extend the system to support SAML or OAuth2 for integrating with external identity providers (IdPs) like Okta or Azure AD.",
+          "title": "Enable Federated Identity"
+        },
+        {
+          "prompt": "Build an alert system that notifies administrators of unusual login activity, multiple failed login attempts, or accesses from suspicious IP addresses.",
+          "title": "Add Anomaly Detection & Alerts"
+        },
+        {
+          "prompt": "Integrate a CAPTCHA or reCAPTCHA service into the login and registration forms to prevent automated attacks.",
+          "title": "Add Bot Protection"
+        },
+        {
+          "prompt": "Create an administrative dashboard for managing user accounts, roles, and permissions, including tools for revoking access instantly.",
+          "title": "Develop an Admin Panel"
+        }
+      ]
+    },
+    {
+      "title": "Essential Authentication & Security Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Implement multi-factor authentication methods (SMS, TOTP, Email) for enhanced security.",
+          "icon": "🔐",
+          "title": "Multi-Factor Authentication (MFA)"
+        },
+        {
+          "description": "Define granular access rules based on user roles, groups, or attributes.",
+          "icon": "🛂",
+          "title": "Role-Based Access Control (RBAC)"
+        },
+        {
+          "description": "Allow users to log in once for access to multiple integrated applications.",
+          "icon": "✨",
+          "title": "Single Sign-On (SSO)"
+        },
+        {
+          "description": "Encrypt data at rest and in transit, ensuring sensitive information is always protected.",
+          "icon": "🛡️",
+          "title": "Data Encryption"
+        },
+        {
+          "description": "Maintain detailed records of all user authentication and access events for compliance and auditing.",
+          "icon": "📝",
+          "title": "Comprehensive Audit Trails"
+        },
+        {
+          "description": "Integrate with external identity providers or existing user directories (LDAP, Active Directory).",
+          "icon": "🔗",
+          "title": "Directory Synchronization"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom security and authentication system on Kliv typically takes days to weeks, depending on the complexity of your requirements and integrations. This is significantly faster than traditional development methods.",
+          "question": "How long does it take to build a custom security solution?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv utilizes an AI-driven platform where you describe your security needs and integration points in natural language. The AI assists in generating and structuring the application components.",
+          "question": "Do I need to be a security expert or coder to build this?"
+        },
+        {
+          "answer": "Yes, Kliv-built applications are designed for seamless integration. Your custom security tool can connect with existing APIs, databases, external identity providers (like Okta, Azure AD), or even legacy systems.",
+          "question": "Can the custom authentication system integrate with my existing applications?"
+        },
+        {
+          "answer": "You own 100% of the code and the data. Kliv facilitates the building process, but the generated application and all associated data remain under your full control. You decide where it's deployed and stored.",
+          "question": "Who owns the intellectual property and data of the built system?"
+        },
+        {
+          "answer": "While there's an investment in building, a custom system eliminates recurring subscription costs and feature-gating common with SaaS. Over time, it's often more cost-effective, especially for unique or complex needs.",
+          "question": "How does the cost compare to off-the-shelf security products?"
+        },
+        {
+          "answer": "Absolutely. Custom systems offer unparalleled flexibility. You can add new authentication methods, modify access policies, or integrate advanced security features as your requirements or the threat landscape evolves.",
+          "question": "Can I modify or expand the security system after it's built?"
+        },
+        {
+          "answer": "Kliv helps you design secure applications by generating robust, best-practice compliant code. You have explicit control over security configurations, data residency, and compliance frameworks, often leading to a more secure system than generic alternatives.",
+          "question": "How secure are applications built with Kliv?"
+        },
+        {
+          "answer": "Kliv offers documentation, AI-powered debugging and optimization suggestions, and community support. Since you have the full codebase, you also have the freedom to engage any development resources for ongoing maintenance or future enhancements.",
+          "question": "What kind of support is available after the system is deployed?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to fortify your digital perimeter?",
+      "type": "cta",
+      "content": "Stop conforming to generic security solutions. Build a comprehensive, tailored security and authentication system that truly protects your assets."
+    }
+  ],
+  "title": "Custom Security & Authentication Tools"
+}

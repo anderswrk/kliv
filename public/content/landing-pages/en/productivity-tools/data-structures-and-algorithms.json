@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "Create a visualizer for sorting algorithms that allows users to input custom data, adjust animation speed, and compare different sorting methods side-by-side.",
+  "description": "Build custom tools for visualizing, practicing, and mastering data structures and algorithms with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your DSA tool",
+    "subtitle": "Go beyond static textbooks and generic online tools. Build interactive, personalized applications to learn, practice, and master complex computer science concepts.",
+    "title": "Create your own Data Structures & Algorithms (DSA) tool"
+  },
+  "metaDescription": "Design and develop tailored data structures and algorithms tools on Kliv. Enhance your learning, prepare for interviews, and sharpen your coding skills with custom-built interactive applications.",
+  "sections": [
+    {
+      "title": "Why build a custom DSA tool?",
+      "type": "text",
+      "content": "Learning data structures and algorithms is fundamental to computer science and essential for technical interviews. While many online resources exist, they often fall short in offering truly personalized, interactive, or feature-rich experiences. \n\nExisting platforms might limit customization, lack specific visualizations you need, or present information in a way that doesn't click with your learning style. Building your own tool means you can design it to perfectly fit your needs, whether for personal study, teaching, or interview preparation."
+    },
+    {
+      "title": "The power of personalized learning and practice",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf DSA resources\n\nMany developers and students rely on generic platforms that:\n\n- **Lack customization**: You can't adjust parameters, data inputs, or visual representations to deeply understand specific edge cases.\n- **Are static**: Most explainers are text-based or provide pre-recorded animations, missing the hands-on interaction crucial for true comprehension.\n- **Miss specific needs**: If you're focusing on a niche algorithm or a particular data structure's nuances, general tools may not cover it in depth.\n- **Are subscription-based**: High-quality interactive tools often come with recurring costs, limiting accessibility.\n\n## Why a custom-built solution excels\n\nLeveraging Kliv to build your own DSA application provides unparalleled advantages:\n\n### Tailored to your learning style\nSome learn best with visual aids, others with step-by-step breakdowns, and some through active coding. Your custom tool can integrate all these elements, prioritized for how *you* learn.\n\n### Dive into specifics\nFocus on the exact algorithms or data structures you find challenging. Create detailed visualizers for tricky concepts like red-black trees, advanced graph algorithms, or complex dynamic programming problems.\n\n### Active problem-solving\nInstead of just watching, *interact*. Change input sizes, modify constraints, and observe how your custom-built algorithm performs. This active engagement solidifies understanding far more than passive consumption.\n\n### Interview preparation powerhouse\nDevelop targeted practice environments. Simulate interview scenarios by generating specific problem types, tracking your performance, and even visualizing your solution's complexity.\n\n### Teach and share effectively\nBuild intuitive teaching tools. Explain complex ideas clearly to others using highly interactive visual aids that you designed yourself.\n\n### One-time investment, endless utility\nUnlike recurring subscriptions, building your tool with Kliv is a one-time project. You own it, you control it, and it evolves with you.\n\n## Real-world applications of custom DSA tools\n\nCustom DSA applications aren't just for learning; they are powerful development aids:\n\n**Algorithm Research**: Create specialized visualizers to explore the behavior of novel algorithms or variations of existing ones.\n\n**Educational Content Creation**: Develop interactive tutorials or course modules that go beyond static diagrams.\n\n**Debugging Complex Systems**: Visualize how data flows through intricate data structures within your own applications to pinpoint performance issues.\n\n**Competitive Programming**: Build practice environments that simulate contest conditions for specific algorithm types or data structures.\n\n## The AI advantage in building DSA tools\n\nBuilding complex interactive applications used to be a daunting task. Kliv's AI-first approach simplifies it significantly:\n\n- **Visualizer Generation**: Describe the algorithm or data structure, and the AI assists in generating interactive visualizations.\n- **Code Snippet Generation**: Get pre-built or custom code examples for various algorithms in your preferred language.\n- **Performance Analysis**: AI can help integrate tools to measure time and space complexity automatically.\n- **User Interface Design**: Easily design intuitive interfaces for controlling inputs, speed, and views without extensive UI/UX background.\n\nBegin building your ultimate DSA learning and practice companion today. With Kliv, you're not just a user; you're the architect of your own knowledge."
+    },
+    {
+      "title": "DSA tool ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize how various sorting algorithms work step-by-step",
+          "prompt": "Build an interactive sorting algorithm visualizer. Allow users to input custom arrays, choose between Bubble Sort, Merge Sort, Quick Sort, and Heap Sort, and control the animation speed. Display array state after each comparison or swap.",
+          "title": "Sorting Algorithm Visualizer"
+        },
+        {
+          "description": "Explore linked list operations (insert, delete, search)",
+          "prompt": "Create a linked list manipulation tool. Users should be able to add/remove nodes, search for values, and reverse the list, with real-time visual updates showing pointer changes.",
+          "title": "Interactive Linked List Editor"
+        },
+        {
+          "description": "Understand graph traversal (BFS, DFS) and shortest path algorithms",
+          "prompt": "Develop a graph visualizer that lets users draw custom graphs (nodes and edges). Implement BFS and DFS traversal algorithms, highlighting visited nodes and edges. Add Dijkstra's shortest path algorithm with path visualization.",
+          "title": "Graph Traversal & Pathfinding Explorer"
+        },
+        {
+          "description": "Visualize BST insertions, deletions, and search operations",
+          "prompt": "Design a Binary Search Tree (BST) visualizer. Enable users to insert, delete, and search for nodes. Show rebalancing if applicable (e.g., AVL tree), and display pre-order, in-order, and post-order traversals.",
+          "title": "Binary Tree Visualizer"
+        },
+        {
+          "description": "Practice common algorithmic problems with integrated solutions",
+          "prompt": "Build a challenge platform for common data structure and algorithm problems. Users can select a problem type (e.g., array, string, tree), attempt a solution in a code editor, and then view a step-by-step optimized solution with explanations.",
+          "title": "Algorithmic Problem Practice Arena"
+        },
+        {
+          "description": "Simulate and visualize stack/queue operations",
+          "prompt": "Create a visual simulator for Stack and Queue data structures. Users should be able to perform push/pop (stack) and enqueue/dequeue (queue) operations, seeing how elements are added or removed from the data structure, with overflow/underflow alerts.",
+          "title": "Stack & Queue Simulator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your DSA application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to save and load custom data sets for repeated testing of algorithms.",
+          "title": "Add data set persistence"
+        },
+        {
+          "prompt": "Integrate a step-by-step code execution view alongside the visualization, highlighting the active line of code.",
+          "title": "Integrate code-step tracing"
+        },
+        {
+          "prompt": "Include an input field for users to write their own algorithm implementations and visualize their custom code's behavior.",
+          "title": "Allow custom algorithm input"
+        },
+        {
+          "prompt": "Add a comparison mode for algorithms, displaying their performance metrics (time complexity, space complexity) side-by-side with charts.",
+          "title": "Implement algorithm comparison"
+        },
+        {
+          "prompt": "Develop a 'quiz' or 'challenge' mode where the tool generates random problems and evaluates user solutions.",
+          "title": "Add a quiz/challenge mode"
+        },
+        {
+          "prompt": "Enable users to export visualizations as animated GIFs or video files for sharing or presentations.",
+          "title": "Add export options"
+        },
+        {
+          "prompt": "Include voice commentary or text-to-speech explanations for each step of an algorithm's execution.",
+          "title": "Add audio narration"
+        },
+        {
+          "prompt": "Implement user accounts to save progress, preferred settings, and custom exercises.",
+          "title": "Add user accounts and profiles"
+        },
+        {
+          "prompt": "Integrate machine learning to suggest optimal algorithms for given problem constraints or data characteristics.",
+          "title": "Integrate ML-driven suggestions"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your DSA tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Visualize the step-by-step unfolding of algorithms on custom inputs.",
+          "icon": "🖼️",
+          "title": "Interactive Visualizations"
+        },
+        {
+          "description": "Control simulation speed, pause, restart, and step through execution.",
+          "icon": "⏯️",
+          "title": "Execution Control"
+        },
+        {
+          "description": "Support various input types (arrays, graphs, trees) and custom data generation.",
+          "icon": "⌨️",
+          "title": "Custom Data Input"
+        },
+        {
+          "description": "Dynamically measure and display time and space complexity metrics.",
+          "icon": "📈",
+          "title": "Performance Metrics"
+        },
+        {
+          "description": "Built-in code snippets and detailed explanations for various algorithms.",
+          "icon": "📚",
+          "title": "Algorithmic Explanations"
+        },
+        {
+          "description": "Clear display of data structure states at each step of an operation.",
+          "icon": "📸",
+          "title": "Data Structure State Tracking"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional DSA visualizer or practice tool can take anywhere from a few hours for a basic version to a few days for a comprehensive, feature-rich application. Kliv's AI speeds up the initial development significantly.",
+          "question": "How long will it take to build a custom DSA application?"
+        },
+        {
+          "answer": "No deep knowledge of web development or advanced programming is required. Kliv's platform allows you to describe your desired features in natural language, and the AI assists in generating the necessary code and structure.",
+          "question": "Do I need to be an expert programmer to build this type of tool?"
+        },
+        {
+          "answer": "Yes, you can integrate your custom DSA tool with external data sources or APIs if needed, for instance, to fetch common interview questions, integrate with competitive programming platforms, or pull user-contributed solutions.",
+          "question": "Can my custom DSA tool connect to external resources or APIs?"
+        },
+        {
+          "answer": "You own 100% of the code and intellectual property. You can host it yourself, modify it, or even commercialize it. Kliv provides the means to build it; you retain full control.",
+          "question": "Who owns the DSA tool I build on Kliv?"
+        },
+        {
+          "answer": "Building a custom tool avoids recurring subscription fees common with commercial DSA platforms. While there's an initial development effort, it becomes a one-time investment that saves money over time, especially for long-term learning or teaching needs.",
+          "question": "Is building a custom DSA tool more cost-effective than using commercial products?"
+        },
+        {
+          "answer": "Absolutely. The greatest strength of building custom is flexibility. As your learning needs evolve or new algorithms emerge, you can easily add features, modify existing visualizations, or integrate new practice problems.",
+          "question": "Can I modify my DSA tool after it's been built?"
+        },
+        {
+          "answer": "Your app can be as secure as you need it to be. Since you control the deployment environment, you can implement robust security measures, especially if handling user data or sensitive information. Kliv focuses on secure code generation.",
+          "question": "How secure are custom-built DSA applications?"
+        },
+        {
+          "answer": "Kliv provides AI-driven assistance throughout the development process, offering guidance, debugging suggestions, and optimization tips. The platform aims to be intuitive enough that you can largely self-serve, but support resources are available.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master Data Structures and Algorithms?",
+      "type": "cta",
+      "content": "Stop being a passive learner. Build the ultimate interactive DSA companion that truly understands your needs."
+    }
+  ],
+  "title": "Custom Data Structures & Algorithms Tools"
+}

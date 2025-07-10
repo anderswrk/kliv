@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a crypto anomaly detection engine that monitors blockchain transactions, identifies unusual patterns, and alerts me to potential frauds or exploits.",
+  "description": "Build custom crypto anomaly detection engines with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Detecting Anomalies",
+    "subtitle": "Protect your digital assets and identify suspicious activities with custom-built crypto anomaly detection engines.",
+    "title": "Build Your Own Crypto Anomaly Detection Engine"
+  },
+  "metaDescription": "Create powerful crypto anomaly detection solutions with Kliv. Monitor blockchain transactions, identify unusual patterns, and prevent fraud or exploits with custom-built applications.",
+  "sections": [
+    {
+      "title": "The growing need for blockchain security",
+      "type": "text",
+      "content": "The decentralized nature of blockchain offers incredible opportunities, but it also presents unique security challenges. From DeFi exploits and rug pulls to illicit transactions and market manipulation, the crypto space is a prime target for malicious actors. Generic security tools often fall short, failing to keep pace with evolving threats or to provide the granular insights needed for effective protection. \n\nBuilding your own anomaly detection engine provides a tailored defense, allowing you to focus on the specific risks relevant to your operations or investments. You control the detection logic, data sources, and alert mechanisms, ensuring proactive and precise threat identification."
+    },
+    {
+      "title": "Why a custom anomaly detection engine is crucial for crypto",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nExisting crypto security products frequently come with significant drawbacks:\n\n- **Lack of Customization**: They use generic rules that don't capture the nuances of specific protocols, tokens, or use cases.\n- **High Costs**: Subscription models can be expensive, especially for advanced features or high data volumes.\n- **Limited Data Access**: You might not have full access to underlying data or the ability to run complex queries.\n- **Delayed Updates**: Relying on vendors for threat intelligence means you're always a step behind new attack vectors.\n- **Privacy Concerns**: Relinquishing control of your data to third-party services can be a major risk.\n\n## The undeniable advantages of building your own\n\nLeveraging Kliv to build a bespoke anomaly detection engine transforms your security posture:\n\n### Unparalleled Specificity\nYour engine can be trained on your own transaction history, specific contract interactions, or even niche market behaviors, ensuring detections are highly relevant and accurate.\n\n### Real-time Adaptability\nAs soon as a new threat emerges or a protocol upgrade occurs, you can immediately update your detection logic and algorithms without vendor dependencies.\n\n### Cost Efficiency in the Long Run\nInitial development with Kliv is a one-time investment. Avoid recurring subscription fees and gain complete ownership of your security infrastructure.\n\n### Complete Data Sovereignty\nYour sensitive blockchain data stays under your control, reducing exposure to third-party breaches and enhancing compliance.\n\n### Predictive Capabilities\nGo beyond reactive alerts. Analyze historical data to predict potential vulnerabilities or market manipulation attempts before they happen.\n\n## Real-world applications for custom crypto anomaly detection\n\n**DeFi Protocols**: Identify flash loan attacks, liquidity pool manipulations, or suspicious governance votes in real-time.\n\n**Exchange Monitoring**: Detect wash trading, front-running, or large, unusual capital outflows indicative of security breaches.\n\n**Investments & Portfolios**: Alert on sudden, uncharacteristic price movements, large whale transactions affecting your holdings, or unusual activity within token contracts you hold.\n\n**Regulatory Compliance**: Monitor for suspicious transaction patterns that might indicate money laundering, terrorist financing, or sanctions violations, ensuring regulatory adherence.\n\n**NFT Marketplaces**: Highlight 'wash trading' of NFTs, suspicious bulk listings, or unusual transfer patterns that could indicate scams.\n\n## The Kliv edge for security development\n\nBuilding a sophisticated anomaly detection system is no longer confined to expert cybersecurity teams. Kliv's AI-driven approach simplifies the process:\n\n- **Intelligent Prompting**: Describe the anomalies you want to detect, and the AI assists in building the necessary logic.\n- **Component Generation**: Automatically generates code for blockchain data ingestion, pattern recognition, and alerting.\n- **Scalable Infrastructure**: Deploy your engine on a robust, scalable infrastructure capable of handling large volumes of blockchain data.\n- **Iterative Refinement**: Continuously improve your detection models with new data and feedback, enhancing accuracy over time.\n\nStop adapting your security to generic tools. Build a custom crypto anomaly detection engine that truly understands and protects your unique blockchain assets."
+    },
+    {
+      "title": "Anomaly detection ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Detect unusually large or fast transfers from a specific address or contract.",
+          "prompt": "Create an anomaly detection system that monitors transaction volumes for a given DeFi protocol and alerts if a single transfer or a series of transfers within 5 minutes exceeds a predefined threshold (e.g., $10M USD equivalent).",
+          "title": "Large Transaction Spike Detector"
+        },
+        {
+          "description": "Identify rapid, unusual price fluctuations for a token.",
+          "prompt": "Build an engine that monitors the price of a specific ERC-20 token on a decentralized exchange (DEX) and flags any price change greater than 10% within a 60-second window, coupled with a significant increase in trading volume.",
+          "title": "Sudden Token Price Swing Alert"
+        },
+        {
+          "description": "Spot unusual withdrawal patterns from a hot wallet.",
+          "prompt": "Develop an anomaly detector for a crypto exchange hot wallet that learns its typical hourly outflow patterns and sends an urgent alert if total withdrawals in any hour deviate by more than 3 standard deviations from the learned norm, or if withdrawals occur outside of normal business hours.",
+          "title": "Suspicious Wallet Outflow Monitor"
+        },
+        {
+          "description": "Detect repeated, low-value transactions that suggest market manipulation.",
+          "prompt": "Create a wash trading detector for an NFT marketplace that identifies when the same NFT is bought and sold more than 3 times by the same two addresses (or closely related addresses) within a 24-hour period, especially if the price remains relatively stable or increases slightly with each trade.",
+          "title": "NFT Wash Trading Detection"
+        },
+        {
+          "description": "Pinpoint unusual interaction sequences with smart contracts.",
+          "prompt": "Build an anomaly detection tool that monitors interactions with a specific smart contract (e.g., a lending protocol) and flags sequences of calls that are known to be part of flash loan exploits or re-entrancy attacks, even if individual calls appear legitimate.",
+          "title": "Smart Contract Exploit Pattern Recognizer"
+        },
+        {
+          "description": "Identify new or untracked tokens exhibiting suspicious behavior.",
+          "prompt": "Develop a system that scans newly deployed ERC-20 token contracts for common 'honeypot' patterns (e.g., disabling token transfers for others, excessively high taxes for selling, or unverified contract code) and alerts before significant liquidity is added.",
+          "title": "New Token Honeypot Scanner"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your detection engine",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate advanced machine learning models (e.g., Isolation Forest, k-means clustering) for unsupervised anomaly detection on transaction data.",
+          "title": "Add ML-driven Anomaly Detection"
+        },
+        {
+          "prompt": "Implement a real-time alerting system via Telegram, SMS, or email for immediate notification of detected anomalies.",
+          "title": "Configure Multi-Channel Alerts"
+        },
+        {
+          "prompt": "Develop an interactive dashboard to visualize transaction flows, anomaly severity scores, and historical alert trends.",
+          "title": "Build a Visualization Dashboard"
+        },
+        {
+          "prompt": "Add capabilities to automatically pause or blacklist suspicious addresses within your own systems upon high-confidence anomaly detection.",
+          "title": "Implement Automated Response Actions"
+        },
+        {
+          "prompt": "Enable correlation of on-chain data with off-chain indicators (e.g., social media sentiment, news events) to enrich anomaly context.",
+          "title": "Include Off-Chain Context"
+        },
+        {
+          "prompt": "Build a module for forensic analysis, allowing deep dives into detected anomalies to trace funds and identify origins.",
+          "title": "Add Forensic Tracing Capabilities"
+        },
+        {
+          "prompt": "Develop a user interface for human-in-the-loop validation of anomalies, reducing false positives and improving model accuracy over time.",
+          "title": "Create a Validation Interface"
+        },
+        {
+          "prompt": "Extend monitoring to multiple blockchains (e.g., Ethereum, BNB Chain, Polygon) and cross-chain bridges for comprehensive coverage.",
+          "title": "Expand Multi-Chain Monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your detection engine",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect directly to blockchain nodes or APIs for real-time transaction and event streaming.",
+          "icon": "🔗",
+          "title": "Real-time Blockchain Data Ingestion"
+        },
+        {
+          "description": "Define custom rules and algorithms for identifying suspicious patterns and deviations.",
+          "icon": "⚙️",
+          "title": "Configurable Detection Logic"
+        },
+        {
+          "description": "Utilize AI and statistical models to learn normal behavior and flag anomalies automatically.",
+          "icon": "🧠",
+          "title": "AI-Powered Pattern Recognition"
+        },
+        {
+          "description": "Automated alerts via various channels for immediate threat notification.",
+          "icon": "🔔",
+          "title": "Customizable Alerting System"
+        },
+        {
+          "description": "Securely store and query historical blockchain data for retrospective analysis and model training.",
+          "icon": "💾",
+          "title": "Scalable Data Storage"
+        },
+        {
+          "description": "Generate comprehensive reports on detected anomalies, trends, and security posture.",
+          "icon": "📊",
+          "title": "Reporting & Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic crypto anomaly detection engine can take just a few hours with Kliv's intuitive interface. More complex systems with advanced AI or multi-chain support might require several days to a few weeks, depending on your desired sophistication.",
+          "question": "How long does it take to build a crypto anomaly detection engine?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv allows you to describe your desired functionalities in natural language. The AI helps translate these into functional components, making the process accessible even for users without a strong developer background.",
+          "question": "Do I need to be a blockchain developer or security expert?"
+        },
+        {
+          "answer": "Absolutely. You maintain complete ownership and control over your data, your detection logic, and the deployed application. Kliv provides the platform for building, but you own the intellectual property and the operational setup.",
+          "question": "Will I own the anomaly detection engine I build?"
+        },
+        {
+          "answer": "With Kliv, you can connect your engine to various blockchain data providers, including direct node connections, public APIs (e.g., Etherscan, Covalent, The Graph), or commercial data services, depending on your needs for real-time access and data depth.",
+          "question": "How does the engine get blockchain data?"
+        },
+        {
+          "answer": "The cost of building with Kliv is typically a one-time development investment, along with any ongoing infrastructure costs for data storage and compute (which you control). This is often significantly more cost-effective than continuous, high subscription fees for commercial solutions, especially at scale.",
+          "question": "How does the cost compare to existing crypto security solutions?"
+        },
+        {
+          "answer": "Yes, you can continuously refine your detection logic, add new data sources, train new AI models, or integrate with more alerting mechanisms as new threats emerge or your security needs evolve. The platform is designed for iterative improvement.",
+          "question": "Can I update or improve the detection engine after it's built?"
+        },
+        {
+          "answer": "Yes, you can build engines to monitor private or consortium blockchains by connecting to their specific nodes or APIs, provided you have the necessary access permissions.",
+          "question": "Can this be used for enterprise or private blockchain networks?"
+        }
+      ]
+    },
+    {
+      "title": "Fortify your crypto defenses.",
+      "type": "cta",
+      "content": "Don't rely on generic security. Build a precision-engineered crypto anomaly detection engine tailored to your exact needs with Kliv."
+    }
+  ],
+  "title": "Crypto Anomaly Detection Engine"
+}

@@ -1,0 +1,190 @@
+{
+  "defaultPrompt": "I want to create an AI platform development tool that allows users to train custom machine learning models, deploy them as APIs, and monitor their performance in real-time.",
+  "description": "Build custom AI/ML platforms tailored to your data and use cases with Kliv.",
+  "hero": {
+    "cta": "Start building your AI platform",
+    "subtitle": "Accelerate your AI innovation by building custom machine learning platforms perfectly synced with your business data and workflows.",
+    "title": "Build your own AI Platform Development Tools"
+  },
+  "metaDescription": "Create powerful AI and machine learning development platforms with Kliv. Train models, deploy APIs, and monitor performance with custom-built solutions designed for your unique needs.",
+  "sections": [
+    {
+      "title": "Why a custom AI Platform?",
+      "type": "text",
+      "content": "Off-the-shelf AI/ML platforms often come with rigid structures, forcing your data and development processes into their predefined molds. While convenient for generic tasks, they fall short when you need deep customization, proprietary algorithm integration, or precise control over your data’s lifecycle.\n\nBuilding your own AI platform provides unparalleled flexibility, allowing you to optimize every component for your specific datasets, deployment environments, and business logic. With Kliv, this complex undertaking becomes accessible, empowering you to create a bespoke AI ecosystem that truly reflects your unique challenges and opportunities."
+    },
+    {
+      "title": "The case for a bespoke AI development ecosystem",
+      "type": "markdown",
+      "content": "## Limitations of generic AI platforms\n\nMany organizations rely on general-purpose AI platforms that, despite their broad capabilities, often introduce significant friction and limitations:\n\n-   **Vendor Lock-in**: Migrating models or data becomes cumbersome and expensive, tying you to a single provider.\n-   **Limited Customization**: Adapting to niche algorithms, specialized data pre-processing, or unique deployment strategies is challenging or impossible.\n-   **Cost Inefficiency**: You pay for features you don't need, and resource allocation may not be optimized for your specific computational requirements.\n-   **Data Gravity Issues**: Compliance, security, and performance can be compromised when data must move frequently between your infrastructure and a third-party platform.\n-   **Integration Headaches**: Connecting the platform with legacy systems, proprietary databases, or specialized hardware can be a nightmare.\n\n## Why a custom-built AI platform is your competitive edge\n\nLeveraging Kliv to build your own AI platform transforms these challenges into strategic advantages:\n\n### Unrivaled Flexibility & Control\nDesign a platform that perfectly accommodates your custom models, unique data types, and specific training pipelines. Gain complete control over model lifecycle management, from experimentation to production deployment and monitoring.\n\n### Optimized for Your Data\nYour data is unique. A custom platform allows for specialized feature engineering, data augmentation techniques, and data governance policies precisely tailored to your proprietary datasets, maximizing model performance and ensuring compliance.\n\n### Cost-effectiveness at Scale\nBy self-hosting or deploying to your preferred cloud infrastructure, you avoid recurring subscription fees and optimize resource utilization, leading to significant long-term savings, especially at scale.\n\n### Enhanced Security & IP Protection\nMaintain complete sovereignty over your intellectual property and sensitive data. Implement custom security protocols and access controls that meet your organization's exact compliance and regulatory requirements.\n\n### Seamless Integration\nBuild connectors and APIs to integrate effortlessly with your existing business intelligence tools, CRMs, ERPs, and other critical systems, creating a unified data science workflow.\n\n## Real-world impact\n\nOrganizations spanning various sectors are empowering their data science teams with custom AI platforms:\n\n**Financial Services**: A bespoke platform for real-time fraud detection, leveraging custom graph neural networks and integrating directly with transactional databases.\n\n**Healthcare**: Developing a platform for personalized medicine, enabling researchers to train models on diverse patient genomic data while adhering to strict privacy regulations.\n\n**Manufacturing**: Building a predictive maintenance platform that monitors sensor data from machinery, trains anomaly detection models, and deploys them directly to edge devices on the factory floor.\n\n**Retail**: Creating a dynamic pricing and recommendation engine platform that ingests real-time inventory and customer behavior data, deploying models that update pricing and product suggestions instantly.\n\n## The Kliv advantage in platform building\n\nKliv demystifies the complexity of building sophisticated AI infrastructure:\n\n-   **Design with natural language**: Describe the components of your platform (e.g., 'a model training module that uses GPUs', 'a data ingestion pipeline for streaming data'), and Kliv helps scaffold it.\n-   **Accelerated Development**: Rapidly prototype and iterate on platform features, significantly reducing development cycles.\n-   **Integrated Tooling**: Leverage AI-assisted suggestions for best practices in MLOps, scalability, and security.\n-   **Code Generation**: Kliv generates functional code for core platform components, which you can then customize and extend.\n\nEmpower your organization to not just use AI, but to truly own its AI capabilities. Start designing your custom AI platform with Kliv today."
+    },
+    {
+      "title": "AI Platform ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Develop a module for model versioning and artifact management for ML models.",
+          "prompt": "Create a component for my AI platform that tracks different versions of trained machine learning models, stores their associated metadata (e.g., training data, hyperparameters), and allows for easy rollback to previous versions.",
+          "title": "Model Versioning System"
+        },
+        {
+          "description": "Build a scalable data ingestion and preprocessing pipeline.",
+          "prompt": "Design a data pipeline for my AI platform that can ingest data from multiple sources (e.g., databases, S3, APIs), perform ETL operations, and prepare it for model training. Ensure it supports both batch and streaming data.",
+          "title": "Data Pipeline and Orchestration"
+        },
+        {
+          "description": "Implement a real-time model inference and deployment service.",
+          "prompt": "I need a deployment module that allows me to expose trained models as low-latency RESTful APIs, manage their scaling, and support A/B testing for different model versions.",
+          "title": "Model Serving & Deployment"
+        },
+        {
+          "description": "Create a custom experiment tracking and logging interface.",
+          "prompt": "Build an experiment tracking system for my AI platform where data scientists can log training runs, monitor metrics (accuracy, loss), visualize results, and compare different experiments effortlessly.",
+          "title": "ML Experiment Tracking"
+        },
+        {
+          "description": "Develop a performance monitoring and alerting system for deployed models.",
+          "prompt": "Design a monitoring component for my AI platform that tracks the performance of deployed models (e.g., prediction drift, data quality issues), generates alerts, and triggers retraining workflows when necessary.",
+          "title": "Model Monitoring & Health"
+        },
+        {
+          "description": "Build a user interface for managing MLOps workflows.",
+          "prompt": "Create a dashboard for my AI platform that provides an overview of all active model training jobs, deployment statuses, and monitoring alerts, with drill-down capabilities for detailed insights.",
+          "title": "MLOps Dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your AI platform tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now integrate a feature that allows users to define custom data validation rules directly within the data ingestion module.",
+          "title": "Add Data Validation Workflows"
+        },
+        {
+          "prompt": "Enhance the model serving component to support auto-scaling based on real-time inference request loads.",
+          "title": "Implement Auto-scaling for Endpoints"
+        },
+        {
+          "prompt": "Integrate a secure role-based access control (RBAC) system for different platform users (e.g., data scientists, MLOps engineers, administrators).",
+          "title": "Build Granular Access Control"
+        },
+        {
+          "prompt": "Add capabilities for distributed model training across multiple compute nodes or GPUs.",
+          "title": "Support Distributed Training"
+        },
+        {
+          "prompt": "Develop an audit trail feature that logs all user actions within the platform for compliance and traceability.",
+          "title": "Create an Audit Logging System"
+        },
+        {
+          "prompt": "Implement a 'model marketplace' feature where users can browse, discover, and reuse pre-trained models.",
+          "title": "Build a Model Catalog"
+        },
+        {
+          "prompt": "Add a cost optimization module that monitors compute resource usage and suggests ways to reduce infrastructure expenses.",
+          "title": "Integrate Cost Monitoring"
+        },
+        {
+          "prompt": "Enhance the dashboard with predictive analytics for resource utilization, forecasting future compute needs.",
+          "title": "Add Predictive Resource Analytics"
+        },
+        {
+          "prompt": "Build a feature that allows generating comprehensive reports on model performance, data drift, and resource consumption.",
+          "title": "Develop Advanced Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Key AI platform capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define, ingest, and manage diverse datasets for AI model training.",
+          "icon": "🗄️",
+          "title": "Data Management"
+        },
+        {
+          "description": "Develop, train, and manage custom machine learning models.",
+          "icon": "🧠",
+          "title": "Model Development & Training"
+        },
+        {
+          "description": "Deploy trained models as scalable APIs for real-time inference.",
+          "icon": "🚀",
+          "title": "Model Deployment & Serving"
+        },
+        {
+          "description": "Track model performance, data drift, and system health in production.",
+          "icon": "📈",
+          "title": "Monitoring & Alerting"
+        },
+        {
+          "description": "Orchestrate complex ML workflows from data prep to deployment.",
+          "icon": "⚙️",
+          "title": "Workflow Automation (MLOps)"
+        },
+        {
+          "description": "Manage different model versions, experiments, and artifacts.",
+          "icon": "🏷️",
+          "title": "Version Control & Experimentation"
+        },
+        {
+          "description": "Ensure data security, access control, and regulatory compliance.",
+          "icon": "🔒",
+          "title": "Security & Governance"
+        },
+        {
+          "description": "Connect seamlessly with existing data sources and business applications.",
+          "icon": "🔌",
+          "title": "Integration Capabilities"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a foundational AI platform component with Kliv can take hours to days, depending on complexity. A full-fledged, custom enterprise-grade platform might evolve over weeks or a few months, with iterative additions.",
+          "question": "How long does it take to build a custom AI platform with Kliv?"
+        },
+        {
+          "answer": "You don't need to be an MLOps expert or a deep learning engineer. Kliv's AI assists by interpreting your requirements for platform components and generating initial code, allowing you to focus on the architecture and functionality you need.",
+          "question": "Do I need specialized MLOps or AI engineering expertise?"
+        },
+        {
+          "answer": "Yes, a core strength of custom platforms is their ability to integrate deeply. You can connect to proprietary data lakes, existing BI dashboards, container orchestration systems (like Kubernetes), and specific cloud services or on-premise infrastructure.",
+          "question": "Can I integrate the custom AI platform with my existing infrastructure and data sources?"
+        },
+        {
+          "answer": "You own all generated code, configurations, and data. Kliv provides the tools to build, but the intellectual property of the resulting platform solution is entirely yours, giving you complete control and portability.",
+          "question": "Who owns the intellectual property of the AI platform I build?"
+        },
+        {
+          "answer": "While initial investment might be present, in the long run, custom AI platforms often lead to significant cost savings. You optimize resource usage, avoid vendor lock-in, and only pay for the infrastructure you truly utilize, unlike fixed subscription models.",
+          "question": "How does the cost compare to using commercial AI platform vendors?"
+        },
+        {
+          "answer": "Absolutely. Custom platforms are designed for evolution. You can continuously add new features, support new model types, upgrade infrastructure, and adapt to changing business needs without being constrained by a vendor's roadmap or pricing structure.",
+          "question": "Can I modify and expand the AI platform after it's built?"
+        },
+        {
+          "answer": "Custom platforms often offer superior security. You define your security protocols, choose your hosting environment, and implement fine-grained access controls suitable for your organization's specific data sensitivity and compliance requirements.",
+          "question": "Is a custom-built AI platform more secure than a third-party solution?"
+        },
+        {
+          "answer": "Kliv provides AI-driven guidance, code generation, and debugging assistance throughout the development process. You're empowered to build and maintain the platform yourself, or with your internal teams, reducing reliance on external support contracts.",
+          "question": "What kind of ongoing support is available for a custom AI platform?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your bespoke AI development environment?",
+      "type": "cta",
+      "content": "Stop conforming to generic AI tools. Build an AI platform custom-engineered for your datasets, your algorithms, and your competitive advantage."
+    }
+  ],
+  "title": "Custom AI Platform Development"
+}

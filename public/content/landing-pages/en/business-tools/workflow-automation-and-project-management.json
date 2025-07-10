@@ -1,81 +1,180 @@
 {
-  "title": "Workflow Automation and Project Management Tools",
-  "description": "Build powerful workflow automation and project management applications with Kliv's AI-powered platform",
-  "metaDescription": "Create custom workflow automation and project management tools with Kliv. Build apps that streamline processes, manage tasks, and boost team productivity.",
-  "defaultPrompt": "I want to build a project management app with task tracking, team collaboration, automated workflows, and progress reporting dashboards.",
+  "defaultPrompt": "I want to create a workflow automation and project management tool that can manage tasks, track progress against deadlines, assign resources, and automate notifications based on project status changes.",
+  "description": "Build custom workflow automation and project management applications with Kliv's AI-powered platform.",
   "hero": {
-    "title": "Build Workflow Automation & Project Management Apps",
-    "subtitle": "Create powerful applications that automate workflows, manage projects, and boost team productivity with Kliv's AI-powered platform.",
-    "cta": "Start Building Free"
+    "cta": "Start building your PM solution",
+    "subtitle": "Design and deploy powerful custom tools that perfectly align with your team's unique processes.",
+    "title": "Custom Project & Workflow Management Tools"
   },
+  "metaDescription": "Create powerful, tailored project and workflow management tools with Kliv. Streamline tasks, track progress, and automate communications with custom-built applications.",
   "sections": [
     {
+      "title": "The challenge of off-the-shelf project tools",
       "type": "text",
-      "title": "Transform Your Business Operations",
-      "content": "Modern businesses need efficient workflow automation and project management solutions. With Kliv, you can build custom applications that streamline processes, eliminate manual tasks, and keep your team organized.\n\nOur AI-powered platform makes it easy to create sophisticated business tools without extensive coding knowledge."
+      "content": "Every team has a unique way of working. While generic project management software offers a wide array of features, they often force you to adapt your established workflows, leading to inefficiencies, frustration, and a never-ending search for the 'perfect' tool. This compromises your agility and limits how naturally your team can collaborate.\n\nKliv allows you to transcend these limitations by building a solution that reflects your real-world operations, not a templated approximation. Imagine a tool that speaks your team's language and automates the precise actions you need."
     },
     {
+      "title": "Why bespoke project and workflow management makes sense",
+      "type": "markdown",
+      "content": "## Standard tools vs. your unique process\n\nMost project management (PM) software offers a one-size-fits-all approach. For smaller teams or very standardized projects, this might suffice. However, as projects grow in complexity, or your team develops specific operational nuances, these tools often fall short. They lead to:\n\n- **Compromised workflows:** You re-engineer your process to fit the software.\n- **Feature overload & gaps:** Too many unused features cluttering the interface, alongside critical missing capabilities.\n- **Integration headaches:** Difficulty connecting with your legacy systems or specialized tools.\n- **Scalability issues:** Struggling to adapt as your team or project types evolve.\n- **Recurring costs:** Endless subscription fees for a tool that's 'almost' right.\n\n## The power of tailor-made solutions\n\nBuilding your own project and workflow management system with Kliv isn't just about recreating existing software; it's about optimizing your unique operational rhythm. Here's why smart organizations are making this switch:\n\n### Perfect process alignment\nYour solution will natively support your team's specific methodologies, approval chains, and reporting needs. No more workarounds or external spreadsheets.\n\n### Eliminate bloat and focus on what matters\nYou decide every feature, ensuring your team has exactly what they need, nothing more. This creates a clean, intuitive, and highly efficient user experience.\n\n### Seamless integration by design\nConnect naturally with your existing CRM, ERP, finance, or communication platforms. Your custom tool becomes the central hub, not an isolated island.\n\n### Future-proof and adaptable\nAs your business evolves, your tool can evolve with it. Add new modules, adjust logic, or scale resources on demand, without vendor lock-in.\n\n### Cost efficiency in the long run\nBeyond the initial build, you control the maintenance and hosting. This often results in significant cost savings compared to perpetual subscriptions, especially for larger teams.\n\n## Practical applications of custom PM & workflow tools\n\n- **Marketing Agencies:** Manage campaign lifecycles from ideation to launch, automate content approvals, and track cross-platform analytics.\n- **Software Development Teams:** Implement custom Agile sprints, bug tracking, and release management, integrated with CI/CD pipelines.\n- **Event Management Companies:** Coordinate vendor logistics, venue bookings, attendee registrations, and run-of-show automation for complex events.\n- **Product Development:** Manage new product introduction (NPI) processes, track design iterations, and synchronize tasks across engineering, marketing, and sales.\n\n## AI's role in simplified development\n\nKliv drastically reduces the complexity and time traditionally associated with custom software development. Our AI-powered platform enables:\n\n- **Intuitive design:** Describe features in plain language, and the AI helps construct the underlying logic and interface.\n- **Rapid iteration:** Prototype and test new functionalities quickly, getting immediate feedback from your team.\n- **Intelligent suggestions:** AI assists in optimizing workflows, identifying potential bottlenecks, and recommending best practices.\n- **Reduced technical debt:** Built-in safeguards and structured code generation help create robust, maintainable applications.\n\nTake control of your operational efficiency. Instead of fitting a square peg into a round hole, build a perfectly shaped solution that amplifies your team's productivity and collaboration."
+    },
+    {
+      "title": "Project and workflow ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a visual task board for managing design sprints",
+          "prompt": "Build a project management tool with Kanban boards to visualize tasks, assign owners, set due dates, and track progress for design projects.",
+          "title": "Design Sprint Tracker"
+        },
+        {
+          "description": "Streamline content creation and publishing workflows",
+          "prompt": "Develop a content calendar and workflow tool that allows automated assignment of writing, editing, and publishing tasks, with version control and stakeholder approval gates.",
+          "title": "Content Production Hub"
+        },
+        {
+          "description": "Automate client project onboarding and delivery",
+          "prompt": "Design a client project portal that automates client onboarding tasks, tracks project milestones, allows clients to submit requests, and provides real-time progress updates.",
+          "title": "Client Delivery Portal"
+        },
+        {
+          "description": "Manage software development cycles from planning to deployment",
+          "prompt": "Create a software development lifecycle (SDLC) management tool that includes features for sprint planning, bug tracking, feature roadmapping, and release management.",
+          "title": "DevOps Project Tracker"
+        },
+        {
+          "description": "Coordinate multi-departmental product launch tasks",
+          "prompt": "Build a product launch coordination tool that assigns tasks to different departments (marketing, sales, engineering, support), tracks individual progress, and provides a master timeline for product releases.",
+          "title": "Product Launch Orchestrator"
+        },
+        {
+          "description": "Centralize and automate marketing campaign management",
+          "prompt": "Develop a marketing campaign management system that helps plan, execute, and monitor campaigns across multiple channels, including budget tracking, ROI analysis, and automated reporting.",
+          "title": "Integrated Campaign Manager"
+        }
+      ]
+    },
+    {
+      "title": "Extend your custom solution's power",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a module for resource allocation and capacity planning across multiple projects and teams.",
+          "title": "Integrate resource management"
+        },
+        {
+          "prompt": "Implement a custom reporting engine that allows users to generate project status reports, time tracking summaries, and budget comparisons.",
+          "title": "Enable advanced reporting"
+        },
+        {
+          "prompt": "Add a feature for setting up recurring tasks and projects based on customizable schedules (daily, weekly, monthly, annual).",
+          "title": "Add recurring task automation"
+        },
+        {
+          "prompt": "Develop a mobile-friendly interface for team members to update tasks and view project status on the go.",
+          "title": "Build a mobile companion app"
+        },
+        {
+          "prompt": "Incorporate a document management system with version control and collaborative editing features directly within project tasks.",
+          "title": "Add document collaboration"
+        },
+        {
+          "prompt": "Implement AI-powered risk assessment that flags potential project delays based on task dependencies and historical data.",
+          "title": "Integrate AI-driven risk analysis"
+        },
+        {
+          "prompt": "Add a communication module with threaded discussions, direct messaging, and integrations with Slack or Microsoft Teams.",
+          "title": "Enhance internal communication"
+        },
+        {
+          "prompt": "Create a time-tracking feature linked to specific tasks and projects, with automated timesheet generation for billing or payroll.",
+          "title": "Develop time tracking & billing"
+        },
+        {
+          "prompt": "Add a client feedback loop feature that allows external stakeholders to provide comments and approve deliverables directly within the platform.",
+          "title": "Implement client feedback portal"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities",
       "type": "features",
-      "title": "Key Features for Business Applications",
       "items": [
         {
-          "title": "Task Management",
-          "description": "Build comprehensive task tracking systems with assignments, deadlines, and progress monitoring.",
-          "icon": "✅"
+          "description": "Organize work with flexible task lists, Kanban boards, or Gantt charts.",
+          "icon": "✅",
+          "title": "Customizable Task Management"
         },
         {
-          "title": "Workflow Automation",
-          "description": "Create automated processes that trigger actions based on specific conditions and events.",
-          "icon": "⚡"
+          "description": "Automate task assignments, notifications, and approval processes based on project progress.",
+          "icon": "⚙️",
+          "title": "Integrated Workflow Automation"
         },
         {
-          "title": "Team Collaboration",
-          "description": "Develop communication tools, file sharing, and real-time collaboration features.",
-          "icon": "👥"
+          "description": "Define custom fields, status updates, and reporting to fit any project type.",
+          "icon": "🔄",
+          "title": "Flexible Project Structures"
         },
         {
-          "title": "Reporting & Analytics",
-          "description": "Generate insights with custom dashboards, charts, and performance metrics.",
-          "icon": "📊"
+          "description": "Set and track deadlines, monitor critical paths, and anticipate potential bottlenecks.",
+          "icon": "⏱️",
+          "title": "Deadline & Progress Tracking"
         },
         {
-          "title": "Integration Capabilities",
-          "description": "Connect with existing tools and services through APIs and webhooks.",
-          "icon": "🔗"
+          "description": "Assign roles, manage user permissions, and ensure team members see relevant project data.",
+          "icon": "👥",
+          "title": "Granular User Permissions"
         },
         {
-          "title": "Mobile Responsive",
-          "description": "Ensure your applications work seamlessly across all devices and platforms.",
-          "icon": "📱"
+          "description": "Centralize all project-related files, ensuring easy access and version control.",
+          "icon": "📁",
+          "title": "Centralized File Management"
         }
       ]
     },
     {
-      "type": "benefits",
-      "title": "Why Choose Kliv for Business Tools",
+      "title": "Frequently Asked Questions about Building PM Tools with Kliv",
+      "type": "faq",
       "items": [
         {
-          "title": "Rapid Development",
-          "description": "Build complex business applications in hours, not months, with our AI-assisted development platform."
+          "answer": "The time varies based on complexity. A basic PM tool with core features can be ready in days, while a comprehensive solution with deep integrations might take a couple of weeks to refine.",
+          "question": "How quickly can I build a custom project management solution?"
         },
         {
-          "title": "No Technical Barriers",
-          "description": "Create sophisticated workflow automation without needing extensive programming knowledge."
+          "answer": "Absolutely not. Kliv's platform is designed for users to describe their needs in plain language. The AI guides you through the process, translating your requirements directly into a functional application.",
+          "question": "Do I need to be a programmer to build these tools?"
         },
         {
-          "title": "Scalable Solutions",
-          "description": "Start small and scale your applications as your business grows and requirements evolve."
+          "answer": "Yes, our platform supports seamless integration with various third-party services. Whether it's your CRM, ERP, communication tools, or accounting software, your custom PM solution can connect to your existing ecosystem.",
+          "question": "Can my custom PM tool integrate with my current business software?"
         },
         {
-          "title": "Cost-Effective",
-          "description": "Avoid expensive custom development costs while getting exactly the features you need."
+          "answer": "You own 100% of the intellectual property. The code generated, the database, and all the features are yours. You have complete control over deployment and future modifications.",
+          "question": "Who owns the custom project management tool once it's built?"
+        },
+        {
+          "answer": "The initial investment for a custom build is typically a one-time cost, leading to significant savings compared to perpetual subscription fees for generic software. Many clients see a positive ROI within a year by eliminating unnecessary features and optimizing workflows.",
+          "question": "How does the cost compare to subscribing to commercial PM software?"
+        },
+        {
+          "answer": "Yes. One of the core benefits is the ability to adapt. As your team or project needs change, you can easily modify existing features, add new ones, or scale your solution up or down without vendor limitations.",
+          "question": "Can I modify or expand my custom project management tool after it's live?"
+        },
+        {
+          "answer": "Custom tools built on Kliv prioritize security. You define the hosting environment and security protocols, ensuring your sensitive project data is handled according to your internal standards, often providing greater control than cloud-based SaaS solutions.",
+          "question": "Are custom-built project management tools secure?"
+        },
+        {
+          "answer": "Kliv provides comprehensive AI-powered assistance throughout the development process, offering real-time suggestions and debugging insights. For direct human support, our team is available to assist with any challenges or specific integrations.",
+          "question": "What kind of support is available during and after building?"
         }
       ]
     },
     {
+      "title": "Ready to build your ideal project and workflow powerhouse?",
       "type": "cta",
-      "title": "Ready to Automate Your Workflows?",
-      "content": "Join thousands of businesses using Kliv to build custom workflow automation and project management solutions."
+      "content": "Stop conforming to rigid software. Start creating tools that truly understand and boost your team's productivity. Build an application that adapts to your success."
     }
-  ]
+  ],
+  "title": "Build Custom Project & Workflow Management Solutions"
 }

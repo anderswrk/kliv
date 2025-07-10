@@ -1,0 +1,185 @@
+{
+  "defaultPrompt": "I want to create a game server hosting platform that allows users to easily deploy, manage, and scale game servers for popular titles like Minecraft and Rust, with a focus on low latency and high availability.",
+  "description": "Build custom game server hosting platforms with Kliv's AI-powered development.",
+  "hero": {
+    "cta": "Start Hosting",
+    "subtitle": "Launch your own game server hosting platform with custom features, dedicated performance, and complete control, built on Kliv's powerful no-code AI.",
+    "title": "Build Your Own Game Server Hosting Platform"
+  },
+  "metaDescription": "Create powerful, custom game server hosting solutions with Kliv. Offer low-latency, high-performance servers for popular games, with built-in management tools and complete customization.",
+  "sections": [
+    {
+      "title": "The Challenge of Generic Game Server Hosting",
+      "type": "text",
+      "content": "Many gamers and communities are frustrated with off-the-shelf game server hosting providers. These services often lack the specific features, performance, or customizability needed for competitive play or large, active communities. From rigid configurations to unexpected downtime and lack of transparent resource allocation, the 'one-size-fits-all' approach rarely truly fits.\n\nBuilding your own game server hosting platform allows you to tailor every aspect to your exact community's needs, offering a superior experience without the compromises of third-party solutions. Kliv empowers you to create custom solutions previously only accessible to large-scale providers, putting you in control."
+    },
+    {
+      "title": "Why Custom Game Server Hosting Wins",
+      "type": "markdown",
+      "content": "## Beyond Off-The-Shelf Limitations\n\nExisting game server hosts are designed for the masses, which means they can't cater to specific niches or offer granular control. Building your own platform solves this by providing:\n\n- **Optimized Performance**: Tailor hardware and network configurations directly to the specific games you host, ensuring minimal lag and maximum uptime.\n- **Full Customizability**: Implement unique features like custom mod installers, specific server daemon controls, or integrate with community tools.\n- **Cost Efficiency**: Avoid recurring markups from providers. Once built, you manage your own infrastructure costs, which can be significantly lower for scale.\n- **Brand Control**: Host under your own brand, building trust and community around your unique offering.\n- **Scalability on Your Terms**: Easily add or remove resources as your user base fluctuates, without being bottlenecked by provider plans.\n\n## Real-World Applications You Can Build\n\nImagine creating a hosting service that addresses specific pain points:\n\n### Dedicated Esports Training Servers\nDevelop a platform offering high-tickrate servers for competitive games like CS:GO or Valorant, with built-in match recording, stat tracking, and spectator features tailored for esports teams.\n\n### Modded Community Hubs\nProvide a custom solution for complex modded Minecraft or Ark: Survival Evolved servers, featuring automated modpack deployment, version control, and integrated voice chat solutions for robust communities.\n\n### Educational Gaming Environments\nBuild a hosting platform for schools or educational programs using games like Kerbal Space Program or Minecraft Education Edition, with easy setup for educators and controlled access for students.\n\n### Regional Low-Latency Hosting\nTarget specific geographic regions with strategically placed servers to offer the absolute lowest ping for local players, a critical factor for competitive gaming.\n\n## The Kliv Advantage\n\nBuilding a custom hosting platform used to require deep technical expertise in server administration, networking, and software development. Kliv changes this:\n\n- **AI-Powered Configuration**: Describe your server requirements, and AI assists in setting up the underlying infrastructure and game server daemons.\n- **Intuitive Management Panels**: Generate user-friendly dashboards for server control, even for complex game configurations.\n- **Scalable Infrastructure**: Kliv guides you in designing a platform that can grow from a single server to hundreds, seamlessly.\n- **No-Code Deployment**: Focus on the user experience and features; Kliv handles the complex backend code generation and deployment.\n\nWith Kliv, you're not just building servers; you're building a comprehensive, user-centric hosting solution that sets you apart."
+    },
+    {
+      "title": "Game Server Hosting Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Host and manage Minecraft servers with modpack support and a custom control panel.",
+          "prompt": "Create a game server hosting platform specifically for Minecraft, allowing users to select different server versions (Vanilla, Spigot, Forge), upload custom worlds, and easily install popular modpacks. Include a web-based control panel for starting/stopping the server, viewing console logs, and managing player bans. Focus on low-latency connections.",
+          "title": "Minecraft Hosting Platform"
+        },
+        {
+          "description": "Offer dedicated Rust servers with advanced admin tools and DDoS protection.",
+          "prompt": "Design a Rust game server hosting service that emphasizes performance and anti-DDoS measures. It should feature automated wipe schedules, RCON access for administrators, a plugin installer, and robust monitoring tools for server health and player count. Allow for custom server configurations.",
+          "title": "Rust Server Hosting"
+        },
+        {
+          "description": "Provide Ark: Survival Evolved servers with cluster support and automatic updates.",
+          "prompt": "Build an Ark: Survival Evolved server hosting solution with support for server clusters (allowing players to transfer between maps), automatic mod updates from the Steam Workshop, and configurable server settings for difficulty, harvesting rates, and Taming speed. Include an easy-to-use interface for mod management.",
+          "title": "Ark Survival Evolved Hosting"
+        },
+        {
+          "description": "Create a flexible VPS-like offering optimized for various indie game servers.",
+          "prompt": "Develop a generic game server hosting solution that acts like a specialized VPS, pre-optimized for common game server types (e.g., Terraria, Valheim, V Rising). Users should be able to upload custom game files, access the server via SFTP/SSH, and manage firewall rules, while Kliv handles the underlying OS and network optimization.",
+          "title": "Multi-Game Indie Server Hosting"
+        },
+        {
+          "description": "Manage Counter-Strike 2 servers with competitive settings and anti-cheat integration.",
+          "prompt": "Design a CS2 server hosting platform geared towards competitive play. It should support custom match settings, integrate with popular anti-cheat systems, provide detailed match statistics, and allow for quick setup of scrims and practice servers. Prioritize extreme low-latency networking.",
+          "title": "CS2 Competitive Server Hosting"
+        },
+        {
+          "description": "Build custom Team Fortress 2 servers with unique mod capabilities.",
+          "prompt": "I need a Team Fortress 2 server hosting service that supports custom plugin installations (e.g., TF2Center plugins), fast download functionality for custom content, and robust DDoS protection. The platform should offer an intuitive interface for server configuration and user management.",
+          "title": "Team Fortress 2 Community Servers"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Hosting Platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a payment gateway (Stripe) to allow users to purchase server time or additional resources directly.",
+          "title": "Add Billing & Payment System"
+        },
+        {
+          "prompt": "Implement a custom mod installer and manager that automatically downloads and applies mods from the Steam Workshop or CurseForge.",
+          "title": "Develop Automated Mod Installer"
+        },
+        {
+          "prompt": "Create an API for server control, allowing advanced users or external tools to interact with their game servers programmatically.",
+          "title": "Expose Management API"
+        },
+        {
+          "prompt": "Add a comprehensive monitoring dashboard showing real-time CPU, RAM, and network usage per server instance.",
+          "title": "Build Resource Monitoring Dashboard"
+        },
+        {
+          "prompt": "Implement automated backup and restore functionality for server files and world data, with configurable schedules.",
+          "title": "Enable Automated Backups"
+        },
+        {
+          "prompt": "Integrate Discord webhooks so server events (e.g., server online/offline, player joins) can be automatically posted to a Discord channel.",
+          "title": "Add Discord Integration"
+        },
+        {
+          "prompt": "Build a tiered user management system that allows administrators to define different user roles (e.g., admin, moderator, player) with specific server permissions.",
+          "title": "Implement User Roles & Permissions"
+        },
+        {
+          "prompt": "Add a console viewer directly in the web panel that allows users to send commands to their live server console.",
+          "title": "Add Live Console Viewer"
+        },
+        {
+          "prompt": "Include a feature for easy migration of server data between different geographical locations or hardware configurations.",
+          "title": "Offer Server Migration"
+        }
+      ]
+    },
+    {
+      "title": "Key Hosting Platform Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Web-based dashboard for easy server management and configuration.",
+          "icon": "🖥️",
+          "title": "Intuitive Control Panel"
+        },
+        {
+          "description": "Seamlessly deploy and manage game servers for various titles.",
+          "icon": "🎮",
+          "title": "Multi-Game Support"
+        },
+        {
+          "description": "Real-time insights into server performance, player count, and resource usage.",
+          "icon": "📊",
+          "title": "Performance Monitoring"
+        },
+        {
+          "description": "Automated processes for game updates, mod deployments, and server restarts.",
+          "icon": "⚙️",
+          "title": "Automation Engine"
+        },
+        {
+          "description": "Robust network protection to ensure uninterrupted gameplay.",
+          "icon": "🛡️",
+          "title": "DDoS Protection"
+        },
+        {
+          "description": "Scale resources up or down dynamically to meet demand.",
+          "icon": "📈",
+          "title": "Scalable Infrastructure"
+        },
+        {
+          "description": "Secure access and management for user accounts and server instances.",
+          "icon": "🔒",
+          "title": "User Authentication"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv dramatically accelerates development. You can deploy a basic, functional game server hosting platform within a few days, and even complex, feature-rich systems can be ready in weeks, not months or years.",
+          "question": "How quickly can I launch a game server hosting platform with Kliv?"
+        },
+        {
+          "answer": "While some understanding of game server administration is beneficial, Kliv's AI handles the complex coding and infrastructure setup. You can describe your desired features in plain language, making it accessible even without deep programming knowledge.",
+          "question": "Do I need to be a server expert or programmer to build this?"
+        },
+        {
+          "answer": "Yes, your custom platform can integrate with various third-party services, including payment gateways (Stripe, PayPal), cloud providers (AWS, Google Cloud), game APIs (Steam, Discord), and monitoring tools, giving you maximum flexibility.",
+          "question": "Can I integrate my platform with external services or APIs?"
+        },
+        {
+          "answer": "You own 100% of the code and the intellectual property. Kliv facilitates the creation process, but the resulting application and any data it handles are entirely yours. You can host it on any compatible infrastructure.",
+          "question": "Who owns the game server hosting platform I build with Kliv?"
+        },
+        {
+          "answer": "Building a custom platform with Kliv is typically more cost-effective in the long run than paying recurring fees to commercial server hosts, especially if you plan to host multiple servers or cater to a large community. You control your infrastructure costs directly.",
+          "question": "Is building my own platform more expensive than just renting servers?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is complete control. You can continually add new features, adjust game support, optimize performance, or change the user interface as your needs evolve.",
+          "question": "Can I update and modify my platform once it's built?"
+        },
+        {
+          "answer": "Yes, security is paramount. Your custom platform can be designed with robust security measures, including DDoS mitigation, secure user authentication, and data encryption. You have full control over the security implementations, often exceeding generic host offerings.",
+          "question": "How secure are game server hosting platforms built with Kliv?"
+        },
+        {
+          "answer": "Kliv provides AI-driven assistance throughout the development process, offering suggestions, troubleshooting, and optimization tips. For deployment and ongoing management, standard cloud provider documentation and community resources are available for the infrastructure components.",
+          "question": "What kind of support is available for maintaining my platform?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Launch Your Game Server Empire?",
+      "type": "cta",
+      "content": "Stop settling for generic hosting. Unleash unparalleled performance and control by building your own custom game server platform with Kliv today."
+    }
+  ],
+  "title": "Game Server Hosting"
+}

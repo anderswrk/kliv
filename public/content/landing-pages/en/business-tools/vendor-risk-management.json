@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a vendor risk management system that can onboard vendors, assess their risk based on various criteria, monitor compliance, and generate reports.",
+  "description": "Build custom vendor risk management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start managing vendor risk",
+    "subtitle": "Strengthen your third-party relationships and safeguard your business. Build bespoke vendor risk management solutions tailored to your compliance needs.",
+    "title": "Build your own vendor risk management system"
+  },
+  "metaDescription": "Create robust vendor risk management tools with Kliv. Onboard securely, assess risk continuously, and ensure compliance with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own vendor risk management tool?",
+      "type": "text",
+      "content": "In today's interconnected business world, vendors are vital, but they also represent potential risks to your data, reputation, and operations. Generic, off-the-shelf vendor risk management (VRM) software often falls short, forcing businesses to compromise on their specific risk assessment methodologies, compliance frameworks, or integration needs.\n\nBuilding your own VRM solution with Kliv ensures a perfect fit. You can define precise risk scoring, integrate seamlessly with your existing procurement and security systems, and adapt quickly to evolving regulatory requirements, all while avoiding recurrent subscription costs and maintaining full control over your sensitive Third-Party data."
+    },
+    {
+      "title": "The strategic advantage of tailored VRM",
+      "type": "markdown",
+      "content": "## Current VRM solutions: A compromise?\n\nMany organizations struggle with off-the-shelf VRM platforms due to their inherent limitations. These often include:\n\n- **Inflexible methodologies**: Imposed risk scoring and assessment criteria that don't align with your unique risk appetite or industry specifics.\n- **Integration headaches**: Poor compatibility with existing ERP, CRM, or security information and event management (SIEM) systems, leading to manual data transfer and errors.\n- **Costly subscriptions**: Escalating fees for features you don't use or for increasing vendor counts.\n- **Limited customization**: Inability to adapt workflows, reporting, or compliance checks to evolving business needs or regulatory landscapes.\n- **Data silos**: Vendor data isolated from other critical business systems, preventing a holistic view of relationships.\n\n## Why custom VRM is a game-changer\n\nLeveraging AI-powered platforms like Kliv to develop your own VRM system addresses these challenges directly:\n\n### Precision risk assessment\nTailor risk questionnaires, scoring algorithms, and due diligence workflows to precisely match your organization's unique risk profile, industry, and regulatory obligations (e.g., GDPR, CCPA, HIPAA, ISO 27001).\n\n### Seamless ecosystem integration\nConnect your VRM solution directly with your procurement, finance, legal, and security systems. Automate data exchange, trigger alerts based on vendor performance or security incidents, and ensure data consistency across your enterprise.\n\n### Cost efficiency & ownership\nShift from recurring subscription expenses to a controlled, upfront development investment. Own your intellectual property, control your data, and scale without punitive per-vendor fees.\n\n### Agility and adaptability\nAs regulations change, or your business expands into new markets, quickly modify your VRM system's logic, assessments, or reporting capabilities. You're not waiting for a vendor to release an update.\n\n## Real-world impact of custom VRM\n\nCustom VRM solutions are empowering businesses to elevate their security and compliance posture:\n\n**Financial services**: Automatically assess the cybersecurity posture of fintech partners, manage their access to sensitive customer data, and ensure compliance with financial regulations like PCI DSS.\n\n**Healthcare**: Streamline the due diligence for medical device suppliers and healthcare IT vendors, ensuring HIPAA compliance and data privacy throughout the supply chain.\n\n**Manufacturing**: Implement robust environmental, social, and governance (ESG) risk assessments for material suppliers, ensuring ethical sourcing and supply chain resilience.\n\n**Retail**: Rapidly vet new e-commerce platform plugins or logistics partners for data privacy risks, ensuring customer data protection and transaction security.\n\n## The Kliv advantage in VRM development\n\nGone are the days when custom software development was a lengthy, complex, and expensive endeavor. Kliv's AI platform simplifies building sophisticated VRM tools:\n\n- **Declarative design**: Describe your VRM process, and the AI assists in building the necessary data models, workflows, and interfaces.\n- **Accelerated delivery**: Move from concept to a working prototype in days, not months, drastically reducing time-to-value.\n- **Intelligent automation**: AI can suggest optimal risk assessment workflows, integrate with threat intelligence feeds, and automate compliance checks.\n- **Security by design**: Develop your VRM tool with your specific data security and access control requirements from the ground up.\n\n## Take control of your third-party risk\n\nDon't let rigid SaaS solutions dictate your risk management strategy. Invest in a VRM system that precisely fits your organizational needs, adapts to change, and secures your vendor ecosystem through intelligent, tailored processes. Start building your custom VRM solution with Kliv today, and transform your approach to vendor risk."
+    },
+    {
+      "title": "Vendor risk management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Streamline the onboarding process for new vendors with automated checks.",
+          "prompt": "Create a vendor onboarding portal where new vendors can submit their company information, certifications, and compliance documents. The system should automatically trigger initial risk assessments based on industry and data access requirements.",
+          "title": "Automated vendor onboarding and initial assessment"
+        },
+        {
+          "description": "Develop a system to continuously monitor and report on vendor compliance.",
+          "prompt": "Build a module for ongoing vendor monitoring that integrates with external threat intelligence feeds and automatically flags any security vulnerabilities or compliance discrepancies found in a vendor's public profile or reported incidents.",
+          "title": "Continuous vendor risk monitoring"
+        },
+        {
+          "description": "Tailor risk assessments for different vendor categories.",
+          "prompt": "Design a tiered risk assessment system where IT vendors handling sensitive data undergo a more rigorous security questionnaire and audit process than general office supply vendors. The system should automatically select the appropriate assessment form.",
+          "title": "Tiered vendor risk assessment workflows"
+        },
+        {
+          "description": "Manage contracts and service level agreements (SLAs) with integrated risk views.",
+          "prompt": "Develop a system to store vendor contracts and automatically send alerts when contract renewals are due or if a vendor's performance metrics (fed from an external system) fall below agreed-upon SLAs, affecting their risk score.",
+          "title": "Contract and SLA management with risk linkage"
+        },
+        {
+          "description": "Automate due diligence for specific regulatory compliance.",
+          "prompt": "Create a vendor due diligence tool focused on GDPR compliance, automatically generating a Privacy Impact Assessment (PIA) for vendors handling EU citizen data and tracking their adherence to data processing agreements.",
+          "title": "Regulatory compliance due diligence (e.g., GDPR)"
+        },
+        {
+          "description": "Centralize and track all vendor-related audit findings and remediation plans.",
+          "prompt": "Build a module to track all audit findings related to vendors, assign remediation tasks, set deadlines, and monitor the progress of corrective actions until completion, with automated reminders for overdue items.",
+          "title": "Vendor audit and remediation tracking"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your VRM system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for creating custom risk scoring models, allowing the definition of weightings for different risk factors (e.g., security, financial, operational, reputational).",
+          "title": "Customizable risk scoring"
+        },
+        {
+          "prompt": "Integrate with an external Business Continuity Plan (BCP) or Disaster Recovery (DR) tool to assess vendor resilience.",
+          "title": "BCP/DR assessment integration"
+        },
+        {
+          "prompt": "Implement a machine learning model to predict potential vendor risks based on historical data and industry trends.",
+          "title": "Predictive risk analytics"
+        },
+        {
+          "prompt": "Create a dashboard with interactive visualizations showing overall vendor risk posture, risk trends, and high-risk vendor categories.",
+          "title": "Interactive risk dashboard"
+        },
+        {
+          "prompt": "Add functionality for vendors to securely upload required documents and certifications directly into the system, with automated version control.",
+          "title": "Vendor self-service document portal"
+        },
+        {
+          "prompt": "Develop an incident management module to track and manage security incidents or breaches involving third-party vendors.",
+          "title": "Third-party incident management"
+        },
+        {
+          "prompt": "Integrate with a procurement system to automatically pull new vendor requests into the VRM workflow.",
+          "title": "Procurement system integration"
+        },
+        {
+          "prompt": "Build an API for exposing specific vendor risk data to other internal systems (e.g., GRC platforms, financial systems).",
+          "title": "API for data sharing"
+        },
+        {
+          "prompt": "Add a feature for generating automated reminder emails for vendors to complete assessments or submit updated documentation.",
+          "title": "Automated vendor reminders"
+        }
+      ]
+    },
+    {
+      "title": "Key VRM capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Tailor risk assessments, scoring, and due diligence processes to your exact needs.",
+          "icon": "⚖️",
+          "title": "Configurable risk assessments"
+        },
+        {
+          "description": "Automate workflows for vendor onboarding, re-assessment, and off-boarding with custom triggers.",
+          "icon": "⚙️",
+          "title": "Automated workflows"
+        },
+        {
+          "description": "Connect with existing systems, threat intelligence, and compliance databases.",
+          "icon": "🔗",
+          "title": "Flexible integrations"
+        },
+        {
+          "description": "Gain real-time insights into your vendor risk landscape with custom reports and dashboards.",
+          "icon": "📈",
+          "title": "Advanced reporting & analytics"
+        },
+        {
+          "description": "Track vendor security posture, financial health, and compliance against regulatory standards.",
+          "icon": "🛡️",
+          "title": "Comprehensive risk monitoring"
+        },
+        {
+          "description": "Maintain a central repository for all vendor data, documents, and communication history.",
+          "icon": "🗄️",
+          "title": "Centralized vendor repository"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional VRM system with Kliv can take anywhere from a few days to a couple of weeks, depending on the complexity of your desired features and integrations. The AI significantly accelerates the development process.",
+          "question": "How quickly can I develop a VRM system using Kliv?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv's platform is designed for business users to describe their requirements in natural language, and the AI-powered builder handles the technical implementation.",
+          "question": "Do I need to be a developer to build a VRM tool with Kliv?"
+        },
+        {
+          "answer": "Yes, custom VRM tools built on Kliv are inherently flexible. You can integrate with virtually any system that offers an API, including ERP, CRM, SIEM, and GRC platforms, as well as third-party risk intelligence providers.",
+          "question": "Can my custom VRM solution integrate with my existing business systems?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property for the VRM system you build. Your data, workflows, and custom logic are yours, giving you complete control and portability.",
+          "question": "Who owns the VRM system and data once it's built?"
+        },
+        {
+          "answer": "While there's an initial development investment, building your own VRM tool typically results in significant long-term savings by eliminating recurring SaaS subscription fees. The ROI is often seen rapidly, especially for organizations with many vendors.",
+          "question": "How does the cost compare to off-the-shelf VRM software?"
+        },
+        {
+          "answer": "Absolutely. Your custom VRM system can be modified, updated, and scaled at any time to adapt to new regulations, new types of vendors, or changes in your organization's risk appetite. You have full control over its evolution.",
+          "question": "Is it possible to modify or expand the VRM system after it's deployed?"
+        },
+        {
+          "answer": "Custom-built VRM solutions can be designed with your specific security requirements from the ground up, often providing a higher degree of security control and compliance assurance than relying on a third-party vendor's security posture.",
+          "question": "How secure is a VRM system built with Kliv?"
+        },
+        {
+          "answer": "Kliv provides AI-guided assistance throughout the build process, and a comprehensive knowledge base. Since you own the code, you can also engage any standard development resources for ongoing maintenance or enhancements.",
+          "question": "What kind of support is available if I encounter issues during development or after deployment?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to fortify your vendor relationships?",
+      "type": "cta",
+      "content": "Stop settling for generic solutions. Build a vendor risk management system that perfectly aligns with your risk framework and compliance obligations using Kliv's AI-powered platform."
+    }
+  ],
+  "title": "Vendor Risk Management Solutions"
+}

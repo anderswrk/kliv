@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a mobile device management (MDM) tool that allows me to remotely wipe, lock, and unlock company-owned devices, enforce security policies, and manage app installations for my team.",
+  "description": "Develop custom device management and unlocking applications with Kliv's AI platform.",
+  "hero": {
+    "cta": "Build Your MDM Tool",
+    "subtitle": "Gain complete control over your organization's devices with custom-built management and unlocking solutions.",
+    "title": "Build Your Own Device Management & Unlocking Tools"
+  },
+  "metaDescription": "Create powerful, tailored device management and unlocking tools to secure company assets, enforce policies, and streamline IT operations with Kliv.",
+  "sections": [
+    {
+      "title": "The Challenge of Device Management",
+      "type": "text",
+      "content": "In today's interconnected business world, managing and securing company devices—laptops, smartphones, tablets—is a critical challenge. Whether it's enforcing security policies, managing software installations, or remotely wiping a lost device, off-the-shelf solutions often come with limitations, rigid features, and recurring costs that don't scale or adapt to your unique needs. Rather than compromising, building a custom tool offers a perfect fit."
+    },
+    {
+      "title": "Why Custom Device Management is a Strategic Advantage",
+      "type": "markdown",
+      "content": "### The Limitations of Generic MDM Solutions\nGeneric Mobile Device Management (MDM) platforms are designed for the masses, which means they might not perfectly align with your organization's specific security protocols, compliance requirements, or operational workflows. Often, these tools can lead to:\n\n- **Feature bloat**: Paying for capabilities you don't need.\n- **Vendor lock-in**: Difficulty integrating with niche internal systems.\n- **Security gaps**: Policies that aren't strict or flexible enough for your industry.\n- **Scalability issues**: Annual subscriptions that become prohibitively expensive as your device count grows.\n\n### The Power of Tailored Solutions\nBuilding your own device management and unlocking tool empowers you with unprecedented flexibility and control:\n\n**1. Precision Security Policies:** Implement granular security settings that exactly match your risk profile, from complex password requirements to geographic-based access controls.\n\n**2. Streamlined Provisioning & Deprovisioning:** Automate the setup of new devices with pre-configured apps and settings, and securely wipe or lock devices when employees leave.\n\n**3. Cost Efficiency:** Eliminate recurring subscription fees. Build it once, own it forever. This translates to significant long-term savings, especially for organizations with many devices.\n\n**4. Seamless Integration:** Your custom tool can be built to integrate perfectly with your existing HR systems, identity providers (IdP), and other IT infrastructure, creating a truly unified management experience.\n\n**5. Compliance & Reporting:** Tailor reporting features to meet specific regulatory compliance needs, generating audit trails and detailed usage reports that off-the-shelf tools might not provide out-of-the-box.\n\n### Real-World Applications:\n\n- **Field Service Companies**: Manage ruggedized tablets, ensure technicians have the latest work orders, and remotely wipe devices if lost on a job site.\n- **Healthcare Providers**: Secure patient data on mobile devices used by staff, enforce HIPAA-compliant encryption, and manage approved apps for clinical use.\n- **Educational Institutions**: Oversee student and faculty devices, limit access to specific applications during school hours, and remotely assist with troubleshooting.\n- **Logistics & Transportation**: Track and manage in-vehicle devices, distribute new routing software, and ensure driver compliance with safety applications.\n\nBuilding your own solution with an AI-powered platform means you don't need a team of developers. You describe your requirements, and the AI helps you construct a robust, secure, and perfectly fitted device management system that evolves with your business."
+    },
+    {
+      "title": "Device Management Ideas to Explore",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Remotely wipe or lock lost or stolen devices.",
+          "prompt": "Create an MDM tool that can remotely wipe all data from a lost company smartphone and lock it to prevent unauthorized access.",
+          "title": "Remote Device Wipe & Lock"
+        },
+        {
+          "description": "Enforce security settings across all corporate devices.",
+          "prompt": "Build a system that enforces complex password policies, screen lock timers, and encryption requirements on all company-issued laptops and tablets.",
+          "title": "Automated Security Policy Enforcement"
+        },
+        {
+          "description": "Manage installation and updates of business applications.",
+          "prompt": "Design a tool to push specific business applications to employee mobile devices, manage app updates, and revoke access for departed employees.",
+          "title": "Centralized Application Management"
+        },
+        {
+          "description": "Track device location and inventory.",
+          "prompt": "Develop an inventory management system for company devices that tracks their last known location, user assignment, purchase date, and maintenance history.",
+          "title": "Asset Tracking and Inventory"
+        },
+        {
+          "description": "Automate onboarding and offboarding device setup.",
+          "prompt": "Create a workflow that automatically provisions new employee devices with standard applications and settings, and deprovisions devices on employee exit by wiping data.",
+          "title": "Automated Device Provisioning"
+        },
+        {
+          "description": "Allow users to securely self-unlock their encrypted hard drives.",
+          "prompt": "Build a secure self-service portal where employees can request temporary unlock codes for their encrypted company laptops under specific conditions.",
+          "title": "Self-Service Device Unlock Portal"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Device Management Solution",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add role-based access control so different IT administrators have varying permissions for device actions.",
+          "title": "Implement Granular Permissions"
+        },
+        {
+          "prompt": "Integrate with our Active Directory/LDAP for seamless user authentication and device assignment.",
+          "title": "Integrate with Identity Provider"
+        },
+        {
+          "prompt": "Include push notifications for IT administrators when a device reports a security incident or goes offline.",
+          "title": "Add Real-time Alerts"
+        },
+        {
+          "prompt": "Generate compliance reports showing which devices meet our security policies and identify non-compliant ones.",
+          "title": "Build Compliance Reporting"
+        },
+        {
+          "prompt": "Allow the system to automatically flag devices with outdated operating systems or unapproved software installations.",
+          "title": "Add Automated Compliance Checks"
+        },
+        {
+          "prompt": "Create a portal for employees to report lost devices and initiate a remote wipe request, pending IT approval.",
+          "title": "Employee Self-Service Incident Reporting"
+        },
+        {
+          "prompt": "Add a feature to log all device management actions, including who performed them and when, for audit purposes.",
+          "title": "Implement Audit Logging"
+        },
+        {
+          "prompt": "Allow for scheduled automated tasks, such as nightly scans for new software or weekly policy enforcement checks.",
+          "title": "Add Task Scheduling"
+        }
+      ]
+    },
+    {
+      "title": "Core Capabilities of a Custom MDM Tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Remotely lock devices, wipe data, and reset passwords for enhanced security.",
+          "icon": "🔒",
+          "title": "Remote Actions"
+        },
+        {
+          "description": "Define and enforce security policies like password strength, encryption, and screen lock timers.",
+          "icon": "🛡️",
+          "title": "Policy Enforcement"
+        },
+        {
+          "description": "Deploy, update, and remove applications on managed devices efficiently.",
+          "icon": "📱",
+          "title": "Application Management"
+        },
+        {
+          "description": "Maintain a real-time inventory of all company devices with detailed specifications and user assignments.",
+          "icon": "📈",
+          "title": "Asset Tracking"
+        },
+        {
+          "description": "Automate device setup for new hires and secure data removal for departing employees.",
+          "icon": "🔄",
+          "title": "Lifecycle Automation"
+        },
+        {
+          "description": "Generate reports on device status, compliance, usage, and security incidents.",
+          "icon": "📊",
+          "title": "Reporting & Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building This Solution",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic device management tool with Kliv can take as little as a few hours to a day. More complex, enterprise-grade systems with advanced integrations might take a few days of focused effort.",
+          "question": "How long will it take to build my custom device management tool?"
+        },
+        {
+          "answer": "No, you don't need any coding skills. Kliv's platform allows you to describe your requirements in natural language, and our AI assists in generating the application structure and code, making it accessible to anyone.",
+          "question": "Do I need to be a developer or have coding experience?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various existing systems. Common integrations include identity providers (like Active Directory, Okta), HR systems, existing network infrastructure, and other relevant APIs your organization uses.",
+          "question": "Can I integrate this tool with my existing IT infrastructure?"
+        },
+        {
+          "answer": "You retain full ownership of the application built on Kliv. This means you own the code, the logic, and all data associated with it. You can host it where you prefer and modify it freely.",
+          "question": "Who owns the intellectual property of the tool I build?"
+        },
+        {
+          "answer": "Custom-built tools typically have a higher upfront cost compared to initial SaaS subscriptions but result in significant long-term savings by eliminating recurring fees. Over 1-2 years, most custom solutions become far more cost-effective.",
+          "question": "How does the cost compare to off-the-shelf MDM software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the complete flexibility to add new features, adjust logic, or scale the tool as your organization's needs evolve, without vendor limitations.",
+          "question": "Can I modify or expand the tool after it's initially built?"
+        },
+        {
+          "answer": "Yes, custom-built tools can achieve superior security because you control the entire stack. You dictate data residency, encryption standards, access controls, and can implement specific security protocols relevant to your industry that generic solutions may not offer.",
+          "question": "Is a custom-built solution secure for managing sensitive company devices?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Secure Your Devices?",
+      "type": "cta",
+      "content": "Take control of your organization's devices with a custom-built management solution tailored to your exact needs. Stop adapting to generic software and start building what you need, today."
+    }
+  ],
+  "title": "Device Management & Unlocking Applications"
+}

@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a customer support chatbot that can answer FAQs, escalate complex queries to human agents, and provide personalized assistance based on user history.",
+  "description": "Design and deploy intelligent chatbots and conversational UIs tailored to your specific needs.",
+  "hero": {
+    "cta": "Build Your Chatbot",
+    "subtitle": "Develop custom AI-powered chatbots and conversational interfaces that understand, engage, and assist your users.",
+    "title": "Build Your Own Chatbot & Conversational UI"
+  },
+  "metaDescription": "Create powerful chatbots and conversational UIs with Kliv. Enhance customer service, automate tasks, and improve user engagement with custom solutions.",
+  "sections": [
+    {
+      "title": "Why build a custom conversational AI?",
+      "type": "text",
+      "content": "In today's fast-paced digital world, users expect instant, personalized interactions. Generic chatbot solutions often fall short, struggling with specific domain knowledge or lacking the seamless integration crucial for a truly effective experience. Building your own conversational AI allows you to craft a system that perfectly reflects your brand, understands your unique data, and integrates flawlessly into your existing ecosystem. With platforms like Kliv, this powerful customization is now within reach, empowering you to move beyond basic FAQs to truly intelligent interactions."
+    },
+    {
+      "title": "The case for tailored conversational experiences",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf chatbots\nGeneric chatbot providers offer quick setup, but they often come with significant trade-offs:\n\n- **Limited understanding**: Struggle with industry-specific jargon or complex user queries.\n- **Lack of personalization**: Cannot leverage your unique user data for tailored responses.\n- **Integration headaches**: Often require workarounds to connect with your internal systems.\n- **Brand disconnect**: Sound generic, failing to embody your brand's voice and tone.\n- **Costly scalability**: Subscription models can become expensive as usage grows or features are added.\n\n## Advantages of custom-built conversational AI\nLeveraging AI-powered platforms like Kliv, building a custom conversational AI offers unparalleled benefits:\n\n### Perfect contextual understanding\nTrain your chatbot on your specific data, knowledge bases, and use cases, ensuring it understands the nuances of your business and users.\n\n### Seamless system integration\nDirectly connect your conversational UI with your CRM, order management systems, helpdesk software, or any proprietary database. This enables actions like checking order status, updating user profiles, or scheduling appointments directly through the conversation.\n\n### Unique brand voice\nInfuse your chatbot with your company's personality and tone, creating a consistent and engaging user experience that strengthens your brand.\n\n### Cost-effective long-term solution\nA custom solution is a one-time investment that you own, eliminating recurring subscription fees and providing better ROI as your business scales.\n\n### Enhanced data privacy and security\nMaintain full control over your data, ensuring compliance with internal policies and external regulations, and mitigating risks associated with third-party data handling.\n\n## Real-world applications\nCompanies across various sectors are leveraging custom conversational UIs to transform operations:\n\n**E-commerce**: A chatbot that tracks customer orders, processes returns, recommends products based on browsing history, and offers real-time personalized shopping assistance.\n\n**Healthcare**: An AI assistant that helps patients book appointments, answers questions about health conditions (with disclaimers), provides medication reminders, and navigates insurance queries.\n\n**Internal Operations**: An employee-facing bot that answers HR questions, helps find internal documents, processes IT support tickets, or assists with project management tasks.\n\n**Financial Services**: A secure conversational interface for checking account balances, initiating transfers, applying for loans, or providing investment advice.\n\n## The Kliv development advantage\nBuilding complex conversational AI used to be a long, specialized process. Kliv simplifies this with:\n- **Natural language prompts**: Describe the bot's purpose and functionalities in plain text.\n- **Rapid prototyping**: See your chatbot persona and core logic develop quickly.\n- **AI-assisted design**: Get intelligent suggestions for conversation flows, intent recognition, and response generation.\n- **Scalable architecture**: Automatically deploy solutions that can handle varying user loads.\n\nTake control of your customer and employee interactions. Build the intelligent conversational AI that truly serves your needs."
+    },
+    {
+      "title": "Conversational AI ideas to explore",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "24/7 automated support for common customer questions.",
+          "prompt": "Create a customer service chatbot that can answer frequently asked questions about product features, shipping policies, and return processes.",
+          "title": "FAQ & Support Chatbot"
+        },
+        {
+          "description": "On-demand help for internal processes and HR queries.",
+          "prompt": "Build an internal HR bot for employees to retrieve company policies, check on leave balances, and get answers to payroll questions.",
+          "title": "Employee Self-Service Bot"
+        },
+        {
+          "description": "Guided lead qualification and product selection.",
+          "prompt": "Develop an interactive product recommender that asks users about their preferences and needs, then suggests the most suitable products from an inventory database.",
+          "title": "Product Recommendation Assistant"
+        },
+        {
+          "description": "Automated booking and scheduling for services.",
+          "prompt": "Design a booking assistant that allows users to schedule appointments for services (e.g., salon, clinic, consulting) by checking availability and confirming bookings.",
+          "title": "Appointment Scheduler Bot"
+        },
+        {
+          "description": "Interactive learning and knowledge retrieval.",
+          "prompt": "Implement a knowledge base chatbot that can retrieve and explain complex technical concepts from a provided set of documents or articles.",
+          "title": "Technical Documentation Assistant"
+        },
+        {
+          "description": "Gather feedback and conduct surveys conversationally.",
+          "prompt": "Create a survey bot that engages users in a conversation to collect feedback on a recent service experience or product usage.",
+          "title": "Feedback & Survey Bot"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your conversational AI",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add the ability for the bot to hand off complex queries to a live human agent with conversation history.",
+          "title": "Live Agent Handoff"
+        },
+        {
+          "prompt": "Integrate with a CRM system (e.g., Salesforce, HubSpot) to personalize responses based on user history and create new leads.",
+          "title": "CRM Integration"
+        },
+        {
+          "prompt": "Enable the chatbot to perform actions like creating tickets, updating records, or sending emails via API calls to other systems.",
+          "title": "Action Execution Capabilities"
+        },
+        {
+          "prompt": "Implement sentiment analysis to detect user emotion and adapt the conversation flow or response tone accordingly.",
+          "title": "Sentiment Analysis"
+        },
+        {
+          "prompt": "Add voice recognition and text-to-speech for interaction via spoken language.",
+          "title": "Voice Interface"
+        },
+        {
+          "prompt": "Develop an analytics dashboard showing conversation volume, user satisfaction, common queries, and abandonment rates.",
+          "title": "Performance Analytics"
+        },
+        {
+          "prompt": "Allow the chatbot to proactively initiate conversations with users based on their browsing behavior or inactivity.",
+          "title": "Proactive Engagement"
+        },
+        {
+          "prompt": "Enable multi-language support so the chatbot can interact with users in various languages.",
+          "title": "Multi-Language Support"
+        },
+        {
+          "prompt": "Add a feature for users to upload documents or images that the chatbot can process or analyze (e.g., for support tickets).",
+          "title": "File Attachment Support"
+        }
+      ]
+    },
+    {
+      "title": "Key conversational AI capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Understand user intentions and extract key information from natural language input.",
+          "icon": "🧠",
+          "title": "Natural Language Understanding (NLU)"
+        },
+        {
+          "description": "Manage multi-turn conversations, remembering context and user preferences.",
+          "icon": "💬",
+          "title": "Context Management"
+        },
+        {
+          "description": "Integrate with external APIs and databases to fetch and update real-time information.",
+          "icon": "🔗",
+          "title": "External System Integration"
+        },
+        {
+          "description": "Define custom conversation flows and branching logic for complex interactions.",
+          "icon": "🗺️",
+          "title": "Custom Dialog Flows"
+        },
+        {
+          "description": "Personalize responses based on user data, history, and real-time context.",
+          "icon": "🤝",
+          "title": "Personalized Responses"
+        },
+        {
+          "description": "Deploy your chatbot across various channels like web, mobile, messaging apps, and voice interfaces.",
+          "icon": "🌐",
+          "title": "Multi-Channel Deployment"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional chatbot with Kliv can take anywhere from a few hours for a basic FAQ bot to a few days or weeks for a complex conversational UI with multiple integrations, depending on your prompt's detail.",
+          "question": "How quickly can I build a conversational AI with Kliv?"
+        },
+        {
+          "answer": "No deep technical expertise is required. Kliv's platform translates your natural language descriptions into a working chatbot. You define the purpose, behavior, and integrations, and the AI handles the complex coding.",
+          "question": "Do I need to be a developer to create a chatbot?"
+        },
+        {
+          "answer": "Yes, your custom chatbot can connect to virtually any external system that offers an API. This includes CRMs, ERPs, databases, payment gateways, and third-party services, allowing for rich, transactional conversations.",
+          "question": "Can the chatbot integrate with my existing business systems?"
+        },
+        {
+          "answer": "You retain full ownership of the conversational logic, data, and code generated for your chatbot. You can host it yourself, guaranteeing complete control over your user data and the entire system.",
+          "question": "Who owns the intellectual property and data for my custom chatbot?"
+        },
+        {
+          "answer": "Custom-built solutions typically offer a better long-term ROI. While there's an initial development investment, you avoid recurring subscription fees that escalate with usage or features, common with SaaS chatbot platforms.",
+          "question": "How cost-effective is building custom vs. using a SaaS chatbot platform?"
+        },
+        {
+          "answer": "Absolutely. You have complete flexibility to modify prompts, add new intents, refine responses, integrate new services, or change the underlying logic as your business needs evolve. The system is entirely adaptable.",
+          "question": "Can I modify or expand my chatbot's capabilities after it's built?"
+        },
+        {
+          "answer": "Yes, by building your own, you have full control over data security and compliance. You decide where data is stored and how it's handled, which can exceed the security standards of many third-party services.",
+          "question": "Are custom chatbots more secure for sensitive data?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance throughout the building process, offering suggestions for improvements, debugging assistance, and best practices for conversational design. You're supported at every step.",
+          "question": "What kind of support is available during the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to launch your intelligent conversational AI?",
+      "type": "cta",
+      "content": "Stop limiting your interactions with generic tools. Build a custom chatbot that truly understands and serves your users, powered by AI."
+    }
+  ],
+  "title": "Chatbot & Conversational UI Builder"
+}

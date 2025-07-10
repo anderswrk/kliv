@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create an A/B testing platform that allows me to define experiments, track user behavior on different variants, and analyze results to determine the winning variation.",
+  "description": "Build custom A/B testing and experimentation platforms with Kliv's AI-powered low-code development.",
+  "hero": {
+    "cta": "Start Experimenting",
+    "subtitle": "Design, run, and analyze your experiments with precision. Build custom A/B testing platforms tailored to your unique product and user behavior.",
+    "title": "Build Your Own A/B Testing & Experimentation Platform"
+  },
+  "metaDescription": "Create powerful A/B testing and experimentation tools with Kliv. Gain deep insights into user behavior, optimize conversions, and drive product growth with custom-built experimentation platforms.",
+  "sections": [
+    {
+      "title": "Why a custom experimentation platform?",
+      "type": "text",
+      "content": "In today's data-driven world, A/B testing and experimentation are non-negotiable for product growth. However, off-the-shelf solutions often fall short, struggling to adapt to unique product architectures, complex user flows, or custom data attribution models.\n\nBuilding your own experimentation platform gives you unparalleled control. It means no more compromise on data granularity, no vendor lock-in, and the ability to integrate seamlessly with your existing infrastructure. With AI-assisted development tools, creating a bespoke solution that perfectly fits your needs is no longer a monumental task."
+    },
+    {
+      "title": "The case for tailored experimentation",
+      "type": "markdown",
+      "content": "## The pitfalls of generic A/B testing tools\n\nMany businesses rely on third-party A/B testing platforms that, while convenient, come with significant drawbacks:\n\n- **Limited flexibility**: They often dictate how you define experiments, target users, and collect data, which might not align with your product's nuances.\n- **Data silos**: Your experiment data lives in a separate system, making it cumbersome to join with other critical business metrics.\n- **Vendor lock-in & costs**: Recurring subscriptions can become significant, and migrating off a platform can be a nightmare.\n- **Performance overhead**: External scripts can introduce latency, impacting user experience and SEO.\n- **Security & privacy concerns**: Entrusting sensitive user data to third parties always carries risks.\n\n## Why a custom-built solution leads to better insights\n\nImagine an experimentation platform perfectly tuned to your product's specific needs. That's the power of building your own:\n\n### Granular data ownership\nOwn every single data point from your experiments. Integrate directly with your analytics stack for a unified view of user behavior, feature adoption, and business impact. No sampling, no assumptions.\n\n### Unrestricted experiment design\nFrom multivariate tests on complex UI components to sequential testing across user journeys, a custom platform allows you to design any experiment imaginable, no matter how intricate.\n\n### Seamless integration with infrastructure\nBuild your experimentation engine directly into your existing codebase, deployment pipelines, and data warehouses. This ensures high performance, data consistency, and streamlined operations.\n\n### Cost-efficiency in the long run\nBeyond the initial build, you eliminate recurring subscription fees. Future feature additions and scaling are managed internally, often at a lower total cost of ownership.\n\n### Enhanced security and privacy\nMaintain full control over your user data. Implement privacy safeguards and compliance measures that meet your specific regulatory requirements without relying on a third-party's policies.\n\n## Real-world applications of custom experimentation\n\n- **E-commerce**: Test different checkout flows, product recommendation algorithms, or promotional banner placements to boost conversion rates.\n- **SaaS Products**: Experiment with new onboarding sequences, feature placements, or pricing models to improve activation and retention.\n- **Media & Content**: A/B test headlines, article layouts, or content personalization engines to increase engagement and time-on-page.\n- **Mobile Apps**: Optimize notification strategies, in-app purchase flows, or navigation structures for a better mobile experience.\n\n## The Kliv advantage in building your solution\n\nKliv leverages AI to make custom software development accessible. For experimentation platforms, this means:\n\n- **Accelerated development**: Translate your complex experiment definitions into functional code rapidly.\n- **Intelligent suggestions**: Get AI-driven recommendations for tracking implementations, statistical analysis methods, and reporting dashboards.\n- **Iterative building**: Quickly prototype, test, and refine your platform's features, adapting as your experimentation needs evolve.\n\nBy building your own, you invest in a future-proof experimentation capability that scales with your ambition, not your vendor's price list."
+    },
+    {
+      "title": "Experiment ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Evaluate different variations of your welcome flow",
+          "prompt": "Create an A/B testing platform for onboarding flows. It should divert new users into two different paths (A and B) and track their completion rates, time to activation, and feature adoption over 7 days.",
+          "title": "User onboarding optimization"
+        },
+        {
+          "description": "Test different pricing structures and their impact on conversion",
+          "prompt": "Build an experimentation tool to A/B test pricing pages. It needs to expose different user segments to unique pricing options and measure signup conversions and average revenue per user (ARPU) after 30 days.",
+          "title": "Pricing page optimization"
+        },
+        {
+          "description": "Understand user response to new visual elements",
+          "prompt": "Develop an A/B testing system for homepage layout changes. Allow me to show different navigation bars and hero sections to distinct user groups and monitor bounce rates, clicks to key sections, and session duration.",
+          "title": "Homepage UI experimentation"
+        },
+        {
+          "description": "Compare two variations of an email campaign",
+          "prompt": "Design a system for A/B testing email subject lines and content. It should track open rates, click-through rates, and ultimately, conversion events on my website for each email variant sent to a segmented audience.",
+          "title": "Email campaign testing"
+        },
+        {
+          "description": "Optimize call-to-action button effectiveness",
+          "prompt": "Build a simple A/B test for a call-to-action button color and text. It needs to randomize button variants for visitors and track click rates and downstream conversion events directly attributable to that button.",
+          "title": "CTA button optimization"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your experimentation platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate advanced statistical analysis methods like Bayesian inference for faster conclusive results with smaller sample sizes.",
+          "title": "Add Bayesian statistics"
+        },
+        {
+          "prompt": "Implement a real-time dashboard displaying active experiments, current variant performance metrics, and statistical significance levels as data streams in.",
+          "title": "Build real-time dashboards"
+        },
+        {
+          "prompt": "Add functionality for managing multiple concurrent experiments, including dependency checks and conflict resolution for overlapping user segments or features.",
+          "title": "Enable multi-experiment management"
+        },
+        {
+          "prompt": "Develop a feature flagging system directly linked to the experimentation platform, allowing dynamic rollout and rollback of features based on experiment results.",
+          "title": "Integrate feature flagging"
+        },
+        {
+          "prompt": "Add API endpoints for programmatic experiment creation, management, and data retrieval, allowing integration with CI/CD pipelines and external reporting tools.",
+          "title": "Expose robust APIs"
+        },
+        {
+          "prompt": "Implement user segmentation capabilities based on demographics, behavior, source, or custom attributes for hyper-targeted experimentation.",
+          "title": "Enhance user segmentation"
+        },
+        {
+          "prompt": "Add support for multivariate testing (MVT) to simultaneously test multiple variables and their interactions within a single experiment.",
+          "title": "Support Multivariate Testing"
+        },
+        {
+          "prompt": "Build an automated alert system to notify stakeholders when an experiment reaches statistical significance or detects an unexpected result.",
+          "title": "Implement automated alerts"
+        }
+      ]
+    },
+    {
+      "title": "Key platform capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define and manage experiments with various targeting rules and variant distributions.",
+          "icon": "🧪",
+          "title": "Experiment Definition"
+        },
+        {
+          "description": "Track user interactions and key metrics across different experiment variations.",
+          "icon": "📊",
+          "title": "Behavioral Tracking"
+        },
+        {
+          "description": "Analyze experiment results with statistical significance calculations and clear visualizations.",
+          "icon": "📈",
+          "title": "Statistical Analysis"
+        },
+        {
+          "description": "Segment users based on various attributes for precise targeting and analysis.",
+          "icon": "👤",
+          "title": "User Segmentation"
+        },
+        {
+          "description": "Integrate seamlessly with your existing data warehouses, CRM, and analytics tools.",
+          "icon": "🔗",
+          "title": "Data Integration"
+        },
+        {
+          "description": "Control feature exposure and rollouts dynamically as part of your experiments.",
+          "icon": "🚀",
+          "title": "Dynamic Feature Control"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic A/B testing framework can take as little as a few hours to a few days, depending on the complexity of your requirements and existing infrastructure. More advanced features like real-time analytics or multivariate testing would extend this timeline.",
+          "question": "How long does it take to build an A/B testing platform with Kliv?"
+        },
+        {
+          "answer": "Kliv is designed to empower those without traditional coding expertise. Its AI-driven environment allows you to describe your desired functionality in plain language, generating the underlying code and infrastructure. Technical knowledge helps refine it, but isn't a prerequisite.",
+          "question": "Do I need to be a developer to build an experimentation platform?"
+        },
+        {
+          "answer": "Yes, a core advantage of building your own system is deep integration. Kliv-generated applications can connect to virtually any API, database, or analytics platform you currently use (e.g., Google Analytics, Segment, Snowflake, your proprietary data lake).",
+          "question": "Can I integrate the custom platform with my existing analytics and data systems?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property. Kliv generates functional code that you can deploy, modify, and manage entirely independently. This avoids vendor lock-in and gives you complete control over your experimentation strategy.",
+          "question": "Who owns the code and data generated by my experimentation platform?"
+        },
+        {
+          "answer": "Yes, absolutely. One of the key benefits of a custom solution is its adaptability. As your product evolves, you can easily add new experiment types, tracking metrics, analysis methods, or integrations to meet future needs, often with further AI assistance.",
+          "question": "Can I modify or expand my platform after it's initially built?"
+        },
+        {
+          "answer": "Generally, custom platforms offer better long-term cost efficiency. While initial setup might involve more internal resources, you eliminate recurring subscription fees for large-scale usage, gain complete control over infrastructure costs, and avoid variable costs based on traffic or feature usage.",
+          "question": "How does the cost compare to off-the-shelf A/B testing solutions?"
+        },
+        {
+          "answer": "Building your own platform allows you to implement specific security protocols and privacy measures tailored to your compliance needs (e.g., GDPR, CCPA). You control data residency, encryption, and access, offering potentially higher security and data governance than third-party SaaS.",
+          "question": "Is a custom-built experimentation platform more secure?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unlock true product insights?",
+      "type": "cta",
+      "content": "Stop limiting your experiments to off-the-shelf constraints. Build an experimentation platform that truly understands your product, your users, and your growth goals. Start building with Kliv today."
+    }
+  ],
+  "title": "A/B Testing & Experimentation Platforms"
+}

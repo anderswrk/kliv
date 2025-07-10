@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a user management and roles application for performance management, allowing different access levels for employees, managers, and HR, with capabilities for setting goals, tracking progress, and conducting reviews.",
+  "description": "Build custom user management and roles applications for performance management with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your HR app",
+    "subtitle": "Design and deploy powerful user management and role-based access systems tailored for employee performance management.",
+    "title": "Custom User Management & Roles for Performance"
+  },
+  "metaDescription": "Create a robust user management and roles application for performance management with Kliv. Define specific access levels for employees, managers, and HR, and manage goals, feedback, and reviews seamlessly.",
+  "sections": [
+    {
+      "title": "Why a tailored user management system for performance?",
+      "type": "text",
+      "content": "Off-the-shelf HR software often comes with rigid user roles and permissions that don't quite fit the nuances of your performance management processes. Building your own allows for granular control over who sees what, ensuring data security and process integrity, precisely aligned with your unique organizational structure.\n\nThis isn't just about managing users; it's about empowering your performance workflows. Custom solutions mean you define the hierarchy, access rights, and data visibility, making your performance reviews, goal setting, and feedback loops as efficient and secure as possible, without compromise."
+    },
+    {
+      "title": "The strategic advantage of tailored access control",
+      "type": "markdown",
+      "content": "## The limitations of generic HR platforms\n\nMany human resources platforms offer pre-defined user roles that might not perfectly match your organization's specific performance review cycles, feedback mechanisms, or reporting needs. This can lead to:\n\n- **Over-permissioning**: Granting users access to more data or functions than necessary, posing security risks.\n- **Under-permissioning**: Restricting essential access, creating bottlenecks and frustration for employees and managers.\n- **Inflexible workflows**: Inability to define custom approval flows or data visibility based on specific roles (e.g., team lead vs. department head).\n- **Integration headaches**: Difficulty connecting user roles with other internal systems or specialized performance tools.\n\n## Why custom is crucial for performance management\n\nPerformance management is deeply personal and highly sensitive. A custom user management and roles application ensures that:\n\n### Data privacy and security is paramount\nYou precisely control who can view, edit, or delete performance data. This means sensitive information like salary reviews, performance warnings, or detailed feedback is only accessible to authorized personnel, minimizing internal security risks and ensuring compliance.\n\n### Workflows are optimized for your process\nYour performance review process is unique. A custom system allows you to define roles such as 'peer reviewer,' 'skip-level manager,' or 'HR business partner' with distinct permissions, ensuring that feedback flows correctly and decisions are made by the right individuals at each stage of a performance cycle.\n\n### Scalability and adaptability\nAs your organization grows or its performance philosophies evolve, your custom system can easily adapt. Add new roles, modify permissions, or integrate new modules for 360-degree feedback or continuous coaching—all from a single, unified access control platform.\n\n### Enhanced employee experience\nEmployees and managers benefit from a clean, intuitive interface where they only see what's relevant to their role. This reduces confusion, improves adoption, and ensures that the focus remains on performance goals and development, not on navigating complex access systems.\n\n## Real-world impact\n\nConsider the impact of a custom solution:\n\n**Multi-national corporation**: Custom roles allow regional HR managers to access performance data only for their specific regions, while central HR maintains an overview, adhering to local privacy laws.\n\n**Tech startup**: A system where engineers can only view peer reviews of code, team leads can view individual sprint goals, and project managers can see team-wide performance metrics, all within a single application but with tailored views.\n\n**Consulting firm**: Automated assignment of client-facing project roles with specific permissions to access project-specific performance dashboards and client feedback, while internal HR roles manage overall employee development plans.\n\n## Building with Kliv: The pathway to precision\n\nBuilding a sophisticated user management system no longer demands a large development team. Kliv's AI-empowered platform enables you to:\n\n- **Define intricate hierarchies**: Express the relationships between employees, managers, and departments in plain language.\n- **Automate permission assignment**: Set rules for roles, so new hires automatically get appropriate access.\n- **Rapidly iterate**: Adjust roles and permissions on the fly as your company structure or performance needs change.\n- **Integrate seamlessly**: Connect your custom system with existing HRIS, payroll, or learning management systems for a unified experience.\n\nInvest in a user management and roles solution that perfectly mirrors your performance management vision. Kliv makes it possible."
+    },
+    {
+      "title": "Performance management role ideas to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create distinct access for employees, managers, and HR admins.",
+          "prompt": "Design a user management system for employee performance reviews where employees can view their own goals and feedback, managers can view and edit their direct reports' goals and review performance, and HR can manage all users and oversee all performance data.",
+          "title": "Basic Employee-Manager-HR Roles"
+        },
+        {
+          "description": "Allow managers to provide feedback on any employee they collaborate with.",
+          "prompt": "Build a peer feedback system where users can submit anonymous or attributed feedback on any colleague, and managers can view all feedback for their team members, but employees can only see feedback directed at them.",
+          "title": "360-Degree Feedback Permissions"
+        },
+        {
+          "description": "Grant executive oversight without granting full HR access.",
+          "prompt": "Develop a role for 'Executive Reviewer' who can view finalized performance reviews and aggregated team performance metrics, but cannot edit individual employee data or manage user accounts.",
+          "title": "Executive Dashboard Access"
+        },
+        {
+          "description": "Enable department heads to compare performance across their teams.",
+          "prompt": "Create a 'Department Head' role that allows viewing performance metrics and review summaries for all employees within their assigned department, but without access to sensitive HR functions or the ability to modify company-wide settings.",
+          "title": "Departmental Oversight Roles"
+        },
+        {
+          "description": "Support a structured process for goal setting and tracking.",
+          "prompt": "Implement specific roles for 'Goal Setter' and 'Goal Approver,' where employees can set their individual goals, and their direct managers serve as 'Goal Approvers' who must formally approve or reject goal proposals.",
+          "title": "Goal Setting & Approval Workflow"
+        },
+        {
+          "description": "Distribute admin tasks without giving full system control.",
+          "prompt": "Define a 'Team Lead' role that can assign tasks to team members and view task completion rates, but not access performance reviews or sensitive employee HR data, focusing purely on operational performance.",
+          "title": "Team Lead Operational Access"
+        }
+      ]
+    },
+    {
+      "title": "Enhancing your performance management roles",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with our existing Active Directory/LDAP for user authentication and synchronization of employee data.",
+          "title": "Add SSO & HRIS Integration"
+        },
+        {
+          "prompt": "Implement a 'Ghost Mode' for HR support, allowing HR to temporarily assume any user's role for troubleshooting or support purposes.",
+          "title": "Build in Impersonation Feature"
+        },
+        {
+          "prompt": "Add audit trails that record every access, modification, or deletion of performance data by user and timestamp.",
+          "title": "Implement Comprehensive Audit Logs"
+        },
+        {
+          "prompt": "Develop a dynamic permission system where access to certain reports or forms changes based on an employee's performance rating or tenure.",
+          "title": "Create Dynamic Permissions"
+        },
+        {
+          "prompt": "Allow managers to delegate review responsibilities to other managers for specific employees during their absence.",
+          "title": "Add Delegation Capabilities"
+        },
+        {
+          "prompt": "Include a feature for 'Performance Review Sign-Off' where employees and managers digitally sign off on completed reviews, with cryptographic proof.",
+          "title": "Build Digital Sign-Off Workflows"
+        },
+        {
+          "prompt": "Add a feature to upload and manage employee skill matrices, accessible based on department or project roles.",
+          "title": "Integrate Skill Management"
+        },
+        {
+          "prompt": "Create an API for other internal systems to query user roles and permissions programmatically.",
+          "title": "Expose Role-based APIs"
+        },
+        {
+          "prompt": "Add functionality for managers to create custom 'development plans' that are only visible to the employee and designated mentors.",
+          "title": "Incorporate Development Plans"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for role-based access in performance",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define granular permissions for viewing, editing, and managing performance data.",
+          "icon": "🔒",
+          "title": "Role-Based Access Control (RBAC)"
+        },
+        {
+          "description": "Establish hierarchical relationships between employees, managers, and HR.",
+          "icon": "🔗",
+          "title": "Organizational Hierarchy Mapping"
+        },
+        {
+          "description": "Control visibility of sensitive data and features based on user roles.",
+          "icon": "🕵️",
+          "title": "Data Segmentation & Visibility"
+        },
+        {
+          "description": "Automate assignment of roles and permissions based on HR data or rules.",
+          "icon": "⚙️",
+          "title": "Automated Role Assignment"
+        },
+        {
+          "description": "Keep a detailed record of all user actions related to performance data.",
+          "icon": "📝",
+          "title": "Activity Logging & Audit Trails"
+        },
+        {
+          "description": "Integrate with existing HR systems for seamless user provisioning and data sync.",
+          "icon": "🔌",
+          "title": "HRIS & Directory Integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building user management with Kliv is typically much faster than traditional development. A basic system with core roles can be functional in days, while more complex multi-tier role structures might take a few weeks to fully polish.",
+          "question": "How quickly can I deploy a custom user management system with Kliv?"
+        },
+        {
+          "answer": "You don't need to be a coding expert. Kliv's platform allows you to describe your desired roles, permissions, and hierarchy in plain language, and the AI assists in generating the necessary components and logic.",
+          "question": "Do I need to be a programmer to define complex user roles and permissions?"
+        },
+        {
+          "answer": "Yes, Kliv-built applications are designed for integration. You can connect your custom user management system with a wide range of external services, including HRIS, payroll systems, learning management platforms, and existing identity providers (like Active Directory or Okta).",
+          "question": "Can this custom system integrate with my existing HR software or identity providers?"
+        },
+        {
+          "answer": "You retain full ownership and control over the code and infrastructure. This means your sensitive performance data remains within your controlled environment, ensuring higher security and compliance with your internal policies and regional data regulations.",
+          "question": "What about data security and compliance for sensitive performance information?"
+        },
+        {
+          "answer": "Yes, the primary advantage is adaptability. You can easily modify roles, introduce new permission levels, or adjust data visibility rules as your organizational structure evolves, or as new performance management methodologies are adopted, without external vendor reliance.",
+          "question": "Can I easily update or expand the roles and permissions as my organization changes?"
+        },
+        {
+          "answer": "Building your own offers a significant cost advantage over time. While there's an initial investment, you avoid recurring per-user or feature-tier subscription fees associated with commercial HR software, leading to substantial savings and a higher ROI.",
+          "question": "How does the cost compare to off-the-shelf HR software for user management?"
+        },
+        {
+          "answer": "Absolutely. Kliv provides tools and AI assistance for testing and validation. You can simulate different user roles to verify that permissions are correctly assigned and data access is restricted as intended, ensuring the system works as expected before deployment.",
+          "question": "Can I test the different role permissions before rolling it out to all employees?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to tailor your performance management access?",
+      "type": "cta",
+      "content": "Stop fitting your unique organizational hierarchy into generic software. Build a precision-engineered user and role management system that empowers your performance strategy."
+    }
+  ],
+  "title": "User Management & Role-Based Access for Performance Apps"
+}

@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a minimalist grocery inventory application that tracks quantities, expiry dates, and shopping lists for my home pantry. It should allow quick updates and intelligent suggestions.",
+  "description": "Never overbuy or waste food again. Build your custom minimalist grocery inventory with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start managing your pantry",
+    "subtitle": "Stop food waste and overspending. Build a custom, minimalist grocery inventory application perfectly tailored to your home with Kliv's AI-powered platform.",
+    "title": "Build your own minimalist grocery inventory"
+  },
+  "metaDescription": "Create a personalized, minimalist grocery inventory application with Kliv. Track items, manage expiry dates, generate smart shopping lists, and reduce food waste with a custom-built solution.",
+  "sections": [
+    {
+      "title": "The challenge of managing a modern pantry",
+      "type": "text",
+      "content": "In today's fast-paced world, managing household groceries can be surprisingly complex. From tracking expiry dates to avoiding duplicate purchases and planning sensible meals, it's easy for food to get lost, go bad, and for money to be wasted. Generic solutions often come with too much baggage – overwhelming features, intrusive ads, or irrelevant social functions. What if you could build a precise, elegant tool designed exactly for your home, your family, and your minimalist needs?"
+    },
+    {
+      "title": "Why a custom grocery inventory is the intelligent choice",
+      "type": "markdown",
+      "content": "## Beyond pre-built apps: Your perfect pantry planner\n\nMany off-the-shelf grocery inventory apps promise simplicity but deliver bloatware. They might track obscure metrics, force you into specific grocery store integrations, or inundate you with features you'll never use. A custom-built solution, however, offers unparalleled advantages:\n\n### Simplicity by design\nYou decide what features are included and what's left out. If you only need to track quantities and expiry dates, that's all your app will do. No unnecessary complexity, no distracting elements—just pure, focused functionality.\n\n### Tailored to your lifestyle\nDo you prioritize expiry dates for fresh produce? Need special alerts for dietary restrictions? Or perhaps you want to integrate with your specific meal planning routine? A custom app can be designed to fit your unique culinary habits and household needs perfectly.\n\n### Ultimate privacy and control\nConcerned about your grocery habits being tracked, analyzed, or sold? With a custom application, your data stays yours. You control its storage, access, and usage, ensuring complete privacy from third-party advertisers and data brokers.\n\n### One-time ownership, endless value\nSubscription models for simple home utilities add up. Building your own tool with Kliv is a one-time investment that serves you indefinitely. No recurring fees, no unexpected price hikes—just a tool that consistently delivers value.\n\n### Adaptable as your life evolves\nLife changes, and so do your grocery needs. A custom tool can be easily modified to incorporate new dietary preferences, family size changes, or even smart home integrations. It grows and adapts with you, ensuring long-term utility.\n\n## Real-world impact in your kitchen\n\nImagine a kitchen where:\n\n- **Food waste is minimized**: You always know what you have and what's expiring soon, allowing you to use items before they spoil.\n- **Shopping is efficient**: Your grocery list is automatically generated based on what you need and what you plan to cook, reducing impulse buys and forgotten items.\n- **Meal planning is effortless**: You can easily see available ingredients, making it simple to plan meals around what you already have.\n- **Storage is optimized**: Understand at a glance where everything is, from the pantry to the freezer.\n\n## The Kliv advantage for home applications\n\nBuilding sophisticated applications used to require technical expertise. Kliv changes this by allowing you to describe your desired tool in plain language. Our AI translates your vision into a functional application, enabling individuals to create powerful, personalized software solutions without writing a single line of code.\n\nStart building your ideal minimalist grocery inventory today and transform the way you manage your home and food."
+    },
+    {
+      "title": "Grocery inventory ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Simple quantity tracking and expiration alerts for refrigerator items.",
+          "prompt": "Create a home refrigerator inventory app that lets me quickly add items, note their quantity, and set an expiry date. It should alert me three days before an item expires.",
+          "title": "Fridge expiry tracker"
+        },
+        {
+          "description": "Comprehensive pantry management with smart shopping list generation.",
+          "prompt": "Build a comprehensive pantry inventory system. I want to add items with quantity, unit (e.g., 'grams', 'cans'), and purchase date. When an item is low, it should automatically add it to a 'shopping list'. I also want to manually add items to the shopping list.",
+          "title": "Pantry stock manager"
+        },
+        {
+          "description": "An app focusing on meals and ingredients on hand.",
+          "prompt": "Develop an application that allows me to input recipes and then track the ingredients I have available. When I select a recipe, it should show me if I have all ingredients or what I need to buy.",
+          "title": "Meal prep inventory"
+        },
+        {
+          "description": "Basic freezer content tracker to prevent freezer burn.",
+          "prompt": "I need a simple freezer inventory. I'll add items with a description and the date they were frozen. I want to be able to search for items and see what's been in there the longest.",
+          "title": "Freezer content organizer"
+        },
+        {
+          "description": "An app to share and coordinate grocery needs with family.",
+          "prompt": "Create a shared family grocery inventory. Each family member can add items they've bought or need. If an item is low, it's flagged, and everyone can see who added what to the shopping list.",
+          "title": "Shared family pantry"
+        },
+        {
+          "description": "An inventory focused on health and expiration data.",
+          "prompt": "Build an inventory app that emphasizes nutrition and expiry. For each item, I want to add its type (e.g., fruit, vegetable, dairy), a macronutrient breakdown if possible, and a strict expiry date with color-coded warnings (green for fresh, yellow for nearing expiry, red for expired).",
+          "title": "Health-focused food tracker"
+        }
+      ]
+    },
+    {
+      "title": "How to enhance your inventory tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to scan barcodes of grocery items to automatically add them to inventory.",
+          "title": "Barcode scanning"
+        },
+        {
+          "prompt": "Integrate with a voice assistant (like Alexa or Google Assistant) to add or check items hands-free.",
+          "title": "Voice integration"
+        },
+        {
+          "prompt": "Implement predictive shopping list generation based on consumption patterns and typical meal plans.",
+          "title": "Smart reorder suggestions"
+        },
+        {
+          "prompt": "Create a dashboard to visualize food waste over time and highlight most frequently wasted items.",
+          "title": "Waste analytics dashboard"
+        },
+        {
+          "prompt": "Add a recipe suggestion feature that recommends meals based on ingredients currently available in inventory that are nearing expiry.",
+          "title": "Expiry-based meal suggestions"
+        },
+        {
+          "prompt": "Enable multi-user access with different permission levels, so family members can view/edit shared inventories.",
+          "title": "Multi-user sync"
+        },
+        {
+          "prompt": "Include push notifications for important events like 'items expiring soon' or 'shopping list updated'.",
+          "title": "Custom notifications"
+        },
+        {
+          "prompt": "Add the ability to track purchase locations and costs for budgeting purposes.",
+          "title": "Cost tracking"
+        }
+      ]
+    },
+    {
+      "title": "Key inventory features for your home",
+      "type": "features",
+      "items": [
+        {
+          "description": "Add, update quantities, and categorize your pantry items easily.",
+          "icon": "📝",
+          "title": "Effortless item management"
+        },
+        {
+          "description": "Keep track of 'use-by' dates to prevent spoilage and food waste.",
+          "icon": "⏰",
+          "title": "Expiry date tracking"
+        },
+        {
+          "description": "Automatically generate shopping lists based on low stock or custom additions.",
+          "icon": "🛒",
+          "title": "Smart shopping lists"
+        },
+        {
+          "description": "Create custom categories (e.g., 'pantry', 'fridge', 'freezer') for intuitive organization.",
+          "icon": "🗄️",
+          "title": "Configurable storage locations"
+        },
+        {
+          "description": "Gain insights into what you consume most and what you might be wasting.",
+          "icon": "📈",
+          "title": "Consumption insights"
+        },
+        {
+          "description": "Search and filter to quickly find any item in your inventory.",
+          "icon": "🔍",
+          "title": "Quick search & filter"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic minimalist grocery inventory app with Kliv can take as little as a few hours. More complex systems with advanced features like barcode scanning or voice integration might take a day or two to refine.",
+          "question": "How long does it take to build a grocery inventory app?"
+        },
+        {
+          "answer": "No coding experience is necessary. Kliv's platform allows you to describe your desired application using natural language, and our AI assists in building the functional software.",
+          "question": "Do I need to be a programmer to build this?"
+        },
+        {
+          "answer": "Yes, you can integrate with various APIs for features like barcode lookups, though these might require slightly more advanced prompts. For core functionality, no external integrations are typically needed unless desired.",
+          "question": "Can my custom app integrate with external services (e.g., barcode databases)?"
+        },
+        {
+          "answer": "Your data is entirely yours. You decide where it's stored (e.g., on your device, a personal cloud storage solution). Kliv facilitates the creation of the application, but you retain full ownership and control over your data.",
+          "question": "Where is my data stored, and who owns it?"
+        },
+        {
+          "answer": "Compared to many subscription-based inventory apps that charge recurring fees, building your own with Kliv is a one-time project cost. For a personal home-use app, this typically results in significant long-term savings.",
+          "question": "Is building my own app cheaper than using existing subscription services?"
+        },
+        {
+          "answer": "Absolutely. One of the primary benefits of building with Kliv is the flexibility to modify and expand your application at any time. You can add new features, adjust existing ones, or change the user interface as your needs evolve.",
+          "question": "Can I modify my grocery inventory app after it's built?"
+        },
+        {
+          "answer": "Kliv helps you build the application. For deployment, you can host it locally, use a personal cloud server, or easily deploy it to common web app platforms. The technical requirements are minimal and often user-friendly.",
+          "question": "What are the technical requirements for running my custom app?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to own your pantry data?",
+      "type": "cta",
+      "content": "Take control of your groceries, reduce waste, and build the perfect inventory solution that grows with you. Start creating your custom app with Kliv today."
+    }
+  ],
+  "title": "Minimalist grocery inventory"
+}

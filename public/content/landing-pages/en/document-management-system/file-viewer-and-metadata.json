@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a web-based application that allows users to upload various document types (PDF, Word, Excel, images), view them directly in the browser, and extract or add custom metadata to each file for better organization and searchability.",
+  "description": "Build custom file viewer and metadata applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start organizing files",
+    "subtitle": "Create custom file viewing and metadata management tools tailored to your exact needs, powered by Kliv's AI.",
+    "title": "Build Your Own File Viewer & Metadata App"
+  },
+  "metaDescription": "Create powerful custom file viewer and metadata applications with Kliv. Enhance document organization, searchability, and access with tailored solutions for your business.",
+  "sections": [
+    {
+      "title": "Beyond basic storage: The need for intelligent file management",
+      "type": "text",
+      "content": "Storing files is easy; finding, understanding, and managing them efficiently is the real challenge. Off-the-shelf document management systems often provide bloated features you don't need, lack crucial custom fields you do, and come with recurring costs that add up. Imagine a system where every document is instantly viewable in-browser, and every piece of relevant information—from creation date to custom project codes—is easily attached and searchable. With Kliv, building such a precise, powerful tool is no longer a complex development project, but an accessible reality."
+    },
+    {
+      "title": "Why custom file viewer and metadata tools are essential",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\nGeneric cloud storage and basic document management systems often fall short when it comes to specific business needs:\n\n- **Limited viewing capabilities**: Not all file types are viewable natively, requiring downloads or separate applications.\n- **Rigid metadata fields**: Predefined fields don't always capture the unique data points important to your workflow.\n- **Poor search functionality**: Searching is often limited to file names or basic content, missing crucial context.\n- **Integration hurdles**: Difficult to connect with your existing business applications and workflows.\n- **Costly overhead**: Monthly subscriptions for features you don't use, limiting scalability and cost-efficiency.\n\n## The Kliv advantage: Tailored for your business\nBuilding a custom file viewer and metadata application with Kliv provides significant benefits:\n\n### Visualize any document, anywhere\nProvide in-browser viewing for a wide range of file types (PDFs, images, office documents, CAD files, etc.), eliminating the need for users to download files or switch applications.\n\n### Tailored metadata for precise organization\nDefine and attach any custom metadata fields relevant to your business. Whether it's project IDs, client codes, revision numbers, or compliance tags, your data structure perfectly reflects your needs.\n\n### Powerful search and filtering\nLeverage your rich custom metadata for highly specific and efficient searching. Find exactly what you need in seconds, rather than sifting through countless files.\n\n### Seamless workflow integration\nDesigned from the ground up to integrate with your existing systems (CRM, ERP, project management). Automate metadata extraction, synchronize document states, and trigger workflows based on file changes.\n\n### Cost efficiency and ownership\nInvest once in a solution perfectly tailored to your needs, avoiding perpetual subscription fees. You own the application, its data, and its evolution.\n\n### Enhanced compliance and security\nImplement granular access controls and audit trails. Keep sensitive documents secure within your own infrastructure or designated cloud environment, adhering to your specific compliance requirements.\n\n## Real-world impact\n\nCustom file viewing and metadata applications are transforming industries:\n\n**Legal firms**: Managing case files with custom tags for evidence types, witness statements, and legal precedents, making discovery faster.\n\n**Healthcare**: Organizing patient records with metadata for diagnosis codes, treatment plans, and appointment histories, ensuring rapid access to critical information.\n\n**Engineering & Construction**: Handling large volumes of blueprints, CAD files, and technical specifications with metadata on version control, project phases, and contributor details.\n\n**Marketing & Creative Agencies**: Cataloging digital assets (images, videos) with detailed metadata on usage rights, campaign IDs, and target audiences.\n\n## Get started with your custom solution\n\nStop adapting your processes to generic tools. With Kliv's AI-powered platform, you can quickly build an intelligent file viewer and metadata management system that precisely fits your operational needs, enhances data discovery, and streamlines your document workflows. Start creating your ideal solution today."
+    },
+    {
+      "title": "Application ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A centralized repository for contracts with specific legal metadata.",
+          "prompt": "Build a contract management system that allows uploading PDF contracts, viewing them in-browser, and adding custom metadata fields like 'Party A', 'Party B', 'Execution Date', 'Expiration Date', and 'Contract Type' along with a full-text search.",
+          "title": "Legal Document Repository"
+        },
+        {
+          "description": "Organize and search clinical research documents with medical classifications.",
+          "prompt": "Create an application for clinical researchers to upload medical reports and images, view them securely, and attach metadata such as 'Patient ID', 'Study Phase', 'Diagnosis Code (ICD-10)', and 'Treatment Protocol ID'.",
+          "title": "Clinical Research Document Manager"
+        },
+        {
+          "description": "A system to categorize and access marketing collateral by campaign.",
+          "prompt": "Design a marketing asset library where users can upload image, video, and PDF files, view them instantly, and tag them with custom metadata like 'Campaign Name', 'Target Audience', 'Asset Type', 'Usage Rights', and 'Creation Date'.",
+          "title": "Digital Asset Management (DAM) Lite"
+        },
+        {
+          "description": "Manage construction blueprints with version control and project details.",
+          "prompt": "Develop an app for construction projects to upload architectural drawings (PDF, DWG), review them collaboratively, and add metadata for 'Project ID', 'Drawing Type', 'Revision Number', 'Approved By', and 'Date of Issue'.",
+          "title": "Construction Drawing Viewer"
+        },
+        {
+          "description": "Track and manage HR documents with sensitive employee data.",
+          "prompt": "Build a secure HR document portal that allows easy upload and in-browser viewing of employee records (e.g., offer letters, performance reviews, payroll slips) with metadata such as 'Employee ID', 'Department', 'Hire Date', and 'Document Category'. Ensure strict access controls.",
+          "title": "Secure HR Document Portal"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your application with these features",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication and authorization module, allowing different user roles (e.g., admin, editor, viewer) with distinct access permissions to files and metadata fields.",
+          "title": "User roles and permissions"
+        },
+        {
+          "prompt": "Integrate optical character recognition (OCR) so that uploaded image-based documents (like scanned PDFs) can be full-text searchable.",
+          "title": "Add OCR Functionality"
+        },
+        {
+          "prompt": "Implement version control for documents, allowing users to upload new versions of a file while retaining access to previous revisions.",
+          "title": "Document Version Control"
+        },
+        {
+          "prompt": "Add a feature to export selected files and their associated metadata into a CSV or Excel report.",
+          "title": "Metadata Export"
+        },
+        {
+          "prompt": "Enable collaborative annotation directly on viewed documents, allowing multiple users to add comments and highlights.",
+          "title": "In-document Annotation"
+        },
+        {
+          "prompt": "Develop an audit trail that logs all file accesses, metadata changes, and user activities within the application.",
+          "title": "Comprehensive Audit Logs"
+        },
+        {
+          "prompt": "Integrate a robust full-text search engine that can search not only metadata but also the content of viewable documents.",
+          "title": "Advanced Content Search"
+        },
+        {
+          "prompt": "Add the ability to generate sharable public or password-protected links for specific documents, with optional expiration dates.",
+          "title": "Shareable Document Links"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your custom app",
+      "type": "features",
+      "items": [
+        {
+          "description": "View diverse file formats directly in your browser without external software.",
+          "icon": "👁️",
+          "title": "Universal File Viewer"
+        },
+        {
+          "description": "Define and attach unlimited custom fields to perfectly categorize your documents.",
+          "icon": "🏷️",
+          "title": "Configurable Metadata"
+        },
+        {
+          "description": "Quickly find documents using exact metadata matches or full-text content search.",
+          "icon": "🔎",
+          "title": "Advanced Search & Filters"
+        },
+        {
+          "description": "Control who sees what with granular user roles and access permissions.",
+          "icon": "🔒",
+          "title": "Access Control & Security"
+        },
+        {
+          "description": "Seamlessly connect with your existing business systems and workflows.",
+          "icon": "🔌",
+          "title": "API Integrations"
+        },
+        {
+          "description": "All your data and logic are owned by you, for ultimate control and flexibility.",
+          "icon": "🧠",
+          "title": "Complete Data Ownership"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom file viewer and metadata application with Kliv typically takes days to weeks, not months or years. The AI aids in rapid prototyping and development, significantly reducing time-to-market compared to traditional development.",
+          "question": "How long does it take to develop a custom file viewer application?"
+        },
+        {
+          "answer": "No, significant coding expertise is not required. Kliv's platform allows you to describe your requirements in natural language, and the AI assists in generating and refining the application's components. You control the definition, Kliv handles the complex coding.",
+          "question": "Do I need to be a developer or coder to build this type of application?"
+        },
+        {
+          "answer": "Absolutely. Custom applications built with Kliv can integrate with virtually any system that offers an API (Application Programming Interface), including cloud storage services, CRM, ERP, and collaboration tools. This ensures your new system fits seamlessly into your existing tech stack.",
+          "question": "Can my custom file viewer integrate with my existing cloud storage or business software?"
+        },
+        {
+          "answer": "Unlike SaaS solutions with recurring subscriptions, building with Kliv is generally a one-time investment for the core application. While there will be ongoing hosting or maintenance costs (which you control), the total cost of ownership is often lower over time, especially for tailored solutions.",
+          "question": "Is building a custom solution more expensive than buying an off-the-shelf software?"
+        },
+        {
+          "answer": "Security is paramount. When you build with Kliv, you have complete control over your data's storage location and security protocols. You can implement enterprise-grade security measures tailored to your specific compliance needs (e.g., HIPAA, GDPR, SOC 2), potentially making it more secure than relying on a third-party SaaS provider's generic security.",
+          "question": "How secure are custom built file management applications?"
+        },
+        {
+          "answer": "Your custom application is completely adaptable. As your business evolves, you can easily add new features, adjust metadata fields, integrate with new systems, or scale up user capacity. Kliv's platform makes ongoing modifications and enhancements straightforward.",
+          "question": "Can I modify or expand my application after it's built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bring order to your documents?",
+      "type": "cta",
+      "content": "Stop wrestling with generic tools. Build the agile, intelligent file management system your business deserves."
+    }
+  ],
+  "title": "Custom File Viewer & Metadata Application"
+}

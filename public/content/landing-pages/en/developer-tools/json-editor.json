@@ -1,0 +1,177 @@
+{
+  "defaultPrompt": "I want to create a JSON editor application that allows users to view, edit, and validate JSON data with an intuitive interface and schema support.",
+  "description": "Build custom JSON editor and viewer applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your editor",
+    "subtitle": "Empower your team and clients with custom, powerful JSON editor tools tailored to your exact needs.",
+    "title": "Build your own custom JSON Editor"
+  },
+  "metaDescription": "Create powerful JSON editor tools with Kliv. Support schema validation, code highlighting, and integrate seamlessly into your data workflows.",
+  "sections": [
+    {
+      "title": "Why build a custom JSON Editor?",
+      "type": "text",
+      "content": "JSON is everywhere—from API responses and configuration files to database entries and data exchange formats. While generic JSON viewers and basic text editors exist, they often fall short when dealing with complex data structures, strict schemas, or the need for integrated workflows.\n\nBuilding a custom JSON editor allows you to precisely address unique use cases, provide targeted user experiences, and integrate seamlessly with your existing systems, eliminating the frustrations of off-the-shelf tools that don’t quite fit."
+    },
+    {
+      "title": "The case for a tailored JSON editor",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\nGeneric JSON tools are built for broad appeal, often leading to compromises in functionality, user experience, and integration capabilities. These tools may:\n\n- **Lack schema validation:** Making it easy to introduce errors into structured data.\n- **Offer poor user experience:** With cumbersome interfaces for large or nested JSON structures.\n- **Miss crucial features:** Like custom data type handling, specialized searching, or inline documentation.\n- **Have security concerns:** When handling sensitive data in unmanaged web tools.\n- **Require manual sync:** Between your editor and your actual data sources or APIs.\n\n## The advantages of a custom-built solution\nLeveraging Kliv, you can create a JSON editor that is not just a tool, but an integral part of your workflow. Here's why custom is superior:\n\n### Perfect schema compliance\nBuild an editor that enforces your specific JSON schemas, guaranteeing data integrity and preventing common input errors before they happen. This is crucial for maintaining data quality across complex systems.\n\n### Streamlined user experience\nDesign the interface around your users' specific tasks. Whether they are developers, content managers, or data entry specialists, you can optimize for clarity, efficiency, and ease of use, reducing training time and errors.\n\n### Seamless workflow integration\nConnect your editor directly to your APIs, databases, or content management systems. Automate saving, loading, and validation processes, turning what was once a manual chore into a smooth, integrated operation.\n\n### Enhanced security and control\nHost the editor within your own secure environment, controlling access and data flow. Avoid sending sensitive JSON payloads to third-party services, giving you peace of mind.\n\n### Cost-effective in the long run\nEliminate recurring subscription fees for multiple licenses of bloated software. A custom solution is a one-time build that you own and can evolve with your needs without additional vendor costs.\n\n## Real-world applications\nCustom JSON editors are incredibly versatile:\n\n- **Configuration Management**: A tool for non-technical users to safely edit application configuration files (e.g., feature flags, runtime settings) with strict validation.\n- **Content Management**: An editor for structured content (e.g., product data, articles) that adheres to a specific content model, used by content creators.\n- **API Request Builder**: An internal tool for QA or support teams to construct and test complex API payloads against defined schemas.\n- **Data Transformation Helper**: A specialized interface for data engineers to visualize and modify intermediate JSON data in ETL pipelines.\n\n## The power of AI-assisted development\nAI platforms like Kliv redefine software development, particularly for specialized tools like JSON editors:\n\n- **Speedy prototyping**: Go from idea to functional prototype in hours.\n- **Intelligent code generation**: AI assists in generating UI components, validation logic, and data handling.\n- **Iterative refinement**: Easily modify and extend your editor as requirements evolve.\n- **Reduced technical debt**: Cleaner, more maintainable code generated with best practices.\n\nDon't settle for generic tools. Build the precise JSON editor your team needs to work efficiently and accurately."
+    },
+    {
+      "title": "JSON editor ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "An editor for API response inspection and modification.",
+          "prompt": "Create a web-based JSON editor that loads data from a given API endpoint, allows editing, includes syntax highlighting, and provides a 'save' button that pushes changes back to the API.",
+          "title": "API Response Editor"
+        },
+        {
+          "description": "A simplified interface for non-technical content editors.",
+          "prompt": "Build a custom JSON editor for articles. It should only show specific fields like 'title', 'author', 'content', and a list of 'tags'. It must validate against a predefined schema for article JSON.",
+          "title": "Content Editor (Schema-Driven)"
+        },
+        {
+          "description": "Visualize and edit nested environment variables.",
+          "prompt": "Develop an editor to manage application configuration files (JSON). It needs to handle deeply nested objects, allow adding/removing key-value pairs, and support comments that are ignored during saving.",
+          "title": "Configuration File Editor"
+        },
+        {
+          "description": "Tools for testing and debugging webhook payloads.",
+          "prompt": "Design a JSON editor specifically for inspecting and constructing webhook payloads. It must have a 'pretty print' option, a basic JSON validator, and a section to define and test against expected schemas.",
+          "title": "Webhook Payload Builder"
+        },
+        {
+          "description": "Customizable data entry forms from JSON schemas.",
+          "prompt": "I need a tool that can take any JSON schema and auto-generate an editable form. Users should fill out the form, and it generates a valid JSON output based on the schema rules.",
+          "title": "Schema-to-Form Editor"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your JSON editor",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to compare two JSON documents side-by-side, highlighting differences.",
+          "title": "JSON Diff View"
+        },
+        {
+          "prompt": "Implement a history function where users can undo/redo changes made within the editor.",
+          "title": "Undo/Redo Functionality"
+        },
+        {
+          "prompt": "Integrate a search and replace tool that works across the entire JSON document.",
+          "title": "Search and Replace"
+        },
+        {
+          "prompt": "Allow users to import JSON from a URL or an uploaded file, and export the edited JSON as a file.",
+          "title": "Import/Export Features"
+        },
+        {
+          "prompt": "Add a dark mode toggle to improve viewing comfort for users working in low-light environments.",
+          "title": "Dark Mode Support"
+        },
+        {
+          "prompt": "Implement user authentication and roles, allowing different users to have different permissions (e.g., read-only, edit certain sections).",
+          "title": "User Roles & Permissions"
+        },
+        {
+          "prompt": "Add validation rules beyond basic JSON schema, like custom business logic or cross-field validation.",
+          "title": "Advanced Custom Validation"
+        },
+        {
+          "prompt": "Integrate with version control systems (like Git) to manage different versions of JSON files.",
+          "title": "Version Control Integration"
+        }
+      ]
+    },
+    {
+      "title": "Essential JSON editor features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Visual representation of JSON structure as a tree for easy navigation.",
+          "icon": "🌲",
+          "title": "Tree View & Form View"
+        },
+        {
+          "description": "Automatic highlighting of syntax errors and valid JSON structure.",
+          "icon": "✅",
+          "title": "Syntax Highlighting & Validation"
+        },
+        {
+          "description": "Ability to enforce data structure and types based on JSON Schema.",
+          "icon": "📜",
+          "title": "JSON Schema Support"
+        },
+        {
+          "description": "Collapse/expand sections of JSON for better readability.",
+          "icon": "↔️",
+          "title": "Collapsible Nodes"
+        },
+        {
+          "description": "Automated formatting for legible JSON output.",
+          "icon": "✨",
+          "title": "Pretty Print/Minify"
+        },
+        {
+          "description": "Intuitive tools to add, edit, and delete keys/values.",
+          "icon": "✏️",
+          "title": "Inline Editing"
+        },
+        {
+          "description": "Ability to handle large JSON datasets efficiently.",
+          "icon": "📈",
+          "title": "Performance for Large Data"
+        },
+        {
+          "description": "Seamlessly connect with APIs, databases, or cloud storage.",
+          "icon": "🔌",
+          "title": "Data Source Integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Using Kliv empowers you to build a custom JSON editor in a fraction of the time compared to traditional development. You can go from concept to a working prototype in days, allowing for rapid iteration and deployment.",
+          "question": "How quickly can I build a functional JSON editor with Kliv?"
+        },
+        {
+          "answer": "No deep programming knowledge is required. Kliv's AI-driven platform allows you to describe the features and UI you want using natural language, and it generates the underlying code. You provide the vision, Kliv handles the heavy lifting.",
+          "question": "Do I need to be a coding expert to build this kind of tool?"
+        },
+        {
+          "answer": "Yes, your custom JSON editor can interact with any system that exposes an API. This includes REST APIs, GraphQL endpoints, databases, and even cloud storage services that handle JSON.",
+          "question": "Can my custom JSON editor integrate with existing APIs or databases?"
+        },
+        {
+          "answer": "Your JSON editor, its data, and its source code are entirely your property. Kliv is a development platform, not a data host. You maintain complete control over where your application is deployed and how your data is handled.",
+          "question": "Who owns the JSON editor application and the data it handles?"
+        },
+        {
+          "answer": "Building a custom editor often proves more cost-effective long-term than relying on perpetual subscriptions for generic tools, especially when factoring in the efficiency gains from a tailored solution and avoiding features you don't need.",
+          "question": "How does the cost of building a custom JSON editor compare to buying an off-the-shelf solution?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are inherently flexible. As your requirements evolve, you can easily add new features, modify existing ones, or integrate with new systems without vendor lock-in or additional licensing fees.",
+          "question": "Can I easily modify and extend my JSON editor after it's built?"
+        },
+        {
+          "answer": "You design the security into your application from the ground up, tailored to your specific needs. This means you control data encryption, access controls, and hosting environment, potentially leading to a more secure solution than third-party tools.",
+          "question": "Is building a custom JSON editor more secure than using online tools?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your perfect JSON editor?",
+      "type": "cta",
+      "content": "Stop wrestling with generic tools. Create a JSON editor that works exactly the way you need it to, empowering your data workflows and your team."
+    }
+  ],
+  "title": "Custom JSON Editor Applications"
+}

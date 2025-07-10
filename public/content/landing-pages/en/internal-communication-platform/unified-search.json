@@ -1,0 +1,171 @@
+{
+  "defaultPrompt": "I want to create a unified search application that can search across our Slack conversations, Google Drive documents, CRM entries, and project management tasks, providing relevant results quickly.",
+  "description": "Build custom unified search applications for internal communication platforms with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your search solution",
+    "subtitle": "Eliminate information silos with a custom unified search application, empowering your team to find anything, anywhere, instantly.",
+    "title": "Build your own unified internal search"
+  },
+  "metaDescription": "Create powerful unified search tools with Kliv. Connect all your internal communication platforms and data sources for instant access to information.",
+  "sections": [
+    {
+      "title": "The growing challenge of scattered information",
+      "type": "text",
+      "content": "In today’s digital workplace, information is everywhere: Slack channels, Google Drive, CRM systems, project management tools, shared drives, and more. This abundance often leads to a paradox of choice – vast quantities of data make it harder, not easier, to find what you need.\n\nEmployees waste valuable time sifting through different applications, often recreating work or missing critical insights simply because they can’t find existing information. Generic search tools within individual platforms are insufficient for the interconnected nature of modern business operations. The solution isn't more tools, but smarter access to the tools you already have."
+    },
+    {
+      "title": "Why a custom unified search is essential",
+      "type": "markdown",
+      "content": "## Your data, instantly accessible\n\nImagine a world where your team can find any document, message, or task, no matter where it lives, with a single search query. This isn't a futuristic fantasy; it's a strategic necessity. While off-the-shelf enterprise search solutions exist, they often come with high price tags, complex integrations, and a 'one-size-fits-all' approach that rarely fits your unique organizational structure.\n\n## The limitations of out-of-the-box search\n\nIndividual platforms have their own search functions, but none of them can bridge the gap across systems. This leads to:\n\n- **Fragmented information:** Key data is spread across multiple applications (e.g., a decision made in Slack, the related document in Google Drive, and the assigned task in Jira).\n- **Wasted time:** Employees spend excessive time manually searching through different tools, leading to productivity loss.\n- **Duplicated effort:** Information inability to find existing resources often results in teams re-creating work that already exists.\n- **Missed opportunities:** Critical insights or past learnings are overlooked because they're buried in inaccessible data silos.\n- **Vendor lock-in:** Relying on proprietary search solutions from large vendors limits your flexibility and control over your data.\n\n## The power of a tailored solution\n\nBuilding your own unified search application using a modern development platform like Kliv offers unparalleled advantages:\n\n### Comprehensive coverage\nConnect to all your internal data sources – Slack, Notion, Asana, Salesforce, SharePoint, email, local drives – providing a true 360-degree view of your organizational knowledge.\n\n### Intelligent relevancy\nDesign your search algorithms to prioritize results based on your specific business context, user roles, document age, or team relevance, going beyond simple keyword matching.\n\n### Enhanced security & privacy\nImplement granular access controls. Your custom search respects existing permissions across all integrated platforms, ensuring users only see what they're authorized to see.\n\n### Cost efficiency & ownership\nAvoid recurring, escalating subscription fees common with enterprise search platforms. A custom solution is a one-time investment with long-term benefits and complete ownership.\n\n### Unmatched flexibility\nAs your business evolves and new tools are adopted, easily integrate them into your custom search solution without waiting for vendor updates or paying for new modules.\n\n## Real-world impact\n\nBusinesses are leveraging unified search to revolutionize internal operations:\n\n**Customer Support:** A support agent can instantly find customer history from the CRM, past conversations in Slack, relevant knowledge base articles, and related bug reports in Jira—all from one search bar.\n\n**Product Development:** A developer can search for code snippets in Git, design mockups in Figma, product specs in Notion, and user feedback in a ticketing system, quickly correlating information for new features.\n\n**HR & Operations:** HR can swiftly locate policy documents from the intranet, employee records from the HRIS, and payroll questions from internal communication archives, ensuring compliance and quick responses.\n\n## Simplified development with AI\n\nDeveloping a sophisticated search solution used to be a massive undertaking. Kliv's AI-powered platform simplifies this, allowing you to:\n\n- **Describe your needs:** Use natural language to specify which platforms to connect and how results should be displayed.\n- **Rapidly prototype:** Get a functional search interface up and running in days, not months.\n- **Iterate quickly:** Easily refine your search parameters, add new sources, and adjust the UI based on user feedback.\n\nBy building your own unified search, you're not just creating a tool; you're building a smarter, more efficient, and more connected work environment."
+    },
+    {
+      "title": "Unified search ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Search corporate documents for specific policies, procedures, or compliance information.",
+          "prompt": "Create a unified search tool that indexes company policies from SharePoint, HR documents from Google Drive, and legal guidelines stored in an internal wiki, respecting user permissions.",
+          "title": "Corporate Knowledge Navigator"
+        },
+        {
+          "description": "Find specific customer interactions across CRM, support tickets, and communication logs.",
+          "prompt": "Build a customer 360 search application that pulls data from Salesforce, Zendesk tickets, and customer chat logs in Intercom, allowing agents to see a complete customer history instantly.",
+          "title": "Customer 360 View"
+        },
+        {
+          "description": "Quickly locate project-related messages, files, and tasks.",
+          "prompt": "Develop a project search portal that queries Slack channels for project discussions, Asana for tasks, Google Drive for project files, and Notion for project notes, all linked by project name.",
+          "title": "Project Information Hub"
+        },
+        {
+          "description": "Connect code repositories, bug trackers, and development wikis for developers.",
+          "prompt": "Design a developer information tool that can search across GitHub repositories for code, Jira for bug reports and features, and Confluence for technical documentation.",
+          "title": "Developer Resource Finder"
+        },
+        {
+          "description": "Retrieve meeting notes, shared files, and presentation materials.",
+          "prompt": "Implement a meeting insights search that indexes meeting notes from Google Docs, recordings from Zoom cloud storage transcripts, and shared files from Microsoft Teams meetings, allowing search by attendee or topic.",
+          "title": "Meeting Information Retrieval"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your unified search tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate search results with a natural language processing model that can answer complex questions by synthesizing information from multiple sources.",
+          "title": "Add AI-powered Q&A"
+        },
+        {
+          "prompt": "Implement a custom ranking algorithm that prioritizes search results based on user roles, recency, or specific departmental tags.",
+          "title": "Refine search relevancy"
+        },
+        {
+          "prompt": "Add a feature that allows users to save frequently used search queries and get notifications when new content matching those queries is indexed.",
+          "title": "Implement saved searches & alerts"
+        },
+        {
+          "prompt": "Build a secure single sign-on (SSO) integration with our existing identity provider (e.g., Okta, Azure AD) for seamless user access.",
+          "title": "Integrate with Single Sign-On"
+        },
+        {
+          "prompt": "Add an administrative dashboard for monitoring search performance, identifying common search terms, and managing data source integrations.",
+          "title": "Create an admin dashboard"
+        },
+        {
+          "prompt": "Build a widget or browser extension that allows users to initiate searches directly from any application or browser tab.",
+          "title": "Develop browser extension"
+        },
+        {
+          "prompt": "Implement a feedback mechanism where users can rate search results and suggest improvements, which can be fed back into the search algorithm.",
+          "title": "Add user feedback loop"
+        },
+        {
+          "prompt": "Incorporate a data visualization component that displays clusters of search results by source, date, or content type, providing a high-level overview of information.",
+          "title": "Include search analytics & visualizations"
+        }
+      ]
+    },
+    {
+      "title": "Key unified search features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect and index data from multiple disparate sources like Slack, Google Drive, CRM, and project management tools.",
+          "icon": "🔗",
+          "title": "Multi-source indexing"
+        },
+        {
+          "description": "Contextually relevant search results powered by customizable ranking algorithms.",
+          "icon": "🧠",
+          "title": "Intelligent search ranking"
+        },
+        {
+          "description": "Ensure users only see information they are authorized to access, respecting all platform permissions.",
+          "icon": "🔐",
+          "title": "Permission-based access"
+        },
+        {
+          "description": "Faceted search, filters, and sorting options for precise result refinement.",
+          "icon": "🔎",
+          "title": "Advanced filtering"
+        },
+        {
+          "description": "Pre-built connectors and flexible APIs for integrating new and existing data sources.",
+          "icon": "🔌",
+          "title": "Extensible integrations"
+        },
+        {
+          "description": "Track search queries, popular content, and data gaps to continuously improve information accessibility.",
+          "icon": "📈",
+          "title": "Usage analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic unified search solution can take a few days of focused effort. Complex integrations and advanced features might extend this to a few weeks, but it's significantly faster than traditional development or vendor procurement.",
+          "question": "How long does it take to build a unified search application?"
+        },
+        {
+          "answer": "You don't need to be a coding expert. Kliv's platform allows you to describe your desired functionality in natural language. The AI assists in connecting data sources, creating search logic, and designing the user interface, making development accessible to anyone.",
+          "question": "Do I need coding experience to build this application?"
+        },
+        {
+          "answer": "Yes, your unified search application can integrate with almost any internal tool that offers an API or data extraction method. This includes popular tools like Slack, Google Workspace, Microsoft 365, Salesforce, Jira, Notion, and many others.",
+          "question": "Can I connect all my existing internal communication and data sources?"
+        },
+        {
+          "answer": "Absolutely. You maintain complete control and ownership over your application, its data, and its code. This means you can host it where you prefer, and modify it without vendor restrictions.",
+          "question": "Who owns the unified search application and its data after it's built?"
+        },
+        {
+          "answer": "Building a custom solution with Kliv typically involves a one-time development investment rather than ongoing subscription fees common with enterprise search vendors. This often results in significant cost savings over time, especially for growing organizations.",
+          "question": "How does the cost compare to off-the-shelf enterprise search solutions?"
+        },
+        {
+          "answer": "Yes, built by Kliv, your application is fully adaptable. You can easily add new data sources, refine search algorithms, update the user interface, or introduce new features as your organization's needs evolve.",
+          "question": "Can I modify or expand the search application after it's initially created?"
+        },
+        {
+          "answer": "Yes, potentially more secure. Because you control the development and hosting environment, you can implement custom security protocols, data encryption, and access controls tailored to your specific compliance and privacy requirements, minimizing reliance on third-party security practices.",
+          "question": "Is a custom unified search application secure?"
+        },
+        {
+          "answer": "Kliv provides AI-guided assistance throughout the development process, offering suggestions, troubleshooting support, and optimization tips. The platform aims to empower you to build and maintain the application yourself.",
+          "question": "What kind of support is available if I get stuck or need help?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unify your information?",
+      "type": "cta",
+      "content": "Stop the endless search. Empower your team with instant access to all their knowledge, built specifically for your organization."
+    }
+  ],
+  "title": "Unified internal search"
+}

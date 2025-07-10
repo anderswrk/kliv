@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to build a custom Warehouse Management System (WMS) that handles inventory tracking, order fulfillment, putaway, picking, packing, and shipping processes, optimized for a multi-warehouse setup.",
+  "description": "Develop tailored Warehouse Management Systems with Kliv's AI-powered platform for optimal inventory control and logistics.",
+  "hero": {
+    "cta": "Build Your WMS Now",
+    "subtitle": "Create custom Warehouse Management Systems that perfectly fit your operations, enhancing efficiency and accuracy across your supply chain.",
+    "title": "Build Your Own Custom Warehouse Management System (WMS)"
+  },
+  "metaDescription": "Design and deploy your ideal Warehouse Management System (WMS) using Kliv. Gain unparalleled control over inventory, optimize warehouse operations, and improve logistics with a scalable, custom solution.",
+  "sections": [
+    {
+      "title": "The Challenge of Off-the-Shelf WMS",
+      "type": "text",
+      "content": "In today's fast-paced logistics and supply chain environment, a generic Warehouse Management System can often be a bottleneck rather than an asset. Pre-built WMS solutions often come with features you don't need, lack critical functionalities for your specific workflows, and don't integrate seamlessly with your existing enterprise systems. This leads to inefficient processes, data silos, and missed opportunities for optimization.\n\nBusinesses need a WMS that adapts to their unique storage layouts, picking strategies, and shipping demands, not the other way around. Building your own WMS with Kliv's AI-powered platform gives you the flexibility and control to create a system that truly serves your operational excellence goals."
+    },
+    {
+      "title": "Why a Custom WMS is Your Strategic Advantage",
+      "type": "markdown",
+      "content": "## Overcoming WMS Limitations\n\nMany businesses struggle with WMS solutions that promise comprehensive features but deliver complexity and rigidity. Common problems include:\n\n-   **Mismatched Workflows**: Standard WMS often forces your warehouse operations to conform to their logic, rather than optimizing your established processes.\n-   **Integration Headaches**: Integrating complex, monolithic WMS with your ERP, CRM, or e-commerce platforms can be cumbersome and costly.\n-   **High Recurring Costs**: Subscription fees for SaaS WMS can be substantial, especially for features you don't fully utilize.\n-   **Lack of Customization**: It's difficult, if not impossible, to adapt off-the-shelf systems to unique inventory types, storage conditions, or fulfillment complexities.\n\n## The Power of a Tailored WMS\n\nBuilding a custom WMS with Kliv means creating a solution that is purpose-built for your specific warehouse, inventory, and logistics needs. This approach offers significant benefits:\n\n### Precision-Fit for Your Operations\nDesign workflows for receiving, putaway, picking, packing, and shipping that mirror your actual physical processes, leading to increased accuracy and speed.\n\n### Seamless Integration Points\nBuild direct, optimized integrations with your existing ERP, accounting software, shipping carriers, and e-commerce platforms, eliminating data duplication and manual transfers.\n\n### Cost Efficiency and Ownership\nInvest once in a perpetual asset rather than incurring continuous, escalating subscription costs. You own the software, allowing for long-term savings and greater ROI.\n\n### Scalability and Adaptability\nAs your business grows or operations change, easily modify or extend your custom WMS. Add new modules for specific inventory types, support new fulfillment channels, or integrate advanced robotics without vendor lock-in.\n\n## Real-World WMS Scenarios\n\nCustom WMS solutions are transforming diverse industries:\n\n**E-commerce Fulfillment**: A custom WMS for an online retailer could optimize pick paths for e-commerce orders, manage returns efficiently, and integrate directly with various shipping APIs for real-time rate shopping and label generation.\n\n**Manufacturing Parts Management**: A WMS designed for manufacturing could handle raw material tracking, work-in-progress inventory, finished goods storage, and integrate with production planning systems to ensure materials are available when needed.\n\n**Cold Storage Warehousing**: For food or pharmaceutical industries, a custom WMS can track precise temperature zones, manage batch and lot numbers, implement FIFO/FEFO rules rigorously, and comply with specific regulatory requirements.\n\n**Third-Party Logistics (3PL)**: A 3PL provider could build a WMS that offers tenant-specific inventory views, customizable billing modules, and flexible client onboarding processes, providing a competitive edge.\n\n## AI-Accelerated Development\n\nDeveloping a custom WMS traditionally involves significant time and resources. Kliv's AI platform simplifies this process:\n\n-   **Conversational Development**: Describe your desired WMS features and workflows in plain language, letting AI translate them into executable code.\n-   **Modular Design**: Build out specific WMS functions (e.g., receiving, picking) as independent modules that can be combined and customized.\n-   **Automated Data Modeling**: AI can suggest optimal database schemas for inventory, locations, and orders based on your requirements.\n-   **Rapid Prototyping**: Quickly visualize and test interface designs for warehouse personnel (e.g., mobile scanners, packing stations).\n\nStart building a WMS that truly empowers your unique warehouse operations today. No prior coding expertise is necessary – just a clear vision for operational excellence."
+    },
+    {
+      "title": "WMS Ideas to Get Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Optimize receiving, putaway, and internal transfers.",
+          "prompt": "Create a WMS module for inbound logistics that includes purchase order receiving, directed putaway strategies based on storage rules, and internal location transfers.",
+          "title": "Inbound & Putaway Optimization"
+        },
+        {
+          "description": "Streamline order picking and packing processes for efficiency.",
+          "prompt": "Build an outbound fulfillment system that generates optimized pick lists (batch, zone, wave picking), supports barcode scanning for accurate picking, and guides packing station workflows.",
+          "title": "Picking & Packing Automation"
+        },
+        {
+          "description": "Track inventory with precision, including serial numbers and expiration dates.",
+          "prompt": "Develop an inventory control system for a warehouse that tracks real-time stock levels, manages lot/batch numbers, serial numbers, and expiry dates, and supports cycle counting.",
+          "title": "Advanced Inventory Tracking"
+        },
+        {
+          "description": "Manage customer orders from receipt to shipment.",
+          "prompt": "Design an order management interface within the WMS that displays incoming orders, their status, allows for allocation, and integrates with shipping carrier APIs for label generation.",
+          "title": "Order Fulfillment Portal"
+        },
+        {
+          "description": "Handle returned goods and re-stocking efficiently.",
+          "prompt": "Implement a returns (RMA) module that guides receiving, inspection, and disposition of returned items, including re-shelving or initiating vendor returns.",
+          "title": "Returns Management (RMA)"
+        },
+        {
+          "description": "Optimize storage based on product velocity and characteristics.",
+          "prompt": "Create a storage optimization tool within the WMS that analyzes product velocity and suggests optimal storage locations for higher pick efficiency and space utilization.",
+          "title": "Warehouse Layout & Slotting"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your WMS for Peak Performance",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now, add a mobile scanning interface connected to the WMS for real-time inventory updates and guided picking/putaway.",
+          "title": "Mobile Scanning Integration"
+        },
+        {
+          "prompt": "Add a module for cross-docking operations, automatically directing incoming goods to outgoing shipments without intermediate storage.",
+          "title": "Cross-Docking Functionality"
+        },
+        {
+          "prompt": "Integrate the WMS with an Enterprise Resource Planning (ERP) system to sync inventory, purchase orders, and sales orders.",
+          "title": "ERP System Integration"
+        },
+        {
+          "prompt": "Implement a configurable user role and permission system to control access for different warehouse staff functions (e.g., picker, packer, supervisor).",
+          "title": "Role-Based Access Control"
+        },
+        {
+          "prompt": "Add a reporting dashboard that visualizes key WMS metrics such as pick accuracy, order fulfillment rate, and inventory turns.",
+          "title": "Performance Analytics Dashboard"
+        },
+        {
+          "prompt": "Incorporate a labor management system (LMS) to track and optimize individual and team productivity for various warehouse tasks.",
+          "title": "Labor Management System"
+        },
+        {
+          "prompt": "Develop a wave planning module to group orders into efficient pick waves based on criteria like shipping method or destination.",
+          "title": "Wave Planning and Optimization"
+        },
+        {
+          "prompt": "Add capabilities for managing hazardous materials, including specific storage rules, safety data sheets (SDS) access, and regulatory compliance checks.",
+          "title": "Hazardous Material Handling"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities for Your Custom WMS",
+      "type": "features",
+      "items": [
+        {
+          "description": "Pinpoint product locations and quantities in real-time.",
+          "icon": "📍",
+          "title": "Real-time Location Tracking"
+        },
+        {
+          "description": "Optimize paths for efficient picking and putaway operations.",
+          "icon": "🗺️",
+          "title": "Dynamic Task Optimization"
+        },
+        {
+          "description": "Connect seamlessly with ERPs, shipping carriers, and e-commerce platforms.",
+          "icon": "🔗",
+          "title": "Flexible Integration Engine"
+        },
+        {
+          "description": "Support various identification methods like barcodes, QR codes, and RFID.",
+          "icon": "📱",
+          "title": "Mobile Scanning Support"
+        },
+        {
+          "description": "Provide insights into warehouse performance and inventory accuracy.",
+          "icon": "📈",
+          "title": "Customizable Reporting"
+        },
+        {
+          "description": "Manage multiple warehouses and distribution centers from one system.",
+          "icon": "🏢",
+          "title": "Multi-Warehouse Management"
+        }
+      ]
+    },
+    {
+      "title": "Practical Questions About Building a WMS with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a foundational WMS with core receiving, storage, and picking functions can be achieved in a matter of days. More complex systems with advanced integrations and real-time analytics might take weeks, depending on the scope.",
+          "question": "How quickly can I deploy a custom WMS using Kliv?"
+        },
+        {
+          "answer": "No, Kliv's AI platform is designed for users without prior coding experience. You define your WMS requirements in plain language, and the AI assists in building the application.",
+          "question": "Do I need to be a programmer to build a WMS on Kliv?"
+        },
+        {
+          "answer": "Yes, a custom WMS built on Kliv can be designed to integrate with a wide range of logistics and business systems, including ERPs (e.g., SAP, Oracle, NetSuite), shipping APIs (e.g., FedEx, UPS, DHL), and e-commerce platforms (e.g., Shopify, Magento).",
+          "question": "Can I integrate my custom WMS with existing ERP or shipping systems?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property. Kliv provides the platform for development, but the custom WMS application and its data are entirely yours. This gives you complete control over hosting, security, and future modifications.",
+          "question": "Who owns the WMS I build on Kliv?"
+        },
+        {
+          "answer": "Once built, your custom WMS is scalable and adaptable. You can easily add new features, adjust workflows, or expand the system to accommodate growth in inventory volume, new warehouse locations, or changes in operational strategy.",
+          "question": "How scalable and adaptable is a custom WMS built with Kliv?"
+        },
+        {
+          "answer": "The cost model for Kliv involves a one-time development investment rather than ongoing subscription fees. While initial costs for a highly customized WMS might be comparable to an off-the-shelf solution, the long-term TCO is significantly lower due to the absence of recurring fees and the ability to avoid paying for unused features.",
+          "question": "How does the cost of a custom WMS compare to commercial WMS software?"
+        },
+        {
+          "answer": "Custom WMS solutions built with Kliv can be highly secure. You have control over data encryption, access controls, and compliance features, tailoring security protocols to your specific industry regulations and internal policies.",
+          "question": "What about data security and compliance for sensitive inventory data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Revolutionize Your Warehouse Operations?",
+      "type": "cta",
+      "content": "Stop conforming to generic WMS software. Build an intelligent, custom Warehouse Management System that empowers your logistics, optimizes every movement, and delivers unparalleled efficiency. Start building your perfect WMS today."
+    }
+  ],
+  "title": "Warehouse Management System (WMS) Builder & Solutions"
+}

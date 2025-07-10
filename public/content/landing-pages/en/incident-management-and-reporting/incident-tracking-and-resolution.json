@@ -1,0 +1,164 @@
+{
+  "defaultPrompt": "I want to create an incident tracking and resolution system that allows users to report incidents, assign them to team members, track their status, and generate post-mortem reports, with secure access for different roles.",
+  "description": "Build custom incident tracking and resolution applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start tracking incidents",
+    "subtitle": "Gain clarity and control over critical events with bespoke incident tracking and resolution solutions built on Kliv's platform.",
+    "title": "Build your own incident tracking and resolution system"
+  },
+  "metaDescription": "Create powerful incident tracking and resolution tools with Kliv. Improve response times, streamline communication, and learn from every incident with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own incident tracking system?",
+      "type": "text",
+      "content": "In today's fast-paced operational environments, managing incidents effectively is crucial for business continuity and customer satisfaction. While off-the-shelf incident management tools exist, they often come with compromises: rigid workflows, subscription lock-in, and a lack of customization for your specific operational nuances.\n\nKliv empowers you to build an incident tracking and resolution system that perfectly aligns with your team's unique processes, incident types, and reporting needs. This isn't just about avoiding monthly fees; it's about owning a solution that enhances your resilience and operational intelligence."
+    },
+    {
+      "title": "The strategic advantage of tailored incident management",
+      "type": "markdown",
+      "content": "## Standard tools fall short\n\nMany organizations rely on generic ticketing systems or cobbled-together spreadsheets to manage incidents. This often leads to:\n\n- **Inconsistent data**: Difficulty in standardizing incident reporting and critical information capture.\n- **Slow response times**: Manual handoffs and lack of automated alerts delay resolution.\n- **Poor communication**: Critical updates aren't disseminated efficiently to all stakeholders.\n- **Limited analysis**: Inability to easily track trends, root causes, or monitor team performance on incidents.\n- **Vendor lock-in**: Dependence on a third-party's feature roadmap and pricing structure.\n\n## Why a custom solution excels\n\nBuilding your own incident tracking and resolution system with Kliv offers unparalleled advantages:\n\n### Adapt to your unique incident landscape\nEvery organization experiences incidents differently. A custom system allows you to define custom fields for specific incident types (e.g., IT outages, security breaches, operational failures, customer service issues), custom workflows for different severity levels, and specific reporting requirements that off-the-shelf tools simply can't match.\n\n### Optimized for your team's workflow\nDesign incident intake forms, assignment logic, notification rules, and resolution steps that mirror your team's existing best practices, rather than forcing them to adapt to a generic template. This reduces friction, accelerates adoption, and improves efficiency.\n\n### Enhanced security and data control\nFor sensitive incident data (e.g., security incidents, customer data breaches), controlling where your data resides and who has access is paramount. A custom solution gives you full ownership and sovereignty over your incident data, reducing reliance on third-party security protocols.\n\n### Empower proactive improvement\nBeyond just tracking, a custom system can be built to natively support post-incident analysis, root cause identification, and the implementation of preventative measures. Custom dashboards can highlight recurring issues, team bottlenecks, and areas for operational improvement.\n\n### Cost-effectiveness and scalability\nAvoid escalating subscription costs. A custom-built system represents a one-time investment with the flexibility to scale features and users without punitive pricing tiers. As your organization grows or its incident profile changes, your system can evolve seamlessly.\n\n## Real-world impact\n\nConsider how tailored incident management transforms operations:\n\n**Software Development**: A custom system tracks software bugs, production outages, and performance issues, integrating directly with CI/CD pipelines and developer tools.\n\n**Manufacturing**: Monitors equipment failures, quality control deviations, and supply chain disruptions, triggering alerts for maintenance teams or process engineers.\n\n**Healthcare**: Logs patient safety incidents, equipment malfunctions, and adverse events, ensuring compliance and continuous quality improvement.\n\n**Financial Services**: Manages fraud alerts, compliance breaches, and system outages with strict audit trails and rapid response protocols.\n\n## The Kliv advantage in building\n\nKliv leverages AI to make custom software development accessible. You can describe your desired incident management features in natural language, and Kliv assists in generating a robust, maintainable application. This dramatically reduces development time and technical overhead, allowing you to focus on defining your ideal incident management process, not on code."
+    },
+    {
+      "title": "Incident management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Streamline response to IT service disruptions",
+          "prompt": "Create an IT incident management system for our tech support team. It should allow users to submit new incidents from a portal, automatically assign incidents based on category (network, software, hardware) to specific teams, track incident status (open, in progress, resolved, closed), and send automated email updates to the reporter.",
+          "title": "IT Service Incident Tracker"
+        },
+        {
+          "description": "Track safety concerns and actions in real-time.",
+          "prompt": "Build a workplace safety incident reporting tool for our factory floor. It needs a form for reporting accidents or near-misses, fields for location, date, time, involved personnel, and a severity rating. The system should notify the safety manager immediately for high-severity incidents and track corrective actions.",
+          "title": "Workplace Safety Incident Reporter"
+        },
+        {
+          "description": "Manage security breaches and vulnerabilities.",
+          "prompt": "Develop a security incident response platform for our cybersecurity team. It should enable recording of security events, assign incidents to forensic analysts, track investigation progress, manage evidence, and generate reports for compliance and post-incident review.",
+          "title": "Cybersecurity Incident Response"
+        },
+        {
+          "description": "Handle customer complaints and feedback systematically.",
+          "prompt": "Design a customer complaint resolution system. Customers can submit complaints via a web form, which are then routed to the relevant customer service team member. The system should track the complaint status, capture resolution notes, and allow for follow-up reminders.",
+          "title": "Customer Complaint Resolution"
+        },
+        {
+          "description": "Oversee property issues and maintenance requests.",
+          "prompt": "Create a property maintenance incident tracker for our facility management team. Users can report issues like leaks, electrical problems, or equipment malfunctions. The system should allow assigning tasks to maintenance staff, tracking repair status, and managing a historical log of all work orders.",
+          "title": "Facility Maintenance Incident System"
+        },
+        {
+          "description": "Respond to critical equipment or process failures.",
+          "prompt": "Build an operational incident tracking system for our manufacturing plant. It needs to log production line stoppages, equipment breakdowns, or quality deviations. The system should include fields for root cause analysis, corrective actions, and track impact on production schedule.",
+          "title": "Operational Anomaly Tracker"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your incident tracking system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add capabilities for multi-level approval for incident closure based on severity or cost implications.",
+          "title": "Implement Workflow Approvals"
+        },
+        {
+          "prompt": "Integrate with our existing communication platforms (e.g., Slack, Microsoft Teams) to send real-time alerts and updates on new incidents or status changes.",
+          "title": "Enable Chat/Messaging Integrations"
+        },
+        {
+          "prompt": "Develop a customizable dashboard to visualize incident trends, team performance metrics (e.g., mean time to resolution), and recurring incident types.",
+          "title": "Create Performance Analytics Dashboards"
+        },
+        {
+          "prompt": "Add a knowledge base module where common incident resolutions and troubleshooting steps can be documented and searched by support staff.",
+          "title": "Integrate a Knowledge Base"
+        },
+        {
+          "prompt": "Allow users to attach files (screenshots, logs, documents) directly to incident reports and store them securely.",
+          "title": "Enable File Attachments"
+        },
+        {
+          "prompt": "Implement a public status page that automatically updates based on major incident statuses, keeping affected users informed without manual intervention.",
+          "title": "Develop a Public Incident Status Page"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for incident resolution",
+      "type": "features",
+      "items": [
+        {
+          "description": "Standardized forms for consistent data capture across all incident types.",
+          "icon": "📝",
+          "title": "Configurable Incident Forms"
+        },
+        {
+          "description": "Automated rules for assigning incidents to the right teams or individuals.",
+          "icon": "⚙️",
+          "title": "Intelligent Triage & Assignment"
+        },
+        {
+          "description": "Real-time alerts via email, SMS, or in-app notifications for critical events or status changes.",
+          "icon": "🚨",
+          "title": "Automated Notifications"
+        },
+        {
+          "description": "Tools to track incident progress, ownership, and key milestones.",
+          "icon": "⏱️",
+          "title": "Status Tracking & Timelines"
+        },
+        {
+          "description": "Functionality to document root causes, corrective actions, and lessons learned from each incident.",
+          "icon": "🧠",
+          "title": "Post-Mortem & Reporting"
+        },
+        {
+          "description": "Secure access control to manage who can report, view, and resolve incidents based on roles.",
+          "icon": "🔒",
+          "title": "Role-Based Access Control"
+        }
+      ]
+    },
+    {
+      "title": "Questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Developing a basic incident tracking system with Kliv can take as little as a few hours to a day. More complex systems with advanced integrations or custom workflows might take a few days of iterative building and refinement.",
+          "question": "How quickly can I build an incident tracking application?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv's platform allows you to describe your desired system using natural language, and its AI capabilities will assist in generating the application components. Focus on defining your incident management process, not writing code.",
+          "question": "Do I need technical skills or coding knowledge?"
+        },
+        {
+          "answer": "Yes. Custom systems built with Kliv can integrate with a wide range of external tools via APIs. This means you can connect your incident tracker to monitoring systems, communication platforms, ticketing systems, or identity management solutions.",
+          "question": "Can I integrate my custom system with existing tools like monitoring or communication platforms?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property for applications you build with Kliv. This means you have full control over your data, its hosting location, and the application's long-term evolution without vendor lock-in.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "The cost savings can be significant. By making a one-time build investment rather than facing continuous subscription fees, most organizations find their custom Kliv solution pays for itself within the first year, providing substantial long-term savings.",
+          "question": "How does the cost compare to off-the-shelf incident management software?"
+        },
+        {
+          "answer": "Absolutely. Custom systems are inherently flexible. As your organization's needs change, you can easily modify workflows, add new features, or integrate with new tools, all within the Kliv platform.",
+          "question": "Can I modify or expand the system after it's built?"
+        },
+        {
+          "answer": "You define the security requirements. Kliv provides the framework, but you select hosting options (on-premise, private cloud) and implement specific security controls, often resulting in higher security posture than sharing data on a multi-tenant SaaS solution.",
+          "question": "How secure is a custom-built incident tracking system?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your incident response?",
+      "type": "cta",
+      "content": "Stop reacting, start proactively managing. Build an incident tracking system tailored for your success."
+    }
+  ],
+  "title": "Incident tracking and resolution applications"
+}

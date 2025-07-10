@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a custom CRM system that helps me manage leads, track customer interactions, and automate sales follow-ups.",
+  "description": "Build custom lead management and CRM applications tailored to your business needs with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your CRM",
+    "subtitle": "Develop powerful CRM and lead management tools designed precisely for your sales process and customer interactions.",
+    "title": "Build your own CRM & Lead Management System"
+  },
+  "metaDescription": "Create powerful, custom CRM and lead management systems with Kliv. Streamline sales, enhance customer relationships, and boost growth with applications built just for you.",
+  "sections": [
+    {
+      "title": "The challenge with off-the-shelf CRM solutions",
+      "type": "text",
+      "content": "In today's fast-paced business environment, effective customer relationship management (CRM) and lead management are crucial for growth. Yet, many off-the-shelf CRM systems force businesses to adapt their unique sales processes to rigid software. This often leads to unnecessary complexity, unused features, and high recurring costs.\n\nBuilding your own custom CRM with Kliv means you get a system that perfectly aligns with your workflow, integrates seamlessly with existing tools, and evolves with your business, without vendor lock-in or endless subscription fees."
+    },
+    {
+      "title": "Why a custom CRM is your competitive advantage",
+      "type": "markdown",
+      "content": "## Tired of CRMs that don't fit?\n\nGeneric CRM solutions are designed to be one-size-fits-all, which means they rarely fit any business perfectly. This often results in:\n\n- **Unnecessary features** that clutter your interface and slow down your team.\n- **Missing critical functionalities** essential for your specific sales cycle or customer service needs.\n- **Complex customization** processes that require expensive consultants or IT specialists.\n- **High recurring costs** that escalate as your team grows or you need more features.\n- **Data silos** because integrating with your existing systems is either impossible or extremely difficult.\n\n## The power of a bespoke CRM\n\nImagine a CRM that works exactly how you do. With Kliv's AI-powered platform, this is not just a dream but an achievable reality for businesses of all sizes. Here's why custom is the future of CRM:\n\n### Perfect Alignment with Your Workflow\nYour sales process is unique. A custom CRM can be built to mimic your exact stages, terminology, and automation rules, making it intuitive for your team and boosting adoption rates.\n\n### Cost-Effectiveness in the Long Run\nWhile there's an initial investment, a custom CRM eliminates recurring subscription fees. Over time, it becomes significantly more economical than perpetually paying for a system that only partially meets your needs.\n\n### Seamless Integration Capabilities\nConnect your CRM directly to your marketing automation, ERP, accounting software, or customer support platforms. Proprietary systems often limit integrations, but with a custom solution, your data flows freely.\n\n### Scalability and Adaptability\nAs your business evolves, your CRM can too. Add new modules, adjust workflows, or incorporate new technologies directly into your system without waiting for vendor updates or paying for 'enterprise' add-ons.\n\n### Data Ownership and Security\nMaintain full control over your valuable customer data. You decide where it's stored and how it's protected, minimizing risks associated with third-party data breaches or privacy policy changes.\n\n## Real-world impact\n\nCustom CRMs are revolutionizing how businesses manage relationships and drive sales:\n\n**Financial Services**: A custom system to track complex client portfolios, ensure regulatory compliance, and automate personalized investment recommendations.\n\n**Real Estate**: A CRM built to manage property listings, buyer preferences, automated viewing schedules, and follow-up communications specific to property types and locations.\n\n**B2B Software Sales**: A tool that maps intricate sales funnels, tracks multi-stakeholder deals, automates contract generation, and provides deep analytics on sales team performance.\n\n**Service Industries**: A system focused on client retention, recurring service scheduling, automated feedback collection, and targeted upselling opportunities.\n\n## AI-accelerated development\n\nBuilding sophisticated software used to be a monumental task. Kliv makes it accessible:\n\n- **Natural Language Programming**: Describe your ideal CRM in plain English.\n- **Rapid Prototyping**: See a functional version of your system in hours or days.\n- **Intelligent Optimization**: AI suggests improvements for efficiency and user experience.\n- **Automated Code Generation**: Focus on your business logic, not syntax.\n\nA custom CRM isn't just about managing customer data; it's about building a strategic asset that fuels your growth. Start with Kliv and create a CRM that truly works for you."
+    },
+    {
+      "title": "Lead and CRM ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track leads from multiple sources and manage them through your sales pipeline.",
+          "prompt": "Create a lead management system that captures leads from website forms, imports them from CSV, tracks their status (New, Contacted, Qualified), allows adding notes, and assigns leads to sales reps based on region.",
+          "title": "Basic Lead Tracker"
+        },
+        {
+          "description": "Manage customer accounts, contacts, and interaction history.",
+          "prompt": "Build a CRM to store customer accounts with multiple contacts per account, log phone calls, emails, and meetings, and link historical orders.",
+          "title": "Customer Account Manager"
+        },
+        {
+          "description": "Streamline your sales process from opportunity creation to closing.",
+          "prompt": "Develop a sales pipeline application with customizable stages (Prospecting, Qualification, Proposal, Negotiation, Closed Won/Lost), probability tracking, expected close dates, and a dashboard view for sales forecasting.",
+          "title": "Sales Pipeline & Forecasting"
+        },
+        {
+          "description": "Automate follow-ups and nurture sequences for leads and customers.",
+          "prompt": "Design a system that sends automated email follow-ups based on lead status changes (e.g., send welcome email when lead status is 'New', send a proposal reminder after 'Proposal' stage if no activity in 3 days).",
+          "title": "Automated Follow-up Engine"
+        },
+        {
+          "description": "Centralize all communications with your leads and customers.",
+          "prompt": "Create a communication hub within the CRM that displays all emails sent/received, logs calls, allows scheduling tasks for follow-up, and integrates with my calendar for meeting scheduling.",
+          "title": "Unified Communication Hub"
+        },
+        {
+          "description": "Track customer support tickets and resolutions within your CRM.",
+          "prompt": "Build a basic support ticket system integrated with the customer record. Allow customers to submit tickets, assign tickets to agents, track status (Open, In Progress, Resolved), and log resolution notes.",
+          "title": "Integrated Support Ticketing"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your custom CRM",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication system with roles (Sales Rep, Sales Manager, Admin) controlling access to different data and features.",
+          "title": "Implement User Roles & Permissions"
+        },
+        {
+          "prompt": "Integrate with a popular email service (e.g., Gmail API, Outlook API) to automatically log emails exchanged with contacts.",
+          "title": "Email Integration for Auto-logging"
+        },
+        {
+          "prompt": "Build a customizable dashboard for sales managers to visualize sales performance, lead conversion rates, and team activity.",
+          "title": "Develop Sales Analytics Dashboard"
+        },
+        {
+          "prompt": "Add a feature to generate sales proposals or contracts automatically based on templates and client data stored in the CRM.",
+          "title": "Automated Document Generation"
+        },
+        {
+          "prompt": "Implement SMS notification for sales reps when a high-priority lead is assigned or a customer performs a key action.",
+          "title": "SMS Notifications for Key Events"
+        },
+        {
+          "prompt": "Add functionality for managing product catalogs within the CRM, linking products to opportunities and quotes.",
+          "title": "Product Catalog Management"
+        },
+        {
+          "prompt": "Introduce a task management system tied to leads and contacts, allowing assignment, due dates, and reminders.",
+          "title": "Integrated Task Manager"
+        },
+        {
+          "prompt": "Create custom reports that can be generated on demand or scheduled, covering areas like lead source performance, sales cycle length, or customer lifetime value.",
+          "title": "Advanced Reporting Module"
+        },
+        {
+          "prompt": "Add a module for marketing campaigns, allowing association of leads with campaigns and tracking campaign effectiveness based on CRM data.",
+          "title": "Marketing Campaign Tracking"
+        }
+      ]
+    },
+    {
+      "title": "Core CRM capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Efficiently capture, qualify, and distribute new leads to your sales team.",
+          "icon": "📞",
+          "title": "Lead Management"
+        },
+        {
+          "description": "Maintain comprehensive records of customer accounts, contacts, and interaction history.",
+          "icon": "👤",
+          "title": "Contact & Account Management"
+        },
+        {
+          "description": "Visualize and manage your sales opportunities through customizable stages.",
+          "icon": "📈",
+          "title": "Sales Pipeline Tracking"
+        },
+        {
+          "description": "Automate routine tasks like follow-up emails, reminders, and data updates.",
+          "icon": "⚙️",
+          "title": "Workflow Automation"
+        },
+        {
+          "description": "Log calls, emails, meetings, and view a complete history of all communications.",
+          "icon": "💬",
+          "title": "Communication Tracking"
+        },
+        {
+          "description": "Generate custom reports and dashboards to gain insights into sales performance.",
+          "icon": "📊",
+          "title": "Reporting & Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions about building CRM with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic lead management or CRM application with Kliv can take anywhere from a few hours to a couple of days, depending on the complexity of features you need. More sophisticated systems with advanced integrations might take a bit longer.",
+          "question": "How long does it take to create a custom CRM?"
+        },
+        {
+          "answer": "No, you don't need any coding or extensive technical expertise. Kliv's platform allows you to describe your desired CRM features in plain language, and the AI assists in generating the application. It's designed for business users.",
+          "question": "Do I need to be a developer to build a CRM on Kliv?"
+        },
+        {
+          "answer": "Absolutely. Custom CRMs built with Kliv can integrate with a wide range of external services like email providers (Gmail, Outlook), calendar apps, marketing automation tools, ERP systems, and more, usually via APIs.",
+          "question": "Can my custom CRM integrate with other business tools?"
+        },
+        {
+          "answer": "You own 100% of the application and its data. Kliv helps you build it, but the resulting software and all your customer data belong to you. You have full control over hosting and data security.",
+          "question": "Who owns the CRM and the data once it's built?"
+        },
+        {
+          "answer": "While there's an upfront building cost, you avoid the recurring subscription fees common with off-the-shelf CRMs. Over time, a custom Kliv-built CRM typically becomes more cost-effective, especially for growing businesses that would incur escalating SaaS costs.",
+          "question": "Is a custom CRM more cost-effective than a subscription-based one?"
+        },
+        {
+          "answer": "Yes, one of the primary benefits is flexibility. You can easily modify existing features, add new modules, or adjust workflows as your business processes evolve. You're not locked into a vendor's update cycle.",
+          "question": "Can I modify my CRM after it’s initially created?"
+        },
+        {
+          "answer": "Yes, often more so. You decide on the security protocols, data storage location, and access controls. This means you can implement measures tailored to your specific compliance needs, rather than relying on a third-party's generic security approach.",
+          "question": "How secure is a custom-built CRM?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform your customer relationships?",
+      "type": "cta",
+      "content": "Stop fitting a square peg into a round hole with generic CRMs. Build the perfect lead management and customer relationship system that drives your business forward."
+    }
+  ],
+  "title": "Custom CRM & Lead Management Systems"
+}

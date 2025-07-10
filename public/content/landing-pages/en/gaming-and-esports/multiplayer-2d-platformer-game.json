@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "Create a multiplayer 2D platformer game with real-time physics, persistent leaderboards, character customization, and cross-platform support.",
+  "description": "Develop and deploy custom multiplayer 2D platformer games with Kliv's powerful platform.",
+  "hero": {
+    "cta": "Start building your game",
+    "subtitle": "Unleash your creativity and build engaging, real-time multiplayer 2D platformer games with Kliv's AI-powered game development platform.",
+    "title": "Build your own multiplayer 2D platformer game"
+  },
+  "metaDescription": "Create custom 2D multiplayer platformer games from concept to deployment with Kliv. Focus on gameplay, not complex backend infrastructure.",
+  "sections": [
+    {
+      "title": "The challenge of multiplayer game development",
+      "type": "text",
+      "content": "Developing a multiplayer game, especially a real-time platformer, comes with unique complexities. Beyond designing compelling levels and mechanics, you need to handle server infrastructure, network synchronization, player authentication, matchmaking, and data persistence. These technical hurdles often push indie developers away from realizing their vision.\n\nTraditional game development often involves significant upfront time and resources building out this complex backend, taking focus away from what truly matters: making a fun and engaging game. Kliv offers a streamlined path to bring your multiplayer 2D platformer to life, handling the heavy lifting so you can concentrate on creativity and gameplay."
+    },
+    {
+      "title": "Why Kliv is your ideal game development partner",
+      "type": "markdown",
+      "content": "## Overcoming the technical hurdles\n\nMany aspiring game developers face significant barriers when tackling multiplayer functionality:\n\n- **Complex network architecture**: Ensuring smooth, lag-free gameplay for multiple players requires sophisticated networking solutions.\n- **Scalable server infrastructure**: Your game needs to handle a few players, then hundreds, then thousands, without crashing.\n- **Data management**: Storing player profiles, scores, unlocks, and more, reliably and securely.\n- **Cross-platform challenges**: Making your game work seamlessly across different devices (PC, mobile, web).\n- **Security**: Preventing cheating and protecting user data.\n\n## The Kliv advantage for game development\n\nKliv is designed to abstract away these complexities, allowing you to focus on the game itself. Here's how:\n\n### Rapid prototyping & iteration\nBring your game concepts to life faster than ever before. Describe your desired features in natural language, and Kliv's AI assists in generating the core architecture, art assets, and gameplay logic. Test new mechanics and designs in hours, not weeks.\n\n### Built-in multiplayer capabilities\nForget about low-level networking. Kliv provides robust, pre-built components for real-time player synchronization, lag compensation, and communication, ensuring a smooth multiplayer experience from day one.\n\n### Scalable backend infrastructure\nYour game automatically scales with your player base. Kliv handles server provisioning, database management, and load balancing, so you never have to worry about your game crashing under heavy traffic.\n\n### Data persistence & security\nSecurely store player progress, statistics, and customization options. Kliv's platform offers integrated user authentication and data management solutions, keeping your game and its users safe.\n\n### Focus on creativity, not code\nWhether you're an experienced developer or a passionate designer with limited coding knowledge, Kliv empowers you. Spend less time wrestling with complex code and more time crafting unique level designs, character abilities, and engaging game loops.\n\n## Realizing your game vision\n\nImagine a platformer with procedurally generated levels, dynamic weather systems, or even player-created content – Kliv provides the foundation for such ambitious projects. From competitive speedrunning to cooperative puzzle-solving, the possibilities are endless when the technical barriers are removed. Kliv helps you turn your dream 2D platformer into a playable reality."
+    },
+    {
+      "title": "Multiplayer platformer ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Competitive battle-royale platformer with shrinking safe zones",
+          "prompt": "Design a 2D battle-royale platformer game where players fight to be the last one standing on a shrinking map. Include various power-ups and destructible environments.",
+          "title": "Last-man-standing battle royale"
+        },
+        {
+          "description": "Cooperative puzzle-platformer with unique character abilities",
+          "prompt": "Create a cooperative 2D platformer where two players must work together to solve environmental puzzles. Each character has unique abilities essential for progression.",
+          "title": "Co-op puzzle adventure"
+        },
+        {
+          "description": "Side-scrolling racing game with unique abilities and obstacles",
+          "prompt": "Build a real-time 2D platformer racing game where players race against each other through obstacle courses. Include character abilities like dashing, wall-jumping, and projectile attacks.",
+          "title": "Multiplayer platformer racer"
+        },
+        {
+          "description": "Persistent world platformer where players build and share levels",
+          "prompt": "Develop an online 2D platformer where players can design and share their own levels, challenge others, and earn currency to customize their characters.",
+          "title": "Community-driven level editor"
+        },
+        {
+          "description": "Retro-style platformer with competitive speedrunning focus",
+          "prompt": "Create a retro-inspired 2D platformer with precise controls and competitive speedrunning mechanics. Include online leaderboards and ghost replays of top players.",
+          "title": "Competitive speedrunner"
+        },
+        {
+          "description": "Asymmetrical multiplayer with one powerful boss and multiple players",
+          "prompt": "Design an asymmetrical 2D platformer where one player controls a powerful boss character, and several other players control smaller, weaker characters trying to defeat it.",
+          "title": "Asymmetrical boss battle"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your game",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a robust in-game chat system with private messaging and emoticons.",
+          "title": "Implement in-game chat"
+        },
+        {
+          "prompt": "Integrate a character customization system allowing players to unlock and equip different outfits and accessories.",
+          "title": "Add character customization"
+        },
+        {
+          "prompt": "Develop a replay system where players can save and share videos of their best runs or matches.",
+          "title": "Build a replay feature"
+        },
+        {
+          "prompt": "Incorporate a daily challenge system with unique modifiers, daily rewards, and dedicated leaderboards.",
+          "title": "Introduce daily challenges"
+        },
+        {
+          "prompt": "Create a spectator mode that allows players to watch live matches or view leaderboards without participating.",
+          "title": "Develop spectator mode"
+        },
+        {
+          "prompt": "Add a seasonal progression system with battle passes, new content, and exclusive cosmetic rewards.",
+          "title": "Implement Battle Pass seasons"
+        },
+        {
+          "prompt": "Integrate Steam Workshop or a similar system for user-generated content, such as custom levels or skins.",
+          "title": "Enable user-generated content"
+        },
+        {
+          "prompt": "Add support for custom game modes and private lobbies that players can create and configure.",
+          "title": "Allow custom game lobbies"
+        },
+        {
+          "prompt": "Develop an anti-cheat system to detect and prevent common cheating methods in real-time.",
+          "title": "Integrate anti-cheat measures"
+        }
+      ]
+    },
+    {
+      "title": "Key game development features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Synchronize player movements, actions, and game state across clients in real-time.",
+          "icon": "⚡",
+          "title": "Real-time networking"
+        },
+        {
+          "description": "Handle player authentication, user profiles, and secure data storage.",
+          "icon": "🔒",
+          "title": "User management"
+        },
+        {
+          "description": "Match players based on skill, region, or custom criteria for seamless gameplay.",
+          "icon": "🤝",
+          "title": "Smart matchmaking"
+        },
+        {
+          "description": "Store high scores, player rankings, and track competitive performance.",
+          "icon": "🏆",
+          "title": "Persistent leaderboards"
+        },
+        {
+          "description": "Build and manage virtual currencies, in-game items, and player inventories.",
+          "icon": "💰",
+          "title": "Economy & inventory"
+        },
+        {
+          "description": "Ensure your game performs optimally and looks great on various devices and platforms.",
+          "icon": "🌍",
+          "title": "Cross-platform support"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv dramatically accelerates game development. You can get a basic multiplayer 2D platformer prototype up and running in a matter of hours or days, depending on complexity. Full features and polish will take longer, but the core infrastructure is fast.",
+          "question": "How quickly can I build a multiplayer game with Kliv?"
+        },
+        {
+          "answer": "While Kliv simplifies many backend complexities, basic understanding of game design principles and some familiarity with logic (even visual scripting) is beneficial. However, our AI can assist significantly, making it accessible to those with less coding experience.",
+          "question": "Do I need extensive coding knowledge to build games on Kliv?"
+        },
+        {
+          "answer": "Yes, Kliv provides strong support for integrating third-party assets, APIs, and services. You can import your custom art, sound, and even connect to external platforms like Steam or Discord for social features.",
+          "question": "Can I use my custom art assets and integrate with other services?"
+        },
+        {
+          "answer": "Kliv's infrastructure is designed for scalability from the ground up. Whether you have 10 players or 10,000 concurrent players, the underlying services will automatically scale to meet demand without manual intervention.",
+          "question": "How does Kliv handle game scaling for many players?"
+        },
+        {
+          "answer": "Your game, its design, code, and all created content are fully your intellectual property. Kliv provides the tools and infrastructure, but you retain complete ownership and control over your game.",
+          "question": "Who owns the games and content created using Kliv?"
+        },
+        {
+          "answer": "Security is paramount. Kliv implements enterprise-grade security measures for data storage, user authentication, and network communication. We also provide tools and guidelines to help you implement anti-cheat measures within your game logic.",
+          "question": "What kind of security features does Kliv offer for games?"
+        },
+        {
+          "answer": "Yes! Kliv supports deployment to multiple platforms. Depending on your game's design, you can target web browsers, PC (via desktop clients), and even mobile devices, reaching a wider audience from a single codebase.",
+          "question": "Can games built on Kliv be deployed to multiple platforms (PC, web, mobile)?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bring your 2D platformer to life?",
+      "type": "cta",
+      "content": "Stop dreaming and start building. Kliv provides the complete toolkit to create, deploy, and scale your next hit multiplayer 2D platformer. Focus on fun, we'll handle the rest."
+    }
+  ],
+  "title": "Multiplayer 2D Platformer Game Development"
+}

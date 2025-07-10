@@ -1,0 +1,171 @@
+{
+  "defaultPrompt": "I want to create a package tracking application that consolidates tracking information from multiple carriers, provides real-time updates, and sends notifications for delivery status changes.",
+  "description": "Build custom package tracking applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start tracking today",
+    "subtitle": "Gain complete visibility over all your shipments with custom-built, multi-carrier package tracking solutions.",
+    "title": "Your custom package tracking solution"
+  },
+  "metaDescription": "Create powerful package tracking tools with Kliv. Consolidate shipments, get real-time updates, and send automated notifications for personal or business use.",
+  "sections": [
+    {
+      "title": "Why build your own package tracking tool?",
+      "type": "text",
+      "content": "In a world of constant deliveries, keeping tabs on packages from various carriers can be a frustrating, disjointed experience. Generic tracking apps often fall short, offering limited carrier support, cluttered interfaces, or subscription fees for basic features. Building your own package tracking solution with Kliv puts you in control, allowing you to centralize information, customize alerts, and streamline your delivery management process."
+    },
+    {
+      "title": "The case for a personalized tracking experience",
+      "type": "markdown",
+      "content": "## The parcel problem\n\nWhether you're an avid online shopper, a small business managing inbound supplies, or just someone who wants to know when their new gadget arrives, dealing with multiple tracking numbers across different carrier websites (or subpar apps) is inefficient and prone to errors. \n\n**Common frustrations with existing solutions include:**\n\n- **Scattered information**: Having to visit UPS, FedEx, USPS, DHL, and more, just to find out where your parcels are.\n- **Limited notifications**: Missing critical updates like 'out for delivery' or 'delivered' because the app is too generic or restrictive.\n- **Cluttered interfaces**: Apps trying to do too much, obscuring the primary function of simple, effective tracking.\n- **Subscription paywalls**: Basic features locked behind recurring payments.\n- **Lack of consolidation**: No single, clean view of all your incoming and outgoing packages.\n\n## Why a custom solution is superior\n\nKliv empowers you to create a package tracking tool perfectly tailored to your needs. This isn't just about convenience; it's about efficiency, clarity, and control.\n\n### Single-pane-of-glass view\nImagine all your packages, regardless of carrier, displayed in one intuitive interface. Your custom tool can pull data from countless services and present it exactly how you want to see it.\n\n### Precision notifications\nGo beyond basic 'delivered' alerts. Set up notifications for 'out for delivery,' 'attempted delivery,' 'customs cleared,' or even delayed statuses. Get alerts via SMS, email, or app push notifications, configured to your preference.\n\n### Tailored for your use case\n\n- **Personal use**: For individual consumers, manage all your online purchases, gifts, and returns without hassle.\n- **Small business**: Track incoming supplies, customer returns, or outgoing orders to keep your operations smooth.\n- **E-commerce**: Provide a branded tracking experience for your customers, reducing 'where is my order?' inquiries.\n\n### No feature creep, no subscriptions\nBuild only the features you need. Avoid the bloat of general-purpose apps and the perpetual cost of monthly subscriptions. Your tool, your rules, your one-time investment.\n\n## The Kliv advantage in building tools\n\nKliv's platform accelerates development, turning your ideas into functional applications faster than ever. \n\n- **Natural Language Interaction**: Describe your desired features in plain English.\n- **Rapid Prototyping**: See your tracking tool take shape quickly.\n- **API Integration**: Easily connect with major carrier APIs for accurate tracking data.\n- **Scalability**: Your tool can grow with your tracking needs, from a few personal parcels to hundreds of business shipments."
+    },
+    {
+      "title": "Package tracking ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A web app for tracking all personal online purchases.",
+          "prompt": "Create a simple web application where I can enter multiple tracking numbers from USPS, FedEx, and UPS to see their current status and delivery estimates in one list.",
+          "title": "Personal package tracker"
+        },
+        {
+          "description": "An internal tool to monitor incoming business supplies.",
+          "prompt": "Build an internal dashboard for our logistics team to track all incoming raw materials and supplies from various vendors, allowing them to filter by vendor, expected delivery date, and carrier.",
+          "title": "Business inbound logistics tracker"
+        },
+        {
+          "description": "An SMS notification service for delivery updates.",
+          "prompt": "Develop a system that, given a tracking number, will automatically send me an SMS message whenever there's a major status change (e.g., 'out for delivery', 'delivered', 'delivery exception').",
+          "title": "SMS delivery alerts"
+        },
+        {
+          "description": "A customer-facing tracking portal for e-commerce.",
+          "prompt": "Design a basic customer-facing portal where my e-commerce customers can enter their order number and see the real-time tracking status of their shipment, branded with my company logo.",
+          "title": "Branded customer tracking portal"
+        },
+        {
+          "description": "A system to flag delayed deliveries.",
+          "prompt": "Create an application that tracks packages and automatically identifies and flags any shipment that is delayed beyond its initial estimated delivery date, sending an alert to a specific email address.",
+          "title": "Delivery delay detection"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your tracking tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to manually mark packages as 'received' and remove them from the active tracking list.",
+          "title": "Add 'received' status"
+        },
+        {
+          "prompt": "Integrate with a calendar application (like Google Calendar) to add estimated delivery dates as events.",
+          "title": "Calendar integration"
+        },
+        {
+          "prompt": "Implement a user authentication system so multiple users can share and manage a joint list of tracked packages.",
+          "title": "User accounts and sharing"
+        },
+        {
+          "prompt": "Add an interactive map view showing the last known location of tracked packages.",
+          "title": "Map view for tracking"
+        },
+        {
+          "prompt": "Allow users to attach notes or photos to each tracked package for better organization.",
+          "title": "Notes and attachments"
+        },
+        {
+          "prompt": "Develop a customizable reporting feature to analyze delivery performance over time (e.g., average delivery time by carrier).",
+          "title": "Delivery performance reports"
+        },
+        {
+          "prompt": "Add a barcode scanner feature (using a webcam or mobile camera) to quickly add tracking numbers.",
+          "title": "Barcode scanner integration"
+        },
+        {
+          "prompt": "Enable email integration to automatically pull tracking numbers from order confirmation emails.",
+          "title": "Email parsing for tracking numbers"
+        }
+      ]
+    },
+    {
+      "title": "Essential tracking features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automated data retrieval from multiple shipping carriers.",
+          "icon": "📦",
+          "title": "Multi-carrier support"
+        },
+        {
+          "description": "Get instant updates on package status changes.",
+          "icon": "⏱️",
+          "title": "Real-time updates"
+        },
+        {
+          "description": "Receive alerts via email, SMS, or in-app push.",
+          "icon": "🔔",
+          "title": "Configurable notifications"
+        },
+        {
+          "description": "See all your shipments in one clean, organized view.",
+          "icon": "📋",
+          "title": "Unified dashboard"
+        },
+        {
+          "description": "Access detailed history of each package's journey.",
+          "icon": "📜",
+          "title": "Historical tracking data"
+        },
+        {
+          "description": "Predict delivery times based on carrier data and historical patterns.",
+          "icon": "🗓️",
+          "title": "Estimated delivery dates"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom package tracking tool with Kliv can take anywhere from a few hours for a basic version to a couple of days for a more complex system with advanced features and integrations. The AI significantly speeds up various parts of the development process.",
+          "question": "How long will it take to build a package tracking application?"
+        },
+        {
+          "answer": "No, you don't need any prior coding experience. Kliv's platform is designed for users to describe their desired functionality using natural language, and the AI assists in generating the underlying code and structure.",
+          "question": "Do I need to be a programmer to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with most major shipping carriers (UPS, FedEx, USPS, DHL, etc.) through their tracking APIs. You can also integrate with e-commerce platforms if needed.",
+          "question": "Can my custom tracker integrate with global shipping carriers?"
+        },
+        {
+          "answer": "When you build with Kliv, you own the intellectual property and code for your application. This gives you complete control over your data and ensures it's handled according to your privacy standards.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Initially, a custom build may have a higher upfront cost than a free or trial version of a SaaS product. However, it avoids recurring subscription fees and often provides a better long-term ROI, especially considering the tailored features you get.",
+          "question": "How does the cost compare to off-the-shelf package tracking apps?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the flexibility. You can easily add new carriers, notification methods, reporting features, or any other functionality as your needs evolve.",
+          "question": "Can I add more features or modify my tracking application after it's built?"
+        },
+        {
+          "answer": "You manage the deployment, which gives you control over the security environment. Your application can be as secure as you need it to be, adhering to your specific security protocols, rather than relying on a third-party's security practices.",
+          "question": "Is a custom-built package tracker secure?"
+        },
+        {
+          "answer": "The platform provides AI-driven assistance, debugging, and optimization suggestions during the build phase. For ongoing maintenance or advanced needs, you have the full codebase, allowing you to manage it directly or hire any developer for modifications.",
+          "question": "What kind of ongoing support is available for my application?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your deliveries?",
+      "type": "cta",
+      "content": "Stop juggling multiple tracking sites. Build your definitive package tracking solution today and gain full visibility with ease."
+    }
+  ],
+  "title": "Package Tracking Applications"
+}

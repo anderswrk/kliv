@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a football match prediction application that uses historical data, team form, and player statistics to generate accurate match outcome probabilities for major leagues.",
+  "description": "Build high-accuracy football match prediction applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start predicting",
+    "subtitle": "Unleash the power of data and AI to build your own sophisticated football match prediction tools.",
+    "title": "Build your own football match prediction app"
+  },
+  "metaDescription": "Create powerful football match prediction apps with Kliv. Leverage historical data, AI, and advanced algorithms to analyze matches and forecast outcomes.",
+  "sections": [
+    {
+      "title": "Why build your own football prediction tool?",
+      "type": "text",
+      "content": "The world of sports analytics is constantly evolving, and off-the-shelf prediction services often lack the depth, customization, or unique insights you need. With Kliv's intuitive platform, you're not just a user; you're the architect of your own analytical engine.\n\nFrom casual enthusiasts to serious bettors, having a prediction tool tailored to your specific criteria, data sources, and analytical models can provide a significant edge. Instead of relying on generic algorithms, you can craft a system that reflects your expertise and focus."
+    },
+    {
+      "title": "The strategic advantage of tailored predictions",
+      "type": "markdown",
+      "content": "## The limitations of generic prediction services\n\nMany existing football prediction platforms offer a one-size-fits-all approach. While convenient, they often fall short because they:\n\n- **Lack customization**: You can't tweak the underlying algorithms or data sources to reflect your specific knowledge or hypotheses.\n- **Use limited data sets**: They might not incorporate obscure statistics, head-to-head records over long periods, or specific player form indicators you value.\n- **Charge recurring fees**: Subscriptions for high-quality data or advanced features can quickly add up, making long-term use costly.\n- **Offer opaque methodologies**: You don't know *why* a certain prediction was made, making it difficult to trust or refine.\n\n## Why a custom-built solution leads the league\n\nBuilding your own prediction application with Kliv offers unparalleled advantages:\n\n### Proprietary algorithms and models\nCraft unique prediction models by combining multiple statistical factors, even incorporating qualitative data or your own intuitive insights, which generic systems overlook.\n\n### Access to diverse data sources\nIntegrate data from various APIs – historical results, team news, injury reports, weather conditions, referee statistics, and more – to build a truly comprehensive analytical engine.\n\n### Cost-efficiency over time\nAfter the initial build, your custom application avoids continuous subscription fees, making it a more economical choice for long-term use and constant refinement.\n\n### Full transparency and control\nUnderstand every variable, every algorithm, and every data point feeding your predictions. This transparency allows for continuous improvement and deeper insights.\n\n### Scalability for advanced features\nEasily add new features like live score updates, value bet identification, integrated betting APIs, or even a community platform, without waiting for third-party developers.\n\n## Real-world applications\n\nA custom-built prediction tool can serve various purposes:\n\n**Personalized Betting Aid**: Develop a tool that aligns with your specific betting strategies, identifying value bets based on your unique risk tolerance and statistical preferences.\n\n**Content Generation**: Create a platform for generating predictive articles, pre-match analyses, or post-match reviews for sports blogs or media outlets.\n\n**Fantasy Football Assistant**: Design an application that helps you pick optimal fantasy teams by predicting individual player performance based on various metrics.\n\n**Sports Research and Analytics**: Build a sophisticated research tool for academic studies, sports journalism, or professional scouting, uncovering hidden patterns and trends.\n\n## Leveraging AI for superior analysis\n\nKliv transforms complex programming into intuitive building blocks:\n\n- **Data Ingestion**: AI assists in connecting to diverse sports data APIs and structuring the information for analysis.\n- **Model Training**: Use AI-guided tools to train machine learning models on vast datasets, identifying correlations and predictive patterns.\n- **Algorithmic Generation**: AI can help generate or refine algorithms for specific prediction tasks based on your defined criteria.\n- **Visualization & UI**: Easily design user interfaces that present complex predictions in clear, actionable dashboards.\n\nBy taking control of your prediction capabilities, you move beyond guesswork and into a data-driven approach. Kliv empowers you to turn your passion for football and statistics into a powerful, customizable analytical asset."
+    },
+    {
+      "title": "Football prediction ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Predict match outcomes (Win/Draw/Loss) for upcoming Premier League games.",
+          "prompt": "Create a football match prediction app that takes historical match results, team form (last 5 games), and home/away advantage as inputs to predict the probability of a home win, draw, or away win for each match in the English Premier League.",
+          "title": "Basic match outcome predictor"
+        },
+        {
+          "description": "Forecast Over/Under 2.5 goals based on team attacking and defensive records.",
+          "prompt": "Build a model to predict if a match will have Over or Under 2.5 goals based on the average goals scored and conceded by both teams in their last 10 league matches, and their historical head-to-head goal averages.",
+          "title": "Goals total predictor"
+        },
+        {
+          "description": "Identify potential clean sheets for teams based on defensive strength.",
+          "prompt": "Develop an application that predicts which team is most likely to keep a clean sheet (concede 0 goals) in an upcoming match, considering their defensive ratings, opponent's attacking strength, and recent injury reports for key players.",
+          "title": "Clean sheet probability tracker"
+        },
+        {
+          "description": "Predict individual player goal scorers for specific matches.",
+          "prompt": "Design a system that forecasts the probability of specific players scoring a goal in a match, based on their recent goal-scoring form, opponent's defensive weaknesses, and their historical performance against that specific team.",
+          "title": "First/Anytime goal scorer predictor"
+        },
+        {
+          "description": "Automate value bet identification for specific markets.",
+          "prompt": "Create a tool that compares the predicted probabilities of match outcomes (derived from my custom model) against real-time bookmaker odds, highlighting potential 'value bets' where my model predicts a higher probability than the implied odds.",
+          "title": "Value bet finder"
+        },
+        {
+          "description": "Simulate league outcomes based on remaining fixtures.",
+          "prompt": "Build an app that can simulate the final standings of a football league (e.g., La Liga) by running multiple iterations of match outcome predictions for the remaining fixtures, showing probable champions, relegation zones, and European qualification spots.",
+          "title": "League table simulator"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your prediction system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate real-time sports data APIs to pull live scores and updated statistics as matches progress.",
+          "title": "Real-time data integration"
+        },
+        {
+          "prompt": "Add a feature to visualize prediction probabilities using interactive charts and graphs for clearer insights.",
+          "title": "Data visualization dashboard"
+        },
+        {
+          "prompt": "Implement a backtesting module to test the accuracy of prediction models against historical data and analyze profitability of past strategies.",
+          "title": "Backtesting and performance analysis"
+        },
+        {
+          "prompt": "Include a sentiment analysis component that scrapes news articles and social media to gauge public opinion and team morale.",
+          "title": "News and social media sentiment"
+        },
+        {
+          "prompt": "Develop an alert system that notifies users when specific conditions are met, like high-value prediction odds or major team news.",
+          "title": "Customizable alert system"
+        },
+        {
+          "prompt": "Add a user management system allowing different users to save their preferred leagues, teams, and prediction model configurations.",
+          "title": "Personalized user profiles"
+        },
+        {
+          "prompt": "Create a feature for automated reporting, generating summaries of upcoming match predictions and sending them via email.",
+          "title": "Automated prediction reports"
+        },
+        {
+          "prompt": "Incorporate player injury and suspension data from external sources to factor into match outcome predictions.",
+          "title": "Injury and suspension tracking"
+        }
+      ]
+    },
+    {
+      "title": "Core prediction application features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to diverse sports data APIs for comprehensive match, team, and player statistics.",
+          "icon": "⬇️",
+          "title": "Advanced data ingestion"
+        },
+        {
+          "description": "Build custom predictive models leveraging machine learning algorithms tailored to football dynamics.",
+          "icon": "🧠",
+          "title": "Customizable prediction models"
+        },
+        {
+          "description": "Factor in home/away advantage, team form, head-to-head records, and player statistics.",
+          "icon": "📊",
+          "title": "Statistical analysis engine"
+        },
+        {
+          "description": "Generate match outcome probabilities (Win/Draw/Loss, Over/Under Goals, BTTS, etc.) for various markets.",
+          "icon": "📈",
+          "title": "Outcome probability generation"
+        },
+        {
+          "description": "Present predictions and data insights through intuitive and customizable dashboards.",
+          "icon": "🖥️",
+          "title": "Interactive prediction dashboards"
+        },
+        {
+          "description": "Allow fine-tuning of model parameters and weightings to optimize prediction accuracy.",
+          "icon": "⚙️",
+          "title": "Model configurator"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Yes, Kliv allows seamless integration with various sports data APIs, including those for historical results, live scores, player statistics, and league standings. The AI can help you map and utilize this data within your prediction models.",
+          "question": "Can I integrate my application with external sports data APIs?"
+        },
+        {
+          "answer": "Building a functional football prediction app can take anywhere from a few hours for a basic model to a few days for a more complex, data-rich system. Kliv's AI significantly accelerates the development process.",
+          "question": "How long will it take to develop a prediction app?"
+        },
+        {
+          "answer": "No, you don't need to be a data scientist or a seasoned programmer. Kliv's AI guides you through the process, allowing you to describe your desired functionalities and data inputs in natural language. The platform handles the technical complexities.",
+          "question": "Do I need to be a data scientist to build this type of app?"
+        },
+        {
+          "answer": "With Kliv, you own 100% of the code and the prediction logic you create. This means complete control over your intellectual property and the ability to host, modify, and even monetize your application as you see fit.",
+          "question": "Who owns the prediction models and data created?"
+        },
+        {
+          "answer": "Absolutely. Your application can be designed to pull in data for any football league or competition for which reliable data is available via public or private APIs. You define the scope of your predictions.",
+          "question": "Can I use this for multiple football leagues or specific competitions?"
+        },
+        {
+          "answer": "Custom-built applications offer significant long-term cost benefits compared to recurring subscription services. While there's an initial development effort, you avoid ongoing fees for features you may not fully utilize, and gain complete customization freedom.",
+          "question": "How does this compare in cost to subscribing to a prediction service?"
+        },
+        {
+          "answer": "Yes, you can continuously refine your prediction models by adding new data sources, tweaking algorithms, or implementing feedback loops based on live match results. The flexibility of a custom build allows for constant improvement.",
+          "question": "Can I improve or update the prediction model after it's built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate football predictor?",
+      "type": "cta",
+      "content": "Stop relying on generic forecasts. Create a football match prediction application engineered precisely to your analytical vision and strategic needs. The power to predict is now at your fingertips."
+    }
+  ],
+  "title": "Football Match Prediction Apps"
+}

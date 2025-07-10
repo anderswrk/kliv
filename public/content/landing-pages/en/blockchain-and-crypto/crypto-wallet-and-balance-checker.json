@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a crypto wallet with balance checker that can securely store multiple cryptocurrencies, display real-time balances, track transaction history across different chains, and integrate with external APIs for price data.",
+  "description": "Build your own custom crypto wallet and balance checker applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your crypto app",
+    "subtitle": "Gain complete control and flexibility over your digital assets with custom-built crypto wallet and balance monitoring solutions.",
+    "title": "Create custom crypto wallets & balance checkers"
+  },
+  "metaDescription": "Develop secure, feature-rich crypto wallets and real-time balance checkers with Kliv. Track multiple cryptocurrencies, view transaction history, and get custom alerts.",
+  "sections": [
+    {
+      "title": "Why build your own crypto-wallet and balance checker?",
+      "type": "text",
+      "content": "In the fast-evolving world of cryptocurrency, off-the-shelf wallets and portfolio trackers often fall short. They might lack support for niche tokens, have rigid interfaces, or impose limitations on features critical to your specific needs. Building your own allows for unparalleled customization, security tailoring, and direct integration with the exact data sources you trust.\n\nTraditional custodians and third-party apps come with inherent risks and limitations. By creating your own application, you're not just building a tool; you're building a tailored ecosystem where you dictate the rules, prioritize privacy, and integrate exactly what you need, without bloated features or subscription fees."
+    },
+    {
+      "title": "The case for custom crypto tools",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf solutions\nWhile convenient, pre-built crypto wallets and balance trackers often present challenges:\n\n- **Limited coin support**: Many platforms don't support smaller altcoins or emerging tokens crucial for your portfolio.\n- **Generic features**: They offer broad functionalities, but lack the specific features, alerts, or analytics you truly need.\n- **Privacy and security concerns**: Relying on third parties means trusting them with your sensitive data and private keys.\n- **Lack of integration**: Difficulty connecting with your preferred exchanges, DeFi protocols, or accounting software.\n- **High fees**: Some services charge recurring fees for premium features that you can build yourself once.\n\n## Why a custom approach wins\nDeveloping your own crypto-focused application offers significant advantages:\n\n### Uncompromised Security & Privacy\nYou control the security architecture, how private keys are handled, and how your data is stored. Avoid third-party vulnerabilities and retain full sovereignty over your assets.\n\n### Perfect Fit Functionality\nBuild exactly the features you need—whether it's multi-chain support for specific networks, custom portfolio tracking metrics, integrated tax reporting, or unique alert systems. No bloatware, just functionality.\n\n### Cost Efficiency in the Long Run\nInitial development might seem an investment, but it eliminates recurring subscription fees common with premium wallet services and portfolio trackers. You own the software license and infrastructure.\n\n### Adaptability and Future-Proofing\nThe crypto landscape changes rapidly. A custom solution allows you to quickly adapt to new chains, tokens, or regulatory requirements, integrating new APIs or features without waiting for a third-party update.\n\n### Integration Superpower\nSeamlessly connect with your preferred exchanges, on-chain data, off-chain accounting tools, and even personal finance software. Create a unified dashboard for all your crypto activity.\n\n## Real-world applications of custom crypto apps\nCustom crypto applications aren't just for developers; they're powerful tools for:\n\n**Financial analysts**: Building sophisticated portfolio trackers with custom risk metrics, impermanent loss calculators, and tax optimization features.\n\n**Yield farmers**: Creating automated tools that monitor liquidity pool APYs across multiple DeFi protocols, rebalance assets, and track gas fees.\n\n**NFT collectors**: Developing specialized wallets that display NFT collections with specific metadata, rarity filters, and floor price alerts.\n\n**Small businesses**: Implementing custom payment gateways for crypto transactions, with automated invoice generation and stablecoin conversion.\n\n## The Kliv advantage in crypto development\nBuilding secure and functional crypto applications used to require deep blockchain expertise. Kliv's AI-powered platform makes it accessible:\n\n- **Simplified blockchain interaction**: Abstract away complex blockchain APIs with intuitive, AI-guided development.\n- **Security best practices**: AI assistance in implementing robust security measures inherent to crypto applications.\n- **Rapid prototyping**: Quickly iterate on features, test integrations, and deploy your custom solution.\n- **Scalable architecture**: Build applications that can handle growing transaction volumes and user bases.\n\nDon't settle for generic. Define your own crypto experience."
+    },
+    {
+      "title": "Crypto app ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track multiple ERC-20 tokens and their real-time values",
+          "prompt": "Create a multi-token Ethereum wallet that can view balances for any ERC-20 token, display real-time USD value, and show gas fees for transactions.",
+          "title": "Multi-ERC20 Portfolio Tracker"
+        },
+        {
+          "description": "Monitor and display NFT collections with rarity and floor price",
+          "prompt": "Build an NFT portfolio tracker that displays NFTs from various collections on Ethereum and Polygon, shows their rarity rank, and alerts if the floor price for a collection drops below a certain threshold.",
+          "title": "NFT Collection Viewer & Alert"
+        },
+        {
+          "description": "View and manage staked assets across different protocols",
+          "prompt": "Develop a staking dashboard that aggregates staking rewards and principal amounts from Lido, Rocket Pool, and a custom validator node, showing total earned yield.",
+          "title": "Multi-Protocol Staking Dashboard"
+        },
+        {
+          "description": "Custom transaction history with notes and categorization",
+          "prompt": "Design a transaction history viewer for Bitcoin and Litecoin addresses that allows users to add custom tags, notes, and categorize transactions for tax purposes.",
+          "title": "Enhanced Transaction History"
+        },
+        {
+          "description": "Real-time balance alongside profit/loss calculations",
+          "prompt": "Build a crypto balance checker for Solana and Avalanche that not only shows current balances but also calculates unrealized profit/loss based on custom purchase prices entered by the user.",
+          "title": "P/L Crypto Portfolio Tracker"
+        },
+        {
+          "description": "Receive alerts for large inflows/outflows on a specific address",
+          "prompt": "Create a crypto 'whale watcher' tool that monitors a specific set of Ethereum addresses and sends an alert when a transaction exceeding 100 ETH occurs from or to any of those addresses.",
+          "title": "Address Activity Monitor"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your crypto application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add functionality to send and receive cryptocurrencies for supported chains, including address book management.",
+          "title": "Implement Send/Receive Functionality"
+        },
+        {
+          "prompt": "Integrate a real-time price feed from multiple exchanges (e.g., CoinGecko, Binance API) to ensure always-current values.",
+          "title": "Add Real-time Price Integration"
+        },
+        {
+          "prompt": "Build a secure seed phrase/private key encryption and storage module compliant with best practices.",
+          "title": "Implement Secure Key Storage"
+        },
+        {
+          "prompt": "Add support for additional blockchain networks like Polygon, Avalanche, Binance Smart Chain, or Arbitrum.",
+          "title": "Expand Multi-Chain Support"
+        },
+        {
+          "prompt": "Create an automated alert system for price changes, significant transactions, or liquidity pool changes.",
+          "title": "Develop Custom Alert System"
+        },
+        {
+          "prompt": "Incorporate a basic accounting module to track gains/losses for tax reporting purposes.",
+          "title": "Add Basic Tax Reporting Features"
+        },
+        {
+          "prompt": "Design a user-friendly interface for managing multiple wallet addresses under one account.",
+          "title": "Implement Multi-Address Management"
+        },
+        {
+          "prompt": "Integrate DApp browser functionality to interact with decentralized applications directly from your wallet.",
+          "title": "Integrate DApp Browser"
+        },
+        {
+          "prompt": "Add two-factor authentication (2FA) and multi-signature (multi-sig) capabilities for enhanced security.",
+          "title": "Enhance Security with 2FA/Multi-sig"
+        }
+      ]
+    },
+    {
+      "title": "Essential crypto app features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Display real-time balances for multiple cryptocurrencies across various blockchains.",
+          "icon": "💰",
+          "title": "Multi-Currency Balance Display"
+        },
+        {
+          "description": "Track and visualize historical transactions linked to each address for full transparency.",
+          "icon": "📜",
+          "title": "Transaction History Tracking"
+        },
+        {
+          "description": "Connect to various blockchain networks (e.g., Ethereum, Bitcoin, Solana) for comprehensive coverage.",
+          "icon": "⛓️",
+          "title": "Multi-Chain Connectivity"
+        },
+        {
+          "description": "Manage and securely store private keys or connect to hardware wallets.",
+          "icon": "🔑",
+          "title": "Secure Wallet Management"
+        },
+        {
+          "description": "Integrate with external APIs for up-to-date market prices and data.",
+          "icon": "📈",
+          "title": "Real-time Price Integration"
+        },
+        {
+          "description": "Get clear visualizations of your portfolio performance over time.",
+          "icon": "📊",
+          "title": "Portfolio Performance Overview"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform accelerates development significantly. A basic crypto balance checker could be functional in a single day, while a more complex wallet with send/receive and advanced features might take a few days to a week to build and refine.",
+          "question": "How long does it take to build a custom crypto wallet or balance checker?"
+        },
+        {
+          "answer": "You don't need to be a blockchain developer. Kliv's AI assistance and intuitive interface allow you to build sophisticated crypto applications without writing complex code. You define the features, and Kliv helps bring them to life.",
+          "question": "Do I need to be a blockchain or crypto expert to build this kind of application?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various blockchain networks (e.g., Ethereum, Bitcoin, Solana), public APIs from exchanges (e.g., CoinGecko, Binance), and even centralized services if needed. The flexibility is key.",
+          "question": "Can my custom crypto application integrate with specific blockchains or market data APIs?"
+        },
+        {
+          "answer": "Absolutely. Security is paramount in crypto. Your application will be built with best practices in mind, and you retain full control over how private keys and sensitive data are handled, unlike with third-party solutions.",
+          "question": "How secure is a crypto application built using Kliv?"
+        },
+        {
+          "answer": "The cost of building depends on complexity, but it's a one-time investment. Compared to recurring subscription fees for premium crypto services, building your own can be significantly more cost-effective in the long run, especially for custom features.",
+          "question": "What are the cost implications compared to using existing crypto wallet services?"
+        },
+        {
+          "answer": "Yes, you have full ownership and can modify, expand, or update your application at any time. This adaptability is crucial in the rapidly changing crypto space, allowing you to add support for new tokens or features as needed.",
+          "question": "Can I easily update or add new features to my custom crypto app after it's built?"
+        },
+        {
+          "answer": "Your custom application can be designed to run from your own server, a cloud provider, or even locally, depending on your preferences. You maintain complete control over data residency and infrastructure, enhancing privacy.",
+          "question": "Where will my custom crypto wallet or balance checker run, and who controls the data?"
+        },
+        {
+          "answer": "Kliv provides guidance and resources throughout the development process, including AI-powered debugging and optimization suggestions. For advanced needs, our community and support channels are available.",
+          "question": "What kind of support is available if I encounter challenges during development?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate crypto application?",
+      "type": "cta",
+      "content": "Stop conforming to existing crypto tools. Build the precise, secure, and feature-rich application you've always wanted with Kliv."
+    }
+  ],
+  "title": "Custom Crypto Wallet & Balance Checker"
+}

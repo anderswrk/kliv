@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a cloud architecture diagramming tool that allows users to drag and drop AWS, Azure, and GCP icons, connect them, and export diagrams as PNG or SVG.",
+  "description": "Visualize, design, and document your cloud infrastructure with custom diagramming tools built on Kliv.",
+  "hero": {
+    "cta": "Build your diagramming tool",
+    "subtitle": "Design, visualize, and document complex cloud architectures with a custom diagramming tool tailored to your exact needs.",
+    "title": "Build Your Own Cloud Architecture Diagramming Tool"
+  },
+  "metaDescription": "Create powerful, custom cloud architecture diagramming tools with Kliv. Support multiple cloud providers, real-time collaboration, and automated resource importing.",
+  "sections": [
+    {
+      "title": "The Challenge of Cloud Visualization",
+      "type": "text",
+      "content": "In today's complex cloud environments, clear and accurate architecture diagrams are essential for communication, planning, and troubleshooting. However, generic diagramming software often falls short, lacking specific cloud provider icons, automation for importing existing infrastructure, or the ability to deeply integrate with your CI/CD pipelines.\n\nBuilding your own specialized cloud architecture diagramming tool might sound daunting, but with modern AI-powered development platforms like Kliv, it's more accessible than ever. This approach gives you complete control, allowing you to create a solution perfectly aligned with your team's workflow and your organization's specific cloud footprint, moving beyond the 'one-size-fits-all' limitations."
+    },
+    {
+      "title": "Why a Custom Cloud Diagramming Solution?",
+      "type": "markdown",
+      "content": "## Limitations of Off-the-Shelf Tools\n\nMany existing diagramming tools offer broad functionality but can be clunky or insufficient for dedicated cloud architecture work:\n\n- **Generic Icon Sets:** Often lack up-to-date and comprehensive icon sets for specific cloud services (e.g., a specific type of AWS database or Azure compute instance).\n- **Lack of Automation:** Manual diagramming is time-consuming and prone to errors. Few tools offer robust, automated ways to ingest existing infrastructure configurations.\n- **Integration Headaches:** Integrating diagrams into documentation, Git repositories, or CI/CD pipelines can be cumbersome.\n- **Subscription Costs:** Recurring fees can add up, especially for large teams.\n- **Vendor Lock-in and Data Security:** Your architectural blueprints might be stored on third-party servers, posing security or intellectual property concerns.\n\n## The Advantage of Tailored Tools\n\nBuilding a custom cloud architecture diagramming application provides unparalleled benefits for teams and enterprises:\n\n### Precise Iconography and Component Libraries\nCreate and maintain component libraries with the exact icons and metadata for the cloud services you use, ensuring your diagrams are always representative and up-to-date with specific service versions and regional deployments.\n\n### Automation and Synchronization\nImplement direct API integrations with AWS, Azure, GCP, or other providers to automatically generate diagrams from live infrastructure. This ensures accuracy and saves countless hours compared to manual updates.\n\n### Deep Integration into Your Workflow\nDesign the tool to fit seamlessly into your existing GitOps practices, documentation pipelines, and CI/CD processes. Auto-export diagrams to Confluence, Markdown, or image formats directly.\n\n### Enhanced Collaboration Features\nTailor real-time collaboration that matches your team's size and security requirements, including granular permissions and version control for diagrams.\n\n### Cost Efficiency and Ownership\nShift from recurring subscription models to a one-time development investment with full ownership over the software. This can lead to significant long-term savings.\n\n### Security and Compliance\nHost the application within your own secure environment, ensuring your sensitive architecture data never leaves your control, which is critical for regulated industries.\n\n## Real-World Impact\n\nImagine a custom tool that:\n\n- **Generates diagrams** of existing VPCs/VNets with all connected subnets, security groups, and instances by simply providing an account ID.\n- **Visualizes serverless architectures** including Lambda functions, API Gateways, and DynamoDB tables based on your serverless framework configurations.\n- **Supports multi-cloud designs** with unified iconography and consistent presentation across all your cloud providers.\n- **Updates diagrams automatically** when infrastructure changes are detected, flagging discrepancies for review.\n\nWith Kliv, you can rapidly prototype and deploy sophisticated cloud architecture diagramming tools that directly address your pain points, without needing a dedicated development team."
+    },
+    {
+      "title": "Cloud Diagramming Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize existing cloud resource groups and their connections.",
+          "prompt": "Build a tool that imports Azure Resource Group configurations, auto-generates network topology diagrams, and highlights security group rules.",
+          "title": "Azure Resource Visualizer"
+        },
+        {
+          "description": "Design secure network architectures across different AWS regions.",
+          "prompt": "Create an AWS network diagramming tool with drag-and-drop VPCs, subnets, EC2 instances, and security groups, including options to simulate traffic flow.",
+          "title": "AWS Network Designer"
+        },
+        {
+          "description": "Map Google Cloud services and their interdependencies.",
+          "prompt": "Develop a GCP architecture diagrammer that supports Kubernetes Engine clusters, Cloud Functions, and BigQuery, and allows connections to external APIs.",
+          "title": "GCP Service Mapper"
+        },
+        {
+          "description": "Automatically update diagrams from Terraform state files.",
+          "prompt": "Design a diagramming application that can parse Terraform .tfstate files and render the corresponding cloud architecture, updating automatically when the state changes.",
+          "title": "Terraform-to-Diagram Converter"
+        },
+        {
+          "description": "Collaborate on multi-cloud system designs.",
+          "prompt": "Build a multi-cloud diagramming canvas that supports AWS, Azure, and GCP components on the same canvas, with real-time collaboration features and version history.",
+          "title": "Multi-Cloud Design Canvas"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Diagramming Tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add functionality to export diagrams directly to Confluence or as a Markdown image link.",
+          "title": "Confluence/Markdown Export"
+        },
+        {
+          "prompt": "Integrate with a live cloud environment (e.g., AWS API) to auto-import existing infrastructure and generate diagrams.",
+          "title": "Live Cloud Import"
+        },
+        {
+          "prompt": "Implement a 'diff' feature that highlights changes between different versions of a diagram or between a diagram and live infrastructure.",
+          "title": "Diagram Version Diffing"
+        },
+        {
+          "prompt": "Add a cost estimation module that calculates approximate cloud costs based on the resources depicted in the diagram.",
+          "title": "Cost Estimator Integration"
+        },
+        {
+          "prompt": "Allow users to add custom notes, comments, and links to specific components on the diagram.",
+          "title": "Annotational Layers"
+        },
+        {
+          "prompt": "Develop a security analysis feature that identifies potential security vulnerabilities or misconfigurations based on the diagrammed architecture.",
+          "title": "Security Posture Analysis"
+        },
+        {
+          "prompt": "Enable real-time, multi-user collaboration with presence indicators and shared editing capabilities.",
+          "title": "Real-time Collaboration"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities for Your Diagramming Tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Comprehensive, up-to-date libraries for AWS, Azure, GCP, and custom components.",
+          "icon": "🖼️",
+          "title": "Extensible Icon Libraries"
+        },
+        {
+          "description": "Drag-and-drop interface for intuitive diagram creation and modification.",
+          "icon": "🖱️",
+          "title": "Interactive Canvas"
+        },
+        {
+          "description": "Support for multiple output formats like PNG, SVG, JSON, and PDF.",
+          "icon": "💾",
+          "title": "Flexible Export Options"
+        },
+        {
+          "description": "Connect to cloud APIs to automatically import and visualize existing infrastructure.",
+          "icon": "⚙️",
+          "title": "Automated Discovery"
+        },
+        {
+          "description": "Version control and change tracking for diagrams to manage evolving architectures.",
+          "icon": "⏳",
+          "title": "Diagram Versioning"
+        },
+        {
+          "description": "Define custom metadata and properties for each component on the diagram.",
+          "icon": "📝",
+          "title": "Metadata & Properties"
+        }
+      ]
+    },
+    {
+      "title": "Common Questions About Building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic cloud diagramming tool with Kliv can be functional within hours. More complex systems with advanced integrations and features might take several days of focused effort to fully refine.",
+          "question": "How quickly can I build a cloud diagramming tool?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv utilizes AI to translate your natural language descriptions into tangible application components. You define the logic and features, and the platform assists in building them.",
+          "question": "Do I need to be a developer to build this type of tool?"
+        },
+        {
+          "answer": "Yes. Custom tools built with Kliv can connect to any cloud provider API (AWS, Azure, GCP), internal systems, or third-party services that offer API access. This allows for automated diagram generation and real-time data integration.",
+          "question": "Can my custom tool integrate with specific cloud provider APIs?"
+        },
+        {
+          "answer": "Absolutely. You retain full ownership of the application, its codebase, and all generated diagrams. You have complete control over data storage, security, and future modifications.",
+          "question": "Who owns the tool and the data it generates?"
+        },
+        {
+          "answer": "Building a custom tool avoids recurring subscription fees common with commercial diagramming software. Your costs are primarily the initial development effort and optional hosting, which often leads to significant long-term savings, especially for teams.",
+          "question": "How does the cost compare to off-the-shelf diagramming software?"
+        },
+        {
+          "answer": "Yes, custom tools built with Kliv are designed for scalability. You can add new features, support additional cloud providers, or increase user capacity as your team's needs evolve, without being limited by a vendor's roadmap.",
+          "question": "Can I extend or modify the tool after it's initially built?"
+        },
+        {
+          "answer": "Kliv helps you build robust applications, and custom tools allow you to implement security measures tailored to your organization's specific compliance and risk profile. You control data residency and access permissions, potentially making it more secure than using external SaaS platforms.",
+          "question": "Is a custom diagramming tool more secure than using commercial products?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to design your perfect cloud visualization tool?",
+      "type": "cta",
+      "content": "Stop being constrained by generic tools. Create an architecture diagramming solution engineered precisely for your cloud environment and workflow."
+    }
+  ],
+  "title": "Cloud Architecture Diagramming Tools"
+}

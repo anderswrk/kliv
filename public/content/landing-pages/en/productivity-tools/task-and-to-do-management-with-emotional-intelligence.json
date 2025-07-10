@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a task management application that suggests tasks based on my emotional state, helps me prioritize based on current energy levels, and understands my natural work rhythms.",
+  "description": "Build a personalized task manager with emotional intelligence to boost your productivity. Kliv helps you create apps that adapt to you.",
+  "hero": {
+    "cta": "Start Building My Smart Task Manager",
+    "subtitle": "Go beyond static to-do lists. Build a dynamic task management system that understands your emotional state, energy levels, and helps you achieve flow.",
+    "title": "Build Your Own Emotionally Intelligent Task Manager"
+  },
+  "metaDescription": "Create a task management application with emotional intelligence using Kliv. Develop tools that adapt to your personal productivity rhythms and emotional states.",
+  "sections": [
+    {
+      "title": "The Problem with Standard Task Managers",
+      "type": "text",
+      "content": "Traditional task management tools treat every task and every user the same. They focus solely on deadlines and checklists, ignoring the most crucial variable in productivity: the human element. We've all experienced days where our energy is low, our mood is off, or we're simply not in the right headspace for certain tasks.\n\nOff-the-shelf solutions don't account for this. They pressure you to push through, often leading to burnout, procrastination, and inefficient work. What if your task manager could adapt to you, rather than the other way around? What if it understood your emotional context and helped you make the most of your unique peak performance times?"
+    },
+    {
+      "title": "Why Build an Emotionally Intelligent Productivity Tool?",
+      "type": "markdown",
+      "content": "## Beyond the Checklist: The Human-Centric Approach to Productivity\n\nThe market is flooded with generic task managers, but very few truly integrate with the complexities of human performance. Building your own emotionally intelligent task manager allows you to create a tool perfectly aligned with your personal needs or the specific dynamics of your team.\n\n### Adapt to Your Inner World\n\n- **Personalized Recommendations**: Instead of just showing due dates, your tool can suggest tasks you're most likely to excel at given your current mood or energy.\n- **Dynamic Prioritization**: Tasks can be re-prioritized not just by urgency, but by your cognitive and emotional bandwidth.\n- **Prevent Burnout**: Identify patterns of stress or overwork and proactively suggest breaks or lighter tasks.\n\n### The Limitations of Off-the-Shelf Tools\n\nCommercial productivity apps often:\n\n- **Lack deep personalization**: They offer general features, not nuanced insights into personal workflow.\n- **Force a rigid system**: You fit your life into their framework, leading to friction and inefficiency.\n- **Have privacy concerns**: Your personal data, including potentially sensitive emotional states, is stored by a third party.\n- **Are subscription-based**: Recurring costs for a tool that doesn't quite fit your unique needs.\n\n### The Kliv Advantage: Owning Your Productivity Solution\n\nWith Kliv's AI-powered platform, developing a sophisticated, emotionally intelligent task manager is no longer a monumental development project. You gain:\n\n- **Complete Ownership**: Your data stays yours. Your logic, your design, your privacy.\n- **Unmatched Customization**: Build features specifically tailored to track mood, energy, focus, and map them to task types.\n- **Cost Efficiency**: A one-time investment for a tool that continually evolves with you, instead of endless subscriptions.\n- **Rapid Iteration**: Quickly add new features, experiment with different algorithms for mood tracking, or integrate with new external data sources.\n\n### Real-World Productivity Through Self-Awareness\n\nImagine a tool that learns your personal rhythm:\n\n- **For the Creative**: Suggests deep-work tasks during your peak morning focus, and administrative tasks when your creative energy dips in the afternoon.\n- **For the Entrepreneur**: Helps manage multiple projects by identifying which tasks align with your current stress levels, preventing overload.\n- **For the Student**: Optimizes study sessions by suggesting different subjects based on your current cognitive fatigue.\n\nKliv empowers you to create more than just a task list; you can build a personal productivity coach that's always in tune with you."
+    },
+    {
+      "title": "Emotionally Intelligent Task Manager Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Suggests tasks based on user's self-reported mood and energy levels.",
+          "prompt": "Create a task manager that asks for my mood (e.g., 'Energized', 'Focused', 'Tired') and energy level (1-5) and then suggests tasks from my list that best match that state, ranking them by perceived difficulty.",
+          "title": "Mood-Based Task Prioritizer"
+        },
+        {
+          "description": "Helps users plan their week by recognizing productive times.",
+          "prompt": "Build a weekly planner that integrates with my calendar and prompts me to log my focus level after each completed task. Over time, it should identify my 'peak productivity windows' and suggest scheduling demanding tasks during those times.",
+          "title": "Productivity Rhythm Mapper"
+        },
+        {
+          "description": "A daily check-in tool that adjusts task load to prevent burnout.",
+          "prompt": "Develop a daily task manager with a 'stress meter' feature. Users input their perceived stress level, and the app visually highlights tasks that might contribute to higher stress, suggesting breaks or deferrals for extremely stressful days.",
+          "title": "Burnout Prevention Assistant"
+        },
+        {
+          "description": "Gamifies tasks and rewards users for aligning tasks with their internal state.",
+          "prompt": "Design a gamified to-do list where users select tasks based on suggested 'emotional fit.' Completing tasks that align perfectly with their reported emotional state earns bonus points, encouraging self-awareness.",
+          "title": "Emotional Fit Task Scorer"
+        },
+        {
+          "description": "Offers micro-breaks or stretch suggestions based on task type and duration.",
+          "prompt": "Create a task manager that tracks time spent on specific tasks. For cognitively demanding tasks, it should periodically suggest short 'micro-breaks' or mindfulness exercises. For physical tasks, it could suggest stretching.",
+          "title": "Cognitive Load Balancer"
+        },
+        {
+          "description": "Helps identify and manage procrastination based on task and mood correlation.",
+          "prompt": "Build a tool that tracks tasks I frequently postpone. When I go to postpone a task, it prompts me to enter my current mood and then over time, suggests patterns of mood-based procrastination, offering strategies to overcome it (e.g., 'You often delay writing tasks when feeling anxious. Try starting with an outline.').",
+          "title": "Procrastination Pattern Breaker"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Smart Task Manager",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add voice input for mood and energy logging, and allow voice commands for task creation.",
+          "title": "Integrate Voice Recognition"
+        },
+        {
+          "prompt": "Implement a real-time sentiment analysis feature that analyzes my typed journal entries or daily notes to infer mood.",
+          "title": "Sentiment Analysis from Text"
+        },
+        {
+          "prompt": "Connect to my wearable devices (e.g., Apple Watch, Fitbit) to use heart rate variability or sleep data as indirect measures of energy levels.",
+          "title": "Wearable Device Integration"
+        },
+        {
+          "prompt": "Develop a weekly and monthly report that visualizes my productivity patterns, mood trends, and task completion rates over time.",
+          "title": "Generate Performance Reports"
+        },
+        {
+          "prompt": "Add a collaborative feature allowing team members to share their 'availability' based on emotional/energy states for group projects.",
+          "title": "Team Collaboration Features"
+        },
+        {
+          "prompt": "Include a feature that suggests dynamic background music or ambient sounds based on current mood and task type to enhance focus.",
+          "title": "Dynamic Audio Integration"
+        },
+        {
+          "prompt": "Create a 'smart alarm' feature that wakes me up during my lightest sleep stage, according to wearable data, and then suggests a task appropriate for my freshness.",
+          "title": "Smart Wake-Up & Task Suggestion"
+        },
+        {
+          "prompt": "Build a goal-setting module that helps me break down large goals into mood-compatible tasks and tracks progress based on emotional engagement.",
+          "title": "Goal-Oriented Planning"
+        },
+        {
+          "prompt": "Add an integration with popular meditation apps or mindful break timers, triggered by high-stress indicators.",
+          "title": "Mindfulness Integration"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for an Emotionally Intelligent Tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Capture subjective emotional and energy states to inform task recommendations.",
+          "icon": "🧠",
+          "title": "Contextual Input Mechanisms"
+        },
+        {
+          "description": "Utilize AI to match tasks with current emotional and energy levels for optimal flow.",
+          "icon": "✨",
+          "title": "Intelligent Task Matching"
+        },
+        {
+          "description": "Track and visualize personal productivity rhythms and emotional trends over time.",
+          "icon": "📈",
+          "title": "Performance Analytics"
+        },
+        {
+          "description": "Suggest breaks, changes in activity, or mindful exercises to prevent mental fatigue.",
+          "icon": "🧘",
+          "title": "Adaptive Well-being Prompts"
+        },
+        {
+          "description": "Allow seamless data exchange with calendars, project management tools, and health apps.",
+          "icon": "🔗",
+          "title": "Third-Party Integrations"
+        },
+        {
+          "description": "Customize task fields, mood scales, and recommendation algorithms to fit personal needs.",
+          "icon": "⚙️",
+          "title": "Highly Customizable Logic"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building on Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom emotionally intelligent task manager on Kliv can take anywhere from a few hours for a basic prototype to a few days or weeks for a full-featured application, depending on complexity and desired integrations.",
+          "question": "How long does it take to develop an emotionally intelligent task manager?"
+        },
+        {
+          "answer": "You do not need to be a programmer. Kliv's platform is designed for natural language interaction. You describe the features and logic you want, and the AI assists in generating the application. Basic technical understanding can be helpful for advanced customization, but it's not a prerequisite.",
+          "question": "Do I need coding skills to build this type of application?"
+        },
+        {
+          "answer": "Yes. Kliv-built applications are highly flexible. You can integrate with most third-party services that offer an API, including calendar apps (Google Calendar, Outlook), wearable health devices, existing project management tools, and communication platforms.",
+          "question": "Can my custom application integrate with existing tools like calendars or health trackers?"
+        },
+        {
+          "answer": "Your privacy and data ownership are paramount. Kliv helps you generate code and infrastructure that you own. You decide where your data is stored (e.g., your own cloud instance) and how it's handled, giving you full control over sensitive emotional and productivity data.",
+          "question": "How secure and private will my emotional and productivity data be?"
+        },
+        {
+          "answer": "Compared to perpetual software subscriptions, building your own tool on Kliv represents a one-time development investment. Many users find that the long-term cost benefits, combined with having a perfectly tailored solution, far outweigh off-the-shelf options within the first year.",
+          "question": "What are the cost implications compared to subscribing to off-the-shelf productivity apps?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is iterative development. As your needs evolve or you discover new insights about your productivity patterns, you can easily modify, extend, and retrain the AI models within your application to adapt.",
+          "question": "Can I modify or expand the emotional intelligence features after the initial build?"
+        },
+        {
+          "answer": "Scalability is determined by your chosen deployment environment. Kliv helps you generate robust applications that can be deployed on various cloud platforms, allowing you to scale resources up or down based on user load and data volume, from a personal tool to a large team solution.",
+          "question": "Is this type of application scalable for multiple users or complex needs?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Transform Your Productivity?",
+      "type": "cta",
+      "content": "Stop fighting your natural rhythms. Build an intelligent task manager that truly understands you and helps you achieve your best work."
+    }
+  ],
+  "title": "Emotionally Intelligent Task Management Tools"
+}

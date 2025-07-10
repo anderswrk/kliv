@@ -1,0 +1,150 @@
+{
+  "defaultPrompt": "I want to create a tax-loss harvesting application that connects to brokerage accounts, identifies harvestable losses, and helps execute trades while adhering to wash sale rules.",
+  "description": "Develop custom tax-loss harvesting applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Saving Today",
+    "subtitle": "Maximize investment returns by minimizing capital gains taxes with a personalized tax-loss harvesting solution built on Kliv's platform.",
+    "title": "Build your own Tax-Loss Harvesting application"
+  },
+  "metaDescription": "Create powerful tax-loss harvesting tools with Kliv. Automate loss identification, manage wash sales, and optimize portfolio tax efficiency.",
+  "sections": [
+    {
+      "title": "Why build a custom tax-loss harvesting tool?",
+      "type": "text",
+      "content": "In a fluctuating market, tax-loss harvesting is a crucial strategy for investors to reduce their capital gains tax liability, thereby boosting after-tax returns. While some platforms offer generic solutions, a custom-built tool ensures precision, adherence to specific tax rules, and integration with your broader financial ecosystem.\n\nOff-the-shelf tools often come with limitations: they might not support all your brokerage accounts, lack detailed customization for your unique portfolio, or come with hefty subscription fees. Building your own allows for complete control, enhanced security, and a tailor-made approach to maximizing your tax savings."
+    },
+    {
+      "title": "The strategic advantage of tailored solutions",
+      "type": "markdown",
+      "content": "## Limitations of standard platforms\nGeneric tax-loss harvesting software may not account for the nuances of your investment strategy or the specific regulations across all your accounts. They are often:\n\n- **Limited in integrations:** Not all brokerages or asset types may be supported.\n- **Restrictive in customization:** Unable to adapt to complex portfolios or unique investment goals.\n- **Costly over time:** Recurring fees can erode the very savings they aim to generate.\n- **Opaque in methodology:** You might not fully understand how specific decisions are made.\n\n## Benefits of self-designed applications\nBuilding your own tax-loss harvesting application with Kliv empowers you to:\n\n### Maximize tax efficiency\nFine-tune the application to identify opportunities precisely when they align with your overall financial plan, beyond generalized thresholds or rules.\n\n### Comprehensive account integration\nConnect seamlessly to all your brokerage accounts, no matter how many or how diverse, ensuring a holistic view of potential losses.\n\n### Advanced Wash Sale management\nImplement sophisticated algorithms that rigorously track and prevent wash sales across all linked accounts, avoiding costly penalties.\n\n### Enhanced security and privacy\nKeep sensitive financial data within your control, reducing reliance on third-party security protocols and protecting your investment strategies.\n\n### Future-proof flexibility\nEasily update rules, add new features, or adapt to changes in tax law without being dependent on a software vendor's release cycle.\n\n## Real-world impact\n\nCustom tax-loss harvesting tools aren't just for large financial institutions. Individuals and smaller wealth management firms can leverage them too:\n\n**Individual Investors**: An optimized application monitors their personal portfolio daily, flagging opportunities and suggesting trades that align with personal tax brackets.\n\n**Financial Advisors**: Develop tools that assist in managing multiple client portfolios simultaneously, automating the identification and execution of tax-loss trades across various accounts while ensuring compliance.\n\n**Family Offices**: Create highly specialized systems that manage complex portfolios involving trusts, foundations, and varied asset classes, centralizing tax strategy and reporting.\n\n## Kliv's role in empowering you\nKliv transforms the complex process of software development into an intuitive, AI-driven experience:\n\n- **Natural Language Programming**: Describe the functionality needed, and Kliv's AI assists in translating it into a working application.\n- **Rapid Iteration**: Quickly prototype, test, and deploy features, allowing for agile development and immediate feedback implementation.\n- **Scalable Architecture**: Build applications that can grow with the complexity of your portfolio or client base, without performance degradation.\n\nYour most effective tax-loss harvesting tool is one that's designed to your exact specifications. Instead of compromising with generic offerings, leverage Kliv to build a solution that truly understands and serves your investment needs."
+    },
+    {
+      "title": "Application ideas to consider",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automated system for identifying and executing tax-loss harvest trades.",
+          "prompt": "Create an application that monitors all my brokerage accounts, identifies eligible tax losses, suggests pairs of assets for trading, and tracks wash sale periods.",
+          "title": "Automated loss identification"
+        },
+        {
+          "description": "Tool for financial advisors to manage tax-loss harvesting across client portfolios.",
+          "prompt": "Develop a multi-client dashboard where a financial advisor can view aggregated tax-loss opportunities, set client-specific rules, and generate consolidated reports for tax preparation.",
+          "title": "Advisor-facing multi-portfolio management"
+        },
+        {
+          "description": "Real-time alerts for harvesting opportunities based on defined criteria.",
+          "prompt": "Build a notification system that sends real-time alerts via email or SMS when an asset in my portfolio drops below a specified loss threshold and is eligible for harvesting, considering wash sale rules.",
+          "title": "Real-time opportunity alerts"
+        },
+        {
+          "description": "Simulation tool to project tax savings from various harvesting scenarios.",
+          "prompt": "Create a simulation tool that allows users to input potential harvest trades and see the projected capital gains tax savings, factoring in their income bracket and remaining capital gains.",
+          "title": "Tax savings projection simulator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with a popular tax preparation software (e.g., TurboTax API) to directly export tax-loss harvesting reports.",
+          "title": "Tax software integration"
+        },
+        {
+          "prompt": "Add a feature for setting and enforcing custom wash sale rules beyond the standard 30-day period.",
+          "title": "Custom wash sale rules"
+        },
+        {
+          "prompt": "Implement predictive analytics to forecast future capital gains or losses based on market trends and portfolio performance.",
+          "title": "Predictive analytics for capital gains"
+        },
+        {
+          "prompt": "Include a machine learning model to optimize harvesting decisions based on individual investor risk tolerance and long-term financial goals.",
+          "title": "AI-driven optimization"
+        },
+        {
+          "prompt": "Develop a module for tracking and reporting on the overall tax impact of all investment activities throughout the year.",
+          "title": "Holistic tax reporting dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect securely to multiple brokerage and bank accounts to consolidate data.",
+          "icon": "🏦",
+          "title": "Multi-account aggregation"
+        },
+        {
+          "description": "Automatically scan portfolios for assets trading at a loss that are eligible for harvesting.",
+          "icon": "🔍",
+          "title": "Automated loss identification"
+        },
+        {
+          "description": "Strictly enforce wash sale rules to prevent disallowed losses and ensure compliance.",
+          "icon": "⚖️",
+          "title": "Wash sale compliance engine"
+        },
+        {
+          "description": "Enable direct execution of suggested trades with connected brokerage accounts.",
+          "icon": "🔁",
+          "title": "Trade execution capabilities"
+        },
+        {
+          "description": "Generate detailed reports for tax filing, summarizing harvested losses and tax savings.",
+          "icon": "📄",
+          "title": "Comprehensive tax reporting"
+        },
+        {
+          "description": "Provide customizable alerts for optimal harvesting opportunities based on user-defined criteria.",
+          "icon": "🔔",
+          "title": "Personalized alerts"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic tax-loss harvesting tool can take just a few hours with Kliv's AI assistance. More complex systems with extensive integrations and advanced features might take a few days or weeks to perfect.",
+          "question": "How quickly can I develop a tax-loss harvesting application?"
+        },
+        {
+          "answer": "No coding expertise is required. Kliv's platform uses AI to understand your natural language descriptions and build the application's logic and interface. You focus on the financial strategy, and Kliv handles the development.",
+          "question": "Do I need to be a programmer to build a tax-loss harvesting app?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with almost any brokerage platform or financial service that provides an API. Kliv helps you define these integrations, connecting your data sources efficiently.",
+          "question": "Can my application connect to various brokerage accounts?"
+        },
+        {
+          "answer": "You retain full ownership and control over the application, its code, and all your financial data. Kliv provides the tools to build, but you own the output, ensuring maximum privacy and data governance.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Unlike recurring SaaS fees, building with Kliv is typically a one-time development cost, sometimes with minimal hosting expenses depending on your choice. This often results in significant long-term savings compared to subscription-based services.",
+          "question": "What's the cost comparison to subscription-based tax software?"
+        },
+        {
+          "answer": "Absolutely. One of the core advantages of building with Kliv is the flexibility to modify and expand your application as tax laws change, your portfolio evolves, or you identify new opportunities for optimization.",
+          "question": "Can I update my application if tax laws change or my needs evolve?"
+        },
+        {
+          "answer": "Custom-built applications offer superior security because you control the hosting environment and data access protocols, avoiding reliance on third-party security measures and potential vulnerabilities of shared platforms.",
+          "question": "Is a custom tax-loss harvesting application secure?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to optimize your portfolio's tax efficiency?",
+      "type": "cta",
+      "content": "Stop leaving money on the table due to capital gains taxes. Build a bespoke solution that works exactly for your investment strategy."
+    }
+  ],
+  "title": "Tax-Loss Harvesting Applications"
+}

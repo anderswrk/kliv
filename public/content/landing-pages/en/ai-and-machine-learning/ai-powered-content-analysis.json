@@ -1,0 +1,182 @@
+{
+  "defaultPrompt": "I want to create an AI-powered content analysis tool that can semantically understand text, extract key entities, identify sentiment and topics, and summarize documents.",
+  "description": "Develop custom AI-powered content analysis applications and tools with Kliv's intuitive platform.",
+  "hero": {
+    "cta": "Start Analyzing Content",
+    "subtitle": "Uncover insights from vast amounts of text, audio, and video data with custom AI analysis tools built on the Kliv platform.",
+    "title": "Build your own AI-powered Content Analysis Tools"
+  },
+  "metaDescription": "Create powerful AI content analysis tools using Kliv. Extract insights, identify trends, and understand sentiment from unstructured data with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build a custom content analysis tool?",
+      "type": "text",
+      "content": "In today's data-rich environment, understanding content—be it social media comments, customer reviews, legal documents, or news articles—is crucial. Generic content analysis tools often fall short, offering limited customization or forcing you into predefined categories.\n\nWith Kliv, you can build a highly specialized AI tool precisely tailored to your unique content types, industry-specific terminology, and analytical needs. This isn't just about sentiment analysis; it's about semantic understanding, entity extraction, topic modeling, and pattern recognition designed to deliver actionable intelligence relevant to you."
+    },
+    {
+      "title": "The powerful case for custom AI content analysis",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nExisting content analysis software often presents significant challenges:\n\n- **Lack of specificity**: Generic models struggle with industry-specific jargon or nuances.\n- **Limited integration**: Difficulty in connecting with your existing data sources or workflows.\n- **Pricing models**: Per-character or per-document pricing can become prohibitively expensive at scale.\n- **Data privacy concerns**: Reluctance to upload sensitive proprietary data to third-party services.\n- **Black box approach**: Minimal transparency into how insights are derived, making model refinement difficult.\n\n## The advantages of a tailored solution\n\nBuilding your own AI content analysis tool with Kliv transforms these challenges into opportunities:\n\n### Precision and relevance\nTrain your AI models on your own data, using your specific definitions and categories. This leads to significantly higher accuracy and more actionable insights tailored to your business context, whether you're analyzing legal contracts, medical reports, or customer feedback.\n\n### Cost-effectiveness at scale\nOnce built, your custom tool eliminates recurring per-use fees. Process unlimited volumes of data without escalating costs, making it ideal for large archives or high-frequency analysis tasks.\n\n### Full data control and security\nMaintain complete oversight of your data. Your sensitive content remains within your controlled environment, ensuring compliance with privacy regulations and proprietary information protection.\n\n### Seamless integration\nDesign the tool to integrate directly with your existing analytical dashboards, CRM systems, document management platforms, or business intelligence tools, creating automated insights pipelines.\n\n### Adaptability and evolution\nYour business needs evolve, and so can your tool. Easily retrain models, add new analysis capabilities (e.g., voice-to-text, video analysis, custom entity types), or refine existing ones without dependency on software vendors.\n\n## Real-world applications of custom content analysis\n\nCustom AI content analysis is transforming operations across diverse sectors:\n\n**Legal & Compliance**: Automatically review thousands of legal documents for specific clauses, discover relevant evidence, or ensure regulatory compliance by identifying prohibited terms.\n\n**Healthcare**: Analyze patient notes, research papers, or clinical trial data to extract diagnoses, treatments, drug interactions, or identify new medical insights.\n\n**Marketing & PR**: Monitor brand mentions, competitor activities, and public sentiment across social media, news feeds, and reviews to fine-tune strategies in real-time.\n\n**Customer Service**: Automatically categorize support tickets, identify common pain points from chat logs, or summarize call transcripts to improve agent efficiency and customer satisfaction.\n\n**Research & Development**: Accelerate scientific discovery by extracting key findings, methodologies, and relationships from vast corpora of academic literature and patents.\n\n**Financial Services**: Scrutinize financial reports, earnings call transcripts, and market news to identify risk factors, investment opportunities, or compliance breaches.\n\n## The AI-powered development difference\n\nKliv leverages advanced AI to simplify the complex process of building sophisticated applications:\n\n- **Descriptive development**: Outline your requirements in natural language, and let AI generate the foundational components.\n- **Iterative refinement**: Rapidly test, visualize, and refine your analysis models with intelligent feedback.\n- **Pre-built components**: Utilize a library of pre-optimized AI modules for common tasks like NLP, computer vision, and speech-to-text.\n- **Scalable architecture**: Automatically deploy your application on infrastructure that can handle large data volumes and processing demands.\n\nSkip the limitations and costs of off-the-shelf solutions. Build an AI content analysis tool that truly understands your world, processes your data at scale, and delivers the specific, actionable intelligence you need."
+    },
+    {
+      "title": "Content analysis ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Analyze customer reviews to identify product strengths and weaknesses.",
+          "prompt": "Create an AI tool that analyzes product reviews, extracts common themes, identifies positive and negative sentiment towards specific features, and summarizes key insights.",
+          "title": "Customer Review Analyzer"
+        },
+        {
+          "description": "Monitor social media for brand mentions and public sentiment.",
+          "prompt": "Build a social media monitoring application that tracks mentions of my brand, categorizes posts by sentiment (positive, negative, neutral), identifies key influencers, and flags urgent issues.",
+          "title": "Social Listening Dashboard"
+        },
+        {
+          "description": "Extract specific data points from financial documents.",
+          "prompt": "Develop an AI system to parse financial reports (PDFs), extract revenue figures, profit margins, and key financial ratios, and compare them year-over-year.",
+          "title": "Financial Document Extractor"
+        },
+        {
+          "description": "Categorize and route incoming customer service emails.",
+          "prompt": "I need a tool that can read incoming customer service emails, classify them by topic (e.g., billing, technical support, product inquiry), extract customer details, and automatically assign them to the correct department.",
+          "title": "Email Triage & Router"
+        },
+        {
+          "description": "Summarize long articles or research papers efficiently.",
+          "prompt": "Build a content summarization tool that can take a long article or research paper, identify the most important sentences and keywords, and generate a concise summary (5-10 sentences) reflecting the main points.",
+          "title": "Automated Content Summarizer"
+        },
+        {
+          "description": "Audit website content for tone, SEO, and brand compliance.",
+          "prompt": "Create an AI-powered content auditor that scans website pages, assesses the tone of voice for consistency with brand guidelines, identifies SEO opportunities (keywords), and checks for outdated information.",
+          "title": "Web Content Auditor"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your analysis tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user interface for uploading documents and viewing analysis reports.",
+          "title": "Add a document upload UI"
+        },
+        {
+          "prompt": "Integrate with a CRM system to automatically update customer records with analysis insights.",
+          "title": "Integrate with CRM"
+        },
+        {
+          "prompt": "Implement a dashboard to visualize trends in sentiment over time.",
+          "title": "Build a sentiment trend dashboard"
+        },
+        {
+          "prompt": "Add functionality to analyze audio transcripts from call centers.",
+          "title": "Incorporate audio analysis"
+        },
+        {
+          "prompt": "Enable real-time streaming analysis for social media data feeds.",
+          "title": "Add real-time data processing"
+        },
+        {
+          "prompt": "Develop an API so other internal systems can send content for analysis.",
+          "title": "Provide an API endpoint"
+        },
+        {
+          "prompt": "Add custom entity recognition for industry-specific terms (e.g., product names, medical conditions).",
+          "title": "Custom entity recognition"
+        },
+        {
+          "prompt": "Allow users to provide feedback on analysis results to improve the model over time.",
+          "title": "Enable human-in-the-loop feedback"
+        }
+      ]
+    },
+    {
+      "title": "Key analysis capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Extract critical information like names, locations, organizations, and custom entities.",
+          "icon": "📝",
+          "title": "Entity Extraction"
+        },
+        {
+          "description": "Determine the emotional tone of content (positive, negative, neutral, nuanced emotions).",
+          "icon": "😊",
+          "title": "Sentiment Analysis"
+        },
+        {
+          "description": "Group content by overarching subjects and identify latent themes.",
+          "icon": "🧠",
+          "title": "Topic Modeling"
+        },
+        {
+          "description": "Convert spoken language from audio files into searchable text.",
+          "icon": "🎤",
+          "title": "Speech-to-Text"
+        },
+        {
+          "description": "Condense long documents into concise summaries, highlighting key points.",
+          "icon": "📚",
+          "title": "Text Summarization"
+        },
+        {
+          "description": "Understand the meaning and context of words and phrases beyond keywords.",
+          "icon": "💡",
+          "title": "Semantic Understanding"
+        },
+        {
+          "description": "Automatically categorize content into predefined or discovered classes.",
+          "icon": "🗂️",
+          "title": "Content Classification"
+        },
+        {
+          "description": "Recognize and transcribe text from images and video frames.",
+          "icon": "🖼️",
+          "title": "Optical Character Recognition (OCR)"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom AI content analysis tool with Kliv can range from a few hours for a basic model to a few days or weeks for highly complex, multi-modal systems, depending on the data volume and specific requirements.",
+          "question": "How quickly can I build an AI content analysis tool?"
+        },
+        {
+          "answer": "No deep AI or coding expertise is required. Kliv's platform allows you to describe your needs in plain language, and the AI assists in building the underlying models and application logic.",
+          "question": "Do I need to be an AI expert or programmer to use Kliv?"
+        },
+        {
+          "answer": "Absolutely. Kliv-built applications can integrate with virtually any system that has an API, including cloud storage, databases, CRM systems, marketing platforms, and business intelligence tools.",
+          "question": "Can my custom analysis tool integrate with my existing data sources and systems?"
+        },
+        {
+          "answer": "You own all intellectual property generated by the Kliv platform. Your models, data, and the application itself are entirely yours to host, modify, and manage.",
+          "question": "Who owns the AI models and data processed by the tool?"
+        },
+        {
+          "answer": "By building a custom tool, you invest once rather than subscribing indefinitely. For large-scale or long-term content analysis needs, a custom solution typically becomes significantly more cost-effective than recurring SaaS fees.",
+          "question": "What are the cost implications compared to subscribing to off-the-shelf solutions?"
+        },
+        {
+          "answer": "Yes. Custom tools offer unparalleled flexibility. You can continuously refine your models, add new analysis capabilities, or scale your processing power as your business requirements evolve, all without vendor lock-in.",
+          "question": "Can I improve or expand the tool's capabilities after it's initially built?"
+        },
+        {
+          "answer": "Kliv provides tools to help you build secure applications. You control your data's location and access, allowing you to implement your own security protocols and compliance measures, often exceeding what's offered by generic SaaS providers.",
+          "question": "How secure are custom-built AI analysis tools?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unlock insights from your content?",
+      "type": "cta",
+      "content": "Transform raw data into actionable intelligence. Start building your bespoke AI content analysis solution with Kliv today."
+    }
+  ],
+  "title": "AI-Powered Content Analysis"
+}

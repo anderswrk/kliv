@@ -1,0 +1,185 @@
+{
+  "defaultPrompt": "I want to create an image resizing and optimization tool that can handle batch processing, various output formats, and intelligently reduce file size without losing quality.",
+  "description": "Build custom image resizing and optimization applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start optimizing now",
+    "subtitle": "Create custom applications that perfectly resize, compress, and enhance your digital images automatically.",
+    "title": "Bespoke Image Resizing & Optimization Tools"
+  },
+  "metaDescription": "Develop powerful image resizing and optimization tools with Kliv. Automate image workflows, improve website performance, and reduce storage costs with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own image management solution?",
+      "type": "text",
+      "content": "In today's digital landscape, fast-loading, high-quality images are critical for websites, e-commerce, and digital content. Generic online tools often come with limitations: slow processing, limited formats, privacy concerns, and recurring costs.\n\nBuilding your own image resizing and optimization tool with an AI-powered platform like Kliv liberates you from these constraints. You get a tailor-made solution that integrates seamlessly into your workflow, scales with your needs, and permanently solves your image management challenges."
+    },
+    {
+      "title": "The strategic advantage of tailored image processing",
+      "type": "markdown",
+      "content": "## The pitfalls of off-the-shelf image tools\n\nMany businesses rely on third-party websites or desktop applications for image processing. While convenient for occasional use, these often fall short for regular, high-volume needs:\n\n- **Inconsistent quality**: Results vary, making it hard to maintain a brand standard.\n- **Privacy risks**: Uploading sensitive or proprietary images to external servers.\n- **Slow batch processing**: Handling large volumes of images can be incredibly time-consuming.\n- **Rigid features**: Limited options for specific output dimensions, file types, or compression algorithms.\n- **Hidden costs & subscriptions**: Free tiers are often restrictive, and professional versions can be expensive, especially for teams.\n\n## Custom-built: Your competitive edge\n\nLeveraging Kliv to create your own image processing application offers unparalleled benefits:\n\n### Precision and control\nDefine exact dimensions, aspect ratios, file sizes, and compression levels. Your tool will perform exactly how you need it to, ensuring consistency across all your digital assets.\n\n### Unmatched speed and efficiency\nProcess thousands of images simultaneously in the background. Automate repetitive tasks such as watermarking, renaming, or format conversion, freeing up valuable time for your team.\n\n### Enhanced data security\nKeep all your image processing in-house. Your valuable assets never leave your controlled environment, eliminating privacy concerns associated with third-party services.\n\n### Cost-effectiveness\nAfter an initial investment, your custom tool eliminates ongoing subscription fees, leading to significant long-term savings, especially for businesses with high image volumes.\n\n### Seamless integration\nIntegrate your image tool directly with your existing content management systems (CMS), e-commerce platforms, or asset libraries, creating a smooth, uninterrupted workflow.\n\n## Practical applications\n\nCustom image tools are invaluable across various sectors:\n\n- **E-commerce**: Automatically resize product images for different storefront views (thumbnail, zoom, gallery) and optimize them for faster page load times.\n- **Web Development**: Create an automated pipeline for web assets, ensuring all images are correctly sized and compressed for optimal website performance and SEO.\n- **Digital Marketing Agencies**: Rapidly prepare campaign visuals for various social media platforms, email newsletters, and ad creatives, maintaining brand consistency.\n- **Photography Studios**: Batch process client galleries, apply watermarks, or prepare images for print, web, and social sharing from a single interface.\n- **Media & Publishing**: Optimize images for articles, blogs, and digital publications, reducing load times while preserving visual quality.\n\n## The power of AI in development\n\nBefore AI, building such a sophisticated tool required significant coding expertise and development time. Kliv changes this:\n\n- **Declarative development**: Describe your desired functionality, and the AI translates it into code.\n- **Intelligent optimization**: AI can suggest optimal compression settings or image formats based on usage.\n- **Rapid iteration**: Quickly add new features or modify existing ones as your needs evolve.\n- **Automated testing**: Ensure your image processing logic is flawless and error-free.\n\nBy building your own, you invest in a solution that fits like a glove, improves your digital presence, and streamlines a core business function indefinitely."
+    },
+    {
+      "title": "Image optimization ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Optimize images for web performance and SEO",
+          "prompt": "Create an automated image optimization tool for a website that resizes images to specific dimensions (e.g., 1920px wide), converts them to WebP format, and applies intelligent compression to reduce file size while maintaining visual quality.",
+          "title": "Web image optimizer"
+        },
+        {
+          "description": "Prepare product photos for e-commerce platforms",
+          "prompt": "Develop an application that takes large product photographs, generates multiple scaled versions (e.g., 150x150 thumbnail, 800x800 gallery, original size), adds a subtle watermark on the top-right corner, and saves them to a structured folder system.",
+          "title": "E-commerce product image generator"
+        },
+        {
+          "description": "Bulk resize and crop images for social media",
+          "prompt": "Build a batch image processor that takes a folder of images, crops them to specific aspect ratios for different social media platforms (e.g., 1:1 for Instagram, 16:9 for YouTube thumbnail, 4:5 for mobile feed), and saves them with platform-specific filenames.",
+          "title": "Social media image preparer"
+        },
+        {
+          "description": "Automate image conversion for various formats",
+          "prompt": "Design a tool that monitors a specific 'input' folder. Whenever a new image is added (e.g., JPEG, PNG, TIFF), it automatically converts it into a specified output format (e.g., PDF for print, SVG for icons) and places it in an 'output' folder.",
+          "title": "Universal image converter"
+        },
+        {
+          "description": "Clean and optimize screenshot collections",
+          "prompt": "Create an app that can process a folder of screenshots, automatically detect and remove transparent backgrounds, crop out unnecessary borders, and enhance clarity, then optimize them for use in documentation or presentations.",
+          "title": "Screenshot cleaner and optimizer"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your image tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user interface with a drag-and-drop area for easy file uploads and a progress bar",
+          "title": "Create a graphical user interface"
+        },
+        {
+          "prompt": "Implement presets for common output configurations (e.g., 'Web Large', 'E-commerce Thumbnail', 'Social Square')",
+          "title": "Add customizable presets"
+        },
+        {
+          "prompt": "Integrate with cloud storage services like S3 or Google Drive for direct uploads and downloads",
+          "title": "Cloud storage integration"
+        },
+        {
+          "prompt": "Add AI-powered smart cropping that focuses on the main subject of the image",
+          "title": "Implement intelligent cropping"
+        },
+        {
+          "prompt": "Develop an API that allows other applications to programmatically send images for processing",
+          "title": "Build a REST API"
+        },
+        {
+          "prompt": "Include a feature to analyze an image's metadata and display relevant details like camera model, date taken, and dimensions",
+          "title": "Add metadata viewing"
+        },
+        {
+          "prompt": "Allow users to apply customizable text or image watermarks to processed images",
+          "title": "Enable watermarking"
+        },
+        {
+          "prompt": "Add an option for users to preview the optimized image before saving, showing file size reduction",
+          "title": "Live preview of optimization"
+        },
+        {
+          "prompt": "Implement a feature to create image sprites from multiple small images",
+          "title": "Generate image sprites"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of a Custom Image Optimizer",
+      "type": "features",
+      "items": [
+        {
+          "description": "Process multiple images simultaneously, saving significant time.",
+          "icon": "⚡",
+          "title": "Batch Processing"
+        },
+        {
+          "description": "Automatically resize images to exact dimensions or aspect ratios.",
+          "icon": "📏",
+          "title": "Flexible Resizing"
+        },
+        {
+          "description": "Reduce file size without visible quality loss using advanced algorithms.",
+          "icon": "✨",
+          "title": "Smart Compression"
+        },
+        {
+          "description": "Support for a wide range of input and output image file types.",
+          "icon": "🔄",
+          "title": "Format Conversion"
+        },
+        {
+          "description": "Crop images with precision, even with AI-assisted subject detection.",
+          "icon": "✂️",
+          "title": "Custom Cropping"
+        },
+        {
+          "description": "Automate additions like watermarks, text overlays, or color corrections.",
+          "icon": "🖌️",
+          "title": "Automated Enhancements"
+        },
+        {
+          "description": "Define and save common settings for quick, repeatable workflows.",
+          "icon": "⚙️",
+          "title": "Configurable Presets"
+        },
+        {
+          "description": "Integrate directly with your current systems and storage solutions.",
+          "icon": "🔗",
+          "title": "Seamless Integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional image resizing and optimization tool can take anywhere from a few hours for a basic version to a couple of days for a feature-rich application, depending on the complexity and integrations, using Kliv.",
+          "question": "How quickly can I deploy an image optimizer?"
+        },
+        {
+          "answer": "No prior coding skills are necessary. Kliv's platform allows you to describe the desired features of your image tool in natural language, and AI assists in generating the application.",
+          "question": "Do I need to be a developer to build this?"
+        },
+        {
+          "answer": "Yes, many users integrate their custom image tools with content management systems (CMS), e-commerce platforms, cloud storage, or even custom internal applications using standard APIs.",
+          "question": "Can my custom tool integrate with other software?"
+        },
+        {
+          "answer": "When you build with Kliv, you completely own the software and the data processing logic. This means your images are processed within your controlled environment, eliminating reliance on third-party privacy policies.",
+          "question": "Who owns the tool and the processed images?"
+        },
+        {
+          "answer": "Absolutely. Your custom application is fully modifiable. You can add new features, adjust algorithms, or connect to new services as your business requirements evolve, without being locked into a vendor's roadmap.",
+          "question": "Can I modify or expand the tool later?"
+        },
+        {
+          "answer": "Yes, custom-built tools ensure your sensitive images remain within your secure infrastructure. You control access, encryption, and compliance, often exceeding the security guarantees of generic online services.",
+          "question": "Is a custom solution more secure than online alternatives?"
+        },
+        {
+          "answer": "The cost of building your own tool is typically a one-time development investment, with minimal ongoing infrastructure costs. This contrasts with recurring subscription fees for SaaS tools, which can become very costly over time, especially with high usage volumes.",
+          "question": "How does the cost compare to commercial image services?"
+        },
+        {
+          "answer": "You retain full control over your solution. Kliv provides the environment and AI assistance for building, but you are responsible for maintaining and hosting your deployed application, offering maximum flexibility.",
+          "question": "What kind of ongoing maintenance or support is required?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform your image workflows?",
+      "type": "cta",
+      "content": "Stop wasting time on manual image adjustments or restrictive online tools. Create an intelligent, automated image processing solution tailored precisely to your needs."
+    }
+  ],
+  "title": "Image Resizer & Optimizer"
+}

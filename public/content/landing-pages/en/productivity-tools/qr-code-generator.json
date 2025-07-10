@@ -1,0 +1,177 @@
+{
+  "defaultPrompt": "I want to create a custom QR code generator app that can generate dynamic QR codes, track scans, and allow for custom branding.",
+  "description": "Build custom QR code generator applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start generating",
+    "subtitle": "Go beyond basic QR codes. Create dynamic, trackable, and fully branded QR code solutions tailored to your exact needs.",
+    "title": "Build your own custom QR code generator"
+  },
+  "metaDescription": "Create powerful, custom QR code generator tools with Kliv. Support dynamic content, track scans, add branding, and integrate with your existing systems.",
+  "sections": [
+    {
+      "title": "Why settle for generic QR code tools?",
+      "type": "text",
+      "content": "In a world saturated with generic QR code generators, standing out means having control. Off-the-shelf solutions often come with limitations: static codes, lack of branding, no analytics, and recurring subscription costs. If your business relies on QR codes for marketing, events, or product information, a custom-built solution offers unparalleled flexibility and ownership.\n\nKliv's AI-powered platform empowers you to create a QR code generator that perfectly aligns with your brand identity and functional requirements. Forget monthly fees and feature limitations – build exactly what you need, once."
+    },
+    {
+      "title": "The case for custom QR code solutions",
+      "type": "markdown",
+      "content": "## The limitations of public QR generators\n\nWhile free or cheap QR code generators are readily available, they often fall short for businesses and power users:\n\n- **Static vs. Dynamic**: Most free tools create static QR codes. Once printed, the destination URL cannot be changed without reprinting.\n- **Lack of Branding**: You're often stuck with plain black and white codes or limited branding options, diluting your visual identity.\n- **No Analytics**: Critical data like scan counts, location, and device types are usually absent, making it impossible to measure campaign effectiveness.\n- **Security Concerns**: Relying on third-party services means trusting them with your data and the reliability of your codes.\n- **Feature Gaps**: Need bulk generation? Integration with your CRM? Password protection? These are often premium or unavailable features.\n\n## Why building your own makes sense\n\nThanks to advanced AI development platforms like Kliv, creating a sophisticated custom QR code generator is no longer a complex undertaking:\n\n### Full Customization and Brand Control\nDesign QR codes that are an extension of your brand – custom colors, logos embedded, unique patterns. Your codes, your rules.\n\n### Dynamic Content Management\nChange the destination of your QR codes anytime, even after they've been printed. Perfect for evolving campaigns or product updates.\n\n### Comprehensive Analytics\nTrack every scan: when, where, and on what device. Gain invaluable insights into user engagement and campaign performance.\n\n### Data Ownership and Security\nYour data, your servers. Host your solution securely, ensuring privacy and control over sensitive campaign information.\n\n### Cost Efficiency \nMove from recurring subscriptions to a one-time build. Over time, your custom solution offers significant cost savings.\n\n### Scalability and Integration\nSeamlessly integrate your QR code solution with your existing marketing automation, CRM, inventory management, or analytics platforms.\n\n## Real-world applications\n\nCustom QR code generators are transforming how businesses connect with their audience:\n\n**Marketing Campaigns**: Create dynamic QR codes for print ads that can lead to different landing pages based on seasonal promotions.\n\n**Product Information**: Link product packaging QR codes to dynamic portals with real-time stock, user manuals, and warranty registration.\n\n**Event Management**: Generate unique, trackable QR codes for ticket validation, attendee registration, or interactive session content.\n\n**Restaurant Menus**: Offer digital menus via QR codes that can be updated instantly without reprinting.\n\n**Asset Tracking**: Use custom QR codes for internal inventory or asset management, linking directly to database records.\n\n## The Kliv advantage\n\nBuilding sophisticated tools used to demand deep technical expertise and significant time. Kliv simplifies this:\n\n- **Natural Language Input**: Describe your ideal QR code generator in plain English, and the AI helps construct it.\n- **Component-Based Building**: Assemble complex features from pre-built AI-generated components.\n- **Rapid Iteration**: See your application come to life rapidly, allowing for quick adjustments and improvements.\n- **Automated Deployment**: Launch your custom application quickly and efficiently, ready for use.\n\nThe best QR code solution is one that's designed for your specific needs, not generic use. With Kliv, you can build that solution today."
+    },
+    {
+      "title": "QR code generator ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Generate QR codes for physical products with detailed info",
+          "prompt": "Create a QR code generator that creates static QR codes linking to product pages on my e-commerce site, with options to embed product name and SKU directly into the QR code data.",
+          "title": "Basic Product Info QR Codes"
+        },
+        {
+          "description": "Create dynamic QR codes for marketing campaigns that can be updated",
+          "prompt": "Build a dynamic QR code generator that allows me to change the destination URL of a QR code after it's been printed, and track how many times each code is scanned, along with location data.",
+          "title": "Dynamic Marketing Campaign QR Codes"
+        },
+        {
+          "description": "Generate unique QR codes for event tickets and track attendance",
+          "prompt": "Develop an event ticketing system that generates unique QR codes for each ticket, verifies them at entry, and provides analytics on attendee check-ins.",
+          "title": "Event Ticket & Attendance Tracker"
+        },
+        {
+          "description": "Enable restaurants to update menus instantly via QR codes",
+          "prompt": "Design a QR code system for restaurants that links to a digital menu, allowing the restaurant staff to update menu items, prices, and specials in real-time without changing the QR code.",
+          "title": "Dynamic Restaurant Menu System"
+        },
+        {
+          "description": "Generate branded QR codes for business cards or marketing materials",
+          "prompt": "Create a branded QR code generator tool where I can upload my company logo, choose custom colors, and generate QR codes that link to my website, social media, or contact information, with a call to action overlay.",
+          "title": "Branded QR Code Creator"
+        },
+        {
+          "description": "Generate bulk QR codes for asset management and tracking",
+          "prompt": "Build an asset management system that generates unique QR codes for each asset, linking to a database record containing maintenance history, purchase date, and location. Allow for bulk generation and export.",
+          "title": "QR Code Asset Tracking"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your QR code generator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to apply custom colors and upload a logo for embedding in the QR code.",
+          "title": "Custom Branding Options"
+        },
+        {
+          "prompt": "Implement user accounts and dashboards so different users can manage their own QR codes and view their scan analytics.",
+          "title": "User Accounts & Dashboards"
+        },
+        {
+          "prompt": "Integrate with Google Analytics or a custom analytics dashboard to provide deeper insights into QR code scan data, including geographical data and device types.",
+          "title": "Advanced Scan Analytics"
+        },
+        {
+          "prompt": "Add an API so other internal systems can programmatically generate and manage QR codes.",
+          "title": "API for Automation"
+        },
+        {
+          "prompt": "Include an option to generate QR codes that link to Wi-Fi networks, SMS messages, or vCards (contact cards).",
+          "title": "Varied QR Code Types"
+        },
+        {
+          "prompt": "Develop a module for bulk generation of QR codes from a CSV file, with automatic linking to unique URLs or data points.",
+          "title": "Bulk Generation Feature"
+        },
+        {
+          "prompt": "Add functionality for password-protected QR codes or time-limited access to content linked by QR codes.",
+          "title": "Security & Access Control"
+        },
+        {
+          "prompt": "Create a mobile app companion for scanning QR codes and updating linked content on the go.",
+          "title": "Mobile Companion App"
+        }
+      ]
+    },
+    {
+      "title": "Key features for custom QR code tools",
+      "type": "features",
+      "items": [
+        {
+          "description": "Change linked content anytime without reprinting the QR code.",
+          "icon": "🔄",
+          "title": "Dynamic QR Code Generation"
+        },
+        {
+          "description": "Embed your logo, choose custom colors, and design unique patterns.",
+          "icon": "🎨",
+          "title": "Advanced Custom Branding"
+        },
+        {
+          "description": "Monitor scan counts, locations, devices, and user engagement.",
+          "icon": "📈",
+          "title": "Comprehensive Scan Analytics"
+        },
+        {
+          "description": "Generate hundreds or thousands of unique QR codes from a data source.",
+          "icon": " efficiently",
+          "title": "Bulk Code Creation"
+        },
+        {
+          "description": "Connect with your CRM, marketing platforms, or inventory systems.",
+          "icon": "🔗",
+          "title": "Seamless System Integrations"
+        },
+        {
+          "description": "Secure your linked content with passwords or time-based access.",
+          "icon": "🔒",
+          "title": "Content Protection Options"
+        },
+        {
+          "description": "Easily manage and organize all your generated QR codes.",
+          "icon": "🗂️",
+          "title": "Centralized Code Management"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, you can rapidly build a custom QR code generator, often in a matter of hours or days for a fully functional prototype. The complexity of features will determine the final build time.",
+          "question": "How quickly can I build a custom QR code generator?"
+        },
+        {
+          "answer": "No coding experience is required. Kliv uses AI to translate your natural language descriptions into a functional application, allowing you to focus on specifying the features you need.",
+          "question": "Do I need to be a programmer to build this?"
+        },
+        {
+          "answer": "Yes, your custom QR code generator can be designed to integrate with almost any system that offers an API or relevant data export/import capabilities, including CRM, marketing automation, and analytics platforms.",
+          "question": "Can I integrate it with my existing marketing or CRM tools?"
+        },
+        {
+          "answer": "You own 100% of the application and its data. You decide where it's hosted and how it's managed, giving you complete control and mitigating concerns about third-party data policies.",
+          "question": "Who owns the QR codes and scan data generated by my custom tool?"
+        },
+        {
+          "answer": "Building with Kliv is a one-time investment, unlike SaaS solutions that charge recurring fees. Over time, your custom solution will typically prove more cost-effective, especially given the flexibility and ownership it provides.",
+          "question": "How does the cost compare to subscription-based QR code services?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the ability to easily modify, expand, or update your application as your needs evolve, without being locked into a vendor's roadmap.",
+          "question": "Can I add new features or modify existing ones after it's built?"
+        },
+        {
+          "answer": "Custom-built applications often offer superior security, as you control the infrastructure, data handling, and access protocols. You're not relying on a third-party's security practices.",
+          "question": "Is a custom QR code generator more secure than a public one?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unlimit your QR code potential?",
+      "type": "cta",
+      "content": "Stop limiting your creativity with generic tools. Design and build a QR code solution that works exactly the way you envision."
+    }
+  ],
+  "title": "Custom QR Code Generator"
+}

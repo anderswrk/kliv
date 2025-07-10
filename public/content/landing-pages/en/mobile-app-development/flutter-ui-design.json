@@ -1,0 +1,171 @@
+{
+  "defaultPrompt": "I want to create a Flutter UI design tool that lets me visually drag and drop widgets, preview changes in real-time, and generate clean, production-ready Flutter code.",
+  "description": "Rapidly prototype and build beautiful Flutter UIs with custom design applications tailored to your workflow.",
+  "hero": {
+    "cta": "Start Designing",
+    "subtitle": "Visually build, customize, and generate Flutter UI code faster than ever before with your own bespoke design application.",
+    "title": "Build Your Own Flutter UI Design Tools"
+  },
+  "metaDescription": "Create powerful Flutter UI design tools with Kliv. Empower your design and development teams to build stunning, production-ready UIs visually and generate clean Flutter code.",
+  "sections": [
+    {
+      "title": "Why build your own Flutter UI design tool?",
+      "type": "text",
+      "content": "Off-the-shelf UI design tools often come with a steep learning curve, a generic feature set, and monthly subscription fees. They rarely perfectly align with your team's specific workflow or design system. Imagine a tool that lives and breathes your brand guidelines, accelerates your unique development process, and seamlessly integrates with your existing tech stack.\n\nWith Kliv, this isn't just a dream. Leverage AI to craft bespoke Flutter UI design applications that give you complete control. From real-time visual editing to custom component libraries and automated code generation, you can create a tool that is perfectly optimized for your designers and developers, leading to faster iterations and higher quality applications."
+    },
+    {
+      "title": "The case for a custom Flutter UI design solution",
+      "type": "markdown",
+      "content": "## The limitations of generic UI frameworks\n\nWhile existing design tools are powerful, they often come with compromises:\n\n*   **One-size-fits-all approach**: They try to serve everyone, often lacking niche features vital to your specific needs.\n*   **Vendor lock-in**: Migrating designs or code to a different platform can be painful.\n*   **Subscription fatigue**: Recurring costs add up, especially for larger teams.\n*   **Integration headaches**: Getting them to play nicely with your internal systems or custom component libraries can be a struggle.\n*   **Design system mismatch**: Adapting generic tools to enforce your very specific brand guidelines and component behaviors can be cumbersome.\n\n## The power of tailor-made design tools\n\nBuilding your own Flutter UI design application with Kliv empowers you to:\n\n### Enforce your design system effortlessly\nEmbed your precise color palettes, typography rules, spacing conventions, and custom widgets directly into the tool. Designers can only use approved elements, ensuring brand consistency and reducing design debt.\n\n### Accelerate developer handoff\nGenerate clean, production-ready Dart code that perfectly matches your team's coding standards. No more manual translation or rectifying design-to-code inconsistencies.\n\n### Streamline iteration cycles\nVisual editing combined with instant code generation allows designers and developers to rapidly prototype, test, and iterate on UI concepts without extensive back-and-forth.\n\n### Perfect integration\nConnect directly to your version control systems (like Git), component libraries, and even backend APIs for dynamic data previews. Your design tool becomes part of your unified development ecosystem.\n\n### Cost-efficiency in the long run\nInvest in a solution once that precisely meets your needs, avoiding perpetual subscription fees for features you may not even use.\n\n## Real-world impact\n\nImagine a custom Flutter UI tool transforming your development:\n\n*   **Fintech**: Rapidly designing and deploying new features for a banking app, pre-populating forms with mock transaction data for realistic previews.\n*   **Healthcare**: Building accessible patient portals that adhere to strict compliance guidelines, with pre-validated UI components.\n*   **E-commerce**: A tool that pulls product data directly from your PIM, allowing designers to visually build product pages that instantly reflect real inventory and pricing.\n*   **Enterprise SaaS**: Empowering non-technical product managers to configure and preview new dashboard layouts for specific client needs.\n\n## The Kliv advantage\n\nKliv's AI-powered platform makes custom software development accessible:\n\n*   **Natural Language interface**: Describe the features and behaviors you want, and watch Kliv help build them.\n*   **Visual builders**: Drag-and-drop interfaces for creating the UI of your Flutter design tool itself.\n*   **Code generation**: Automatically produce robust, clean Dart code for your bespoke application.\n*   **Scalable infrastructure**: Your custom tool is built on a solid foundation, ready to grow with your team's demands.\n\nBuilding a custom Flutter UI design tool isn't just about efficiency; it's about owning your design process, ensuring consistency, and fostering innovation."
+    },
+    {
+      "title": "Custom Flutter UI design tool ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a visual editor with live preview for custom Flutter widgets.",
+          "prompt": "Build a Flutter UI design tool with a canvas for dragging and dropping custom Flutter widgets, a properties panel to edit their attributes, and an instant live preview on a simulated mobile device. The tool should then generate the corresponding Dart code for the designed UI.",
+          "title": "Custom Widget Editor"
+        },
+        {
+          "description": "Build a tool that enforces brand guidelines and generates theme data.",
+          "prompt": "Design a Flutter UI tool that allows selection of predefined color palettes, typography styles, and spacing units from a custom design system. It should then generate Flutter ThemeData objects and a style guide document based on the selections.",
+          "title": "Design System Enforcer"
+        },
+        {
+          "description": "Create a form builder that outputs robust Flutter form code.",
+          "prompt": "Develop a Flutter form builder where users can drag and drop input fields (text, number, date picker, dropdowns), define validation rules for each, and then generate fully functional Flutter form code including state management and validation logic.",
+          "title": "Interactive Form Builder"
+        },
+        {
+          "description": "Generate dynamic data-driven lists and grids visually.",
+          "prompt": "Build a Flutter UI design tool specifically for creating dynamic lists and grids. Users should be able to define data models, map data fields to UI elements in a template, and preview the list with mock data before generating the Flutter ListView or GridView code.",
+          "title": "Dynamic List/Grid Generator"
+        },
+        {
+          "description": "Accelerate responsive UI development for different screen sizes.",
+          "prompt": "Create a Flutter responsive UI layout tool that allows designers to define different layouts for phone, tablet, and web. It should offer pre-built responsive widgets and show real-time previews across various screen sizes, generating adaptive layout code.",
+          "title": "Responsive Layout Builder"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your Flutter UI tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to import existing Flutter widgets from a local project or a public package as custom building blocks.",
+          "title": "Custom Widget Import"
+        },
+        {
+          "prompt": "Implement version control integration, allowing users to save and load UI designs from Git repositories.",
+          "title": "Git Integration"
+        },
+        {
+          "prompt": "Add collaborative features, enabling multiple users to work on the same UI design simultaneously with real-time syncing.",
+          "title": "Collaborative Editing"
+        },
+        {
+          "prompt": "Integrate an AI code optimizer that suggests performance improvements for the generated Flutter UI code.",
+          "title": "AI Code Optimization"
+        },
+        {
+          "prompt": "Develop a plugin architecture so users can extend the tool's functionality with custom modules for specific design tasks.",
+          "title": "Plugin Support"
+        },
+        {
+          "prompt": "Add accessibility auditing to the live preview, highlighting potential issues with color contrast, text size, and semantic structure.",
+          "title": "Accessibility Checker"
+        },
+        {
+          "prompt": "Include an asset manager for images, icons, and fonts, allowing easy drag-and-drop into the UI and automatic asset bundling in the generated code.",
+          "title": "Integrated Asset Manager"
+        },
+        {
+          "prompt": "Implement a feature to export the UI design directly into a fully runnable Flutter project, complete with pubspec.yaml and main.dart.",
+          "title": "Full Project Export"
+        }
+      ]
+    },
+    {
+      "title": "Core features of custom Flutter UI tools",
+      "type": "features",
+      "items": [
+        {
+          "description": "Visually drag, drop, and resize Flutter widgets on a canvas.",
+          "icon": "🎨",
+          "title": "Visual Canvas Editor"
+        },
+        {
+          "description": "Instantly see how your UI changes as you design, on various device emulators.",
+          "icon": "📱",
+          "title": "Real-time Live Preview"
+        },
+        {
+          "description": "Generate clean, idiomatic Dart code directly from your visual designs.",
+          "icon": "✍️",
+          "title": "Automated Code Generation"
+        },
+        {
+          "description": "Pre-configure and enforce your company's specific design guidelines and component library.",
+          "icon": "📐",
+          "title": "Custom Design System Integration"
+        },
+        {
+          "description": "Edit widget properties, styles, and behaviors through intuitive control panels.",
+          "icon": "⚙️",
+          "title": "Intuitive Property Editors"
+        },
+        {
+          "description": "Manage and integrate external assets, images, and fonts seamlessly into your designs.",
+          "icon": "🖼️",
+          "title": "Asset Management"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom Flutter UI design tool with Kliv significantly reduces development time. A basic, functional prototype can be ready in days, while more complex tools with advanced features might take weeks, far less than traditional development cycles.",
+          "question": "How long does it take to build a custom Flutter UI design tool?"
+        },
+        {
+          "answer": "You don't need to be a Flutter expert or a seasoned developer. Kliv's platform is designed for users with varying technical backgrounds. You describe your desired features and UI, and the AI assists in generating the application code. A basic understanding of design principles and Flutter concepts can be helpful but not mandatory.",
+          "question": "Do I need to be a Flutter developer to build one of these tools?"
+        },
+        {
+          "answer": "Absolutely. Your custom tool can be designed to import and export code, integrate with Git for version control, and connect to your existing component libraries or design tokens. Kliv focuses on creating tools that fit into your established development ecosystem.",
+          "question": "Can my custom Flutter UI tool integrate with our existing development workflow?"
+        },
+        {
+          "answer": "All code, UI, and design assets generated or used within your custom tool are entirely yours. You own the intellectual property. Kliv provides the platform to build it, but the output belongs to you.",
+          "question": "Who owns the generated code and the custom design tool itself?"
+        },
+        {
+          "answer": "Building a custom tool typically involves a one-time development cost, largely based on the complexity of features you require. This often proves more cost-effective in the long run than continuous subscriptions to generic tools that may not perfectly meet your needs, especially for larger teams or prolonged use.",
+          "question": "How does the cost compare to subscribing to commercial UI design software?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. As your design system evolves or new Flutter features emerge, you can easily modify, extend, or update your custom tool to incorporate these changes. Kliv's platform makes ongoing adjustments straightforward.",
+          "question": "Can I modify or expand the tool's features after it's initially built?"
+        },
+        {
+          "answer": "By building your own tool, you have complete control over data handling and security protocols. You decide where data is stored and how it's accessed, which can often lead to a more secure environment tailored to your specific compliance needs compared to multi-tenant SaaS solutions.",
+          "question": "Is a custom-built Flutter UI tool secure for proprietary designs?"
+        },
+        {
+          "answer": "Kliv offers comprehensive support through its AI guidance, documentation, and community resources. Since you own the code and the tool, you're also free to engage any Flutter development resources you choose for further customization or maintenance, giving you ultimate control.",
+          "question": "What kind of support is available if I get stuck or need help?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your Flutter UI design process?",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Build the precise Flutter UI design application your team deserves, and accelerate your path to stunning mobile experiences."
+    }
+  ],
+  "title": "Custom Flutter UI Design Tools"
+}

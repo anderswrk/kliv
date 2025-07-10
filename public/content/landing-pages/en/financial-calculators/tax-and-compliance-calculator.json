@@ -1,0 +1,162 @@
+{
+  "defaultPrompt": "I want to create a tax and compliance calculator that accurately estimates income tax for different jurisdictions, includes deductions, and suggests forms needed for filing.",
+  "description": "Build custom tax and compliance calculators with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start calculating",
+    "subtitle": "Develop precise, region-specific tax and compliance calculators that keep you, or your clients, ahead of regulatory changes.",
+    "title": "Build your own tax & compliance calculators"
+  },
+  "metaDescription": "Create powerful, accurate tax and compliance calculators with Kliv. Tailor solutions to specific tax laws, integrate data, and ensure regulatory adherence effortlessly.",
+  "sections": [
+    {
+      "title": "The challenge of staying compliant",
+      "type": "text",
+      "content": "In a world of constantly evolving tax laws and regulatory frameworks, off-the-shelf calculators often fall short. They might not cover niche deductions, specific regional taxes, or integrate with your preferred financial data sources. This leads to manual adjustments, potential errors, and a constant scramble to update your tools.\n\nThe real power comes from owning a calculator that adapts to *your* unique financial situation or client needs. With platforms like Kliv, building such a sophisticated tool is now within your reach, regardless of your coding background."
+    },
+    {
+      "title": "Why custom calculators are a strategic asset",
+      "type": "markdown",
+      "content": "## Limitations of generic tax tools\n\nExisting tax and compliance software often presents significant drawbacks:\n\n- **Lack of Customization**: Generic tools rarely account for unique business structures, specific deductions, or complex investment types.\n- **Outdated Data**: Relying on third-party updates means you're always a step behind the latest regulatory changes.\n- **Data Privacy Concerns**: Sending sensitive financial data to external platforms can pose security risks.\n- **Integration Headaches**: Difficulty connecting with your existing accounting software or internal data systems.\n- **Subscription Costs**: Perpetual fees that don't scale efficiently with your needs.\n\n## The strategic advantage of building your own\n\nModern AI development tools empower you to create calculators that are perfectly aligned with your requirements, offering distinct benefits:\n\n### Hyper-accurate and adaptable\nLeverage an application that can be instantly updated for new tax laws, local regulations, or specific industry compliance rules. You control the logic, ensuring unparalleled accuracy.\n\n### Enhanced data security\nKeep all sensitive financial data within your own secure environment. You decide where data lives and how it's processed, eliminating reliance on third-party security protocols.\n\n### Seamless integration\nDesign your calculator to connect directly with your existing financial databases, CRM, or accounting software, creating a unified data flow for precise calculations.\n\n### Cost-efficiency at scale\nAvoid recurring subscription fees. A custom-built calculator is a one-time investment that serves your needs indefinitely, offering significant long-term savings.\n\n### Competitive differentiation\nFor service providers, offering a truly unique, highly accurate, and tailored calculation service can be a major differentiator in the market.\n\n### Real-world impact\n\nCustom tax and compliance calculators are transforming how businesses and individuals manage their financial obligations:\n\n**Small Business Owners**: A calculator that dynamically estimates quarterly estimated taxes based on real-time revenue and expenses, factoring in state and local specific deductions.\n\n**Financial Advisors**: A personalized tool to project retirement savings and potential tax burdens under various investment strategies, including capital gains and RMDs.\n\n**HR Professionals**: A system to calculate complex payroll taxes, including FICA, unemployment, and special local levies, ensuring compliance for a diverse workforce.\n\n**E-commerce Businesses**: An automated sales tax calculator that applies correct rates based on customer location and product categories across multiple states.\n\n## AI: Your financial engineering partner\n\nThe complexity of building sophisticated financial tools used to be a barrier. Kliv's AI-powered platform breaks down those barriers:\n\n- **Natural language prompts**: Describe the tax rules and calculations you need in plain English.\n- **Logic generation**: AI translates your requirements into robust calculation logic and data structures.\n- **Rapid prototyping**: See a working version of your calculator quickly, allowing for iterative refinement.\n- **Error detection**: AI assists in identifying potential mathematical or logical inconsistencies.\n\n## Take control of your financial clarity\n\nDon't settle for generic solutions. With Kliv, you can build a precise, reliable, and perfectly tailored tax and compliance calculator that provides clarity and confidence for your financial decisions."
+    },
+    {
+      "title": "Calculator ideas to build with Kliv",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Estimate federal and state income tax based on income, filing status, and common deductions.",
+          "prompt": "Create an income tax calculator that adjusts for different filing statuses (single, joint, head of household), standard/itemized deductions, and calculates federal and state liabilities for the current tax year.",
+          "title": "Personal Income Tax Estimator"
+        },
+        {
+          "description": "Calculate payroll taxes for employees, considering federal, state, and local deductions.",
+          "prompt": "Build a payroll tax calculator that determines employer and employee portions of FICA, federal withholding, state unemployment taxes, and applies relevant local taxes for different employee wage levels.",
+          "title": "Payroll Tax Compliance Tool"
+        },
+        {
+          "description": "Determine sales tax liability across various jurisdictions for e-commerce businesses.",
+          "prompt": "Develop a sales tax calculator that identifies nexus, applies correct sales tax rates based on customer shipping address and product category, and supports tax holidays for multiple states.",
+          "title": "Multi-Jurisdiction Sales Tax"
+        },
+        {
+          "description": "Project capital gains tax on investments for different holding periods.",
+          "prompt": "Design a capital gains tax calculator that distinguishes between short-term and long-term gains, factors in income brackets, and applies relevant state capital gains taxes.",
+          "title": "Investment Capital Gains Estimator"
+        },
+        {
+          "description": "Calculate required minimum distributions from retirement accounts for a given age.",
+          "prompt": "Create an RMD calculator that determines the required minimum distribution amount from various retirement accounts (401k, IRA) based on account balance and the account holder's age.",
+          "title": "Retirement RMD Calculator"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your calculator's capabilities",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to automatically import financial data from CSV files for calculation.",
+          "title": "CSV Import for Data Entry"
+        },
+        {
+          "prompt": "Integrate with a live API for the latest tax rate updates.",
+          "title": "Real-time Tax Rate API Integration"
+        },
+        {
+          "prompt": "Include detailed reports and printable summaries of calculations.",
+          "title": "Generate PDF Reports"
+        },
+        {
+          "prompt": "Implement user authentication and profile management for recurring users.",
+          "title": "User Account Management"
+        },
+        {
+          "prompt": "Add scenarios for 'what-if' analysis, like the impact of a new deduction or income change.",
+          "title": "What-If Scenario Analysis"
+        },
+        {
+          "prompt": "Build a module for estimated quarterly tax payments with due date reminders.",
+          "title": "Quarterly Estimated Tax Planner"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Tax & Compliance Calculators",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define and manage intricate tax rules, deductions, and credits.",
+          "icon": "⚖️",
+          "title": "Configurable Tax Logic"
+        },
+        {
+          "description": "Support calculations for federal, state, local, and international tax variations.",
+          "icon": "🌎",
+          "title": "Jurisdictional Flexibility"
+        },
+        {
+          "description": "Securely input and manage sensitive financial figures.",
+          "icon": "🔐",
+          "title": "Secure Data Input"
+        },
+        {
+          "description": "Connect with existing financial systems for automated data flow.",
+          "icon": "🔗",
+          "title": "Seamless Integrations"
+        },
+        {
+          "description": "Generate clear summaries, forms, or compliant reports.",
+          "icon": "📄",
+          "title": "Audit-Ready Reporting"
+        },
+        {
+          "description": "Ensure your calculator stays current with the latest regulatory changes.",
+          "icon": "📅",
+          "title": "Updatable Parameters"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a foundational tax calculator with Kliv can take hours to a few days. The complexity and number of tax rules will influence the total time, but the iterative process means you'll see a working version very quickly.",
+          "question": "How quickly can I build a functional tax calculator?"
+        },
+        {
+          "answer": "Absolutely not. Kliv is designed for rapid development using natural language. You describe the tax rules, calculations, and inputs, and the AI translates that into a functional application. Financial expertise is more important than coding skills.",
+          "question": "Do I need programming skills to create these calculators?"
+        },
+        {
+          "answer": "Yes. Kliv-built applications can connect to various external data sources via APIs, including accounting software, bank feeds, historical tax rate databases, or CRM systems, allowing for automated data input.",
+          "question": "Can the calculator integrate with my existing financial data?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its codebase, and all the data processed through it. Kliv provides the platform to build it, but the resulting tool is entirely yours.",
+          "question": "Who owns the calculator and the data it processes?"
+        },
+        {
+          "answer": "Self-built calculators eliminate recurring subscription fees common with commercial tax software. While there's an initial development effort, the long-term cost savings, coupled with perfect fit, typically make it a more economical choice.",
+          "question": "Is building my own calculator more cost-effective than buying off-the-shelf software?"
+        },
+        {
+          "answer": "Yes, entirely. As tax laws change (which they frequently do), you can easily update the logic and parameters within your Kliv-built calculator, ensuring it remains accurate and compliant without waiting for vendor updates.",
+          "question": "How do I update the calculator when tax laws change?"
+        },
+        {
+          "answer": "You control the deployment environment. This means you can implement stringent security protocols, choose your hosting, and manage data encryption, often resulting in a more secure setup than relying on a third-party SaaS provider's security measures.",
+          "question": "What about the security of sensitive financial data?"
+        },
+        {
+          "answer": "Kliv offers AI-guided assistance throughout the build process, including debugging and optimization suggestions. For specific financial or tax advice, you should consult a qualified professional, but for the tool's development, AI support is readily available."
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain financial clarity?",
+      "type": "cta",
+      "content": "Stop wrestling with generic tax tools. Build a calculator that works exactly how you need it to, with precision and control."
+    }
+  ],
+  "title": "Tax & Compliance Calculators"
+}

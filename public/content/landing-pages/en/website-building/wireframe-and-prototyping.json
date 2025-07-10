@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a web-based wireframing and prototyping tool that allows users to drag-and-drop UI elements, link screens, and share interactive prototypes with team members for feedback.",
+  "description": "Build custom wireframing and prototyping applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Designing",
+    "subtitle": "Create bespoke wireframing and prototyping applications tailored to your design workflow, built on Kliv's powerful no-code platform.",
+    "title": "Design Your Own Wireframe & Prototype Tool"
+  },
+  "metaDescription": "Develop powerful wireframing and prototyping tools with Kliv. Streamline design workflows, get faster feedback, and iterate quickly with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own design tool?",
+      "type": "text",
+      "content": "Off-the-shelf wireframing and prototyping tools often come with bloated features, restrictive pricing, or a design philosophy that doesn't quite match your team's unique process. What if you could build a tool that does exactly what you need, nothing more, nothing less? With AI-powered development platforms like Kliv, creating a custom design application is no longer a privilege reserved for large software companies."
+    },
+    {
+      "title": "The case for custom wireframing & prototyping tools",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\n\nMany design teams rely on generic tools that, while powerful, might not integrate seamlessly with their broader ecosystem or specific methodologies. These platforms often lead to:\n\n- **Feature bloat:** Paying for capabilities you never use.\n- **Vendor lock-in:** Dependence on a single provider's roadmap and pricing.\n- **Integration hurdles:** Difficulty connecting with proprietary project management, version control, or user testing tools.\n- **Learning curves:** Forcing your team to adapt to another tool's quirks.\n\n## Why tailored solutions are superior\n\nThe ability to craft specific tools to specific needs is revolutionizing how businesses operate. Here's why building your own wireframe/prototype application makes sense:\n\n### Perfect fit for your workflow\nEvery design team has its unique rhythm. A custom tool can be designed to mirror your exact design-to-development pipeline, incorporating your specific UI component libraries, naming conventions, and feedback loops.\n\n### Cost efficiency in the long run\nSubscription fees for design software can add up, especially for larger teams. A custom solution built with Kliv represents a one-time development investment, potentially leading to significant savings over time.\n\n### Enhanced control and data privacy\nKeep your design assets and project data exactly where you want them. No more concerns about third-party data storage or privacy policies. You own the application, you control the security.\n\n### Scalability and adaptability\nAs your team grows or your design process evolves, your custom tool can evolve with it. Easily add new features, support new frameworks, or integrate with emerging technologies without waiting for a vendor update.\n\n## Practical applications\n\nCustom design tools can empower various scenarios:\n\n**Agencies**: A branded client portal that allows clients to view, comment on, and approve interactive prototypes directly.\n\n**Product Teams**: A prototyping tool linked directly to your component library and project management system, ensuring design-to-dev handoff is seamless and consistent.\n\n**Startups**: A fast, lightweight wireframing tool focused solely on MVP iteration, stripping away unnecessary complexity.\n\n**Educational Institutions**: A simplified design tool for students, tailored to teaching specific UI/UX principles without overwhelming features.\n\n## The AI development advantage\n\nGone are the days when custom software meant lengthy development cycles. AI-powered platforms like Kliv accelerate this process:\n\n- **Natural Language Interaction**: Describe your desired features in plain English.\n- **Rapid Iteration**: Build, test, and refine your design tool in hours or days, not weeks.\n- **Intelligent Component Generation**: AI assists in creating and managing UI components.\n- **Automated Testing**: Ensure your tool is robust and performs reliably.\n\n## Getting started\n\nFocus your energy on designing, not on adapting to software limitations. Building your own wireframing and prototyping tool allows you to create an environment that truly supports your creative process. With Kliv's AI-powered platform, you can begin building your ideal design companion today, no coding expertise required."
+    },
+    {
+      "title": "Wireframing & Prototyping ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A simplified tool for quick UI mockups.",
+          "prompt": "Create a basic browser-based wireframing tool that lets users drag and drop rectangles, text boxes, and buttons onto a canvas. Users should be able to save their wireframes.",
+          "title": "Basic Wireframe Sketcher"
+        },
+        {
+          "description": "Build interactive user flows for testing.",
+          "prompt": "Develop a prototyping tool where users can create multiple screens, link elements (like buttons) to navigate between screens, and test the flow as a clickable prototype.",
+          "title": "Interactive Flow Prototyper"
+        },
+        {
+          "description": "Collaborate on design ideas in real-time.",
+          "prompt": "Design a collaborative wireframing application where multiple users can edit the same wireframe simultaneously, see each other's changes in real-time, and leave comments on specific elements.",
+          "title": "Real-time Collaboration Canvas"
+        },
+        {
+          "description": "Centralize and reuse common design patterns.",
+          "prompt": "Build a tool that includes a customizable library of reusable UI components (e.g., navigation bars, cards, forms) that users can drag onto their designs. Users should be able to add their own custom components to the library.",
+          "title": "Component Library Builder"
+        },
+        {
+          "description": "Get feedback directly on designs.",
+          "prompt": "Create a prototyping platform where users can share their interactive prototypes via a unique link, and reviewers can click on elements to add specific textual or voice comments, visible to the designer.",
+          "title": "Annotated Feedback System"
+        },
+        {
+          "description": "Generate dynamic, data-driven mockups.",
+          "prompt": "Develop a wireframing tool that allows users to connect UI elements to a sample dataset, displaying realistic content in their mockups (e.g., dynamically populate a list with product names).",
+          "title": "Data-Driven Mockup Generator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your design tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now add version control for wireframes, allowing users to revert to previous design states or see a history of changes.",
+          "title": "Add Version History"
+        },
+        {
+          "prompt": "Incorporate a sitemap generator that automatically creates a visual sitemap based on the linked screens in a prototype.",
+          "title": "Integrate Sitemap Generation"
+        },
+        {
+          "prompt": "Add the ability to export wireframes as high-fidelity images (PNG, SVG) and interactive prototypes as shareable web links.",
+          "title": "Enable Export Options"
+        },
+        {
+          "prompt": "Implement user authentication with roles, so administrators can manage users, and users can manage their own projects.",
+          "title": "Implement User Management"
+        },
+        {
+          "prompt": "Add functionality for users to define and apply global styling (colors, fonts, spacing) across their prototypes, and toggle between light and dark modes.",
+          "title": "Include Global Styling Controls"
+        },
+        {
+          "prompt": "Integrate an AI assistant that can suggest UI elements or design patterns based on a user's textual description of their desired page section.",
+          "title": "Add AI Design Assistant"
+        },
+        {
+          "prompt": "Allow users to upload existing images or assets and incorporate them into their wireframes and prototypes.",
+          "title": "Enable Asset Upload"
+        },
+        {
+          "prompt": "Add a commenting system that allows users to leave comments directly on specific wireframe elements or prototype screens, with resolution tracking.",
+          "title": "Develop Advanced Commenting"
+        }
+      ]
+    },
+    {
+      "title": "Essential design tool features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Intuitive drag-and-drop interface for rapid design.",
+          "icon": "👆",
+          "title": "Canvas & Drag-and-Drop"
+        },
+        {
+          "description": "Create multiple screens and link them to simulate user flows.",
+          "icon": "🔗",
+          "title": "Screen Linking & Navigation"
+        },
+        {
+          "description": "Essential shapes, text, and interactive elements for building UIs.",
+          "icon": "✏️",
+          "title": "UI Element Library"
+        },
+        {
+          "description": "Share interactive prototypes with stakeholders for direct feedback.",
+          "icon": "💬",
+          "title": "Interactive Previews & Feedback"
+        },
+        {
+          "description": "Save, organize, and manage multiple design projects.",
+          "icon": "🗂️",
+          "title": "Project Management"
+        },
+        {
+          "description": "Allow multiple users to work on the same design in real-time.",
+          "icon": "👥",
+          "title": "Real-time Collaboration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom wireframing or prototyping tool with Kliv can take anywhere from a few hours for a basic version to a few days for a comprehensive, collaborative platform, depending on the complexity of your requirements.",
+          "question": "How long does it take to build a custom design tool?"
+        },
+        {
+          "answer": "No, you do not need to be a programmer. Kliv's AI-powered platform allows you to describe your desired features and functionalities in plain English. The AI handles the underlying code generation.",
+          "question": "Do I need coding skills to build my own prototyping tool?"
+        },
+        {
+          "answer": "Yes. Custom tools built with Kliv can be designed to export designs in various formats (e.g., PNG, SVG, JSON for component data) and integrate with external APIs for data syncing with tools like Figma, Jira, or your own design system.",
+          "question": "Can the custom tool integrate with my existing design workflow or other software?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and any data created within it. Kliv provides the platform to build it; you own the intellectual property.",
+          "question": "Who owns the custom design tool and its generated data?"
+        },
+        {
+          "answer": "Custom tools often prove more cost-effective in the long run. While SaaS tools have recurring subscriptions, a Kliv-built tool involves an initial development investment, saving ongoing subscription costs and offering a solution perfectly tailored to your needs.",
+          "question": "How does the cost compare to subscribing to commercial design software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the flexibility to iteratively improve and expand your tool. You can add new features, adjust existing ones, or adapt to changing design trends as needed.",
+          "question": "Can I modify my custom design tool after it's built?"
+        },
+        {
+          "answer": "You have complete control over data storage and security protocols, allowing you to implement security measures that meet your specific compliance and privacy requirements. This can often be more secure than relying on third-party cloud services.",
+          "question": "Is a custom-built design tool secure for sensitive projects?"
+        },
+        {
+          "answer": "Kliv offers AI-driven assistance throughout the building process, providing suggestions, debugging help, and optimization insights. Since you have access to the underlying code, you also have the flexibility to bring in external developers if complex customizations are needed.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your design process?",
+      "type": "cta",
+      "content": "Stop settling for off-the-shelf. Build a wireframing and prototyping tool that works exactly how you do. Start creating your ideal design environment today."
+    }
+  ],
+  "title": "Custom Wireframing & Prototyping Tools"
+}

@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a payment and billing management system that can generate invoices, track payments, send automated reminders, and provide financial reports.",
+  "description": "Build custom payment and billing management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start managing finances",
+    "subtitle": "Take control of your cash flow with custom payment and billing applications built on Kliv's platform.",
+    "title": "Build your own payment & billing management tools"
+  },
+  "metaDescription": "Create powerful payment and billing management tools with Kliv. Automate invoicing, track payments, and gain financial insights with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own payment and billing system?",
+      "type": "text",
+      "content": "In today’s business environment, efficient cash flow is king. Generic payment and billing SaaS solutions often come with limitations, hidden fees, and a 'one size fits all' approach that rarely fits anyone perfectly. With Kliv, you can design a system that precisely matches your business processes, integrates seamlessly with your existing tools, and provides the financial insights you truly need."
+    },
+    {
+      "title": "The case for custom financial tools",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nOff-the-shelf payment and billing systems, while convenient upfront, often present significant drawbacks:\n\n- **Inflexible workflows:** They force your business to adapt to their rigid processes.\n- **Recurring costs:** Subscription fees add up, especially as your transaction volume grows.\n- **Limited customization:** You're stuck with their features, even if they don't meet your specific needs.\n- **Integration challenges:** Connecting them to your unique CRM, ERP, or accounting systems can be difficult and costly.\n- **Data sovereignty concerns:** Your sensitive financial data resides on third-party servers.\n\n## The advantages of a tailored solution\n\nBuilding your own payment and billing management tool with Kliv offers unparalleled benefits:\n\n### Perfect process fit\nYour business has unique billing cycles, payment terms, and reporting requirements. A custom tool ensures every aspect aligns perfectly with how you operate, reducing manual work and errors.\n\n### Cost control\nSave on ongoing subscription fees. With Kliv, you invest once in building the tool, and it serves you for years, making custom development a cost-effective long-term solution.\n\n### Seamless integration\nDesign your system to 'talk' directly with all your other business applications (CRM, project management, inventory, general ledger) for truly automated workflows and consistent data.\n\n### Enhanced security & compliance\nMaintain complete control over your financial data. Implement security protocols and compliance measures (like GDPR or PCI-DSS) that match your specific risk profile and regulatory obligations.\n\n### Scalability for growth\nAs your business evolves, your custom system can easily scale to accommodate more customers, new product lines, or different billing models without forcing you to switch platforms.\n\n## Real-world impact\n\nCustom payment and billing solutions are transforming how businesses manage their finances:\n\n- **Subscription businesses**: Automated recurring billing with tiered pricing models, prorated charges, and dunning management.\n- **Consulting firms**: Project-based invoicing with time tracking integration, retainer management, and client portal access for payment history.\n- **E-learning platforms**: Student enrollment billing with payment plans, discount codes, and automated course access upon payment.\n- **Service providers**: Field service billing with integration to dispatch software, automated service acknowledgements, and mobile payment options.\n\n## Why Kliv makes it possible\n\nGone are the days when custom software development was reserved for large enterprises. Kliv's AI-powered platform empowers you to build sophisticated financial tools with unprecedented ease:\n\n- **Natural language interface**: Describe your billing logic, invoice structure, or reporting needs in plain English.\n- **Rapid prototyping**: See your billing system take shape in hours, allowing for quick iterations and adjustments.\n- **Intelligent suggestions**: Kliv's AI assists by recommending optimal data structures, payment gateways, and reporting modules.\n- **Component-based development**: Reusable building blocks accelerate creation and ensure reliability.\n\nInvest in a financial management tool that works precisely for you. With Kliv, you're not just building software; you're building financial autonomy."
+    },
+    {
+      "title": "Payment & billing ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create detailed invoices easily and send them automatically.",
+          "prompt": "Build an invoicing system that generates professional invoices from project data, tracks their status (sent, viewed, paid), and allows for one-click sending via email.",
+          "title": "Automated Invoice Generation"
+        },
+        {
+          "description": "Keep tabs on all incoming and outgoing payments.",
+          "prompt": "Develop a payment tracking application that logs all transactions, categorizes them, reconciles with bank statements, and flags overdue payments.",
+          "title": "Comprehensive Payment Tracking"
+        },
+        {
+          "description": "Set up and manage recurring charges for subscriptions.",
+          "prompt": "Design a subscription management tool for recurring billing, allowing flexible plans, automated renewals, and tracking of customer subscription lifecycles.",
+          "title": "Subscription Billing Management"
+        },
+        {
+          "description": "Send gentle nudges for unpaid bills.",
+          "prompt": "Create an automated reminder system that sends polite email or SMS notifications for upcoming payment due dates and overdue invoices, with customizable intervals.",
+          "title": "Automated Payment Reminders"
+        },
+        {
+          "description": "Analyze financial performance with custom reports.",
+          "prompt": "Build a financial reporting dashboard that visualizes revenue trends, tracks cash flow, identifies top-paying clients, and generates customizable reports.",
+          "title": "Custom Financial Reporting"
+        },
+        {
+          "description": "Manage expenses and categorize them for accounting.",
+          "prompt": "Develop an expense management system where users can upload receipts, categorize expenses, track departmental spending, and export data for accounting software.",
+          "title": "Expense Tracking & Management"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your financial tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a customer portal where clients can view their invoices, make payments, and access payment history.",
+          "title": "Add Customer Payment Portal"
+        },
+        {
+          "prompt": "Integrate with popular payment gateways like Stripe, PayPal, or Square for seamless payment processing.",
+          "title": "Integrate Payment Gateways"
+        },
+        {
+          "prompt": "Implement multi-currency support for international billing and payments.",
+          "title": "Add Multi-Currency Support"
+        },
+        {
+          "prompt": "Include a feature for managing tax rates, calculating taxes, and generating tax compliance reports.",
+          "title": "Implement Tax Calculation & Reporting"
+        },
+        {
+          "prompt": "Connect with an external accounting software (e.g., QuickBooks, Xero) to automatically synchronize financial data.",
+          "title": "Integrate with Accounting Software"
+        },
+        {
+          "prompt": "Add dunning management features to automate the process of recovering overdue payments through a series of communications.",
+          "title": "Implement Dunning Management"
+        },
+        {
+          "prompt": "Allow for the creation and tracking of partial payments and payment plans.",
+          "title": "Enable Partial Payments"
+        },
+        {
+          "prompt": "Include robust user permissions and roles for different levels of financial access and control.",
+          "title": "Add User Roles & Permissions"
+        },
+        {
+          "prompt": "Build a module for managing refunds and credits, ensuring proper financial adjustments.",
+          "title": "Develop Refund/Credit Management"
+        }
+      ]
+    },
+    {
+      "title": "Essential financial management features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automate recurring invoices based on custom schedules and payment terms.",
+          "icon": "⏱️",
+          "title": "Automated Invoicing"
+        },
+        {
+          "description": "Monitor and record all incoming and outgoing financial transactions.",
+          "icon": "💸",
+          "title": "Payment Tracking"
+        },
+        {
+          "description": "Send timely reminders for due and overdue payments via email or SMS.",
+          "icon": "🔔",
+          "title": "Automated Reminders"
+        },
+        {
+          "description": "Generate comprehensive financial reports to track cash flow and revenue trends.",
+          "icon": "📊",
+          "title": "Custom Reporting"
+        },
+        {
+          "description": "Securely process payments via various integrations and methods.",
+          "icon": "💳",
+          "title": "Payment Gateway Integration"
+        },
+        {
+          "description": "Manage subscription plans, renewals, and customer billing cycles.",
+          "icon": "🔄",
+          "title": "Subscription Management"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic payment and billing system with Kliv can take as little as a few hours to a couple of days, depending on the complexity of your requirements. Advanced features and integrations might extend this timeline slightly, but still far less than traditional development.",
+          "question": "How quickly can I build a payment and billing system?"
+        },
+        {
+          "answer": "No, you do not need to be a programmer. Kliv’s platform uses AI to translate your natural language descriptions into functional application code. You define your needs, and the AI helps construct the solution.",
+          "question": "Is coding knowledge required to use Kliv for financial tools?"
+        },
+        {
+          "answer": "Yes, your custom Kliv-built application can integrate with most third-party financial services and APIs, including popular payment gateways (Stripe, PayPal), accounting software (QuickBooks, Xero), and banks, provided they offer an API.",
+          "question": "Can my custom billing system integrate with existing financial services?"
+        },
+        {
+          "answer": "Your financial data and the application itself are entirely yours. You retain full ownership and control over the code, data storage, and security protocols, ensuring maximum data integrity and sovereignty.",
+          "question": "What about data security and ownership?"
+        },
+        {
+          "answer": "Custom-built solutions typically involve a one-time development cost, often resulting in significant savings compared to the perpetual subscription fees and transaction charges associated with many SaaS billing platforms, especially over several years.",
+          "question": "How does the cost compare to off-the-shelf billing software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the flexibility to modify, enhance, or scale your payment and billing system as your business requirements evolve. You’re never locked into rigid features.",
+          "question": "Can I add new features or modify my system later?"
+        },
+        {
+          "answer": "You determine the hosting environment. Unlike SaaS products where you rely on their security, you can implement robust security measures tailored to your specific compliance needs, often making it more secure. Kliv focuses on building clean, secure code.",
+          "question": "Is a custom financial application secure?"
+        },
+        {
+          "answer": "Kliv provides AI-driven assistance during the building phase, offering suggestions and debugging help. For ongoing support, since you own the code, you can manage it internally, hire a developer, or contract with a service provider, giving you full control.",
+          "question": "What kind of support is available after building my application?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your financial operations?",
+      "type": "cta",
+      "content": "Stop wrestling with generic billing systems. Build a precise, powerful financial management tool that works exactly the way you do, designed by you with AI."
+    }
+  ],
+  "title": "Payment & Billing Management"
+}

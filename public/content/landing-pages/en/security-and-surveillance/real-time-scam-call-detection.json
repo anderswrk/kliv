@@ -1,0 +1,154 @@
+{
+  "defaultPrompt": "I want to build a real-time scam call detection system that analyzes incoming call audio for suspicious patterns or keywords, identifies known scam numbers, and provides instant alerts to the user.",
+  "description": "Protect yourself and your loved ones from fraudulent calls with custom-built real-time scam detection applications powered by Kliv's AI platform.",
+  "hero": {
+    "cta": "Build Your Detector Now",
+    "subtitle": "Leverage AI to identify and block fraudulent calls instantly, securing your communication channels.",
+    "title": "Real-Time Scam Call Detection"
+  },
+  "metaDescription": "Create powerful real-time scam call detection systems with Kliv. Protect against fraud, analyze suspicious calls, and get instant alerts with custom-built applications.",
+  "sections": [
+    {
+      "title": "The Growing Threat of Scam Calls",
+      "type": "text",
+      "content": "In an increasingly connected world, unsolicited and fraudulent calls pose a significant threat, leading to financial loss, identity theft, and significant distress. Existing solutions often fall short, relying on static blacklists or post-call analysis, leaving you vulnerable in the moment. Kliv empowers you to build dynamic, responsive systems that combat this threat head-on."
+    },
+    {
+      "title": "Why Develop Your Own Real-Time Scam Detector?",
+      "type": "markdown",
+      "content": "## The Limitations of Off-the-Shelf Solutions\n\nCommercial scam call blockers, while useful, often present limitations that can compromise your peace of mind and data security:\n\n- **Generic Databases**: They rely on publicly shared or aggregated data, which can be slow to update and miss new, sophisticated scam tactics.\n- **Privacy Concerns**: Your call data might be processed or stored by third parties, raising questions about confidentiality.\n- **Limited Customization**: You can't tailor detection rules to specific types of scams or personal preferences.\n- **Subscription Costs**: Continuous fees for features that may not fully meet your evolving needs.\n\n## The Power of Custom-Built Detection\n\nBuilding your real-time scam call detection application with Kliv offers unparalleled advantages:\n\n### Hyper-Personalized Detection\nConfigure your system to look for specific keywords, phrases, or anomalies relevant to the types of scams you or your community are most concerned about. Train the AI on your own datasets of suspicious calls for superior accuracy.\n\n### Enhanced Privacy and Data Control\nYour application, your data. Decide where and how call information is processed and stored, ensuring maximum privacy without relying on external services.\n\n### Adaptable to Evolving Threats\nScammers constantly change their tactics. A custom solution built with AI can be quickly retrained and updated to recognize emerging patterns and new fraudulent techniques, staying ahead of the curve.\n\n### Cost-Effectiveness Over Time\nWhile there's an initial development phase, owning your solution eliminates recurring subscription fees, offering long-term savings compared to perpetual third-party services.\n\n### Integration with Your Existing Ecosystem\nSeamlessly integrate your scam detection tool with your personal communication devices, smart home systems, or existing security infrastructure for a unified protection layer.\n\n## Real-World Impact Scenarios\n\nCustom scam detection can make a significant difference:\n\n**Elderly Protection**: Develop a system for elderly relatives that alerts family members in real-time or automatically blocks calls from suspicious numbers frequently targeting seniors (e.g., tech support scams, grandparent scams).\n\n**Small Business Security**: Equip your business lines with a detector that flags phishing attempts, fake invoices, or impersonation calls attempting to extract sensitive company information.\n\n**Consumer Advocacy**: Create community-driven tools allowing users to report new scam numbers and phrases, quickly updating the collective defense against new threats.\n\n**Personal Finance Protection**: Design a system that specifically targets calls attempting to solicit financial details, credit card numbers, or bank account information.\n\n## The Kliv Advantage\n\nKliv's platform accelerates the development of such critical applications:\n\n- **Intuitive Interface**: Translate your security requirements into functional code without deep programming knowledge.\n- **Pre-trained AI Models**: Access and fine-tune models designed for speech analysis, pattern recognition, and anomaly detection.\n- **Rapid Deployment**: Prototype and deploy your detection system quickly, putting protection into action faster.\n- **Scalable Infrastructure**: Build a solution that can handle a few calls a day or a high volume, adapting as your needs grow.\n\nDon't wait for the next scam attempt. Take control of your call security with a custom-built solution that truly protects you and your interests."
+    },
+    {
+      "title": "Scam Detection Ideas to Build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Identify and alert on common IRS, tech support, or lottery scam phrases.",
+          "prompt": "Create a real-time call scanner that alerts me when keywords like 'IRS warrant', 'computer virus detected', or 'you've won a lottery you didn't enter' are spoken.",
+          "title": "Keyword-Based Scam Alert"
+        },
+        {
+          "description": "Maintain and use a dynamic database of known scam numbers and block them instantly.",
+          "prompt": "Develop a system that maintains a regularly updated blacklist of confirmed scam phone numbers and automatically mutes or blocks calls from those numbers.",
+          "title": "Dynamic Blacklist Blocker"
+        },
+        {
+          "description": "Analyze call tone, speed, and patterns for signs of high-pressure sales or deceit.",
+          "prompt": "Build an AI model that analyzes the speaker's tone, speech rate, and conversational patterns to detect high-pressure sales tactics or deceptive communication styles during a call.",
+          "title": "Behavioral Anomaly Detector"
+        },
+        {
+          "description": "Verify caller ID against known contacts and flag discrepancies.",
+          "prompt": "Design a system that cross-references incoming caller ID with my contact list and historical call data, flagging calls where the reported ID seems spoofed or inconsistent with past interactions.",
+          "title": "Caller ID Spoofing Detector"
+        },
+        {
+          "description": "Detect signs of emotional manipulation or urgency often used in phishing calls.",
+          "prompt": "Create an AI that identifies vocal cues and conversational structures indicating emotional manipulation, undue urgency, or social engineering attempts common in phishing calls.",
+          "title": "Social Engineering Flagging"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Detection System",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate an automated recording feature for flagged calls, with consent, for later review.",
+          "title": "Add Call Recording for Review"
+        },
+        {
+          "prompt": "Implement a machine learning model that learns new scam patterns from user feedback and reported calls.",
+          "title": "Incorporate Adaptive Learning"
+        },
+        {
+          "prompt": "Develop a user interface to manually add or remove numbers from a personal 'trusted senders' list.",
+          "title": "Create Whitelist Management"
+        },
+        {
+          "prompt": "Connect the system to a global scam database API to enhance initial detection capabilities.",
+          "title": "Integrate External Scam Databases"
+        },
+        {
+          "prompt": "Add a feature to automatically send an SMS alert to a designated family member if a high-threat scam call is detected.",
+          "title": "Enable Family Alerts"
+        },
+        {
+          "prompt": "Build a dashboard to display statistics on detected scam call types, frequency, and blocked attempts.",
+          "title": "Develop Analytics Dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Core Detection Capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Analyze incoming call audio in real-time for suspicious keywords and phrases.",
+          "icon": "🗣️",
+          "title": "Live Audio Analysis"
+        },
+        {
+          "description": "Maintain and instantly cross-reference calls against a custom or community-sourced blacklist.",
+          "icon": "🚫",
+          "title": "Dynamic Number Blacklisting"
+        },
+        {
+          "description": "Utilize AI to identify unusual speech patterns, tones, and conversational anomalies indicative of fraud.",
+          "icon": "🧠",
+          "title": "AI Behavioral Anomaly Detection"
+        },
+        {
+          "description": "Instantly notify the user through various channels (popup, sound, vibration) upon scam detection.",
+          "icon": "🚨",
+          "title": "Instant Alert System"
+        },
+        {
+          "description": "Allow users to customize sensitivity levels and set specific rules for call handling.",
+          "icon": "⚙️",
+          "title": "Customizable Rules Engine"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic real-time scam call detection prototype can take as little as a few hours on Kliv. More sophisticated systems with advanced AI models or complex integrations may take a few days of focused development.",
+          "question": "How quickly can I build a real-time scam call detection system?"
+        },
+        {
+          "answer": "While some understanding of the problem domain is helpful, deep coding experience is not required. Kliv's platform uses AI to translate your descriptions into working application logic and code, making it accessible to non-developers.",
+          "question": "Do I need to be a programmer to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various communication platforms (e.g., VoIP services, specific phone APIs if available, or even smart home devices) to intercept and analyze calls. The extent of integration depends on the specific external services you wish to connect.",
+          "question": "Can the custom scam detector integrate with my existing phone service or devices?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and any data it processes. Kliv is a development platform, not a custodian of your operational data or intellectual property.",
+          "question": "Who owns the intellectual property and data generated by my application?"
+        },
+        {
+          "answer": "A custom solution generally involves a one-time development investment rather than ongoing subscription fees. Over time, for specialized or highly frequent use cases, it can be significantly more cost-effective than continuous payments for off-the-shelf software.",
+          "question": "How does the cost compare to commercial scam blocking apps?"
+        },
+        {
+          "answer": "Maintaining a custom application primarily involves updating its AI models with new scam patterns and ensuring compatibility with any external services it integrates with. Kliv's tools help simplify these updates, making maintenance manageable.",
+          "question": "What's involved in maintaining a custom scam detection tool after it's built?"
+        },
+        {
+          "answer": "Yes, when correctly implemented, a custom solution can offer superior privacy by allowing you to control where your data resides and how it's processed, avoiding third-party data aggregation common in commercial apps.",
+          "question": "Is a custom-built solution more secure or private than pre-made apps?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Protect Your Communications?",
+      "type": "cta",
+      "content": "Take proactive steps against call fraud. Build your bespoke real-time scam detection application with Kliv and gain peace of mind."
+    }
+  ],
+  "title": "Build Real-Time Scam Call Detection"
+}

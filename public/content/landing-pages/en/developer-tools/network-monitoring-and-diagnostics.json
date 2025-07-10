@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a network monitoring and diagnostics tool that can track real-time network traffic, identify performance bottlenecks, and generate alerts for anomalies.",
+  "description": "Build custom network monitoring and diagnostics applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start monitoring",
+    "subtitle": "Gain deep insights into your network health and performance with AI-powered monitoring and diagnostics tools built on Kliv's platform.",
+    "title": "Build your own network monitoring & diagnostics tools"
+  },
+  "metaDescription": "Create powerful network monitoring and diagnostics tools with Kliv. Track network health, identify issues, and ensure optimal performance with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own network monitoring tool?",
+      "type": "text",
+      "content": "In today's complex IT environments, generic network monitoring solutions often fall short. They might offer broad features but lack the specific insights or integrations critical for your unique infrastructure. With Kliv's AI-powered development platform, you can craft a network monitoring and diagnostics tool that perfectly aligns with your operational needs, security policies, and existing tech stack.\n\nOff-the-shelf products can be expensive, bloated with unused features, and difficult to customize. Building your own gives you full control, reducing recurring costs and providing a flexible system that evolves with your network."
+    },
+    {
+      "title": "The case for custom network visibility",
+      "type": "markdown",
+      "content": "## The pitfalls of standard network software\n\nMany organizations rely on commercial network monitoring solutions that come with inherent limitations:\n\n- **Generic dashboards**: Not tailored to your specific devices, applications, or business-critical traffic.\n- **Vendor lock-in**: Dependencies on a single vendor's ecosystem, limiting flexibility and integration potential.\n- **Costly licenses**: Recurring fees that scale with your network size, quickly becoming a significant expense.\n- **Feature bloat**: Overwhelm with features you don't need, making the tool unwieldy and slow.\n- **Integration challenges**: Difficulty connecting with custom applications, legacy systems, or specific security tools.\n\n## Why a tailored solution is superior\n\nThe power of AI development platforms like Kliv means that creating highly specialized network tools is now feasible, even for teams without extensive development resources. Here's why custom-built is the strategic choice:\n\n### Precise visibility\nDesign monitoring dashboards and alerts that focus only on what matters to you. Track specific services, applications, or network segments critical to your business operations without wading through irrelevant data.\n\n### Superior control\nOwn the data, the code, and the deployment. Ensure compliance with internal security policies and data residency requirements. You dictate how data is collected, stored, and analyzed.\n\n### Optimize costs\nMove from recurring subscriptions to a one-time build investment. This can lead to significant long-term savings, allowing you to reallocate budget to other critical IT initiatives.\n\n### Unmatched flexibility\nYour network evolves, so should your tools. Easily add new monitoring points, integrate with emerging technologies, or adapt to new security threats without waiting for a vendor update.\n\n## Real-world applications\n\nCustom network monitoring tools can address a wide range of operational challenges:\n\n**Data Centers**: Monitor specific server rack temperatures, power consumption, and network throughput at a granular level, triggering alerts before critical failures.\n\n**Manufacturing**: Track latency and packet loss on industrial control networks (OT/ICS) to ensure real-time communication between PLCs and sensors, preventing production halts.\n\n**IoT Deployments**: Monitor connectivity, data usage, and battery life of thousands of distributed IoT devices, identifying failed devices or potential security breaches.\n\n**SD-WAN/Branch Offices**: Gain end-to-end visibility into application performance across geographically dispersed locations, diagnosing issues affecting user experience in real-time.\n\n## The intelligence of AI-driven development\n\nBuilding sophisticated network tools used to be a specialized, time-consuming effort. AI development platforms have transformed this:\n\n- **Rapid prototyping**: Quickly iterate on different monitoring requirements and see functional results in days.\n- **Smart insights**: AI can suggest optimal monitoring metrics and alert thresholds based on common network patterns.\n- **Automated setup**: Define your network devices verbally, and AI assists in configuring collection agents and data parsers.\n- **Simplified integration**: Use natural language to describe integrations with SIEMs, ticketing systems, or cloud platforms.\n\n## Getting started\n\nDon't let off-the-shelf limitations dictate your network's health. Invest in a monitoring and diagnostics tool that is built for your network, by you.\n\nWith Kliv's AI-powered platform, you can begin designing your custom network monitoring solution today. Focus on your unique network needs—the AI will help handle the development complexities."
+    },
+    {
+      "title": "Network monitoring ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Monitor and visualize bandwidth usage across critical network segments",
+          "prompt": "Create a tool that collects snmp data from network devices, visualizes real-time bandwidth usage per interface, and provides historical trending for capacity planning.",
+          "title": "Bandwidth Utilization Monitor"
+        },
+        {
+          "description": "Track application performance across the network path",
+          "prompt": "Build a network application performance monitor that uses synthetic transactions to measure latency and availability of key business applications from different user locations.",
+          "title": "Application Latency & Availability Tool"
+        },
+        {
+          "description": "Identify and alert on unusual network traffic patterns",
+          "prompt": "Develop a network anomaly detection system that analyzes netflow data to identify unusual traffic spikes, port scans, or data exfiltration attempts, and sends security alerts.",
+          "title": "Network Security Anomaly Detection"
+        },
+        {
+          "description": "Monitor server health and network connectivity",
+          "prompt": "Design a server network health monitor that pings critical servers, checks open ports, and monitors network interface status, sending alerts on unreachable servers or interface errors.",
+          "title": "Server Connectivity Watchdog"
+        },
+        {
+          "description": "Visualize network topology and device status dynamically",
+          "prompt": "Create an interactive network topology mapping tool that discovers connected devices, visualizes their interconnections, and updates their status (up/down) in real-time.",
+          "title": "Dynamic Network Topology Mapper"
+        },
+        {
+          "description": "Track VoIP call quality metrics",
+          "prompt": "Build a VoIP quality monitoring tool that collects Jitter, Latency, and Packet Loss metrics from VoIP gateways and endpoints, and alerts on poor call quality occurrences.",
+          "title": "VoIP Quality Monitor"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your monitoring tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with a ticketing system (e.g., Jira, ServiceNow) to automatically create incidents when critical alerts are triggered.",
+          "title": "Automated Incident Creation"
+        },
+        {
+          "prompt": "Add predictive analytics capabilities to forecast potential network overloads or hardware failures based on historical data.",
+          "title": "Predictive Capacity Planning"
+        },
+        {
+          "prompt": "Implement a network configuration management feature to track changes to network device configurations and alert on unauthorized modifications.",
+          "title": "Configuration Change Detection"
+        },
+        {
+          "prompt": "Develop a mobile application companion for on-the-go monitoring and alert management.",
+          "title": "Mobile Monitoring App"
+        },
+        {
+          "prompt": "Incorporate machine learning to baseline normal network behavior and more accurately detect subtle anomalies.",
+          "title": "AI-Enhanced Anomaly Detection"
+        },
+        {
+          "prompt": "Add a reporting engine to generate custom daily/weekly/monthly reports on network performance and availability.",
+          "title": "Customizable Reporting"
+        },
+        {
+          "prompt": "Create a drill-down capability from high-level dashboards to granular device-specific metrics.",
+          "title": "Granular Data Drill-down"
+        },
+        {
+          "prompt": "Integrate with vulnerability scanners to correlate network traffic with known security exploits.",
+          "title": "Security Vulnerability Correlation"
+        },
+        {
+          "prompt": "Add a feature for active network testing, such as running speed tests or path analyses between specific points.",
+          "title": "Active Network Testing"
+        }
+      ]
+    },
+    {
+      "title": "Crucial monitoring capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Collect real-time data from diverse network devices and protocols (SNMP, NetFlow, Syslog, API).",
+          "icon": "📡",
+          "title": "Multi-protocol Data Collection"
+        },
+        {
+          "description": "Create customizable dashboards and visualizations tailored to your specific network segments and metrics.",
+          "icon": "📊",
+          "title": "Customizable Dashboards"
+        },
+        {
+          "description": "Define granular alerts based on thresholds, trends, or abnormal network behavior with various notification options.",
+          "icon": "🔔",
+          "title": "Intelligent Alerting"
+        },
+        {
+          "description": "Analyze network traffic flows to identify top talkers, applications, and potential anomalies.",
+          "icon": "🔗",
+          "title": "Traffic Flow Analysis"
+        },
+        {
+          "description": "Gain insights into application response times and network path performance for end-user experience optimization.",
+          "icon": "🚀",
+          "title": "Application Performance Monitoring"
+        },
+        {
+          "description": "Automate routine diagnostic checks and integrate with automation platforms for self-healing capabilities.",
+          "icon": "🛠️",
+          "title": "Automated Diagnostics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The time to build a network monitoring tool varies by complexity. A basic monitoring dashboard for a few devices can be functional in a day, while a comprehensive enterprise-grade solution might take a week or two to customize and test thoroughly.",
+          "question": "How long does it take to develop a network monitoring tool?"
+        },
+        {
+          "answer": "No, extensive coding is not required. Kliv's AI assists by interpreting your requirements in natural language and generating the underlying code. You define your monitoring needs, and the AI helps construct the solution.",
+          "question": "Do I need to be a coding expert to build this kind of tool?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. You can integrate with virtually any device, application, or system that exposes an API, SNMP, NetFlow, or other standard protocols. This includes firewalls, routers, servers, cloud services, and custom applications.",
+          "question": "Can this tool integrate with my existing network infrastructure and tools?"
+        },
+        {
+          "answer": "You own 100% of the developed application, including its source code and all collected network data. You can deploy it in your own environment, ensuring complete data privacy and security.",
+          "question": "Who owns the data and the application built using Kliv?"
+        },
+        {
+          "answer": "Custom-built tools typically involve an upfront development cost rather than ongoing subscription fees. This model often results in significant cost savings over the long term compared to purchasing and maintaining commercial network monitoring software.",
+          "question": "How does the cost compare to off-the-shelf network monitoring software?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are designed for adaptability. You can easily modify monitoring parameters, add new devices, implement new alert rules, or integrate with new IT systems as your network infrastructure evolves.",
+          "question": "Can I modify the monitoring tool after it's been built?"
+        },
+        {
+          "answer": "Since you control the deployment environment and data storage, custom tools can offer superior security compared to SaaS solutions where your network data resides on a third-party's servers. You implement your own security best practices.",
+          "question": "Is a custom-built network monitoring tool secure?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance throughout the development process, offering suggestions, debugging assistance, and optimization tips. The platform simplifies maintenance by generating clean, modular code, making future adjustments straightforward.",
+          "question": "What kind of support is available for building and maintaining the tool?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain unparalleled network visibility?",
+      "type": "cta",
+      "content": "Stop reacting to network issues and start proactively managing your infrastructure. Build a network monitoring and diagnostics solution tailored exclusively to your business needs."
+    }
+  ],
+  "title": "Network Monitoring & Diagnostics Tools"
+}

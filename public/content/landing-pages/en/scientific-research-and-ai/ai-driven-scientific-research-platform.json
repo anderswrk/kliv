@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an AI-driven scientific research platform that can analyze large datasets, identify patterns in published literature, and accelerate hypothesis generation. It needs to be able to ingest raw scientific data, process it, and present actionable insights.",
+  "description": "Develop powerful AI-driven platforms for scientific research, accelerating discovery and insight generation.",
+  "hero": {
+    "cta": "Start your research platform",
+    "subtitle": "Unleash the power of AI to accelerate scientific discovery, analyze vast datasets, and generate novel insights from research literature.",
+    "title": "Build your own AI Scientific Research Platform"
+  },
+  "metaDescription": "Create bespoke AI-driven platforms for scientific research with Kliv. Enhance data analysis, literature review, hypothesis generation, and experimental design.",
+  "sections": [
+    {
+      "title": "The challenge in modern scientific research",
+      "type": "text",
+      "content": "Today's scientific research generates an unprecedented volume of data, from experimental results to published literature. Researchers often struggle to keep up, synthesize information, and identify subtle patterns that could lead to groundbreaking discoveries. Traditional tools are no longer sufficient to sift through terabytes of data or millions of papers.\n\nWhile commercial AI platforms for research exist, they are often generic, expensive, and lack the customization needed for highly specialized fields or unique research methodologies. Building your own AI platform allows for precise control, integration with proprietary data, and a truly competitive edge in discovery."
+    },
+    {
+      "title": "Why a custom AI research platform is essential",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nExisting platforms typically fall short because they:\n\n- **Lack domain specificity**: Generic AI models often miss the nuances of highly specialized scientific domains.\n- **Force data conformity**: You might need to restructure your precious experimental data to fit their predefined formats.\n- **Are cost-prohibitive**: Subscription models can become extremely expensive, especially for large teams or extensive data processing.\n- **Offer limited integration**: Connecting with your internal LIMS, ELN, or proprietary databases is often cumbersome or impossible.\n- **Don't adapt to new methodologies**: As research evolves, fixed platforms struggle to incorporate cutting-edge analytical techniques.\n\n## The definitive advantages of building your own\n\nDeveloping a tailored AI research platform on Kliv empowers you to:\n\n### Perfect fit for your research\nDesign an AI system that understands the specific jargon, data types, and research questions unique to your lab or institution. This level of customization ensures higher accuracy and more relevant insights.\n\n### Unrestricted data control and security\nMaintain full sovereignty over your sensitive research data. You decide where it's stored, how it's processed, and who has access, ensuring compliance and intellectual property protection.\n\n### Cost-effectiveness and long-term value\nAvoid recurring subscription fees. A custom-built platform is a strategic asset with a one-time development cost, providing continuous value and adaptability as your research needs evolve.\n\n### Seamless integration with all your tools\nIntegrate directly with your existing experimental equipment, lab information management systems (LIMS), electronic lab notebooks (ELN), and proprietary databases, creating a truly unified research environment.\n\n### Agility in adopting new AI models and algorithms\nFuture-proof your research. Easily swap in new AI models, incorporate novel algorithms, or adapt to emerging computational techniques as they become available.\n\n## Transformative applications in science\n\nCustom AI research platforms are revolutionizing fields:\n\n**Drug Discovery**: Accelerate lead identification by analyzing chemical structures, biological pathways, and patient data simultaneously to predict drug efficacy and toxicity.\n\n**Material Science**: Design novel materials by simulating atomic interactions and predicting material properties based on desired characteristics.\n\n**Genomics**: Identify disease biomarkers by processing vast genomics datasets, correlating genetic variations with clinical outcomes, and discovering new therapeutic targets.\n\n**Environmental Science**: Predict ecological shifts, track biodiversity, and model climate change impacts by integrating sensor data, satellite imagery, and climate models.\n\n**Astronomy**: Discover new celestial objects or phenomena by applying pattern recognition to telescope data and analyzing atmospheric compositions from exoplanets.\n\n## The Kliv.dev advantage\n\nKliv's AI-powered platform makes sophisticated software development accessible to researchers and scientists:\n\n- **Natural Language Programming**: Describe complex analytical tasks or data structures in plain English.\n- **Rapid Prototyping**: Iterate quickly on models and interfaces, seeing your ideas come to life in hours.\n- **Intelligent Data Wrangling**: AI assists in cleaning, transforming, and preparing scientific data for analysis.\n- **Model Agnostic**: Integrate and train various AI models (machine learning, deep learning, NLP) tailored to your specific research problems.\n- **Scalable Infrastructure**: Build platforms that can handle petabytes of data and complex computational workloads.\n\n## Starting your research revolution\n\nRelying on generic tools will only get you so far. The future of scientific discovery lies in custom-tailored solutions that empower researchers with unparalleled analytical capabilities. Kliv provides the means to build that future today, making advanced AI development accessible to every research team."
+    },
+    {
+      "title": "AI research platform ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate literature review and trend analysis",
+          "prompt": "Create an AI-driven platform that can ingest thousands of scientific papers, extract key findings, identify emerging research trends, and summarize relevant information for a given topic.",
+          "title": "Literature Synthesis Engine"
+        },
+        {
+          "description": "Predict experimental outcomes and optimize protocols",
+          "prompt": "Build a system that can take experimental parameters and historical data, predict potential outcomes, and suggest optimized protocols to maximize success rates in biological assays.",
+          "title": "Experimental Design Optimizer"
+        },
+        {
+          "description": "Analyze genomic data for disease markers",
+          "prompt": "Develop an AI platform that can process large-scale genomic sequencing data, identify genetic variants associated with specific diseases, and suggest potential therapeutic targets based on pathway analysis.",
+          "title": "Genomic Biomarker Identifier"
+        },
+        {
+          "description": "Simulate molecular interactions for drug discovery",
+          "prompt": "Design a tool that uses AI to simulate molecular docking and interactions between potential drug compounds and target proteins, predicting binding affinities and potential side effects.",
+          "title": "Molecular Simulation Workbench"
+        },
+        {
+          "description": "Automate image analysis from microscopy",
+          "prompt": "Create an AI solution that processes high-resolution microscopy images, automatically identifies and quantifies cells, organelles, or specific structures, and flags anomalies or patterns.",
+          "title": "Automated Microscopy Analyzer"
+        },
+        {
+          "description": "Generate novel hypotheses from disparate data",
+          "prompt": "Build an AI platform that can cross-reference information from public databases (e.g., PubMed, NCBI, ChemBank) with internal experimental data to generate novel, testable hypotheses for scientific investigation.",
+          "title": "Hypothesis Generation Assistant"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your research platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a module for natural language query of scientific literature",
+          "title": "Natural Language Querying"
+        },
+        {
+          "prompt": "Add capabilities for real-time streaming data ingestion from lab instruments",
+          "title": "Real-time Data Ingestion"
+        },
+        {
+          "prompt": "Implement a collaborative workspace for researchers to share findings and annotate data",
+          "title": "Collaborative Workspace"
+        },
+        {
+          "prompt": "Develop predictive models for resource allocation in large-scale experiments",
+          "title": "Resource Allocation Prediction"
+        },
+        {
+          "prompt": "Add a visualization component for complex data structures like protein folding or molecular dynamics",
+          "title": "Advanced Data Visualization"
+        },
+        {
+          "prompt": "Include a feature to automatically suggest relevant grant opportunities based on ongoing research topics",
+          "title": "Grant Opportunity Suggester"
+        },
+        {
+          "prompt": "Build an anomaly detection system for experimental data to flag potential errors or unexpected results",
+          "title": "Anomaly Detection"
+        },
+        {
+          "prompt": "Create a module for automated report generation summarizing key findings and statistical analyses",
+          "title": "Automated Report Generation"
+        },
+        {
+          "prompt": "Add version control for experimental data and analytical workflows",
+          "title": "Data and Workflow Versioning"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your AI research platform",
+      "type": "features",
+      "items": [
+        {
+          "description": "Ingest and process diverse scientific datasets (genomic, proteomic, imaging, text).",
+          "icon": "⚙️",
+          "title": "Multi-Modal Data Ingestion"
+        },
+        {
+          "description": "Leverage advanced AI/ML algorithms for pattern recognition, prediction, and classification.",
+          "icon": "🧠",
+          "title": "Advanced AI/ML Engine"
+        },
+        {
+          "description": "Extract and synthesize information from vast scientific literature using NLP.",
+          "icon": "📚",
+          "title": "Intelligent Literature Review"
+        },
+        {
+          "description": "Generate novel research hypotheses and suggest experimental pathways.",
+          "icon": "✨",
+          "title": "AI-Driven Hypothesis Generation"
+        },
+        {
+          "description": "Provide interactive dashboards and visualizations for complex scientific data.",
+          "icon": "📈",
+          "title": "Intuitive Data Visualization"
+        },
+        {
+          "description": "Securely integrate with existing lab instruments, databases, and LIMS/ELN.",
+          "icon": "🔗",
+          "title": "Seamless System Integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a foundational AI research platform with Kliv can take as little as a few days, depending on complexity. Highly specialized models and extensive integrations might require weeks, but still dramatically faster than traditional development.",
+          "question": "How long does it take to develop a custom AI scientific research platform?"
+        },
+        {
+          "answer": "While expertise in your scientific domain is crucial, no coding experience or deep AI/ML programming knowledge is required. Kliv’s platform allows you to describe your research needs and data processes in natural language, and the AI assists in building the technical components.",
+          "question": "Do I need to be an expert in AI or coding to build this?"
+        },
+        {
+          "answer": "Yes, custom platforms built with Kliv can be designed to integrate with almost any existing scientific instrument, LIMS, ELN, public database APIs, or proprietary data sources, either via direct API connections or custom data loaders.",
+          "question": "Can I integrate my existing lab instruments and data sources?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property – the code, the models, and your data. Kliv provides the platform to build it, but the resulting application and its components are entirely yours, deployable as you see fit.",
+          "question": "Who owns the intellectual property of the developed platform and models?"
+        },
+        {
+          "answer": "In the long run, building a custom platform is often more cost-effective. While there's an upfront development cost, you avoid recurring, escalating subscription fees common with commercial platforms, and you gain a unique, tailored asset.",
+          "question": "Is building a custom platform more expensive than buying an off-the-shelf solution?"
+        },
+        {
+          "answer": "Absolutely. Custom platforms are inherently flexible. As your research evolves, you can easily add new modules, integrate different AI models, refine algorithms, or adapt to new data types without vendor lock-in.",
+          "question": "How adaptable are these platforms to changing research needs?"
+        },
+        {
+          "answer": "You control the security. Kliv-built applications can be deployed on your own secure infrastructure (cloud or on-premise), allowing you to implement your institution's specific security protocols, data governance policies, and compliance regulations (e.g., HIPAA, GDPR, GLP).",
+          "question": "How secure are these custom AI scientific research platforms?"
+        },
+        {
+          "answer": "Kliv offers comprehensive support throughout the development process, including AI-guided recommendations, debugging tools, and access to a community of users. Post-deployment, because you own the code, you have full control over maintenance and future enhancements.",
+          "question": "What kind of support is available if I encounter issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your scientific research?",
+      "type": "cta",
+      "content": "Stop being limited by generic tools. Accelerate discovery by building an AI research platform perfectly tailored to your unique scientific challenges. Start your breakthrough today."
+    }
+  ],
+  "title": "AI-Driven Scientific Research Platform"
+}

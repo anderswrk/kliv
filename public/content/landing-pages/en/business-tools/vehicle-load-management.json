@@ -1,0 +1,155 @@
+{
+  "defaultPrompt": "I want to create a vehicle load management system that optimizes routes, tracks cargo weight and dimensions, and provides real-time updates to drivers and dispatchers.",
+  "description": "Build custom vehicle load management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start optimizing now",
+    "subtitle": "Maximize cargo capacity, reduce fuel costs, and improve delivery efficiency with intelligent load management tools built on Kliv.",
+    "title": "Build your own vehicle load management system"
+  },
+  "metaDescription": "Create powerful vehicle load management tools with Kliv. Optimize routes, manage cargo, and streamline logistics with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why invest in a custom load management solution?",
+      "type": "text",
+      "content": "In logistics, every inch of space and every drop of fuel counts. Off-the-shelf vehicle load management systems often fall short, forcing you to compromise on features or adapt your unique operational flows to their rigid structures. With Kliv, you can design and deploy a solution that perfectly fits your fleet, cargo types, and delivery network. Gain unparalleled control over your transportation costs and efficiency, moving beyond generic tools to a system built just for you."
+    },
+    {
+      "title": "The strategic advantage of tailored load management",
+      "type": "markdown",
+      "content": "## The limitations of generic software\n\nMany businesses struggle with commercial load management solutions because they are:\n\n- **Inflexible**: Unable to adapt to specific vehicle types, varying cargo dimensions, or unique delivery constraints.\n- **Costly subscriptions**: Opaque pricing models with features you don't use, yet still pay for.\n- **Integration nightmares**: Poor connectivity with existing ERP, WMS, or TMS systems, leading to data silos and manual entry.\n- **Lacking specialized features**: Missing critical functionalities for hazardous materials, temperature-controlled goods, or complex multi-stop routes.\n\n## Why custom-built is the optimal approach\n\nThe landscape of software development has dramatically changed. AI-powered platforms like Kliv make it feasible for businesses to develop highly specific tools that drive significant value:\n\n### Precision optimization\n\nCustom tools allow for algorithms that factor in your exact vehicle specifications (e.g., axle weight limits, volumetric capacity, refrigeration zones), road restrictions, and delivery windows for truly optimized loading and routing. This level of detail is rarely found in off-the-shelf products.\n\n### Seamless integration\n\nBuild a system that natively integrates with your existing inventory management, order processing, and accounting systems. Eliminate manual data transfer, reduce errors, and gain a unified view of your logistics operations.\n\n### Cost reduction and revenue maximization\n\nBy efficiently utilizing every available cubic foot and pound, you reduce the number of required trips, optimize fuel consumption, and can potentially increase the volume of goods transported per journey. This directly impacts your bottom line.\n\n### Scalability and adaptability\n\nAs your business grows or its requirements change, your custom system can evolve with it. Easily add new vehicle types, integrate new regulations, or adapt to new delivery models without vendor lock-in or costly upgrades.\n\n## Real-world impact\n\n**Logistics & Distribution**: Optimize delivery routes for less-than-truckload (LTL) shipments, ensuring maximum fill rates and minimum deadhead miles.\n\n**Construction**: Plan optimal loads for heavy machinery and materials, considering weight distribution and legal limits for road transport.\n\n**Retail Supply Chain**: Manage inbound and outbound freight, ensuring efficient loading of diverse product sizes onto delivery vehicles for store replenishment.\n\n**Waste Management**: Plan routes and optimize bin collection volumes for different vehicle types, improving efficiency and reducing trips.\n\n## The Kliv advantage for logistics innovators\n\nBuilding sophisticated logistics software no longer requires an army of developers. Kliv's platform allows you to:\n\n- **Define complex logic**: Describe your specific loading rules, constraints, and optimization goals in plain language.\n- **Visual mapping & routing**: Integrate with mapping services for interactive route planning and visualization.\n- **Real-time data feeds**: Connect to telematics and inventory systems for live updates on cargo and vehicle status.\n\nEmpower your team with a tool designed for their challenges, not someone else's. Start building your competitive edge today."
+    },
+    {
+      "title": "Load management ideas to get started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Optimize cargo placement for weight distribution and stability.",
+          "prompt": "Create a tool that simulates vehicle loading to ensure proper weight distribution (front/rear axle, side-to-side) and cargo stability for different truck types.",
+          "title": "Weight & Axle Load Optimizer"
+        },
+        {
+          "description": "Efficiently pack diverse items into vehicle compartments.",
+          "prompt": "Build a system that takes a list of package dimensions and weights, and suggests the most efficient way to pack them into available vehicle space, respecting stacking limits.",
+          "title": "Volumetric Cargo Packer"
+        },
+        {
+          "description": "Plan multi-stop routes based on delivery windows and vehicle capacity.",
+          "prompt": "Develop a multi-stop route planner that considers vehicle capacity (both weight and volume), required delivery windows, and traffic conditions to suggest optimal sequences.",
+          "title": "Dynamic Route & Load Planner"
+        },
+        {
+          "description": "Assign cargo to vehicles and monitor loading progress.",
+          "prompt": "Design an application for dispatchers to assign incoming freight to available vehicles, track the loading status in real-time, and get alerts for incomplete loads.",
+          "title": "Dispatch & Loading Monitor"
+        },
+        {
+          "description": "Manage specific requirements for sensitive or hazardous cargo.",
+          "prompt": "Create a specialized load management tool for hazardous materials handling, incorporating regulations for segregation, placarding, and safety equipment requirements across different vehicle types.",
+          "title": "Specialized Cargo Handler"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your load management tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to visualize the loaded vehicle within a 3D interface, showing placement of all cargo items.",
+          "title": "3D Load Visualization"
+        },
+        {
+          "prompt": "Integrate with real-time GPS data from vehicles to track actual load status and adherence to routes.",
+          "title": "Live Vehicle Tracking"
+        },
+        {
+          "prompt": "Implement predictive analytics to forecast optimal loading patterns based on historical data and weather conditions.",
+          "title": "Predictive Load Forecasting"
+        },
+        {
+          "prompt": "Add a mobile application for drivers to receive loading instructions, confirm cargo, and report discrepancies.",
+          "title": "Driver Mobile App Interface"
+        },
+        {
+          "prompt": "Include a module for calculating estimated fuel consumption based on load, route, and vehicle efficiency.",
+          "title": "Fuel Consumption Estimator"
+        },
+        {
+          "prompt": "Add capacity to manage and optimize return loads, ensuring vehicles are utilized on their return journeys.",
+          "title": "Backhaul Optimization"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for vehicle load management",
+      "type": "features",
+      "items": [
+        {
+          "description": "Optimize cargo placement to maximize space and comply with weight limits.",
+          "icon": "📦",
+          "title": "Intelligent Load Planning"
+        },
+        {
+          "description": "Calculate and manage critical weight distribution across vehicle axles.",
+          "icon": "⚖️",
+          "title": "Axle Weight Compliance"
+        },
+        {
+          "description": "Generate dynamic routes considering load specifications and delivery schedules.",
+          "icon": "🗺️",
+          "title": "Route Optimization"
+        },
+        {
+          "description": "Define and manage various vehicle types with their specific capacities and dimensions.",
+          "icon": "🚚",
+          "title": "Configurable Vehicle Profiles"
+        },
+        {
+          "description": "Integrate with inventory systems for accurate cargo data and availability.",
+          "icon": "↔️",
+          "title": "Real-time Data Sync"
+        },
+        {
+          "description": "Provide a comprehensive dashboard for dispatchers and fleet managers to monitor all operations.",
+          "icon": "💻",
+          "title": "Centralized Fleet View"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom vehicle load management tool with Kliv can be significantly faster than traditional development, often taking days or weeks for a comprehensive solution. This is due to Kliv's AI-assisted rapid development capabilities.",
+          "question": "How quickly can I build a functional load management system?"
+        },
+        {
+          "answer": "Yes, Kliv supports integrations with various external systems. You can connect your custom load management tool to existing ERPs, WMS, TMS, telematics systems, and mapping services through APIs to ensure seamless data flow.",
+          "question": "Can this custom system integrate with my existing logistics software?"
+        },
+        {
+          "answer": "While some technical understanding of your logistics processes is beneficial, Kliv's platform is designed to be accessible to business users. You describe your requirements in natural language, and the AI guides you through the building process.",
+          "question": "Do I need programming skills to build a complex load management tool?"
+        },
+        {
+          "answer": "The cost of building a custom solution with Kliv is typically a one-time development investment, leading to substantial long-term savings by eliminating recurring subscription fees common with commercial software. The precise cost depends on the complexity and scope of features.",
+          "question": "How does the cost compare to purchasing an off-the-shelf solution?"
+        },
+        {
+          "answer": "Absolutely. You retain full ownership and control over the source code and data of your custom-built vehicle load management system. This ensures complete data privacy and the freedom to modify or extend your application as needed, without vendor lock-in.",
+          "question": "Who owns the intellectual property of the custom-built system?"
+        },
+        {
+          "answer": "Your custom system can scale with your business. As your fleet grows or operational needs change, you can easily add new features, vehicle profiles, or integrate with more data sources using Kliv's platform, ensuring future-proof functionality.",
+          "question": "Is the custom solution scalable as my logistics operations expand?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to optimize your fleet efficiency?",
+      "type": "cta",
+      "content": "Stop wasting valuable cargo space and fuel. Create a vehicle load management system tailored to your exact needs and start driving profitability."
+    }
+  ],
+  "title": "Vehicle load management tools"
+}

@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a service management and maintenance tool that can schedule recurring maintenance, track service requests, manage inventory for parts, and assign tasks to technicians.",
+  "description": "Build custom service management and maintenance applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your service tool",
+    "subtitle": "Optimize field operations and asset longevity with custom-built service management and maintenance applications.",
+    "title": "Build your own service management and maintenance tools"
+  },
+  "metaDescription": "Create powerful service management and maintenance tools with Kliv. Streamline field operations, automate scheduling, and improve asset uptime with custom-built applications.",
+  "sections": [
+    {
+      "title": "The challenge of managing service and maintenance",
+      "type": "text",
+      "content": "Efficient service and maintenance are the backbone of many businesses, from HVAC companies to IT service providers. Yet, many organizations struggle with off-the-shelf software that's too generic, too complex, or too expensive. These solutions often fall short in addressing unique operational flows, data requirements, or specific industry compliance needs.\n\nBuilding your own service management system allows you to tailor every feature to your exact requirements, integrating seamlessly with your existing processes and giving you full control over your data and workflows. Kliv makes this customization accessible, removing the typical barriers of cost and development time."
+    },
+    {
+      "title": "Why a custom service management system is a game-changer",
+      "type": "markdown",
+      "content": "## Limitations of standard solutions\n\nOff-the-shelf service management software often comes with compromises:\n\n- **Rigid workflows**: They force you to adapt your proven operational procedures to their system.\n- **Feature bloat**: You pay for features you'll never use, making the system clunky and difficult to navigate.\n- **Integration headaches**: Connecting with your existing CRM, accounting software, or IoT devices can be complex or impossible.\n- **Recurring costs**: Subscription models mean continuous expenditure, regardless of actual usage or value.\n- **Data silos**: Your service data might be locked into proprietary formats or inaccessible for advanced analytics.\n\n## The power of tailored solutions\n\nCreating a bespoke service management and maintenance application provides unparalleled advantages:\n\n### Perfect operational alignment\nYour custom tool reflects your actual field processes, dispatch logic, and maintenance schedules. No more workarounds or manual adjustments to fit a mismatched system.\n\n### Cost-effectiveness\nBeyond the initial build, you avoid perpetual subscription fees, saving significant operational costs over time. Invest once, own forever.\n\n### Enhanced data insights\nCollect precisely the data you need in the format you prefer. This enables superior reporting, predictive maintenance analysis, and service performance optimization.\n\n### Seamless integration\nDesigned from the ground up to connect with your existing business ecosystem—CRM, ERP, accounting, or even custom IoT sensors—ensuring a unified operational view.\n\n### Future-proof flexibility\nAs your business evolves, so can your software. Easily add new features, support new service types, or scale to accommodate growth without vendor lock-in.\n\n## Real-world impact\n\nCustom service management tools drive transformative efficiency:\n\n**HVAC & Facilities Management**: Automate preventive maintenance alerts based on asset usage, manage technician dispatch, and track part inventory with real-time updates from the field.\n\n**IT Services & Support**: Create a ticketing system that triages issues, assigns them to specialists, and tracks resolution times, complete with customer portals for status updates.\n\n**Equipment Rental & Maintenance**: Manage the lifecycle of rental assets, schedule mandatory inspections, track repair history, and forecast replacement needs.\n\n**Fleet Maintenance**: Monitor vehicle diagnostics, schedule routine servicing, and manage spare parts, reducing downtime and operational costs.\n\n## AI-driven development\n\nBuilding sophisticated software no longer requires large development teams or deep coding expertise. Kliv's AI-powered platform simplifies the process:\n\n- **Intuitive design**: Build user interfaces and backend logic by describing your needs in plain language.\n- **Rapid iteration**: See your ideas come to life quickly, enabling agile development and refinement.\n- **Smart integration**: AI assists in mapping data flows and connecting with external systems.\n- **Automated quality**: Built-in checks help ensure your application is robust and reliable.\n\nTake control of your service operations. Build a system that truly works for you."
+    },
+    {
+      "title": "Service management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Streamline regular maintenance schedules for equipment",
+          "prompt": "Create a preventive maintenance system that tracks equipment by location and age, automatically generates work orders for scheduled servicing, and assigns them to available technicians.",
+          "title": "Preventive maintenance scheduler"
+        },
+        {
+          "description": "Manage customer service requests from initial contact to resolution",
+          "prompt": "Build a service request portal where customers can submit issues, track their ticket status, and receive automated updates, while allowing technicians to manage, prioritize, and close requests.",
+          "title": "Customer service request portal"
+        },
+        {
+          "description": "Control spare parts and consumables for service jobs",
+          "prompt": "Develop an inventory management application specifically for service parts, including tracking stock levels, reorder points, supplier information, and usage per service job.",
+          "title": "Parts inventory management"
+        },
+        {
+          "description": "Organize and dispatch field technicians efficiently",
+          "prompt": "Design a field technician dispatch system that allows schedulers to view technician availability, assign work orders based on skills and location, and technicians to update job status from their mobile devices.",
+          "title": "Technician dispatch and job tracking"
+        },
+        {
+          "description": "Monitor and manage asset health and service history",
+          "prompt": "Create an asset management database that stores detailed information about each asset, including its service history, maintenance logs, warranty details, and performance metrics.",
+          "title": "Asset historical log and health tracker"
+        },
+        {
+          "description": "Automate recurring inspections and generate reports",
+          "prompt": "Build an inspection management tool that schedules recurring safety or compliance inspections, provides digital checklists for field staff, and automatically generates audit reports upon completion.",
+          "title": "Automated inspection scheduler"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your service management tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a mobile app for technicians to update job status, record parts used, and capture signatures on-site.",
+          "title": "Mobile technician application"
+        },
+        {
+          "prompt": "Integrate with a mapping service to optimize routing for technicians based on work order locations.",
+          "title": "Route optimization with mapping"
+        },
+        {
+          "prompt": "Implement a customer feedback module where clients can rate service and leave comments after a job is completed.",
+          "title": "Customer feedback and rating system"
+        },
+        {
+          "prompt": "Add a predictive maintenance feature that analyzes equipment data and suggests service based on potential failures.",
+          "title": "Predictive maintenance algorithms"
+        },
+        {
+          "prompt": "Include financial tracking for each service job, calculating costs of parts, labor, and profit margins.",
+          "title": "Job costing and profitability analysis"
+        },
+        {
+          "prompt": "Develop a vendor management module to track supplier performance, contact info, and pricing for parts.",
+          "title": "Supplier and vendor management"
+        },
+        {
+          "prompt": "Add a reporting dashboard showing key performance indicators (KPIs) like average response time, first-time fix rate, and technician utilization.",
+          "title": "Performance analytics dashboard"
+        },
+        {
+          "prompt": "Integrate with IoT sensors on equipment to trigger service alerts when specific thresholds are exceeded.",
+          "title": "IoT sensor integration for alerts"
+        },
+        {
+          "prompt": "Build a comprehensive knowledge base with troubleshooting guides and repair instructions for technicians.",
+          "title": "Technician knowledge base"
+        }
+      ]
+    },
+    {
+      "title": "Core service management features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Efficiently manage and track all incoming service requests and work orders.",
+          "icon": "📝",
+          "title": "Work order management"
+        },
+        {
+          "description": "Automate the scheduling of preventive and reactive maintenance tasks.",
+          "icon": "🗓️",
+          "title": "Scheduling & dispatch"
+        },
+        {
+          "description": "Track and manage inventory of parts, tools, and consumables.",
+          "icon": "📦",
+          "title": "Integrated inventory"
+        },
+        {
+          "description": "Maintain detailed records of all assets, their service history, and performance.",
+          "icon": "📊",
+          "title": "Asset tracking"
+        },
+        {
+          "description": "Provide a seamless communication channel between customers, technicians, and office staff.",
+          "icon": "💬",
+          "title": "Communication hub"
+        },
+        {
+          "description": "Generate custom reports and analytics to monitor service performance and identify trends.",
+          "icon": "📈",
+          "title": "Reporting & analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional service management application with Kliv typically takes days, not months. The complexity of your specific requirements will determine the exact timeline, but basic versions can be operational very quickly.",
+          "question": "How quickly can I deploy a custom service management solution?"
+        },
+        {
+          "answer": "You don't need any prior coding knowledge. Kliv’s AI-powered platform allows you to describe your desired features and processes in plain language, and the system translates that into a working application.",
+          "question": "Do I need programming skills to build this type of application?"
+        },
+        {
+          "answer": "Yes, custom-built Kliv applications can integrate with a wide range of external systems, including existing CRMs, ERPs, accounting software, and even custom IoT devices, through APIs. This ensures all your business data remains connected.",
+          "question": "Can this custom tool integrate with my existing business software?"
+        },
+        {
+          "answer": "Your intellectual property, data, and the application's source code are entirely yours. Kliv facilitates the building process, but you retain full ownership and control over your specific solution.",
+          "question": "Who owns the software and data once it's built?"
+        },
+        {
+          "answer": "While there's an initial investment, building a custom solution often proves more cost-effective long-term than recurring SaaS subscriptions. You pay once and own the system, avoiding continuous fees for features you might not fully use.",
+          "question": "How does the cost compare to off-the-shelf service management software?"
+        },
+        {
+          "answer": "Absolutely. One of the primary benefits of a custom solution is its adaptability. You can easily add new features, modify workflows, or scale capabilities as your service operations evolve, without being limited by a vendor's roadmap.",
+          "question": "Is it possible to modify or expand the application after it's developed?"
+        },
+        {
+          "answer": "Kliv provides tools for secure development and deployment. Since you control the hosting environment and data handling, you can implement robust security protocols tailored to your specific compliance needs, often exceeding generic SaaS offerings.",
+          "question": "What are the security implications of building my own system?"
+        },
+        {
+          "answer": "Kliv offers comprehensive support throughout the development process, including AI-driven guidance, troubleshooting tools, and best practice recommendations. For ongoing maintenance, since you own the code, you have full control over any future updates or debugging.",
+          "question": "What kind of support is available if I encounter issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your service and maintenance operations?",
+      "type": "cta",
+      "content": "Stop conforming to generic software. Build a service management tool that perfectly fits your unique business needs and drives unparalleled efficiency."
+    }
+  ],
+  "title": "Service management and maintenance tools"
+}

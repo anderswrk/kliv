@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a custom calendar and scheduling tool for project management. It needs to handle shared team calendars, task assignments, meeting scheduling, and deadline tracking.",
+  "description": "Build custom calendar and scheduling tools tailored for your project management and team collaboration needs with Kliv's AI platform.",
+  "hero": {
+    "cta": "Start building your calendar tool",
+    "subtitle": "Design and deploy custom calendar and scheduling applications perfectly integrated with your projects and teams.",
+    "title": "Build your own project calendar & scheduling tools"
+  },
+  "metaDescription": "Create powerful, hyper-specific calendar and scheduling tools for project management and team collaboration using Kliv. Synchronize deadlines, tasks, and meetings seamlessly.",
+  "sections": [
+    {
+      "title": "The challenge of generic scheduling tools",
+      "type": "text",
+      "content": "Off-the-shelf calendar and scheduling applications are designed for broad appeal, often leading to compromises in project management. They either lack essential project-centric features or are bloated with irrelevant ones. This forces teams to adapt their workflows to the tool, rather than the other way around.\n\nProject managers, team leads, and small businesses often find generic solutions insufficient for their unique collaboration patterns, complex dependencies, or specific reporting needs. The result is fragmented information, missed deadlines, and inefficient communication. Building a custom tool means creating an environment where your project calendar is precisely aligned with your operational realities."
+    },
+    {
+      "title": "Why a custom calendar is your project's competitive edge",
+      "type": "markdown",
+      "content": "## The limitations of one-size-fits-all\n\nExisting calendar and scheduling platforms, while useful, often fall short for dedicated project environments:\n\n- **Lack of project context**: They are general-purpose, not designed for project phases, task dependencies, or role-specific views.\n- **Integration headaches**: Connecting with your existing project management, CRM, or communication tools is often clunky or requires expensive add-ons.\n- **Scalability concerns**: As your projects grow in complexity or your team expands, generic tools can become unwieldy, slow, and costly.\n- **Data silos**: Information about deadlines, resources, and progress remains dispersed across multiple disconnected applications.\n- **Customization limits**: You're stuck with predefined templates and limited power to create unique workflows or visualisations.\n\n## The strategic advantage of custom development\n\nAI-powered development platforms like Kliv democratize software creation, making it feasible for organizations of any size to build highly specialized tools:\n\n### Perfect fit for your project methodology\nWhether you're Agile, Waterfall, or a hybrid, your custom calendar can visually represent project timelines, sprints, milestones, and dependencies exactly as your methodology demands. No more shoehorning your process into a rigid tool.\n\n### Seamless integration ecosystem\nConnect directly with your existing project management software, communication platforms (Slack, Teams), document management systems, and CRMs. Your calendar becomes the central hub, pulling and pushing data to where it's needed, eliminating manual updates and data discrepancies.\n\n### Enhanced control and data privacy\nOwn your data and infrastructure. Control who sees what and how information is shared. Implement security protocols that meet your company's specific compliance requirements, rather than relying on a third-party vendor's blanket approach.\n\n### Cost-efficiency and future-proofing\nMove from recurring subscription models to a one-time investment that delivers long-term value. Your custom tool can evolve with your business needs, adding features or adapting to new technologies without vendor lock-in.\n\n### Tailored reporting and analytics\nGenerate project-specific reports automatically. Track resource allocation, identify bottlenecks, forecast completion dates, and analyze team productivity with dashboards built to display the metrics that matter most to *your* projects.\n\n## Real-world impact\n\nBusinesses are leveraging custom calendar solutions to:\n\n**Software Development**: Visualize sprint backlogs, release cycles, developer availability, and merge request deadlines on a single, integrated calendar.\n\n**Marketing Agencies**: Manage content calendars, campaign launches, client review cycles, and team availability across multiple client projects.\n\n**Construction & Engineering**: Schedule phase completions, equipment delivery, personnel shifts, and inspection dates with detailed Gantt-like views.\n\n**Consulting Firms**: Coordinate client engagements, team travel, deliverable deadlines, and internal meeting schedules with advanced booking features.\n\n## The Kliv difference\n\nBuilding powerful, custom applications no longer requires a large team of developers. Kliv's AI-driven approach empowers you to:\n\n- **Describe your vision**: Use natural language to define the features, integrations, and user experience you desire.\n- **Rapidly prototype**: See iterative versions of your application generated in real-time, allowing for quick feedback and refinement.\n- **Automate complex logic**: Handle intricate scheduling rules, resource conflicts, and notification triggers effortlessly.\n- **Ensure quality and reliability**: AI-assisted development includes automated checks and suggestions for optimal performance.\n\nStop compromising with generic tools. Build a calendar and scheduling solution that genuinely supports your projects and fuels your team's success."
+    },
+    {
+      "title": "Calendar & scheduling ideas you can build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize tasks and projects in a shared team calendar",
+          "prompt": "Create a team calendar for project management that allows assigning tasks with due dates, displays project milestones, and offers different views like daily, weekly, monthly, and Gantt charts.",
+          "title": "Team Project Calendar"
+        },
+        {
+          "description": "Coordinate internal and external meeting appointments",
+          "prompt": "Build a meeting scheduling tool that lets internal teams propose meeting times, shows attendee availability from connected calendars, and sends automated invites with video conference links.",
+          "title": "Smart Meeting Scheduler"
+        },
+        {
+          "description": "Manage resource booking for projects and events",
+          "prompt": "Develop a resource booking system for facilities and equipment within our office, showing availability, allowing team members to reserve items, and preventing double-bookings.",
+          "title": "Resource Booking System"
+        },
+        {
+          "description": "Track project phases and critical path activities",
+          "prompt": "Design a project timeline visualizer that maps out project phases, critical path activities, dependencies between tasks, and allows drag-and-drop adjustments to schedules.",
+          "title": "Dynamic Project Timeline"
+        },
+        {
+          "description": "Plan content releases and marketing campaigns",
+          "prompt": "Build a content calendar for our marketing team showing publication dates for blog posts, social media updates, and email campaigns, with fields for content type, assignee, and status.",
+          "title": "Marketing Content Planner"
+        },
+        {
+          "description": "Manage client appointments and service delivery slots",
+          "prompt": "Create a client portal with a scheduling feature where external clients can book available consultation slots, receive automated reminders, and reschedule appointments.",
+          "title": "Client Appointment Portal"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your scheduling application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add user authentication and role-based access control so different teams or clients see only relevant calendar entries.",
+          "title": "Implement User Roles & Permissions"
+        },
+        {
+          "prompt": "Integrate with external calendar services like Google Calendar, Outlook Calendar, or Apple Calendar for seamless synchronization.",
+          "title": "Sync with External Calendars"
+        },
+        {
+          "prompt": "Enable email and SMS notifications for new appointments, changes, and upcoming deadlines.",
+          "title": "Add Automated Notifications"
+        },
+        {
+          "prompt": "Develop a dashboard to show workload distribution, project progress, and potential scheduling conflicts.",
+          "title": "Build a Reporting Dashboard"
+        },
+        {
+          "prompt": "Incorporate AI to suggest optimal meeting times based on attendee calendars and meeting urgency.",
+          "title": "Intelligent Scheduling Assistant"
+        },
+        {
+          "prompt": "Allow users to attach files (documents, images) to calendar events or tasks.",
+          "title": "Enable File Attachments"
+        },
+        {
+          "prompt": "Include a chat or commenting feature directly on calendar events for seamless team communication.",
+          "title": "Embed In-Context Communication"
+        },
+        {
+          "prompt": "Add a feature to export calendar data to common formats like ICS, CSV, or PDF for external sharing or archiving.",
+          "title": "Export Calendar Data"
+        },
+        {
+          "prompt": "Integrate with video conferencing tools (Zoom, Google Meet, Microsoft Teams) to automatically generate meeting links.",
+          "title": "Video Conference Integration"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for custom calendar & scheduling",
+      "type": "features",
+      "items": [
+        {
+          "description": "Visualize tasks, milestones, and projects in intuitive daily, weekly, monthly, or Gantt views.",
+          "icon": "📆",
+          "title": "Flexible Calendar Views"
+        },
+        {
+          "description": "Assign tasks, track progress, and manage dependencies within your project timeline.",
+          "icon": "✅",
+          "title": "Task & Project Management"
+        },
+        {
+          "description": "Seamlessly integrate with existing tools like CRMs, PM software, and communication platforms.",
+          "icon": "🔗",
+          "title": "Custom Integrations"
+        },
+        {
+          "description": "Automate reminders, notifications, and follow-ups for meetings and deadlines.",
+          "icon": "🔔",
+          "title": "Automated Alerts"
+        },
+        {
+          "description": "Define custom user roles and permissions for secure access and data control.",
+          "icon": "🔐",
+          "title": "User & Access Management"
+        },
+        {
+          "description": "Gain insights into resource allocation, workload, and project timelines with custom reports.",
+          "icon": "📈",
+          "title": "Advanced Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom project calendar tool with Kliv can take anywhere from a few hours for a basic prototype to a few days or weeks for a comprehensive, enterprise-grade system, depending on complexity and features.",
+          "question": "How long does it take to develop a custom calendar and scheduling tool?"
+        },
+        {
+          "answer": "No, you don't need any coding skills. Kliv's platform allows you to describe your desired application in natural language, and the AI assists in generating the underlying code and structure.",
+          "question": "Do I need to be a developer to build a scheduling application on Kliv?"
+        },
+        {
+          "answer": "Yes, custom-built applications on Kliv are designed for extensibility. You can integrate with virtually any third-party service that provides an API, including popular project management tools, CRM systems, and communication platforms.",
+          "question": "Can my custom calendar integrate with our existing project management software?"
+        },
+        {
+          "answer": "You retain full ownership of the application you build. This includes the code, data, and all intellectual property. You're not locked into any proprietary system.",
+          "question": "Who owns the calendar application once it's built?"
+        },
+        {
+          "answer": "While there's an initial development investment, custom solutions often become more cost-effective than recurring SaaS subscriptions, especially for specialized needs. You pay once and own the asset.",
+          "question": "How does the cost compare to off-the-shelf calendar software?"
+        },
+        {
+          "answer": "Absolutely. Custom tools offer unparalleled flexibility. You can continuously iterate, add new features, or modify existing ones as your project management needs evolve without being limited by vendor updates.",
+          "question": "Can I modify or add features to my custom calendar application after it's launched?"
+        },
+        {
+          "answer": "Yes, building your own tool gives you complete control over security protocols and data hosting, allowing you to meet specific compliance requirements and enhance data privacy beyond what generic SaaS solutions might offer.",
+          "question": "Are custom-built scheduling applications secure?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance throughout the development process. For more specific questions, our documentation and community forums are available. Since you own the code, you also have the freedom to hire any developer for ongoing maintenance or advanced features.",
+          "question": "What kind of support is available if I encounter issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate project calendar?",
+      "type": "cta",
+      "content": "Stop wrestling with generic tools. Create a calendar and scheduling solution that truly understands and streamlines your project workflows."
+    }
+  ],
+  "title": "Project Management & Collaboration Calendars"
+}

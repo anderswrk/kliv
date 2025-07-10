@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a license management system that generates unique keys, tracks activations, manages subscription validity, and revokes licenses.",
+  "description": "Build custom license management and key generation tools for your software products with Kliv.",
+  "hero": {
+    "cta": "Build your licensing tool",
+    "subtitle": "Secure your software, manage user access, and streamline licensing operations with a custom-built solution.",
+    "title": "Custom License Management & Key Generation Tools"
+  },
+  "metaDescription": "Create powerful, custom license management and key generation platforms using Kliv. Control access, track usage, and secure your intellectual property.",
+  "sections": [
+    {
+      "title": "The challenge of effective software licensing",
+      "type": "text",
+      "content": "In today's software-driven world, protecting your intellectual property and controlling access to your applications is paramount. Generic licensing solutions often fall short, offering limited flexibility, complex integration, and recurring costs that eat into your margins. Businesses need a system that precisely fits their distribution model, security requirements, and customer experience goals.\n\nOff-the-shelf licensing tools frequently force compromises: you might sacrifice control over key generation algorithms, struggle with adapting complex subscription models, or face significant hurdles integrating with your existing sales and analytics infrastructure. Building your own license management system gives you the precision and proprietary control you need to thrive."
+    },
+    {
+      "title": "Why build your own license management system?",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf licensing solutions\n\nMany companies start with general-purpose license management tools, only to discover their rigid structure can hinder growth and innovation:\n\n- **Lack of Customization**: They often lack the flexibility to support unique licensing models (e.g., node-locked, floating, per-feature, usage-based).\n- **Integration Headaches**: Integrating a third-party service deeply into your product and sales funnels can be cumbersome and error-prone.\n- **Vendor Lock-in**: Relying on an external provider means you're subject to their pricing, feature roadmap, and potential service changes.\n- **Security Concerns**: Trusting your core intellectual property protection to a third party can introduce security vulnerabilities or compliance issues.\n- **Opaque Analytics**: Gaining deep insights into license usage, activation trends, and key generation patterns is often limited.\n\n## The power of a custom-built solution\n\nBuilding your own license management and key generation system with Kliv offers unparalleled advantages:\n\n### Total Control & Flexibility\nDesign licensing models that exactly match your product's value proposition and market strategy. Implement specific activation limits, trial periods, subscription tiers, and feature sets with granular control.\n\n### Seamless Integration\nEmbed your licensing system directly into your application, website, and CRM. Automate key delivery, activation, and usage tracking with deep, native integrations.\n\n### Enhanced Security\nImplement strong cryptographic key generation algorithms and robust validation mechanisms. Control where your licensing logic resides and how it interacts with your software, minimizing external attack surfaces.\n\n### Cost Savings Over Time\nEliminate recurring per-license or per-user fees associated with third-party providers. A custom solution represents a one-time development investment with long-term cost benefits.\n\n### Rich Analytics & Insights\nTrack license activations, expirations, feature usage, and geographical distribution to inform product development, marketing, and sales strategies.\n\n## Real-world applications of custom licensing\n\n- **Software Vendors**: Manage perpetual licenses, subscription plans, and trial periods for desktop, web, or mobile applications.\n- **SaaS Providers**: Implement seat-based, usage-based, or feature-gated access with dynamic provisioning.\n- **Hardware Manufacturers**: Bundle software licenses with hardware, activating specific features based on purchased models.\n- **Content Creators**: Protect digital content distribution with unique keys for access or limited downloads.\n- **API Providers**: Generate API keys for developer access, tracking usage limits and billing based on consumption.\n\n## Kliv: Simplifying complex builds\n\nLeveraging Kliv's AI-powered platform, you can rapid-prototype and deploy sophisticated license management tools without deep expertise in cryptography or backend development. Describe your requirements, and Kliv helps you construct the core logic, database schema, and API endpoints needed to manage your software licenses effectively. Skip the boilerplate and focus on your unique business rules."
+    },
+    {
+      "title": "Key generation & management ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Generate unique, cryptographic keys for each software purchase, linking them to customer data and product versions.",
+          "prompt": "Create a secure key generation system that produces unique alphanumeric license keys for software products, associating each key with a customer ID and product version. The system should prevent duplicate key generation.",
+          "title": "Secure License Key Generator"
+        },
+        {
+          "description": "Track when licenses are activated on devices, including device IDs and activation timestamps, and prevent over-activations.",
+          "prompt": "Develop a license activation tracking system that records device identifiers upon activation, limits the number of activations per key, and provides a dashboard to view active licenses.",
+          "title": "Device-bound License Activation Tracker"
+        },
+        {
+          "description": "Manage subscription periods for software, automatically notifying users of upcoming expirations and allowing renewals.",
+          "prompt": "Build a subscription license manager that sets expiration dates for keys, notifies users 30-7 days before expiry, and handles license renewal logic, extending the validity period.",
+          "title": "Subscription-Based License Manager"
+        },
+        {
+          "description": "Create a web-based portal where customers can view their purchased licenses, activation history, and manage their linked devices.",
+          "prompt": "Design a customer license portal where users can log in, see a list of their purchased software licenses, view activation details, and optionally deactivate licenses from old devices.",
+          "title": "Customer License Portal"
+        },
+        {
+          "description": "Automate the revocation of licenses that are found to be fraudulent or belong to refunded purchases.",
+          "prompt": "Implement a license revocation system that allows administrators to invalidate specific license keys, preventing further activations or future usage of the associated software.",
+          "title": "License Revocation & Blacklisting"
+        },
+        {
+          "description": "Generate trial keys with limited features or timeframes, automatically expiring them after the trial period ends.",
+          "prompt": "Create a trial license key generator that produces keys with a set expiration period (e.g., 30 days) and restricts access to specific 'pro' features of the software.",
+          "title": "Time-Limited Trial Key Generator"
+        }
+      ]
+    },
+    {
+      "title": "Expand your licensing solution",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add an API for license key generation and validation, allowing external systems (e.g., e-commerce platform) to interact with it.",
+          "title": "Integrate a public API"
+        },
+        {
+          "prompt": "Incorporate analytics to track feature usage per license, providing insights into which parts of your software are most used.",
+          "title": "Add feature usage analytics"
+        },
+        {
+          "prompt": "Implement a 'grace period' for license expirations, allowing temporary access after expiry before full lockout.",
+          "title": "Develop grace period logic"
+        },
+        {
+          "prompt": "Create a dashboard for administrators to monitor all active licenses, view activation trends, and manage key statuses.",
+          "title": "Build administrative dashboard"
+        },
+        {
+          "prompt": "Integrate with email notification services to automatically send activation confirmations or expiration warnings.",
+          "title": "Automate email notifications"
+        },
+        {
+          "prompt": "Add support for floating licenses, where a limited number of concurrent users can use the software across a network.",
+          "title": "Implement floating licenses"
+        },
+        {
+          "prompt": "Allow licenses to be optionally bound to specific hardware IDs (e.g., CPU, HDD serials) for enhanced security.",
+          "title": "Add hardware ID binding"
+        },
+        {
+          "prompt": "Enable offline license activation through challenge-response mechanisms for environments without internet access.",
+          "title": "Support offline activations"
+        },
+        {
+          "prompt": "Build a module for managing feature toggles associated with different license types, allowing dynamic feature enablement.",
+          "title": "Add feature gating capabilities"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities for robust licensing",
+      "type": "features",
+      "items": [
+        {
+          "description": "Generate unique, cryptographically secure license keys for your software.",
+          "icon": "🔑",
+          "title": "Secure Key Generation"
+        },
+        {
+          "description": "Track license states, activations, expirations, and associated user/device data.",
+          "icon": "📊",
+          "title": "License Lifecycle Management"
+        },
+        {
+          "description": "Define and enforce various licensing models: perpetual, subscription, trial, usage-based.",
+          "icon": "📋",
+          "title": "Flexible Licensing Models"
+        },
+        {
+          "description": "Integrate with your existing sales, CRM, and analytics platforms via custom APIs.",
+          "icon": "🔗",
+          "title": "Custom API Endpoints"
+        },
+        {
+          "description": "Easily invalidate or reactivate licenses based on business rules or customer requests.",
+          "icon": "❌",
+          "title": "Revocation & Renewal"
+        },
+        {
+          "description": "Access detailed reports and insights on license usage, activations, and key distribution.",
+          "icon": "📈",
+          "title": "Reporting & Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Common questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic license key generator and tracker could be functional within hours. A full-fledged system with complex models and integrations might take a few days of iterative development.",
+          "question": "How quickly can I build a license management system with Kliv?"
+        },
+        {
+          "answer": "No, you don't need to be a cryptography expert or a seasoned backend developer. Kliv's AI assists in structuring the database, generating code for key logic, and setting up API endpoints based on your descriptions.",
+          "question": "Do I need deep technical expertise to build this?"
+        },
+        {
+          "answer": "Yes, you can integrate your custom licensing tool with virtually any system that has an API, including your e-commerce platform, CRM (e.g., Salesforce), analytics tools, or even your software application itself.",
+          "question": "Can I integrate this with my existing sales and product systems?"
+        },
+        {
+          "answer": "You retain full ownership of the generated code and database schema. This means you have complete control over your licensing logic, data, and future modifications.",
+          "question": "Who owns the license management system I build?"
+        },
+        {
+          "answer": "By building your own, you avoid recurring per-license or per-user fees from third-party services. While there's an initial development effort, it quickly becomes more cost-effective for growing businesses with unique needs.",
+          "question": "How does this compare in cost to commercial licensing solutions?"
+        },
+        {
+          "answer": "Yes, security is a prime benefit of building your own. You control the key generation algorithms, database encryption, and hosting environment, allowing you to implement security measures tailored to your specific threats and compliance needs.",
+          "question": "Is a custom-built license system more secure than a third-party one?"
+        },
+        {
+          "answer": "Absolutely. Your custom tool is designed to be fully adaptable. You can easily add new licensing models, incorporate new features, or modify existing logic as your business and product offerings evolve.",
+          "question": "Can I modify or expand the system after it's initially built?"
+        },
+        {
+          "answer": "Kliv acts as an intelligent co-pilot, guiding you through the development process. For ongoing maintenance, since you own the codebase, you can manage it with your internal team or work with any standard software developer.",
+          "question": "What kind of support is available for maintenance after building?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your software licenses?",
+      "type": "cta",
+      "content": "Stop relying on restrictive, costly third-party solutions. Build a bespoke license management system that truly serves your business needs and secures your intellectual property."
+    }
+  ],
+  "title": "Build a Custom License Management & Key Generation Tool"
+}

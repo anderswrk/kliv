@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "Create a task management system that allows users to create tasks, assign them to team members, set due dates, track progress, and generate reports.",
+  "description": "Build custom task and to-do management applications tailored to your team's unique workflow.",
+  "hero": {
+    "cta": "Start Managing Tasks",
+    "subtitle": "Develop powerful and flexible task and to-do management tools that perfectly fit your team's needs, not the other way around.",
+    "title": "Build your own Task & To-Do Management System"
+  },
+  "metaDescription": "Create powerful task and to-do management tools with Kliv. Tailor features like task assignment, progress tracking, reporting, and custom workflows to boost your team's productivity.",
+  "sections": [
+    {
+      "title": "The challenge with off-the-shelf task managers",
+      "type": "text",
+      "content": "In today's fast-paced work environment, effective task and to-do management is crucial. However, generic tools often fall short. They either offer too many irrelevant features, lack essential customizability, or tie you into expensive subscriptions that don't scale efficiently with your team. These limitations can lead to fragmented workflows, missed deadlines, and overall decreased productivity."
+    },
+    {
+      "title": "Why a custom task management solution is best",
+      "type": "markdown",
+      "content": "## The pitfalls of general task apps\n\nOff-the-shelf task management software, while convenient to start, often creates more problems than it solves:\n\n- **Feature bloat**: Overwhelms users with functions they'll never use.\n- **Lack of specificity**: Doesn't align with your unique business processes or terminology.\n- **Integration hurdles**: Struggles to connect seamlessly with your other critical business systems.\n- **Recurring costs**: Subscription fees add up, especially as your team grows.\n- **Data sovereignty**: You don't fully control where your sensitive task data resides.\n\n## The power of a tailored application\n\nImagine a task management system designed from the ground up to match your exact operational needs. With Kliv, this is not just possible, it's efficient and cost-effective. Here's why custom is superior:\n\n### Perfect process alignment\nYour business has distinct workflows. A custom solution can mirror these processes precisely, ensuring tasks flow logically, assignments are clear, and approvals happen efficiently. No more shoehorning your operations into a pre-defined template.\n\n### Scalability on your terms\nAs your team expands or your projects evolve, your custom system grows with you. Add new user roles, project types, reporting metrics, or integration points without needing to switch platforms or pay for higher tiers.\n\n### Cost efficiency\nWhile an initial investment is required, a custom system eliminates recurring per-user fees that can quickly become unsustainable. Over time, it's a significant cost-saver, transforming an operational expense into a valuable asset.\n\n### Enhanced data insights\nCollect and analyze data specific to *your* task completion rates, project bottlenecks, and resource allocation. Generate custom reports that provide actionable insights relevant to your business objectives.\n\n### Seamless integration\nBuilt-in integrations with your existing CRM, ERP, communication tools, or document management systems mean no more manual data transfers or siloed information. Your task manager becomes the central hub it needs to be.\n\n## Real-world impact\n\nCustom task and to-do management tools can revolutionize various aspects of your business:\n\n**Software Development**: Agile sprint planning, bug tracking, and feature development with custom statuses and real-time code repository integration.\n\n**Marketing Agencies**: Campaign management, content calendar coordination, and client feedback loops with automated notifications.\n\n**Construction & Field Services**: Site inspections, repair assignments, and safety checklist completion for remote teams with geo-tagging capabilities.\n\n**Event Management**: Detailed planning checklists, vendor management, and real-time progress updates across multiple concurrent events.\n\n## Building with AI efficiency\n\nKliv leverages advanced AI to simplify complex software development. This means:\n\n- **Accelerated development**: Go from idea to functional application in days or weeks, not months.\n- **Iterative refinement**: Easily modify and improve your system based on user feedback.\n- **Reduced technical burden**: Focus on your business logic, not on intricate coding details.\n\nStop adapting your processes to rigid software. Build the task management system that adapts to you, with Kliv."
+    },
+    {
+      "title": "Task management ideas to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create, assign, and track project tasks with dependencies and progress indicators.",
+          "prompt": "Build a project task management system where users can define projects, add tasks with start/due dates, assign tasks to team members, track percentage completion, and view a Gantt chart.",
+          "title": "Project-specific task manager"
+        },
+        {
+          "description": "Manage personal to-do lists, set reminders, and prioritize daily activities.",
+          "prompt": "Develop a personal to-do list application with categories, priority levels, recurring tasks, and notification reminders for upcoming due dates.",
+          "title": "Personal to-do list app"
+        },
+        {
+          "description": "Handle customer support tickets, assign them, and track resolution steps.",
+          "prompt": "Design a customer support ticket system that allows agents to log new issues, assign them to specialists, update status, add internal notes, and notify customers of resolution.",
+          "title": "Helpdesk ticket system"
+        },
+        {
+          "description": "Coordinate marketing campaigns with content schedules and team assignments.",
+          "prompt": "Create a marketing campaign planner that allows defining campaigns, breaking them into sub-tasks (e.g., blog post, social media graphic), assigning owners, and setting content publication dates.",
+          "title": "Marketing content planner"
+        },
+        {
+          "description": "Oversee construction site activities, inspections, and material deliveries.",
+          "prompt": "Build a construction site task tracker for site managers to assign daily tasks to crew members, log material deliveries, track safety checks, and report on work completed.",
+          "title": "Construction site supervisor"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your task manager",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication system with different roles (e.g., admin, manager, team member) and corresponding permissions for viewing/editing tasks.",
+          "title": "User roles & permissions"
+        },
+        {
+          "prompt": "Implement real-time notifications for task assignments, due date reminders, and status changes via email or in-app alerts.",
+          "title": "Real-time notifications"
+        },
+        {
+          "prompt": "Integrate with Google Calendar or Outlook Calendar to automatically add task due dates as calendar events for assigned users.",
+          "title": "Calendar synchronization"
+        },
+        {
+          "prompt": "Develop a reporting dashboard to visualize task completion rates, overloaded team members, and overdue tasks to identify bottlenecks.",
+          "title": "Analytics dashboard"
+        },
+        {
+          "prompt": "Add file attachment capabilities to tasks, allowing users to upload relevant documents, images, or links.",
+          "title": "File attachments"
+        },
+        {
+          "prompt": "Enable task dependencies, where one task cannot start until another is completed, and visualize these dependencies.",
+          "title": "Task dependencies"
+        },
+        {
+          "prompt": "Allow users to communicate about specific tasks through integrated comments or a chat function directly within the task details.",
+          "title": "In-task communication"
+        }
+      ]
+    },
+    {
+      "title": "Core features of custom task managers",
+      "type": "features",
+      "items": [
+        {
+          "description": "Create, assign, prioritize, and track individual or team tasks with custom fields.",
+          "icon": "✅",
+          "title": "Flexible Task Creation"
+        },
+        {
+          "description": "Set and monitor due dates, start dates, and recurring schedules for any task.",
+          "icon": "📅",
+          "title": "Date & Schedule Management"
+        },
+        {
+          "description": "Assign tasks to specific users or teams and track their progress through customizable statuses.",
+          "icon": "🤝",
+          "title": "Team Assignment & Tracking"
+        },
+        {
+          "description": "Create custom reports and dashboards to gain insights into team workload and project status.",
+          "icon": "📈",
+          "title": "Custom Reporting"
+        },
+        {
+          "description": "Connect your task manager with your existing CRM, ERP, or communication platforms.",
+          "icon": "🔗",
+          "title": "Seamless Integrations"
+        },
+        {
+          "description": "Automate notifications, reminders, and escalation paths for critical tasks.",
+          "icon": "🔔",
+          "title": "Automated Alerts"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom task management system with Kliv can range from a few hours for a basic version to a few days or weeks for a comprehensive enterprise solution, depending on complexity and integrations. It's significantly faster than traditional development cycles.",
+          "question": "How long does it take to develop a custom task management system?"
+        },
+        {
+          "answer": "No, extensive coding knowledge is not required. Kliv's platform is designed for users to describe their desired features and logic in natural language, and the AI assists in generating functional code.",
+          "question": "Do I need to be a programmer to build my own task manager?"
+        },
+        {
+          "answer": "Absolutely. Your custom application can be configured to integrate with almost any existing business tool that provides an API, including common platforms like Google Workspace, Microsoft 365, Slack, Salesforce, and more.",
+          "question": "Can my custom task management app integrate with my other business software?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and all data within it. Kliv provides the platform for creation, but the intellectual property is entirely yours.",
+          "question": "Who owns the task management application once it's built?"
+        },
+        {
+          "answer": "While there's an upfront development investment, a custom solution eliminates recurring per-user subscription fees common with SaaS products. Over time, especially for growing teams, it typically proves to be a more cost-effective solution.",
+          "question": "How does the cost compare to off-the-shelf task management software?"
+        },
+        {
+          "answer": "Yes, flexibility is a core benefit. You can continuously modify, iterate, and add new features to your task management system as your business needs evolve, without limitations from a vendor.",
+          "question": "Can I modify or expand the system after I’ve built it?"
+        },
+        {
+          "answer": "Since you control the hosting environment and security protocols, a custom-built solution can often be more secure than relying on a third-party service provider. You dictate data privacy and access management.",
+          "question": "Is a custom-built task management tool secure?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ideal task manager?",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Design a task and to-do management system that truly empowers your team's unique way of working."
+    }
+  ],
+  "title": "Task & To-Do Management"
+}

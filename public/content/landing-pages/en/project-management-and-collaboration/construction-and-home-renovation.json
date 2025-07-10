@@ -1,0 +1,178 @@
+{
+  "defaultPrompt": "I want to create a construction project management tool for residential contractors that includes client communication, progress tracking, budget management, and subcontractor coordination.",
+  "description": "Build custom project management and collaboration tools for construction and home renovation with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Building",
+    "subtitle": "Streamline operations, enhance communication, and deliver projects on time and budget with tailored software solutions.",
+    "title": "Custom Project Management for Construction & Renovation"
+  },
+  "metaDescription": "Create powerful project management tools for construction and home renovation with Kliv. Track progress, manage budgets, coordinate teams, and improve client communication for any project size.",
+  "sections": [
+    {
+      "title": "The Challenge of Construction Project Management",
+      "type": "text",
+      "content": "Construction and home renovation projects are complex, involving multiple stakeholders, dynamic schedules, and tight budgets. Off-the-shelf software often misses the mark, providing generic features that don't quite fit the unique demands of your business. This leads to inefficiencies, communication breakdowns, and ultimately, reduced profitability.\n\nImagine a tool designed specifically for your workflows, your team, and your clients. A tool that eliminates manual data entry, automates routine tasks, and provides real-time insights into every aspect of your projects. Kliv helps you create exactly that, without needing to hire a development team or spend a fortune."
+    },
+    {
+      "title": "Why Build Your Own Construction Project Management Tool?",
+      "type": "markdown",
+      "content": "## The Limitations of Generic Software\n\nMany construction businesses rely on generic project management software or a patchwork of spreadsheets and isolated tools. This approach often leads to:\n\n- **Feature Overload/Underload**: Paying for features you don't use, or lacking critical functionalities specific to construction.\n- **Poor Integration**: Data silos between different tools, leading to duplicate entry and inconsistencies.\n- **Lack of Customization**: Inability to adapt to your specific project types, client requirements, or unique regulations.\n- **Steep Learning Curves**: Generic systems often require extensive training for field teams that are not tech-savvy.\n- **Recurring Costs**: Monthly subscriptions that add up, often without delivering full value.\n\n## The Power of a Tailored Solution\n\nBuilding a custom project management tool with Kliv transforms your operations by providing:\n\n### Precision Matching Your Workflow\nYour custom application will mirror your exact project phases, approval processes, and data collection needs. No compromises, no workarounds—just a seamless fit for how you actually work.\n\n### Enhanced Communication & Collaboration\nCentralize all project communications, documents, photos, and updates. Provide tailored access for clients, subcontractors, and suppliers, ensuring everyone is on the same page and reducing misunderstandings.\n\n### Real-time Financial Control\nTrack every expense, invoice, and payment in real-time. Compare actual costs to budget, forecast cash flow, and generate detailed financial reports instantly to maintain project profitability.\n\n### Improved Field-to-Office Data Flow\nEmpower your field teams with mobile-friendly interfaces to log daily reports, capture progress photos, request materials, and report issues directly, eliminating paperwork and delays.\n\n### Reduced Risk & Compliance\nIntegrate safety checklists, quality control procedures, and regulatory requirements directly into your project workflows. Ensure proper documentation and adherence to standards for every task.\n\n## Real-World Examples of Custom Solutions\n\nCustom project management tools are revolutionizing construction:\n\n**Residential Renovation**: An app that manages client selections, tracks progress with daily photo uploads, sends automated payment reminders, and provides clients with a personalized portal.\n\n**Commercial Fit-Outs**: A system that integrates with BIM models, tracks material deliveries against submittals, manages RFI and submittal workflows, and provides real-time schedule updates.\n\n**Specialized Trades**: A tool for HVAC installers to manage service calls, track equipment warranties, schedule preventative maintenance, and generate digital work orders, all from a tablet.\n\n## The Kliv Advantage\n\nBuilding custom software is no longer a luxury for large enterprises. Kliv's AI-driven approach makes it accessible for any construction or renovation business:\n\n- **Visual Development**: Build intuitive interfaces by describing your needs.\n- **Automated Logic Generation**: Define workflows and rules, and watch the AI build the underlying code.\n- **Instant Deployment**: Test and deploy your application rapidly, getting immediate feedback from your team.\n- **Scalability**: Your tool grows with your business and can be easily modified as your needs evolve.\n\nStop adapting to software that wasn't built for you. Start building software that perfectly fits your construction business and gives you a competitive edge."
+    },
+    {
+      "title": "Construction Project Management Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Client Communication Portal App for Home Builders with Document Sharing and Progress Photos and Approval Workflows for Change Orders and Material Selections. Also include in-app messaging and automated notifications for key milestones. Users should have unique login roles for Clients, Project Managers, and Subcontractors, with restricted access for each role to only relevant project details. Clients should only see their projects and be able to approve or reject selections, while Project Managers can edit anything related to their assigned projects. Subcontractors can see relevant tasks and upload progress updates but cannot view financial information. Finally, add the ability to generate PDF export of selection approval history for clients. The client portal must be mobile responsive, so clients can view it easily from any device. Photos uploaded by subcontractors should have location and timestamp metadata. Also, include a feature for clients to 'like' photo updates, and comment on them, with automatic notification to the project manager. Subcontractors should also be able to request an RFI within the app, and this should trigger a notification to the project manager for review and approval. All notifications (messages, approvals, RFIs) should be configurable by the user, so they can choose to receive email, SMS, or in-app alerts. Project managers should also be able to invite new clients to the app, which would generate an email invite with a unique login link for them. Finally, add a feature for clients to leave feedback on the project upon completion, using a simple star rating and text field, with results being aggregated in a project manager dashboard. Also add a simple calendar view for project milestones, accessible by clients and project managers. The calendar should integrate with Google Calendar so events can be added easily. Finally, include a section for warranties, where clients can view details, expiration dates, and contact information for various components installed, and submit a warranty claim directly through the portal, which generates a ticket for the project manager. The app should also integrate with a cloud storage solution like Dropbox or Google Drive to store all uploaded documents and photos securely, with automatic categorization by project. Include robust search functionality for all documents and communications. All data should be backed up daily, and an audit trail of all actions performed by users should be maintained for compliance and dispute resolution. The app should allow project managers to create project templates that pre-fill common tasks, checklists, and document requirements for different project types (e.g., kitchen remodel, bathroom addition, new build). This significantly reduces setup time for new projects. Finally, add the ability for project managers to assign tasks to specific subcontractors within the app, set due dates, and track completion status. Subcontractors will receive notifications about new tasks and can mark them as complete once done."
+        },
+        {
+          "description": "An app focusing on field teams for daily logs and issue tracking",
+          "prompt": "Create a mobile-first application for field crews to submit daily reports, including photos, progress updates, labor hours, and material usage. Also, allow them to log safety incidents and equipment breakdowns, with GPS tagging and immediate notification to supervisors.",
+          "title": "Daily Reporting & Issue Tracking for Field Crews"
+        },
+        {
+          "description": "A tool to manage subcontractors, bids, and compliance documents",
+          "prompt": "Build a subcontractor management portal where contractors can invite subs to bid on projects, track their insurance and license expiry dates, collect required compliance documents, and manage payment schedules.",
+          "title": "Subcontractor & Vendor Management"
+        },
+        {
+          "description": "Track project expenses and compare against budget",
+          "prompt": "Develop a financial tracking tool for construction projects that allows project managers to log all expenses, allocate them to budget categories, view real-time budget vs. actuals, and generate expense reports.",
+          "title": "Project Budget & Expense Control"
+        },
+        {
+          "description": "Centralize and manage all project documents",
+          "prompt": "Design a document management system specific to construction projects, allowing for upload, version control, sharing, and annotation of blueprints, permits, contracts, and specifications. Include search functionality and access permissions.",
+          "title": "Construction Document Management System"
+        },
+        {
+          "description": "Streamline punch list creation and resolution",
+          "prompt": "Create a punch list application where field teams can log deficiencies with photos and descriptions, assign remedies to specific subcontractors, track resolution status, and get client sign-off on completion.",
+          "title": "Punch List Management"
+        }
+      ]
+    },
+    {
+      "title": "Ways to Enhance Your Construction Management Tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with accounting software like QuickBooks or Xero to sync invoices and payments.",
+          "title": "Accounting Software Integration"
+        },
+        {
+          "prompt": "Add a feature for project scheduling using Gantt charts or Kanban boards, allowing drag-and-drop task management.",
+          "title": "Advanced Scheduling & Task Management"
+        },
+        {
+          "prompt": "Implement AI-powered risk assessment that flags potential delays or budget overruns based on historical data.",
+          "title": "AI-Powered Risk Analysis"
+        },
+        {
+          "prompt": "Include IoT sensor integration for tracking equipment location, usage, and maintenance needs.",
+          "title": "Equipment Tracking & Maintenance"
+        },
+        {
+          "prompt": "Develop a lead management module that tracks potential projects from inquiry to winning the bid.",
+          "title": "Lead & Bid Management Module"
+        },
+        {
+          "prompt": "Add capabilities for managing material orders, tracking deliveries, and managing inventory.",
+          "title": "Material & Inventory Management"
+        },
+        {
+          "prompt": "Build a comprehensive analytics dashboard showing project profitability, team productivity, and common issues.",
+          "title": "Custom Analytics Dashboard"
+        },
+        {
+          "prompt": "Enable offline mode for field teams to access and enter data without internet connectivity, syncing later.",
+          "title": "Offline Data Entry"
+        },
+        {
+          "prompt": "Incorporate augmented reality (AR) features for visualizing designs on-site through a mobile device.",
+          "title": "AR Visualization Tools"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Construction Project Management",
+      "type": "features",
+      "items": [
+        {
+          "description": "Centralize all project information, schedules, and documents in one place.",
+          "icon": "📂",
+          "title": "Centralized Project Hub"
+        },
+        {
+          "description": "Secure portals for clients, subcontractors, and suppliers with role-based access.",
+          "icon": "🤝",
+          "title": "Stakeholder Collaboration"
+        },
+        {
+          "description": "Track project expenses, invoices, and payments against budget in real-time.",
+          "icon": "💰",
+          "title": "Financial Oversight"
+        },
+        {
+          "description": "Capture daily reports, progress photos, and issue logs directly from the field.",
+          "icon": "📸",
+          "title": "Field Data Collection"
+        },
+        {
+          "description": "Define custom workflows for permits, inspections, change orders, and approvals.",
+          "icon": "⚙️",
+          "title": "Customizable Workflows"
+        },
+        {
+          "description": "Automated email and SMS notifications for milestones, delays, or critical actions.",
+          "icon": "🔔",
+          "title": "Automated Notifications"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic construction project management tool with Kliv can take days or even hours, depending on complexity. Comprehensive systems with many integrations might take a few weeks to fully develop and refine.",
+          "question": "How long does it take to build a custom construction management application?"
+        },
+        {
+          "answer": "You do not need to be a programmer. Kliv’s AI-powered platform allows you to describe your desired features and functionalities using natural language. The AI then assists in generating the application components.",
+          "question": "Do I need to be a developer to create this type of software?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with a wide range of existing construction software, accounting systems (like QuickBooks, Xero), CRM tools, or specific industry standard APIs. This ensures your new tool works seamlessly with your current tech stack.",
+          "question": "Can the custom tool integrate with my existing construction software or accounting systems?"
+        },
+        {
+          "answer": "Yes, all intellectual property, including code and data, belongs entirely to you. You are not locked into any proprietary system and have full control over your application's future development and hosting.",
+          "question": "Who owns the intellectual property of the custom application I build?"
+        },
+        {
+          "answer": "The initial investment for a custom build is typically a one-time cost, which often becomes more cost-effective than recurring SaaS subscriptions, especially for specialized business needs. Kliv's platform aims to minimize this initial cost through rapid development.",
+          "question": "How does the cost compare to off-the-shelf construction project management software?"
+        },
+        {
+          "answer": "Absolutely. Your custom application is designed for flexibility. As your business grows or processes change, you can easily add new features, adjust workflows, or expand capabilities without rebuilding from scratch or waiting for vendor updates.",
+          "question": "Can I modify or expand the application after it's initially built?"
+        },
+        {
+          "answer": "Kliv emphasizes security in the development process, allowing you to implement robust security protocols, manage data privacy, and control access permissions tailored to your specific requirements, often exceeding the security of generic off-the-shelf solutions.",
+          "question": "How secure are custom-built construction management tools?"
+        },
+        {
+          "answer": "Kliv provides AI-driven assistance throughout the building process, offering suggestions, debugging, and optimization help. Beyond that, the open nature of the generated code means you can always extend, maintain, or get support from any developer familiar with modern web technologies, without vendor lock-in.",
+          "question": "What kind of support is available after the application is built and deployed?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Build Your Perfect Construction Management Tool?",
+      "type": "cta",
+      "content": "Stop conforming to generic software. Build a precision tool that fits your construction and renovation business perfectly with Kliv's AI-powered platform."
+    }
+  ],
+  "title": "Project Management for Construction & Home Renovation"
+}

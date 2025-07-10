@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a course selection and enrollment application that allows students to browse courses, view prerequisites, add courses to a cart, and complete registration with payment processing.",
+  "description": "Build custom course selection and enrollment systems with Kliv.dev's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your enrollment system",
+    "subtitle": "Develop personalized course selection and enrollment applications tailored to your educational institution's unique requirements.",
+    "title": "Create your own course selection & enrollment systems"
+  },
+  "metaDescription": "Design and build powerful custom course selection and enrollment software with Kliv.dev. Streamline student registration, course management, and academic planning.",
+  "sections": [
+    {
+      "title": "The challenge of off-the-shelf enrollment systems",
+      "type": "text",
+      "content": "Traditional course selection and enrollment systems often come with rigid features, high licensing fees, and limited customization options. They force educational institutions to adapt their unique academic structures and administrative processes to fit generic software, leading to inefficiencies, frustrated students, and administrative overhead. Building a custom solution empowers you to create a system that perfectly aligns with your institution's specific needs, offering a superior experience for both students and staff."
+    },
+    {
+      "title": "Why a custom enrollment platform is a game-changer",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\nMany educational institutions struggle with existing enrollment platforms that:\n\n- **Lack flexibility**: Unable to adapt to unique academic calendars, credit systems, or program structures.\n- **Are cost-prohibitive**: High recurring costs, hidden fees for extra features, and expensive consultants for basic customization.\n- **Offer poor user experience**: Clunky interfaces, slow loading times, and complex navigation that deter students.\n- **Have integration challenges**: Difficult to seamlessly connect with existing student information systems (SIS), financial platforms, or learning management systems (LMS).\n- **Provide limited data insights**: Inadequate reporting tools to track enrollment trends, popular courses, or student progression.\n\n## The power of a tailored approach\nLeveraging AI-powered platforms like Kliv.dev to build your own course selection and enrollment system transforms these challenges into opportunities:\n\n### Perfect alignment with academic needs\nDesign a system that precisely mirrors your curriculum, program pathways, prerequisite rules, and scheduling complexities. No more compromises.\n\n### Significant cost savings\nEliminate recurring software licenses and only pay for what you build. A custom solution is a one-time investment that saves substantial money over time, allowing budget reallocation to core educational initiatives.\n\n### Superior user experience\nCraft an intuitive, fast, and feature-rich interface that students will love. Simplify course discovery, registration, and payment, reducing support queries and increasing student satisfaction.\n\n### Seamless integration capabilities\nEasily connect with your existing SIS, financial aid systems, LMS, and other essential tools. Create a unified ecosystem that eliminates data silos and manual data entry.\n\n### Robust data and analytics\nBuild in custom reporting and analytics dashboards to gain deep insights into enrollment patterns, student demographics, course demand, and system usage. Make data-driven decisions to optimize your course offerings and academic planning.\n\n### Enhanced security and data ownership\nYou control your data entirely. Implement institution-specific security protocols and compliance measures, ensuring student privacy and data integrity are never compromised by third-party vendor policies.\n\n## Real-world impact\nCustom enrollment systems can revolutionize how institutions manage their academic offerings:\n\n**Universities**: Dynamic course catalogs, personalized degree planning tools, real-time seat availability, and integrated financial aid applications.\n\n**Community Colleges**: Streamlined vocational program sign-ups, waitlist management, and automated certification tracking.\n\n**K-12 Districts**: Simplified elective course selection, extracurricular activity registration, and parent portals for managing multiple student enrollments.\n\n**Professional Training Centers**: Flexible workshop registration, certificate program enrollment, and integrated payment gateways for corporate clients.\n\n## Why Kliv.dev for your custom system?\nKliv.dev empowers you to develop sophisticated applications without extensive coding knowledge:\n\n- **Natural Language Programming**: Describe your requirements in plain English, and our AI assists in building the core infrastructure.\n- **Component-Based Development**: Visually assemble and configure complex features like course search filters, payment forms, and student dashboards.\n- **Scalable Architecture**: Ensure your system can handle peak registration periods and grow with your institution's needs.\n- **Developer-Friendly Exports**: Get clean, maintainable code if you ever decide to take development in-house or extend functionalities.\n\nInvest in a solution that truly serves your institution's future—build a custom course selection and enrollment system that's as unique as your educational mission."
+    },
+    {
+      "title": "Course enrollment application ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a fully searchable course catalog with filters by department, instructor, time, and credits.",
+          "prompt": "Build a web application with a searchable course catalog. Users should be able to filter courses by department, instructor, time slots, and credit hours. Each course listing should display a description, prerequisites, and available seats.",
+          "title": "Dynamic Course Catalog & Filtering"
+        },
+        {
+          "description": "Enable students to plan their academic career with sequence enforcement and progress tracking.",
+          "prompt": "Develop a degree planning tool where students can map out courses semester by semester, ensuring prerequisites are met automatically. The tool should display progress towards graduation based on selected courses.",
+          "title": "Personalized Academic Path Planner"
+        },
+        {
+          "description": "Implement a seamless registration flow with shopping cart functionality and payment options.",
+          "prompt": "Design a student registration system with a shopping cart interface for adding and removing courses. It must support multiple payment methods (credit card, financial aid, invoice) and generate an enrollment confirmation.",
+          "title": "Streamlined Registration Workflow"
+        },
+        {
+          "description": "Manage waitlists for popular courses and notify students when spots open up.",
+          "prompt": "Create a waitlist management module for courses that are full. Students on the waitlist should be automatically notified via email when a seat becomes available, with an option to register within a time limit.",
+          "title": "Automated Waitlist Management"
+        },
+        {
+          "description": "Develop administrative dashboards for course management, student oversight, and reporting.",
+          "prompt": "Build an administrative dashboard for staff to manage course offerings, view student enrollment data, track payment statuses, and generate reports on popular courses and student demographics.",
+          "title": "Admin Course & Student Management"
+        },
+        {
+          "description": "Allow instructors to view their rosters, email students, and manage course settings.",
+          "prompt": "Develop an instructor portal where faculty can view their course rosters, email enrolled students, submit grades, and manage course-specific announcements and resources.",
+          "title": "Instructor Roster & Communication Portal"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your enrollment system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for students to request an override for course prerequisites, with an administrative approval workflow.",
+          "title": "Prerequisite Override Request"
+        },
+        {
+          "prompt": "Integrate with a popular learning management system (LMS) like Moodle or Canvas to automatically synchronize course rosters.",
+          "title": "LMS Integration"
+        },
+        {
+          "prompt": "Implement a dormitory selection and room assignment module for residential students, linked to their course schedule.",
+          "title": "Dormitory Assignment Integration"
+        },
+        {
+          "prompt": "Add a module for students to review course evaluations from previous semesters before selecting courses.",
+          "title": "Course Evaluation Integration"
+        },
+        {
+          "prompt": "Create a robust messaging system within the application for students to communicate with advisors and instructors.",
+          "title": "In-app Messaging for Students & Staff"
+        },
+        {
+          "prompt": "Develop an intelligent scheduling assistant that suggests optimal course combinations to avoid conflicts and meet degree requirements.",
+          "title": "Automated Timetable Optimizer"
+        },
+        {
+          "prompt": "Introduce multi-language support for the entire application to cater to international students.",
+          "title": "Multi-Language Support"
+        },
+        {
+          "prompt": "Add a mobile application version for both iOS and Android, allowing students to enroll and manage courses on the go.",
+          "title": "Mobile App Companion"
+        },
+        {
+          "prompt": "Implement predictive analytics to suggest courses or academic pathways to students based on their performance and interests.",
+          "title": "AI-Powered Course Recommendations"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your enrollment system",
+      "type": "features",
+      "items": [
+        {
+          "description": "Offer comprehensive search and filtering capabilities for your entire course catalog.",
+          "icon": "🔍",
+          "title": "Intuitive Course Discovery"
+        },
+        {
+          "description": "Manage student accounts, academic records, and enrollment history efficiently.",
+          "icon": "🎓",
+          "title": "Student Profile Management"
+        },
+        {
+          "description": "Simplify the registration process with shopping cart functionality and clear enrollment steps.",
+          "icon": "🛒",
+          "title": "Streamlined Registration Flow"
+        },
+        {
+          "description": "Support diverse payment gateways and financial aid application processes.",
+          "icon": "💳",
+          "title": "Flexible Payment Options"
+        },
+        {
+          "description": "Automate prerequisite checks, course conflicts, and capacity limits to ensure accurate enrollment.",
+          "icon": "⚙️",
+          "title": "Automated Validation Rules"
+        },
+        {
+          "description": "Provide administrative tools for course setup, student oversight, and detailed reporting.",
+          "icon": "📊",
+          "title": "Administrative Dashboards & Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom course selection and enrollment system with Kliv.dev can take anywhere from a few days for a basic system to a few weeks for a comprehensive, fully integrated platform. The AI significantly accelerates development time compared to traditional methods.",
+          "question": "How long does it take to build a custom enrollment system?"
+        },
+        {
+          "answer": "No deep coding expertise is necessary. Kliv.dev's platform allows you to describe your desired features and workflows using natural language. While some technical understanding can be beneficial for advanced integrations, the core development process is highly intuitive and AI-guided.",
+          "question": "Do I need to be a programmer to build this type of application?"
+        },
+        {
+          "answer": "Yes, custom-built applications can integrate with virtually any existing system that provides an API, including Student Information Systems (SIS) like Banner or Colleague, Learning Management Systems (LMS) like Canvas or Moodle, and various payment gateways and financial aid systems.",
+          "question": "Can my custom enrollment system integrate with our existing SIS or LMS?"
+        },
+        {
+          "answer": "You retain full ownership of the application and all your data. Kliv.dev helps you build the system, but the intellectual property and all student data reside with your institution, giving you complete control and privacy.",
+          "question": "Who owns the data and the application built on Kliv.dev?"
+        },
+        {
+          "answer": "While initial setup might involve some effort, custom systems eliminate recurring subscription fees often associated with SaaS solutions. Over time, a custom-built enrollment system typically proves to be more cost-effective, especially when considering the exact fit and reduced need for workarounds.",
+          "question": "Is building a custom system more expensive than buying an off-the-shelf solution?"
+        },
+        {
+          "answer": "A custom system allows for unparalleled flexibility. You can easily modify existing features, add new functionalities, adapt to changing academic policies, or scale the system up or down as your institution's needs evolve, all without vendor lock-in.",
+          "question": "How flexible is a custom enrollment system compared to a packaged solution?"
+        },
+        {
+          "answer": "Absolutely. You have direct control over security protocols, data encryption, and compliance measures (like FERPA or GDPR). This often allows for a more secure environment than relying on a third-party vendor's generic security policies.",
+          "question": "Can I ensure the security and privacy of student data with a custom system?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform your enrollment process?",
+      "type": "cta",
+      "content": "Stop conforming to rigid software. Build a course selection and enrollment system that truly fits your institution's vision and enhances the student experience."
+    }
+  ],
+  "title": "Course Selection & Enrollment Systems"
+}

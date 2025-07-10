@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a construction project planning and scheduling tool that can manage tasks, resources, dependencies, and generate Gantt charts for multiple projects.",
+  "description": "Build custom construction project planning and scheduling applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your scheduler",
+    "subtitle": "Develop powerful, custom project planning and scheduling tools tailored for the complexities of construction management.",
+    "title": "Build your own construction project planning &amp; scheduling tools"
+  },
+  "metaDescription": "Create bespoke construction project planning and scheduling software with Kliv. Manage tasks, resources, timelines, and dependencies efficiently.",
+  "sections": [
+    {
+      "title": "The challenge of construction planning",
+      "type": "text",
+      "content": "Construction projects are intricate, involving countless tasks, resources, and dependencies. Off-the-shelf planning software often falls short, failing to account for the unique variables, unforeseen delays, and specific requirements of individual projects or firms. This leads to inefficient scheduling, resource bottlenecks, and often, costly overruns.\n\nTraditional software expects you to adapt your proven processes to its rigid framework. But what if you could have a tool that adapts to *your* process? With Kliv's AI platform, you can design and deploy a solution that genuinely reflects your operational needs, not a generic industry standard."
+    },
+    {
+      "title": "Why custom project planning is a game-changer for construction",
+      "type": "markdown",
+      "content": "## The pitfalls of general planning software\n\nMany construction firms struggle with off-the-shelf project planning tools because they are:\n\n- **Inflexible**: Not designed for specific construction phases or unique project types.\n- **Overly complex**: Packed with features you don't need, making them difficult to use.\n- **Expensive subscriptions**: Licensing costs can quickly add up, especially for larger teams.\n- **Poor integration**: Don't easily connect with existing ERP, accounting, or design software.\n- **Lack of specialized features**: Unable to handle niche challenges like weather delays, material lead times, or subcontractor availability in a tailored way.\n\n## The strategic advantage of a custom solution\n\nBuilding your own project planning and scheduling tool provides unparalleled benefits:\n\n### Precision for your processes\nEvery construction company has its own workflow, set of standards, and preferred methodology. A custom tool ensures every task, resource, and dependency is managed exactly as your team needs, leading to more accurate estimates and smoother execution.\n\n### Tailored resource optimization\nConstruction resources (equipment, labor, materials) are dynamic and often constrained. A custom system can incorporate your specific resource pools, availability, and costs, optimizing allocation to prevent downtime and improve profitability.\n\n### Real-time adaptation and mitigation\nProjects rarely go exactly as planned. A custom solution allows you to build in mechanisms for real-time adjustments, risk assessment, and automated delay notifications, enabling proactive problem-solving rather than reactive firefighting.\n\n### Ownership and perpetual value\nWhen you build with Kliv, you own the asset. This means no more recurring subscription fees for core functionality. You invest once in a tool that provides continuous value and can evolve with your business without vendor lock-in.\n\n## Real-world impact\n\nHere’s how custom solutions can revolutionize construction project management:\n\n*   **Residential Development**: A tool designed to optimize scheduling across multiple simultaneous home builds, factoring in specific subcontractor availability and inspection timelines.\n*   **Commercial Construction**: A system that dynamically adjusts project timelines based on material delivery schedules and equipment maintenance logs, predicting potential bottlenecks.\n*   **Infrastructure Projects**: A specialized planner that integrates weather forecasts, local permitting processes, and heavy machinery logistics to create resilient, adaptive schedules.\n\n## AI-powered development for construction\n\nGone are the days when custom software meant massive upfront costs and years of development. Kliv's AI-powered platform makes it accessible:\n\n- **Efficiency**: Rapidly prototype and iterate on planning features.\n- **Intuitive Creation**: Describe complex scheduling logic in plain language.\n- **Smart Suggestions**: AI can propose optimal scheduling algorithms or resource allocation strategies.\n- **Robustness**: Automated quality checks ensure your planning tool handles real-world scenarios.\n\nStart building the ultimate project planning and scheduling solution that truly understands the rhythm of your construction business."
+    },
+    {
+      "title": "Project planning tool ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize project timelines and dependencies",
+          "prompt": "Create a construction project planning tool that can organize tasks into phases, define task dependencies, assign resources, and generate an interactive Gantt chart.",
+          "title": "Multi-project Gantt Chart Planner"
+        },
+        {
+          "description": "Optimize labor and equipment allocation for sites",
+          "prompt": "Build a resource management and scheduling application for construction sites that tracks available labor (skilled, unskilled), machinery (excavators, cranes), and materials, then suggests optimal allocation based on project timelines.",
+          "title": "Site Resource Optimization &amp; Scheduler"
+        },
+        {
+          "description": "Manage material procurement and delivery schedules",
+          "prompt": "Develop a material procurement and delivery scheduling system for construction projects. It should track material orders, supplier lead times, delivery dates, and integrate with project tasks to highlight potential delays.",
+          "title": "Material Logistics &amp; Delivery Planner"
+        },
+        {
+          "description": "Track project progress and predict completion dates",
+          "prompt": "Design a construction project progress tracking tool that updates task completion percentages, allows teams to report daily progress, identifies critical path delays, and re-calculates estimated project completion dates.",
+          "title": "Progress Monitoring &amp; Predictive Scheduler"
+        },
+        {
+          "description": "Manage subcontractor schedules and availability",
+          "prompt": "Create a subcontractor management and scheduling application that tracks subcontractor availability, assigns tasks based on their specialties, manages their work hours, and integrates their schedules into the main project plan.",
+          "title": "Subcontractor Schedule Coordinator"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your planning tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate weather data from a national weather service API into the planner, allowing it to highlight potential weather-related delays on specific dates.",
+          "title": "Add weather integration"
+        },
+        {
+          "prompt": "Implement a financial tracking module that estimates project costs based on planned resources and tasks, then tracks actual vs. planned expenditure.",
+          "title": "Include cost estimation &amp; tracking"
+        },
+        {
+          "prompt": "Add a feature that allows users to upload and link blueprint files or CAD drawings directly to relevant tasks for easy access.",
+          "title": "Integrate blueprint/CAD linking"
+        },
+        {
+          "prompt": "Develop a communication hub within the tool where team members and subcontractors can share updates, ask questions, and log issues related to specific tasks.",
+          "title": "Build a communication module"
+        },
+        {
+          "prompt": "Introduce a mobile-friendly interface for site managers to update task progress, report issues, and view schedules directly from their phones.",
+          "title": "Create mobile access for site updates"
+        },
+        {
+          "prompt": "Add a module for equipment maintenance tracking and scheduling. It should alert users when equipment is due for service and factor maintenance into its availability.",
+          "title": "Incorporate equipment maintenance"
+        },
+        {
+          "prompt": "Implement predictive analytics that use historical project data to forecast potential delays or budget overruns based on current progress trends.",
+          "title": "Add predictive analytics"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your custom planning tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Visualize tasks, dependencies, and critical paths for clear project timelines.",
+          "icon": "📈",
+          "title": "Dynamic Gantt Charts"
+        },
+        {
+          "description": "Allocate and monitor labor, equipment, and materials across multiple projects.",
+          "icon": "👷",
+          "title": "Advanced Resource Management"
+        },
+        {
+          "description": "Track task progress, actual vs. planned, and project milestones in real-time.",
+          "icon": "✔️",
+          "title": "Real-time Progress Monitoring"
+        },
+        {
+          "description": "Define task sequences and establish interdependencies for accurate scheduling.",
+          "icon": "🔗",
+          "title": "Dependency Management"
+        },
+        {
+          "description": "Integrate with existing systems like accounting, ERP, or CAD software via APIs.",
+          "icon": "🤝",
+          "title": "Seamless System Integration"
+        },
+        {
+          "description": "Generate custom reports on schedule adherence, resource utilization, and potential delays.",
+          "icon": "📊",
+          "title": "Custom Reporting &amp; Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions for building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom construction planning tool with Kliv can take anywhere from a few hours for a basic prototype to several weeks for a highly complex, integrated system. The AI accelerates the core development significantly.",
+          "question": "How long will it take to build my construction planning tool?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv’s platform allows you to describe your desired functionalities using natural language. The AI translates your requirements into a functional application.",
+          "question": "Do I need coding skills to build this type of application?"
+        },
+        {
+          "answer": "Absolutely. Your custom tool can be designed to integrate with a wide range of external systems, including accounting software (e.g., QuickBooks), ERP systems (e.g., SAP), design software (e.g., AutoCAD), and other industry-specific tools.",
+          "question": "Can the tool integrate with my existing construction software and databases?"
+        },
+        {
+          "answer": "You retain full ownership of the application and all the data within it. Kliv provides the platform for creation; you own the intellectual property and host your solution where you prefer.",
+          "question": "Who owns the intellectual property and data created with my custom tool?"
+        },
+        {
+          "answer": "Unlike SaaS solutions with recurring monthly fees per user, building with Kliv is generally a one-time development cost, sometimes with minimal hosting expenses (which you control). Over time, a custom solution can be significantly more cost-effective.",
+          "question": "How does the cost compare to off-the-shelf construction project management software?"
+        },
+        {
+          "answer": "Yes, a core advantage of building with Kliv is the ability to continuously modify and expand your application. As your business grows or processes change, you can easily add new features, adjust logic, and integrate additional modules.",
+          "question": "Can I modify or add features to my planning tool after it’s built?"
+        },
+        {
+          "answer": "You have complete control over data security and hosting. You can implement the highest security protocols relevant to construction data, often surpassing the generic standards of third-party SaaS providers.",
+          "question": "How secure will my custom project planning tool be?"
+        },
+        {
+          "answer": "Kliv provides AI-assisted support for the development process, including debugging and optimization suggestions. For ongoing support, you can either manage it internally, hire a developer, or contract with a specialized service provider – you're not locked into a single vendor's support plan.",
+          "question": "What kind of support is available if I encounter issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build smarter construction projects?",
+      "type": "cta",
+      "content": "Stop conforming to generic software. Develop a project planning and scheduling tool that’s perfectly engineered for your construction business. Start building with Kliv today."
+    }
+  ],
+  "title": "Custom Construction Project Planning &amp; Scheduling Tools"
+}

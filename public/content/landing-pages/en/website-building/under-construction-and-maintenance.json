@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a web application that allows me to quickly put my website into an 'under construction' or 'maintenance' mode, collect visitor emails, and display a custom message.",
+  "description": "Build custom 'Under Construction' and 'Maintenance Mode' applications with Kliv's AI-powered platform for flexible website management.",
+  "hero": {
+    "cta": "Start Building Your Page",
+    "subtitle": "Seamlessly manage website downtime, collect leads, and communicate with visitors using custom-built applications.",
+    "title": "Custom Under Construction & Maintenance Pages"
+  },
+  "metaDescription": "Create powerful under construction and maintenance mode tools with Kliv. Control website visibility, collect emails, and provide updates during development or downtime.",
+  "sections": [
+    {
+      "title": "Why build your own maintenance page application?",
+      "type": "text",
+      "content": "Every website occasionally needs downtime for updates, redesigns, or unexpected issues. Instead of relying on generic plugins or manual file uploads, imagine a powerful, custom application that intelligently handles your site’s availability, communicates with your audience, and even captures leads while you work.\n\nOff-the-shelf solutions often provide limited functionality, generic designs, and may even slow down your site. Building your own application on Kliv gives you unparalleled control, allowing you to perfectly align the user experience with your brand and business needs. You gain flexibility, enhance security, and avoid recurring subscription costs – all while maintaining professional communication with your visitors."
+    },
+    {
+      "title": "The case for a custom Under Construction & Maintenance tool",
+      "type": "markdown",
+      "content": "## The limitations of standard solutions\n\nMany website owners rely on simple plugins or manual HTML pages for site downtime. These often fall short:\n\n- **Inflexible Branding**: Hard to match your unique brand identity.\n- **Limited Features**: Basic messages, no lead capture or smart redirects.\n- **Security Risks**: Some plugins can introduce vulnerabilities.\n- **Performance Overhead**: Unnecessary code can slow down your active site.\n- **Vendor Lock-in**: Dependent on a third-party for updates and support.\n\n## Why a custom-built approach excels\n\nKliv empowers you to design a solution that’s precisely tailored to your requirements, offering significant advantages:\n\n### Full Customization and Branding Control\nBeyond just a message, implement custom layouts, animations, branding, and interactive elements. Make your downtime an extension of your brand, not a generic inconvenience.\n\n### Intelligent Visitor Management\nDirect specific user groups (e.g., logged-in admins) to the live site while others see the maintenance page. Implement countdown timers, progress bars, or even provide specific content for different visitor segments.\n\n### Proactive Communication & Lead Generation\nCollect email addresses for 'back online' notifications, embed contact forms, link to social media, or even offer exclusive content to turn potential frustration into engagement and lead opportunities.\n\n### Robust Security and Performance\nHost your custom application securely and independently from your main website, ensuring performance isn't compromised. Control who sees what, protecting your site during sensitive development phases without exposing internals.\n\n### Ownership and Scalability\nOwn the intellectual property. As your business grows, add new features like A/B testing messages, integrated analytics, or advanced notification systems without migrating to another platform or paying escalating fees.\n\n## Real-world applications\n\nCustom downtime management tools can be invaluable for:\n\n**E-commerce Stores**: Announce major product launches, notify customers of scheduled inventory updates, or provide alternative shopping links.\n\n**SaaS Platforms**: Clearly communicate service outages, estimated recovery times, and link to status pages, reducing support inquiries.\n\n**Agencies & Developers**: Quickly deploy client under construction pages with custom branding, portfolio links, and client-only preview access.\n\n**Content Publishers**: Inform readers about major site redesigns, provide temporary content links, or collect subscriptions for new content alerts.\n\n## The Kliv advantage\n\nBuilding sophisticated web applications no longer requires deep coding expertise. Kliv leverages AI to accelerate development:\n\n- **Natural language interface**: Describe your desired features in plain English.\n- **Rapid prototyping**: See functional applications quickly.\n- **Component library**: Access pre-built elements for common tasks (e.g., email forms, social links).\n- **Scalable deployment**: Easily deploy and manage your application.\n\n## Getting started\n\nDon't let site downtime be a missed opportunity. Build an application that transforms essential maintenance into a strategic communication and lead generation tool."
+    },
+    {
+      "title": "Maintenance mode ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A coming soon page with email opt-in and social media links.",
+          "prompt": "Create an 'under construction' page with a modern design, a clear message that the site is launching soon, a form to collect email addresses for updates, and links to my social media profiles.",
+          "title": "Basic Coming Soon Page"
+        },
+        {
+          "description": "An intelligent maintenance page for scheduled updates with an admin bypass.",
+          "prompt": "Build a maintenance mode application that displays a custom message and countdown timer during scheduled updates. It should allow specific IP addresses or logged-in administrators to bypass the page and access the live site.",
+          "title": "Smart Maintenance Countdown"
+        },
+        {
+          "description": "A branded 404 error page that guides users and captures feedback.",
+          "prompt": "Develop a custom 404 error page that matches my brand, suggests popular pages, includes a search bar, and has a small form for users to report broken links or provide feedback on the missing page.",
+          "title": "Enhanced Custom 404 Page"
+        },
+        {
+          "description": "A notification banner system for site-wide alerts.",
+          "prompt": "Design a site-wide notification banner system that can be toggled on/off to display urgent messages about site issues, promotions, or scheduled maintenance without taking the whole site offline.",
+          "title": "Site-Wide Alert System"
+        },
+        {
+          "description": "A pre-launch landing page for a new product/service.",
+          "prompt": "Create a pre-launch landing page for a new product, including a product teaser video, key feature highlights, a 'notify me upon launch' email signup, and integration with a CRM.",
+          "title": "Product Launch Teaser Page"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your downtime application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to dynamically pull content from an external source, like a blog post or social media feed, onto the maintenance page.",
+          "title": "Integrate Dynamic Content"
+        },
+        {
+          "prompt": "Implement A/B testing capabilities for different maintenance page messages or email signup forms to optimize engagement.",
+          "title": "Add A/B Testing"
+        },
+        {
+          "prompt": "Include analytics tracking (e.g., Google Analytics) to monitor traffic, bounce rate, and lead capture performance on the downtime page.",
+          "title": "Integrate Analytics"
+        },
+        {
+          "prompt": "Create an admin dashboard for easily enabling/disabling maintenance mode, customizing messages, and viewing collected emails.",
+          "title": "Build Admin Dashboard"
+        },
+        {
+          "prompt": "Develop a system to automatically post updates about site status to linked social media accounts or trigger email notifications upon going online/offline.",
+          "title": "Automated Social Posts"
+        },
+        {
+          "prompt": "Add multi-language support so the maintenance page can detect browser language and display the relevant localized message.",
+          "title": "Implement Multi-Language"
+        },
+        {
+          "prompt": "Include a whitelisting feature for IP addresses or authenticated users, allowing certain individuals to bypass the maintenance screen.",
+          "title": "Add IP Whitelisting"
+        }
+      ]
+    },
+    {
+      "title": "Core application features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Design sleek, custom-branded pages that match your website's look and feel.",
+          "icon": "💅",
+          "title": "Brand-Aligned Design"
+        },
+        {
+          "description": "Dynamically switch your website state (online/offline) with a single click or schedule.",
+          "icon": "🔄",
+          "title": "One-Click Toggling"
+        },
+        {
+          "description": "Built-in forms to collect visitor emails for 'back online' notifications or marketing.",
+          "icon": "📧",
+          "title": "Lead Capture Forms"
+        },
+        {
+          "description": "Display a countdown timer until your site is back online for scheduled maintenance.",
+          "icon": "⏳",
+          "title": "Countdown Timers"
+        },
+        {
+          "description": "Redirect specific users or provide alternative links during downtime, e.g., to a status page.",
+          "icon": "➡️",
+          "title": "Smart Redirection"
+        },
+        {
+          "description": "Ensure search engines are properly informed about temporary downtime without affecting SEO.",
+          "icon": "🔎",
+          "title": "SEO-Friendly Notifications"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv dramatically speeds up development. A basic under construction page with email capture can be built in a few hours, while more complex systems with admin dashboards and smart redirects might take a few days of iterative building.",
+          "question": "How quickly can I build a maintenance page application?"
+        },
+        {
+          "answer": "No, Kliv allows you to describe your application using natural language. The AI translates your requirements into functional code, making custom development accessible to non-developers.",
+          "question": "Do I need to be a developer or coder to use Kliv for this?"
+        },
+        {
+          "answer": "Absolutely. Your custom application can integrate with email marketing services (like Mailchimp, ConvertKit), CRM systems (Salesforce), analytics platforms (Google Analytics), or any other tool with an accessible API.",
+          "question": "Can my custom application integrate with my existing marketing tools?"
+        },
+        {
+          "answer": "Unlike plugins or SaaS solutions, all code and data generated using Kliv are yours. You have full ownership and control, allowing you to host it anywhere compatible and modify it as you see fit without vendor lock-in.",
+          "question": "Who owns the application I build on Kliv?"
+        },
+        {
+          "answer": "In the long run, building a custom solution is often more cost-effective. You pay for the development time once (potentially with Kliv's platform fees), avoiding recurring monthly subscriptions that typically increase over time, especially with more features.",
+          "question": "Is building a custom solution cheaper than buying a plugin or SaaS?"
+        },
+        {
+          "answer": "Yes. One of the primary benefits is flexibility. You can easily add new features, update designs, or modify logic as your needs evolve, rather than being limited by a third-party product's update cycle or feature set.",
+          "question": "Can I modify my under construction app after it's been built?"
+        },
+        {
+          "answer": "Yes, often more secure. Because you control the codebase and hosting, you can implement stricter security protocols tailored to your specific needs, rather than relying on a plugin's or third-party service's generic security measures.",
+          "question": "Is a custom-built maintenance application more secure?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your website's downtime?",
+      "type": "cta",
+      "content": "Stop settling for generic solutions. Build a powerful, branded, and intelligent under construction or maintenance application that works exactly how you need it to."
+    }
+  ],
+  "title": "Custom Under Construction & Maintenance Pages"
+}

@@ -1,0 +1,171 @@
+{
+  "defaultPrompt": "Create a Roblox game management tool that allows me to track player statistics, manage in-game items, and send out announcements.",
+  "description": "Build custom Roblox game management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Managing",
+    "subtitle": "Gain an edge in your Roblox game development with custom management tools tailored to your specific needs.",
+    "title": "Build Your Own Roblox Game Manager"
+  },
+  "metaDescription": "Create powerful Roblox game management tools with Kliv. Track player stats, manage assets, and streamline operations with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why Build Your Own Roblox Game Manager?",
+      "type": "text",
+      "content": "Roblox game creators often face challenges managing complex game ecosystems. Off-the-shelf tools might offer some functionalities, but they rarely provide the depth and customization needed for truly engaging and successful games. Building your own manager means you have complete control over features, data, and how you interact with your player base.\n\nWith Kliv, you're not just getting a generic tool; you're developing a bespoke solution that adapts to your game's unique mechanics and community, giving you a competitive advantage in the vast Roblox universe."
+    },
+    {
+      "title": "The Strategic Advantage of Custom Roblox Tools",
+      "type": "markdown",
+      "content": "## The Limitations of Generic Solutions\n\nMany Roblox developers rely on manual processes or limited third-party plugins. This often leads to:\n\n- **Inefficient data handling**: Struggling to analyze player behavior or in-game performance.\n- **Lack of tailored features**: Generic tools don't cater to your unique game mechanics or monetization strategies.\n- **Scalability issues**: As your game grows, these solutions often buckle under increased player and data load.\n- **Security vulnerabilities**: Relying on external, unvetted tools can expose your game and player data.\n\n## Why Custom is Superior\n\nBuilding your own management platform with Kliv empowers you with:\n\n### Unparalleled Customization\nDesign a tool that exactly matches your game's needs. Monitor specific in-game events, manage custom items, or implement unique moderation features that off-the-shelf solutions can't.\n\n### Deep Data Insights\nCollect and analyze granular player data to understand engagement, spending habits, and pain points. This insight is crucial for iterative game design and player retention.\n\n### Enhanced Player Engagement\nImplement dynamic event systems, targeted announcements, and personalized player interactions that keep your community active and invested.\n\n### Streamlined Operations\nAutomate repetitive tasks like item distribution, player moderation, or data backups, freeing up time to focus on game development.\n\n### Scalability and Future-Proofing\nYour custom solution grows with your game. Easily add new features, integrate with other services, and adapt to Roblox platform changes without being held back by vendor limitations.\n\n## Real-World Impact\n\nImagine a custom Roblox manager that could:\n\n**For a Simulator Game**: Automatically identify AFK (Away From Keyboard) players, distribute daily login rewards based on unique criteria, and track the economic flow of in-game currency to detect inflation.\n\n**For a Role-Playing Game (RPG)**: Monitor player class distribution, track quest completion rates, automatically grant titles or achievements based on in-game actions, and manage custom inventory items.\n\n**For an Obby/Tycoon Game**: Analyze player progression through stages, identify bottlenecks, automatically reset obstacle courses for new players, and manage plot ownership.\n\n## The AI Difference with Kliv\n\nKliv transforms the traditional development process:\n\n- **Natural Language Interaction**: Describe your desired features in plain English, and Kliv's AI helps sculpt the application.\n- **Rapid Iteration**: Build, test, and deploy features quickly, allowing for agile game management improvements.\n- **Focus on Logic, Not Code**: Concentrate on the management logic and user experience rather than boilerplate coding.\n- **Secure and Reliable**: Kliv's platform helps generate robust applications, reducing common development pitfalls.\n\nIn the competitive Roblox landscape, a custom management tool is not just a convenience; it's a strategic asset."
+    },
+    {
+      "title": "Roblox Management Tool Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Manage player inventory, currency, and item distribution.",
+          "prompt": "Create a game management tool for Roblox that records player in-game currency, manages inventory items, and allows me to grant or revoke specific items to individual players or groups.",
+          "title": "Player & Economy Manager"
+        },
+        {
+          "description": "Automate in-game events and community announcements.",
+          "prompt": "Build a tool that lets me schedule and trigger in-game events, send global server announcements, and manage daily login bonuses for my Roblox game.",
+          "title": "Event & Announcement System"
+        },
+        {
+          "description": "Monitor player behavior and track game performance.",
+          "prompt": "Develop a Roblox admin panel with features to track player online status, view playtime, monitor in-game actions, and generate reports on common player activities.",
+          "title": "Player Activity Tracker"
+        },
+        {
+          "description": "Streamline content updates and versioning.",
+          "prompt": "I need a tool to manage different versions of my Roblox game assets, allowing for easy A/B testing of new features and controlled rollout of updates to specific servers.",
+          "title": "Game Asset Version Control"
+        },
+        {
+          "description": "Manage user-generated content within your game.",
+          "prompt": "Create a system that processes user submissions for in-game content (e.g., custom maps, clothing designs), provides a moderation queue, and automates content approval/rejection.",
+          "title": "UGC Moderation & Approval"
+        }
+      ]
+    },
+    {
+      "title": "Ways to Enhance Your Roblox Manager",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now add a secure login system for multiple administrators with different access levels.",
+          "title": "Add Admin Role Management"
+        },
+        {
+          "prompt": "Integrate a real-time chat moderation feature to filter unwanted messages and mute/ban users.",
+          "title": "Implement Chat Moderation"
+        },
+        {
+          "prompt": "Create a dashboard to visualize key performance indicators like active players, average session time, and revenue.",
+          "title": "Build a Data Analytics Dashboard"
+        },
+        {
+          "prompt": "Add functionality to send automated notifications to players based on their in-game achievements or inactivity.",
+          "title": "Enable Personalized Player Notifications"
+        },
+        {
+          "prompt": "Allow the tool to automatically save snapshots of game server states for debugging and backup purposes.",
+          "title": "Integrate Server State Backups"
+        },
+        {
+          "prompt": "Connect it to a discord bot so admin commands can be issued directly from discord, and game stats are posted periodically.",
+          "title": "Add Discord Integration"
+        },
+        {
+          "prompt": "Include a system for managing in-game leaderboards and automatically updating player ranks.",
+          "title": "Develop Leaderboard Management"
+        },
+        {
+          "prompt": "Add a feature to manage A/B testing of new game features or balance changes for different player groups.",
+          "title": "Implement A/B Testing Capabilities"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Custom Manager",
+      "type": "features",
+      "items": [
+        {
+          "description": "Track active players, session duration, and game statistics.",
+          "icon": "📊",
+          "title": "Player Analytics"
+        },
+        {
+          "description": "Manage in-game items, currency, and virtual assets.",
+          "icon": "💰",
+          "title": "Economy & Inventory Control"
+        },
+        {
+          "description": "Issue announcements, schedule events, and deliver rewards.",
+          "icon": "📢",
+          "title": "Community Interaction Tools"
+        },
+        {
+          "description": "Moderate offensive content and manage player behavior effectively.",
+          "icon": "🛡️",
+          "title": "Moderation & Security"
+        },
+        {
+          "description": "Integrate with Roblox APIs and other external services.",
+          "icon": "🔗",
+          "title": "API Connectivity"
+        },
+        {
+          "description": "Automate recurring tasks like data backups and content distribution.",
+          "icon": "⚙️",
+          "title": "Workflow Automation"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic Roblox manager can take just a few hours with Kliv. More complex systems with advanced analytics and integrations might take a few days to refine.",
+          "question": "How quickly can I build a Roblox game manager with Kliv?"
+        },
+        {
+          "answer": "No, Kliv's platform uses AI to help you translate your ideas into functional applications. You'll focus on describing what you want your manager to do, not writing code.",
+          "question": "Do I need to know how to code to create a Roblox game manager?"
+        },
+        {
+          "answer": "Yes, your custom manager can integrate with Roblox APIs to interact with your game servers, player data, and in-game economy. You can also integrate with Discord, analytics platforms, or other external services.",
+          "question": "Can my custom manager interact with my Roblox game and other services?"
+        },
+        {
+          "answer": "You retain full ownership of the application you build. This means complete control over your data, features, and deployment.",
+          "question": "Who owns the Roblox manager application I build using Kliv?"
+        },
+        {
+          "answer": "Custom tools often lead to long-term cost savings compared to recurring subscriptions for limited third-party solutions. You invest once in a tailored solution that evolves with your game.",
+          "question": "Is building a custom manager more expensive than using existing tools?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the flexibility to modify, expand, or completely overhaul your manager's features as your game and player base grow.",
+          "question": "Can I easily add new features or modify my manager later?"
+        },
+        {
+          "answer": "You have complete control over the security measures for your custom application, including data storage and access controls, potentially offering greater security than third-party SaaS solutions.",
+          "question": "How secure is a custom-built Roblox game manager?"
+        },
+        {
+          "answer": "Kliv provides guidance through the AI, helping you refine your application. For specific Roblox API questions or complex integrations, the Roblox developer community and documentation are excellent resources.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Level Up Your Roblox Game Management?",
+      "type": "cta",
+      "content": "Stop limiting your game's potential with generic tools. Build the precise management system your Roblox game deserves with Kliv's AI-powered platform."
+    }
+  ],
+  "title": "Roblox Game Manager"
+}

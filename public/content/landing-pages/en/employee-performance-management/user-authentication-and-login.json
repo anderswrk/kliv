@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a robust user authentication and authorization system for an employee performance management platform, including secure login, role-based access, and password management.",
+  "description": "Build custom user authentication and authorization systems tailored for employee performance management with Kliv.",
+  "hero": {
+    "cta": "Start Building Your Secure System",
+    "subtitle": "Develop robust, secure, and flexible user authentication and authorization solutions for your employee performance management platform.",
+    "title": "Secure Your Performance Management with Custom Authentication"
+  },
+  "metaDescription": "Create highly secure and customizable user authentication and authorization systems for employee performance management platforms using Kliv's AI-powered low-code development. Control access, manage roles, and ensure data integrity.",
+  "sections": [
+    {
+      "title": "The Imperative of Dedicated Authentication for Performance Management",
+      "type": "text",
+      "content": "In today's data-driven world, employee performance management platforms handle some of the most sensitive organizational data—personal performance evaluations, compensation details, and career development plans. Generic authentication solutions often fall short of meeting the unique security and access control demands of such systems. Building a specialized authentication and authorization layer ensures granular control, protects sensitive information, and provides a seamless, secure experience for all stakeholders."
+    },
+    {
+      "title": "Why Build Your Own Authentication for Performance Management?",
+      "type": "markdown",
+      "content": "## The Challenges of Off-the-Shelf Security\n\nMany organizations rely on generic identity providers or basic CMS authentication for their crucial internal systems. This approach often leads to:\n\n- **Insufficient Granularity**: Difficulty in setting specific permissions (e.g., manager can see team, HR can see all, employee can see own).\n- **Compliance Risks**: Challenges in meeting industry-specific data privacy and security regulations like GDPR or CCPA for sensitive HR data.\n- **Integration Headaches**: Standard solutions may not integrate smoothly with existing HRIS, payroll, or other internal systems.\n- **Scalability Limitations**: As your team grows, managing user access efficiently can become a significant bottleneck.\n- **Lack of Custom Branding**: A generic login page can detract from the professional experience of your internal tools.\n\n## The Strategic Advantage of Custom Authentication\n\nDeveloping a tailor-made authentication and authorization system for your employee performance management platform offers profound benefits:\n\n### Unparalleled Security Control\nYou define every aspect of your security model, from multi-factor authentication (MFA) requirements to complex password policies. This drastically reduces attack surfaces and protects sensitive employee data.\n\n### Precise Role-Based Access\nImplement highly granular role-based access control (RBAC) that mirrors your organizational hierarchy and processes. Ensure that employees, managers, HR, and executives only see the data relevant and permissible for their roles.\n\n### Seamless Integration\nDesign your authentication system to integrate flawlessly with your existing HR tech stack, active directory, or single sign-on (SSO) providers, creating a unified and efficient user experience.\n\n### Enhanced User Experience\nDesign a branded login experience that instills trust and is intuitive for your employees, improving adoption rates of your performance management system.\n\n### Future-Proof Scalability\nYour custom system can evolve with your organization. Add new user roles, implement new security features, or integrate new identity verification methods without being limited by a vendor's roadmap.\n\n## Real-World Impact\n\n*   **Global Enterprise**: Built a custom system to manage multi-national employee access, ensuring regional compliance and language-specific login flows.\n*   **Tech Startup**: Developed a unique tiered access system allowing engineers to view their own performance, leads to manage team performance, and HR to oversee department-wide metrics.\n*   **Healthcare Provider**: Implemented stringent HIPAA-compliant authentication for personnel management, including audit trails for all data access.\n\n## Kliv Simplifies Security Development\n\nBuilding advanced security features no longer requires deep cybersecurity expertise. Kliv's AI-powered platform empowers you to:\n\n- **Describe Security Needs**: Explain your desired authentication flows and access rules in plain language.\n- **Automated Code Generation**: AI generates the underlying secure code for robust authentication logic.\n- **Built-in Best Practices**: Access pre-built components for common security features like password hashing, rate limiting, and session management.\n\nEmpower your performance management platform with a security foundation built precisely for your needs."
+    },
+    {
+      "title": "Authentication Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a multi-level access system for employee roles",
+          "prompt": "Design a user authentication and authorization system for an employee performance platform. It needs three roles: 'Employee' (can view own profile), 'Manager' (can view and edit team profiles), and 'HR Admin' (can view and edit all profiles). It should include a secure login form, password reset, and user registration for HR admins only.",
+          "title": "Role-Based Access Control System"
+        },
+        {
+          "description": "Add multi-factor authentication (MFA) to employee logins",
+          "prompt": "Develop an authentication system that supports username/password login, followed by a second factor like SMS OTP or an authenticator app for all users on the performance management platform.",
+          "title": "Multi-Factor Authentication (MFA) Login"
+        },
+        {
+          "description": "Integrate with an existing company directory",
+          "prompt": "Build an authentication module that integrates with an external LDAP or Active Directory for user authentication, automatically syncing user roles from the directory.",
+          "title": "LDAP/AD Integration for Login"
+        },
+        {
+          "description": "Implement Single Sign-On (SSO) for internal tools",
+          "prompt": "Create an SSO solution using SAML or OAuth2, allowing employees to log into the performance management system using their existing enterprise identity provider.",
+          "title": "Single Sign-On (SSO) for Employees"
+        },
+        {
+          "description": "Secure API endpoints for mobile apps",
+          "prompt": "Develop an API authentication scheme (e.g., JWT) to secure mobile application access to performance data, ensuring only authorized mobile users can retrieve information.",
+          "title": "API Authentication for Performance Data"
+        },
+        {
+          "description": "Managed user invitations and onboarding flows",
+          "prompt": "Build a user invitation system for new employees, where HR can send secure email invitations with temporary registration links that expire after a set time.",
+          "title": "Secure User Invitation System"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for Your Authentication System",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add granular permissions for specific actions, e.g., 'only HR can delete performance reviews', 'managers can approve goal changes'.",
+          "title": "Granular Permissions by Action"
+        },
+        {
+          "prompt": "Implement a robust audit logging system that tracks all login attempts, password changes, and access to sensitive performance data.",
+          "title": "Comprehensive Audit Trails"
+        },
+        {
+          "prompt": "Integrate with an identity verification service for enhanced security during password resets or suspicious activity.",
+          "title": "Identity Verification Integration"
+        },
+        {
+          "prompt": "Create a user management dashboard for HR admins, allowing them to create, edit, disable, or delete user accounts and manage roles.",
+          "title": "Admin User Management Dashboard"
+        },
+        {
+          "prompt": "Develop a customizable login page with company branding, including logos and color schemes.",
+          "title": "Branded Login Page"
+        },
+        {
+          "prompt": "Add geo-fencing or IP-based access restrictions so users can only log in from approved company locations or networks.",
+          "title": "Location-Based Access Control"
+        },
+        {
+          "prompt": "Implement session management with idle timeouts and automatic logout to enhance security.",
+          "title": "Session Management & Timeout"
+        },
+        {
+          "prompt": "Add the ability to enforce password complexity rules (e.g., minimum length, special characters, no common passwords) and regular password expiry.",
+          "title": "Advanced Password Policies"
+        },
+        {
+          "prompt": "Integrate with external security monitoring tools to detect and alert on suspicious login patterns or brute-force attacks.",
+          "title": "Security Monitoring Integration"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Secure Access",
+      "type": "features",
+      "items": [
+        {
+          "description": "Authenticate users securely with advanced hashing and encryption.",
+          "icon": "🔑",
+          "title": "Secure User Authentication"
+        },
+        {
+          "description": "Define and manage user roles to control access to system features.",
+          "icon": "👥",
+          "title": "Role-Based Access Control (RBAC)"
+        },
+        {
+          "description": "Implement additional layers of security like SMS or authenticator apps.",
+          "icon": "📱",
+          "title": "Multi-Factor Authentication (MFA)"
+        },
+        {
+          "description": "Safely reset passwords with email verification and secure token generation.",
+          "icon": "🔒",
+          "title": "Secure Password Management"
+        },
+        {
+          "description": "Create detailed logs of all access and sensitive data interactions.",
+          "icon": "📝",
+          "title": "Comprehensive Audit Trails"
+        },
+        {
+          "description": "Connect with existing systems like Active Directory or identity providers.",
+          "icon": "🔗",
+          "title": "Third-Party Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building complex authentication systems with Kliv can take anywhere from a few hours for basic setups to a few days for high-security, integrated enterprise solutions. The AI significantly accelerates development time.",
+          "question": "How long does it take to build a custom authentication system with Kliv?"
+        },
+        {
+          "answer": "No, you do not need to be a security expert or a seasoned developer. Kliv's AI platform allows you to describe your security and access control requirements in plain language, and it handles the complex coding.",
+          "question": "Do I need deep security knowledge or coding expertise to build this?"
+        },
+        {
+          "answer": "Yes, Kliv supports integrations with a wide range of external systems, including common identity providers (Okta, Azure AD), HRIS systems, LDAP/Active Directory, and other internal tools via APIs.",
+          "question": "Can the custom authentication system integrate with my existing HR systems or identity providers?"
+        },
+        {
+          "answer": "You retain full ownership of the application, including the code and any user data. Kliv provides the platform to build it, but the resulting application and its data are entirely yours.",
+          "question": "Who owns the data and the built application?"
+        },
+        {
+          "answer": "Building a custom authentication solution eliminates ongoing subscription fees associated with many third-party security services. While there is an initial development cost, it often results in significant long-term savings, provides more control, and ensures a perfect fit for your specific needs.",
+          "question": "How does building a custom system compare in cost to using off-the-shelf solutions?"
+        },
+        {
+          "answer": "Absolutely. Custom systems built with Kliv are designed for complete flexibility. You can add new user roles, implement new security protocols, adjust access levels, or integrate new MFA methods as your organizational needs evolve.",
+          "question": "Can I modify or extend the authentication system after it's built?"
+        },
+        {
+          "answer": "Kliv helps you build with security first in mind. You have direct control over data storage, encryption, and access policies, often resulting in a more secure environment than relying on a third-party vendor's security practices.",
+          "question": "Is a custom-built authentication system more secure than a pre-built one?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance and support throughout the development process, assisting with best practices, debugging, and optimization for secure applications. You'll have comprehensive tools to ensure your system is robust.",
+          "question": "What kind of support is available if I encounter issues or need guidance?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Fortify Your Performance Management?",
+      "type": "cta",
+      "content": "Don't compromise on security for your most sensitive employee data. Build a robust and tailored authentication and authorization system that meets your exact needs."
+    }
+  ],
+  "title": "Custom User Authentication & Authorization for Performance Management"
+}

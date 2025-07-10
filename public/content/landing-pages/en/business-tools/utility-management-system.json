@@ -1,0 +1,175 @@
+{
+  "defaultPrompt": "I want to create a utility management system that can track energy consumption, manage service requests for facilities, and analyze usage patterns for cost optimization.",
+  "description": "Build custom utility management systems with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start managing utilities",
+    "subtitle": "Optimize energy, water, and waste management with custom-built utility systems designed for your specific needs.",
+    "title": "Build your own utility management system"
+  },
+  "metaDescription": "Create powerful utility management tools with Kliv. Track consumption, manage resources, and gain insights for better sustainability and cost control.",
+  "sections": [
+    {
+      "title": "The challenge of utility management",
+      "type": "text",
+      "content": "Efficient management of utilities like electricity, water, gas, and waste is crucial for businesses aiming to reduce operational costs, minimize environmental impact, and improve facility performance. Generic software often falls short, failing to adapt to unique infrastructure, diverse tariff structures, or specific reporting needs. This leads to missed savings, inefficient resource allocation, and a lack of actionable data. Kliv empowers you to build a system that perfectly aligns with your operational realities."
+    },
+    {
+      "title": "Transforming operations with a custom utility system",
+      "type": "markdown",
+      "content": "## Why off-the-shelf won't cut it\n\nMany organizations struggle with utility management because they rely on fragmented tools or spreadsheets, or they invest in rigid, expensive off-the-shelf solutions that only cover a fraction of their needs. These often:\n\n- **Lack flexibility**: Unable to integrate with diverse metering systems or atypical billing cycles.\n- **Are disconnected**: Don't provide a unified view across different utility types (e.g., electricity, water, gas, waste).\n- **Offer limited insights**: Present basic consumption data without advanced analytics for identifying trends or anomalies.\n- **Incur high recurring costs**: Subscription fees can quickly outweigh perceived benefits, especially for features you don't use.\n- **Ignore specific regulations**: May not support unique compliance or reporting requirements for your industry or region.\n\n## The tailored advantage of building your own\n\nDesigning a utility management system (UMS) on Kliv allows for an unparalleled level of customization and control. Here’s why a custom-built solution is a strategic investment:\n\n### Precise data capture and analysis\nYour UMS can be configured to integrate with any existing smart meters, traditional meters, or manual input processes. This ensures accurate and timely data collection, which is fundamental for effective analysis. You can then build custom dashboards to visualize consumption patterns, identify wastage, and forecast future usage.\n\n### Optimized cost control\nWith granular data and custom analytics, your system can identify opportunities for cost savings, such as optimizing tariff consumption, detecting leaks, or improving equipment efficiency. You can compare usage across different facilities, departments, or even specific pieces of equipment to pinpoint areas needing attention.\n\n### Enhanced sustainability efforts\nA custom UMS directly supports your organization's environmental goals by providing clear visibility into resource consumption. Track KPIs for energy intensity, water recycling, and waste diversion, helping you meet sustainability targets and potentially qualify for green initiatives or certifications.\n\n### Streamlined service and maintenance\nIntegrate service request management directly into your UMS. When anomalies are detected (e.g., unusual spikes in water usage), the system can automatically generate a work order for maintenance, expediting repairs and preventing prolonged issues.\n\n### Future-proof scalability\nAs your organization grows or its utility needs evolve, your custom UMS can scale and adapt. Easily add new utility types, incorporate advanced IoT sensors, or integrate with new enterprise systems without being restricted by vendor limitations.\n\n## Real-world impact\n\nCustom utility management systems are driving significant improvements:\n\n**Commercial Real Estate**: Monitoring energy consumption building-by-building, identifying high-usage tenants, and allocating costs accurately.\n\n**Manufacturing Facilities**: Tracking electricity usage of individual production lines to optimize scheduling and detect inefficient machinery.\n\n**Municipalities**: Managing water distribution networks, detecting leaks in real-time, and optimizing pump schedules for city-wide efficiency.\n\n**Healthcare Systems**: Overseeing energy and water use across a campus of hospitals, ensuring critical systems are efficient and compliant.\n\n## Build with intelligence\n\nBuilding a sophisticated UMS used to require extensive development teams and specialized domain knowledge. Kliv’s AI-powered platform makes it accessible:\n\n- **Declarative development**: Describe your utility infrastructure and desired functionality, and the AI assists in building the application.\n- **Pre-built components**: Utilize modular components for meter readings, data visualization, and reporting.\n- **Intelligent automation**: Set up rules for anomaly detection, automatically triggering alerts or maintenance requests.\n- **Secure by design**: Implement robust authentication and data encryption tailored to sensitive utility data.\n\nStart building the comprehensive utility management solution your business deserves with Kliv."
+    },
+    {
+      "title": "Utility management system ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Monitor and analyze electricity usage for multiple buildings or departments.",
+          "prompt": "Create an electricity management system that collects meter readings, visualizes consumption trends, and flags unusual spikes or dips.",
+          "title": "Electricity Consumption Tracker"
+        },
+        {
+          "description": "Track water usage, detect leaks, and manage related service requests.",
+          "prompt": "Build a water management application that monitors flow rates, alerts to potential leaks, and allows facility managers to log and track repair tickets.",
+          "title": "Water Usage & Leak Detection"
+        },
+        {
+          "description": "Optimize waste disposal, track recycling rates, and schedule pickups.",
+          "prompt": "Develop a waste management tool that records waste volumes by category, calculates recycling rates, schedules waste hauler pickups, and provides cost reports.",
+          "title": "Waste & Recycling Optimizer"
+        },
+        {
+          "description": "Centralize and analyze billing data from all utility providers.",
+          "prompt": "Design a utility bill manager that imports invoices from different providers, normalizes data, tracks payment statuses, and generates reports on historical spending.",
+          "title": "Utility Bill Consolidation"
+        },
+        {
+          "description": "Streamline maintenance and repair requests related to utility infrastructure.",
+          "prompt": "Create a service request system for utilities that allows staff to submit issues, assigns them to technicians, tracks resolution times, and manages spare parts inventory for utility assets.",
+          "title": "Utility Service Request Tracker"
+        },
+        {
+          "description": "Track carbon emissions across all utility types for environmental reporting.",
+          "prompt": "Build a carbon footprint tracker that calculates CO2 emissions based on electricity, gas, water, and waste data, and generates compliance reports for sustainability initiatives.",
+          "title": "Carbon Footprint Calculator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your utility management system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user role management system where certain users (like facility managers) can view all data, while others (like department heads) can only see their specific area's consumption.",
+          "title": "Implement granular access control"
+        },
+        {
+          "prompt": "Integrate with external weather data APIs to correlate utility consumption with temperature and humidity, improving predictive accuracy.",
+          "title": "Add weather data integration"
+        },
+        {
+          "prompt": "Develop a module for energy procurement that helps compare electricity and gas tariffs from different providers and flags optimal switching times.",
+          "title": "Build a procurement optimization module"
+        },
+        {
+          "prompt": "Incorporate machine learning models to predict future utility usage based on historical data, operational schedules, and external factors.",
+          "title": "Add predictive analytics capabilities"
+        },
+        {
+          "prompt": "Create custom reports and dashboards for executive summaries, showing utility performance against budget and sustainability goals.",
+          "title": "Generate executive summary reports"
+        },
+        {
+          "prompt": "Add a mobile interface for field technicians to record manual meter readings, update service request statuses, and log maintenance activities on the go.",
+          "title": "Develop a mobile app for field staff"
+        },
+        {
+          "prompt": "Integrate with an existing Geographic Information System (GIS) to visualize utility infrastructure and consumption data geo-spatially.",
+          "title": "Connect to GIS mapping"
+        },
+        {
+          "prompt": "Implement SMS and email notifications for critical alerts, such as high consumption spikes or pending service request approvals.",
+          "title": "Set up SMS and email alerts"
+        },
+        {
+          "prompt": "Add a feature to track the performance of specific utility assets (e.g., HVAC units, chillers) and schedule preventative maintenance based on runtime hours or consumption."
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities of a utility management system",
+      "type": "features",
+      "items": [
+        {
+          "description": "Collect and centralize data from various utility meters (electricity, water, gas) and sources.",
+          "icon": "📈",
+          "title": "Data Aggregation"
+        },
+        {
+          "description": "Visualize consumption trends, anomalies, and cost breakdowns through interactive charts and dashboards.",
+          "icon": "📊",
+          "title": "Consumption Analytics"
+        },
+        {
+          "description": "Automate alerts for high usage, leaks, or unusual patterns to facilitate rapid response.",
+          "icon": "🚨",
+          "title": "Anomaly Detection & Alerts"
+        },
+        {
+          "description": "Manage and track service requests, work orders, and maintenance schedules for utility assets.",
+          "icon": "🛠️",
+          "title": "Service & Maintenance Tracking"
+        },
+        {
+          "description": "Generate custom reports for cost analysis, budget reconciliation, and sustainability reporting.",
+          "icon": "📄",
+          "title": "Custom Reporting"
+        },
+        {
+          "description": "Integrate with existing building management systems, accounting software, and IoT devices.",
+          "icon": "🔗",
+          "title": "System Integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform allows you to build a functional utility management system in a matter of days or weeks, depending on the complexity and integrations required. This is significantly faster than traditional software development cycles.",
+          "question": "How quickly can I build a working utility management system?"
+        },
+        {
+          "answer": "No, specialized coding knowledge is not required. Kliv uses AI to interpret your requirements described in plain language and assists in generating the application's components and logic.",
+          "question": "Do I need to be a developer or an IT expert to build this?"
+        },
+        {
+          "answer": "Yes, your custom UMS can be designed to communicate with various data sources, including smart meters, ERP systems, building automation systems, and even manual data inputs through APIs and custom connectors.",
+          "question": "Can the system integrate with my existing smart meters and facility systems?"
+        },
+        {
+          "answer": "With Kliv, you own the intellectual property of the application you build. You have full control over the code, data, and deployment, ensuring complete portability and future flexibility.",
+          "question": "Who owns the utility management system I build?"
+        },
+        {
+          "answer": "The cost of building a custom UMS on Kliv is typically a one-time development investment, which can lead to significant long-term savings compared to ongoing subscription fees of commercial software. Exact costs depend on scope but are generally more economical for tailored solutions.",
+          "question": "How does the cost compare to purchasing a commercial utility management software?"
+        },
+        {
+          "answer": "Absolutely. Your custom UMS is inherently flexible. You can easily add functionality, integrate new utility types, or modify reporting structures as your business needs or market regulations evolve.",
+          "question": "Can the system be modified or expanded after initial development?"
+        },
+        {
+          "answer": "Yes. You have full control over data security protocols, encryption, and access management within your custom system, allowing you to implement robust security measures tailored to your specific compliance needs.",
+          "question": "How secure is a custom-built utility management system?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain full control over your utility data?",
+      "type": "cta",
+      "content": "Stop guessing and start optimizing. Build a precision-engineered utility management system that drives efficiency and savings for your organization."
+    }
+  ],
+  "title": "Utility Management Systems"
+}

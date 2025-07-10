@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a Google Ads management tool that can optimize bids, create ad copy variations, monitor budget spend, and generate performance reports automatically for multiple ad accounts.",
+  "description": "Build custom Google Ads management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start optimizing",
+    "subtitle": "Gain an edge over competitors with custom Google Ads management solutions tailored to your exact needs, built on Kliv's platform.",
+    "title": "Build your own Google Ads management tool"
+  },
+  "metaDescription": "Create powerful Google Ads management tools with Kliv. Automate optimization, track performance, and maximize ROI with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own Google Ads management tool?",
+      "type": "text",
+      "content": "In the highly competitive world of online advertising, off-the-shelf Google Ads management platforms often fall short. They offer generic features, rigid workflows, and often lock you into high recurring costs. What if you could have a tool designed precisely for your niche, your bidding strategy, and your reporting requirements?\n\nWith Kliv's AI-powered development platform, building a custom Google Ads management application is no longer a luxury reserved for large agencies. You can create a powerful, intelligent tool that gives you a distinct advantage, perfectly aligning with your business goals without compromise."
+    },
+    {
+      "title": "The strategic advantage of custom Google Ads management",
+      "type": "markdown",
+      "content": "## The limitations of generic platforms\n\nMany businesses struggle with standard Google Ads management software because they are:\n\n- **One-size-fits-all**: Not designed for specific industries or unique campaign structures.\n- **Feature-bloated or lacking**: Either too complex with irrelevant features or missing crucial capabilities.\n- **Costly subscriptions**: Monthly fees that eat into your ad spend, especially for managing multiple accounts.\n- **Limited integrations**: Difficulty connecting with your internal CRM, analytics, or sales data.\n- **Black-box algorithms**: You don't always understand *why* certain recommendations are made or how bidding strategies truly work.\n\n## Why a custom solution elevates your ad strategy\n\nBuilding your own Google Ads manager with Kliv empowers you with strategic flexibility and efficiency:\n\n### Hyper-tailored optimization\nDesign algorithms based on your specific business metrics—not just standard conversions. Optimize for profit, customer lifetime value, or specific lead quality, deeply integrated with your sales data.\n\n### Cost efficiency and ownership\nAvoid endless subscription fees. A custom tool is a one-time development investment that you own, modify, and scale without penalty. This frees up budget for actual ad spend, not software.\n\n### Seamless data integration\nConnect directly to your internal sales data, CRM, inventory systems, or even weather APIs to influence bidding and ad copy dynamically. No more manual data exports or clunky integrations.\n\n### Proprietary insights and automation\nDevelop unique reporting dashboards that highlight *your* key performance indicators. Implement automated actions based on custom triggers and conditions that off-the-shelf tools simply don't offer.\n\n### Competitive differentiation\nYour custom tool becomes a unique asset. While competitors are battling with generic features, you're operating with a system designed to exploit your unique market advantages.\n\n## Real-world impact\n\nCustom ad management tools are transforming digital marketing:\n\n**E-commerce**: Dynamic bidding based on real-time inventory levels, profit margins per product, and customer cart value, not just generic ROAS.\n\n**Lead Generation**: Automated pause/resume campaigns based on CRM pipeline stages or sales team availability, ensuring leads are always handled promptly.\n\n**SaaS/Tech**: Bid adjustments based on specific feature usage data from your product analytics, optimizing for activated users rather than just sign-ups.\n\n**Local Businesses**: Hyperlocal targeting and budgeting adjustments based on store traffic patterns, local events, or even competitor ad presence.\n\n## The Kliv development advantage\n\nPreviously, custom ad tech was a multi-million dollar endeavor. Kliv democratizes this capability:\n\n- **Natural language interfaces**: Describe your desired features in plain English.\n- **Rapid prototyping**: Get a working prototype for bid management or reporting in hours.\n- **AI-driven suggestions**: Leverage AI to refine bidding logic, campaign structures, and ad copy generation.\n- **Scalable architecture**: Build once, scale to manage thousands of campaigns and accounts.\n\n## Next steps\n\nThe most effective Google Ads strategy is powered by tools perfectly aligned with your business. Stop forcing your complex ad operations into simple software. Start building the solution that truly drives your growth.\n\nKliv provides the platform to turn your ad management vision into a powerful, automated reality. Begin crafting your competitive edge today."
+    },
+    {
+      "title": "Google Ads management tool ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate bid adjustments based on conversion value trends",
+          "prompt": "Create a Google Ads bid management tool that automatically adjusts CPC bids daily based on the rolling 7-day average of conversion value per click, aiming for a target ROAS of 3.5 for high-value campaigns.",
+          "title": "ROAS-driven Bid Optimizer"
+        },
+        {
+          "description": "Generate dynamic ad copy variations for A/B testing",
+          "prompt": "Build an ad copy generator that pulls product features from a 'products' database, combines them with pre-defined headlines and descriptions, and creates 10 unique Responsive Search Ad variations for each product group.",
+          "title": "Dynamic Ad Copy Generator"
+        },
+        {
+          "description": "Monitor budget and allocate spend across campaigns",
+          "prompt": "Develop a budget allocation system that monitors the total weekly ad spend across 5 different Google Ads accounts and automatically shifts budget between campaigns to prioritize those with the highest ROAS until the global weekly budget cap is met.",
+          "title": "Cross-Account Budget Manager"
+        },
+        {
+          "description": "Customizable negative keyword suggestions",
+          "prompt": "Design a tool that analyzes search query reports from Google Ads, identifies irrelevant or wasteful search terms based on predefined criteria (e.g., zero conversions, high clicks, low CTR), and suggests negative keywords for addition at the campaign or ad group level.",
+          "title": "Intelligent Negative Keyword Finder"
+        },
+        {
+          "description": "Performance anomaly detection and alerts",
+          "prompt": "Create a monitoring system that detects unusual drops in impression share, sudden spikes in CPC, or significant decreases in conversion rate for Google Ads campaigns, and sends immediate email and Slack alerts to the marketing team.",
+          "title": "Campaign Anomaly Detector"
+        },
+        {
+          "description": "Automated pausing of underperforming ads/keywords",
+          "prompt": "Build an automation script that identifies keywords or ads that have spent more than $100 with zero conversions in the last 30 days and automatically pauses them, sending a summary report of paused items weekly.",
+          "title": "Underperformer Auto-Pauser"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your Google Ads tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate third-party analytics data (e.g., Google Analytics 4, CRM data) to inform bidding strategies and reporting.",
+          "title": "Advanced Data Integration"
+        },
+        {
+          "prompt": "Add a predictive analytics module that forecasts future ad performance based on historical data and market trends.",
+          "title": "Predictive Performance Forecasting"
+        },
+        {
+          "prompt": "Implement A/B testing frameworks for ad copy and landing pages, with automated result analysis and winning variant selection.",
+          "title": "Automated A/B Testing Engine"
+        },
+        {
+          "prompt": "Develop a user interface (UI) for managing multiple Google Ads accounts from a single dashboard.",
+          "title": "Multi-Account Manager Dashboard"
+        },
+        {
+          "prompt": "Incorporate AI-driven recommendations for new keyword discovery and audience targeting based on website content analysis.",
+          "title": "AI Keyword & Audience Discovery"
+        },
+        {
+          "prompt": "Add functionality to generate and send custom, branded performance reports to clients or stakeholders on a scheduled basis.",
+          "title": "Custom Reporting & Scheduling"
+        },
+        {
+          "prompt": "Enable bid adjustments based on external factors like weather patterns, stock market fluctuations, or competitor ad activity.",
+          "title": "External Factor Bid Adjustments"
+        },
+        {
+          "prompt": "Build a module for managing and optimizing Google Shopping feeds directly within the application.",
+          "title": "Google Shopping Feed Optimizer"
+        },
+        {
+          "prompt": "Allow for rule-based campaign asset creation, such as automatically generating image assets from product URLs and text overlays.",
+          "title": "Automated Asset Generation"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your custom tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Implement advanced bidding strategies beyond standard Google options, tailored to unique business goals.",
+          "icon": "📈",
+          "title": "Granular Bid Optimization"
+        },
+        {
+          "description": "Automate the creation, testing, and rotation of ad copy and creative assets based on performance.",
+          "icon": "✍️",
+          "title": "Dynamic Ad Creation"
+        },
+        {
+          "description": "Flexible budget management and allocation across various accounts, campaigns, and ad groups.",
+          "icon": "💰",
+          "title": "Intelligent Budget Control"
+        },
+        {
+          "description": "Design custom reports and dashboards that focus on your most critical KPIs and business metrics.",
+          "icon": "📊",
+          "title": "Customized Performance Reporting"
+        },
+        {
+          "description": "Seamlessly connect with your CRM, analytics, inventory, or sales platforms for unified data-driven insights.",
+          "icon": "🔗",
+          "title": "Deep Data Integrations"
+        },
+        {
+          "description": "Implement alerts and automated actions based on predefined performance triggers (e.g., pausing underperforming ads).",
+          "icon": "⚙️",
+          "title": "Rule-Based Automation"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building an ad tool",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional Google Ads management tool can take anywhere from a few hours for a basic bid adjuster to a few days or weeks for a comprehensive, multi-account system. Kliv's AI significantly accelerates this timeline.",
+          "question": "How long will it take to build a custom Google Ads management tool?"
+        },
+        {
+          "answer": "No, technical expertise in coding is not required. Kliv's platform allows you to describe your desired functionalities using natural language. The AI interprets your requests and helps generate the underlying application structure and logic.",
+          "question": "Do I need to be a programmer or have technical skills?"
+        },
+        {
+          "answer": "Yes, you can integrate with the Google Ads API to pull data and execute actions. You can also connect to other marketing platforms like Google Analytics, Facebook Ads, or even your internal CRM and sales databases.",
+          "question": "Can my custom tool connect to Google Ads and other marketing platforms?"
+        },
+        {
+          "answer": "Unlike SaaS solutions where you rent the software, with Kliv, you own the intellectual property of the application you build. This means you have full control over its features, data, and future development.",
+          "question": "Who owns the custom Google Ads management tool I build?"
+        },
+        {
+          "answer": "Custom tools present a one-time development cost, often making them more cost-effective in the long run compared to recurring SaaS subscriptions, especially for advanced features or managing multiple ad accounts.",
+          "question": "How does the cost compare to subscribing to existing ad management platforms?"
+        },
+        {
+          "answer": "Yes. The modular nature of applications built with Kliv means you can easily add new features, refine existing algorithms, or integrate new data sources as your advertising strategy evolves. It's built for continuous improvement.",
+          "question": "Can I modify or expand my tool after it's initially created?"
+        },
+        {
+          "answer": "Kliv adheres to secure development practices. Furthermore, by owning your tool, you have direct control over data storage and access, which can enhance security beyond what’s possible with third-party platforms.",
+          "question": "Is building a custom tool secure for managing sensitive ad account data?"
+        },
+        {
+          "answer": "Kliv provides AI-guided assistance throughout the development process, including debugging and optimization suggestions. For complex needs, the community and optional expert support are available.",
+          "question": "What if I get stuck or need help during the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your Google Ads?",
+      "type": "cta",
+      "content": "Stop conforming to static software. Build a dynamic, intelligent Google Ads management solution that truly understands and delivers on your unique business objectives. Start building your competitive advantage today."
+    }
+  ],
+  "title": "Google Ads management tools"
+}

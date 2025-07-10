@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a windsurfing performance tracker that records speed, distance, and jump height, displays analytics, and allows me to compare sessions with friends.",
+  "description": "Develop custom windsurfing performance tracking applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Tracking",
+    "subtitle": "Analyze your sessions, identify improvements, and share your progress with a custom-built app tailored to your needs.",
+    "title": "Build Your Own Windsurfing Performance Tracker"
+  },
+  "metaDescription": "Create powerful windsurfing performance tracking tools with Kliv. Capture speed, distance, jump height, and more to optimize your skills and enhance your sessions.",
+  "sections": [
+    {
+      "title": "Unlock Your True Potential on the Water",
+      "type": "text",
+      "content": "In the world of windsurfing, every knot counts, every jump matters, and every session is an opportunity to improve. While off-the-shelf GPS watches and limited apps offer basic data, they rarely provide the deep insights or customizability a dedicated enthusiast or a professional coach truly needs.\n\nImagine a tool designed specifically for your windsurfing goals – whether it's breaking personal speed records, mastering new maneuvers, or training a team. With Kliv, you can build a bespoke performance tracking application that captures exactly what you need, how you need it, enabling a level of analysis and progress monitoring that generic solutions simply can't match."
+    },
+    {
+      "title": "The Edge of Custom Performance Tracking",
+      "type": "markdown",
+      "content": "## Why Settle for Less?\n\nMost existing windsurfing trackers offer a limited set of features, often dictated by the hardware they run on. You might find:\n\n- **Generic data outputs**: Speed, distance, and perhaps a basic GPS track, but nothing specific to windsurfing metrics like planing time, jump analytics, or gybe efficiency.\n- **Lack of customization**: Inability to define custom metrics, create personalized training plans, or integrate with specific types of sensors.\n- **Limited sharing and community features**: Basic social sharing, but no deep comparison tools or private group analytics.\n- **Subscription models for core features**: You might pay monthly for advanced analytics that really should be standard.\n\n## Custom-Built: Your Ultimate Advantage\n\nBuilding your own windsurfing performance tracker with Kliv means creating a tool that's as unique as your riding style. Here’s why it’s a game-changer:\n\n### Hyper-Relevant Metrics\nCustomize what data you capture. Want to track the G-forces of your high-speed turns? The hang-time of your jumps? Or how many tacks you complete in a session? Your custom app can do it.\n\n### Advanced Analytics & Visualization\nMove beyond simple charts. Design interactive dashboards that highlight specific performance aspects, overlay multiple sessions, or visualize your progress over time with custom algorithms you define.\n\n### Personalized Coaching Tools\nFor coaches, a custom app can provide detailed athlete profiles, track training loads, analyze specific maneuver success rates, and generate tailored feedback reports.\n\n### Seamless Integration\nConnect with specialized sensors (GPS, accelerometers, gyroscopes), weather APIs, or even video analysis software to create a comprehensive performance ecosystem.\n\n### Own Your Data & Evolution\nYour data is yours. Securely store, analyze, and use it without concerns about third-party privacy policies or data monetization. Plus, evolve your app with new features as your needs or technology advances.\n\n## Real-World Impact Scenarios\n\n**Competitive Racer**: Develop an app that logs every tack and gybe, analyzes upwind/downwind performance relative to wind shifts, and overlays racing lines from different days to refine strategy.\n\n**Freestyle Enthusiast**: Build a tracker focused on jump height, rotation speeds, and air time, with video synchronization to review and perfect tricks.\n\n**Beginner Coach**: Create a user-friendly app for students that tracks consistent planing time, basic speed, and distance, with encouraging visual progress indicators and direct feedback integration.\n\n**Gear Tester**: Design a system to compare the performance of different boards and sails under varying conditions, logging specific data points related to efficiency, speed, and handling traits.\n\n## AI: Accelerating Your Creation\n\nDeveloping complex data analysis tools used to be a significant undertaking. Kliv's AI platform simplifies this by:\n\n- **Understanding your requirements**: Describe the metrics, analyses, and visualizations you need in plain language.\n- **Generating core functionality**: Rapidly prototype data capture, storage, and retrieval systems.\n- **Suggesting advanced features**: AI can propose additional analytics or integrations based on your initial concept.\n- **Automating data processing pipelines**: Effortlessly set up routines for cleaning, transforming, and analyzing raw sensor data."
+    },
+    {
+      "title": "Performance Tracking Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track top speed, average speed, and distance covered.",
+          "prompt": "Create a windsurfing performance tracker that uses GPS data to record top speed, average speed, and total distance of my sessions. It should display a map with my track and export data to CSV.",
+          "title": "Basic Speed & Distance Logger"
+        },
+        {
+          "description": "Analyze jump height, hang time, and rotation from sensor data.",
+          "prompt": "Build an app that connects to an accelerometer/gyroscope sensor to measure and log jump height, air time, and rotations during freestyle maneuvers. It should show a graph of each jump.",
+          "title": "Freestyle Jump Analyzer"
+        },
+        {
+          "description": "Monitor planing percentage, gybe count, and tack efficiency.",
+          "prompt": "Develop a system to track my planing time percentage per session, count completed gybes and tacks, and calculate the efficiency of each turn based on speed loss. I want to see a summary dashboard.",
+          "title": "Maneuver Efficiency Monitor"
+        },
+        {
+          "description": "Synchronize video with overlaid performance metrics.",
+          "prompt": "I need an app that can synchronize my GoPro video footage with telemetry data (speed, GPS, G-force) from my session, creating an overlaid video for post-session analysis.",
+          "title": "Video & Data Overlay Tool"
+        },
+        {
+          "description": "Compare session data with friends or fellow racers.",
+          "prompt": "Create a social feature for my performance app where I can compare my session data (top speed, distance, longest run) with selected friends or members of my racing team. It should have leaderboards.",
+          "title": "Session Comparison & Leaderboard"
+        },
+        {
+          "description": "Log gear used per session and correlate with performance.",
+          "prompt": "Build a tracking module that allows me to log which specific board, sail, and fin I used for each session and then correlates that gear setup with performance metrics like top speed and control feedback.",
+          "title": "Gear Performance Correlator"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Performance Tracker",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now add a weather integration feature that pulls real-time and historical wind speed, direction, and temperature data for my session locations and correlates it with my performance.",
+          "title": "Weather Data Integration"
+        },
+        {
+          "prompt": "Add a feature to train a machine learning model to predict optimal gear choice based on wind conditions and my past performance data.",
+          "title": "AI Coaching Recommendations"
+        },
+        {
+          "prompt": "Create a module for setting and tracking specific training goals, like 'achieve 30 knots average speed' or 'complete 10 perfect gybes', with visual progress bars.",
+          "title": "Goal Tracking & Progress Reporting"
+        },
+        {
+          "prompt": "Implement a 'Ghost Rider' mode on the map display, allowing me to race against my past self or a friend's best run.",
+          "title": "Virtual Race Mode"
+        },
+        {
+          "prompt": "Add voice feedback during sessions, reporting current speed, distance, or next training instruction through waterproof headphones.",
+          "title": "Real-time Audio Feedback"
+        },
+        {
+          "prompt": "Develop a feature to automatically detect specific maneuvers (e.g., carving gybes, waterstarts, jumps) from sensor data and log their success rate.",
+          "title": "Automated Maneuver Detection"
+        },
+        {
+          "prompt": "Integrate a 'spot conditions' feature where users can report and view real-time wind and water conditions at popular windsurfing spots.",
+          "title": "Community Spot Conditions"
+        },
+        {
+          "prompt": "Build a module for importing data from existing GPS devices or other sports tracking platforms you already use.",
+          "title": "Third-Party Data Import"
+        },
+        {
+          "prompt": "Add a custom 'notes' field for each session where I can jot down observations about gear performance, feel, or session highlights.",
+          "title": "Session Notes & Tagging"
+        }
+      ]
+    },
+    {
+      "title": "Core Tracking Capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Capture key metrics like speed, distance, and location via GPS.",
+          "icon": "📍",
+          "title": "GPS Data Logging"
+        },
+        {
+          "description": "Record advanced motion data for jumps, turns, and impacts.",
+          "icon": "⚡",
+          "title": "Sensor Integration"
+        },
+        {
+          "description": "Visualize your sessions on interactive maps and graphs.",
+          "icon": "📈",
+          "title": "Custom Dashboards"
+        },
+        {
+          "description": "Compare your performance against previous sessions or peers.",
+          "icon": "🏆",
+          "title": "Session Comparison"
+        },
+        {
+          "description": "Define and track your own unique performance metrics.",
+          "icon": "🔧",
+          "title": "Configurable Metrics"
+        },
+        {
+          "description": "Export your valuable data in various formats for further analysis.",
+          "icon": "📤",
+          "title": "Data Export"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional windsurfing tracker can be done in days or weeks, not months, depending on the complexity of features you envision. Kliv's AI significantly accelerates the development process.",
+          "question": "How long will it take to build my custom windsurfing tracker?"
+        },
+        {
+          "answer": "Kliv is designed to enable non-technical users to build sophisticated applications. You describe your desired features in plain language, and the AI assists in generating and refining the underlying code.",
+          "question": "Do I need to be a programmer to build a performance tracker?"
+        },
+        {
+          "answer": "Yes, your custom app can be designed to integrate with various external sensors (like accelerometers, gyroscopes, or advanced GPS units via Bluetooth) and pull data from weather APIs, or even import from other fitness trackers if they offer data export.",
+          "question": "Can my tracker integrate with external sensors or weather data?"
+        },
+        {
+          "answer": "All data collected and generated by your custom application belongs solely to you. You control its storage, access, and usage, ensuring maximum privacy and ownership.",
+          "question": "Who owns the performance data collected by my app?"
+        },
+        {
+          "answer": "While there's an initial investment in building the app, you own the asset. Compared to ongoing monthly subscriptions for feature-limited commercial apps, a custom solution can offer significant long-term savings and provide exactly what you need without compromise.",
+          "question": "Is building a custom app cost-effective compared to commercial solutions?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the ability to continuously evolve your application. As your needs change or new technologies emerge, you can easily add features, refine analytics, or adapt integrations.",
+          "question": "Can I add new features or modify my tracker after it's built?"
+        },
+        {
+          "answer": "Your custom app can be configured to run on various devices, including smartphones (iOS/Android) or even dedicated hardware if you choose. The focus is on web-based and mobile-friendly applications.",
+          "question": "What devices can my custom windsurfing tracker run on?"
+        },
+        {
+          "answer": "Yes, Kliv enables you to build robust user authentication and community features into your app, allowing for secure session sharing, private group comparisons, and controlled access for coaches or friends.",
+          "question": "Can I share my sessions and compare data with friends or a team?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Master Your Windsurfing Journey?",
+      "type": "cta",
+      "content": "Stop guessing and start analyzing. Build the ultimate windsurfing performance tracker that gives you the edge you've been looking for. Your perfect session starts now."
+    }
+  ],
+  "title": "Windsurfing Performance Tracking"
+}

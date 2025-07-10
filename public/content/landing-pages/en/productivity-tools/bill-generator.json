@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a custom bill generator that can handle various pricing models, apply discounts, track payments, and generate professional invoices for my services.",
+  "description": "Generate custom bills and invoices with Kliv's AI-powered platform for perfect financial control.",
+  "hero": {
+    "cta": "Start Generating Bills",
+    "subtitle": "Create bespoke billing and invoice generation tools tailored to your business needs, powered by Kliv's AI-driven development.",
+    "title": "Build Your Own Bill Generator"
+  },
+  "metaDescription": "Develop powerful custom bill generators and invoicing systems with Kliv. Automate billing, manage clients, and track payments precisely.",
+  "sections": [
+    {
+      "title": "Why a generic bill generator falls short",
+      "type": "text",
+      "content": "In today's diverse business landscape, one-size-fits-all billing solutions often create more problems than they solve. Standard software might offer basic invoicing, but struggles with unique pricing models, custom service descriptions, subscription management, or complex discount structures.\n\nBuilding your own bill generator means you capture your specific business logic, reduce manual errors, and present a professional, consistent image to your clients. It's about precision and control, not just generating a document."
+    },
+    {
+      "title": "The power of custom billing solutions",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf billing apps\n\nMany businesses limp along with generic billing software for too long. These tools typically:\n\n- **Lack customization**: Can't adapt to unique services, complex pricing structures, or specific branding requirements.\n- **Force workarounds**: You end up doing manual calculations or maintaining separate spreadsheets for edge cases.\n- **Incur recurring costs**: Monthly subscriptions add up, especially for features you rarely use.\n- **Offer limited integration**: Struggle to connect seamlessly with your CRM, accounting software, or payment gateways.\n- **Provide generic reports**: Don't give you the granular insights needed for financial planning or client analysis.\n\n## Why custom-built is the ultimate solution\n\nKliv transforms the way businesses approach their financial operations by enabling custom bill generator development. Here's why it's a game-changer:\n\n### Adaptability to your unique business model\nWhether you have hourly rates, project-based fees, subscription services, or tiered pricing, a custom bill generator can be built to perfectly accommodate your financial logic. No more shoehorning your business into someone else's template.\n\n### Enhanced professional appearance\nBrand consistency matters. Your custom generator can produce invoices, receipts, and statements that perfectly match your brand's aesthetics, enhancing client trust and professionalism.\n\n### Streamlined financial operations\nBy automating calculations, tax applications, and payment tracking, you reduce human error and free up valuable time. Your team can focus on core business activities instead of manual billing processes.\n\n### Data ownership and security\nWith a custom solution, you dictate where your sensitive financial data resides and who has access. This offers a level of security and compliance often challenging with third-party SaaS providers.\n\n### Significant cost savings long-term\nWhile there's an initial investment, a custom tool eliminates recurring subscription fees. Over time, this translates into substantial savings, especially as your business scales.\n\n## Real-world applications of custom billing\n\nCustom bill generators are invaluable across various sectors:\n\n**Consulting Firms**: Generating detailed bills with varied hourly rates for different consultants, project milestones, and expense tracking.\n\n**Service Providers**: Handling dynamic pricing for services like web design, marketing campaigns, or IT support, including retainers and one-off projects.\n\n**Subscription Businesses**: Managing recurring billing cycles, pro-rata charges, upgrades/downgrades, and automated payment reminders.\n\n**Property Management**: Creating complex rent invoices that include base rent, utilities, late fees, and specific charges for multiple tenants or units.\n\n**Freelancers & Solopreneurs**: Automating invoices with custom branding, itemized services, and integrated payment links for faster client payments.\n\n## The Kliv advantage in building financial tools\n\nKliv leverages AI to make complex software development accessible:\n\n- **Natural Language Interface**: Describe your billing rules and requirements in plain English, and Kliv's AI assists in building the system.\n- **Rapid Prototyping**: See your custom bill generator take shape quickly, allowing for iterative improvements.\n- **Intelligent Suggestions**: Get recommendations for features like automated tax calculations, multi-currency support, or payment gateway integrations.\n- **Robust and Secure**: Build a system designed for financial accuracy and data security from the ground up.\n\nDon't settle for billing tools that almost fit. Build one that perfectly aligns with your financial processes and grows with your business."
+    },
+    {
+      "title": "Bill generation ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create detailed invoices for consulting projects, tracking time and expenses.",
+          "prompt": "Build a bill generator for my consulting business that allows me to input hourly rates per consultant, track project-based fees, add reimbursable expenses, and generate itemized invoices with my company logo.",
+          "title": "Custom Consulting Invoice System"
+        },
+        {
+          "description": "Automate recurring billing for subscription services with flexible plans.",
+          "prompt": "Develop a recurring bill generator for a SaaS company that manages monthly and annual subscriptions, handles pro-rata billing for mid-cycle changes, and sends automated renewal reminders.",
+          "title": "Subscription Billing Platform"
+        },
+        {
+          "description": "Manage utility consumption and multi-tenant billing for properties.",
+          "prompt": "Design a bill generator for a property management company that calculates utility consumption for individual tenants, applies different rates, adds common area charges, and generates consolidated monthly bills for each unit.",
+          "title": "Property Utility Billing Tool"
+        },
+        {
+          "description": "Generate invoices with tiered pricing and usage-based charges.",
+          "prompt": "Create a bill generator for a cloud service provider that supports tiered pricing based on usage (e.g., data storage, API calls), applies volume discounts, and generates detailed usage reports with each invoice.",
+          "title": "Usage-Based Service Billing"
+        },
+        {
+          "description": "Process diverse one-off and retainer fees for creative services.",
+          "prompt": "Build an invoicing tool for a creative agency that can differentiate between one-off project fees, monthly retainers, add-on services, and allows for custom notes per line item for clients.",
+          "title": "Creative Agency Invoice System"
+        },
+        {
+          "description": "Automate medical service billing with CPT codes and insurance details.",
+          "prompt": "Develop a bill generator for a small medical practice that can input CPT codes for services, integrate patient insurance details, calculate co-pays, and generate bills compliant with healthcare billing standards.",
+          "title": "Medical Service Billing"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your billing application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a client portal where clients can view their billing history, download invoices, and make payments online.",
+          "title": "Client Self-Service Portal"
+        },
+        {
+          "prompt": "Integrate with popular accounting software like QuickBooks or Xero to automatically sync invoice data and payment statuses.",
+          "title": "Accounting Software Integration"
+        },
+        {
+          "prompt": "Implement multi-currency support and automatic exchange rate conversion for international clients.",
+          "title": "Multi-Currency Billing"
+        },
+        {
+          "prompt": "Add automated payment reminders and dunning management for overdue invoices.",
+          "title": "Automated Payment Reminders"
+        },
+        {
+          "prompt": "Develop a dashboard that provides real-time financial reporting, showing outstanding invoices, revenue trends, and client payment statistics.",
+          "title": "Financial Analytics Dashboard"
+        },
+        {
+          "prompt": "Include automated tax calculation and application based on client location and service type.",
+          "title": "Automated Tax Calculation"
+        },
+        {
+          "prompt": "Add a feature to generate recurring invoices automatically based on pre-set schedules.",
+          "title": "Scheduled Recurring Invoices"
+        },
+        {
+          "prompt": "Integrate a secure payment gateway (e.g., Stripe, PayPal) to allow clients to pay invoices directly from the generated bill.",
+          "title": "Direct Payment Gateway Integration"
+        },
+        {
+          "prompt": "Enable the generation of various financial reports, such as aging reports, revenue by client, or service profitability reports.",
+          "title": "Advanced Reporting Module"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Bill Generator",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define custom services, products, and their associated pricing models (hourly, fixed, subscription).",
+          "icon": "💸",
+          "title": "Flexible Pricing & Services"
+        },
+        {
+          "description": "Automate calculation of taxes, discounts, and custom charges.",
+          "icon": "🤖",
+          "title": "Automated Calculations"
+        },
+        {
+          "description": "Generate professional, branded invoices, quotes, and statements in various formats (PDF, email).",
+          "icon": "📄",
+          "title": "Custom Document Generation"
+        },
+        {
+          "description": "Track payment statuses, apply partial payments, and manage overdue accounts.",
+          "icon": "✅",
+          "title": "Payment Tracking"
+        },
+        {
+          "description": "Maintain a comprehensive database of clients with their unique billing preferences.",
+          "icon": "👥",
+          "title": "Client Management"
+        },
+        {
+          "description": "Export billing data, generate financial reports, and analyze revenue trends.",
+          "icon": "📈",
+          "title": "Reporting & Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building on Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic bill generator with Kliv can take a few hours to a day. For more complex systems with accounting integrations or client portals, it might extend to a few days or weeks, depending on your requirements.",
+          "question": "How quickly can I build a custom bill generator?"
+        },
+        {
+          "answer": "No, extensive coding knowledge is not required. Kliv's AI platform allows you to describe your desired features and logic in natural language, and it assists in generating the application code.",
+          "question": "Do I need to be a programmer to build a bill generator?"
+        },
+        {
+          "answer": "Yes, custom bill generators can be integrated with various third-party services like payment gateways (Stripe, PayPal), accounting software (QuickBooks, Xero), and CRM systems (Salesforce) via APIs.",
+          "question": "Can my custom bill generator integrate with other software?"
+        },
+        {
+          "answer": "You retain full ownership of the application you build. This includes the code, data, and all intellectual property associated with your custom bill generator.",
+          "question": "Who owns the bill generator I create on Kliv?"
+        },
+        {
+          "answer": "Building a custom solution often has a higher upfront cost but eliminates recurring subscription fees of SaaS products. Over the medium to long term, custom applications typically offer significant cost savings and a better ROI.",
+          "question": "How does the cost compare to off-the-shelf billing software?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are designed for flexibility. You can add new features, modify existing billing rules, or scale the system as your business evolves, without relying on vendor updates.",
+          "question": "Can I modify or expand my bill generator after it's built?"
+        },
+        {
+          "answer": "You have complete control over the hosting environment and data security protocols, allowing you to implement robust security measures tailored to your specific compliance needs, potentially making it more secure than relying on third-party vendors.",
+          "question": "Is a custom bill generator secure for sensitive financial data?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance and tools for development and debugging. For ongoing maintenance, since you own the code, you can manage it internally, hire a developer, or leverage further AI assistance for updates.",
+          "question": "What kind of support is available for maintenance after building?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Master Your Billing Process?",
+      "type": "cta",
+      "content": "Stop conforming to generic billing tools. Build a robust, accurate, and completely custom bill generator that truly fits your business. Start building with Kliv today!"
+    }
+  ],
+  "title": "Bill Generator Application"
+}

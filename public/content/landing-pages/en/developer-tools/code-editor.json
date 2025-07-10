@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a custom, lightweight code editor for web developers that supports syntax highlighting for JavaScript, HTML, and CSS, has live preview functionality, and integrates with Git.",
+  "description": "Build custom, niche-specific code editors with Kliv's AI-powered platform tailored for any programming language or workflow.",
+  "hero": {
+    "cta": "Start Building Your Editor",
+    "subtitle": "Develop bespoke code editing environments perfectly suited for your specific language, framework, or workflow with Kliv's AI-powered platform.",
+    "title": "Build Your Own Custom Code Editor"
+  },
+  "metaDescription": "Create powerful, custom code editors with Kliv. Tailor syntax highlighting, integrate with specific tools, and optimize for unique development needs.",
+  "sections": [
+    {
+      "title": "Beyond Generic IDEs",
+      "type": "text",
+      "content": "In a world of one-size-fits-all Integrated Development Environments (IDEs), developers often grapple with bloat, missing niche features, or an overwhelming interface not suited for their precise needs. While powerful, generic IDEs can lead to slower workflows, context switching, and a steep learning curve for specialized tasks. What if you could design an editor that is purpose-built for your specific coding language, framework, or development style?\n\nKliv offers the unique ability to create highly specialized, lightweight, and efficient code editors. By leveraging AI-powered development, you can focus on core functionalities important for your workflow, shedding unnecessary complexity and crafting a truly optimized coding experience."
+    },
+    {
+      "title": "The Strategic Advantage of Custom Code Editors",
+      "type": "markdown",
+      "content": "## Why current tools fall short\n\nExisting code editors and IDEs, while comprehensive, often present challenges:\n\n- **Feature Bloat:** Many come packed with features you'll never use, slowing down performance and cluttering the UI.\n- **Lack of Specialization:** Generic tools may not offer deep, optimized support for niche languages, proprietary systems, or specific workflows.\n- **Integration Challenges:** Seamlessly integrating with internal tools, testing suites, or custom build processes can be complex.\n- **Learning Curve:** New team members might struggle to adapt to overly complex environments when only a subset of features is needed.\n- **Vendor Lock-in:** Depending on proprietary extensions or cloud services can limit flexibility and future adaptability.\n\n## The compelling case for a tailor-made editing experience\n\nBuilding a custom code editor is not just about preference; it's a strategic move for focused development, increased productivity, and enhanced control:\n\n### Optimized for Specificity\nDesign an editor precisely for a new domain-specific language, a proprietary framework, or a particular microservice architecture. Include only the features you need, eliminating distractions and boosting efficiency.\n\n### Enhanced Workflow Integration\nIntegrate directly with your unique build pipelines, testing frameworks, CI/CD tools, or internal knowledge bases. Imagine an editor where pushing code automatically triggers a localized test run, or documentation links appear via context and code insight.\n\n### Reduced Learning Curve for Niche Tasks\nFor specialized projects or new hires on a specific stack, a custom editor can simplify the development environment, making it easier to onboard and maintain focus on the task at hand.\n\n### Full Ownership and Control\nUnlike relying on third-party products, you own your custom editor. You control its features, its security, and its evolution, ensuring it always aligns with your business needs without external dependencies or licensing costs.\n\n### Performance Tuned to Your Needs\nStrip away unused components to create a lightning-fast editor that consumes fewer resources, perfect for embedded systems development, remote environments, or specific hardware limitations.\n\n## Real-world applications for custom editors\n\nCustom code editors are invaluable in diverse scenarios:\n\n**Educational Platforms**: Simplified editors for teaching specific programming concepts without overwhelming students with advanced IDE features.\n\n**Game Development Toolchains**: Editors tailored for scripting in specific game engines, with integrated asset management and real-time preview of game logic.\n\n**Embedded Systems Development**: Lightweight editors optimized for writing firmware in C/C++ for microcontrollers, with direct flashing and debugging utilities.\n\n**Data Science Workbenches**: Custom editors focused on Python/R for data analysis, with integrated Jupyter-like notebook functionality and direct database connections.\n\n**DevOps Automation**: Editors specifically designed for writing Infrastructure as Code (IaC) (e.g., Terraform, Ansible) with built-in validation and deployment tools.\n\n## The Kliv.dev advantage\n\nKliv's platform accelerates the development of bespoke tools, including code editors, by leveraging AI to translate your requirements into functional code:\n\n- **Semantic Understanding**: Describe the programming language, desired features, and integrations in plain language.\n- **Component Generation**: AI generates core editor components like syntax highlighting, autocompletion, and file management.\n- **Rapid Iteration**: Quickly prototype and test different editor configurations and features.\n- **Extensibility**: Easily add custom plugins, themes, and integrations as your needs evolve."
+    },
+    {
+      "title": "Code Editor Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A focused editor for microcontroller firmware.",
+          "prompt": "Create a lightweight code editor for writing C/C++ code for Arduino microcontrollers. It should have basic syntax highlighting, an integrated serial monitor, and a one-click compile/upload button.",
+          "title": "Embedded Firmware Editor"
+        },
+        {
+          "description": "An editor for automating cloud deployments.",
+          "prompt": "Build a custom editor for Terraform HCL configuration files. It needs intelligent autocompletion for AWS resources, real-time Terraform plan preview, and a direct 'terraform apply' button.",
+          "title": "IaC Deployment Editor"
+        },
+        {
+          "description": "Streamline game logic scripting with specific tools.",
+          "prompt": "Develop a specialized code editor for Lua scripting within a specific game engine. It must feature syntax highlighting, an integrated asset browser, and a custom 'run game logic' button that loads the script into the engine.",
+          "title": "Game Scripting Tool"
+        },
+        {
+          "description": "A minimal, distraction-free environment for pure coding.",
+          "prompt": "Design a 'zen mode' editor for Python. It should have only syntax highlighting, line numbers, and a dark theme. No sidebars, no extra panels, just the code.",
+          "title": "Minimalist Python Editor"
+        },
+        {
+          "description": "Editor for proprietary languages or data formats.",
+          "prompt": "Construct a custom editor for a new domain-specific language (DSL) called 'DataFlowQL'. It needs a custom parser for syntax highlighting, error checking, and a 'validate schema' command.",
+          "title": "DSL Editor & Validator"
+        },
+        {
+          "description": "Specialized for frontend work with live feedback.",
+          "prompt": "Create a CSS-only editor that provides real-time visual feedback on a chosen HTML template. It needs color pickers, box-shadow generators, and media query auto-completion.",
+          "title": "Live CSS Editor"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Editor for Peak Performance",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add version control integration, specifically for Git, allowing commit, pull, push, and branching operations directly from the editor.",
+          "title": "Integrate Git Version Control"
+        },
+        {
+          "prompt": "Implement a real-time collaborative editing feature, allowing multiple users to work on the same file simultaneously.",
+          "title": "Add Collaborative Editing"
+        },
+        {
+          "prompt": "Incorporate AI-powered code completion and suggestions that learn from the user's coding style and project context.",
+          "title": "Build AI-Powered Autocompletion"
+        },
+        {
+          "prompt": "Develop a robust plugin architecture so users can easily extend the editor's functionality with custom modules.",
+          "title": "Create a Plugin System"
+        },
+        {
+          "prompt": "Add a customizable theme engine, allowing users to switch between light/dark modes and define their own color schemes.",
+          "title": "Implement Theming Capabilities"
+        },
+        {
+          "prompt": "Integrate a unit testing framework and run tests directly from the editor, displaying results inline.",
+          "title": "Embed a Test Runner"
+        },
+        {
+          "prompt": "Include an interactive debugger with breakpoints, step-through execution, and variable inspection for the target language.",
+          "title": "Add an Interactive Debugger"
+        },
+        {
+          "prompt": "Integrate with common deployment tools (e.g., Docker, Kubernetes) to trigger builds and deployments from within the editor.",
+          "title": "Build Deployment Integrations"
+        },
+        {
+          "prompt": "Add a customizable linter and formatter that provides real-time feedback on code quality and adheres to specific style guides.",
+          "title": "Include Linter and Formatter"
+        }
+      ]
+    },
+    {
+      "title": "Core Editor Capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Highlight syntax for any custom or standard programming language, improving readability.",
+          "icon": "📝",
+          "title": "Custom Syntax Highlighting"
+        },
+        {
+          "description": "Provide intelligent code completion, suggestions, and snippets for faster, more accurate coding.",
+          "icon": "💡",
+          "title": "Smart Autocompletion"
+        },
+        {
+          "description": "Manage files and directories with an integrated file explorer designed for your project structure.",
+          "icon": "📁",
+          "title": "Integrated File Browser"
+        },
+        {
+          "description": "View real-time output or visual representation of your code with live preview windows.",
+          "icon": "👁️",
+          "title": "Live Preview Functionality"
+        },
+        {
+          "description": "Execute commands or scripts directly from an embedded terminal.",
+          "icon": "💻",
+          "title": "Built-in Terminal Access"
+        },
+        {
+          "description": "Allow seamless integration with external tools, APIs, and services relevant to your workflow.",
+          "icon": "🔗",
+          "title": "Extensible Integration Hooks"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The time to build a custom code editor can vary. A basic, language-specific editor with Kliv can be functional in a day or two. More complex editors with deep integrations and advanced features might take a week or two to fully refine.",
+          "question": "How long does it typically take to build a custom code editor?"
+        },
+        {
+          "answer": "No, extensive coding experience is not required. Kliv's AI assists in generating the core components based on your descriptive prompts. You define the features and behavior, and the platform handles the underlying code.",
+          "question": "Do I need to be an expert developer to build an editor with Kliv?"
+        },
+        {
+          "answer": "Absolutely. Kliv-built applications are designed for integration. You can connect your custom editor with Git repositories, external APIs, build systems, test runners, and proprietary tools specific to your development environment.",
+          "question": "Can I integrate my custom editor with existing development tools and services?"
+        },
+        {
+          "answer": "Yes, you have full ownership. The code generated is yours, allowing you to host it where you choose and modify it as needed. There are no ongoing licensing fees for the editor itself once it's built.",
+          "question": "Do I own the created editor, or am I reliant on Kliv for hosting/licensing?"
+        },
+        {
+          "answer": "Custom editors built with Kliv are highly flexible. You can easily add new features, adjust existing functionalities, improve performance, or even re-target it for a new language as your needs evolve. The platform facilitates iterative development.",
+          "question": "How adaptable are these custom editors to future changes or new requirements?"
+        },
+        {
+          "answer": "Yes, you can deploy your custom editor as a desktop application, a web-based editor, or even integrate it as a component within a larger system, depending on your project's architecture and user access needs.",
+          "question": "Can the custom editor be delivered as a desktop application or a web application?"
+        },
+        {
+          "answer": "Kliv provides tools for debugging and optimizing your custom application. Since you have access to the underlying code, you can use standard development practices and tools to ensure the stability and performance of your editor.",
+          "question": "What kind of support is available for maintaining or troubleshooting my custom editor?"
+        }
+      ]
+    },
+    {
+      "title": "Craft the Ideal Coding Experience",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Define your perfect development environment and build it today with Kliv's intelligent platform."
+    }
+  ],
+  "title": "Custom Code Editors"
+}

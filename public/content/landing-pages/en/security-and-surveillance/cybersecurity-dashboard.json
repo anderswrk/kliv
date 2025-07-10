@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a cybersecurity dashboard that aggregates alerts from multiple sources, visualizes network traffic anomalies, and provides a real-time overview of threat landscapes.",
+  "description": "Build custom cybersecurity dashboards for real-time threat intelligence and vulnerability management.",
+  "hero": {
+    "cta": "Build Your Security Dashboard",
+    "subtitle": "Gain complete visibility and proactive control over your digital assets with a custom-built, AI-powered cybersecurity dashboard.",
+    "title": "Custom Cybersecurity Dashboards"
+  },
+  "metaDescription": "Create powerful, tailored cybersecurity dashboards with Kliv. Monitor threats, manage vulnerabilities, and visualize security posture in real-time.",
+  "sections": [
+    {
+      "title": "Why Build a Custom Cybersecurity Dashboard?",
+      "type": "text",
+      "content": "In today’s volatile threat environment, relying on generic cybersecurity tools often leaves critical gaps in your defense. Each organization has unique assets, risks, and regulatory requirements. Off-the-shelf security dashboards might offer broad features, but they rarely provide the precise, contextualized insights your security team needs.\n\nBuilding your own cybersecurity dashboard empowers you to integrate data from all your specific security tools, visualize it exactly how you need it, and focus on the most relevant threats to your business. This isn't just about aggregating data; it's about creating a bespoke intelligence hub that adapts to your evolving security landscape."
+    },
+    {
+      "title": "The Case for Bespoke Threat Monitoring",
+      "type": "markdown",
+      "content": "## The Limitations of Off-the-Shelf Security Products\n\nEnterprise security solutions are complex, expensive, and often rigid. They come with pre-defined dashboards that may not align with your organization's specific risk profile, industry regulations, or existing tech stack. This leads to:\n\n- **Alert Fatigue**: Overwhelmed by generic alerts that lack context.\n- **Data Silos**: Information scattered across disparate tools, hindering holistic analysis.\n- **Vendor Lock-in**: Difficulty integrating new, niche security tools or custom internal systems.\n- **Irrelevant Metrics**: Dashboards filled with data points that don't directly inform your specific security operations.\n- **High Recurring Costs**: Continuous subscriptions for features you might not fully utilize.\n\n## Advantages of a Custom-Built Dashboard\n\nLeveraging platforms like Kliv, you can now design and deploy a cybersecurity dashboard that serves as the central nervous system for your security operations.\n\n### Unified Threat Visibility\nAggregate alerts, logs, and telemetry from all your existing security tools (SIEM, EDR, Firewall, Cloud Security Posture Management) into a single, cohesive view. Correlate disparate events to identify complex attack patterns that individual tools might miss.\n\n### Contextualized Risk Assessment\nPrioritize threats based on your organization’s unique asset criticality, business impact, and real-time vulnerability status. Instead of generic severity scores, understand the actual risk to your critical systems.\n\n### Real-time Incident Response\nVisualize ongoing attacks, identify anomalous behaviors, and trigger automated response actions directly from your dashboard. Empower your security analysts with clear, actionable intelligence.\n\n### Compliance & Reporting Automation\nTailor your dashboard to display key compliance metrics (e.g., GDPR, HIPAA, SOC 2) and generate auditable reports automatically, simplifying your regulatory burden.\n\n### Adaptive to Evolving Threats\nAs new threats emerge or your infrastructure changes, you can quickly adapt your dashboard to incorporate new data sources, refine detection logic, and update visualizations without waiting for vendor updates.\n\n### Cost Efficiency & Ownership\nAvoid recurring subscription fees and retain full control over your security data. A custom solution is a strategic investment in long-term security posture management.\n\n## AI's Role in Modern Security Dashboards\n\nBuilding a sophisticated security dashboard no longer requires a team of dedicated security engineers for months. AI-powered development platforms streamline the process:\n\n- **Intelligent Data Parsing**: AI assists in extracting and normalizing data from diverse log formats.\n- **Automated Visualization**: Describe the security metrics you need, and AI helps generate appropriate charts and graphs.\n- **Threat Intelligence Integration**: Automatically pull and display indicators of compromise (IoCs) from open-source and commercial threat feeds.\n- **Behavioral Anomaly Detection**: Leverage AI to identify unusual patterns in network traffic or user behavior that might indicate a breach.\n\nBy embracing a custom approach, your organization can move beyond reactive security and build a proactive, intelligent defense system perfectly aligned with its unique needs."
+    },
+    {
+      "title": "Cybersecurity Dashboard Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Real-time visualization of network traffic, suspicious connections, and firewall alerts.",
+          "prompt": "Create a real-time network security dashboard showing incoming/outgoing traffic, blocked connections, top talkers, and geo-location of suspicious IPs.",
+          "title": "Network Threat Monitoring"
+        },
+        {
+          "description": "Overview of vulnerabilities across systems, patch status, and risk prioritization.",
+          "prompt": "Build a vulnerability management dashboard that displays unpatched systems, critical vulnerabilities by severity, and assigns owners for remediation based on asset criticality.",
+          "title": "Vulnerability Management Overview"
+        },
+        {
+          "description": "Track user login anomalies, access violations, and insider threat indicators.",
+          "prompt": "Develop a user behavior analytics dashboard that highlights unusual login times, failed login attempts, unauthorized access attempts, and excessive data downloads by specific users.",
+          "title": "Insider Threat & UBA Dashboard"
+        },
+        {
+          "description": "Monitor security posture across cloud environments (AWS, Azure, GCP).",
+          "prompt": "Design a cloud security posture dashboard that shows misconfigured cloud resources, unencrypted storage buckets, open security groups, and compliance violations across AWS and Azure accounts.",
+          "title": "Cloud Security Posture"
+        },
+        {
+          "description": "Centralized view of endpoint protection status, malware detections, and device compliance.",
+          "prompt": "I need an endpoint security dashboard to monitor antivirus status, detected malware incidents, unmanaged devices, and patch compliance for all workstations and servers.",
+          "title": "Endpoint Protection Overview"
+        },
+        {
+          "description": "Visualize compliance status against frameworks like GDPR, HIPAA, or ISO 27001.",
+          "prompt": "Create a compliance dashboard that tracks adherence to GDPR requirements, showing status of data privacy controls, access logs, and data breach reporting capabilities.",
+          "title": "Regulatory Compliance Tracker"
+        }
+      ]
+    },
+    {
+      "title": "Ways to Enhance Your Security Dashboard",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate threat intelligence feeds (e.g., AlienVault OTX, MISP) to show known malicious IPs/domains on the dashboard.",
+          "title": "Add External Threat Intelligence"
+        },
+        {
+          "prompt": "Implement a customizable alerting system via email, Slack, or PagerDuty for critical security events.",
+          "title": "Implement Custom Alerting & Notifications"
+        },
+        {
+          "prompt": "Add the ability to trigger automated response actions directly from a dashboard alert, such as blocking an IP or isolating a host.",
+          "title": "Add Automated Response Capabilities"
+        },
+        {
+          "prompt": "Incorporate machine learning models to detect subtle anomalies in network traffic or user behavior that indicate zero-day threats.",
+          "title": "Integrate AI-Powered Anomaly Detection"
+        },
+        {
+          "prompt": "Develop executive summaries and detailed reports on security posture, trending risks, and incident metrics for different stakeholders.",
+          "title": "Build Advanced Reporting Features"
+        },
+        {
+          "prompt": "Add a feature for security analysts to drill down into specific alerts, view raw logs, and perform ad-hoc queries.",
+          "title": "Enable Deep Dive Forensics"
+        },
+        {
+          "prompt": "Include an asset inventory module that automatically discovers and categorizes all network devices, endpoints, applications, and cloud resources, linking them to vulnerabilities.",
+          "title": "Integrate Full Asset Management"
+        },
+        {
+          "prompt": "Add a user and role management system to control who can access and view different parts of the security dashboard based on their security roles.",
+          "title": "Implement Role-Based Access Control"
+        },
+        {
+          "prompt": "Build a module to track and manage security incidents from initial detection through resolution, including tasks, owners, and timelines.",
+          "title": "Add Incident Management Workflow"
+        }
+      ]
+    },
+    {
+      "title": "Key Dashboard Capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Aggregate and normalize data from diverse security tools and logs.",
+          "icon": "🔄",
+          "title": "Data Aggregation"
+        },
+        {
+          "description": "Create custom visualizations (charts, graphs, maps) for security metrics.",
+          "icon": "📊",
+          "title": "Custom Visualizations"
+        },
+        {
+          "description": "Define rules for real-time alerting on critical security events.",
+          "icon": "🚨",
+          "title": "Real-time Monitoring"
+        },
+        {
+          "description": "Track the status of vulnerabilities, misconfigurations, and compliance adherence.",
+          "icon": "🛡️",
+          "title": "Security Posture Management"
+        },
+        {
+          "description": "Map security events to business context and asset criticality for prioritized response.",
+          "icon": "📍",
+          "title": "Contextual Risk Scoring"
+        },
+        {
+          "description": "Create interactive drill-downs and filters for detailed threat analysis.",
+          "icon": "🔍",
+          "title": "Interactive Analysis"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic cybersecurity dashboard can take a matter of hours or days with Kliv's AI assistance. More complex integrations and advanced features might extend the timeline by a few days to weeks, depending on the complexity of your data sources and desired functionalities.",
+          "question": "How long does it take to build a custom cybersecurity dashboard?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv uses AI to help you describe and build your application using natural language. You define your data sources, metrics, and desired visualizations, and the platform assists in generating the underlying code and structure.",
+          "question": "Do I need to be a cybersecurity expert or programmer to build this?"
+        },
+        {
+          "answer": "Yes, absolutely. A key advantage of a custom dashboard is its ability to integrate with virtually any existing security tool (SIEM, EDR, firewalls, cloud platforms, vulnerability scanners) that provides an API or log export capability.",
+          "question": "Can I integrate my existing security tools and data sources?"
+        },
+        {
+          "answer": "With Kliv, you own the intellectual property and code for your custom dashboard. Your security data remains under your control, whether hosted on your own infrastructure or a cloud provider you trust. Kliv facilitates the building process, but you retain full ownership.",
+          "question": "Who owns the data and the dashboard I build?"
+        },
+        {
+          "answer": "Custom-built dashboards eliminate recurring SaaS subscription fees. While there's an initial investment in development, the long-term cost of ownership is often significantly lower, especially for larger organizations or those with highly specific needs. You also gain the exact features you need, avoiding paying for unused functionalities.",
+          "question": "How does the cost compare to off-the-shelf security solutions?"
+        },
+        {
+          "answer": "Your custom dashboard is fully adaptable. As your infrastructure evolves, new threats emerge, or compliance requirements change, you can modify, extend, and update your dashboard directly with Kliv's platform to ensure it remains relevant and effective.",
+          "question": "Is the dashboard flexible and scalable for future security needs?"
+        },
+        {
+          "answer": "Kliv helps you build secure applications. The security of your data within the dashboard depends on your chosen hosting environment and your implementation of best practices for access control and data protection, which the platform can guide you on. Building custom allows you to implement specific security controls tailored to your organization.",
+          "question": "Is a custom dashboard secure, considering it's handling sensitive security data?"
+        },
+        {
+          "answer": "Kliv's platform provides continuous AI-powered assistance for debugging, optimization, and feature expansion during the development process. Post-deployment, you have full control over your application, and Kliv also offers resources and community support to help maintain and evolve your solution.",
+          "question": "What kind of support is available after the dashboard is built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate security oversight?",
+      "type": "cta",
+      "content": "Stop reacting, start predicting. Design a cybersecurity dashboard that gives you true clarity and control over your digital defenses."
+    }
+  ],
+  "title": "Cybersecurity Dashboard Builder"
+}

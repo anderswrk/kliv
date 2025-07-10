@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I need to build a real-time asset monitoring system for my manufacturing plant that collects sensor data, detects anomalies, and sends alerts for predictive maintenance.",
+  "description": "Develop custom real-time asset monitoring and diagnostics applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start monitoring",
+    "subtitle": "Gain competitive advantage by building perfectly tailored solutions that integrate with your unique operational environment.",
+    "title": "Build your own real-time asset monitoring and diagnostic tools"
+  },
+  "metaDescription": "Create powerful real-time asset monitoring and diagnostic tools with Kliv. Enhance uptime, reduce costs, and implement predictive maintenance with custom-built industrial applications.",
+  "sections": [
+    {
+      "title": "Why build your unique asset monitoring tool?",
+      "type": "text",
+      "content": "In industrial and manufacturing sectors, off-the-shelf asset monitoring solutions often fall short. They rarely integrate seamlessly with all your proprietary equipment, older machinery, or specialized processes.\n\nKliv empowers you to create bespoke real-time monitoring and diagnostic applications that fit your operation perfectly. Instead of adapting your complex systems to a generic platform, build a platform that adapts to your systems. This approach eliminates unnecessary features, secures your proprietary data, and provides capabilities precisely tailored to your challenges."
+    },
+    {
+      "title": "The case for custom industrial monitoring and diagnostics",
+      "type": "markdown",
+      "content": "## Limitations of standard solutions\n\nGeneric asset monitoring systems can be a starting point, but they frequently lead to:\n\n- **Incomplete coverage**: Many systems struggle with diverse machinery, including legacy equipment.\n- **Data silos**: Inability to integrate sensor data from various sources into a unified view.\n- **Generic alerts**: Notifications that lack context or actionable insights specific to your operations.\n- **High recurring costs**: Subscription models that become prohibitive as your asset base grows.\n- **Security vulnerabilities**: Relying on third-party cloud infrastructure for critical operational data.\n\n## Advantages of custom asset monitoring\n\nLeveraging AI-powered development with Kliv enables you to develop systems that are:\n\n### Precisely tailored to specific assets\nEvery piece of industrial equipment has unique operational parameters. A custom solution lets you define exact thresholds, integrate specific sensor types, and visualize data in a way that is most meaningful for your maintenance teams and engineers.\n\n### Seamless integration with existing infrastructure\nYour factory floor isn't a blank slate. Custom tools can connect directly with PLCs, SCADA systems, existing ERPs, and historical databases, ensuring a comprehensive view without disruptive overhauls.\n\n### Predictive maintenance and anomaly detection\nMove beyond reactive repairs. By deeply integrating machine learning models with live data streams, your custom application can identify subtle deviations that signal impending failures, allowing for proactive intervention.\n\n### Enhanced data ownership and security\nWith a self-built solution, you control your data's lifecycle, from collection to storage and analysis. This minimizes exposure to third-party breaches and ensures compliance with proprietary data policies.\n\n### Cost-effectiveness and scalability\nAvoid per-device or per-user fees that escalate with growth. Your custom system is a one-time investment that scales with your operational needs without increasing licensing costs.\n\n### Real-world impact\n\nCustom real-time asset monitoring leads to tangible benefits:\n\n- **Manufacturing Plants**: Monitor vibration patterns in rotating machinery to prevent unplanned downtime, or track energy consumption across production lines to optimize efficiency.\n- **Power Generation**: Detect abnormal temperature readings in turbines or generators, predicting maintenance needs before critical failure.\n- **Logistics & Fleet Management**: Track vehicle health and driver behavior in real-time, optimizing route planning and reducing fleet maintenance costs.\n- **Oil & Gas**: Monitor pipeline integrity, pressure, and flow rates to prevent leaks and ensure operational safety.\n\n## The AI-driven development difference\n\nKliv simplifies the creation of sophisticated monitoring systems:\n\n- **Rapid prototyping**: Turn complex requirements into functional prototypes quickly.\n- **Intelligent data processing**: AI assists in setting up data pipelines and anomaly detection algorithms.\n- **Intuitive UI generation**: Create user interfaces customized for operators, engineers, or management.\n- **Automated deployment**: Deploy your application securely on-premise or in your chosen cloud environment.\n\nBuild the precise diagnostic and monitoring tools your industrial operations demand, unlocking true operational excellence."
+    },
+    {
+      "title": "Asset monitoring ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Monitor performance and health of critical industrial equipment",
+          "prompt": "Create a real-time monitoring system for factory machinery that collects data from temperature, vibration, and pressure sensors, displays it on a dashboard, and triggers alerts if any parameter deviates from defined operational thresholds.",
+          "title": "Industrial equipment health monitor"
+        },
+        {
+          "description": "Optimize energy usage across production lines",
+          "prompt": "Build an energy consumption monitoring tool that aggregates power meter data from different production stages, visualizes peak usage times, identifies energy waste, and suggests consumption optimizations.",
+          "title": "Energy efficiency tracker"
+        },
+        {
+          "description": "Predict maintenance needs for machinery components",
+          "prompt": "Design a predictive maintenance application that uses historical sensor data and machine learning to forecast component failures (e.g., bearings, motors) and schedule maintenance proactively based on predicted remaining useful life.",
+          "title": "Predictive maintenance scheduler"
+        },
+        {
+          "description": "Monitor and ensure quality control in manufacturing processes",
+          "prompt": "Develop a quality control monitoring system for a production line that uses vision sensors and anomaly detection to identify product defects in real-time and signals operators for immediate intervention.",
+          "title": "Automated quality inspection"
+        },
+        {
+          "description": "Track environmental conditions within industrial facilities",
+          "prompt": "Build an environmental monitoring system for a warehouse that tracks temperature, humidity, and air quality and sends alerts if conditions exceed safe storage limits for sensitive materials.",
+          "title": "Facility environmental control"
+        },
+        {
+          "description": "Track the location and status of mobile assets",
+          "prompt": "Create a real-time GPS tracking and status monitoring application for a fleet of industrial vehicles (e.g., forklifts) that shows their current location, operational status, and maintenance alerts.",
+          "title": "Fleet and mobile asset tracker"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your monitoring tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user management interface with different roles (operator, maintenance, management) and permissions for data access and alert configurations.",
+          "title": "Implement robust user authentication"
+        },
+        {
+          "prompt": "Integrate the system with SCADA/PLC systems to pull data directly from line controllers and push operational commands in response to detected anomalies.",
+          "title": "Integrate with SCADA/PLCs"
+        },
+        {
+          "prompt": "Develop a sophisticated reporting module that generates daily, weekly, or monthly performance reports, anomaly summaries, and maintenance recommendations based on collected data.",
+          "title": "Add advanced reporting and analytics"
+        },
+        {
+          "prompt": "Incorporate image recognition capabilities to detect visual defects on parts as they move along a conveyor belt.",
+          "title": "Add vision system integration"
+        },
+        {
+          "prompt": "Implement a machine learning model to better predict equipment failures based on multiple sensor inputs and historical breakdown data.",
+          "title": "Enhance with machine learning for predictive insights"
+        },
+        {
+          "prompt": "Add capabilities to automatically create work orders in a linked CMMS (Computerized Maintenance Management System) when a critical alert fires.",
+          "title": "Integrate with CMMS for automated work orders"
+        },
+        {
+          "prompt": "Build mobile applications for operators and managers to receive real-time alerts and view key performance indicators on the go.",
+          "title": "Develop mobile app companions"
+        },
+        {
+          "prompt": "Add a historical data explorer to allow users to analyze past performance trends and correlate events with operational changes.",
+          "title": "Include historical data analysis"
+        },
+        {
+          "prompt": "Integrate environmental sensors (temperature, humidity, air quality) into the overall asset health dashboard for a holistic view of operational conditions.",
+          "title": "Incorporate environmental monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Essential monitoring features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Collect and normalize data from diverse sensors and industrial protocols.",
+          "icon": "📡",
+          "title": "Multi-source data ingestion"
+        },
+        {
+          "description": "Real-time visualization of asset health and performance metrics on custom dashboards.",
+          "icon": "📊",
+          "title": "Dynamic data dashboards"
+        },
+        {
+          "description": "Automated detection of deviations and anomalies from normal operating conditions.",
+          "icon": "⚠️",
+          "title": "Intelligent anomaly detection"
+        },
+        {
+          "description": "Configurable alerts via SMS, email, or in-app notifications for critical events.",
+          "icon": "🔔",
+          "title": "Customizable alerting engine"
+        },
+        {
+          "description": "Securely store and query vast amounts of time-series sensor data.",
+          "icon": "🗄️",
+          "title": "Scalable data storage"
+        },
+        {
+          "description": "Interoperability with existing PLCs, SCADA, ERP, and CMMS systems.",
+          "icon": "🔗",
+          "title": "Seamless system integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic asset monitoring prototype can take just hours. For a full-scale, integrated system, a typical project might span days to a few weeks, depending on complexity and integration needs.",
+          "question": "How long does it take to develop a custom asset monitoring tool?"
+        },
+        {
+          "answer": "No specialized coding background is required. Kliv's AI-driven platform allows you to describe your system requirements in natural language, and it handles the underlying code generation.",
+          "question": "Do I need coding expertise to build these systems?"
+        },
+        {
+          "answer": "Yes, custom-built tools offer superior integration capabilities. You can connect to proprietary sensors, legacy equipment, and existing IT systems (like ERP, CMMS, SCADA) that off-the-shelf solutions often can't accommodate.",
+          "question": "Can I integrate with my existing industrial equipment and software?"
+        },
+        {
+          "answer": "You retain full ownership of the application, source code, and all collected data. You have the flexibility to host it on your premises or in your preferred cloud environment, ensuring complete data sovereignty.",
+          "question": "Who owns the data and the application after it's built?"
+        },
+        {
+          "answer": "While there's an initial development investment, a custom solution typically becomes more cost-effective over its lifecycle because you avoid recurring, escalating subscription fees common with SaaS platforms. It's built once and owned forever.",
+          "question": "How do costs compare to commercial asset monitoring solutions?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are inherently flexible. As your operational needs evolve, you can easily modify existing features, add new sensors, integrate with new systems, or refine monitoring parameters without vendor lock-in.",
+          "question": "Can I modify or expand the system after it's deployed?"
+        },
+        {
+          "answer": "Custom solutions can offer enhanced security because you control the entire deployment environment, data pipelines, and access controls, thereby mitigating risks associated with third-party cloud data storage.",
+          "question": "Is a custom-built solution more secure for industrial data?"
+        },
+        {
+          "answer": "Kliv provides AI assistance throughout the development process, offering suggestions, debugging help, and optimization insights. Since you possess the core application, you also have the freedom to engage any specialized support resources as needed.",
+          "question": "What kind of support is available after building a custom tool?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform your industrial operations?",
+      "type": "cta",
+      "content": "Stop making do with inadequate solutions. Build the precise real-time asset monitoring and diagnostic tool your business deserves with Kliv's AI platform."
+    }
+  ],
+  "title": "Real-time asset monitoring and diagnostics"
+}

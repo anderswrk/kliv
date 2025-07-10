@@ -1,0 +1,168 @@
+{
+  "defaultPrompt": "I want to create a Valorant companion app that tracks game statistics, provides agent tips, and analyzes my gameplay for improvement suggestions.",
+  "description": "Elevate your Valorant gameplay with custom companion applications built using Kliv's AI platform.",
+  "hero": {
+    "cta": "Start building your app",
+    "subtitle": "Create personalized Valorant companion apps to track stats, analyze performance, and master your game.",
+    "title": "Build your own Valorant companion app"
+  },
+  "metaDescription": "Develop powerful Valorant companion apps with Kliv. Track stats, get personalized insights, and improve your gameplay with custom-built tools.",
+  "sections": [
+    {
+      "title": "Why build a custom Valorant companion app?",
+      "type": "text",
+      "content": "The competitive landscape of Valorant demands more than just skill—it requires deep understanding, strategic preparation, and detailed performance analysis. While generic companion apps exist, building your own gives you the ultimate edge. You're not just a player; you become a strategist, an analyst, and a developer.\n\nWith Kliv, crafting a custom app tailored to your specific needs, playstyle, and improvement goals is entirely within reach. Stop conforming to predefined features and start creating the precise tools that will help you climb the ranks."
+    },
+    {
+      "title": "The strategic advantage of tailored gaming tools",
+      "type": "markdown",
+      "content": "## Overcome the limitations of 'one-size-fits-all' apps\n\nExisting Valorant companion apps often fall short because they:\n\n- **Lack deep personalization**: Generic apps can't truly cater to your unique agent pool, map preferences, or weakness areas.\n- **Offer limited insights**: They provide surface-level statistics without actionable advice specific to your gameplay.\n- **Restrict data access**: You're often tied to their data presentation, unable to export or analyze it the way you want.\n- **Contain unnecessary features**: Too much clutter can distract from what truly matters for your improvement.\n\n## Custom-built: Your unfair advantage\n\nImagine a tool that evolves with your skills, focuses purely on your growth, and integrates seamlessly with your gaming routine. Here's why smart gamers and aspiring esports professionals are leveraging custom development:\n\n### Hyper-personalized analytics\nDive into your match history with custom filters, track specific metrics like headshot percentage with certain agents, or analyze clutch situations on particular maps. Generic tools can't offer this level of detail tailored to you.\n\n### Targeted improvement suggestions\nInstead of general tips, get AI-powered recommendations based on *your* specific rounds where you faltered. Identify patterns in your deaths, assist usage, or utility deployment and receive actionable advice.\n\n### Complete control over privacy and data\nWith your own app, you decide how your game data is stored and displayed. No third-party data mining or intrusive ads. Your performance data remains yours.\n\n### Adaptable and extensible\nAs Valorant updates or your playstyle changes, your custom app can easily adapt. Add new features, integrate with other platforms (like Twitch or Discord), or refine existing analytics without waiting for someone else's updates.\n\n## Real-world impact in competitive gaming\n\nCustom tools are not just for pros, they're for anyone serious about getting better:\n\n**Individual Player Improvement**: An app that analyzes agent abilities use, provides optimal crosshair placements for specific weapon types, or highlights common tactical errors based on your recent matches.\n\n**Team Strategy Development**: A shared platform for a team to analyze collective performance, identify synergy gaps, track opponent tendencies, and practice specific executes based on data-driven insights.\n\n**Content Creation Tools**: Streamers and content creators can build custom overlays for real-time stats, interactive dashboards for viewers, or automated clip generators based on specific in-game events.\n\n## The power of AI in game development\n\nBuilding sophisticated gaming tools used to require extensive coding knowledge. AI platforms like Kliv have democratized this process:\n\n- **Describe your vision**: Use natural language to explain the features you want, from stat tracking to agent comparisons.\n- **Rapid prototyping**: Get a working version of your app quickly, allowing for immediate testing and iteration.\n- **Intelligent data handling**: AI assists in parsing game data, organizing it, and presenting it in intuitive ways.\n- **Personalized learning**: AI can even generate practice routines or aim training suggestions based on your performance analysis.\n\nMaking the leap from 'casual player' to 'strategic master' is often about leveraging every available tool. Building your own custom Valorant companion provides that essential edge, allowing you to focus on improvement with precision."
+    },
+    {
+      "title": "Valorant companion app ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track performance and identify key areas for improvement.",
+          "prompt": "Create a Valorant analytics app that tracks my K/D ratio, headshot percentage, first bloods, and utility damage per game, then visualizes trends over time and per map.",
+          "title": "Personalized Stat Tracker"
+        },
+        {
+          "description": "Get real-time tips and strategy suggestions during matches.",
+          "prompt": "Build an in-game overlay that provides real-time tips for agent abilities based on map location and enemy team composition, and suggests optimal spike plant/defuse spots.",
+          "title": "Real-time Tactical Aid"
+        },
+        {
+          "description": "Compare agents, weapons, and abilities in detail.",
+          "prompt": "Develop a Valorant encyclopedia app that includes detailed information on every agent's abilities, weapon stats (damage falloff, fire rate), and map callouts, with search functionality.",
+          "title": "Agent & Weapon Database"
+        },
+        {
+          "description": "Analyze team dynamics and identify strongest compositions.",
+          "prompt": "Design a team analysis tool where I can input my team's agent picks and opponent's picks, and it suggests counter-strategies and highlights potential synergies or weaknesses.",
+          "title": "Team Composition Analyzer"
+        },
+        {
+          "description": "Automate clip saving and highlight reel creation.",
+          "prompt": "Build an app that automatically detects and saves clips of my multi-kills, clutches, or ace rounds and organizes them by agent and map, ready for sharing.",
+          "title": "Automated Highlight Reel Creator"
+        },
+        {
+          "description": "Manage friend groups and organize custom games.",
+          "prompt": "Create a social hub for my Valorant friends where we can see who's online, organize custom matches with specific rulesets, and track our casual game results.",
+          "title": "Custom Game Organizer"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your companion app",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now add a feature to compare my performance metrics against average metrics of players in similar ranks, highlighting my strengths and weaknesses.",
+          "title": "Rank-based Performance Comparison"
+        },
+        {
+          "prompt": "Integrate with Twitch API to display live stream info and allow viewers to interact with the app's data through chat commands.",
+          "title": "Twitch Integration for Streamers"
+        },
+        {
+          "prompt": "Add a module for recording and analyzing individual gunfights, showing crosshair placement, movement, and reaction time.",
+          "title": "Gunfight Analysis Module"
+        },
+        {
+          "prompt": "Implement a 'practice mode' that generates custom aim training scenarios based on the weapons and agents I struggle with most in actual matches.",
+          "title": "Personalized Practice Drills"
+        },
+        {
+          "prompt": "Add a social feature allowing users to share their match statistics and highlight clips with friends within the app.",
+          "title": "Social Sharing Features"
+        },
+        {
+          "prompt": "Develop a pre-round planner where I can quickly diagram basic site executes or defense setups for my team to view.",
+          "title": "Tactical Whiteboard Feature"
+        },
+        {
+          "prompt": "Incorporate AI to analyze my game VODs (video reviews) and automatically identify key moments for review, like poor utility usage or missed opportunities.",
+          "title": "VOD Review Assistant"
+        }
+      ]
+    },
+    {
+      "title": "Key companion app capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect directly to gameplay data for real-time statistics.",
+          "icon": "🕹️",
+          "title": "Game Data Integration"
+        },
+        {
+          "description": "Visual dashboards and charts for easy performance assessment.",
+          "icon": "📈",
+          "title": "Advanced Stat Tracking"
+        },
+        {
+          "description": "AI-driven advice on agent abilities, map strategies, and weapon usage.",
+          "icon": "🧠",
+          "title": "Personalized Insights"
+        },
+        {
+          "description": "Tools for analyzing team compositions and opponent tendencies.",
+          "icon": "🤝",
+          "title": "Strategic Planning Tools"
+        },
+        {
+          "description": "Secure storage and management of your personal gaming data.",
+          "icon": "🔒",
+          "title": "Data Privacy Controls"
+        },
+        {
+          "description": "Customizable interface to focus on your most important metrics.",
+          "icon": "⚙️",
+          "title": "Flexible UI/UX"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building gaming apps",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic Valorant companion app usually takes a few hours to a day with Kliv. More complex features like AI analysis or real-time overlays might extend development to a few days, but nowhere near weeks or months.",
+          "question": "How long does it take to create a Valorant companion app?"
+        },
+        {
+          "answer": "No coding expertise is needed. Kliv's platform allows you to describe your desired features in plain language, and the AI translates that into a functional application. It's designed for gamers, not just developers.",
+          "question": "Do I need to be a programmer to build my own app?"
+        },
+        {
+          "answer": "Yes, your custom app can interface with official Valorant APIs (if available and permissible) and other gaming platforms or services like Discord, Twitch, or external tracking sites, provided you have the necessary access tokens or permissions.",
+          "question": "Can my app integrate with Riot's data or other gaming services?"
+        },
+        {
+          "answer": "Absolutely. You retain full ownership of the app you create and all associated data. You can choose where it's hosted and how it handles your personal game statistics, giving you complete control over your privacy.",
+          "question": "Who owns the app and data I create?"
+        },
+        {
+          "answer": "Compared to ongoing subscriptions for premium features in generic apps, building your own with Kliv is typically a one-time investment. This means significant savings over time, especially as you avoid recurring fees and get exactly what you need.",
+          "question": "Is building my own app cost-effective compared to subscription services?"
+        },
+        {
+          "answer": "Yes, custom apps are inherently flexible. As Valorant updates or your strategic needs evolve, you can easily add new features, adjust existing functionalities, or integrate new data sources without being limited by a third-party developer's roadmap.",
+          "question": "Can I update and modify my companion app after it's built?"
+        },
+        {
+          "answer": "Kliv assists with debugging and optimization throughout the build process. Since you own the codebase, you have complete control over maintenance and future development, ensuring your app always meets your needs.",
+          "question": "What kind of support is available during and after development?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master Valorant with your own custom tool?",
+      "type": "cta",
+      "content": "Stop relying on generic solutions and start building the ultimate companion app tailored for your peak performance. Elevate your game with AI-powered development."
+    }
+  ],
+  "title": "Valorant Companion Apps"
+}

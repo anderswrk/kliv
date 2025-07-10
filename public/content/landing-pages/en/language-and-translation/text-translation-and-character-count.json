@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I need a text translation tool that accepts input in multiple languages, provides accurate translations, and displays character and word counts for both original and translated text.",
+  "description": "Build custom text translation and character count applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your translator",
+    "subtitle": "Create precise text translation tools with integrated character and word counting, perfectly tailored to your needs.",
+    "title": "Build your own translation and count tools"
+  },
+  "metaDescription": "Develop custom text translation apps with Kliv. Include character, word, and sentence counts for various languages. Tailor your tool for specific industry or content types.",
+  "sections": [
+    {
+      "title": "Why build a custom translation and count tool?",
+      "type": "text",
+      "content": "In a world of generic online translators, the need for specialized, accurate, and context-aware translation is growing. While many tools offer basic translation, they often lack specific features like detailed character and word counts, support for unique content formats, or custom glossaries crucial for professional use.\n\nOff-the-shelf solutions come with limitations: data privacy concerns, generic translation models that don't understand your domain, and inflexible interfaces. Building your own tool with Kliv allows you to develop a precisely tuned solution, owning every aspect from data handling to feature set and integration capabilities."
+    },
+    {
+      "title": "The power of custom translation applications",
+      "type": "markdown",
+      "content": "## Overcome the limitations of public tools\n\nPublic translation services are great for quick, casual use, but fall short for professional or specialized tasks. Here's why custom development offers a superior alternative:\n\n*   **Privacy and Security**: Public translators often collect your data for training. A custom tool keeps your sensitive information private, on your infrastructure.\n*   **Domain-Specific Accuracy**: Generic models struggle with jargon, technical terms, or brand-specific language. A custom tool can be trained on your data to provide highly accurate translations for your industry.\n*   **Integrated Analytics**: Beyond basic word counts, you might need character counts (with or without spaces), sentence counts, specific token counts, or even metrics relevant to translation memory (TM) leverage. Custom tools can provide these precise metrics.\n*   **User Experience (UX) Tailoring**: Design the interface exactly as your users need it, integrating it seamlessly into existing workflows or applications.\n*   **Cost Efficiency**: While some SaaS translation solutions charge per word or per user, a custom application built on Kliv is a one-time investment that saves recurring costs.\n\n## Real-world applications for custom translation tools\n\nCustom text translation and counting applications are invaluable across various sectors:\n\n*   **Content Localization Agencies**: Need to quickly translate large volumes of text, while adhering to strict character limits for UI elements, social media posts, or advertising copy. Precise counting ensures compliance and avoids rework.\n*   **Legal Firms**: Translate legal documents, contracts, and patents, requiring absolute accuracy and the ability to handle highly specialized terminology while tracking word counts for billing and document length requirements.\n*   **Marketing & Advertising**: Adapt ad copy and slogans for international markets, often with strict character limits for platforms like Twitter, SMS, or display ads. The tool ensures cultural relevance and technical compliance.\n*   **Software Development**: Localize software strings, app interfaces, and game dialogue, where character limits are crucial for maintaining layout integrity across different languages.\n*   **Academic Researchers**: Translate research papers, surveys, and qualitative data, maintaining nuanced meaning and often needing precise word counts for publication or analysis.\n\n## Kliv's AI advantage for building translation tools\n\nBuilding a sophisticated translation tool no longer requires a team of linguistic engineers or vast datasets. Kliv's AI-powered platform makes it accessible:\n\n-   **Rapid Prototyping**: Go from idea to functional prototype in hours.\n-   **Natural Language Interaction**: Describe your desired features in plain English, and the AI helps construct the application.\n-   **Scalable Infrastructure**: Built to handle varying loads, from individual usage to enterprise-level demands.\n-   **Modular Design**: Easily add features like glossary management, custom style guides, or API integrations.\n\nBy leveraging Kliv, you can create a specialized translation and counting solution that perfectly addresses your unique challenges and integrates seamlessly with your operations."
+    },
+    {
+      "title": "Translation & count ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Translate content with character limits in mind for social media.",
+          "prompt": "Create a Twitter-friendly translation tool that translates text into French, Spanish, and German, and shows character counts (with and without spaces) for the original and all translated versions.",
+          "title": "Social Media Translator with Count Limits"
+        },
+        {
+          "description": "Translate legal documents while tracking specific word counts for billing.",
+          "prompt": "Build a legal document translation application that translates English to Japanese and vice-versa, offers a custom glossary for legal terms, and provides word counts that differentiate between billable and non-billable words.",
+          "title": "Legal Document Translator & Word Counter"
+        },
+        {
+          "description": "Translate app strings, ensuring they fit UI constraints.",
+          "prompt": "Develop an app localization tool that translates English UI strings into Arabic (RTL support) and Chinese (simplified), displaying unicode character counts and warning if translated strings exceed a specified pixel width.",
+          "title": "UI String Localizer with Pixel Count"
+        },
+        {
+          "description": "Translate marketing copy with brand consistency.",
+          "prompt": "Design a marketing copy translator that translates from English to Brazilian Portuguese and Russian, with an integrated brand style guide, and provides sentence and paragraph counts for consistency checks.",
+          "title": "Marketing Copy Translator with Style Guide"
+        },
+        {
+          "description": "Translate customer support chats in real-time.",
+          "prompt": "Create a real-time chat translation tool for customer support that translates customer queries in English, Spanish, and German, and provides a 'readability score' for the translated agent responses.",
+          "title": "Customer Support Chat Translator"
+        }
+      ]
+    },
+    {
+      "title": "Improve your custom translation tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to upload document files (PDF, DOCX) for translation and count.",
+          "title": "Document Upload & Translation"
+        },
+        {
+          "prompt": "Implement an API endpoint for programmatic text submission and retrieval of translations and counts.",
+          "title": "Create an API for Integration"
+        },
+        {
+          "prompt": "Include a machine learning model that learns from user edits to improve future translations.",
+          "title": "Add Self-Improving Translation Engine"
+        },
+        {
+          "prompt": "Develop a user management system with different access levels and usage tracking for billing or team collaboration.",
+          "title": "Implement User Management & Tracking"
+        },
+        {
+          "prompt": "Integrate with a cloud storage service (e.g., Google Drive, Dropbox) for direct file access.",
+          "title": "Cloud Storage Integration"
+        },
+        {
+          "prompt": "Add a feature to highlight and explain cultural nuances or potential translation pitfalls for specific phrases.",
+          "title": "Cultural Nuance Advisor"
+        },
+        {
+          "prompt": "Include an audio-to-text input and text-to-audio output capability for translations.",
+          "title": "Add Voice Input/Output"
+        }
+      ]
+    },
+    {
+      "title": "Core features of custom translation tools",
+      "type": "features",
+      "items": [
+        {
+          "description": "Accurate statistical models and neural networks for high-quality translations.",
+          "icon": "🧠",
+          "title": "Advanced Translation Engine"
+        },
+        {
+          "description": "Precise counting of characters, words, sentences, and other custom units.",
+          "icon": "🔢",
+          "title": "Comprehensive Text Analytics"
+        },
+        {
+          "description": "Support for a wide array of languages and script types, including RTL.",
+          "icon": "🌐",
+          "title": "Multi-Language Support"
+        },
+        {
+          "description": "Define and manage custom glossaries and translation memory for consistency.",
+          "icon": "📚",
+          "title": "Custom Terminology Management"
+        },
+        {
+          "description": "Intuitive design for easy text input, output, and access to metrics.",
+          "icon": "🖥️",
+          "title": "User-Friendly Interface"
+        },
+        {
+          "description": "Secure handling of all input data and translated content.",
+          "icon": "🔒",
+          "title": "Data Privacy & Security"
+        }
+      ]
+    },
+    {
+      "title": "Practical questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom translation and count tool with Kliv can range from a few hours for a basic prototype to a few days for a full-featured application with advanced integrations and custom ML models.",
+          "question": "How long does it take to build a text translation tool with Kliv?"
+        },
+        {
+          "answer": "No, extensive coding experience is not required. Kliv's platform uses AI to help you define and build your application through natural language prompts, simplifying the development process significantly.",
+          "question": "Do I need to be a programmer to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various APIs and services, including third-party translation engines, document management systems, or even proprietary internal databases for context and glossary management.",
+          "question": "Can my custom translation tool integrate with other software?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property, including all the code and data generated by your application. Kliv provides the platform to build it, but the resulting tool and its contents are yours.",
+          "question": "Who owns the translation tool and its data once it's built?"
+        },
+        {
+          "answer": "Costs are typically a one-time development investment versus continuous subscription fees. You save significantly over time, especially if your usage is high or requires specialized features not available in off-the-shelf products.",
+          "question": "How does the cost compare to subscribing to a commercial translation service?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is complete flexibility. You can continuously iterate, add new languages, refine counting algorithms, or introduce new features as your needs evolve.",
+          "question": "Can I modify or expand the tool after the initial build?"
+        },
+        {
+          "answer": "Kliv offers resources, documentation, and an AI assistant to guide you through the building process. For complex implementations, you can also consider hiring a developer familiar with Kliv or general web development principles.",
+          "question": "What if I get stuck or need help during development?"
+        },
+        {
+          "answer": "Kliv provides the environment to build secure applications. You control the hosting, data encryption, and access policies, allowing you to implement security measures tailored to your specific compliance requirements, often exceeding generic SaaS offerings.",
+          "question": "How secure are custom translation tools built on Kliv?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to tailor your translation workflow?",
+      "type": "cta",
+      "content": "Stop conforming to generic translation tools. Build a specialized application that truly understands your content and delivers precise results."
+    }
+  ],
+  "title": "Custom Text Translation & Character Count Tools"
+}

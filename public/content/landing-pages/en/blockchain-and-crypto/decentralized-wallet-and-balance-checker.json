@@ -1,0 +1,174 @@
+{
+  "defaultPrompt": "I want to create a decentralized wallet and balance checker that supports multiple blockchains (Ethereum, Bitcoin, Solana), tracks token balances and NFTs, and provides transaction history for each address.",
+  "description": "Build your own decentralized wallet and crypto balance checker application with Kliv. Support multiple chains, track assets, and manage transactions securely.",
+  "hero": {
+    "cta": "Start Building Your Wallet App",
+    "subtitle": "Track all your crypto assets, review transactions, and manage multiple wallet addresses in one secure, non-custodial application.",
+    "title": "Create Your Own Decentralized Wallet & Balance Checker"
+  },
+  "metaDescription": "Develop custom decentralized wallet and crypto balance checker tools using Kliv's AI-powered platform. Gain full control, multi-chain support, and enhanced security.",
+  "sections": [
+    {
+      "title": "Why Build Your Own Crypto Wallet & Balance Checker?",
+      "type": "text",
+      "content": "In the fast-evolving world of cryptocurrency, managing diverse assets across multiple blockchains can be cumbersome. Generic wallet applications often fall short, locking you into limited features, restrictive token support, or questionable security practices. Building your own tool offers unparalleled control, security, and customization, allowing you to tailor an experience that perfectly fits your needs or the needs of your community.\n\nWith Kliv, leveraging AI-powered development, creating a sophisticated decentralized application is no longer reserved for expert blockchain developers. You can design a non-custodial wallet and balance tracker that keeps you in command of your digital assets, without relying on third-parties for your financial security."
+    },
+    {
+      "title": "The Power of Custom Decentralized Finance (DeFi) Tools",
+      "type": "markdown",
+      "content": "## Limitations of Off-the-Shelf Wallets\n\nMany existing crypto wallets or portfolio trackers come with inherent drawbacks:\n\n- **Limited Chain Support:** Often, they only support a few major blockchains, forcing users to juggle multiple applications.\n- **Lack of Customization:** You're stuck with their interface and features, even if they don't align with your workflow.\n- **Security Concerns:** While most are non-custodial, the underlying code isn't always transparent or auditable by the end-user.\n- **Feature Bloat or Gaps:** They either overload you with unnecessary functions or miss crucial ones you need.\n- **Data Privacy:** Some collect usage data, which can be a concern for privacy-conscious crypto users.\n\n## Advantages of a Custom-Built Solution\n\nDesigning your own decentralized wallet and balance checker with Kliv empowers you with:\n\n### Uncompromised Control\n\nYour application, your rules. You decide which blockchains to integrate, which tokens to display, and how transaction data is presented. This means a tool that truly serves your specific asset management strategy.\n\n### Enhanced Security & Transparency\n\nBy building it yourself or with a transparent platform like Kliv, you control the security protocols and can understand every line of code (or generate it with full visibility). This eliminates reliance on third-party security audits and gives you peace of mind.\n\n### Multi-Chain Versatility\n\nEasily add support for new or niche blockchains as they emerge, ensuring your balance checker remains future-proof and comprehensive. No more switching between apps to view your assets on different networks.\n\n### Tailored User Experience\n\nDesign the interface and features exactly as you envision. Whether it's a simple balance tracker for a few addresses or a complex portfolio manager with advanced analytics, Kliv helps you craft it.\n\n### Cost Efficiency in the Long Run\n\nAvoid recurring subscription fees or reliance on ads that often come with centralized portfolio trackers. A self-built solution is a one-time investment that offers long-term value and control.\n\n## Real-World Applications\n\nCustom decentralized finance tools are vital for various demographics:\n\n**Individual Investors**: A personalized tool to track their diverse crypto holdings across multiple chains, often including specific DeFi protocols or obscure NFTs not supported by generic wallets.\n\n**DeFi Power Users**: An application with custom logic to monitor liquidity pool positions, farming rewards, and impermanent loss across complex DeFi platforms.\n\n**Small Businesses**: A secure, internal tool to manage treasury crypto assets, track payments, and monitor incoming transactions from customers or partners without relying on a third-party service prone to downtime or privacy issues.\n\n**Blockchain Developers**: A bespoke testing tool for monitoring smart contract interactions, token distributions, and network activity from multiple test addresses.\n\n## The Kliv Advantage for Crypto Development\n\nBuilding sophisticated crypto applications traditionally required deep knowledge of blockchain specifics and smart contract development. Kliv changes this:\n\n- **Natural Language to Code**: Describe the functionality you need (e.g., 'ERC-20 token balance for address X on Ethereum'), and Kliv's AI assists in generating the underlying code framework.\n- **Rapid Iteration**: Quickly prototype and test different features and integrations without extensive manual coding.\n- **Simplified Blockchain Integration**: Kliv helps abstract the complexities of various blockchain APIs and RPC nodes.\n- **Code Ownership**: You get fully functional, auditable code that you own, ensuring maximum security and flexibility.\n\nTake control of your crypto journey. Build a decentralized wallet and balance checker that truly empowers you, with Kliv."
+    },
+    {
+      "title": "Crypto Management Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Multi-Chain Portfolio Tracker Prototype with NFT Display (Mainnet Data, Read-Only): Build a basic, read-only interface that allows users to input multiple wallet addresses (e.g., ETH, BTC, SOL). For each address, show the native currency balance, a list of all ERC-20/SPL tokens held with their current USD value, and a gallery of owned NFTs (ERC-721/ERC-1155). This initial version should focus on displaying data from mainnet blockchains without any send/receive functionality, purely for portfolio overview. The primary goal is aggregating diverse asset types from different chains in one dashboard for quick balance checking and visual NFT browsing. The system should use publicly available blockchain explorer APIs or RPC nodes to fetch data, prioritizing speed and accuracy for display purposes. Make sure the API calls are efficient to avoid rate limits and that the data is presented in an easy-to-understand format for regular crypto users. The interface should be responsive for both desktop and mobile viewing, providing a clean and intuitive user experience for monitoring cryptocurrency and NFT holdings. Additionally, include filters or sorting options for tokens/NFTs based on value, collection, or asset type to enhance usability for larger portfolios. The design should be minimalist, putting asset information at the forefront. Consider a feature to 'star' or 'favorite' specific addresses for quicker access. For NFTs, show a thumbnail image and collection name, with a link to a marketplace for more details. Handle potential API errors gracefully by displaying user-friendly messages instead of raw error codes. Finally, ensure the app remembers the entered addresses between sessions for convenience, using local storage. Create a simple, secure front-end using widely-supported web technologies like React or Vue.js, fetching blockchain data from reliable public nodes or indexers. Assume no backend server for this initial read-only version; all logic is client-side or directly interacting with blockchain APIs. Focus on creating a fast, reliable, and aesthetically pleasing dashboard for crypto portfolio tracking across various networks and asset types, making it easier for users to gain a comprehensive overview of their digital wealth. Ensure that the design principles prioritize simplicity and user accessibility, even for those new to blockchain technology, by clearly distinguishing between different asset classes (native, tokens, NFTs) and their corresponding values. Test with a few sample addresses to demonstrate functionality, emphasizing the multi-chain capability (e.g., an Ethereum address with ERC-20s and NFTs, a Bitcoin address with BTC balance, and a Solana address with SPL tokens and NFTs). Implement clear loading states while data is being fetched and provide a refresh button for manual updates. The application should not require any user login, reinforcing its non-custodial read-only nature. Assume all asset pricing will be fetched from a reliable cryptocurrency pricing API (e.g., CoinGecko API for token prices). Organize the interface to easily compare asset values across different chains, potentially with a total portfolio value in USD. This project aims for a functional MVP that acts as a personal, customizable crypto asset viewer."
+        },
+        {
+          "description": "Monitor and display balances for major cryptocurrencies on their native chains.",
+          "prompt": "Create a simple balance checker that takes a Bitcoin, Ethereum, and Solana address and displays the current native currency balance for each.",
+          "title": "Basic Multi-Chain Balance Viewer"
+        },
+        {
+          "description": "Show all ERC-20 tokens and their values for a given Ethereum address.",
+          "prompt": "Build an Ethereum token tracker. Users input an ETH address, and the app lists all ERC-20 tokens held, along with their current quantity, USD value, and the corresponding contract address.",
+          "title": "Ethereum ERC-20 Token Balance & Value"
+        },
+        {
+          "description": "Display owned NFTs (ERC-721/ERC-1155) and their metadata for an Ethereum address.",
+          "prompt": "Develop an NFT gallery for Ethereum addresses. Given an ETH address, show all ERC-721 and ERC-1155 NFTs, their images, names, and collection details.",
+          "title": "NFT Portfolio Visualizer"
+        },
+        {
+          "description": "Track historical transactions for any given wallet address.",
+          "prompt": "Design a transaction history viewer. For a given Bitcoin or Ethereum address, display a sortable list of all incoming and outgoing transactions, including transaction ID, amount, date, and status.",
+          "title": "Wallet Transaction History"
+        },
+        {
+          "description": "Enable secure sending and receiving of ETH and ERC-20 tokens.",
+          "prompt": "Implement basic 'send' and 'receive' functionalities for Ethereum. Allow users to connect with MetaMask, display their ETH and ERC-20 token balances, and send tokens to other addresses.",
+          "title": "Simple Ethereum Send/Receive App"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Decentralized Application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add support for other EVM-compatible chains like Binance Smart Chain (BSC) and Polygon for token and NFT tracking.",
+          "title": "Expand Multi-Chain Support"
+        },
+        {
+          "prompt": "Integrate a robust NFT market data API to display floor prices and recent sales for listed NFTs in the portfolio.",
+          "title": "Add NFT Market Data Integration"
+        },
+        {
+          "prompt": "Implement a 'watch list' feature where users can monitor specific addresses without importing them, just for balance and transaction observation.",
+          "title": "Create an Address Watch List"
+        },
+        {
+          "prompt": "Add the ability to display and track liquidity pool positions and staking rewards for popular DeFi protocols.",
+          "title": "Integrate DeFi Protocol Tracking"
+        },
+        {
+          "prompt": "Develop custom alerts for significant balance changes, large incoming transactions, or specific token price movements.",
+          "title": "Implement Custom Alerts"
+        },
+        {
+          "prompt": "Build a secure way to generate new seed phrases and derive new wallet addresses directly within the application.",
+          "title": "Add Wallet Generation Functionality"
+        },
+        {
+          "prompt": "Incorporate a gas fee estimator for Ethereum transactions to help users optimize their sending costs.",
+          "title": "Include Gas Fee Estimator"
+        },
+        {
+          "prompt": "Provide export functionality for transaction history into CSV or PDF format for accounting purposes.",
+          "title": "Add Transaction Export Options"
+        },
+        {
+          "prompt": "Integrate a swap mechanism from a decentralized exchange (DEX) aggregator directly within the wallet.",
+          "title": "Embed In-App Token Swaps"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Crypto Wallet & Balance Checker",
+      "type": "features",
+      "items": [
+        {
+          "description": "Track crypto assets across Bitcoin, Ethereum, Solana, and other blockchain networks.",
+          "icon": "⛓️",
+          "title": "Multi-Chain Coverage"
+        },
+        {
+          "description": "Display native coin balances, ERC-20/SPL tokens, and all your NFTs in one view.",
+          "icon": "💰",
+          "title": "Comprehensive Asset View"
+        },
+        {
+          "description": "Review and manage all incoming and outgoing transactions for any tracked address.",
+          "icon": "🧾",
+          "title": "Detailed Transaction History"
+        },
+        {
+          "description": "Your keys, your crypto. The application ensures you maintain full control of your private keys.",
+          "icon": "🔒",
+          "title": "Non-Custodial Security"
+        },
+        {
+          "description": "Monitor real-time price changes for your assets and calculate total portfolio value.",
+          "icon": "📈",
+          "title": "Real-Time Value Tracking"
+        },
+        {
+          "description": "Seamlessly connect with popular browser extensions like MetaMask or WalletConnect.",
+          "icon": "🔌",
+          "title": "Wallet Connection & Integration"
+        }
+      ]
+    },
+    {
+      "title": "Decentralized Dev with Kliv: FAQs",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom decentralized wallet can be surprisingly fast. A basic balance checker can be functional in a few hours, while advanced features like multi-chain support and transaction sending might take a few days to a week to refine and secure.",
+          "question": "How quickly can I build a functional crypto wallet application with Kliv?"
+        },
+        {
+          "answer": "Kliv abstracts much of the complexity. While understanding basic blockchain concepts helps, you don't need to be a Solidity expert or a full-stack dev. The AI assists in generating the necessary code and integrations.",
+          "question": "Do I need extensive blockchain development experience to use Kliv for this?"
+        },
+        {
+          "answer": "Yes. You're building a native application that can interact directly with blockchain nodes (RPCs) and APIs like Etherscan, CoinGecko, or Opensea. Your application can parse data and display it as needed, or even sign transactions securely on the user's device through wallet connectors.",
+          "question": "Can the custom wallet truly interact with actual blockchains and decentralized services?"
+        },
+        {
+          "answer": "Kliv helps you generate the code. For actual deployment, you can deploy it as a personal web application (e.g., using Netlify, Vercel), a desktop app (Electron), or even as a mobile app, depending on your choices during the building process. It's fully flexible.",
+          "question": "Where can I deploy or host my custom-built crypto wallet application?"
+        },
+        {
+          "answer": "Your custom wallet can be designed to be non-custodial, meaning private keys never leave the user's device (e.g., through browser extensions like MetaMask or Ledger). Kliv's role is to help you build the interface and logic; the security of private keys strictly depends on the self-custodial methods you implement.",
+          "question": "How secure is a custom-built non-custodial wallet compared to established ones?"
+        },
+        {
+          "answer": "Unlike SaaS wallets with recurring fees or data-selling models, your Kliv-built application avoids these. The primary 'cost' is the effort you put into building it and any minor hosting fees. You own the software outright, making it highly cost-effective and private in the long run.",
+          "question": "What are the cost implications compared to using existing third-party wallet services?"
+        },
+        {
+          "answer": "Absolutely. You entirely own the generated codebase. This allows you to audit it, modify it, add new features, or adapt it to new blockchain standards as needed, without any vendor lock-in.",
+          "question": "Do I own the code for the wallet I create, and can I modify it freely?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your crypto assets?",
+      "type": "cta",
+      "content": "Stop relying on generic, limited tools. Build your perfect decentralized wallet and balance checker today with Kliv's AI assistance."
+    }
+  ],
+  "title": "Custom Decentralized Crypto Wallet & Balance Checker"
+}

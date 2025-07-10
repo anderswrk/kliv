@@ -1,0 +1,185 @@
+{
+  "defaultPrompt": "I want to create a flight booking consolidator that searches multiple airlines and OTAs, displays the cheapest flights, and allows users to book directly or redirect.",
+  "description": "Build custom flight consolidator applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start consolidating",
+    "subtitle": "Develop a powerful flight booking consolidator that aggregates real-time data from multiple sources, offering users the best travel options.",
+    "title": "Build Your Own Flight Booking Consolidator"
+  },
+  "metaDescription": "Create a custom flight booking consolidator with Kliv. Aggregate flight data, compare prices, and offer users a seamless booking experience for travel products.",
+  "sections": [
+    {
+      "title": "Why build your own flight booking consolidator?",
+      "type": "text",
+      "content": "The travel industry is competitive, and customers seek convenience and the best deals. Generic booking platforms often lack the specific features or integrations that give you a competitive edge. Building your own flight booking consolidator allows you to customize the user experience, optimize for niche markets, and control your data and revenue streams.\n\nOff-the-shelf solutions can be rigid, expensive, and limit your innovation. A custom-built platform provides the flexibility to integrate with unique data sources, implement proprietary search algorithms, and offer specialized travel packages that set you apart. With AI-powered development tools, creating such a sophisticated system is more accessible than ever."
+    },
+    {
+      "title": "The case for a custom flight booking platform",
+      "type": "markdown",
+      "content": "## The limitations of existing solutions\n\nMany flight booking websites and aggregators fall short for specific business models or user needs. They often:\n\n- **Lack deep integration**: Struggle to connect with obscure airlines or specialized tour operators.\n- **Offer generic UI/UX**: Don't allow for branding or unique user flows that cater to specific audiences (e.g., luxury travel, budget backpackers, corporate).\n- **Have high transaction fees**: Cut into your margins for every booking.\n- **Limit data access**: Prevent you from leveraging search data for analytics or personalized offers.\n- **Cannot adapt quickly**: Slow to implement new features or respond to market changes.\n\n## Advantages of building your own\n\nDeveloping a custom flight consolidator provides unparalleled benefits:\n\n### Proprietary data aggregation\nIntegrate directly with various Global Distribution Systems (GDS), airline APIs, and other online travel agencies (OTAs) to get real-time flight data. This allows you to offer more comprehensive search results and potentially better deals.\n\n### Tailored user experience\nDesign an interface that precisely matches your brand and target audience's preferences. Whether it's a sleek, minimalistic design for quick bookings or a comprehensive interface for complex multi-leg journeys, you control every element.\n\n### Optimized monetization models\nImplement your preferred revenue strategies, whether it's direct commission, affiliate marketing, or subscription-based access to premium features. You're not tied to the pricing structures of third-party platforms.\n\n### Advanced search and filtering\nDevelop unique algorithms for sorting and filtering results. This could include 'greenest flights,' 'most comfortable routes,' 'best value for frequent flyers,' or custom filters based on amenities, layover times, or specific aircraft types.\n\n### Seamless integration with other services\nExpand beyond just flights. Integrate hotel bookings, car rentals, travel insurance, or even local activity suggestions directly into your platform for a truly end-to-end travel planning experience.\n\n## Real-world applications\n\nCustom flight consolidators can serve diverse markets:\n\n**Corporate travel management**: A platform that integrates company travel policies, preferred airlines, and budget limits, while providing detailed reporting.\n\n**Niche travel agencies**: Specializing in adventure travel, luxury tours, or eco-tourism that requires unique flight combinations or regional airline access.\n\n**Bespoke travel planners**: Tools for concierges or personal travel assistants to rapidly build complex itineraries with specific flight requirements.\n\n**Loyalty program integration**: A booking engine that allows users to seamlessly use specific airline miles or points from various programs.\n\n## The power of AI in development\n\nAI-powered platforms simplify complex development tasks, making custom solutions achievable without extensive coding:\n\n- **Intelligent API integration**: AI can help map and integrate diverse airline and GDS APIs more efficiently.\n- **Dynamic UI generation**: Describe your desired interface, and AI assists in generating components and layouts.\n- **Smart search algorithms**: AI can suggest and help implement advanced search functionalities, like predicting optimal connection points or identifying hidden-gem routes.\n- **Scalable architecture**: AI assists in building robust, scalable backend systems capable of handling large volumes of real-time data.\n\nBuilding your flight booking consolidator is no longer a monumental task. Leverage Kliv's platform to create a truly bespoke and competitive travel solution."
+    },
+    {
+      "title": "Flight booking consolidator ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a basic flight search and display system.",
+          "prompt": "Build a flight consolidator application that allows users to search for one-way and round-trip flights between two cities, displaying results from major airlines with prices and basic flight details like departure/arrival times.",
+          "title": "Basic Flight Search"
+        },
+        {
+          "description": "Develop a multi-city travel planner with custom filters.",
+          "prompt": "Design a flight booking consolidator that supports multi-city itineraries, allows users to filter by specific airlines, maximum layover times, and preferred cabin classes, and prioritizes direct flights.",
+          "title": "Advanced Multi-City Planner"
+        },
+        {
+          "description": "Focus on budget travel with flexible dates.",
+          "prompt": "Create a budget flight consolidator that finds the cheapest flights within a flexible date range (e.g., +/- 3 days from selected dates) and highlights flights with longer layovers for potential city explorations.",
+          "title": "Budget Explorer with Flex Dates"
+        },
+        {
+          "description": "Build a portal for corporate travel with policy enforcement.",
+          "prompt": "Develop a corporate flight booking portal for employees that integrates dynamic approval workflows based on travel policies, preferred vendor lists, and supports direct billing to company accounts.",
+          "title": "Corporate Travel Portal"
+        },
+        {
+          "description": "Integrate loyalty points and special offers.",
+          "prompt": "Design a flight booking platform that allows users to input their airline loyalty program numbers, shows redemption options for flights, and displays exclusive deals for frequent flyers.",
+          "title": "Loyalty Program Integrator"
+        },
+        {
+          "description": "Specialized consolidator for uncommon routes or airlines.",
+          "prompt": "Build a flight consolidator focused on connecting regional airports or sourcing flights from smaller, independent airlines for unique travel experiences, with integrated local transport options.",
+          "title": "Niche Route Specialist"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your flight booking tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add real-time price alerts for selected routes and dates, notifying users via email or SMS when prices drop below a specified threshold.",
+          "title": "Add Price Alert System"
+        },
+        {
+          "prompt": "Integrate car rental and hotel booking APIs to offer a complete travel package solution, allowing users to book all components in one transaction.",
+          "title": "Integrate Hotels & Car Rentals"
+        },
+        {
+          "prompt": "Implement a machine learning model to predict future price changes for a given route, advising users on the best time to book.",
+          "title": "Implement Price Prediction AI"
+        },
+        {
+          "prompt": "Add a dynamic seat map view for flight selection, allowing users to choose their preferred seats during the booking process based on real-time availability.",
+          "title": "Add Interactive Seat Maps"
+        },
+        {
+          "prompt": "Develop a comprehensive user account system where travelers can save preferences, past bookings, payment methods, and frequent flyer numbers for quicker future bookings.",
+          "title": "Develop User Account Management"
+        },
+        {
+          "prompt": "Integrate customer support chat functionality, including a chatbot for FAQs and live agent handover for complex queries, directly into the booking interface.",
+          "title": "Integrate In-App Support"
+        },
+        {
+          "prompt": "Create API endpoints for external partners to integrate your flight search and booking capabilities into their own applications or websites.",
+          "title": "Build Partner API"
+        },
+        {
+          "prompt": "Add a 'carbon footprint' calculation for each flight option, allowing environmentally conscious travelers to choose flights with lower emissions.",
+          "title": "Add Carbon Footprint Calculator"
+        },
+        {
+          "prompt": "Build a robust backend for managing airline contracts, commission rates, and real-time availability updates for all integrated sources.",
+          "title": "Build Admin & Contract Management"
+        }
+      ]
+    },
+    {
+      "title": "Essential Flight Consolidator Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Aggregate flight data from multiple GDS and OTA sources.",
+          "icon": "🔗",
+          "title": "Multi-Source Aggregation"
+        },
+        {
+          "description": "Enable users to search for one-way, round-trip, and multi-city itineraries.",
+          "icon": "✈️",
+          "title": "Flexible Itinerary Search"
+        },
+        {
+          "description": "Provide advanced filtering by price, airline, layovers, cabin class, and more.",
+          "icon": "🔍",
+          "title": "Advanced Filtering"
+        },
+        {
+          "description": "Allow direct booking integration or seamless redirection to partner sites.",
+          "icon": "💳",
+          "title": "Seamless Booking Flow"
+        },
+        {
+          "description": "Ensure responsive design for optimal experience on any device.",
+          "icon": "📱",
+          "title": "Mobile-First Design"
+        },
+        {
+          "description": "Display real-time pricing and availability data.",
+          "icon": "⏱️",
+          "title": "Real-time Data"
+        },
+        {
+          "description": "Track flight searches and bookings for analytics and personalization.",
+          "icon": "📊",
+          "title": "Usage Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The initial version of a flight booking consolidator with core search features can be developed in weeks. More complex systems with advanced integrations and AI can take a few months, but iterative development is key.",
+          "question": "How long does it take to build a flight consolidator application?"
+        },
+        {
+          "answer": "Kliv's platform significantly reduces the need for deep coding knowledge. You describe the functionality you need, and the AI assists in generating API integrations, database schemas, and user interfaces. While some technical understanding of APIs can be helpful, it's not strictly required.",
+          "question": "Do I need to be a coding expert to build this?"
+        },
+        {
+          "answer": "Yes, our platform supports integration with various third-party APIs relevant to flight booking, including GDS (Global Distribution Systems) like Amadeus, Sabre, and Travelport, as well as direct airline APIs and other OTA APIs. Access to these APIs sometimes requires direct agreements with the providers.",
+          "question": "Can I integrate with specific airline APIs or GDS systems?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property, including code, database structure, and all collected user data. You maintain complete control over where your application is hosted and how it scales.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Building in-house often results in lower long-term costs compared to recurring SaaS fees, especially for highly customized or high-volume applications. You invest once in development and then primarily cover hosting and maintenance, avoiding per-transaction fees or feature upgrade costs.",
+          "question": "How does the cost compare to traditional SaaS booking platforms?"
+        },
+        {
+          "answer": "Absolutely. The beauty of a custom application built on Kliv is its flexibility. You can easily add new features, integrate more data sources, change the UI, or modify business logic as your market demands evolve.",
+          "question": "Can I modify or expand the consolidator after it's launched?"
+        },
+        {
+          "answer": "Kliv provides tools to help you build secure applications. Implementing robust security measures for payment processing, data encryption, and user authentication is paramount for a flight consolidator, but you're responsible for the final security posture and compliance (e.g., PCI DSS if handling payments directly).",
+          "question": "What about security and compliance for handling sensitive travel data?"
+        },
+        {
+          "answer": "The platform offers intelligent guidance and error detection during development. For post-launch support, you can opt for ongoing maintenance plans or hire developers as needed, as you have full access to the codebase.",
+          "question": "What kind of support is available after the application is built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your custom flight consolidator?",
+      "type": "cta",
+      "content": "Stop relying on generic solutions. Create a flight booking platform perfectly tailored to your vision and customer needs with Kliv's AI-assisted development."
+    }
+  ],
+  "title": "Flight Booking Consolidator"
+}

@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "Create an AI-powered grading system that can assess student essays for grammar, coherence, and argument strength, and provide constructive feedback.",
+  "description": "Revolutionize assessment with AI-powered grading and feedback tools built on Kliv's platform.",
+  "hero": {
+    "cta": "Start building your AI grader",
+    "subtitle": "Automate routine grading tasks and provide instant, personalized feedback to students with custom AI applications.",
+    "title": "Build your own AI-powered grading & feedback tools"
+  },
+  "metaDescription": "Develop custom AI grading and feedback solutions with Kliv. Enhance learning outcomes, save educators time, and provide tailored student support.",
+  "sections": [
+    {
+      "title": "The challenge of effective feedback in education",
+      "type": "text",
+      "content": "In today's classrooms, educators face immense pressure to provide timely, personalized, and constructive feedback to a growing number of students. Manual grading is time-consuming and often inconsistent, leading to teacher burnout and delayed learning for students. Off-the-shelf grading software offers generic solutions, but rarely aligns with specific curriculum needs or pedagogical approaches.\n\nBuilding your own AI-powered grading system allows you to tailor the feedback to your exact requirements, integrating seamlessly with your existing learning environment and focusing on the competencies that matter most to your students."
+    },
+    {
+      "title": "Why custom AI grading solutions are a game-changer",
+      "type": "markdown",
+      "content": "## The limitations of generic grading tools\n\nExisting grading tools, while helpful, often fall short. They frequently:\n\n- **Lack deep pedagogical understanding**: Generic solutions may not grasp the nuances of specific subjects or assessment criteria.\n- **Offer inflexible feedback templates**: Feedback provided is often canned and not truly personalized to each student's work.\n- **Require significant adaptation**: Educators spend valuable time forcing their curriculum into the tool's framework.\n- **Have high recurring costs**: Subscription models can become prohibitive, especially for institutions with budget constraints.\n- **Pose data privacy concerns**: Storing sensitive student data on third-party servers raises security and compliance questions.\n\n## The benefits of building your own AI grader\n\nLeveraging AI to build your own grading and feedback application addresses these challenges directly:\n\n### Precision-tailored assessment\nDesign your AI to grade based on your specific rubrics, learning objectives, and even common student misconceptions. This ensures higher accuracy and relevance of grades and feedback.\n\n### Instant and personalized feedback\nStudents receive immediate, actionable feedback, allowing for faster iteration and improved learning outcomes. Feedback can be customized to their specific errors or strengths.\n\n### Significant time savings for educators\nAutomate the repetitive aspects of grading, freeing up educators to focus on higher-level teaching, one-on-one support, and curriculum development.\n\n### Data ownership and privacy\nMaintain full control over student data and assessment results, ensuring compliance with privacy regulations like FERPA or GDPR.\n\n### Cost-effectiveness and scalability\nA custom solution is a one-time development investment, avoiding continuous subscription fees. It scales with your student body without increasing per-user costs.\n\n### Integration with existing systems\nSeamlessly connect your AI grading tool with your Learning Management System (LMS), student information systems (SIS), or other educational platforms.\n\n## Real-world applications of custom AI grading\n\nAI-powered grading isn't just for essays; it has diverse applications:\n\n**Language learning**: Evaluate pronunciation, grammar, and fluency in spoken and written assignments.\n\n**STEM fields**: Grade coding assignments for efficiency and correctness, or assess complex problem-solving steps in math and science.\n\n**Creative arts**: Analyze structural coherence in musical compositions or narrative flow in creative writing.\n\n**Vocational training**: Provide feedback on technical reports, project proposals, or simulated task performance.\n\n## The power of AI in your hands\n\nKliv's platform empowers educators and institutions to create these sophisticated tools without deep programming knowledge. The AI interprets your requirements, building the solution you envision. This means:\n\n- **Faster development cycles**: Go from idea to functional tool in days or weeks.\n- **Iterative improvement**: Easily refine your AI's grading logic based on performance and feedback.\n- **Accessible innovation**: Bring cutting-edge AI directly into your teaching practices.\n\nBy customizing your AI grading and feedback system, you transform assessment into a powerful, efficient, and truly personalized learning experience."
+    },
+    {
+      "title": "AI grading ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Analyze open-ended responses for comprehension and critical thinking.",
+          "prompt": "Build an AI that grades short-answer questions in history, looking for accuracy of facts, depth of analysis, and clarity of expression.",
+          "title": "Short-answer comprehension checker"
+        },
+        {
+          "description": "Evaluate code for correctness, efficiency, and adherence to style guides.",
+          "prompt": "Create an automated code grader for Python assignments that checks for syntax errors, logical correctness, adherence to PEP 8 standards, and provides suggestions for optimization.",
+          "title": "Programming assignment evaluator"
+        },
+        {
+          "description": "Provide detailed feedback on essay structure, grammar, and argument.",
+          "prompt": "Develop an AI essay grader for high school English, focusing on thesis strength, paragraph coherence, grammatical correctness, and citation accuracy.",
+          "title": "Essay structure and grammar deep dive"
+        },
+        {
+          "description": "Assess foreign language writing for vocabulary, grammar, and idiomatic expressions.",
+          "prompt": "Design an AI tool to grade Spanish written compositions, providing feedback on verb conjugations, adjective agreement, vocabulary usage, and idiomatic phrases.",
+          "title": "Foreign language writing assistant"
+        },
+        {
+          "description": "Critique creative projects based on defined rubrics and elements.",
+          "prompt": "Build an AI that evaluates creative writing pieces (e.g., short stories) based on plot development, character consistency, descriptive language, and overall engagement, providing specific examples from the text.",
+          "title": "Creative writing rubric assessment"
+        },
+        {
+          "description": "Track the quality of student participation in online discussions.",
+          "prompt": "Set up an AI feedback system for online discussion forums that assesses the quality of student contributions based on relevance, depth of thought, academic tone, and interaction with peers' posts.",
+          "title": "Discussion forum quality assessor"
+        }
+      ]
+    },
+    {
+      "title": "Further enhancements for your grading tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for students to challenge or query the AI's grade, prompting a human review.",
+          "title": "Student appeal mechanism"
+        },
+        {
+          "prompt": "Integrate the AI grader with our existing Learning Management System (LMS) to automatically import submissions and export grades.",
+          "title": "LMS integration"
+        },
+        {
+          "prompt": "Develop a dashboard for instructors to view grading analytics, common student errors, and overall class performance trends.",
+          "title": "Instructor analytics dashboard"
+        },
+        {
+          "prompt": "Allow the AI to learn and adapt its grading criteria further based on human-graded samples provided by the instructor.",
+          "title": "Adaptive learning for rubrics"
+        },
+        {
+          "prompt": "Incorporate a plagiarism detection module directly into the grading process.",
+          "title": "Integrated plagiarism detection"
+        },
+        {
+          "prompt": "Enable voice input for students and use AI to evaluate spoken responses, providing feedback on pronunciation and fluency.",
+          "title": "Voice-to-text assessment"
+        },
+        {
+          "prompt": "Add a feature for peer feedback, facilitated and summarized by the AI.",
+          "title": "AI-moderated peer feedback"
+        },
+        {
+          "prompt": "Allow the AI to generate personalized learning recommendations (e.g., remedial exercises, enrichment materials) based on grading results.",
+          "title": "Personalized learning paths"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your custom AI grader",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define specific scoring criteria and rubrics for AI evaluation.",
+          "icon": "⚖️",
+          "title": "Custom rubric definition"
+        },
+        {
+          "description": "AI analyzes text, code, or data to identify strengths and weaknesses.",
+          "icon": "🧠",
+          "title": "Intelligent content analysis"
+        },
+        {
+          "description": "Generate immediate, targeted, and actionable feedback for students.",
+          "icon": "💬",
+          "title": "Personalized feedback generation"
+        },
+        {
+          "description": "Seamlessly exchange student data and grades with other platforms.",
+          "icon": "🔗",
+          "title": "LMS & SIS integration"
+        },
+        {
+          "description": "Dashboard for educators to monitor grading progress and student insights.",
+          "icon": "📊",
+          "title": "Performance analytics"
+        },
+        {
+          "description": "Ensure data privacy and security with customizable hosting options.",
+          "icon": "🔒",
+          "title": "Secure data handling"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom AI grading tool with Kliv typically takes a few days to a few weeks, depending on the complexity and desired integrations. Basic systems can be functional within hours.",
+          "question": "How long does it take to create an AI grading application?"
+        },
+        {
+          "answer": "No, you do not need programming skills. Kliv's platform allows you to describe your requirements in natural language, and the AI assists in building the application for you.",
+          "question": "Do I need to be a programmer to build these tools?"
+        },
+        {
+          "answer": "Yes. Custom tools built on Kliv can integrate with virtually any common educational system or database that offers an API or standard data formats. This includes popular LMS like Canvas, Moodle, Blackboard, and more.",
+          "question": "Can the AI grading tool integrate with my existing LMS?"
+        },
+        {
+          "answer": "You retain full ownership and control over the application, its code, and all student data processed by it. Kliv provides the platform for creation, but you own the intellectual property.",
+          "question": "Who owns the AI grading tool and data once it's built?"
+        },
+        {
+          "answer": "While there's an initial development cost, custom solutions eliminate recurring per-user or feature-based subscription fees often associated with commercial tools. Over time, custom builds are typically more cost-effective and provide a higher return on investment given their precise fit.",
+          "question": "How does the cost compare to commercial AI grading software?"
+        },
+        {
+          "answer": "Absolutely. One of the core advantages is the ability to continuously modify and improve your AI grading tool. As your curriculum or assessment needs evolve, you can update the AI's logic and features accordingly.",
+          "question": "Can I modify the tool after it has been deployed?"
+        },
+        {
+          "answer": "Yes, security is a primary concern. You have control over hosting environments and data encryption, allowing you to implement security measures that meet your institution's specific compliance requirements (e.g., FERPA, GDPR).",
+          "question": "How secure are these custom-built AI grading applications?"
+        },
+        {
+          "answer": "Kliv provides dedicated support throughout the development process. Post-deployment, because you own the solution, you have full control over its maintenance and further development, enabling you to manage it autonomously or seek external support as needed.",
+          "question": "What kind of support is available after building a tool?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform your grading process?",
+      "type": "cta",
+      "content": "Stop spending hours on manual grading and provide truly impactful feedback. Build an AI-powered grading and feedback system tailored to your educational needs."
+    }
+  ],
+  "title": "AI-powered grading & feedback"
+}

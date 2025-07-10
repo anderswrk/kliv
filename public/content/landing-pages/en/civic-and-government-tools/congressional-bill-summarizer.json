@@ -1,0 +1,159 @@
+{
+  "defaultPrompt": "I want to create an AI-powered congressional bill summarizer that can ingest bill text, summarize its key provisions for a non-expert audience, identify relevant stakeholders, and track its legislative status.",
+  "description": "Develop custom AI-driven tools to simplify complex legislative language and track bills.",
+  "hero": {
+    "cta": "Build Your Bill Summarizer",
+    "subtitle": "Transform opaque legislative text into clear, concise summaries for any audience.",
+    "title": "Build Your Own Congressional Bill Summarizer"
+  },
+  "metaDescription": "Create powerful, custom AI-powered congressional bill summarizers. Simplify policy, track legislation, and inform stakeholders with tools tailored to your needs.",
+  "sections": [
+    {
+      "title": "The Challenge of Legislative Complexity",
+      "type": "text",
+      "content": "Navigating the labyrinthine world of legislative bills is a daunting task, even for seasoned professionals. Congressional bills are often thousands of pages long, filled with legalese, cross-references, and highly technical jargon. This complexity makes it incredibly difficult for policymakers, advocates, journalists, and even citizens to quickly grasp the essence of proposed legislation, understand its potential impact, or track its progress.\n\nOff-the-shelf solutions may offer generic summarization, but they often lack the nuance, context, or specific focus required by specialized users. Furthermore, relying on third-party platforms means ceding control over data privacy, customization capabilities, and the ability to integrate with your existing workflows. Building your own tool ensures precision, security, and a perfect fit for your unique informational needs."
+    },
+    {
+      "title": "Why Build a Custom Bill Summarizer?",
+      "type": "markdown",
+      "content": "## Beyond Generic Summaries\n\nWhile general-purpose AI summarizers exist, they often fall short when dealing with specialized content like legislative documents. A custom-built congressional bill summarizer addresses these limitations by offering:\n\n### Precision for Policy\nGeneric tools lack the understanding of legislative structure, legal precedents, and policy implications. A custom tool, tailored for this domain, can be trained to recognize key provisions, identify amendments, and extract the true intent of the bill, rather than just surface-level text.\n\n### Targeted Audience Summaries\nDifferent stakeholders need different levels of detail. A non-profit advocating for environmental policy needs a summary focused on ecological impact, while a financial services firm needs one highlighting economic implications. Your custom tool can generate summaries tailored for specific audiences (e.g., 'Summary for Small Business Owners', 'Summary for Legal Professionals', 'Summary for General Public').\n\n### Real-time Context and Status\nLegislation is dynamic. Bills evolve, amendments are added, and status changes frequently. A custom application can integrate with legislative data sources to not only summarize the current text but also provide real-time updates on its status, sponsorship, committee assignments, and voting records.\n\n### Data Security and Ownership\nWhen dealing with sensitive legislative information, data security is paramount. Building your own tool means your data remains in your control, reducing reliance on third-party security protocols and ensuring compliance with your organization's data governance policies.\n\n### Seamless Workflow Integration\nYour custom summarizer isn't a standalone island. It can be designed to directly integrate with your existing CRM, lobbying software, internal communication platforms, or research databases, streamlining your entire legislative analysis workflow.\n\n## Use Cases:\n\n- **Legislative Aides:** Quickly brief members of Congress on complex bills before crucial votes.\n- **Lobbyists & Advocacy Groups:** Swiftly identify relevant provisions in new legislation to better inform advocacy strategies and member outreach.\n- **Journalists & Researchers:** Expedite research and fact-checking by rapidly understanding the core of new laws and proposals.\n- **Legal Professionals:** Efficiently review and analyze large volumes of legal documents, identifying key clauses and potential impacts.\n- **Public Affairs Teams:** Prepare simplified, digestible summaries for public consumption, ensuring clear communication about policy changes."
+    },
+    {
+      "title": "Bill Summarizer Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Summarize a bill for general public understanding",
+          "prompt": "Create an AI tool that can ingest the full text of a congressional bill and generate a plain-language summary for a non-expert audience, explaining its main purpose and key impacts without legal jargon.",
+          "title": "Plain Language Summarizer"
+        },
+        {
+          "description": "Track bill status and generate updates",
+          "prompt": "Build an application that takes a bill number, retrieves its current legislative status (e.g., 'Introduced', 'Passed House', 'Enacted'), summarizes recent actions, and notifies users of significant changes.",
+          "title": "Legislative Status Tracker with Summaries"
+        },
+        {
+          "description": "Identify stakeholders and relevant provisions",
+          "prompt": "Develop a tool that can analyze a bill's text to identify industry sectors, demographics, or geographic regions most likely to be affected, and extract the specific clauses relevant to each identified group.",
+          "title": "Stakeholder Impact Analyzer"
+        },
+        {
+          "description": "Compare bill versions and highlight changes",
+          "prompt": "Create a system that can compare two versions of the same bill (e.g., initial draft vs. amended version) and generate a summary of the changes made, highlighting additions, deletions, and modifications.",
+          "title": "Bill Version Comparer"
+        },
+        {
+          "description": "Summarize bills by specific policy area",
+          "prompt": "Build a tool that, given a policy area (e.g., 'healthcare reform', 'climate policy', 'cybersecurity'), can ingest a bill and summarize only the provisions directly related to that specific domain.",
+          "title": "Policy-Specific Summarizer"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Summarizer",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature that allows users to query the bill text with natural language questions (e.g., 'What does this bill say about Medicare funding?') and get concise, direct answers.",
+          "title": "Interactive Q&A for Bills"
+        },
+        {
+          "prompt": "Integrate a function that can identify and list all cited laws or statutes within a bill, and provide a brief context or link to their full text.",
+          "title": "Citation Extractor and Resolver"
+        },
+        {
+          "prompt": "Implement user authentication and role-based access control, allowing different users (e.g., team members, clients) to see different levels of detail or access specific summaries.",
+          "title": "User Management & Personalization"
+        },
+        {
+          "prompt": "Add a notification system that sends email or in-app alerts when bills of interest (identified by keywords or tracked explicitly) have status updates or new summaries are available.",
+          "title": "Automated Alerts for Bill Updates"
+        },
+        {
+          "prompt": "Develop an export function that allows users to download summaries and related data (e.g., stakeholders, key provisions) in various formats like PDF, Word, or CSV.",
+          "title": "Export & Reporting Capabilities"
+        },
+        {
+          "prompt": "Include an sentiment analysis module that can assess the general tone or public perception of a bill based on associated news articles or social media mentions.",
+          "title": "Public Sentiment Analysis"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Summarizer",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automatic ingestion of bill text from various sources with robust parsing.",
+          "icon": "📄",
+          "title": "Intelligent Text Ingestion"
+        },
+        {
+          "description": "AI-powered summarization engine capable of generating concise, accurate, and audience-specific summaries.",
+          "icon": "💡",
+          "title": "Contextual Summarization"
+        },
+        {
+          "description": "Integration with legislative data APIs for real-time status updates and historical data.",
+          "icon": "🔗",
+          "title": "Legislative Data Integration"
+        },
+        {
+          "description": "Ability to customize summarization parameters based on policy area, stakeholder group, or desired detail level.",
+          "icon": "⚙️",
+          "title": "Customizable Output"
+        },
+        {
+          "description": "Tools to identify and highlight key provisions, impact statements, and relevant sections within the bill.",
+          "icon": "🔎",
+          "title": "Key Provision Extraction"
+        },
+        {
+          "description": "Secure storage and management of bill data and generated summaries.",
+          "icon": "🔒",
+          "title": "Secure Data Handling"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic congressional bill summarizer can take as little as a few hours to a few days using Kliv's platform, depending on the complexity of desired features. More advanced versions with complex integrations might take a week or two.",
+          "question": "How long will it take to build a functional bill summarizer?"
+        },
+        {
+          "answer": "No deep technical expertise is required. Kliv's platform uses natural language and intuitive interfaces to guide you. While understanding the nuances of legislative data sources can be helpful, the AI handles the complex coding.",
+          "question": "Do I need to be a programmer or a legislative expert to build this?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with publicly available legislative data APIs (e.g., Congress.gov, GovTrack.us) and even proprietary databases your organization subscribes to, allowing for up-to-date information.",
+          "question": "Can my custom summarizer integrate with real-time legislative data sources?"
+        },
+        {
+          "answer": "You own 100% of the application you build, including its code and summary models. Kliv provides the platform for creation, but all intellectual property belongs to you, ensuring full control and data privacy.",
+          "question": "Who owns the intellectual property of the summarizer I build?"
+        },
+        {
+          "answer": "Compared to ongoing subscriptions for specialized legislative software, building with Kliv typically involves a one-time development cost, leading to significant savings in the long run. The total cost depends on the complexity and scope of your specific application.",
+          "question": "What are the cost implications compared to buying off-the-shelf legislative software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the ability to continuously adapt. You can easily add new features, refine summarization algorithms, integrate with new data sources, or adjust the output formats as your needs evolve.",
+          "question": "Can I modify or expand my bill summarizer after it's initially built?"
+        },
+        {
+          "answer": "Kliv provides tools to help ensure the accuracy of the summarization output, including options for human review and refinement of AI models. While AI is powerful, a final human review is always recommended for critical legislative analysis.",
+          "question": "How reliable and accurate will the AI summaries be?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Demystify Legislation?",
+      "type": "cta",
+      "content": "Empower your team or organization with a tool that cuts through legislative complexity. Start building your custom congressional bill summarizer today."
+    }
+  ],
+  "title": "Congressional Bill Summarizer"
+}

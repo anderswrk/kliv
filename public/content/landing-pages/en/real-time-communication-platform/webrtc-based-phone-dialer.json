@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a WebRTC-based phone dialer with call routing, recording capabilities, and a CRM integration for my sales team.",
+  "description": "Build custom WebRTC-based phone dialers for sales, support, and internal communication with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your dialer",
+    "subtitle": "Develop powerful, browser-native calling applications tailored to your business needs, powered by Kliv's AI.",
+    "title": "Build your own WebRTC Phone Dialer"
+  },
+  "metaDescription": "Create highly customizable WebRTC phone dialers with Kliv. Empower your teams with integrated calling, analytics, and CRM connections without complex infrastructure.",
+  "sections": [
+    {
+      "title": "Why a custom WebRTC Phone Dialer?",
+      "type": "text",
+      "content": "In today's fast-paced business environment, off-the-shelf communication tools often fall short. Generic phone systems lack the specific integrations, analytics, or user experience needed for specialized teams like sales or support. Building your own WebRTC-based dialer gives you complete control, allowing you to embed communication directly into your workflows.\n\nTraditional telephony systems are clunky, require expensive hardware, and complex configurations. WebRTC (Web Real-Time Communication) revolutionizes this by enabling voice and video communication directly within web browsers, eliminating the need for plugins or dedicated software. This opens up unparalleled flexibility for custom applications."
+    },
+    {
+      "title": "The case for a bespoke communication solution",
+      "type": "markdown",
+      "content": "## Limitations of standard communication platforms\n\nMany businesses are stuck with communication tools that are either too generic or too rigid. These often present challenges such as:\n\n- **Lack of deep integration**: Poor or non-existent connections with critical business systems like CRM, ERP, or helpdesk software.\n- **Scalability issues**: Difficulty in adjusting call volumes, user counts, or regional presence without significant cost increases.\n- **Vendor lock-in**: Dependence on a single provider's features, pricing, and update cycles.\n- **Data silos**: Call logs, recordings, and performance metrics are disconnected from other business data.\n- **Limited customization**: Inability to tailor the user interface, call flows, or agent experience to specific team needs.\n\n## Advantages of building your own WebRTC dialer\n\nThe ability to self-build advanced communication tools is a game-changer. Here's why smart businesses are taking control:\n\n### Perfect workflow integration\nEmbed calling functionality directly into your existing applications (CRM dashboards, support portals, internal tools). Agents no longer need to switch between tabs, improving efficiency and data accuracy.\n\n### Complete data ownership & analytics\nAll call data, recordings, and performance metrics are yours. Build custom dashboards, analyze agent performance, and identify trends tailored specifically to your operational goals.\n\n### Cost efficiency & scalability\nAvoid per-user subscription fees and complex infrastructure costs. WebRTC leverages existing internet connections and browsers, making it inherently scalable and often more cost-effective in the long run.\n\n### Unmatched flexibility & customization\nDesign every aspect of the dialer: from the user interface and call routing logic to custom disposition codes and post-call automation. Adapt it as your business evolves without relying on vendor roadmaps.\n\n### Enhanced security\nHost your communication infrastructure on your terms, allowing you to implement security protocols and compliance measures that meet your specific industry requirements.\n\n## Real-world transformations\n\nCustom WebRTC dialers are redefining how businesses communicate:\n\n**Sales Teams**: An integrated dialer within a CRM allows one-click dialing, automatic call logging, and screen pops with customer information, speeding up sales cycles.\n\n**Customer Support**: Agents can handle calls directly from their helpdesk platform, with immediate access to customer history and the ability to transfer calls seamlessly to subject matter experts.\n\n**Inside Sales**: Predictive dialers built to optimize outbound campaigns, minimizing agent idle time and maximizing talk time.\n\n**Internal Communications**: Secure, real-time audio and video conferencing tools embedded directly into project management platforms for distributed teams.\n\n**Healthcare Providers**: Secure, HIPAA-compliant patient communication portals for teleconsultations directly through a web browser.\n\n## The AI development advantage\n\nKliv transforms the complex process of building real-time communication systems:\n\n- **Rapid prototyping**: Go from idea to working prototype in days.\n- **Intelligent infrastructure provisioning**: AI handles the backend setup for WebRTC, STUN/TURN servers, and signaling.\n- **Automated code generation**: Describe your dialer's features, and Kliv helps generate the necessary code.\n- **Pre-built components**: Leverage a library of communication components to accelerate development.\n\n## Getting started\n\nStop settling for off-the-shelf solutions that only meet some of your needs. With Kliv, you can create a communication platform that perfectly aligns with your operational requirements and provides a competitive edge."
+    },
+    {
+      "title": "WebRTC dialer ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a robust outbound calling solution for sales teams.",
+          "prompt": "Build a WebRTC-based predictive dialer for my sales team. It needs to integrate with HubSpot CRM, record calls, display customer data on screen-pop, and have customizable disposition codes.",
+          "title": "Sales Call Center Dialer"
+        },
+        {
+          "description": "Develop an efficient inbound system for customer service.",
+          "prompt": "I need a WebRTC phone application for my customer support agents. It should integrate with Zendesk, allow call transfers and conferences, display caller ID, and pull up customer tickets automatically.",
+          "title": "Customer Support Softphone"
+        },
+        {
+          "description": "Enable secure, HIPAA-compliant patient consultations.",
+          "prompt": "Create a secure WebRTC video and audio dialer for patient telehealth appointments. It must be HIPAA-compliant, support screen-sharing, and have a waiting room feature.",
+          "title": "Telehealth Communication Portal"
+        },
+        {
+          "description": "Streamline internal communication for distributed teams.",
+          "prompt": "Design an internal WebRTC group calling and messaging application for my remote team. It should support presence indicators, one-on-one calls, and quick conference creation.",
+          "title": "Internal Team Collaboration Tool"
+        },
+        {
+          "description": "Build a dedicated virtual reception and call management system.",
+          "prompt": "Develop a WebRTC virtual receptionist application that can route incoming calls based on caller input, transfer to extensions, and forward voicemails to email.",
+          "title": "Virtual Receptionist Console"
+        },
+        {
+          "description": "Add direct calling features to e-commerce or booking platforms.",
+          "prompt": "Build a click-to-call WebRTC button that customers can use from my website to instantly connect with a sales agent through their browser, with immediate context passed.",
+          "title": "Website Click-to-Call Widget"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your dialer application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now, add a real-time supervisor dashboard to monitor agent status, call queues, and live listen in on calls.",
+          "title": "Supervisor Monitoring Dashboard"
+        },
+        {
+          "prompt": "Integrate with a voice-to-text API to transcribe all recorded calls and store transcripts with the call logs.",
+          "title": "Call Transcription Service"
+        },
+        {
+          "prompt": "Implement a sentiment analysis feature during live calls to alert agents to customer dissatisfaction or key emotional indicators.",
+          "title": "AI Sentiment Analysis"
+        },
+        {
+          "prompt": "Add a skill-based routing engine to direct incoming calls to agents best suited to handle specific customer inquiries or languages.",
+          "title": "Skill-Based Routing"
+        },
+        {
+          "prompt": "Develop a comprehensive reporting module that generates daily, weekly, and monthly reports on call volume, agent performance, and resolution rates.",
+          "title": "Advanced Reporting Module"
+        },
+        {
+          "prompt": "Add an IVR (Interactive Voice Response) system that allows customers to navigate options using voice or keypad input before connecting to an agent.",
+          "title": "Custom IVR System"
+        },
+        {
+          "prompt": "Integrate with external APIs such as SMS gateways to allow agents to send and receive text messages during or after calls.",
+          "title": "SMS Integration"
+        },
+        {
+          "prompt": "Build native mobile applications (iOS/Android) that connect to the WebRTC dialer system, allowing agents to work from anywhere.",
+          "title": "Mobile App Extension"
+        },
+        {
+          "prompt": "Implement a real-time screen sharing or co-browsing feature for agents to assist customers more effectively during support calls.",
+          "title": "Co-browsing/Screen Share"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for a custom dialer",
+      "type": "features",
+      "items": [
+        {
+          "description": "Browser-based calling without plugins, enabling instant access from anywhere.",
+          "icon": "🌐",
+          "title": "WebRTC Native Calls"
+        },
+        {
+          "description": "Connect with CRMs, helpdesks, and custom databases for seamless data flow.",
+          "icon": "⚡",
+          "title": "Deep Business Integrations"
+        },
+        {
+          "description": "Record, store, and access call audio for training, compliance, and quality assurance.",
+          "icon": "🎧",
+          "title": "Call Recording & Logging"
+        },
+        {
+          "description": "Automated inbound/outbound call routing, IVR, and queuing for efficiency.",
+          "icon": "📞",
+          "title": "Flexible Call Routing"
+        },
+        {
+          "description": "Monitor agent performance, call metrics, and operational insights in real-time.",
+          "icon": "📈",
+          "title": "Custom Analytics & Reporting"
+        },
+        {
+          "description": "Add video conferencing, chat, and screen-sharing for rich interactions.",
+          "icon": "🤝",
+          "title": "Multi-mode Communication"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic WebRTC dialer capable of making and receiving calls can be achieved in a matter of hours or days with Kliv. More complex systems with advanced routing, integrations, and analytics will take longer, but still significantly less time than traditional development methods.",
+          "question": "How quickly can I deploy a custom WebRTC dialer?"
+        },
+        {
+          "answer": "While WebRTC itself is complex, Kliv's AI-assisted platform abstracts away the low-level coding. You describe the functionality you need in plain language, and the AI helps configure and generate the underlying infrastructure and application code. Minimal or no coding knowledge is required.",
+          "question": "Do I need to be a WebRTC expert or developer to build this?"
+        },
+        {
+          "answer": "Yes, custom dialers built with Kliv can integrate with virtually any third-party system that offers an API. This includes popular CRMs like Salesforce, HubSpot, Zendesk, or custom internal tools, allowing data synchronization and enhanced workflows.",
+          "question": "Can my custom dialer connect with my existing CRM or other business software?"
+        },
+        {
+          "answer": "WebRTC itself provides secure, encrypted peer-to-peer communication. When building with Kliv, you have control over hosting environments and can implement specific security protocols (e.g., HIPAA, GDPR compliance) to meet your industry's sensitive data requirements, often exceeding what generic SaaS providers offer.",
+          "question": "How secure are custom WebRTC dialers built with Kliv?"
+        },
+        {
+          "answer": "Unlike SaaS solutions with recurring per-user or feature-based fees, building with Kliv is typically a one-time development investment (plus infrastructure costs, which can be minimal). This often results in significant cost savings, especially for growing teams, breaking even much faster than long-term SaaS subscriptions.",
+          "question": "What are the cost implications compared to subscribing to an off-the-shelf dialer?"
+        },
+        {
+          "answer": "Absolutely. Custom-built applications offer unparalleled flexibility. You can iterate on features, redesign user interfaces, add new integrations, or scale capabilities up or down as your business needs evolve, without being limited by a vendor's product roadmap.",
+          "question": "Can I modify or expand my dialer's features after it's built?"
+        },
+        {
+          "answer": "You own 100% of the application code generated. Kliv provides the tools and intelligence to build it, but the resulting application and its data are entirely yours to host, manage, and use as you see fit. You're never locked into a proprietary system.",
+          "question": "Who owns the code and data for the custom dialer I build?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ideal communication platform?",
+      "type": "cta",
+      "content": "Stop adapting your workflows to rigid software. Create a WebRTC dialer that's a perfect extension of your business operations."
+    }
+  ],
+  "title": "WebRTC Phone Dialer applications"
+}

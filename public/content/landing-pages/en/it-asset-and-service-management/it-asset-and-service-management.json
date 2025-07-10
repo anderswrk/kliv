@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create an IT Asset and Service Management (ITSM) tool that tracks hardware and software assets, manages service requests, and automates common IT workflows.",
+  "description": "Build custom IT Asset and Service Management (ITSM) applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your ITSM tool",
+    "subtitle": "Gain complete control over your IT infrastructure and service delivery with a custom-built ITSM solution tailored to your organization's exact needs.",
+    "title": "Build your own IT Asset & Service Management tool"
+  },
+  "metaDescription": "Create powerful IT Asset and Service Management (ITSM) tools with Kliv. Track assets, manage services, automate IT processes, and improve efficiency with custom-built applications.",
+  "sections": [
+    {
+      "title": "The challenge of managing IT assets and services",
+      "type": "text",
+      "content": "In today's dynamic business environment, effective IT asset and service management is crucial for operational efficiency, cost control, and security. However, off-the-shelf ITSM solutions often fall short, forcing organizations to adapt their unique IT processes to rigid software, leading to workflow inefficiencies, bloated features, and recurring costs that quickly add up.\n\nBuilding your own ITSM tool with a platform like Kliv offers unparalleled flexibility. You can design a system that precisely mirrors your internal operations, integrates seamlessly with existing infrastructure, and evolves with your business, without vendor lock-in or unnecessary subscriptions. This approach empowers your IT department to deliver better service, optimize asset utilization, and reduce operational overhead."
+    },
+    {
+      "title": "Why a custom ITSM solution makes sense",
+      "type": "markdown",
+      "content": "## The pitfalls of generic ITSM platforms\n\nMany organizations struggle with off-the-shelf ITSM tools due to:\n\n- **Overpaying for unused features**: Generic solutions often come packed with functionalities you'll never use, yet you pay for them.\n- **Lack of customization**: Adapting your unique IT workflows to a predefined system can be cumbersome and inefficient.\n- **Integration complexities**: Getting disparate systems to communicate often requires custom development anyway, defeating the purpose of a pre-built solution.\n- **Vendor lock-in**: Migrating data and processes away from a proprietary platform can be prohibitively expensive and time-consuming.\n- **Scalability concerns**: As your organization grows, generic tools might struggle to keep pace without significant upgrades or additional licensing.\n\n## The strategic advantage of custom ITSM\n\nBuilding a tailored ITSM solution with Kliv's AI-powered platform offers significant benefits:\n\n### Perfect process alignment\nDesign workflows that precisely match your IT operations, from incident management and service requests to asset tracking and change management. No more forcing your processes into a rigid framework.\n\n### Cost efficiency and ownership\nBy building your own, you invest once in a solution that you own. Eliminate recurring subscription fees and reallocate those significant savings to other critical IT initiatives. Your total cost of ownership decreases significantly over time.\n\n### Enhanced security and data control\nHost your ITSM data on your own infrastructure or a cloud environment you control. This provides superior security posture and compliance, as you dictate where sensitive IT information resides and how it's accessed.\n\n### Seamless integration\nBuilt from the ground up, your custom ITSM tool can integrate natively with your existing monitoring systems, ticketing platforms, CMDBs, HR systems, and other business applications without complex workarounds.\n\n### Agility and future-proofing\nAs technology evolves and your business needs change, your custom ITSM solution can quickly adapt. Add new modules, modify existing functionalities, or integrate emerging technologies with ease, ensuring your system remains relevant and effective.\n\n## Real-world impact\n\nCustom ITSM solutions deliver tangible benefits across various scenarios:\n\n**Managed Service Providers (MSPs)**: Develop a unified platform for managing client assets, service agreements, and support tickets, offering a consistent and superior client experience.\n\n**Large Enterprises**: Create bespoke systems to manage complex, distributed IT environments, ensuring compliance, optimizing software licenses, and standardizing incident resolution across multiple departments.\n\n**Government Agencies**: Build secure, isolated ITSM tools that meet strict regulatory requirements for data handling and system access, without relying on third-party SaaS vendors.\n\n**Educational Institutions**: Implement a tailored system for tracking student and faculty devices, managing software deployments across labs, and streamlining help desk requests for campus-wide IT support.\n\n## The Kliv advantage in building ITSM\n\nKliv leverages AI to simplify complex software development, making custom ITSM accessible:\n\n- **Natural Language Programming**: Describe your asset types, service workflows, and user roles in plain English, and the AI translates it into functional code.\n- ** Rapid Prototyping**: See a working version of your ITSM application in days, allowing for quick iterations and stakeholder feedback.\n- **Integrated Development Environment**: Kliv provides the tools to build, test, and deploy your application, all in one place.\n- **Modularity**: Build specific modules for asset management, incident tracking, change management, or service catalogs independently and then combine them.\n\nInvest in a solution that truly empowers your IT team, enhances service delivery, and provides a clear competitive edge."
+    },
+    {
+      "title": "ITSM ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track all hardware assets, their locations, users, and maintenance history.",
+          "prompt": "Create an IT Asset Management (ITAM) system that tracks laptops, desktops, servers, and network devices, including their serial numbers, purchase dates, warranty info, assigned users, and physical locations. Include a module for maintenance history and automated depreciation calculations.",
+          "title": "Hardware Asset Tracker"
+        },
+        {
+          "description": "Manage software licenses, installations, and compliance across the organization.",
+          "prompt": "Build a Software Asset Management (SAM) tool that monitors all installed software, tracks license usage against purchased licenses, alerts for compliance issues, and helps identify opportunities for software optimization.",
+          "title": "Software License Manager"
+        },
+        {
+          "description": "A self-service portal for users to request IT services and track their requests.",
+          "prompt": "Develop an IT Service Catalog and Request Management system where users can browse available IT services (e.g., software installation, new user setup, password reset), submit requests, and track the status of their submissions. Include automated routing to relevant IT teams.",
+          "title": "Employee Self-Service IT Portal"
+        },
+        {
+          "description": "Streamline the process of reporting, triaging, and resolving IT incidents.",
+          "prompt": "Design an Incident Management system with capabilities for users to report IT incidents, automated categorization and prioritization based on impact and urgency, assignment to IT technicians, and status updates for users.",
+          "title": "IT Incident Management System"
+        },
+        {
+          "description": "Manage planned changes to the IT infrastructure to minimize disruption.",
+          "prompt": "Create a Change Management system that allows IT teams to submit change requests, assess risks, obtain necessary approvals, schedule changes, and document post-implementation reviews to prevent service disruptions.",
+          "title": "IT Change Control System"
+        },
+        {
+          "description": "Maintain a central repository of all IT knowledge and solutions.",
+          "prompt": "Build an IT Knowledge Base that stores common IT issues, troubleshooting steps, policy documents, and how-to guides. Make it searchable by users and integrate it with the service request system for self-help.",
+          "title": "IT Knowledge Base & FAQ"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your ITSM tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a CMDB (Configuration Management Database) to link IT assets to services and business functions.",
+          "title": "Add a CMDB Module"
+        },
+        {
+          "prompt": "Implement predictive analytics to foresee potential hardware failures or software licensing expirations.",
+          "title": "Integrate Predictive Analytics"
+        },
+        {
+          "prompt": "Add capabilities for managing IT projects, resources, and budgets within the ITSM system.",
+          "title": "Develop IT Project Management"
+        },
+        {
+          "prompt": "Create dashboards and reports for key performance indicators (KPIs) like mean time to resolution (MTTR) and service availability.",
+          "title": "Build Performance Dashboards"
+        },
+        {
+          "prompt": "Add a mobile application for IT technicians to manage tickets and assets on the go.",
+          "title": "Create a Mobile App for Technicians"
+        },
+        {
+          "prompt": "Implement a machine learning model to automatically categorize and prioritize incoming service requests.",
+          "title": "Integrate AI for Ticket Triage"
+        },
+        {
+          "prompt": "Add capabilities for capturing and managing formal problem records, linking them to incidents, and tracking root cause analysis.",
+          "title": "Develop a Problem Management Module"
+        },
+        {
+          "prompt": "Build an automated discovery tool that scans the network and automatically updates asset records.",
+          "title": "Add Automated Asset Discovery"
+        }
+      ]
+    },
+    {
+      "title": "Key ITSM capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Track hardware and software assets, their lifecycle, and related information.",
+          "icon": "💻",
+          "title": "Asset Lifecycle Management"
+        },
+        {
+          "description": "Manage user requests, incidents, and service levels effectively.",
+          "icon": "📞",
+          "title": "Service & Incident Management"
+        },
+        {
+          "description": "Automate routine IT tasks and workflows from service request fulfillment to asset provisioning.",
+          "icon": "⚙️",
+          "title": "Workflow Automation"
+        },
+        {
+          "description": "Provide a portal for users to submit requests, track status, and find answers.",
+          "icon": "👩‍💻",
+          "title": "Self-Service Portal"
+        },
+        {
+          "description": "Integrate with monitoring tools, directories, and other business systems.",
+          "icon": "🔗",
+          "title": "Seamless Integrations"
+        },
+        {
+          "description": "Gain insights into IT operations with customizable reports and dashboards.",
+          "icon": "📊",
+          "title": "Reporting & Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a core ITSM tool on Kliv can take anywhere from a few days to a couple of weeks, depending on the complexity and number of features you initially prioritize. The AI significantly accelerates the development process.",
+          "question": "How long does it take to build a functional ITSM tool?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv's platform allows you to describe your desired functionalities, asset types, and service workflows in plain language, and the AI assists in generating the underlying application logic.",
+          "question": "Do I need to be a developer to build my own ITSM solution with Kliv?"
+        },
+        {
+          "answer": "Absolutely. Custom ITSM tools built with Kliv can integrate with virtually any system that offers an API or standard data formats. This includes directory services (Active Directory, LDAP), HR systems, monitoring tools, and existing CMDBs.",
+          "question": "Can my custom ITSM tool integrate with my current IT systems?"
+        },
+        {
+          "answer": "With Kliv, you own the entire application, including the source code (if desired) and all your data. This is a key advantage over SaaS solutions, giving you full control and no vendor lock-in.",
+          "question": "Who owns the ITSM tool and data once it's built?"
+        },
+        {
+          "answer": "Building a custom solution often proves more cost-effective in the long run. While there's an initial development investment, you avoid recurring subscription fees, licensing costs per user, and feature-tier pricing typical of commercial ITSM products.",
+          "question": "Is building a custom ITSM tool more expensive than buying an off-the-shelf solution?"
+        },
+        {
+          "answer": "Yes, its one of the primary benefits. Your custom ITSM tool can be designed to scale precisely with your organization's growth. You can add new modules, integrate more assets, or expand service catalogs as your needs evolve, without forced upgrades or new licenses.",
+          "question": "Can the custom ITSM tool scale with my organization's growth?"
+        },
+        {
+          "answer": "Custom-built solutions allow you to implement security measures tailored to your specific organizational policies and compliance requirements. You control data residency, access controls, and encryption, potentially making it more secure than relying on a third-party vendor's security practices.",
+          "question": "How secure is a custom-built ITSM application?"
+        }
+      ]
+    },
+    {
+      "title": "Take control of your IT operations",
+      "type": "cta",
+      "content": "Stop conforming to generic ITSM software. Build a solution that perfectly fits your IT landscape and drives unparalleled efficiency."
+    }
+  ],
+  "title": "Custom IT Asset & Service Management (ITSM)"
+}

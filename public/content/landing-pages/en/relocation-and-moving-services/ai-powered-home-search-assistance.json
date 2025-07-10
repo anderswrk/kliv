@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create an AI-powered home search assistant that helps users find properties based on their lifestyle, commutes, school preferences, and personal interests, not just standard filters.",
+  "description": "Build custom AI-powered home search assistants to redefine how people find their next home.",
+  "hero": {
+    "cta": "Start building your AI assistant",
+    "subtitle": "Leverage AI to create personalized home search tools that go beyond basic filters.",
+    "title": "AI-Powered Home Search Assistants"
+  },
+  "metaDescription": "Create powerful AI-driven home search assistants with Kliv. Help users find their dream homes by understanding their lifestyle, not just property specs. Ideal for real estate professionals and innovation-driven companies.",
+  "sections": [
+    {
+      "title": "The Problem with Traditional Home Search",
+      "type": "text",
+      "content": "Finding the perfect home is a deeply personal journey, yet most online search tools offer a generic, transactional experience. Users are forced to sift through endless listings using limited keyword searches and checkboxes. They can find a '3 bed, 2 bath' but struggle to find a home that matches their 'active lifestyle with a short bike commute to work and a quiet neighborhood with good coffee shops.' This gap leads to frustration, wasted time, and missed opportunities for both buyers and real estate professionals.\n\nOff-the-shelf solutions are often rigid, expensive, and fail to capture the nuanced needs of modern homebuyers. The future of home discovery lies in intelligent, personalized assistance."
+    },
+    {
+      "title": "Why Build Your Own AI Home Search Assistant?",
+      "type": "markdown",
+      "content": "## Beyond Keywords: Understanding the Homebuyer\n\nExisting real estate platforms, while powerful, often fall short in understanding true user intent. They excel at filtering by basics like price, size, and location, but fail to account for lifestyle, community fit, commute patterns, or personal hobbies. This is where an AI-powered assistant shines.\n\n### The AI Advantage in Real Estate\n\nArtificial intelligence allows you to build a system that:\n\n-   **Understands natural language queries**: Users can describe their ideal home in plain English, like 'a family-friendly neighborhood with excellent elementary schools and a yard big enough for a dog.'\n-   **Infers preferences**: The AI can learn from user interactions, implicit feedback, and even social media data (with consent) to suggest properties or neighborhoods that align with their lifestyle, hobbies, and values.\n-   **Automates laborious tasks**: From scheduling viewings to comparing property taxes across different areas, AI can handle the repetitive work.\n-   **Provides proactive recommendations**: Rather than just waiting for user input, the assistant can proactively suggest new listings or even off-market opportunities based on evolving user profiles.\n\n### Custom vs. Off-the-Shelf: A Deeper Fit\n\nWhile real estate tech abounds, building your own AI assistant on Kliv offers unparalleled advantages:\n\n-   **Tailored to your niche**: Are you a luxury realtor? Focus on high-end amenities and privacy. A commercial agent? Optimize for zoning and foot traffic. Your assistant can be designed to serve your specific market.\n-   **Data ownership & privacy**: Control exactly how user data is collected, stored, and used. Build trust by ensuring privacy compliance.\n-   **Seamless integration**: Connect your assistant directly to your existing CRM, listing databases (MLS, Zillow, Redfin feeds via API), and communication tools (email, SMS).\n-   **Scalability on your terms**: As your business grows, your custom solution grows with it, without incremental per-user fees or vendor lock-in.\n-   **Unique user experience**: Differentiate your service from competitors by offering a truly personalized, insightful, and frictionless home search journey.\n\n### Real-World Impact\n\nImagine a home search assistant that:\n\n-   **For the busy professional**: Finds homes with excellent public transport links to their city office, near gyms, and quiet spaces for remote work.\n-   **For the growing family**: Recommends neighborhoods based on school ratings, proximity to parks, and kid-friendly activities, even suggesting property layouts ideal for children.\n-   **For the retiree**: Identifies single-story homes in walkable communities near healthcare facilities and cultural centers with low maintenance.\n\nBy leveraging Kliv, you can rapidly prototype and deploy these sophisticated AI systems, empowering your clients and revolutionizing your real estate business."
+    },
+    {
+      "title": "Home Search Assistant Ideas to Explore",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Helps find homes that fit a user's chosen lifestyle activities.",
+          "prompt": "Create an AI assistant that finds homes based on lifestyle descriptors such as 'outdoor enthusiast', 'foodie', 'night owl', or 'family-focused', by analyzing surrounding amenities and community data.",
+          "title": "Lifestyle Matcher"
+        },
+        {
+          "description": "Compares commute times using multiple modes of transport.",
+          "prompt": "Develop a home search tool that integrates with real-time traffic data and public transit schedules to calculate and rank properties by optimal commute times to a user-defined work address.",
+          "title": "Smart Commute Calculator"
+        },
+        {
+          "description": "Recommends neighborhoods and schools based on educational priorities.",
+          "prompt": "Build an AI that identifies top-rated school districts based on user-specified criteria (e.g., test scores, student-teacher ratio, arts programs) and suggests homes within those zones.",
+          "title": "School Locator & Ranking"
+        },
+        {
+          "description": "Analyzes legal and financial implications of properties.",
+          "prompt": "Design an assistant that pulls public records data to summarize property taxes, HOA fees, zoning restrictions, and potential flood risks for specific addresses or areas.",
+          "title": "Property Insights Analyzer"
+        },
+        {
+          "description": "Helps first-time buyers navigate the complex process.",
+          "prompt": "Create a step-by-step assistant for first-time homebuyers, guiding them from pre-approval to closing, answering common questions, and suggesting relevant properties based on budget and priorities.",
+          "title": "First-Time Buyer Guide"
+        },
+        {
+          "description": "Suggests investment properties based on market trends.",
+          "prompt": "Build an AI tool that identifies potential investment properties by analyzing rental yields, historical price appreciation, neighborhood development plans, and local demographic shifts.",
+          "title": "Investment Property Scout"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Home Search Assistant",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a chatbot interface so users can ask questions about properties in natural language and get immediate, relevant answers.",
+          "title": "Add Conversational Interface"
+        },
+        {
+          "prompt": "Implement a feature that allows users to compare multiple properties side-by-side on key criteria, including personalized lifestyle factors.",
+          "title": "Enable Side-by-Side Property Comparison"
+        },
+        {
+          "prompt": "Develop a recommendation engine that suggests properties users might like based on their viewing history, saved listings, and explicit/implicit feedback.",
+          "title": "Integrate Recommendation Engine"
+        },
+        {
+          "prompt": "Add a virtual tour scheduler that integrates with agents' calendars and sends automated confirmations and reminders.",
+          "title": "Build Automated Tour Scheduler"
+        },
+        {
+          "prompt": "Create a feature for document management and e-signing, streamlining the offer submission and closing process.",
+          "title": "Include Document Management & E-Signature"
+        },
+        {
+          "prompt": "Add a notification system that alerts users to new listings that match their criteria, price changes, or open house schedules.",
+          "title": "Implement Smart Notifications"
+        },
+        {
+          "prompt": "Develop a 'neighborhood explorer' feature that provides detailed insights into local demographics, crime rates, local businesses, and community events.",
+          "title": "Enhance Neighborhood Explorer"
+        },
+        {
+          "prompt": "Allow users to invite family members or partners to collaborate on their home search, sharing notes and preferences within the assistant.",
+          "title": "Add Collaboration Features"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your AI Home Assistant",
+      "type": "features",
+      "items": [
+        {
+          "description": "Understand complex inquiries and extract user preferences from natural language.",
+          "icon": "🧠",
+          "title": "Natural Language Processing"
+        },
+        {
+          "description": "Analyze user behavior and implicit signals to suggest highly relevant properties.",
+          "icon": "✨",
+          "title": "Preference inference Engine"
+        },
+        {
+          "description": "Integrate seamlessly with real estate listing services (MLS, APIs) for up-to-date data.",
+          "icon": "🔗",
+          "title": "Real-Time Data Connectors"
+        },
+        {
+          "description": "Offer interactive maps showing properties, amenities, and personalized commute routes.",
+          "icon": "🗺️",
+          "title": "Intelligent Mapping & GIS"
+        },
+        {
+          "description": "Generate dynamic reports on property history, local market trends, and neighborhood demographics.",
+          "icon": "📈",
+          "title": "Automated Insights Reporting"
+        },
+        {
+          "description": "Provide personalized communication via chat, email, or SMS, guiding users through their search.",
+          "icon": "💬",
+          "title": "Multi-Channel Communication"
+        }
+      ]
+    },
+    {
+      "title": "Questions About Building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv provides the foundation for rapid development. A basic AI home search assistant could be prototyped in a few hours. A comprehensive, production-ready system with custom integrations might take a few days to weeks, depending on complexity.",
+          "question": "How quickly can I build an AI home search assistant?"
+        },
+        {
+          "answer": "No, extensive coding knowledge is not required. Kliv uses AI to interpret your natural language descriptions and build the application logic, allowing you to focus on the user experience and business rules.",
+          "question": "Do I need to be a developer to build this type of tool?"
+        },
+        {
+          "answer": "Yes, your custom assistant can connect to various external data sources via APIs, including MLS feeds, public record databases, Google Maps, local business directories, and even your own CRM systems.",
+          "question": "Can I integrate with existing real estate databases and services?"
+        },
+        {
+          "answer": "When you build on Kliv, you own the intellectual property and the data. You have full control over where your data is stored and how it's managed, ensuring compliance with privacy regulations relevant to your business.",
+          "question": "Who owns the data and intellectual property of the assistant I build?"
+        },
+        {
+          "answer": "Building a custom solution on Kliv typically represents a one-time development cost, often significantly less than ongoing subscription fees for commercial platforms over time. You avoid per-user fees and unlock unlimited scalability.",
+          "question": "How does the cost of building compare to subscribing to commercial real estate software?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are designed for flexibility. You can easily add new features, integrate with new data sources, or adjust the AI's behavior as market conditions or user needs evolve, directly within Kliv.",
+          "question": "Is it possible to modify or expand the assistant after it's launched?"
+        },
+        {
+          "answer": "The security of your application is paramount. Kliv facilitates building secure applications by providing robust infrastructure options, and you retain control over data encryption, access controls, and compliance standards.",
+          "question": "What about data security and privacy for sensitive homebuyer information?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Transform Home Searching?",
+      "type": "cta",
+      "content": "Stop just listing properties. Start truly understanding and assisting homebuyers with a custom AI-powered solution built on Kliv. Create a unique, intelligent experience today."
+    }
+  ],
+  "title": "AI-Powered Home Search Assistance"
+}

@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a PC parts configurator that allows users to select components, checks for compatibility issues, estimates performance, and provides a total price.",
+  "description": "Build custom PC parts configurators to empower customers and streamline sales.",
+  "hero": {
+    "cta": "Start Configuring",
+    "subtitle": "Empower your customers to build their dream PCs with a custom, intelligent configurator tailored to your inventory.",
+    "title": "Build your own PC Parts Configurator"
+  },
+  "metaDescription": "Create powerful, custom PC parts configurators with Kliv. Guide customers through compatible component selection, real-time pricing, and performance estimates, enhancing their buying experience.",
+  "sections": [
+    {
+      "title": "Why build a custom PC parts configurator?",
+      "type": "text",
+      "content": "In the competitive world of custom PC building and sales, providing a seamless and intelligent configurator can be a game-changer. Off-the-shelf solutions often fall short, lacking the specific inventory integrations, compatibility rules, or custom branding features your business needs.\n\nBuilding your own configurator gives you unparalleled control over the user experience, allowing for real-time inventory checks, precise compatibility validation, and dynamic pricing. It's not just about selling parts; it's about providing an expert-guided buying journey that builds trust and boosts conversion rates."
+    },
+    {
+      "title": "The case for a custom PC Configurator",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\nGeneric e-commerce platforms or basic product builders rarely meet the complex demands of PC component compatibility. They often fail to:\n\n- **Handle intricate compatibility rules**: CPUs with motherboards, RAM types, power supply wattage for GPUs — these are complex interdependencies.\n- **Integrate real-time stock**: Displaying out-of-stock items or leading customers to dead ends is a frustrating experience.\n- **Offer performance insights**: Customers want to know benchmarks and expected performance from their chosen build.\n- **Provide dynamic pricing**: Reflecting bundle discounts or real-time fluctuating component prices is critical.\n- **Support granular customization**: Limiting choices can stifle creativity and alienate advanced users.\n\n## Why a custom solution is essential\nLeveraging platforms like Kliv to build a bespoke PC configurator positions your business as a leader in customer empowerment and operational efficiency. Here’s why it’s a strategic choice:\n\n### Precision compatibility checking\nYour configurator can incorporate every nuanced compatibility rule, preventing users from selecting incompatible parts. This reduces returns, support queries, and customer dissatisfaction.\n\n### Real-time inventory & pricing\nConnect directly to your warehouse or supplier APIs to display accurate stock levels and up-to-the-minute pricing, including any promotions or bundle deals.\n\n### Enhanced user experience\nGuide users through the build process with intelligent suggestions, performance estimates, and visual aids. Make complex decisions simple and engaging.\n\n### Competitive advantage\nOffer a unique, branded configuration experience that sets you apart from competitors relying on less sophisticated tools. Cater to both novices and seasoned builders.\n\n## Real-world impact\nCustom PC configurators are transforming how businesses engage with their customers:\n\n**Custom PC Builders**: Offer a bespoke building experience directly on their website, allowing customers to design and order their dream PC with full compatibility assurance.\n\n**E-commerce Retailers**: Provide an interactive tool for component sales, guiding customers through complex choices and increasing average order value by recommending compatible upgrades.\n\n**IT Consultancies**: Use an internal tool to quickly spec out and price custom workstation or server builds for clients, ensuring all components work together seamlessly.\n\n## The AI advantage\nModern development platforms simplify the creation of sophisticated applications:\n\n- **Natural language definition**: Describe complex compatibility rules and AI helps translate them into functional logic.\n- **Rapid iteration**: Quickly adjust component lists, pricing rules, or UI elements based on market changes or user feedback.\n- **Intelligent suggestions**: AI can provide insights on common build patterns or suggest complementary components.\n- **Scalability**: Your configurator can grow with your product catalog and user base without performance issues.\n\nBuilding a custom PC parts configurator isn't just about facilitating sales; it's about providing an invaluable service that simplifies a complex purchasing decision for your customers. With Kliv, you can bring this powerful tool to life efficiently."
+    },
+    {
+      "title": "PC configurator ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Customizable gaming PC build wizard with performance benchmarks.",
+          "prompt": "Create a gaming PC configurator that allows users to select CPU, GPU, RAM, storage, and motherboard. It should check for compatibility, estimate gaming performance for popular titles, and suggest a suitable power supply unit.",
+          "title": "Gaming PC Builder"
+        },
+        {
+          "description": "Workstation configurator for professional use (e.g., video editing, CAD).",
+          "prompt": "Build a workstation PC configurator focusing on CPU core count, RAM capacity, professional GPU options, and high-speed storage. It needs to recommend components based on intended use (e.g., video editing, 3D rendering) and display total cost.",
+          "title": "Professional Workstation Configurator"
+        },
+        {
+          "description": "Server component selector with rack space and power consumption calculations.",
+          "prompt": "Develop a server parts configurator that helps users select CPUs, ECC RAM, RAID controllers, and network cards. It must account for server form factors (rack vs. tower), calculate power consumption, and ensure component compatibility.",
+          "title": "Custom Server Builder"
+        },
+        {
+          "description": "Budget-focused PC configurator with optimized price-to-performance suggestions.",
+          "prompt": "Design a budget PC configurator that prioritizes cost-effectiveness while ensuring adequate performance. Users set a budget, and the system suggests the best compatible components, highlighting trade-offs.",
+          "title": "Budget PC Configurator"
+        },
+        {
+          "description": "Mini-ITX build configurator with strict size and cooling constraints.",
+          "prompt": "Create a small form factor (Mini-ITX) PC configurator. It must rigorously check for case, cooler, and GPU physical space compatibility, as well as power supply size, offering only components that fit the small footprint.",
+          "title": "Small Form Factor PC Builder"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your configurator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a visual 3D rendering of the PC build as components are selected in real-time.",
+          "title": "Integrate 3D Visualization"
+        },
+        {
+          "prompt": "Implement a 'build validation' feature that explains *why* certain parts are incompatible or what alternatives exist.",
+          "title": "Add Intelligent Error Messaging"
+        },
+        {
+          "prompt": "Connect with an external API to pull real-time pricing and stock levels from multiple suppliers.",
+          "title": "Real-time Pricing & Stock Integration"
+        },
+        {
+          "prompt": "Include an AI assistant that can answer user questions about parts or suggest optimal configurations based on user input.",
+          "title": "Add an AI-Powered Advisor"
+        },
+        {
+          "prompt": "Create a feature for users to save, share, and compare their custom builds.",
+          "title": "Build Save & Share Functionality"
+        },
+        {
+          "prompt": "Add a 'suggest upgrades' feature that identifies components that could be easily upgraded later for performance gains.",
+          "title": "Suggest Future Upgrades"
+        },
+        {
+          "prompt": "Develop a component database management system that allows administrators to easily add, edit, and categorize parts with all their specifications.",
+          "title": "Build a Backend for Parts Management"
+        }
+      ]
+    },
+    {
+      "title": "Key Configurator Capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Ensure selected parts work together with precise compatibility rules.",
+          "icon": "✅",
+          "title": "Intelligent Compatibility Engine"
+        },
+        {
+          "description": "Display pricing and component availability from integrated inventory systems.",
+          "icon": "💰",
+          "title": "Dynamic Pricing & Stock Check"
+        },
+        {
+          "description": "Guide users through the selection process step-by-step for ease of use.",
+          "icon": "🧭",
+          "title": "Guided Build Process"
+        },
+        {
+          "description": "Visually represent the chosen components and their assembled layout.",
+          "icon": "🖥️",
+          "title": "Visual Component Preview"
+        },
+        {
+          "description": "Estimate benchmark performance for the configured system for various tasks.",
+          "icon": "⚡",
+          "title": "Performance Estimation"
+        },
+        {
+          "description": "Track popular configurations and common user paths to optimize the experience.",
+          "icon": "📈",
+          "title": "Analytics & Insights"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic PC parts configurator on Kliv can take anywhere from a few hours to a couple of days, depending on the complexity of your compatibility rules and the number of components you need to integrate. More sophisticated features, like 3D visualization, will naturally extend development time.",
+          "question": "How long does it take to develop a PC parts configurator?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv’s platform allows you to define component attributes, compatibility rules, and user flow using natural language and intuitive interfaces. The AI helps translate your specifications into a functional application.",
+          "question": "Do I need to be a developer to build this application?"
+        },
+        {
+          "answer": "Yes, your custom configurator can integrate with your existing inventory management system, ERP, or e-commerce platform via APIs. This allows for real-time stock levels, pricing updates, and automated order generation.",
+          "question": "Can the configurator integrate with my existing inventory system?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property, including the application logic, data, and user interface. Kliv provides the environment to build it, but the resulting application is entirely yours to host and manage.",
+          "question": "Who owns the configurator application once it’s built?"
+        },
+        {
+          "answer": "A custom-built configurator typically involves a one-time development cost, potentially with ongoing hosting fees, which can be significantly less than recurring subscription costs of feature-limited, off-the-shelf solutions, especially at scale. You get exactly what you need without paying for unused features.",
+          "question": "How does the cost compare to off-the-shelf configurator software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the flexibility. You can easily add new components, update compatibility rules, change pricing structures, or introduce new features as your product catalog and business needs evolve.",
+          "question": "Can I update component lists and compatibility rules after launch?"
+        },
+        {
+          "answer": "Yes, you have full control over data security. The configurator can be designed to comply with your specific security standards, including data encryption, user authentication, and access controls, potentially making it more secure than relying on third-party SaaS solutions.",
+          "question": "Is a custom-built configurator secure for customer data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to empower your customers with the perfect PC build?",
+      "type": "cta",
+      "content": "Stop limiting your sales to static product pages. Build an interactive, intelligent PC parts configurator that solves complex buying decisions for your customers and drives higher conversions."
+    }
+  ],
+  "title": "PC Parts Configurator"
+}

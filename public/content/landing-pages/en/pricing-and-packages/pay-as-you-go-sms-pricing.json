@@ -1,0 +1,145 @@
+{
+  "defaultPrompt": "I want to build a pay-as-you-go SMS platform that allows users to deposit funds, see real-time message costs, track their spending, and send text messages through an API.",
+  "description": "Create custom pay-as-you-go SMS pricing applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your SMS platform",
+    "subtitle": "Build custom, feature-rich pay-as-you-go SMS pricing systems tailored to your business needs, with precise cost tracking and flexible billing.",
+    "title": "Pay-as-you-go SMS pricing applications"
+  },
+  "metaDescription": "Develop powerful pay-as-you-go SMS applications with Kliv. Offer flexible pricing, real-time cost tracking, and robust messaging features for your users.",
+  "sections": [
+    {
+      "title": "Why build your own pay-as-you-go SMS system?",
+      "type": "text",
+      "content": "In today's interconnected world, reliable and cost-effective SMS communication is crucial. While many providers offer bulk SMS services, they often lack transparency in pricing models, flexible payment options, or the ability to deeply integrate with your unique business logic.\n\nBuilding your own pay-as-you-go SMS platform gives you full control. You can define your own pricing tiers, manage user credits with precision, offer real-time usage insights, and integrate seamlessly with your existing applications. No more relying on opaque provider dashboards or rigid subscription plans – empower your customers with true flexibility and transparent billing."
+    },
+    {
+      "title": "The strategic advantage of custom SMS pricing",
+      "type": "markdown",
+      "content": "## Escape the limitations of off-the-shelf SMS APIs\n\nMany businesses opt for third-party SMS APIs, only to find themselves constrained by their limitations:\n\n- **Fixed pricing models:** Often volume-based, not usage-based, leading to wasted spend.\n- **Lack of granular control:** Limited ability to define pricing per region, message type, or user group.\n- **Limited white-labeling:** Difficulty in branding the entire user experience as your own.\n- **Vendor lock-in:** Dependence on a single provider's terms, reliability, and feature roadmap.\n- **Complex integration for billing:** Bridging the gap between message usage and actual customer billing can be cumbersome.\n\n## Why a tailored solution is superior\n\nLeveraging Kliv's platform to build your own pay-as-you-go SMS application offers unparalleled benefits:\n\n### True Cost Control and Transparency\nProvide your users with exact, real-time costs per message. Implement dynamic pricing based on destination country, message length, or even carrier. This fosters trust and eliminates billing surprises.\n\n### Flexible Billing Models\nBeyond simple pay-per-message, you can implement credit-based systems, top-up options, or even hybrid models. Users can deposit funds and see their balance deplete in real-time, giving them complete financial oversight.\n\n### Seamless Integration\nYour custom platform will integrate perfectly with your existing CRM, analytics tools, or internal systems. This means automated billing, enriched customer data, and a unified operational view.\n\n### Enhanced User Experience\nDesign a user interface that perfectly matches your brand and provides all the data your customers need: message logs, delivery reports, spending history, and balance updates.\n\n### Scalability and Adaptability\nAs your business evolves or globalizes, your custom SMS platform can adapt. Easily add new country codes, implement new pricing strategies, or expand features without waiting for a third-party vendor to catch up.\n\n## Real-world applications for custom SMS pricing\n\nBusinesses across various sectors can benefit immensely:\n\n**Marketing Agencies**: Offer clients precise cost tracking for SMS campaigns, allowing them to allocate budgets effectively and see ROI in real-time.\n\n**SaaS Platforms**: Integrate SMS notifications (e.g., OTPs, alerts) directly into your product, allowing users to pay only for the messages they send, rather than an inflated subscription fee.\n\n**Delivery Services**: Provide detailed messaging costs for delivery updates, enabling granular tracking of operational expenses per delivery.\n\n**Event Management**: Allow organizers to manage attendee communications with full transparency on message volume and cost for different event segments.\n\n## The Kliv advantage in building this application\n\nKliv leverages powerful AI to accelerate your development efforts. You can:\n\n- **Describe your vision**: Use natural language to outline how your SMS application should function and what features it needs.\n- **Generate code rapidly**: Kliv's AI assists in generating API endpoints, database schemas, and user interfaces tailored to your specifications.\n- **Integrate effortlessly**: Get guidance on connecting to SMS gateways, payment processors, and analytics platforms.\n- **Iterate quickly**: Test, refine, and deploy your application in a fraction of the time traditional development would take.\n\nStop compromising on your SMS communication strategy. Build a powerful, transparent, and flexible pay-as-you-go SMS platform that puts you in control – with Kliv."
+    },
+    {
+      "title": "SMS pricing ideas to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Basic credit-based SMS system for OTPs/Alerts (B2B SaaS application addon). The application is for my internal users and they just add funds to send SMS via my gateway provider (I will connect to Twilio). Ensure it shows current message balance, cost per message, and a transaction history with top-ups and deductions. Also, allow API to send SMS from the frontend of my web application and track the cost on the user's balance automatically. Limit sending to 1000 messages/day/user to start. I also need an admin portal where I can manually adjust user balances and view their SMS logs, including status (sent/failed), timestamp, and recipient number. Users should be able to top-up via Stripe and it calculates their remaining balance and cost per message in USD. Also add a basic UI for users to view balance, send messages and view logs. Provide a secure login as well for users and admin with different access rights to the relevant parts of the application. Include signup/login for users. Allow users to add a card to their profile. Ensure the database stores user data, payment method (masked), transaction logs, and message logs. Support real time update of balance, and ensure multiple users and admin can be signed in at the same time and the balance of users are updated across the applications. Add a dashboard view to the admin portal that can show statistics such as total messages sent, total revenue generated, and top 5 heaviest users by message counts and spending per month and week. Please also include a basic API documentation for developers to consume the SMS API. Users can also change their passwords and enable 2FA for security. They can also view their usage per month and total spending from the created application, and it should show a basic graph/chart as well for their monthly spending/usage."
+        }
+      ]
+    },
+    {
+      "title": "Enhance your SMS pricing application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add support for multiple SMS gateways (e.g., Nexmo, MessageBird) and allow users to select their preferred provider based on pricing or routing.",
+          "title": "Multi-gateway support"
+        },
+        {
+          "prompt": "Implement a tiered pricing structure where the cost per message decreases as message volume increases.",
+          "title": "Volume-based discounts"
+        },
+        {
+          "prompt": "Integrate advanced analytics to visualize message delivery rates, carrier performance, and user engagement over time.",
+          "title": "Advanced analytics dashboard"
+        },
+        {
+          "prompt": "Allow users to purchase virtual phone numbers through the platform for two-way communication and dedicated inbound SMS.",
+          "title": "Virtual number provisioning"
+        },
+        {
+          "prompt": "Develop an automated alert system that notifies users when their balance falls below a certain threshold.",
+          "title": "Low balance alerts"
+        },
+        {
+          "prompt": "Add a feature for scheduling bulk SMS campaigns with options for segmenting recipients and personalizing messages.",
+          "title": "Bulk SMS campaign manager"
+        },
+        {
+          "prompt": "Enable users to configure webhooks for real-time delivery reports and incoming message notifications.",
+          "title": "Webhook integration"
+        },
+        {
+          "prompt": "Implement a referrer program where users earn credits for inviting new customers to the platform.",
+          "title": "Referral program"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your SMS platform",
+      "type": "features",
+      "items": [
+        {
+          "description": "Allow users to deposit funds securely and manage their account balance.",
+          "icon": "💳",
+          "title": "Secure fund management"
+        },
+        {
+          "description": "Display message costs and balance deductions in real-time for full transparency.",
+          "icon": "⏱️",
+          "title": "Real-time cost tracking"
+        },
+        {
+          "description": "Provide a complete history of message sends, received messages, and payment transactions.",
+          "icon": "📜",
+          "title": "Comprehensive logging"
+        },
+        {
+          "description": "Grant users API access to send messages programmatically from their own applications.",
+          "icon": "🔌",
+          "title": "Developer API"
+        },
+        {
+          "description": "Implement robust user authentication, roles, and administrative controls.",
+          "icon": "🔒",
+          "title": "User and admin portal"
+        },
+        {
+          "description": "Integrate with popular payment gateways like Stripe for seamless top-ups.",
+          "icon": "💰",
+          "title": "Payment gateway integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform accelerates development significantly. A basic pay-as-you-go SMS system with core features can be built and deployed in days. More complex systems with advanced analytics and integrations might take a few weeks.",
+          "question": "How quickly can I build this type of SMS application?"
+        },
+        {
+          "answer": "While some technical understanding of APIs and databases is beneficial for complex integrations, Kliv's AI drastically reduces the need for deep coding knowledge. You describe your requirements, and the AI assists in building the structure and components.",
+          "question": "Do I need to be a developer to build this?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with any SMS gateway provider that offers an API (e.g., Twilio, Nexmo, Vonage, MessageBird). You have the flexibility to choose the providers that best fit your pricing and reliability needs.",
+          "question": "Can I connect to specific SMS gateway providers?"
+        },
+        {
+          "answer": "Absolutely. You maintain full ownership and control over all the data, user information, and the application's code. You can host it on your preferred infrastructure, ensuring data sovereignty and compliance.",
+          "question": "Who owns the data and code for the application I build?"
+        },
+        {
+          "answer": "Building with Kliv offers a flexible cost model. Instead of recurring SaaS fees that scale with usage or user count, you invest in the development of your own platform. This often results in significant cost savings in the long run, as you own the asset and avoid ongoing subscription costs.",
+          "question": "How does the cost compare to using a third-party SMS platform?"
+        },
+        {
+          "answer": "Yes, custom-built applications are designed for adaptability. You can easily modify pricing models, add new features, adjust UI/UX, or integrate with new services as your business requirements evolve, without being limited by a vendor's roadmap.",
+          "question": "Can I customize the application after it's built?"
+        },
+        {
+          "answer": "Kliv helps you build robust applications. Security best practices, such as secure authentication, encrypted data storage, and API key management, can be easily incorporated into your custom SMS platform, giving you direct control over your security posture.",
+          "question": "What about security and compliance for sensitive data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to launch your own SMS pricing platform?",
+      "type": "cta",
+      "content": "Take control of your SMS costs and offer unparalleled flexibility to your users. Build your custom, transparent pay-as-you-go SMS application with Kliv today."
+    }
+  ],
+  "title": "Pay-as-you-go SMS Pricing Applications"
+}

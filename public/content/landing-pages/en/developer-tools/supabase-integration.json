@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a custom Supabase administration dashboard that allows managing users, querying database tables, and monitoring real-time changes.",
+  "description": "Build custom Supabase dashboards and management tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your Supabase UI",
+    "subtitle": "Create custom dashboards, admin panels, and data management tools for your Supabase backend fast.",
+    "title": "Custom Supabase UIs & Dashboards"
+  },
+  "metaDescription": "Spin up custom frontends, admin panels, and data management interfaces for your Supabase projects quickly with Kliv. Tailor and control your Supabase interaction.",
+  "sections": [
+    {
+      "title": "Why build a custom UI for Supabase?",
+      "type": "text",
+      "content": "Supabase provides an excellent backend, but sometimes the generic dashboard doesn't perfectly fit your application's unique needs or your team's workflow. You might need specific analytics, tailored data views for non-technical users, or tightly integrated management tools that go beyond the built-in interface.\n\nTraditional custom UI development is time-consuming and expensive. With Kliv, you can rapidly prototype and deploy bespoke interfaces that precisely match your requirements, giving you full control and a superior user experience without the usual development overhead."
+    },
+    {
+      "title": "The case for tailored Supabase interfaces",
+      "type": "markdown",
+      "content": "## Limitations of standard Supabase UI\n\nWhile the Supabase dashboard is powerful for developers, it's not always ideal for every use case:\n\n- **General-purpose Views:** Designed for broad utility, not specific business logic or user roles.\n- **Access Control:** Fine-grained permissions for non-developer users can be cumbersome.\n- **Data Presentation:** Limited options for custom charts, reports, or complex data visualizations.\n- **Workflow Integration:** Doesn't always fit seamlessly into existing operational workflows.\n- **Branding & UX:** Lacks the ability to provide a consistent brand experience or specialized user flows.\n\n## Advantages of custom-built interfaces\n\nBuilding a custom UI for your Supabase project with Kliv brings significant benefits:\n\n### Perfect Fit\nDesign an interface that directly addresses your application's specific data structures, user roles, and operational workflows. Display only what's relevant, how it's relevant.\n\n### Enhanced User Experience\nProvide a simplified, intuitive experience for non-technical team members or clients. They don't need to navigate complex SQL editors or understand backend concepts.\n\n### Granular Permissions\nImplement custom role-based access control (RBAC) down to the row or column level, ensuring users only see and interact with authorized data.\n\n### Specialized Functionality\nIntegrate custom business logic, automate tasks, generate unique reports, or connect with other internal tools. Go beyond simple CRUD operations.\n\n### Branding & Consistency\nBrand your internal tools to match your company's aesthetic, providing a cohesive and professional environment.\n\n### Reduced Learning Curve\nNew users can onboard faster with a streamlined interface tailored to their specific tasks, minimizing training time and errors.\n\n## Real-world applications\n\nCustom Supabase UIs can empower various teams and use cases:\n\n- **Content Management Systems (CMS)**: A simplified dashboard for content editors to manage blog posts, images, and user comments without touching the database directly.\n- **Customer Support Portals**: A tool for support agents to view customer profiles, order history, and manage tickets efficiently, with quick search and filter options.\n- **Internal Analytics Dashboards**: Visualize key performance indicators (KPIs) from your Supabase database with custom charts and drill-down capabilities for business analysts.\n- **User Management Systems**: A dedicated panel for administrators to manage user accounts, roles, permissions, and monitor user activity.\n- **E-commerce Order Fulfillment**: A specific interface for warehouse staff to process orders, update stock levels, and generate shipping labels directly from Supabase data.\n\n## The Accelerated Development Advantage\n\nUsing Kliv's AI acceleration, building these interfaces is no longer a monumental task:\n\n- **Rapid Prototyping**: Turn ideas into functional UIs in hours or days.\n- **Code Generation**: AI translates your requirements into production-ready code for your preferred frontend framework.\n- **Iterative Development**: Easily refine and add features as your needs evolve.\n- **Database Schema Awareness**: AI understands your Supabase schema to suggest relevant UI components and data interactions."
+    },
+    {
+      "title": "Custom Supabase UI ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Admin panel for user data and authentication",
+          "prompt": "Create a Supabase admin dashboard UI that allows me to view, edit, and delete user accounts, manage their roles, and track active sessions.",
+          "title": "User Management Dashboard"
+        },
+        {
+          "description": "Simplified interface for managing content",
+          "prompt": "Build a custom CMS UI for my Supabase database. I need to create, edit, publish, and unpublish articles, manage categories, and upload images, with moderation features for comments.",
+          "title": "Content Editor Panel"
+        },
+        {
+          "description": "Dashboard to monitor real-time data",
+          "prompt": "Develop a real-time dashboard UI for my Supabase database that displays key metrics from my 'orders' and 'products' tables, with live updates showing new orders and inventory changes.",
+          "title": "Real-time Analytics View"
+        },
+        {
+          "description": "Tool for support agents to manage tickets",
+          "prompt": "Design a customer support portal UI connected to my Supabase 'tickets' table. It should allow agents to view, assign, update, and close support tickets, and view customer profiles.",
+          "title": "Customer Support Console"
+        },
+        {
+          "description": "Interface for managing product catalog",
+          "prompt": "I need a UI to manage my e-commerce product catalog in Supabase. It should allow adding new products, editing existing product details (name, price, description, images), and managing inventory levels.",
+          "title": "Product Catalog Manager"
+        },
+        {
+          "description": "Simple UI for managing product reviews",
+          "prompt": "Build a review moderation dashboard for my Supabase `reviews` table. It should display new reviews, allow me to approve or reject them, and filter by product or rating.",
+          "title": "Review Moderation UI"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your Supabase interface",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication flow using Supabase Auth, including sign-up, login, and password reset functionalities within the custom UI.",
+          "title": "Integrate Supabase Auth"
+        },
+        {
+          "prompt": "Implement real-time subscriptions to specific Supabase tables, so the UI updates automatically when data changes.",
+          "title": "Add Real-time Data Updates"
+        },
+        {
+          "prompt": "Integrate Supabase Storage for file uploads and management within the UI, allowing users to upload images or documents related to database entries.",
+          "title": "Connect to Supabase Storage"
+        },
+        {
+          "prompt": "Add a custom analytics section that visualizes data from multiple Supabase tables using interactive charts (e.g., bar, line, pie charts) for key metrics.",
+          "title": "Build Custom Analytics Charts"
+        },
+        {
+          "prompt": "Implement row-level security (RLS) within the custom UI based on the authenticated user's role found in Supabase Auth.",
+          "title": "Apply Row-Level Security"
+        },
+        {
+          "prompt": "Add a feature to perform SQL queries or call Supabase Edge Functions directly from the custom UI, with input forms and result displays, but only for authorized users.",
+          "title": "Execute Custom Functions"
+        },
+        {
+          "prompt": "Include an audit log viewer that displays changes to specific Supabase tables, showing who made what change and when.",
+          "title": "Create an Audit Log View"
+        },
+        {
+          "prompt": "Allow the custom UI to generate and download CSV or PDF reports based on data queried from Supabase.",
+          "title": "Enable Data Export"
+        },
+        {
+          "prompt": "Add search and advanced filtering capabilities to all data tables within the UI, allowing users to quickly find specific records.",
+          "title": "Implement Advanced Search"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your Supabase UI",
+      "type": "features",
+      "items": [
+        {
+          "description": "Securely connect and interact with your Supabase database tables.",
+          "icon": "🔗",
+          "title": "Database Integration"
+        },
+        {
+          "description": "Tailor views for different user roles with granular access controls.",
+          "icon": "🔑",
+          "title": "Role-Based Access"
+        },
+        {
+          "description": "Perform Create, Read, Update, and Delete operations with ease.",
+          "icon": "✏️",
+          "title": "CRUD Operations"
+        },
+        {
+          "description": "Visualize your data with custom charts and reporting widgets.",
+          "icon": "📈",
+          "title": "Custom Data Visualization"
+        },
+        {
+          "description": "Integrate Supabase Auth for user authentication and management.",
+          "icon": "🔐",
+          "title": "Auth Integration"
+        },
+        {
+          "description": "Leverage Supabase Storage for file and asset management within your UI.",
+          "icon": "📦",
+          "title": "Storage Handling"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's AI can generate code for a variety of popular frontend frameworks, including React, Vue, Angular, and plain HTML/CSS/JS. You can specify your preferred framework.",
+          "question": "What frontend frameworks does Kliv support for Supabase UIs?"
+        },
+        {
+          "answer": "Yes, you can connect your custom UI to any existing Supabase project by providing the necessary API keys and project reference. The AI will learn your schema.",
+          "question": "Can I connect the custom UI to an existing Supabase project?"
+        },
+        {
+          "answer": "Absolutely. You can implement highly specific Row Level Security (RLS) rules directly within your custom UI, leveraging Supabase's powerful RLS policies for granular data access.",
+          "question": "How can I implement fine-grained access control or RLS in my custom UI?"
+        },
+        {
+          "answer": "No, you don't need to be a full-stack developer. Kliv's AI handles the complex code generation, allowing you to focus on describing the functionality and design you need. Basic understanding of your Supabase schema is helpful.",
+          "question": "Do I need to be an expert developer to build a custom Supabase UI with Kliv?"
+        },
+        {
+          "answer": "Once Kliv generates your UI's code, you own it entirely. You can deploy it to any hosting provider (e.g., Vercel, Netlify, AWS S3) just like any other frontend application.",
+          "question": "Where can I host the custom Supabase UI that Kliv generates?"
+        },
+        {
+          "answer": "Yes, you can integrate third-party APIs into your UI to combine Supabase data with external services. For example, pulling payment data from Stripe or shipping info from a logistics API.",
+          "question": "Can I integrate other third-party services or APIs into my custom Supabase UI?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to tailor your Supabase experience?",
+      "type": "cta",
+      "content": "Stop conforming to generic interfaces. Build precise, powerful, and user-friendly dashboards for your Supabase backend, faster than ever."
+    }
+  ],
+  "title": "Custom Supabase UIs & Dashboards"
+}

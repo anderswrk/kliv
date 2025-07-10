@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a data processing and visualization application that can ingest data from multiple sources, perform complex transformations, and generate interactive dashboards for various user roles.",
+  "description": "Build custom advanced data processing and visualization applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Visualizing",
+    "subtitle": "Unleash the power of your data with custom-built processing and visualization tools tailored to your exact needs.",
+    "title": "Build Your Own Advanced Data Processing & Visualization Tools"
+  },
+  "metaDescription": "Create powerful data processing and visualization applications with Kliv. Ingest, transform, analyze, and present complex datasets with bespoke tools.",
+  "sections": [
+    {
+      "title": "Why build your own data processing and visualization tool?",
+      "type": "text",
+      "content": "In today's data-driven world, generic business intelligence tools often fall short. They impose rigid structures, limit customization, and can become prohibitively expensive as your data volume grows. The future of data insights lies in bespoke solutions—applications crafted to fit your unique data landscape and analytical requirements.\n\nKliv's AI-powered platform empowers you to move beyond off-the-shelf limitations. Imagine a tool that perfectly understands your data, automates complex transformations, and presents insights exactly how you need them. This isn't just about dashboards; it's about building a living, breathing data intelligence system that gives you a competitive edge."
+    },
+    {
+      "title": "The case for custom data processing and visualization",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf BI solutions\n\nMany organizations rely on commercial Business Intelligence (BI) platforms, only to find them insufficient for truly advanced needs:\n\n- **Inflexible data models**: They often struggle with diverse or unstructured data sources, forcing you into predefined schemas.\n- **Limited extensibility**: Custom data transformations or integrations with niche systems are often difficult or impossible.\n- **Vendor lock-in**: Migrating data and dashboards to another platform is a monumental task, keeping you tied to a single provider.\n- **Cost scalability**: Pricing models often escalate rapidly with increased data volume, user count, or advanced features.\n- **Generic visualizations**: Dashboards might look good but lack the specific interactive elements or domain-specific charting required for deep analysis.\n\n## Why custom-built is the ultimate data solution\n\nLeveraging AI-powered development tools like Kliv, businesses can now create their own sophisticated data applications, unlocking unparalleled flexibility and power:\n\n### Precision-engineered for your data\nYour data is unique. A custom application can handle any data type, volume, or velocity, from real-time streams to massive historical archives. Define your own data pipelines, cleansing rules, and aggregation logic—exactly as your business demands.\n\n### Unrestricted analytical capabilities\nMove beyond standard pivot tables. Implement advanced statistical models, machine learning predictions, or custom algorithms directly into your application. Create specialized calculations and derive insights that off-the-shelf tools can't touch.\n\n### Tailored visualization and user experience\nDesign dashboards and reports that don't just display data, but tell a story. Create interactive components, drill-down capabilities, and role-based views that make complex information intuitive and actionable for every user.\n\n### Complete ownership and control\nWhen you build it, you own it. Control the entire tech stack, security protocols, and deployment environment. No recurring subscription fees, no reliance on a third-party's roadmap, and full intellectual property of your data intelligence assets.\n\n### Cost-effective scalability\nPay for what you build, not for vague tiers. As your data needs evolve, you can incrementally add features or scale infrastructure without penalty, optimizing your operational costs significantly over time.\n\n## Real-world impact of custom data tools\n\nForward-thinking businesses are transforming their operations with custom data applications:\n\n**Manufacturing**: Real-time production line monitoring with anomaly detection, predictive maintenance scheduling, and advanced quality control visualization, saving millions in downtime.\n\n**Financial Services**: Risk analytics platforms combining market data, fraud detection algorithms, and portfolio performance visualization for instantaneous insights and compliance reporting.\n\n**Healthcare**: Patient outcome prediction systems, personalized treatment recommendation engines, and epidemiological analysis dashboards that integrate diverse clinical and research data.\n\n**Retail**: Hyper-personalized customer segmentation and recommendation engines, dynamic pricing models, and supply chain optimization tools that react to real-time sales data.\n\n## The Kliv advantage in data development\n\nBuilding sophisticated data applications used to be a prohibitively complex and resource-intensive endeavor. Kliv revolutionizes this by:\n\n- **Accelerated development**: Go from concept to deployment in days or weeks, not months or years.\n- **AI-driven architecture**: Describe your data sources, transformations, and desired outputs in natural language, and Kliv helps generate the underlying code and structure.\n- **Iterative refinement**: Easily modify data models, add new visualization types, or integrate new data streams as your business evolves.\n- **Built-in best practices**: AI guidance helps ensure your data pipelines are robust, scalable, and secure from the ground up.\n\nDon't let your data be an untapped resource. Build the analytic tools you need to unlock its full potential with Kliv."
+    },
+    {
+      "title": "Data processing & visualization ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize vast IoT sensor data for real-time insights.",
+          "prompt": "Create an application that ingests real-time IoT sensor data, performs time-series analysis for anomaly detection, and displays interactive dashboards showing device health, performance, and alerts.",
+          "title": "Real-time IoT Monitoring Dashboard"
+        },
+        {
+          "description": "Analyze customer behavior and predict churn.",
+          "prompt": "Build a customer analytics platform that integrates CRM data with website activity, performs customer segmentation, predicts churn risk using machine learning, and visualizes customer lifetime value.",
+          "title": "Customer Churn Prediction and LTV Analyzer"
+        },
+        {
+          "description": "Track supply chain efficiency and optimize logistics.",
+          "prompt": "Develop a supply chain optimization tool that pulls data from inventory, shipping logs, and supplier systems, identifies bottlenecks, projects delivery times, and visualizes cost efficiencies.",
+          "title": "Dynamic Supply Chain Optimizer"
+        },
+        {
+          "description": "Consolidate financial data and generate audit-ready reports.",
+          "prompt": "Design a financial reporting suite that aggregates data from multiple accounting systems, applies custom business rules for consolidation, allows for scenario analysis, and generates customizable financial statements and audit trails.",
+          "title": "Consolidated Financial Reporting System"
+        },
+        {
+          "description": "Visualize complex human resources metrics.",
+          "prompt": "Create an HR analytics dashboard that processes employee data to visualize talent acquisition funnels, employee retention rates, diversity metrics, and compensation trends with drill-down capabilities.",
+          "title": "Advanced HR Analytics Platform"
+        },
+        {
+          "description": "Predict sales trends and optimize marketing spend.",
+          "prompt": "Develop a sales forecasting application that integrates historical sales data with marketing spend, external economic indicators, and seasonal trends to predict future sales and visualize marketing ROI.",
+          "title": "AI-Powered Sales Forecast & Marketing ROI"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your data application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a natural language query interface so users can ask questions directly about the data and get visual answers.",
+          "title": "Add Natural Language Query (NLQ)"
+        },
+        {
+          "prompt": "Implement a data governance module to manage data access, quality rules, and compliance requirements across different datasets.",
+          "title": "Build a Data Governance Module"
+        },
+        {
+          "prompt": "Allow users to securely upload their own datasets and integrate them into existing dashboards for ad-hoc analysis.",
+          "title": "Enable User Data Uploads"
+        },
+        {
+          "prompt": "Add a collaboration feature allowing users to comment on dashboards, share insights, and annotate specific data points.",
+          "title": "Introduce Collaborative Features"
+        },
+        {
+          "prompt": "Implement an alerting system that proactively notifies users via email or SMS when key data thresholds are crossed or anomalies are detected.",
+          "title": "Develop Proactive Alerting"
+        },
+        {
+          "prompt": "Extend the application with predictive analytics capabilities, such as predicting future trends based on historical data patterns.",
+          "title": "Integrate Predictive Analytics"
+        },
+        {
+          "prompt": "Add capabilities for real-time data streaming and continuous visualization updates.",
+          "title": "Implement Real-time Streaming"
+        },
+        {
+          "prompt": "Develop a mobile-responsive interface for key dashboards, allowing users to access insights on the go.",
+          "title": "Create a Mobile Dashboard View"
+        },
+        {
+          "prompt": "Incorporate advanced geospatial mapping capabilities to visualize location-based data.",
+          "title": "Add Geospatial Mapping"
+        }
+      ]
+    },
+    {
+      "title": "Essential data application features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Ingest data from databases, APIs, files, and streaming sources.",
+          "icon": "📥",
+          "title": "Multi-Source Data Ingestion"
+        },
+        {
+          "description": "Perform complex cleansing, transformation, and aggregation on raw data.",
+          "icon": "⚙️",
+          "title": "Advanced Data Transformation"
+        },
+        {
+          "description": "Visually build custom data pipelines with drag-and-drop interfaces.",
+          "icon": "↔️",
+          "title": "Custom Data Pipelines"
+        },
+        {
+          "description": "Create dynamic, interactive dashboards and reports with custom charts.",
+          "icon": "📈",
+          "title": "Interactive Data Visualization"
+        },
+        {
+          "description": "Define granular user roles and access permissions for data and dashboards.",
+          "icon": "🔒",
+          "title": "Role-Based Access Control"
+        },
+        {
+          "description": "Implement machine learning models for forecasting, segmentation, or anomaly detection.",
+          "icon": "🧠",
+          "title": "Integrated AI/ML Capabilities"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic data processing and visualization application with Kliv can take anywhere from a few days to a couple of weeks, depending on the complexity of your data sources and desired visualizations. Advanced systems with machine learning integration might take longer but are still significantly faster than traditional development.",
+          "question": "How long does it take to build a custom data application?"
+        },
+        {
+          "answer": "Kliv is designed to empower domain experts. While fundamental data concepts are helpful, extensive coding skills are not required. Our AI assists in generating code, configuring databases, and designing interfaces based on your descriptions.",
+          "question": "Do I need to be a data scientist or programmer to build this?"
+        },
+        {
+          "answer": "Yes. Custom applications built with Kliv can connect to virtually any data source: SQL/NoSQL databases, cloud data warehouses (Snowflake, BigQuery, Redshift), APIs, flat files (CSV, Excel), and streaming data platforms (Kafka).",
+          "question": "Can I integrate with my existing data sources and databases?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and your entire data infrastructure. Kliv facilitates the building process, but you own the intellectual property and deployment.",
+          "question": "Who owns the data application once it's built?"
+        },
+        {
+          "answer": "A custom solution typically involves a one-time development cost, sometimes with ongoing infrastructure costs (which you control). Compared to recurring subscription fees of commercial BI tools that often scale with data volume or user count, a custom build usually offers a lower total cost of ownership over the long term.",
+          "question": "Is building a custom solution more cost-effective than buying a SaaS BI tool?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is flexibility. You can easily add new data sources, refine processing logic, create new dashboards, or integrate new features as your business and data strategy evolve. It's built for continuous iteration.",
+          "question": "Can I modify or expand the data application after initial deployment?"
+        },
+        {
+          "answer": "You have complete control over the security architecture. You decide where your data is stored (on-premise, your own cloud VPC), how it's encrypted, and who has access. This offers a level of security and compliance often superior to relying on third-party SaaS vendors.",
+          "question": "How secure are custom data processing applications built with Kliv?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance and support throughout the development process, including debugging and optimization suggestions. For ongoing application maintenance, you have full access to the codebase and can manage it with your internal teams or external consultants.",
+          "question": "What kind of support is available after the application is deployed?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform your data into actionable intelligence?",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Build a data processing and visualization powerhouse uniquely designed for your business needs."
+    }
+  ],
+  "title": "Advanced Data Processing & Visualization"
+}

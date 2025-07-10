@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a background check and verification system that can verify identity documents, sanction lists, and professional licenses, and store results securely.",
+  "description": "Build custom background check and verification applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start verifying",
+    "subtitle": "Ensure compliance and build trust with secure, custom-built background check and verification solutions.",
+    "title": "Build your own background check & verification tools"
+  },
+  "metaDescription": "Create powerful background check and verification tools with Kliv. Enhance compliance, reduce risk, and streamline due diligence processes with custom-built applications.",
+  "sections": [
+    {
+      "title": "The challenge of compliance and due diligence",
+      "type": "text",
+      "content": "In today's regulatory landscape, robust background checks and thorough verifications are non-negotiable. Whether it's for hiring new employees, onboarding clients, or complying with industry-specific regulations, the need for accurate, timely, and secure verification processes is paramount.\n\nOff-the-shelf solutions often provide a one-size-fits-all approach that falls short of specific organizational needs, leading to manual workarounds, data silos, and potential compliance gaps. Building your own verification tool offers unparalleled flexibility, security, and integration capabilities, allowing you to tailor the solution precisely to your risk profile and regulatory requirements."
+    },
+    {
+      "title": "Why a custom verification platform is your best defense",
+      "type": "markdown",
+      "content": "## The pitfalls of generic verification solutions\n\nMany businesses opt for third-party verification services, only to discover limitations that impact efficiency and security:\n\n- **Inflexible workflows:** Generic tools rarely align perfectly with your unique screening protocols.\n- **Data privacy concerns:** Relying on external vendors can raise questions about where and how sensitive data is stored.\n- **Integration headaches:** Difficulty connecting with existing HR, CRM, or compliance systems leads to manual data entry.\n- **Recurring costs:** Subscription fees can become prohibitive, especially as your verification volume grows.\n- **Limited customization:** Inability to adapt to evolving regulatory demands or specific business logic.\n\n## The undeniable benefits of a tailored solution\n\nKliv empowers you to design and deploy a background check and verification system that is perfectly suited to your operational needs:\n\n### Uncompromised data security and privacy\nYou maintain complete control over sensitive personal data. Decide where data is stored, how it's encrypted, and who has access, mitigating risks associated with third-party breaches.\n\n### Precision-engineered for your needs\nYour business has specific criteria for verification. A custom tool allows you to define exact checks, scoring mechanisms, and workflows—from criminal history to professional certifications—ensuring you only collect and process what's necessary.\n\n### Seamless integration with existing systems\nIntegrate effortlessly with your applicant tracking systems (ATS), human resource information systems (HRIS), customer relationship management (CRM), or financial systems, eliminating duplicate entries and manual transfers.\n\n### Cost-efficiency over the long term\nWhile off-the-shelf solutions mean continuous subscription payments, a custom build is typically a one-time development investment. This leads to significant long-term savings, especially for businesses with high verification volumes.\n\n### Agile and adaptable to regulatory changes\nRegulations evolve. A custom system can be quickly updated to comply with new laws (e.g., GDPR, CCPA, industry-specific mandates) without waiting for a vendor's product roadmap.\n\n## Real-world applications tailored scenarios\n\nCustom verification tools are revolutionizing due diligence across sectors:\n\n**Human Resources**: Automated pre-employment screening, including identity verification, educational background checks, and professional reference checks, with audit trails for compliance.\n\n**Financial Services**: Enhanced KYC (Know Your Customer) and AML (Anti-Money Laundering) checks, sanction list screening, and beneficial ownership verification for new client onboarding.\n\n**Healthcare**: Verification of medical licenses, certifications, and malpractice history for practitioners, ensuring compliance with professional standards.\n\n**Real Estate**: Tenant screening and landlord background checks, including credit history, eviction records, and criminal background for rental applications.\n\n**Gig Economy Platforms**: Streamlined vetting of contractors and service providers, including driving record checks, identity verification, and reputation scoring.\n\n## The Kliv advantage for building compliance tools\n\nKliv's AI-driven platform democratizes the creation of complex compliance systems:\n\n- **Natural language interface**: Describe your verification needs in plain English, and Kliv helps generate the application.\n- **Component-based development**: Utilize pre-built modules for common verification tasks (e.g., identity parsing, database lookups).\n- **Automated audit trails**: Built-in features ensure every verification step is logged for regulatory compliance.\n- **Scalability**: Design a system that grows with your business, handling increasing volumes of checks without performance degradation.\n\nDon't settle for generic compliance tools. Build a robust, secure, and future-proof background check and verification system that truly serves your organization's unique requirements with Kliv."
+    },
+    {
+      "title": "Verification system ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Streamline pre-employment checks for new hires",
+          "prompt": "Create an automated pre-employment screening tool that verifies identity, educational degrees, previous employment, and professional licenses, with customizable consent forms.",
+          "title": "Employee background check portal"
+        },
+        {
+          "description": "Automate client onboarding and regulatory checks",
+          "prompt": "Build a KYC/AML client onboarding system that performs real-time identity verification, checks against global sanction lists, and screens for politically exposed persons (PEPs).",
+          "title": "KYC/AML client onboarding system"
+        },
+        {
+          "description": "Centralize and manage vendor risk assessment",
+          "prompt": "Develop a vendor due diligence platform that assesses supplier risk by verifying business registrations, financial health, compliance certifications, and adverse media mentions.",
+          "title": "Supplier risk verification tool"
+        },
+        {
+          "description": "Ensure practitioner legitimacy and compliance",
+          "prompt": "Design a healthcare professional verification system that confirms medical licenses, specialty certifications, malpractice claims history, and DEA registration numbers.",
+          "title": "Medical staff credentialing portal"
+        },
+        {
+          "description": "Verify driver credentials and vehicle compliance",
+          "prompt": "Create a ride-sharing driver verification app that checks driver's licenses, vehicle registration, insurance validity, and performs ongoing criminal background monitoring.",
+          "title": "Ride-share driver validation app"
+        },
+        {
+          "description": "Screen potential tenants for rental properties",
+          "prompt": "Build a tenant screening system that conducts credit checks, eviction history searches, national criminal background checks, and verifies income for rental applications.",
+          "title": "Automated tenant screening"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your verification tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add multi-factor authentication (MFA) and granular role-based access control (RBAC) to enhance security and comply with data access policies.",
+          "title": "Implement advanced security features"
+        },
+        {
+          "prompt": "Integrate with external APIs for instant data lookups, such as government databases, credit bureaus, or specialized background check providers.",
+          "title": "Add third-party data integrations"
+        },
+        {
+          "prompt": "Include automated audit trails and reporting functionalities that log every action and verification step for compliance and future audits.",
+          "title": "Develop comprehensive audit logging"
+        },
+        {
+          "prompt": "Add a module for ongoing monitoring of adverse media, sanction list updates, or license status changes, with automated alerts.",
+          "title": "Incorporate continuous monitoring"
+        },
+        {
+          "prompt": "Develop a customizable workflow engine that allows administrators to easily set up, modify, and manage various types of verification flows for different roles or client types.",
+          "title": "Build a workflow customization engine"
+        },
+        {
+          "prompt": "Add functionality for automatically generating compliance certificates or summary reports after successful verification processes.",
+          "title": "Generate automated compliance reports"
+        },
+        {
+          "prompt": "Include a feature for secure document upload and storage, allowing users to submit required documents directly and securely within the platform.",
+          "title": "Enable secure document handling"
+        },
+        {
+          "prompt": "Integrate with an e-signature platform to manage consent forms, non-disclosure agreements, and other necessary documents electronically.",
+          "title": "Add e-signature capabilities"
+        },
+        {
+          "prompt": "Create a user-friendly dashboard that provides a real-time overview of verification statuses, pending tasks, and overall compliance metrics.",
+          "title": "Design an intuitive dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Key verification process features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Validate identities using documents, biometrics, and database lookups, ensuring authenticity.",
+          "icon": "💳",
+          "title": "Identity Verification"
+        },
+        {
+          "description": "Screen individuals and entities against global sanction lists, PEP lists, and watchlists.",
+          "icon": "⚖️",
+          "title": "Compliance Screening"
+        },
+        {
+          "description": "Automate checks of professional licenses, certifications, and educational backgrounds.",
+          "icon": "🏅",
+          "title": "Credential Verifier"
+        },
+        {
+          "description": "Generate comprehensive audit logs for every verification step, ensuring full traceability and regulatory compliance.",
+          "icon": "📝",
+          "title": "Automated Audit Trails"
+        },
+        {
+          "description": "Define custom rules and thresholds for automated decision-making and risk assessment.",
+          "icon": "⚙️",
+          "title": "Configurable Rules Engine"
+        },
+        {
+          "description": "Centralize and secure all sensitive data related to verifications with robust encryption.",
+          "icon": "🔐",
+          "title": "Secure Data Storage"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The time to build varies by complexity, but with Kliv, a basic background check system can be operational in days, not months. Advanced systems with multiple integrations might take a few weeks.",
+          "question": "How quickly can I deploy a custom background check solution?"
+        },
+        {
+          "answer": "No, Kliv's platform uses AI to translate your functional requirements into a working application. You describe your processes, and the AI assists in building the system.",
+          "question": "Do I need technical expertise or coding skills to build this?"
+        },
+        {
+          "answer": "Yes, custom-built solutions offer superior control over data residency, encryption, and access controls, aligning perfectly with your internal security policies and regulatory obligations like GDPR or CCPA.",
+          "question": "Is a custom background check system more secure than off-the-shelf options?"
+        },
+        {
+          "answer": "Absolutely. Your custom system can integrate with any existing software that provides an API, including HR platforms, CRMs, compliance databases, and third-party data providers.",
+          "question": "Can my custom solution integrate with my existing HR or compliance tools?"
+        },
+        {
+          "answer": "While there's an initial development investment, a custom solution eliminates recurring subscription fees inherent to SaaS products. Over time, particularly for high-volume users, this results in significant cost savings.",
+          "question": "How does the cost compare to subscribing to commercial verification services?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property generated, including the code and all associated data. This gives you complete control and flexibility for future modifications or hosting choices.",
+          "question": "Who owns the data and the application once it's built?"
+        },
+        {
+          "answer": "Yes, our platform is designed for agility. You can easily adapt your system to incorporate new regulations, add new types of checks, or adjust workflows as your business and the compliance landscape evolve.",
+          "question": "Can the system be updated to meet evolving regulatory requirements?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to fortify your compliance, custom-fit?",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Build the precise background verification system your organization needs for unwavering trust and regulatory adherence."
+    }
+  ],
+  "title": "Background Checks & Verification Tools"
+}

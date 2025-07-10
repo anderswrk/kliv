@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create an order tracking and visibility tool that allows customers to see the real-time status of their orders, provides internal teams with complete supply chain transparency, and sends automated updates.",
+  "description": "Build custom order tracking and visibility applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start tracking",
+    "subtitle": "Gain complete control and transparency over your supply chain and customer orders with custom-built applications.",
+    "title": "Build your own order tracking & visibility tools"
+  },
+  "metaDescription": "Create powerful order tracking and visibility tools with Kliv. Enhance customer experience, optimize logistics, and reduce inquiries with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own order tracking & visibility tool?",
+      "type": "text",
+      "content": "In today's fast-paced world, customers expect real-time updates and businesses need full transparency over their supply chain. Generic, off-the-shelf tracking solutions often fall short, failing to integrate with your unique systems or provide the level of detail you truly need.\n\nBuilding a custom order tracking and visibility tool with Kliv allows you to precisely match your operational needs, integrate seamlessly with all your existing platforms, and provide an unparalleled customer experience. Stop adapting your business to software and start building software that adapts to your business."
+    },
+    {
+      "title": "The case for custom order visibility",
+      "type": "markdown",
+      "content": "## The limitations of generic tracking solutions\n\nMany businesses rely on third-party carrier portals or basic e-commerce tracking plugins, which often lead to:\n\n- **Limited information**: Customers often only see basic shipping updates, not preparation or fulfillment stages.\n- **Integration headaches**: Difficulty connecting with your specific ERP, WMS, or CRM systems.\n- **Lack of brand control**: A fragmented customer experience when they leave your site to track an order.\n- **High inquiry volume**: Customers still call or email asking \"Where's my order?\" due to insufficient information.\n- **Operational blind spots**: Internal teams lack a unified view of orders across disparate systems.\n\n## Why custom-built is superior\n\nLeveraging AI-powered platforms like Kliv, building a tailor-made order tracking solution is now accessible and highly advantageous:\n\n### End-to-end transparency\nFrom order placement to delivery, track every single step—production, picking, packing, shipping, and delivery—all within a single, unified view. Provide your customers and internal teams with complete clarity.\n\n### Seamless integration\nConnect directly to your internal systems (inventory management, CRM, ERP, shipping carriers, payment gateways) ensuring all data is synchronized and accurate. No more manual data entry or data silos.\n\n### Enhanced customer experience\nOffer a branded, real-time tracking portal or automated notifications directly to your customers. Reduce 'where is my order' calls and build trust through proactive communication.\n\n### Operational efficiency\nInternal teams can quickly identify bottlenecks, anticipate delays, and resolve issues before they impact the customer. Improve logistics, optimize inventory flow, and enhance service levels.\n\n### Data ownership and insights\nOwn all your tracking data. Analyze trends, identify common shipping issues, measure delivery performance, and gain valuable insights to continually improve your supply chain.\n\n## Real-world applications\n\nCustom order tracking and visibility tools are transforming various industries:\n\n**E-commerce**: Providing customers with a branded portal to track their multi-item orders from warehouse picking to porch delivery, including internal status updates (e.g., 'Awaiting stock', 'Customizing order').\n\n**Manufacturing**: Tracking raw materials through production, assembly, quality control, and final shipment, offering B2B clients real-time updates on their custom orders.\n\n**Healthcare Logistics**: Monitoring sensitive medical shipments from dispatch through various temperature-controlled stages to patient delivery, ensuring compliance and critical timing.\n\n**Field Services**: Allowing customers to track technician dispatch and arrival times for service appointments, reducing missed appointments and improving customer satisfaction.\n\n## The Kliv advantage\n\nKliv demystifies custom software development:\n\n- **Describe, don't code**: Explain your desired tracking features in plain language, and Kliv's AI helps build it.\n- **Rapid deployment**: Get your custom tracking solution up and running in days or weeks, not months.\n- **Scalability**: Easily add new features or integrate new carriers as your business evolves, without external dependencies.\n- **Cost-effective**: A one-time investment yielding long-term control and savings compared to continuous SaaS subscriptions.\n\n## Get started today\n\nThe most effective order tracking system is the one designed for your unique operations and customer needs. Stop compromising with generic tools and unlock the power of custom development with Kliv."
+    },
+    {
+      "title": "Order tracking ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Provide customers with a branded, real-time tracking page",
+          "prompt": "Create a customer-facing order tracking portal where users can enter their order number to see real-time status updates, including fulfillment stages (e.g., 'Processing', 'Picked', 'Packed', 'Shipped') and carrier tracking links.",
+          "title": "Customer-facing tracking portal"
+        },
+        {
+          "description": "Internal dashboard for comprehensive order oversight",
+          "prompt": "Build an internal dashboard for customer service and operations teams to view the status of all active orders, filter by status, customer, or product, and quickly access detailed logistics information and communication history.",
+          "title": "Internal order status dashboard"
+        },
+        {
+          "description": "Automated updates via email or SMS",
+          "prompt": "Develop a system that sends automated email and SMS notifications to customers at key order milestones, such as 'Order Confirmed', 'Order Shipped' with tracking link, and 'Out for Delivery'.",
+          "title": "Proactive customer notifications"
+        },
+        {
+          "description": "Track inbound materials and components",
+          "prompt": "Design a tool to track inbound raw materials and components from suppliers, providing real-time status updates through customs, transit, and arrival at the warehouse, linked to associated production orders.",
+          "title": "Supply chain inbound tracking"
+        },
+        {
+          "description": "Multi-carrier, multi-warehouse tracking",
+          "prompt": "Create a robust system that consolidates tracking information from multiple shipping carriers and different warehouse locations into a single, unified view for both customers and internal staff.",
+          "title": "Unified logistics visibility"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your tracking tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with my existing CRM to automatically update customer records with order status and delivery confirmations.",
+          "title": "CRM integration"
+        },
+        {
+          "prompt": "Add predictive estimated delivery dates based on historical shipping data and current carrier status.",
+          "title": "Predictive ETAs"
+        },
+        {
+          "prompt": "Implement a feature allowing customers to report issues directly from the tracking page and automatically create a support ticket in my helpdesk system.",
+          "title": "Issue reporting from tracking"
+        },
+        {
+          "prompt": "Add a module for reverse logistics, allowing customers to initiate returns and track the return shipment status.",
+          "title": "Returns tracking module"
+        },
+        {
+          "prompt": "Create custom alerts for internal teams when an order is delayed, flagged for potential issues, or requires manual intervention.",
+          "title": "Internal delay alerts"
+        },
+        {
+          "prompt": "Include an interactive map view on the customer tracking page showing the real-time location of their package if available from the carrier.",
+          "title": "Live map tracking"
+        },
+        {
+          "prompt": "Develop an API for my business partners (e.g., retailers, dropshippers) to programmatically retrieve order status for orders originating from their platforms.",
+          "title": "Partner API access"
+        }
+      ]
+    },
+    {
+      "title": "Essential tracking features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Aggregates data from all logistics partners and internal systems.",
+          "icon": "🔗",
+          "title": "Unified Data Hub"
+        },
+        {
+          "description": "Customers see real-time updates through a custom-branded interface.",
+          "icon": "🌐",
+          "title": "Customer Portal"
+        },
+        {
+          "description": "Automated emails/SMS for key delivery milestones.",
+          "icon": "🔔",
+          "title": "Proactive Alerts"
+        },
+        {
+          "description": "Empowers internal teams with a single source of truth for all orders.",
+          "icon": "📈",
+          "title": "Internal Dashboard"
+        },
+        {
+          "description": "Connects with ERP, WMS, CRM, and shipping carrier APIs.",
+          "icon": "🔄",
+          "title": "System Integrations"
+        },
+        {
+          "description": "Identifies patterns and areas for logistics improvement.",
+          "icon": "📊",
+          "title": "Performance Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic order tracking application can be functional in a few days. More complex systems with advanced integrations and features might take a week or two to fully implement and test, depending on the complexity of your existing systems.",
+          "question": "How quickly can I build an order tracking solution?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv's AI platform translates your business logic and requirements into functional software, guiding you through the process.",
+          "question": "Do I need to be a developer to build this application?"
+        },
+        {
+          "answer": "Yes, you can integrate your custom order tracking tool with virtually any existing system that has an API. This includes ERPs like SAP or Oracle, WMS solutions, e-commerce platforms like Shopify or Magento, and major shipping carrier APIs.",
+          "question": "Can I connect my new tool to my existing ERP, WMS, or e-commerce platform?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and all data. Kliv provides the platform to build it, but the intellectual property is entirely yours, giving you complete control and flexibility.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Building with Kliv is typically a one-time development investment, leading to significant cost savings compared to recurring subscription fees from SaaS providers, especially as your order volume grows. You avoid vendor lock-in and can modify the system without additional per-feature costs.",
+          "question": "How does the cost compare to off-the-shelf tracking software?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are designed for flexibility. As your business scales or your logistics needs evolve, you can easily add new features, integrate with new partners, or modify existing tracking workflows without needing to wait for a vendor's product roadmap.",
+          "question": "Can the application scale with my business or adapt to new logistics partners?"
+        },
+        {
+          "answer": "You control the security of your custom application, choosing your hosting environment and security protocols. This often allows for higher levels of data privacy and compliance tailored to your specific industry regulations than shared SaaS environments.",
+          "question": "Is a custom-built solution secure for sensitive order data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain complete control over your orders?",
+      "type": "cta",
+      "content": "Stop guessing where your orders are. Give your customers and teams the visibility they need with a custom-built tracking application."
+    }
+  ],
+  "title": "Order Tracking & Visibility Solutions"
+}

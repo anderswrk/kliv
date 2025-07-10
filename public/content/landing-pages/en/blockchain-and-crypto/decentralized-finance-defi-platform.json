@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a DeFi platform that allows users to lend and borrow cryptocurrencies, stake tokens for yield, and manage their assets in a non-custodial way.",
+  "description": "Launch your own custom Decentralized Finance (DeFi) platform with Kliv's powerful development tools.",
+  "hero": {
+    "cta": "Build Your DeFi Platform",
+    "subtitle": "Empower your community with transparent, uncensored, and scalable financial services.",
+    "title": "Create Your Decentralized Finance (DeFi) Platform"
+  },
+  "metaDescription": "Design and deploy custom DeFi applications with Kliv. Build lending protocols, decentralized exchanges, yield farming platforms, and more with unparalleled control and flexibility.",
+  "sections": [
+    {
+      "title": "The opportunity in Decentralized Finance",
+      "type": "text",
+      "content": "Decentralized Finance (DeFi) is reshaping the global financial landscape. By leveraging blockchain technology, DeFi offers an alternative to traditional finance, providing open, transparent, and permissionless financial services. From lending and borrowing to trading and asset management, DeFi applications (dApps) are empowering users with unprecedented control over their assets.\n\nWhile existing DeFi protocols offer various functionalities, the true power lies in building a platform tailored to specific needs, new financial primitives, or a unique community. Traditional development for blockchain is complex and time-consuming, but with Kliv, bringing your DeFi vision to life is more accessible than ever. Imagine a platform that truly serves your community, free from the limitations and fees of established systems."
+    },
+    {
+      "title": "Why build a custom DeFi platform?",
+      "type": "markdown",
+      "content": "## The limitations of generic DeFi protocols\n\nWhile the DeFi ecosystem is vibrant, relying solely on existing protocols can present challenges:\n\n- **Lack of Customization**: You're bound by the features and parameters set by the protocol's developers, limiting your ability to innovate.\n- **Dependency Risks**: Your project's success is tied to the security and continued operation of a third-party protocol.\n- **Generational Designs**: Many established protocols represent older design patterns, potentially lacking efficiency or advanced features.\n- **Fee Structures**: Transaction fees and revenue models are pre-defined, which might not align with your economic goals.\n- **Community Alignment**: It's challenging to build a distinct brand and community around a shared, generic protocol.\n\n## The advantage of building your own\n\nCreating a bespoke DeFi platform allows you to carve out a unique niche and address specific market demands:\n\n### Full Customization and Innovation\nDesign a platform that implements your unique vision, whether it's a novel lending model, a new type of derivative, or a specialized decentralized exchange. Your platform, your rules, your innovation.\n\n### Enhanced Security Best Practices\nWhile blockchain is inherently secure, building your own allows you to implement the latest security audits, smart contract patterns, and integrate specific security measures from the ground up, reducing reliance on third-party codebases.\n\n### Optimized User Experience\nTailor the user interface and overall experience to your target audience. Create a seamless, intuitive journey for your users, distinguishing your platform from competitors.\n\n### Control Over Tokenomics and Governance\nImplement your own tokenomics model, reflecting your project's economic goals. Design a governance structure that truly aligns with your community's values and ensures sustainable growth.\n\n### Direct Ownership and Revenue Streams\nOwn the smart contracts and the platform's intellectual property. Define your revenue streams, whether through transaction fees, interest rate differentials, or other mechanisms.\n\n## Real-world DeFi applications you could build\n\n- **Specialized Lending Protocols**: Create a lending platform focused on niche assets (e.g., NFTs as collateral) or specific user groups (e.g., uncollateralized loans with reputation scoring).\n- **Decentralized Exchanges (DEXs)**: Build a DEX optimized for specific asset types, with unique liquidity provision mechanisms, or featuring advanced order types.\n- **Yield Optimization Platforms**: Develop a platform that automatically rebalances users' staked assets across multiple protocols to maximize yield based on real-time market data.\n- **Prediction Markets**: Launch a decentralized prediction market focused on specific events, offering unique payout structures or dispute resolution mechanisms.\n- **Decentralized Autonomous Organizations (DAOs)**: Implement a custom DAO framework to govern a community fund, manage a collective initiative, or run a decentralized venture capital fund.\n\n## The Kliv advantage for DeFi development\n\nBuilding on Kliv accelerates your DeFi journey by:\n\n- **Streamlined Smart Contract Generation**: Generate and deploy robust smart contracts with less manual coding.\n- **Integrated Development Environment**: A unified platform for designing, testing, and deploying your dApp components.\n- **Scalable Infrastructure**: Leverage existing infrastructure to handle transaction volume and user growth.\n- **Security Assistance**: AI-powered suggestions for common vulnerabilities and best practices in smart contract design.\n\nDon't just participate in DeFi; build the next generation of decentralized financial innovation. Kliv makes it possible."
+    },
+    {
+      "title": "DeFi platform ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A platform for borrowing against NFTs as collateral",
+          "prompt": "Create a DeFi lending protocol that allows users to use their non-fungible tokens (NFTs) as collateral for cryptocurrency loans, including a multi-sig approval for loan agreements.",
+          "title": "NFT-Backed Lending Protocol"
+        },
+        {
+          "description": "A decentralized exchange with concentrated liquidity pools",
+          "prompt": "Build a decentralized exchange (DEX) that implements concentrated liquidity mechanisms, allowing liquidity providers to set specific price ranges for their capital.",
+          "title": "Concentrated Liquidity DEX"
+        },
+        {
+          "description": "An automated yield farming aggregator",
+          "prompt": "Develop a yield aggregator platform that automatically identifies and allocates user funds to the highest-yielding DeFi protocols across multiple blockchains, optimizing for gas fees.",
+          "title": "Cross-Chain Yield Optimizer"
+        },
+        {
+          "description": "A platform for decentralized asset management",
+          "prompt": "Design a decentralized asset management platform where users can create and manage public or private investment vaults, controlled by smart contracts and allowing for delegated trading strategies.",
+          "title": "Decentralized Asset Management"
+        },
+        {
+          "description": "A gamified staking and governance platform",
+          "prompt": "Build a DeFi platform that allows users to stake tokens, earn governance rights, and unlocks gamified rewards or achievements based on their participation and contribution to the protocol.",
+          "title": "Play-to-Earn DeFi Staking"
+        },
+        {
+          "description": "A token launchpad with decentralized fundraising",
+          "prompt": "Create a decentralized launchpad platform for new crypto projects, allowing for fair token distribution, automated vesting schedules, and community-driven fundraising rounds.",
+          "title": "Community-Driven Launchpad"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your DeFi platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add functionality for flash loans, allowing users to borrow and repay without collateral within a single blockchain transaction.",
+          "title": "Implement Flash Loans"
+        },
+        {
+          "prompt": "Integrate Chainlink oracles to provide real-time, tamper-proof price feeds for various cryptocurrencies and digital assets.",
+          "title": "Integrate Price Oracles"
+        },
+        {
+          "prompt": "Expand the platform to support multiple blockchain networks (e.g., Ethereum, Polygon, Binance Smart Chain) for broader asset compatibility.",
+          "title": "Add Cross-Chain Interoperability"
+        },
+        {
+          "prompt": "Develop a custom governance token and implement a DAO framework, allowing token holders to vote on protocol upgrades and parameters.",
+          "title": "Build a Decentralized Autonomous Organization (DAO)"
+        },
+        {
+          "prompt": "Create a user-friendly dashboard that visualizes users' portfolio performance, staking rewards, and borrowed positions in real-time.",
+          "title": "Develop a Comprehensive User Dashboard"
+        },
+        {
+          "prompt": "Add functionality for creating and trading synthetic assets, allowing users exposure to traditional assets on-chain.",
+          "title": "Enable Synthetic Asset Creation"
+        },
+        {
+          "prompt": "Implement a robust security audit suite that automatically scans new smart contract deployments for common vulnerabilities and potential exploits.",
+          "title": "Implement Automated Security Audits"
+        },
+        {
+          "prompt": "Design and integrate gamified elements, such as leaderboards for liquidity providers or badges for active governance participants, to encourage engagement.",
+          "title": "Introduce Gamification Features"
+        },
+        {
+          "prompt": "Add functionality for unique borrowing and lending mechanisms, such as fixed-rate loans, or interest-rate swaps.",
+          "title": "Explore Advanced Lending Models"
+        }
+      ]
+    },
+    {
+      "title": "Essential DeFi platform capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Securely manage digital assets without intermediaries via smart contracts.",
+          "icon": "🔒",
+          "title": "Non-Custodial Asset Management"
+        },
+        {
+          "description": "Automated, peer-to-peer lending and borrowing protocols with variable or fixed interest rates.",
+          "icon": "💸",
+          "title": "Lending & Borrowing Protocols"
+        },
+        {
+          "description": "Enable users to trade cryptocurrencies directly from their self-custody wallets.",
+          "icon": "🔄",
+          "title": "Decentralized Exchange (DEX)"
+        },
+        {
+          "description": "Allow users to stake their tokens to earn rewards and participate in network security.",
+          "icon": "🌱",
+          "title": "Staking & Yield Farming"
+        },
+        {
+          "description": "Transparent and immutable records of all transactions on the blockchain.",
+          "icon": "📜",
+          "title": "On-Chain Transparency"
+        },
+        {
+          "description": "Implement decentralized governance models allowing community members to vote on proposals.",
+          "icon": "🗳️",
+          "title": "Community Governance"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building DeFi with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv significantly accelerates DeFi development. A basic DeFi application, such as a simple staking contract, can be designed and deployed within hours or days. More complex protocols, like a full-fledged lending platform, would involve more extensive design and auditing, but the development phase is drastically reduced compared to traditional methods.",
+          "question": "How quickly can I launch a DeFi platform with Kliv?"
+        },
+        {
+          "answer": "While fundamental blockchain concepts (like smart contracts and wallets) are helpful, Kliv is designed for users with varying technical backgrounds. Its AI-powered tools and intuitive interface simplify the complex process of smart contract development and dApp deployment, requiring minimal to no direct coding.",
+          "question": "Do I need extensive blockchain development experience?"
+        },
+        {
+          "answer": "Yes, security is paramount in DeFi. Kliv integrates best practices for smart contract development and can assist in identifying potential vulnerabilities during the design phase. However, independent smart contract audits by security firms are highly recommended for any deployed DeFi protocol, regardless of the development tool used.",
+          "question": "How secure are the DeFi applications built using Kliv?"
+        },
+        {
+          "answer": "You retain full ownership of all the smart contracts and code generated. Kliv provides the tools and infrastructure to build, but the intellectual property of your DeFi protocol is entirely yours. You are free to audit, modify, and deploy it as you see fit.",
+          "question": "Who owns the smart contracts and code I build?"
+        },
+        {
+          "answer": "Yes, your DeFi platform can be designed to interact with existing blockchain protocols, oracles (like Chainlink), and other smart contracts. Kliv facilitates the creation of interoperable components, allowing your platform to leverage the broader DeFi ecosystem.",
+          "question": "Can my DeFi platform integrate with other existing protocols?"
+        },
+        {
+          "answer": "The platform you build will typically incur network transaction fees (gas fees) on the blockchain it operates on (e.g., Ethereum, Polygon). Kliv itself operates on a usage-based or subscription model for its development tools. This model is often more cost-effective than hiring a dedicated blockchain development team.",
+          "question": "What are the costs associated with running a DeFi platform built with Kliv?"
+        },
+        {
+          "answer": "Kliv supports deployment on various EVM-compatible blockchains, including Ethereum, Polygon, Binance Smart Chain, and more. You can choose the network that best suits your project's needs for decentralization, transaction costs, and community.",
+          "question": "On which blockchains can I deploy my DeFi platform?"
+        },
+        {
+          "answer": "Kliv provides support resources, documentation, and an active community forum to assist you. Since you own the deployed smart contracts, you also have the flexibility to seek external audits or engage specialized blockchain developers for advanced modifications or troubleshooting, if needed.",
+          "question": "What kind of support is available if I encounter issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize finance?",
+      "type": "cta",
+      "content": "Take control of your financial innovation. Build the next generation of decentralized applications with Kliv today."
+    }
+  ],
+  "title": "Build Your Own Decentralized Finance (DeFi) Platform"
+}

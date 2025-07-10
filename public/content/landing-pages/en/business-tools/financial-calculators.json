@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a financial calculator that helps small businesses project their cash flow for the next 12 months, considering various income streams and expenses.",
+  "description": "Build custom financial calculators tailored to your specific business or personal needs with Kliv's AI platform.",
+  "hero": {
+    "cta": "Start calculating",
+    "subtitle": "Develop precise, custom financial calculators for unique business models, investment analysis, personal finance, and more.",
+    "title": "Build your own financial calculators"
+  },
+  "metaDescription": "Create highly specific financial calculators using Kliv. Develop tools for investment analysis, loan amortization, business projections, and personal finance without coding.",
+  "sections": [
+    {
+      "title": "Why off-the-shelf calculators fall short",
+      "type": "text",
+      "content": "Generic financial calculators often provide broad estimations that don't account for the unique variables of your business or personal financial situation. Whether you're a niche business needing specific ROI projections, a financial advisor requiring custom client tools, or an individual planning complex investments, standard calculators rarely fit the bill. Building your own allows for perfect alignment with your data, assumptions, and output format, leading to more accurate decisions."
+    },
+    {
+      "title": "The power of custom financial tools",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\n\nMany businesses and individuals rely on readily available financial calculators, which often come with significant drawbacks:\n\n- **Inflexible inputs**: Unable to accommodate specific data points or unique business metrics.\n- **Limited scope**: Designed for common scenarios, failing in complex or non-standard situations.\n- **Lack of integration**: Cannot connect to your existing data sources or financial systems.\n- **Branding and control**: No option to brand the tool or control its underlying logic.\n- **Subscription costs**: High recurring costs for tools that may only be partially useful.\n\n## Why custom-built is the smart choice\n\nLeveraging AI-powered development platforms like Kliv, designing bespoke financial tools is now practical and accessible. Here’s why it’s a game-changer:\n\n### Precision for unique scenarios\nYour business isn't generic, so why should your financial tools be? Custom calculators can incorporate every specific variable, assumption, and formula relevant to your operations, providing unparalleled accuracy in projections and analyses.\n\n### Competitive advantage\nFor financial advisors, consultants, or real estate professionals, offering a unique, branded financial tool can be a powerful differentiator. Provide clients with a resource tailored to their specific needs, enhancing trust and value.\n\n### Data security and privacy\nEntering sensitive financial data into third-party online calculators can be risky. When you build your own, you control the data's lifecycle, ensuring compliance, security, and privacy.\n\n### Cost-effectiveness\nBeyond the initial build, a custom solution means no recurring subscription fees that can add up over time. It's a strategic asset that pays for itself through improved decision-making and efficiency.\n\n### Scalability and adaptability\nAs your business evolves or financial models change, your custom calculator can be easily updated or expanded. Add new features, modify formulas, or integrate with new data sources without external dependencies.\n\n## Real-world impact\n\nCustom financial calculators are empowering businesses and individuals across various sectors:\n\n**Startups**: Developing a detailed burn rate calculator that factors in specific funding rounds, phased hiring, and tiered revenue models.\n\n**Real Estate**: A property investment analysis tool that includes local tax laws, vacancy rates, specific maintenance costs, and projected appreciation from neighborhood development plans.\n\n**Manufacturing**: An ROI calculator for new equipment purchases that considers specific production efficiencies, energy savings, and maintenance schedules unique to their machinery.\n\n**Financial Advisors**: Creating a personalized retirement planning tool that accounts for diverse income sources, tax strategies, and varying investment appetites of individual clients.\n\n## The Kliv advantage\n\nKliv transforms the complex process of software development into an intuitive, AI-driven experience:\n\n- **Natural language interface**: Describe the calculator's purpose and logic in plain English.\n- **Rapid prototyping**: Get a working prototype in hours, not weeks.\n- **Seamless integration**: Connect your calculator to external databases or other financial systems.\n- **Granular control**: Fine-tune every formula, input, and output for exact precision.\n\n## Taking the next step\n\nStop settling for generic. With Kliv, you can create a financial calculator that is as unique and precise as your financial goals. Start building a tool that truly understands and reflects your financial reality today."
+    },
+    {
+      "title": "Financial calculator ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Calculate projected profit and loss for new business ventures",
+          "prompt": "Create a P&L projection calculator for a small business that allows inputs for different revenue streams, variable costs, fixed costs, and projects monthly profitability for 3 years.",
+          "title": "Business Profit & Loss Projector"
+        },
+        {
+          "description": "Estimate personalized loan payments and amortization schedules",
+          "prompt": "Develop a loan amortization calculator that includes flexible payment frequencies (monthly, bi-weekly), extra payment options, and the ability to visualize interest paid over time.",
+          "title": "Advanced Loan Amortization"
+        },
+        {
+          "description": "Evaluate return on specific investment types",
+          "prompt": "Build an investment ROI calculator for rental properties, incorporating inputs for purchase price, rental income, operating expenses, property tax rates, and projected property value appreciation.",
+          "title": "Rental Property Investment ROI"
+        },
+        {
+          "description": "Plan and track personal retirement savings goals",
+          "prompt": "Design a retirement planner that considers current savings, annual contributions, expected rate of return, inflation adjustments, and desired retirement age and income.",
+          "title": "Personalized Retirement Planner"
+        },
+        {
+          "description": "Calculate the total cost of capital for complex projects",
+          "prompt": "Develop a Weighted Average Cost of Capital (WACC) calculator that allows inputs for debt, equity, preferred stock, their respective costs, and tax rates for a corporate finance scenario.",
+          "title": "Corporate WACC Calculator"
+        },
+        {
+          "description": "Analyze the payback period for capital expenditures",
+          "prompt": "Create a capital expenditure payback period calculator that considers initial investment, annual cash inflows (savings/revenue), and includes the option for discounted payback period analysis.",
+          "title": "CapEx Payback Period Tool"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your financial calculator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add the ability to compare multiple scenarios side-by-side using different input values.",
+          "title": "Include scenario analysis"
+        },
+        {
+          "prompt": "Integrate a real-time data feed for stock prices, currency exchange rates, or interest rates.",
+          "title": "Add real-time data integration"
+        },
+        {
+          "prompt": "Implement user accounts to save and load different calculation profiles or historical data.",
+          "title": "Add user profile management"
+        },
+        {
+          "prompt": "Generate a printable PDF report of the calculation results, including charts and summary statistics.",
+          "title": "Enable PDF report generation"
+        },
+        {
+          "prompt": "Add a graphical output for trending data, such as a line chart for cash flow projections over time.",
+          "title": "Visualize results with charts"
+        },
+        {
+          "prompt": "Allow users to securely share specific calculation results with others via a unique link or email.",
+          "title": "Implement secure sharing options"
+        },
+        {
+          "prompt": "Develop a REST API endpoint so other applications can programmatically send inputs and receive calculation results.",
+          "title": "Create an API for external access"
+        },
+        {
+          "prompt": "Add a feature to export raw input data and calculated outputs to popular spreadsheet formats like CSV or Excel.",
+          "title": "Export data to spreadsheets"
+        },
+        {
+          "prompt": "Include interactive tooltips and contextual help for complex financial terms or input fields.",
+          "title": "Add in-app financial guidance"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for financial tools",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define and manage all input variables, from simple values to complex financial ratios.",
+          "icon": "📝",
+          "title": "Customizable Inputs"
+        },
+        {
+          "description": "Implement any financial formula or logic, no matter how complex, exactly as required.",
+          "icon": "🧮",
+          "title": "Advanced Formula Engine"
+        },
+        {
+          "description": "Present results clearly with tables, charts, and summary statistics.",
+          "icon": "📈",
+          "title": "Interactive Outputs"
+        },
+        {
+          "description": "Securely save, retrieve, and manage calculation data for future reference or modification.",
+          "icon": "💾",
+          "title": "Data Persistence"
+        },
+        {
+          "description": "Connect with external data sources like market data APIs, accounting software, or databases.",
+          "icon": "🔗",
+          "title": "External Data Integration"
+        },
+        {
+          "description": "Ensure accurate results with built-in validation and error handling for inputs.",
+          "icon": "✅",
+          "title": "Input Validation"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom financial calculator with Kliv is significantly faster than traditional development. A basic calculator can be ready in a few hours, while more complex tools with integrations might take a few days of iterative refinement.",
+          "question": "How quickly can I build a financial calculator using Kliv?"
+        },
+        {
+          "answer": "You don't need any coding skills. Kliv's AI platform translates your natural language descriptions of financial logic and requirements into a functional application. You focus on the financial model; Kliv handles the code.",
+          "question": "Do I need to be a programmer to build these tools?"
+        },
+        {
+          "answer": "Yes, your custom calculator can be designed to pull data from or push data to other financial systems, APIs, or databases, ensuring seamless operation within your existing ecosystem.",
+          "question": "Can my custom calculator integrate with my existing accounting software or data sources?"
+        },
+        {
+          "answer": "All intellectual property, including the calculator's logic and any data it processes, belongs entirely to you. Kliv provides the platform for creation; you retain full ownership and control.",
+          "question": "Who owns the financial calculator I build with Kliv?"
+        },
+        {
+          "answer": "Custom-built calculators provide long-term cost benefits by eliminating recurring subscription fees associated with off-the-shelf software. While there's an initial development investment, the total cost of ownership is generally lower, and the tailored functionality provides superior ROI.",
+          "question": "Is building my own financial calculator more cost-effective than buying a ready-made one?"
+        },
+        {
+          "answer": "Security is paramount. When building with Kliv, you control the hosting environment and data storage, allowing you to implement stricter security protocols tailored to your compliance requirements, potentially making it more secure than relying on third-party SaaS solutions.",
+          "question": "How secure are custom financial calculators built on this platform?"
+        },
+        {
+          "answer": "Absolutely. One of the core advantages of custom development is flexibility. You can easily modify formulas, add new input fields, change output formats, or integrate new features as your financial models or business needs evolve.",
+          "question": "Can I modify my financial calculator after it's been deployed?"
+        },
+        {
+          "answer": "Kliv offers comprehensive support through its AI-assisted development tools, documentation, and a community forum. For more in-depth assistance, dedicated expert support is available to guide you through complex implementations.",
+          "question": "What if I need help or run into a technical issue?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your bespoke financial tool?",
+      "type": "cta",
+      "content": "Stop making financial decisions based on generic assumptions. Create precise, powerful calculators that align perfectly with your unique financial landscape. Start building accurate, custom financial tools today."
+    }
+  ],
+  "title": "Custom Financial Calculators"
+}

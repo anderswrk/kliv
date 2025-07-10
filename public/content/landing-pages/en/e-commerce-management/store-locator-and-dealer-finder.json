@@ -1,0 +1,168 @@
+{
+  "defaultPrompt": "I want to create a store locator that shows physical locations on a map, allows users to search by address or zip code, and displays store details like hours, contact info, and special services.",
+  "description": "Build custom store locator and dealer finder tools for your e-commerce operations with Kliv. Enhance customer experience and drive in-store traffic.",
+  "hero": {
+    "cta": "Start building your locator",
+    "subtitle": "Help your customers find your physical locations and authorized dealers instantly with custom-built, intelligent locator applications.",
+    "title": "Create your own Store Locator & Dealer Finder"
+  },
+  "metaDescription": "Develop powerful store locator and dealer finder applications with Kliv. Integrate with your e-commerce site to guide customers to the nearest physical touchpoints and boost local sales.",
+  "sections": [
+    {
+      "title": "Why a custom store or dealer locator matters",
+      "type": "text",
+      "content": "In a world increasingly driven by online interactions, physical locations still play a crucial role in customer engagement, brand loyalty, and sales conversions. A well-designed store or dealer locator isn't just a map; it's a bridge between your digital presence and your physical footprint.\n\nWhile off-the-shelf plugins offer basic functionality, true competitive advantage comes from a solution perfectly tailored to your brand, product lines, and customer journey. Kliv empowers you to build precisely that, without the typical high costs or lengthy development times associated with custom software."
+    },
+    {
+      "title": "Connecting online discovery to offline sales",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\nMany businesses opt for pre-packaged store locator plugins or simple map embeds. The result is often a clunky, unbranded experience that fails to deliver:\n\n- **Limited customization**: Unable to match your brand's look, feel, or specific data needs.\n- **Poor performance**: Slow loading times and clunky interfaces frustrate users.\n- **No unique features**: Missing advanced filtering, inventory checks, or appointment booking crucial for your niche.\n- **Data silos**: Disconnected from your CRM, inventory, or sales systems, leading to outdated information.\n- **Subscription dependency**: Recurring costs regardless of usage, with features you don't need.\n\n## The power of a custom-built locator \nBuilding a bespoke store or dealer finder with Kliv puts you in control, allowing you to create a valuable asset that:\n\n### Provides a seamless brand experience\nIntegrate your locator directly into your website or app with a design that perfectly matches your brand guidelines. No generic embeds, just a professional, unified presence.\n\n### Enhances customer convenience\nOffer precise search capabilities, real-time hours, product availability checks, and even in-store service booking, making it effortless for customers to find what they need, where they need it.\n\n### Optimizes local SEO & traffic\nEnsure accurate and timely data for all your locations, improving local search rankings and driving more qualified traffic to your physical doors.\n\n### Leverages your unique data\nConnect to your internal systems to display live inventory, specialized services, staff expertise, or promotions relevant to each location, turning your locator into a powerful sales tool.\n\n### Guarantees scalability & ownership\nAs your business grows or changes, your custom locator can evolve with it. You own the solution, giving you complete flexibility to add new features, integrate new data sources, and adapt to market demands without vendor lock-in.\n\n## Real-world applications\nCustom store and dealer locators are vital for businesses across various sectors:\n\n**Retail**: A multi-brand retailer needs a locator that shows which brands are available at each store, along with specific hours and services like in-store pickup.\n\n**Automotive**: Car manufacturers need detailed dealer locators that show available models, service departments, certified technicians, and appointment scheduling options.\n\n**Healthcare**: A network of clinics requires a finder that allows patients to search by specialty, physician, insurance accepted, and book appointments directly.\n\n**Food & Beverage**: A chain of restaurants or cafes can offer a locator with real-time wait times, online ordering links for each location, and specific menu offerings.\n"
+    },
+    {
+      "title": "Locator application ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Standard store finder using location and filters.",
+          "prompt": "Create a store locator allowing users to search by current location or zip code, display results on a map, and show store details like address, phone, and hours. Include filters for specific product categories.",
+          "title": "Basic Retail Store Finder"
+        },
+        {
+          "description": "Dealer locator with specific service offerings and certifications.",
+          "prompt": "Develop a dealer locator for a specific product line, allowing users to find authorized dealers based on their location. Each dealer profile should include services offered, certifications held, and accepted payment methods.",
+          "title": "Specialized Dealer Locator"
+        },
+        {
+          "description": "Locator showing product availability at each location.",
+          "prompt": "Build a store locator that integrates with real-time inventory data. Users should be able to check if a specific product is in stock at nearby stores and reserve it for pickup.",
+          "title": "Inventory-aware Store Locator"
+        },
+        {
+          "description": "Service center finder with appointment booking.",
+          "prompt": "Design a service center locator where customers can find the nearest service point, view their working hours, list of services, and book an appointment directly through the application.",
+          "title": "Appointment Booking Locator"
+        },
+        {
+          "description": "Event venue or pop-up shop finder.",
+          "prompt": "Create a temporary location finder for pop-up shops or special events. It should show dates, times, and specific event details for each temporary location on a map.",
+          "title": "Event & Pop-Up Locator"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your locator with these features",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a customer review and rating system for each location, allowing users to submit feedback and view average ratings.",
+          "title": "Add Reviews & Ratings"
+        },
+        {
+          "prompt": "Implement dynamic routing from the user's current location to the selected store or dealer using popular navigation services (e.g., Google Maps, Waze).",
+          "title": "Integrate Navigation"
+        },
+        {
+          "prompt": "Connect the locator to your CRM or internal system to display real-time staff availability or specific sales representatives for each location.",
+          "title": "Show Staff Availability"
+        },
+        {
+          "prompt": "Add a feature that allows users to 'favorite' or 'save' preferred locations for quick access later.",
+          "title": "Add 'Favorite' Locations"
+        },
+        {
+          "prompt": "Enable users to filter locations based on accessibility features (e.g., wheelchair access, accessible restrooms).",
+          "title": "Include Accessibility Filters"
+        },
+        {
+          "prompt": "Develop an admin dashboard for internal teams to easily update store hours, special announcements, or temporarily close locations.",
+          "title": "Build Admin Management"
+        },
+        {
+          "prompt": "Add geo-fencing capabilities to send push notifications to users when they are near a store offering a special promotion.",
+          "title": "Add Geo-fencing Promos"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your locator",
+      "type": "features",
+      "items": [
+        {
+          "description": "Interactive maps with custom markers and branding.",
+          "icon": "🗺️",
+          "title": "Dynamic Mapping"
+        },
+        {
+          "description": "Accurate search by address, zip code, or geographical proximity.",
+          "icon": "🔍",
+          "title": "Proximity Search"
+        },
+        {
+          "description": "Flexible layering to display multiple stores, dealers, or service points.",
+          "icon": "📍",
+          "title": "Multi-Location Support"
+        },
+        {
+          "description": "Detailed profiles for each location, including hours, contact, and amenities.",
+          "icon": "ℹ️",
+          "title": "Customizable Location Data"
+        },
+        {
+          "description": "Advanced filters for product availability, services, or specific features.",
+          "icon": "⚙️",
+          "title": "Advanced Filtering"
+        },
+        {
+          "description": "Seamless integration with existing e-commerce platforms and databases.",
+          "icon": "🔗",
+          "title": "E-commerce Integration"
+        },
+        {
+          "description": "Design elements that match your brand's unique identity.",
+          "icon": "🎨",
+          "title": "Brand Customization"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional store or dealer locator with Kliv can take anywhere from a few hours for a basic version to a few days for a highly customized, data-integrated application. The AI significantly speeds up the initial development phase.",
+          "question": "How long does it take to build a store locator application?"
+        },
+        {
+          "answer": "No, you do not need to be a developer. Kliv's platform allows you to describe your desired features in natural language, and the AI assists in generating the application. You're guided through the process step-by-step.",
+          "question": "Do I need programming skills to create this type of application?"
+        },
+        {
+          "answer": "Yes, your custom locator can connect with various data sources. This includes your existing e-commerce platform (e.g., Shopify, Magento), CRM systems, inventory management software, or even simple spreadsheets to pull location-specific data.",
+          "question": "Can the locator integrate with my existing business data (e.g., inventory, CRM)?"
+        },
+        {
+          "answer": "Your custom-built application and all its data belong entirely to you. You maintain full ownership and control, meaning you can host it where you prefer and modify it without restrictions or vendor lock-in.",
+          "question": "Who owns the data and the application once it's built?"
+        },
+        {
+          "answer": "While initial development costs may seem higher than a monthly SaaS fee, a custom solution built with Kliv is a one-time investment. Over time, you save significantly by avoiding recurring subscriptions, customization fees, and gaining complete control over future enhancements.",
+          "question": "Is building a custom locator more cost-effective than using a paid plugin?"
+        },
+        {
+          "answer": "Absolutely. One of the core advantages of building with Kliv is total flexibility. You can easily add or modify features, update location data, change the design, and adapt your locator as your business needs evolve, without relying on third-party developers or vendors.",
+          "question": "Can I update or add new features to the locator after it's live?"
+        },
+        {
+          "answer": "Kliv facilitates building secure applications by allowing you to implement robust authentication, data encryption, and access controls tailored to your specific security requirements. You have more control over your data's security posture compared to relying on a third-party plugin's default settings.",
+          "question": "How secure are custom-built locator applications?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to guide your customers to your door?",
+      "type": "cta",
+      "content": "Stop relying on generic maps. Build an intelligent, brand-aligned store and dealer locator that drives sales and enhances user experience."
+    }
+  ],
+  "title": "Store Locator & Dealer Finder Tools"
+}

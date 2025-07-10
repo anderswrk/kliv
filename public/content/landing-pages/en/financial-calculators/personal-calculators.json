@@ -1,0 +1,157 @@
+{
+  "defaultPrompt": "I want to create a personal finance calculator that helps users estimate their retirement savings based on current contributions, expected returns, and inflation.",
+  "description": "Develop custom personal finance calculators tailored to specific financial planning needs.",
+  "hero": {
+    "cta": "Start Building Your Calculator",
+    "subtitle": "Create custom personal finance calculators for unique needs. From retirement planning to loan amortization, build interactive tools that empower better financial decisions.",
+    "title": "Build Your Own Personal Finance Calculators"
+  },
+  "metaDescription": "Design and deploy bespoke personal finance calculators with Kliv. Tailor tools for budgeting, debt management, investment projections, and more to serve your audience perfectly.",
+  "sections": [
+    {
+      "title": "Why Build Your Own Financial Calculator?",
+      "type": "text",
+      "content": "Off-the-shelf financial calculators are rigid and generic. They often miss the nuances of individual financial situations or advanced planning scenarios. Building your own allows for precise functionality, custom inputs, and tailored outputs that perfectly serve a niche audience or a specific financial modeling need. Forget limitations; create the exact tool you envision."
+    },
+    {
+      "title": "The Power of Bespoke Financial Tools",
+      "type": "markdown",
+      "content": "## Generic Tools Just Don't Cut It\n\nMost online financial calculators provide basic estimations. They typically:\n\n- **Lack customization**: Can't add specific tax rules, unique investment types, or complex 'what-if' scenarios.\n- **Are too broad**: Offer general advice instead of precise, personalized calculations.\n- **Have limited integration**: Rarely connect seamlessly with other data sources or financial models.\n- **Are visually uninspiring**: Often clunky or outdated interfaces that deter user engagement.\n\n## Custom-Built Calculators: Precision and Personalization\n\nBuilding your own financial calculator with Kliv opens up a world of possibilities:\n\n### Unparalleled Accuracy\nFactor in every detail: specific interest rates, custom inflation adjustments, detailed tax brackets, and unique contribution schedules. Your calculator will provide precise, reliable results for users.\n\n### Tailored User Experience\nDesign an interface that is intuitive and engaging, guiding users through complex calculations effortlessly. You control the flow, the inputs, and how results are presented.\n\n### Niche Market Domination\nTarget specific financial challenges. Want a calculator for early retirement with unique withdrawal strategies? Or one for consolidating very specific types of debt? Build precisely what a niche audience desperately needs.\n\n### Data Integration\nConnect your calculator to live market data, existing financial APIs, or user data (with proper consent and security) to make the calculations dynamic and highly relevant.\n\n### Educational Value\nBeyond just spitting out numbers, a custom calculator can be designed to educate users, showing them how different variables impact their financial future in understandable ways.\n\n## Real-World Impact\n\n- **Financial Advisors**: Create bespoke planning tools for clients, demonstrating various scenarios and financial product impacts interactively.\n- **Real Estate Professionals**: Develop mortgage affordability or investment property ROI calculators that include specific local taxes and market conditions.\n- **Small Businesses**: Design tools for cash flow forecasting, pricing models, or capital expenditure analysis unique to their operational structure.\n- **Educators**: Build interactive learning tools for students to grasp complex financial concepts through experimentation.\n\n## Simplified Development with AI\n\nKliv leverages generative AI to turn your textual descriptions into functional applications. This means:\n\n- **Rapid Prototyping**: Go from idea to functional prototype in hours.\n- **No Coding Barrier**: Focus on the financial logic, not the programming syntax.\n- **Iterative Improvement**: Easily refine and add features as your needs evolve.\n- **Scalable Solutions**: Build calculators that can handle simple queries or complex multi-variable scenarios."
+    },
+    {
+      "title": "Calculator Ideas Waiting to Be Built",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Advanced Retirement Planner with Inflation Adjustment and Tax Estimations\n\nBuild a calculator that projects retirement savings, considering annual contributions, estimated rate of return, inflation rate, and a simple tax rate on withdrawals in retirement. Include options for different withdrawal strategies upon retirement.\n\nComprehensive retirement planning with detailed financial modeling capabilities.\n\nCustom Investment ROI Calculator with Variable Contributions\n\nCreate a tool that calculates the return on investment for a portfolio, allowing for irregular contributions (e.g., monthly, quarterly, or one-time deposits), specific dividend reinvestment options, and fluctuating annual returns.\n\nAnalyze and project investment growth with flexible input parameters."
+        },
+        {
+          "title": "Student Loan Repayment Optimizer\n\nDevelop a calculator that helps users determine the fastest or most cost-effective way to pay off multiple student loans, allowing for extra payments, refinancing options, and different interest rates per loan.\n\nStrategic tool for managing and accelerating student loan debt repayment."
+        },
+        {
+          "title": "Detailed Budgeting Tool with Categorization and Savings Goals\n\nDesign an interactive budget calculator where users can input income from multiple sources, categorize expenses, track spending against a budget, and visualize progress towards specific savings goals.\n\nEmpower users with granular control over their personal budgeting."
+        },
+        {
+          "title": "Mortgage Affordability Calculator with Geolocation-Based Property Tax\n\nBuild a mortgage calculator that estimates how much house a user can afford, incorporating income, debt, interest rates, down payment, and automatically pulling in average property tax rates based on a user's entered city or zip code.\n\nPrecise home affordability estimates leveraging real-time data."
+        },
+        {
+          "title": "Side Hustle Profitability Estimator\n\nCreate a calculator for aspiring entrepreneurs to estimate the potential net profit of a side hustle, factoring in initial setup costs, recurring expenses, projected revenue, and self-employment taxes.\n\nAnalyze the financial viability of new ventures with clear projections."
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Calculator's Capabilities",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add authentication and user profiles so users can save and retrieve their calculations.",
+          "title": "Add User Accounts"
+        },
+        {
+          "prompt": "Integrate charting and graphing libraries to visualize results over time (e.g., retirement savings growth, debt payoff timeline).",
+          "title": "Incorporate Visualizations"
+        },
+        {
+          "prompt": "Enable PDF report generation for users to download a summary of their calculations.",
+          "title": "Generate PDF Reports"
+        },
+        {
+          "prompt": "Connect to external APIs for real-time data feeds, like stock prices, current interest rates, or inflation data.",
+          "title": "Add Real-time Data Feeds"
+        },
+        {
+          "prompt": "Implement a 'what-if' scenario testing feature, allowing users to compare outcomes with different input variables.",
+          "title": "Build Scenario Analysis"
+        },
+        {
+          "prompt": "Include an email notification system to send users reminders or calculation summaries.",
+          "title": "Implement Email Notifications"
+        },
+        {
+          "prompt": "Develop a multi-language interface for broader accessibility.",
+          "title": "Add Multi-Language Support"
+        },
+        {
+          "prompt": "Create an admin dashboard to review user activity and popular calculation types.",
+          "title": "Build Admin Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Core Features for Any Financial Calculator",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define custom input fields for any financial variable (e.g., interest rates, contribution amounts, time horizons).",
+          "icon": "📝",
+          "title": "Flexible Input Fields"
+        },
+        {
+          "description": "Implement complex mathematical operations and financial formulas tailored to your specific calculation needs.",
+          "icon": "➗",
+          "title": "Advanced Calculation Logic"
+        },
+        {
+          "description": "Display clear, understandable results with customizable output formats (e.g., tables, summaries, single values).",
+          "icon": "📈",
+          "title": "Customizable Outputs"
+        },
+        {
+          "description": "Ensure responsive design so calculators work seamlessly across desktops, tablets, and mobile devices.",
+          "icon": "📱",
+          "title": "Mobile Responsiveness"
+        },
+        {
+          "description": "Add interactive elements like sliders, toggles, and dynamic charts to enhance user engagement.",
+          "icon": "💡",
+          "title": "Interactive UX"
+        },
+        {
+          "description": "Connect your calculator to databases to store user data (securely) or pull in historical financial information.",
+          "icon": "🗄️",
+          "title": "Data Persistence Options"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's AI-powered platform significantly accelerates development. A basic calculator can be functional in a few hours, while complex tools with integrations might take a few days of iterative refinement.",
+          "question": "How quickly can I build a financial calculator using Kliv?"
+        },
+        {
+          "answer": "No, extensive coding knowledge is not required. Kliv allows you to describe your calculator's logic and design using natural language, and the AI assists in generating the underlying code.",
+          "question": "Do I need to be a programmer to build these calculators?"
+        },
+        {
+          "answer": "Yes, you have full control. Kliv generates the core application, which you can then customize, deploy, and host wherever you choose. This gives you complete ownership and flexibility.",
+          "question": "Will I own the calculators I build on Kliv?"
+        },
+        {
+          "answer": "Absolutely. Your custom calculators can integrate with various APIs to pull in live financial data, market rates, or even connect with existing user management systems.",
+          "question": "Can these calculators incorporate real-time financial data?"
+        },
+        {
+          "answer": "Since you own and host the application, you manage the data security protocols. Kliv helps you generate robust code, but the responsibility for data privacy and compliance lies with your implementation.",
+          "question": "How secure are the financial calculators built on Kliv?"
+        },
+        {
+          "answer": "Kliv's generated applications are designed to be scalable. As your user base grows or your calculation needs become more complex, you can easily modify and expand your calculator's capabilities.",
+          "question": "Are these calculators scalable for many users or complex calculations?"
+        },
+        {
+          "answer": "Yes, the AI can assist with debugging and optimizing the generated code. Community forums and detailed documentation are also available to support your development process.",
+          "question": "What kind of support is available if I get stuck during the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Design Your Perfect Financial Tool?",
+      "type": "cta",
+      "content": "Stop relying on generic solutions. Start building truly valuable, precise financial calculators that empower your audience and meet exact requirements. The future of financial tools is custom-built."
+    }
+  ],
+  "title": "Personal Finance Calculator Builder"
+}

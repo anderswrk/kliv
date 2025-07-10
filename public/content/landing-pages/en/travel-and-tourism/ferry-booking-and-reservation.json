@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a ferry booking and reservation system that allows users to search for routes, view availability, book tickets for passengers and vehicles, and manage their reservations easily.",
+  "description": "Build custom ferry booking and reservation applications for your unique routes with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start your booking system",
+    "subtitle": "Streamline operations and elevate customer experience with a powerful, personalized ferry booking platform.",
+    "title": "Build your own ferry booking & reservation system"
+  },
+  "metaDescription": "Create powerful ferry booking and reservation tools with Kliv. Offer seamless online booking, manage routes, passengers, and optimize operations for your ferry business.",
+  "sections": [
+    {
+      "title": "Why a custom ferry booking system is essential",
+      "type": "text",
+      "content": "In today's digital age, relying on generic booking platforms or manual processes for ferry services can severely limit your growth and customer satisfaction. Every ferry operator has unique routes, vessel capacities, pricing structures, and passenger requirements that off-the-shelf solutions often fail to address.\n\nBuilding a custom ferry booking and reservation system means designing a solution that perfectly fits your operational needs, enhances the passenger experience, and gives you complete control over your business data and functionality. With AI-powered development tools like Kliv, creating such a system is more accessible and efficient than ever before."
+    },
+    {
+      "title": "The case for a bespoke booking solution",
+      "type": "markdown",
+      "content": "## Challenges with generic systems\n\nExisting booking solutions, while seemingly convenient, often present significant roadblocks for ferry operators:\n\n- **Lack of Customization:** Inability to adapt to specific vessel configurations, multi-leg journeys, or unique passenger/vehicle types.\n- **High Transaction Fees:** Recurring costs that eat into your profit margins with every booking.\n- **Data Silos:** Limited integration with existing operational tools like check-in systems, manifest generation, or accounting software.\n- **Poor User Experience:** Generic interfaces can confuse passengers, leading to cart abandonment and increased calls to customer service.\n- **Scalability Issues:** Difficulty in handling seasonal demand spikes or expanding to new routes without costly upgrades or migration.\n\n## Advantages of building your own\n\nDeveloping a tailor-made ferry booking and reservation platform addresses these challenges directly, offering unparalleled benefits:\n\n### Perfect operational fit\nDesign your system to mirror your exact routes, schedules, vessel types, vehicle categories, and passenger pricing rules. This ensures accuracy, reduces manual errors, and optimizes resource allocation.\n\n### Maximize revenue control\nEliminate third-party transaction fees and implement dynamic pricing strategies based on demand, time of day, or special promotions. You control your revenue streams entirely.\n\n### Seamless integration\nBuild connections with your existing check-in systems, payment gateways, accounting software, and loyalty programs. Centralize data for better reporting and informed decision-making.\n\n### Enhanced customer experience\nProvide an intuitive, branded booking process that guides passengers smoothly from search to confirmation. Offer options for amendments, cancellations, and loyalty rewards directly within your platform.\n\n### Future-proof scalability\nAs your business expands with new vessels, routes, or services, your custom-built system can evolve with you without breaking the bank or requiring a complete overhaul. You own the underlying architecture.\n\n## Real-world impact\n\nCustom booking solutions are revolutionizing travel operations:\n\n**Inter-island Ferries**: A system allowing passengers to book multi-leg journeys across several islands, including options for different vehicle sizes and bicycle transport, with real-time capacity updates.\n\n**Vehicle Shipping**: A specialized platform for commercial vehicle bookings, managing dimensions, hazardous material declarations, and specific loading instructions directly tied to vessel manifests.\n\n**Commuter Ferry Lines**: A subscription-based booking system for daily commuters, integrated with loyalty points and automatic monthly billing, reducing check-in times and improving passenger flow.\n\n## The Kliv advantage\n\nKliv leverages AI to simplify complex software development, making custom solutions attainable for ferry operators of all sizes:\n\n- **Natural Language Input**: Describe your system requirements in plain English, and Kliv's AI helps generate the code and database structure.\n- **Visual Design Tools**: Drag-and-drop interfaces allow you to design the user experience without deep technical knowledge.\n- **Rapid Prototyping**: See a working version of your booking system quickly, allowing for iterative improvements.\n- **Scalable Architecture**: Build on a robust foundation that can handle fluctuating demand and complex data.\n- **Cost Efficiency**: A one-time investment in building your system with Kliv can be significantly cheaper than years of recurring SaaS fees.\n\nEmbrace the power of custom software. Design a ferry booking system that truly serves your business and your passengers."
+    },
+    {
+      "title": "Ferry booking ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a portal for direct customer bookings with real-time schedules and ticket sales.",
+          "prompt": "Design a user-friendly public-facing web application where customers can search for ferry routes, view daily schedules, check real-time availability for passengers and vehicles, select specific sailing times, and securely book and pay for their tickets, receiving an instant digital confirmation.",
+          "title": "Passenger & Vehicle Booking Portal"
+        },
+        {
+          "description": "Build a management system for routes, capacities, vessel assignments, and pricing.",
+          "prompt": "Develop an internal admin dashboard that enables operators to define and manage ferry routes, set schedules, assign vessels, update real-time capacity for passengers and various vehicle types (cars, trucks, motorcycles), adjust pricing based on dynamic demand or season, and oversee all existing bookings.",
+          "title": "Operational Management Backend"
+        },
+        {
+          "description": "An application for check-in agents to scan tickets and manage boarding.",
+          "prompt": "Create a mobile-friendly application for pier agents to scan QR code tickets, efficiently check in passengers and vehicles, verify booking details against current manifests, manage last-minute changes or upgrades at the gate, and generate real-time boarding reports.",
+          "title": "Pier Check-in & Boarding App"
+        },
+        {
+          "description": "Automate passenger list generation and regulatory compliance.",
+          "prompt": "Build a system that automatically compiles detailed passenger manifests for each sailing, including emergency contact information and special needs, and generates regulatory compliance reports that can be exported in various formats for port authorities and safety agencies.",
+          "title": "Manifest & Compliance Reporting Tool"
+        },
+        {
+          "description": "Allow passengers to modify their bookings post-purchase.",
+          "prompt": "Develop a self-service portal where customers can log in to view their upcoming bookings, modify sailing times or passenger details, add or remove vehicles, process cancellations with automated refunds, and access their booking history without needing to contact customer service via phone.",
+          "title": "Self-Service Reservation Management"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your booking system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a robust payment gateway that supports multiple currencies and payment methods including credit cards, mobile payments, and local bank transfers.",
+          "title": "Add advanced payment processing"
+        },
+        {
+          "prompt": "Implement dynamic pricing algorithms that adjust ticket prices automatically based on demand, remaining capacity, time until departure, and historical booking patterns to maximize revenue.",
+          "title": "Integrate dynamic pricing"
+        },
+        {
+          "prompt": "Develop real-time GPS tracking for vessels and integrate it into the public booking portal, allowing passengers to see the current location and estimated arrival times of their ferry.",
+          "title": "Add real-time vessel tracking"
+        },
+        {
+          "prompt": "Build a comprehensive customer relationship management (CRM) module to track passenger history, preferences, loyalty points, and provide personalized offers or communications.",
+          "title": "Implement a CRM module"
+        },
+        {
+          "prompt": "Create a waiting list feature for fully booked sailings, automatically notifying passengers if a spot becomes available and offering them the option to book.",
+          "title": "Add a waiting list feature"
+        },
+        {
+          "prompt": "Enable multi-leg journey planning where passengers can book complex routes involving multiple ferry segments and potentially different vessels or operators in a single transaction.",
+          "title": "Support multi-leg journeys"
+        },
+        {
+          "prompt": "Develop an API for tour operators and travel agencies to access real-time availability and book tickets programmatically, integrating the ferry service into their package offerings.",
+          "title": "Create a B2B booking API"
+        }
+      ]
+    },
+    {
+      "title": "Essential booking system features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Search by route, date, and passenger/vehicle type with real-time availability.",
+          "icon": "📅",
+          "title": "Flexible Search & Discovery"
+        },
+        {
+          "description": "Secure online booking workflow from selection to confirmation, including vehicle types.",
+          "icon": "💳",
+          "title": "Integrated Ticketing & Payments"
+        },
+        {
+          "description": "Dynamic control over routes, schedules, vessel capacities, and pricing adjustments.",
+          "icon": "⚙️",
+          "title": "Comprehensive Admin Panel"
+        },
+        {
+          "description": "Automated generation of passenger and vehicle manifests for each sailing.",
+          "icon": "👥",
+          "title": "Automated Manifest Creation"
+        },
+        {
+          "description": "User accounts allowing passengers to view, modify, or cancel their bookings easily.",
+          "icon": "👤",
+          "title": "Self-Service Management"
+        },
+        {
+          "description": "Customizable email and SMS notifications for booking confirmations, changes, or delays.",
+          "icon": "📧",
+          "title": "Automated Communications"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic ferry booking system with Kliv can take as little as a few days, while more complex systems with advanced integrations and custom logic might take a few weeks to perfect. The AI significantly speeds up initial development.",
+          "question": "How long does it take to build a custom ferry booking system?"
+        },
+        {
+          "answer": "No, extensive coding knowledge is not required. Kliv uses natural language processing, allowing you to describe your system's features and logic in plain English. The AI assists in translating these requirements into functional code.",
+          "question": "Do I need to be a developer or have coding experience?"
+        },
+        {
+          "answer": "Yes, your custom Kliv-built system can integrate with virtually any third-party service that offers an API. This includes payment gateways (e.g., Stripe, PayPal), accounting software, CRM systems, and even real-time vessel tracking solutions.",
+          "question": "Can the custom system integrate with existing payment gateways or other tools?"
+        },
+        {
+          "answer": "You retain full ownership and control of the intellectual property, including all code and data. Unlike SaaS platforms, you are not locked into a proprietary system; you own the asset you build.",
+          "question": "Who owns the intellectual property of the booking system I build?"
+        },
+        {
+          "answer": "Initially, a custom build might require more upfront investment than a monthly SaaS subscription. However, over time, a custom system built with Kliv typically becomes more cost-effective as you avoid recurring fees, can scale efficiently, and precisely tailor features to avoid paying for unused functionalities.",
+          "question": "How does the cost compare to off-the-shelf booking software?"
+        },
+        {
+          "answer": "Yes, one of the primary benefits of a custom system is its adaptability. You can continuously add new features, modify existing workflows, update routes, change pricing rules, or integrate new technologies as your business evolves, without depending on a vendor to implement updates.",
+          "question": "Can I modify or expand the system after it's built?"
+        },
+        {
+          "answer": "Kliv helps you build secure foundations. You have direct control over data storage, encryption, and access controls. This often allows for stronger security postures compared to multi-tenant SaaS solutions, where you rely entirely on the vendor's security practices.",
+          "question": "Is a custom-built system secure for handling passenger and payment data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to launch your unparalleled booking experience?",
+      "type": "cta",
+      "content": "Stop fitting your operations into generic software. Build a ferry booking solution that truly empowers your business and delights your passengers. Start creating with Kliv today."
+    }
+  ],
+  "title": "Ferry Booking & Reservation Systems"
+}

@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a capital gains tracker that imports transaction data, calculates short-term and long-term gains/losses, supports different accounting methods, and generates tax-ready reports.",
+  "description": "Build custom capital gain tracker applications with Kliv's AI-powered platform for investors.",
+  "hero": {
+    "cta": "Start tracking gains",
+    "subtitle": "Take control of your investment tax reporting with a custom capital gains tracker built precisely for your needs.",
+    "title": "Build your own capital gain tracker"
+  },
+  "metaDescription": "Create powerful, personalized capital gain tracker tools with Kliv. Accurately calculate short-term and long-term gains/losses, manage multiple portfolios, and generate tax-ready reports.",
+  "sections": [
+    {
+      "title": "Why build your own capital gain tracker?",
+      "type": "text",
+      "content": "Managing investments means managing taxes. Generic portfolio trackers often fall short when it comes to detailed capital gains calculations, leaving investors to wrestle with complex spreadsheets or expensive, inflexible software.\n\nKliv empowers you to create a personalized capital gains tracker that handles specific asset types, accounting methods (like FIFO, LIFO, or Average Cost), and reporting formats that perfectly match your financial situation. Stop adapting to software and start building software that adapts to you."
+    },
+    {
+      "title": "The case for a custom capital gain tracker",
+      "type": "markdown",
+      "content": "## The challenges with off-the-shelf solutions\n\nMany investors find that standard investment platforms or generic tax software don't fully address their capital gains tracking needs. Common frustrations include:\n\n-   **Limited Customization**: Inability to apply specific accounting methods (e.g., wash sale rules, specific lot identification) that optimize tax outcomes.\n-   **Data Silos**: Difficulty integrating data from various brokers, crypto exchanges, or alternative investments.\n-   **Generic Reporting**: Outputs that don't align with preferred tax preparation software or personal financial planning strategies.\n-   **Cost & Privacy**: Recurring subscription fees and concerns about sensitive financial data residing on third-party servers.\n-   **Missing Features**: Lack of support for niche investments or complex transaction types.\n\n## Why a custom-built solution makes sense\n\nBuilding your own capital gain tracker with Kliv's AI platform offers unparalleled advantages:\n\n### Precision and Control\nYou define the rules. Whether you need to strictly adhere to specific lot identification for individual stock sales or manage the complexities of crypto transactions, your custom tool ensures precise calculations tailored to your tax strategy.\n\n### Data Consolidation\nDesign your tracker to pull data from all your sources—traditional brokerages, DeFi platforms, real estate holdings, and more—into one centralized, secure system that you control.\n\n### Optimized Tax Planning\nBy having granular control over calculations and the ability to generate customized reports, you can make more informed decisions throughout the year to manage your tax liability effectively, rather than just reacting at tax time.\n\n### Security and Ownership\nYour sensitive financial data stays private. You own the application and its data, minimizing exposure to third-party breaches and maintaining complete data sovereignty.\n\n### Cost-Effectiveness\nAvoid recurring subscription fees. A custom tool is a one-time build that continues to serve you year after year, with only necessary maintenance or feature additions.\n\n## Real-world applications of custom trackers\n\nCustom capital gain trackers aren't just for Wall Street professionals; they're valuable for various types of investors and asset classes:\n\n**Stock Market Investors**: Track gains/losses across multiple brokerage accounts, apply FIFO/LIFO, manage dividend reinvestments, and handle wash sales.\n\n**Cryptocurrency Traders**: Navigate complex crypto transactions including staking rewards, liquidity pool gains, token swaps, and NFTs, ensuring accurate cost basis tracking.\n\n**Real Estate Investors**: Calculate long-term gains on property sales, account for depreciation recapture, and track capital improvements.\n\n**Alternative Asset Holders**: Manage gains from collectibles, private equity, or other non-traditional investments where standard software falls short.\n\n## The AI advantage in financial tooling\n\nKliv revolutionizes custom software development, making powerful financial tools accessible without deep coding knowledge:\n\n-   **Natural Language Interface**: Describe your desired features in plain English, and the AI assists in building the application.\n-   **Rapid Prototyping**: See a working version of your tracker quickly, allowing for immediate feedback and iteration.\n-   **Intelligent Data Handling**: AI can help design robust data import and reconciliation processes for various financial formats.\n-   **Scalable Architecture**: Your custom tool can grow with your portfolio, seamlessly integrating new asset types or calculation complexities.\n\n## Getting started\n\nWhy settle for generic solutions when you can have a precise, custom-built capital gain tracker? Stop struggling with spreadsheets or expensive software that doesn't quite fit. With Kliv, you can create the ultimate tool for managing your investment taxes.\n\nBegin building your tailored capital gain tracker today. Whether you're a seasoned investor or just starting, a personalized tool ensures accuracy and peace of mind."
+    },
+    {
+      "title": "Capital gain tracker ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Calculate gains and losses across multiple stock portfolios.",
+          "prompt": "Create a capital gains tracker for stocks across three different brokerage accounts, implementing FIFO and supporting wash sale adjustments. It should generate a summary for Form 8949.",
+          "title": "Multi-brokerage stock tracker"
+        },
+        {
+          "description": "Comprehensive tracking for cryptocurrency transactions.",
+          "prompt": "Develop a crypto capital gains tool that supports transactions from Binance, Coinbase, and a self-custody wallet. It needs to handle token swaps, staking rewards, and calculate using a specific-identification method, providing tax reports.",
+          "title": "Advanced crypto gains calculator"
+        },
+        {
+          "description": "Streamline real estate investment tax reporting.",
+          "prompt": "Build a real estate gain/loss tracker that allows input of purchase price, sale price, closing costs, and capital improvements. It should differentiate between short-term and long-term gains and account for depreciation.",
+          "title": "Real estate investment tracker"
+        },
+        {
+          "description": "Consolidate and analyze all your investment activities.",
+          "prompt": "Design a universal capital gains dashboard that imports data from stock, crypto, and even P2P lending platforms, allowing unified gain/loss calculation and custom report generation, including cost basis averaging.",
+          "title": "Universal investment tax dashboard"
+        },
+        {
+          "description": "Manage employee stock options and equity vestings.",
+          "prompt": "Create a tracker specifically for employee stock options (e.g., ISOs, NQSOs) and RSUs, managing vesting schedules, exercise costs, and their subsequent sale for capital gains reporting.",
+          "title": "Employee equity gain calculator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your capital gain tracker",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add an API integration with popular brokerage accounts (e.g., Fidelity, Charles Schwab) to automatically import transaction data daily.",
+          "title": "Automated transaction import"
+        },
+        {
+          "prompt": "Implement a 'What-If' scenario planner where users can simulate the tax impact of future sales before executing them.",
+          "title": "Tax impact scenario planner"
+        },
+        {
+          "prompt": "Add a feature to automatically detect and flag potential wash sales based on IRS rules.",
+          "title": "Wash sale detection"
+        },
+        {
+          "prompt": "Integrate with tax preparation software (e.g., TurboTax API, TaxAct) to directly export prepared gain/loss statements.",
+          "title": "Direct tax software integration"
+        },
+        {
+          "prompt": "Include price data lookups for historical asset prices for less common assets or specific crypto tokens.",
+          "title": "Historical price data lookup"
+        },
+        {
+          "prompt": "Add multi-currency support for international investments and crypto assets, with real-time exchange rates.",
+          "title": "Multi-currency support"
+        },
+        {
+          "prompt": "Allow users to attach supporting documents (e.g., trade confirmations, closing statements) to specific transactions.",
+          "title": "Document attachment"
+        },
+        {
+          "prompt": "Implement user authentication and multi-user support for financial advisors or families.",
+          "title": "User management and access control"
+        }
+      ]
+    },
+    {
+      "title": "Essential capital gain tracking features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Import transaction data from various sources (CSV, API, manual entry).",
+          "icon": "⬇️",
+          "title": "Data import & sync"
+        },
+        {
+          "description": "Calculate short-term and long-term capital gains and losses.",
+          "icon": "📈",
+          "title": "Gain/loss calculation"
+        },
+        {
+          "description": "Support FIFO, LIFO, average cost, and specific identification methods.",
+          "icon": "⚖️",
+          "title": "Multiple accounting methods"
+        },
+        {
+          "description": "Generate clear, customizable reports for tax filing (e.g., Form 8949 ready).",
+          "icon": "📄",
+          "title": "Tax-ready reporting"
+        },
+        {
+          "description": "Track cost basis for all assets, including adjustments for splits, dividends, etc.",
+          "icon": "💲",
+          "title": "Cost basis tracking"
+        },
+        {
+          "description": "Securely store and manage all investment transaction history.",
+          "icon": "🔒",
+          "title": "Secure data storage"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic capital gain tracker can take a few hours to a day with Kliv. More complex systems with advanced integrations or specific logic might take a few days to fully develop and refine.",
+          "question": "How long does it take to build a custom capital gain tracker?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv’s AI facilitates development using natural language, allowing you to describe your desired functionalities for the capital gain tracker. The platform helps translate your requirements into a working application.",
+          "question": "Do I need coding skills to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom tracker can be designed to import data from virtually any source, including CSV files from brokers, direct API integrations with supported platforms, or even manual entries for unique assets like private equity. The key is defining the data structure you need.",
+          "question": "Can my custom tracker import data from all my brokerage accounts?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its codebase, and all your financial data. Kliv provides the platform for building, but the intellectual property and control remain with you, ensuring privacy and flexibility.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Generally, building a custom tool with Kliv is a one-time development cost, often significantly less than years of recurring subscription fees for commercial software, especially for specialized financial tools. It also offers the advantage of precise customization, which often isn't an option with off-the-shelf products.",
+          "question": "How does the cost compare to subscribing to commercial tax software?"
+        },
+        {
+          "answer": "Absolutely. One of the primary benefits of building with Kliv is the flexibility to modify and expand your application as your investment portfolio or tax laws evolve. You can add new features, adjust calculation logic, or integrate new data sources at any time.",
+          "question": "Can I modify or add features to my tracker after it's built?"
+        },
+        {
+          "answer": "Custom-built applications can be highly secure because you control the hosting environment and data encryption. Unlike third-party SaaS solutions, you decide where your sensitive financial data resides and who has access, often enhancing overall security from a data sovereignty perspective.",
+          "question": "Is a custom-built capital gain tracker secure for sensitive financial data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain mastery over your investments?",
+      "type": "cta",
+      "content": "Stop struggling with generic tools and take command of your capital gains reporting. Build a precise, personalized tracker today."
+    }
+  ],
+  "title": "Capital Gain Tracker"
+}

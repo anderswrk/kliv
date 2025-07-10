@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a comprehensive vacation rental management system that handles bookings, guest communication, property listings, and maintenance schedules, all in one place.",
+  "description": "Build custom vacation rental management software to optimize your short-term rental business.",
+  "hero": {
+    "cta": "Start Managing Smart",
+    "subtitle": "Take full control of your properties, bookings, and guests with a personalized vacation rental management solution.",
+    "title": "Your Custom Vacation Rental Management System"
+  },
+  "metaDescription": "Create powerful, tailored vacation rental management software with Kliv. Streamline operations, boost efficiency, and enhance guest experiences for your short-term rental business.",
+  "sections": [
+    {
+      "title": "The Challenge of Vacation Rental Management",
+      "type": "text",
+      "content": "Managing vacation rentals can quickly become complex, whether you have one property or a growing portfolio. Juggling bookings across multiple platforms, handling guest communications, coordinating cleaning and maintenance, and tracking finances often means using a patchwork of generic tools.\n\nOff-the-shelf Property Management Systems (PMS) can be expensive, rigid, and often come packed with features you don't need, or worse, miss essential functionalities unique to your operations. This leads to wasted time, operational inefficiencies, and a less-than-ideal experience for both you and your guests."
+    },
+    {
+      "title": "Why Build Your Own Rental Management System?",
+      "type": "markdown",
+      "content": "## Escape the limitations of generic software\n\nThe market is flooded with vacation rental management software, but few truly fit your precise needs. These generic solutions often force you to:\n\n- **Adapt your proven processes** to their rigid workflows.\n- **Pay hefty monthly subscription fees** for features you rarely use.\n- **Integrate numerous external services** due to missing core functionalities.\n- **Compromise on data privacy** by storing sensitive information on third-party clouds.\n\n## The unmatched benefits of a custom solution\n\nBuilding your own vacation rental management system with Kliv empowers you to create software that is perfectly aligned with your business model and operational nuances. Imagine a system where:\n\n### Everything is exactly where you want it\nNo more clunky interfaces or searching for obscure settings. Your custom tool provides a streamlined experience tailored to your daily tasks, making it intuitive and efficient.\n\n### Data control and security\nWith your own system, you dictate where and how your data is stored. Enhance security measures, comply with local regulations, and protect sensitive guest and property information without relying on third-party vendors.\n\n### Eliminate recurring costs\nGeneric PMS providers charge per property, per user, or per booking. A custom solution represents a one-time investment with potential for significant long-term savings, freeing up capital for property improvements or marketing.\n\n### Seamless integration by design\nConnect natively with your preferred booking channels (Airbnb, Booking.com), payment processors, smart home devices, and local service providers. Automate data flow between systems without complex workarounds.\n\n### Future-proof your business\nAs your portfolio grows or market demands shift, your custom system can evolve. Easily add new features, scale to accommodate more properties, or integrate emerging technologies like AI for dynamic pricing or personalized guest services.\n\n## Real-world impact on rental operations\n\nCustom vacation rental management tools can revolutionize your business:\n\n**Automated Guest Journeys**: From booking confirmation to pre-arrival instructions, key handover details, and post-stay feedback, automate every touchpoint for a superior guest experience.\n\n**Dynamic Pricing and Availability**: Set up rules to automatically adjust prices based on demand, seasonality, local events, or competitor rates, maximizing occupancy and revenue.\n\n**Maintenance and Housekeeping Coordination**: Create an automated schedule for cleaning and maintenance tasks triggered by check-outs, assign tasks to staff, and track completion, ensuring properties are always guest-ready.\n\n**Owner Portals**: Provide property owners with secure access to booking calendars, financial reports, and property performance metrics, building trust and transparency.\n\n## The Kliv Advantage: Build smarter, not harder\n\nKliv's AI-powered platform makes custom software development accessible to anyone, regardless of technical expertise. You can:\n\n- **Describe your needs in plain language**: Tell the AI what you want your system to do.\n- **Rapidly prototype and iterate**: See your concepts come to life quickly and make real-time adjustments.\n- **Benefit from intelligent suggestions**: Kliv's AI assists with structuring data, recommending integrations, and optimizing workflows.\n- **Focus on your business, not the code**: Spend less time on development and more time growing your rental empire.\n\nInstead of fitting your square peg business into a round hole solution, build the perfect tool that empowers you to manage your vacation rentals with unprecedented efficiency and precision."
+    },
+    {
+      "title": "System Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Streamline guest arrivals from booking to check-out.",
+          "prompt": "Create a guest communication and check-in system that sends automated booking confirmations, pre-arrival instructions, unique digital door codes, and post-stay follow-ups. Include a way for guests to report issues during their stay.",
+          "title": "Automated Guest Journey CRM"
+        },
+        {
+          "description": "Manage property listings across multiple booking channels.",
+          "prompt": "Build a channel manager that synchronizes availability and pricing across Airbnb, Booking.com, and a custom direct booking website. When a booking comes in from one platform, it should automatically update the others.",
+          "title": "Multi-Channel Syncer"
+        },
+        {
+          "description": "Automate cleaning and maintenance tasks based on bookings.",
+          "prompt": "Develop a maintenance and cleaning scheduler that automatically generates cleaning tasks after each check-out, assigns them to available staff, tracks completion status, and alerts if a property needs urgent repair.",
+          "title": "Smart Task Dispatcher"
+        },
+        {
+          "description": "Track expenses, income, and generate financial reports.",
+          "prompt": "Design a financial tracking system for vacation rentals that allows me to input income from bookings and expenses (cleaning, utilities, repairs). It should generate monthly and annual profit/loss reports per property and for my entire portfolio.",
+          "title": "Rental Finance Dashboard"
+        },
+        {
+          "description": "Centralize property details, photos, and amenities.",
+          "prompt": "Build a property database that stores detailed information about each rental unit, including photos, amenities, bed configurations, access instructions, Wi-Fi details, and important notes for staff.",
+          "title": "Property Information Hub"
+        },
+        {
+          "description": "Provide a portal for property owners to view performance.",
+          "prompt": "Create a secure owner's portal where property owners can log in and view their property's booking calendar, financial statements, and occupancy rates. Include a way for them to submit maintenance requests.",
+          "title": "Owner Transparency Portal"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Rental Management Tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a dynamic pricing engine that uses occupancy rates, seasonal demand, and local event data to automatically adjust nightly rates.",
+          "title": "Integrate Dynamic Pricing"
+        },
+        {
+          "prompt": "Implement SMS gateway for urgent guest communications and automated alerts for staff members.",
+          "title": "Add SMS Notifications"
+        },
+        {
+          "prompt": "Build an integrated direct booking website where guests can check availability and book directly without paying platform fees.",
+          "title": "Add Direct Booking Engine"
+        },
+        {
+          "prompt": "Create a review management module that prompts guests for reviews after check-out and aggregates reviews from different platforms.",
+          "title": "Implement Review Aggregation"
+        },
+        {
+          "prompt": "Connect with smart home devices (smart locks, thermostats) to automate guest access and energy efficiency.",
+          "title": "Smart Home Integration"
+        },
+        {
+          "prompt": "Develop a guest feedback system with automated surveys and sentiment analysis to identify common issues and improve guest satisfaction.",
+          "title": "Guest Feedback Mechanism"
+        },
+        {
+          "prompt": "Include an expense management feature that allows users to capture receipts via photo and categorize expenses for tax purposes.",
+          "title": "Expense Tracking with OCR"
+        },
+        {
+          "prompt": "Add a mobile app version for staff to manage cleaning tasks, check-ins, and maintenance requests on the go.",
+          "title": "Staff Mobile App"
+        },
+        {
+          "prompt": "Build interactive floor plans and virtual tours for each property listing within the system.",
+          "title": "Interactive Property Tours"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities for Your System",
+      "type": "features",
+      "items": [
+        {
+          "description": "Centralized calendar view for all properties and bookings.",
+          "icon": "📅",
+          "title": "Unified Calendar"
+        },
+        {
+          "description": "Automated guest messaging, pre-arrival guides, and check-out instructions.",
+          "icon": "💬",
+          "title": "Guest Communication"
+        },
+        {
+          "description": "Manage property profiles, descriptions, amenities, and photos.",
+          "icon": "🏠",
+          "title": "Property Management"
+        },
+        {
+          "description": "Schedule cleaning, maintenance, and track task completion.",
+          "icon": "🛠️",
+          "title": "Task Automation"
+        },
+        {
+          "description": "Track income, expenses, and generate insightful financial reports.",
+          "icon": "💰",
+          "title": "Financial Reporting"
+        },
+        {
+          "description": "Dashboard for performance metrics like occupancy, revenue, and guest satisfaction.",
+          "icon": "📈",
+          "title": "Analytics & Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Yes, you can integrate your custom system with popular booking platforms like Airbnb, Booking.com, and Vrbo, typically via their APIs. Kliv's AI can help you define and build these connections.",
+          "question": "Can my custom vacation rental system connect to Airbnb or Booking.com?"
+        },
+        {
+          "answer": "Building a core system to manage bookings and properties can take as little as a few days to a couple of weeks, depending on the complexity of integrations and desired features. Kliv accelerates this process significantly.",
+          "question": "How long will it take to build a custom vacation rental management system?"
+        },
+        {
+          "answer": "Absolutely not. Kliv allows you to describe your system requirements in natural language. The AI translates these into functional software, handling the underlying coding.",
+          "question": "Do I need to be a programmer to build this type of system with Kliv?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property. The system, its data, and any code generated are entirely yours. You're never locked into Kliv's platform for ongoing operation.",
+          "question": "Who owns the software and data once it's built?"
+        },
+        {
+          "answer": "A custom-built system requires an initial investment but eliminates recurring subscription fees common with off-the-shelf PMS solutions. Over time, it's often significantly more cost-effective as you only pay for what you build and own.",
+          "question": "Is building my own system more expensive than buying an off-the-shelf solution?"
+        },
+        {
+          "answer": "Yes, flexibility is a key advantage. You can continuously iterate, add new features, integrate more services, or adapt existing workflows as your business evolves, without waiting for a vendor to release updates.",
+          "question": "Can I modify or expand my system after it's initially created?"
+        },
+        {
+          "answer": "Kliv helps you design secure systems. You control hosting environments, data encryption, and access permissions, giving you a higher degree of control over security compared to relying on third-party vendors' practices.",
+          "question": "How secure will my custom vacation rental management system be?"
+        },
+        {
+          "answer": "Yes, systems built with Kliv can be deployed to various cloud providers (AWS, Google Cloud, Azure) or your own servers, giving you complete control over the hosting environment and scalability.",
+          "question": "Where can I host my custom vacation rental management system?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Transform Your Rental Business?",
+      "type": "cta",
+      "content": "Stop letting generic software dictate how you manage your properties. Build the perfect system that empowers your success."
+    }
+  ],
+  "title": "Custom Vacation Rental Management Software"
+}

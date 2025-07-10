@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an AI agent that can perform complex research tasks, synthesize information from multiple sources, and present findings in a structured report. It should be able to learn from feedback and adapt its research strategies over time.",
+  "description": "Develop and orchestrate intelligent AI agents tailored to your specific business needs with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Building Agents",
+    "subtitle": "Design, deploy, and manage AI agents that automate complex tasks, from data analysis to content generation and beyond.",
+    "title": "Build and Orchestrate Custom AI Agents"
+  },
+  "metaDescription": "Create powerful, specialized AI agents and orchestrate their interactions with Kliv. Automate complex workflows, gain insights, and drive innovation with custom-built intelligent systems.",
+  "sections": [
+    {
+      "title": "The Rise of Custom AI Agents: Why Build Your Own?",
+      "type": "text",
+      "content": "In today's rapidly evolving AI landscape, generic large language models are just the beginning. The real power lies in building specialized AI agents capable of performing specific tasks, interacting with various systems, and even collaborating with other agents. While off-the-shelf AI tools offer broad capabilities, they often lack the precision, proprietary data integration, and nuanced control required for high-value business operations.\n\nBuilding your own AI agents and orchestration layer empowers you to create hyper-efficient, domain-specific solutions that perfectly align with your operational requirements. This approach ensures data security, intellectual property protection, and allows for continuous adaptation and improvement."
+    },
+    {
+      "title": "Making the Case for Bespoke AI Agents and Orchestration",
+      "type": "markdown",
+      "content": "## Limitations of General-Purpose AI\n\nWhile publicly available AI models are impressive, they come with inherent limitations for specific business needs:\n\n- **Lack of Specialization**: They don't understand your unique business context, jargon, or data structures.\n- **Data Privacy Concerns**: Sending sensitive internal data to third-party public models carries risks.\n- **Limited Control**: You can't deeply customize their behavior, integrate them seamlessly with your internal systems, or control their learning loops.\n- **Cost Inefficiency**: Recurring API fees can escalate rapidly with high usage.\n\n## The Strategic Advantage of Custom AI Agents\n\nBuilding your own AI agents, especially with a robust orchestration layer, offers unparalleled benefits:\n\n### Hyper-Specialization and Precision\nYour agents can be trained on your proprietary data, understand your internal processes, and be fine-tuned for specific, complex tasks. Imagine an agent that understands your customer service history to provide precise, on-brand responses, or one that processes financial reports with industry-specific anomaly detection.\n\n### Ironclad Data Security\nBy developing and deploying agents within your own controlled environment, you maintain complete sovereignty over your data. No more worries about sensitive information being exposed or used to train public models.\n\n### Seamless System Integration\nConnect your custom agents directly to your CRM, ERP, databases, internal APIs, and legacy systems. This allows for true end-to-end automation and data flow, eliminating manual bridging and data silos.\n\n### Adaptive Intelligence\nBeyond just executing tasks, custom agents can be designed with feedback loops, allowing them to learn from interactions, adapt to new information, and continuously improve their performance over time. This creates a self-optimizing system.\n\n### Cost Efficiency and Ownership\nInstead of paying per-query or subscription fees that scale with usage, a custom solution built with Kliv represents a one-time investment with long-term cost benefits. You own the intellectual property and can refine it endlessly.\n\n### Orchestrated Collaboration\nComplex tasks often require more than one AI. An orchestration layer allows multiple specialized agents to cooperate, delegating sub-tasks, sharing information, and coordinating their actions to achieve a common goal, mimicking a highly efficient expert team.\n\n## Real-World Impact Scenarios\n\nCustom AI agents are not science fiction; they are transforming industries:\n\n**Legal**: An agent specializing in contract review, identifying specific clauses, flagging risks, or summarizing key terms from vast legal documents.\n\n**Healthcare**: An agent analyzing patient records for early disease detection, or automating complex billing and insurance claim submissions.\n\n**Finance**: An agent monitoring market data for arbitrage opportunities, or performing automated fraud detection across millions of transactions.\n\n**Manufacturing**: Agents optimizing supply chain logistics, predicting equipment failures, or managing quality control processes with real-time sensor data.\n\n## The Kliv.dev Advantage\n\nKliv's platform simplifies the development of these sophisticated AI systems. You can describe your agent's role, its required capabilities, and how different agents should interact. The AI assists in scaffolding the architecture, coding the logic, and setting up the deployment environment. Focus on defining your intelligent agents, and let Kliv handle the heavy lifting."
+    },
+    {
+      "title": "AI Agent Concepts to Explore",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "An agent that analyzes sentiment across customer feedback channels and summarizes key themes.",
+          "prompt": "Create an AI agent that monitors social media, customer support tickets, and review sites, performs sentiment analysis on new mentions, identifies recurring issues, and generates a daily summary report of customer sentiment trends.",
+          "title": "Customer Feedback Analyst Agent"
+        },
+        {
+          "description": "Automated content generation for marketing, tailored to specific campaigns.",
+          "prompt": "Build an AI agent that generates marketing copy for product launches, including social media posts, email newsletters, and blog outlines, ensuring brand voice consistency and incorporating SEO keywords from our database.",
+          "title": "Marketing Content Creator Agent"
+        },
+        {
+          "description": "Evaluates potential investments based on real-time and historical financial data.",
+          "prompt": "Develop an AI agent that constantly monitors stock market data, company financial statements, and news feeds, identifies undervalued assets or emerging market trends, and provides investment recommendations with risk assessments.",
+          "title": "Financial Market Analyst Agent"
+        },
+        {
+          "description": "Manages and updates a company's internal knowledge base automatically.",
+          "prompt": "Design an AI agent that ingests new internal documents, project reports, and meeting transcripts, extracts key information, classifies it, and updates our internal knowledge base with relevant, searchable content, identifying outdated information for archiving.",
+          "title": "Enterprise Knowledge Management Agent"
+        },
+        {
+          "description": "Optimizes logistics and delivery routes in real-time.",
+          "prompt": "Create an AI agent system that optimizes delivery routes for our fleet based on real-time traffic, weather conditions, delivery priorities, and vehicle capacity, dynamically adjusting schedules and notifying drivers of changes.",
+          "title": "Dynamic Logistics Agent"
+        },
+        {
+          "description": "Assists software developers by generating code snippets and debugging.",
+          "prompt": "Build an AI agent that integrates with our coding environment, suggests code snippets based on context, identifies potential bugs or security vulnerabilities, and generates unit tests for new functions, learning from our codebase patterns.",
+          "title": "Code Assistant Agent"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for Your Intelligent Agents",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate the agent with a real-time data streaming platform (e.g., Kafka) to enable continuous processing of live data feeds.",
+          "title": "Add Real-time Data Ingestion"
+        },
+        {
+          "prompt": "Implement a user-friendly web interface for monitoring agent performance, adjusting parameters, and viewing logs.",
+          "title": "Build a Monitoring Dashboard"
+        },
+        {
+          "prompt": "Develop an orchestration layer that allows multiple agents to collaborate on complex tasks, assigning sub-tasks and managing dependencies.",
+          "title": "Develop Multi-Agent Orchestration"
+        },
+        {
+          "prompt": "Add a human-in-the-loop validation step where the agent's critical decisions or outputs require manual approval before execution.",
+          "title": "Implement Human-in-the-Loop Validation"
+        },
+        {
+          "prompt": "Enable the agent to learn from user feedback, allowing users to correct outputs or provide preferences that refine future agent behavior.",
+          "title": "Incorporate Feedback Loops"
+        },
+        {
+          "prompt": "Add support for custom tool integration, allowing the agent to call external APIs, run scripts, or interact with specific software applications.",
+          "title": "Extend Tool Call Capabilities"
+        },
+        {
+          "prompt": "Integrate advanced security features like secure key management, access control for agent functions, and audit logging.",
+          "title": "Enhance Security and Compliance"
+        },
+        {
+          "prompt": "Create an alert system that notifies relevant personnel via email or Slack when the agent encounters an error, a rare event, or completes a critical task.",
+          "title": "Develop Proactive Alerting"
+        },
+        {
+          "prompt": "Implement A/B testing capabilities for different agent strategies or model versions to compare performance and optimize effectiveness.",
+          "title": "Add A/B Testing for Agent Strategies"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities for Custom AI Agents",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define agent roles, objectives, and personalities easily through natural language.",
+          "icon": "📝",
+          "title": "Agent Definition & Design"
+        },
+        {
+          "description": "Seamlessly connect agents to internal databases, APIs, and external services.",
+          "icon": "🔗",
+          "title": "Data & Tool Integration"
+        },
+        {
+          "description": "Develop sophisticated workflows for agents to perform multi-step, conditional tasks.",
+          "icon": "⚙️",
+          "title": "Task & Workflow Automation"
+        },
+        {
+          "description": "Build systems where agents can collaborate, delegate tasks, and share information.",
+          "icon": "🤝",
+          "title": "Multi-Agent Orchestration"
+        },
+        {
+          "description": "Incorporate feedback mechanisms for agents to self-improve and adapt over time.",
+          "icon": "🧠",
+          "title": "Adaptive Learning Modules"
+        },
+        {
+          "description": "Comprehensive tools for monitoring agent activity, performance, and resource usage.",
+          "icon": "📊",
+          "title": "Performance Monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building Custom AI Agents",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The initial build time for a basic AI agent can be as short as a few hours, depending on complexity. More sophisticated agents with intricate orchestration and integrations might take a few days to a week to mature.",
+          "question": "How long does it take to develop a functional AI agent?"
+        },
+        {
+          "answer": "While Kliv's platform significantly reduces the need for traditional coding, understanding the principles of AI, data flow, and agent logic will help you define your requirements more effectively. No deep programming knowledge is strictly required.",
+          "question": "Do I need to be an expert in AI or coding to build agents?"
+        },
+        {
+          "answer": "Yes, custom AI agents excel at integrating with existing systems. You can connect them to your CRM, ERP, internal databases, cloud storage, and any system with an accessible API to ensure seamless data exchange and task execution.",
+          "question": "Can these AI agents integrate with my current business software?"
+        },
+        {
+          "answer": "You retain full ownership of the AI agents you build, including their logic, training data, and any generated outputs. Your intellectual property is protected, sitting on infrastructure you control, not on a third-party's servers.",
+          "question": "Who owns the AI agents and the data they process?"
+        },
+        {
+          "answer": "Building custom agents with Kliv is typically more cost-effective in the long run than continuous subscriptions to specialized SaaS AI tools. You invest upfront in a self-owned asset, avoiding recurring usage-based fees that can escalate.",
+          "question": "How does the cost compare to using commercial AI agent services?"
+        },
+        {
+          "answer": "Absolutely. Custom agents are designed for flexibility. You can easily modify their behaviors, add new capabilities, integrate new data sources, or adjust their orchestration logic as your business needs evolve, without vendor lock-in.",
+          "question": "Can I modify or expand my AI agents after they are deployed?"
+        },
+        {
+          "answer": "Yes, in many cases, custom agents can be more secure. By hosting and managing your agents within your own environment, you control data access, encryption, and compliance, eliminating reliance on third-party security postures.",
+          "question": "Is building my own AI agent more secure than using external platforms?"
+        },
+        {
+          "answer": "Kliv provides robust tools for managing and monitoring your agents. This includes performance metrics, error logging, and debugging features within the platform. You're equipped to ensure your agents run efficiently and reliably.",
+          "question": "What kind of support is available for managing my custom agents?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Unlock the Power of Custom AI Agents?",
+      "type": "cta",
+      "content": "Move beyond generic AI. Build intelligent agents that work precisely for your business, driving automation and innovation at scale. Start creating your bespoke AI workforce today."
+    }
+  ],
+  "title": "Custom AI Agent Creation & Orchestration Platform"
+}

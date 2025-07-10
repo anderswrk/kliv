@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a product catalog application with barcode scanning capability for inventory management. It should allow me to add products, track stock levels using barcodes, and generate reports.",
+  "description": "Build your own custom product catalog and barcode scanning application for precise inventory control.",
+  "hero": {
+    "cta": "Start managing inventory",
+    "subtitle": "Gain complete control over your inventory with a tailored product catalog and barcode scanning system.",
+    "title": "Custom Product Catalog & Barcode Scanner"
+  },
+  "metaDescription": "Create a powerful custom product catalog and barcode scanning application with Kliv. Track inventory, manage products, and streamline operations for businesses of any size.",
+  "sections": [
+    {
+      "title": "The challenge of off-the-shelf inventory solutions",
+      "type": "text",
+      "content": "Off-the-shelf inventory management software often comes with compromises: unnecessary features you pay for, essential functions you lack, or complex interfaces that slow down your team. For many businesses, a 'one-size-fits-all' approach simply doesn't fit.\n\nControlling inventory precisely means knowing exactly what you have, where it is, and when you need more. This real-time visibility is critical for managing costs, preventing stockouts, and enhancing customer satisfaction. A custom solution provides the exact functionality your process demands."
+    },
+    {
+      "title": "Why a custom product catalog and barcode system is superior",
+      "type": "markdown",
+      "content": "## Escape the limitations of generic software\n\nMany businesses struggle with inventory systems that are either too basic, too expensive, or overly complicated. These tools often result in:\n\n- **Inaccurate stock counts**: Leading to lost sales or excess inventory.\n- **Inefficient workflows**: Manual data entry or complex navigation reduces productivity.\n- **Lack of critical features**: Specific needs like batch tracking or custom reporting are often missing.\n- **High recurring costs**: Monthly subscriptions for features you don't even use.\n- **Integration headaches**: Difficulty connecting with your existing POS, accounting, or e-commerce platforms.\n\n## The tailored advantage\n\nBuilding a custom product catalog and barcode scanning application with Kliv empowers you to create a system that truly aligns with your operational reality. Here's why it's a game-changer:\n\n### Precision Inventory Tracking\nTrack every single item with absolute accuracy. Implement custom fields for serial numbers, batch codes, or expiration dates. Barcode scanning ensures quick and error-free data entry, reducing manual mistakes and saving time during receiving, picking, and shipping.\n\n### Optimized Workflows\nDesign the system to mimic your physical processes, not the other way around. Whether it's multi-location inventory, specific pick-pack-ship flows, or unique return processes, your custom tool adapts to you. This means faster operations, less training, and improved efficiency for your team.\n\n### Data & Reporting Tailored to You\nGeneric reports rarely provide the insights you need. With a custom solution, you can define exactly what data you want to track and how you want to see it. Generate real-time reports on stock levels, turnover rates, product profitability, or vendor performance—all on demand and critical to informed decision-making.\n\n### Scalability and Future-Proofing\nYour business will evolve, and your inventory system should too. A custom application can easily be extended with new features, integrations, or expanded capacity without being blocked by vendor roadmaps or expensive upgrade paths. You own the solution, ensuring it grows with you.\n\n### Cost Efficiency in the Long Run\nWhile initial setup might involve focused development, the absence of perpetual subscription fees and the significant gains in operational efficiency mean a custom system often delivers a superior return on investment over time.\n\n## Real-world impact\n\nCustom inventory solutions are delivering tangible benefits across various sectors:\n\n**Retail**: Streamlined in-store inventory audits using mobile barcode scanners, real-time stock updates for e-commerce, and automated reordering.\n\n**Warehousing & Distribution**: Optimized picking paths, precise location tracking for every SKU, and automated shipping label generation.\n\n**Manufacturing**: Component tracking from raw material to finished product, quality control checkpoints via barcode scans, and efficient work-in-progress inventory management.\n\n**Healthcare**: Secure tracking of medical supplies, equipment maintenance schedules linked to asset tags, and automated alerts for expiring medications.\n\n## The Kliv difference\n\nKliv transforms the complex task of custom software development into an accessible process:\n\n- **Rapid Development**: Go from concept to a working application in days, not months.\n- **Intuitive Interface**: Describe your needs in plain language, and Kliv's AI helps build the system.\n- **Complete Ownership**: You own the code, giving you full control and flexibility.\n\nStop adapting your business to outdated software. Build an inventory management system that works for you, optimized for your products and your processes."
+    },
+    {
+      "title": "Product catalog & barcode management ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track serialized products with detailed history",
+          "prompt": "Create an inventory system for electronic components. Each component has a unique serial number, and I need to track when it was received, where it's stored, and which finished product it was used in.",
+          "title": "Electronics component tracking"
+        },
+        {
+          "description": "Manage books by ISBN, location, and condition",
+          "prompt": "Build a library management system. Books should be cataloged by ISBN, title, author, and genre. I need to track their physical location (shelf, room) and current condition, with barcode scanning for check-in/check-out.",
+          "title": "Library inventory system"
+        },
+        {
+          "description": "Oversee construction materials and tools",
+          "prompt": "Develop an inventory application for a construction site. I need to track building materials, tools, and heavy equipment. Each item should have a unique ID (barcode), last known location, and maintenance schedule. Allow for checking items in and out.",
+          "title": "Construction site asset tracking"
+        },
+        {
+          "description": "Handle perishable goods with expiry date tracking",
+          "prompt": "Design an inventory system for a food distributor. The system must allow me to add products with expiry dates and batch numbers. Barcode scanning should facilitate 'first-in, first-out' (FIFO) picking and alert me when items are nearing expiration.",
+          "title": "Food inventory with expiry dates"
+        },
+        {
+          "description": "Organize retail stock across multiple locations",
+          "prompt": "I need a retail inventory system that can manage stock across five separate store locations and a central warehouse. It should allow for transfers between locations, track sales per item, and generate reorder suggestions based on par levels. Barcodes will be used for all transactions.",
+          "title": "Multi-location retail inventory"
+        },
+        {
+          "description": "Manage chemicals and safety data sheets",
+          "prompt": "Build a chemical inventory system for a lab. Each chemical container needs a unique ID (barcode), amount, location, and a link to its Material Safety Data Sheet (MSDS). I need to track usage and disposition.",
+          "title": "Laboratory chemical inventory"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your inventory system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to print custom barcode labels directly from the application for new products or locations.",
+          "title": "Custom barcode label printing"
+        },
+        {
+          "prompt": "Integrate with a shipping carrier's API (e.g., FedEx, UPS) to generate shipping labels and track packages directly from the order fulfillment workflow.",
+          "title": "Shipping carrier integration"
+        },
+        {
+          "prompt": "Implement a 'low stock' alert system that automatically notifies designated users or generates purchase orders when inventory levels fall below a set threshold.",
+          "title": "Automated low stock alerts"
+        },
+        {
+          "prompt": "Add a vendor management module where I can store vendor contact details, purchase history for each product, and lead times.",
+          "title": "Vendor management module"
+        },
+        {
+          "prompt": "Develop a cycle counting feature that guides users through counting specific sections of inventory regularly and updates stock levels.",
+          "title": "Cycle counting functionality"
+        },
+        {
+          "prompt": "Include detailed sales reporting tied to inventory drawdown, allowing me to see which products are selling best, sales trends, and profit margins.",
+          "title": "Advanced sales analytics"
+        },
+        {
+          "prompt": "Add multi-user access with different permission levels (e.g., administrator, inventory clerk, viewer) to control who can add/edit products or make stock adjustments.",
+          "title": "User roles and permissions"
+        },
+        {
+          "prompt": "Enable photo uploads for each product in the catalog, allowing visual identification and detailed product descriptions.",
+          "title": "Rich product descriptions with images"
+        },
+        {
+          "prompt": "Create an audit trail for all inventory movements, showing who made which change, when, and for what product.",
+          "title": "Comprehensive audit logging"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your custom system",
+      "type": "features",
+      "items": [
+        {
+          "description": "Effortlessly add and update product details, categories, and custom attributes.",
+          "icon": "📦",
+          "title": "Dynamic Product Catalog"
+        },
+        {
+          "description": "Scan barcodes quickly using mobile devices or dedicated scanners for accurate data entry.",
+          "icon": "📱",
+          "title": "Mobile Barcode Scanning"
+        },
+        {
+          "description": "Maintain real-time stock levels, locations, and movements for ultimate precision.",
+          "icon": "📈",
+          "title": "Accurate Inventory Tracking"
+        },
+        {
+          "description": "Generate custom reports on stock levels, sales, usage, and reorder points.",
+          "icon": "📊",
+          "title": "Tailored Reporting"
+        },
+        {
+          "description": "Integrate seamlessly with existing POS, e-commerce, or accounting systems.",
+          "icon": "🔗",
+          "title": "Robust Integration Options"
+        },
+        {
+          "description": "Track items with serial numbers, batch codes, or expiry dates for enhanced control.",
+          "icon": "🔍",
+          "title": "Detailed Item Attributes"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom product catalog and barcode scanning application with Kliv can be remarkably fast. Basic versions can be prototyped in hours, and fully functional systems with advanced features can be ready in days or a few weeks, depending on complexity.",
+          "question": "How quickly can I build a custom inventory system?"
+        },
+        {
+          "answer": "Not at all. Kliv's platform allows you to describe your desired features and workflows in natural language. The AI assists in translating your requirements into a functional application, making it accessible even for users without programming knowledge.",
+          "question": "Do I need to be a developer to build this type of application?"
+        },
+        {
+          "answer": "Yes, custom solutions built with Kliv can integrate with a wide range of external services like POS systems, accounting software (e.g., QuickBooks), e-commerce platforms (e.g., Shopify), or shipping carriers via APIs, ensuring a cohesive business ecosystem.",
+          "question": "Can my custom application connect with existing business tools?"
+        },
+        {
+          "answer": "Absolutely. You retain full ownership of the application, its code, and all your data. This gives you unparalleled flexibility to modify, expand, or host the system as your business needs evolve, free from vendor lock-in.",
+          "question": "What about data ownership and system control?"
+        },
+        {
+          "answer": "While there's an initial development investment, a custom solution eliminates recurring subscription fees common with off-the-shelf software. Over time, the cost savings, combined with improved efficiency and accuracy, often result in a significantly lower total cost of ownership.",
+          "question": "How does the cost compare to off-the-shelf inventory software?"
+        },
+        {
+          "answer": "Yes, custom applications can be designed to support multi-user access with granular permissions, allowing different team members to have specific roles and access levels within the system, ensuring data security and process integrity.",
+          "question": "Can multiple users access and update the inventory records simultaneously?"
+        },
+        {
+          "answer": "Kliv provides tools and guidance for optimizing performance and scalability from the outset. As your business grows, you can easily add more storage, processing power, or features to your custom application to handle increased inventory volumes or user loads.",
+          "question": "What if my inventory needs grow significantly?"
+        },
+        {
+          "answer": "Kliv offers continuous support through intelligent prompts, debugging assistance, and best practice recommendations during the build process. Post-launch, because you own the solution, you have complete control over maintenance, or you can leverage external developers if needed.",
+          "question": "What support is available after the application is built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain complete control over your inventory?",
+      "type": "cta",
+      "content": "Stop wrestling with generic software. Build an inventory management system that is perfectly designed for your business, optimizing your operations and boosting your bottom line."
+    }
+  ],
+  "title": "Product Catalog & Barcode Scanner"
+}

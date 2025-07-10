@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I need a regulatory compliance and reporting system that tracks changes in financial regulations, audits internal processes for adherence, and generates automated reports for submission to regulatory bodies.",
+  "description": "Build custom regulatory compliance and reporting applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your compliance tool",
+    "subtitle": "Ensure adherence to complex regulations and automate reporting with AI-driven compliance applications.",
+    "title": "Custom Regulatory Compliance & Reporting Tools"
+  },
+  "metaDescription": "Create powerful regulatory compliance and reporting tools with Kliv. Stay ahead of changing regulations, streamline auditing, and automate report generation for various industries.",
+  "sections": [
+    {
+      "title": "The growing challenge of regulatory compliance",
+      "type": "text",
+      "content": "In today's dynamic business environment, regulatory landscapes are constantly shifting. Companies across all sectors face an ever-increasing burden of compliance, from financial regulations like GDPR and CCPA to industry-specific standards.\n\nFailing to meet these requirements can result in hefty fines, reputational damage, and even operational shutdowns. While off-the-shelf software exists, it often falls short in adapting to unique business processes or niche regulatory frameworks. Building your own bespoke solution allows for precision, flexibility, and complete control."
+    },
+    {
+      "title": "Why a custom compliance solution is essential",
+      "type": "markdown",
+      "content": "## The pitfalls of generic compliance software\n\nMany organizations rely on one-size-fits-all compliance tools that often lead to:\n\n- **Incomplete coverage**: Generic tools might miss specific regulations relevant to your industry or region.\n- **Rigid workflows**: They force your processes to adapt to the software, instead of the other way around.\n- **Integration headaches**: Difficulty connecting with your existing internal systems like CRM, ERP, or HR platforms.\n- **High recurring costs**: Subscription models that quickly become expensive, especially for enterprise-level needs.\n- **Lack of transparency**: Limited insight into how data is processed or how audits are performed.\n\n## The undeniable advantages of bespoke development\n\nThe ability to develop tailor-made compliance and reporting solutions is a game-changer. With Kliv, you can create a system that truly understands your business:\n\n### Precision for specific regulations\nGeneric tools won't cover every nuance of your specific industry's regulations. A custom solution can be built to handle the exact compliance requirements your business faces, no matter how specialized.\n\n### Seamless integration with your ecosystem\nConnect your compliance tool directly to your existing data sources, business applications, and operational systems, ensuring a unified view of your compliance posture.\n\n### Adaptability to evolving rules\nWhen regulations change (and they always do), your custom application can be updated quickly and precisely, without waiting for a vendor's product roadmap.\n\n### Cost-effectiveness in the long run\nInvest once in a solution that perfectly fits your needs, instead of paying endless subscriptions for features you don't use or missing crucial functionalities.\n\n### Enhanced auditability and transparency\nControl every data point and audit trail within your system, making it easier to demonstrate compliance to regulators and internal stakeholders.\n\n## Real-world impact of custom compliance tools\n\nCustom applications can significantly improve compliance management:\n\n**Financial Services**: Automated monitoring of trading activities for market manipulation detection, ensuring adherence to KYC/AML regulations, and generating audit-ready reports for SEC or FINRA.\n\n**Healthcare**: HIPAA-compliant patient data management, automated consent tracking, and reporting on data access logs for privacy audits.\n\n**Manufacturing**: Tracking supply chain origins for ethical sourcing compliance, ensuring product safety standards are met, and auto-generating emissions reports.\n\n**Data Privacy (e.g., GDPR/CCPA)**: Systems that manage data subject requests, automate data deletion processes, and maintain detailed records of consent for personal data processing.\n\n## The Kliv advantage in compliance development\n\nBuilding robust compliance software used to be complex and expensive. Kliv simplifies this with AI:\n\n- **Natural language interface**: Describe your compliance needs in plain language, and Kliv helps build the solution.\n- **Rapid prototyping**: Quickly iterate and test different compliance workflows and reporting formats.\n- **Intelligent suggestions**: Get AI-driven recommendations for best practices in data handling and security.\n- **Automated code generation**: Focus on defining the rules; Kliv handles the backend development.\n\nTake control of your regulatory burden. Build a system that gives you confidence and frees up valuable resources."
+    },
+    {
+      "title": "Regulatory compliance ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Monitor and report on financial transaction compliance.",
+          "prompt": "Create a tool to track all financial transactions, flag suspicious activities based on predefined rules (e.g., AML), and generate SAR (Suspicious Activity Report) filings automatically for FinCEN.",
+          "title": "AML Transaction Monitoring System"
+        },
+        {
+          "description": "Manage and report on personal data privacy compliance.",
+          "prompt": "Design an application to manage GDPR/CCPA data subject access requests (DSARs), record consent preferences, and maintain a comprehensive audit log of data processing activities.",
+          "title": "Data Privacy Request Handler"
+        },
+        {
+          "description": "Automate environmental reporting for industrial facilities.",
+          "prompt": "Build a system to collect data from environmental sensors (e.g., emissions, water discharge), compare against EPA standards, and generate quarterly or annual compliance reports.",
+          "title": "Environmental Reporting System"
+        },
+        {
+          "description": "Track and manage employee training for industry regulations.",
+          "prompt": "Develop an HR compliance tool that tracks mandatory employee training and certifications (e.g., HIPAA training for healthcare), sends automated reminders, and generates reports on compliance rates.",
+          "title": "Employee Compliance Training Tracker"
+        },
+        {
+          "description": "Ensure product safety and quality adherence.",
+          "prompt": "Create a quality control system that logs product inspection data, identifies non-conformances based on ISO standards, and generates deviation reports for regulatory bodies.",
+          "title": "Product Quality & Safety Auditor"
+        },
+        {
+          "description": "Track and report on ethical sourcing in supply chains.",
+          "prompt": "Build a supply chain transparency tool that records supplier certifications, tracks origin of raw materials, and produces reports demonstrating compliance with ethical sourcing and labor laws.",
+          "title": "Supply Chain Ethical Sourcing Monitor"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your compliance tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a real-time regulatory feed to automatically update and alert users about changes in applicable laws and standards.",
+          "title": "Add regulatory intelligence API"
+        },
+        {
+          "prompt": "Implement a machine learning model to predict potential compliance breaches based on historical data and operational patterns.",
+          "title": "Integrate predictive analytics"
+        },
+        {
+          "prompt": "Develop a mobile interface for field agents or auditors to easily input data and access compliance checklists on-the-go.",
+          "title": "Create mobile audit interface"
+        },
+        {
+          "prompt": "Add a secure document management system specifically for storing and categorizing compliance-related documents, policies, and evidence.",
+          "title": "Implement secure document repository"
+        },
+        {
+          "prompt": "Build a comprehensive dashboard that visualizes key compliance metrics, risk areas, and audit findings with drill-down capabilities.",
+          "title": "Develop a compliance risk dashboard"
+        },
+        {
+          "prompt": "Enable two-way integration with government or industry reporting portals for direct, secure submission of required reports.",
+          "title": "Enable direct regulatory submission"
+        },
+        {
+          "prompt": "Incorporate AI to analyze unstructured data (e.g., emails, contracts) for compliance risks or opportunities.",
+          "title": "Add AI for text analysis"
+        },
+        {
+          "prompt": "Build multi-party blockchain integration for immutable record-keeping and enhanced transparency in supply chain compliance.",
+          "title": "Implement blockchain for auditing"
+        }
+      ]
+    },
+    {
+      "title": "Key compliance and reporting features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Dynamically adapt to specific industry standards and regulatory requirements.",
+          "icon": "⚙️",
+          "title": "Configurable rule sets"
+        },
+        {
+          "description": "Automatic collection and validation of data from various internal and external sources.",
+          "icon": "📥",
+          "title": "Automated data ingestion"
+        },
+        {
+          "description": "Generate audit trails, activity logs, and detailed reports for regulator submissions.",
+          "icon": "📋",
+          "title": "Robust reporting engine"
+        },
+        {
+          "description": "Define and manage user roles and permissions for sensitive compliance data.",
+          "icon": "🔐",
+          "title": "Access control & security"
+        },
+        {
+          "description": "Set alerts for policy violations, upcoming deadlines, or critical compliance changes.",
+          "icon": "⚠️",
+          "title": "Proactive alerts & notifications"
+        },
+        {
+          "description": "Track the status of audits, findings, and remediation actions through to completion.",
+          "icon": "✅",
+          "title": "Audit management & tracking"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom compliance tool with Kliv significantly reduces development time. A basic system can be functional within days, with complex features added iteratively over weeks, far faster than traditional development cycles.",
+          "question": "How long does it typically take to develop a custom compliance solution?"
+        },
+        {
+          "answer": "No deep technical or coding knowledge is required. Kliv’s AI-powered platform allows you to describe your compliance needs in plain language, and it assists in generating the application. You define the 'what,' and Kliv helps with the 'how.'",
+          "question": "Do I need a technical background or coding skills to build this?"
+        },
+        {
+          "answer": "Yes, custom-built tools excels in integration. You can connect your compliance application with your existing CRM, ERP, HR systems, data lakes, and even external regulatory feeds through various APIs and data connectors.",
+          "question": "Can the custom compliance tool integrate with my existing business systems?"
+        },
+        {
+          "answer": "The data and intellectual property of your custom compliance application belong entirely to you. You maintain full ownership and control over the data, the code, and how it is deployed and secured.",
+          "question": "Who owns the data and the application after it's built?"
+        },
+        {
+          "answer": "While initial investment might be required, custom solutions typically offer a stronger ROI than perpetual SaaS subscriptions, especially for complex or niche compliance needs. You pay for what you exactly need, without ongoing per-user or feature fees.",
+          "question": "How does the cost compare to off-the-shelf compliance software?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are designed for flexibility. As regulations evolve or your business needs change, you can easily modify rules, reporting formats, or add new features without being limited by a vendor's update schedule.",
+          "question": "What if regulatory requirements change after my tool is built?"
+        },
+        {
+          "answer": "You define the security architecture. You can implement the highest security standards, encryption, and access controls tailored to your specific data sensitivity and regulatory requirements, often surpassing generic SaaS offerings.",
+          "question": "How secure are custom-built compliance applications?"
+        },
+        {
+          "answer": "Kliv provides comprehensive support throughout the development process, including AI-driven guidance, debugging, and continuous improvement suggestions. Post-development, since you own the application, you have full control over its maintenance and updates.",
+          "question": "What kind of support is available if I encounter issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your compliance? ",
+      "type": "cta",
+      "content": "Stop reacting and start proacting. Build a custom compliance and reporting solution that fits your business perfectly, ensuring confidence and control."
+    }
+  ],
+  "title": "Regulatory Compliance & Reporting Tools"
+}

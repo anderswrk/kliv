@@ -1,0 +1,177 @@
+{
+  "defaultPrompt": "I want to build a customer support chatbot that can answer frequently asked questions, collect customer information, and escalate complex issues to human agents.",
+  "description": "Build custom AI chatbots and conversational UIs for customer relationship management.",
+  "hero": {
+    "cta": "Start building your chatbot",
+    "subtitle": "Provide instant support, automate inquiries, and enhance customer satisfaction with AI-powered conversational tools built on Kliv.",
+    "title": "Build your own CRM Chatbots & Conversational UIs"
+  },
+  "metaDescription": "Create powerful, custom AI chatbots and conversational UIs for improved CRM. Automate customer interactions, qualify leads, and provide 24/7 support with Kliv.",
+  "sections": [
+    {
+      "title": "Why build your own CRM chatbot solution?",
+      "type": "text",
+      "content": "In today's fast-paced digital world, customers expect instant answers and personalized interactions. Generic customer service solutions and off-the-shelf chatbots often fall short, struggling to truly understand your specific business context or integrate seamlessly with your existing CRM infrastructure.\n\nBuilding your own CRM chatbot or conversational UI with Kliv empowers you to create a solution perfectly tailored to your customer journey. You gain complete control over its intelligence, integration, and user experience, avoiding the limitations, recurring costs, and data silos of third-party vendors."
+    },
+    {
+      "title": "The strategic advantage of tailored conversational AI in CRM",
+      "type": "markdown",
+      "content": "## The limitations of one-size-fits-all chatbots\n\nMany businesses opt for pre-built chatbot solutions, only to discover they face significant hurdles:\n\n- **Lack of domain specificity**: They often fail to grasp the nuances of your industry or product lines.\n- **Poor integration**: Clunky or limited connections with your core CRM systems lead to fragmented data and inefficient workflows.\n- **Generic user experience**: They struggle to deliver the personalized, brand-consistent interactions your customers expect.\n- **Escalating subscription costs**: Fees stack up, especially as your usage or feature needs grow.\n- **Data privacy concerns**: Relinquishing control over sensitive customer data to external platforms.\n\n## Why a custom-built approach excels\n\nLeveraging Kliv's platform to develop your own CRM chatbot offers distinct competitive advantages:\n\n### Seamless CRM integration\n\nYour custom chatbot can be designed from the ground up to deeply integrate with your existing CRM, marketing automation, and sales platforms. This ensures unified customer data, real-time updates, and consistent service across all touchpoints. Imagine a chatbot that truly knows your customer's history.\n\n### Brand-centric voice and personality\n\nCraft a conversational AI that reflects your brand's unique voice, tone, and values. This creates a cohesive and professional customer experience that strengthens brand loyalty, rather than a generic interaction that feels impersonal.\n\n### Precision in problem-solving\n\nTrain your chatbot on your specific knowledge base, internal processes, and customer service playbooks. This allows it to handle complex, industry-specific inquiries with far greater accuracy and efficiency than a general-purpose bot, leading to higher first-contact resolution rates.\n\n### Cost efficiency and ownership\n\nInstead of perpetual subscription fees that increase with usage or features, a custom solution built with Kliv is a capital investment. You own the intellectual property, enabling long-term cost benefits and the flexibility to evolve your system without vendor lock-in.\n\n### Dynamic scalability and adaptability\n\nAs your business evolves, so can your chatbot. Easily add new features, expand its knowledge base, integrate with emerging technologies, or adapt its conversational flows to new campaigns or product launches. Your chatbot grows precisely with your business.\n\n## Real-world applications of CRM conversational UIs\n\nCustom chatbots are revolutionizing how businesses manage customer relationships:\n\n**E-commerce**: Customer service bots handling order status inquiries, product recommendations based on browsing history, and returns processing.\n\n**Financial Services**: AI assistants guiding users through loan applications, explaining complex financial products, or providing secure account information (after authentication).\n\n**Healthcare**: Symptom checkers, appointment scheduling, prescription refill requests, and FAQs about clinic services.\n\n**Software/SaaS**: Onboarding guides, troubleshooting assistants, feature explainers, and real-time support for technical queries.\n\n**Real Estate**: Property inquiry bots providing details, scheduling viewings, and pre-qualifying leads based on preferences.\n\n## The Kliv advantage for building conversational AI\n\nKliv transforms the complex process of developing sophisticated conversational UIs into an accessible journey:\n\n- **Natural Language Design**: Describe your chatbot's persona and functions in plain English, and Kliv's AI helps sculpt the conversation flow.\n- **Component-based Building**: Assemble complex dialogue trees, intent recognition, and integrations using intuitive, modular blocks.\n- **Data-driven Training**: Easily feed your chatbot with your specific FAQs, documentation, and customer interaction data to enhance its intelligence.\n- **Rapid Iteration**: Test, refine, and deploy new conversational capabilities quickly, adapting to customer feedback and evolving needs.\n\nBuilding your own CRM chatbot means creating a true extension of your customer service and sales teams, not just another piece of software.\n\nStart reimagining your customer interactions today with Kliv."
+    },
+    {
+      "title": "Chatbot ideas to enhance your CRM",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate answers to common customer service questions.",
+          "prompt": "Create a customer support chatbot that can answer frequently asked questions about product features, shipping policies, and returns, and then offer to connect to a live agent for complex issues.",
+          "title": "FAQ & Support Bot"
+        },
+        {
+          "description": "Pre-qualify leads and gather essential information.",
+          "prompt": "Build a lead qualification chatbot for a B2B SaaS company that asks visitors about their company size, industry, specific pain points, and current software stack, then categorizes them as hot, warm, or cold leads.",
+          "title": "Lead Qualification Bot"
+        },
+        {
+          "description": "Guide users through product setup or issue resolution.",
+          "prompt": "Develop an interactive troubleshooting bot for an electronics company that walks users through step-by-step diagnostics for common device problems, suggesting solutions and providing video tutorials.",
+          "title": "Technical Support Guide"
+        },
+        {
+          "description": "Assist customers with order tracking and modifications.",
+          "prompt": "Design an order management chatbot for an e-commerce store that can look up order status using an order number, allow customers to initiate a return, or change a shipping address before dispatch.",
+          "title": "Order & Returns Assistant"
+        },
+        {
+          "description": "Gather customer feedback post-interaction.",
+          "prompt": "Create a post-service feedback chatbot that sends a short survey after a support interaction, asking about agent helpfulness, resolution satisfaction, and collecting free-text comments.",
+          "title": "Customer Feedback Bot"
+        },
+        {
+          "description": "Provide personalized product or service recommendations.",
+          "prompt": "Build a recommendation bot for a streaming service that asks users about their preferred genres, actors, mood, and watch history, then suggests movies or shows and gives options to add to a watchlist.",
+          "title": "Personalized Recommender"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your conversational UI",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate the chatbot with our existing CRM (e.g., Salesforce, HubSpot) to automatically update customer records with conversation history and new lead information.",
+          "title": "CRM Integration"
+        },
+        {
+          "prompt": "Add a feature for the chatbot to recognize user sentiment (positive, negative, neutral) and adjust its responses or escalate immediately if sentiment is negative.",
+          "title": "Sentiment Analysis"
+        },
+        {
+          "prompt": "Enable the chatbot to process voice input from users and respond via text-to-speech for a more natural interaction.",
+          "title": "Voice Integration"
+        },
+        {
+          "prompt": "Develop an admin dashboard to monitor chatbot performance, common queries, escalation rates, and identify areas for improvement in its knowledge base.",
+          "title": "Performance Dashboard"
+        },
+        {
+          "prompt": "Allow the chatbot to answer questions in multiple languages based on user input or browser settings.",
+          "title": "Multilingual Support"
+        },
+        {
+          "prompt": "Integrate with a live chat system so the chatbot can seamlessly hand over to a human agent, providing the agent with the full conversation history.",
+          "title": "Human Handover"
+        },
+        {
+          "prompt": "Add capability for the chatbot to schedule appointments or book demos directly into a calendar system (e.g., Google Calendar, Outlook Calendar).",
+          "title": "Calendar Booking"
+        },
+        {
+          "prompt": "Implement a feature where the chatbot can send automated SMS or email notifications to users based on conversation triggers (e.g., 'your issue has been escalated').",
+          "title": "Notification System"
+        }
+      ]
+    },
+    {
+      "title": "Key CRM Chatbot Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Understand user intent and context from natural language queries.",
+          "icon": "🧠",
+          "title": "Natural Language Understanding (NLU)"
+        },
+        {
+          "description": "Seamlessly connect with your existing CRM and other business systems.",
+          "icon": "🔗",
+          "title": "Deep CRM Integration"
+        },
+        {
+          "description": "Intelligently route complex or specific queries to the right human expert.",
+          "icon": "🤝",
+          "title": "Intelligent Escalation"
+        },
+        {
+          "description": "Tailor the chatbot's persona and responses to reflect your brand's voice.",
+          "icon": "🗣️",
+          "title": "Customizable Persona"
+        },
+        {
+          "description": "Automatically gather relevant customer and inquiry data for your CRM.",
+          "icon": "📝",
+          "title": "Data Collection & Capture"
+        },
+        {
+          "description": "Engage customers across multiple channels: website, mobile app, social media.",
+          "icon": "🔄",
+          "title": "Multi-channel Deployment"
+        },
+        {
+          "description": "Personalize interactions based on user history and CRM data.",
+          "icon": "👤",
+          "title": "Personalized Interactions"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building CRM chatbots with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional CRM chatbot with Kliv can take anywhere from a few hours for a basic FAQ bot to a few days or weeks for a highly integrated, complex conversational AI, depending on the scope and integrations.",
+          "question": "How long does it typically take to build a CRM chatbot?"
+        },
+        {
+          "answer": "While Kliv makes it significantly easier, some understanding of your CRM's data structure and API documentation will be beneficial for deep integrations. For basic conversational UIs, no coding experience is necessary.",
+          "question": "Do I need technical skills or coding experience to build a custom chatbot?"
+        },
+        {
+          "answer": "Yes, Kliv supports building chatbots that can integrate with virtually any CRM system that has an API (e.g., Salesforce, HubSpot, Zoho CRM, Microsoft Dynamics) or custom databases. You design the integration points.",
+          "question": "Can the custom chatbot integrate with my existing CRM system?"
+        },
+        {
+          "answer": "Absolutely. You maintain full ownership of the chatbot's logic, conversational flows, and any data it processes. This means you control its evolution and can ensure it aligns with your data governance policies.",
+          "question": "Who owns the intellectual property and data of the chatbot I build?"
+        },
+        {
+          "answer": "The cost structure is fundamentally different. Instead of recurring subscriptions that scale with usage or features, you invest in building the solution once. Over time, this often proves significantly more cost-effective than continuous SaaS fees.",
+          "question": "How does the cost compare to subscribing to a commercial chatbot platform?"
+        },
+        {
+          "answer": "Yes, a core advantage is the ability to continuously refine and expand your chatbot's capabilities. You can add new conversational intents, update knowledge bases, integrate new features, and adapt to changing customer needs whenever you like.",
+          "question": "Can I easily update or expand my chatbot's capabilities after it's deployed?"
+        },
+        {
+          "answer": "Kliv provides tools to help ensure your chatbot is robust and performs well. You can test conversational flows, monitor interaction logs, and use performance analytics to identify areas for improvement and maintain high accuracy.",
+          "question": "How can I ensure the chatbot provides accurate and reliable responses?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform your customer interactions?",
+      "type": "cta",
+      "content": "Stop limiting your customer service to generic templates. Build an intelligent, personalized conversational experience that truly connects with your customers."
+    }
+  ],
+  "title": "CRM Chatbot & Conversational UI"
+}

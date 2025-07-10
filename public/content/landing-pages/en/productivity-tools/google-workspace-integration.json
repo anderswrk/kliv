@@ -1,0 +1,154 @@
+{
+  "defaultPrompt": "I want to create a tool that seamlessly integrates Google Workspace applications like Gmail, Calendar, and Drive to automate my daily tasks.",
+  "description": "Build custom Google Workspace integration applications to supercharge your productivity.",
+  "hero": {
+    "cta": "Start Integrating",
+    "subtitle": "Unleash the full potential of your Google Workspace with custom integration tools built on Kliv's AI-powered platform.",
+    "title": "Custom Google Workspace Integration"
+  },
+  "metaDescription": "Create powerful, custom Google Workspace integration tools with Kliv. Automate tasks, streamline workflows, and enhance collaboration across Gmail, Calendar, Drive, and more.",
+  "sections": [
+    {
+      "title": "The Challenge with Off-the-Shelf Integrations",
+      "type": "text",
+      "content": "Google Workspace is a powerful suite, but its native integrations often fall short of specific business needs. Generic connectors provide basic links, yet they rarely offer the deep, nuanced automation and data flow required for true productivity gains. This forces businesses to either adapt their unique processes to rigid software or resort to manual data transfers, leading to inefficiencies and missed opportunities. Building your own integration solution means tailor-made functionality that fits your workflow perfectly, giving you complete control over data handling and process automation."
+    },
+    {
+      "title": "Why Build Your Own Google Workspace Integration?",
+      "type": "markdown",
+      "content": "## The Limitations of Pre-Built Solutions\n\nWhile numerous tools claim to integrate with Google Workspace, they often come with significant drawbacks:\n\n-   **Limited Functionality**: They only connect a few applications and offer basic data transfer, not complex automation logic.\n-   **Rigid Workflows**: You're forced into predefined sequences, which may not align with your specific operational needs.\n-   **Data Security Concerns**: Relying on third-party connectors means trusting them with sensitive business data.\n-   **Subscription Costs**: Recurring fees for features you might not fully utilize, quickly adding up over time.\n-   **Scalability Issues**: Growing businesses often outgrow generic tools, requiring costly and disruptive migrations.\n\n## The Power of Custom-Built Integration\n\nThe ability to create bespoke software means you're no longer constrained by the 'average user' limitations of commercial products. With platforms like Kliv, building a custom Google Workspace integration is now accessible to everyone.\n\n### Perfect Alignment with Your Processes\nYour business is unique. A custom integration can be designed to match your precise workflow, automate specific steps, and handle data exactly as you need it, rather than forcing you to adjust.\n\n### Enhanced Data Control and Security\nWhen you build your own tool, you dictate the security protocols and where your data resides. This eliminates reliance on third-party security practices and gives you full ownership of your information.\n\n### Cost Efficiency in the Long Run\nInitial development might seem like an investment, but it replaces perpetual subscription fees. A custom solution becomes a depreciating asset that continues to deliver value without ongoing per-user or feature-based charges.\n\n### Unmatched Flexibility and Scalability\nAs your business evolves, your custom integration can evolve with it. Add new features, connect to different services, or scale up capacity without being limited by a vendor's roadmap or pricing structure.\n\n### Unlock Synergy Across Applications\nImagine a system that automatically creates calendar events from emails, updates CRM records based on meeting notes in Drive, and sends customized follow-ups via Gmail – all without manual intervention. Custom integration makes this level of synergy possible.\n\n## Real-World Impact\n\nCustom Google Workspace integrations are driving efficiency across various business functions:\n\n-   **Sales Teams**: Automatically create new client folders in Drive, schedule follow-up meetings in Calendar from new leads in Gmail, and log activities in your CRM.\n-   **Marketing Departments**: Sync content approval workflows between Drive and Slack, automate email campaign scheduling based on content publication, and track campaign performance in custom sheets.\n-   **HR & Operations**: Streamline onboarding by automatically creating user accounts, sharing welcome documents from Drive, and scheduling introduction meetings in Calendar upon new hire notification.\n-   **Customer Support**: Generate support tickets from specific Gmail labels, update status in shared sheets, and notify relevant team members in chat – all automatically.\n\n## The Kliv Advantage\n\nKliv leverages AI to make custom software development faster and more intuitive than ever before. You describe the functionality you need in plain language, and Kliv helps bring your vision to life. This means:\n\n-   **Accelerated Development**: Go from idea to functional application in days, not months.\n-   **No Coding Required**: Focus on what you want the tool to do, not how to code it.\n-   **Intelligent Building**: AI assists by suggesting optimal structures and integrations.\n-   **Complete Customization**: Every aspect of your tool can be tailored to your precise requirements.\n\nBuilding your own Google Workspace integration is about empowering your business to work smarter, not harder. With Kliv, that power is now within your reach."
+    },
+    {
+      "title": "Google Workspace Integration Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate client project setup across Drive, Calendar, and Gmail.",
+          "prompt": "Create a tool that, when a new client is added to a Google Sheet, automatically creates a new project folder in Google Drive with subfolders, sets up a shared Google Calendar for project milestones, and sends a personalized welcome email from Gmail to the client and internal team.",
+          "title": "Automated Client Onboarding Orchestrator"
+        },
+        {
+          "description": "Manage job applications from Gmail to a tracking sheet and drive.",
+          "prompt": "Build an application that monitors a specific Gmail inbox for job applications, extracts resume attachments to a specific Google Drive folder, parses applicant data (name, email, position) into a Google Sheet, and sends an automated acknowledgment email to the applicant.",
+          "title": "Recruitment Workflow Automator"
+        },
+        {
+          "description": "Streamline expense reporting and approval processes.",
+          "prompt": "Develop a system where users can submit expense reports via a Google Form, attach receipts to a dedicated Google Drive folder, and the system then populates a Google Sheet, calculates totals, and notifies a manager via Gmail for approval, updating the sheet status upon approval or rejection.",
+          "title": "Expense Report Automation"
+        },
+        {
+          "description": "Automate content publishing and asset management.",
+          "prompt": "Create a tool that watches a 'Ready to Publish' folder in Google Drive. When new content (e.g., blog post drafts) is moved there, it extracts metadata, adds an entry to a Google Sheet content calendar, and sends a notification to the marketing team via Gmail, including a direct link to the content item.",
+          "title": "Content Publishing Assistant"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Integration Tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user interface where team members can view the status of automated tasks and manually trigger certain workflows.",
+          "title": "Build a Control Panel"
+        },
+        {
+          "prompt": "Integrate with a CRM system (like Salesforce or HubSpot) to synchronize contact information and activity logs with Google Workspace data.",
+          "title": "Connect to Existing CRM"
+        },
+        {
+          "prompt": "Implement a machine learning model to categorize incoming Gmails and automatically route them to specific Google Drive folders or assign tasks based on content.",
+          "title": "Add AI-Powered Email Sorting"
+        },
+        {
+          "prompt": "Create a reporting dashboard using Google Data Studio (Looker Studio) that pulls data from your Google Sheets to visualize workflow efficiency and identify bottlenecks.",
+          "title": "Develop Analytics Dashboard"
+        },
+        {
+          "prompt": "Allow the tool to automatically generate and send dynamic Google Doc or Google Sheet reports based on data aggregated from different Workspace applications daily or weekly.",
+          "title": "Enable Automated Report Generation"
+        },
+        {
+          "prompt": "Add notifications to Slack or Microsoft Teams for critical events, such as a high-priority email received or a large file uploaded to Drive.",
+          "title": "Integrate with Communication Platforms"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Integration",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect seamlessly with Gmail, Calendar, Drive, Docs, Sheets, and Forms.",
+          "icon": "🔗",
+          "title": "Deep Workspace Connectivity"
+        },
+        {
+          "description": "Set up automated triggers based on emails, file changes, calendar events, or form submissions.",
+          "icon": "⚙️",
+          "title": "Event-Driven Automation"
+        },
+        {
+          "description": "Automate data transfer and synchronization across different Workspace apps and beyond.",
+          "icon": "🔁",
+          "title": "Intelligent Data Flow"
+        },
+        {
+          "description": "Configure custom alerts and notifications via email, internal chat, or pop-ups.",
+          "icon": "🔔",
+          "title": "Custom Notification Engine"
+        },
+        {
+          "description": "Implement complex conditional logic to handle diverse scenarios and exceptions.",
+          "icon": "🧠",
+          "title": "Advanced Logic & Rules"
+        },
+        {
+          "description": "Develop a user-friendly interface for managing, monitoring, and customizing your integrations.",
+          "icon": "🖥️",
+          "title": "User-Friendly Interface"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv dramatically accelerates development. A typical Google Workspace integration tool that might take weeks or months with traditional coding can be prototyped and functional within days using Kliv's AI assistance.",
+          "question": "How quickly can I build a Google Workspace integration with Kliv?"
+        },
+        {
+          "answer": "No, you don't need any prior coding expertise. Kliv's platform allows you to describe your desired integration logic and functionality in plain language, and the AI translates that into a working application.",
+          "question": "Do I need to be a programmer to build these tools?"
+        },
+        {
+          "answer": "Yes, your custom integration tool can connect to virtually any external service or system that offers an API. This means seamless data exchange between Google Workspace and your CRM, ERP, project management tools, etc.",
+          "question": "Can my custom integration interact with non-Google apps?"
+        },
+        {
+          "answer": "With Kliv, you own 100% of the developed application and its underlying code. This gives you complete control over hosting, modifications, and intellectual property, unlike SaaS solutions where you rent access.",
+          "question": "Who owns the integration tool once it's built?"
+        },
+        {
+          "answer": "Building once with Kliv avoids perpetual subscription costs associated with vendor-locked solutions. While there's an initial development investment, the long-term cost benefits are significant, often leading to savings within the first year.",
+          "question": "How cost-effective is building versus buying a Google Workspace integration solution?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are inherently flexible. As your business needs or Google Workspace features evolve, you can easily modify, extend, or refine your integration using Kliv to ensure it always meets your current requirements.",
+          "question": "Can I modify or expand my integration after it's live?"
+        },
+        {
+          "answer": "You define the security. Since you control the application and its data flow, you can implement specific security protocols and ensure compliance standards that might not be met by generic third-party integrations, often making a custom solution more secure.",
+          "question": "Is a custom-built integration more secure than off-the-shelf options?"
+        }
+      ]
+    },
+    {
+      "title": "Transform Your Workspace Productivity",
+      "type": "cta",
+      "content": "Stop adapting to generic software. Build the perfect Google Workspace integration that works exactly how you need it to, with Kliv."
+    }
+  ],
+  "title": "Google Workspace Integration Tools"
+}

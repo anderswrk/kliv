@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a DSA problem tracker that allows me to log problems, track my progress, time my solutions, and visualize my learning journey.",
+  "description": "Build custom Data Structures & Algorithms (DSA) problem trackers and timers.",
+  "hero": {
+    "cta": "Start tracking your progress",
+    "subtitle": "Optimize your coding interview preparation with custom Data Structures & Algorithms (DSA) practice tools designed just for you.",
+    "title": "Build Your Own DSA Tracker & Timer"
+  },
+  "metaDescription": "Create a personalized DSA problem tracker and timer. Log problems, track progress, time solutions, and enhance your coding interview prep journey with Kliv's AI platform.",
+  "sections": [
+    {
+      "title": "The Challenge of DSA Preparation",
+      "type": "text",
+      "content": "Data Structures and Algorithms (DSA) preparation is a cornerstone of success in technical interviews. However, managing this preparation can be complex. Generic online platforms offer broad features, but often lack the personalized touch that helps you truly understand your strengths and weaknesses. You might find yourself juggling multiple tools – a spreadsheet for tracking, a separate timer, and another platform for problem-solving. This scattered approach can hinder consistent progress and make it difficult to visualize your learning journey.\n\nBuilding your own DSA tracker and timer allows you to create a focused environment tailored to your specific learning style and goals. With Kliv, you can design a tool that perfectly integrates problem logging, timed practice, and performance analytics, all in one place."
+    },
+    {
+      "title": "Why a Custom DSA Tracker Makes a Difference",
+      "type": "markdown",
+      "content": "## Beyond Generic Platforms\n\nExisting DSA platforms are great resources, but they aren't always designed for individual, nuanced tracking. Here's why a custom-built solution often outperforms off-the-shelf options:\n\n-   **Tailored to Your Learning Style**: Do you prefer to group problems by pattern, company, or difficulty? A custom tool lets you define your own categories and filters.\n-   **Integrated Timing**: No more switching between browser tabs or external timers. Your custom app can have a built-in timer that automatically associates with the problem you're solving.\n-   **Personalized Metrics**: Track what truly matters to you. Want to know your average time for all 'Dynamic Programming' problems? Or how many attempts it took to solve 'Hard' problems? Your app can provide that.\n-   **Customizable Interface**: Design an interface that motivates you. Visualize your progress with custom charts and dashboards that resonate with your goals.\n-   **Data Ownership**: Your progress data is yours. Store it securely and analyze it without platform limitations.\n\n## Benefits of Building Your Own\n\n### Hyper-Personalization\n\nCreate a system that understands *your* unique preparation flow. Only interested in Google interview problems? Filter them automatically. Struggling with recursion? Tag them for review.\n\n### Enhanced Focus\n\nMinimize distractions. A dedicated, clean interface for tracking and timing keeps you focused solely on the problem at hand and your performance.\n\n### Deep Insights\n\nGo beyond basic 'solved/unsolved' status. Track attempt count, solution time, optimal solution time, review dates, and specific notes for each problem. Generate reports unique to your study habits.\n\n### Cost-Effective in the Long Run\n\nWhile some online platforms require subscriptions for advanced features, a custom tool built with Kliv is a one-time investment that serves your long-term preparation needs.\n\n### Adaptability\n\nAs your study strategy evolves, so can your tool. Easily add new features, adjust tracking parameters, or integrate with other learning resources without waiting for a platform update.\n\n## Real-World Impact\n\nImagine a DSA tracker that:\n\n-   Automatically starts a timer when you open a problem and stops when you mark it complete.\n-   Suggests similar problems based on your struggle points.\n-   Generates a weekly report showing your progress, average solve times, and areas for improvement.\n-   Allows you to attach your code submissions directly to the problem entry for later review.\n\nThis level of integration and personalization isn't typically found in generic tools. Kliv empowers you to bring this vision to life."
+    },
+    {
+      "title": "DSA Tracker Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Log problems, track categories, and store solution links.",
+          "prompt": "Create a DSA problem logger with fields for problem name, link, difficulty (Easy, Medium, Hard), topic, status (Attempted, Solved, Reviewed), and spaces for notes and solution links.",
+          "title": "Basic Problem Logger"
+        },
+        {
+          "description": "Add time tracking for each problem attempt.",
+          "prompt": "Build a DSA tracker where I can click to start a timer when I begin a problem and stop it when I'm done. It should auto-record the time elapsed for each attempt and show my best time.",
+          "title": "Timed Problem Solver"
+        },
+        {
+          "description": "Visualize progress with charts and graphs.",
+          "prompt": "Develop a DSA progress dashboard that visualizes my solved problems by difficulty, topic, and week, also showing my average solution time over time.",
+          "title": "Progress Visualizer"
+        },
+        {
+          "description": "Categorize problems by interview source.",
+          "prompt": "Design a DSA tool to track problems, including a new field for 'Company Tag' so I can filter problems by companies like Google, Amazon, Facebook, etc.",
+          "title": "Company-Specific Tracker"
+        },
+        {
+          "description": "Plan study schedules and track completion.",
+          "prompt": "Build a DSA study planner where I can create daily or weekly study goals, assign problems to those goals, and mark them complete as I solve them.",
+          "title": "DSA Study Planner"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your DSA Tracking Tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to log multiple attempts for each problem, showing the time taken for each attempt and a 'best time' for the problem.",
+          "title": "Multi-Attempt Logging"
+        },
+        {
+          "prompt": "Integrate a markdown editor within the problem entry to add detailed notes on thought processes, common pitfalls, and insights for each solution.",
+          "title": "Integrated Markdown Notes"
+        },
+        {
+          "prompt": "Implement a 'Spaced Repetition' system where the tool suggests problems for review based on a defined interval after solving, optimizing retention.",
+          "title": "Spaced Repetition Review"
+        },
+        {
+          "prompt": "Create a Chrome Extension or web scraper that can automatically pull problem details (name, difficulty, link) from popular platforms like LeetCode or HackerRank when I'm solving.",
+          "title": "Problem Details Scraper"
+        },
+        {
+          "prompt": "Develop a feature to generate 'Mock Interview' sets, pulling N random problems based on my preferred difficulty and topics, and providing an overall timer for the session.",
+          "title": "Mock Interview Generator"
+        },
+        {
+          "prompt": "Add a 'Code Snippet Storage' feature where I can save my completed solutions (e.g., Python, Java) directly within the problem entry for quick reference.",
+          "title": "Code Snippet Storage"
+        },
+        {
+          "prompt": "Implement user authentication with profiles so multiple users can track their progress independently on the same platform.",
+          "title": "User Authentication"
+        },
+        {
+          "prompt": "Create a notification system that reminds me to practice daily or alerts me when I haven't logged any problems for a set period.",
+          "title": "Practice Reminders"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your DSA Tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Input new problems with fields like difficulty, topic, and link.",
+          "icon": "➕",
+          "title": "Problem Entry & Categorization"
+        },
+        {
+          "description": "Precise timing functionality for solving each problem.",
+          "icon": "⏱️",
+          "title": "Integrated Solution Timer"
+        },
+        {
+          "description": "Monitor progress on individual problems and overall learning.",
+          "icon": "📈",
+          "title": "Progress Tracking"
+        },
+        {
+          "description": "Visual representations of solved problems, trends, and performance.",
+          "icon": "📊",
+          "title": "Performance Analytics Dashboard"
+        },
+        {
+          "description": "Add personal insights, optimal solutions, or specific strategies for each problem.",
+          "icon": "📝",
+          "title": "Custom Notes & Remarks"
+        },
+        {
+          "description": "Filter and search problems by status, topic, difficulty, or custom tags.",
+          "icon": "🔍",
+          "title": "Advanced Filtering & Search"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform significantly reduces development time. A basic DSA tracker can be functional in hours, while a more feature-rich application with advanced analytics might take a few days of iteration.",
+          "question": "How long will it take to build a DSA tracker with Kliv?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv uses AI to translate your natural language descriptions into a working application. You just describe the features and functionalities you want.",
+          "question": "Do I need coding skills to build this type of application?"
+        },
+        {
+          "answer": "Yes, you have full control. You own the application's code and all your data. This means you can host it yourself, integrate it with other tools, and modify it independently.",
+          "question": "Will I own the application I build, including my data?"
+        },
+        {
+          "answer": "Absolutely. You can integrate data from various sources. For example, you could import a list of problems from a CSV file, or connect to an API of an online judge if available.",
+          "question": "Can I import existing problem lists or data into my tracker?"
+        },
+        {
+          "answer": "Compared to recurring subscriptions for premium DSA platforms, building once with Kliv is typically more cost-effective in the long run. You pay for the development resource, not endless monthly fees.",
+          "question": "How does the cost compare to subscribing to existing DSA prep platforms?"
+        },
+        {
+          "answer": "Yes, the AI guides you through the process, but you have complete flexibility to adapt and add features. You can continually refine your tracker as your preparation needs evolve.",
+          "question": "Can I customize the application after it's initially built?"
+        },
+        {
+          "answer": "Since you control the application, you can implement robust security measures tailored to your needs. This often means greater data privacy than relying on third-party services.",
+          "question": "How secure is a custom-built DSA tracker?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Master Your DSA Prep?",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Build the ultimate DSA tracker and timer tailored to accelerate your coding interview success. Start transforming your preparation today!"
+    }
+  ],
+  "title": "DSA Tracker & Timer - Build Your Custom Prep Tool"
+}

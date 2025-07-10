@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a product import/export tool for my e-commerce store that can handle large datasets, map custom fields, and support various file formats like CSV, XML, and JSON, with scheduled transfers.",
+  "description": "Build custom product import and export tools for e-commerce with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your tool",
+    "subtitle": "Take control of your e-commerce product data with custom import and export applications built on Kliv's platform.",
+    "title": "Build your own e-commerce product data management tools"
+  },
+  "metaDescription": "Create powerful product import/export tools with Kliv. Seamlessly manage inventory, update product listings, and migrate data across platforms with custom-built applications.",
+  "sections": [
+    {
+      "title": "The challenge of e-commerce data synchronization",
+      "type": "text",
+      "content": "In the fast-paced world of e-commerce, efficiently managing your product data across multiple channels, suppliers, and internal systems is a constant headache. Generic e-commerce platforms offer basic import/export functionalities, but they often fall short when it comes to complex data structures, large volumes, or specific integration needs.\n\nThis leads to manual data entry errors, outdated product information, and missed opportunities. Building a tailored solution allows you to precisely define how your product data flows, ensuring accuracy, consistency, and scalability without relying on expensive, inflexible third-party plugins."
+    },
+    {
+      "title": "Why custom product import/export is a game-changer",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nMany e-commerce businesses grapple with product data management using standard platform features or general-purpose spreadsheets. This often results in:\n\n- **Data mapping nightmares**: Inflexible templates mean tedious manual adjustments or data loss.\n- **Performance bottlenecks**: Large catalogs bring systems to a crawl or time out during transfers.\n- **Limited format support**: Stuck with just CSV, you can't integrate with advanced supplier feeds or marketplaces requiring XML/JSON.\n- **Security vulnerabilities**: Relying on unverified plugins can expose sensitive product or customer data.\n- **Hidden costs**: Monthly fees for basic features that don't quite meet your unique demands.\n\n## The power of a tailored solution\n\nImagine a system that understands your unique product attributes, handles millions of SKUs with ease, and connects directly to your suppliers' or marketplaces' APIs. That's the advantage of building your own:\n\n### Precision Data Mapping\nDefine exact field mappings, transformations, and validation rules. No more compromises. Your custom tool ensures every piece of data is where it needs to be, in the format it needs to be.\n\n### Scalability for Growth\nDesigned for your specific volume, your tool can handle massive product catalogs and frequent updates without performance degradation, growing seamlessly with your business.\n\n### Universal Compatibility\nConnect to any data source or destination. Whether it's complex XML feeds from a supplier, JSON for a marketing platform, or custom CSV for an ERP, your tool adapts.\n\n### Enhanced Data Quality & Control\nImplement custom validation logic to prevent errors before data goes live. Maintain complete control over your product catalog's integrity and accuracy.\n\n### Cost Efficiency & Ownership\nInstead of recurring subscription fees for limited functionality, a Kliv-built solution is a one-time investment. You own the software, meaning ultimate flexibility and no vendor lock-in.\n\n## Real-world impact\n\nCustom product data tools are not just for large enterprises. Small to medium-sized businesses can also benefit immensely:\n\n**Multi-channel Retailers**: Automatically sync inventory and pricing across Shopify, Amazon, Etsy, and a physical POS system.\n\n**Dropshippers**: Integrate directly with supplier feeds to update product availability and pricing in real-time, preventing overselling.\n\n**Manufacturers/Wholesalers**: Export product data directly to retail partners in their required formats, including enriched content and high-resolution images.\n\n**Subscription Box Services**: Manage complex product bundles and recurring inventory updates with custom logic.\n\n## The AI advantage\n\nBuilding sophisticated data tools used to be a programmer's task. Kliv makes it accessible:\n\n- **Natural Language Design**: Describe your data flow, formats, and transformations in plain English.\n- **Rapid Iteration**: See your import/export logic come to life quickly, enabling fast testing and refinement.\n- **Intelligent Suggestions**: AI assists in identifying optimal data structures and integration points.\n- **Automated Validation**: Built-in checks ensure data integrity throughout the process.\n\nBuilding your own product import/export tool means building a strategic asset. Stop struggling with inadequate solutions and start gaining a competitive edge."
+    },
+    {
+      "title": "Product data management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Sync product details across e-commerce platforms and marketplaces",
+          "prompt": "Create a product synchronization tool that imports product data from a CSV file, maps fields to my Shopify store, updates inventory levels, and exports a simplified product list to an Amazon Seller Central XML feed daily.",
+          "title": "Multi-platform product sync"
+        },
+        {
+          "description": "Automate inventory updates directly from supplier feeds",
+          "prompt": "Build an inventory management application that connects to my supplier's REST API, fetches daily inventory updates for specific SKUs, and automatically adjusts stock levels on my WooCommerce store and a separate Google Merchant Center feed.",
+          "title": "Supplier inventory automation"
+        },
+        {
+          "description": "Migrate product catalogs between different e-commerce systems",
+          "prompt": "Develop a product migration utility to export my entire product catalog from Magento 2, including custom attributes and image URLs, and generate a BigCommerce-compatible CSV import file, ensuring all categories and variants are correctly transferred.",
+          "title": "Store migration assistant"
+        },
+        {
+          "description": "Create specialized product feeds for marketing or affiliate programs",
+          "prompt": "Design a tool that pulls product data from my primary database, filters based on 'best sellers' and 'new arrivals' tags, adds custom marketing descriptions, and generates a formatted XML feed for Google Shopping Ads and a separate CSV for an affiliate marketing network.",
+          "title": "Custom marketing feed generator"
+        },
+        {
+          "description": "Bulk edit product attributes or prices programmatically",
+          "prompt": "Implement a bulk product editor that allows me to upload a CSV with SKU and new price/attribute values. The system should identify the products, validate the data, and update my e-commerce platform via API, logging all changes.",
+          "title": "Automated bulk product changes"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your product data tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to schedule import/export jobs to run automatically at specific intervals or times.",
+          "title": "Implement scheduling"
+        },
+        {
+          "prompt": "Incorporate a visual data mapping interface where users can drag and drop fields from source to destination.",
+          "title": "Develop a mapping UI"
+        },
+        {
+          "prompt": "Add robust error logging and reporting, sending email notifications for failed imports or data inconsistencies.",
+          "title": "Include error handling & alerts"
+        },
+        {
+          "prompt": "Build a dashboard to monitor import/export activity, showing success rates, processing times, and data transfer volumes.",
+          "title": "Create an activity dashboard"
+        },
+        {
+          "prompt": "Integrate with cloud storage services (e.g., Google Drive, Dropbox, S3) to directly pick up or drop off files.",
+          "title": "Add cloud storage integration"
+        },
+        {
+          "prompt": "Allow the tool to connect to multiple e-commerce platforms (e.g., Shopify, WooCommerce, Magento) via their respective APIs.",
+          "title": "Support multiple platforms"
+        },
+        {
+          "prompt": "Implement data transformation rules, such as concatenating fields, conditional formatting, or price adjustments during import/export.",
+          "title": "Add data transformation logic"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for product data management",
+      "type": "features",
+      "items": [
+        {
+          "description": "Flexible field mapping to connect any source data to your store's attributes.",
+          "icon": "↔️",
+          "title": "Custom Data Mapping"
+        },
+        {
+          "description": "Support for CSV, XML, JSON, and direct API connections for diverse data sources.",
+          "icon": "📁",
+          "title": "Multi-Format Support"
+        },
+        {
+          "description": "Automate data transfers and updates with time-based or event-driven triggers.",
+          "icon": "⏰",
+          "title": "Scheduled Operations"
+        },
+        {
+          "description": "Error detection, logging, and reporting to ensure data integrity.",
+          "icon": "🐛",
+          "title": "Robust Validation"
+        },
+        {
+          "description": "Handle millions of products and attributes without performance issues.",
+          "icon": "📈",
+          "title": "High Volume Processing"
+        },
+        {
+          "description": "Rules for enriching, filtering, or modifying data during import/export.",
+          "icon": "⚙️",
+          "title": "Data Transformation"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform helps you define the requirements and structure. A basic product import/export tool can be functional in a day, while a more complex system with scheduled tasks and advanced validation might take a few days to a week to refine.",
+          "question": "How quickly can I build a custom product import/export tool?"
+        },
+        {
+          "answer": "No deep programming knowledge is needed. Kliv translates your natural language requests into functional application code, allowing you to define complex data flows and transformations without writing lines of code.",
+          "question": "Is coding required to build these tools?"
+        },
+        {
+          "answer": "Yes, you can integrate with virtually any e-commerce platform (Shopify, WooCommerce, Magento, etc.) or external system (suppliers, marketplaces, ERPs) that offers an API or file-based data exchange. You're not limited to pre-built connectors.",
+          "question": "Can my custom tool integrate with specific e-commerce platforms or APIs?"
+        },
+        {
+          "answer": "You retain full ownership of the custom application and its data. Kliv facilitates the building process, but the generated tool and its underlying code belong to you, giving you complete control and portability.",
+          "question": "Who owns the product import/export tool once it's built?"
+        },
+        {
+          "answer": "Compared to ongoing subscription fees for commercial solutions, building with Kliv is typically a one-time development investment. For unique or high-volume needs, a custom tool often provides significant cost savings and greater flexibility over time.",
+          "question": "How does the cost compare to existing product import/export solutions?"
+        },
+        {
+          "answer": "Absolutely. Your custom tool is fully adaptable. As your business evolves, you can easily modify data mappings, add new import/export sources, introduce new validation rules, or enhance features, all within the Kliv environment.",
+          "question": "Can I modify or expand the tool's functionality after initial creation?"
+        },
+        {
+          "answer": "Yes, custom solutions offer superior data control. You define how product data is handled, stored, and transmitted, allowing you to implement specific security protocols and maintain compliance without relying on third-party security practices.",
+          "question": "Is a custom product data tool more secure for sensitive information?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your product data?",
+      "type": "cta",
+      "content": "Stop wrestling with generic tools. Build a custom product import/export solution that precisely fits your e-commerce needs and scales with your business."
+    }
+  ],
+  "title": "Custom Product Import & Export Tools for E-commerce"
+}

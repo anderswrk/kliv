@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a data integration and reporting tool that connects to multiple databases, provides real-time dashboards, and generates custom reports.",
+  "description": "Build custom data integration and reporting platforms with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your analytics solution",
+    "subtitle": "Transform raw data into actionable insights with custom data integration and reporting applications built on Kliv's platform.",
+    "title": "Build your own data integration & reporting tools"
+  },
+  "metaDescription": "Create powerful data integration and reporting tools with Kliv. Connect disparate data sources, automate data flows, and build insightful dashboards for better business decisions.",
+  "sections": [
+    {
+      "title": "The challenge of disparate data",
+      "type": "text",
+      "content": "In today's data-driven world, businesses are awash with information spread across various systems—CRMs, ERPs, marketing platforms, financial tools, and more. Getting a unified view of your operations is challenging with disconnected data.\n\nOff-the-shelf reporting tools often lack the specific connectors or customization options you need, leading to manual data exports, tedious spreadsheet work, and delayed insights. Building a custom solution empowers you to centralize your data exactly as needed, ensuring timely and accurate reporting."
+    },
+    {
+      "title": "Why a custom data platform beats generic solutions",
+      "type": "markdown",
+      "content": "## The pitfalls of off-the-shelf reporting\n\nGeneric business intelligence (BI) tools and pre-built reporting dashboards come with inherent limitations that can hinder true insight:\n\n- **Limited connectors**: They might not integrate with your specific legacy systems or niche applications.\n- **Rigid data models**: You're forced to conform to their data structures, not your business logic.\n- **Subscription bloat**: Paying for features you don't use, with costs escalating as your data volume grows.\n- **Data silos persist**: Often, they just create another silo, instead of truly unifying your data.\n- **Lack of flexibility**: Hard to modify reports or dashboards to adapt to evolving business questions.\n\n## The power of a bespoke data solution\n\nLeveraging platforms like Kliv to build your own data integration and reporting system offers unparalleled advantages:\n\n### Unified data view\nConnect to *all* your data sources—on-premise databases, cloud applications, APIs, flat files—to create a single, comprehensive source of truth. Eliminate data silos for good.\n\n### Tailored insights\nDesign reports and dashboards that present data exactly how your teams need to see it, highlighting the KPIs most critical to your unique business goals. No more generic charts.\n\n### Real-time intelligence\nAutomate data ingestion and transformation processes to ensure your reports are always up-to-date, enabling proactive decision-making rather than reactive analysis.\n\n### Cost efficiency\nAvoid recurring, per-user subscription fees. A custom-built solution is a one-time investment that delivers long-term value, with complete control over your operational costs.\n\n### Enhanced security & compliance\nMaintain full control over your data's location, access permissions, and compliance standards. Implement security protocols tailored to your industry's specific regulations.\n\n## Real-world impact\n\nCustom data integration and reporting tools are revolutionizing how businesses operate:\n\n**Financial Services**: Aggregating market data, customer transactions, and risk assessment scores into real-time dashboards for traders and compliance officers.\n\n**Retail**: Unifying sales data from online and offline channels with inventory, customer demographics, and marketing campaign performance for comprehensive business health reports.\n\n**Healthcare**: Integrating patient records from EMRs, lab results, and billing systems to monitor patient outcomes, optimize resource allocation, and ensure regulatory compliance.\n\n**Logistics**: Combining GPS tracking data, delivery schedules, warehouse inventory, and customer feedback for optimized route planning and supply chain visibility.\n\n## AI-accelerated development\n\nBuilding sophisticated data platforms used to require specialized teams and extensive development cycles. Kliv's AI-driven approach democratizes this process:\n\n- **Natural language interface**: Describe your data sources, desired reports, and integration logic in plain English.\n- **Automated schema generation**: AI helps design your data models and database structures based on your requirements.\n- **Rapid dashboard prototyping**: Visually build interactive dashboards with smart suggestions for charting and layout.\n- **Intelligent data mapping**: AI assists in mapping disparate data fields for seamless integration.\n- **Optimized query generation**: AI can help generate efficient queries for faster reporting.\n\nWith Kliv, you're not just getting a tool; you're gaining the ability to build the exact data intelligence platform your business needs to thrive. Stop making decisions in the dark—start building your data insights today."
+    },
+    {
+      "title": "Data integration & reporting ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Consolidate sales data from all sources into one dashboard.",
+          "prompt": "Create a sales analytics dashboard that integrates data from Salesforce, Shopify, and local accounting software, showing real-time revenue, top-selling products, and regional performance.",
+          "title": "Unified Sales Dashboard"
+        },
+        {
+          "description": "Track marketing campaign performance across platforms.",
+          "prompt": "Build a marketing performance tracker that pulls data from Google Ads, Facebook Ads, and mail marketing platforms, displaying ROI, lead generation rates, and customer acquisition costs per channel.",
+          "title": "Cross-Channel Marketing Report"
+        },
+        {
+          "description": "Monitor employee productivity and project progress.",
+          "prompt": "Develop an HR and operations dashboard that integrates data from time tracking software, project management tools, and payroll systems to visualize employee productivity, project completion rates, and resource allocation.",
+          "title": "HR & Operations Overview"
+        },
+        {
+          "description": "Gain a complete view of your customers.",
+          "prompt": "Design a 360-degree customer view platform by combining data from CRM, customer support tickets, website analytics, and purchase history to understand customer behavior and preferences.",
+          "title": "Customer Insights Platform"
+        },
+        {
+          "description": "Automate financial statement generation.",
+          "prompt": "Create an automated financial reporting tool that integrates ledger data from QuickBooks, expense tracking software, and bank feeds to generate daily profit & loss statements and balance sheets.",
+          "title": "Automated Financial Reporting"
+        },
+        {
+          "description": "Optimize supply chain with real-time data.",
+          "prompt": "Build a supply chain optimization system that integrates inventory levels, shipping logistics, supplier data, and sales forecasts to predict demand and manage stock levels proactively.",
+          "title": "Supply Chain Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your data intelligence tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add predictive analytics capabilities to key reports, like sales forecasting or inventory prediction.",
+          "title": "Integrate AI-driven predictions"
+        },
+        {
+          "prompt": "Implement user authentication with role-based access control, so different departments see only relevant data.",
+          "title": "Secure user access"
+        },
+        {
+          "prompt": "Allow users to build and save custom report templates based on their specific needs.",
+          "title": "Enable custom report building"
+        },
+        {
+          "prompt": "Add automated email or Slack notifications when specific data thresholds are met (e.g., sales drop below target, inventory low).",
+          "title": "Set up real-time alerts"
+        },
+        {
+          "prompt": "Create a data quality monitoring module to identify and flag inconsistencies or missing data points.",
+          "title": "Build data quality checks"
+        },
+        {
+          "prompt": "Add a feature for users to export reports to various formats like CSV, Excel, or PDF.",
+          "title": "Expand export options"
+        },
+        {
+          "prompt": "Develop a mobile-responsive version of the key dashboards for on-the-go access.",
+          "title": "Optimize for mobile"
+        },
+        {
+          "prompt": "Incorporate natural language processing (NLP) to allow users to ask data questions using plain English and get visual answers.",
+          "title": "Add natural language querying"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for powerful data insights",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to diverse data sources, from databases to APIs and flat files.",
+          "icon": "🔗",
+          "title": "Universal Data Connectors"
+        },
+        {
+          "description": "Automate data extraction, transformation, and loading (ETL) processes.",
+          "icon": "🔄",
+          "title": "Automated ETL Pipelines"
+        },
+        {
+          "description": "Design and build interactive dashboards with drag-and-drop ease.",
+          "icon": "📊",
+          "title": "Customizable Dashboards"
+        },
+        {
+          "description": "Generate on-demand or scheduled reports in various formats.",
+          "icon": "📄",
+          "title": "Flexible Reporting Engine"
+        },
+        {
+          "description": "Ensure data accuracy and consistency across all integrated systems.",
+          "icon": "✔️",
+          "title": "Data Validation & Quality"
+        },
+        {
+          "description": "Set up alerts for critical data changes or performance thresholds.",
+          "icon": "🔔",
+          "title": "Intelligent Alerting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a core data integration and reporting tool can take anywhere from a few hours for basic setups to a few days for complex, multi-source systems, using Kliv's accelerated development features.",
+          "question": "How quickly can I build a data integration and reporting tool?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv's platform allows you to define your data sources, desired integrations, and report layouts using natural language, and the AI assists with the technical implementation.",
+          "question": "Do I need to be a data engineer to build this?"
+        },
+        {
+          "answer": "Absolutely. Kliv-built applications are designed to integrate seamlessly with a wide range of systems through APIs, database connections (SQL, NoSQL), and various file formats (CSV, JSON, XML).",
+          "question": "Can I connect to all my existing data sources?"
+        },
+        {
+          "answer": "You maintain full ownership and control over your data schemas, integrations, and generated reports. Kliv helps you build the application, but your data remains yours, hosted as you prefer.",
+          "question": "Who owns the data and the reports generated?"
+        },
+        {
+          "answer": "Custom-built solutions eliminate recurring subscription fees often associated with commercial BI tools. While there's an initial development effort, the long-term cost savings and flexibility are significant.",
+          "question": "How does the cost compare to traditional BI software?"
+        },
+        {
+          "answer": "Yes, custom solutions offer maximum flexibility. You can easily add new data sources, refine existing reports, or introduce new dashboards as your business intelligence needs evolve.",
+          "question": "Can I modify or expand the system after it's built?"
+        },
+        {
+          "answer": "You have complete control over data security and compliance. You can implement encryption, access controls, and auditing tailored to your specific industry regulations (e.g., GDPR, HIPAA), often surpassing generic tool capabilities.",
+          "question": "Is a custom data platform inherently secure?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance throughout the development process. For ongoing maintenance and advanced features, you often have more control and can engage general development resources, rather than being tied to a vendor's specific support model.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unlock your data's full potential?",
+      "type": "cta",
+      "content": "Stop wrestling with fragmented data and generic reports. Build a bespoke data integration and reporting solution that gives you the precise insights you need, when you need them."
+    }
+  ],
+  "title": "Data Integration & Reporting Tools"
+}

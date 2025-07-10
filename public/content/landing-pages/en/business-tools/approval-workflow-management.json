@@ -1,0 +1,159 @@
+{
+  "defaultPrompt": "I want to create a robust approval workflow management system that allows dynamic routing, audit trails, and custom forms for various business processes like expense reports, vacation requests, and contract approvals.",
+  "description": "Build custom approval workflow management solutions with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start streamlining approvals",
+    "subtitle": "Eliminate bottlenecks and gain full visibility over every decision with tailor-made approval systems.",
+    "title": "Build your own custom approval workflow management system"
+  },
+  "metaDescription": "Create powerful, secure, and flexible approval workflow management tools with Kliv. Design custom forms, dynamic routing, and comprehensive audit trails for any business need.",
+  "sections": [
+    {
+      "title": "The inherent complexity of approvals in organizations",
+      "type": "text",
+      "content": "Every business, regardless of size, deals with approval processes daily. From simple vacation requests to complex multi-level contract sign-offs, efficient approvals are crucial for operational flow and compliance. Yet, many organizations struggle with manual, disjointed, or inefficient approval workflows, leading to delays, errors, and lack of accountability.\n\nWhile off-the-shelf approval software exists, they often fall short by offering rigid templates, forcing your processes into their structure, or charging per user, leading to escalating costs. Kliv empowers you to build an approval system that perfectly matches your organization's unique structure and requirements, giving you full control and ownership."
+    },
+    {
+      "title": "Why a custom approval system is a strategic asset",
+      "type": "markdown",
+      "content": "For countless businesses, managing approvals remains a painful, often manual, process. This leads to:\n\n-   **Slowdowns**: Manual routing and chasing signatures can add days or weeks to critical processes.\n-   **Lack of visibility**: Who needs to approve what? Where is a request in the process?\n-   **Compliance risks**: Inconsistent approval paths and poor record-keeping can lead to audits and penalties.\n-   **Employee frustration**: Repetitive tasks and opaque systems demotivate staff.\n\nInstead of adapting your intricate business needs to a generic software, consider the transformative power of a custom-built solution:\n\n### Precisely tailored to your operations\nYour business isn't generic, so why should your approval system be? With a custom solution, you can design every form field, every routing rule, and every notification to match your exact internal logic, terminology, and hierarchy. This means higher user adoption and frictionless operation.\n\n### Dynamic and intelligent routing\nGone are the days of static approval chains. A custom system can implement complex, dynamic routing based on request type, amount, department, number of approvers, or even historical data. For example, an expense over $5,000 automatically goes to finance and a director, while one under $100 goes straight to a line manager.\n\n### Complete auditability and compliance\nEvery action, every approval, every rejection is automatically logged, creating an immutable audit trail. This ensures accountability, simplifies compliance audits, and provides a clear history for any disputed decision. You define the data points captured, guaranteeing all necessary information is recorded.\n\n### Scalable and adaptable to growth\nMost off-the-shelf solutions charge per user or per transaction, making scaling expensive. A custom system grows with you, allowing you to add new approval types, expand user groups, or integrate with new systems without hefty additional fees. Your system evolves as your business evolves.\n\n### Cost efficiency and ownership\nWhile there's an initial investment, a custom Kliv application is a one-time build, eliminating recurring subscription fees. You own the software, giving you long-term cost benefits and asset ownership. This frees up budget for other strategic priorities.\n\n### Enhanced security\nControl where your sensitive approval data resides. By building your own, you implement your specific security protocols, ensuring data privacy and reducing reliance on third-party security practices. Your data, your rules."
+    },
+    {
+      "title": "Approval system ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Streamline expense report submissions and approvals.",
+          "prompt": "Create an expense reporting approval system with custom fields for category, amount, currency, and attachments. It should route based on amount thresholds and provide an audit history.",
+          "title": "Expense Report Approval"
+        },
+        {
+          "description": "Automate contract review and signing workflows.",
+          "prompt": "Build a contract approval system for new vendor agreements. It needs a multi-stage approval process involving legal, finance, and department heads, with version control and e-signature integration.",
+          "title": "Contract Approval Workflow"
+        },
+        {
+          "description": "Manage employee leave and time off requests.",
+          "prompt": "Design a vacation request approval system for employees. It should check against department capacity, route to the direct manager, and send notifications to HR upon approval.",
+          "title": "Leave Request System"
+        },
+        {
+          "description": "Formalize procurement and purchase order approvals.",
+          "prompt": "Develop a purchase order approval flow where requests are initiated by employees, routed to budget holders based on cost center, and then to procurement for final approval and vendor engagement.",
+          "title": "Purchase Order Approval"
+        },
+        {
+          "description": "Centralize and track budget allocation requests.",
+          "prompt": "I need a budget allocation request and approval tool. It should allow multiple departments to submit requests, track current budget vs. requested, and route to specific finance managers for approval.",
+          "title": "Budget Request Approval"
+        }
+      ]
+    },
+    {
+      "title": "Feature extensions for your approval system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a dashboard for managers to view all pending approvals, their status, and bottlenecks.",
+          "title": "Management Dashboard"
+        },
+        {
+          "prompt": "Integrate with our HRIS system (e.g., BambooHR) to automatically pull employee data for requests and routing.",
+          "title": "HRIS Integration"
+        },
+        {
+          "prompt": "Implement machine learning to predict approval times or flag potentially fraudulent requests based on historical data.",
+          "title": "AI-Powered Insights"
+        },
+        {
+          "prompt": "Add granular user roles and permissions, allowing different users to initiate specific request types or view only certain data.",
+          "title": "Advanced Permissions"
+        },
+        {
+          "prompt": "Develop an API to allow other internal systems (e.g., CRM, project management) to trigger new approval requests programmatically.",
+          "title": "API for External Triggers"
+        },
+        {
+          "prompt": "Include an automated notification system that sends reminders to approvers and updates requesters via email or Slack.",
+          "title": "Automated Reminders & Notifications"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities of a custom approval system",
+      "type": "features",
+      "items": [
+        {
+          "description": "Design custom forms with various field types, conditional logic, and attachments.",
+          "icon": "📝",
+          "title": "Custom Form Builder"
+        },
+        {
+          "description": "Define dynamic routing rules based on conditions, roles, or hierarchies.",
+          "icon": "➡️",
+          "title": "Dynamic Workflow Engine"
+        },
+        {
+          "description": "Maintain a comprehensive, immutable log of all actions and decisions for compliance.",
+          "icon": "📜",
+          "title": "Full Audit Trail"
+        },
+        {
+          "description": "Easily track the status of any request and identify bottlenecks in real-time.",
+          "icon": "🔍",
+          "title": "Real-time Status Tracking"
+        },
+        {
+          "description": "Set up reminders and automatic escalations for overdue approvals.",
+          "icon": "⏰",
+          "title": "Automated Escalations"
+        },
+        {
+          "description": "Integrate with email, chat, and other business applications for seamless operation.",
+          "icon": "🔗",
+          "title": "Seamless Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions about building custom approval systems with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom approval workflow system with Kliv can be surprisingly fast. Simple systems can be prototyped in hours, while complex enterprise solutions might take a few days to a couple of weeks to fully implement, test, and deploy.",
+          "question": "How long does it take to build a custom approval system?"
+        },
+        {
+          "answer": "No, you do not need to be a programmer. Kliv's AI-powered platform allows you to describe your desired approval rules and processes in plain language, and it helps generate the functional application. It's designed for business users and domain experts.",
+          "question": "Do I need coding experience to build this?"
+        },
+        {
+          "answer": "Absolutely. Custom approval systems built with Kliv are designed for integration. They can connect with commonly used business tools like HRIS, ERP, CRM, accounting software, and communication platforms (Slack, Microsoft Teams) via APIs.",
+          "question": "Can I integrate it with my existing business software?"
+        },
+        {
+          "answer": "Your data and the logic of your approval workflows are entirely yours. Kliv provides the platform to build, but you maintain full ownership and control over the created applications and the data they manage. You can host them in environments you control.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Compared to perpetual per-user licensing common with SaaS solutions, a custom system with Kliv can offer significant long-term cost savings. While there's an initial build cost, you avoid ongoing subscription fees that accumulate over time, often outperforming SaaS within 12-24 months.",
+          "question": "Is building a custom system more cost-effective than using off-the-shelf software?"
+        },
+        {
+          "answer": "Yes, one of the primary benefits is complete flexibility. You can easily modify existing approval flows, add new request types, adjust routing rules, or update forms as your business needs evolve, without relying on a vendor's release schedule or paying for custom development requests.",
+          "question": "Can I modify the approval system after it's built?"
+        },
+        {
+          "answer": "Security is paramount. When you build with Kliv, you control the deployment environment and security protocols, allowing you to meet your specific compliance requirements (e.g., HIPAA, GDPR, SOC2). This often results in a more secure solution tailored to your exact needs than a generic multi-tenant SaaS offering.",
+          "question": "How secure is a custom-built approval system?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bring transparency and efficiency to your approvals?",
+      "type": "cta",
+      "content": "Stop drowning in paper and disjointed processes. Create a powerful, perfectly tailored approval system that drives your business forward."
+    }
+  ],
+  "title": "Approval Workflow Management"
+}

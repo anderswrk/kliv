@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an algorithmic trading platform with real-time data feeds, strategy backtesting, execution capabilities, and risk management tools.",
+  "description": "Build custom algorithmic trading platforms with Kliv's AI-powered platform for precise, automated market execution.",
+  "hero": {
+    "cta": "Start building your strategy",
+    "subtitle": "Develop sophisticated algorithmic trading platforms tailored to your unique strategies and market insights, powered by Kliv's AI.",
+    "title": "Build your own algorithmic trading platform"
+  },
+  "metaDescription": "Create powerful algorithmic trading platforms with Kliv. Design, backtest, and deploy automated trading strategies with precision and control.",
+  "sections": [
+    {
+      "title": "Why develop a custom algorithmic trading platform?",
+      "type": "text",
+      "content": "In the fast-paced world of financial markets, precision, speed, and customization are paramount. Off-the-shelf trading solutions often come with limitations, forcing traders to compromise on strategy execution or adapt their unique insights to rigid platforms. Building your own algorithmic trading platform gives you unparalleled control over every aspect of your trading operations.\n\nWith AI-powered development tools like Kliv, creating a bespoke trading system is no longer the exclusive domain of large financial institutions. Retail traders, quantitative analysts, and independent fund managers can now design and deploy sophisticated strategies that perfectly match their trading philosophies, without significant upfront overhead or reliance on external vendors."
+    },
+    {
+      "title": "The strategic advantage of tailored trading systems",
+      "type": "markdown",
+      "content": "## The challenges with generic trading software\n\nMany traders find themselves constrained by commercial trading software due to:\n\n- **Inflexible strategy implementation**: Difficulty translating complex, proprietary trading ideas into code.\n- **Limited data access**: Restricted to vendor-provided data feeds, often with delays or incomplete historical data.\n- **High recurring costs**: Expensive monthly subscriptions that eat into profits, regardless of performance.\n- **Lack of transparency**: Opaque execution logic, leading to distrust and potential slippage.\n- **Integration hurdles**: Inability to seamlessly connect with preferred brokers, data sources, or analytical tools.\n\n## Why a custom solution delivers an edge\n\nCustom-built algorithmic trading platforms offer significant advantages, empowering traders with:\n\n### Unrestricted strategy development\nImplement any trading logic, no matter how complex. From high-frequency arbitrage to long-term trend following, your platform can execute strategies precisely as you envision them, incorporating novel indicators and risk models.\n\n### Proprietary data management\nIntegrate directly with virtually any data source—tick data, alternative data sets, news feeds, or social sentiment. Control data storage, processing, and access for superior analysis and real-time decision-making.\n\n### Optimized execution speed\nMinimize latency by designing your execution pathways. Connect directly to brokers and exchanges with highly optimized order routing logic, giving you a competitive advantage in fast markets.\n\n### Complete risk management oversight\nBuild in custom risk checks, position limits, circuit breakers, and capital allocation rules. Your platform can proactively manage risk according to your exact parameters, preventing unforeseen losses.\n\n### Cost-efficiency and ownership\nOnce built, your platform is a scalable asset. Avoid recurring subscription fees and gain full ownership of the technology, allowing for continuous iteration and adaptation without vendor lock-in.\n\n### Secure and private operations\nHost your platform in environments you control, ensuring the privacy and security of your proprietary strategies and sensitive trading data.\n\n## Real-world applications for custom platforms\n\nCustom algorithmic trading systems aren't just for Wall Street. They are being used by:\n\n**Quantitative Analysts**: Developing complex statistical arbitrage and market-making strategies.\n\n**Independent Fund Managers**: Automating portfolio rebalancing, hedging, and capital deployment.\n\n**Retail Traders**: Implementing personalized technical analysis, pattern recognition, and news-based trading systems.\n\n**Data Scientists**: Integrating machine learning models for predictive analytics and advanced signal generation.\n\n## AI: The new frontier in trading system development\n\nTraditional software development for trading systems was arduous and expensive. Kliv's AI-powered platform fundamentally changes this:\n\n- **Natural language programming**: Describe your trading logic, data requirements, and execution rules in plain English.\n- **Accelerated prototyping**: Bring your ideas to life quickly, testing and iterating strategies in days, not months.\n- **Intelligent code generation**: AI assists in writing clean, efficient, and robust code for critical trading functions.\n- **Seamless integration**: Rapidly connect to brokers, data APIs, and third-party services with AI-guided assistance.\n- **Automated testing capabilities**: Generate and run comprehensive backtests and stress tests to validate strategies under various market conditions."
+    },
+    {
+      "title": "Algorithmic trading platform ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automated system for scalping highly liquid currency pairs",
+          "prompt": "Create an automated forex scalping bot that monitors EUR/USD, GBP/JPY, and USD/CAD. It should execute trades based on a combination of moving average crossovers on 1-minute charts and RSI divergence, with tight stop-losses and take-profits, and a daily maximum loss limit.",
+          "title": "Forex Scalping Bot"
+        },
+        {
+          "description": "System to rebalance a portfolio based on predefined asset allocations",
+          "prompt": "Build a portfolio rebalancing tool that monitors a basket of 10 ETFs. If any ETF deviates by more than 5% from its target allocation, the system should automatically generate rebalancing orders to bring the portfolio back to its target weights, with a monthly rebalancing window.",
+          "title": "Automated Portfolio Rebalancer"
+        },
+        {
+          "description": "High-frequency trading platform for market making in options",
+          "prompt": "Develop a market-making algorithm for SPY options that analyzes bid-ask spreads and implied volatility. It should submit limit orders within predefined spread parameters, adjust quotes based on order book depth, and dynamically manage inventory risk by hedging positions with the underlying ETF.",
+          "title": "Options Market Maker"
+        },
+        {
+          "description": "Execution system for time-weighted average price (TWAP) and volume-weighted average price (VWAP) orders",
+          "prompt": "Create an execution algorithm that implements TWAP and VWAP strategies for large equity orders. It should slice large orders into smaller chunks, distribute them over user-defined time periods or based on historical volume profiles, and adjust execution pace based on real-time market conditions to minimize market impact.",
+          "title": "Smart Order Router (TWAP/VWAP)"
+        },
+        {
+          "description": "Algorithmic system for arbitrage across crypto exchanges",
+          "prompt": "Build a cryptocurrency arbitrage bot that monitors Bitcoin (BTC) and Ethereum (ETH) prices across Binance, Coinbase, and Kraken. It should identify price differentials exceeding a specified threshold (e.g., 0.1%) after accounting for trading fees, and execute simultaneous buy/sell orders on different exchanges to capture the spread.",
+          "title": "Crypto Arbitrage Bot"
+        },
+        {
+          "description": "Event-driven trading system for earnings reports",
+          "prompt": "Develop an event-driven trading system that identifies companies with upcoming earnings reports. It should analyze pre-announcement sentiment from news feeds, establish a pre-defined strategy (e.g., straddle or directional bet) based on historical volatility, and automatically place orders minutes before the announcement, with post-announcement take-profit/stop-loss adjustments.",
+          "title": "Earnings Season Trader"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your trading platform with these ideas",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate real-time news sentiment analysis from major financial outlets to inform trading decisions.",
+          "title": "Add News Sentiment Integration"
+        },
+        {
+          "prompt": "Implement a machine learning model for predictive price movements or volatility forecasting based on historical data.",
+          "title": "Incorporate ML-driven Predictions"
+        },
+        {
+          "prompt": "Add a user-friendly dashboard for real-time monitoring of positions, P&L, and strategy performance.",
+          "title": "Build a Live Performance Dashboard"
+        },
+        {
+          "prompt": "Develop a robust backtesting engine that simulates historical market conditions and allows for parameter optimization.",
+          "title": "Develop Advanced Backtesting Capabilities"
+        },
+        {
+          "prompt": "Include stress testing features to evaluate strategy resilience under extreme market scenarios (e.g., flash crashes, high volatility).",
+          "title": "Implement Stress Testing Functionality"
+        },
+        {
+          "prompt": "Add a feature to log all trading decisions, order placements, and market events for post-trade analysis and audit trails.",
+          "title": "Integrate Comprehensive Logging and Audit"
+        },
+        {
+          "prompt": "Enable multi-broker connectivity for optimal liquidity and order routing, with smart order management across different venues.",
+          "title": "Support Multi-Broker Connectivity"
+        },
+        {
+          "prompt": "Create an alert system for critical events, such as margin calls, strategy halts, or significant market shifts, delivered via email/SMS.",
+          "title": "Develop Critical Alert System"
+        },
+        {
+          "prompt": "Design a graphical user interface (GUI) for easy strategy parameter configuration and real-time adjustments without code changes.",
+          "title": "Create a Strategy Configuration GUI"
+        }
+      ]
+    },
+    {
+      "title": "Core algorithmic trading features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Integrate with various data providers for real-time and historical market data.",
+          "icon": "📈",
+          "title": "Real-time Data Feeds"
+        },
+        {
+          "description": "Develop and deploy custom trading algorithms for automated execution.",
+          "icon": "🤖",
+          "title": "Algorithmic Strategy Engine"
+        },
+        {
+          "description": "Simulate strategies against historical data to evaluate performance and validate logic.",
+          "icon": "🔄",
+          "title": "Robust Backtesting Environment"
+        },
+        {
+          "description": "Connect to multiple brokers and exchanges for efficient order routing and execution.",
+          "icon": "🔗",
+          "title": "Broker & Exchange Connectivity"
+        },
+        {
+          "description": "Implement advanced risk checks, position sizing, and capital allocation rules.",
+          "icon": "🛡️",
+          "title": "Sophisticated Risk Management"
+        },
+        {
+          "description": "Monitor live performance, open positions, P&L, and essential trading metrics.",
+          "icon": "📊",
+          "title": "Live Performance Monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv drastically reduces development time. A basic, functional platform could be operational in days, while more complex systems with advanced features might take a few weeks to refine and deploy.",
+          "question": "How quickly can I build a functional algorithmic trading platform?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv's AI-driven approach allows you to describe your trading logic and platform requirements in natural language. The AI assists in generating and structuring the code.",
+          "question": "Do I need to be a professional programmer to build one?"
+        },
+        {
+          "answer": "Yes, custom platforms built with Kliv can integrate with virtually any financial data provider (e.g., Quandl, Bloomberg, Refinitiv) and broker APIs (e.g., Interactive Brokers, Alpaca, proprietary setups) that offer programmatic access.",
+          "question": "Can I connect my platform to specific data providers or brokers?"
+        },
+        {
+          "answer": "You own 100% of the platform you build with Kliv. This includes the code, the strategies, and any intellectual property generated. There are no proprietary lock-ins.",
+          "question": "Who owns the intellectual property of the trading strategies and code I develop?"
+        },
+        {
+          "answer": "Building your own platform is a one-time development cost, often followed by minimal infrastructure expenses. This typically becomes significantly more cost-effective than continuous, high subscription fees for commercial platforms, especially as your trading volume or assets under management grow.",
+          "question": "How does the cost compare to off-the-shelf trading software?"
+        },
+        {
+          "answer": "Absolutely. Custom platforms are designed for flexibility. You can continuously adapt your strategies, add new features, integrate novel data sources, and optimize execution logic as market conditions or your insights evolve.",
+          "question": "Can I modify or expand my platform after it's built?"
+        },
+        {
+          "answer": "You have full control over security measures. You can implement your own authentication, encryption, and network security protocols, potentially making it more secure than relying on a third-party vendor's security practices.",
+          "question": "What about the security of my sensitive trading data and strategies?"
+        },
+        {
+          "answer": "Kliv's platform provides AI-driven assistance throughout the development process, including debugging and optimization suggestions. For more advanced needs, you can easily integrate with independent financial software consultants or developers since you own the underlying code.",
+          "question": "What kind of support is available if I encounter issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain an edge in the markets?",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Build the precise algorithmic trading system you've always envisioned and execute your strategies with unparalleled control and efficiency."
+    }
+  ],
+  "title": "Algorithmic Trading Platforms"
+}

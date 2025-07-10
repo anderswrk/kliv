@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I need a cryptocurrency trading dashboard that connects to multiple exchanges, displays real-time portfolio value, and offers custom alerts for price movements and news events.",
+  "description": "Create powerful, personalized cryptocurrency trading dashboards with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Building Your Dashboard",
+    "subtitle": "Gain an edge in crypto markets with a fully customized trading dashboard, designed by you, driven by AI.",
+    "title": "Build Your Own Crypto Trading Dashboard"
+  },
+  "metaDescription": "Develop custom cryptocurrency trading dashboards with Kliv. Track portfolios, monitor prices, and execute trades all from your personalized, AI-powered platform.",
+  "sections": [
+    {
+      "title": "Why architect your own crypto trading dashboard?",
+      "type": "text",
+      "content": "The fast-paced world of cryptocurrency trading demands tools that are precise, timely, and perfectly aligned with your unique strategies. Generic trading platforms often fall short, offering limited customization, slower data feeds, and a 'one-size-fits-all' approach that doesn't adapt to individual trading styles.\n\nWith Kliv, you're not just building a dashboard; you're creating a personalized command center, a real-time reflection of the market tailored to your specific needs. From integrating obscure data sources to designing unique indicators, building your own empowers you with unparalleled control and a decisive advantage."
+    },
+    {
+      "title": "The strategic advantage of custom crypto dashboards",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nMany crypto traders rely on pre-built platforms that, while convenient, often come with significant drawbacks:\n\n- **Inflexible features**: Limited options for custom indicators, charting analysis, or data visualization.\n- **Lagging data**: Real-time isn't always truly real-time, leading to missed opportunities.\n- **Subscription costs**: Recurring fees can eat into profits, especially with multiple services.\n- **Security concerns**: Relying on a third-party for API keys and trade execution introduces external risks.\n- **Data siloing**: Difficulty consolidating data from different exchanges or wallets into one unified view.\n\n## Why a bespoke dashboard elevates your trading\n\nBuilding your own crypto trading dashboard using an AI-powered platform like Kliv transforms how you interact with the market. Here's why savvy traders are choosing customization:\n\n### Unparalleled data aggregation\nConnect to any exchange API, pull data from specialized blockchain nodes, or even integrate alternative data sources like social sentiment feeds. Consolidate all your portfolio holdings, trade history, and market data into one coherent view, regardless of its origin.\n\n### Real-time, custom insights\nDesign and implement proprietary indicators, algorithms, and real-time alerts that react to market movements exactly as you define them. Execute immediate actions based on your rules, without relying on delayed third-party systems.\n\n### Enhanced security and privacy\nBy building your own dashboard, you control exactly how your API keys are stored and used. Instead of relying on a third-party application's security, you implement your own stringent protocols, reducing exposure.\n\n### Cost-efficiency and ownership\nOnce developed, your custom dashboard is yours. Avoid recurring subscription fees that drain your capital, allowing you to allocate more funds to your trading strategy.\n\n### Adaptability to market conditions\nCrypto markets evolve rapidly. Your custom dashboard can evolve with them. Easily add new features, adjust existing functionalities, or integrate with new protocols as they emerge, maintaining your competitive edge.\n\n## Real-world applications of custom dashboards\n\nThese dashboards aren't just for displaying numbers; they're powerful execution tools:\n\n**Arbitrage Opportunities**: A dashboard that simultaneously monitors price disparities across multiple exchanges for selected pairs, signaling instant arbitrage opportunities.\n\n**Automated Portfolio Rebalancing**: Program your dashboard to automatically rebalance your portfolio based on pre-defined percentage allocations or market conditions.\n\n**Sentiment-Driven Trading**: Integrate social media sentiment analysis, news feeds, and on-chain metrics to generate trading signals based on collective market mood.\n\n**Advanced Risk Management**: Implement custom stop-loss, take-profit, and position sizing rules directly into your dashboard's trade execution logic.\n\n## The AI development advantage\n\nCreating sophisticated trading tools used to require deep programming expertise. AI platforms revolutionize this:\n\n- **Conceptualize via natural language**: Describe your desired features, data sources, and behaviors in plain English.\n- **Accelerated prototyping**: See your dashboard elements and data connections come to life in hours, not weeks.\n- **Intelligent code suggestions**: AI assists in building complex API integrations and charting components.\n- **Iterative refinement**: Easily modify and optimize your dashboard as your trading strategy evolves.\n\n## Take control of your crypto journey\n\nStop adapting your strategy to generic tools. With Kliv's AI platform, you can create a custom crypto trading dashboard that understands your vision and empowers your decisions. It’s time to move beyond observation and start building your ultimate trading edge."
+    },
+    {
+      "title": "Crypto dashboard ideas to inspire your build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize your total crypto holdings across all exchanges and wallets in real-time.",
+          "prompt": "Build a portfolio tracker dashboard that connects to Binance, Coinbase, and Ledger Live via APIs, displaying total portfolio value, individual asset allocations, and daily profit/loss in USD.",
+          "title": "Multi-exchange Portfolio Tracker"
+        },
+        {
+          "description": "Receive instant notifications for specific price levels, volume spikes, or whale transactions.",
+          "prompt": "Create a real-time alert system on my dashboard. I want alerts for Bitcoin price crosses above $70,000, Ethereum daily volume exceeding $20B, and whenever a wallet holding more than 1,000 BTC moves funds.",
+          "title": "Advanced Market Alert System"
+        },
+        {
+          "description": "Automate routine rebalancing of your portfolio based on pre-set rules.",
+          "prompt": "Design a dashboard with an auto-rebalancing feature. If Bitcoin's percentage of my portfolio goes above 50% or below 30%, automatically sell/buy to rebalance it back to 40%.",
+          "title": "Automated Portfolio Rebalancer"
+        },
+        {
+          "description": "Analyze social sentiment and news correlation with asset prices.",
+          "prompt": "Develop a dashboard that scrapes Twitter and Reddit for crypto sentiment, integrates with a crypto news API, and overlays sentiment scores and news events directly onto price charts for selected assets.",
+          "title": "Sentiment & News Aggregator"
+        },
+        {
+          "description": "Track the performance of your entire trade history over time.",
+          "prompt": "Build a trade analytics dashboard that imports my trade history from FTX and Kraken. I want to see my win rate, average profit/loss per trade, and a breakdown of performance by asset and strategy type.",
+          "title": "Comprehensive Trade Analytics"
+        },
+        {
+          "description": "Monitor and manage positions for multiple active trading strategies.",
+          "prompt": "I need a dashboard to manage multiple active trading strategies. Display open positions, P&L for each strategy, and quick buttons to close positions or adjust stop-loss/take-profit orders.",
+          "title": "Multi-Strategy Manager"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your trading dashboard's capabilities",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a custom charting library that supports advanced technical indicators (e.g., Ichimoku Cloud, Volume Profile) not available on standard platforms.",
+          "title": "Add advanced charting and indicators"
+        },
+        {
+          "prompt": "Build a quick trade execution module that allows me to place limit and market orders directly from the dashboard to my connected exchanges.",
+          "title": "Integrate direct trade execution"
+        },
+        {
+          "prompt": "Incorporate a backtesting engine to test custom trading strategies against historical price data before live deployment.",
+          "title": "Implement a strategy backtester"
+        },
+        {
+          "prompt": "Add a feature to connect to DeFi protocols (e.g., Aave, Compound) to track liquidity pool positions, staking rewards, and yield farming profits.",
+          "title": "Include DeFi protocol tracking"
+        },
+        {
+          "prompt": "Develop a push notification system for mobile devices that alerts me instantly on critical market events or trade executions.",
+          "title": "Add mobile push notifications"
+        },
+        {
+          "prompt": "Create a feature to calculate and display real-time tax implications of trades and holdings, based on customizable local tax rules.",
+          "title": "Integrate real-time tax tracking"
+        },
+        {
+          "prompt": "Add an AI-powered insights engine that provides predictive analysis based on market trends and news events.",
+          "title": "Incorporate AI-driven market predictions"
+        },
+        {
+          "prompt": "Build a social trading component where I can share my anonymized portfolio performance or trade signals with a private group.",
+          "title": "Add social trading features"
+        },
+        {
+          "prompt": "Develop a module for tracking NFT portfolio value and floor prices across various marketplaces.",
+          "title": "Include NFT portfolio tracking"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Crypto Dashboard",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connects to major exchanges (e.g., Binance, Coinbase) and blockchain nodes for comprehensive data access.",
+          "icon": "🔗",
+          "title": "Multi-API Connectivity"
+        },
+        {
+          "description": "Visualize all your crypto holdings, their value, and performance across different platforms in a single view.",
+          "icon": "📊",
+          "title": "Unified Portfolio Tracking"
+        },
+        {
+          "description": "Monitor live price feeds, order books, and depth charts with minimal latency.",
+          "icon": "⏱️",
+          "title": "Real-time Market Data"
+        },
+        {
+          "description": "Set up custom alerts for price movements, volume changes, news events, or on-chain activities.",
+          "icon": "🔔",
+          "title": "Intelligent Alerting System"
+        },
+        {
+          "description": "Analyze historical data with custom indicators, overlay news, and identify trends.",
+          "icon": "📈",
+          "title": "Advanced Charting & Analytics"
+        },
+        {
+          "description": "Securely manage API keys and directly execute buy/sell orders from the dashboard.",
+          "icon": "🔒",
+          "title": "Integrated Trade Execution"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional crypto trading dashboard with basic features can be done in a few hours using Kliv. More complex dashboards with extensive integrations and analytics may take a few days to refine.",
+          "question": "How quickly can I build a crypto trading dashboard with Kliv?"
+        },
+        {
+          "answer": "No traditional coding experience is required. Kliv's AI-powered platform allows you to describe your desired functionalities, and it assists in generating the necessary components and integrations for your dashboard.",
+          "question": "Do I need to be a programmer to build this type of application?"
+        },
+        {
+          "answer": "Yes, your dashboard can connect to any crypto exchange or data provider that offers an API. This includes major exchanges like Binance, Coinbase, Kraken, as well as on-chain data providers.",
+          "question": "Can I integrate my dashboard with multiple cryptocurrency exchanges and data sources?"
+        },
+        {
+          "answer": "While the platform helps you build, your dashboard's security is largely dependent on how you handle your API keys and sensitive information. Kliv facilitates secure development, but best practices in managing credentials are key.",
+          "question": "How secure is a custom-built crypto trading dashboard?"
+        },
+        {
+          "answer": "Unlike recurring subscriptions for trading platforms, building with Kliv is generally a one-time development cost. This offers significant long-term savings, especially if your trading volume or feature needs are high.",
+          "question": "What are the cost implications compared to subscribing to existing trading platforms?"
+        },
+        {
+          "answer": "Absolutely. One of the primary benefits is complete ownership and flexibility. You can continuously modify, add features, and adapt your dashboard as your trading strategies or market conditions change.",
+          "question": "Can I modify or expand my dashboard after the initial build?"
+        },
+        {
+          "answer": "Kliv provides AI-driven assistance throughout the build process, offering suggestions and debugging insights. Additionally, a strong community and documentation are available to guide you.",
+          "question": "What kind of support is available if I encounter technical challenges?"
+        },
+        {
+          "answer": "Yes, you retain full ownership of the code and the intellectual property of your custom dashboard. You have the freedom to host it wherever you prefer.",
+          "question": "Do I own the dashboard application once it's built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to design your ultimate crypto trading command center?",
+      "type": "cta",
+      "content": "Stop reacting to the market and start anticipating it. Build a custom crypto dashboard that gives you the insights and control you need to trade smarter."
+    }
+  ],
+  "title": "Cryptocurrency Trading Dashboards"
+}

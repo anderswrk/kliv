@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a commodity price tracking and analysis tool that can pull real-time data for agricultural products, metals, and energy, visualize trends, and forecast future prices based on market indicators.",
+  "description": "Develop custom commodity price tracking and analysis tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start tracking prices",
+    "subtitle": "Gain a competitive edge with custom-built commodity price intelligence applications, tailored to your market and insights.",
+    "title": "Build your own commodity price tracking tools"
+  },
+  "metaDescription": "Create powerful commodity price tracking and analysis tools with Kliv. Monitor trends, forecast prices, and make informed decisions with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why rely on generic data when you can have precise insights?",
+      "type": "text",
+      "content": "In today’s volatile global economy, commodity prices can make or break supply chains, manufacturing costs, and profit margins. Generic data feeds and expensive, one-size-fits-all software often fall short, providing neither the depth nor the flexibility needed for critical business decisions.\n\nKliv offers a revolutionary approach: build your own bespoke price tracking and analysis tools. Forget recurring subscriptions for features you don't use or missing the specific commodities crucial to your operations. With AI-assisted development, you can craft a solution that fits your exact needs, delivers actionable intelligence, and gives you a true competitive advantage."
+    },
+    {
+      "title": "The strategic advantage of tailored commodity intelligence",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nMany businesses struggle with commodity price volatility because their tools aren't built for their specific challenges. Common issues with generic platforms include:\n\n- **Incomplete coverage**: Missing niche commodities vital to your industry.\n- **Generic data**: Lack of specific regional or quality-grade data.\n- **Rigid analysis**: Inability to apply custom analytical models or combine with internal data.\n- **High recurring costs**: Expensive subscriptions regardless of actual usage or needed features.\n- **Integration hurdles**: Difficult to seamlessly link with existing ERP, supply chain, or financial systems.\n\n## Why custom development is the superior path\n\nLeveraging Kliv to build your own commodity price intelligence system empowers your business in ways generic solutions cannot:\n\n### Hyper-specific data sources\nAccess and integrate data from the exact exchanges, brokers, and regional markets relevant to *your* business. Track specialized grades of raw materials, not just broad categories.\n\n### Custom analytical models\nApply proprietary algorithms, blend external price data with your internal inventory, production costs, or sales forecasts to generate truly predictive insights.\n\n### One-time investment, continuous value\nInstead of endless SaaS fees, building with Kliv is a capital expenditure that yields long-term benefits. You own the asset, able to modify and scale it without additional vendor costs.\n\n### Seamless internal integration\nDesign your tool to directly integrate with your ERP, supply chain management, or financial planning software, automating data flow and reducing manual effort and errors.\n\n### Unparalleled flexibility and scalability\nAs your business evolves, so can your tool. Add new commodities, integrate more data sources, enhance analytical capabilities, or adapt the user interface—all on your terms.\n\n## Real-world impact of custom solutions\n\nBusinesses thrive by building tailor-made commodity intelligence systems:\n\n**Manufacturing**: Predicting steel or plastic resin price fluctuations to optimize procurement strategies and lock in supplier contracts at favorable rates.\n\n**Food & Beverage**: Monitoring agricultural yields, weather patterns, and global demand for grains or coffee beans to manage ingredient costs and predict inventory needs.\n\n**Logistics & Shipping**: Tracking fuel prices to dynamically adjust shipping rates, optimize routes, and hedge against unexpected cost increases.\n\n**Financial Trading**: Developing sophisticated price prediction models for specific futures contracts, integrating diverse macroeconomic indicators for arbitrage opportunities.\n\n**Retail**: Analyzing cotton costs for clothing lines or sugar prices for confectioneries to adjust pricing strategies and promotional campaigns proactively.\n\n## Kliv: Your strategic partner in custom software\n\nBuilding complex data applications used to be a monumental task. Kliv changes this by providing:\n\n- **AI-driven development**: Translate your business needs into functional software with natural language prompts.\n- **Rapid iteration**: Quickly prototype, test, and deploy new features, adapting to market changes faster.\n- **No-code/Low-code capabilities**: Empower your domain experts to contribute to the development process, ensuring the tool meets real-world requirements.\n- **Complete ownership**: You own the intellectual property and have full control over the deployed application.\n\nDon't let generic tools hold you back. Craft a commodity price intelligence solution that truly drives your business forward."
+    },
+    {
+      "title": "Commodity analysis ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track historical and real-time prices for specific agricultural commodities for future planning.",
+          "prompt": "Create a commodity price tracking tool for agricultural raw materials like corn, wheat, and soybeans, showing historical price charts, real-time quotes, and news feeds impacting these markets.",
+          "title": "Agricultural Price Tracker"
+        },
+        {
+          "description": "Monitor and forecast energy prices crucial for logistical and manufacturing operations.",
+          "prompt": "Build an application that monitors crude oil, natural gas, and gasoline prices, providing 30-day forecasts based on supply/demand indicators and geopolitical events.",
+          "title": "Energy Market Monitor"
+        },
+        {
+          "description": "Visualize trends and risks in precious and industrial metal markets.",
+          "prompt": "Develop a metal commodity tracker for gold, silver, copper, and aluminum, including volatility metrics, supply chain disruption alerts, and import/export data visualization.",
+          "title": "Metals Market Dashboard"
+        },
+        {
+          "description": "Automate alerts for significant price movements in selected commodities.",
+          "prompt": "Construct a commodity price alert system that sends notifications via email or SMS when the price of a chosen commodity (e.g., coffee, sugar) crosses a predefined threshold or changes by a certain percentage in 24 hours.",
+          "title": "Custom Price Alert System"
+        },
+        {
+          "description": "Analyze the impact of currency fluctuations on commodity import/export costs.",
+          "prompt": "Design a tool that links commodity prices (e.g., iron ore, lumber) to relevant exchange rates (e.g., USD/AUD, EUR/USD) to show the effective cost fluctuations for importers/exporters.",
+          "title": "Currency Impact Analyzer"
+        },
+        {
+          "description": "Compare historical commodity prices against internal cost data for procurement optimization.",
+          "prompt": "Create a bespoke analytics platform that overlays historical rubber prices with internal procurement costs, allowing for comparison and identification of optimal purchasing moments.",
+          "title": "Procurement Cost Optimizer"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your commodity analysis tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now, add advanced time-series forecasting models (e.g., ARIMA, Prophet) to predict future prices for specific commodities based on historical data patterns.",
+          "title": "Integrate advanced forecasting"
+        },
+        {
+          "prompt": "Add a feature that allows users to input their inventory levels and production schedules, then cross-reference with live prices to calculate optimal buying times to minimize costs.",
+          "title": "Add inventory optimization module"
+        },
+        {
+          "prompt": "Incorporate news sentiment analysis for key commodities by crawling financial news outlets and social media, displaying a sentiment score alongside price charts.",
+          "title": "Include market sentiment analysis"
+        },
+        {
+          "prompt": "Create an API endpoint so our other internal systems, like ERP or CRM, can automatically pull current commodity prices and integrate them into their workflows.",
+          "title": "Develop an API for data access"
+        },
+        {
+          "prompt": "Build a module that allows users to simulate how different hedging strategies (e.g., futures contracts, options) would perform given various future price scenarios.",
+          "title": "Add hedging strategy simulator"
+        },
+        {
+          "prompt": "Implement a user management system with different access levels, so some users can only view data while others can configure data sources and alerts.",
+          "title": "Implement user roles and permissions"
+        },
+        {
+          "prompt": "Add a module for tracking and visualizing commodity derivatives (futures, options) for specific contract months, including open interest and volume data.",
+          "title": "Track derivatives data"
+        },
+        {
+          "prompt": "Integrate weather data from key agricultural regions or shipping routes and link it to relevant commodity prices (e.g., drought in Brazil affecting coffee prices).",
+          "title": "Integrate weather data"
+        },
+        {
+          "prompt": "Create a customizable dashboard with widgets that users can drag and drop to configure their preferred view of various commodity markets and analytical insights.",
+          "title": "Build a customizable dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your commodity intelligence system",
+      "type": "features",
+      "items": [
+        {
+          "description": "Access real-time price feeds from global exchanges and specialized markets.",
+          "icon": "📈",
+          "title": "Real-time data feeds"
+        },
+        {
+          "description": "Visualize historical trends, volatility, and correlations through interactive charts.",
+          "icon": "📊",
+          "title": "Advanced charting"
+        },
+        {
+          "description": "Set up alerts for price thresholds, significant movements, or news events.",
+          "icon": "🔔",
+          "title": "Customizable alerts"
+        },
+        {
+          "description": "Apply your own models or leverage AI for predictive price forecasting.",
+          "icon": "🔮",
+          "title": "Predictive analytics"
+        },
+        {
+          "description": "Seamlessly connect with your internal ERP, SCM, and financial systems.",
+          "icon": "🔗",
+          "title": "Integrations"
+        },
+        {
+          "description": "Organize commodities into custom portfolios for focused monitoring.",
+          "icon": "💼",
+          "title": "Portfolio management"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Developing a basic commodity price tracker with Kliv's platform can take as little as a few hours. More complex systems with advanced analytics and multiple integrations might take a few days or weeks to fully refine.",
+          "question": "How quickly can I build a commodity price tracking application?"
+        },
+        {
+          "answer": "No deep coding expertise is necessary. Kliv's platform uses AI to help you define and build your application using natural language, making advanced tools accessible to business users and analysts.",
+          "question": "Do I need to be a programmer to build a commodity tracking tool?"
+        },
+        {
+          "answer": "Yes, your custom tool can connect to a wide array of data sources, including major commodity exchanges, financial data APIs, weather services, news feeds, and even your own internal databases.",
+          "question": "Can I integrate data from specific commodity exchanges or niche sources?"
+        },
+        {
+          "answer": "You own 100% of the application you build, including its code and intellectual property. This means you have full control over its data, hosting, and future development.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "A custom-built tool often results in significant long-term savings. While there's an upfront development cost, you avoid the recurring, often escalating, subscription fees of SaaS products, making it more cost-effective over time.",
+          "question": "Is building a custom tool more expensive than buying an off-the-shelf solution?"
+        },
+        {
+          "answer": "Absolutely. Custom tools shine in their adaptability. You can continuously add new features, integrate new data sources, modify existing analytics, or scale the application as your business needs evolve, without vendor lock-in.",
+          "question": "Can I modify or expand my application after it's initially built?"
+        },
+        {
+          "answer": "You decide where your data resides and how it's secured. This often provides a higher level of security and compliance control than relying on third-party SaaS providers. Kliv helps you build secure applications, but you control the environment.",
+          "question": "What about data security and privacy for sensitive commodity information?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance throughout the building process, offering suggestions and debugging support. You can also deploy your solution to cloud providers like AWS or Azure, leveraging their robust support ecosystems.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master commodity markets with your own intelligence?",
+      "type": "cta",
+      "content": "Stop reacting to market shifts and start proactively managing risk. Build the precise commodity price tracking and analysis tool your business deserves."
+    }
+  ],
+  "title": "Commodity Price Tracking & Analysis Tools"
+}

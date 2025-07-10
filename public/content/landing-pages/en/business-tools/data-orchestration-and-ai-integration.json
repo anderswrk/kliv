@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to build a data orchestration tool that integrates with various data sources, processes real-time information, and feeds it into different AI models for analytics and decision-making.",
+  "description": "Build custom data orchestration and AI integration platforms with Kliv's powerful development environment.",
+  "hero": {
+    "cta": "Start orchestrating",
+    "subtitle": "Unify your data, streamline your AI workflows, and unlock new insights with custom-built data orchestration and AI integration tools.",
+    "title": "Orchestrate your data and integrate AI seamlessly"
+  },
+  "metaDescription": "Create powerful data orchestration and AI integration tools with Kliv. Connect diverse data sources, automate data flows, and empower your AI models with high-quality, real-time data.",
+  "sections": [
+    {
+      "title": "The growing need for intelligent data integration",
+      "type": "text",
+      "content": "In today’s data-driven world, getting valuable insights from disparate data sources and leveraging advanced AI models is crucial. However, the path from raw data to actionable intelligence is often fragmented and complex. Off-the-shelf solutions rarely provide the tailored connectivity or the real-time processing capabilities that modern businesses demand.\n\nBuilding your own data orchestration and AI integration platform gives you the power to design a system that perfectly aligns with your specific data landscape, unique business logic, and the precise needs of your AI applications. It's about creating a unified, intelligent pipeline that drives smarter decisions."
+    },
+    {
+      "title": "Why build your own data orchestration & AI integration platform?",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\nGeneric data integration tools and AI platforms often fall short in addressing the nuanced requirements of complex data ecosystems. They typically lead to:\n\n- **Fragmented data views**: Difficulty combining data from various, sometimes incompatible, sources.\n- **Vendor lock-in**: Dependence on proprietary connectors and limited customization options.\n- **Scalability issues**: Challenges in handling growing data volumes or real-time processing needs.\n- **Lack of AI-specific features**: Generic tools aren't optimized for feeding diverse data types directly into AI models or managing model outputs.\n- **High recurring costs**: Subscription models that become prohibitive as your integration needs grow.\n\n## The power of custom-built precision\nLeveraging platforms like Kliv to build your own solution offers unparalleled advantages:\n\n### Seamless data unification\nBreak down data silos by creating custom connectors and transformations tailored to your exact data formats and business rules. Integrate legacy systems, cloud platforms, APIs, and streaming data feeds into a cohesive whole.\n\n### Optimized for AI workflows\nDesign your data pipeline specifically to prepare, enrich, and deliver data to your AI models. This includes features like feature engineering, data labeling integration, model versioning, and explainability data capture.\n\n### Real-time processing and decision-making\nBuild systems capable of processing data as it arrives, enabling real-time analytics, automated alerts, and instantaneous AI-driven decisions. This is critical for applications like fraud detection, dynamic pricing, and predictive maintenance.\n\n### Complete ownership and control\nUnlike SaaS solutions, a custom-built platform means you own the architecture, the code, and the data. This provides maximum flexibility for future enhancements, robust security, and compliance with specific industry regulations.\n\n### Cost-efficiency over time\nWhile there’s an initial development investment, owning your solution eliminates recurring subscription fees and unexpected upcharges for data volume, connectors, or advanced features. This translates to significant long-term savings.\n\n## Real-world impact\n\nCustom data orchestration and AI integration tools are fundamentally changing how businesses operate:\n\n**Financial Services**: Automatically pulling market data, transaction logs, and customer interactions to feed real-time fraud detection AI models and personalized recommendation engines.\n\n**Manufacturing**: Integrating IoT sensor data from machinery, production line metrics, and supply chain information to predict equipment failure, optimize production schedules, and improve quality control.\n\n**Healthcare**: Orchestrating patient records, lab results, and genomic data to assist diagnostic AI tools and tailor personalized treatment plans.\n\n**Retail**: Combining online browsing behavior, in-store purchase data, inventory levels, and external market trends to power dynamic pricing algorithms and personalized marketing campaigns.\n\n## The Kliv advantage\n\nKliv empowers you to design, build, and deploy these sophisticated systems rapidly. With intuitive, AI-assisted development, complex data pipelines and AI integrations become manageable projects, not monumental challenges. You define the logic, and Kliv helps you construct the robust infrastructure to support it."
+    },
+    {
+      "title": "Ideas for your custom platform",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate sales predictions using CRM and external market data.",
+          "prompt": "Create a data orchestration pipeline that pulls customer data from Salesforce, financial data from QuickBooks, and market trends from a public API, then feeds this aggregated data into a machine learning model for sales forecasting.",
+          "title": "Sales Forecasting & Market Analysis"
+        },
+        {
+          "description": "Detect anomalies in real-time for security or operational insights.",
+          "prompt": "Build a real-time data integration system that collects log data from network devices and server applications, normalizes it, and streams it to an AI-powered anomaly detection engine for immediate threat identification.",
+          "title": "Real-time Anomaly Detection"
+        },
+        {
+          "description": "Predict maintenance needs for industrial equipment.",
+          "prompt": "Develop a data orchestration tool that collects sensor data from factory machinery, integrates it with historical maintenance records, and uses an AI model to predict equipment failures, triggering automated work orders.",
+          "title": "Predictive Maintenance Platform"
+        },
+        {
+          "description": "Personalize recommendations across multiple customer touchpoints.",
+          "prompt": "Design a system to unify customer browsing history from the website, purchase data from e-commerce, and support interactions from a ticketing system, then use this for a personalized product recommendation AI.",
+          "title": "Personalized Customer Experience Engine"
+        },
+        {
+          "description": "Streamline content analysis and categorization.",
+          "prompt": "Build an integration solution that scrapes news articles and social media posts, processes the text using natural language processing (NLP) AI models, and categorizes content for competitive intelligence.",
+          "title": "Automated Content Intelligence"
+        },
+        {
+          "description": "Optimize supply chain logistics with predictive analytics.",
+          "prompt": "Create a data platform that integrates inventory levels, shipping data, weather forecasts, and historical demand to feed an AI model that optimizes logistics routes and predicts delivery delays.",
+          "title": "Smart Supply Chain Optimization"
+        }
+      ]
+    },
+    {
+      "title": "Extend your data and AI capabilities",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user interface for monitoring data flows and AI model performance.",
+          "title": "Build a monitoring dashboard"
+        },
+        {
+          "prompt": "Integrate a data quality module to clean and validate incoming data before processing.",
+          "title": "Incorporate data quality checks"
+        },
+        {
+          "prompt": "Implement dynamic scaling for processing large volumes of streaming data.",
+          "title": "Add real-time data streaming features"
+        },
+        {
+          "prompt": "Allow users to define custom data transformations using a visual editor.",
+          "title": "Include a visual data pipeline builder"
+        },
+        {
+          "prompt": "Add version control for AI models and data processing pipelines.",
+          "title": "Implement MLOps capabilities"
+        },
+        {
+          "prompt": "Connect with external data marketplaces for enriched datasets.",
+          "title": "Integrate with third-party data sources"
+        },
+        {
+          "prompt": "Build an alert system that notifies stakeholders when data anomalies or critical AI model predictions occur.",
+          "title": "Create intelligent alerting mechanisms"
+        },
+        {
+          "prompt": "Develop an API layer to expose processed data and AI model inference results to other applications.",
+          "title": "Expose data via APIs"
+        }
+      ]
+    },
+    {
+      "title": "Core features for your platform",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to diverse sources: databases, APIs, cloud services, streaming feeds.",
+          "icon": "🔗",
+          "title": "Universal Data Connectors"
+        },
+        {
+          "description": "Automate data movement, transformation, and loading into target systems.",
+          "icon": "➡️",
+          "title": "Automated Data Pipelines"
+        },
+        {
+          "description": "Prepare, enrich, and deliver data in formats optimized for AI model consumption.",
+          "icon": "🧠",
+          "title": "AI-Ready Data Preparation"
+        },
+        {
+          "description": "Define and manage how data flows and interacts with various AI models.",
+          "icon": "⚙️",
+          "title": "AI Workflow Orchestration"
+        },
+        {
+          "description": "Monitor data flows, processing speeds, and AI model performance in real-time.",
+          "icon": "📈",
+          "title": "Performance Monitoring"
+        },
+        {
+          "description": "Ensure data security, access control, and regulatory compliance.",
+          "icon": "🔒",
+          "title": "Enterprise-Grade Security"
+        }
+      ]
+    },
+    {
+      "title": "Common questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom data orchestration and AI integration tool with Kliv can range from a few days for a basic pipeline to several weeks for a complex, enterprise-grade system, depending on the complexity of integrations and AI models involved.",
+          "question": "How long does it take to build a robust data orchestration tool?"
+        },
+        {
+          "answer": "Kliv provides an AI-assisted development environment which significantly reduces the need for traditional coding. While some data transformation logic might require basic scripting knowledge, the core orchestration and integration features can be defined using natural language.",
+          "question": "Is coding required to build these complex data systems?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with almost any data source or AI service that provides an API or standard data protocols (e.g., SQL, Kafka, REST, cloud storage). Kliv makes it easy to define these connections.",
+          "question": "Can my custom platform integrate with my existing data sources and AI models?"
+        },
+        {
+          "answer": "You own 100% of the developed application and its underlying code. You have full control over where it's hosted, how it runs, and any future modifications.",
+          "question": "Who owns the data orchestration and AI integration platform I build?"
+        },
+        {
+          "answer": "Building your own solution with Kliv usually results in significant cost savings over time compared to purchasing multiple specialized SaaS tools, especially as your data volumes and integration needs grow. You pay for development, not ongoing subscriptions based on usage.",
+          "question": "How does the cost compare to off-the-shelf data integration tools?"
+        },
+        {
+          "answer": "Yes, scaling is a core advantage. You design the system to scale according to your needs, whether it's handling more data sources, higher volumes, or more complex AI workloads. You're not limited by vendor tiers or pricing structures.",
+          "question": "Can the custom-built platform scale with my data growth and AI demands?"
+        },
+        {
+          "answer": "Kliv helps you build secure applications by default. You control the deployment environment, data access, and security policies, ensuring your sensitive data and AI models are protected according to your specific requirements, often exceeding generic SaaS offerings.",
+          "question": "What about the security of my sensitive data and AI workflows?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unlock your data's full potential?",
+      "type": "cta",
+      "content": "Stop patching together incompatible systems. Build a unified, intelligent data orchestration and AI integration platform tailored precisely to your business needs."
+    }
+  ],
+  "title": "Data orchestration & AI integration"
+}

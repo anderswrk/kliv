@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a powerful form builder application that allows users to design custom forms with various field types, conditional logic, and integrated responses, suitable for surveys, registrations, and data collection.",
+  "description": "Build custom form builder applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your form builder",
+    "subtitle": "Design, deploy, and manage custom online forms for any need with your own AI-powered application built on Kliv's platform.",
+    "title": "Build your own custom form builder"
+  },
+  "metaDescription": "Create powerful, flexible, and secure form builder applications with Kliv. Collect data, conduct surveys, and manage registrations with custom-built tools.",
+  "sections": [
+    {
+      "title": "Why build your own form builder solution?",
+      "type": "text",
+      "content": "In today's data-driven world, collecting information efficiently is crucial. While many off-the-shelf form builders exist, they often come with limitations: restrictive branding, limited integrations, data ownership concerns, and recurring subscription fees that escalate with usage. The true power lies in a solution tailored exactly to your needs.\n\nWith AI development platforms like Kliv, creating a custom form builder is no longer a complex, resource-intensive task reserved for large tech companies. You can now design an application that perfectly fits your specific requirements, offers complete branding freedom, integrates seamlessly with your existing systems, and gives you full control over your collected data, all without continuous monthly payments."
+    },
+    {
+      "title": "The case for a custom form builder application",
+      "type": "markdown",
+      "content": "## The pitfalls of public form services\n\nMany organizations rely on generic third-party form builders, which often present significant drawbacks:\n\n- **Branding restrictions**: Your forms are often branded by the provider, not unified with your organization's look and feel.\n- **Limited customization**: Complex logic, unique field types, or specific design elements are often impossible to implement.\n- **Data privacy concerns**: Sensitive data is held on external servers, raising questions about security and compliance.\n- **Subscription costs**: Fees often scale with usage, responses, or advanced features, becoming a significant ongoing expense.\n- **Integration hurdles**: Connecting processed data to your internal systems can be cumbersome or require expensive add-ons.\n\n## The unmatched advantages of building your own\n\nLeveraging AI-powered platforms like Kliv to create a custom form builder grants you unparalleled control and flexibility:\n\n### Total design freedom\nBuild forms that perfectly match your brand's aesthetics and user experience. Implement any field type, layout, or conditional logic without vendor limitations.\n\n### Complete data ownership\nAll data collected through your forms resides exactly where you want it – on your servers or in your chosen cloud environment. This ensures compliance with privacy regulations and gives you peace of mind.\n\n### Cost efficiency\nMove from endless subscriptions to a one-time build investment. This offers significant long-term savings, especially for high-volume data collection needs.\n\n### Seamless integration\nDesign your form builder to integrate natively with your CRM, ERP, marketing automation, or any other internal system. Automate data flow without resorting to manual exports or costly connectors.\n\n### Scalability and adaptability\nAs your organization grows or its needs evolve, your custom form builder can evolve with it. Easily add new features, form types, or data processing capabilities without being constrained by a vendor's roadmap.\n\n### Enhanced security\nImplement security protocols tailored to your specific industry and data sensitivity, providing a more robust defense than generic, public-facing solutions.\n\n## Real-world impact\n\nCustom form builder applications are empowering diverse sectors:\n\n**Education**: Custom registration forms for courses and events, tailored student feedback surveys, and secure application portals.\n\n**Healthcare**: HIPAA-compliant patient intake forms, consent forms, and symptom trackers with direct integration into patient management systems.\n\n**Marketing**: Highly personalized lead generation forms, contest entry forms, and detailed customer satisfaction surveys.\n\n**Human Resources**: Streamlined employee onboarding forms, internal feedback surveys, and performance review collection tools.\n\n**Event Management**: Comprehensive attendee registration, speaker application forms, and real-time feedback forms for conferences and workshops.\n\n## The AI-powered development difference\n\nBuilding bespoke software once required specialized coding skills and extensive time. Kliv's AI platform revolutionizes this process:\n\n- **Intuitive creation**: Describe your desired form fields, logic, and data handling in plain language.\n- **Rapid prototyping**: See functional forms and backend logic generated quickly, allowing for immediate testing and iteration.\n- **Intelligent suggestions**: AI guides you in optimizing form flow, data validation, and security features.\n- **Automated setup**: Kliv helps configure databases, user interfaces, and APIs based on your specifications.\n\n## Your data, your rules\n\nStop compromising on your data collection strategy. Instead of shoehorning your needs into an existing platform, build a form builder that is as unique and dynamic as your organization. Kliv provides the AI-powered tools to bring your vision to life, quickly and without extensive coding knowledge."
+    },
+    {
+      "title": "Form builder ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a fully customizable patient intake form system with conditional logic and secure data storage.",
+          "prompt": "Design a medical patient intake form builder that includes various input types (text, date, dropdown), requires e-signatures for consent, and securely stores data to comply with HIPAA guidelines.",
+          "title": "HIPAA-compliant patient intake"
+        },
+        {
+          "description": "Build a multi-step job application form with resume uploads and automated email notifications.",
+          "prompt": "Develop an online job application system with multiple sections (personal info, work history, education), allows applicants to upload resumes (PDF/DOCX), and sends automated confirmation emails to applicants and hiring managers.",
+          "title": "Employee application portal"
+        },
+        {
+          "description": "Create event registration forms with payment integration and attendee managment.",
+          "prompt": "I need a form builder specifically for event registrations. It should handle different ticket types (free/paid), include a payment gateway (e.g., Stripe integration), and allow organizers to view and export attendee lists.",
+          "title": "Custom event registration"
+        },
+        {
+          "description": "Develop a product order form with inventory checks and customizable options.",
+          "prompt": "Build an e-commerce order form that lets customers select products with various options (size, color), checks inventory availability, calculates totals, and captures customer and shipping information.",
+          "title": "Product order form"
+        },
+        {
+          "description": "Implement an internal survey tool for employee feedback and detailed reporting.",
+          "prompt": "Create an internal employee feedback survey tool with anonymous submission options, rating scales, open-ended questions, and a backend dashboard to view aggregate results and trends.",
+          "title": "Anonymous employee surveys"
+        },
+        {
+          "description": "Design a customer feedback widget that can be embedded on websites and collects ratings.",
+          "prompt": "Construct a simple customer feedback widget that can be embedded anywhere on a website. It should ask for a star rating, a short comment, and allow users to optionally leave their email for follow-up.",
+          "title": "Embeddable feedback widget"
+        }
+      ]
+    },
+    {
+      "title": "Recommended enhancements for your form builder",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now, add a drag-and-drop interface for building forms, making it visually intuitive for non-technical users.",
+          "title": "Drag-and-drop visual builder"
+        },
+        {
+          "prompt": "Integrate a payment processing gateway (like Stripe or PayPal) directly into the forms for paid registrations or purchases.",
+          "title": "Payment gateway integration"
+        },
+        {
+          "prompt": "Add a feature to pre-fill form fields based on known user data or URL parameters.",
+          "title": "Pre-filled fields"
+        },
+        {
+          "prompt": "Implement comprehensive analytics and reporting dashboards to visualize form submission data, conversion rates, and popular fields.",
+          "title": "Advanced analytics and reporting"
+        },
+        {
+          "prompt": "Build a secure user management system with roles (e.g., form creator, data viewer, admin) for controlled access.",
+          "title": "User authentication & roles"
+        },
+        {
+          "prompt": "Enable multi-page forms with a progress bar indicator for longer surveys or applications.",
+          "title": "Multi-page forms with progress"
+        },
+        {
+          "prompt": "Add CAPTCHA or reCAPTCHA integration to prevent spam submissions.",
+          "title": "Spam prevention (CAPTCHA)"
+        },
+        {
+          "prompt": "Allow the generated forms to be easily embedded as a widget on any website using a simple code snippet.",
+          "title": "Embeddable forms"
+        },
+        {
+          "prompt": "Create custom email notification templates that trigger upon form submission, sending confirmations to users and alerts to admins.",
+          "title": "Custom email notifications"
+        }
+      ]
+    },
+    {
+      "title": "Core form builder capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Design forms with a wide range of input types, from text fields to file uploads and sophisticated selectors.",
+          "icon": "📝",
+          "title": "Diverse field types"
+        },
+        {
+          "description": "Define rules to show or hide fields based on user input, creating dynamic and responsive forms.",
+          "icon": "✨",
+          "title": "Conditional logic"
+        },
+        {
+          "description": "Securely store and manage all submitted form data in your preferred database or cloud storage.",
+          "icon": "🔒",
+          "title": "Secure data storage"
+        },
+        {
+          "description": "Export collected data into various formats (CSV, Excel, JSON) for seamless use in other applications.",
+          "icon": "📤",
+          "title": "Data export options"
+        },
+        {
+          "description": "Set up automated alerts and notifications via email or other channels upon form submission.",
+          "icon": "📧",
+          "title": "Automated notifications"
+        },
+        {
+          "description": "Ensure data quality with built-in validation rules for required fields, email formats, numbers, and more.",
+          "icon": "✔️",
+          "title": "Robust data validation"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic custom form builder application on Kliv can take anywhere from a few hours to a day, depending on the complexity of your requirements. More sophisticated systems with advanced features might take a few days of iteration.",
+          "question": "How quickly can I build a form builder application?"
+        },
+        {
+          "answer": "No, you do not need to be a programmer. Kliv's platform is designed for natural language interaction. You describe the features and functions you want in simple terms, and our AI helps generate the application logic and user interface.",
+          "question": "Is coding knowledge required to build form applications?"
+        },
+        {
+          "answer": "Yes, your custom form builder can integrate with nearly any external service that offers an API. This includes CRM systems, marketing automation platforms, payment gateways, and cloud storage providers.",
+          "question": "Can my custom form builder integrate with other software?"
+        },
+        {
+          "answer": "You retain full ownership of the application you build, including all collected data and the underlying code. You have complete control over where your data is stored and how it's handled.",
+          "question": "Who owns the forms and data collected by my application?"
+        },
+        {
+          "answer": "Compared to ongoing SaaS subscriptions, building your own form builder with Kliv is typically a one-time project investment. This often results in significant cost savings over the long term, especially if you have high volume or complex needs.",
+          "question": "How does the cost compare to commercial form builders?"
+        },
+        {
+          "answer": "Absolutely. Custom-built applications are inherently flexible. You can modify existing forms, add new features, change validation rules, or integrate new services at any time as your needs evolve, without vendor limitations.",
+          "question": "Can I modify my form builder application after it's created?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to design your ideal data collection solution?",
+      "type": "cta",
+      "content": "Stop conforming to off-the-shelf limits. Build a custom form builder application that's perfectly aligned with your workflows and brand, giving you full control and ownership."
+    }
+  ],
+  "title": "Custom Form Builder Applications"
+}

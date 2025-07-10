@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a responsive and adaptive navigation system that changes based on user screen size, device type, and even user behavior, with options for dynamic content loading.",
+  "description": "Design and build dynamic, user-centric navigation systems that adapt to any device or context, powered by AI.",
+  "hero": {
+    "cta": "Build your adaptive navigation",
+    "subtitle": "Deliver unparalleled user experience by building site navigation that intelligently responds to every visitor and device.",
+    "title": "Custom Responsive & Adaptive Navigation"
+  },
+  "metaDescription": "Create advanced responsive and adaptive navigation systems for websites or applications with Kliv. Tailor user experiences for any device, context, or interaction.",
+  "sections": [
+    {
+      "title": "Why build custom adaptive navigation?",
+      "type": "text",
+      "content": "In today's multi-device world, static navigation is a relic. Users expect seamless, intuitive ways to find information, regardless of whether they're on a desktop, tablet, or smartphone. More than just 'responsive,' adaptive navigation goes a step further, dynamically adjusting not just its layout, but also its content and functionality based on user context.\n\nWhile off-the-shelf website builders offer basic responsive templates, they rarely provide the depth of customization needed for truly intelligent, context-aware navigation. Building your own system with Kliv empowers you to create a superior user experience that drives retention and engagement."
+    },
+    {
+      "title": "The case for intelligent navigation tools",
+      "type": "markdown",
+      "content": "## The limitations of conventional navigation\n\nMost websites still rely on standard navigation patterns that are:\n\n- **One-size-fits-all**: Designed for an average user on an average device, failing to optimize for specific needs.\n- **Static**: Don't change based on user location, time of day, browsing history, or stated preferences.\n- **Bloated on mobile**: Full desktop menus often collapse into clunky 'hamburger' icons that hide important elements.\n- **Hard to update**: Modifying complex menu structures across different breakpoints becomes a development nightmare.\n- **Not truly user-centric**: They don't learn or predict what a user might need next.\n\n## Why custom adaptive navigation is essential\n\nLeveraging Kliv to build your own adaptive navigation system lets you overcome these limitations:\n\n### Hyper-personalized user journeys\nImagine a navigation system that highlights 'Support' for a customer who just completed a purchase, or prioritizes 'New Arrivals' for a returning shopper. Custom adaptive navigation allows for dynamic menu items, reordered categories, or even completely different menu structures based on current user intent or segment.\n\n### Optimal performance on every device\nBeyond simply resizing, adaptive navigation can serve streamlined, mobile-first menu assets on smaller screens, reducing load times and improving performance. On larger screens, it can reveal more complex, information-rich navigation elements, providing a tailored experience without compromise.\n\n### Future-proof and extensible\nAs your website or application evolves, your navigation needs will too. A custom-built system can easily integrate new features like AI-powered search, voice command navigation, or AR overlays, components that are often impossible or costly to add to pre-built solutions.\n\n### Data-driven design\nIntegrate analytics directly into your navigation system to A/B test different menu layouts, track user interaction with specific navigation elements, and continuously optimize for conversion and engagement. This level of granularity is rarely available with standard tools.\n\n### Brand consistency and control\nMaintain precise control over every visual and interactive detail of your navigation, ensuring it aligns perfectly with your brand identity and design system, unmatched by theme-based limitations."
+    },
+    {
+      "title": "Adaptive navigation ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A navigation system for an e-commerce site that simplifies for mobile users, showing fewer categories but highlighting bestsellers based on past purchases.",
+          "prompt": "Build an e-commerce navigation that adapts. On desktop, show full categories and sub-menus. On mobile, simplify to top-level categories and dynamically display 'Recently Viewed' or 'Recommended for You' links based on user history.",
+          "title": "Contextual E-commerce Navigation"
+        },
+        {
+          "description": "A news portal navigation that prioritizes trending topics or user-subscribed categories on smaller screens, while showing full section layouts on larger displays.",
+          "prompt": "Create a news website navigation that adapts per device. On wide screens, display a multi-column mega-menu with top stories by section. On narrow screens, show a condensed menu with 'Trending' and 'My Topics' prominent, auto-hiding less popular sections.",
+          "title": "Dynamic News Portal Menu"
+        },
+        {
+          "description": "A dashboard navigation for a SaaS product that simplifies the main menu for quick actions on mobile, while offering complex analytics links on desktop.",
+          "prompt": "Develop an adaptive dashboard navigation. On large screens, include a sidebar with full text labels and sub-sections for analytics, settings, and reports. On small screens, collapse to icon-only navigation with pop-up labels, prioritizing 'Quick Actions' and 'Notifications'.",
+          "title": "SaaS Dashboard Navigation"
+        },
+        {
+          "description": "A learning platform's navigation that guides students to their current course and next lesson on mobile, while offering a full course catalog on desktop.",
+          "prompt": "Design a responsive learning platform navigation. For users logged in on mobile, the main menu should prominently feature 'My Current Course' and 'Next Lesson'. On desktop, display the full course catalog and community links.",
+          "title": "Educational Platform Guidance"
+        },
+        {
+          "description": "A large enterprise website navigation that adapts based on user role (e.g., employee, customer, investor) and highlights relevant departments or resources.",
+          "prompt": "Implement an enterprise website navigation system that adapts based on the user's login role. Show specific internal resources for 'Employees', product support for 'Customers', and financial reports for 'Investors'. On mobile, reduce depth and prioritize immediate needs for each role.",
+          "title": "Role-Based Enterprise Navigation"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your navigation tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature where the navigation automatically highlights sections relevant to the user's current page content using AI analysis.",
+          "title": "AI-driven context highlighting"
+        },
+        {
+          "prompt": "Integrate a 'remember last viewed' feature for the navigation, personalizing menu options based on user's recent activity across sessions.",
+          "title": "Personalized 'recently viewed'"
+        },
+        {
+          "prompt": "Build out A/B testing capabilities for different navigation layouts and content, and provide an analytics dashboard to track performance.",
+          "title": "Integrated A/B testing and analytics"
+        },
+        {
+          "prompt": "Allow content editors to dynamically add or remove navigation menu items through a simple admin interface without coding.",
+          "title": "CMS integration for menu editing"
+        },
+        {
+          "prompt": "Add voice search capabilities directly into the navigation system, allowing users to speak their queries to find content.",
+          "title": "Voice command integration"
+        },
+        {
+          "prompt": "Implement a feature allowing users to customize their own main navigation links for quick access, saved to their profile.",
+          "title": "User-customizable favorite links"
+        },
+        {
+          "prompt": "Include an 'offline mode' for the navigation, allowing users to browse previously loaded menu structures even without internet access.",
+          "title": "Offline navigation support"
+        },
+        {
+          "prompt": "Add haptic feedback for mobile navigation interactions and keyboard navigation support for accessibility.",
+          "title": "Advanced accessibility features"
+        }
+      ]
+    },
+    {
+      "title": "Key adaptive navigation features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automatically adjust layouts and content for various screen sizes and orientations.",
+          "icon": "📱",
+          "title": "Multi-device responsiveness"
+        },
+        {
+          "description": "Dynamically change menu items or structure based on user context (location, time, behavior).",
+          "icon": "🧠",
+          "title": "Contextual adaptation"
+        },
+        {
+          "description": "Serve different navigation assets or content for optimal performance based on device type.",
+          "icon": "⚡",
+          "title": "Performance optimization"
+        },
+        {
+          "description": "Learn from user interactions to present more relevant navigation options over time.",
+          "icon": "📈",
+          "title": "AI-driven personalization"
+        },
+        {
+          "description": "Integrate with various data sources for real-time menu updates (e.g., inventory, news feeds).",
+          "icon": "🔗",
+          "title": "Real-time data integration"
+        },
+        {
+          "description": "Full control over visual branding, animations, and interactive elements of your navigation.",
+          "icon": "🎨",
+          "title": "Customizable UI/UX"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic responsive navigation system can be done in a few hours. For complex, AI-driven adaptive systems with deep personalization, it might take a few days to a week to refine and implement all features.",
+          "question": "How long does it take to build an adaptive navigation system?"
+        },
+        {
+          "answer": "No, Kliv's AI-powered platform allows you to describe your desired navigation behavior in natural language. The system helps generate the underlying code and structure, making it accessible for non-developers.",
+          "question": "Do I need to be a developer to build this?"
+        },
+        {
+          "answer": "Absolutely. You can integrate your custom navigation into any website or application, regardless of the underlying technology, as long as it can embed custom code or consume APIs. This typically includes popular CMS platforms like WordPress, Shopify, or custom-built applications.",
+          "question": "Can this be integrated with my existing website or CMS?"
+        },
+        {
+          "answer": "Unlike third-party plugins or themes that you pay for indefinitely, building with Kliv means you own the code. After the initial build, you host and maintain it, eliminating recurring subscription fees for the navigation itself.",
+          "question": "What are the cost implications compared to buying a plugin?"
+        },
+        {
+          "answer": "Yes, security is a top priority. Since you control the code and hosting environment, you can implement robust security measures tailored to your specific needs, often exceeding the generic security of off-the-shelf solutions.",
+          "question": "Is a custom-built navigation solution secure?"
+        },
+        {
+          "answer": "Yes, Kliv allows you to export the generated code, giving you full ownership. This means you can host your navigation solution on your own servers, a CDN, or any cloud provider, ensuring complete autonomy.",
+          "question": "Can I host the generated navigation code myself?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to redefine your website's navigation?",
+      "type": "cta",
+      "content": "Stop limiting your users. Build an intelligent, context-aware navigation system that delivers an exceptional experience on every device, powered by Kliv's AI platform."
+    }
+  ],
+  "title": "Responsive & Adaptive Navigation Tools"
+}

@@ -1,0 +1,171 @@
+{
+  "defaultPrompt": "I want to create a key management and tracking system that allows me to log who takes and returns keys, specify access permissions for specific keys, and generate audit reports of key movements.",
+  "description": "Develop custom key management and tracking applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start tracking keys",
+    "subtitle": "Stop losing track of valuable assets. Build a custom key management and tracking system tailored to your exact needs.",
+    "title": "Build your own key management & tracking system"
+  },
+  "metaDescription": "Create powerful, custom key management and tracking tools with Kliv. Enhance security, reduce losses, and manage access effectively for any type of key or asset.",
+  "sections": [
+    {
+      "title": "Why build your own key management tool?",
+      "type": "text",
+      "content": "In many organizations, securing physical access points and valuable assets hinges on effective key management. Relying on paper logs, spreadsheets, or generic off-the-shelf solutions often leads to inefficiencies, lost keys, and security vulnerabilities.\n\nA custom-built key management and tracking system ensures that you have complete oversight, tailored permissions, and an unalterable audit trail. Instead of adapting your operations to a rigid system, you can design a solution that perfectly fits your security protocols and operational flow, all without recurring subscription fees."
+    },
+    {
+      "title": "The critical need for custom key management",
+      "type": "markdown",
+      "content": "## The pitfalls of traditional key management\n\nMany businesses struggle with inadequate key management, leading to significant risks:\n\n- **Security Gaps**: Difficulty knowing who has which key, leading to unauthorized access risks.\n- **Lost Productivity**: Time wasted searching for keys or manually logging transactions.\n- **Financial Loss**: Costs associated with replacing lost keys, rekeying locks, or replacing stolen assets.\n- **Lack of Accountability**: No reliable audit trail for key movements, hindering investigations.\n- **Compliance Issues**: Inability to meet regulatory requirements for asset and access control.\n\nOff-the-shelf solutions often present their own problems:\n\n- **Generic Features**: Not designed for your specific key types, locations, or permission structures.\n- **High Recurring Costs**: Continuous subscription fees that add up over time.\n- **Integration Challenges**: Poor compatibility with existing security systems or HR databases.\n- **Data Security Concerns**: Storing sensitive access information on third-party servers.\n\n## The unmatched advantages of a custom system\n\nBuilding your own key management and tracking system with Kliv provides unparalleled control and efficiency:\n\n### Granular Access Control\nAssign specific keys to individuals or departments with time-bound access, ensuring only authorized personnel have the right keys when needed. Your system, your rules.\n\n### Real-time Tracking & Audit Trails\nKnow exactly who has what key, when it was taken, and when it was returned. Every transaction is logged, providing an immutable record for security audits or investigations.\n\n### Enhanced Security & Loss Prevention\nBy minimizing human error and providing immediate alerts for overdue or misplaced keys, you drastically reduce the risk of lost assets or security breaches.\n\n### Cost Savings & ROI\nEliminate recurring software fees and reduce costs associated with lost keys, rekeying, and security incidents. A custom build is a one-time investment that pays dividends.\n\n### Perfect Fit & Scalability\nDesign the system to manage any type of key (physical, digital, vehicle) and integrate seamlessly with your existing infrastructure. As your organization grows or its needs change, your system adapts effortlessly.\n\n## Real-world applications\n\nA custom key management system built on Kliv can transform operations:\n\n**Facilities Management**: Track master keys, room keys, and utility access keys across large complexes, managing technician access and ensuring security.\n\n**Vehicle Fleet Management**: Monitor vehicle key movements, ensuring vehicles are only used by authorized drivers and providing a log for maintenance and incidents.\n\n**Equipment Lending**: For schools or creative agencies, manage the checkout and return of valuable equipment (cameras, projectors, laptops) reducing losses and ensuring availability.\n\n**Guard Services/Security**: Securely manage access to sensitive areas, ensuring security personnel have a reliable system for key handovers and patrols.\n\n## Building with Kliv's AI advantage\n\nKliv leverages powerful AI to make building custom solutions fast and intuitive:\n\n- **No-code to low-code**: Describe your needs in plain language, and Kliv's AI translates them into a functional application.\n- **Rapid Iteration**: Design, test, and deploy faster than ever before. See your vision come to life in days, not months.\n- **Intelligent suggestions**: AI guides you through the development process, suggesting optimal database structures, user interfaces, and security protocols.\n- **Own your solution**: You retain full ownership, allowing for complete customization and integration with any system.\n\nInvest in a solution that truly serves your security and operational needs. Start building your custom key management and tracking system today with Kliv."
+    },
+    {
+      "title": "Key management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track the issuance and return of building entrance keys.",
+          "prompt": "Create a key management system for a commercial building. It needs to track who takes and returns each entrance key, the time of transaction, and integrate with an employee database for user verification.",
+          "title": "Building Access Key Tracker"
+        },
+        {
+          "description": "Manage keys for a fleet of company vehicles.",
+          "prompt": "Build a vehicle key management system. It should allow employees to check out and return vehicle keys, log mileage, fuel level upon return, and flag if a key is overdue.",
+          "title": "Vehicle Fleet Key System"
+        },
+        {
+          "description": "Control access to server rooms or secure areas.",
+          "prompt": "Develop a high-security key management solution for server room access. It must require dual authentication for key release, log all access attempts, and send alerts for unauthorized key movements.",
+          "title": "Secure Area Key Control"
+        },
+        {
+          "description": "Track a wide variety of tools and equipment.",
+          "prompt": "I need a system to manage keys for various pieces of equipment, from forklifts to specialized tools. It should allow for categorization of keys, assign maintenance schedules to equipment, and track technician key usage.",
+          "title": "Equipment Key & Tool Management"
+        },
+        {
+          "description": "Streamline key issuance for new tenants or guests.",
+          "prompt": "Design a key management system for a hotel or vacation rental property. It needs to manage digital entrance codes and physical keys, track guest check-in/check-out times, and automatically deactivate codes upon departure.",
+          "title": "Guest & Tenant Key Management"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your key management system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to print QR code labels for each key and scanner integration to quickly check in/out keys.",
+          "title": "Add QR Code Scanning"
+        },
+        {
+          "prompt": "Implement SMS or email notifications for overdue keys or unauthorized access attempts.",
+          "title": "Integrate Real-time Alerts"
+        },
+        {
+          "prompt": "Develop a user-friendly mobile application for facility managers to check key status remotely.",
+          "title": "Create a Mobile App"
+        },
+        {
+          "prompt": "Add a dashboard to visualize key movement patterns, peak usage times, and identify frequently misplaced keys.",
+          "title": "Build an Analytics Dashboard"
+        },
+        {
+          "prompt": "Integrate with our existing HR system to automatically update employee access permissions.",
+          "title": "Link to HR Database"
+        },
+        {
+          "prompt": "Include photo capture functionality during key checkout/check-in for enhanced accountability.",
+          "title": "Add Photo Verification"
+        },
+        {
+          "prompt": "Implement GPS tracking for high-value keys or vehicles associated with keys.",
+          "title": "Incorporate GPS Tracking"
+        },
+        {
+          "prompt": "Add a self-service kiosk interface for authorized users to check out/in keys securely.",
+          "title": "Develop a Self-Service Kiosk"
+        },
+        {
+          "prompt": "Introduce a multi-level approval workflow for requesting access to highly restricted keys.",
+          "title": "Add Approval Workflows"
+        }
+      ]
+    },
+    {
+      "title": "Essential Key Management System Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define and manage specific keys, key sets, and associated assets.",
+          "icon": "🔑",
+          "title": "Key Inventory & Asset Mapping"
+        },
+        {
+          "description": "Track individual key assignments, check-outs, and returns in real-time.",
+          "icon": "⏱️",
+          "title": "Transaction Logging"
+        },
+        {
+          "description": "Assign granular permissions on who can access which keys and under what conditions.",
+          "icon": "👥",
+          "title": "User & Access Control"
+        },
+        {
+          "description": "Generate comprehensive reports for audits, usage patterns, and key history.",
+          "icon": "📈",
+          "title": "Audit Trail & Reporting"
+        },
+        {
+          "description": "Receive automated alerts for overdue keys, unauthorized access attempts, or critical events.",
+          "icon": "🚨",
+          "title": "Alerts & Notifications"
+        },
+        {
+          "description": "Seamlessly connect with existing access control, HR, or security systems.",
+          "icon": "🔗",
+          "title": "System Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic key management system with Kliv can take as little as a few hours. More complex systems with advanced integrations or specific UIs might take a few days or weeks, depending on the complexity.",
+          "question": "How quickly can I build a key management system with Kliv?"
+        },
+        {
+          "answer": "Not at all. Kliv's AI-driven platform allows you to describe your desired system in plain language. The AI handles the code generation, database setup, and user interface design.",
+          "question": "Do I need to be a programmer to build this type of system?"
+        },
+        {
+          "answer": "Yes, your custom key management system can integrate with virtually any existing system via APIs, including employee databases, access control systems, or other security platforms.",
+          "question": "Can the custom system integrate with my existing security or HR systems?"
+        },
+        {
+          "answer": "With Kliv, you own 100% of the intellectual property, including the source code and raw data. You have complete control over data storage and security protocols.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "A custom-built solution eliminates recurring subscription fees common with off-the-shelf software. Your initial investment pays for itself quickly, leading to significant long-term savings.",
+          "question": "How does the cost compare to buying an off-the-shelf solution?"
+        },
+        {
+          "answer": "Absolutely. Custom systems are designed for flexibility. You can easily add new features, modify existing workflows, or scale capabilities as your business evolves, without relying on a vendor's update cycle.",
+          "question": "Can I modify the system after it's built?"
+        },
+        {
+          "answer": "Custom solutions built on Kliv give you direct control over security measures. You can implement specific encryption, access controls, and hosting environments tailored to your organization's security policies, often surpassing generic SaaS offerings.",
+          "question": "Are custom-built key management systems secure?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your keys and assets?",
+      "type": "cta",
+      "content": "Stop the cycle of lost keys and security vulnerabilities. Build a precise, efficient, and cost-effective key management system that grows with your business."
+    }
+  ],
+  "title": "Key Management & Tracking Systems"
+}

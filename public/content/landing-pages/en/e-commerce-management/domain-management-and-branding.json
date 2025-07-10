@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a domain management tool that tracks domain expiration, manages DNS records, monitors SSL certificates, and integrates with brand assets for consistency across multiple e-commerce stores.",
+  "description": "Build custom domain management and branding applications with Kliv's AI-powered platform for e-commerce.",
+  "hero": {
+    "cta": "Start Managing Domains",
+    "subtitle": "Take complete control of your e-commerce domain portfolio and brand identity with tailored applications built on Kliv's platform.",
+    "title": "Build your own Domain & Branding Management Tools"
+  },
+  "metaDescription": "Create powerful domain management and branding tools for e-commerce with Kliv. Track expirations, manage DNS, ensure brand consistency, and secure your online presence.",
+  "sections": [
+    {
+      "title": "Why build your own domain and branding management tool?",
+      "type": "text",
+      "content": "E-commerce businesses, especially those managing multiple stores or brands, face a constant challenge in keeping their online presence cohesive and secure. Generic domain registrars offer basic tools, but they often fall short when it comes to consolidating oversight, ensuring brand consistency across diverse properties, and proactively managing critical aspects like SSL certificates and DNS records. With AI-powered development platforms like Kliv, building a custom solution that perfectly fits your portfolio's needs is now within reach.\n\nOff-the-shelf domain management solutions are often fragmented, expensive at scale, and lack the bespoke branding integration capabilities you need. A custom-built tool gives you centralized control, unified branding, and cost-efficiency without recurring fees."
+    },
+    {
+      "title": "The strategic advantage of tailored domain & branding management",
+      "type": "markdown",
+      "content": "## The limitations of scattered domain management\n\nMany e-commerce businesses grapple with a sprawling digital footprint, leading to:\n\n- **Missed expirations:** Leading to downtime, loss of authority, or even domain hijacking.\n- **Inconsistent branding:** Across various stores, landing pages, and marketing assets due to lack of a central brand asset repository.\n- **Manual DNS headaches:** Managing complex DNS records manually across multiple domains is error-prone and time-consuming.\n- **SSL lapses:** Expired SSL certificates trigger security warnings and erode customer trust.\n- **Disconnected insights:** No unified view of domain and brand performance across your entire portfolio.\n\n## Why a custom solution elevates your e-commerce game\n\nThe ability to build custom software is no longer exclusive to tech giants. AI development tools empower you to create precise solutions:\n\n### Centralized control, unified insights\nBring all your domains under one roof. Track performance, expirations, and status for your entire portfolio from a single, custom dashboard. Get a holistic view of your digital assets.\n\n### Ironclad brand consistency\nIntegrate your brand guidelines, logos, and visual assets directly into your management tool. Ensure every new domain, sub-domain, or marketing campaign adheres to your brand standards automatically.\n\n### Proactive security and compliance\nImplement automated alerts for SSL certificate expirations, domain registration renewals, and DNS changes. Reduce the risk of security vulnerabilities and maintain continuous uptime.\n\n### Cost efficiency at scale\nInstead of paying per domain or per feature with commercial tools, a custom solution is a one-time investment that saves you significant recurring costs, especially as your portfolio grows.\n\n## Practical applications in e-commerce\n\nCustom domain and branding tools can revolutionize how e-commerce businesses operate:\n\n**Multi-brand retailers**: Centralized system to manage unique domains, subdomains, and localized branding for each product line or geographic market.\n\n**Affiliate marketers**: Automated tracking of numerous niche sites, ensuring domain health, SSL validity, and consistent brand messaging for diverse campaigns.\n\n**Subscription box services**: Managing multiple landing pages and variations for A/B testing, ensuring brand alignment and tracking conversions across unique URLs.\n\n**Drop-shippers**: Efficiently launch and manage new product stores, each with its own domain, ensuring rapid deployment and brand compliance.\n\n## The AI-powered development edge\n\nBuilding sophisticated tools used to be a long, costly endeavor. Kliv's AI platform changes this:\n\n- **Rapid concept to deployment**: Describe your needs in plain language, and the AI helps construct your application quickly.\n- **Tailored functionality**: No unnecessary features, no missing ones. Your tool is built exactly to your specifications.\n- **Iterative improvement**: Easily add new features or modify existing ones as your domain portfolio or branding strategy evolves.\n\n## Get started with a competitive advantage\n\nStop adapting your operations to fit generic software. Build a domain management and branding tool that is as dynamic and unique as your e-commerce business. With Kliv, you can start creating this powerful asset today, without needing to be a developer."
+    },
+    {
+      "title": "Tailored tool ideas for your e-commerce domains",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Monitor all your domains and receive timely renewal alerts",
+          "prompt": "Create a tool that pulls all my GoDaddy and Namecheap domains, shows their expiration dates, and sends an email alert 60, 30, and 7 days before each domain expires.",
+          "title": "Automated Domain Expiration Tracker"
+        },
+        {
+          "description": "Centralize and manage all DNS records for multiple domains",
+          "prompt": "Build a DNS management interface that lets me view and edit A, CNAME, MX, and TXT records for domains registered across different providers, with a history of changes.",
+          "title": "Unified DNS Management Hub"
+        },
+        {
+          "description": "Ensure secure connections across all your e-commerce sites",
+          "prompt": "Develop an SSL certificate monitoring system that scans all my e-commerce storefronts, identifies expired or soon-to-expire SSLs, and sends push notifications to my phone.",
+          "title": "SSL Certificate Health Monitor"
+        },
+        {
+          "description": "Maintain brand consistency across all digital properties",
+          "prompt": "Design a centralized brand asset manager where I can upload logos, color palettes, and fonts, and generate branded templates for new landing pages or subdomains.",
+          "title": "E-commerce Brand Identity Keeper"
+        },
+        {
+          "description": "Categorize and organize your digital assets efficiently",
+          "prompt": "Build a domain portfolio organizer that lets me tag domains by brand, store type, and geographic region, and allows quick searching and filtering.",
+          "title": "Custom Domain Portfolio Organizer"
+        },
+        {
+          "description": "Monitor uptime and performance for all your e-commerce sites",
+          "prompt": "Create a website uptime monitor that pings selected domains every 5 minutes from different locations and alerts me via Slack if any site goes down.",
+          "title": "Multi-Site Uptime & Performance Watcher"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your domain and branding system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now add a user management system with roles (admin, editor, viewer) for different team members to access parts of the tool.",
+          "title": "Add User Roles & Permissions"
+        },
+        {
+          "prompt": "Integrate with a popular e-commerce platform (e.g., Shopify, WooCommerce) to automatically discover and list all connected domains.",
+          "title": "E-commerce Platform Integration"
+        },
+        {
+          "prompt": "Implement a brand guideline compliance checker that can scan new website content for adherence to pre-defined brand rules.",
+          "title": "Automated Brand Compliance Checker"
+        },
+        {
+          "prompt": "Add a feature to bulk update DNS records across selected groups of domains simultaneously.",
+          "title": "Bulk DNS Update Functionality"
+        },
+        {
+          "prompt": "Develop a reporting module that generates monthly summaries of domain status, SSL health, and brand asset utilization.",
+          "title": "Generate Performance Reports"
+        },
+        {
+          "prompt": "Create an API endpoint so other internal systems can query domain status or register new domains through your tool.",
+          "title": "Expose REST API Endpoints"
+        },
+        {
+          "prompt": "Add a module to track Google Search Console and Google Analytics accounts associated with each domain, displaying key SEO metrics.",
+          "title": "SEO & Analytics Integration"
+        },
+        {
+          "prompt": "Build a feature that allows secure storage of domain registrar login credentials, encrypted, for quick access.",
+          "title": "Secure Credential Manager"
+        },
+        {
+          "prompt": "Implement a proactive alert system that uses AI to predict potential domain-related issues before they occur.",
+          "title": "Predictive Issue Alerts"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your custom tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Track all domain registration and SSL certificate expiration dates.",
+          "icon": "📅",
+          "title": "Automated Expiration Tracking"
+        },
+        {
+          "description": "Manage DNS records (A, CNAME, MX, TXT) across multiple registrars from one interface.",
+          "icon": "⚙️",
+          "title": "Centralized DNS Management"
+        },
+        {
+          "description": "Store and manage all brand assets, guidelines, and templates.",
+          "icon": "🖼️",
+          "title": "Unified Brand Asset Library"
+        },
+        {
+          "description": "Receive real-time notifications for critical domain events or issues.",
+          "icon": "🔔",
+          "title": "Custom Alert System"
+        },
+        {
+          "description": "Categorize, tag, and search your entire domain portfolio with ease.",
+          "icon": "🗂️",
+          "title": "Intuitive Portfolio Organization"
+        },
+        {
+          "description": "Measure key metrics about domain health and brand consistency over time.",
+          "icon": "📈",
+          "title": "Actionable Insights & Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic domain management tool can take as little as a few hours on Kliv. More complex systems with advanced integrations and detailed branding modules might take a few days of iterative refinement.",
+          "question": "How quickly can I deploy a custom domain management tool?"
+        },
+        {
+          "answer": "No coding is required. Kliv's AI allows you to describe your desired functionalities, like 'track domain expirations' or 'manage DNS records', in plain English, and it assists in building the application.",
+          "question": "Do I need to be a developer to build this type of tool?"
+        },
+        {
+          "answer": "Yes, custom tools built with Kliv can integrate with domain registrars (like GoDaddy, Namecheap), DNS providers (Cloudflare), e-commerce platforms (Shopify, WooCommerce), and other APIs to fetch and manage data.",
+          "question": "Can my custom tool integrate with existing domain registrars and platforms?"
+        },
+        {
+          "answer": "You retain full ownership of the application you build. This includes the code, data, and all the intellectual property. You can host it where you prefer and modify it freely.",
+          "question": "Who owns the software and data I create using Kliv?"
+        },
+        {
+          "answer": "Initially, a custom build might have a higher upfront cost than a basic SaaS subscription. However, by eliminating recurring fees and tailoring features to your exact needs, it quickly becomes more cost-effective for growing e-commerce operations.",
+          "question": "How does the cost compare to off-the-shelf domain management solutions?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is flexibility. You can continuously iterate, adding new features, modifying integrations, or evolving the branding components as your business strategy changes.",
+          "question": "Can I modify or expand my custom tool over time?"
+        },
+        {
+          "answer": "Building your own tool can enhance security because you control the hosting environment, data encryption, and access permissions. You're not reliant on a third-party's security infrastructure.",
+          "question": "Is a custom-built solution more secure for sensitive domain data?"
+        },
+        {
+          "answer": "Kliv provides AI-driven assistance during the building process, offering suggestions and helping debug. For ongoing maintenance, since you own the code, you have complete freedom to update or adapt it as needed, ensuring long-term self-sufficiency.",
+          "question": "What kind of support is available after my tool is built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your e-commerce domain and branding?",
+      "type": "cta",
+      "content": "Stop juggling fragmented tools and achieve true oversight. Build a custom domain and branding management application precisely tailored to your e-commerce business with Kliv."
+    }
+  ],
+  "title": "Domain & Branding Management Tools"
+}

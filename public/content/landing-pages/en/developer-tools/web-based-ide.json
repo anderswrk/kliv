@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a web-based IDE that supports real-time collaborative coding, includes a robust code editor with syntax highlighting, and can execute code in various languages directly in the browser.",
+  "description": "Develop custom web-based IDEs tailored to specialized development needs with Kliv's AI-driven platform.",
+  "hero": {
+    "cta": "Build Your Custom IDE",
+    "subtitle": "Create powerful, integrated web-based development environments that perfectly fit your team's workflow and technology stack.",
+    "title": "Build Your Own Web-Based IDE"
+  },
+  "metaDescription": "Design and deploy custom web-based Integrated Development Environments (IDEs) with Kliv. Empower your developers with a tailored, collaborative coding platform accessible from anywhere.",
+  "sections": [
+    {
+      "title": "The Need for Specialized Development Environments",
+      "type": "text",
+      "content": "In today’s fast-paced development landscape, generic IDEs often fall short of specific project or team requirements. Whether it's for education, specialized domain-specific languages, or unique collaborative workflows, off-the-shelf solutions can be rigid and lack necessary integrations.\n\nBuilding your own web-based IDE allows you to craft an environment that's precisely engineered for your unique challenges. With Kliv, leveraging AI, this complex task becomes achievable, letting you focus on the features that truly matter for your development ecosystem."
+    },
+    {
+      "title": "Why a Custom Web IDE is a Game-Changer",
+      "type": "markdown",
+      "content": "## The Limitations of Generic IDEs\n\nWhile powerful, many commercial or open-source IDEs are designed for a broad audience, leading to several drawbacks for specialized use cases:\n\n- **Feature Overload**: Packed with features you don't need, leading to bloat and slower performance.\n- **Integration Gaps**: Difficulty integrating with niche internal tools, custom build systems, or proprietary APIs.\n- **Learning Curve**: Steep learning curves for new team members due to extensive configurations and plugins.\n- **Cost & Licensing**: Expensive licenses or restrictive open-source models for enterprise use.\n- **Portability Issues**: Challenges ensuring consistent development environments across different machines and operating systems.\n\n## The Advantages of a Tailored Web-Based IDE\n\nLeveraging Kliv to build your own web-based IDE offers unparalleled advantages:\n\n### Perfect Fit for Any Workflow\nDesign an IDE that mirrors your team's exact development process. Integrate specific linters, formatters, and compilers unique to your projects or domain-specific languages. This leads to higher productivity and fewer context switches.\n\n### Enhanced Collaboration & Accessibility\nWeb-based means accessible from anywhere with an internet connection, on any device. Implement real-time collaborative editing, shared debug sessions, and instant code reviews directly within the environment, fostering seamless teamwork.\n\n### Controlled & Consistent Environments\nEliminate \"works on my machine\" issues. Provide a consistent, pre-configured development environment, complete with all dependencies and tools, ensuring all developers are on the same page, from setup to deployment.\n\n### Security & IP Protection\nHost your IDE on your own infrastructure, giving you complete control over data security and intellectual property. No more relying on third-party cloud services for sensitive code.\n\n### Cost Efficiency in the Long Run\nInitial development with Kliv is a one-time investment, eliminating recurring per-user licensing fees common with commercial IDEs. This translates to significant savings, especially for large teams.\n\n## Real-World Applications of Custom Web IDEs\n\nCustom web IDEs are ideal for innovative use cases:\n\n**Educational Platforms**: Online coding schools or university courses can provide a sandboxed environment for students to practice specific programming concepts without local setup.\n\n**Proprietary Language Development**: Companies building tools for their own domain-specific languages can offer an integrated environment for their users or internal teams.\n\n**Embedded Systems Development**: Provide a specialized IDE with integrated simulators and debuggers for hardware-specific low-level programming.\n\n**Software as a Service (SaaS)**: Offer an in-browser code editor for scripting, customizing, or extending your SaaS product directly within the user interface.\n\n**Competitive Programming Platforms**: Host coding competitions with a controlled environment for participants to write and test their solutions.\n\n## The Kliv Advantage for Building IDEs\n\nBuilding a sophisticated web IDE traditionally requires deep expertise in web technologies, compilers, and distributed systems. Kliv simplifies this:\n\n- **AI-Assisted Scaffolding**: Describe your desired features, and Kliv helps generate the core architecture and components.\n- **Component Library**: Access pre-built components for common IDE functionalities like file explorers, terminal emulators, and code editors.\n- **Multi-Language Support**: Easily integrate various language servers and runtimes.\n- **Scalable Architecture**: Design for concurrent users and complex computations with built-in scalability considerations.\n\nInvest in a development environment that works for you, not against you. With Kliv, building a custom web-based IDE is not just a dream, but an achievable reality."
+    },
+    {
+      "title": "Web-Based IDE Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a secure, sandboxed environment for learning a new programming language.",
+          "prompt": "Build a web-based IDE for a coding bootcamp that allows students to write and execute Python code directly in the browser, with integrated lessons and automatic grading for exercises.",
+          "title": "Educational Coding Sandbox"
+        },
+        {
+          "description": "Develop a specialized environment for a specific domain-specific language (DSL).",
+          "prompt": "Design a web-based IDE for writing and testing SQL queries against a live database, with intelligent autocompletion, query history, and result visualization features.",
+          "title": "Domain-Specific Language (DSL) Editor"
+        },
+        {
+          "description": "Facilitate collaborative coding and rapid prototyping for small teams.",
+          "prompt": "Create a collaborative web-based IDE emphasizing real-time document sharing and editing for small teams, including integrated chat and version control capabilities for web development (HTML, CSS, JS).",
+          "title": "Agile Team Collaboration Platform"
+        },
+        {
+          "description": "An in-browser scripting environment for a SaaS application.",
+          "prompt": "Develop a web-based IDE that allows users of a SaaS product to write and test custom scripts (e.g., JavaScript) to extend the application's functionality, with access to specific API endpoints.",
+          "title": "SaaS Customization Editor"
+        },
+        {
+          "description": "A lightweight environment for competitive programming contests.",
+          "prompt": "Build a web-based IDE for competitive programming contests that supports C++, Java, and Python, with a simple code editor, input/output console, and a submission system for automated judging.",
+          "title": "Online Judge & Contest Platform"
+        },
+        {
+          "description": "A simple, secure environment for quick code snippets and sharing.",
+          "prompt": "Design a minimal web-based IDE focused on quickly writing, executing, and sharing code snippets in multiple languages, with public and private sharing options.",
+          "title": "Code Snippet Playground"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Custom IDE",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a real-time collaborative editing feature similar to Google Docs within the code editor.",
+          "title": "Real-time Collaboration"
+        },
+        {
+          "prompt": "Add support for containerized development environments (e.g., Docker) to ensure consistent execution environments.",
+          "title": "Docker Integration"
+        },
+        {
+          "prompt": "Implement a full-featured debugger that allows breakpoints, step-through execution, and variable inspection for common languages.",
+          "title": "Integrated Debugger"
+        },
+        {
+          "prompt": "Build an integrated version control system client (e.g., Git) for cloning, committing, and pushing code directly from the IDE.",
+          "title": "Git Version Control"
+        },
+        {
+          "prompt": "Include AI-powered code completion and suggestion features based on project context and coding patterns.",
+          "title": "AI Code Assistance"
+        },
+        {
+          "prompt": "Develop a plugin marketplace or extension system so users can further customize the IDE.",
+          "title": "Plugin System"
+        },
+        {
+          "prompt": "Add a built-in terminal or shell access for running commands directly within the web environment.",
+          "title": "Integrated Terminal"
+        },
+        {
+          "prompt": "Implement automated testing frameworks that allow users to run unit tests and view results directly in the IDE.",
+          "title": "Automated Testing Integration"
+        },
+        {
+          "prompt": "Provide a customizable theme engine, allowing users to select dark/light modes and various syntax highlighting themes.",
+          "title": "Theming & Customization"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of a Custom Web-Based IDE",
+      "type": "features",
+      "items": [
+        {
+          "description": "A powerful, customizable editor with syntax highlighting, autocompletion, and multi-cursor support.",
+          "icon": "📝",
+          "title": "Advanced Code Editor"
+        },
+        {
+          "description": "Ability to compile and run code in multiple programming languages directly in the browser or on a remote server.",
+          "icon": "▶️",
+          "title": "Multi-Language Runner"
+        },
+        {
+          "description": "An intuitive file explorer for navigating, creating, and managing project files and directories.",
+          "icon": "📂",
+          "title": "File System Navigation"
+        },
+        {
+          "description": "Support for integrating with version control systems like Git for source code management.",
+          "icon": "🌲",
+          "title": "Version Control Integration"
+        },
+        {
+          "description": "Integrated console for viewing program output, errors, and interacting with the running application.",
+          "icon": "🖥️",
+          "title": "Output & Error Console"
+        },
+        {
+          "description": "Tools for search, replace, and refactoring across your codebase.",
+          "icon": "🔍",
+          "title": "Code Navigation & Search"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building IDEs with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional web-based IDE with Kliv can take anywhere from a few days for a basic version with core features, to several weeks for a highly sophisticated and customized environment. The AI significantly speeds up the initial setup and component integration.",
+          "question": "How long will it take to build a web-based IDE?"
+        },
+        {
+          "answer": "While fundamental web development concepts are helpful, Kliv is designed for rapid development with AI assistance. You don't need to be an expert in compiler design or real-time architecture. Describe your vision, and Kliv helps generate the necessary code and infrastructure.",
+          "question": "Do I need deep programming expertise to build an IDE with Kliv?"
+        },
+        {
+          "answer": "Yes, custom IDEs built with Kliv can integrate with virtually any external service or API, including GitHub, GitLab, Docker Hub, cloud services (AWS, Azure, GCP), and various language servers through secure connections.",
+          "question": "Can the custom IDE integrate with existing developer tools or cloud services?"
+        },
+        {
+          "answer": "You own 100% of the code and infrastructure of your custom IDE. Kliv is a platform to build, not a proprietary lock-in. You have complete control over where it's hosted and how it's maintained.",
+          "question": "Who owns the code and infrastructure of the custom IDE I build?"
+        },
+        {
+          "answer": "The cost model for building a custom web IDE with Kliv typically involves a one-time development investment, potentially with ongoing hosting costs based on your infrastructure choices. This is often significantly more cost-effective in the long run compared to recurring per-user subscription fees of commercial IDEs, which quickly add up for teams.",
+          "question": "How does the cost of building a custom IDE compare to commercial alternatives?"
+        },
+        {
+          "answer": "Absolutely. Custom IDEs are designed for adaptability. You can easily add new features, support new languages, or modify existing components as your team's needs evolve, all with continued AI assistance from Kliv.",
+          "question": "Is the custom IDE extensible and easy to modify after initial deployment?"
+        },
+        {
+          "answer": "Yes, building your own IDE means you have full control over security protocols, data encryption, access controls, and compliance. Kliv helps you implement best practices for secure application development, often leading to a more secure environment than relying on a third-party's security framework.",
+          "question": "Can I ensure the security and privacy of my code when using a custom web IDE?"
+        },
+        {
+          "answer": "Kliv provides robust support throughout the development lifecycle, including AI-driven error detection, debugging suggestions, optimization recommendations, and access to a comprehensive knowledge base and community forums. For complex issues, direct expert support is available.",
+          "question": "What kind of support is available if I encounter issues during development?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build the perfect development environment?",
+      "type": "cta",
+      "content": "Stop adapting to generic tools. Create a web-based IDE that's engineered for your success and empowers your developers like never before."
+    }
+  ],
+  "title": "Web-Based IDE Development"
+}

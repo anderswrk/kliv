@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a personalized video creator that can generate unique videos for each customer using their name and specific details from a data source. It should include dynamic text, image, and video segments.",
+  "description": "Build custom personalized video creation applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start personalizing",
+    "subtitle": "Deliver hyper-personalized video content at scale with custom applications tailored to your needs.",
+    "title": "Build your own personalized video creator"
+  },
+  "metaDescription": "Create powerful personalized video tools with Kliv. Engage customers, enhance marketing, and automate video production with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own personalized video creator?",
+      "type": "text",
+      "content": "In an age of mass communication, personalization cuts through the noise. Generic marketing messages often get lost. Personalized videos, however, command attention, build stronger connections, and drive higher engagement.\n\nWhile off-the-shelf personalized video platforms exist, they come with high per-video costs, limited customization options, and often force you into their hosting solutions. Building your own gives you full control, cost efficiency at scale, and the flexibility to integrate deeply with your existing systems."
+    },
+    {
+      "title": "The power of custom personalized video creation",
+      "type": "markdown",
+      "content": "## Engaging customers like never before\n\nPersonalized videos deliver a unique and impactful experience, making recipients feel seen and valued. This leads to higher open rates, increased click-through rates, and significantly improved conversion rates compared to static content. Imagine a welcome video with an attendee's name spoken aloud, or a sales follow-up directly referencing their recent purchase.\n\n## Limitations of generic solutions\n\nMany businesses opt for SaaS platforms for personalized video, only to discover limitations:\n\n- **High per-video costs**: Scaling personalization becomes astronomically expensive.\n- **Limited design flexibility**: Pre-built templates rarely match unique brand aesthetics perfectly.\n- **Data privacy concerns**: Pushing sensitive customer data to third-party platforms.\n- **Integration complexities**: Difficulty connecting seamlessly with internal CRMs or marketing automation tools.\n- **Vendor lock-in**: Dependence on a single provider for updates and features.\n\n## The advantages of a custom-built solution\n\nBuilding your own personalized video creator with Kliv transforms these challenges into opportunities:\n\n### Unmatched cost efficiency\nPay a one-time development cost, not a per-video fee. This makes personalized video viable for large-scale campaigns, even millions of recipients.\n\n### Complete creative control\nDesign videos that perfectly align with your brand guidelines, incorporating unique fonts, colors, animations, and narrative structures not possible with off-the-shelf templates.\n\n### Seamless data integration\nConnect directly to your internal databases, CRM, or e-commerce platforms. Pull any relevant data point to personalize videos dynamically, without data silos or privacy risks.\n\n### Infinite scalability\nYour custom solution can be scaled to generate thousands or millions of videos automatically, keeping pace with your marketing campaigns and customer growth.\n\n### Diverse applications\n\nCustom personalized video creators aren't just for marketing. They can be used for:\n\n- **Sales enablement**: Tailored product demos, personalized introductions, or follow-ups.\n- **Customer support**: Personalized onboarding guides, troubleshooting steps, or feature walkthroughs.\n- **Education**: Custom learning modules with student-specific feedback.\n- **Internal communication**: Personalized updates for employees, acknowledging individual achievements.\n- **Event promotion**: Branded invitations with attendee names and specific event details.\n\n## AI-powered creation\n\nKliv leverages AI to simplify complex video generation:\n\n- **Automated content assembly**: AI helps in dynamically stitching together video segments, images, and text.\n- **Text-to-speech integration**: Generate natural-sounding voiceovers using personalized text inputs.\n- **Intelligent data mapping**: AI assists in correctly mapping customer data to video fields.\n- **Script generation**: AI can even help draft personalized scripts based on data inputs and predefined templates.\n\nBy taking control of your personalized video strategy, you unlock a powerful new channel for customer engagement that is both cost-effective and infinitely adaptable."
+    },
+    {
+      "title": "Personalized video ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Generate unique welcome videos for new sign-ups or customers.",
+          "prompt": "Create a personalized welcome video generator for new users that pulls their first name, signup date, and top interest from a CRM to display as dynamic text and overlays.",
+          "title": "Customer welcome series"
+        },
+        {
+          "description": "Send tailored follow-ups based on purchase history or browsing behavior.",
+          "prompt": "Build a system that generates personalized \"thank you for your purchase\" videos, including the product name, order number, and a dynamic customer service contact based on their region.",
+          "title": "E-commerce order confirmations"
+        },
+        {
+          "description": "Create automated birthday or anniversary greetings for customers.",
+          "prompt": "Develop an application that sends personalized birthday videos to customers, including their name animated on screen and custom well wishes from a chosen brand character.",
+          "title": "Loyalty program engagements"
+        },
+        {
+          "description": "Generate unique sales pitches or follow-ups for prospects.",
+          "prompt": "Design a personalized sales outreach video tool that can insert a prospect's company name, their role, and reference a specific product solution relevant to their industry.",
+          "title": "B2B sales outreach"
+        },
+        {
+          "description": "Provide personalized progress reports or educational content.",
+          "prompt": "Create an educational video generator that delivers personalized course progress updates, showing a student's completion percentage and next lesson based on their individual learning path.",
+          "title": "Online course progress reports"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your video creator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to upload custom background music and integrate dynamic audio mixing based on video length.",
+          "title": "Dynamic audio integration"
+        },
+        {
+          "prompt": "Implement a real-time preview function where users can see how their personalized video will look before generating it.",
+          "title": "Real-time video preview"
+        },
+        {
+          "prompt": "Integrate with a popular email service provider (ESP) so generated videos can be automatically embedded and sent via email campaigns.",
+          "title": "Email campaign integration"
+        },
+        {
+          "prompt": "Add multi-language support for dynamically translated text and text-to-speech voiceovers based on recipient's detected language.",
+          "title": "Multi-language support"
+        },
+        {
+          "prompt": "Build an analytics dashboard to track video open rates, watch times, and conversion rates for each personalized video campaign.",
+          "title": "Video performance analytics"
+        },
+        {
+          "prompt": "Allow users to define conditional logic for video segments, so different clips are shown based on specific data points (e.g., 'segment A for new customers', 'segment B for repeat customers').",
+          "title": "Conditional video logic"
+        },
+        {
+          "prompt": "Implement a secure API for external systems (like CRMs or marketing automation platforms) to trigger video generation programmatically.",
+          "title": "API for external triggers"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for personalized video",
+      "type": "features",
+      "items": [
+        {
+          "description": "Dynamically insert recipient names, details, and custom messages into video segments.",
+          "icon": "📝",
+          "title": "Dynamic text & image overlays"
+        },
+        {
+          "description": "Automate voiceovers using text-to-speech technology with customizable voices.",
+          "icon": "🗣️",
+          "title": "Automated voice generation"
+        },
+        {
+          "description": "Efficiently manage video templates and reusable media assets for personalization.",
+          "icon": "🖼️",
+          "title": "Template & asset management"
+        },
+        {
+          "description": "Connect to various data sources (CSV, CRM, databases) for dynamic content population.",
+          "icon": "🔗",
+          "title": "Flexible data integration"
+        },
+        {
+          "description": "Render personalized videos quickly, even for large volumes, with optimized processing.",
+          "icon": "⚡",
+          "title": "High-volume rendering"
+        },
+        {
+          "description": "Define rules for which video segments play based on specific recipient data points.",
+          "icon": "🚦",
+          "title": "Conditional content logic"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic personalized video creator with Kliv can take anywhere from a few hours to a couple of days. More complex systems with advanced integrations and features might require a week or more to fully flesh out.",
+          "question": "How long does it take to build a personalized video creator?"
+        },
+        {
+          "answer": "No coding is required. Kliv's platform allows you to describe your desired video personalization logic and features using natural language, and the AI assists in building the application.",
+          "question": "Do I need coding skills to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom video creator can integrate with almost any CRM, marketing automation platform, or e-commerce system that has an API, allowing for seamless data flow and trigger automation.",
+          "question": "Can I integrate my personalized video tool with existing CRMs or marketing platforms?"
+        },
+        {
+          "answer": "When you build with Kliv, you own 100% of the application. This includes the code, the output videos, and all the data processing logic. You have complete control and can host it anywhere.",
+          "question": "Who owns the personalized videos and the application once it's built?"
+        },
+        {
+          "answer": "Unlike SaaS platforms that charge per video or per recipient, a custom-built solution is a one-time investment. For businesses with high-volume personalization needs, this often results in significant cost savings within months.",
+          "question": "How does the cost compare to subscription-based personalized video tools?"
+        },
+        {
+          "answer": "Absolutely. The beauty of a custom solution is its adaptability. You can add new features, update templates, change personalization rules, or integrate with new data sources anytime your business needs evolve.",
+          "question": "Can I modify or expand the features of my video creator after it's launched?"
+        },
+        {
+          "answer": "You manage the video storage and distribution. You can integrate with cloud storage services (like AWS S3 or Google Cloud Storage) and use content delivery networks (CDNs) for efficient and secure video delivery.",
+          "question": "Where are the personalized videos stored and delivered from?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to captivate your audience with personalized videos?",
+      "type": "cta",
+      "content": "Stop sending generic messages. Start building unique video experiences that truly resonate and convert with Kliv's AI-powered platform."
+    }
+  ],
+  "title": "Personalized video creator"
+}

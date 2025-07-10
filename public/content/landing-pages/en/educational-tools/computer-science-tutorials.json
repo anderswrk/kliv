@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create an interactive computer science tutorial platform with code examples, quizzes, and progress tracking for users.",
+  "description": "Build custom computer science education platforms with Kliv's AI-powered development.",
+  "hero": {
+    "cta": "Start Learning",
+    "subtitle": "Create personalized computer science tutorial applications with adaptive content, interactive exercises, and progress tracking, all tailored to your educational goals.",
+    "title": "Build Your Own Computer Science Tutorial Platform"
+  },
+  "metaDescription": "Develop powerful custom computer science tutorial tools with Kliv. Offer interactive lessons, coding challenges, and track user progress.",
+  "sections": [
+    {
+      "title": "Why build your own CS tutorial app?",
+      "type": "text",
+      "content": "In a rapidly evolving field like computer science, generic tutorial platforms often fall short. They might not cover niche topics, lack the interactivity you need, or fail to adapt to individual learning paces. Building your own computer science tutorial application with Kliv allows you to create a highly specialized, dynamic, and engaging learning experience, perfectly aligning with your curriculum or unique teaching methodology. Free yourself from the limitations of off-the-shelf solutions and deliver precise, effective education."
+    },
+    {
+      "title": "The case for custom computer science education",
+      "type": "markdown",
+      "content": "## The limitations of existing platforms\n\nMany existing computer science education platforms, while useful, impose significant constraints:\n\n- **Fixed curricula**: They often follow a predefined path that may not match your specific course objectives or latest advancements.\n- **Limited interactivity**: Generic platforms might offer static content with minimal engagement, failing to truly test understanding.\n- **Absence of niche topics**: It's hard to find in-depth tutorials for advanced or highly specialized areas like quantum computing algorithms or specific low-level system designs.\n- **Generic feedback**: Automated feedback might not be insightful enough to help learners truly grasp complex concepts or correct subtle coding errors.\n- **Data privacy concerns**: Hosting sensitive student progress data on third-party servers can be a genuine concern for institutions.\n\n## Why custom-built excels\n\nLeveraging AI-powered platforms like Kliv, designing a bespoke CS tutorial application offers unparalleled advantages:\n\n### Hyper-personalized learning paths\nTailor content, difficulty, and examples to individual learners based on their pre-assessment, performance, or specific interests. Create adaptive modules that respond to user progress.\n\n### Rich, interactive experiences\nGo beyond simple multiple-choice questions. Develop integrated code editors, real-time feedback systems, simulated environments, and gamified challenges that make learning truly immersive.\n\n### Focus on relevant, cutting-edge topics\nQuickly develop and deploy tutorials on new programming languages, frameworks, or theoretical concepts as soon as they become relevant, bypassing slow updates of commercial tools.\n\n### Complete control over content and data\nOwn all your educational content and student data. This ensures intellectual property protection, compliance with privacy regulations, and the flexibility to evolve your platform as needed.\n\n### Cost-effective in the long run\nAvoid recurring subscription costs that escalate with user count or feature usage. A custom solution is a one-time investment that serves your specific needs indefinitely.\n\n## Real-world applications\n\nCustom CS tutorial apps can serve diverse educational needs:\n\n**University course supplements**: Create interactive modules for specific challenging topics within a computer science degree, like advanced data structures or operating systems concepts.\n\n**Corporate training**: Develop internal training platforms for new hires to quickly ramp up on proprietary systems or company-specific coding standards.\n\n**Bootcamps and specialized workshops**: Offer focused, intensive tutorials on areas like machine learning deployment, blockchain development, or cybersecurity fundamentals.\n\n**Self-paced learning platforms**: Design a comprehensive, adaptive learning journey for individuals aiming to transition into tech without formal education.\n\n**Competitive programming preparation**: Build a platform with timed coding challenges, algorithmic problem sets, and automated ranking systems.\n\n## The AI development advantage\n\nAI significantly simplifies the creation of sophisticated educational tools:\n\n- **Content generation**: AI can assist in generating problem statements, example code snippets, and even explanation texts.\n- **Adaptive logic**: Implement smart algorithms that adjust content delivery based on learner performance.\n- **Automated assessment**: AI can grade coding assignments, identify common errors, and provide targeted feedback.\n- **Rapid iteration**: Quickly prototype new lesson types or interactive components without extensive manual coding.\n\nBy choosing to build with Kliv, you're not just creating a tutorial; you're engineering a superior learning environment."
+    },
+    {
+      "title": "CS tutorial ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Interactive lessons on Python basics with live code execution",
+          "prompt": "Create an interactive Python tutorial platform for beginners. Include modules on variables, data types, control flow, functions, and object-oriented programming. Each module should have short explanations, runnable code examples, and small coding challenges.",
+          "title": "Beginner Python fundamentals"
+        },
+        {
+          "description": "Deep dive into algorithms and data structures with visualizations",
+          "prompt": "Build a module for advanced data structures and algorithms, focusing on arrays, linked lists, trees, graphs, sorting, and searching. Integrate interactive visualizations for each algorithm and provide coding exercises for implementation.",
+          "title": "Algorithms & data structures series"
+        },
+        {
+          "description": "Guided projects for web development with integrated IDE",
+          "prompt": "Develop a guided project-based learning platform for modern web development (full-stack). Include tutorials for building a simple to-do app and a blog, using React, Node.js, and a database like MongoDB. Provide an in-browser code editor for users.",
+          "title": "Full-stack web development projects"
+        },
+        {
+          "description": "Cybersecurity essentials with practical labs",
+          "prompt": "Design a cybersecurity tutorial application covering basic concepts like network security, cryptography, and common attack vectors. Include simulated lab environments where users can practice identifying vulnerabilities and applying security measures.",
+          "title": "Introduction to cybersecurity"
+        },
+        {
+          "description": "Preparation for coding interviews with timed challenges",
+          "prompt": "Create a platform for coding interview preparation. Include a bank of common interview questions, a timed coding environment, and automated test cases to evaluate solutions for correctness and efficiency. Allow users to save their progress.",
+          "title": "Coding interview prep tool"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your tutorial app",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication and profile management system, allowing users to track their progress, save code, and earn badges for completion.",
+          "title": "Implement user profiles and progress tracking"
+        },
+        {
+          "prompt": "Integrate a real-time code execution environment directly into the tutorials, so users can run and test code examples within the application.",
+          "title": "Add an in-browser code editor"
+        },
+        {
+          "prompt": "Develop a personalized recommendation engine that suggests the next best module or topic based on a user's performance and expressed interests.",
+          "title": "Implement an adaptive learning path"
+        },
+        {
+          "prompt": "Include gamification elements like points, levels, leaderboards, and achievements to motivate learners and enhance engagement.",
+          "title": "Add gamification features"
+        },
+        {
+          "prompt": "Create a Q&A forum or discussion section where learners can ask questions and help each other, fostering a community learning environment.",
+          "title": "Integrate a community forum"
+        },
+        {
+          "prompt": "Develop a teacher/admin dashboard to monitor student progress, identify common struggles, and manage course content.",
+          "title": "Build an admin dashboard"
+        },
+        {
+          "prompt": "Add voice narration or text-to-speech options for all tutorial content to support different learning styles.",
+          "title": "Include audio narration"
+        },
+        {
+          "prompt": "Implement a spaced repetition system for key concepts and review questions to help users solidify their understanding over time.",
+          "title": "Add spaced repetition quizzes"
+        }
+      ]
+    },
+    {
+      "title": "Essential CS education features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Deliver lessons with text, images, videos, and dynamic content.",
+          "icon": "📚",
+          "title": "Rich content modules"
+        },
+        {
+          "description": "Embed live code editors and output consoles for hands-on practice.",
+          "icon": "💻",
+          "title": "Interactive coding exercises"
+        },
+        {
+          "description": "Assess understanding with quizzes, coding challenges, and project submissions.",
+          "icon": "✅",
+          "title": "Automated assessments"
+        },
+        {
+          "description": "Visualize complex data structures and algorithms for better comprehension.",
+          "icon": "📊",
+          "title": "Visual explanations"
+        },
+        {
+          "description": "Track user progress through modules, quizzes, and completed challenges.",
+          "icon": "📈",
+          "title": "Learning progress tracking"
+        },
+        {
+          "description": "Provide immediate, specific feedback on coding attempts and answers.",
+          "icon": "💬",
+          "title": "Instant feedback loop"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional CS tutorial platform with Kliv can take anywhere from a few hours for a basic version to a few days or weeks for a comprehensive, feature-rich application. The speed depends on the complexity of your requirements.",
+          "question": "How quickly can I build a CS tutorial application?"
+        },
+        {
+          "answer": "Kliv's platform allows you to describe your application using natural language. While technical knowledge of computer science is helpful for defining content, no traditional coding skills are required to build the application itself.",
+          "question": "Do I need to be a programmer to build this type of app?"
+        },
+        {
+          "answer": "Yes, you have complete ownership. The code generated is yours, allowing you to self-host, modify, and integrate it with other systems as you see fit. You're not locked into Kliv's platform for ongoing hosting or usage.",
+          "question": "Will I own the code and data for my tutorial platform?"
+        },
+        {
+          "answer": "Yes, you can integrate with various services. This includes authentication providers (like Google, GitHub), external learning APIs, or even content management systems if your tutorials pull dynamically from existing resources. Kliv helps generate the necessary API integrations.",
+          "question": "Can my custom tutorial app integrate with external services or APIs?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the ability to continuously iterate. You can easily add new modules, update existing content, introduce new features, or refine assessment logic at any time.",
+          "question": "Can I update or add new content to my application after it's built?"
+        },
+        {
+          "answer": "A custom-built solution avoids recurring subscription fees common with commercial platforms. Your primary costs are development (which is fast with Kliv) and hosting, giving you greater long-term cost control and predictability, especially for large user bases.",
+          "question": "How does the cost compare to subscribing to an existing education platform?"
+        },
+        {
+          "answer": "You have full control over data storage, encryption, and access policies. This allows you to implement robust security measures tailored to your specific compliance needs, which can be more secure than relying on a third-party vendor's default security setup.",
+          "question": "What about data privacy and security for student information?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize CS education?",
+      "type": "cta",
+      "content": "Create an unparalleled learning experience with your own bespoke computer science tutorial application. Build exactly the platform you envision, tailored down to the last line of code."
+    }
+  ],
+  "title": "Computer Science Tutorial Platforms"
+}

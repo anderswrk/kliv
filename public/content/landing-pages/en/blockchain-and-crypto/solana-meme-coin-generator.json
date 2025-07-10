@@ -1,0 +1,150 @@
+{
+  "defaultPrompt": "I want to create a Solana meme coin generator that allows users to define token parameters, create custom metadata, and deploy with liquidity on Raydium, all from a user-friendly interface.",
+  "description": "Launch your own Solana meme coin with a custom-built, AI-powered generator.",
+  "hero": {
+    "cta": "Start Creating Your Token",
+    "subtitle": "Go from idea to deployed meme coin on Solana with a custom, AI-assisted token launchpad.",
+    "title": "Build Your Own Solana Meme Coin Generator"
+  },
+  "metaDescription": "Create and deploy Solana meme coins effortlessly. Kliv's AI platform helps you build a custom token generator with features like automated deployment, liquidity management, and custom metadata.",
+  "sections": [
+    {
+      "title": "Why build a custom Solana meme coin generator?",
+      "type": "text",
+      "content": "The Solana network is a vibrant hub for meme coins, but the process of creating and deploying them can be daunting. Generic tools often lack the flexibility, automation, or specific integrations needed for a smooth launch. Building your own generator provides unparalleled control, cost efficiency, and the ability to adapt to market trends faster than anyone else.\n\nOff-the-shelf solutions can be restrictive, impose high fees, and may not offer the granular control over tokenomics or liquidity you desire. A custom-built tool ensures you own the entire process, from token creation to liquidity provisioning, all tailored to your exact specifications. With Kliv, you're not just launching a token; you're building the infrastructure to launch many."
+    },
+    {
+      "title": "The power of a bespoke meme coin launcher",
+      "type": "markdown",
+      "content": "## The challenges of launching a meme coin\n\nLaunching a meme coin often involves a series of technical steps that can be error-prone and time-consuming:\n\n- **Smart contract deployment**: Requires deep understanding of Solana's token standards and programming languages like Rust.\n- **Metadata creation**: Crafting unique and compelling token art and descriptions.\n- **Liquidity provisioning**: Setting up initial liquidity pools on decentralized exchanges (DEXs) like Raydium.\n- **Security considerations**: Ensuring the token is secure and free from common exploits.\n- **Marketing and community building**: Beyond the technical, a successful meme coin needs strong community engagement.\n\n## Why custom development is the edge you need\n\nBuilding your own Solana meme coin generator addresses these challenges head-on:\n\n### Unmatched Customization\nDefine every aspect of your token: supply, decimals, name, ticker, custom metadata, and even specific token features like burn mechanisms or blacklists. Generic tools offer limited options, forcing you to compromise on your vision.\n\n### Automated Liquidity Setup\nThe most critical step for a meme coin is establishing initial liquidity. A custom generator can automate the process of creating liquidity pools on Solana DEXs (e.g., Raydium, Orca), ensuring immediate tradability upon launch.\n\n### Cost Efficiency & Scalability\nAvoid recurring subscription fees associated with third-party launchers. A one-time investment in building your tool means you can launch unlimited tokens, significantly reducing per-token costs. As the Solana ecosystem evolves, your tool can seamlessly adapt.\n\n### Enhanced Security Controls\nBy controlling the codebase, you can implement custom security audits and features specifically tailored to prevent common rug pulls or manipulation. This builds trust with potential investors.\n\n### Branded Experience\nOffer your community or clients a unique, branded experience, differentiating your launches from the crowd. Control the user interface and messaging, creating a professional and trustworthy platform.\n\n## Real-world potential with a custom generator\n\nImagine the possibilities with a custom tool:\n\n**Incubator for new projects**: Launch multiple meme coins for different community initiatives or experiments without external dependencies.\n\n**Community-driven launches**: Empower your community to suggest and vote on token parameters, then execute launches with a click.\n\n**Educational platform**: Use your custom generator to teach others about Solana tokenomics and deployment in a guided, visual manner.\n\n**Fundraising mechanism**: Create limited-edition tokens for specific campaigns or charity efforts with tailored distribution methods.\n\n## Kliv and the future of token creation\n\nKliv's AI-powered platform makes what was once complex accessible. You can:\n\n- **Describe your token parameters** in plain English.\n- **Generate smart contract code** for token creation and deployment.\n- **Automate DEX liquidity provisioning** with pre-defined parameters.\n- **Create user interfaces** that guide even non-technical users through the launch process.\n\nStop relying on expensive, inflexible third-party services. With Kliv, you can build the ultimate Solana meme coin generator and be at the forefront of the decentralized finance movement."
+    },
+    {
+      "title": "Meme coin generator ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a tool for launching simple, fixed-supply meme tokens.",
+          "prompt": "Build a Solana meme coin generator that allows users to input token name, symbol, total supply, and a custom image for the token. The tool should then deploy the token on Solana and create a basic liquidity pool on Raydium."
+        },
+        {
+          "description": "Develop a generator with custom token programs and features.",
+          "prompt": "I need a Solana token generator that supports advanced features like a token burn mechanism (e.g., 1% of every transaction is burned), custom minting authorities, and allows setting a specific freeze authority. It should also publish the token metadata to Arweave."
+        },
+        {
+          "description": "Build an interface for managing multiple token launches.",
+          "prompt": "Create a dashboard for launching multiple meme coins, where I can track each token's status, view its supply, manage its liquidity pool, and initiate additional burns or mints post-launch, all from a single interface."
+        },
+        {
+          "description": "Launch tokens designed for community engagement.",
+          "prompt": "Design a Solana meme coin generator focused on community incentives. It should allow setting up a dedicated 'marketing' wallet to receive a percentage of transactions and automatically create a custom token distribution schedule for airdrops to early supporters."
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your token generator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for automatically creating and funding a liquidity pool on Jupiter aggregator after token creation.",
+          "title": "Integrate with Jupiter Aggregator"
+        },
+        {
+          "prompt": "Implement a 'vesting schedule' functionality where team tokens or specific allocations can be locked and gradually released over time.",
+          "title": "Add token vesting"
+        },
+        {
+          "prompt": "Include a real-time price chart and trading volume tracker for newly launched tokens directly within the application.",
+          "title": "Build a token analytics dashboard"
+        },
+        {
+          "prompt": "Develop a 'rug-pull protection' feature that can lock or renounce mint and freeze authorities after a specified period or condition is met.",
+          "title": "Enhance security features"
+        },
+        {
+          "prompt": "Allow users to import token metadata (image, description) from an existing IPFS link or generate it directly within the tool.",
+          "title": "Improve metadata handling"
+        },
+        {
+          "prompt": "Add multi-wallet support for deploying tokens and managing liquidity from different Solana addresses.",
+          "title": "Implement multi-wallet management"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of a Meme Coin Generator",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define token name, symbol, supply, decimals, and custom branding.",
+          "icon": "⚙️",
+          "title": "Custom Token Parameters"
+        },
+        {
+          "description": "Automated deployment of the token program and smart contract on Solana.",
+          "icon": "🚀",
+          "title": "One-Click Deployment"
+        },
+        {
+          "description": "Automatic creation and funding of liquidity pools on popular Solana DEXs like Raydium.",
+          "icon": "💧",
+          "title": "Liquidity Provision Automation"
+        },
+        {
+          "description": "Generate and publish token metadata, including images and descriptions, to decentralized storage like Arweave.",
+          "icon": "🖼️",
+          "title": "Metadata & URI Management"
+        },
+        {
+          "description": "Configure advanced token functionalities such as burn mechanisms, rebase, or mint/freeze authorities.",
+          "icon": "💡",
+          "title": "Advanced Token Features"
+        },
+        {
+          "description": "User-friendly interface to guide creators through each step of the token launch process.",
+          "icon": "✨",
+          "title": "Intuitive User Interface"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic Solana meme coin generator with Kliv can take just a few hours. More complex systems with advanced features and integrations might take a few days or weeks, depending on your specifications.",
+          "question": "How long does it take to build a custom Solana meme coin generator?"
+        },
+        {
+          "answer": "No, you don't need to be a blockchain developer. Kliv's AI platform allows you to describe your desired functionalities in plain English. The AI helps translate your requirements into the necessary code and infrastructure for your token generator.",
+          "question": "Do I need to be a blockchain developer or know Rust to build this tool?"
+        },
+        {
+          "answer": "Yes, your custom generator can be designed to integrate with major Solana DEXs like Raydium, Orca, and Jupiter, as well as on-chain data providers or other dApps through their APIs.",
+          "question": "Can my custom generator integrate with existing Solana DEXs or other protocols?"
+        },
+        {
+          "answer": "You own 100% of the code and the deployed token. Kliv helps you generate the application, but the intellectual property and control of the smart contracts and front-end remain entirely yours.",
+          "question": "Who owns the intellectual property and the created tokens after building with Kliv?"
+        },
+        {
+          "answer": "While there are associated costs for Solana network fees (for transactions and storage) and potentially for custom web hosting, building with Kliv offers a one-time development cost, often significantly lower than long-term subscriptions to third-party token launch platforms, especially if you plan multiple launches.",
+          "question": "What are the ongoing costs associated with running a custom meme coin generator?"
+        },
+        {
+          "answer": "Absolutely. One of the primary benefits of building a custom tool is its adaptability. You can easily add new features, update token parameters, or integrate with new protocols as the Solana ecosystem evolves.",
+          "question": "Can I modify or add new features to my generator after it's initially built?"
+        },
+        {
+          "answer": "Yes. By building your own, you have full control over the smart contract code, deployment parameters, and front-end. This allows for rigorous internal auditing and the implementation of specific security measures, often providing a higher degree of trust than opaque third-party services.",
+          "question": "How secure is a custom-built meme coin generator compared to public platforms?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to launch your Solana meme coins?",
+      "type": "cta",
+      "content": "Stop waiting for generic tools. Build your own powerful, flexible, and fully customized Solana meme coin generator today."
+    }
+  ],
+  "title": "Solana Meme Coin Generator"
+}

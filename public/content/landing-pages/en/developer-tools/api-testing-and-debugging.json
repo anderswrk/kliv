@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an API testing and debugging tool that allows users to send HTTP requests, view responses, and validate data with assertions.",
+  "description": "Build custom API testing and debugging tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your API tool",
+    "subtitle": "Develop robust and reliable applications by ensuring your APIs always perform as expected with custom-built testing solutions.",
+    "title": "Build your own API Testing & Debugging Tools"
+  },
+  "metaDescription": "Create powerful custom API testing and debugging tools with Kliv. Streamline development, catch bugs early, and ensure API reliability with bespoke solutions.",
+  "sections": [
+    {
+      "title": "Why build a custom API testing and debugging tool?",
+      "type": "text",
+      "content": "In today's interconnected software landscape, APIs are the backbone of every application. Ensuring their reliability, performance, and correctness is paramount. While numerous off-the-shelf API tools exist, they often come with limitations: rigid workflows, subscription costs that scale with usage, or missing features crucial for your specific development environment. Building your own API testing and debugging tool gives you unparalleled control, allowing you to tailor it precisely to your team's needs, integrate deeply with internal systems, and maintain full ownership of your tooling infrastructure."
+    },
+    {
+      "title": "The strategic advantage of tailored API tooling",
+      "type": "markdown",
+      "content": "## The pitfalls of generic API tools\n\nMany teams rely on commercial API testing solutions, which, while powerful, often impose hidden costs and constraints:\n\n-   **Limited Customization**: Generic tools rarely integrate seamlessly with unique internal APIs, legacy systems, or specific testing methodologies.\n-   **Escalating Costs**: Subscription models can become prohibitively expensive as your team grows or your API usage increases.\n-   **Vendor Lock-in**: Migrating tests or historical data from one proprietary platform to another can be a nightmare.\n-   **Security Concerns**: Storing sensitive API keys or test data on external vendor servers might not meet your compliance requirements.\n-   **Feature Bloat vs. Gaps**: You pay for features you don't need while lacking the precise functionality your developers desperately require.\n\n## Unleash efficiency with custom API tooling\n\nBuilding your own API testing and debugging tool, powered by Kliv's AI platform, redefines how your team interacts with APIs. Here's why it's a game-changer:\n\n### Perfect Fit\nDesign a tool that mirrors your team's exact workflow, adopting your terminology, integrating with your internal services, and supporting your unique authentication methods. No more adapting your process to the tool.\n\n### Cost Efficiency\nTransition from recurring subscriptions to a one-time build investment. Your custom tool becomes an asset, not an ongoing liability, with no per-user or per-request charges.\n\n### Data Sovereignty\nHost your API testing environment where you control the data. Enhance security and ensure compliance by keeping sensitive information within your own infrastructure.\n\n### Seamless Integration\nCreate deep integrations with your CI/CD pipelines, version control systems, monitoring tools, and bug trackers. Automate test execution, reporting, and defect assignment effortlessly.\n\n### Scalability & Extensibility\nYour tool evolves with your product. Easily add new features, support new API protocols, or integrate with emerging technologies without relying on a vendor's roadmap.\n\n## Real-world impact\n\nCustom API tools are transforming development and QA cycles across industries:\n\n*   **E-commerce**: An automated tool that simulates thousands of concurrent user requests to a payment gateway API, detecting latency spikes and error rates before deployment.\n*   **Fintech**: A specialized debugger for financial transaction APIs, automatically validating complex data structures and ensuring compliance with regulatory standards.\n*   **Healthcare**: A custom tester for patient data APIs that anonymizes sensitive information during testing and integrates with internal health record systems for data consistency checks.\n*   **IoT**: A tool designed to test device-to-cloud communication APIs under various network conditions, simulating disconnects and re-connections to ensure robustness.\n\n## The Kliv advantage\n\nBuilding sophisticated developer tools used to be a monumental task. Kliv's AI-assisted development changes everything:\n\n*   **Declarative Development**: Describe your desired functionality in plain language, and Kliv helps generate the core application logic.\n*   **Rapid Iteration**: Prototype, refine, and deploy custom testing tools in days, not months.\n*   **Code Ownership**: The resulting application is yours. You have full control over the code, allowing for infinite customization.\n*   **Integrated Efficiency**: Kliv streamlines the build process, from initial design to deployment, allowing you to focus on the unique aspects of your tool.\n\nStop compromising on your API quality. Build the ultimate API testing and debugging environment tailored for your success."
+    },
+    {
+      "title": "API testing & debugging ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Send requests, view responses, and validate JSON/XML data.",
+          "prompt": "Create an API client tool that allows users to send HTTP GET, POST, PUT, DELETE requests with custom headers and body, display the raw response, and provide a JSON/XML viewer with search capabilities.",
+          "title": "Basic HTTP Client with Response Viewer"
+        },
+        {
+          "description": "Automate test suites with assertions and reporting.",
+          "prompt": "Build an automated API testing framework where users can define test cases, specify expected HTTP status codes, validate response JSON schema, and generate HTML reports of pass/fail results.",
+          "title": "Automated API Test Suite Generator"
+        },
+        {
+          "description": "Monitor and analyze real-time API traffic.",
+          "prompt": "Develop an API traffic monitor that intercepts incoming and outgoing HTTP requests/responses, logs them with timestamps, and allows filtering by endpoint, status code, or response time.",
+          "title": "Real-time API Traffic Inspector"
+        },
+        {
+          "description": "Simulate API behavior for development and testing.",
+          "prompt": "Design an API mocking server that allows users to define custom endpoints and pre-configured responses (including status codes, headers, and body content) to simulate API behavior for frontend development or testing.",
+          "title": "Custom API Mocking Server"
+        },
+        {
+          "description": "Capture requests and generate test cases automatically.",
+          "prompt": "Create a proxy tool that captures HTTP requests made from a client application, allows developers to inspect the request/response, and then automatically generates a test case for that interaction.",
+          "title": "API Request Capturer & Test Case Generator"
+        },
+        {
+          "description": "Measure API performance under load.",
+          "prompt": "Build an API load testing tool that can send a configurable number of concurrent requests to an endpoint, measure response times, throughput, and error rates, and visualize the results over time.",
+          "title": "API Performance & Load Tester"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your API tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add the ability to compare two API responses and highlight the differences.",
+          "title": "Response Comparison Feature"
+        },
+        {
+          "prompt": "Integrate with Git to save and load API test collections from version control.",
+          "title": "Git Integration for Test Collections"
+        },
+        {
+          "prompt": "Implement a feature to automatically generate code snippets for different languages (e.g., cURL, Python requests, JavaScript fetch) based on the current API request.",
+          "title": "Code Snippet Generator"
+        },
+        {
+          "prompt": "Add support for OAuth2 and JWT authentication for API requests.",
+          "title": "Advanced Authentication Support"
+        },
+        {
+          "prompt": "Include a feature to automatically detect broken links or deprecated endpoints within an API's documentation or response data.",
+          "title": "Broken Link/Endpoint Detection"
+        },
+        {
+          "prompt": "Develop a visual flow builder to sequence multiple API calls into complex test scenarios.",
+          "title": "Visual Test Scenario Builder"
+        },
+        {
+          "prompt": "Add a plugin architecture to allow users to extend functionality with custom scripts or modules.",
+          "title": "Extensible Plugin System"
+        },
+        {
+          "prompt": "Implement real-time collaboration features, allowing multiple team members to work on the same test suite simultaneously.",
+          "title": "Real-time Collaboration"
+        },
+        {
+          "prompt": "Integrate with popular bug tracking systems (e.g., Jira) to create issues directly from failed API tests.",
+          "title": "Bug Tracker Integration"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your API tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Construct and send HTTP/HTTPS requests with custom headers, bodies, and parameters.",
+          "icon": "📨",
+          "title": "Request Builder"
+        },
+        {
+          "description": "Inspect raw responses, including status codes, headers, and formatted JSON/XML for easy debugging.",
+          "icon": "🔍",
+          "title": "Response Viewer"
+        },
+        {
+          "description": "Define assertions to validate response data, status codes, and performance metrics.",
+          "icon": "✅",
+          "title": "Assertion Engine"
+        },
+        {
+          "description": "Organize and run collections of API requests, chaining them for complex scenarios.",
+          "icon": "📦",
+          "title": "Test Collections"
+        },
+        {
+          "description": "Manage different environments (e.g., development, staging, production) with environment-specific variables.",
+          "icon": "🌐",
+          "title": "Environment Management"
+        },
+        {
+          "description": "Visualize test results, performance trends, and error rates with customizable dashboards.",
+          "icon": "📈",
+          "title": "Reporting & Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic API client can take a few hours, while a comprehensive automated testing suite might take several days or a couple of weeks to fully implement and refine with Kliv.",
+          "question": "How long does it take to build a custom API testing tool?"
+        },
+        {
+          "answer": "No deep coding expertise is required to start. Kliv's AI platform translates your natural language descriptions into a functional application, managing the underlying code generation.",
+          "question": "Do I need to be a coding expert to build this?"
+        },
+        {
+          "answer": "Yes, your custom tool can integrate with virtually any system that offers an API or standard protocols. This includes CI/CD pipelines, version control (Git), monitoring tools, and more.",
+          "question": "Can my custom API tool integrate with my existing CI/CD or other developer tools?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property generated. The tool, its code, and any test data reside wherever you choose to deploy it, giving you full control and ownership.",
+          "question": "Who owns the custom API testing tool and its data?"
+        },
+        {
+          "answer": "The initial build cost can be a one-time investment, unlike recurring subscriptions. Over time, particularly for larger teams or high-usage scenarios, a custom solution often proves significantly more cost-effective.",
+          "question": "How does the cost compare to off-the-shelf API testing software?"
+        },
+        {
+          "answer": "Absolutely. The primary advantage of a custom tool is its adaptability. You can add new features, adjust existing functionalities, or integrate new protocols as your API landscape evolves.",
+          "question": "Can I modify or expand the tool after it's initially built?"
+        },
+        {
+          "answer": "You define the security. Since you control the deployment environment and data storage, you can implement your organization's specific security policies and best practices, potentially making it more secure than relying on third-party services.",
+          "question": "Is a custom-built API tool more secure than using a SaaS product?"
+        },
+        {
+          "answer": "Kliv provides AI-guided assistance throughout the development process. If specific technical challenges arise, the platform offers resources and support to help you navigate them. Since you own the code, you're also free to use standard developer support resources or your own team.",
+          "question": "What kind of support is available if I get stuck during the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your APIs?",
+      "type": "cta",
+      "content": "Stop wrestling with generic tools. Build the precise API testing and debugging solution your team deserves, designed to your exact specifications."
+    }
+  ],
+  "title": "API Testing & Debugging Tools"
+}

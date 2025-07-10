@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a robust authentication and authorization system that can support multiple user roles, integrate with existing directories, and provide comprehensive audit logs for all access events.",
+  "description": "Develop custom security and authentication systems tailored to your exact needs with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Build Your Secure System",
+    "subtitle": "Build custom security and authentication solutions that seamlessly integrate with your existing infrastructure and business logic.",
+    "title": "Custom Security & Authentication Systems"
+  },
+  "metaDescription": "Create highly secure, compliant, and custom-fit authentication and authorization systems with Kliv. Enhance data protection and access control for your business applications.",
+  "sections": [
+    {
+      "title": "Why Develop a Custom Security & Authentication System?",
+      "type": "text",
+      "content": "In today's digital landscape, generic security solutions often fall short of meeting unique business requirements for access control, compliance, and user experience. Building your own system provides unparalleled flexibility, control, and resilience against evolving threats. Kliv empowers you to design and implement security infrastructure that is perfectly aligned with your operational needs, ensuring robust protection without compromising usability."
+    },
+    {
+      "title": "The Strategic Advantage of Bespoke Security",
+      "type": "markdown",
+      "content": "## The Limitations of Off-the-Shelf Security\n\nMany organizations rely on standardized security products that offer a one-size-fits-all approach. While convenient, these solutions often come with significant drawbacks:\n\n- **Inflexible Integration:** Difficulty integrating deeply with proprietary applications or complex legacy systems.\n- **Feature Bloat vs. Gaps:** You pay for features you don't need while critical, niche requirements remain unaddressed.\n- **Vendor Lock-in:** Dependence on a single vendor's roadmap, pricing, and security practices.\n- **Compliance Challenges:** Generic solutions may not meet industry-specific regulatory requirements without extensive, costly customization or workarounds.\n- **Performance Overhead:** Unnecessary components can introduce latency and impact the user experience.\n\n## Custom-Built: Security Tailored for Excellence\n\nDeveloping a custom security and authentication system transforms your approach from reactive to proactive, offering profound advantages:\n\n### Precision-Fit Access Control\nAssign granular permissions based on specific roles, attributes, or even real-time contextual data. Your system can manage access down to individual data fields or API endpoints, ensuring least privilege access by default.\n\n### Seamless Integration with Business Logic\nEmbed security directly into your core business processes. Automate user provisioning based on HR systems, trigger access reviews based on project status, or enforce policy changes across all connected applications instantly.\n\n### Enhanced Compliance and Audibility\nDesign your system with specific regulatory frameworks (GDPR, HIPAA, SOC 2) in mind. Implement comprehensive logging, immutable audit trails, and automated reporting features that simplify compliance audits and incident investigation.\n\n### Ultimate Data Sovereignty\nRetain full control over where your authentication data resides and how it's handled. Reduce reliance on third-party security cloud services and mitigate data residency concerns.\n\n### Scalability and Future-Proofing\nBuild a system that scales with your growth and adapts to new technologies. Easily add multi-factor authentication methods, new identity providers, or adopt emerging security standards without tearing down your existing infrastructure.\n\n## Real-World Impact\n\n- **Healthcare Provider:** A custom system ensures strict patient data access control, integrates with EMR/EHR systems, and maintains HIPAA compliance by segmenting access based on physician specializations and patient consent.\n- **Fintech Startup:** Develops a bespoke authentication layer that combines biometric factors, fraud detection algorithms, and transaction signing within its mobile banking app, exceeding standard banking security.\n- **Manufacturing Enterprise:** Implements an Identity and Access Management (IAM) solution that manages thousands of IoT devices, production line robots, and employee access to SCADA systems, ensuring operational continuity and security.\n\n## The Kliv Advantage\n\nKliv's platform simplifies the development of complex security systems:\n\n- **AI-Assisted Design:** Describe your security needs in natural language, and AI assists in drafting the architecture and implementation details.\n- **Component Library:** Utilize pre-built, secure components for common security patterns (e.g., OAuth2, SAML, JWT) to accelerate development.\n- **Built-in Testing & Validation:** Automated testing helps identify potential vulnerabilities and ensure policies are correctly enforced.\n- **Deployment Flexibility:** Deploy your custom system to any cloud provider or on-premises environment, maintaining full control.\n\nTake control of your security posture. Build a system that's truly yours, purpose-built for the unique demands of your business."
+    },
+    {
+      "title": "Security & Authentication Concepts to Build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Manage user identities and access across multiple applications.",
+          "prompt": "Create an identity and access management (IAM) system that centralizes user accounts, handles single sign-on (SSO) for web applications, and integrates with external identity providers like Azure AD and Okta.",
+          "title": "Centralized Identity Management"
+        },
+        {
+          "description": "Secure API endpoints and services with token-based authentication.",
+          "prompt": "Develop an API gateway with integrated authentication and authorization that validates JWTs, enforces rate limits, and routes requests based on user roles and permissions.",
+          "title": "API Security Gateway"
+        },
+        {
+          "description": "Implement flexible authentication methods including MFA.",
+          "prompt": "Build an authentication service that supports passwordless login, integrates with various multi-factor authentication (MFA) methods like TOTP and FIDO2, and allows users to manage their security settings.",
+          "title": "Custom Authentication Provider"
+        },
+        {
+          "description": "Streamline user provisioning and de-provisioning.",
+          "prompt": "Design a user lifecycle management system that automates the creation, modification, and deletion of user accounts across connected applications, triggered by HR system events.",
+          "title": "Automated User Provisioning"
+        },
+        {
+          "description": "Ensure secure privilege escalation and just-in-time access.",
+          "prompt": "Create a Privileged Access Management (PAM) system that provides just-in-time access to sensitive resources, records privileged sessions, and requires approval workflows for elevation.",
+          "title": "Privileged Access Management (PAM)"
+        },
+        {
+          "description": "Track all security-related events for auditing and compliance.",
+          "prompt": "Develop an audit logging and reporting system for all authentication and authorization events, allowing for customizable reports for compliance (e.g., failed logins, access changes) and real-time alerts for anomalies.",
+          "title": "Security Event Auditing"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Security System",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add support for biometric authentication methods like facial recognition or fingerprint scanning.",
+          "title": "Integrate Biometrics"
+        },
+        {
+          "prompt": "Implement a real-time threat detection and anomaly alerting system based on user behavior.",
+          "title": "Behavioral Anomaly Detection"
+        },
+        {
+          "prompt": "Build a comprehensive dashboard to monitor security policies, user activity, and compliance status.",
+          "title": "Security Operations Dashboard"
+        },
+        {
+          "prompt": "Add support for attribute-based access control (ABAC) to define granular permissions.",
+          "title": "Implement ABAC"
+        },
+        {
+          "prompt": "Integrate with a Security Information and Event Management (SIEM) system for centralized logging.",
+          "title": "SIEM Integration"
+        },
+        {
+          "prompt": "Develop an emergency break-glass account system with strict controls and multi-level approval for critical situations.",
+          "title": "Emergency Access Protocols"
+        },
+        {
+          "prompt": "Add a feature for dark web monitoring to detect compromised credentials.",
+          "title": "Credential Compromise Monitoring"
+        },
+        {
+          "prompt": "Build a self-service portal for users to manage their own passwords, MFA devices, and account information.",
+          "title": "Self-Service Portal"
+        },
+        {
+          "prompt": "Implement consent management for data access in accordance with privacy regulations.",
+          "title": "Data Consent Management"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities You Can Build",
+      "type": "features",
+      "items": [
+        {
+          "description": "Implement flexible multi-factor authentication (MFA) strategies for enhanced security.",
+          "icon": "🔒",
+          "title": "Multi-Factor Authentication"
+        },
+        {
+          "description": "Manage user identities and access policies across all your applications from a central point.",
+          "icon": "🔑",
+          "title": "Identity & Access Management (IAM)"
+        },
+        {
+          "description": "Provide a single, seamless login experience across multiple connected services.",
+          "icon": "➡️",
+          "title": "Single Sign-On (SSO)"
+        },
+        {
+          "description": "Enable role-based, attribute-based, or context-aware access policies.",
+          "icon": "👨‍💼",
+          "title": "Granular Authorization"
+        },
+        {
+          "description": "Log every security event for compliance, auditing, and incident response.",
+          "icon": "📜",
+          "title": "Comprehensive Audit Logs"
+        },
+        {
+          "description": "Automate user provisioning and de-provisioning based on business rules and lifecycle events.",
+          "icon": "⚙️",
+          "title": "Automated Provisioning"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom security system with Kliv can range from a few days for a foundational authentication service to several weeks for a complex, enterprise-grade IAM solution. Kliv's AI significantly accelerates this process.",
+          "question": "How long does it take to develop a custom security solution?"
+        },
+        {
+          "answer": "No, you do not need to be a security expert or have extensive coding knowledge. Kliv's platform translates your requirements and desired security features into functional code and configurations, guiding you through best practices.",
+          "question": "Do I need deep security expertise or coding skills?"
+        },
+        {
+          "answer": "Yes, custom security systems built with Kliv are designed for seamless integration. They can connect with existing enterprise directories (e.g., Active Directory, LDAP), cloud identity providers (e.g., Okta, Azure AD), and your current applications via standard APIs (e.g., OAuth, SAML).",
+          "question": "Can the custom system integrate with my existing IT infrastructure?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property, including the code and data. Kliv is a development platform, not a hosted service for your final product. This ensures ultimate control and flexibility.",
+          "question": "Who owns the code and data generated from the custom security system?"
+        },
+        {
+          "answer": "Custom systems offer substantial long-term savings by eliminating recurring SaaS subscription fees, reducing vendor lock-in, and providing an exact fit for your needs, minimizing wasted features and costly integrations.",
+          "question": "How does the cost compare to off-the-shelf security products?"
+        },
+        {
+          "answer": "Yes, security trends and threats evolve constantly. Your custom system can be easily updated and expanded using Kliv's platform to incorporate new authentication methods, compliance requirements, or respond to emerging security challenges.",
+          "question": "Can the security system be updated or adapted as threats evolve?"
+        },
+        {
+          "answer": "Custom security solutions provide a superior level of control over data residency, access protocols, and encryption. Since you manage the deployment, you can implement specific hardening measures that may not be available in multi-tenant SaaS solutions.",
+          "question": "Is a custom security system more secure than a third-party service?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your unbreachable security fortress?",
+      "type": "cta",
+      "content": "Stop patching vulnerabilities with generic solutions. Architect your perfect defense with an AI-powered custom security system."
+    }
+  ],
+  "title": "Custom Security & Authentication"
+}

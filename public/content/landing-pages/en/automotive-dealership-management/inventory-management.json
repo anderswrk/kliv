@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an inventory management system for an automotive dealership that tracks vehicles, parts, and accessories, manages their status, location, and sales history, and provides alerts for low stock on common parts.",
+  "description": "Custom inventory management solutions for automotive dealerships. Track vehicles, parts, and accessories with precision.",
+  "hero": {
+    "cta": "Start managing inventory",
+    "subtitle": "Gain complete control over your dealership's vehicle, parts, and accessory inventory with a custom-tailored management system.",
+    "title": "Build your own automotive inventory management system"
+  },
+  "metaDescription": "Create powerful, custom inventory management tools for automotive dealerships with Kliv. Track vehicles, parts, and accessories efficiently, optimize stock, and boost profitability.",
+  "sections": [
+    {
+      "title": "The challenge of managing dealership inventory",
+      "type": "text",
+      "content": "Automotive dealerships face unique inventory challenges. From high-value vehicles to thousands of small parts and accessories, effective management is crucial for profitability. Off-the-shelf solutions often fall short, lacking the flexibility to adapt to specific dealership workflows, vehicle types, or regional market demands. This leads to inefficiencies, lost sales opportunities, and inflated carrying costs.\n\nBuilding a custom inventory system empowers you to track every asset with precision, optimize stock levels, prevent losses, and provide accurate, real-time information to your sales and service teams. With Kliv's AI-driven development capabilities, creating a system that perfectly fits your dealership's needs is now more accessible than ever."
+    },
+    {
+      "title": "Why custom inventory management is a game-changer for dealerships",
+      "type": "markdown",
+      "content": "## The limitations of generic inventory software\n\nMany dealerships struggle with inventory systems that are either too simplistic or overly complex and inflexible. Common issues include:\n\n- **Inaccurate data**: Leading to lost vehicles, incorrect pricing, or missed sales.\n- **Poor integration**: Disconnected systems for vehicles, parts, and CRM, causing manual data entry and errors.\n- **Lack of customization**: Unable to track specific vehicle features, part attributes, or complex warranty information.\n- **Inefficient workflows**: Processes that don't match how your dealership actually operates.\n- **High recurring costs**: Subscriptions for features you don't use, with limited room for growth or change.\n\n## The strategic advantage of a tailor-made system\n\nCustom inventory management, built with a platform like Kliv, offers significant benefits for automotive dealerships:\n\n### Precision tracking for every asset\nFrom a new car fresh off the transport truck to a single washer in the parts department, your custom system can track every item's unique identifier, location, status, and history. This granular control minimizes loss and maximizes availability.\n\n### Real-time visibility and insights\nGet an immediate, accurate view of your entire inventory. Know what's in stock, what's on order, what's been sold, and where everything is located. This data enables smarter purchasing decisions and faster sales cycles.\n\n### Optimized stock levels and reduced carrying costs\nLeverage historical sales data and current trends to determine optimal stock levels for vehicles, parts, and accessories. Reduce overstocking of slow-moving items and ensure popular items are always available, cutting down unnecessary expenses.\n\n### Seamless integration with existing operations\nYour custom system can be designed to integrate smoothly with your existing CRM, accounting software, service management systems, and even manufacturer portals. Eliminate data silos and automate data flow across departments.\n\n### Enhanced customer experience\nSales teams can quickly locate specific vehicles or confirm part availability for repairs. Service departments can efficiently order necessary components, leading to faster service turnarounds and happier customers.\n\n### Adaptability for future growth\nAs your dealership expands, introduces new brands, or diversifies services, your custom system can evolve with you. Easily add new fields, modules, or integrations without vendor limitations or costly upgrades.\n\n## Real-world applications within a dealership\n\n- **New Vehicle Inventory**: Track VINs, make, model, trim, color, factory options, incoming status, lot location, and sales readiness.\n- **Used Vehicle Inventory**: Manage acquisition source, reconditioning status, detailed condition reports, pricing adjustments, and online listing integration.\n- **Parts Department**: Track part numbers, suppliers, bin locations, quantities on hand, minimum stock levels, reorder points, and service order allocation.\n- **Accessories Inventory**: Monitor specialized add-ons, their compatibility with vehicle models, installation status, and sales profitability.\n\n## The Kliv development process\n\nBuilding a custom system used to be a daunting IT project. Kliv demystifies this by:\n\n- **Leveraging your expertise**: You describe your dealership's unique inventory flow, and the AI helps model it.\n- **Rapid iteration**: See functional prototypes quickly and refine them based on real-world use.\n- **Built-in scalability**: Your system foundations are designed for growth, whether you add more vehicles, more locations, or more sophisticated tracking.\n\nInvesting in a custom inventory management system is investing in your dealership's operational efficiency, customer satisfaction, and long-term profitability. Start building your perfect solution today."
+    },
+    {
+      "title": "Automotive inventory system ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track details and status of all vehicles across lots.",
+          "prompt": "Create a new vehicle inventory system for an automotive dealership. It needs to track VIN, make, model, trim, color, factory options, current lot location, and sales status (available, sold, in transit). It should allow searching by any of these criteria and provide alerts for vehicles that have been on the lot for more than 90 days.",
+          "title": "New Vehicle Tracking"
+        },
+        {
+          "description": "Manage used car acquisition, reconditioning, and sales readiness.",
+          "prompt": "Build a used vehicle inventory module that integrates with the new vehicle system. It should include fields for acquisition date, mileage, condition report, reconditioning status (e.g., 'awaiting inspection', 'in detail', 'ready for sale'), estimated reconditioning costs, and photos. Implement a workflow for moving vehicles through reconditioning stages.",
+          "title": "Used Vehicle Lifecycle Management"
+        },
+        {
+          "description": "Optimize stock and streamline ordering for service and retail parts.",
+          "prompt": "Develop a parts inventory management system for the service department. It must track part numbers, descriptions, suppliers, current quantity, bin location, minimum reorder quantity, and average monthly usage. Generate automatic purchase order suggestions when stock falls below reorder points.",
+          "title": "Parts & Spares Inventory"
+        },
+        {
+          "description": "Monitor and manage accessory stock and installation.",
+          "prompt": "Create an accessories inventory system. Track accessory type (e.g., floor mats, roof racks, infotainment upgrade), part number, compatibility with vehicle models, quantity on hand, and installation status. Link accessories to specific vehicle VINs when installed.",
+          "title": "Accessory Inventory & Assignment"
+        },
+        {
+          "description": "Automate vehicle arrivals, movements, and departure logging.",
+          "prompt": "Design a vehicle movement log system. When a vehicle arrives at the dealership, is moved between lots, sent for detail, or delivered to a customer, log the VIN, date/time, user, and the specific event. Integrate with mobile scanning for quick updates.",
+          "title": "Vehicle Movement & Location Tracking"
+        },
+        {
+          "description": "Track vehicle service history, recalls, and warranty details.",
+          "prompt": "Build a module that links vehicle VINs to service history records, including past repairs, recall statuses, and warranty information. Allow service advisors to quickly access this data for any vehicle in inventory or brought in for service.",
+          "title": "Vehicle Service & Recall History"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your inventory system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a mobile app extension for lot attendants to scan VINs and update vehicle locations or status on the go.",
+          "title": "Mobile Inventory Scanning"
+        },
+        {
+          "prompt": "Implement a real-time reporting dashboard that shows current inventory value, turnover rates, and profit margins by vehicle type and age.",
+          "title": "Advanced Analytics Dashboard"
+        },
+        {
+          "prompt": "Integrate with external data sources like Kelley Blue Book or Edmunds for real-time market pricing and valuation adjustments for used vehicles.",
+          "title": "Market Data Integration"
+        },
+        {
+          "prompt": "Add a feature for automatically generating and managing vehicle window stickers with all relevant details and QR codes.",
+          "title": "Automated Window Sticker Printing"
+        },
+        {
+          "prompt": "Develop a secure portal for sales staff to reserve vehicles or parts for customers directly from the inventory system, with conflict resolution.",
+          "title": "Sales Reservation Module"
+        },
+        {
+          "prompt": "Integrate with accounting software (e.g., QuickBooks, SAP) to automate inventory cost tracking, COGS updates, and asset depreciation calculations.",
+          "title": "Accounting System Integration"
+        },
+        {
+          "prompt": "Add predictive analytics to forecast demand for specific vehicle models or parts based on seasonal trends and historical sales.",
+          "title": "Demand Forecasting"
+        },
+        {
+          "prompt": "Create a module to manage supplier relationships, track order lead times, and evaluate supplier performance for parts and accessories.",
+          "title": "Supplier Management Portal"
+        },
+        {
+          "prompt": "Implement multi-location inventory management for dealerships with multiple physical lots or service centers, showing consolidated and individual stock.",
+          "title": "Multi-Location Support"
+        }
+      ]
+    },
+    {
+      "title": "Key inventory management capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Track unique identifiers (VINs, Part Numbers) for all items.",
+          "icon": "🆔",
+          "title": "Unique ID Tracking"
+        },
+        {
+          "description": "Monitor current status (e.g., Available, Sold, In-Service, On-Order) and precise location.",
+          "icon": "📍",
+          "title": "Status & Location Management"
+        },
+        {
+          "description": "Log all movements, transactions, and changes for historical audit trails.",
+          "icon": "📜",
+          "title": "Comprehensive History"
+        },
+        {
+          "description": "Set minimum stock alerts and automated reorder suggestions for parts.",
+          "icon": "🚨",
+          "title": "Stock Level Alerts"
+        },
+        {
+          "description": "Categorize and group inventory for better organization and reporting.",
+          "icon": "🗂️",
+          "title": "Categorization & Grouping"
+        },
+        {
+          "description": "Generate custom reports on inventory turnover, valuation, and sales performance.",
+          "icon": "📈",
+          "title": "Custom Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Developing a basic automotive inventory system with Kliv can take days, not months. More complex systems with advanced integrations and custom workflows might take a few weeks to fully implement and refine for your specific dealership.",
+          "question": "What's the typical timeline for building an inventory system?"
+        },
+        {
+          "answer": "No deep technical expertise is required. Kliv's platform allows you to describe your inventory management needs in plain language. The AI translates this into a functional application, guiding you through the process step-by-step.",
+          "question": "Do I need to be a programmer to build this?"
+        },
+        {
+          "answer": "Yes, custom systems built with Kliv can connect with almost any external software that offers an API. This includes common dealership management systems (DMS), accounting software, CRM platforms, and manufacturer portals.",
+          "question": "Can I integrate it with my existing DMS or accounting software?"
+        },
+        {
+          "answer": "You retain full ownership of the custom application and all your data. Kliv provides the tools to build it, but the resulting solution is yours to control, host, and modify as you see fit.",
+          "question": "Who owns the inventory data and the application once it's built?"
+        },
+        {
+          "answer": "While the initial investment for a custom system might seem larger than a monthly SaaS fee, you eliminate recurring subscription costs and gain a perfectly tailored tool. Most dealerships find the total cost of ownership significantly lower over the long term, with increased efficiency quickly offsetting the initial outlay.",
+          "question": "How does the cost compare to off-the-shelf inventory software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of a custom solution is its flexibility. As your dealership's needs evolve, you can easily add new features, change tracking parameters, or expand capabilities without being limited by a vendor's product roadmap.",
+          "question": "Can I modify or expand the system after it's been deployed?"
+        },
+        {
+          "answer": "Custom-built solutions can often be more secure. You control the hosting environment and data access policies, reducing reliance on third-party security practices. Kliv provides robust tools to help you implement strong security measures based on your requirements.",
+          "question": "Is a custom inventory system more secure?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance throughout the development process, offering suggestions, troubleshooting, and optimization recommendations. Since you control the code, you're not reliant on a vendor's support team for critical changes or bug fixes – you have direct control.",
+          "question": "What kind of support is available during and after the build process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your dealership's inventory?",
+      "type": "cta",
+      "content": "Stop wrestling with generic software. Build an inventory management system as precise and dynamic as your automotive dealership with Kliv's AI platform."
+    }
+  ],
+  "title": "Automotive Dealership Inventory Management"
+}

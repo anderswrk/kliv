@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a subscription management system for an e-commerce business that handles recurring billing, customer accounts, and subscription modifications.",
+  "description": "Build custom subscription management tools to handle recurring revenue, customer lifecycle, and flexible billing models.",
+  "hero": {
+    "cta": "Start managing subscriptions",
+    "subtitle": "Take full control of your recurring revenue with AI-powered custom subscription management applications.",
+    "title": "Build your own subscription management system"
+  },
+  "metaDescription": "Create powerful subscription management systems with Kliv. Handle recurring billing, customer accounts, and flexible plans for your e-commerce business.",
+  "sections": [
+    {
+      "title": "The challenge of managing subscriptions at scale",
+      "type": "text",
+      "content": "In the booming subscription economy, businesses face increasing complexity in managing recurring revenue. Off-the-shelf solutions often present a dilemma: either they're too generic to handle unique business models, or they come with restrictive features and escalating costs.\n\nTraditional subscription platforms can lock you into specific payment gateways, limit your pricing structures, or lack the deep integration needed for custom e-commerce operations. Building your own system with Kliv empowers you to design a solution that perfectly fits your product, your customers, and your growth strategy, without the endless fees."
+    },
+    {
+      "title": "Why a custom subscription platform is a game-changer",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nGeneric subscription management tools often fall short because they:\n\n- **Force rigid pricing models**: Cannot easily accommodate unique bundles, usage-based billing, or complex tiering.\n- **Limit payment options**: May not support all the payment methods or regional gateways your customers prefer.\n- **Lack deep integration**: Struggle to sync seamlessly with your specific e-commerce platform, CRM, or inventory systems.\n- **Charge per subscriber/transaction**: Costs can skyrocket as your business scales, eating into your recurring revenue.\n- **Offer limited branding**: Customer portals often look generic, hindering a consistent brand experience.\n\n## The power of tailored solutions\n\nBuilding a custom subscription management system with Kliv provides unparalleled advantages:\n\n### Unlimited flexibility\nDesign any subscription model imaginable—fixed, tiered, volume, usage-based, freemium, trial periods, add-ons, and more. Adapt instantly to market demands without waiting for vendor updates.\n\n### Complete control over customer experience\nFrom sign-up flows and billing cycles to self-service portals and cancellation processes, every customer touchpoint is branded and optimized for your specific audience. Reduce churn by providing a seamless, intuitive experience.\n\n### Seamless integration\nConnect natively with your existing e-commerce storefront (Shopify, WooCommerce, custom builds), CRM, accounting software, and fulfillment partners. Automate data flow, eliminate manual reconciliation, and gain a unified view of your business.\n\n### Cost efficiency as you grow\nAvoid per-subscriber or per-transaction fees that erode margins. A one-time investment in building your platform means your costs don't scale linearly with your customer base, leading to higher profitability.\n\n### Enhanced data and analytics\nCapture every piece of subscription data relevant to your business. Build custom dashboards and reports to track key metrics like churn rate, MRR, LTV, and cohort performance, empowering smarter business decisions.\n\n## Real-world impact\n\nCustom subscription systems benefit diverse businesses:\n\n**SaaS Businesses**: Manage complex licensing, feature entitlements, and upgrade paths.\n\n**E-commerce Subscriptions (e.g., curated boxes)**: Handle monthly recurring kits, pause/skip features, product variations, and reshipment logic.\n\n**Content Platforms**: Offer customized access levels, pay-per-view options, and dynamic content delivery based on subscription tier.\n\n**Service Businesses**: Automate recurring service agreements, scheduled appointments, and resource allocation.\n\n## Modern development, simplified\n\nKliv leverages advanced AI to translate your business requirements into a functional application:\n\n- **Natural language interface**: Describe your desired features and workflows in plain English.\n- **Accelerated development**: Go from idea to a working prototype in days, not months.\n- **Built-in scalability**: Your application is designed to grow with your user base.\n- **Own your future**: You own the intellectual property and have complete freedom to modify and extend your system.\n\nDon't let rigid third-party software dictate your subscription business. Build a system that's as unique as your offering and fully supports your growth ambitions."
+    },
+    {
+      "title": "Subscription ideas to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Handle recurring payments and customer accounts",
+          "prompt": "Create a subscription management system for an online coffee bean club that processes monthly recurring payments, allows customers to manage their delivery preferences, and provides an admin dashboard to view active subscriptions.",
+          "title": "Recurring product box management"
+        },
+        {
+          "description": "Manage software licenses and feature access",
+          "prompt": "Build a SaaS subscription platform that handles different pricing tiers (basic, premium, enterprise), automatically grants/revokes feature access based on subscription status, and integrates with Stripe for billing.",
+          "title": "SaaS licensing and billing"
+        },
+        {
+          "description": "Offer flexible membership tiers and content access",
+          "prompt": "Develop a membership site solution for exclusive online courses, allowing users to subscribe to different content bundles, manage their payment methods, and include an automated dunning management for failed payments.",
+          "title": "Content membership platform"
+        },
+        {
+          "description": "Automate service contracts and scheduled billing",
+          "prompt": "Create a service subscription tool for a cleaning business that allows customers to schedule recurring services, sign up for different frequency plans (weekly, bi-weekly, monthly), and automatically bill them after service completion.",
+          "title": "Service subscription automation"
+        },
+        {
+          "description": "Track usage and bill accordingly",
+          "prompt": "Build a usage-based billing system for a cloud storage service that tracks actual data consumed by users, calculates charges based on different GB tiers, and generates invoices monthly.",
+          "title": "Usage-based billing system"
+        },
+        {
+          "description": "Control access to premium digital content",
+          "prompt": "Design a digital publication subscription system that provides tiered access to articles (free, premium, all-access), manages subscriber authentication, and offers promotional codes for discounts.",
+          "title": "Digital content access control"
+        }
+      ]
+    },
+    {
+      "title": "Extend your subscription platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a customer self-service portal where subscribers can update their billing information, change plans, or pause/cancel their subscriptions.",
+          "title": "Customer self-service portal"
+        },
+        {
+          "prompt": "Implement dunning management logic to automatically handle failed payments with smart retries and email notifications.",
+          "title": "Automated dunning management"
+        },
+        {
+          "prompt": "Integrate advanced analytics to track churn rate, MRR, LTV, and customer acquisition costs in a real-time dashboard.",
+          "title": "Subscription analytics dashboard"
+        },
+        {
+          "prompt": "Add promotional tools like discount codes, free trial offers, and referral programs to attract new subscribers.",
+          "title": "Promotional offers management"
+        },
+        {
+          "prompt": "Create a robust API for external systems to integrate with, allowing for easier syncing with CRM or ERP systems.",
+          "title": "API for third-party integration"
+        },
+        {
+          "prompt": "Implement a flexible product catalog module that allows for easy creation and management of subscription products, add-ons, and one-time purchases.",
+          "title": "Product catalog management"
+        },
+        {
+          "prompt": "Add a customer communication module for automated emails regarding billing, plan changes, and renewal reminders.",
+          "title": "Automated customer communications"
+        },
+        {
+          "prompt": "Develop A/B testing capabilities for different pricing strategies and onboarding flows to optimize conversion and retention.",
+          "title": "A/B testing for pricing"
+        },
+        {
+          "prompt": "Include multi-currency support and localized billing for international expansion.",
+          "title": "Multi-currency support"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for subscription success",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automate recurring billing cycles, proration, and tax calculations.",
+          "icon": "💸",
+          "title": "Flexible billing engine"
+        },
+        {
+          "description": "Manage customer accounts, payment methods, and communication preferences.",
+          "icon": "👤",
+          "title": "Subscriber lifecycle management"
+        },
+        {
+          "description": "Define and manage various subscription plans, add-ons, and pricing models.",
+          "icon": "📦",
+          "title": "Dynamic plan configuration"
+        },
+        {
+          "description": "Provide a portal for customers to manage their own subscriptions.",
+          "icon": "⚙️",
+          "title": "Self-service customer portal"
+        },
+        {
+          "description": "Automate recovery processes for failed payments and overdue subscriptions.",
+          "icon": "🚨",
+          "title": "Intelligent dunning management"
+        },
+        {
+          "description": "Track key metrics like MRR, churn rate, and customer lifetime value.",
+          "icon": "📈",
+          "title": "Real-time subscription analytics"
+        }
+      ]
+    },
+    {
+      "title": "FAQs about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom subscription management system with Kliv can be significantly faster than traditional development, often taking days to weeks for an initial version, depending on complexity. Our AI streamlines the coding and infrastructure setup.",
+          "question": "How long does it take to build a full-featured subscription system?"
+        },
+        {
+          "answer": "Kliv helps you generate the core application logic and infrastructure. While the platform handles much of the complexity, successfully deploying a system like this requires some foundational understanding of e-commerce, billing concepts, and user experience design.",
+          "question": "Do I need technical expertise to build this kind of solution?"
+        },
+        {
+          "answer": "Yes, your custom Kliv-built system can integrate with nearly any external service that offers an API or webhooks – including popular payment gateways (Stripe, PayPal, etc.), e-commerce platforms (Shopify, WooCommerce), CRMs, and accounting software.",
+          "question": "Can my custom system integrate with existing payment gateways or e-commerce platforms?"
+        },
+        {
+          "answer": "The cost of building with Kliv is typically a one-time development investment rather than ongoing per-subscriber or per-transaction fees of SaaS. This often results in substantial savings and higher profitability as your business scales, especially for high-volume operations.",
+          "question": "How does the cost compare to off-the-shelf subscription software?"
+        },
+        {
+          "answer": "All intellectual property, including the codebase and data, generated by Kliv is yours. You have full control, can host it anywhere, and are free to modify or extend it as your business evolves.",
+          "question": "Who owns the intellectual property of the custom system I build?"
+        },
+        {
+          "answer": "Yes, you can absolutely update and expand your system as your business evolves. Since you own the code, you have complete flexibility to add new features, adjust pricing models, or integrate with new tools without vendor lock-in.",
+          "question": "Can I modify or add features to the system after it's built?"
+        },
+        {
+          "answer": "Security is paramount. When you build with Kliv, you control the data storage, encryption, and access policies, often allowing for a more tailored and secure environment than generic SaaS where you depend on a third-party's security practices.",
+          "question": "How secure are custom-built subscription management applications?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to own your recurring revenue stream?",
+      "type": "cta",
+      "content": "Stop paying increasing fees for inflexible tools. Build the precise subscription management system your business needs to thrive and scale."
+    }
+  ],
+  "title": "Subscription Management Systems"
+}

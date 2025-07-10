@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a vocabulary builder that lets users add custom words, practice with flashcards and spaced repetition, and track their learning progress.",
+  "description": "Build custom vocabulary builder applications specifically tailored for any language, topic, or learning style.",
+  "hero": {
+    "cta": "Start building your vocab app",
+    "subtitle": "Create personalized vocabulary builder apps with Kliv's AI-powered platform for language learners, test prep, or specialized fields.",
+    "title": "Build your own vocabulary builder"
+  },
+  "metaDescription": "Create powerful, custom vocabulary builder apps with Kliv. Tailor learning experiences with spaced repetition, flashcards, quizzes, and progress tracking for any language or subject.",
+  "sections": [
+    {
+      "title": "Why a custom vocabulary builder?",
+      "type": "text",
+      "content": "Off-the-shelf vocabulary apps are often generic; they don't cater to specific languages, niche topics, or individual learning styles. If you're a language teacher, an expert in a specialized field, or a dedicated learner, you need a tool that adapts to you, not the other way around.\n\nBuilding your own vocabulary builder with Kliv means you have complete control. You can design it for a specific audience (e.g., medical students learning Latin roots, travelers needing conversational phrases, or children learning sight words), integrate unique content, and implement the exact learning methodologies you prefer."
+    },
+    {
+      "title": "The power of personalized vocabulary learning",
+      "type": "markdown",
+      "content": "## The limitations of current apps\n\nThe market is flooded with vocabulary apps, but most fall short in several key areas:\n\n- **Generic content**: They often lack specialized vocabulary for professional fields, specific dialects, or rare languages.\n- **One-size-fits-all methods**: Not all learners benefit from the same repetition schedules or quiz types.\n- **Lack of context**: Words are often presented in isolation, without rich contextual examples relevant to the user.\n- **Limited customization**: You can't easily add your own word lists, definitions, or multimedia.\n- **Monetization vs. learning**: Many free apps are ad-heavy, disrupting the learning process.\n\n## Why custom development is a game-changer\n\nCreating your own vocabulary builder addresses these issues head-on, offering significant advantages:\n\n### Hyper-targeted content\nDesign your app to focus exclusively on, for example, ancient Greek medical terms, modern slang for a specific region, or advanced legal terminology. This level of specificity is rarely found in mass-market apps.\n\n### Tailored learning algorithms\nImplement custom spaced repetition systems (SRS) that are optimized for your content type or target user's learning curve. You can dictate review intervals, incorporate specific quiz types (e.g., fill-in-the-blank, multiple choice with specific distractors, pronunciation practice).\n\n### Rich, contextual examples\nInclude audio pronunciations, images, real-world usage examples, and even cultural notes that are highly relevant to your specific vocabulary set, making learning more effective and memorable.\n\n### Community and collaboration features\nBuild in features for users to share custom word lists, collaborate on definitions, or compete in challenges, fostering a more engaging learning environment.\n\n### Ownership and flexibility\nUnlike relying on third-party platforms that can change features or pricing, you own your application. This means long-term stability, control over user data, and the freedom to evolve the app as your educational goals change.\n\n## Real-world applications\n\nA custom vocabulary builder isn't just for language enthusiasts; it has broad applications:\n\n**Educators**: Create supplemental apps for specific courses (e.g., high school Latin, university-level technical jargon, specialized ESL vocabulary).\n\n**Professionals**: Develop tools for medical terminology, legal terms, industry-specific acronyms, or financial vocabulary.\n\n**Content Creators**: Offer a premium vocabulary learning experience alongside your language courses, books, or online content.\n\n**Individuals**: Build a personal learning tool for a rare language, a hobby (e.g., bird names, plant species), or prepare for a specific exam (e.g., GRE, IELTS with custom difficult words).\n\n## AI makes it accessible\n\nBuilding complex applications like vocabulary builders used to require significant programming expertise. Kliv's AI-powered development reduces this barrier:\n\n- **Describe in plain English**: Tell the AI what features you want, from quiz types to database structures.\n- **Rapid iteration**: Quickly prototype and test different learning flows and user interfaces.\n- **Smart content generation**: AI can help generate definitions, example sentences, or even suggest related words.\n- **Automated setup**: Database creation, user authentication, and core logic are handled for you.\n\nDon't settle for generic. Build a vocabulary builder that truly excels by being tailor-made for its purpose."
+    },
+    {
+      "title": "Vocabulary builder ideas to spark your creativity",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "System for medical students to master anatomical terms with detailed diagrams.",
+          "prompt": "Create a medical terminology vocabulary builder, allowing users to add terms with definitions, pronunciations, and associated anatomical images. Include spaced repetition and quiz modes testing spelling and identification.",
+          "title": "Medical Terminology Trainer"
+        },
+        {
+          "description": "App for learning conversational phrases and slang for specific regions.",
+          "prompt": "Build a conversational Spanish vocabulary app focused on Chilean slang. It should include audio recordings, example dialogues, and a quiz mode for quick recall and usage in context.",
+          "title": "Regional Slang Companion"
+        },
+        {
+          "description": "Platform for educators to create and share custom vocabulary lists for their classes.",
+          "prompt": "Develop a teacher-centric vocabulary builder where educators can create custom word lists with definitions, upload audio/video examples, assign lists to students, and track student progress on those specific lists.",
+          "title": "Classroom Vocab Manager"
+        },
+        {
+          "description": "Game-oriented app to learn programming terms with interactive challenges.",
+          "prompt": "Design a vocabulary game for learning Python programming terms. Users should match terms to definitions, complete code snippets, and earn points for correct answers to unlock new levels.",
+          "title": "Code Terminology Game"
+        },
+        {
+          "description": "Tool for test-takers to practice high-frequency words for exams like the GRE or IELTS.",
+          "prompt": "Create a GRE vocabulary prep tool that focuses on high-frequency words. It needs flashcards, a 'words I struggle with' list, and timed quizzes that simulate exam conditions.",
+          "title": "Exam Prep Vocab Master"
+        },
+        {
+          "description": "Personalized planner for daily new word acquisition from various sources.",
+          "prompt": "Build a personal vocabulary journal app where users can add words encountered in books or articles, link to original context, and receive daily review notifications based on an adaptive schedule.",
+          "title": "Daily Word Journal"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your vocabulary builder",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate text-to-speech functionality for all words and example sentences.",
+          "title": "Add audio pronunciation"
+        },
+        {
+          "prompt": "Implement a spaced repetition system (SRS) to optimize review intervals.",
+          "title": "Develop a smart review algorithm"
+        },
+        {
+          "prompt": "Add gamification elements like points, badges, and leaderboards.",
+          "title": "Incorporate gamification"
+        },
+        {
+          "prompt": "Include user accounts with progress tracking and customizable profiles.",
+          "title": "Build user profiles with progress tracking"
+        },
+        {
+          "prompt": "Allow users to import word lists from CSV or text files.",
+          "title": "Enable bulk word import"
+        },
+        {
+          "prompt": "Create a 'challenge' mode where users compete with others on specific word sets.",
+          "title": "Add multiplayer challenges"
+        },
+        {
+          "prompt": "Integrate with external dictionary APIs for automated definition lookup.",
+          "title": "Connect to external dictionaries"
+        },
+        {
+          "prompt": "Add capability for users to upload images or videos as mnemonics for words.",
+          "title": "Support multimedia associations"
+        },
+        {
+          "prompt": "Develop a mobile-friendly version of the application for iOS and Android.",
+          "title": "Make it cross-platform mobile"
+        }
+      ]
+    },
+    {
+      "title": "Core vocabulary builder features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Add, edit, and organize custom word lists and definitions.",
+          "icon": "➕",
+          "title": "Custom word creation"
+        },
+        {
+          "description": "Practice vocabulary with traditional flashcards or dynamic quiz modes.",
+          "icon": "🧠",
+          "title": "Flexible practice modes"
+        },
+        {
+          "description": "Track learning progress, mastery levels, and words needing more review.",
+          "icon": "📈",
+          "title": "Detailed progress tracking"
+        },
+        {
+          "description": "Store images, audio files, and example sentences for richer learning.",
+          "icon": "🖼️",
+          "title": "Multimedia support"
+        },
+        {
+          "description": "Categorize words by tag, topic, difficulty, or date added.",
+          "icon": "🗂️",
+          "title": "Smart organization"
+        },
+        {
+          "description": "Access your vocabulary from any device, anytime, anywhere.",
+          "icon": "🌐",
+          "title": "Cloud synchronization"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom vocabulary app can be surprisingly fast with Kliv. A basic version with core features could be ready in a day, while more complex apps with advanced algorithms and integrations might take a few days to a week to refine.",
+          "question": "How long will it take to build my custom vocabulary builder?"
+        },
+        {
+          "answer": "No, extensive coding knowledge is not required. Kliv uses AI to interpret your descriptions and build the application's components. You focus on the learning logic and user experience, and the AI handles the underlying code.",
+          "question": "Do I need to be a programmer to build a vocabulary app with Kliv?"
+        },
+        {
+          "answer": "Yes, you can integrate with various APIs for features like automated definitions (dictionary APIs), text-to-speech for pronunctiation, or image search for visual aids. Kliv makes it straightforward to connect to external services.",
+          "question": "Can my vocabulary builder integrate with external dictionaries or other services?"
+        },
+        {
+          "answer": "Absolutely. You retain full ownership of the application, its codebase, and all user data. You have complete control over deployment, updates, and future modifications.",
+          "question": "Who owns the vocabulary builder application once it's built?"
+        },
+        {
+          "answer": "Compared to ongoing subscription costs for generic apps, building with Kliv is typically a one-time development investment. You get exactly what you need without recurring feature-gated fees, making it more cost-effective in the long run.",
+          "question": "Is building my own app more expensive than subscribing to existing vocabulary apps?"
+        },
+        {
+          "answer": "Yes, you can deploy your application to run on various platforms, including web browsers, or as a Progressive Web App (PWA) with offline capabilities. With further development (which Kliv can assist with), native mobile apps for iOS and Android are also possible.",
+          "question": "Can the app be used on mobile devices or offline?"
+        },
+        {
+          "answer": "Kliv's platform provides tools for secure user authentication, data encryption, and robust database management. This allows you to implement strong security measures tailored to your specific application requirements.",
+          "question": "How secure is a custom-built vocabulary application?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to tailor your perfect vocabulary learning experience?",
+      "type": "cta",
+      "content": "Stop adapting to generic solutions. Build a vocabulary builder that truly understands your unique learning or teaching needs with Kliv's AI-powered customization."
+    }
+  ],
+  "title": "Custom Vocabulary Builder"
+}

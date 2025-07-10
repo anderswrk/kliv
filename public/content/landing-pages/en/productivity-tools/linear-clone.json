@@ -1,0 +1,171 @@
+{
+  "defaultPrompt": "I want to create a highly efficient issue tracking and project management tool that emphasizes speed, keyboard-first interaction, and a minimalist interface, similar to Linear.",
+  "description": "Build your own blazingly fast issue tracker and project management tool with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Building",
+    "subtitle": "Develop a custom, high-speed issue tracking and project management tool tailored to your team's unique workflow.",
+    "title": "Create your own Linear-like Productivity App"
+  },
+  "metaDescription": "Create powerful, custom issue tracking and project management tools on Kliv. Design a Linear-like experience with speed, efficiency, and integrated workflows for your team.",
+  "sections": [
+    {
+      "title": "Why build a custom productivity app?",
+      "type": "text",
+      "content": "The landscape of project management tools is vast, yet many teams find themselves compromisingbetween features, speed, and cost. Off-the-shelf solutions often come with bloated interfaces, slow performance, or prohibitive subscription models, forcing teams to adapt their refined workflows to the tool's limitations.\n\nImagine a tool that's not just fast, but built precisely for your team's unique rhythm. A tool that prioritizes keyboard shortcuts, intelligent workflows, and a clean interface, without the unnecessary clutter. With Kliv, you can now build that perfect productivity hub, owning your data and your development destiny."
+    },
+    {
+      "title": "The case for a bespoke Linear-style tool",
+      "type": "markdown",
+      "content": "## The frustrations of generic productivity suites\nExisting project and issue trackers often present several challenges:\n\n- **Performance bottlenecks**: Many web-based tools can feel sluggish, interrupting flow.\n- **Feature bloat**: Overwhelming UIs with features you don't need, making core tasks harder.\n- **Cost scalability**: Monthly per-user fees can become expensive as your team grows.\n- **Lack of flexibility**: Inability to deeply customize workflows, fields, or integrations.\n- **Data privacy concerns**: Relying on third-party servers for sensitive project data.\n\n## Why custom-built excels\nBy leveraging Kliv's AI platform, building your own tool addresses these pain points directly:\n\n### Blazing fast performance\nDesign your tool to be inherently performant, optimizing for speed and responsiveness. This means quicker issue creation, faster searches, and seamless navigation that keeps your team in flow.\n\n### Tailored workflows\nNo more trying to fit a square peg in a round hole. Define custom states, transitions, fields, and automation rules that perfectly mirror your team's agile, scrum, or kanban methodologies.\n\n### Cost efficiency\nInvest once in a custom solution, rather than paying perpetual subscription fees that scale with your team size. This provides significant long-term savings.\n\n### Complete UI/UX control\nCraft an interface that's genuinely intuitive for your users. Emphasize minimalism, keyboard navigation, and intelligent commands that reduce clicks and mental overhead.\n\n### Data ownership & security\nHost your application and data on your own infrastructure or a cloud provider of your choice, ensuring maximum security and compliance with your data governance policies.\n\n## Real-world applications\nA custom Linear-like application is ideal for:\n\n- **Software Development Teams**: Streamline bug tracking, feature development, and sprint planning with a tool that truly understands software workflows.\n- **Product Management**: Manage product roadmaps, user stories, and feedback loops with deeply integrated planning capabilities.\n- **Creative Agencies**: Track design tasks, content creation, and client feedback with visual and collaborative features.\n- **Internal Operations**: Manage internal requests, IT tickets, and cross-departmental projects with a centralized, rapid-response system.\n\n## The AI acceleration\nBuilding sophisticated applications used to be a long, arduous process. Kliv's AI changes this:\n\n- **Natural Language Design**: Describe your ideal feature, and watch the AI generate the foundation.\n- **Iterative Development**: Quickly prototype, test, and refine features based on real-time feedback.\n- **Code Generation**: AI assists in generating clean, maintainable code for your application.\n- **Automated Deployments**: Go from idea to live application faster than ever before.\n\nBuild the productivity tool you've always wanted, without compromise."
+    },
+    {
+      "title": "Inspiring productivity app ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A minimalist issue tracker with keyboard-driven navigation for small dev teams.",
+          "prompt": "Create an issue tracking system focused on speed, using keyboard shortcuts for all actions (create, edit, assign, change status), and a clean, command-line-like interface. Include a quick search bar and markdown support for descriptions.",
+          "title": "Keyboard-First Issue Tracker"
+        },
+        {
+          "description": "An agile project management tool with integrated sprints, epics, and reporting.",
+          "prompt": "Build an agile project management application that supports nested tasks (epics, stories, sub-tasks), sprint planning with velocity tracking, and burn-down charts. Integrate with GitHub for automatic status updates on pull requests.",
+          "title": "Agile Sprint Management System"
+        },
+        {
+          "description": "A visual kanban board with smart swimlanes and automated task assignment.",
+          "prompt": "Design a custom kanban board application where cards can be dragged and dropped, swimlanes are dynamically generated based on assignee or priority, and automated rules assign tasks based on keyword detection in descriptions.",
+          "title": "Dynamic Kanban Board"
+        },
+        {
+          "description": "A personal CRM and task manager for sales professionals.",
+          "prompt": "Develop a personal CRM that links contacts to tasks, tracks communication history, sets reminders for follow-ups, and integrates with my email client to automatically log sent and received messages.",
+          "title": "Sales Activity Tracker"
+        },
+        {
+          "description": "A content production workflow tool with integrated review and publishing steps.",
+          "prompt": "Create a content calendar and workflow tool that allows me to define custom content types (blog, video, social), track progress through writing, editing, design, and publishing stages, and assign tasks to team members with due dates.",
+          "title": "Content Workflow Hub"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your custom productivity tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add deep linking for issues and projects so specific items can be shared directly.",
+          "title": "Implement deep linking"
+        },
+        {
+          "prompt": "Integrate with a version control system (e.g., GitHub, GitLab) to automatically update issue statuses based on code commits or pull requests.",
+          "title": "Add Git integration"
+        },
+        {
+          "prompt": "Develop a robust search functionality with filtering by assignee, status, tags, and full-text search.",
+          "title": "Enhance search capabilities"
+        },
+        {
+          "prompt": "Include customizable keyboard shortcuts for all common actions to boost workflow speed.",
+          "title": "Expand keyboard shortcuts"
+        },
+        {
+          "prompt": "Add real-time collaboration features like live editing indicators and instant comments on issues.",
+          "title": "Integrate real-time collaboration"
+        },
+        {
+          "prompt": "Build a native desktop application for improved performance and offline access.",
+          "title": "Create desktop client"
+        },
+        {
+          "prompt": "Implement a robust notification system with customizable alerts via email, in-app, or push notifications.",
+          "title": "Develop custom notifications"
+        },
+        {
+          "prompt": "Add reporting and analytics dashboards to visualize project progress, team velocity, and bottlenecks.",
+          "title": "Incorporate analytics"
+        },
+        {
+          "prompt": "Allow users to create custom fields and templates for different issue types or project needs.",
+          "title": "Enable custom fields and templates"
+        }
+      ]
+    },
+    {
+      "title": "Core productivity features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Create, assign, and track issues with custom fields and states.",
+          "icon": "📝",
+          "title": "Issue & Task Management"
+        },
+        {
+          "description": "Full control over workflows, transitions, and automation rules.",
+          "icon": "⚙️",
+          "title": "Custom Workflows"
+        },
+        {
+          "description": "Lightning-fast search and filter capabilities for instant retrieval.",
+          "icon": "⚡",
+          "title": "High-Speed Search"
+        },
+        {
+          "description": "Seamless integration with other tools via APIs and webhooks.",
+          "icon": "🔗",
+          "title": "API Integrations"
+        },
+        {
+          "description": "Organize tasks visually with customizable kanban boards.",
+          "icon": "➡️",
+          "title": "Kanban & Boards"
+        },
+        {
+          "description": "Direct, real-time communication within issues and projects.",
+          "icon": "💬",
+          "title": "In-App Discussions"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic Linear-like application on Kliv can take as little as a few hours for core functionality. More complex features like advanced integrations or detailed reporting can extend development to a few days or weeks.",
+          "question": "How quickly can I build a custom productivity app?"
+        },
+        {
+          "answer": "No coding expertise is needed. Kliv's platform allows you to describe your desired application using natural language, and the AI assists in generating the necessary code and components. It's a low-code/no-code approach powered by AI.",
+          "question": "Is coding knowledge required to build this type of app?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with almost any third-party service that exposes an API. This includes version control systems like GitHub, communication tools like Slack, or other project management suites.",
+          "question": "Can my custom app integrate with existing tools like GitHub or Slack?"
+        },
+        {
+          "answer": "When you build with Kliv, you own 100% of the code and the intellectual property. You decide where your data is stored, giving you complete control over security and privacy, unlike subscribing to a SaaS product.",
+          "question": "Who owns the data and code created with Kliv?"
+        },
+        {
+          "answer": "In the long run, building a custom solution is often more cost-effective. While SaaS products charge recurring per-user fees that increase with your team size, a Kliv-built app is a one-time investment with minimal ongoing hosting costs.",
+          "question": "How does the cost compare to off-the-shelf solutions?"
+        },
+        {
+          "answer": "Absolutely. One of the primary advantages of building with Kliv is the ability to continuously evolve your application. You can add new features, modify existing workflows, and scale the application as your team's needs change.",
+          "question": "Can I modify or expand the application after it's initially built?"
+        },
+        {
+          "answer": "Yes, custom-built applications can be highly secure because you control the hosting environment, security protocols, and who has access. You're not relying on a third-party vendor's security practices, which can be a significant advantage for sensitive data.",
+          "question": "Is building a custom app more secure than using an off-the-shelf solution?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to redefine your team's productivity?",
+      "type": "cta",
+      "content": "Stop conforming to generic software. Build a hyper-efficient, custom productivity tool that perfectly matches your team's unique rhythm. Start creating your dream app today."
+    }
+  ],
+  "title": "Custom Linear-like Productivity Tools"
+}

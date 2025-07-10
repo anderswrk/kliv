@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create a fund fact sheet generator that pulls daily performance data, risk metrics, portfolio holdings, and generates a branded PDF document automatically.",
+  "description": "Build custom fund fact sheet generators with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start generating",
+    "subtitle": "Automate the creation of precise, compliant, and beautifully designed fund fact sheets with custom applications built on Kliv.",
+    "title": "Build your own Fund Fact Sheet Generator"
+  },
+  "metaDescription": "Create powerful fund fact sheet generators with Kliv. Automate data collection, design, and compliance for investment reporting with custom-built applications.",
+  "sections": [
+    {
+      "title": "The challenge of fund fact sheets",
+      "type": "text",
+      "content": "In the fast-paced financial world, timely and accurate fund fact sheets are crucial for client communication, regulatory compliance, and marketing. However, manually compiling these documents is often a repetitive, time-consuming, and error-prone process. Investment firms face the constant pressure of updating performance figures, portfolio allocations, and risk disclosures across numerous funds, often daily or monthly.\n\nOff-the-shelf solutions can be costly, inflexible, and may not integrate seamlessly with your unique data sources or branding requirements. This often leads to fragmented workflows, increased operational risk, and delays in client reporting. The solution isn't to simply work harder but to work smarter by automating the entire process with a tool tailored precisely to your needs."
+    },
+    {
+      "title": "Why a custom fact sheet generator is a game-changer",
+      "type": "markdown",
+      "content": "## The limitations of generic reporting tools\n\nMany investment firms rely on general-purpose reporting software or even manual processes to create their fund fact sheets. These approaches often lead to:\n\n- **High recurring costs:** Expensive licenses and per-report fees that cut into profit margins.\n- **Lack of customization:** Inability to perfectly match your brand's visual identity or specific data fields.\n- **Data silos:** Difficulty integrating with proprietary systems for performance, holdings, or risk data.\n- **Manual errors:** The human element introduces risks in data transcription and document assembly.\n- **Slow turnaround:** Delays in updating crucial information mean you're always behind the curve.\n- **Compliance headaches:** Struggling to adapt quickly to new regulatory disclosure requirements.\n\n## The strategic advantage of a tailor-made solution\n\nBuilding your own fund fact sheet generator with an AI-powered platform like Kliv transforms this challenge into a competitive advantage:\n\n### Uncompromised data accuracy and consistency\nDirectly connect to your source systems for real-time data feeds. Eliminate manual entry and ensure every fact sheet reflects the latest, most accurate information, reducing compliance risk and enhancing investor trust.\n\n### Fully customizable branding and design\nYour fact sheets are extensions of your brand. A custom generator allows pixel-perfect control over layouts, fonts, colors, charts, and disclaimers, ensuring every document reinforces your professional image.\n\n### Seamless integration with all your data sources\nWhether your data lives in a portfolio management system, Excel spreadsheets, or third-party performance aggregators, your custom tool can pull information from all sources, unifying your data for streamlined reporting.\n\n### Significant cost savings and operational efficiency\nShift from recurring subscription fees to a one-time development investment. Automate previously manual tasks, freeing up valuable analyst time for higher-value activities like performance analysis or client engagement.\n\n### Rapid adaptation to regulatory changes\nWhen new disclosure rules emerge, easily modify your generator's templates and data fields without waiting for vendor updates or incurring additional development costs.\n\n### Scalability for growth\nAs your fund offerings expand, your custom solution scales effortlessly. Add new fund templates, incorporate more data points, or generate a greater volume of reports without performance degradation.\n\n## Real-world impact\n\nConsider how a custom fund fact sheet generator can empower various roles within your firm:\n\n*   **Marketing & Sales:** Provide up-to-date, branded materials to prospects and clients instantly, supporting sales efforts and consistent communication.\n*   **Operations:** Drastically reduce the manual effort involved in data aggregation, document compilation, and version control.\n*   **Compliance:** Ensure all necessary disclosures, risk warnings, and regulatory legends are automatically included and updated, minimizing audit risk.\n*   **Portfolio Managers:** Receive timely, accurate reports reflecting their fund's performance and composition.\n\nBy leveraging Kliv's AI capabilities, developing such a specialized tool is no longer a complex, months-long IT project. You can define your requirements in plain language, and the AI assists in building a robust, maintainable application that directly addresses your unique reporting needs."
+    },
+    {
+      "title": "Fund fact sheet generation ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate daily updates for core fund performance figures.",
+          "prompt": "Create a fund fact sheet generator that pulls daily net asset value (NAV) and 1-day, 1-month, 3-month, and year-to-date performance from an API, then renders it into a branded PDF template.",
+          "title": "Daily Performance Fact Sheet"
+        },
+        {
+          "description": "Generate comprehensive documents with detailed portfolio breakdowns.",
+          "prompt": "Build a system to generate monthly fact sheets that include sector allocation, top 10 holdings, geographic exposure, standard deviation, and Sharpe ratio, pulling data from our internal database and outputting to a customizable Word document.",
+          "title": "Monthly Comprehensive Fact Sheet"
+        },
+        {
+          "description": "Produce compliant reports with specific regulatory disclaimers.",
+          "prompt": "Develop a fact sheet generator focused on compliance, requiring specific disclaimers based on fund type (e.g., UCITS, '40 Act), automatic inclusion of performance disclosures, and audit trails for each generated report.",
+          "title": "Compliance-Focused Fact Sheet"
+        },
+        {
+          "description": "Tailor fact sheets for specific client segments or marketing campaigns.",
+          "prompt": "Design a tool that allows for 'ad-hoc' fact sheet generation where users can select specific funds and a limited set of key data points (e.g., only returns and expense ratio) for quick client requests or specific marketing materials.",
+          "title": "Customizable Client Fact Sheet"
+        },
+        {
+          "description": "Create factsheets that include ESG scores and impact metrics.",
+          "prompt": "I need a fact sheet generator that integrates with our ESG data provider to display sustainability scores, carbon footprint metrics, and impact themes alongside traditional financial data for our responsible investment funds.",
+          "title": "ESG Fund Fact Sheet"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your fact sheet generator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a web interface for users to select funds, date ranges, and download generated fact sheets.",
+          "title": "User-friendly web interface"
+        },
+        {
+          "prompt": "Incorporate a version control system to track changes and approvals for each fact sheet generated.",
+          "title": "Version control and audit trail"
+        },
+        {
+          "prompt": "Automate distribution of fact sheets via email to a pre-defined client list or internal stakeholders.",
+          "title": "Automated email distribution"
+        },
+        {
+          "prompt": "Integrate a charting library to dynamically generate performance graphs and asset allocation pie charts within the factsheets.",
+          "title": "Dynamic charting capabilities"
+        },
+        {
+          "prompt": "Add multi-language support so fact sheets can be generated in English, Spanish, and Mandarin based on user selection.",
+          "title": "Multi-language support"
+        },
+        {
+          "prompt": "Implement a 'What-if' scenario modeling feature to show potential fund performance under different market conditions.",
+          "title": "Scenario modeling integration"
+        },
+        {
+          "prompt": "Develop an alert system that notifies compliance officers when fact sheet data falls outside predefined thresholds or changes significantly.",
+          "title": "Compliance anomaly alerts"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities for your generator",
+      "type": "features",
+      "items": [
+        {
+          "description": "Pull data from various sources: APIs, databases, Excel, CSV, etc.",
+          "icon": "🔗",
+          "title": "Flexible Data Integration"
+        },
+        {
+          "description": "Define and manage reusable templates for consistent branding and layout.",
+          "icon": "📄",
+          "title": "Template Management"
+        },
+        {
+          "description": "Automate calculations for performance, risk metrics, and ratios.",
+          "icon": "🧮",
+          "title": "Automated Calculations"
+        },
+        {
+          "description": "Generate output in various formats: PDF, Word, HTML, Excel.",
+          "icon": "📤",
+          "title": "Multi-Format Export"
+        },
+        {
+          "description": "Ensure disclaimers, footnotes, and regulatory text are always accurate.",
+          "icon": "⚖️",
+          "title": "Dynamic Compliance Insertion"
+        },
+        {
+          "description": "Schedule automatic generation and distribution of reports.",
+          "icon": "⏰",
+          "title": "Scheduled Generation"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom fund fact sheet generator with Kliv can take anywhere from a few days for a basic version to a couple of weeks for a complex system with multiple integrations and advanced features. The AI assists heavily, accelerating typical development timelines.",
+          "question": "How long does it take to build a fund fact sheet generator?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv’s platform leverages AI to translate your natural language descriptions of data sources, templates, and output requirements into a functional application. You focus on the 'what', and the AI helps with the 'how'.",
+          "question": "Do I need to be a programmer to build this type of tool?"
+        },
+        {
+          "answer": "Yes, a key benefit of building a custom tool is its ability to seamlessly integrate with your existing portfolio management systems, accounting software, market data providers, and internal databases via APIs or direct connections. This ensures data consistency.",
+          "question": "Can the generator integrate with my existing financial data systems?"
+        },
+        {
+          "answer": "Your custom fund fact sheet generator, including all templates, data mappings, and generated reports, is fully owned by you. You have complete control over its deployment, security, and intellectual property.",
+          "question": "Who owns the intellectual property of the built application?"
+        },
+        {
+          "answer": "While the initial investment for a custom build might be higher than a monthly SaaS fee, the long-term cost benefits are significant. You avoid perpetual subscriptions, per-report charges, and often costly customization fees associated with third-party vendors. Most firms see ROI within a year.",
+          "question": "How does the cost compare to off-the-shelf fact sheet software?"
+        },
+        {
+          "answer": "Absolutely. Your custom tool is designed for flexibility. As your funds evolve, or as regulatory requirements change, you can easily modify data sources, update templates, adjust calculations, or add new sections to your fact sheets without vendor dependency.",
+          "question": "Can I modify the generator once it's built?"
+        },
+        {
+          "answer": "Security is paramount in financial data. With a custom solution, you dictate the security protocols and hosting environment, potentially making it more secure than relying on a third-party vendor’s security framework. Kliv tools help you define granular access controls and encryption.",
+          "question": "What about data security and compliance?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to streamline your reporting process?",
+      "type": "cta",
+      "content": "Stop wasting time on manual fact sheet creation. Build an intelligent, automated solution that enhances accuracy, elevates your brand, and frees up your team for higher-value activities. Start building your custom fund fact sheet generator today."
+    }
+  ],
+  "title": "Fund Fact Sheet Generator"
+}

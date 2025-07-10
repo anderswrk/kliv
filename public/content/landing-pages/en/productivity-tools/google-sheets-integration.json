@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a tool that connects to Google Sheets and allows users to input data via a custom form, visualize data in charts, and automate data updates based on external triggers.",
+  "description": "Transform your Google Sheets into powerful, interactive applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Building Your Sheet App",
+    "subtitle": "Unlock the full potential of your spreadsheets by building custom applications that interact seamlessly with Google Sheets.",
+    "title": "Build Custom Google Sheets Applications"
+  },
+  "metaDescription": "Create dynamic Google Sheets applications to manage data, automate tasks, and build dashboards. Integrate with Google Sheets effortlessly using Kliv's AI platform.",
+  "sections": [
+    {
+      "title": "Why build a custom Google Sheets application?",
+      "type": "text",
+      "content": "Google Sheets is an incredibly versatile tool, but its capabilities as a standalone application are limited. You often find yourself manually updating data, struggling with complex formulas for reporting, or sharing spreadsheets that are difficult for non-technical users to navigate.\n\nBuilding a custom application on top of Google Sheets transforms it from a static spreadsheet into a dynamic, user-friendly tool tailored to your exact needs. With Kliv, you can create intuitive interfaces, automate data entry, generate custom reports, and connect your sheet data to other services, all without extensive coding."
+    },
+    {
+      "title": "The power of custom Google Sheets integrations",
+      "type": "markdown",
+      "content": "## Beyond the basic spreadsheet\n\nWhile Google Sheets excels at data organization, it was not designed to be a full-fledged application platform. This often leads to:\n\n- **Manual data entry**: Repetitive input that's prone to errors.\n- **Limited user experience**: Overwhelming tabs and cells, difficult for non-spreadsheet users.\n- **Security concerns**: Broad sharing permissions expose sensitive data.\n- **Scalability issues**: Slow performance with large datasets or complex calculations.\n- **Lack of automation**: Relying on manual triggers for updates or data processing.\n\n## Why building your own solution makes sense\n\nLeveraging Kliv's AI development platform allows you to create sophisticated applications that address these limitations, custom-tailored to your specific workflows.\n\n### Intuitive User Interfaces\nPresent your data and input forms in a clean, professional interface. No more navigating complex sheets; users only see what's relevant to them, making data entry and viewing a breeze.\n\n### Enhanced Data Control & Security\nControl exactly who can view, edit, or add data. Implement granular permissions, input validation, and secure data handling, far beyond what native sheet sharing offers.\n\n### Automated Workflows\nTrigger actions directly from your application. Automate everything from sending personalized emails based on sheet data to updating records in other systems when a change occurs in your sheet.\n\n### Dynamic Reporting & Dashboards\nTransform raw sheet data into interactive charts, graphs, and summary reports. Provide stakeholders with real-time insights through custom dashboards accessible from any device.\n\n### Connect and Extend\nIntegrate your Google Sheets application with other services like CRM systems, email platforms, payment gateways, or notification tools, making your data truly actionable.\n\n## Real-world applications\n\nBusinesses across various sectors are building custom Google Sheets applications to streamline operations:\n\n**Small Business**: A customer relationship management (CRM) tool built on a core Google Sheet for tracking client interactions, sales pipelines, and follow-ups.\n\n**Non-profit Organizations**: A volunteer management system where volunteers can sign up for shifts via a web form, and their availability updates a central Google Sheet for coordinators.\n\n**Marketing Agencies**: A content calendar application that allows team members to submit content ideas, track progress from draft to publication, and manage SEO keywords, all powered by a Google Sheet backend.\n\n**Finance Departments**: A budget tracking tool that allows different departments to submit expense requests through a custom interface, which then updates a master budget sheet for approval.\n\n**Education**: A student progress tracker where teachers can input grades and attendance through a simplified interface, and parents can view tailored reports based on the sheet data."
+    },
+    {
+      "title": "Google Sheets app ideas to get started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a simple CRM for managing customer interactions",
+          "prompt": "Build a custom front-end application connected to a Google Sheet that allows sales reps to quickly add new leads, update customer statuses, and log interactions. Include a search function and a dashboard summarizing sales activities.",
+          "title": "Simple CRM"
+        },
+        {
+          "description": "Manage project tasks, assignees, and deadlines in one place",
+          "prompt": "Develop a project management tool that reads tasks, due dates, and assignee information from a Google Sheet. Allow users to update task status through a form and provide a visual progress bar for each project.",
+          "title": "Project Task Tracker"
+        },
+        {
+          "description": "Centralize and track all your inventory",
+          "prompt": "Design an inventory management system where users can scan barcodes (or manually input item IDs) to add or remove stock. The system should update a Google Sheet in real-time and alert users when stock levels fall below a set reorder point.",
+          "title": "Inventory Management"
+        },
+        {
+          "description": "Collect and track website leads directly into a sheet",
+          "prompt": "Create a web form that captures lead information (name, email, company, message) and automatically adds it to a specified Google Sheet. Set up a notification system to alert me when new leads arrive.",
+          "title": "Website Lead Capture"
+        },
+        {
+          "description": "Quickly log and categorize daily expenses",
+          "prompt": "Develop a simple mobile-friendly application that allows me to quickly enter daily expenses, categorize them (e.g., travel, food, supplies), attach receipts (as links or uploads), and save them to a Google Sheet for budgeting.",
+          "title": "Expense Logger"
+        },
+        {
+          "description": "Automate data collection from various sources into sheets",
+          "prompt": "Build a data aggregation tool that can pull data from external APIs (e.g., weather data, stock prices) on a scheduled basis, process it, and automatically append it to specific columns in a Google Sheet.",
+          "title": "Automated Data Aggregator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your Google Sheets application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add user authentication and role-based access control so different users have different permissions on what data they can see or modify in the sheet.",
+          "title": "Implement User Roles"
+        },
+        {
+          "prompt": "Integrate an email notification system that sends automated alerts when specific changes occur in the Google Sheet (e.g., new row added, status changed).",
+          "title": "Add Email Notifications"
+        },
+        {
+          "prompt": "Develop a summary dashboard with interactive charts and graphs that visualize key metrics from the Google Sheet data, allowing users to filter by date range or category.",
+          "title": "Build a Reporting Dashboard"
+        },
+        {
+          "prompt": "Create an API endpoint for the application so other external systems can send data directly to your Google Sheet, or retrieve data from it programmatically.",
+          "title": "Expose as an API"
+        },
+        {
+          "prompt": "Enable data validation rules for input forms to ensure data consistency before it's written to the Google Sheet (e.g., numerical input only for prices, valid email format).",
+          "title": "Add Input Validation"
+        },
+        {
+          "prompt": "Implement a full-text search capability across all columns in your Google Sheet, much faster than native sheet search.",
+          "title": "Advanced Search Functionality"
+        },
+        {
+          "prompt": "Add file upload capabilities that link directly to specific rows in your Google Sheet, storing files in cloud storage like Google Drive or Dropbox.",
+          "title": "Include File Attachments"
+        },
+        {
+          "prompt": "Set up a webhook or scheduler to periodically refresh data in the Google Sheet from an external database or API.",
+          "title": "Automate Data Sync"
+        }
+      ]
+    },
+    {
+      "title": "Key Features for Your Google Sheets App",
+      "type": "features",
+      "items": [
+        {
+          "description": "Create custom forms for structured data entry directly into your Google Sheets.",
+          "icon": "📝",
+          "title": "Custom Data Entry Forms"
+        },
+        {
+          "description": "Display your sheet data in clean, sortable tables and intuitive dashboards.",
+          "icon": "📊",
+          "title": "Dynamic Data Display"
+        },
+        {
+          "description": "Automate updates, calculations, and data transfers based on sheet changes or external triggers.",
+          "icon": "🤖",
+          "title": "Workflow Automation"
+        },
+        {
+          "description": "Implement robust user authentication and granular access permissions for your sheet data.",
+          "icon": "🔒",
+          "title": "Secure Access Control"
+        },
+        {
+          "description": "Generate custom reports and visualize your sheet data with interactive charts.",
+          "icon": "📈",
+          "title": "Reporting & Visualization"
+        },
+        {
+          "description": "Connect your Google Sheet application with other tools and APIs for seamless data flow.",
+          "icon": "🔌",
+          "title": "Third-Party Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, a basic Google Sheets application with custom forms and data views can be up and running in a matter of hours. More complex systems with custom logic and integrations might take a few days or weeks, depending on your needs.",
+          "question": "How long does it take to build a Google Sheets application?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv's AI platform allows you to describe the functionality you want in plain language, and it helps generate the application code and structure. You focus on the 'what,' Kliv handles the 'how.'",
+          "question": "Do I need coding skills to build an application for Google Sheets?"
+        },
+        {
+          "answer": "Yes, your data and the application code are entirely yours. Kliv helps you build it, but you retain full ownership and control over your final application, including where it's hosted and how it's used.",
+          "question": "Who owns the data and the application once it's built?"
+        },
+        {
+          "answer": "Yes, custom applications built with Kliv can integrate with virtually any service that offers an API. This includes CRM systems, email marketing platforms, payment gateways, and many other business tools, allowing you to centralize your workflows.",
+          "question": "Can my custom Google Sheets app integrate with other business tools?"
+        },
+        {
+          "answer": "Compared to ongoing SaaS subscriptions, building a custom application with Kliv is typically a one-time development investment. Many users find that the savings on subscription fees and increased efficiency lead to a positive ROI very quickly.",
+          "question": "How does the cost compare to off-the-shelf Google Sheets add-ons or SaaS solutions?"
+        },
+        {
+          "answer": "Absolutely. One of the primary benefits of building a custom solution is flexibility. You can easily modify existing features, add new ones, or connect to different services as your business evolves, without relying on a vendor's roadmap.",
+          "question": "Can I modify or extend the application after it's initially built?"
+        },
+        {
+          "answer": "Your application's data security is paramount. When building with Kliv, you control the hosting environment and security protocols, often leading to a more secure solution than relying solely on shared spreadsheet links or generic add-ons.",
+          "question": "Is building a custom app for Google Sheets secure?"
+        },
+        {
+          "answer": "Kliv offers comprehensive support through its AI-driven development environment, documentation, and community resources. Because you own the underlying code, you also have the freedom to hire any developer for ongoing maintenance or future enhancements.",
+          "question": "What kind of support is available for maintaining my custom application?"
+        }
+      ]
+    },
+    {
+      "title": "Transform your spreadsheets from data to dynamic apps",
+      "type": "cta",
+      "content": "Stop limiting your data to rows and columns. Build powerful, interactive applications that leverage the familiarity of Google Sheets with custom functionality and user experience. Start building your custom solution today."
+    }
+  ],
+  "title": "Google Sheets Integration & Application Builder"
+}

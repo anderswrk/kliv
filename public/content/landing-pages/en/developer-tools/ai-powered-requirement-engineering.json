@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create an AI-powered requirements engineering tool that can analyze natural language requirements, identify ambiguities, generate test cases, and track traceability.",
+  "description": "Build custom AI-powered requirements engineering applications with Kliv's platform.",
+  "hero": {
+    "cta": "Start Defining Requirements",
+    "subtitle": "Transform your software development lifecycle with intelligent, custom-built AI requirements tools.",
+    "title": "Build Your Own AI Requirement Engineering Tools"
+  },
+  "metaDescription": "Create powerful AI-powered requirements engineering tools with Kliv. Enhance clarity, reduce ambiguities, and accelerate development cycles with custom solutions.",
+  "sections": [
+    {
+      "title": "The Challenge of Requirements Engineering",
+      "type": "text",
+      "content": "In software development, clear and precise requirements are the foundation of successful projects. Yet, translating business needs into actionable, unambiguous specifications is a notoriously complex and error-prone process. Traditional methods are often manual, time-consuming, and susceptible to misinterpretation, leading to costly rework and project delays.\n\nOff-the-shelf requirements management tools offer some structure but rarely integrate seamlessly with your unique processes or truly leverage the power of AI to analyze and refine specifications. Building custom AI-powered tools allows you to overcome these limitations, creating a system that truly understands and supports your specific development workflow."
+    },
+    {
+      "title": "Why Custom AI for Requirements is a Game-Changer",
+      "type": "markdown",
+      "content": "## The Bottleneck of Traditional Requirements\n\nMany organizations struggle with requirements engineering, facing issues like:\n\n- **Ambiguity and Inconsistency**: Natural language requirements are often vague, leading to different interpretations by stakeholders and developers.\n- **Poor Traceability**: Linking requirements to design, code, and test cases is difficult, making impact analysis and validation challenging.\n- **Manual Analysis**: Identifying missing or conflicting requirements is a laborious manual task, prone to human error.\n- **Version Control Headaches**: Managing evolving requirements across multiple iterations and teams becomes a logistical nightmare.\n- **Lack of Collaboration**: Siloed tools hinder productive engagement between business analysts, developers, and QA.\n\n## The Power of Custom AI Solutions\n\nLeveraging AI to build your own requirements engineering tool offers unparalleled advantages:\n\n### Enhanced Clarity and Precision\nAI can analyze natural language requirements, flagging ambiguities, suggesting clearer phrasing, and even auto-generating structured data from free-text descriptions. This leads to more precise specifications from the outset.\n\n### Automated Analysis and Validation\nYour custom AI tool can automatically detect inconsistencies, identify potential conflicts between requirements, and even suggest missing requirements based on common patterns or domain knowledge. This significantly reduces the manual effort in validation.\n\n### Intelligent Traceability Management\nAutomate the linking of requirements to tasks, code modules, and test cases. AI can intelligently propose connections, simplifying the creation and maintenance of traceability matrices.\n\n### Accelerate Test Case Generation\nBased on functional requirements, your AI can automatically suggest or even generate preliminary test cases, saving QA teams significant time and ensuring comprehensive test coverage.\n\n### Domain-Specific Customization\nUnlike generic tools, your custom solution can be trained on your organization's specific technical lexicon, project history, and compliance standards, making it exceptionally accurate and relevant to your context.\n\n## Real-World Impact\n\nImagine the benefits across your project lifecycle:\n\n- **Reduced Rework**: Catch errors and ambiguities early, minimizing costly changes during development and testing phases.\n- **Faster Time-to-Market**: Streamlined requirements processes mean development teams can start coding with confidence sooner.\n- **Improved Stakeholder Alignment**: Clearer requirements foster better understanding and agreement among all project participants.\n- **Higher Software Quality**: By ensuring complete and consistent specifications, the resulting software is more likely to meet user expectations and perform reliably.\n\n## Building with Kliv's AI Advantage\n\nWith Kliv's AI-driven development, prototyping and deploying sophisticated requirements engineering tools is within reach. You define the specific capabilities you need, and the AI assists in building a tailored solution, without deep programming expertise."
+    },
+    {
+      "title": "AI Requirements Engineering Tool Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate analysis of text-based requirements for clarity.",
+          "prompt": "Create a tool that takes natural language requirements as input, identifies potential ambiguities (e.g., vague verbs, subjective terms), and suggests more precise wording.",
+          "title": "Ambiguity Detector and Clarifier"
+        },
+        {
+          "description": "Generate comprehensive test cases from functional requirements.",
+          "prompt": "Build an application that ingests functional requirements and automatically generates a suite of corresponding acceptance criteria and basic test cases, including positive and negative scenarios.",
+          "title": "Automated Test Case Generator"
+        },
+        {
+          "description": "Visualize and manage dependencies between requirements.",
+          "prompt": "Develop a system to map dependencies between individual requirements, detect circular dependencies, and visualize the impact of changes across linked requirements.",
+          "title": "Requirements Dependency Map"
+        },
+        {
+          "description": "Ensure consistency across multiple requirement documents.",
+          "prompt": "Design a tool that can compare multiple requirements documents or versions, highlight inconsistencies, duplicate requirements, and suggest merges or resolutions.",
+          "title": "Cross-Document Consistency Checker"
+        },
+        {
+          "description": "Automatically propose and maintain traceability links.",
+          "prompt": "Create an AI-powered system that can suggest traceability links between user stories, functional requirements, design documents, and test cases, then monitor these links for breaks or updates.",
+          "title": "Intelligent Traceability Proposer"
+        },
+        {
+          "description": "Ensure compliance with regulatory standards.",
+          "prompt": "Build a tool that analyzes requirements against a set of predefined regulatory or industry standards (e.g., ISO, GDPR, HIPAA) and identifies areas of potential non-compliance or missing compliance-specific requirements.",
+          "title": "Compliance Requirement Validator"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for Your Requirements Tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with a version control system (like Git) to manage requirement changes and history.",
+          "title": "Version Control Integration"
+        },
+        {
+          "prompt": "Add a collaborative editing feature for multiple stakeholders to work on requirements simultaneously.",
+          "title": "Real-time Collaboration"
+        },
+        {
+          "prompt": "Implement a user interface for creating and managing different requirement categories (e.g., functional, non-functional, security).",
+          "title": "Requirement Categorization UI"
+        },
+        {
+          "prompt": "Develop a feature to export requirements into standard formats like CSV, JSON, or ReqIF.",
+          "title": "Export Functionality"
+        },
+        {
+          "prompt": "Incorporate a chatbot interface where users can ask questions about requirements and get AI-generated answers.",
+          "title": "Requirements Query Chatbot"
+        },
+        {
+          "prompt": "Add capabilities for automatic summarization of large sets of requirements into executive summaries.",
+          "title": "Automated Summarization"
+        },
+        {
+          "prompt": "Implement a sentiment analysis feature to gauge stakeholder satisfaction or concerns from feedback on requirements.",
+          "title": "Sentiment Analysis on Feedback"
+        },
+        {
+          "prompt": "Create a module for defining and enforcing custom requirement templates or structures.",
+          "title": "Custom Template Enforcement"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of a Custom AI Requirements Tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Analyze natural language for ambiguity and suggest improvements.",
+          "icon": "📝",
+          "title": "Natural Language Processing (NLP)"
+        },
+        {
+          "description": "Automatically detect inconsistencies and conflicts within requirement sets.",
+          "icon": "⚡",
+          "title": "Consistency & Conflict Detection"
+        },
+        {
+          "description": "Generate and manage links between requirements, design, code, and tests.",
+          "icon": "🔗",
+          "title": "Automated Traceability"
+        },
+        {
+          "description": "Propose or generate test cases directly from functional specifications.",
+          "icon": "🧪",
+          "title": "Intelligent Test Case Generation"
+        },
+        {
+          "description": "Access your requirements and collaborative features from anywhere.",
+          "icon": "🌐",
+          "title": "Cloud-Native Scalability"
+        },
+        {
+          "description": "Provide a dashboard showing requirements status, risks, and completion metrics.",
+          "icon": "📊",
+          "title": "Requirements Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Kliv for Custom Requirements Tools: Your Questions Answered",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional AI requirements tool with Kliv can take anywhere from a few hours for a basic prototype to several days for a comprehensive system, depending on the complexity and desired features. The AI accelerates the development heavily.",
+          "question": "How long does it typically take to build an AI requirements engineering tool?"
+        },
+        {
+          "answer": "No, extensive coding experience is not required. Kliv’s platform is designed to be accessible to business analysts and product managers. You describe the functionality needed, and the AI assists in generating and integrating the components.",
+          "question": "Do I need to be a software developer to build this type of application?"
+        },
+        {
+          "answer": "Absolutely. Your custom tool can be designed to integrate with existing ALM (Application Lifecycle Management) systems, project management tools (Jira, Azure DevOps), version control systems (Git), and testing platforms through APIs.",
+          "question": "Can the custom AI requirements tool integrate with my existing development environment?"
+        },
+        {
+          "answer": "You retain full ownership of the custom application and all the data processed by it. Kliv provides the platform for building, but the intellectual property and data remain yours, ensuring complete control and data privacy.",
+          "question": "Who owns the intellectual property and data generated by the custom tool?"
+        },
+        {
+          "answer": "While Kliv typically operates on a simple, transparent usage-based pricing model, the long-term cost benefits of a custom tool often outweigh recurring SaaS subscriptions, especially for specialized needs and large teams. You avoid license fees per user for features you might not fully use.",
+          "question": "How does the cost of building with Kliv compare to off-the-shelf requirements software?"
+        },
+        {
+          "answer": "Yes. One of the core advantages of building on Kliv is the flexibility to evolve your tool. As your processes or technologies change, you can easily add new AI capabilities, modify existing features, or integrate with new systems.",
+          "question": "Is it possible to modify or expand the tool after the initial build?"
+        },
+        {
+          "answer": "Kliv supports deploying your custom application to various environments, including your private cloud, on-premise servers, or major public cloud providers. This ensures your data remains in your control and meets your organization's security and compliance benchmarks.",
+          "question": "Where will my custom AI requirements application be hosted?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build smarter requirements?",
+      "type": "cta",
+      "content": "Stop battling opaque requirements and start building precise, AI-driven specifications tailored to your success. Unlock the true power of your development team today."
+    }
+  ],
+  "title": "AI-Powered Requirements Engineering"
+}

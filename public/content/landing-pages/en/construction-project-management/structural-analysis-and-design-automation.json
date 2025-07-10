@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a structural analysis and design automation tool that can import CAD models, apply loads, perform finite element analysis, and generate optimized designs based on material properties and building codes.",
+  "description": "Build custom structural analysis and design automation tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Designing",
+    "subtitle": "Streamline your structural engineering workflows with custom-built analysis and design applications tailored to your specific needs.",
+    "title": "Build Your Own Structural Analysis and Design Automation Tools"
+  },
+  "metaDescription": "Create powerful structural analysis and design automation tools with Kliv. Enhance accuracy, speed up design cycles, and ensure code compliance with custom-built applications.",
+  "sections": [
+    {
+      "title": "The Challenge in Structural Engineering Today",
+      "type": "text",
+      "content": "Modern structural engineering demands precision, speed, and strict adherence to complex building codes. Generic software often struggles to meet the unique requirements of specialized projects, leading to manual workarounds, data inconsistencies, and delayed project timelines. Investing in custom tools ensures your workflows are optimized for efficiency and compliance, giving you a competitive edge."
+    },
+    {
+      "title": "Why Custom Structural Analysis & Design Tools Make Sense",
+      "type": "markdown",
+      "content": "## Limitations of Off-the-Shelf Software\n\nMany engineering firms find themselves constrained by commercial structural analysis software. Common pain points include:\n\n- **Lack of Specificity**: Generic tools might not handle niche materials, unconventional geometries, or proprietary analysis methods.\n- **High Licensing Costs**: Recurring subscriptions can become prohibitive, especially for large teams or multiple projects.\n- **Integration Headaches**: Difficulty in connecting with other project management, BIM, or fabrication software.\n- **Manual Data Transfer**: Leading to errors and significant time loss between different stages of design.\n- **Limited Customization**: Inability to incorporate specific design standards, internal best practices, or custom reporting formats.\n\n## The Advantages of a Tailored Solution\n\nBuilding your own structural analysis and design automation tool transforms these challenges into opportunities:\n\n### Precision Aligned with Your Needs\nDevelop algorithms and analysis routines that precisely match your engineering methodologies, material specifications, and code interpretations. This level of customization is impossible with generic software.\n\n### Cost Efficiency in the Long Run\nBeyond the initial development, owning your software eliminates recurring licensing fees, offering significant savings over time. Future enhancements are also under your control, reducing dependency on vendor roadmaps.\n\n### Seamless Workflow Integration\nDesign your tool to natively integrate with your existing project management, CAD, BIM, and ERP systems. This creates a unified data environment, minimizing manual inputs and accelerating project delivery.\n\n### Enhanced Compliance and Reporting\nAutomate the generation of detailed reports that meet specific regulatory requirements and client formats. Incorporate dynamic checks against multiple building codes and standards for continuous compliance.\n\n### Intellectual Property and Competitive Advantage\nYour custom tool becomes a proprietary asset, embedding your firm's unique expertise and methodologies. This provides a significant competitive advantage in winning specialized projects.\n\n## Real-World Impact\n\nCustom structural analysis and design tools are revolutionizing practice:\n\n**High-Rise Construction**: Automated preliminary design and optimization of core walls and outrigger systems for specific wind and seismic loads, drastically reducing conceptual design cycles.\n\n**Bridge Engineering**: Tools that integrate climate data, material degradation models, and traffic simulations to predict long-term structural behavior and maintenance needs for complex bridge designs.\n\n**Pre-fabrication Analysis**: Systems that automatically generate detailed fabrication drawings and bill of materials directly from analysis models, optimizing workshop production and minimizing errors.\n\n**Retrofit Projects**: Custom analysis routines that assess the impact of strengthening measures on existing structures, considering historical data and current code requirements for rehabilitation.\n\n## The Kliv.dev Evolution\n\nThe complexity of developing such tools used to be a major barrier. Kliv's AI-powered platform makes it accessible:\n\n- **Declarative Development**: Describe your engineering problem and desired solution in natural language.\n- **Automated Code Generation**: AI translates your requirements into functional code for analysis, design, and reporting.\n- **Accelerated Prototyping**: Iterate on designs and analysis methods rapidly, testing concepts in hours.\n- **Built-in Quality Assurance**: AI aids in validating your models and calculations, improving reliability.\n\nDon't let rigid software dictate your engineering processes. Build the precise tools you need to excel."
+    },
+    {
+      "title": "Structural Analysis & Design Automation Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Optimize structural member sizing based on various load conditions.",
+          "prompt": "Create an application that takes structural geometry and applied loads, performs iterative analysis using AISC LRFD and ASCE 7-22, and suggests optimized steel beam and column sizes for least weight while meeting all deflection and strength criteria.",
+          "title": "Steel Member Optimization Tool"
+        },
+        {
+          "description": "Automate seismic analysis and design for building structures.",
+          "prompt": "Build a tool that imports a building's mass and stiffness distribution from a BIM model, performs response spectrum analysis, calculates story drifts and element forces according to ASCE 7, and helps design seismic resisting systems like shear walls or moment frames.",
+          "title": "Seismic Design Assistant"
+        },
+        {
+          "description": "Design and analyze concrete foundations automatically.",
+          "prompt": "Develop an app that accepts column loads, soil bearing capacity, and concrete/rebar properties, then designs isolated or combined footings, checks for punching shear and flexural capacity per ACI 318, and generates rebar schedules.",
+          "title": "Concrete Foundation Designer"
+        },
+        {
+          "description": "Predict and manage wind loads on complex geometries.",
+          "prompt": "Design a system that uses computational fluid dynamics (CFD) principles to estimate wind pressure distributions on irregular building shapes, applying coefficients from relevant codes like ASCE 7 or Eurocode, and calculates overall wind forces for structural design.",
+          "title": "Wind Load Estimator for Complex Structures"
+        },
+        {
+          "description": "Automate the design of cold-formed steel sections.",
+          "prompt": "Create a tool that designs cold-formed steel purlins and girts according to AISI S100 based on roof/wall loads, span lengths, and material properties, and generates a report detailing section properties and capacity checks.",
+          "title": "Cold-Formed Steel Design"
+        },
+        {
+          "description": "Perform non-linear analysis for advanced structural behavior.",
+          "prompt": "Build a module that can simulate the non-linear behavior of reinforced concrete frames under extreme loading (e.g., progressive collapse), considering material plasticity and geometric non-linearity, and visualizes demand-capacity ratios.",
+          "title": "Non-Linear Structural Analysis Module"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for Your Structural Automation Tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with common BIM software like Revit to import and export models directly.",
+          "title": "BIM Integration"
+        },
+        {
+          "prompt": "Add a module for designing connections (e.g., bolted or welded steel connections) based on member forces and standard details.",
+          "title": "Connection Design Module"
+        },
+        {
+          "prompt": "Include features to perform dynamic analysis for vibration, seismic, or blast loads.",
+          "title": "Dynamic Analysis Capabilities"
+        },
+        {
+          "prompt": "Develop an interface to generate detailed engineering drawings and fabrication instructions automatically.",
+          "title": "Automated Drawing Generation"
+        },
+        {
+          "prompt": "Incorporate artificial intelligence to suggest optimal structural systems or material choices based on project parameters and historical data.",
+          "title": "AI-Powered Design Recommendation"
+        },
+        {
+          "prompt": "Add a feature to perform life-cycle cost analysis for different structural material options.",
+          "title": "Life-Cycle Costing"
+        },
+        {
+          "prompt": "Enable cloud-based collaboration so multiple engineers can work on the same model simultaneously.",
+          "title": "Cloud Collaboration Features"
+        },
+        {
+          "prompt": "Develop a version control system for different design iterations and analysis runs.",
+          "title": "Design Version Control"
+        },
+        {
+          "prompt": "Integrate with environmental databases to perform embodied carbon calculations for structural elements.",
+          "title": "Sustainability Analysis Module"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities of Custom Structural Tools",
+      "type": "features",
+      "items": [
+        {
+          "description": "Import and manipulate complex 3D structural models from various CAD/BIM formats.",
+          "icon": "🏗️",
+          "title": "Advanced Model Importer"
+        },
+        {
+          "description": "Apply and manage diverse load cases (dead, live, wind, seismic) with automated combination generation.",
+          "icon": "⚖️",
+          "title": "Intelligent Load Application"
+        },
+        {
+          "description": "Perform precise finite element analysis (FEA) for stress, strain, and displacement.",
+          "icon": "🔬",
+          "title": "Robust FEA Engine"
+        },
+        {
+          "description": "Automate design checks against international and local building codes (e.g., AISC, ACI, Eurocode).",
+          "icon": "📜",
+          "title": "Code Compliance Automation"
+        },
+        {
+          "description": "Optimize member sizes, materials, and structural configurations for efficiency and cost.",
+          "icon": "✨",
+          "title": "Parametric Design Optimization"
+        },
+        {
+          "description": "Generate comprehensive and customizable engineering reports, drawings, and material schedules.",
+          "icon": "📄",
+          "title": "Automated Reporting & Documentation"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The initial build time for a fundamental structural analysis tool can be as short as a few days using Kliv. More complex tools with specialized algorithms and extensive integrations might take a few weeks to perfect.",
+          "question": "How quickly can I develop a structural analysis and design automation tool?"
+        },
+        {
+          "answer": "While a foundational understanding of structural engineering principles is essential, you don't need to be a programmer. Kliv’s platform allows you to describe your engineering requirements, and the AI assists in generating the underlying code and structure.",
+          "question": "Do I need coding expertise to build these tools?"
+        },
+        {
+          "answer": "Absolutely. Kliv-built tools are designed for high interoperability. You can integrate with most CAD/BIM software, project management systems, and other engineering tools via APIs or custom connectors.",
+          "question": "Can my custom tool integrate with existing CAD/BIM software?"
+        },
+        {
+          "answer": "Yes, you have full ownership and control over the intellectual property of your custom-built application, including the algorithms and design logic. All data processed by your tool also remains under your complete control.",
+          "question": "Who owns the intellectual property of the custom tool and the data it processes?"
+        },
+        {
+          "answer": "Building a custom tool might have higher upfront costs compared to a single year of SaaS subscriptions. However, over a 3-5 year period, it typically becomes significantly more cost-effective due to the elimination of recurring licenses and the value of tailored functionality.",
+          "question": "How does the cost compare to off-the-shelf structural software?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. You can iteratively improve your tool, add new analysis capabilities, update it for new code versions, or integrate new features as your business and engineering practices evolve.",
+          "question": "Can I modify or expand the tool after the initial development?"
+        },
+        {
+          "answer": "Security can be enhanced with custom tools as you control the hosting environment and data access policies. Kliv helps you implement secure coding practices, and you tailor security measures to your firm's specific needs, often exceeding generic SaaS security.",
+          "question": "What about the security of custom structural design tools?"
+        },
+        {
+          "answer": "Kliv provides AI-assisted development support, comprehensive documentation, and best practices guidance. Since you control the codebase, maintenance and future updates are manageable by your team or by leveraging Kliv's platform for continuous enhancement.",
+          "question": "What support is available for maintaining and updating the custom software?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Engineer Your Own Advantage?",
+      "type": "cta",
+      "content": "Stop conforming to generic software. Design and analyze with precision and speed, building the ultimate structural engineering tools that fit your firm perfectly."
+    }
+  ],
+  "title": "Structural Analysis & Design Automation"
+}

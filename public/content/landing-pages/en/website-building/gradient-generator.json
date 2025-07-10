@@ -1,0 +1,179 @@
+{
+  "defaultPrompt": "I want to create a gradient generator web application that allows users to pick colors, adjust angles, and export CSS code for linear and radial gradients.",
+  "description": "Build custom gradient generator tools with Kliv's AI-powered platform for designers and developers.",
+  "hero": {
+    "cta": "Start Generating",
+    "subtitle": "Create bespoke gradient generator applications tailored to your design workflow, powered by Kliv's AI development platform.",
+    "title": "Build Your Own Gradient Generator"
+  },
+  "metaDescription": "Develop powerful gradient generator tools with Kliv. Customize color palettes, adjust gradient types, and export code snippets for web and graphic design without coding.",
+  "sections": [
+    {
+      "title": "Why build your own gradient generator?",
+      "type": "text",
+      "content": "In a world saturated with generic design tools, creating a truly unique aesthetic often requires custom solutions. Off-the-shelf gradient generators offer limited customization and often dictate your creative process. With Kliv, you can design and build a gradient generator that precisely fits your workflow, integrates with your existing tools, and offers functionalities no universal tool can match."
+    },
+    {
+      "title": "The power of custom gradient tools",
+      "type": "markdown",
+      "content": "## The limitations of public gradient generators\n\nMany designers and developers rely on online gradient generators for their projects. While convenient, these tools often fall short:\n\n- **Limited feature sets**: Most offer basic linear and radial gradients with few advanced options.\n- **Generic palettes**: Presets are often overused, making it hard to achieve a unique brand identity.\n- **Lack of integration**: Exporting means copying and pasting, breaking your design flow.\n- **Branding**: They carry someone else's branding.\n\n## Why a custom solution? The Kliv advantage\n\nBuilding your own gradient generator with Kliv empowers you with:\n\n### Unparalleled customization\nDesign an interface that works exactly how you think. Add specific color pickers, custom blend modes, or unique pattern overlays that are impossible with standard tools.\n\n### Brand alignment\nIntegrate your brand colors, design system tokens, and preferred design libraries directly into your tool. Ensure every gradient generated is on-brand.\n\n### Efficient workflow integration\nInstead of copy-pasting, your custom tool can directly push CSS to your codebase, integrate with design APIs, or even generate design system components.\n\n### Unique feature creation\nBeyond standard linear/radial, imagine generators for conic gradients, mesh gradients, or even animated gradients, all tailored to your specific needs.\n\n### One-time investment\nUnlike subscription-based design tools, your Kliv-built application is a self-contained asset. You own it, you host it, and you control its evolution.\n\n## Real-world applications of bespoke gradient tools\n\nCustom gradient generators aren't just for web designers; they have diverse applications:\n\n**Brand Agencies**: Create a tool pre-loaded with client brand guidelines to ensure all generated gradients adhere to brand standards across projects.\n\n**Game Development**: Generate complex, procedural textures and lighting effects using custom gradient algorithms for unique in-game assets.\n\n**UI/UX Kits**: Develop a companion app for a design system that generates all required button, background, and UI element gradients based on a few input values.\n\n**Educational Platforms**: Build an interactive tool to teach pupils about color theory and light physics through real-time gradient manipulation.\n\n## The Kliv difference\n\nBuilding a sophisticated web application used to require deep coding knowledge and significant time. Kliv changes this by:\n\n- **Translating ideas**: Describe your desired features in plain English.\n- **Rapid deployment**: Get a functional prototype in hours, not weeks.\n- **Flexible backend**: Easily connect to databases for storing favorite gradients or user preferences.\n- **Scalable by design**: Your application can grow with your needs, from a personal utility to a team-wide design asset.\n\nStop settling for off-the-shelf. Start building the precise design tool you've always needed."
+    },
+    {
+      "title": "Gradient generator ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a simple tool to generate CSS linear gradients from two colors.",
+          "prompt": "Build a web application that takes two hex color codes as input and generates CSS code for a linear gradient, with an option to adjust the angle.",
+          "title": "Basic Linear Gradient Generator"
+        },
+        {
+          "description": "Develop a generator focused on accessible gradient color combinations.",
+          "prompt": "Design a gradient generator that suggests color pairs based on WCAG contrast guidelines and allows users to preview and export accessible linear and radial gradients.",
+          "title": "Accessible Gradient Paletter"
+        },
+        {
+          "description": "Generate dynamic, data-driven gradients.",
+          "prompt": "Create a gradient generator that takes numerical input (e.g., progress value, temperature) and dynamically generates a gradient from a predefined spectrum (e.g., red to green, blue to white), exporting it as an SVG.",
+          "title": "Dynamic Data-Driven Gradient"
+        },
+        {
+          "description": "A tool for creating complex multi-point gradients.",
+          "prompt": "Build a gradient generator that supports unlimited color stops, allows precise positioning of each stop, and exports CSS for both linear and radial gradients.",
+          "title": "Advanced Multi-Stop Gradient"
+        },
+        {
+          "description": "Generate gradients optimized for specific UI components.",
+          "prompt": "Develop a tool specifically for button gradients. Users should be able to select pre-set button shapes, input colors, and get a CSS snippet for a visually appealing button with a subtle gradient effect.",
+          "title": "UI Component Gradient Maker"
+        },
+        {
+          "description": "Create interactive, animated gradients for web backgrounds.",
+          "prompt": "Design a gradient generator that allows users to pick multiple colors and generates animated background gradients using CSS keyframes, with options for animation speed and direction.",
+          "title": "Animated Background Gradient"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your custom gradient tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Extend the gradient generator to include options for radial and conic gradients, allowing users to adjust their center points and angles.",
+          "title": "Add Radial and Conic Gradients"
+        },
+        {
+          "prompt": "Integrate a functionality to save user-generated gradients to a personal library with unique names for later retrieval.",
+          "title": "Implement Gradient Saving"
+        },
+        {
+          "prompt": "Add the ability to import color palettes from external sources (e.g., image, CSV, JSON) into the gradient generator.",
+          "title": "Integrate Color Palette Import"
+        },
+        {
+          "prompt": "Develop a feature to generate a URL that, when visited, directly shows the custom gradient, making it shareable.",
+          "title": "Add Shareable URL Feature"
+        },
+        {
+          "prompt": "Include a real-time preview area that shows how the generated gradient looks on common UI elements like buttons, cards, or backgrounds.",
+          "title": "Include Live UI Previews"
+        },
+        {
+          "prompt": "Add accessibility checks (e.g., contrast ratio) to ensure generated gradients meet WCAG guidelines, especially when used for text backgrounds.",
+          "title": "Add Accessibility Checking"
+        },
+        {
+          "prompt": "Create an API endpoint so other applications can programmatically request gradients based on specified parameters.",
+          "title": "Develop a Gradient API"
+        },
+        {
+          "prompt": "Implement a feature that exports the generated gradient not just as CSS, but also as SVG code or a PNG image.",
+          "title": "Add SVG/Image Export"
+        },
+        {
+          "prompt": "Allow users to input a keyword (e.g., 'sunset', 'ocean') and use an AI model to suggest a set of harmonious colors for the gradient.",
+          "title": "AI Color Suggestion"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your gradient generator",
+      "type": "features",
+      "items": [
+        {
+          "description": "Precisely pick and adjust colors with various formats (hex, RGB, HSL).",
+          "icon": "🎨",
+          "title": "Advanced Color Pickers"
+        },
+        {
+          "description": "Choose between linear, radial, and conic gradient types.",
+          "icon": "↖️",
+          "title": "Multiple Gradient Types"
+        },
+        {
+          "description": "Control gradient direction, spread, and individual color stop positions.",
+          "icon": "📐",
+          "title": "Granular Control Options"
+        },
+        {
+          "description": "Instantly see how your changes affect the final gradient appearance.",
+          "icon": "👁️",
+          "title": "Real-time Visual Preview"
+        },
+        {
+          "description": "Export production-ready CSS code snippets for web development.",
+          "icon": "💻",
+          "title": "CSS Code Export"
+        },
+        {
+          "description": "Save favorite gradients and color palettes for future use.",
+          "icon": "⭐",
+          "title": "User Libraries & Presets"
+        }
+      ]
+    },
+    {
+      "title": "Custom gradient tool FAQs",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom gradient generator with Kliv can be done in a matter of hours or days, depending on the complexity of features you envision. Basic functionalities can be up and running very quickly.",
+          "question": "How long does it take to build a custom gradient generator using Kliv?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv's platform allows you to describe your application using natural language, and its AI assists in generating the code. You specify the features and design, and Kliv helps build it.",
+          "question": "Do I need coding experience to create my own gradient tool with Kliv?"
+        },
+        {
+          "answer": "Yes, you can integrate your custom gradient generator with various design tools or development workflows. This often involves exporting CSS, SVG, or potentially connecting via APIs if you build that functionality into your tool.",
+          "question": "Can my custom gradient generator integrate with other design or development tools?"
+        },
+        {
+          "answer": "Absolutely. You have full ownership and control over the custom gradient generator you build on Kliv. This means you can host it anywhere, modify it as needed, and iterate on its features independently.",
+          "question": "What happens after I build it? Do I own the application?"
+        },
+        {
+          "answer": "Standard online gradient tools might be free, but they come with limitations. Building with Kliv is a one-time investment to create a purpose-built tool that perfectly fits your workflow, potentially saving you time and effort in the long run that generic tools cannot.",
+          "question": "How does the cost compare to using free online gradient generators?"
+        },
+        {
+          "answer": "Yes, you can continuously evolve your gradient generator. Since you own the codebase, you can add new features, adjust the UI, or even pivot its functionality as your creative needs or design trends change.",
+          "question": "Can I modify or expand my gradient generator after it's initially built?"
+        },
+        {
+          "answer": "Kliv ensures that the underlying architecture generated is robust and secure. Since you control the deployment environment, you can implement specific security measures tailored to your needs.",
+          "question": "Is a custom-built gradient generator secure?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance and suggestions throughout the build process. For specific technical questions, the platform's documentation and community forums are great resources. You're building an asset you control, giving you ultimate flexibility."
+        }
+      ]
+    },
+    {
+      "title": "Ready to design your perfect gradient tool?",
+      "type": "cta",
+      "content": "Stop conforming to generic design limitations. Start building the custom gradient generator that truly empowers your creativity."
+    }
+  ],
+  "title": "Gradient Generator Builder"
+}

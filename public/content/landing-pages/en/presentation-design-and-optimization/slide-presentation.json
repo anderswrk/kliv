@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a presentation tool that uses AI to analyze content, suggest visuals, and optimize slide layouts. It should be easy to use for non-designers.",
+  "description": "Craft custom presentation creation and optimization tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Designing",
+    "subtitle": "Unleash the power of AI to automatically generate, optimize, and refine your presentations, tailored to your exact needs.",
+    "title": "Build your own AI-powered Presentation Design Assistant"
+  },
+  "metaDescription": "Create powerful, custom presentation design and optimization tools with Kliv. Enhance slide design, generate content, and refine delivery with AI-driven capabilities.",
+  "sections": [
+    {
+      "title": "Why build your own presentation design tool?",
+      "type": "text",
+      "content": "In today's fast-paced world, impactful presentations are crucial, yet creating them is often time-consuming and challenging for non-designers. Generic presentation software offers broad features but lacks the specialized intelligence needed for true design optimization and content generation.\n\nKliv empowers you to bypass the limitations of off-the-shelf solutions and create a bespoke AI assistant that understands your specific presentation needs. This means less struggle with design principles, more focus on your message, and a significant reduction in preparation time and effort."
+    },
+    {
+      "title": "The case for a custom presentation design solution",
+      "type": "markdown",
+      "content": "## The pitfalls of standard presentation software\n\nWhile tools like PowerPoint and Google Slides are ubiquitous, they often fall short when it comes to intelligent design and optimization:\n\n- **Manual effort**: Requires significant manual effort for design, layout, and content refinement.\n- **Design limitations**: Users without design expertise struggle to create visually appealing and cohesive slides.\n- **Content generation gaps**: No built-in intelligence to help generate or rephrase content.\n- **No audience tailoring**: Lacks sophisticated features to adapt presentations for specific audiences or scenarios.\n- **Overwhelm**: Too many features, yet not enough smart automation for specific tasks.\n\n## Why a tailored AI presentation tool is a game-changer\n\nKliv's platform transforms the way you approach presentation creation by allowing you to build an AI assistant that truly meets your specific workflow:\n\n### Intelligent design suggestions\nYour custom tool can learn your brand guidelines, preferred layouts, and visual styles. It can then automatically suggest optimal slide designs, image placements, and font choices, ensuring consistency and professionalism.\n\n### Automated content generation and refinement\nLeverage AI to assist with writing compelling headlines, summarizing complex information, or even generating entire slide bodies based on key points. It can also rephrase text for clarity, conciseness, or a specific tone.\n\n### Audience and context adaptation\nDesign your tool to analyze your target audience and presentation context, then automatically adjust language, complexity, and examples to resonate most effectively.\n\n### Efficiency and speed\nSignificantly reduce the time spent on presentation creation. What once took hours or days can now be achieved in minutes, allowing you to focus on the message and delivery.\n\n### Data-driven insights\nIntegrate analytics to understand which slides resonate most, optimize speaking points, and refine future presentations based on audience engagement data.\n\n## Transformative applications\n\nCustom AI presentation tools can revolutionize various fields:\n\n**Sales & Marketing**: Automatically generate pitch decks tailored to individual client profiles.\n\n**Education**: Create engaging lecture slides that adapt content difficulty based on student comprehension levels.\n\n**Consulting**: Quickly assemble complex reports into client-ready presentations with visual consistency.\n\n**Research & Development**: Transform dense research data into clear, concise, and visually compelling presentations for stakeholders.\n\n## The Kliv advantage for building smart tools\n\nBuilding a custom AI presentation tool with Kliv means:\n\n- **Natural language interfaces**: Describe your desired features in plain English.\n- **Rapid iteration**: Quickly test and refine your tool's capabilities.\n- **Scalable architectures**: Build a solution that grows with your needs.\n- **Full intellectual property**: You own the code and the AI models you train."
+    },
+    {
+      "title": "Presentation design ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate the creation of sales pitches based on CRM data.",
+          "prompt": "Build an AI tool that generates a 10-slide sales pitch outline when given a customer's industry and key pain points, suggesting relevant features and success stories from our database.",
+          "title": "Sales Pitch Generator"
+        },
+        {
+          "description": "Optimize slide text for conciseness and impact.",
+          "prompt": "Create an application that takes a block of text and rewrites it into concise, bullet-point format suitable for a presentation slide, ensuring key information is retained.",
+          "title": "Slide Content Summarizer"
+        },
+        {
+          "description": "Suggest appropriate images and icons for presentations.",
+          "prompt": "Develop a tool that analyzes the text on a slide and suggests relevant, professional stock images or icons, considering content, tone, and brand guidelines.",
+          "title": "Visual Asset Recommender"
+        },
+        {
+          "description": "Ensure design consistency across all slides.",
+          "prompt": "Design a system that checks presentation slides against a defined brand guide (colors, fonts, logo placement) and flags any inconsistencies, offering automatic corrections.",
+          "title": "Brand Compliance Checker"
+        },
+        {
+          "description": "Streamline data visualization creation.",
+          "prompt": "Build a tool that takes raw tabular data and recommends the most effective chart type (bar, line, pie) and then generates a visually appealing, branded chart image for inclusion in a presentation.",
+          "title": "Smart Chart Generator"
+        },
+        {
+          "description": "Personalize investor decks based on audience.",
+          "prompt": "Create an AI that modifies an investor presentation, adjusting focus and adding specific examples, based on whether the audience is venture capitalists, angel investors, or strategic partners.",
+          "title": "Audience-Tailored Deck Customizer"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your presentation assistant",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to automatically generate speaker notes for each slide based on its content and a target speaking time.",
+          "title": "Speaker Note Generator"
+        },
+        {
+          "prompt": "Integrate with presentation software APIs (PowerPoint, Google Slides) to directly insert generated content and designs.",
+          "title": "Direct Software Integration"
+        },
+        {
+          "prompt": "Implement a 'Practice Mode' that uses AI to provide feedback on pacing, tone, and filler words during a dry run.",
+          "title": "Presentation Delivery Coach"
+        },
+        {
+          "prompt": "Develop a module that analyzes existing presentations for common pitfalls like too much text, poor contrast, or inconsistent formatting.",
+          "title": "Presentation Audit Function"
+        },
+        {
+          "prompt": "Allow users to upload an audio transcript of a presentation and automatically generate optimized slides from it.",
+          "title": "Transcript-to-Slides Conversion"
+        },
+        {
+          "prompt": "Add a collaboration feature allowing multiple users to contribute and review content with version control.",
+          "title": "Team Collaboration Hub"
+        },
+        {
+          "prompt": "Incorporate a sentiment analysis tool for content, ensuring the tone aligns with the presentation's objective.",
+          "title": "Tone & Sentiment Adjustment"
+        }
+      ]
+    },
+    {
+      "title": "Essential presentation design features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Generate dynamic slide layouts and content suggestions based on input.",
+          "icon": "✨",
+          "title": "AI Content & Layout Generation"
+        },
+        {
+          "description": "Automatically select and place relevant images, icons, and graphical elements.",
+          "icon": "🖼️",
+          "title": "Intelligent Visual Curation"
+        },
+        {
+          "description": "Ensure adherence to specific brand guidelines, colors, fonts, and logos.",
+          "icon": "🎨",
+          "title": "Brand Compliance Engine"
+        },
+        {
+          "description": "Summarize text, rephrase sentences, and adjust language for impact.",
+          "icon": "📝",
+          "title": "Text Optimization & Refinement"
+        },
+        {
+          "description": "Create and manage custom templates for different presentation types.",
+          "icon": "📐",
+          "title": "Custom Template Library"
+        },
+        {
+          "description": "Provide data-driven insights into presentation effectiveness and areas for improvement.",
+          "icon": "📈",
+          "title": "Performance Analytics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic AI presentation assistant can be prototyped in a few hours, while more sophisticated tools with deep integration and advanced AI features might take a few days to a week to build and refine.",
+          "question": "How quickly can I build a custom presentation tool?"
+        },
+        {
+          "answer": "No, Kliv's platform allows you to describe your desired functionality in plain language. The AI translates your requirements into a working application, making it accessible to non-developers.",
+          "question": "Do I need coding skills to build an AI presentation tool?"
+        },
+        {
+          "answer": "Yes, your custom tool can be designed to integrate with various APIs, including those for popular presentation software, image libraries, CRM systems, and data analytics platforms.",
+          "question": "Can my custom tool integrate with existing software like PowerPoint or design assets?"
+        },
+        {
+          "answer": "All intellectual property, including the design logic, generated content, and any custom AI models, belongs entirely to you. You maintain full control and ownership.",
+          "question": "Who owns the tools and AI models I build on Kliv?"
+        },
+        {
+          "answer": "Compared to ongoing subscriptions for specialized design or content tools, building your own with Kliv often results in significant cost savings over time. You pay for the development effort, not recurring feature access.",
+          "question": "How does the cost compare to subscribing to commercial presentation design software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the flexibility to continuously update, add features, and modify your tool as your needs evolve, without vendor lock-in.",
+          "question": "Can I modify my presentation tool after I've built it?"
+        },
+        {
+          "answer": "Yes, by building your own tool, you have granular control over data privacy and security protocols, ensuring that sensitive presentation content and audience data are handled according to your specific requirements.",
+          "question": "Is building a custom tool more secure for sensitive presentations?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance, error detection, and optimization suggestions throughout the building process. The platform is designed to make you self-sufficient, but support resources are always available.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your presentations?",
+      "type": "cta",
+      "content": "Stop struggling with generic tools. Build an AI-powered presentation assistant that understands your unique needs and delivers stunning results."
+    }
+  ],
+  "title": "AI-Powered Presentation Design Tools"
+}

@@ -1,0 +1,168 @@
+{
+  "defaultPrompt": "I want to build a secure user login and authentication system that supports multifactor authentication, social logins, and role-based access control for my web application.",
+  "description": "Create custom authentication systems with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Build your Auth Solution",
+    "subtitle": "Stop compromising on security and user experience. Develop highly customizable and robust login and authentication systems perfectly tailored to your application's needs.",
+    "title": "Build Your Own Authentication System"
+  },
+  "metaDescription": "Develop secure, scalable, and custom login and authentication solutions with Kliv. Support MFA, social logins, role-based access, and more.",
+  "sections": [
+    {
+      "title": "The Challenge of Authentication",
+      "type": "text",
+      "content": "Authentication is the cornerstone of any secure application, yet implementing it correctly is complex and fraught with security risks. Relying on off-the-shelf solutions often means accepting compromises on security features, user experience, customization, or data ownership.\n\nWhile existing services offer convenience, they impose architectural limitations, vendor lock-in, and recurring costs. Building your own authentication system with Kliv gives you granular control, uncompromised security, and a tailor-made solution that scales with your unique requirements."
+    },
+    {
+      "title": "Why Custom Authentication? Security, Control, and Flexibility",
+      "type": "markdown",
+      "content": "## Beyond Off-the-Shelf: The Imperative for Tailored Security\n\nGeneric authentication services often come with hidden costs and inherent limitations:\n\n- **Security Overheads**: While they handle basics, custom attack vectors unique to your business often require bespoke defenses.\n- **Vendor Lock-in**: Migrating user data and authentication logic from a third-party service can be a nightmare.\n- **Pricing Models**: Usage-based pricing can become unpredictable and expensive as your user base grows.\n- **Limited Customization**: Branding, user flows, and specific feature integrations are often restricted to preset templates.\n- **Data Sovereignty**: Where is your user data stored? Who has access? Building your own means you control your data entirely.\n\n## The Kliv Advantage: Build Your Own, Secure and Scalable System\n\nAI-powered platforms like Kliv redefine what's possible for custom software development. Building your own authentication solution means:\n\n### Unparalleled Security Control\nYou define the security policies, encryption methods, and compliance standards. Implement custom blacklisting, rate limiting, and exploit deterrence mechanisms truly unique to your system's needs. You specify how user identity is verified and stored, minimizing third-party risks.\n\n### Seamless User Experience\nDesign login flows that perfectly match your brand and application's UX. From custom registration processes to personalized password recovery, provide a frictionless and consistent experience for your users without being confined by pre-built templates.\n\n### Full Feature Set, On Your Terms\nNeed support for specific OAuth providers not commonly offered? Want advanced role-based access control dynamically linked to external systems? Require custom multi-factor authentication (MFA) methods? With Kliv, you can build exactly the features you need, not just what's available.\n\n### True Scalability and Performance\nOptimize your authentication service for your specific load patterns. Kliv helps generate highly performant code that can handle millions of users, decoupling authentication from external dependencies and ensuring minimal latency, even during peak times.\n\n### Cost Efficiency and Ownership\nAvoid recurring subscription fees. A custom-built solution is a capital investment that pays for itself, reducing operational expenses over time. You own the codebase, giving you complete control over future enhancements and maintenance.\n\n## Real-World Use Cases for Custom Authentication\n\n**Enterprise SaaS Platforms**: Implement single sign-on (SSO) with custom identity providers (IdPs), integrating with existing corporate directories (LDAP, Active Directory).\n\n**Fintech Applications**: Require enhanced MFA, cryptographic key management for user credentials, and compliance with specific financial regulations like PSD2 or GDPR.\n\n**Healthcare Systems**: Need granular access control based on user roles and data sensitivity (e.g., HIPAA compliance), secure patient portals with unique identification methods.\n\n**Gaming Platforms**: High-volume authentication with low latency, integration with game-specific profiles, and anti-fraud measures.\n\n**IoT Device Management**: Secure device registration and authentication for fleets of devices, often requiring certificate-based authentication or custom protocols.\n\n## Empowering Developers with AI\n\nKliv acts as an intelligent co-developer, translating your security requirements into robust, production-ready code. This means:\n\n- **Accelerated Development**: Go from concept to deployable authentication service in days, not months.\n- **Best Practices Incorporated**: AI suggests and implements industry-standard security practices and architectural patterns.\n- **Reduced Error Rate**: Automated code generation minimizes human error, especially in critical security components.\n- **Iterative Refinement**: Easily add new authentication methods or access policies as your application evolves.\n\nInstead of adapting to an existing authentication provider's limitations, design and build the perfect security foundation for your application. Start crafting your custom authentication solution with Kliv today, ensuring security, flexibility, and performance."
+    },
+    {
+      "title": "Authentication System Ideas to Get Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Web Application User Login with MFA and Social Logins (Google, Facebook, GitHub). Include email verification for new registrations and password reset functionality. Integrate with a PostgreSQL database to store user credentials securely. Add an admin panel for user management and role assignment. Allow users to self-manage their profiles and change passwords post-login. Enable multi-factor authentication (MFA) via TOTP (Time-based One-Time Passwords). Implement role-based access control (RBAC) to define user permissions. Provide a developer-facing REST API for integration with front-end applications. Use JWTs for session management. Implement rate limiting on login attempts to prevent brute-force attacks. Add logging for all authentication attempts and provide an analytics dashboard for security monitoring. Ensure password hashing with a strong, modern algorithm like bcrypt. Implement account lockout after multiple failed login attempts. Send SMS notifications for critical security events like password changes or suspicious logins. Build a 'Remember Me' functionality using secure, long-lived tokens. Allow users to link multiple social accounts to a single user profile. Implement a CAPTCHA challenge on the login page after a few failed attempts. Add a 'Force Log Out All Devices' feature. Provide an activity log for users to view their past login locations and times."
+        },
+        {
+          "title": "API Key Management System for SaaS Platform: Allow developers to generate and manage API keys for their applications. Provide an admin interface to revoke keys, set usage limits, and view API call analytics. Implement IP whitelisting for API key usage. Allow API keys to have scopes (permissions) for different API endpoints. Integrate with a Stripe for billing and usage tracking based on API key activity. Provide a sandbox environment for testing API keys. Implement automatic key rotation policies. Add a feature for developers to view their API key usage history and errors. Enable API key expiration dates. Notify developers before an API key expires. Allow developers to regenerate a new API key without invalidating the old one immediately (grace period). Track which API key is used by which application for better analytics. Implement a challenge-response mechanism for sensitive API key operations like revocation. Offer different tiers of API keys with varying rate limits and features. Add webhooks for API key events (e.g., key revoked, usage limit exceeded)."
+        },
+        {
+          "title": "Internal Tool Single Sign-On (SSO) with LDAP Integration: Build an SSO solution for internal company applications that integrates with existing LDAP/Active Directory. Provide a centralized dashboard for IT admins to manage user access and application assignments. Support SAML 2.0 or OIDC for integration with other enterprise applications. Implement group-based access control inherited from LDAP groups. Provide audit logs for all user logins and access changes. Allow IT to force password resets. Implement session management with configurable timeouts and automatic re-authentication. Provide reporting on user activity across integrated applications. Support multi-domain LDAP environments. Enable delegated administration for application owners. Integrate with a corporate VPN for enhanced security. Provide a 'break glass' emergency access mechanism. Auto-provision users from LDAP groups when they first attempt to log in to an integrated application. Allow for custom attributes to be mapped from LDAP to user profiles within the SSO system. Provide a self-service portal for users to view their assigned applications. Integrate with an MFA solution for an additional layer of security. Develop a robust monitoring and alerting system for SSO health and login failures."
+        },
+        {
+          "title": "IoT Device Attestation and Authentication Service: Create a service to securely onboard and authenticate IoT devices using device certificates (X.509). Manage device identities, revoke compromised devices, and assign policies for data access. Implement mutual TLS authentication for device-to-cloud communication. Provide a dashboard to monitor device connection status and authentication attempts. Allow for over-the-air (OTA) updates for device firmware, authenticated by the service. Implement unique device identifiers (UDIs) and securely store them. Provide an API for device manufacturers to provision new devices. Track device telemetry related to authentication events. Implement anomaly detection for unusual device login patterns. Support different types of device credentials (e.g., pre-shared keys, tokens, certificates). Integrate with a hardware security module (HSM) for key management. Provide a mechanism for device root-of-trust verification. Enable certificate rotation for devices. Allow for device grouping and policy application. Implement secure boot validation for devices before authentication. Provide a robust logging and auditing system for all device interactions. Support device registration using QR codes or physical buttons. Allow for dynamic policy updates to devices post-authentication."
+        },
+        {
+          "title": "Decentralized Identity (DID) and Verifiable Credentials (VC) System: Build a system that allows users to create and manage their own decentralized identifiers (DIDs) and store verifiable credentials. Enable companies to issue and verify VCs based on user DIDs. Support various blockchain networks (e.g., Ethereum, Polygon) for DID registration. Implement a secure wallet interface for users to store and present their VCs. Provide a Verifier API for organizations to request and validate VCs. Support different credential schemas (e.g., W3C Verifiable Credentials Data Model). Implement zero-knowledge proofs for selective disclosure of information. Provide tools for issuing organizations to create and sign VCs securely. Allow users to revoke their VCs. Integrate with existing identity systems for initial credential issuance (e.g., KYC providers). Offer a developer SDK for building applications that interact with DIDs and VCs. Implement secure messaging between DID holders and Verifiers. Provide a consent mechanism for sharing credentials. Support various cryptographic algorithms for signing credentials. Build a decentralized registry for DID methods. Offer a user-friendly interface for managing multiple DIDs and key pairs. Implement a reputation system based on issued and verified credentials. Provide a mechanism for off-chain credential storage with on-chain proofs."
+        },
+        {
+          "title": "Passwordless and Biometric Authentication Gateway: Develop an authentication gateway that supports passwordless methods like WebAuthn (FIDO2), magic links, and biometric authentication (fingerprint, face ID) via device APIs. Provide a fallback to email/SMS OTP. Integrate with existing identity providers. Allow users to register multiple authenticators to their account. Implement an admin dashboard for managing authenticators and user enrollments. Support cross-device authentication. Provide robust anti-phishing measures. Implement secure credential storage for WebAuthn enrollments. Track authentication method usage and success rates. Allow users to revoke specific authenticators from their profile. Provide a developer-friendly API for seamless integration into web and mobile apps. Implement a robust audit trail for all authentication events. Ensure compliance with FIDO Alliance standards. Offer customizable UI themes for the authentication gateway. Add a feature to allow users to recover their accounts if all authenticators are lost. Support push notifications for authentication requests from trusted devices. Integrate with a fraud detection system. Allow for step-up authentication using stronger methods for sensitive operations."
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Authentication System",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add support for FIDO2/WebAuthn for passwordless authentication.",
+          "title": "Integrate Biometric/Passwordless Login"
+        },
+        {
+          "prompt": "Implement a full audit logging and alerting system for all security events, notifying admins of suspicious activities.",
+          "title": "Develop Advanced Security Auditing"
+        },
+        {
+          "prompt": "Build a comprehensive analytics dashboard to monitor login attempts, successful authentications, failed attempts by type, and user activity patterns.",
+          "title": "Create Real-time Security Analytics"
+        },
+        {
+          "prompt": "Enable continuous authentication by evaluating user behavior post-login, prompting re-authentication or additional challenges if suspicious activity is detected.",
+          "title": "Add Continuous Authentication"
+        },
+        {
+          "prompt": "Implement dark mode for the entire login and registration flow, and ensure accessibility (WCAG 2.1 AA) for all UI elements.",
+          "title": "Enhance UI/UX and Accessibility"
+        },
+        {
+          "prompt": "Add support for multiple languages and regional formats for all user-facing authentication screens and emails.",
+          "title": "Localize Authentication Flows"
+        },
+        {
+          "prompt": "Integrate with a popular device fingerprinting service to identify and flag suspicious login attempts from unknown devices.",
+          "title": "Add Device Fingerprinting"
+        },
+        {
+          "prompt": "Develop a self-service portal for end-users to manage their MFA devices, linked social accounts, and review their login history.",
+          "title": "Build User Self-Service Portal"
+        },
+        {
+          "prompt": "Implement secure session invalidation and management across all user devices upon password change or account compromise.",
+          "title": "Improve Session Management"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of a Custom Auth System",
+      "type": "features",
+      "items": [
+        {
+          "description": "Secure user registration, password hashing, and account recovery flows.",
+          "icon": "🔑",
+          "title": "Core Credential Management"
+        },
+        {
+          "description": "Support for TOTP, SMS, Email OTP, and hardware tokens for enhanced security.",
+          "icon": "🛡️",
+          "title": "Multi-Factor Authentication (MFA)"
+        },
+        {
+          "description": "Integrate with Google, Facebook, Apple, and other OAuth providers for convenient logins.",
+          "icon": "🌐",
+          "title": "Social & OAuth Logins"
+        },
+        {
+          "description": "Define granular permissions and control access to features based on user roles and attributes.",
+          "icon": "👥",
+          "title": "Role-Based Access Control (RBAC)"
+        },
+        {
+          "description": "Implement authentication endpoints, user APIs, and webhooks for seamless integration.",
+          "icon": "🔗",
+          "title": "Flexible APIs & Integrations"
+        },
+        {
+          "description": "Comprehensive logging, real-time alerts, and compliance-ready audit trails for security monitoring.",
+          "icon": "📊",
+          "title": "Security Monitoring & Audits"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom authentication system with Kliv can take anywhere from a few days for a basic setup to a couple of weeks for a highly complex, enterprise-grade solution. The AI significantly accelerates the development lifecycle.",
+          "question": "How long does it take to build a custom authentication system?"
+        },
+        {
+          "answer": "No, you don't need to be a security expert or a senior developer. Kliv's AI guides you through the process, incorporating best practices. Its conversational interface allows you to describe your security requirements in plain language.",
+          "question": "Do I need deep security knowledge to build this?"
+        },
+        {
+          "answer": "Yes, your custom authentication system can integrate with virtually any application or service through standard APIs (REST, GraphQL) or protocols like OIDC, SAML, and OAuth2. You define the integration points.",
+          "question": "Can this integrate with my existing applications?"
+        },
+        {
+          "answer": "Absolutely. You own the complete codebase and user data. You decide where to deploy it (cloud, on-premise) and have full control over data residency and compliance, unlike third-party services.",
+          "question": "Who owns the code and user data after building?"
+        },
+        {
+          "answer": "While initial setup might involve more effort than subscribing to a SaaS provider, custom solutions typically offer significant cost savings long-term by eliminating recurring fees and providing unlimited scalability without escalating costs. You pay for what you build, not per user or per transaction.",
+          "question": "Is building custom authentication more cost-effective than using a service?"
+        },
+        {
+          "answer": "Yes, custom solutions offer unparalleled flexibility. You can easily add new authentication methods, modify access policies, or integrate with emerging security standards as your business needs evolve, without waiting for a vendor to support it.",
+          "question": "Can I modify or expand the system after it's built?"
+        },
+        {
+          "answer": "By building your own, you have full control over security configurations, dependency management, and data handling. This often results in a more secure solution tailored to your specific threat model, reducing reliance on third-party security practices.",
+          "question": "How secure is a custom-built authentication system?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance for debugging, performance optimization, and suggesting security enhancements during the build process. Once deployed, standard maintenance and updates fall under your purview, offering greater autonomy.",
+          "question": "What kind of support is available after deployment?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to own your authentication? ",
+      "type": "cta",
+      "content": "Take full control of your application's security and user experience. Start building your custom authentication system with Kliv today."
+    }
+  ],
+  "title": "Custom Login & Authentication Systems"
+}

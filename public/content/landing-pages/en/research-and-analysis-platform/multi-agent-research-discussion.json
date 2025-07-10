@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a multi-agent research discussion platform where AI agents collaborate to research a topic, debate findings, and synthesize conclusions. Include a user interface to define research questions and monitor agent interactions.",
+  "description": "Build custom multi-agent AI platforms for complex research and dynamic discussions with Kliv.dev.",
+  "hero": {
+    "cta": "Start building your research platform",
+    "subtitle": "Leverage autonomous AI agents to explore, analyze, and debate complex topics, synthesizing comprehensive insights.",
+    "title": "Build your own Multi-Agent Research & Discussion Platform"
+  },
+  "metaDescription": "Create powerful multi-agent AI research and discussion platforms with Kliv.dev. Facilitate AI collaboration, debate, and synthesize insights on any topic for deeper understanding and innovation.",
+  "sections": [
+    {
+      "title": "Unleash Collaborative AI for Deeper Insights",
+      "type": "text",
+      "content": "In today's information-rich world, traditional research methods often struggle with complexity and volume. Off-the-shelf tools provide static answers, but what if you could have a team of AI experts dynamically exploring, debating, and refining insights on your behalf?\n\nKliv.dev empowers you to build highly specialized multi-agent AI platforms that act as your intelligent research powerhouse. Instead of rigid software, create an evolving ecosystem where AI agents collaborate to generate nuanced perspectives and comprehensive conclusions. This isn't just automation; it's augmentation of human intellect, tailored precisely to your research needs."
+    },
+    {
+      "title": "The Power of Multi-Agent Systems in Research",
+      "type": "markdown",
+      "content": "## Beyond Simple AI Queries\n\nWhile single AI prompts are powerful, they often lack depth, nuance, and the ability to challenge assumptions. Complex research thrives on diverse perspectives, critical analysis, and iterative refinement. This is where multi-agent systems excel.\n\n### Why a Custom Multi-Agent Platform?\n\n- **Depth of Analysis**: Assign different roles to agents (e.g., 'skeptic', 'summarizer', 'data-miner') to ensure a holistic and critical examination of a topic.\n- **Dynamic Exploration**: Agents can autonomously identify new avenues of research based on emerging findings, adapting their strategy in real-time.\n- **Synthesized Insights**: The platform can facilitate debates among agents, resolving conflicts and synthesizing robust, well-supported conclusions.\n- **Unbiased Perspectives**: By designing agents with distinct programmed biases or neutral stances, you can mitigate human cognitive biases in your research.\n- **Scalability**: Easily scale your research capacity by deploying more agents or increasing their scope, without hiring more human researchers.\n- **Proprietary Knowledge Integration**: Unlike public AI models, your custom platform can be trained on and access your private, proprietary datasets and internal knowledge bases securely.\n\n## Real-World Applications & Use Cases\n\nCustom multi-agent research platforms are transforming how organizations approach complex problems:\n\n**Market Research**: Agents simulating different consumer segments debate product features and market trends to predict adoption rates and identify untapped opportunities.\n\n**Scientific Discovery**: AI agents with domain-specific knowledge review vast academic literature, propose hypotheses, and simulate experimental outcomes to accelerate scientific breakthroughs.\n\n**Strategic Planning**: Agents representing different departments or competitive entities discuss market shifts, regulatory changes, and internal capabilities to formulate optimal business strategies.\n\n**Risk Assessment**: Autonomous agents analyze financial data, geopolitical events, and operational reports to identify potential risks and propose mitigation strategies.\n\n**Legal Analysis**: Agents skilled in different legal areas interpret complex case law and statutes, debating precedents to provide comprehensive legal opinions.\n\n## The Kliv.dev Advantage\n\nBuilding such advanced systems used to demand significant expert programming. Kliv.dev changes this paradigm:\n\n- **Natural Language Design**: Describe the roles, interactions, and objectives of your AI agents in plain English.\n- **Rapid Iteration**: Quickly prototype, test, and refine agent behaviors and discussion protocols.\n- **Component-Based Building**: Combine pre-built AI capabilities with custom logic for sophisticated functionality.\n- **Deployment Flexibility**: Host your platform where it makes sense, ensuring data privacy and performance.\n\nBuilding your own multi-agent research platform means owning the intellectual engine that drives your insights. It's about creating a living, self-improving research unit that continually delivers value."
+    },
+    {
+      "title": "Multi-Agent research ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Collaborative analysis of news, social media, and expert opinions.",
+          "prompt": "Create a multi-agent system to analyze public sentiment on a specific product, with one agent focusing on social media, another on news articles, and a third on expert reviews. They should then debate their findings and synthesize a final sentiment report.",
+          "title": "Public Opinion Synthesis"
+        },
+        {
+          "description": "Automated legal analysis and case strategy discussion.",
+          "prompt": "Build a platform with AI agents specializing in contract law, intellectual property, and litigation. Provide them with a legal document and have them discuss potential risks, opportunities, and propose a litigation strategy.",
+          "title": "Legal Case Strategist"
+        },
+        {
+          "description": "Comprehensive evaluation of investment opportunities.",
+          "prompt": "Design a multi-agent system where one agent acts as a financial analyst, another as a market trend forecaster, and a third as a risk assessor. They should collaboratively evaluate a given stock or market sector and propose an investment recommendation.",
+          "title": "Investment Analysis Platform"
+        },
+        {
+          "description": "Generate and refine creative content concepts.",
+          "prompt": "Develop agents to brainstorm marketing campaign ideas for a new product. One agent generates slogans, another visual concepts, and a third critiques both based on target audience appeal. The agents should refine ideas through iterative discussion.",
+          "title": "Creative Concept Generator"
+        },
+        {
+          "description": "Deconstruct and summarize complex scientific papers.",
+          "prompt": "Create agents specialized in different scientific sub-fields. Input a complex research paper and have them collaboratively explain its methodology, findings, and implications in simplified terms, identifying areas of uncertainty.",
+          "title": "Scientific Paper Deconstructor"
+        },
+        {
+          "description": "Debate and validate software architecture decisions.",
+          "prompt": "Build a platform with AI agents representing different software engineering roles (e.g., backend architect, security specialist, front-end developer). Provide a system requirement and have them discuss and design a robust software architecture.",
+          "title": "Software Architecture Validator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your Multi-Agent Platform",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a module for agents to access real-time external data sources such as financial feeds, news APIs, or weather data.",
+          "title": "External Data Integration"
+        },
+        {
+          "prompt": "Incorporate a feedback mechanism where users can rate the quality of agent discussions and synthesized outputs to improve future interactions.",
+          "title": "User Feedback Loop"
+        },
+        {
+          "prompt": "Develop a role management system allowing users to define new agent roles, assign specific knowledge bases, and control their access to tools.",
+          "title": "Dynamic Agent Roles"
+        },
+        {
+          "prompt": "Add a visualization dashboard to track agent interactions, sentiment during debates, and the evolution of ideas over time.",
+          "title": "Interaction Visualization"
+        },
+        {
+          "prompt": "Implement a 'memory' system for agents, allowing them to recall previous discussions and adapt their behavior based on past success or failure.",
+          "title": "Persistent Agent Memory"
+        },
+        {
+          "prompt": "Enable agents to generate and execute code snippets or interact with external APIs to test hypotheses or gather data directly.",
+          "title": "Code Execution & Tool Use"
+        },
+        {
+          "prompt": "Create an alert system that notifies users when agents reach a critical consensus, identify a major discrepancy, or require human intervention.",
+          "title": "Intelligent Alerting"
+        },
+        {
+          "prompt": "Add secure access controls and audit trails to track who initiated which research queries and which agents were involved in particular discussions.",
+          "title": "Security & Audit Features"
+        },
+        {
+          "prompt": "Allow agents to automatically generate and save detailed summaries, transcriptions, and supporting evidence from their discussions to a shared knowledge base.",
+          "title": "Automated Knowledge Capture"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities for Multi-Agent Research",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define distinct roles and goals for each AI agent within your platform.",
+          "icon": "👥",
+          "title": "Agent Role Definition"
+        },
+        {
+          "description": "Facilitate structured or free-form debates and discussions among agents.",
+          "icon": "💬",
+          "title": "Inter-Agent Communication"
+        },
+        {
+          "description": "Enable agents to access and incorporate vast amounts of information from diverse sources.",
+          "icon": "📚",
+          "title": "Information Retrieval"
+        },
+        {
+          "description": "Automate the consolidation and summarization of complex information and agent findings.",
+          "icon": "📝",
+          "title": "Insight Synthesis"
+        },
+        {
+          "description": "Customize agents with specific knowledge bases, reasoning capabilities, and ethical guidelines.",
+          "icon": "🧠",
+          "title": "Cognitive Customization"
+        },
+        {
+          "description": "Monitor and visualize agent interactions, decision-making processes, and discussion flows.",
+          "icon": "📈",
+          "title": "Interaction Monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv.dev's AI-powered platform significantly reduces development time. A basic multi-agent system can be prototyped in hours, allowing for rapid iteration and deployment, vastly quicker than traditional software development cycles.",
+          "question": "How long does it take to build a multi-agent research platform?"
+        },
+        {
+          "answer": "No, you don't need to be an expert in AI or coding. Kliv.dev allows you to define agent behaviors, roles, and interactions using natural language descriptions. The platform then translates these into functional components.",
+          "question": "Do I need deep AI or programming knowledge?"
+        },
+        {
+          "answer": "Absolutely. Your custom platform can connect to internal databases, proprietary documents, private APIs, and various external web services, ensuring your agents have access to all relevant information securely.",
+          "question": "Can I integrate with my existing data sources and tools?"
+        },
+        {
+          "answer": "With Kliv.dev, you retain full ownership and control over your developed platform, its code, the agents, and all generated insights. Your data and intellectual property remain yours, providing superior security and privacy compared to shared SaaS models.",
+          "question": "Who owns the multi-agent system and its output?"
+        },
+        {
+          "answer": "While there's an initial investment in building, a custom platform eliminates recurring subscription fees associated with commercial AI tools. Over time, the cost savings and the precise fit to your needs make it significantly more cost-effective.",
+          "question": "How does the cost compare to existing AI research tools?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. You can easily modify agent roles, add new agents, adjust their reasoning processes, or integrate new data sources as your research needs evolve. The platform is designed for continuous adaptation.",
+          "question": "Can I modify or expand the platform after it's built?"
+        },
+        {
+          "answer": "Kliv.dev provides tools to ensure the security of your platform and data. Since you control the deployment environment, you can implement your organization's specific security protocols, often resulting in a more secure solution than third-party services.",
+          "question": "What about security and data privacy for my research?"
+        },
+        {
+          "answer": "Kliv.dev offers comprehensive documentation, an active community, and direct support channels. The platform also includes AI-powered debugging and optimization suggestions to help you fine-tune your multi-agent system.",
+          "question": "What kind of support is available during the building process?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to redefine your research capabilities?",
+      "type": "cta",
+      "content": "Stop limiting your insights to basic queries. Build an intelligent, collaborative AI research powerhouse tailored to your exact needs with Kliv.dev."
+    }
+  ],
+  "title": "Multi-Agent Research & Discussion Platform"
+}

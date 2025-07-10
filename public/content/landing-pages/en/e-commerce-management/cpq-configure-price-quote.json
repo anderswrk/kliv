@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a CPQ (Configure, Price, Quote) system that allows customers to configure complex products, applies dynamic pricing rules, generates accurate quotes, and integrates with our e-commerce platform.",
+  "description": "Build custom Configure, Price, Quote (CPQ) applications for complex sales with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Configuring",
+    "subtitle": "Empower your sales team and customers with intelligent CPQ applications built on Kliv's platform.",
+    "title": "Build your own CPQ (Configure, Price, Quote) system"
+  },
+  "metaDescription": "Create powerful CPQ systems with Kliv. Streamline complex product configuration, automate pricing, and generate accurate quotes for your e-commerce and sales operations.",
+  "sections": [
+    {
+      "title": "Why build your own CPQ system?",
+      "type": "text",
+      "content": "In today's competitive landscape, selling complex products or services requires more than just a price list. It demands accurate configurations, dynamic pricing, and swift, professional quotes. Off-the-shelf CPQ solutions are often rigid, expensive, and fail to adapt to your unique product catalog and sales processes. With AI-powered development platforms like Kliv, designing a bespoke CPQ system has never been more achievable.\n\nA custom CPQ application allows you to precisely define product rules, automate pricing adjustments, and streamline the entire quoting process, giving you a competitive edge. You regain control, avoid perpetual subscription fees, and integrate seamlessly with your existing infrastructure."
+    },
+    {
+      "title": "The case for custom CPQ",
+      "type": "markdown",
+      "content": "## The limitations of generic CPQ solutions\n\nMany businesses struggle with standard CPQ platforms that force them into predefined structures. These solutions often lead to:\n\n- **Inaccurate quotes:** Manual processes or inflexible rules lead to errors, delays, and lost deals.\n- **Complex product management:** Difficult to update product catalogs, bundles, and pricing specific to your offerings.\n- **Vendor lock-in:** High switching costs and reliance on a third-party's development roadmap.\n- **Integration headaches:** Poor compatibility with your existing CRM, ERP, or e-commerce platforms.\n- **Hidden costs:** Beyond subscriptions, customization and maintenance can be unexpectedly high.\n\n## Why a custom-built solution leads to smarter sales\n\nLeveraging platforms like Kliv, you can now develop a CPQ system that is perfectly aligned with your business model:\n\n### Precision in configuration\nEnsure flawless product bundles and configurations every time, preventing errors and improving customer satisfaction. Your specific product hierarchies, dependencies, and compatibility rules can be encoded precisely.\n\n### Dynamic and accurate pricing\nImplement sophisticated pricing models, discounts, and promotional rules. React instantly to market changes or customer-specific agreements, ensuring optimal margins and competitive offers.\n\n### Seamless customer and sales experience\nProvide your sales team with an intuitive tool that accelerates the quoting process. For e-commerce, offer customers self-service configuration options that guide them to the right product and price.\n\n### Full integration capability\nConnect your CPQ solution directly with your CRM for lead management, your ERP for inventory and order processing, and your e-commerce platform for a unified customer journey. No more data silos or manual transfers.\n\n## Practical CPQ applications\n\nCustom CPQ systems are transforming how businesses sell complex offerings:\n\n**Manufacturing**: For custom machinery, a CPQ helps engineers and sales reps configure complex components, calculate production costs, and generate quotes based on material availability and lead times.\n\n**Software & SaaS**: Allowing customers to build their own tiered subscription packages with add-ons, calculating pricing based on user count, feature sets, and contract duration, all instantly.\n\n**Telecommunications**: Enabling customers to configure communication bundles (internet, TV, phone) with various service levels, devices, and installation options, generating a precise, real-time quote.\n\n**Professional Services**: Calculating service project costs based on customizable scope, resources, and timelines, delivering transparent proposals quickly.\n\n## The AI advantage in CPQ development\n\nBuilding a custom CPQ used to demand significant development resources. AI-powered platforms like Kliv make it accessible:\n\n- **Rapid prototyping:** Design and test complex configuration rules and pricing logic swiftly.\n- **Natural language commands:** Describe your product rules and pricing models in plain English.\n- **Automated setup:** AI assists in structuring product catalogs, dependencies, and quoting templates.\n- **Intelligent suggestions:** Get recommendations for optimizing pricing strategies or configuration paths.\n\nBuilding a custom CPQ means creating a core sales asset that grows with your business and truly reflects your unique value. With Kliv, you can start building this strategic advantage today."
+    },
+    {
+      "title": "CPQ ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Allow customers to design custom furniture with material, size, and style options.",
+          "prompt": "Create an online CPQ system for custom furniture, allowing users to select wood type, fabric, dimensions, and finishes, dynamically updating the price based on choices and generating an instant quote PDF.",
+          "title": "Custom Furniture Configurator"
+        },
+        {
+          "description": "For SaaS companies to automate subscription tier and addon selection.",
+          "prompt": "Build a CPQ for a SaaS product where users can select base plans, add features like extra storage or integrations, choose billing cycles (monthly/annual), and apply promotional codes, calculating the total subscription cost.",
+          "title": "Software Subscription Builder"
+        },
+        {
+          "description": "For B2B sales of complex IT solutions with service components.",
+          "prompt": "Develop a sales-facing CPQ tool for IT infrastructure solutions. It should allow configuring servers, networking equipment, software licenses, and variable service contracts, with bundled discounts and multi-currency support.",
+          "title": "IT Solution Quoting Tool"
+        },
+        {
+          "description": "Automate proposals for marketing agencies based on client needs.",
+          "prompt": "Design a CPQ system for a digital marketing agency to generate proposals. Allow selection of services (SEO, PPC, social media), set monthly retainers or project fees based on scope, and include optional add-ons like analytics reports or creative assets.",
+          "title": "Marketing Service Proposal Generator"
+        },
+        {
+          "description": "For industrial equipment, ensuring correct part combinations and pricing.",
+          "prompt": "Build a CPQ for industrial pump systems where users select pump type, motor size, material alloys, and specific fittings. The system must enforce compatibility rules and calculate the final price including delivery and installation estimates.",
+          "title": "Industrial Equipment Configurator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your CPQ tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate the CPQ with our CRM (e.g., Salesforce) to automatically create new opportunities and populate quote details.",
+          "title": "CRM Integration"
+        },
+        {
+          "prompt": "Add a feature for sales managers to approve quotes above a certain discount threshold or value.",
+          "title": "Approval Workflows"
+        },
+        {
+          "prompt": "Implement predictive analytics to suggest optimal product configurations or pricing bundles based on historical sales data.",
+          "title": "AI-Powered Recommendations"
+        },
+        {
+          "prompt": "Allow customers to save their configurations and quotes, and retrieve them later for modification or re-quoting.",
+          "title": "Save & Retrieve Configurations"
+        },
+        {
+          "prompt": "Build an API endpoint for the CPQ system to allow programmatic quote generation from other internal or external systems.",
+          "title": "API for External Access"
+        },
+        {
+          "prompt": "Include detailed breakdown of costs, profit margins, and sales commissions within the internal view of the generated quote.",
+          "title": "Profitability Analysis"
+        },
+        {
+          "prompt": "Add scenario modeling, allowing sales reps to compare different configuration and pricing options side-by-side.",
+          "title": "Scenario Modeling"
+        },
+        {
+          "prompt": "Build a comprehensive audit trail for every quote, tracking who created it, what changes were made, and when it was sent.",
+          "title": "Audit Trail & Versioning"
+        }
+      ]
+    },
+    {
+      "title": "Essential CPQ Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define product options, bundles, and enforce complex compatibility rules automatically.",
+          "icon": "⚙️",
+          "title": "Product Configuration Engine"
+        },
+        {
+          "description": "Automate pricing based on quantity, customer segment, discounts, and tiered models.",
+          "icon": "💲",
+          "title": "Dynamic Pricing Rules"
+        },
+        {
+          "description": "Generate professional, branded quotes and proposals in various formats (e.g., PDF).",
+          "icon": "📄",
+          "title": "Automated Quote Generation"
+        },
+        {
+          "description": "Connect seamlessly with CRM, ERP, and e-commerce platforms for data flow.",
+          "icon": "🔗",
+          "title": "CRM/ERP Integration"
+        },
+        {
+          "description": "Manage customer-specific contracts, pricing agreements, and special terms.",
+          "icon": "🤝",
+          "title": "Contract Management"
+        },
+        {
+          "description": "Provide a self-service interface for customers or an intuitive tool for sales teams.",
+          "icon": "💻",
+          "title": "Guided Selling & UI"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom CPQ system with Kliv can range from a few days for basic configurations to weeks for highly complex, deeply integrated solutions. The AI significantly accelerates the process compared to traditional development.",
+          "question": "How long will it take to build a custom CPQ application?"
+        },
+        {
+          "answer": "No, you do not need to be a programmer. Kliv's platform allows you to describe your product rules, pricing logic, and desired output in natural language. The AI translates these into a functional application.",
+          "question": "Do I need coding skills to create a CPQ system?"
+        },
+        {
+          "answer": "Absolutely. Custom Kliv-built applications are designed for seamless integration. You can connect your CPQ system with popular CRMs like Salesforce, ERPs like SAP, e-commerce platforms, and other business tools via APIs.",
+          "question": "Can my custom CPQ integrate with my existing CRM or ERP?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its data, and its underlying logic. Kliv helps you build it; you own the intellectual property and can choose where to host it.",
+          "question": "Who owns the CPQ system and data once it's built?"
+        },
+        {
+          "answer": "Custom CPQ systems provide a significant long-term ROI. While there's an initial development investment, you avoid recurring subscription fees common with off-the-shelf solutions, leading to cost savings over time and a system perfectly suited to your needs.",
+          "question": "How does the cost compare to off-the-shelf CPQ solutions?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. As your product lines evolve or pricing strategies change, you can easily modify your custom CPQ system. Kliv's AI assists with updates, ensuring your tool always reflects your latest business rules.",
+          "question": "Can I modify or expand the CPQ system after it's deployed?"
+        },
+        {
+          "answer": "Custom CPQ allows you to implement robust security measures tailored to your specific compliance needs. You control data residency and access permissions, often resulting in higher security than relying on third-party SaaS providers.",
+          "question": "Is a custom-built CPQ system secure?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to streamline your sales process?",
+      "type": "cta",
+      "content": "Stop wrestling with rigid systems. Empower your sales team and delight your customers with a CPQ solution built exactly for your business."
+    }
+  ],
+  "title": "CPQ (Configure, Price, Quote) Applications"
+}

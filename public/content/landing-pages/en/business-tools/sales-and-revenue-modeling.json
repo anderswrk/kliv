@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a sales and revenue modeling tool that allows users to input various sales drivers, automatically generate forecasts, and visualize different growth scenarios.",
+  "description": "Build custom sales and revenue modeling applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start modeling your future",
+    "subtitle": "Gain clarity and predictability in your sales pipeline with custom-built revenue modeling tools on Kliv's AI platform.",
+    "title": "Build your own sales & revenue modeling tools"
+  },
+  "metaDescription": "Create powerful sales and revenue modeling tools with Kliv. Forecast sales, analyze growth scenarios, and make data-driven decisions with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own sales & revenue modeling tool?",
+      "type": "text",
+      "content": "In today's dynamic market, relying on generic spreadsheets or rigid off-the-shelf software can stifle accurate forecasting. Every business has unique sales cycles, market dynamics, and revenue recognition rules. Building a custom sales and revenue modeling tool means creating a system that perfectly mirrors your business's financial logic.\n\nOff-the-shelf solutions often force compromises, leading to less accurate predictions and limiting your ability to analyze specific 'what-if' scenarios. With platforms like Kliv, the power to create a tailor-made financial prediction engine is now within reach, bypassing recurring subscription fees and generic functionalities."
+    },
+    {
+      "title": "The case for custom sales & revenue modeling",
+      "type": "markdown",
+      "content": "## The limitations of standard tools\n\nMany businesses struggle with sales and revenue forecasting due to: \n\n- **Inflexible models**: Generic templates rarely capture the nuances of YOUR business model.\n- **Manual errors**: Relying on spreadsheets increases the risk of mistakes and inconsistencies.\n- **Lack of scenario analysis**: Difficulty in quickly testing different assumptions and their impact on revenue.\n- **Integration headaches**: Disconnected data sources make it hard to get a holistic view.\n- **High recurring costs**: Expensive licenses for features you may not fully utilize.\n\n## Why custom-built is superior\n\nCustom sales and revenue modeling tools built on Kliv offer unparalleled advantages:\n\n### Precision-engineered for your business\nGeneric models are fine for generic businesses. Your custom tool can incorporate your unique sales drivers, lead conversion rates, customer lifetime value, and revenue recognition methods, leading to highly accurate and relevant forecasts.\n\n### Dynamic scenario planning\nQuickly adjust variables like pricing, marketing spend, sales team size, or product mix. See the immediate impact on projected revenue, allowing for agile strategic decision-making and risk mitigation.\n\n### Data integrity and consolidation\nPull data directly from your CRM, marketing automation, or ERP systems. Your custom tool acts as a single source of truth, eliminating manual data entry and ensuring consistency.\n\n### Ownership and control\nUnlike SaaS solutions where you rent the software, with Kliv, you own your application. This means complete control over customization, data security, and future enhancements without vendor lock-in.\n\n### Cost-effectiveness\nAvoid perpetual subscription fees that scale with usage or features you don't need. A custom solution is a one-time development investment that provides long-term value.\n\n## Real-world applications\n\nCustom sales and revenue modeling tools can be transformative:\n\n**SaaS Companies**: Model subscriber growth, churn rates, average revenue per user (ARPU), and contract lifetime value (CLTV) to predict recurring revenue with precision.\n\n**E-commerce Businesses**: Forecast sales based on website traffic, conversion rates, average order value, and marketing campaign effectiveness across different channels.\n\n**Professional Services Firms**: Project revenue by analyzing utilization rates, billable hours per consultant, project backlog, and new client acquisition targets.\n\n**Manufacturing**: Model demand based on seasonality, production capacity, supply chain costs, and order lead times to predict product sales and revenue.\n\n## The AI advantage\n\nBuilding sophisticated modeling tools used to require expert developers. Kliv's AI platform simplifies this:\n\n- **Conversational development**: Describe your business logic, and the AI helps build the models.\n- **Rapid iteration**: Test different model structures and assumptions on the fly.\n- **Intelligent data integration**: AI can assist in connecting and mapping data from disparate sources.\n- **Automated validation**: Ensure the logic holds, and calculations are accurate.\n\n## Getting started\n\nStop basing critical business decisions on outdated or generalized financial models. Invest in a tool that truly understands and reflects your business's unique pathway to revenue. With Kliv's AI-powered platform, you can quickly develop a bespoke sales and revenue modeling application tailored to your exact needs, empowering you with clearer insights and more confident strategic planning."
+    },
+    {
+      "title": "Sales & revenue modeling ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Project B2B SaaS ARR/MRR based on customer acquisition and retention.",
+          "prompt": "Create a SaaS revenue projection tool that models monthly recurring revenue (MRR) based on new subscriptions, churn rate, average customer value, and expansion revenue. Allow for different growth scenarios.",
+          "title": "B2B SaaS MRR Forecast"
+        },
+        {
+          "description": "Forecast retail sales factoring in seasonality, promotions, and store traffic.",
+          "prompt": "Build a retail sales forecasting application that considers seasonal trends, promotional uplift, store foot traffic, and average transaction value to predict weekly revenue for multiple locations.",
+          "title": "Retail Sales Predictor"
+        },
+        {
+          "description": "Model ad revenue based on impressions, click-through rates, and pricing.",
+          "prompt": "Develop an advertising revenue model that predicts future income based on projected ad impressions, click-through rates, cost-per-click (CPC), and ad inventory fill rates across various digital channels.",
+          "title": "Digital Ad Revenue Model"
+        },
+        {
+          "description": "Analyze financial impact of new product launches.",
+          "prompt": "Design a new product revenue forecasting tool that estimates sales volume and revenue based on market size, anticipated market share, pricing strategy, and marketing budget for the first 24 months post-launch.",
+          "title": "New Product Revenue Forecast"
+        },
+        {
+          "description": "Project sales based on lead volume, conversion stages, and sales cycle.",
+          "prompt": "Create a sales pipeline forecasting tool that takes lead volume, conversion rates at each sales stage, average deal size, and sales cycle length to project closed deals and revenue for upcoming quarters.",
+          "title": "Sales Pipeline Predictor"
+        },
+        {
+          "description": "Estimate revenue for consulting projects based on resource allocation.",
+          "prompt": "Build a professional services revenue model that projects income by inputting consultant utilization rates, hourly billing rates, project durations, and project backlog, allowing for different resource allocation scenarios.",
+          "title": "Consulting Revenue Projector"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your modeling tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now integrate historical sales data from my CRM to automatically refine model parameters.",
+          "title": "Add historical data integration"
+        },
+        {
+          "prompt": "Implement a user interface that allows me to easily adjust sliders for different variables (e.g., pricing, marketing spend) and see immediate revenue impact.",
+          "title": "Develop interactive scenario sliders"
+        },
+        {
+          "prompt": "Add a feature to compare actual revenue against the forecast and highlight significant variances.",
+          "title": "Include actual vs. forecast analysis"
+        },
+        {
+          "prompt": "Generate a PDF report summarizing key assumptions, projected outcomes, and visual charts for quarterly performance reviews.",
+          "title": "Create automated reporting"
+        },
+        {
+          "prompt": "Incorporate Monte Carlo simulations to show a range of possible revenue outcomes based on variable uncertainty.",
+          "title": "Add probabilistic forecasting"
+        },
+        {
+          "prompt": "Allow users to securely share specific modeling scenarios with team members and gather their feedback or approvals.",
+          "title": "Implement collaboration features"
+        },
+        {
+          "prompt": "Connect with external market data APIs to factor in economic indicators or competitor data into the model.",
+          "title": "Integrate external market data"
+        },
+        {
+          "prompt": "Build an alert system that notifies me if projected revenue falls below a certain threshold or if key assumptions are significantly off track.",
+          "title": "Set up performance alerts"
+        },
+        {
+          "prompt": "Add a module to track actual marketing spend and its correlation to sales uplift, feeding this data back into future projections.",
+          "title": "Link marketing spend to revenue"
+        }
+      ]
+    },
+    {
+      "title": "Essential modeling features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define and adjust key drivers like conversion rates, average deal size, and lead volume.",
+          "icon": "⚙️",
+          "title": "Customizable Drivers"
+        },
+        {
+          "description": "Run 'what-if' scenarios to understand the impact of different strategic decisions.",
+          "icon": "🔮",
+          "title": "Scenario Analysis"
+        },
+        {
+          "description": "Generate clear, interactive charts and dashboards for immediate insights.",
+          "icon": "📈",
+          "title": "Visual Reporting"
+        },
+        {
+          "description": "Connect to your CRM, ERP, and marketing platforms for real-time data input.",
+          "icon": "🔗",
+          "title": "Data Integration"
+        },
+        {
+          "description": "Predict future revenue based on historical data and projected growth rates.",
+          "icon": "⏱️",
+          "title": "Time-Series Forecasting"
+        },
+        {
+          "description": "Outline multi-level approval processes for model changes or strategic plans.",
+          "icon": "✅",
+          "title": "Approval Workflows"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic sales and revenue modeling tool can be operational in a matter of hours or days using Kliv's platform. More complex models with sophisticated integrations and UI may take a few weeks to perfect.",
+          "question": "How long does it take to build a sales and revenue modeling tool?"
+        },
+        {
+          "answer": "No coding background is necessary. Kliv's AI allows you to describe your desired functionality in plain language, generating the underlying code for your application.",
+          "question": "Do I need coding experience to build these models?"
+        },
+        {
+          "answer": "Yes, custom-built tools can integrate with most business systems that offer an API, including popular CRMs like Salesforce, marketing automation platforms, accounting software, and data warehouses.",
+          "question": "Can I integrate my existing sales and financial data sources?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and all data generated. Kliv provides the development environment, but the intellectual property belongs to you.",
+          "question": "Who owns the sales and revenue modeling application once it's built?"
+        },
+        {
+          "answer": "While there's an initial development investment, custom tools eliminate ongoing subscription costs typical of SaaS providers. For many businesses, the total cost of ownership (TCO) is significantly lower over the long term, coupled with perfect fit and flexibility.",
+          "question": "How does the cost compare to off-the-shelf modeling software?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are inherently flexible. As your business evolves, you can easily modify the model, add new drivers, change methodologies, or integrate new data sources without vendor approval or additional licensing.",
+          "question": "Can I modify the modeling tool as my business needs change?"
+        },
+        {
+          "answer": "Building your own tool allows you to implement robust security protocols tailored to your data governance policies, often exceeding the security postures of generic cloud-based solutions because you control the data's location and access.",
+          "question": "Is a custom-built modeling tool secure for sensitive financial data?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance throughout the development process, including debugging and optimization suggestions. You also have access to community resources and documentation. For complex needs, you can engage independent developers or consultants as you own the code.",
+          "question": "What kind of support is available after I build my application?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your custom sales & revenue forecasting tool?",
+      "type": "cta",
+      "content": "Stop guessing and start predicting with confidence. Create a precise, powerful financial model that drives your business forward."
+    }
+  ],
+  "title": "Sales & Revenue Modeling Tools"
+}

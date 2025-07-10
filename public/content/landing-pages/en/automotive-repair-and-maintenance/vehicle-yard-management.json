@@ -1,0 +1,168 @@
+{
+  "defaultPrompt": "I want to create a vehicle yard management system that can track vehicle locations, status, key assignments, and automate movements within a large automotive repair facility.",
+  "description": "Optimize vehicle flow and organization within large automotive facilities with Kliv's custom yard management tools.",
+  "hero": {
+    "cta": "Start building your VYM",
+    "subtitle": "Gain complete control over vehicle movement, location, and status within your automotive repair and maintenance yard.",
+    "title": "Build your own Vehicle Yard Management (VYM) system"
+  },
+  "metaDescription": "Create powerful, custom vehicle yard management systems with Kliv. Track vehicles, manage key assignments, and optimize lot movements for automotive repair and maintenance facilities.",
+  "sections": [
+    {
+      "title": "The challenges of large automotive yards",
+      "type": "text",
+      "content": "Managing a large inventory of vehicles within a sprawling automotive repair or maintenance facility can be a logistical nightmare. Misplaced vehicles, lost keys, inefficient movements, and a lack of real-time status updates can lead to significant delays, frustrated customers, and lost revenue.\n\nOff-the-shelf solutions often fail to adapt to the unique layouts and operational processes of individual yards. They typically come with features you don't need and lack the critical ones you do, forcing you into expensive, rigid contracts. Building your own Vehicle Yard Management (VYM) system with Kliv allows you to design a solution that perfectly fits your specific needs, providing unparalleled efficiency and control."
+    },
+    {
+      "title": "Why a custom VYM system is essential for your business",
+      "type": "markdown",
+      "content": "## The pitfalls of manual and generic yard management\n\nMany automotive repair shops, dealerships, and maintenance centers still rely on whiteboards, spreadsheets, or cumbersome generic software to manage their vehicle yards. This often leads to:\n\n- **Lost vehicles:** Technicians spending valuable time searching for cars.\n- **Delayed service:** Inefficient movement causing bottlenecks in the repair process.\n- **Poor customer communication:** Inaccurate status updates leading to customer frustration.\n- **Security risks:** Improper key management and vehicle tracking.\n- **Suboptimal space utilization:** Inability to effectively use available parking.\n- **Recurring costs:** Expensive monthly fees for systems that don't fully deliver.\n\n## The advantages of a tailored VYM solution\n\nLeveraging Kliv to build your own VYM system provides a strategic advantage by offering:\n\n### Precision tracking and real-time visibility\nKnow the exact location and status of every vehicle in your yard at all times. Track its journey from arrival to departure, including service bays, wash stations, test drive areas, and customer pickup.\n\n### Optimized workflow efficiency\nDesign a system that streamlines your specific internal processes. Automate vehicle movement requests, technician assignments, and service stage updates, reducing idle time and accelerating throughput.\n\n### Enhanced security and accountability\nImplement robust key management, track who moved which vehicle when, and integrate with existing security systems to minimize risks and improve accountability within your team.\n\n### Cost savings and ownership\nUnlike subscription-based SaaS platforms, a custom VYM built with Kliv is a one-time investment. You own the software, eliminating recurring fees and allowing for unlimited scalability and modification without vendor lock-in.\n\n### Seamless integration\nYour VYM system can be built to integrate directly with your existing Dealer Management System (DMS), CRM, scheduling software, or customer communication platforms, creating a unified operational hub.\n\n## Real-world impact\n\nImagine the benefits for your operation:\n\n- **Reduced search time:** Technicians find vehicles instantly, increasing billable hours.\n- **Improved customer satisfaction:** Accurate, real-time updates for customers reduce wait times and improve trust.\n- **Faster turnarounds:** Optimized vehicle flow leads to quicker service completion.\n- **Better resource allocation:** Understand parking utilization and technician availability.\n\n## The Kliv difference\n\nBuilding complex internal tools has traditionally required significant IT resources or expensive consultants. Kliv's AI-powered platform makes it accessible for non-developers to create sophisticated, tailored solutions:\n\n- **Describe your needs:** Use plain language to outline your VYM requirements.\n- **Rapid iteration:** See your system come to life quickly and iterate based on feedback.\n- **Flexible deployment:** Your system can be deployed on a local network, a cloud server, or integrate with existing infrastructure.\n\nDon't let inefficient yard management hinder your operations. Build a VYM system that works exactly how you need it to, with Kliv."
+    },
+    {
+      "title": "VYM ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track vehicle locations and status in real-time across multiple zones.",
+          "prompt": "Create a real-time vehicle location tracker for a large service yard, allowing staff to update vehicle status (e.g., 'in bay 3', 'awaiting wash', 'ready for pickup') and assign parking spots.",
+          "title": "Real-time location and status tracker"
+        },
+        {
+          "description": "Manage vehicle keys efficiently with digital assignments.",
+          "prompt": "Build a key management system that links vehicle VINs to key fob locations, tracks who checked out which key, and sends alerts for unreturned keys or unauthorized access.",
+          "title": "Digital key management"
+        },
+        {
+          "description": "Automate vehicle movement tasks and technician assignments.",
+          "prompt": "Develop an automated vehicle movement dispatcher that receives requests from technicians, assigns lot attendants based on proximity and availability, and confirms successful vehicle relocation.",
+          "title": "Automated vehicle movement dispatcher"
+        },
+        {
+          "description": "Coordinate vehicle flow through different service stages.",
+          "prompt": "Design a service bay queue manager that shows the current occupancy of each service bay, estimates wait times, and provides prompts for moving vehicles to the next available bay or stage (e.g., waiting for parts, final inspection).",
+          "title": "Service bay workflow coordinator"
+        },
+        {
+          "description": "Integrate with customer systems for pickup notifications.",
+          "prompt": "Create a customer pickup readiness module that automatically notifies customers via SMS or email when their vehicle is ready, provides specific pickup instructions, and can prompt staff to retrieve the vehicle.",
+          "title": "Customer pickup notification system"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your VYM system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to log estimated completion times for repairs and send automated alerts if a vehicle goes beyond its expected service duration.",
+          "title": "Estimated time alerts"
+        },
+        {
+          "prompt": "Integrate with a mapping API to provide a visual, interactive map of the yard showing vehicle locations and available parking spots.",
+          "title": "Interactive yard map"
+        },
+        {
+          "prompt": "Implement QR code scanning for quick vehicle identification upon arrival and during movements.",
+          "title": "QR code vehicle scanning"
+        },
+        {
+          "prompt": "Add a reporting module that tracks average vehicle time in yard, movement efficiency, and identifies bottlenecks in the service process.",
+          "title": "Performance analytics dashboard"
+        },
+        {
+          "prompt": "Create an API endpoint for external systems (e.g., DMS, scheduling software) to send vehicle arrival notifications directly to the VYM.",
+          "title": "External system integration API"
+        },
+        {
+          "prompt": "Design a mobile companion app for yard attendants to update vehicle locations and status directly from their handheld devices.",
+          "title": "Mobile app for yard attendants"
+        },
+        {
+          "prompt": "Include a damage logging feature to record pre-existing vehicle damage upon arrival with photo upload capabilities.",
+          "title": "Integrated damage inspection"
+        }
+      ]
+    },
+    {
+      "title": "Essential VYM capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Track vehicle locations within defined yard zones or specific parking spots.",
+          "icon": "📍",
+          "title": "Location Tracking"
+        },
+        {
+          "description": "Update vehicle status (e.g., 'in service', 'waiting parts', 'ready for pickup') in real-time.",
+          "icon": "✅",
+          "title": "Status Management"
+        },
+        {
+          "description": "Assign and track keys, ensuring accountability and preventing losses.",
+          "icon": "🔑",
+          "title": "Key Assignment & Tracking"
+        },
+        {
+          "description": "Streamline internal requests for vehicle movements between service stages.",
+          "icon": "➡️",
+          "title": "Movement Requests"
+        },
+        {
+          "description": "Automate notifications to staff and customers based on vehicle status changes.",
+          "icon": "🔔",
+          "title": "Automated Notifications"
+        },
+        {
+          "description": "Record and manage vehicle entry and exit times with digital logs.",
+          "icon": "⏱️",
+          "title": "Arrival/Departure Logs"
+        },
+        {
+          "description": "Access historical data on vehicle movements and service duration for analysis.",
+          "icon": "📈",
+          "title": "Historical Data & Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building VYM with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom VYM with Kliv typically takes a few days to a few weeks, depending on the complexity and desired integrations. This is significantly faster than traditional software development cycles.",
+          "question": "How long does it take to create a VYM system with Kliv?"
+        },
+        {
+          "answer": "No, you don't need any coding skills. Kliv's platform allows you to describe your system in natural language, and our AI assists in generating the application. It's designed for business users and operations managers.",
+          "question": "Is coding knowledge required to build this kind of system?"
+        },
+        {
+          "answer": "Yes, your custom VYM can integrate with your existing DMS, CRM, accounting software, or other relevant systems through APIs. Our platform is built for flexibility and interoperability.",
+          "question": "Can my custom VYM integrate with my existing Dealer Management System (DMS)?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property. Kliv empowers you to build the solution; you retain all rights and control over your data and the developed application.",
+          "question": "Who owns the VYM system once it's built?"
+        },
+        {
+          "answer": "Yes, custom solutions are inherently scalable. You can add new features, adjust capacity, or integrate new technologies as your business grows, without being limited by a vendor's roadmap or pricing tiers.",
+          "question": "Is a custom VYM scalable for a growing business?"
+        },
+        {
+          "answer": "A custom VYM can be significantly more cost-effective in the long run. While there's an initial development cost, you avoid perpetual subscription fees, which often exceed the build cost within a few years. Plus, you get exactly what you need, avoiding wasted spend on unused features.",
+          "question": "How does the cost compare to purchasing an off-the-shelf VYM solution?"
+        },
+        {
+          "answer": "Yes, your VYM can be designed with robust security features, including custom user permissions, data encryption, and self-hosting options to control your data environment. You define the security protocols that best fit your needs.",
+          "question": "Can I ensure the security of sensitive vehicle and customer data?"
+        }
+      ]
+    },
+    {
+      "title": "Transform your yard operations today!",
+      "type": "cta",
+      "content": "Stop losing time and money due to inefficient yard management. Build a custom VYM that perfectly fits your operations, enhances efficiency, and boosts customer satisfaction."
+    }
+  ],
+  "title": "Vehicle Yard Management (VYM) Solutions"
+}

@@ -1,0 +1,170 @@
+{
+  "defaultPrompt": "I want to create an appointment scheduling application for a veterinary clinic that allows pet owners to book appointments online, sends automated reminders, and integrates with patient records.",
+  "description": "Build custom appointment scheduling applications for veterinary practices with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your scheduler",
+    "subtitle": "Create bespoke, AI-powered appointment scheduling solutions that fit your veterinary clinic's unique needs.",
+    "title": "Bespoke Appointment Scheduling for Vet Clinics"
+  },
+  "metaDescription": "Create powerful, custom appointment scheduling software for veterinary practices with Kliv. Streamline bookings, reduce no-shows, and improve client communication.",
+  "sections": [
+    {
+      "title": "The challenge of off-the-shelf scheduling tools",
+      "type": "text",
+      "content": "Running a veterinary practice involves managing complex schedules, accommodating urgent cases, and juggling client communications. Generic appointment scheduling software often falls short, forcing clinics to adapt their specific workflows to rigid systems. These tools rarely integrate seamlessly with existing patient management systems or offer the unique features a vet clinic truly needs, such as specialized appointment types or pet-specific information.\n\nKliv allows you to build a system that understands the nuances of veterinary care, from vaccinations to emergency surgeries, ensuring every appointment is optimally managed and communicated."
+    },
+    {
+      "title": "Why a custom scheduling solution is crucial for vet practices",
+      "type": "markdown",
+      "content": "## The pitfalls of standard scheduling software\n\nOff-the-shelf scheduling solutions often come with a one-size-fits-all approach that can hinder rather than help a busy veterinary clinic. They typically:\n\n- **Lack crucial veterinary-specific features**: No differentiated appointment types (e.g., puppy shots vs. senior check-ups), or species-specific scheduling rules.\n- **Offer poor integration**: Struggle to connect with existing electronic health records (EHR) or billing systems, leading to double data entry.\n- **Have inflexible communication options**: Limited ability to send tailored reminders, pre-appointment instructions (e.g., 'no food 12 hours before'), or practice updates.\n- **Incur continuous, rising costs**: Subscription fees add up, and you pay for features you don't need while missing those you do.\n- **Provide limited customization**: Cannot adapt to your specific clinic's flow, holiday schedules, or doctor specializations.\n\n## The undeniable benefits of a custom-built solution\n\nLeveraging platforms like Kliv to build your own system offers unparalleled advantages, tailored specifically for veterinary practice management:\n\n### Perfect alignment with clinical workflows\nYour clinic has unique operating procedures. A custom scheduler can be designed to match your specific appointment types, room availability, equipment needs, and doctor specializations, ensuring optimal efficiency.\n\n### Seamless integration with existing systems\nConnect directly with your patient EHR, billing, and inventory systems. Eliminate manual data entry, reduce errors, and ensure all information is up-to-date across platforms.\n\n### Enhanced client experience and communication\nOffer online booking 24/7, customized email/SMS reminders, pre-visit forms, and post-appointment instructions. Improve client satisfaction and significantly reduce no-shows.\n\n### Cost-effectiveness and ownership\nMove from recurring, escalating subscription fees to a one-time build cost. You own the software, control its evolution, and aren't subject to vendor price increases or feature changes.\n\n### Scalability and adaptability\nAs your practice grows or its needs change, your custom scheduler can evolve with you. Easily add new services, doctors, locations, or integrate new technologies without vendor limitations.\n\n## Real-world impact in veterinary settings\n\nCustom scheduling tools powered by AI are transforming how vet clinics operate:\n\n**Small Animal Clinic**: Implemented an online booking portal that automatically assigned pets to appropriate veterinarians based on species and previous visit history, reducing front desk call volume by 30%.\n\n**Specialty Referral Hospital**: Developed a complex scheduling system for surgery suites, integrating equipment availability, anesthesiologist schedules, and pre-op requirements for different procedures, minimizing conflicts.\n\n**Mobile Vet Service**: Built a dynamic route optimization scheduler that grouped appointments by geographical area, saving fuel costs and increasing daily patient capacity.\n\n**Emergency Vet Clinic**: Created a triaging scheduler that allowed clients to describe emergencies online, pre-assigning severity levels and notifying staff, improving intake efficiency during critical moments.\n\n## The Kliv advantage in building your scheduler\n\nBuilding sophisticated software used to require a dedicated development team. Kliv changes this paradigm by offering:\n\n- **Intuitive, natural language interface**: Describe the scheduling features you need in plain English.\n- **Rapid prototyping and deployment**: See a working version of your scheduler in days, not months.\n- **Intelligent suggestions**: Kliv's AI assists in optimizing complex scheduling logic and user flows.\n- **Built-in reliability**: AI-assisted testing ensures your application is robust and error-free.\n\n## Taking the next step\n\nStop compromising with generic software. Invest in a scheduling system that is as dedicated and specialized as your veterinary practice. With Kliv, building your custom appointment scheduler is more accessible and efficient than ever. Give your clients and staff the best tool available—one you designed yourself."
+    },
+    {
+      "title": "Appointment scheduling ideas for vet clinics",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Allow clients to book standard consultations online, selecting doctor preferences and visit reasons.",
+          "prompt": "Create an online booking system for general veterinarian appointments that lets clients choose their preferred vet and specify the reason for the visit (e.g., annual check-up, vaccination).",
+          "title": "Basic Online Booking Portal"
+        },
+        {
+          "description": "Automate reminders and pre-visit instructions via email and SMS.",
+          "prompt": "Build a system that automatically sends appointment reminders via email and SMS 24-hours and 1-hour before the scheduled time, including specific instructions for the type of appointment (e.g., 'no food for 12 hours').",
+          "title": "Automated Communication System"
+        },
+        {
+          "description": "Optimize scheduling for surgical procedures and special equipment.",
+          "prompt": "Develop a complex scheduling module for surgical procedures, requiring specific operating room availability, required equipment, and pre-approval from a surgeon, blocking out appropriate recovery times.",
+          "title": "Surgical Schedule Manager"
+        },
+        {
+          "description": "Manage multi-pet households and track individual pet records.",
+          "prompt": "Design a client portal where pet owners can manage multiple pets, view their individual vaccination histories, and book separate appointments for each animal under one account.",
+          "title": "Pet Owner Account Portal"
+        },
+        {
+          "description": "Integrate scheduling with in-house patient records.",
+          "prompt": "Create a system that integrates appointment bookings directly into our existing patient management software, automatically logging appointment details and linking to pet records.",
+          "title": "EHR Integration Scheduler"
+        },
+        {
+          "description": "Handle walk-ins and emergencies within the existing schedule.",
+          "prompt": "Build a dynamic queue management system for walk-in and emergency appointments, allowing reception to prioritize critical cases and display estimated wait times to clients.",
+          "title": "Emergency & Walk-in Queue"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your veterinary scheduling tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for clients to upload pre-visit forms or medical history directly through the online portal before their appointment.",
+          "title": "Pre-visit Form Uploads"
+        },
+        {
+          "prompt": "Incorporate a payment processing module for clients to pay for deposits or pre-pay for certain services during online booking.",
+          "title": "Online Deposit/Payment Option"
+        },
+        {
+          "prompt": "Implement a 'waitlist' feature for fully booked slots, automatically notifying clients if an earlier appointment becomes available.",
+          "title": "Automated Waitlist Management"
+        },
+        {
+          "prompt": "Develop a system for staff to manage recurring appointments or series of treatments (e.g., chemotherapy, laser therapy) for specific pets.",
+          "title": "Recurring Treatment Series Management"
+        },
+        {
+          "prompt": "Add a module for staff to schedule, track, and manage home visits or mobile clinic appointments, including route optimization.",
+          "title": "Mobile Clinic & Home Visit Scheduling"
+        },
+        {
+          "prompt": "Integrate with a prescription fulfillment system to automatically prepare medication for pick-up after certain types of appointments.",
+          "title": "Prescription Integration"
+        },
+        {
+          "prompt": "Build an internal communication feature so vets and vet techs can share notes or special instructions about upcoming appointments.",
+          "title": "Internal Staff Communication"
+        }
+      ]
+    },
+    {
+      "title": "Core Features for Veterinary Scheduling",
+      "type": "features",
+      "items": [
+        {
+          "icon": "📆",
+          "title": "Online Booking & Availability Display"
+        },
+        {
+          "icon": "🐾",
+          "title": "Pet & Owner Profile Management"
+        },
+        {
+          "icon": "🔔",
+          "title": "Automated Reminders & Notifications"
+        },
+        {
+          "icon": "🔗",
+          "title": "EHR & Practice Management Integration"
+        },
+        {
+          "icon": "✨",
+          "title": "Customizable Appointment Types"
+        },
+        {
+          "icon": "📊",
+          "title": "Reporting & Analytics (No-show rates, utilization)"
+        },
+        {
+          "icon": "🔒",
+          "title": "Secure Data Handling (Client & Pet Info)"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic, functional appointment scheduler for your vet clinic can be drafted and made operational within a few hours to a day. More complex systems with deep integrations might take several days of refinement.",
+          "question": "How quickly can I build a working appointment scheduler for my vet clinic?"
+        },
+        {
+          "answer": "No coding experience is necessary. Kliv's platform allows you to describe your desired features and workflows using natural language. The AI interprets this to generate the application.",
+          "question": "Do I need to be a software developer or have coding knowledge?"
+        },
+        {
+          "answer": "Yes, flexibility is a key advantage. Your custom application can be designed to interface with most existing veterinary practice management systems, EHRs, or billing software through their APIs.",
+          "question": "Can the custom scheduler integrate with my current veterinary software (PMS, EHR)? "
+        },
+        {
+          "answer": "You retain full ownership of the application, its data, and its code. You have complete control over where it's hosted and how it evolves, without vendor lock-in.",
+          "question": "Who owns the custom-built scheduling application and its data?"
+        },
+        {
+          "answer": "While there's an initial investment in building, a custom solution eliminates ongoing subscription fees common with SaaS platforms. Over time, this often results in significant cost savings, plus you get a tool perfectly suited to your needs, unlike generic options.",
+          "question": "How does the cost compare to typical subscription-based scheduling software?"
+        },
+        {
+          "answer": "Absolutely. Veterinary practices evolve, and your custom scheduler can too. You can easily add new features, adjust appointment types, or change workflows as your clinic's needs change over time.",
+          "question": "Can I modify or expand the scheduling tool after it's initially built?"
+        },
+        {
+          "answer": "Kliv assists with generating a secure application. Custom-built solutions often offer more control over data security and privacy protocols than third-party SaaS vendors, as you decide the hosting and security measures.",
+          "question": "Is a custom-built scheduling application secure for sensitive client and pet data?"
+        },
+        {
+          "answer": "Kliv provides AI-driven assistance throughout the building process, offering suggestions, debugging help, and optimization tips. For specific technical questions, you'll have access to our support resources to guide you.",
+          "question": "What kind of support is available if I encounter issues during the build?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to tailor your clinic's scheduling?",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Build an appointment scheduler that makes your veterinary practice more efficient and client-friendly."
+    }
+  ],
+  "title": "Veterinary Appointment Scheduling Software"
+}

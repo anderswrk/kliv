@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to build a web scraping tool that can extract product names, prices, and reviews from multiple e-commerce websites and store them in a database.",
+  "description": "Build custom web scraping and data extraction tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start scraping",
+    "subtitle": "Create powerful, custom web scraping and data extraction applications tailored to your specific needs, powered by Kliv's AI platform.",
+    "title": "Build your own web scraping tools"
+  },
+  "metaDescription": "Create powerful web scraping and data extraction tools with Kliv. Automate data collection, monitor websites, and gain insights with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build a custom web scraping tool?",
+      "type": "text",
+      "content": "In today's data-driven world, access to timely and accurate information is a competitive advantage. While general-purpose scraping tools exist, they often fall short when faced with complex website structures, aggressive anti-scraping measures, or highly specific data requirements.\n\nBuilding your own web scraping and data extraction tool gives you unparalleled flexibility, control, and efficiency. You can design it to perfectly fit your data needs, bypass common limitations, and ensure data quality, all while maintaining full ownership of your intellectual property and infrastructure."
+    },
+    {
+      "title": "The power of custom data extraction",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf scrapers\n\nGeneric web scraping services and software often come with significant drawbacks:\n\n- **Lack of flexibility**: They struggle with custom website layouts, dynamic content, or CAPTCHAs.\n- **Pricing models**: Per-request or per-data-point pricing can quickly become prohibitively expensive for large scale operations.\n- **Scalability issues**: General tools might not scale efficiently for high-volume or high-frequency data collection.\n- **Data quality**: Pre-built parsers might not extract data with the precision or formatting you require.\n- **Dependence**: You're reliant on a third-party for updates, maintenance, and handling complex cases.\n\n## Why a tailored solution excels\n\nWith Kliv, you can create a purpose-built web scraping and data extraction tool that offers:\n\n### Precision data capture\nTarget exact elements on a page, handle nuanced data types (e.g., product variations, nested comments), and clean/transform data during extraction to ensure it's ready for immediate use.\n\n### Resilience to website changes\nDesign your scraper to adapt to minor website layout changes or implement self-healing logic, reducing maintenance overhead compared to brittle pre-configured scrapers.\n\n### Advanced anti-blocking techniques\nIncorporate sophisticated strategies like IP rotation, user-agent management, headless browser control, and CAPTCHA solving to overcome common anti-scraping measures.\n\n### Cost efficiency at scale\nOnce built, your custom tool incurs only hosting and operational costs, offering significant long-term savings over subscription-based services, especially for high-volume data needs.\n\n### Complete data ownership\nAll extracted data is yours, stored where you choose, integrated directly into your analytical systems, and never shared with third parties.\n\n## Real-world applications of custom scrapers\n\nCustom web scraping solutions are invaluable across many sectors:\n\n**E-commerce**: Monitoring competitor pricing, tracking product availability, or aggregating product reviews from various platforms.\n\n**Finance**: Collecting real-time stock prices, news sentiment analysis, or tracking financial indicators from public sources.\n\n**Real Estate**: Aggregating property listings, rental prices, or market trends from multiple listing services.\n\n**Marketing**: Gathering lead information, monitoring brand mentions, or tracking advertising placements across the web.\n\n**Research**: Collecting large datasets for academic studies, market analysis, or competitive intelligence.\n\n## The Kliv advantage in building scrapers\n\nKliv leverages AI to simplify complex development tasks, making custom web scraping accessible:\n\n- **Natural language prompts**: Describe the data you need and the websites to scrape, and the AI assists in generating the core logic.\n- **Visual configuration**: Often, you can 'point and click' to define data points on sample pages, and the AI translates that into code.\n- **Automated setup**: Kliv can help configure necessary proxies, headless browsers, and scheduling tools.\n- **Scalability options**: Easily deploy your scraper to handle millions of pages or continuous real-time data streams.\n\nDon't settle for limited data. Build the exact scraping tool you need with Kliv and unlock the web's vast information potential."
+    },
+    {
+      "title": "Web scraping ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Monitor competitor product information and pricing",
+          "prompt": "Create a web scraper that visits specific e-commerce product pages daily, extracts the product name, SKU, current price, and stock availability, and uploads this data to a Google Sheet.",
+          "title": "Competitor Price Tracker"
+        },
+        {
+          "description": "Aggregate job postings from various platforms",
+          "prompt": "Build a job board aggregator that scrapes job titles, company names, locations, and application links from three major job portals and stores them in a searchable database, updated hourly.",
+          "title": "Job Market Monitor"
+        },
+        {
+          "description": "Extract financial news for sentiment analysis",
+          "prompt": "Develop a tool that scrapes the headlines and article bodies from major financial news websites every 15 minutes, identifies keywords related to specific companies, and stores the text content for sentiment analysis.",
+          "title": "Financial News Harvester"
+        },
+        {
+          "description": "Collect academic research for literature reviews",
+          "prompt": "Design a scraper that searches a university's publication database for papers on 'machine learning in healthcare', extracts paper titles, authors, abstracts, and publication dates, and exports them to a CSV file.",
+          "title": "Academic Paper Collector"
+        },
+        {
+          "description": "Track brand mentions across social media or forums",
+          "prompt": "Create a tool that monitors popular forums and social media sites for mentions of our brand name, extracts the exact text of the mention, the platform, and the URL of the post, and reports daily.",
+          "title": "Brand Mention Tracker"
+        },
+        {
+          "description": "Gather product review data for analysis",
+          "prompt": "Build a scraper that visits Amazon product review pages, extracts the reviewer name, star rating, review title, and full review text for a given product ID, handling pagination and storing data in a JSON file.",
+          "title": "Product Review Extractor"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your scraper",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to handle rotating proxies to avoid IP blocking and improve scraping reliability.",
+          "title": "Implement Proxy Rotation"
+        },
+        {
+          "prompt": "Integrate a CAPTCHA solving service (like 2Captcha or Anti-CAPTCHA) into the scraper to automatically bypass CAPTCHAs.",
+          "title": "Add CAPTCHA Solving"
+        },
+        {
+          "prompt": "Build a web-based dashboard to monitor the scraper's real-time progress, extracted data volumes, and error logs.",
+          "title": "Create Monitoring Dashboard"
+        },
+        {
+          "prompt": "Modify the scraper to use headless browser automation (e.g., Playwright) for scraping dynamic content loaded by JavaScript.",
+          "title": "Handle Dynamic Content"
+        },
+        {
+          "prompt": "Add scheduling capabilities so the scraper runs automatically every 4 hours or on specific days of the week.",
+          "title": "Implement Scheduling"
+        },
+        {
+          "prompt": "Integrate an email notification system to send alerts if the scraper encounters errors or fails to extract data for 24 hours.",
+          "title": "Add Error Notifications"
+        },
+        {
+          "prompt": "Include data validation steps to ensure extracted prices are numerical or dates are in a correct format before saving.",
+          "title": "Implement Data Validation"
+        },
+        {
+          "prompt": "Add a feature to archive a copy of the raw HTML of scraped pages for future debugging or re-extraction.",
+          "title": "Archive Raw HTML"
+        },
+        {
+          "prompt": "Build an API endpoint for the scraper so other internal applications can trigger scraping jobs and retrieve data programmatically.",
+          "title": "Expose API Endpoint"
+        }
+      ]
+    },
+    {
+      "title": "Essential scraping features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define specific data points for extraction using CSS selectors or XPaths.",
+          "icon": "📝",
+          "title": "Precision Selectors"
+        },
+        {
+          "description": "Automate interactions like clicks, form submissions, and scrolling to load dynamic content.",
+          "icon": "🤖",
+          "title": "Browser Automation"
+        },
+        {
+          "description": "Manage IP addresses and user agents to avoid detection and blocking.",
+          "icon": "🔒",
+          "title": "Anti-Blocking Measures"
+        },
+        {
+          "description": "Store extracted data in various formats: CSV, JSON, databases (SQL/NoSQL).",
+          "icon": "💾",
+          "title": "Flexible Storage"
+        },
+        {
+          "description": "Schedule scraping jobs to run at specific intervals or on demand.",
+          "icon": "⏰",
+          "title": "Automated Scheduling"
+        },
+        {
+          "description": "Transform and clean data during extraction (e.g., removing HTML tags, formatting dates).",
+          "icon": "✨",
+          "title": "Data Transformation"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform significantly reduces development time. A basic, functional web scraper can often be built and deployed in hours, while more complex, large-scale systems might take a few days to refine.",
+          "question": "How quickly can I build a custom web scraper?"
+        },
+        {
+          "answer": "No, you don't need to be a coding expert. Kliv's AI-powered interface allows you to describe your scraping needs in natural language. The platform assists in generating the necessary code and configurations.",
+          "question": "Do I need coding skills to build a web scraper with Kliv?"
+        },
+        {
+          "answer": "Your custom scraper can integrate with almost any data storage or analysis system that has an API or standard data formats. This includes databases like PostgreSQL, MongoDB, cloud storage, analytical tools, or even custom dashboards.",
+          "question": "Can the extracted data integrate with my existing systems?"
+        },
+        {
+          "answer": "You own 100% of the code and the extracted data. Kliv provides the tools to build, but you maintain full control and ownership of the resulting application and its output.",
+          "question": "Who owns the web scraper and the data extracted?"
+        },
+        {
+          "answer": "Building a custom scraper with Kliv is typically a one-time development and deployment investment, followed by ongoing infrastructure costs (e.g., hosting, proxies). This often proves more cost-effective in the long run than recurring subscription fees for third-party scraping services, especially at scale.",
+          "question": "Is building a custom scraper more cost-effective than using a service?"
+        },
+        {
+          "answer": "Absolutely. One of the main benefits of building with Kliv is the complete flexibility. You can easily modify scraping rules, add new target websites, implement new anti-blocking techniques, or change data output formats as your needs evolve.",
+          "question": "Can I modify my scraper after it's built?"
+        },
+        {
+          "answer": "Custom scrapers can be designed with enhanced security. You control data flow, storage, and access permissions. This often means less exposure to third-party vulnerabilities compared to sharing data with external scraping services.",
+          "question": "How secure are custom-built web scrapers?"
+        },
+        {
+          "answer": "Kliv offers built-in tools for monitoring scraper performance and debugging errors. Since you have access to the underlying code, troubleshooting is more transparent than with black-box services. The Kliv community and documentation also provide extensive support.",
+          "question": "What kind of support is available for maintaining the scraper?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unlock the web's data?",
+      "type": "cta",
+      "content": "Stop relying on limited, generic tools. Build the precise web scraping solution your business needs with Kliv's AI-powered development."
+    }
+  ],
+  "title": "Web scraping & data extraction"
+}

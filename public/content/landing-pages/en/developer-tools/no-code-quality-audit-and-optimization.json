@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a quality audit tool that can scan code repositories, identify common anti-patterns or inefficiencies, suggest optimizations, and track compliance with coding standards.",
+  "description": "Build custom code quality audit and optimization tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start optimizing",
+    "subtitle": "Ensure code quality and efficiency with custom-built audit and optimization applications powered by AI.",
+    "title": "Build your own code quality audit tools"
+  },
+  "metaDescription": "Create powerful code quality audit and optimization tools with Kliv. Scan repositories, identify issues, suggest improvements, and ensure coding standards are met with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own code quality audit tool?",
+      "type": "text",
+      "content": "In software development, maintaining high code quality is crucial for scalability, maintainability, and security. However, off-the-shelf static analysis tools often fall short, either being too generic, too complex to configure, or missing the nuances of your specific codebase and standards.\n\nWith AI-powered platforms like Kliv, developers and teams can now build highly customized code quality audit and optimization tools that precisely fit their needs. This means you own the logic, define the rules, and integrate seamlessly with your existing development workflows, rather than adapting to a third-party's limitations."
+    },
+    {
+      "title": "The case for custom code quality solutions",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf tools\n\nGeneric code quality tools, while useful, often present significant challenges:\n\n- **One-size-fits-all rules**: They use predefined rule sets that may not align with your project's specific coding standards, architectural patterns, or technical debt.\n- **Integration complexity**: Customizing their integration into CI/CD pipelines can be cumbersome, leading to friction in development workflows.\n- **Overwhelm and noise**: They can generate a high volume of irrelevant warnings, leading to 'alert fatigue' and obscuring critical issues.\n- **Lack of context**: They rarely understand the unique context of your business logic or domain-specific anti-patterns.\n- **Cost**: Licensing fees for enterprise-grade tools can be prohibitive, especially for multiple projects or growing teams.\n\n## Why custom-built is superior\n\nLeveraging AI platforms to build your own code quality tooling offers significant advantages:\n\n### Tailored to your codebase\nDefine custom rules based on your team's specific coding guidelines, architectural decisions, and common pitfalls. Catch issues that generic tools miss.\n\n### Seamless workflow integration\nBuild tools that natively integrate with your version control system, CI/CD pipeline, and project management tools, triggering scans and presenting results exactly where developers need them.\n\n### Actionable insights, not just warnings\nMove beyond simply flagging errors to providing context-aware suggestions for refactoring, performance optimization, and security hardening, tailored by AI.\n\n### Cost-effective ownership\nA custom solution is a one-time development investment, eliminating recurring subscription costs and providing complete control over maintenance and future enhancements.\n\n### Competitive advantage\nDevelop unique quality gates and optimization strategies that differentiate your development process and product quality from competitors.\n\n## Real-world applications\n\nCustom code quality and optimization tools can revolutionize your development process:\n\n**Legacy code refactoring**: Automatically identify sections of an old codebase that are overly complex, use deprecated APIs, or have high cyclomatic complexity, and suggest modern refactoring approaches.\n\n**Security vulnerability scanning**: Create scanners focused on specific vulnerabilities relevant to your tech stack (e.g., SQL injection patterns in Python, XSS in JavaScript frameworks) that integrate directly into pull request reviews.\n\n**Performance bottleneck identification**: Analyze code for common performance anti-patterns (e.g., N+1 queries, inefficient loops, excessive resource consumption) and recommend optimized alternatives.\n\n**Coding standard compliance**: Build a tool that enforces internal style guides, naming conventions, and documentation requirements across all repositories, providing immediate feedback during development.\n\n**Architectural adherence checks**: Automatically verify that new code adheres to predefined architectural layers, module dependencies, or microservices communication patterns.\n\n## The AI advantage\n\nBuilding custom developer tools doesn't require a dedicated engineering team anymore. Kliv's AI-powered platform makes it accessible:\n\n- **Natural language definition**: Describe the quality rules or optimizations you need in plain English, and the AI assists in building the scanner logic.\n- **Rapid prototyping**: Get a working prototype of your audit tool much faster, allowing for quick iteration and refinement.\n- **Intelligent issue analysis**: AI can provide smarter, more context-rich suggestions for fixes, rather than just pointing out problems.\n- **Automated setup**: Minimize boilerplate and setup time with AI-driven configuration for integrations and rule definitions."
+    },
+    {
+      "title": "Code quality audit ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Catch common coding violations before they merge",
+          "prompt": "Create a Python code quality tool that checks for unused imports, variable shadowing, and functions exceeding 50 lines, and integrates with a GitHub pull request to add comments.",
+          "title": "Python Style Guide Enforcer"
+        },
+        {
+          "description": "Identify and recommend refactoring for complex functions",
+          "prompt": "Build a JavaScript complexity analyzer that identifies functions with a cyclomatic complexity greater than 10, suggests breaking them into smaller units, and lists them in a dashboard.",
+          "title": "JavaScript Complexity Auditor"
+        },
+        {
+          "description": "Ensure your services talk the way they should",
+          "prompt": "Develop an architectural validation tool for a microservices application that verifies if service A can only call service B via its public API gateway, and reports any direct database access attempts.",
+          "title": "Microservices Communication Validator"
+        },
+        {
+          "description": "Pinpoint and suggest fixes for common performance issues",
+          "prompt": "Create a Java performance optimizer that flags inefficient database queries, unoptimized loops, and excessive object creation in real-time within an IDE plugin, suggesting common best practices.",
+          "title": "Java Performance Recommendation Engine"
+        },
+        {
+          "description": "Review and suggest improvements for database schema changes",
+          "prompt": "Build a SQL schema change reviewer that analyzes proposed database migrations for potential performance impacts, missing indexes, and ensures foreign key constraints are used correctly.",
+          "title": "SQL Schema Change Auditor"
+        },
+        {
+          "description": "Track the decay of your codebase over time",
+          "prompt": "Design a technical debt tracker that quantifies code smells, duplicated code, and test coverage across different repositories, visualizing trends over time on a centralized dashboard.",
+          "title": "Automated Technical Debt Dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your quality tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Extend the tool to provide automatic refactoring suggestions, not just reports.",
+          "title": "Add auto-refactoring capabilities"
+        },
+        {
+          "prompt": "Integrate the quality tool directly into your CI/CD pipeline to block merges based on failed checks.",
+          "title": "Implement CI/CD gate integration"
+        },
+        {
+          "prompt": "Add a feature to analyze the impact of changes on performance or security before deployment.",
+          "title": "Include pre-deployment impact analysis"
+        },
+        {
+          "prompt": "Allow developers to customize rule sets using a simple configuration file or a graphical user interface.",
+          "title": "Enable custom rule definitions"
+        },
+        {
+          "prompt": "Build a historical trend analysis module to track code quality metrics over time and identify decaying areas.",
+          "title": "Develop trend analysis and reporting"
+        },
+        {
+          "prompt": "Integrate with project management tools (e.g., Jira) to automatically create tickets for identified high-priority issues.",
+          "title": "Connect to project management tools"
+        },
+        {
+          "prompt": "Add a module that leverages machine learning to identify novel anti-patterns based on past bug reports and code changes.",
+          "title": "Incorporate AI-driven anomaly detection"
+        },
+        {
+          "prompt": "Create a web-based dashboard and API for centralized management and programmatic access to audit results.",
+          "title": "Build a centralized dashboard and API"
+        }
+      ]
+    },
+    {
+      "title": "Key quality audit features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automatically scan code repositories for predefined or custom quality rules.",
+          "icon": "🔍",
+          "title": "Automated Code Scanning"
+        },
+        {
+          "description": "Define and enforce custom coding standards and architectural patterns specific to your projects.",
+          "icon": "📐",
+          "title": "Custom Rule Engine"
+        },
+        {
+          "description": "Generate detailed reports with actionable insights and intelligent suggestions for code improvement.",
+          "icon": "📈",
+          "title": "Smart Reporting & Suggestions"
+        },
+        {
+          "description": "Seamlessly integrate with Git, CI/CD pipelines, and project management systems.",
+          "icon": "🔗",
+          "title": "Workflow Integration"
+        },
+        {
+          "description": "Track historical code quality metrics and visualize trends over time to monitor improvements or regressions.",
+          "icon": "📊",
+          "title": "Historical Metrics & Trending"
+        },
+        {
+          "description": "Identify and prioritize critical security vulnerabilities, performance bottlenecks, and maintainability issues.",
+          "icon": "🛡️",
+          "title": "Prioritized Issue Detection"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic code quality audit tool can take a few hours to a couple of days, depending on the complexity of the rules and integrations. More sophisticated systems with custom AI models might take longer to train and refine.",
+          "question": "How long does it take to build a custom code quality tool?"
+        },
+        {
+          "answer": "You don't need to be a coding expert. Kliv's platform allows you to describe your desired audit rules and functionality using natural language. The AI translates this into working code and helps you configure integrations.",
+          "question": "Is coding knowledge required to build these tools?"
+        },
+        {
+          "answer": "Yes, your custom tool can integrate with popular Git platforms (GitHub, GitLab, Bitbucket), CI/CD tools (Jenkins, CircleCI, GitHub Actions), and project management systems (Jira, Asana) via APIs.",
+          "question": "Can I integrate the tool with my existing development environment?"
+        },
+        {
+          "answer": "All code and logic generated are yours. You retain full ownership, can host it wherever you prefer, and have complete control over its modification and distribution.",
+          "question": "Who owns the code and intellectual property of the tool I build?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are designed for flexibility. You can easily add new rules, modify existing checks, or integrate with new systems as your project requirements or coding standards evolve.",
+          "question": "Can I modify the audit rules and features after the tool is built?"
+        },
+        {
+          "answer": "Yes, since you control the tool's deployment and data handling, you can ensure it adheres to your organization's specific security and compliance requirements. sensitive code never leaves your trusted environment.",
+          "question": "How secure are custom-built quality audit tools?"
+        },
+        {
+          "answer": "Unlike SaaS tools with recurring fees, building with Kliv is a one-time development cost, often significantly lower in the long run. There are no per-user fees or enterprise licensing costs once built.",
+          "question": "How does the cost compare to commercial code quality SaaS solutions?"
+        },
+        {
+          "answer": "Yes, Kliv provides AI-assisted development, debugging, and optimization suggestions throughout the building process. The community and documentation also offer extensive resources for support.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to elevate your code quality?",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Build a code quality solution that perfectly understands and enforces your specific standards, faster than ever before."
+    }
+  ],
+  "title": "Code quality audit and optimization tools"
+}

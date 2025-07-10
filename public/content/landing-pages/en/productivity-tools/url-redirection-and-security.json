@@ -1,0 +1,177 @@
+{
+  "defaultPrompt": "I want to create a URL shortener that includes custom vanity URLs, click analytics, and built-in security features to detect and block malicious links.",
+  "description": "Build custom URL redirection and security applications that protect users and provide insights.",
+  "hero": {
+    "cta": "Start building your secure redirector",
+    "subtitle": "Create robust, custom URL redirection and security tools with Kliv's AI-powered platform.",
+    "title": "Build your own secure URL redirector"
+  },
+  "metaDescription": "Develop powerful URL redirection and security tools with Kliv. Enhance branding, track clicks, and safeguard users from malicious links with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own URL redirection and security tool?",
+      "type": "text",
+      "content": "In a world of increasing cyber threats and fragmented online experiences, a simple URL shortener isn't enough. Businesses, marketers, and developers often need more: custom branding, detailed analytics, and, crucially, robust security to protect their users from phishing, malware, and spam.\n\nWhile generic URL shorteners offer basic functionality, they rarely provide the deep customization, brand control, and integrated security features necessary for professional use. Building a custom solution gives you complete control over your links, your data, and your users' safety, all while avoiding recurring subscription costs."
+    },
+    {
+      "title": "The case for a custom secure URL redirector",
+      "type": "markdown",
+      "content": "## Beyond basic shortening\n\nOff-the-shelf URL shorteners come with several limitations:\n\n- **No Custom Branding**: Often, you're stuck with their domain, which dilutes your brand identity.\n- **Limited Analytics**: Basic click counts, but rarely geographical data, referrer insights, or conversion tracking.\n- **Security Gaps**: Few offer active threat detection or real-time malicious link blocking.\n- **Data Ownership**: Your data is theirs, not yours.\n- **Recurring Costs**: Features add up with monthly fees, especially for premium analytics or custom domains.\n\n## Advantages of a custom-built solution\n\nUsing Kliv to build your own secure URL redirector provides unparalleled benefits:\n\n### Brand Consistency\nOwn your short URLs with custom domains. Reinforce your brand with every link shared, increasing trust and recognition.\n\n### Advanced Analytics\nGo beyond simple clicks. Track geographical data, device types, referrer sources, and even conversion events. Understand your audience better and optimize your campaigns.\n\n### Integrated Security\nImplement real-time threat detection, block known malicious URLs, and warn users about suspicious links before they click. Protect your brand reputation and your users.\n\n### Data Control & Privacy\nYour data remains yours. Host your application and analytics on your own infrastructure, ensuring compliance with privacy regulations and maintaining full data control.\n\n### Cost Efficiency\nEliminate monthly subscription fees. A custom tool built with Kliv is a one-time investment that serves your needs indefinitely, scaling as you grow without increasing operational costs.\n\n### API & Integration Ready\nBuilt for integration. Easily connect your custom redirector to your CRM, marketing automation platforms, or internal systems for seamless link generation and tracking.\n\n## Real-world applications\n\nCustom secure URL redirectors can revolutionize various aspects of online presence:\n\n**Marketing Campaigns**: Generate unique, branded tracking links for every campaign, segment, or channel. Analyze performance with granular detail.\n\n**Affiliate Programs**: Create custom affiliate links with built-in fraud detection and precise conversion attribution.\n\n**Security Teams**: Develop internal tools to sanitize URLs from emails or documents, flagging suspicious links before employees interact with them.\n\n**Content Publishers**: Manage vast libraries of short links for articles, downloads, and multimedia, ensuring broken links are a thing of the past and providing engagement metrics.\n\n**Customer Support**: Generate trackable, secure links for support tickets, ensuring customers click on safe, relevant resources and allowing agents to confirm link access.\n\n## The Kliv advantage in building secure tools\n\nKliv leverages AI to make custom software development accessible. For something as critical as URL redirection with security, this means:\n\n- **Rapid Development**: Go from concept to functional application in days, not months.\n- **Built-in Security Best Practices**: AI assists in implementing robust security features, reducing common vulnerabilities.\n- **Scalability**: Design your application to handle millions of redirects without performance degradation.\n- **Flexibility**: Easily add new features like A/B testing redirects, geofencing, or time-based expiration.\n\nInstead of shoehorning your needs into a generic service, build a solution that perfectly fits your requirements with Kliv."
+    },
+    {
+      "title": "Secure URL Redirection ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create branded, trackable links for marketing campaigns.",
+          "prompt": "Build a branded URL shortener service that allows users to create custom short links with our domain, provides click analytics (total clicks, unique clicks, geographic data), and detects phishing URLs.",
+          "title": "Marketing Campaign Link Manager"
+        },
+        {
+          "description": "Automate redirection rules for A/B testing and dynamic content.",
+          "prompt": "Develop a dynamic URL redirector that can route users to different landing pages based on their location, device type, or a predefined A/B testing ratio, with real-time performance monitoring.",
+          "title": "Geo-targeted & A/B Testing Redirector"
+        },
+        {
+          "description": "Protect internal links from malicious content.",
+          "prompt": "Set up a corporate URL sanitization tool that scans all outbound links from internal documents and emails for known malware and phishing sites, blocking access and alerting IT if a threat is detected.",
+          "title": "Corporate Link Security Gateway"
+        },
+        {
+          "description": "Generate private, secure links for sensitive documents or portals.",
+          "prompt": "Create a secure file-sharing link generator that produces unique, time-sensitive URLs for private documents, includes password protection, and logs every access attempt for auditing purposes.",
+          "title": "Secure Document Sharing Links"
+        },
+        {
+          "description": "Manage affiliate links with advanced tracking and fraud prevention.",
+          "prompt": "Build an affiliate link management platform that allows partners to generate unique links, tracks conversions and payouts, and includes features to identify and prevent click fraud.",
+          "title": "Advanced Affiliate Link Tracker"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your redirector tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now add real-time threat intelligence integration to automatically update lists of malicious domains.",
+          "title": "Integrate real-time threat feeds"
+        },
+        {
+          "prompt": "Add a feature to automatically archive or delete old, unused, or expired short URLs with their associated data.",
+          "title": "Implement link lifecycle management"
+        },
+        {
+          "prompt": "Create user roles and permissions so different team members can view, create, or manage links with specific access levels.",
+          "title": "Add role-based access control"
+        },
+        {
+          "prompt": "Build an API so other applications can programmatically create, manage, and retrieve analytics for short links.",
+          "title": "Develop a RESTful API"
+        },
+        {
+          "prompt": "Integrate with Google Analytics or other web analytics platforms to push click data for deeper insights.",
+          "title": "Connect to external analytics"
+        },
+        {
+          "prompt": "Add a feature to analyze the content of the target URL for suspicious keywords or patterns before creating the short link.",
+          "title": "Pre-scan target link content"
+        },
+        {
+          "prompt": "Allow users to attach UTM parameters automatically when generating new short links for campaign tracking.",
+          "title": "Automate UTM parameter generation"
+        },
+        {
+          "prompt": "Add functionality for time-based redirects (e.g., redirect to 'A' until date X, then redirect to 'B').",
+          "title": "Include time-based redirects"
+        }
+      ]
+    },
+    {
+      "title": "Essential Redirection & Security Features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Use your own domain for branded, trustworthy short links.",
+          "icon": "🔗",
+          "title": "Custom Domain Support"
+        },
+        {
+          "description": "Track total clicks, unique visitors, geo-location, and referrer data.",
+          "icon": "📊",
+          "title": "Comprehensive Analytics"
+        },
+        {
+          "description": "Automatically scan and block known malicious, phishing, or spam links.",
+          "icon": "🛡️",
+          "title": "Real-time Threat Detection"
+        },
+        {
+          "description": "Define custom expiration dates for links or set hit limits.",
+          "icon": "⏳",
+          "title": "Link Expiration & Limits"
+        },
+        {
+          "description": "Redirect users to different destinations based on their location or device.",
+          "icon": "🌐",
+          "title": "Geo & Device Targeting"
+        },
+        {
+          "description": "Protect sensitive links with password requirements or unique access tokens.",
+          "icon": "🔑",
+          "title": "Password Protection"
+        },
+        {
+          "description": "Create and manage an unlimited number of short URLs.",
+          "icon": "∞",
+          "title": "Unlimited Links"
+        },
+        {
+          "description": "Seamlessly integrate with other marketing or security tools.",
+          "icon": "🔌",
+          "title": "API for Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic secure URL redirector with Kliv could take a few hours to a day, depending on the complexity of desired features. Comprehensive systems with advanced security and analytics might take a few days to a week to fully implement and test.",
+          "question": "How long does it take to build a secure URL redirector?"
+        },
+        {
+          "answer": "No, you don't need to be a coding expert. Kliv's AI platform allows you to describe the features you want in plain language, and it helps generate the application logic and structure. If you have specific requirements, a basic understanding of web concepts can be helpful but isn't strictly necessary.",
+          "question": "Do I need coding expertise to build this type of tool?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various third-party services via APIs. This includes threat intelligence feeds, web analytics platforms (like Google Analytics), CRMs, or marketing automation tools. You dictate the integrations you need.",
+          "question": "Can my custom redirector integrate with other security or marketing tools?"
+        },
+        {
+          "answer": "You own 100% of the application code and data. Unlike SaaS solutions where your data resides on their servers, with Kliv, you control where your application is hosted and how your data is managed, ensuring maximum privacy and compliance.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "While Kliv incurs a one-time cost for building the application, you eliminate recurring subscription fees often associated with premium URL shortening services. Over time, a custom-built solution typically offers significant cost savings, especially as your usage scales.",
+          "question": "How does the cost compare to commercial URL shortening services?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is the complete flexibility to modify, update, and add new features to your application at any time. As your needs evolve, your tool can evolve with them, without being limited by a vendor's roadmap.",
+          "question": "Can I modify the tool after it's been built and deployed?"
+        },
+        {
+          "answer": "Building your own tool allows for superior security customization. You can implement specific security protocols, integrate with enterprise-grade threat intelligence, and control hosting environments to meet your organization's unique security and compliance requirements, often exceeding what off-the-shelf solutions offer.",
+          "question": "Is a custom-built URL redirector more secure than a commercial service?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your links?",
+      "type": "cta",
+      "content": "Stop relying on generic services. Build a powerful, secure, and branded URL redirection and security solution tailored to your exact needs with Kliv's AI platform."
+    }
+  ],
+  "title": "Secure URL Redirection Tools"
+}

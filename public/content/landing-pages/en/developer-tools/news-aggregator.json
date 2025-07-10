@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a news aggregator for developers that pulls articles from tech blogs, Stack Overflow, and GitHub trending, and allows personalized content filtering.",
+  "description": "Build custom news aggregators tailored for developers, researchers, or specific industry needs with Kliv's AI platform.",
+  "hero": {
+    "cta": "Start building your aggregator",
+    "subtitle": "Curate and deliver personalized content feeds with custom-built news aggregators powered by Kliv's AI development platform.",
+    "title": "Build your own specialized news aggregator"
+  },
+  "metaDescription": "Create powerful, custom news aggregators with Kliv. Filter, personalize, and deliver relevant content specifically for developers, researchers, or any niche.",
+  "sections": [
+    {
+      "title": "Why build a custom news aggregator?",
+      "type": "text",
+      "content": "In today's information-rich world, staying updated is crucial, but information overload is a real challenge. Generic news feeds often bury relevant content under noise. For developers, researchers, or specialists in any field, a finely tuned news aggregator isn't just convenient—it's a productivity multiplier.\n\nTraditional aggregators offer broad categories, but they rarely allow the deep customization needed to filter by specific libraries, frameworks, research topics, or even code repositories. With AI-powered platforms like Kliv, you can create a bespoke system that fetches exactly what you need, from precisely the sources you trust, presenting it in a format most useful to you."
+    },
+    {
+      "title": "The power of tailored information feeds",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf news apps\n\nExisting news aggregation apps are designed for the masses. While they do a decent job for general news, they fall short for highly specialized needs:\n\n- **Lack of niche focus**: They can't deeply understand specific technical jargon, research areas, or coding languages.\n- **Limited source control**: You're often stuck with a predefined set of major news outlets, missing critical industry blogs, forums, or academic journals.\n- **Generic filtering**: Keyword filters are often too broad, leading to irrelevant search results and time wasted sifting through noise.\n- **Data privacy concerns**: Many free aggregators monetize user data, which might be a concern for professionals handling sensitive information.\n- **No custom formatting**: You can't tailor how the content is displayed or integrated into your workflow (e.g., direct links to GitHub issues, academic paper PDFs).\n\n## The case for a custom-built solution\n\nBuilding your own news aggregator means building a precision instrument for information gathering. Here’s why it’s gaining traction:\n\n### Hyper-personalized content delivery\nImagine a feed that only shows articles about 'Rust async programming', 'quantum machine learning's ethical implications', or 'Kubernetes security best practices' from a specific list of reputable sources. A custom aggregator can do this, learning your preferences over time.\n\n### Diverse and niche source integration\nConnect to obscure academic journals, specific subreddits, private industry forums, GitHub repositories, Stack Overflow tags, LinkedIn groups, or even internal company knowledge bases. If it has an API or an RSS feed, you can integrate it.\n\n### Advanced filtering and ranking logic\nGo beyond simple keywords. Implement AI-driven sentiment analysis, topic modeling, or relevance ranking to prioritize content. Filter by author, publication date range, popularity metrics, or even ignore specific topics that are currently over-hyped.\n\n### Complete control and data ownership\nYour data, your rules. Decide where content is stored, how long it's kept, and who has access. No third-party data mining, no unexpected feature changes, no recurring subscriptions for features you don't use.\n\n### Workflow and integration flexibility\nWant new articles to automatically create tasks in Jira, Slack messages, or entries in your Notion database? A custom aggregator can push content directly into your existing tools, making information actionable.\n\n## Real-world applications\n\nCustom news aggregators aren't just for individuals; they can power insights for teams and organizations:\n\n**DevOps Teams**: Aggregate security vulnerabilities from CVE databases, critical updates from cloud provider blogs (AWS, Azure, GCP), and new open-source tool releases from GitHub trending.\n\n**Research Labs**: Monitor new paper releases from arXiv, specific research groups' publications, and grant funding announcements.\n\n**Investment Firms**: Track sentiment around specific stocks by aggregating financial news, social media mentions, and analyst reports.\n\n**Product Managers**: Collect user feedback from forums, app store reviews, and competitor product updates.\n\n**Journalists/Analysts**: Monitor breaking news from specific regions or on particular subjects across a wide range of local and international sources.\n\n## The Kliv advantage in building your aggregator\n\nKliv uses AI to dramatically simplify the development process:\n\n- **Natural language interface**: Describe the sources, filters, and output format you need in plain English.\n- **Rapid prototyping**: See a working version of your aggregator in hours, not weeks.\n- **Scalable by design**: Easily add new sources, refine filters, and handle large volumes of data as your needs evolve.\n- **Secure and private**: Build a system where you control the security protocols and data handling.\n\nStop drowning in irrelevant information. Build a news aggregator that serves your specific information needs with unparalleled precision."
+    },
+    {
+      "title": "News aggregator ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Consolidate tech news with advanced filtering.",
+          "prompt": "Create a news aggregator for software developers that pulls articles from Hacker News, Lobsters, and dev.to. It should allow users to filter by programming language (e.g., Python, Go, Rust) and specific frameworks (e.g., React, Vue, Angular).",
+          "title": "Developer Tech News Feed"
+        },
+        {
+          "description": "Track the latest cybersecurity threats and vulnerabilities.",
+          "prompt": "Build a cybersecurity threat intelligence aggregator that scrapes security blogs, NIST vulnerability databases, and infosec Twitter accounts, prioritizing articles about new exploits and zero-days.",
+          "title": "Cybersecurity Threat Monitor"
+        },
+        {
+          "description": "Stay updated on specific scientific research fronts.",
+          "prompt": "Develop an academic paper aggregator for AI researchers. It should fetch new preprints from arXiv in specific categories (e.g., 'Computer Vision', 'Natural Language Processing') and notify me when papers from specific authors are published.",
+          "title": "Academic Research Feed"
+        },
+        {
+          "description": "Personalized content for open-source project contributors.",
+          "prompt": "Design an open-source project update aggregator that tracks releases, critical bug reports, and community discussions for a predefined list of GitHub repositories and mailing lists.",
+          "title": "Open Source Project Tracker"
+        },
+        {
+          "description": "Monitor industrial trends and regulatory changes.",
+          "prompt": "Create an industry news aggregator for the finance sector focused on FinTech innovations, regulatory changes (SEC filings), and market analysis from top financial news outlets, emphasizing articles about blockchain and digital assets.",
+          "title": "FinTech Industry Watch"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your news aggregator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to save articles to a 'read later' list, accessible across devices.",
+          "title": "Implement Reading List"
+        },
+        {
+          "prompt": "Integrate push notifications for breaking news or highly relevant articles based on user-defined priority keywords.",
+          "title": "Add Real-time Alerts"
+        },
+        {
+          "prompt": "Include sentiment analysis for news articles to give a quick overview of the overall tone (positive, negative, neutral) for specific topics.",
+          "title": "Incorporate Sentiment Analysis"
+        },
+        {
+          "prompt": "Develop a user interface for managing sources and filters dynamically, without needing to modify the core code.",
+          "title": "Build Admin Dashboard"
+        },
+        {
+          "prompt": "Allow users to tag articles with custom keywords and generate personalized digests based on these tags.",
+          "title": "Add Custom Tagging & Digests"
+        },
+        {
+          "prompt": "Integrate with productivity tools like Slack or Microsoft Teams to post daily summaries or alerts directly into channels.",
+          "title": "Slack/Teams Integration"
+        },
+        {
+          "prompt": "Create a 'trending topics' section based on article popularity within the aggregated feed over the last 24 hours.",
+          "title": "Feature Trending Topics"
+        },
+        {
+          "prompt": "Add a browser extension component to easily add new sources or save articles to the aggregator from any webpage.",
+          "title": "Develop Browser Extension"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of a Custom Aggregator",
+      "type": "features",
+      "items": [
+        {
+          "description": "Pull content from custom RSS feeds, APIs, web scraping, and social media.",
+          "icon": "🔗",
+          "title": "Flexible Source Integration"
+        },
+        {
+          "description": "Apply advanced keyword, topic, and sentiment filters for precise content delivery.",
+          "icon": "🔍",
+          "title": "Granular Content Filtering"
+        },
+        {
+          "description": "Implement machine learning to personalize recommendations based on reading habits.",
+          "icon": "🧠",
+          "title": "AI-Powered Personalization"
+        },
+        {
+          "description": "Format and display content in a customized UI that suits your workflow.",
+          "icon": "🎨",
+          "title": "Customizable UI/UX"
+        },
+        {
+          "description": "Integrate seamlessly with your existing tools like Slack, Jira, Notion, or email.",
+          "icon": "⚙️",
+          "title": "Workflow Integrations"
+        },
+        {
+          "description": "Set up real-time alerts or scheduled digests for critical updates.",
+          "icon": "🔔",
+          "title": "Notification & Alert System"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional news aggregator with Kliv can take anywhere from a few hours for a basic setup to a few days for a highly sophisticated system with advanced AI filtering and integrations. It's significantly faster than traditional development.",
+          "question": "How quickly can I build a custom news aggregator?"
+        },
+        {
+          "answer": "No coding experience is required. Kliv's platform allows you to describe your desired aggregator using natural language. The AI translates your requirements into a working application.",
+          "question": "Do I need to be a developer to build this?"
+        },
+        {
+          "answer": "Yes, you can integrate with almost any online source that provides an API, RSS feed, or is publicly accessible for web scraping. This includes news sites, blogs, social media platforms, academic databases, and more.",
+          "question": "Can I pull content from any specific source I choose?"
+        },
+        {
+          "answer": "Unlike SaaS products with recurring fees, building with Kliv is typically a one-time development cost, often followed by minimal hosting expenses. Over time, it's usually far more cost-effective, especially given the exact customization you achieve.",
+          "question": "What's the cost comparison with existing news aggregator products?"
+        },
+        {
+          "answer": "Absolutely. You retain full ownership and control over your data. You decide where it's stored, how it's processed, and who has access, ensuring your privacy and security requirements are met.",
+          "question": "Will I own the data and content aggregated by my tool?"
+        },
+        {
+          "answer": "Yes, the custom nature means you can modify, add features, change sources, or adjust filtering logic at any time. Your aggregator evolves with your needs, not a vendor's roadmap.",
+          "question": "Can I modify my aggregator after it's built?"
+        },
+        {
+          "answer": "Kliv assists with hosting options, from cloud providers to on-premise solutions, depending on your needs. For simple aggregators, a basic cloud setup is often sufficient and very affordable.",
+          "question": "Where will my custom news aggregator be hosted?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to cut through the noise and get the information you need?",
+      "type": "cta",
+      "content": "Stop sifting through irrelevant content. Build your intelligent, custom news aggregator today and gain unparalleled control over your information flow."
+    }
+  ],
+  "title": "Custom News Aggregators"
+}

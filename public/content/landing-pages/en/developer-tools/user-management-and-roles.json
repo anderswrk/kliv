@@ -1,0 +1,164 @@
+{
+  "defaultPrompt": "I want to create a robust user management system that allows for various user roles, granular permissions, and full audit trails for a SaaS application.",
+  "description": "Build custom user management and role-based access control systems with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building",
+    "subtitle": "Create secure, scalable user management and role-based access control (RBAC) systems tailored precisely to your application's needs.",
+    "title": "Build your own user management & RBAC systems"
+  },
+  "metaDescription": "Develop powerful user management and RBAC systems with Kliv. Define user roles, assign granular permissions, and secure your applications effectively with custom-built solutions.",
+  "sections": [
+    {
+      "title": "Why invest in a custom user management system?",
+      "type": "text",
+      "content": "For many applications, particularly B2B SaaS, robust user management and role-based access control (RBAC) are not just features—they're fundamental requirements. While off-the-shelf identity providers offer convenience, they often come with limitations:\n\n- **Generic permission models** that don't fit your unique business logic.\n- **Vendor lock-in** and complex migration paths.\n- **Recurring costs** that scale with your user base, even if your usage doesn't.\n- **Limited customization** for branding, user flows, and integration.\n\nKliv offers a powerful alternative: the ability to build a highly customized user management system that perfectly integrates with your application, giving you full control and flexibility from day one."
+    },
+    {
+      "title": "The strategic advantage of custom user management",
+      "type": "markdown",
+      "content": "## Beyond off-the-shelf: Tailored security and control\n\nMany developers opt for third-party identity solutions, hoping to save time. However, this often leads to compromises in functionality, security, and long-term costs. Building your own user management and RBAC system with Kliv's AI-powered platform provides significant advantages:\n\n### Granular control over permissions\n\nUnlike generic systems that offer limited role definitions, a custom solution allows you to define permissions at the most granular level. Need a 'read-only plus export' role for specific data? Or a 'manager-approver but only for certain departments' role? You can design it precisely.\n\n### Seamless user experience and branding\n\nIntegrate the user signup, login, and profile management flows directly into your application's design and brand. No more redirects to generic identity provider pages, ensuring a cohesive and professional user experience.\n\n### Optimized for your application's logic\n\nYour application has unique business rules. A custom user management system can be built to natively understand these rules, simplifying complex access decisions and reducing the amount of custom code needed to bridge gaps between your app and a generic identity service.\n\n### Cost efficiency and ownership\n\nSaaS identity providers often price based on active users, monthly active users, or API calls, leading to unpredictable and escalating costs as you scale. A custom system is a one-time development investment, giving you full ownership and predictable running costs.\n\n### Enhanced security and auditability\n\nBy owning the system, you control the security protocols, data storage, and compliance. Implement detailed audit trails, monitor suspicious activities, and enforce security policies specific to your industry and risk profile.\n\n## Real-world applications of custom RBAC\n\n- **SaaS Platforms**: Fine-grained control for tenants, administrators, and end-users within multi-tenant architectures.\n- **Internal Tools**: Manage access to sensitive internal systems, ensuring only authorized personnel can view or modify specific data.\n- **Healthcare Systems**: Implement HIPAA-compliant access control, differentiating between doctors, nurses, administrators, and patients.\n- **Financial Applications**: Enforce strict separation of duties and transaction approval workflows based on user roles and hierarchies.\n"
+    },
+    {
+      "title": "Build your custom user management",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a flexible system for defining roles and assigning permissions to features and data.",
+          "prompt": "Design a user management system with dynamic role creation, where each role can be assigned specific permissions to view, edit, or delete various parts of the application's data and features.",
+          "title": "Dynamic Roles & Permissions"
+        },
+        {
+          "description": "Manage user accounts, profiles, and authentication within your application.",
+          "prompt": "Build a module for user registration, login, password reset, and profile management (e.g., name, email, profile picture), including robust authentication methods.",
+          "title": "User Authentication & Profiles"
+        },
+        {
+          "description": "Track all user activities for compliance and security auditing.",
+          "prompt": "Develop an audit logging system that records every user action (e.g., login attempts, data modifications, access attempts) with timestamps, user IDs, and relevant details, allowing for easy search and reporting.",
+          "title": "Comprehensive Audit Trails"
+        },
+        {
+          "description": "Implement multi-factor authentication for enhanced security.",
+          "prompt": "Integrate 2-Factor Authentication (2FA) using common methods like TOTP (Time-based One-Time Password) or SMS verification during login and sensitive operations.",
+          "title": "Multi-Factor Authentication (MFA)"
+        },
+        {
+          "description": "Enable different organizations or teams to have isolated data and settings.",
+          "prompt": "Create a multi-tenancy solution where each organization has its own isolated set of users, roles, and data, with a dedicated administrator for each tenant.",
+          "title": "Multi-Tenancy Support"
+        },
+        {
+          "description": "Allow users to log in using their existing social or enterprise accounts.",
+          "prompt": "Add support for Single Sign-On (SSO) using OAuth2/OpenID Connect with providers like Google, Microsoft Entra ID (Azure AD), and Okta, or traditional SAML.",
+          "title": "Single Sign-On (SSO) integration"
+        }
+      ]
+    },
+    {
+      "title": "Expand your user management system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for administrators to impersonate users to debug issues or assist with setup, with a clear audit trail of all impersonation sessions.",
+          "title": "Add User Impersonation"
+        },
+        {
+          "prompt": "Implement session management with configurable session timeouts, forced logout on password change, and the ability for users to view and revoke active sessions.",
+          "title": "Implement Advanced Session Management"
+        },
+        {
+          "prompt": "Build a real-time dashboard for administrators to monitor active users, recent login attempts, and potential security threats.",
+          "title": "Create an Admin Dashboard"
+        },
+        {
+          "prompt": "Add a feature for internal teams to assign users to specific teams or groups, and then manage permissions at the group level.",
+          "title": "Group-Based Access Control"
+        },
+        {
+          "prompt": "Integrate with an external identity provider like Auth0 or Okta for enterprise-grade authentication, while maintaining custom RBAC within the application.",
+          "title": "Connect to External Identity Providers"
+        },
+        {
+          "prompt": "Develop an API for user management that allows external systems to create, update, and deactivate users, and manage roles and permissions programmatically.",
+          "title": "Expose a User Management API"
+        }
+      ]
+    },
+    {
+      "title": "Key features for robust user management",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define and manage user roles with custom permission sets.",
+          "icon": "🔑",
+          "title": "Role & Permission Editor"
+        },
+        {
+          "description": "Secure user registration, login, and password recovery workflows.",
+          "icon": "🔐",
+          "title": "Authentication & Authorization"
+        },
+        {
+          "description": "Detailed logs of all user activities for security and compliance.",
+          "icon": "📜",
+          "title": "Audit Logging"
+        },
+        {
+          "description": "Securely store and retrieve user profiles and settings.",
+          "icon": "👤",
+          "title": "User Profile Management"
+        },
+        {
+          "description": "Isolate data and users for different organizations or customers.",
+          "icon": "🏢",
+          "title": "Multi-Tenancy Support"
+        },
+        {
+          "description": "Connect to external identity providers for seamless single sign-on.",
+          "icon": "🤝",
+          "title": "SSO Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic user management system with Kliv can take anywhere from a few hours to a few days, depending on the complexity of your role definitions and integrations. Robust systems with advanced features like SSO and MFA might take a bit longer, but still significantly faster than traditional development.",
+          "question": "How long does it take to build a custom user management system?"
+        },
+        {
+          "answer": "Kliv's platform uses AI to help you generate the code based on your requirements. You can describe your roles, permissions, and desired flows in natural language. While some understanding of concepts like authentication and authorization is helpful, deep technical coding expertise is not required.",
+          "question": "Do I need to be a security expert or a developer to build this?"
+        },
+        {
+          "answer": "Yes, your custom user management system can be designed to integrate with various databases (SQL, NoSQL), external services via APIs, and even your existing application's backend. Kliv helps you define these connections.",
+          "question": "Can this system integrate with my existing application and database?"
+        },
+        {
+          "answer": "You own the entire codebase generated by Kliv. This means you have full control over where it's deployed (on-premise, cloud, serverless), ensuring data residency and compliance with your specific security policies.",
+          "question": "Where will my user data and authentication logic be hosted?"
+        },
+        {
+          "answer": "By building your own, you avoid recurring per-user or per-feature fees associated with cloud identity providers. Your costs are primarily development time (which Kliv reduces through AI) and your chosen hosting infrastructure. This can lead to substantial long-term savings.",
+          "question": "How does the cost compare to using a third-party identity provider?"
+        },
+        {
+          "answer": "Yes, the system is fully customizable. You can modify user flows, add new authentication methods, refine permission logic, and incorporate any new security features as your application evolves. Kliv makes it easy to iterate and adapt.",
+          "question": "Can I modify the system easily after it's built?"
+        },
+        {
+          "answer": "Kliv helps you generate the framework, and you or your team are responsible for deploying and maintaining it. However, because you own the code, you're not reliant on a vendor's support team and have full control to debug and enhance it as needed. Kliv's AI can also assist with troubleshooting generated code.",
+          "question": "What kind of ongoing support is available for the custom system?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your application's security?",
+      "type": "cta",
+      "content": "Stop limiting your application with generic identity solutions. Build a tailored, secure, and scalable user management and RBAC system that truly fits your needs, with Kliv."
+    }
+  ],
+  "title": "User Management & RBAC"
+}

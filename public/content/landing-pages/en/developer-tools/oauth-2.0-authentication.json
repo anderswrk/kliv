@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "Build an OAuth 2.0 authentication service that supports multiple grant types, token management (issuance, refresh, revocation), and client registration. It should integrate with user identity providers and provide secure access control.",
+  "description": "Develop custom OAuth 2.0 authentication services with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your auth service",
+    "subtitle": "Secure your applications and APIs with flexible, custom-built OAuth 2.0 authentication solutions, powered by AI development.",
+    "title": "Custom OAuth 2.0 Authentication Services"
+  },
+  "metaDescription": "Build robust, scalable, and secure OAuth 2.0 authentication services tailored to your exact needs using Kliv. Control identity, authorization, and API access.",
+  "sections": [
+    {
+      "title": "Why build your own OAuth 2.0 service?",
+      "type": "text",
+      "content": "In today's interconnected digital landscape, secure and flexible authentication is paramount. While off-the-shelf identity providers offer a quick start, they often come with limitations: rigid configurations, vendor lock-in, and unpredictable pricing models as your user base grows.\n\nBuilding your own OAuth 2.0 service empowers you with complete control over identity management, authorization flows, and integration points. With Kliv's AI-powered platform, creating a custom, scalable, and secure authentication layer is no longer the complex, resource-intensive task it once was. You can design an auth solution that perfectly aligns with your security policies, user experience requirements, and technical ecosystem, without compromises."
+    },
+    {
+      "title": "The case for custom OAuth 2.0 solutions",
+      "type": "markdown",
+      "content": "## The challenges with generic identity providers\n\nMany organizations rely on third-party identity providers (IdPs) or abstract authentication services. While convenient for simple use cases, they often introduce significant caveats:\n\n- **Limited Customization**: Forced into a 'one size fits all' model that doesn't align with unique branding or security needs.\n- **Vendor Lock-in**: Migrating users and configurations away from a proprietary IdP can be a nightmare.\n- **Cost Scalability**: Pricing often scales with user count or active users, leading to unpredictable and often high costs for growing applications.\n- **Security Blinders**: Less transparency and control over underlying security mechanisms and data handling.\n- **Integration Headaches**: Adapting your application to their APIs, rather than the other way around.\n\n## Why custom-built is the strategic advantage\n\nLeveraging AI-powered platforms like Kliv to build your own OAuth 2.0 service offers unparalleled benefits:\n\n### Complete Control and Ownership\nOwn your entire authentication stack, from user data storage to token issuance policies. This means full compliance, auditability, and no dependence on external vendors for critical security infrastructure.\n\n### Tailored Security Policies\nImplement granular security policies, multi-factor authentication (MFA) methods, and threat detection mechanisms precisely as your business requires.\n\n### Optimized User Experience\nDesign a seamless and branded authentication flow that integrates natively with your applications, improving user trust and reducing friction.\n\n### Cost Efficiency at Scale\nOnce built, your custom service offers a significant cost advantage over pay-per-user models. Scale to millions of users without escalating costs.\n\n### Seamless Integration\nDevelop API endpoints and webhooks that perfectly match your internal systems, microservices, and third-party integrations, simplifying your overall architecture.\n\n## Real-world applications\n\nCustom OAuth 2.0 services power diverse digital products:\n\n**SaaS Platforms**: Providing secure B2B client access, managing user roles, and integrating with enterprise directories.\n\n**Consumer Mobile Apps**: Handling user registration, social logins, and secure API access for personalized experiences.\n\n**IoT Gateways**: Authenticating devices and securing data streams from edge to cloud.\n\n**Internal Enterprise Applications**: Unifying authentication across a suite of internal tools, ensuring single sign-on (SSO) and role-based access control.\n\n**API Gateways**: Protecting backend APIs by validating access tokens issued by your custom auth service.\n\n## The AI-powered development difference\n\nKliv transforms the complexity of building authentication systems:\n\n- **Rapid Blueprinting**: Describe your desired grant types, token expiry, and user flows in plain language, and AI generates the architectural design.\n- **Code Generation**: Automate the creation of boilerplate code for token issuance, validation, and revocation endpoints.\n- **Security Best Practices**: AI guides you in applying industry-standard security protocols and helps identify common vulnerabilities.\n- **Scalability by Design**: Build with scalability in mind from day one, ensuring your auth service can handle growing user loads.\n\n## Getting started\n\nDon't let rigid third-party services dictate your security posture or user experience. Invest in an authentication system that is truly yours and evolves with your business.\n\nWith Kliv, you can begin building your bespoke OAuth 2.0 authentication service today, gaining control, flexibility, and cost efficiency over your most critical security component."
+    },
+    {
+      "title": "OAuth 2.0 service ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Implement authentication for single-page applications.",
+          "prompt": "Create an OAuth 2.0 authorization server that uses the Authorization Code Flow with PKCE for secure client-side application authentication and API access.",
+          "title": "SPA & Mobile App Auth Service"
+        },
+        {
+          "description": "Secure server-to-server communication.",
+          "prompt": "Develop an OAuth 2.0 service implementing the Client Credentials Flow for machine-to-machine authentication, issuing access tokens for internal API calls.",
+          "title": "Machine-to-Machine Authentication"
+        },
+        {
+          "description": "Enable users to log in with external providers.",
+          "prompt": "Build an OAuth 2.0 service that acts as a proxy for external identity providers (e.g., Google, Facebook), allowing users to authenticate via social login and issuing custom access tokens for your services.",
+          "title": "Social Login & Identity Aggregator"
+        },
+        {
+          "description": "Grant access to third-party applications.",
+          "prompt": "Design an OAuth 2.0 service for a public API, allowing third-party developers to register their applications and obtain access tokens on behalf of users (Authorization Code Flow).",
+          "title": "Third-Party API Access Server"
+        },
+        {
+          "description": "Robust and flexible token management.",
+          "prompt": "Develop a comprehensive OAuth 2.0 token management system with issuance, intelligent caching, refresh token rotation, and immediate token revocation capabilities.",
+          "title": "Advanced Token Management System"
+        },
+        {
+          "description": "Centralized identity for enterprise applications.",
+          "prompt": "Create an OAuth 2.0 service that seamlessly integrates with an existing corporate LDAP/Active Directory for user authentication and provides JWT-based access tokens for internal applications.",
+          "title": "Enterprise SSO & IdP Integrator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your auth service",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add support for multi-factor authentication (MFA) using TOTP (Time-based One-Time Password) or FIDO2/WebAuthn.",
+          "title": "Implement MFA"
+        },
+        {
+          "prompt": "Integrate with a user management module to handle user registration, profile management, and password reset flows.",
+          "title": "Add User Management UI"
+        },
+        {
+          "prompt": "Build a comprehensive admin dashboard for managing registered clients, monitoring token activity, and auditing authentication events.",
+          "title": "Develop Admin Dashboard"
+        },
+        {
+          "prompt": "Implement Rate Limiting and Brute-Force Detection mechanisms to protect against common attack vectors on authentication endpoints.",
+          "title": "Add Security Protections"
+        },
+        {
+          "prompt": "Add support for OpenID Connect (OIDC) to provide identity claims alongside authentication details.",
+          "title": "Extend with OpenID Connect"
+        },
+        {
+          "prompt": "Integrate with an external logging and monitoring system (e.g., Splunk, ELK stack) for comprehensive security auditing and anomaly detection.",
+          "title": "Enable Advanced Logging"
+        },
+        {
+          "prompt": "Provide a self-service developer portal where third-party clients can register their applications, manage credentials, and view API documentation.",
+          "title": "Build Developer Portal"
+        },
+        {
+          "prompt": "Implement a claims-based authorization engine that uses data from access tokens to make fine-grained authorization decisions.",
+          "title": "Add Fine-Grained Authorization"
+        },
+        {
+          "prompt": "Add support for token exchange and introspection endpoints for enhanced flexibility and security in microservices architectures.",
+          "title": "Include Token Endpoints"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities for your Auth Service",
+      "type": "features",
+      "items": [
+        {
+          "description": "Support for Authorization Code, Client Credentials, Refresh Token, and Implicit (for legacy) flows.",
+          "icon": "🔄",
+          "title": "Multiple Grant Types"
+        },
+        {
+          "description": "Securely issue, renew, and revoke access and refresh tokens, with customizable expiry.",
+          "icon": "🔑",
+          "title": "Token Management"
+        },
+        {
+          "description": "Manage client applications, including dynamic registration and credential rotation.",
+          "icon": "⚙️",
+          "title": "Client Management"
+        },
+        {
+          "description": "Integrate with existing user directories like LDAP, Okta, or generic SAML/OIDC providers.",
+          "icon": "🔗",
+          "title": "Identity Provider Integration"
+        },
+        {
+          "description": "Define and enforce scopes for granular API access control and resource protection.",
+          "icon": "🔒",
+          "title": "Scope-Based Authorization"
+        },
+        {
+          "description": "Built-in support for secure token storage, cryptographic operations, and protocol compliance.",
+          "icon": "🛡️",
+          "title": "Security & Compliance"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv’s AI can rapidly generate the foundational code for your OAuth 2.0 server. A basic proof-of-concept can be up in hours, with a fully customizable and production-ready system configurable in days to weeks, depending on complexity.",
+          "question": "How quickly can I deploy a custom OAuth 2.0 service?"
+        },
+        {
+          "answer": "No deep coding expertise in OAuth 2.0 specifics is required. Kliv’s AI interprets your functional requirements and security needs, generating the necessary architecture and code. You focus on 'what' you want, the AI handles the 'how'.",
+          "question": "Do I need to be an OAuth security expert to use Kliv for this?"
+        },
+        {
+          "answer": "Absolutely. Kliv-generated applications provide standard interfaces (APIs, webhooks) that allow seamless integration with your existing microservices, legacy systems, and public applications. You define the integration points.",
+          "question": "Can the custom OAuth service integrate with my existing applications?"
+        },
+        {
+          "answer": "Unlike SaaS solutions with per-user or per-transaction costs, a Kliv-built OAuth service is a one-time development investment. You own the software, control the infrastructure, leading to significant long-term savings, especially at scale.",
+          "question": "How does the cost compare to using a commercial identity provider?"
+        },
+        {
+          "answer": "You retain full ownership of all generated code and configurations. This means complete control over data residency, security audits, and future modifications without vendor lock-in.",
+          "question": "Who owns the OAuth service after it's built using Kliv?"
+        },
+        {
+          "answer": "Yes, security is paramount. Kliv's AI incorporates best practices for OAuth 2.0, including PKCE for client-side applications, secure token handling, and robust endpoint protection. You also have full control to implement additional layers of security.",
+          "question": "Is a custom OAuth 2.0 service built with AI as secure as commercial solutions?"
+        },
+        {
+          "answer": "Yes. Your Kliv-generated OAuth service is designed to be fully customizable. You can modify grant types, token lifetimes, integrate new identity sources, or add advanced features as your security and application needs evolve.",
+          "question": "Can I modify or expand the service after initial deployment?"
+        },
+        {
+          "answer": "You choose your deployment environment. Whether it’s on-premises, a private cloud, or public cloud providers like AWS, Azure, or GCP, you have the flexibility to deploy your custom service where it best fits your infrastructure strategy.",
+          "question": "Where can I host the custom OAuth 2.0 authentication service?"
+        }
+      ]
+    },
+    {
+      "title": "Take control of your authentication strategy",
+      "type": "cta",
+      "content": "Stop relying on rigid, costly identity management solutions. Build a bespoke OAuth 2.0 service that puts you in complete control of security, scalability, and user experience with Kliv."
+    }
+  ],
+  "title": "Build a Custom OAuth 2.0 Authentication Server"
+}

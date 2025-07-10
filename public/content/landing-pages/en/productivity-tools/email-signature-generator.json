@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create an email signature generator that allows users to input their details, select from various templates, add social media links and company logos, and then generate an HTML signature they can easily copy and paste into their email client.",
+  "description": "Build custom email signature generation tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your generator",
+    "subtitle": "Empower your brand with consistent, professional email signatures across your organization with a custom-built generator.",
+    "title": "Create your own email signature generator"
+  },
+  "metaDescription": "Build a custom email signature generator with Kliv. Design specific templates, enforce branding guidelines, and manage signatures for your entire team easily.",
+  "sections": [
+    {
+      "title": "The importance of a custom email signature generator",
+      "type": "text",
+      "content": "In today's digital landscape, your email signature isn't just contact information—it's a critical branding tool. For businesses, ensuring consistent, professional signatures across all employees can be a daunting task. Generic online generators offer limited customization and often lack central management, leading to brand inconsistencies and wasted time.\n\nBuilding your own email signature generator gives you complete control over your brand's digital presence. You can hardcode brand guidelines, integrate with internal systems, and provide a seamless experience for your team, all while owning the platform rather than paying recurring fees for a 'one-size-fits-all' solution."
+    },
+    {
+      "title": "Why a bespoke solution outperforms off-the-shelf tools",
+      "type": "markdown",
+      "content": "## The challenges with existing email signature solutions\n\nMany organizations rely on piecemeal approaches or external services for email signatures, leading to common frustrations:\n\n- **Inconsistent branding**: Employees use different fonts, colors, or outdated logos, diluting brand identity.\n- **Lack of centralized control**: No easy way to update signatures for an entire team or enforce company-wide campaigns.\n- **Limited customization**: Generic tools often don't support specific brand elements, custom fields, or dynamic content.\n- **Integration hurdles**: Difficult to connect with HR systems for employee data or CRM for marketing campaigns.\n- **Recurring costs**: Subscription fees add up, especially for larger teams, without delivering perfect alignment.\n\n## The compelling advantages of a custom generator\n\nLeveraging Kliv's AI-assisted development, you can create a generator perfectly tailored to your needs:\n\n### Unwavering brand consistency\nDefine and enforce strict branding guidelines, ensuring every email sent by your team presents a unified and professional image. From fonts to colors, disclaimers to campaign banners, you control every pixel.\n\n### Centralized management & deployment\nImplement features that allow administrators to manage templates, approve new signatures, and even push updates across the organization. Imagine updating a company-wide promotion in every employee's signature with a single click.\n\n### Tailored to your data & systems\nIntegrate directly with your internal employee database (HRIS), CRM, or marketing automation platforms. Populate signature fields automatically, reducing manual entry and errors. For example, dynamically include a sales rep's direct booking link or a support agent's specific knowledge base affiliation.\n\n### Dynamic content & campaigns\nBeyond static information, your custom generator can support dynamic fields for marketing campaigns, event promotions, or social media calls-to-action. Easily update these elements for specific teams or time-bound initiatives.\n\n### Cost-effective ownership\nUnlike subscription-based services that charge per user per month, a custom solution built with Kliv is a capital investment. You build it once, own it forever, and scale it without escalating per-user costs.\n\n## Real-world applications\n\n- **Sales teams**: Automatically include personalized meeting links, product-specific disclaimers, or current promotional banners in their signatures.\n- **Marketing agencies**: Generate unique signatures for various client brands, maintaining strict brand separation and consistency for each.\n- **Large enterprises**: Standardize signatures across thousands of employees globally, ensuring compliance with regional legal disclaimers and consistent branding for various departments.\n- **Small businesses**: Create a simple, powerful tool to maintain a professional image without relying on expensive, overly complex software.\n\n## AI-powered development for bespoke tools\n\nBuilding a sophisticated web application used to be a significant undertaking. Kliv's AI-powered platform changes this:\n\n- **Rapid prototyping**: Go from idea to functional prototype in hours.\n- **Intuitive design**: Describe your desired features in plain language, and the AI assists in building them.\n- **Scalable architecture**: Develop an application that can grow with your team, from handfuls to thousands of users.\n- **Maintainability**: The AI generates clean, understandable code, making future modifications straightforward.\n\nStop compromising with generic tools. Invest in a custom email signature generator that truly represents your brand and streamlines your operations."
+    },
+    {
+      "title": "Email signature generator ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Generate a sleek, minimalist signature with essential contact details.",
+          "prompt": "Create a basic email signature generator that allows users to input their name, title, company, phone, and email, and outputs a clean HTML signature.",
+          "title": "Simple Contact Card Signature"
+        },
+        {
+          "description": "Include social media icons and custom disclaimers.",
+          "prompt": "Build an email signature generator that includes options for social media links (LinkedIn, Twitter, Facebook), a company logo upload, and a customizable legal disclaimer field.",
+          "title": "Brand-Focused Signature"
+        },
+        {
+          "description": "Design signatures with dynamic marketing banners.",
+          "prompt": "Develop an advanced email signature generator that allows administrators to upload a rotating marketing banner image and link, which employees can then select to include in their signatures.",
+          "title": "Campaign-Driven Signature"
+        },
+        {
+          "description": "Automate signature creation using employee directory data.",
+          "prompt": "Create an email signature generator that can pull employee data (name, title, department, office location) from an uploaded CSV file and generate signatures in bulk for an entire organization.",
+          "title": "Bulk Corporate Signature Tool"
+        },
+        {
+          "description": "Provide a live preview and rich-text editing.",
+          "prompt": "Design an email signature generator with a live preview pane that updates as users type, offering rich-text editing options for fonts and colors within specific sections of the signature.",
+          "title": "Interactive WYSIWYG Generator"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your signature generator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication system so only authorized personnel can generate or modify signatures.",
+          "title": "User Authentication"
+        },
+        {
+          "prompt": "Implement an admin dashboard to review and approve all generated signatures before they are deployed.",
+          "title": "Admin Approval Workflow"
+        },
+        {
+          "prompt": "Integrate with a cloud storage service like Google Drive or Dropbox for logo and image hosting.",
+          "title": "Cloud Storage Integration"
+        },
+        {
+          "prompt": "Add version control for signature templates, allowing reverts to previous designs.",
+          "title": "Template Versioning"
+        },
+        {
+          "prompt": "Develop an API so other internal systems can trigger signature generation or retrieve signature data.",
+          "title": "API for Internal Systems"
+        },
+        {
+          "prompt": "Include analytics to track how often certain campaign banners or links within signatures are clicked.",
+          "title": "Signature Analytics"
+        },
+        {
+          "prompt": "Add multi-language support for templates and system interface.",
+          "title": "Multi-language Support"
+        },
+        {
+          "prompt": "Implement a feature to automatically deploy signatures to popular email clients like Outlook 365 or Gmail for specified users.",
+          "title": "Automated Deployment"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of a Custom Signature Tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Create and manage multiple signature templates for different departments or campaigns.",
+          "icon": "📝",
+          "title": "Template Designer"
+        },
+        {
+          "description": "Ensure consistency with locked brand colors, fonts, and logo placements.",
+          "icon": "🎨",
+          "title": "Brand Guideline Enforcement"
+        },
+        {
+          "description": "Effortlessly add social media links, dynamic banners, and legal disclaimers.",
+          "icon": "🔗",
+          "title": "Dynamic Content Fields"
+        },
+        {
+          "description": "Provide a real-time visual representation of the signature as it's built.",
+          "icon": "👁️",
+          "title": "Live Preview Functionality"
+        },
+        {
+          "description": "Generate clean HTML or plain text signatures compatible with all major email clients.",
+          "icon": "✉️",
+          "title": "Universal Compatibility Output"
+        },
+        {
+          "description": "Streamline data entry by integrating with existing employee or customer databases.",
+          "icon": "↔️",
+          "title": "CRM/HRIS Integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic email signature generator can be prototyped in a few hours using Kliv. Adding advanced features like user roles or API integrations might extend development to a few days or weeks, depending on complexity.",
+          "question": "How long does it take to create an email signature generator?"
+        },
+        {
+          "answer": "No, Kliv's platform allows you to describe your desired application in plain language. The AI assists with the technical implementation, making custom app development accessible to non-developers.",
+          "question": "Do I need to be a programmer to build this type of tool?"
+        },
+        {
+          "answer": "Absolutely. Your custom generator can be designed to pull data from or push data to a wide range of external systems, including HR systems, CRMs, marketing platforms, and more, typically via APIs.",
+          "question": "Can the generator integrate with my existing company systems?"
+        },
+        {
+          "answer": "Unlike SaaS solutions, Kliv enables you to own the entire application. All generated code, data, and configurations are yours, giving you full control over hosting, security, and future modifications.",
+          "question": "Who owns the email signature generator once it's built?"
+        },
+        {
+          "answer": "Building with Kliv eliminates recurring per-user SaaS fees. Your primary cost is the development effort (which Kliv significantly reduces), making it a more cost-effective solution for long-term use and scalability, especially for larger organizations.",
+          "question": "How does the cost compare to subscription-based signature services?"
+        },
+        {
+          "answer": "Yes, flexibility is a core benefit. You can continuously iterate on templates, add new features, or adapt the tool to evolving brand guidelines or technical requirements without vendor restrictions.",
+          "question": "Can I modify the generator after it's initially created?"
+        },
+        {
+          "answer": "Yes, you have full control over security protocols. You can implement robust authentication, data encryption, and access controls tailored to your company's security policies, which might be more stringent than generic third-party services.",
+          "question": "Is a custom signature generator more secure for my company data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unify your brand with a custom email signature generator?",
+      "type": "cta",
+      "content": "Stop wrestling with inconsistent branding and manual signature updates. Build a powerful, bespoke tool that streamlines your email marketing and strengthens your brand identity."
+    }
+  ],
+  "title": "Custom Email Signature Generator"
+}

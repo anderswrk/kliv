@@ -101,3 +101,164 @@
 .animate-scroll-left:hover {
   animation-play-state: paused;
 }
+
+
+
+
+/* Pricing Page Styles */
+.pricing-page {
+  .plan-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .plan-card {
+    position: relative;
+    width: 300px;
+
+    .plan-card-normal {
+      padding: 39px 0 0 0;
+    }
+
+    .plan-card-highlight {
+      border-radius: 10px;
+      background: #3CBD87;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .plan-card-highlight-title {
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .plan-card-body {
+        border-radius: 0 0 10px 10px;
+      }
+    }
+
+    .plan-card-body {
+      border-radius: 10px;
+      background: hsl(var(--card));
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 5px;
+      padding: 20px 0 0 0;
+      border: 1px solid hsl(var(--border));
+
+      .title {
+        color: hsl(var(--primary));
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        min-height: 29px;
+      }
+
+      .product-name {
+        color: hsl(var(--primary));
+        text-align: center;
+        min-height: 22px;
+        padding: 20px 20px 0 20px;
+
+        .plan-selector {
+          border: 1px solid hsl(var(--border));
+          border-radius: 0.375rem;
+          padding: 0.375rem 0.75rem;
+          font-size: 0.875rem;
+          background-color: hsl(var(--background));
+          color: hsl(var(--foreground));
+          min-width: 150px;
+          width: 100%;
+
+          &:focus {
+            border-color: hsl(var(--ring));
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem hsl(var(--ring) / 0.25);
+          }
+        }
+      }
+
+      .price {
+        color: hsl(var(--foreground));
+        text-align: center;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      .notices {
+        position: absolute;
+        left: 10px;
+        top: 50px;
+        display: flex;
+        gap: 10px;
+      }
+
+      .notice {
+        color: hsl(var(--foreground));
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        border: 1px solid hsl(var(--border));
+        padding: 3px;
+        border-radius: 5px;
+        background: hsl(var(--card));
+        user-select: none;
+      }
+
+      .period {
+        color: hsl(var(--foreground));
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        min-height: 29px;
+      }
+
+      .select-button {
+        margin: 20px;
+      }
+
+      .features {
+        margin: 0 20px 20px 20px;
+        
+        p {
+          margin: 0.5rem 0;
+        }
+        
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+        
+        li {
+          margin: 0.25rem 0;
+          padding-left: 0;
+        }
+        
+        li:before {
+          content: "•";
+          color: hsl(var(--primary));
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}

@@ -3,6 +3,7 @@ import { useParams, Navigate, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { Breadcrumb } from '@/components/Breadcrumb';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { Card } from '@/components/ui/card';
@@ -52,6 +53,76 @@ export function DynamicLandingPage() {
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
+  // Helper function to format category names for display
+  const formatCategoryName = (categorySlug: string) => {
+    return categorySlug
+      .split('-')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  };
+
+  // Helper function to get category display name with proper formatting
+  const getCategoryDisplayName = (categorySlug: string) => {
+    const formatted = formatCategoryName(categorySlug);
+    // Handle special cases for better readability
+    const specialCases: Record<string, string> = {
+      'ai-and-machine-learning': 'AI & Machine Learning',
+      'e-commerce-management': 'E-commerce Management',
+      'crm-customer-relationship-management': 'CRM & Customer Relationship Management',
+      'civic-and-government-tools': 'Civic & Government Tools',
+      'no-code-and-automation-tools': 'No-Code & Automation Tools',
+      'business-and-portfolio-websites': 'Business & Portfolio Websites',
+      'health-and-wellness': 'Health & Wellness',
+      'financial-services-and-banking': 'Financial Services & Banking',
+      'media-and-entertainment': 'Media & Entertainment',
+      'educational-tools': 'Educational Tools',
+      'productivity-tools': 'Productivity Tools',
+      'website-building': 'Website Building',
+      'gaming-and-entertainment': 'Gaming & Entertainment',
+      'social-media-management': 'Social Media Management',
+      'sports-and-recreation': 'Sports & Recreation',
+      'travel-and-tourism': 'Travel & Tourism',
+      'real-estate-management': 'Real Estate Management',
+      'healthcare': 'Healthcare',
+      'restaurant-and-food-service': 'Restaurant & Food Service',
+      'inventory-management': 'Inventory Management',
+      'employee-and-hr-management': 'Employee & HR Management',
+      'project-management-and-collaboration': 'Project Management & Collaboration',
+      'transportation-and-logistics': 'Transportation & Logistics',
+      'security-and-surveillance': 'Security & Surveillance',
+      'sustainability-and-environment': 'Sustainability & Environment'
+    };
+    
+    return specialCases[categorySlug] || formatted;
+  };
+
+  // Generate breadcrumb items
+  const getBreadcrumbItems = () => {
+    const items = [];
+    
+    if (category) {
+      const categoryDisplayName = getCategoryDisplayName(category);
+      
+      if (subcategory) {
+        // If we have a subcategory, add category as intermediate step
+        items.push({
+          label: categoryDisplayName,
+          href: `/${lang}/inspiration/${category}`
+        });
+        items.push({
+          label: content?.title || formatCategoryName(subcategory)
+        });
+      } else {
+        // If no subcategory, this is the final category page
+        items.push({
+          label: content?.title || categoryDisplayName
+        });
+      }
+    }
+    
+    return items;
+  };
+
   useEffect(() => {
     const loadContent = async () => {
       try {
@@ -84,6 +155,67 @@ export function DynamicLandingPage() {
           metaDescription.setAttribute('content', data.metaDescription);
         }
 
+        // Add OpenGraph meta tags
+        const updateOrCreateMetaTag = (property: string, content: string) => {
+          let metaTag = document.querySelector(`meta[property="${property}"]`);
+          if (!metaTag) {
+            metaTag = document.createElement('meta');
+            metaTag.setAttribute('property', property);
+            document.head.appendChild(metaTag);
+          }
+          metaTag.setAttribute('content', content);
+        };
+
+        const updateOrCreateNameMetaTag = (name: string, content: string) => {
+          let metaTag = document.querySelector(`meta[name="${name}"]`);
+          if (!metaTag) {
+            metaTag = document.createElement('meta');
+            metaTag.setAttribute('name', name);
+            document.head.appendChild(metaTag);
+          }
+          metaTag.setAttribute('content', content);
+        };
+
+        // OpenGraph tags
+        updateOrCreateMetaTag('og:title', data.title);
+        updateOrCreateMetaTag('og:description', data.metaDescription);
+        updateOrCreateMetaTag('og:url', window.location.href);
+        updateOrCreateMetaTag('og:type', 'website');
+        updateOrCreateMetaTag('og:site_name', 'Kliv');
+        
+        // Twitter Card tags
+        updateOrCreateNameMetaTag('twitter:card', 'summary_large_image');
+        updateOrCreateNameMetaTag('twitter:title', data.title);
+        updateOrCreateNameMetaTag('twitter:description', data.metaDescription);
+        updateOrCreateNameMetaTag('twitter:site', '@kliv');
+
+        // Add hero image as og:image if available
+        if (data.hero.image) {
+          updateOrCreateMetaTag('og:image', new URL(data.hero.image, window.location.origin).href);
+          updateOrCreateNameMetaTag('twitter:image', new URL(data.hero.image, window.location.origin).href);
+        }
+
+        // Add breadcrumb structured data
+        const breadcrumbItems = getBreadcrumbItems();
+        const breadcrumbStructuredData = {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "All Inspiration",
+              "item": new URL(`/${lang}/inspiration`, window.location.origin).href
+            },
+            ...breadcrumbItems.map((item, index) => ({
+              "@type": "ListItem",
+              "position": index + 2,
+              "name": item.label,
+              "item": item.href ? new URL(item.href, window.location.origin).href : window.location.href
+            }))
+          ]
+        };
+
         // Add structured data for SEO
         const structuredData = {
           "@context": "https://schema.org",
@@ -91,6 +223,7 @@ export function DynamicLandingPage() {
           "name": data.title,
           "description": data.metaDescription,
           "url": window.location.href,
+          "breadcrumb": breadcrumbStructuredData,
           "mainEntity": {
             "@type": "SoftwareApplication",
             "name": "Kliv AI Platform",
@@ -504,8 +637,13 @@ export function DynamicLandingPage() {
     <div className="min-h-screen bg-background">
       <Header />
       
+      {/* Breadcrumb Navigation */}
+      <div className="pt-20 bg-muted/20 border-b border-border">
+        <Breadcrumb items={getBreadcrumbItems()} lang={lang || 'en'} />
+      </div>
+      
       {/* Hero Section with optional hero image */}
-      <section className="pt-32 pb-12">
+      <section className="pt-12 pb-12">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">

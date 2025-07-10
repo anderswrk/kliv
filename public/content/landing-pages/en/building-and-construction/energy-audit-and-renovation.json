@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a comprehensive energy audit and renovation planning tool that can capture building data, analyze energy consumption, recommend renovation actions, and estimate costs and energy savings.",
+  "description": "Build custom energy audit and renovation planning applications with Kliv's AI-driven platform.",
+  "hero": {
+    "cta": "Start building your audit tool",
+    "subtitle": "Develop tailored applications for energy audits, renovation planning, and performance tracking, designed for precision and impact.",
+    "title": "Create your own energy audit & renovation planning software"
+  },
+  "metaDescription": "Design and deploy powerful energy audit and renovation planning tools with Kliv. Enhance efficiency, streamline assessments, and optimize building performance for a sustainable future.",
+  "sections": [
+    {
+      "title": "The growing need for precise energy assessments",
+      "type": "text",
+      "content": "In a world increasingly focused on sustainability and efficiency, accurate energy audits and renovation planning are crucial. Generic tools often fall short, failing to adapt to the unique complexities of different buildings and regulatory environments. With Kliv, you can develop a bespoke application that perfectly fits your specific assessment methodologies and reporting requirements, giving you a competitive edge.\n\nOff-the-shelf solutions come with limitations: they might not capture all the data points you need, offer the specific analysis models you prefer, or present findings in the customized reports your clients expect. Building your own tool ensures complete control over functionality, data handling, and user experience, leading to more effective, reliable, and scalable solutions."
+    },
+    {
+      "title": "Why custom software powers better energy projects",
+      "type": "markdown",
+      "content": "## Limitations of standard energy assessment tools\n\nMany organizations rely on commercial software that often presents significant drawbacks:\n\n- **Inflexible data capture**: Often rigid, making it hard to collect specific or unusual data points relevant to unique building types or audit standards.\n- **Generic analysis models**: May not support advanced simulations or the specific algorithms needed for highly precise energy consumption predictions.\n- **Lack of integration**: Poorly integrates with other critical systems like CAD software, BIM models, or facility management platforms.\n- **Subscription costs**: High recurring fees that can become prohibitive, especially for small to medium-sized consultancies or property managers.\n- **Limited reporting**: Offers predefined report formats that may not meet all stakeholder or regulatory requirements, necessitating manual adjustments.\n\n## The strategic advantage of tailored solutions\n\nLeveraging Kliv to build a custom energy audit and renovation planning tool offers compelling advantages:\n\n### Specialized data collection\nDesign forms and workflows to capture every detail relevant to your specific audit protocol, including advanced sensor data, material properties, and occupant behavior.\n\n### Advanced analytical capabilities\nIncorporate proprietary algorithms, machine learning models, or specific industry standards (e.g., ASHRAE, ISO) into your analysis engines for unparalleled accuracy in energy consumption modeling and savings estimations.\n\n### Seamless integration\nConnect your tool directly with building management systems (BMS), smart meters, CAD, GIS, or even drone-based inspection data for a holistic view.\n\n### Cost-effectiveness and ownership\nInvest once in a solution perfectly matched to your needs, avoiding perpetual subscription fees and gaining full intellectual property over your unique methodology.\n\n### Custom reporting and visualization\nGenerate highly customized, professional reports and interactive dashboards that visually communicate findings, recommendations, and ROI projections to clients and stakeholders.\n\n## Real-world applications in practice\n\nCustom energy audit and renovation planning tools can revolutionize various sectors:\n\n**Commercial Real Estate**: A tool that not only audits existing commercial buildings but also simulates the energy impact of different renovation scenarios (e.g., window upgrades, HVAC replacements) and calculates the projected ROI for investors.\n\n**Municipalities & Public Sector**: An application for city planners to audit public buildings for energy efficiency, track compliance with green building standards, and plan phased renovations across a portfolio of government properties.\n\n**Construction & Retrofit Firms**: A field app for on-site data collection, allowing technicians to input audit findings, attach photos, and generate immediate, preliminary renovation suggestions directly from the job site.\n\n**Sustainability Consulting**: A platform that allows consultants to manage multiple client projects, compare energy performance across diverse building types, and benchmark against industry standards, offering deep-dive analysis.\n\n## AI's role in transformative development\n\nArtificial intelligence significantly streamlines the creation of complex applications:\n\n- **Intelligent automation**: Automate data validation, anomaly detection in energy consumption patterns, and routine report generation.\n- **Predictive modeling**: Utilize AI to forecast future energy consumption based on historical data and proposed changes, or to predict the effectiveness of new materials.\n- **Natural language interface**: Describe complex audit requirements or data analysis needs in plain language, and AI assists in building the necessary features.\n- **Rapid iteration**: Quickly adjust and refine your application based on user feedback or evolving industry standards without extensive coding.\n\nBuilding your own solution with Kliv means creating a powerful, adaptable, and precise tool that sets new standards in energy efficiency and renovation planning."
+    },
+    {
+      "title": "Energy audit & renovation ideas to inspire your build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Comprehensive energy audit and renovation planning for commercial buildings.",
+          "prompt": "Create an application that conducts detailed energy audits for commercial office spaces, calculates energy performance indicators (EPIs), recommends HVAC and lighting upgrades, and estimates payback periods for each renovation.",
+          "title": "Commercial Building Energy Planner"
+        },
+        {
+          "description": "On-site data collection and immediate assessment tool for residential auditors.",
+          "prompt": "Build a mobile-friendly field application for residential energy auditors to capture insulation levels, window U-values, appliance efficiencies, and instantly generate a preliminary energy efficiency score and suggested improvements.",
+          "title": "Residential Quick Audit App"
+        },
+        {
+          "description": "Cloud-based platform for managing energy projects across multiple sites.",
+          "prompt": "Develop a web-based system for a consulting firm to manage energy audit projects across multiple client sites, track progress of recommendations, and centralize all audit reports and renovation plans.",
+          "title": "Multi-Site Energy Management Dashboard"
+        },
+        {
+          "description": "Tool for comparing energy profiles of similar buildings and identifying best practices.",
+          "prompt": "Design a comparative analysis tool that allows users to input energy consumption data from various buildings, benchmark them against similar structures, and highlight areas for efficiency improvements based on best performers.",
+          "title": "Building Energy Benchmarker"
+        },
+        {
+          "description": "System for tracking and verifying post-renovation energy savings.",
+          "prompt": "Create an application to continuously monitor energy consumption data post-renovation, compare it against pre-renovation baselines and projected savings, and generate reports on actual energy performance improvements.",
+          "title": "Post-Renovation Performance Tracker"
+        },
+        {
+          "description": "Integrate financial modeling for renovation investments.",
+          "prompt": "I need a tool that not only audits energy but also integrates financial modeling to calculate the net present value (NPV), internal rate of return (IRR), and discounted payback period for different renovation investment scenarios.",
+          "title": "Investment-Grade Renovation Modeler"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your audit & renovation tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate thermal imaging capabilities to identify heat loss areas directly within the audit process.",
+          "title": "Add thermal imaging integration"
+        },
+        {
+          "prompt": "Develop a client-facing portal where building owners can view their audit results, track renovation progress, and access historical energy data.",
+          "title": "Build a client analytics portal"
+        },
+        {
+          "prompt": "Incorporate AI-driven recommendations that suggest optimal renovation strategies based on machine learning analysis of past successful projects.",
+          "title": "Implement AI-driven optimal strategies"
+        },
+        {
+          "prompt": "Add a feature for real-time monitoring of building energy performance post-renovation, pulling data from smart meters and IoT sensors.",
+          "title": "Enable real-time performance monitoring"
+        },
+        {
+          "prompt": "Add a module for carbon footprint calculation and reporting based on energy consumption data.",
+          "title": "Include carbon footprint calculator"
+        },
+        {
+          "prompt": "Create customizable report templates that can be branded with company logos and adapted to meet specific regulatory or client requirements.",
+          "title": "Design custom report templates"
+        },
+        {
+          "prompt": "Integrate with local and national energy efficiency incentive programs and automatically suggest applicable rebates or grants for recommended renovations.",
+          "title": "Connect to incentive databases"
+        },
+        {
+          "prompt": "Add a project management module to track the implementation of renovation recommendations, including task assignments, deadlines, and budget tracking.",
+          "title": "Incorporate renovation project management"
+        },
+        {
+          "prompt": "Develop a simulation tool that predicts the impact of climate change on future energy consumption and the long-term effectiveness of planned renovations.",
+          "title": "Add climate impact simulation"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities for your system",
+      "type": "features",
+      "items": [
+        {
+          "description": "Structured forms and workflows for efficient on-site or remote data capture.",
+          "icon": "📝",
+          "title": "Custom Data Capture"
+        },
+        {
+          "description": "Advanced algorithms to analyze energy usage, identify inefficiencies, and quantify savings.",
+          "icon": "💡",
+          "title": "Energy Analysis Engine"
+        },
+        {
+          "description": "Generate detailed, customizable reports on audit findings, renovation proposals, and financial projections.",
+          "icon": "📊",
+          "title": "Dynamic Reporting"
+        },
+        {
+          "description": "Model the energy and cost impact of various renovation scenarios before implementation.",
+          "icon": "🛠️",
+          "title": "Renovation Scenario Modeling"
+        },
+        {
+          "description": "Connect with sensors, BMS, and external databases for comprehensive data integration.",
+          "icon": "🔗",
+          "title": "Smart System Integration"
+        },
+        {
+          "description": "Securely manage projects, assign tasks, and track renovation progress.",
+          "icon": "✅",
+          "title": "Project Workflow Management"
+        }
+      ]
+    },
+    {
+      "title": "Practical insights for building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom energy audit tool can take anywhere from a few days for a basic version to a few weeks for a complex, feature-rich system. Kliv's AI-assisted development significantly accelerates this timeline compared to traditional coding.",
+          "question": "How long will it take to develop my application?"
+        },
+        {
+          "answer": "You do not need to be a programmer. Kliv allows you to describe your requirements in plain English, and the AI converts these into functional application components. This empowers domain experts to build their own tools.",
+          "question": "Do I need to know how to code to build this software?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various external data sources and systems, including smart meters, building management systems (BMS), CRM, ERP, and even publicly available weather or utility data via APIs.",
+          "question": "Can my application integrate with existing building data systems?"
+        },
+        {
+          "answer": "Kliv provides tools to secure your data storage and transmission. Since you control the specifics of your application's architecture and hosting, you can implement robust security measures tailored to your needs and compliance standards.",
+          "question": "How secure will my custom energy audit application be?"
+        },
+        {
+          "answer": "The cost of building with Kliv is typically a one-time development investment, which is often significantly less than perpetual subscription fees for commercial software, especially over several years. You own the asset outright.",
+          "question": "How does the cost compare to off-the-shelf energy audit software?"
+        },
+        {
+          "answer": "Absolutely. Your custom application is fully modifiable. As your business evolves, you can easily add new features, adjust data collection methods, refine analysis algorithms, or update reporting formats using Kliv's intuitive interface.",
+          "question": "Can I modify or expand my application after it's built?"
+        },
+        {
+          "answer": "Kliv offers comprehensive support for the development process, including AI guidance, troubleshooting, and optimization suggestions. For ongoing maintenance, since you own the code, you have full control or can engage any developer.",
+          "question": "What kind of support is available if I get stuck?"
+        },
+        {
+          "answer": "Yes, Kliv supports multi-user environments with customizable roles and permissions, allowing different team members (auditors, engineers, project managers) to access relevant parts of the application securely.",
+          "question": "Can multiple users collaborate within the custom application?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform your energy consulting business?",
+      "type": "cta",
+      "content": "Stop adapting to generic software and start building innovative solutions that elevate your energy audit and renovation services. Kliv makes it possible."
+    }
+  ],
+  "title": "Energy Audit & Renovation Application"
+}

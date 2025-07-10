@@ -1,0 +1,175 @@
+{
+  "defaultPrompt": "I want to create an AI-powered system that can take a large dataset, identify the most significant trends and outliers, and then summarize these findings into both a concise executive summary and a detailed, analytical report.",
+  "description": "Build custom AI-powered tools to distill large datasets into actionable small results and comprehensive big results.",
+  "hero": {
+    "cta": "Start condensing data",
+    "subtitle": "Transform overwhelming data into digestible insights and detailed analyses with AI-powered 'Big-Small Result' generators.",
+    "title": "AI-Powered Big & Small Result Generators"
+  },
+  "metaDescription": "Create custom AI tools with Kliv to generate both high-level summaries and in-depth analyses from complex datasets. Perfect for market research, scientific data, and business intelligence.",
+  "sections": [
+    {
+      "title": "The Challenge of Information Overload",
+      "type": "text",
+      "content": "In today's data-rich environment, extracting meaningful insights from vast amounts of information is a significant challenge. Businesses and researchers often struggle to create both quick, high-level summaries and detailed, comprehensive reports without extensive manual effort. Off-the-shelf analytics tools might provide some visualizations, but they rarely offer the curated, context-aware summarization and elaboration capabilities that truly transform data into actionable knowledge."
+    },
+    {
+      "title": "Why Build Your Own AI Big & Small Result Generator?",
+      "type": "markdown",
+      "content": "## The Bottleneck of Data Analysis\n\nExisting solutions often fall short when you need to simultaneously grasp the 'big picture' and deep-dive into 'small details'. Generic business intelligence platforms typically:\n\n- **Require significant manual processing** for summarization and report generation.\n- **Lack adaptive intelligence** to prioritize key information based on context.\n- **Offer rigid reporting formats** that don't always suit your specific audience (e.g., executives vs. analysts).\n- **Come with recurring costs** that escalate as your data volume grows.\n\n## The Power of Custom AI for Data Distillation\n\nAI-powered platforms like Kliv empower you to build bespoke solutions that excel at data distillation. Here's why building your own 'Big-Small Result Generator' is a game-changer:\n\n### Tailored Insights, Perfect Fit\nYour data is unique, and so are your reporting needs. A custom AI can be trained on your specific data types, business terminology, and reporting styles, ensuring that both the concise summaries and detailed reports are perfectly aligned with your objectives.\n\n### Dynamic Summarization and Elaboration\nUnlike static templates, a custom AI can dynamically identify the most critical findings for a 'small result' (e.g., a one-page summary for decision-makers) and then elaborate on those findings with supporting data, methodologies, and implications for a 'big result' (e.g., a multi-page analytical report).\n\n### Intellectual Property Ownership\nWhen you build with Kliv, you own the application. This means your data processing logic, AI models, and reporting methodologies become proprietary assets, giving you a competitive edge.\n\n### Cost-Efficiency and Scalability\nAvoid continuous subscription fees. A custom solution is a one-time build that you can scale and adapt without vendor lock-in, making it significantly more cost-effective in the long run.\n\n### Enhanced Data Security\nMaintain complete control over your sensitive data. By building your own tool, you dictate the security protocols and hosting environment, mitigating risks associated with third-party data processing.\n\n## Real-World Applications\n\nCustom AI-driven 'Big-Small Result' generators can revolutionize various domains:\n\n**Market Research**: Automatically generate executive summaries of consumer sentiment reports alongside detailed analyses of demographic trends and campaign effectiveness.\n\n**Scientific Research**: Distill complex genomic or climate data into concise abstracts for publications and comprehensive statistical analyses for peer review.\n\n**Financial Analysis**: Produce high-level summaries of quarterly performance for board members, while simultaneously generating in-depth reports on specific market segments or investment portfolios for analysts.\n\n**Healthcare**: Summarize patient health records for quick doctor review, and expand into detailed reports for insurance claims or research studies.\n\n## Beyond Generic Reporting\n\nBuilding your own AI data distillation engine means moving beyond generic dashboards and static reports. It means creating a system that understands the nuances of your data and the distinct needs of your audience, providing unparalleled clarity at every level of detail."
+    },
+    {
+      "title": "AI-Powered Data Distillation Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create dual reports from sales figures for management and sales teams.",
+          "prompt": "Build an AI that analyzes monthly sales data, generates a 1-page executive summary highlighting top-performing products and regions, and a 20-page detailed report including granular sales by SKU, channel, and historical comparisons.",
+          "title": "Sales Performance Analyzer"
+        },
+        {
+          "description": "Summarize customer feedback for quick insights and detailed analysis.",
+          "prompt": "Develop a system to ingest thousands of customer support tickets and reviews, producing a 'small result' summary of recurring issues and sentiment trends, and a 'big result' document breaking down specific feedback categories, severity, and suggested resolutions.",
+          "title": "Customer Feedback Synthesizer"
+        },
+        {
+          "description": "Create dual reports from clinical trial data for overview and deep dive.",
+          "prompt": "Design an AI that processes anonymized clinical trial data, generating a concise summary of key findings and drug efficacy for regulatory submission cover sheets, and a comprehensive statistical report with detailed patient demographics, adverse events, and efficacy measurements.",
+          "title": "Clinical Data Reporter"
+        },
+        {
+          "description": "Distill complex research papers into abstracts and full reviews.",
+          "prompt": "Create an AI that reads newly published academic papers in a specific field, extracts the main contribution and key results into a short abstract, and then generates an extended literature review summarizing methodologies and discussions from a set of related papers.",
+          "title": "Academic Paper Summarizer"
+        },
+        {
+          "description": "Generate both quick summaries and detailed logs from system monitoring.",
+          "prompt": "Build an AI that monitors real-time server logs and network traffic, creating a 'small result' alert system for critical anomalies and performance bottlenecks, and a 'big result' daily security and performance audit report with detailed event timelines.",
+          "title": "IT Operations Insights"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Generator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a real-time data ingestion module from external APIs or databases.",
+          "title": "Live Data Feed Integration"
+        },
+        {
+          "prompt": "Add functionality for users to define and customize report templates dynamically.",
+          "title": "Customizable Report Templates"
+        },
+        {
+          "prompt": "Implement a natural language query interface for specific data exploration within reports.",
+          "title": "Natural Language Querying"
+        },
+        {
+          "prompt": "Develop a user authentication and role-based access control system.",
+          "title": "User Access Controls"
+        },
+        {
+          "prompt": "Incorporate data visualization components for both summary and detailed reports.",
+          "title": "Interactive Data Visualizations"
+        },
+        {
+          "prompt": "Add automated distribution capabilities via email or secure messaging platforms.",
+          "title": "Automated Report Distribution"
+        },
+        {
+          "prompt": "Include anomaly detection and predictive analytics features.",
+          "title": "Predictive Insights Module"
+        },
+        {
+          "prompt": "Create an audit trail for all data processed and reports generated.",
+          "title": "Reporting Audit Logs"
+        },
+        {
+          "prompt": "Enable multi-language support for report generation.",
+          "title": "Multi-Language Output"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Automatically condenses large datasets into high-level, actionable summaries.",
+          "icon": "✨",
+          "title": "Intelligent Summarization"
+        },
+        {
+          "description": "Generates comprehensive, detailed reports with granular data and analysis.",
+          "icon": "🔍",
+          "title": "In-depth Elaboration"
+        },
+        {
+          "description": "Identifies and highlights critical trends, anomalies, and insights.",
+          "icon": "📈",
+          "title": "Key Insight Extraction"
+        },
+        {
+          "description": "Processes a variety of data formats, from structured databases to unstructured text.",
+          "icon": "🗄️",
+          "title": "Multi-format Data Ingestion"
+        },
+        {
+          "description": "Tailored AI models trained on your specific data and reporting requirements.",
+          "icon": "🧠",
+          "title": "Customizable AI Models"
+        },
+        {
+          "description": "Seamlessly integrates with your existing data sources and business applications.",
+          "icon": "🔗",
+          "title": "Flexible Integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic version of an AI result generator can take a few hours to a day on Kliv, thanks to its AI-assisted development. More complex systems with advanced integrations and custom AI training might take a few days to a week.",
+          "question": "How long does it take to build a custom AI result generator?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv's platform uses natural language processing to understand your requirements, allowing you to describe the desired functionality, and the AI helps construct the application.",
+          "question": "Do I need to be a data scientist or programmer to build this?"
+        },
+        {
+          "answer": "Yes, a custom application built on Kliv can connect to various data sources including databases (SQL, NoSQL), APIs, cloud storage (S3, GCS), and even local files, enabling seamless data ingestion.",
+          "question": "Can my AI generator pull data from all my existing sources?"
+        },
+        {
+          "answer": "You retain full ownership of the custom application, its code, and the data it processes. Kliv is a platform for creation, not a proprietary application host.",
+          "question": "Who owns the AI model and generated reports?"
+        },
+        {
+          "answer": "The cost model for Kliv focuses on building and deploying the application, not ongoing subscriptions per user or feature. This generally leads to significant savings over time compared to perpetual SaaS licenses, especially for complex, evolving needs.",
+          "question": "Is building my own solution cheaper than using off-the-shelf tools?"
+        },
+        {
+          "answer": "Absolutely. Custom tools offer unparalleled flexibility. You can easily modify the AI's logic, change reporting formats, add new data sources, or extend functionality as your business needs evolve, without vendor constraints.",
+          "question": "Can I modify or expand the tool after it's built?"
+        },
+        {
+          "answer": "Yes, security is paramount. By building a custom application, you have direct control over data encryption, access controls, and hosting environments, allowing you to implement security measures tailored to your specific compliance requirements.",
+          "question": "How secure is a custom-built AI data generator?"
+        },
+        {
+          "answer": "Kliv provides AI-powered guidance throughout the development process, along with documentation and community support. Since you own the generated code, you also have the freedom to hire any developer for further customizations if needed.",
+          "question": "What kind of support is available if I get stuck?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Transform Your Data? ",
+      "type": "cta",
+      "content": "Stop drowning in data and start distilling insights. Build your ultimate AI-powered Big & Small Result Generator with Kliv today."
+    }
+  ],
+  "title": "AI-Powered Big & Small Result Generators"
+}

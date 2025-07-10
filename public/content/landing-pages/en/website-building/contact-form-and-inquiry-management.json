@@ -1,0 +1,169 @@
+{
+  "defaultPrompt": "I want to create a custom contact form system that captures user inquiries, stores them in a database, allows an admin to review and respond, and notifies me via email upon submission.",
+  "description": "Build custom contact form and inquiry management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your inquiry system",
+    "subtitle": "Go beyond basic contact forms. Build comprehensive inquiry management systems tailored to your business needs, powered by Kliv.",
+    "title": "Create custom inquiry management tools"
+  },
+  "metaDescription": "Design and deploy powerful custom contact forms and inquiry management systems using Kliv. Capture leads, manage communications, and streamline your customer interactions.",
+  "sections": [
+    {
+      "title": "Why settle for generic contact forms?",
+      "type": "text",
+      "content": "Most off-the-shelf contact forms and CRM lite solutions offer rigid templates and limited functionality. They rarely fit the unique communication workflows businesses truly need. Whether you're a small business, a large enterprise, or a solopreneur, your inquiry system should be as unique as your customer interactions.\n\nBuilding your own custom contact form and inquiry management tool with Kliv allows you to design the exact data capture, routing, response, and reporting capabilities you require, without the limitations or recurring costs of third-party platforms."
+    },
+    {
+      "title": "The power of custom inquiry management",
+      "type": "markdown",
+      "content": "## Outgrow the 'Contact Us' page\n\nA simple 'Contact Us' page is often the first, and sometimes only, point of digital interaction for potential clients. But if it's just a static form that emails you, you're missing out on vital data and efficient processes. Custom forms and full inquiry management systems mean:\n\n*   **Richer data capture**: Ask precisely the questions you need, in the format that works for you.\n*   **Intelligent routing**: Direct inquiries to the right department or person instantly.\n*   **Automated responses**: Send personalized acknowledgments and follow-ups based on inquiry type.\n*   **Centralized tracking**: Never lose track of a lead or customer request.\n*   **Actionable insights**: Understand inquiry trends and improve your service.\n\n## Limitations of off-the-shelf solutions\n\nExisting form builders or CRM modules often come with significant drawbacks:\n\n*   **Rigid Templates**: You're often stuck within predefined fields and designs.\n*   **Limited Customization**: Adapting to specific workflows or branding is difficult or impossible.\n*   **Data Silos**: Information often remains isolated within the form tool, not integrated with your other systems.\n*   **Recurring Costs**: Monthly subscriptions add up, especially as your needs grow.\n*   **Generic Reporting**: Analytics might not provide the specific insights your business needs.\n\n## Benefits of building your own\n\nKliv empowers you to create custom inquiry solutions that provide:\n\n### Perfect Fit\nDesign forms that capture exactly the data you need, with logic and workflows that perfectly match your internal processes. From simple contact requests to complex support tickets or multi-step application forms.\n\n### Full Data Ownership\nYour customer data is yours. Store it where you want, manage it how you see fit, and ensure privacy and compliance on your terms.\n\n### Cost Efficiency\nAvoid endless subscription fees. Build once, deploy indefinitely, and only pay for your hosting, not for every 'feature add-on'.\n\n### Seamless Integration\nConnect your inquiry system directly with your existing CRM, email marketing tools, project management software, or any other API-enabled service.\n\n### Scalability & Agility\nEasily add new form fields, adjust workflows, or expand capabilities as your business evolves. No waiting for vendor updates or feature requests.\n\n## Real-world applications\n\nCustom inquiry systems built on platforms like Kliv redefine customer interaction:\n\n*   **E-commerce**: Custom return/refund request forms that automatically generate tickets, notify inventory, and trigger shipping labels.\n*   **Service Businesses**: Detailed consultation request forms that gather specific project requirements, pre-qualify leads, and auto-schedule discovery calls.\n*   **Education**: Admission inquiry forms with dynamic fields based on program interest, automatically routing to relevant faculty and sending prospectus PDFs.\n*   **Real Estate**: Property inquiry forms that collect specific preferences (bedrooms, budget, location) and automatically match prospects with suitable listings and agents.\n\nWith Kliv, leveraging AI, you can describe your ideal inquiry process in plain language, and the platform helps you build it, fast."
+    },
+    {
+      "title": "Inquiry management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "title": "Basic website contact form with admin panel/dashboard (CRUD functionality). Store submissions in a database, allow admin to view, mark as resolved, and delete inquiries via a simple dashboard. Send email notification to admin upon new submission. Include fields for name, email, subject, message. Also include a 'source' field to track where the inquiry came from (e.g., Google, social media, direct). Inquiries should have a status. Allow admin user to respond by sending an email directly from the dashboard and updating the inquiry status. Store the email reply on the inquiry record. Add a \"notes\" field for private notes. Limit who can access the dashboard. Send an auto-reply email to the customer with a personalized message and confirmation number after they submit the inquiry. The system should also show the date and time of submission. Allow CSV export of all inquiries. Add search functionality for inquiries via keywords, date range, and status. Display total number of inquiries and total resolved vs. unresolved. Include a 'priority' field, with dropdown options to easily set/change priority in dashboard, and ability to filter inquiries by priority. Send an email notification if an inquiry remains 'unresolved' for more than 48 hours. Add ability to sort table data via clicking headers (date, priority, status, source etc.) Implement CAPTCHA or reCAPTCHA to prevent spam submissions. Add a feature so that each submission generates a unique ticket ID. Also add ability to attach files to inquiry record. Also create a basic analytics dashboard to track submission volume over time and by source. And set a maximum message length for submissions."
+        },
+        {
+          "title": "Multi-step feedback form for product reviews, allowing users to rate features on a scale of 1-5, add comments, and upload screenshots (images only). All submissions must be reviewed by an admin before being publicly visible (if applicable), or before triggering notifications to relevant teams. Admin should be able to reject or approve submissions. If rejected, provide reason. If approved, admin can categorize the inquiry into 'bug', 'feature request', or 'general feedback'. The system should automatically notify relevant internal teams (engineering for bugs, product for feature requests). Also allow users to optionally submit their name and email."
+        },
+        {
+          "title": "Event registration form with different ticket types (e.g., general, VIP), discount code validation, and attendee list management. Automatically generate and email a QR code ticket to registrants. Admin should be able to view and search attendee list by name, ticket type, and payment status, and mark attendees as checked-in. The system should track available ticket quantity for each type. Integrate with a payment gateway (e.g., Stripe, PayPal) for processing payments. Send automated reminder emails to attendees 24 hours before the event. Allow an admin to manually add attendees. Create a report showing total revenue per ticket type. Also allow for multi-day events."
+        },
+        {
+          "title": "Customer support ticket system with user authentication for customers to view their submitted tickets, their status, and reply to agent messages. Support agents should have a dashboard to view all open tickets, assign tickets to themselves or others, add internal notes, and send replies to customers. Implement a knowledge base search within the customer portal. Tickets should have categories (e.g., Billing, Technical, General). Escalate tickets if no response within a set time by an agent. Allow agents to prioritize tickets. Collect CSAT (Customer Satisfaction) feedback after ticket resolution via email survey."
+        },
+        {
+          "title": "Vendor application portal for onboarding new suppliers. Businesses can fill out a detailed application form with sections for company details, services offered, compliance documents (e.g., tax forms, certifications), and references. Applications go through a multi-step approval workflow internally (e.g., initial review by procurement, then legal, then finance). Applicants can log in to check the status of their application. Automatic email notifications are sent at each stage of the approval process. If approved, automatically create a vendor profile in an internal database. If rejected, send a rejection email with a reason. Track the number of applications received by status (pending, approved, rejected). Applicants can save their progress and return to their application later."
+        },
+        {
+          "title": "Job application portal with custom forms for different roles, resume/CV upload, and cover letter submission. The system should automatically parse resumes for keywords and rank applicants. Hiring managers should have a dashboard to review applications, change application status (e.g., reviewed, interview, rejected), add interview notes, and schedule interviews directly via calendar integration. Applicants can log in to view their application status. Automatically send a confirmation email upon application submission. Allow bulk rejection emails. Include questions for diversity and inclusion data (optional)."
+        }
+      ]
+    },
+    {
+      "title": "Enhance your inquiry system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate the inquiry system with an external CRM (e.g., Salesforce, HubSpot) to automatically create new leads or update existing contact records upon submission.",
+          "title": "CRM integration"
+        },
+        {
+          "prompt": "Add a file upload feature to allow users to attach documents, images, or other files to their inquiries.",
+          "title": "File attachments"
+        },
+        {
+          "prompt": "Implement SMS notifications to key personnel for critical inquiry submissions, such as urgent support requests or high-value sales leads.",
+          "title": "SMS alerts"
+        },
+        {
+          "prompt": "Create custom reports and analytics dashboards to visualize inquiry trends (e.g., peak times, common topics, response rates) and measure team performance.",
+          "title": "Advanced reporting"
+        },
+        {
+          "prompt": "Develop a multi-language support feature for forms and auto-responses to cater to an international audience.",
+          "title": "Multi-language support"
+        },
+        {
+          "prompt": "Add a knowledge base or FAQ search functionality directly within the inquiry form to help users find answers before submitting a request.",
+          "title": "Integrated FAQ"
+        },
+        {
+          "prompt": "Implement a 'Frequently Asked Questions' section with a searchable database of common queries and answers, reducing the need for direct inquiries.",
+          "title": "AI-powered chatbots"
+        },
+        {
+          "prompt": "Develop an API for your inquiry system, allowing other internal or external applications to submit or retrieve inquiry data programmatically.",
+          "title": "API for external access"
+        },
+        {
+          "prompt": "Add an instant messaging or live chat feature directly within the inquiry system for real-time customer support.",
+          "title": "Live chat integration"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of custom inquiry systems",
+      "type": "features",
+      "items": [
+        {
+          "description": "Design custom forms with unlimited fields, conditional logic, and multi-step processes.",
+          "icon": "📝",
+          "title": "Dynamic Form Builder"
+        },
+        {
+          "description": "Centralize all incoming inquiries in a structured, searchable database.",
+          "icon": "🗄️",
+          "title": "Inquiry Database"
+        },
+        {
+          "description": "Route inquiries automatically to the right team or individual based on content or user selection.",
+          "icon": "➡️",
+          "title": "Intelligent Routing"
+        },
+        {
+          "description": "Configure automated email acknowledgments, reminders, and follow-ups based on inquiry status.",
+          "icon": "📧",
+          "title": "Automated Notifications"
+        },
+        {
+          "description": "Manage user permissions and roles for your admin dashboard and inquiry data.",
+          "icon": "🔐",
+          "title": "Secure Access Control"
+        },
+        {
+          "description": "Track the full lifecycle of each inquiry from submission to resolution.",
+          "icon": "📈",
+          "title": "Status & Workflow Tracking"
+        },
+        {
+          "description": "Export inquiry data in various formats (CSV, Excel) for further analysis and reporting.",
+          "icon": "📊",
+          "title": "Data Export Capabilities"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional contact form and inquiry management tool can take anywhere from a few hours to a couple of days with Kliv, depending on the complexity of your desired features (e.g., integrations, advanced routing, user roles).",
+          "question": "How quickly can I build a custom inquiry system?"
+        },
+        {
+          "answer": "No specific coding knowledge is necessary. Kliv's AI-driven platform allows you to describe your requirements in plain language, and it helps generate the functional application. Basic understanding of data flow can be beneficial but isn't required.",
+          "question": "Do I need to be a developer to create this type of tool?"
+        },
+        {
+          "answer": "Yes, your custom inquiry system can be integrated with a wide range of external services like CRMs (e.g., Salesforce, HubSpot), email marketing platforms, payment gateways, and cloud storage solutions through APIs.",
+          "question": "Can my custom inquiry system integrate with other tools I use?"
+        },
+        {
+          "answer": "You own all the generated code, data, and intellectual property. Kliv is a platform for building, not a proprietary service that locks you in. You have full control over where your application is hosted and how your data is managed.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Building a custom solution often provides significant cost savings in the long run compared to recurring SaaS subscriptions, especially as your needs scale or if you require highly specific functionalities not offered by standard products.",
+          "question": "How does the cost compare to using commercial form builders or CRM modules?"
+        },
+        {
+          "answer": "Absolutely. One of the core advantages of building with Kliv is the flexibility to modify, expand, or refine your inquiry system at any time as your business needs evolve. You're not limited by a vendor's update cycle.",
+          "question": "Can I modify or expand my inquiry system after it's built?"
+        },
+        {
+          "answer": "Yes, custom-built applications can be designed with robust security features, including custom user authentication, data encryption, and specific compliance requirements, often giving you more control over your data's security than third-party SaaS solutions.",
+          "question": "Is a custom-built inquiry system secure?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your customer inquiries?",
+      "type": "cta",
+      "content": "Stop letting generic forms dictate your customer interactions. Build a bespoke inquiry management system that works perfectly for your business."
+    }
+  ],
+  "title": "Custom Contact Form & Inquiry Management Solutions"
+}

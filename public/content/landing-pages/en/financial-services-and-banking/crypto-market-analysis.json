@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a crypto market analysis tool that tracks real-time prices, analyzes trading volumes, identifies trends, and provides predictive insights using historical data.",
+  "description": "Build custom crypto market analysis tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start analyzing",
+    "subtitle": "Gain an edge in volatile markets with bespoke applications designed for real-time data analysis, predictive modeling, and strategic insights.",
+    "title": "Build your own crypto market analysis tools"
+  },
+  "metaDescription": "Create powerful crypto market analysis tools with Kliv. Track real-time prices, analyze trends, and generate insights for informed trading and investment decisions.",
+  "sections": [
+    {
+      "title": "Why build a custom crypto market analysis tool?",
+      "type": "text",
+      "content": "The cryptocurrency market is dynamic and constantly evolving. Generic platforms often fall short of providing the nuanced insights and specific functionalities required by serious traders, investors, and researchers. With AI-powered development platforms like Kliv, building a tailored solution that fits your exact needs is not only possible but also efficient and cost-effective.\n\nOff-the-shelf solutions come with limitations: they might lack specific data feeds, offer generic indicators, or have restrictive APIs. A custom-built tool gives you complete control over data sources, analytical models, visualization, and integration with your existing workflows. Own your data, define your metrics, and react faster than the broader market."
+    },
+    {
+      "title": "The strategic advantage of tailored crypto analysis",
+      "type": "markdown",
+      "content": "## The pitfalls of general market analysis platforms\n\nMany crypto market analysis tools offer a one-size-fits-all approach, which often means:\n\n- **Lagging data**: Information isn't always real-time enough for high-frequency trading.\n- **Limited indicators**: You're stuck with pre-defined metrics, lacking custom analytical capabilities.\n- **Data privacy concerns**: Your proprietary strategies or sensitive portfolio data might be exposed.\n- **Subscription burdens**: Recurring costs for features you may not fully utilize.\n- **Integration complexity**: Difficulty connecting with your trading bots, portfolio trackers, or other systems.\n\n## Why a custom solution is a game-changer\n\nLeveraging AI-powered platforms like Kliv, individuals and institutions can now craft analytics tools that are perfectly aligned with their strategies:\n\n### Proprietary data integration\nConnect to any exchange or data provider, including private feeds. Integrate your own trading history and portfolio data for comprehensive, internal analysis without sharing it with third parties.\n\n### Custom algorithmic analysis\nDevelop and integrate unique algorithms for trend identification, anomaly detection, sentiment analysis of social media feeds, or predictive modeling based on your specific hypotheses.\n\n### Real-time, low-latency insights\nDesign a system optimized for speed, ensuring that you receive and process market data with minimal delay, crucial for tactical trading decisions.\n\n### Cost efficiency & ownership\nAvoid endless subscription fees. A custom tool is a one-time development investment, giving you full ownership and control over its evolution.\n\n### Seamless workflow integration\nBuild direct connections to your trading execution platforms, alerts, and reporting systems, automating your entire analytical and operational pipeline.\n\n## Real-world applications of custom crypto analysis\n\nCustom crypto analysis tools can empower various stakeholders:\n\n**Quantitative Traders**: Develop tools for high-frequency trading signal generation, arbitrage detection across exchanges, and backtesting complex strategies.\n\n**Portfolio Managers**: Create dashboards for real-time asset allocation tracking, risk assessment across diverse crypto holdings, and rebalancing alerts based on market shifts.\n\n**Market Researchers**: Build specialized data scraping and sentiment analysis tools for specific altcoins, tracking community discussions, development updates, and regulatory news impact.\n\n**Compliance & Risk Teams**: Implement monitoring systems for suspicious transaction patterns, regulatory changes, and tracking market manipulation attempts.\n\n## Kliv and the AI advantage\n\nBuilding sophisticated market analysis tools traditionally demanded deep programming expertise. Kliv's AI-driven approach democratizes this process:\n\n- **Natural Language Programming**: Describe the functionality, data sources, and analytical models you need in plain English.\n- **Rapid Iteration**: Quickly prototype, test, and refine your analytical models and UI.\n- **Intelligent Data Wrangling**: AI assists in connecting to diverse data sources, cleaning, and structuring disparate crypto data.\n- **Predictive Model Generation**: Leverage AI to suggest and implement machine learning models for price prediction or trend forecasting.\n\nWith Kliv, your expertise in crypto markets can be directly translated into powerful, custom analytical software, without getting bogged down in complex coding."
+    },
+    {
+      "title": "Crypto analysis ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize price action and trading volume",
+          "prompt": "Create a real-time charting tool for Bitcoin that displays candlestick prices, volume, and customizable moving averages.",
+          "title": "Real-time BTC/USD Charting"
+        },
+        {
+          "description": "Identify arbitrage opportunities across exchanges",
+          "prompt": "Build an arbitrage bot dashboard that monitors price discrepancies for ETH across Binance, Coinbase, and Kraken, highlighting profitable opportunities.",
+          "title": "Cross-Exchange Arbitrage Monitor"
+        },
+        {
+          "description": "Gauge market sentiment from social media",
+          "prompt": "Develop a sentiment analysis tool for Dogecoin by monitoring Twitter and Reddit, displaying positive/negative sentiment trends alongside price movements.",
+          "title": "Crypto Social Sentiment Tracker"
+        },
+        {
+          "description": "Predict price movements using historical data",
+          "prompt": "Design a price prediction model for Solana using historical price, volume, and on-chain data, providing a probable price range for the next 24 hours.",
+          "title": "SOL Price Prediction Engine"
+        },
+        {
+          "description": "Track token distribution and whale activity",
+          "prompt": "Create an on-chain analytics dashboard that tracks the distribution of new tokens, large wallet movements, and smart contract interactions for a specified DeFi project.",
+          "title": "On-Chain Activity Monitor"
+        },
+        {
+          "description": "Alerts for unusual trading volumes",
+          "prompt": "Build an anomaly detection system that sends alerts when a crypto asset's trading volume significantly deviates from its historical average, potentially indicating a major event.",
+          "title": "Volume Anomaly Detector"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your analysis tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate an alert system that triggers email or Telegram notifications when specific price thresholds are met or key indicators cross.",
+          "title": "Add custom alert notifications"
+        },
+        {
+          "prompt": "Implement a backtesting module where I can test trading strategies against historical market data to evaluate their theoretical performance.",
+          "title": "Develop a strategy backtesting module"
+        },
+        {
+          "prompt": "Incorporate a news aggregator that pulls in relevant headlines from crypto news sites and analyzes their impact on asset prices.",
+          "title": "Include a crypto news aggregator"
+        },
+        {
+          "prompt": "Add a portfolio management feature that tracks my crypto holdings, calculates P&L, and displays real-time asset allocation.",
+          "title": "Build portfolio tracking"
+        },
+        {
+          "prompt": "Connect historical funding rates from perpetual futures exchanges to analyze derivatives market sentiment and potential price impacts.",
+          "title": "Integrate derivatives data"
+        },
+        {
+          "prompt": "Add a feature to analyze the correlation between different crypto assets and traditional market indices (e.g., S&P 500, Gold).",
+          "title": "Implement correlation analysis"
+        },
+        {
+          "prompt": "Create a user interface for creating and managing custom technical indicators beyond standard offerings.",
+          "title": "Add custom indicator builder"
+        },
+        {
+          "prompt": "Integrate with a popular trading bot API to enable automated execution of trades based on the analysis tool's signals.",
+          "title": "Add automated trading integration"
+        }
+      ]
+    },
+    {
+      "title": "Key analysis capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Integrate multiple data sources for comprehensive market overview.",
+          "icon": "📊",
+          "title": "Multi-source data aggregation"
+        },
+        {
+          "description": "Real-time data feeds for instant market updates and critical decision making.",
+          "icon": "⚡",
+          "title": "Low-latency data streaming"
+        },
+        {
+          "description": "Powerful charting and visualization tools for intuitive data exploration.",
+          "icon": "📈",
+          "title": "Customizable data visualization"
+        },
+        {
+          "description": "AI-powered models for trend identification, anomaly detection, and predictive insights.",
+          "icon": "🧠",
+          "title": "Algorithmic analysis engine"
+        },
+        {
+          "description": "Define and receive instant notifications for critical market events.",
+          "icon": "🔔",
+          "title": "Configurable alerts system"
+        },
+        {
+          "description": "Securely connect with trading platforms and other financial tools for seamless execution.",
+          "icon": "🔗",
+          "title": "API integration capabilities"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The development time for a crypto market analysis tool using Kliv can range from a few hours for basic charting and data aggregation to a few days or weeks for highly complex systems with advanced AI models and multiple integrations. Kliv's AI accelerates the process significantly.",
+          "question": "How long does it typically take to build a crypto market analysis tool?"
+        },
+        {
+          "answer": "No, extensive coding knowledge is not required. Kliv’s platform leverages AI to translate your natural language descriptions into a functional application. You focus on outlining your analytical needs and data sources.",
+          "question": "Do I need to be a programmer or a data scientist to build this type of tool?"
+        },
+        {
+          "answer": "Yes, you can integrate with dozens of crypto exchanges (e.g., Binance, Coinbase, Kraken), on-chain data providers (Etherscan, TheGraph), news APIs, and social media platforms. Kliv's flexibility allows connection to almost any API-enabled data source.",
+          "question": "Can my custom tool connect to various crypto exchanges and data feeds?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its code, and all the data it processes. You decide where it's hosted and how your market strategies and insights are protected. Kliv provides the framework, but the IP is yours.",
+          "question": "Who owns the data and the custom analysis tool I build?"
+        },
+        {
+          "answer": "Building a custom solution often proves more cost-effective in the long run. While SaaS tools incur recurring subscription fees, a Kliv-built tool is a one-time development cost, avoiding ongoing expenses for features you might not fully utilize. You control the budget and the features.",
+          "question": "How does the cost compare to subscribing to commercial crypto analysis platforms?"
+        },
+        {
+          "answer": "Absolutely. The primary advantage of a custom tool is its adaptability. You can continuously iterate, add new features, integrate new data sources, or modify existing analytical models as market conditions or your strategies evolve.",
+          "question": "Can I modify or expand my analysis tool after it’s initially built?"
+        },
+        {
+          "answer": "Security is paramount. By building your own tool, you have complete control over data encryption, access controls, and hosting environments. You can implement security measures tailored to your specific risk profile, potentially exceeding the security of generic SaaS platforms.",
+          "question": "What about the security of market data and my trading strategies?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your custom crypto edge?",
+      "type": "cta",
+      "content": "Stop relying on generic tools. Build a sophisticated, tailored crypto market analysis application that truly serves your unique investment and trading strategies."
+    }
+  ],
+  "title": "Crypto market analysis tools"
+}

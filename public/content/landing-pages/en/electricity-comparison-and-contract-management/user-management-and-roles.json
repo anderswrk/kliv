@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to build a user management system for an electricity comparison and contract management platform. It needs to handle new user registration, role-based access for customers and administrators, and secure profile management.",
+  "description": "Build custom user and role management applications tailored for electricity comparison and contract platforms.",
+  "hero": {
+    "cta": "Start Managing Users",
+    "subtitle": "Securely onboard and manage users and their access roles for your electricity comparison or contract management service with custom-built tools.",
+    "title": "Custom User & Role Management for Energy Platforms"
+  },
+  "metaDescription": "Create robust user management and role-based access control systems with Kliv. Tailor permissions for energy contract comparison, customer data, and administrative oversight.",
+  "sections": [
+    {
+      "title": "Why build your own user management system for energy platforms?",
+      "type": "text",
+      "content": "In the specialized world of electricity comparison and contract management, generic user management solutions often fall short. You need precise control over who accesses what data—from customer contract details and consumption patterns to administrator tools and sales dashboards. Using off-the-shelf software means compromising on security, flexibility, and the specific needs of energy data.\n\nKliv empowers you to build a bespoke user and role management system that perfectly integrates with your existing or new energy platform. This ensures regulatory compliance, enhances data security, and provides a seamless, secure experience for both your customers and internal teams, all while maintaining full ownership of your solution."
+    },
+    {
+      "title": "The strategic advantage of tailored user & role management",
+      "type": "markdown",
+      "content": "## The pitfalls of standard user management for specialized platforms\n\nOff-the-shelf user management systems, while convenient for general use cases, present significant challenges for niche markets like electricity contract management:\n\n- **Inflexible role definitions**: They rarely align with the granular permissions needed for viewing sensitive contract data, managing supplier agreements, or processing consumption estimates.\n- **Data security concerns**: Trusting third-party systems with sensitive customer energy data (e.g., consumption history, billing addresses) can be a compliance and security nightmare.\n- **Integration complexities**: Forcing a generic solution into your unique energy platform often leads to costly, fragile integrations and data silos.\n- **Vendor lock-in & scaling costs**: Reliance on external vendors means recurring subscriptions, limited customization, and scaling challenges that don't always align with your business unique growth.\n\n## Why custom-built is the intelligent choice for energy platforms\n\nLeveraging Kliv to develop your own user and role management system offers unparalleled benefits:\n\n### Granular access control\nDefine roles and permissions down to the field level. Allow customers to only see their contracts, sales agents to manage their leads, and administrators to oversee all operations with distinct levels of access to sensitive energy consumption data.\n\n### Enhanced data security & compliance\nBy owning and controlling your user management system, you dictate where and how sensitive customer energy data is stored and secured. This helps meet stringent industry-specific compliance requirements and builds trust with your users.\n\n### Seamless integration\nDesign your system to seamlessly integrate with your existing electricity comparison engine, CRM, billing systems, or any other internal tools. No more clunky workarounds or manual data transfers.\n\n### Cost-effective scalability\nPay for what you build, not an ever-increasing subscription based on user count or features you don't need. Scale your user management capabilities with your business growth, adding modules and features as required without vendor limitations.\n\n### Optimized user experience\nProvide a tailored onboarding and account management experience for your customers. Simplify contract viewing, plan comparisons, and personal data updates with an interface designed specifically for their needs.\n\n## Real-world scenarios for precise user management\n\nCustom user management systems are crucial for:\n\n**Residential Customer Portals**: Allowing users to securely view their active electricity contracts, compare new offers, review consumption analytics, and manage personal data, while restricting access to administrative functions.\n\n**Business Account Management**: Enabling small to large business clients to manage multiple energy accounts, delegate access to different team members, and view consolidated reports tailored to commercial needs.\n\n**Internal Sales & Operations Dashboards**: Providing sales representatives controlled access to lead data, contract generation tools, and performance metrics, while restricting access to sensitive financial information without specific clearance.\n\n**Supplier Relationship Management**: Granting energy suppliers specific views into relevant customer pools or contract types for partnership management, without exposing proprietary platform data.\n\n## The Kliv advantage in building powerful systems\n\nKliv's AI-powered platform makes developing sophisticated user and role management systems accessible, even for non-developers:\n\n- **Intuitive no-code/low-code development**: Describe your desired roles, permissions, and user flows in plain language.\n- **Rapid deployment**: Go from concept to a functional, secure system in days or weeks, not months.\n- **Integrated security principles**: The AI assists in building secure authentication (MFA, SSO) and authorization (RBAC, ABAC) mechanisms from the ground up.\n- **Complete customization**: Every aspect, from registration forms to intricate permission matrices, can be tailored to your precise specifications.\n\nBuild the user management backbone your electricity comparison and contract platform deserves – secure, flexible, and fully aligned with your business objectives."
+    },
+    {
+      "title": "User management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Develop a system for customers to manage their energy plans and usage.",
+          "prompt": "Create a customer portal with user registration, login, profile management, and the ability to view active electricity contracts and switch plans.",
+          "title": "Customer energy portal"
+        },
+        {
+          "description": "Set up distinct access levels for internal teams.",
+          "prompt": "Build an admin dashboard with three roles: 'Sales Rep' (can view and edit their own leads), 'Manager' (can view all sales data and approve contracts), and 'Super Admin' (full system access).",
+          "title": "Internal team access control"
+        },
+        {
+          "description": "Streamline new user onboarding with pre-defined roles.",
+          "prompt": "Design an automated user onboarding workflow that assigns new customers a 'Customer' role upon email verification, and allows manual assignment of 'Supplier Partner' and 'Internal Team' roles by an administrator.",
+          "title": "Automated role assignment"
+        },
+        {
+          "description": "Allow businesses to manage multiple energy accounts and users.",
+          "prompt": "Develop a system for commercial clients to create sub-users, each with specific permissions to manage different energy meters, view invoices, or compare business utility rates.",
+          "title": "Multi-account business access"
+        },
+        {
+          "description": "Enable secure supplier data sharing with specific permissions.",
+          "prompt": "Create a supplier partner portal where energy suppliers can log in to view performance metrics for contracts they have on our platform, but cannot see competitor data or sensitive customer information.",
+          "title": "Energy supplier access portal"
+        },
+        {
+          "description": "Implement a self-service password reset and account recovery.",
+          "prompt": "Build a secure password reset and account recovery flow that uses email verification and allows users to update their personal details after authentication.",
+          "title": "Self-service account recovery"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your user management application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate two-factor authentication (2FA) for all user roles, especially for administrators.",
+          "title": "Add 2FA/MFA"
+        },
+        {
+          "prompt": "Implement single sign-on (SSO) capabilities, allowing users to log in with their existing Google or Microsoft accounts.",
+          "title": "Enable SSO"
+        },
+        {
+          "prompt": "Build an audit trail to log all user activities, including logins, data changes, and permission modifications.",
+          "title": "Implement activity logging"
+        },
+        {
+          "prompt": "Add granular permissions based on specific customer segments or contract types, not just roles.",
+          "title": "Add attribute-based access control (ABAC)"
+        },
+        {
+          "prompt": "Create API endpoints for managing users and roles programmatically from other systems.",
+          "title": "Expose user management APIs"
+        },
+        {
+          "prompt": "Develop a real-time dashboard for administrators to monitor active users, login attempts, and potential security threats.",
+          "title": "Build a security monitoring dashboard"
+        },
+        {
+          "prompt": "Add a feature for temporary role elevation, allowing users to gain higher privileges for a limited time.",
+          "title": "Implement timed access"
+        },
+        {
+          "prompt": "Integrate with a CRM system to automatically sync new leads as users and assign appropriate roles.",
+          "title": "Integrate with CRM"
+        }
+      ]
+    },
+    {
+      "title": "Key User Management Capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define and assign roles (e.g., Customer, Admin, Sales) with specific permissions.",
+          "icon": "👥",
+          "title": "Role-Based Access Control (RBAC)"
+        },
+        {
+          "description": "Secure user registration, password management, and multi-factor authentication.",
+          "icon": "🔑",
+          "title": "Secure Authentication"
+        },
+        {
+          "description": "Dashboard for administrators to create, edit, and revoke user accounts and permissions.",
+          "icon": "⚙️",
+          "title": "Centralized User Administration"
+        },
+        {
+          "description": "Allow users to securely update their profile, contact, and billing details.",
+          "icon": "👤",
+          "title": "Self-Service Profile Management"
+        },
+        {
+          "description": "Connect with existing systems like CRM, billing, and energy data platforms.",
+          "icon": "🔗",
+          "title": "Seamless Integration"
+        },
+        {
+          "description": "Track and log all user actions for compliance and security auditing.",
+          "icon": "📝",
+          "title": "Activity Logging & Audit Trails"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building on Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a fundamental user and role management system can take anywhere from a few hours to a couple of days with Kliv, depending on the complexity of your access rules and integrations. Highly customized systems might take a bit longer.",
+          "question": "How quickly can I build a user management system with Kliv?"
+        },
+        {
+          "answer": "You do not need to be a coding expert. Kliv's platform allows you to describe your user roles, permissions, and desired flows using natural language. The AI translates these into functional code.",
+          "question": "Do I need to know how to code to build this type of application?"
+        },
+        {
+          "answer": "Yes, your custom user management system can integrate with virtually any system that has an open API, including your existing electricity comparison engine, CRM, billing software, and external data sources for energy consumption.",
+          "question": "Can this system integrate with my existing electricity comparison platform or CRM?"
+        },
+        {
+          "answer": "Kliv helps you build and own the entire application. Your user data, roles, and access logic reside wherever you choose to host your application, giving you complete control and maintaining data sovereignty.",
+          "question": "Where will my user data and access configurations be stored?"
+        },
+        {
+          "answer": "Building a custom solution often provides a significant long-term cost advantage over recurring SaaS subscriptions, especially as your user base grows or your needs become more specialized. You avoid feature bloat and ongoing per-user fees.",
+          "question": "How does the cost compare to off-the-shelf user management solutions?"
+        },
+        {
+          "answer": "Security is paramount. The AI helps you integrate industry best practices for authentication, authorization, and data encryption. Since you control the hosting and infrastructure, you can implement specific security policies tailored to your energy data compliance needs.",
+          "question": "How secure will my custom user management system be, especially with sensitive energy data?"
+        },
+        {
+          "answer": "Absolutely. You have full control over the created application. As your business evolves, you can easily modify roles, add new permissions, integrate new authentication methods, or expand user features without vendor limitations.",
+          "question": "Can I modify the roles and permissions after the system is built and deployed?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your user management?",
+      "type": "cta",
+      "content": "Stop settling for generic solutions. Build a secure, tailored user and role management system that precisely fits the unique demands of your electricity comparison and contract platform."
+    }
+  ],
+  "title": "User & Role Management for Energy Platforms"
+}

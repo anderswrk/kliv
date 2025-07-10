@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to build an AI-powered trading signal tool that monitors crypto prices, uses a large language model to analyze sentiment from news/social media, and sends real-time alerts via Telegram when a strong buy or sell signal is detected.",
+  "description": "Build custom AI-powered trading signal and alert systems tailored to your specific market strategies.",
+  "hero": {
+    "cta": "Start Building Your Trading Bot",
+    "subtitle": "Develop sophisticated AI-driven trading signal and alert applications with Kliv. Harness real-time data, advanced analytics, and custom notifications to gain an edge in financial markets.",
+    "title": "AI-Powered Trading Signals & Alerts"
+  },
+  "metaDescription": "Create custom AI trading signal tools with Kliv. Leverage machine learning for market analysis, generate automated alerts, and integrate with brokerage APIs for seamless execution. Perfect for quants and traders.",
+  "sections": [
+    {
+      "title": "Why build your own AI trading signal tool?",
+      "type": "text",
+      "content": "In today's fast-paced financial markets, generic trading tools often fall short. They provide one-size-fits-all indicators that may not align with your unique trading philosophy or risk tolerance. Relying on external signal providers means surrendering control, often paying high subscription fees, and lacking transparency into their methodologies.\n\nBuilding your own AI-powered trading signal and alert system empowers you with complete customization. You define the data sources, implement proprietary algorithms, and configure alerts exactly as you need them. This bespoke approach allows you to adapt quickly to market changes, optimize performance, and protect your intellectual property. With Kliv, the complex task of building such a system is streamlined, making advanced trading tools accessible to individual developers and small trading groups."
+    },
+    {
+      "title": "The strategic advantage of custom AI trading tools",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf solutions\n\nExisting trading platforms and signal services often present significant disadvantages:\n\n- **Lack of Customization:** Generic indicators don't account for your unique risk profile or market view.\n- **Subscription Costs:** Recurring fees can eat into profits, especially with multiple services.\n- **Data Privacy & Security:** Relying on third parties means sharing sensitive trading data.\n- **Delayed Information:** Public signals are often already priced in by the time you receive them.\n- **Vendor Lock-in:** Migrating strategies or data can be complex and costly.\n\n## Why a tailored AI approach is superior\n\nDeveloping your own AI-driven trading system with Kliv offers unparalleled benefits:\n\n### Proprietary Insights\nIntegrate unique data sources, apply custom machine learning models, and develop indicators that no one else has. This gives you a true competitive advantage.\n\n### Optimized Performance\nFine-tune your algorithms for specific assets, timeframes, and market conditions. Continuously backtest and optimize without being limited by platform constraints.\n\n### Cost Efficiency\nTransition from ongoing subscription costs to a self-managed, single-investment system. Over time, this significantly reduces operational overhead.\n\n### Complete Control & Security\nMaintain full control over your data, strategies, and execution. Implement robust security measures tailored to your needs, reducing exposure to third-party vulnerabilities.\n\n### Real-time Responsiveness\nDesign your system for ultra-low latency data processing and immediate alert generation, crucial for capitalizing on fleeting market opportunities.\n\n## Real-world applications for custom trading AI\n\nCustom AI trading tools aren't just theoretical; they're driving tangible results:\n\n**Algorithmic Arbitrage:** Develop systems that identify and exploit subtle price discrepancies across different exchanges or assets faster than manual traders.\n\n**Sentiment-Driven Trading:** Create tools that analyze news headlines, social media trends, and economic reports using natural language processing (NLP) to generate buy/sell signals based on market sentiment.\n\n**Predictive Analytics for Options:** Build models that predict future volatility or directional moves to optimize options strategies, sending alerts for ideal entry/exit points.\n\n**Automated Hedging:** Construct systems that monitor portfolio risk in real-time and automatically initiate hedging positions when predefined risk thresholds are breached.\n\n## The AI development paradigm shift\n\nBuilding complex trading systems once required deep expertise in multiple programming languages and quantitative finance. Kliv's platform democratizes this process:\n\n- **Natural Language Programming:** Describe your trading logic, data sources, and alert conditions in plain English.\n- **Rapid Iteration:** Test and refine your strategies quickly, deploying new versions in hours.\n- **Intelligent Optimization:** AI assists in identifying optimal parameters and suggesting model improvements.\n- **Integrated Data Connectors:** Easily link to various market data feeds, news APIs, and brokerage services.\n\n## Your journey to custom trading intelligence\n\nThe most effective trading system is one built specifically for you. Instead of searching for the 'perfect' off-the-shelf solution that doesn't exist, invest in creating the precise tool that executes your vision. Kliv empowers you to turn your unique market insights into powerful, automated trading intelligence."
+    },
+    {
+      "title": "AI trading signal ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Monitor specific crypto pairs for breaking news and social media sentiment spikes to generate alerts.",
+          "prompt": "Create an AI trading signal tool that monitors Bitcoin and Ethereum price action on major exchanges like Binance and Coinbase. Integrate a news sentiment analysis model from Financial Times and X (Twitter) feeds. Generate a 'strong buy' alert if sentiment turns overwhelmingly positive while price is consolidating, sending a Telegram notification.",
+          "title": "Crypto Sentiment & Price Action Alerts"
+        },
+        {
+          "description": "Identify unusual volume and price movements in penny stocks for early detection.",
+          "prompt": "Build a real-time scanner for NASDAQ and NYSE penny stocks (<$5). Use AI to detect unusual volume spikes combined with significant price increases (e.g., >10% in 15 minutes) on weak fundamental data. Send an email alert to my Gmail account with stock ticker, price, and volume data.",
+          "title": "Penny Stock Anomaly Detection"
+        },
+        {
+          "description": "Automate alerts for FANG stock options based on technical indicators and implied volatility shifts.",
+          "prompt": "Develop a trading signal system for FANG stock options (Meta, Apple, Amazon, Netflix, Google). Integrate technical analysis indicators such as RSI and Moving Averages. Also, connect to implied volatility data. Send a Discord alert when RSI crosses oversold (30) AND implied volatility is historically low, suggesting a potential undervalued options play.",
+          "title": "FANG Options Volatility & RSI Signals"
+        },
+        {
+          "description": "Identify potential 'short squeeze' candidates by monitoring short interest and price action.",
+          "prompt": "I need an AI tool to identify potential short squeeze opportunities. It should monitor public float short percentage and days to cover for a predefined list of small-cap stocks. When short interest is high (>20%) and the stock price exhibits a sustained upward trend over 2 days, send an SMS alert with ticker symbol, current price, and relevant short interest data.",
+          "title": "Short Squeeze Detector"
+        },
+        {
+          "description": "Issue alerts for forex rate breakouts based on historical patterns and macro news.",
+          "prompt": "Build a forex trading signal tool that focuses on EUR/USD and GBP/JPY pairs. The AI should analyze historical price patterns and recent economic news releases (e.g., central bank announcements, inflation data). Generate a 'breakout' alert when key support/resistance levels are breached with significant volume, sending a push notification to my mobile app.",
+          "title": "Forex Breakout Alerts with Macro News"
+        },
+        {
+          "description": "Find stocks showing strong momentum based on multiple timeframes.",
+          "prompt": "Create a momentum trading signal tool for S&P 500 stocks. The AI should identify stocks showing strong upward price momentum across daily, weekly, and monthly charts (e.g., price above 50-day and 200-day moving averages, and 50-day above 200-day). Include a filter for positive earnings surprises in the last quarter. Deliver a daily summary report via email.",
+          "title": "Multi-Timeframe Momentum Scanner"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your trading signal tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Now add real-time execution capabilities by integrating with the Binance or Interactive Brokers API to automatically place trades based on generated signals.",
+          "title": "Add Algorithmic Trading Execution"
+        },
+        {
+          "prompt": "Implement a backtesting module to test historical performance of the signals against past market data, allowing for strategy optimization.",
+          "title": "Integrate Backtesting & Optimization"
+        },
+        {
+          "prompt": "Build a web-based dashboard to visualize market data, signals generated, and historical performance metrics in real-time.",
+          "title": "Create a Real-time Dashboard"
+        },
+        {
+          "prompt": "Add machine learning models for predictive analysis, forecasting future price movements or volatility based on historical data.",
+          "title": "Incorporate Predictive ML Models"
+        },
+        {
+          "prompt": "Expand data sources to include economic calendars, dark pool data, or options flow for more comprehensive analysis.",
+          "title": "Augment Data Feeds"
+        },
+        {
+          "prompt": "Implement risk management parameters, such as maximum daily loss limits or position sizing based on account equity, generating alerts before execution.",
+          "title": "Develop Advanced Risk Management"
+        },
+        {
+          "prompt": "Add a feature to save, load, and manage multiple distinct trading strategies with different parameters and asset focuses.",
+          "title": "Enable Multi-Strategy Management"
+        },
+        {
+          "prompt": "Integrate advanced natural language generation (NLG) to create concise, human-readable explanations for each generated signal.",
+          "title": "Generate Signal Explanations"
+        },
+        {
+          "prompt": "Set up a secure user authentication system with different access levels for viewing signals, adjusting parameters, or executing trades.",
+          "title": "Implement User Authentication"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your trading system",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to diverse market data feeds including crypto, stocks, forex, and commodities.",
+          "icon": "📈",
+          "title": "Multi-Asset Data Ingestion"
+        },
+        {
+          "description": "Apply custom technical indicators, statistical models, and proprietary algorithms.",
+          "icon": "⚙️",
+          "title": "Custom Strategy Engine"
+        },
+        {
+          "description": "Utilize AI and ML for sentiment analysis, pattern recognition, and predictive modeling.",
+          "icon": "🧠",
+          "title": "AI & Machine Learning Insights"
+        },
+        {
+          "description": "Deliver instant alerts via email, SMS, Telegram, Discord, or custom webhook integrations.",
+          "icon": "🚨",
+          "title": "Real-time Notification System"
+        },
+        {
+          "description": "Simulate and backtest strategies against historical data to validate performance.",
+          "icon": "📊",
+          "title": "Performance Backtesting"
+        },
+        {
+          "description": "Seamlessly integrate with brokerage APIs for automated trade execution.",
+          "icon": "🔗",
+          "title": "Brokerage API Integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv streamlines the development process for trading signal tools. You define your strategy and data needs using natural language. The platform then translates this into functional code, including data connectors, analytical models (potentially AI-powered), and alert mechanisms, significantly reducing manual coding and setup time. This allows for rapid prototyping and iteration.",
+          "question": "How does Kliv help in building AI trading signal tools faster than traditional methods?"
+        },
+        {
+          "answer": "No, extensive coding expertise is not required. Kliv's platform is designed to be accessible to traders and quants of varying technical backgrounds. While some understanding of trading logic is beneficial, the AI assists in generating and refining the underlying code based on your specifications.",
+          "question": "Do I need to be a professional developer or quant to build these tools on Kliv?"
+        },
+        {
+          "answer": "Yes, you can integrate with most market data providers (e.g., Polygon.io, Finnhub, Alpha Vantage), news APIs, social media feeds, and brokerage APIs (e.g., Binance, Interactive Brokers, TD Ameritrade) that offer programmatic access. Kliv provides the framework to connect and process this data.",
+          "question": "Can I connect my custom tool to specific market data feeds or brokerage accounts?"
+        },
+        {
+          "answer": "Absolutely. Everything you build on Kliv, including the code, the trained AI models, and your trading strategies, remains your intellectual property. You have full ownership and control over your deployed application.",
+          "question": "Who owns the intellectual property of the trading strategies and code I build?"
+        },
+        {
+          "answer": "This can vary. A basic signal generator might be operational within hours. More complex systems involving multiple data sources, sophisticated AI models, and backtesting capabilities could take a few days or weeks of iteration and refinement. This is still significantly faster than traditional development cycles.",
+          "question": "What is the typical development timeline for a custom AI trading tool using Kliv?"
+        },
+        {
+          "answer": "You have various options. You can deploy it as a standalone application on your own server, host it on cloud platforms like AWS or Google Cloud, or run it within specific secure environments depending on your needs. Kliv assists in packaging your solution for easy deployment.",
+          "question": "Where can I host or deploy the AI trading signal tool once it's built?"
+        },
+        {
+          "answer": "Yes, security is paramount. Kliv facilitates building secure applications by helping generate robust code. You are responsible for implementing best practices for API key management, data encryption, and network security when deploying and running your tool. Kliv does not store your sensitive trading credentials.",
+          "question": "How secure are the trading signal tools built with Kliv, especially concerning API keys and trading accounts?"
+        },
+        {
+          "answer": "Kliv provides tools for monitoring your application's performance, logging signals, and debugging. You can continuously refine your AI models and algorithms by providing new data or feedback, allowing your system to adapt and improve over time without incurring additional platform fees.",
+          "question": "What support is available for maintaining and optimizing my AI trading tool post-development?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain your trading edge?",
+      "type": "cta",
+      "content": "Stop relying on delayed, generic signals. Build your unique AI-powered trading intelligence with Kliv and trade with confidence."
+    }
+  ],
+  "title": "AI-Powered Trading Signals & Alerts"
+}

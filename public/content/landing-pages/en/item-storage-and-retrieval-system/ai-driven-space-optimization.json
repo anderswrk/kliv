@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create an AI-driven space optimization application that can analyze available storage space, suggest optimal placement for new items based on their size and access frequency, and generate real-time inventory maps. I need it to be able to connect to 3D scanner data.",
+  "description": "Build custom AI-driven space optimization applications with Kliv's intelligent platform.",
+  "hero": {
+    "cta": "Start optimizing your space",
+    "subtitle": "Maximize storage efficiency and retrieval speed with AI-powered space optimization applications built on Kliv.",
+    "title": "Build your own AI-driven space optimization tools"
+  },
+  "metaDescription": "Create powerful AI-driven space optimization tools with Kliv. Intelligently manage inventory, optimize storage layouts, and enhance retrieval efficiency for warehouses, retail, and personal use.",
+  "sections": [
+    {
+      "title": "Why build your own AI-driven space optimization tool?",
+      "type": "text",
+      "content": "In a world where space is at a premium and efficient management is key, off-the-shelf storage solutions often fall short. They can't adapt to your unique layout, item characteristics, or evolving needs. Building a custom AI-driven space optimization tool allows you to turn your current physical space into a dynamic, intelligently managed asset.\n\nWith Kliv's AI-powered development platform, creating sophisticated space optimization software is no longer a privilege of large corporations. You can develop a system that understands your specific inventory, analyzes real-time space availability, and suggests optimal item placement—all tailored precisely to your operational workflows, leading to significant cost savings and improved productivity."
+    },
+    {
+      "title": "The case for custom AI space optimization",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\n\nStandard inventory management and storage systems are often rigid and manual. They typically:\n\n- **Lack real-time spatial awareness**: Cannot truly 'see' or understand the physical dimensions and relationships of items in a space.\n- **Offer limited optimization**: Rely on simple rules or human input, missing opportunities for truly optimal, dynamic placement.\n- **Incur high licensing costs**: Proprietary software comes with recurring fees that may not justify the limited functionality.\n- **Struggle with diverse inventory**: Inefficiently manage spaces holding items of varying sizes, shapes, and access requirements.\n- **Require extensive manual updates**: Lead to significant labor time spent on reorganizing and locating items.\n\n## Why custom-built is superior\n\nLeveraging AI to build your own space optimization tool provides unparalleled advantages:\n\n### Perfect fit for your unique environment\nWhether it's a warehouse, retail backroom, medical storage, or even a personal collection, your space has unique constraints and dimensions. A custom application can be trained on your exact spatial data, item profiles, and access patterns to provide truly optimal solutions.\n\n### Maximize every inch of space\nAI algorithms can identify complex spatial relationships and packing efficiencies that human eyes often miss. This leads to higher storage density and reduced need for additional storage facilities.\n\n### Enhanced retrieval efficiency\nBy intelligently organizing items based on factors like access frequency, item dependencies, and pick-path optimization, your custom tool can dramatically reduce the time and effort spent locating and retrieving items.\n\n### Adaptable to changing needs\nYour inventory and space utilization will change over time. A custom AI application can learn and adapt, continuously improving its optimization strategies as new data comes in.\n\n### One-time investment, continuous value\nUnlike SaaS solutions with endless subscriptions, building your own application with Kliv provides a robust, tailored solution with a one-time development cost, delivering long-term value and competitive advantage.\n\n## Real-world applications\n\nCustom AI-driven space optimization solutions are revolutionizing efficiency across various sectors:\n\n**Warehousing & Logistics**: Dynamically assigning storage locations to incoming shipments based on size, weight, and expected outbound routes, maximizing pallet density and reducing pick times.\n\n**Retail Backrooms**: Optimizing the storage of merchandise replenishment, ensuring high-demand items are easily accessible, and seasonal stock is efficiently managed within limited retail footprints.\n\n**Libraries & Archives**: Intelligent placement of books and documents to maximize shelf space while maintaining categorizations and improving retrieval for staff and automated systems.\n\n**Manufacturing**: Optimizing the storage of parts and components on the factory floor or in tool cribs to minimize wasted space and improve assembly line efficiency.\n\n## The AI advantage\n\nBuilding sophisticated optimization software is now accessible to all:\n\n- **Natural language interface**: Describe your needs in plain English, and the AI helps conceptualize and build the application.\n- **Data-driven insights**: AI analyzes sensor data (e.g., 3D scans), historical movements, and item attributes to inform placement decisions.\n- **Predictive optimization**: Anticipate future space needs and item demands to proactively adjust storage strategies.\n- **Simulation and visualization**: See how different optimization strategies affect your space before implementing them.\n\n## Getting started\n\nStop settling for inefficient storage. The most effective space optimization tool is the one designed precisely for your environment. With Kliv's AI-powered platform, you can begin crafting your custom AI-driven space optimization application today, transforming your physical assets into smart, efficient systems."
+    },
+    {
+      "title": "Space optimization ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Intelligent warehouse slotting based on item velocity and dimensions",
+          "prompt": "Create an AI application for warehouse space optimization that analyzes incoming item dimensions, weight, and historical pick frequency to suggest optimal storage locations, minimizing empty space and improving picking routes.",
+          "title": "Warehouse Slotting Optimization"
+        },
+        {
+          "description": "Maximize backroom capacity for retail stores",
+          "prompt": "Develop a tool for retail store backrooms that uses current inventory data and sales forecasts to suggest optimal storage arrangements for excess stock, ensuring high-turnover items are always accessible with minimal re-shelving.",
+          "title": "Retail Backroom Maximizer"
+        },
+        {
+          "description": "Efficient storage for tool cribs and equipment centers",
+          "prompt": "Build an inventory and space management system for a tool crib that automatically maps the location of each tool after use, suggests the most compact way to store incoming tools, and tracks usage patterns to inform future layout adjustments.",
+          "title": "Tool Crib Optimizer"
+        },
+        {
+          "description": "Optimize living or office space with smart placement suggestions",
+          "prompt": "Design a personal space optimization app that takes a 3D scan of a room and a list of items to store, then suggests the most aesthetically pleasing and practical placement for each item, considering accessibility and visual clutter.",
+          "title": "Home/Office Layout Assistant"
+        },
+        {
+          "description": "Dynamic archive and library shelving",
+          "prompt": "Create a system for a historical archive that helps optimize shelf space for documents and artifacts of varying sizes, providing suggestions for consolidation and efficient retrieval, while maintaining preservation standards.",
+          "title": "Archival Space Manager"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your optimization tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with a 3D scanner to automatically capture space dimensions and item sizes.",
+          "title": "Add 3D scanner integration"
+        },
+        {
+          "prompt": "Implement predictive analytics to forecast future space needs based on sales data and seasonality.",
+          "title": "Incorporate predictive space forecasting"
+        },
+        {
+          "prompt": "Add a mobile interface for on-the-go item location and placement updates.",
+          "title": "Develop mobile access"
+        },
+        {
+          "prompt": "Include a real-time visual dashboard showing current space utilization and item locations.",
+          "title": "Build a real-time visualization dashboard"
+        },
+        {
+          "prompt": "Create user roles and permissions for managing different storage zones or inventory types.",
+          "title": "Add multi-user access with roles"
+        },
+        {
+          "prompt": "Enable barcode or RFID scanning for automated item check-in and check-out to update locations instantly.",
+          "title": "Integrate barcode/RFID tracking"
+        },
+        {
+          "prompt": "Add functionality to generate optimal picking paths for multiple items and export to handheld devices.",
+          "title": "Introduce pick path optimization"
+        },
+        {
+          "prompt": "Develop an API so other inventory systems can push item data and pull location information.",
+          "title": "Create API endpoints for external systems"
+        }
+      ]
+    },
+    {
+      "title": "Essential space optimization features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Analyze physical space dimensions and item characteristics for optimal placement.",
+          "icon": "📐",
+          "title": "Intelligent Spatial Analysis"
+        },
+        {
+          "description": "Generate dynamic maps of your storage areas with real-time item locations.",
+          "icon": "🗺️",
+          "title": "Real-time Inventory Mapping"
+        },
+        {
+          "description": "Suggest best-fit locations for new or moved items to maximize density and accessibility.",
+          "icon": "💡",
+          "title": "Smart Placement Algorithms"
+        },
+        {
+          "description": "Integrate with existing inventory systems, IoT sensors, or 3D scanning devices.",
+          "icon": "🔗",
+          "title": "Flexible Data Integration"
+        },
+        {
+          "description": "Learn from past placements and retrieval patterns to continuously improve optimization.",
+          "icon": "🧠",
+          "title": "Adaptive AI Learning"
+        },
+        {
+          "description": "Visualize your space in 2D or 3D, simulating different optimization scenarios.",
+          "icon": "🖥️",
+          "title": "Visual Simulation & Reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a core AI-driven space optimization tool can take a few days to a week for a detailed prototype. More complex systems with extensive integrations might require several weeks, but still far less than traditional development cycles.",
+          "question": "How long does it typically take to build an AI space optimization tool?"
+        },
+        {
+          "answer": "No, you do not need to be a coding expert. Kliv's platform allows you to describe your requirements in natural language. The AI assists in translating your needs into functional application components, guiding you through the process.",
+          "question": "Do I need programming skills to create this type of application?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with various data sources like 3D scanners, existing inventory management systems, IoT sensors, and enterprise resource planning (ERP) systems through APIs. This ensures real-time data accuracy.",
+          "question": "Can this application integrate with my existing inventory or sensor systems?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its data, and the underlying logic. Kliv simply provides the platform and AI assistance for development. You can deploy and host your solution on your preferred infrastructure.",
+          "question": "Who owns the data and the application built on Kliv?"
+        },
+        {
+          "answer": "While there's an initial investment in building, a custom solution eliminates recurring SaaS subscription fees. Over time, particularly for organizations with significant storage needs, the cost savings and efficiency gains of a tailored solution far outweigh off-the-shelf alternatives.",
+          "question": "How does the cost compare to off-the-shelf space optimization software?"
+        },
+        {
+          "answer": "Absolutely. The beauty of custom development is its flexibility. As your inventory changes, your space evolves, or new data becomes available, you can easily modify algorithms, add new features, or adjust integration points to keep your solution optimal.",
+          "question": "Can I modify or expand the application after it's initially built?"
+        },
+        {
+          "answer": "Yes, custom-built applications can offer superior security. You define the data handling protocols, access controls, and hosting environment, reducing reliance on third-party security practices and potential vulnerabilities associated with shared infrastructures.",
+          "question": "Is a custom-built solution secure for sensitive inventory data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform your space into a strategic asset?",
+      "type": "cta",
+      "content": "Stop wasting precious space and time with inefficient storage. Build a precisely tailored AI-driven solution that works just for you."
+    }
+  ],
+  "title": "AI-Driven Space Optimization"
+}

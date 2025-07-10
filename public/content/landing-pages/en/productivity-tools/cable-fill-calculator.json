@@ -1,0 +1,159 @@
+{
+  "defaultPrompt": "Create a cable fill calculator application that can determine conduit fill percentages for various cable types and sizes, considering different conduit diameters and national electrical code regulations.",
+  "description": "Build custom cable fill calculator applications for electrical engineers and contractors.",
+  "hero": {
+    "cta": "Build Your Calculator",
+    "subtitle": "Ensure compliant and efficient cable installations with custom-built calculation tools tailored to your exact needs.",
+    "title": "Build Your Own Cable Fill Calculator"
+  },
+  "metaDescription": "Develop precise cable fill calculator apps with Kliv. Streamline electrical conduit sizing, ensure NEC compliance, and optimize material use with custom solutions.",
+  "sections": [
+    {
+      "title": "Why a Custom Cable Fill Calculator?",
+      "type": "text",
+      "content": "Off-the-shelf cable fill calculators often lack the specific features, regional code variations, or nuanced parameters that electrical professionals need for precise planning. Building your own allows for perfect alignment with your project requirements, preferred cable types, and local electrical codes.\n\nPre-built solutions can be generic, forcing you to compromise on accuracy or spend extra time cross-referencing. A custom app delivers exact calculations, integrates with your current workflows, and can adapt as codes or technologies evolve. This ensures not just compliance, but also cost-effectiveness and safety on every job."
+    },
+    {
+      "title": "The Advantage of a Bespoke Calculation Tool",
+      "type": "markdown",
+      "content": "## Limitations of Generic Solutions\n\nMany electrical contractors and engineers rely on scattered spreadsheets, outdated software, or online tools that fall short in critical areas:\n\n- **Lack of Code Specificity**: Generic tools often do not account for nuances in regional or international electrical codes (like NEC, CEC, or local amendments).\n- **Limited Material Database**: They might not include a comprehensive database of all popular cable types, insulation thicknesses, or conduit materials.\n- **No Integration**: Standalone tools rarely integrate with project management software, BIM models, or inventory systems.\n- **Subscription Costs**: Recurring fees for tools that don't fully meet your needs can add up.\n- **Data Security Concerns**: Uploading proprietary project details to third-party online calculators might pose security risks.\n\n## Benefits of Custom Development\n\nBuilding your own cable fill calculator with a platform like Kliv transforms your operational efficiency:\n\n### Precision and Compliance\nDesign a calculator that adheres to the exact National Electrical Code (NEC) articles relevant to your work, including specific fill percentages, conductor types, and raceway types. Update it anytime regulations change.\n\n### Comprehensive Database Management\nIntegrate and manage an expansive database of common and specialized cable types, sizes (AWG/MCM), insulation thicknesses, and conduit materials. Customize to your preferred suppliers.\n\n### Workflow Integration\nConnect your calculator directly to your estimation software, material ordering systems, or project documentation tools. Reduce manual data entry and errors.\n\n### Cost Savings\nBeyond avoiding recurring SaaS fees, optimized cable and conduit sizing directly translates to material cost savings and reduced labor time due to accurate planning.\n\n### Proprietary Knowledge Retention\nYour custom tool becomes a repository of your company's best practices, preferred methodologies, and accumulated expertise in electrical system design.\n\n## Real-World Impact\n\nCustom cable fill calculators aren't just theoretical; they deliver tangible benefits:\n\n**Commercial Construction**: Expedite design for large commercial buildings by rapidly calculating optimal conduit sizes for extensive power and data networks, ensuring compliance and minimizing rework.\n\n**Industrial Plants**: Precisely plan cable routing in complex industrial environments, accounting for high-density runs and specialized machinery requirements, preventing costly over-sizing or safety hazards.\n\n**Residential Development**: Quickly generate accurate material lists for multi-unit residential projects, standardizing practices and ensuring quick inspections.\n\n### The Future is Custom\n\nThe ability to quickly develop highly specialized applications means you no longer need to adapt your complex engineering tasks to simplified software. Kliv allows you to create the exact tool you envision, without deep coding knowledge. Focus on your expertise, and let the AI handle the development."
+    },
+    {
+      "title": "Cable Fill Calculator Ideas to Build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Calculate fill for common power cables in PVC conduits.",
+          "prompt": "Develop a basic cable fill calculator that takes conduit diameter and individual cable outside diameters to compute fill percentage for standard power circuits, based on 40% fill rule.",
+          "title": "Basic Conduit Fill for Power"
+        },
+        {
+          "description": "Advanced tool for varying insulation types and conduit materials.",
+          "prompt": "Create an advanced cable fill calculator that allows users to select from various insulation types (THHN, XHHW, etc.), conduit materials (PVC, EMT, GRC), and automatically apply appropriate NEC fill tables and reduction factors.",
+          "title": "Comprehensive NEC Compliant Calculator"
+        },
+        {
+          "description": "Tool for data and communication runs, including bending radius checks.",
+          "prompt": "Build a cable fill application specifically for low-voltage data and communication cables (Cat6, fiber optics), including options for bundling, specific O.D.s, and a feature to flag potential bending radius violations.",
+          "title": "Low-Voltage & Communications Fill Tool"
+        },
+        {
+          "description": "Estimate costs based on calculated cable and conduit lengths.",
+          "prompt": "Design a cable fill and costing tool. After calculating conduit fill, allow users to input cable and conduit unit costs (per foot/meter) to provide a preliminary material cost estimate for the run.",
+          "title": "Cable Fill with Material Cost Estimation"
+        },
+        {
+          "description": "Tool to generate reports for inspectors or project managers.",
+          "prompt": "Develop a cable fill calculator that, once calculations are complete, can generate a printable report summarizing inputs, derived area, allowed area, fill percentage, and a compliance statement for inspection purposes.",
+          "title": "Report-Generating Fill Calculator"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for Your Calculator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a user-definable database of cable specifications (outside diameter, insulation thickness) and conduit types (internal diameter) that users can update.",
+          "title": "Customizable Cable/Conduit Database"
+        },
+        {
+          "prompt": "Add a feature to factor in wire pulling friction and maximum pulling tension based on conduit length, bends, and cable type.",
+          "title": "Cable Pulling Force Prediction"
+        },
+        {
+          "prompt": "Implement a visual representation of the conduit cross-section showing the cables inside, dynamically updating with inputs.",
+          "title": "Visual Conduit Fill Diagram"
+        },
+        {
+          "prompt": "Allow users to input multiple runs with different cable types and generate a consolidated material list across an entire project.",
+          "title": "Multi-Run Project Consolidation"
+        },
+        {
+          "prompt": "Add functionality to export calculation results to commonly used formats like PDF or CSV for easy sharing and record-keeping.",
+          "title": "Exportable Results"
+        },
+        {
+          "prompt": "Include an 'undo/redo' history and 'save/load' function for calculation sessions to allow users to revisit previous work.",
+          "title": "Session Management"
+        }
+      ]
+    },
+    {
+      "title": "Core Calculator Capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Calculate conduit fill based on selected cable types, sizes, and conduit dimensions.",
+          "icon": "📐",
+          "title": "Precision Fill Calculation"
+        },
+        {
+          "description": "Ensure compliance with applicable electrical codes (e.g., NEC Article 310, 314, 344, 352).",
+          "icon": "📜",
+          "title": "Code Compliance Engine"
+        },
+        {
+          "description": "Manage and select from an extensive database of common cable properties and conduit types.",
+          "icon": "🗄️",
+          "title": "Material Database"
+        },
+        {
+          "description": "Account for unique scenarios like bundling, derating, and different insulation types.",
+          "icon": "⚙️",
+          "title": "Advanced Rule Logic"
+        },
+        {
+          "description": "Generate clear summaries of calculations, warnings, and compliance status.",
+          "icon": "📈",
+          "title": "Reporting & Summaries"
+        },
+        {
+          "description": "Integrate with other project tools for seamless data flow.",
+          "icon": "🔗",
+          "title": "API Integrations"
+        }
+      ]
+    },
+    {
+      "title": "FAQs About Building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic cable fill calculator can be up and running within a few hours. More complex versions with extensive databases or integrations might take a few days to fully develop and refine.",
+          "question": "How quickly can I build a cable fill calculator?"
+        },
+        {
+          "answer": "No, Kliv's platform allows you to describe your calculator's functionality in plain language. The AI translates your specifications into a working application.",
+          "question": "Do I need programming skills to create this tool?"
+        },
+        {
+          "answer": "Absolutely. You can integrate your custom calculator with your existing project management software, CAD tools, or material ordering systems through various methods like APIs or data exports.",
+          "question": "Can the custom calculator integrate with my current workflow tools?"
+        },
+        {
+          "answer": "Unlike SaaS products with recurring fees, building with Kliv is typically a one-time project investment. Over time, a custom solution usually proves to be more cost-effective as it perfectly fits your needs without unnecessary features or escalating subscriptions.",
+          "question": "How does the cost compare to off-the-shelf software?"
+        },
+        {
+          "answer": "Your intellectual property, data, and the application's code are entirely yours. You maintain full control and ownership, without vendor lock-in.",
+          "question": "Who owns the calculator application once it's built?"
+        },
+        {
+          "answer": "Yes, custom solutions offer unparalleled flexibility. You can easily modify existing calculation rules, update code standards, add new cable types, or introduce new features as your requirements evolve.",
+          "question": "Can I update or modify the calculator after it's developed?"
+        },
+        {
+          "answer": "Yes, you can deploy your custom calculator to be accessible on various devices, including desktops, tablets, and smartphones, ensuring your team has access wherever they work.",
+          "question": "Will the calculator work on mobile devices?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Design Your Precision Tool?",
+      "type": "cta",
+      "content": "Stop making do with generic tools. Build a cable fill calculator that perfectly matches your engineering precision and project demands."
+    }
+  ],
+  "title": "Cable Fill Calculator"
+}

@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a packaging measurement tracker that can record dimensions, weight, and cubic volume for various products, store this data, and calculate optimal box sizes for shipping.",
+  "description": "Build custom packaging measurement and optimization tools to streamline inventory and shipping.",
+  "hero": {
+    "cta": "Start optimizing packaging",
+    "subtitle": "Develop precise packaging measurement and optimization applications tailored to your inventory and shipping needs.",
+    "title": "Build your own packaging measurement and optimization tools"
+  },
+  "metaDescription": "Create powerful packaging measurement and optimization tools with Kliv. Accurately track dimensions, reduce shipping costs, and improve inventory efficiency with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why a custom packaging measurement tool?",
+      "type": "text",
+      "content": "In logistics and inventory management, every inch and every pound counts. Accurate packaging measurements are critical for optimizing storage, calculating shipping costs, and minimizing wasted space. Generic software often falls short, providing rigid interfaces and lacking specific features needed for diverse product lines.\n\nBuilding your own packaging measurement tool ensures it aligns perfectly with your unique products, warehouse layout, and shipping carrier requirements. With no recurring licensing fees and complete control over features, a custom solution becomes a strategic asset rather than an ongoing expense."
+    },
+    {
+      "title": "The case for tailored packaging solutions",
+      "type": "markdown",
+      "content": "## The hidden costs of inaccurate packaging\n\nMany businesses underestimate the impact of imprecise packaging data. This can lead to:\n\n- **Increased shipping costs**: Overpaying for oversized boxes or exceeding weight limits.\n- **Wasted warehouse space**: Inefficient stacking and storage due to unknown dimensions.\n- **Damaged goods**: Using packaging that's too small or inappropriate for the item's fragile nature.\n- **Slower operations**: Manual measurement processes and errors leading to delays.\n- **Compliance issues**: Failing to meet carrier-specific dimension or weight requirements.\n\n## Why a custom-built solution excels\n\nOff-the-shelf inventory or shipping software might include basic measurement fields, but they rarely offer the depth and flexibility required for true optimization. Here's why custom development is gaining traction:\n\n### Precision for every product\nYour product catalog is unique. A custom tool allows you to define specific fields for irregular shapes, fragile items, or multi-component kits, ensuring accurate data capture for every SKU.\n\n### Dynamic optimization logic\nBeyond just storing data, a custom tool can apply complex algorithms to recommend optimal box sizes, calculate dimensional weight, or suggest packaging configurations for consolidated shipments, directly integrating with your existing carrier rates.\n\n### Seamless integration with operations\nConnect your measurement tool directly with your WMS, TMS, or e-commerce platform. Update inventory records, generate shipping labels, or inform picking strategies with real-time, accurate data.\n\n### Cost savings that add up\nBy optimizing packaging, you directly impact shipping expenditures. Reducing dimensional weight penalties and optimizing container space translates to significant savings over time—savings that far outweigh the one-time development cost.\n\n## Practical applications in various industries\n\nCustom packaging measurement tools offer substantial benefits:\n\n**E-commerce**: Automatically calculate optimal mailer or box sizes for diverse products, reducing shipping surcharges and improving customer experience with right-sized packaging.\n\n**Manufacturing**: Track dimensions of components and finished goods for efficient kitting, assembly, and outbound logistics, ensuring products fit standard pallets or containers.\n\n**Retail fulfillment**: Manage the dimensions of items received from vendors to optimize shelf space, plan store layouts, and streamline receiving processes.\n\n**Warehousing & Distribution**: Enhance slotting strategies within warehouses, plan efficient truck loading, and improve overall space utilization by having precise cubic volume data.\n\n## The power of AI in building specific tools\n\nLeveraging AI-powered platforms like Kliv significantly simplifies the creation of such specialized applications:\n\n- **Natural language interface**: Describe the data points you need to capture and the calculations you want performed, and the AI assists in building the schema and logic.\n- **Rapid prototyping**: Get a functional prototype quickly, allowing for iterative refinement based on real-world testing with your products.\n- **Intelligent data validation**: AI can suggest validation rules to ensure measured data is accurate and within expected ranges.\n- **Scalability**: Easily add new measurement types, integrate with more systems, or expand user access as your business grows.\n\nBuilding your own packaging measurement and optimization tool empowers you to take control of a critical aspect of your supply chain, turning a cost center into a source of efficiency and savings."
+    },
+    {
+      "title": "Packaging measurement ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track specific dimensions for various product types",
+          "prompt": "Create a database application to record length, width, height, and weight for each SKU in my inventory, allowing me to search and export this data.",
+          "title": "Product Dimension & Weight Tracker"
+        },
+        {
+          "description": "Determine optimal box sizes for shipping items",
+          "prompt": "Build a tool that takes a product's dimensions and suggests the smallest available standard shipping box size that can accommodate it, also calculating dimensional weight for common carriers (UPS, FedEx, USPS).",
+          "title": "Shipping Box Optimizer"
+        },
+        {
+          "description": "Manage packaging materials and their attributes",
+          "prompt": "Develop a system to store specifications for different packaging materials (e.g., box types, void fill, tape) including their dimensions, weight, and cost, linking them to specific products or order types.",
+          "title": "Packaging Material Catalog"
+        },
+        {
+          "description": "Calculate and compare freight density",
+          "prompt": "Design an application that calculates the cubic volume and freight class for a shipment based on its total dimensions and weight, allowing me to compare different shipping methods.",
+          "title": "Freight Density Calculator"
+        },
+        {
+          "description": "Create packing instructions based on product measurements",
+          "prompt": "Build a tool where I can select multiple products for an order, see their combined dimensions, and generate custom packing instructions or suggest a pallet configuration.",
+          "title": "Multi-Item Packing Planner"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your measurement tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to upload images of product packaging for visual reference",
+          "title": "Add image storage"
+        },
+        {
+          "prompt": "Integrate with a barcode scanner to quickly identify products for measurement entry",
+          "title": "Barcode scanning integration"
+        },
+        {
+          "prompt": "Implement a user authentication system with different roles for data entry vs. viewing",
+          "title": "Implement user roles"
+        },
+        {
+          "prompt": "Generate printable labels with product dimensions and optimal box sizes",
+          "title": "Generate shipping labels"
+        },
+        {
+          "prompt": "Connect to my inventory management system to automatically update product master data with new measurements",
+          "title": "Integrate with WMS"
+        },
+        {
+          "prompt": "Add a dashboard to visualize packaging waste and shipping cost savings over time",
+          "title": "Build an analytics dashboard"
+        },
+        {
+          "prompt": "Allow users to input packaging requirements for specific carriers (e.g., maximum dimensions, weight limits) and highlight non-compliant items",
+          "title": "Add carrier compliance checks"
+        },
+        {
+          "prompt": "Develop a mobile-friendly interface for measurements to be entered directly from the warehouse floor",
+          "title": "Create a mobile interface"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Capture and store precise product dimensions (L, W, H) and weight.",
+          "icon": "📐",
+          "title": "Accurate Data Capture"
+        },
+        {
+          "description": "Define and track various packaging materials, types, and their attributes.",
+          "icon": "📦",
+          "title": "Packaging Material Management"
+        },
+        {
+          "description": "Automate calculations like cubic volume, dimensional weight, and optimal box fit.",
+          "icon": "➗",
+          "title": "Smart Calculations"
+        },
+        {
+          "description": "Connect seamlessly with existing WMS, TMS, or e-commerce platforms.",
+          "icon": "🔗",
+          "title": "System Integration"
+        },
+        {
+          "description": "Generate reports on packaging efficiency, cost savings, and historical data.",
+          "icon": "📈",
+          "title": "Reporting & Analytics"
+        },
+        {
+          "description": "Validate data entries to ensure accuracy and flagging outliers.",
+          "icon": "✅",
+          "title": "Data Validation"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic packaging measurement tool can take anywhere from a few hours to a couple of days. More complex systems with advanced integrations might take a week or more to fully develop and refine.",
+          "question": "How long will it take to build a packaging measurement tool?"
+        },
+        {
+          "answer": "You don't need any coding experience. Kliv's platform allows you to describe your requirements in plain English, and the AI assists in generating the application components. It's designed for users who understand their business needs, not just developers.",
+          "question": "Do I need to be a developer to build this type of application?"
+        },
+        {
+          "answer": "Yes, custom-built tools are highly flexible. You can integrate with virtually any system that offers an API, including common inventory management systems (WMS), transport management systems (TMS), or even e-commerce platforms.",
+          "question": "Can this tool integrate with my existing inventory or shipping software?"
+        },
+        {
+          "answer": "All intellectual property, including the application code and the data it manages, is entirely yours. Kliv provides the platform to build it, but you own the resulting software.",
+          "question": "Who owns the data and the application after it's built?"
+        },
+        {
+          "answer": "While there's an initial investment in building, you avoid recurring subscription fees common with SaaS solutions. Many businesses find that the savings from optimized packaging and reduced errors quickly recoup the development costs, leading to long-term operational savings.",
+          "question": "How does the cost compare to off-the-shelf software?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are designed for continuous improvement. You can easily add new fields, modify calculation logic, integrate additional data sources, or adjust the user interface as your operational needs evolve.",
+          "question": "Can I modify the tool after it's been created?"
+        },
+        {
+          "answer": "Security is paramount. When you build with Kliv, you have control over the hosting environment and can implement your own security protocols, often resulting in a more tailored and secure solution than relying on a third-party SaaS provider's generic security measures.",
+          "question": "Is a custom-built solution secure for sensitive inventory data?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your precise packaging solution?",
+      "type": "cta",
+      "content": "Stop guessing and start optimizing. Create a custom packaging measurement tool that perfectly fits your operations, reduces costs, and improves efficiency."
+    }
+  ],
+  "title": "Packaging Measurement & Optimization Tools"
+}

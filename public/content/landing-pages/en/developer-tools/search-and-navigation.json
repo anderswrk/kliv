@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "Create a search and navigation tool for our internal documentation that allows natural language queries, filters by document type, and shows related content based on context.",
+  "description": "Build custom search and navigation tools for any dataset or knowledge base with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your search tool",
+    "subtitle": "Transform your data into an intuitive, searchable knowledge hub with custom-built search and navigation applications on Kliv.",
+    "title": "Build your own specialized search and navigation tools"
+  },
+  "metaDescription": "Create powerful search and navigation tools with Kliv. Enhance data discoverability, streamline user experience, and provide precise search results for any domain.",
+  "sections": [
+    {
+      "title": "Why build a custom search and navigation tool?",
+      "type": "text",
+      "content": "In today's data-rich environment, simply having information isn't enough; you need to find it quickly and efficiently. Generic search solutions often fall short, struggling with specialized vocabularies, diverse data formats, and complex user needs. Building a custom search and navigation application with Kliv allows you to create a tailored solution that deeply understands your specific data and serves your users with unparalleled precision."
+    },
+    {
+      "title": "The power of tailored discovery",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf search\n\nExisting search engines and knowledge base tools are designed for broad applicability, which means they often lack the nuance required for specialized data. This leads to:\n\n- **Irrelevant results**: Generic algorithms miss the context important to your domain.\n- **Poor user experience**: Users struggle with clunky interfaces and rigid query structures.\n- **Integration nightmares**: Difficult to connect with proprietary data sources or internal systems.\n- **Lack of control**: Limited customization, branding, and feature development.\n\n## Why custom search is a strategic advantage\n\nDeveloping a custom search and navigation tool using an AI-powered platform like Kliv offers significant benefits, turning data discoverability into a competitive edge:\n\n### Semantic understanding\nUnlike keyword-based search, a custom tool can leverage AI to understand the meaning and context of queries, delivering more relevant and accurate results. This is crucial for complex technical documents, medical research, or legal precedents.\n\n### Tailored data sources\nIntegrate seamlessly with *all* your data, whether it's stored in databases, document management systems, wikis, or internal network drives. Your search tool becomes a unified gateway to all your scattered information.\n\n### Enhanced user experience\nDesign an interface that perfectly matches your users' workflow. Implement advanced filtering, faceted search, visual navigation aids, and personalized result ranking.\n\n### Future-proof scalability\nAs your data grows and your needs evolve, your custom solution can adapt. Easily integrate new AI models for better understanding, add new data sources, or introduce new navigation paradigms.\n\n## Real-world applications\n\nCustom search and navigation solutions are revolutionizing how organizations interact with their data:\n\n**Enterprise Knowledge Bases**: A financial institution built a system that allows analysts to query internal research papers, market data, and regulatory documents using natural language, significantly reducing research time.\n\n**Product Catalogs**: An e-commerce platform developed a semantic search for their extensive product catalog, allowing customers to find items based on descriptive phrases like 'warm, waterproof jacket for winter hiking' instead of just keywords.\n\n**Developer Documentation**: A software company created an internal search tool for its vast codebase and documentation, enabling engineers to quickly find code snippets, API references, and best practices with contextual awareness.\n\n**Legal Research**: A law firm deployed a custom search engine for its case files and legal databases, allowing lawyers to find precedents and relevant cases based on complex legal arguments and facts.\n\n## AI in action\n\nKliv leverages AI to simplify the development of sophisticated search and navigation tools:\n\n- **Natural Language Processing (NLP)**: Understands human language for advanced query parsing.\n- **Machine Learning (ML) for Ranking**: Learns from user interactions to continuously improve result relevance.\n- **Data Ingestion Engines**: Automates the process of connecting to and indexing various data sources.\n- **Interface Generation**: Builds intuitive front-ends with advanced filtering and visualization components.\n\nBy building exactly what you need, you unlock unparalleled efficiency and accuracy in data discovery."
+    },
+    {
+      "title": "Search & navigation ideas to explore",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Smartly categorizes and retrieves design assets.",
+          "prompt": "Build a visual search and navigation tool for our company's design asset library that allows users to search by color palette, style, usage type, and even upload an image for reverse image search.",
+          "title": "Design Asset Library Search"
+        },
+        {
+          "description": "Intelligent search for research papers and articles.",
+          "prompt": "Create a scientific literature search engine that can understand complex biological or chemical queries, filter results by journal impact factor, publication year, and related molecular structures or pathways.",
+          "title": "Scientific Paper Search"
+        },
+        {
+          "description": "Find and navigate technical specs.",
+          "prompt": "Develop a search tool for technical specifications and engineering documents that can process part numbers, engineering diagrams, and allow navigation through product hierarchies or assembly trees.",
+          "title": "Engineering Document Search"
+        },
+        {
+          "description": "Discover internal company knowledge.",
+          "prompt": "Create an internal company knowledge base search that can interpret natural language queries about company policies, benefits, and departmental procedures, providing direct answers rather than just links.",
+          "title": "Internal HR & Policy Search"
+        },
+        {
+          "description": "Seamlessly navigate software codebases.",
+          "prompt": "Build a codebase navigation tool for developers that allows searching for functions, variables, or classes across multiple repositories, showing dependencies and usage examples, and filtering by programming language or author.",
+          "title": "Code Repository Navigator"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your search system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a 'did you mean' suggestion feature for misspelled queries.",
+          "title": "Add query suggestions"
+        },
+        {
+          "prompt": "Implement a real-time analytics dashboard to track popular searches, common failed queries, and user engagement.",
+          "title": "Build search analytics"
+        },
+        {
+          "prompt": "Add a feature for users to provide feedback on search results accuracy, and use this feedback to refine the ranking algorithm.",
+          "title": "Enable user feedback loops"
+        },
+        {
+          "prompt": "Extend the search to include external APIs like Wikipedia or industry-specific databases when internal results are limited.",
+          "title": "Integrate external data sources"
+        },
+        {
+          "prompt": "Add a feature that allows users to save specific search queries or create alert notifications for new content matching their interests.",
+          "title": "Implement saved searches & alerts"
+        },
+        {
+          "prompt": "Develop a conversational interface or chatbot integration for voice-activated search queries.",
+          "title": "Add voice search capability"
+        },
+        {
+          "prompt": "Include advanced visualization options for search results, such as timelines for historical data or network graphs for related concepts.",
+          "title": "Create data visualizations"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Process and understand natural language queries for semantic search.",
+          "icon": "🗣️",
+          "title": "Natural language processing"
+        },
+        {
+          "description": "Connect and index data from diverse sources like databases, documents, and APIs.",
+          "icon": "🔗",
+          "title": "Multi-source indexing"
+        },
+        {
+          "description": "Implement flexible filtering, faceting, and sorting options for refined results.",
+          "icon": "🎛️",
+          "title": "Advanced filtering"
+        },
+        {
+          "description": "Customize result ranking based on relevance, user roles, or data importance.",
+          "icon": "🏆",
+          "title": "Contextual ranking"
+        },
+        {
+          "description": "Generate dynamic, intuitive navigation paths based on data structure.",
+          "icon": "🗺️",
+          "title": "Dynamic navigation"
+        },
+        {
+          "description": "Extract and highlight key information within documents for quick scanning.",
+          "icon": "💡",
+          "title": "Intelligent summarization"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom search and navigation tool with Kliv typically takes days or weeks, depending on the complexity and volume of data sources. Basic prototypes can be functional within hours.",
+          "question": "How long does it take to build a custom search and navigation tool?"
+        },
+        {
+          "answer": "Kliv is designed to be accessible to users without prior coding experience. You describe the data, the desired search functionality, and navigation needs in plain language, and the AI assists in generating the application components.",
+          "question": "Do I need to be a developer or data scientist to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, flexibility is a core benefit. Kliv-built applications can connect to nearly any data source with an API, including internal databases, cloud storage, document management systems, and specialized industry data portals.",
+          "question": "Can I connect my custom search tool to all my existing data sources (internal and external)?"
+        },
+        {
+          "answer": "You retain full ownership of the application, including the code and all indexed data. You decide where it's hosted and how it's maintained, ensuring maximum control and security.",
+          "question": "Who owns the data and the developed application after it's built?"
+        },
+        {
+          "answer": "While initial setup costs exist, custom solutions often prove more cost-effective long-term. You avoid recurring subscription fees for every new feature or data limit, and the efficiency gains quickly offset development expenses.",
+          "question": "How does the cost compare to off-the-shelf search software or enterprise solutions?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are inherently flexible. You can add new data sources, refine search algorithms, introduce new filtering options, or even integrate AI models for advanced understanding as your requirements evolve.",
+          "question": "Can I modify or expand the search tool's capabilities after the initial build?"
+        },
+        {
+          "answer": "Security is paramount. Because you control the hosting environment and data access, custom solutions can be designed with your specific security policies in mind, often providing a higher level of isolation and control than multi-tenant SaaS offerings.",
+          "question": "What about data security for sensitive information?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unlock your data's potential?",
+      "type": "cta",
+      "content": "Stop sifting through information. Build a precise, intelligent search and navigation solution that works exactly how you need it to."
+    }
+  ],
+  "title": "Custom Search & Navigation Tools"
+}

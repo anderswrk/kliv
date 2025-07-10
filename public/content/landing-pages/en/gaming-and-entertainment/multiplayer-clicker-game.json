@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a multiplayer clicker game where players can earn currency, upgrade their clicks, and compete on leaderboards.",
+  "description": "Build custom multiplayer clicker games with server-side logic and real-time interaction.",
+  "hero": {
+    "cta": "Start building your game",
+    "subtitle": "Develop engaging multiplayer clicker games with persistent worlds and competitive leaderboards, powered by Kliv's scalable platform.",
+    "title": "Create your own multiplayer clicker game"
+  },
+  "metaDescription": "Design and launch unique multiplayer clicker games. Implement real-time leaderboards, persistent upgrades, and player interaction on a robust, scalable backend.",
+  "sections": [
+    {
+      "title": "Why build your own clicker game?",
+      "type": "text",
+      "content": "The gaming landscape is full of unique niches, and the clicker genre, while seemingly simple, offers immense potential for addictive gameplay, community building, and long-term engagement. But why build your own from scratch?\n\nOff-the-shelf game engines or templated solutions often come with limitations: fixed monetization models, generic player interactions, and less control over the core game loop. Building your own multiplayer clicker game with a flexible development platform like Kliv gives you complete creative freedom. Own your game's mechanics, data, and community, and scale it as your player base grows."
+    },
+    {
+      "title": "The power of custom multiplayer clicker games",
+      "type": "markdown",
+      "content": "## Beyond the single-player experience\n\nWhile many clicker games are single-player, the addition of multiplayer elements elevates the genre significantly. Imagine players collaborating to tap a global object, competing for top spots on real-time leaderboards, or even engaging in minor player-vs-player (PvP) mechanics tied to clicking.\n\n### Core advantages of custom development:\n\n- **Unique Mechanics**: Implement novel clicking mechanics, upgrade paths, or prestige systems that differentiate your game.\n- **Persistent Worlds**: Ensure player progress, currency, and upgrades are saved securely on the server, irrespective of login status.\n- **Real-time Interaction**: Enable players to see each other's progress, influence shared goals, or compete synchronously.\n- **Scalable Backend**: Support thousands, or even millions, of concurrent users without compromising performance.\n- **Custom Monetization**: Design your own in-game economies, cosmetic items, or optional boosts, rather than conforming to fixed store models.\n- **Community Building**: Foster player communities around shared objectives, guilds, or competitive seasons."
+    },
+    {
+      "title": "Multiplayer clicker game ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A global clicker where collective clicks generate energy for server-wide buffs.",
+          "prompt": "Create a multiplayer clicker game where all players contribute clicks to a single global energy pool. This pool unlocks new content or provides temporary buffs for everyone. Include a live leaderboard for daily click contributions.",
+          "title": "Global Energy Accumulator"
+        },
+        {
+          "description": "Players click to mine resources, then trade and craft in a shared economy.",
+          "prompt": "Design a clicker game where players click to mine different types of resources. Implement a marketplace where players can trade resources, and a crafting system to combine resources into valuable items. Include regional leaderboards for resource collection.",
+          "title": "Resource Tycoon Clicker"
+        },
+        {
+          "description": "Compete against others to grow the largest virtual plant or creature by clicking.",
+          "prompt": "Build a competitive clicker game where each player manages their own virtual plant and grows it by clicking. Introduce environmental factors that can be influenced by other players (e.g., 'watering' or 'weeding' each other's plants) and a leaderboard for the tallest plant.",
+          "title": "Competitive Growth Clicker"
+        },
+        {
+          "description": "Teams click to defeat shared raid bosses or achieve collective goals.",
+          "prompt": "Develop a cooperative clicker game where players form small teams. Each team must cumulatively click to defeat 'raid bosses' that appear periodically. Include team-based leaderboards for boss damage and rewards.",
+          "title": "Co-op Raid Clicker"
+        },
+        {
+          "description": "Click to expand territory on a shared map, battling for control.",
+          "prompt": "I want a strategic clicker game where players click to expand their territory on a shared, grid-based map. Other players can also click on your territory to try and claim it. Implement diplomacy or resource generation for conquered areas.",
+          "title": "Territory War Clicker"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your clicker game",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a robust in-game currency system with daily login bonuses and prestige options for players who reach certain milestones.",
+          "title": "Implement advanced economics"
+        },
+        {
+          "prompt": "Introduce a guild or team system where players can join up, collaborate on collective goals, and have dedicated team leaderboards and chat.",
+          "title": "Add guild mechanics"
+        },
+        {
+          "prompt": "Integrate real-time chat functionality, both global and private, to foster community and competition among players.",
+          "title": "Build in-game chat"
+        },
+        {
+          "prompt": "Develop a system for cosmetic unlocks (e.g., custom click animations, player avatars) that players can earn or purchase.",
+          "title": "Include cosmetic customization"
+        },
+        {
+          "prompt": "Integrate push notifications for mobile platforms to alert players about new events, daily rewards, or when their energy has recharged.",
+          "title": "Add mobile notifications"
+        },
+        {
+          "prompt": "Create a robust anti-cheat system to detect and prevent automated clicking (auto-clickers) and other forms of exploitation.",
+          "title": "Develop anti-cheat measures"
+        },
+        {
+          "prompt": "Implement a battle pass or seasonal event system with unique rewards and limited-time content.",
+          "title": "Add seasonal content"
+        },
+        {
+          "prompt": "Design a referral system where players can invite new users and earn bonuses for successful sign-ups.",
+          "title": "Implement a referral program"
+        }
+      ]
+    },
+    {
+      "title": "Key game development capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Securely store player data, progress, and game state on a persistent server.",
+          "icon": "💾",
+          "title": "Persistent Player Data"
+        },
+        {
+          "description": "Update leaderboards, chat, and game events instantly for all connected players.",
+          "icon": "⚡",
+          "title": "Real-time Updates"
+        },
+        {
+          "description": "Build and manage complex in-game economies, including currency, items, and trading.",
+          "icon": "💰",
+          "title": "Custom Game Economy"
+        },
+        {
+          "description": "Enable secure account creation and management for your player base.",
+          "icon": "🔑",
+          "title": "Player Authentication"
+        },
+        {
+          "description": "Handle a large number of concurrent players without performance degradation.",
+          "icon": "📈",
+          "title": "Scalable Backend"
+        },
+        {
+          "description": "Implement robust server-side logic to prevent cheating and ensure fair play.",
+          "icon": "🛡️",
+          "title": "Anti-Cheat Mechanics"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, you can rapidly prototype a basic multiplayer clicker game in a matter of hours or days. More complex games with intricate mechanics and robust social features might take a few weeks to fully develop and polish.",
+          "question": "How quickly can I build a multiplayer clicker game?"
+        },
+        {
+          "answer": "Kliv provides tools that minimize the need for traditional coding, especially for backend logic. You can define game rules, player interactions, and data structures using intuitive interfaces, allowing you to focus on game design.",
+          "question": "Do I need to be a seasoned developer to build a game with Kliv?"
+        },
+        {
+          "answer": "Yes, you have full control. Kliv helps generate the robust backend infrastructure and APIs, but you can connect any frontend or client (web, mobile, desktop) that can communicate with standard APIs and WebSockets. You own your game's client and art assets.",
+          "question": "Can I use my own game client (e.g., Unity, Godot, WebGL) with Kliv's backend?"
+        },
+        {
+          "answer": "Kliv's platform is designed for scalability right from the start. The underlying architecture can automatically scale to handle increased player load, so your game can grow from a handful of players to thousands, or even millions, without re-engineering the backend.",
+          "question": "How does Kliv handle game scalability as my player base grows?"
+        },
+        {
+          "answer": "Kliv provides the infrastructure for real-time leaderboards, player progress saving, and player-to-player interactions. You define the rules for these systems, and Kliv ensures the backend can support them efficiently and securely.",
+          "question": "What kind of real-time features can I implement for a multiplayer game?"
+        },
+        {
+          "answer": "You own 100% of the game logic and data you create on Kliv. We provide the development platform and infrastructure, but the intellectual property of your game remains yours. You can export your data and code at any time.",
+          "question": "Who owns the game I build on Kliv?"
+        },
+        {
+          "answer": "Security is built into the platform. Data transmission is encrypted, and Kliv assists in implementing secure authentication, authorization, and robust server-side validation to prevent common game exploits and cheating.",
+          "question": "Is the backend secure for preventing cheating or data breaches?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to launch your addictive multiplayer experience?",
+      "type": "cta",
+      "content": "Turn your game idea into a reality. Build a custom, scalable, and engaging multiplayer clicker game today."
+    }
+  ],
+  "title": "Multiplayer Clicker Games"
+}

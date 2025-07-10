@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a multiplayer game replay system that allows players to save game sessions, review their gameplay, and share clips with others. It should also include a live spectator mode.",
+  "description": "Build custom multiplayer game replay and spectator tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your gaming platform",
+    "subtitle": "Create custom game replay systems and live spectator experiences with Kliv's AI-powered platform. Elevate player engagement and esports analysis.",
+    "title": "Build your own game replay and spectator tools"
+  },
+  "metaDescription": "Develop powerful game replay and live spectator mode applications using Kliv. Enhance player skill, community engagement, and competitive analysis for any multiplayer game.",
+  "sections": [
+    {
+      "title": "Why build a custom replay and spectator system?",
+      "type": "text",
+      "content": "For competitive gaming, analysis, and community engagement, replay and spectator features are no longer just 'nice-to-haves' — they're essential. While some games offer built-in solutions, they often lack customization, advanced analytics, or cross-game compatibility.\n\nBuilding your own gives you complete control. You can tailor it to specific game mechanics, integrate unique analytical overlays, and even host your own esports events with professional-grade viewing tools, all without relying on third-party limitations."
+    },
+    {
+      "title": "The strategic advantage of custom systems",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf solutions\n\nMany games offer basic replay functionality, but they rarely meet the needs of serious players, content creators, or esports organizers. Generic solutions typically fall short in several key areas:\n\n- **Lack of detailed data**: Often only basic game state is recorded, missing critical player-specific metrics.\n- **Limited sharing options**: Restricted to in-game sharing or cumbersome file exports.\n- **No cross-game compatibility**: Each game has its own system, leading to fragmented experiences.\n- **Absence of advanced analysis tools**: Missing features like hitbox visualization, pathing, or economic breakdowns.\n- **Poor spectator experience**: Lack of customized camera control, overlays, or real-time commentary integration.\n\n## Why a custom-built solution is a game-changer\n\nLeveraging Kliv's AI-powered development, you can create a system that is perfectly tuned to your specific requirements, offering unparalleled advantages:\n\n### Deep analytical insights\nCapture granular data beyond standard replays. Track positioning, cooldown usage, resource management, and even predict player behaviors. This depth of information is invaluable for competitive analysis and skill improvement.\n\n### Enhanced content creation\nProvide content creators with tools to easily capture, edit, and export cinematic replays. Add dynamic overlays, custom camera paths, and real-time commentary to elevate their productions.\n\n### Community building & engagement\nFoster a thriving community by allowing players to easily share their best moments, dissect strategies, and spectate high-level play. This creates a more dynamic and interactive ecosystem around your game or community.\n\n### Professional esports integration\nFor event organizers, a custom spectator mode means complete control over broadcast quality. Implement custom branding, real-time statistics, and multi-angle viewing for an immersive esports experience.\n\n### Future-proof and flexible\nSince you own the architecture, your system can evolve with game updates, new features, and changes in player needs. No reliance on a third-party's development roadmap.\n\n## Real-world impact\n\nCustom replay and spectator systems are transforming competitive gaming and content:\n\n**Player Improvement**: An individual player can analyze their deaths, review team fights, and pinpoint micro-mistakes leading to significant skill gains.\n\n**Team Strategy**: Esports teams can review scrims with detailed data overlays, identifying optimal rotations, ability usage, and opponent tendencies.\n\n**Content Creation**: YouTubers can generate high-quality montages with custom camera angles and visual effects not possible in standard game clients.\n\n**Esports Broadcasts**: Event organizers can provide multi-stream perspectives, real-time player stats, and interactive control for viewers, enhancing engagement.\n\n## The AI development advantage\n\nBuilding such sophisticated systems traditionally demanded specialized game development knowledge. Kliv simplifies this:\n\n- **Rapid prototyping**: Quickly iterate on different replay views and data visualizations.\n- **Data parsing models**: AI assists in structuring and interpreting complex game data streams for replay.\n- **Scalable architecture**: Build robust systems capable of handling numerous concurrent replays or spectators.\n- **User interface generation**: AI helps design intuitive interfaces for playback controls and analytical overlays.\n\nStart building exactly what your gaming community needs today with Kliv's platform."
+    },
+    {
+      "title": "Replay & Spectator ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Cross-game replay system for competitive analysis",
+          "prompt": "Create a unified replay platform for multiple esports titles that captures detailed player stats, allows for frame-by-frame analysis, and supports collaborative annotation by coaches and analysts.",
+          "title": "Universal Esports Replay Analyzer"
+        },
+        {
+          "description": "Web-based live spectator for game tournaments",
+          "prompt": "Build a web application that provides a live spectator mode for a custom game tournament, featuring multiple camera views, real-time scoreboards, dynamic player statistics overlays, and integrated chat.",
+          "title": "Live Tournament Spectator Hub"
+        },
+        {
+          "description": "Personalized gameplay review tool for skill improvement",
+          "prompt": "Develop a replay system for a single-player game that highlights critical decision points, provides AI-driven feedback on player performance, and suggests alternative actions based on optimal play.",
+          "title": "AI-Powered Skill Coach"
+        },
+        {
+          "description": "Community-driven clip sharing and discovery platform",
+          "prompt": "Design a platform where players can upload short gameplay clips from various games, add tags and descriptions, and enable community voting and comment sections for popular content.",
+          "title": "Gaming Highlight Reel Portal"
+        },
+        {
+          "description": "Educational replay system for strategy games",
+          "prompt": "Build a replay system for an RTS game that allows users to review resource management, unit positioning, and build orders, with an overlay that tracks economic efficiency and army value over time.",
+          "title": "RTS Strategy Analyzer"
+        },
+        {
+          "description": "Mobile-friendly spectator for casual multiplayer games",
+          "prompt": "Create a mobile app that allows friends to spectate each other's live matches in a casual multiplayer game, with simplified controls, push notifications for match start/end, and quick sharing of game results.",
+          "title": "Friend Spectator Companion App"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your gaming tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate AI-driven insights: Add a feature that uses AI to detect common mistakes or highlight optimal plays within replays.",
+          "title": "AI-Driven Play Analysis"
+        },
+        {
+          "prompt": "Implement multi-angle camera control: Allow spectators to switch between different player perspectives or free-cam views during live or replayed matches.",
+          "title": "Advanced Camera System"
+        },
+        {
+          "prompt": "Add real-time data overlays: Develop customizable overlays for spectator mode that display live stats, player health bars, and team scores.",
+          "title": "Custom Data Overlays"
+        },
+        {
+          "prompt": "Develop a clip editing suite: Create in-app tools for users to trim replays, add text, music, and effects before sharing.",
+          "title": "Integrated Video Editor"
+        },
+        {
+          "prompt": "Enable collaborative annotation: Allow coaches or friends to add timestamped notes and drawings directly onto shared replays.",
+          "title": "Collaborative Review Features"
+        },
+        {
+          "prompt": "Integrate with game APIs: Connect directly to game data sources for more accurate and comprehensive replay data capture.",
+          "title": "Deep Game API Integration"
+        },
+        {
+          "prompt": "Add social sharing capabilities: Implement direct sharing to platforms like YouTube, Twitch, and Twitter for replay clips.",
+          "title": "Social Sharing & Export"
+        },
+        {
+          "prompt": "Build predictive analytics: Use recorded data to predict future player movements or game outcomes in real-time spectator mode.",
+          "title": "Predictive Live Stats"
+        },
+        {
+          "prompt": "Create a robust search and filter system: Allow users to easily find specific replays based on game mode, player, or skill rating.",
+          "title": "Advanced Replay Search"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for gaming platforms",
+      "type": "features",
+      "items": [
+        {
+          "description": "Capture and store entire game sessions with synchronized data.",
+          "icon": "💾",
+          "title": "High-Fidelity Replay Recording"
+        },
+        {
+          "description": "Provide real-time viewing of live matches with customizable perspectives.",
+          "icon": "👀",
+          "title": "Live Spectator Mode"
+        },
+        {
+          "description": "Access granular game state, player actions, and environmental data for deep analysis.",
+          "icon": "🔍",
+          "title": "Detailed Data Capture"
+        },
+        {
+          "description": "Allow users to pause, fast-forward, slow-motion, and jump to specific moments in replays.",
+          "icon": "⏯️",
+          "title": "Intuitive Playback Controls"
+        },
+        {
+          "description": "Easy tools to trim, render, and share highlights or full replays with community and across platforms.",
+          "icon": "📤",
+          "title": "Sharing & Export Functionality"
+        },
+        {
+          "description": "Display custom information, statistics, and visual aids over live or replayed footage.",
+          "icon": "📊",
+          "title": "Customizable Overlays"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic replay system can be quick, potentially within days. More complex systems with advanced analytics and live spectator features may take a few weeks to refine. Kliv's AI speeds up the entire development cycle.",
+          "question": "How long does it take to develop a custom replay and spectator system?"
+        },
+        {
+          "answer": "No, you don't need extensive game development or coding experience. Kliv's AI platform helps translate your ideas into functional applications, guiding you through the process of defining data structures and UI/UX.",
+          "question": "Do I need to be a game developer or programmer to build this?"
+        },
+        {
+          "answer": "Yes, your custom system can connect to various game engines (Unity, Unreal, custom engines) and their APIs to extract necessary game data. Kliv helps you define these integrations clearly.",
+          "question": "Can this integrate with specific game engines or existing game infrastructure?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property, including the code and data. Your system is designed for flexibility on your chosen hosting, ensuring full control over your project and its future.",
+          "question": "What happens to the code and data after my system is built?"
+        },
+        {
+          "answer": "The cost can be significantly lower long-term. Instead of recurring SaaS fees for limited features, you invest once in a custom solution perfectly tailored to your needs, which can be extended without additional subscription costs.",
+          "question": "How does the cost compare to using off-the-shelf gaming platforms?"
+        },
+        {
+          "answer": "Absolutely. The modular nature of Kliv's generated code allows for endless modifications. You can add new features, adjust data capture, or completely change the UI/UX as your community or game evolves.",
+          "question": "Can I modify or expand the system after it's initially created?"
+        },
+        {
+          "answer": "The security of your custom system is within your control. You define access permissions and data handling protocols, often leading to a more secure environment than relying on third-party services.",
+          "question": "Is a custom-built solution more secure for sensitive game data?"
+        },
+        {
+          "answer": "Kliv provides tools for rapid iteration and debugging. The AI can highlight potential issues and suggest optimizations for data handling and performance, ensuring your system runs smoothly even under heavy load.",
+          "question": "What kind of support is available for ensuring performance and scalability?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate gaming companion?",
+      "type": "cta",
+      "content": "Unlock new levels of player engagement and competitive analysis. Design the game replay and spectator system your community deserves with AI-powered development."
+    }
+  ],
+  "title": "Multiplayer Game Replay & Spectator Mode Tools"
+}

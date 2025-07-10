@@ -1,0 +1,168 @@
+{
+  "defaultPrompt": "I want to create a real-time portfolio tracker that integrates with brokerage APIs, shows performance metrics, and allows for custom alerts based on market conditions or individual stock movements.",
+  "description": "Develop custom trading and investment tools tailored to your strategy with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Building Your Tool",
+    "subtitle": "Design and deploy precision trading and investment applications perfectly aligned with your unique financial strategies and data needs.",
+    "title": "Build Your Own Trading & Investment Tools"
+  },
+  "metaDescription": "Create powerful, custom trading and investment tools with Kliv. Access real-time data, build custom analytics, and automate strategies without extensive coding.",
+  "sections": [
+    {
+      "title": "Why Develop Custom Financial Tools?",
+      "type": "text",
+      "content": "The financial markets are incredibly dynamic, and off-the-shelf software often falls short in meeting specialized investor or trader needs. Generic platforms lack the flexibility for integrating proprietary models, niche data sources, or specific execution logic. Kliv empowers you to move beyond these limitations, crafting tools that are as unique as your investment philosophy."
+    },
+    {
+      "title": "The Case for Bespoke Financial Software",
+      "type": "markdown",
+      "content": "## The Limitations of Ready-Made Solutions\n\nExisting trading and investment software, while powerful for broad use cases, comes with inherent constraints:\n\n-   **Rigid Functionality:** Most tools are built for a mass market, meaning they can't accommodate highly specific analytical methodologies or complex trading algorithms.\n-   **Data Silos:** Integrating non-standard data feeds, proprietary research, or niche market data can be challenging or impossible.\n-   **High Subscription Costs:** Advanced features often come with premium, recurring fees that can quickly outweigh their value if you're only using a fraction of the capabilities.\n-   **Lack of Customization:** Tailoring user interfaces, alerts, or report formats to match your personal workflow is often severely limited.\n-   **Security Concerns:** Relying on third-party servers for sensitive financial data introduces a layer of risk beyond your control.\n\n## Why Custom is the Strategic Advantage\n\nIn the competitive world of finance, a custom-built solution can be a significant differentiator:\n\n### Precision for Your Strategy\nNo two traders or investors approach the market identically. Custom tools allow you to hardwire your specific strategies, risk management rules, and analytical frameworks directly into your software. This leads to better execution and more consistent application of your methodology.\n\n### Unrestricted Data Integration\nWant to combine sentiment analysis from obscure news sources with traditional market data? Or integrate your personal economic models? Custom applications provide the freedom to connect to any data source, whether public APIs or private databases.\n\n### Cost-Effectiveness Over Time\nWhile there's an upfront development cost, a custom tool built with Kliv eliminates recurring subscription fees. Over years, this translates to substantial savings, especially for professional investors or firms.\n\n### Enhanced Security and Control\nBy owning your application, you dictate its security protocols and data storage. Host it on your own private infrastructure, control access permissions, and minimize exposure to third-party vulnerabilities.\n\n### Adaptability to Market Changes\nThe financial landscape is ever-evolving. A custom tool offers unparalleled agility. Adapt algorithms, add new metrics, or integrate emerging asset classes without waiting for a vendor update.\n\n## Real-World Applications\n\nCustom financial tools are not just for large institutions:\n\n**Individual Traders:** Building custom indicators, automated trade execution based on personal parameters, or advanced backtesting platforms.\n\n**Hedge Funds:** Developing proprietary alpha generation models, complex risk analytics dashboards, or systematic arbitrage systems.\n\n**Wealth Managers:** Creating personalized client portfolio dashboards, advanced rebalancing tools, or bespoke financial planning calculators.\n\n**Proprietary Trading Firms:** Crafting ultra-low-latency execution engines, real-time market microstructure analysis tools, or sophisticated options pricing models.\n\n## The AI-Powered Development Revolution\n\nKliv transforms the traditional, costly, and time-consuming process of software development:\n\n-   **Natural Language Interface:** Describe your desired features in plain English, and the AI assists in generating the underlying code and structure.\n-   **Rapid Prototyping:** See working versions of your ideas come to life quickly, allowing for iterative refinement and testing.\n-   **Intelligent Code Generation:** The AI suggests optimal data structures, API integrations, and algorithmic logic based on your requirements.\n-   **Scalable Architecture:** Build tools that can handle increasing data volumes and computational demands, designed for long-term use.\n\nBuilding your specific financial tool with Kliv means greater control, more precise functionality, and a competitive edge in volatile markets."
+    },
+    {
+      "title": "Trading & Investment Tool Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track investments across multiple brokerage accounts in a unified view.",
+          "prompt": "Create a portfolio management dashboard that aggregates holdings from different brokerage accounts, calculates real-time profit/loss, and displays diversification metrics.",
+          "title": "Multi-Account Portfolio Tracker"
+        },
+        {
+          "description": "Test trading strategies against historical market data.",
+          "prompt": "Build a backtesting application that allows users to define trading rules (entry/exit, position sizing) and simulate their performance on historical stock, forex, or crypto data.",
+          "title": "Advanced Strategy Backtester"
+        },
+        {
+          "description": "Receive instant alerts based on custom market conditions.",
+          "prompt": "Develop a real-time alert system that monitors specific stock prices, volume changes, news sentiment, or economic data releases and sends instant notifications via email or SMS.",
+          "title": "Custom Market Alert System"
+        },
+        {
+          "description": "Automate routine trade placements based on predefined rules.",
+          "prompt": "Design an automated trading bot that connects to a brokerage API, executes buy/sell orders based on technical indicator crossovers or price targets, and implements stop-loss/take-profit orders.",
+          "title": "Automated Trading Bot"
+        },
+        {
+          "description": "Identify arbitrage opportunities across different exchanges.",
+          "prompt": "Create an arbitrage scanner that monitors crypto or forex pairs across multiple exchanges, identifies price discrepancies, and alerts the user to potential arbitrage opportunities.",
+          "title": "Cross-Exchange Arbitrage Scanner"
+        },
+        {
+          "description": "Visualize and analyze complex financial data patterns.",
+          "prompt": "Build a financial data visualization tool that can plot custom technical indicators, compare asset performance, and overlay economic data series on interactive charts.",
+          "title": "Interactive Data Visualization"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for Your Financial Tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a news feed and sentiment analysis module that links market events to price movements within the portfolio tracker.",
+          "title": "Add News & Sentiment Analysis"
+        },
+        {
+          "prompt": "Implement a real-time risk management module that calculates VaR (Value at Risk) and monitors portfolio exposure against predefined limits.",
+          "title": "Incorporate Risk Management"
+        },
+        {
+          "prompt": "Add the ability to connect to futures and options data feeds, and include an options pricing model (e.g., Black-Scholes) for analysis.",
+          "title": "Expand to Derivatives Data"
+        },
+        {
+          "prompt": "Develop a machine learning module that predicts potential price movements based on historical data and user-defined features.",
+          "title": "Integrate Predictive Analytics"
+        },
+        {
+          "prompt": "Create a journaling feature where users can log trades, add notes, and tag them for later performance review and strategy refinement.",
+          "title": "Build a Trading Journal"
+        },
+        {
+          "prompt": "Add multi-user support with different access levels, allowing a team of analysts or advisors to collaborate on research or manage client portfolios.",
+          "title": "Implement Multi-User Access"
+        },
+        {
+          "prompt": "Develop a mobile app interface for push notifications and portfolio monitoring on the go.",
+          "title": "Build a Mobile Companion App"
+        }
+      ]
+    },
+    {
+      "title": "Core Capabilities for Financial Applications",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to diverse data sources: real-time feeds, historical data, fundamental metrics, news APIs, and more.",
+          "icon": "🔗",
+          "title": "Robust Data Integration"
+        },
+        {
+          "description": "Develop and apply custom technical indicators, charting tools, and statistical models unique to your strategy.",
+          "icon": "📈",
+          "title": "Advanced Analytics Engine"
+        },
+        {
+          "description": "Design secure authentication and authorization systems tailored for financial data handling.",
+          "icon": "🔒",
+          "title": "Security & Compliance Features"
+        },
+        {
+          "description": "Automate trade execution, rebalancing, and order management directly through brokerage APIs.",
+          "icon": "🤖",
+          "title": "Automated Execution"
+        },
+        {
+          "description": "Create customizable dashboards, reports, and visualization tools to gain clear insights.",
+          "icon": "📊",
+          "title": "Intuitive User Interfaces"
+        },
+        {
+          "description": "Track and manage entire portfolios, calculate performance metrics, and simulate scenarios.",
+          "icon": "💼",
+          "title": "Comprehensive Portfolio Management"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building complex financial tools typically requires significant development time. With Kliv, basic functional prototypes can be ready in days, and polished, feature-rich applications in a few weeks, significantly faster than traditional methods.",
+          "question": "How long does it take to develop a custom trading tool?"
+        },
+        {
+          "answer": "While some technical understanding of financial markets is beneficial, Kliv's AI-assisted development significantly reduces the need for deep coding expertise. You describe the functionality, and the platform helps generate the technical components.",
+          "question": "Do I need to be a programmer to build these tools?"
+        },
+        {
+          "answer": "Yes, custom tools built with Kliv are highly flexible. You can integrate with virtually any financial data provider or brokerage that offers an API (Application Programming Interface), including popular platforms and niche services.",
+          "question": "Can I integrate with specific data providers or brokerage accounts?"
+        },
+        {
+          "answer": "You retain full ownership and control over the application's code, data, and intellectual property. Kliv provides the development platform, but the end product is entirely yours, ensuring data privacy and strategic advantage.",
+          "question": "Who owns the code and data of the application I build?"
+        },
+        {
+          "answer": "Custom development with Kliv often proves more cost-effective long-term. You invest once in a solution tailored for you, avoiding perpetual subscription fees associated with generic, often overpowered, SaaS financial platforms.",
+          "question": "Is building a custom tool more expensive than buying off-the-shelf software?"
+        },
+        {
+          "answer": "Absolutely. The strength of a custom tool lies in its adaptability. As markets evolve or your strategy shifts, you can easily modify, update, and add new features to your application, ensuring it always meets your needs.",
+          "question": "Can I modify or expand my tool after it's initially built?"
+        },
+        {
+          "answer": "With Kliv, you control the deployment environment. This means you can implement stringent security protocols, choose secure hosting options, and manage data encryption, often resulting in a more secure setup than relying on third-party vendors whose security practices you don't control.",
+          "question": "How secure are custom-built financial applications?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain your financial edge?",
+      "type": "cta",
+      "content": "Stop conforming to generic software. Build a precision tool that empowers your unique investment and trading strategies. Start developing with Kliv today."
+    }
+  ],
+  "title": "Custom Trading & Investment Tools"
+}

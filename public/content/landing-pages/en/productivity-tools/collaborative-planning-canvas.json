@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create a collaborative planning canvas tool that allows multiple users to brainstorm ideas, organize tasks visually, and track project progress in real-time.",
+  "description": "Develop dynamic, visual planning canvases for team collaboration with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your canvas",
+    "subtitle": "Beyond static documents: Build interactive, shared spaces for collective ideation, project roadmapping, and agile sprints.",
+    "title": "Build your own collaborative planning canvas"
+  },
+  "metaDescription": "Create custom collaborative planning canvases with Kliv. Empower teams with visual brainstorming, real-time task management, and interactive project whiteboards.",
+  "sections": [
+    {
+      "title": "The challenge with off-the-shelf planning tools",
+      "type": "text",
+      "content": "In today's fast-paced work environment, effective collaboration is key. However, generic planning tools often fall short. They might be too rigid for free-form brainstorming, lack the specific visual elements your team needs, or come with hefty subscription fees for features you'll never use. Your team's unique workflows shouldn't be squeezed into a template someone else designed."
+    },
+    {
+      "title": "Why a custom collaborative canvas? Your vision, your tool.",
+      "type": "markdown",
+      "content": "## The limitations of generic solutions\nMost off-the-shelf collaborative tools are designed to be one-size-fits-all, which means they are rarely a perfect fit for anyone. Teams often find themselves:\n\n- **Compromising on visual layout**: Unable to arrange elements exactly as they need for specific methodologies (e.g., Lean Canvas, User Story Mapping, SWOT analysis).\n- **Struggling with specialized data fields**: Generic task cards or sticky notes rarely capture the specific data points crucial for your project or business context.\n- **Paying for unused features**: Subscribing to enterprise plans for a handful of functionalities, while the rest gather digital dust.\n- **Facing integration headaches**: Trying to force connections between disparate tools to create a cohesive workflow.\n- **Bound by vendor lock-in**: Being unable to migrate data or customize the underlying logic freely.\n\n## The power of a tailored planning canvas\nBuilding your own collaborative planning canvas transcends these limitations, offering unparalleled flexibility and ownership:\n\n### Pixel-perfect customization\nDesign the canvas exactly as your team thinks and works. Whether it's a specific grid for product roadmaps, a unique layout for design critiques, or dynamic swimlanes for agile sprints, you have complete control over the visual structure and interactivity.\n\n### Bespoke data and logic\nBeyond simple text, embed custom data fields, links, media, and even integrate live data from other internal systems. Define custom rules for how elements behave, update, or notify.\n\n### Cost efficiency in the long run\nEliminate recurring subscription fees. A custom-built tool is an asset you own, providing value for years to come without ongoing operational costs for features you don't use.\n\n### Seamless integration\nConnect your planning canvas directly to your existing CRM, project management software, version control systems, or data analytics platforms. Create a true single source of truth for your collaborative efforts.\n\n### Enhanced security and privacy\nHost your canvas securely within your own infrastructure, giving you full control over data access, compliance, and privacy, unburdened by third-party vendor policies.\n\n## Real-world applications of custom canvases\n\n- **Product Development**: Visualizing user journeys, mapping features to releases, or conducting impact-effort matrix analyses.\n- **Marketing Campaigns**: Brainstorming campaign ideas, mapping content to channels, or organizing A/B test variations.\n- **Strategic Planning**: Developing SWOT analyses, OKR tracking boards, or business model canvases.\n- **Education & Training**: Interactive whiteboards for virtual classrooms, collaborative lesson planning, or group project work.\n- **Event Management**: Visually plotting event timelines, resource allocation, and task dependencies.\n\n## AI-driven innovation in construction\nWith Kliv, the complexity of building such a system is dramatically reduced. Our AI assists by:\n\n- **Translating ideas into components**: Describe the interactive elements you need, and AI helps generate them.\n- **Suggesting optimal layouts**: Get recommendations for visual organizations based on your planning methodology.\n- **Automating backend logic**: Define rules for data updates, user permissions, and integrations, and let AI build the underlying code.\n- **Ensuring scalability**: Design with the future in mind, knowing your custom canvas can grow with your team and projects."
+    },
+    {
+      "title": "Collaborative canvas ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visually plan product features and iterations",
+          "prompt": "Create an interactive product roadmap canvas where teams can drag and drop feature cards, prioritize with custom labels, and link to development tickets.",
+          "title": "Product Roadmap Planner"
+        },
+        {
+          "description": "Brainstorm and organize ideas during meetings",
+          "prompt": "Develop a real-time collaborative brainstorming canvas with sticky notes, drawing tools, and ability to categorize ideas into themed sections. Include voting functionality for users.",
+          "title": "Brainstorming Whiteboard"
+        },
+        {
+          "description": "Plan and manage agile sprint tasks",
+          "prompt": "Build an agile sprint planning board with swimlanes for 'To Do', 'In Progress', 'Done', and 'Blocked'. Allow users to assign tasks, set due dates, and attach relevant files.",
+          "title": "Agile Sprint Board"
+        },
+        {
+          "description": "Visually map out strategic business models",
+          "prompt": "Design a Business Model Canvas tool with predefined sections for key partners, activities, value propositions, customer segments, and revenue streams, allowing collaborative input.",
+          "title": "Business Model Canvas"
+        },
+        {
+          "description": "Track the stages of a sales pipeline visually",
+          "prompt": "Create a sales pipeline visualization canvas where sales reps can move opportunities through stages like 'Lead In', 'Qualification', 'Proposal', and 'Closed Won/Lost', with custom fields for deal value and next steps.",
+          "title": "Sales Pipeline Tracker"
+        },
+        {
+          "description": "Map customer journeys and touchpoints",
+          "prompt": "Develop a Customer Journey Mapping canvas where teams can plot customer touchpoints, emotions, and pain points across different stages, enabling collaborative empathy mapping.",
+          "title": "Customer Journey Mapper"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your canvas: Ideas for advanced features",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add real-time collaborative editing for all elements on the canvas, showing cursors and changes from other users instantly.",
+          "title": "Real-time collaboration"
+        },
+        {
+          "prompt": "Integrate with an external CRM (e.g., Salesforce, HubSpot) to pull customer data directly into canvas elements or push updates.",
+          "title": "CRM integration"
+        },
+        {
+          "prompt": "Implement a version history and rollback feature for the canvas, allowing users to revert to previous states.",
+          "title": "Version control & history"
+        },
+        {
+          "prompt": "Add user authentication and detailed role-based permissions, allowing specific users read-only, edit, or admin access to certain canvases or elements.",
+          "title": "Granular access control"
+        },
+        {
+          "prompt": "Develop an API for the canvas so external applications can programmatically interact with its data and elements.",
+          "title": "API for external access"
+        },
+        {
+          "prompt": "Include AI-powered suggestions for organizing or categorizing ideas based on keywords or user input data.",
+          "title": "AI-driven insights"
+        },
+        {
+          "prompt": "Add a presentation mode that allows teams to seamlessly present the canvas content without editing distractions.",
+          "title": "Presentation mode"
+        },
+        {
+          "prompt": "Enable embedding of external documents (e.g., Google Docs, Figma files) directly onto the canvas, keeping context together.",
+          "title": "Embedded content"
+        },
+        {
+          "prompt": "Implement a robust notification system for real-time alerts on changes, comments, or assignments within the canvas, via email or in-app.",
+          "title": "Advanced notifications"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities for your planning canvas",
+      "type": "features",
+      "items": [
+        {
+          "description": "Visual elements like cards, sticky notes, shapes, and customizable text areas.",
+          "icon": "🖼️",
+          "title": "Flexible canvas editor"
+        },
+        {
+          "description": "Multiple users can interact with the same canvas simultaneously, seeing live updates.",
+          "icon": "👥",
+          "title": "Real-time collaboration"
+        },
+        {
+          "description": "Customizable fields and properties for each element (e.g., due dates, assigned users, priority status).",
+          "icon": "⚙️",
+          "title": "Customizable data models"
+        },
+        {
+          "description": "Tools for drawing, annotating, and connecting elements with lines and arrows.",
+          "icon": "✒️",
+          "title": "Rich drawing tools"
+        },
+        {
+          "description": "Secure user accounts with roles and permissions to manage who can view or edit.",
+          "icon": "🔒",
+          "title": "User management"
+        },
+        {
+          "description": "Ability to embed or link to external documents, images, and videos directly on the canvas.",
+          "icon": "🔗",
+          "title": "External content embedding"
+        }
+      ]
+    },
+    {
+      "title": "Practical questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform significantly accelerates development time. A basic, functional collaborative canvas can be prototyped in a matter of hours or a few days. More complex features and integrations will extend this, but still usually fall within weeks, not months.",
+          "question": "How quickly can I build a collaborative planning canvas?"
+        },
+        {
+          "answer": "No deep coding expertise is required. Kliv uses AI to help you design and build by describing what you want in plain language. The platform handles the underlying code generation and infrastructure work.",
+          "question": "Do I need to be a developer to build this type of tool?"
+        },
+        {
+          "answer": "Absolutely. Custom-built solutions excel at integration. You can connect your canvas to virtually any other business system (CRM, project trackers, communication tools) that provides an API, making your workflows seamless.",
+          "question": "Can my custom canvas integrate with our existing business software?"
+        },
+        {
+          "answer": "You retain full ownership of the application logic and data. Kliv helps you generate the tool, but the resulting application, its data, and intellectual property are entirely yours to manage and host.",
+          "question": "Who owns the canvas application once it's built?"
+        },
+        {
+          "answer": "Unlike SaaS tools with recurring fees, building with Kliv typically involves a one-time investment in development tailored to your specific needs. This often results in substantial long-term cost savings, as you pay only for what you need and own the asset.",
+          "question": "How does the cost compare to subscribing to commercial canvas software?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. Your custom canvas can evolve with your team. You can add new features, adjust layouts, or modify functionalities at any time, without waiting for a vendor to release an update.",
+          "question": "Can I modify the canvas after it's been deployed?"
+        },
+        {
+          "answer": "You control the hosting environment, which means you can implement security protocols tailored to your organization's specific compliance and data protection standards. This often results in a more secure setup than relying on a third-party vendor's security measures.",
+          "question": "Is a custom-built canvas more secure than a SaaS solution?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to transform your team's collaboration?",
+      "type": "cta",
+      "content": "Stop conforming to generic tools. Build a collaborative planning canvas that truly fits your team's unique way of thinking and working. Start creating your ideal workspace today."
+    }
+  ],
+  "title": "Custom Collaborative Planning Canvases"
+}

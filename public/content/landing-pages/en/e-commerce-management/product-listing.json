@@ -1,0 +1,167 @@
+{
+  "defaultPrompt": "I want to create a product listing application that allows me to upload product images, descriptions, prices, and manage inventory for an e-commerce website. It needs to support categorization and searching.",
+  "description": "Build custom product-listing and management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start managing products",
+    "subtitle": "Create bespoke product listing tools that perfectly fit your inventory, catalog, and e-commerce needs, built from the ground up on Kliv's platform.",
+    "title": "Build your own product listing applications"
+  },
+  "metaDescription": "Create powerful product listing and catalog management tools with Kliv. Tailor applications to your exact e-commerce needs, from inventory to rich product data.",
+  "sections": [
+    {
+      "title": "The challenge of managing product data",
+      "type": "text",
+      "content": "In e-commerce, accurate and well-presented product data is paramount. Generic product information management (PIM) systems or built-in e-commerce platform features often fall short, struggling with nuances of unique product types, complex variations, or specific data synchronization needs.\n\nOff-the-shelf solutions can force you into rigid data models, limit descriptive fields, or make global updates cumbersome. This can lead to inefficient workflows, inconsistent product listings across channels, and ultimately, frustrated customers. Building your own application allows for unparalleled flexibility and precision."
+    },
+    {
+      "title": "Why custom product listing is a game-changer",
+      "type": "markdown",
+      "content": "## The limitations of generic PIMs\n\nMany businesses find that standard product listing tools or even advanced PIM solutions don't fully address their specific requirements:\n\n- **Fixed data structures**: You're often limited to predefined fields, making it hard to capture unique product attributes.\n- **Integration hurdles**: Connecting your PIM with various sales channels, ERPs, or logistics systems can be complex and expensive.\n- **Scalability concerns**: As your product catalog grows or diversifies, generic systems can become slow and unwieldy.\n- **Costly subscriptions**: Monthly fees can quickly accumulate, especially as your team or product count expands.\n\n## The power of a bespoke solution\n\nLeveraging AI-powered platforms like Kliv, you can now construct a product listing application that is perfectly aligned with your business:\n\n### Precision-fit data model\nDefine every attribute, field, and relationship exactly as your products demand. Whether it's complex variations (size, color, material), technical specifications, or unique selling points, your application can handle it all without compromise.\n\n### Seamless channel integration\nBuild native integrations with your specific e-commerce platforms (Shopify, Magento, WooCommerce), marketplaces (Amazon, Etsy, eBay), ERP systems, and internal tools. Push updates and retrieve sales data automatically.\n\n### Enhanced content management\nGo beyond basic images and descriptions. Incorporate rich media, 360-degree views, video tutorials, and custom HTML content directly within your product data management tool.\n\n### Dynamic workflow and automation\nAutomate price updates, inventory synchronization, promotional scheduling, or even translation services. Set rules and triggers for how product data flows and transforms.\n\n### Future-proof and scalable\nYour application grows with you. As new product lines emerge or business models evolve, you have the complete freedom to add new features, data types, or user roles without being constrained by vendor roadmaps.\n\n## Real-world impact\n\nCustom product listing applications empower businesses to:\n\n**Fashion Retail**: Manage complex SKU variations (size, color, fit), fabric details, care instructions, and synchronize listings across a website, social commerce, and app.\n\n**Electronics Manufacturers**: Handle intricate technical specifications, compatibility lists, warranty information, and generate dynamic product comparison charts.\n\n**Food & Beverage**: Track ingredients, allergens, nutritional facts, shelf-life, and regulatory compliance data for thousands of unique food items.\n\n**B2B Suppliers**: Create segmented catalogs for different client tiers, manage bulk pricing, minimum order quantities, and custom product configurations.\n\n## The Kliv advantage\n\nBuilding sophisticated software used to be prohibitive. Kliv changes the narrative:\n\n- **Natural language prompts**: Describe your desired features in plain text, and watch the AI build it.\n- **Rapid iteration**: Adjust and refine your application quickly as business needs change.\n- **Comprehensive functionality**: From user authentication to API integrations, Kliv helps you build a complete system.\n- **Cost efficiency**: Invest once in a tailored solution, eliminating ongoing subscription costs for oversized generic tools.\n\nDon't let rigid systems dictate how you manage your most valuable asset—your products. With Kliv, you can create a product listing application that is as unique and dynamic as your business."
+    },
+    {
+      "title": "Product listing ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "A system to categorize, store, and display apparel items with size, color, and material options.",
+          "prompt": "Create a product catalog application for a clothing store. It needs fields for product name, description, price, multiple images, size variations (S, M, L, XL), color options, and material type. Users should be able to search and filter by these attributes.",
+          "title": "Clothing catalog with variations"
+        },
+        {
+          "description": "Manage digital assets (eBooks, software, music) with license keys and download links.",
+          "prompt": "Build a product listing system for digital goods (eBooks, software licenses). Include fields for title, author/publisher, file type, download URL, license key management, and cover art. Allow bulk import/export of digital products.",
+          "title": "Digital product management"
+        },
+        {
+          "description": "A tool to list food products with nutritional info, allergens, and inventory tracking.",
+          "prompt": "Develop an application for a specialty food retailer. Products need fields for name, price, ingredients list, allergens, nutritional facts, shelf life, and inventory quantity. Users should be able to mark items as seasonal.",
+          "title": "Food product database"
+        },
+        {
+          "description": "Catalog industrial parts with technical specs, compatibility, and supplier info.",
+          "prompt": "I need a system to manage industrial equipment parts. Each part should have a unique ID, technical specifications (e.g., voltage, dimensions), compatibility info with other parts, supplier details, and a link to a CAD drawing.",
+          "title": "Industrial parts catalog"
+        },
+        {
+          "description": "A tool for handcrafted artisan products with unique attributes and artist portfolios.",
+          "prompt": "Design a product listing application for handmade artisan goods. It must include fields for item name, price, creation story, materials used, production time, and a profile section for the artisan. Support unique item identifiers.",
+          "title": "Handmade goods inventory"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your product management tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to bulk upload product data, images, and variations via a CSV file.",
+          "title": "Bulk import/export functionality"
+        },
+        {
+          "prompt": "Integrate with a popular e-commerce platform (e.g., Shopify, WooCommerce) to automatically sync product updates.",
+          "title": "E-commerce platform synchronization"
+        },
+        {
+          "prompt": "Implement a user authentication system with different roles for administrators, product managers, and reviewers.",
+          "title": "User roles and permissions"
+        },
+        {
+          "prompt": "Add version control for product descriptions and images, allowing rollbacks to previous states.",
+          "title": "Product data versioning"
+        },
+        {
+          "prompt": "Develop a dashboard to visualize inventory levels, top-selling products, and product data completeness.",
+          "title": "Analytics and reports"
+        },
+        {
+          "prompt": "Integrate with an AI image recognition service to automatically tag product images with relevant keywords.",
+          "title": "AI image tagging"
+        },
+        {
+          "prompt": "Add a module for managing product relationships, such as kits, bundles, and recommended accessories.",
+          "title": "Bundle and kit management"
+        },
+        {
+          "prompt": "Include a multi-language content management system for product descriptions and attributes.",
+          "title": "Multi-language support"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your product listing app",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define custom fields for every unique product attribute, no matter how specific.",
+          "icon": "📐",
+          "title": "Customizable data schemas"
+        },
+        {
+          "description": "Efficiently manage product variations (e.g., size, color, material) and their unique details.",
+          "icon": "🎨",
+          "title": "Variant management"
+        },
+        {
+          "description": "Upload, store, and link multiple images, videos, and other digital assets to each product.",
+          "icon": "🖼️",
+          "title": "Rich media handling"
+        },
+        {
+          "description": "Sophisticated categorization, tagging, and search capabilities for easy product discovery.",
+          "icon": "🔍",
+          "title": "Advanced organization"
+        },
+        {
+          "description": "Track available stock, set low-stock alerts, and manage inventory across locations.",
+          "icon": "📦",
+          "title": "Inventory control"
+        },
+        {
+          "description": "Connect your product data with e-commerce platforms, ERPs, and other business tools via APIs.",
+          "icon": "🔗",
+          "title": "Seamless integrations"
+        }
+      ]
+    },
+    {
+      "title": "About building product apps with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional product listing application with Kliv can be completed in a matter of hours or days, depending on the complexity and desired integrations. The AI-guided process significantly speeds up development.",
+          "question": "How quickly can I build a product listing application?"
+        },
+        {
+          "answer": "No coding experience is required. Kliv's platform is designed for users to describe their needs in natural language. The AI interprets your requirements and builds the underlying software.",
+          "question": "Do I need to know how to code to build this type of application?"
+        },
+        {
+          "answer": "Yes, you can integrate your custom product listing app with almost any e-commerce platform (like Shopify, WooCommerce, Magento), ERP systems, or marketplaces through their APIs. The AI can help generate the necessary integration code.",
+          "question": "Can my custom application integrate with existing e-commerce platforms?"
+        },
+        {
+          "answer": "Absolutely. You retain full ownership and control over your data, its structure, and how it's used. Your product information stays private and secure within your own hosted environment.",
+          "question": "Will my product data be secure and private?"
+        },
+        {
+          "answer": "A custom application often results in long-term savings. While there's an initial development investment, you avoid recurring monthly subscription fees that often escalate with product count or features on SaaS PIMs. Over time, a custom solution is typically more cost-effective.",
+          "question": "How does the cost compare to off-the-shelf PIM solutions?"
+        },
+        {
+          "answer": "The application's scalability is entirely up to your infrastructure choices for hosting. As it's custom-built, you can scale resources (servers, database capacity) precisely as your product catalog and traffic grow, without vendor-imposed limits.",
+          "question": "Is a custom product listing app scalable for large catalogs?"
+        },
+        {
+          "answer": "Indeed. A core advantage of building with Kliv is the flexibility to modify, expand, or add new features at any time. As your business evolves, your product listing tool can easily adapt to new data requirements or workflows.",
+          "question": "Can I modify the application after it’s built and deployed?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your bespoke product catalog?",
+      "type": "cta",
+      "content": "Stop conforming to rigid software. Create the ultimate product listing application tailored exactly to your business vision."
+    }
+  ],
+  "title": "Product Listing Applications"
+}

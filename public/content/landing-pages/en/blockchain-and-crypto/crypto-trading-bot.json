@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a crypto trading bot that can execute trades on Binance based on custom technical analysis indicators and manage risk using stop-loss orders.",
+  "description": "Build custom crypto trading bots tailored to your strategies with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your bot",
+    "subtitle": "Develop personalized crypto trading bots precisely engineered to execute your unique strategies, minimize risk, and automate your market interactions.",
+    "title": "Build your own crypto trading bots"
+  },
+  "metaDescription": "Create powerful, custom crypto trading bots with Kliv. Automate strategies, manage risk, and connect to exchanges with your own self-hosted solution.",
+  "sections": [
+    {
+      "title": "Why build your own crypto trading bot?",
+      "type": "text",
+      "content": "The world of cryptocurrency moves fast, and market opportunities appear and disappear in seconds. Relying on manual trading or off-the-shelf bots often means compromising on strategy, security, and control. With AI-powered development platforms like Kliv, building custom trading bots has become accessible to anyone with a strategy.\n\nPre-built solutions come with limitations: fixed strategies, recurring fees, and dependency on third-party security. A custom-built bot gives you complete ownership over your trading logic, allowing you to react to market changes, protect your assets, and keep 100% of your profits."
+    },
+    {
+      "title": "The strategic advantage of tailored trading automation",
+      "type": "markdown",
+      "content": "## Limitations of off-the-shelf bots\n\nMany traders turn to ready-made crypto trading bots, only to find them lacking. These solutions typically:\n\n- **Force generic strategies** that don't adapt to niche opportunities or volatile conditions.\n- **Charge expensive subscription fees** that eat into your profits, even when markets are down.\n- **Pose security risks** by requiring you to grant API access to external platforms.\n- **Lack flexibility** to integrate with new data sources or advanced technical indicators.\n\n## Why a custom-built solution is superior\n\nKliv leverages AI to make custom software development easy, transforming how traders approach automation. Here's why building your own bot is the smart choice:\n\n### Uncompromised control over your strategy\nYour bot will execute your exact trading logic. Implement complex algorithms, leverage unique data feeds, and adapt to market shifts in real-time, all within your custom parameters.\n\n### Enhanced security and data privacy\nKeep your API keys and trading data secure. By hosting your own bot, you eliminate reliance on third-party platforms for sensitive information, reducing your risk of data breaches.\n\n### Zero recurring fees, infinite scalability\nUnlike SaaS bots with monthly costs, your custom bot is a one-time build. Once deployed, it runs without ongoing software fees, and you can scale its capabilities as your strategies evolve.\n\n### Seamless custom integrations\nConnect to any exchange API, integrate with advanced charting libraries, custom data sources, or even external signal providers. Your bot can be designed to communicate with any service.\n\n## Real-world applications\n\nCustom trading bots aren't just for institutional funds. Individual traders are building them for:\n\n**Arbitrage**: Profiting from small price differences across multiple exchanges or trading pairs simultaneously.\n\n**Market Making**: Providing liquidity by placing both buy and sell orders close to the current market price, profiting from the spread.\n\n**Trend Following**: Automating trades based on identified market trends using advanced technical indicators like moving averages or MACD.\n\n**Scalping**: Executing many small trades to profit from tiny price fluctuations throughout the day.\n\n**Hedge Bots**: Automatically hedging positions across different assets or exchanges to mitigate risk during volatile market conditions."
+    },
+    {
+      "title": "Crypto trading bot ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Exploit price differences across various exchanges automatically.",
+          "prompt": "Build an arbitrage trading bot that monitors BTC/USD prices on Binance, Coinbase, and Kraken, and executes trades when a profitable price difference exceeding a set threshold is detected.",
+          "title": "Cross-exchange arbitrage bot"
+        },
+        {
+          "description": "Automate buying dips and selling rallies based on market momentum.",
+          "prompt": "Create a momentum trading bot for ETH that buys when the 15-minute RSI is below 30 and sells when it's above 70, with a dynamic stop-loss set at 2% below the entry price.",
+          "title": "RSI-based momentum bot"
+        },
+        {
+          "description": "Execute dollar-cost averaging strategies with scheduled purchases.",
+          "prompt": "Develop a DCA bot that automatically buys $100 worth of Solana every day at 10:00 AM UTC, regardless of price, and sends an email notification after each successful purchase.",
+          "title": "Dollar-Cost Averaging (DCA) bot"
+        },
+        {
+          "description": "Profit from market volatility by setting buy/sell orders around a moving average.",
+          "prompt": "Design a market-making bot for a volatile altcoin that places buy orders 0.5% below the current 5-minute moving average and sell orders 0.5% above it, updating every 30 seconds.",
+          "title": "Grid trading/Market making bot"
+        },
+        {
+          "description": "Implement automated risk management for your open positions.",
+          "prompt": "Build a trailing stop-loss bot that monitors my open positions on XRP and automatically moves the stop-loss order up as the price rises, maintaining a 3% trailing distance from the peak price.",
+          "title": "Trailing stop-loss bot"
+        },
+        {
+          "description": "Consolidate exchange data and display it in one place.",
+          "prompt": "Create a portfolio tracking bot that pulls account balances and open positions from multiple exchanges (e.g., FTX, Kraken, Bybit) and displays a consolidated view, updating every hour.",
+          "title": "Multi-exchange portfolio tracker"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your trading bot",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to send Telegram notifications for executed trades or critical errors.",
+          "title": "Integrate Telegram notifications"
+        },
+        {
+          "prompt": "Implement a backtesting module to test strategies against historical data before live deployment.",
+          "title": "Add backtesting capabilities"
+        },
+        {
+          "prompt": "Create a web interface that displays real-time performance metrics, open positions, and profit/loss.",
+          "title": "Build a real-time dashboard"
+        },
+        {
+          "prompt": "Incorporate AI-powered sentiment analysis from news feeds or social media to inform trading decisions.",
+          "title": "Add sentiment analysis"
+        },
+        {
+          "prompt": "Build functionality to pull data from multiple non-exchange sources like Glassnode or CoinMarketCap.",
+          "title": "Integrate external data sources"
+        },
+        {
+          "prompt": "Add a module for advanced risk management, including position sizing based on account equity and daily loss limits.",
+          "title": "Implement advanced risk management"
+        },
+        {
+          "prompt": "Create a mobile app companion for monitoring bot status and receiving urgent alerts.",
+          "title": "Develop a mobile companion app"
+        },
+        {
+          "prompt": "Enable the bot to connect to and execute trades on multiple exchanges simultaneously.",
+          "title": "Support multi-exchange trading"
+        },
+        {
+          "prompt": "Add a module for automatically hedging positions using options or perpetual futures contracts.",
+          "title": "Incorporate hedging strategies"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for your trading bot",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect to major crypto exchanges via their APIs for real-time data and order execution.",
+          "icon": "🔗",
+          "title": "Exchange Integration"
+        },
+        {
+          "description": "Implement custom technical indicators like moving averages, RSI, MACD, and Bollinger Bands.",
+          "icon": "📈",
+          "title": "Custom Indicators"
+        },
+        {
+          "description": "Define entry and exit conditions based on price action, volume, or complex strategies.",
+          "icon": "🚦",
+          "title": "Strategy Execution"
+        },
+        {
+          "description": "Automate stop-loss and take-profit orders to manage downside risk and secure gains.",
+          "icon": "🛡️",
+          "title": "Risk Management"
+        },
+        {
+          "description": "Receive instant alerts via email, SMS, or custom integrations for critical events.",
+          "icon": "🔔",
+          "title": "Real-time Notifications"
+        },
+        {
+          "description": "Review trade history, performance metrics, and profitability in a centralized log.",
+          "icon": "📊",
+          "title": "Performance Tracking"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic crypto trading bot on Kliv can take just hours. More sophisticated bots with complex strategies and integrations might require a few days of refinement and testing.",
+          "question": "How long does it take to build a crypto trading bot?"
+        },
+        {
+          "answer": "No coding experience is required. Kliv's AI platform allows you to describe your trading strategy in plain language, and it handles the development of the underlying code, making it accessible to non-developers.",
+          "question": "Do I need to be a programmer to build a bot?"
+        },
+        {
+          "answer": "Yes, your custom bot can connect to virtually any crypto exchange that offers an API. This includes popular exchanges like Binance, Coinbase, Kraken, Bybit, and many others, allowing you to diversify your trading.",
+          "question": "Can my bot connect to multiple exchanges?"
+        },
+        {
+          "answer": "You own 100% of the bot you build. The code, the data, and all intellectual property are yours. You can host it yourself, modify it, and decide how it interacts with the market.",
+          "question": "Who owns the trading bot once it's built?"
+        },
+        {
+          "answer": "While Kliv helps you build the bot, securing your API keys and managing your funds on the exchange is your responsibility. Best practices include using dedicated API keys with minimal permissions (e.g., trade-only, no withdrawal), IP whitelisting, and strong authentication.",
+          "question": "How secure are custom-built trading bots?"
+        },
+        {
+          "answer": "Indeed. A major advantage of a custom bot is its adaptability. You can easily modify its strategy, add new indicators, integrate more exchanges, or implement new risk management rules as market conditions or your insights change.",
+          "question": "Can I modify my bot after it's been deployed?"
+        },
+        {
+          "answer": "Kliv provides AI-driven assistance throughout the build process, offering suggestions, helping debug logic, and optimizing performance. You also have the flexibility to integrate custom alerts or logging for ongoing monitoring.",
+          "question": "What kind of support is available if I encounter issues?"
+        },
+        {
+          "answer": "While Kliv empowers you to build the bot, the platform doesn't handle your funds or execute trades directly. Your bot connects to your exchange account via securely managed API keys, and all trading activity occurs on the exchange itself.",
+          "question": "Does Kliv manage my trading funds?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your crypto trading?",
+      "type": "cta",
+      "content": "Stop relying on limited, generic solutions. Build a high-performance crypto trading bot precisely designed for your strategy and risk tolerance."
+    }
+  ],
+  "title": "Crypto Trading Bots"
+}

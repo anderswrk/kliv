@@ -1,0 +1,168 @@
+{
+  "defaultPrompt": "I need to build a custom email-based sign-up and login system for my web application that includes user registration, passwordless login with magic links, and secure user management.",
+  "description": "Build custom email-based sign-up and login systems with Kliv's AI-powered low-code platform.",
+  "hero": {
+    "cta": "Start Building Your Auth",
+    "subtitle": "Develop secure, scalable, and customizable email-based authentication solutions tailored for your unique application needs.",
+    "title": "Custom Email-Based Sign-Up & Login"
+  },
+  "metaDescription": "Create powerful email-based authentication systems like passwordless logins and secure user management with Kliv. Enhance user experience and security for your applications.",
+  "sections": [
+    {
+      "title": "Why Build Your Own Email-Based Authentication System?",
+      "type": "text",
+      "content": "In today’s digital landscape, a seamless yet secure user authentication experience is paramount. While off-the-shelf solutions offer quick setup, they often come with limitations in customization, data ownership, and integration capabilities.\n\nBuilding your own email-based sign-up and login system provides unparalleled control. You can precisely define the user journey, implement unique security protocols, and ensure perfect alignment with your application’s brand and infrastructure. Kliv's AI-powered platform makes this custom development accessible, eliminating the need for deep coding knowledge and significant time investment."
+    },
+    {
+      "title": "The Strategic Advantage of Custom Auth",
+      "type": "markdown",
+      "content": "## The Challenges with Existing Authentication Services\n\nMany businesses default to third-party authentication services, which can introduce:\n\n- **Vendor Lock-in**: Difficult to migrate if your needs change or costs escalate.\n- **Limited Customization**: Branding and user flows are often rigid, impacting user experience.\n- **Data Sovereignty Concerns**: Sensitive user data is managed by a third party.\n- **Integration Headaches**: Adapting pre-built solutions to complex application architectures can be cumbersome.\n- **Cost Inefficiency**: Recurring subscription fees can become substantial as your user base grows.\n\n## Empowering Your Application with Bespoke Authentication\n\nBuilding a custom email-based authentication system with Kliv transforms these challenges into opportunities:\n\n### Enhanced User Experience\nDesign login flows that are intuitive and truly match your brand identity. Implement passwordless magic links or traditional email/password combinations, giving users flexibility and reducing friction.\n\n### Superior Security Controls\nGain granular control over security policies. Apply custom rate limiting, IP whitelisting, multi-factor authentication (MFA) options, and robust data encryption tailored to your compliance requirements.\n\n### Full Data Ownership\nMaintain complete ownership and control over your user data. Host it where you prefer, ensuring compliance with privacy regulations like GDPR or CCPA.\n\n### Seamless Integration\nYour custom auth system integrates effortlessly with your existing backend, databases, and other services, creating a unified and efficient ecosystem.\n\n### Cost-Effectiveness at Scale\nBy building once, you avoid escalating subscription costs. As your application grows, your authentication solution scales with predictable costs, saving significant long-term expenditure.\n\n## Real-World Impact\n\nCustom authentication is critical for applications across various sectors:\n\n**SaaS Platforms**: Custom sign-up flows that integrate directly with subscription management and onboarding automation.\n\n**Fintech Applications**: Highly secure login with custom MFA options for sensitive financial data, ensuring regulatory compliance.\n\n**Healthcare Portals**: HIPAA-compliant user authentication with specific access controls for patient records.\n\n**IoT Device Management**: Secure provisioning and authentication for device access, managing large fleets of connected devices.\n\n## The Kliv.dev Advantage for Auth\n\nKliv leverages AI to simplify complex security development:\n\n- **Rapid Development**: Go from concept to a working authentication system in days, not months.\n- **No-Code / Low-Code**: Build sophisticated systems without extensive coding expertise.\n- **Scalability Built-in**: Architect your solution from the ground up for high performance and scalability.\n- **AI-Powered Security**: Benefit from AI-driven insights for potential vulnerabilities and best practices during development.\n\nStop compromising on security or user experience. Build the exact email-based authentication system your application deserves with Kliv."
+    },
+    {
+      "title": "Email Auth Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Create a passwordless login system using email magic links.",
+          "prompt": "Build an email-only sign-up and login system where users receive a unique magic link in their email to log in, bypass the need for passwords.",
+          "title": "Passwordless Magic Link Auth"
+        },
+        {
+          "description": "Secure sign-up and login with email verification and password reset.",
+          "prompt": "Develop a standard email/password sign-up and login system that includes email verification upon registration and a secure forgot password flow.",
+          "title": "Standard Email/Password Auth"
+        },
+        {
+          "description": "Implement multi-factor authentication (MFA) via email codes.",
+          "prompt": "Create an authentication system where users log in with email and password, then receive a one-time passcode (OTP) via email that they must enter to complete login.",
+          "title": "Email-based MFA"
+        },
+        {
+          "description": "Allow users to import and manage their contacts after sign-up.",
+          "prompt": "Design an email-based sign-up where, upon successful registration, users are guided to import their contacts, which are then securely stored and managed.",
+          "title": "User Sign-Up with Contact Import"
+        },
+        {
+          "description": "Build an admin panel to manage users and their permissions.",
+          "prompt": "Develop an email-based sign-up and login system for users, and a separate admin login that provides a dashboard to view, edit, and assign roles to registered users.",
+          "title": "Admin User Management Portal"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Authentication System",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add rate limiting to all login and sign-up endpoints to prevent brute-force attacks.",
+          "title": "Implement Rate Limiting"
+        },
+        {
+          "prompt": "Integrate with a third-party SMS service to offer phone-based multi-factor authentication.",
+          "title": "Add SMS MFA Options"
+        },
+        {
+          "prompt": "Implement session management with refresh tokens for persistent and secure user sessions.",
+          "title": "Build Robust Session Management"
+        },
+        {
+          "prompt": "Add a feature for users to view and manage their active login sessions from their profile.",
+          "title": "User Session Management UI"
+        },
+        {
+          "prompt": "Include an 'Account Activity' log for users to see their login history and any security events.",
+          "title": "Develop Account Activity Log"
+        },
+        {
+          "prompt": "Integrate with a payment gateway (e.g., Stripe) for subscription sign-ups tied to user accounts.",
+          "title": "Add Subscription Integration"
+        },
+        {
+          "prompt": "Create a feature for users to securely change their email address or password within their profile settings.",
+          "title": "Profile Management for Creds"
+        }
+      ]
+    },
+    {
+      "title": "Core Authentication Capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Secure user registration forms with email verification.",
+          "icon": "📝",
+          "title": "User Registration"
+        },
+        {
+          "description": "Both traditional email/password and modern passwordless login options.",
+          "icon": "🔑",
+          "title": "Flexible Login Flows"
+        },
+        {
+          "description": "Robust password hashing, salt generation, and reset mechanisms.",
+          "icon": "🔒",
+          "title": "Password Security"
+        },
+        {
+          "description": "Centralized dashboard for viewing, editing, and managing user profiles and roles.",
+          "icon": "🧑‍💻",
+          "title": "User Management"
+        },
+        {
+          "description": "Configurable multi-factor authentication methods (e.g., email OTP).",
+          "icon": "🛡️",
+          "title": "Multi-Factor Authentication"
+        },
+        {
+          "description": "API endpoints for seamless integration with frontend applications and other services.",
+          "icon": "🔗",
+          "title": "API Integrations"
+        },
+        {
+          "description": "Personalized email templates for welcome, verification, and password resets.",
+          "icon": "📧",
+          "title": "Custom Email Templates"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom authentication system with Kliv can be significantly faster than traditional development, often taking days instead of weeks or months. Its AI-powered capabilities streamline complex tasks, letting you focus on customization.",
+          "question": "How long does it take to build a custom email-based authentication system?"
+        },
+        {
+          "answer": "No, extensive coding expertise is not required. Kliv provides a low-code/no-code environment where you can describe your desired features in natural language, and the AI assists in generating the underlying code and structure.",
+          "question": "Do I need to be a security expert or a senior developer to build this?"
+        },
+        {
+          "answer": "Yes, you can integrate your custom authentication system with virtually any external service or database via APIs, webhooks, or direct database connections. This allows for seamless data flow and functionality across your tech stack.",
+          "question": "Can my custom authentication system integrate with my existing applications or user database?"
+        },
+        {
+          "answer": "Absolutely. With Kliv, you own the entire codebase for your custom authentication system. This gives you complete control over data storage, security protocols, and future modifications.",
+          "question": "Who owns the code and intellectual property of the authentication system I build?"
+        },
+        {
+          "answer": "Custom-built solutions typically offer better long-term cost efficiency compared to recurring subscription models of third-party services, especially as your user base grows. You pay upfront for development, then benefit from full ownership.",
+          "question": "How does the cost of building compare to using a third-party authentication service?"
+        },
+        {
+          "answer": "Yes, security is a primary focus. Kliv helps you implement best practices like secure password hashing, email verification, multi-factor authentication, and rate limiting from the outset. You have full control to apply additional security measures as needed.",
+          "question": "How secure are custom authentication systems built with Kliv?"
+        },
+        {
+          "answer": "Kliv's platform inherently supports scalability. You can design your authentication system to handle a growing number of users and requests by leveraging modular architecture, efficient database designs, and cloud deployment capabilities.",
+          "question": "Can the custom authentication system scale with my user growth?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Secure Your Application?",
+      "type": "cta",
+      "content": "Stop relying on generic authentication solutions. Build a secure, flexible, and fully customized email-based sign-up and login experience that truly fits your application."
+    }
+  ],
+  "title": "Custom Email-Based Sign-Up & Login"
+}

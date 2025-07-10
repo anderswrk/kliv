@@ -1,0 +1,168 @@
+{
+  "defaultPrompt": "I want to create a computer vision application that can analyze live video feeds for specific objects, detect anomalies, and trigger alerts based on defined criteria.",
+  "description": "Build custom computer vision applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building vision apps",
+    "subtitle": "Develop powerful vision systems for inspection, monitoring, and analysis using AI-powered tools.",
+    "title": "Build your own computer vision applications"
+  },
+  "metaDescription": "Create advanced computer vision tools with Kliv. Enhance quality control, automate surveillance, and gain insights from visual data with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own computer vision application?",
+      "type": "text",
+      "content": "Off-the-shelf computer vision solutions often come with high licensing costs, limited customization options, and may not fully address your specific operational challenges. Building your own allows for precise control over data processing, specific object detection, and seamless integration with your existing infrastructure.\n\nWith platforms like Kliv, the complexity of developing custom computer vision is significantly reduced. This means you can create highly specialized tools that perfectly fit your needs, rather than adapting your needs to generic software."
+    },
+    {
+      "title": "The case for custom computer vision",
+      "type": "markdown",
+      "content": "## The limitations of generic vision tools\n\nMany businesses are exploring computer vision, but often encounter hurdles with pre-built solutions:\n\n- **High recurring costs**: Subscription models can become prohibitively expensive, especially with scaling usage.\n- **Lack of specificity**: Generic models are trained on broad datasets and often struggle with niche objects, unique anomalies, or specific environmental conditions.\n- **Integration complexities**: Getting off-the-shelf software to seamlessly interact with your bespoke internal systems can be a massive undertaking.\n- **Data privacy (and ownership) concerns**: Sending proprietary visual data to third-party cloud services can raise significant security and compliance issues.\n- **Limited edge deployment**: Many solutions require constant cloud connectivity, which is not feasible for remote or high-security environments.\n\n## Why custom-built vision is the future\n\nThe advancements in AI and accessible development platforms are democratizing computer vision. Here’s why building your own makes strategic sense:\n\n### Pixel-perfect precision\nYour unique operational needs demand unique solutions. A custom vision application can be trained specifically on your data, focusing on the exact features, defects, or behaviors you need to identify, leading to unmatched accuracy.\n\n### Cost control and long-term value\nA custom solution is an asset you own. It's a one-time development investment (plus maintenance), freeing you from continuous, escalating subscription fees. This translates to significant cost savings over time.\n\n### Secure and private data handling\nMaintain complete sovereignty over your visual data. Process images and videos locally or within your private cloud, ensuring compliance with strict data governance policies and reducing exposure to external threats.\n\n### Seamless operational integration\nDesign your vision system to talk effortlessly with your existing manufacturing control systems, security dashboards, or enterprise resource planning (ERP) platforms. Avoid cumbersome workarounds and data silos.\n\n### Adaptable to evolving needs\nAs your processes change or new challenges emerge, your custom vision tool can be quickly updated and retrained. You're not waiting for a vendor to release an update or a new feature.\n\n## Real-world applications of custom vision\n\nCustom computer vision is driving innovation across diverse sectors:\n\n**Manufacturing**: Automated visual inspection for quality control, detecting microscopic defects on assembly lines, or ensuring correct component placement.\n\n**Retail**: Real-time shelf inventory monitoring, identifying out-of-stock products, or analyzing customer flow patterns for store optimization.\n\n**Agriculture**: Crop health monitoring, precise weed detection for automated spraying, or counting yields from aerial imagery.\n\n**Security & Surveillance**: Identifying unauthorized access in restricted areas, recognizing specific individuals, or detecting unusual behavioral patterns in public spaces.\n\n**Healthcare**: Assisting in medical image analysis for anomaly detection, monitoring patient vital signs remotely, or ensuring correct surgical instrument counts.\n\n## The Kliv advantage in computer vision\n\nBuilding sophisticated computer vision models used to require deep expertise in machine learning and significant computational resources. Kliv changes this:\n\n- **Declarative development**: Describe your vision task in plain language, and Kliv helps generate the core application.\n- **Pre-trained models**: Leverage optimized base models that can be fine-tuned with minimal data for your specific use case.\n- **Data labeling assistance**: Tools to help you efficiently annotate images and videos for custom model training.\n- **Deployment flexibility**: Easily deploy your vision application on edge devices, on-premise servers, or in the cloud.\n- **Iterative refinement**: Quickly experiment with different model architectures and training parameters to achieve optimal performance.\n\n## Your vision, built by you\n\nStop compromising with generic software. Build a computer vision solution that delivers precise, actionable insights tailored to your business. Kliv empowers you to turn complex visual data challenges into automated, intelligent solutions."
+    },
+    {
+      "title": "Computer vision ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Automate quality assurance and defect identification on production lines",
+          "prompt": "Create a computer vision application that inspects manufactured goods for surface defects like scratches or dents, automatically logging product IDs and defect types.",
+          "title": "Automated product inspection"
+        },
+        {
+          "description": "Enhance security with intelligent surveillance",
+          "prompt": "Build a vision system that monitors a restricted area, detects unauthorized person presence after hours, and sends real-time alerts to security personnel with a snapshot.",
+          "title": "Restricted area monitoring"
+        },
+        {
+          "description": "Optimize retail operations and inventory management",
+          "prompt": "Develop a computer vision tool for a retail store that visually scans shelves to identify out-of-stock products, categorizes them, and generates a reorder list for staff.",
+          "title": "Retail shelf analytics"
+        },
+        {
+          "description": "Streamline logistics and package verification",
+          "prompt": "Design an application that scans incoming packages, reads shipping labels and barcodes, verifies contents against a manifest, and flags discrepancies in real-time.",
+          "title": "Package verification system"
+        },
+        {
+          "description": "Monitor and analyze vehicle or pedestrian traffic patterns",
+          "prompt": "Create a vision system that counts vehicles passing a specific point, classifies them by type (car, truck, motorcycle), and visualizes traffic density over time.",
+          "title": "Traffic analysis and counting"
+        },
+        {
+          "description": "Improve workplace safety with PPE detection",
+          "prompt": "Build a computer vision app for a construction site that detects if workers are wearing required hard hats and safety vests, and issues warnings for non-compliance.",
+          "title": "PPE compliance detection"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your vision application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Allow my system to adapt to new defect types by retraining the model with new image data labeled by users",
+          "title": "Add continuous learning capabilities"
+        },
+        {
+          "prompt": "Integrate with my existing inventory management system to automatically update stock levels based on visual scans",
+          "title": "Connect to ERP/IMS"
+        },
+        {
+          "prompt": "Include a live dashboard displaying real-time detection rates, false positive/negative counts, and video streams",
+          "title": "Build a monitoring dashboard"
+        },
+        {
+          "prompt": "Deploy the vision application onto a low-power edge device for on-site, offline processing",
+          "title": "Enable edge deployment"
+        },
+        {
+          "prompt": "Implement a feature to generate daily or weekly reports on detected anomalies, categorizing them by type and severity.",
+          "title": "Add automated reporting"
+        },
+        {
+          "prompt": "Configure the system to trigger an alarm siren or automatic door lock upon detecting a security breach",
+          "title": "Create automated actions"
+        },
+        {
+          "prompt": "Allow the system to distinguish between different employees based on facial recognition for access control or time tracking",
+          "title": "Incorporate facial recognition"
+        }
+      ]
+    },
+    {
+      "title": "Core vision capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Accurately identify and categorize objects or features within images and video streams.",
+          "icon": "🖼️",
+          "title": "Object detection & classification"
+        },
+        {
+          "description": "Pinpoint and localize specific items, people, or areas of interest with bounding boxes or segmentation masks.",
+          "icon": "🔍",
+          "title": "Spatial recognition"
+        },
+        {
+          "description": "Evaluate visual data against learned patterns to flag unusual events, defects, or deviations.",
+          "icon": "⚠️",
+          "title": "Anomaly detection"
+        },
+        {
+          "description": "Extract text from images, essential for reading labels, license plates, or documents.",
+          "icon": "📄",
+          "title": "Optical character recognition (OCR)"
+        },
+        {
+          "description": "Process video feeds to track motion, understand behaviors, and analyze sequences of events.",
+          "icon": "📹",
+          "title": "Video analysis"
+        },
+        {
+          "description": "Trigger custom actions, alerts, or data transfers based on visual events detected by the system.",
+          "icon": "⚡",
+          "title": "Event-driven automation"
+        }
+      ]
+    },
+    {
+      "title": "Common questions about building vision apps",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom computer vision application with Kliv can take anywhere from a few hours for a basic proof-of-concept to several days or weeks for a highly complex, production-ready system with substantial integration requirements. The process is iterative and fast.",
+          "question": "How long does it typically take to build a computer vision application?"
+        },
+        {
+          "answer": "While some understanding of your data and the problem you're solving is helpful, you don't need to be a deep learning expert or a seasoned programmer. Kliv's AI-assisted development handles the complex coding and model training, allowing you to focus on defining your vision tasks.",
+          "question": "Do I need machine learning or coding expertise?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. You can deploy your custom vision application in the cloud, on-premises, or even directly on edge devices like industrial cameras or specialized hardware, depending on your latency, security, and connectivity needs.",
+          "question": "Can these applications run at the 'edge' or on-premises?"
+        },
+        {
+          "answer": "Kliv supports integration with a wide array of data sources and target systems. This includes various camera types, existing databases, manufacturing execution systems (MES), cloud storage, and messaging platforms, often via standard APIs or custom connectors.",
+          "question": "What kind of data sources and external systems can be integrated?"
+        },
+        {
+          "answer": "The initial cost involves development time, which is significantly reduced by Kliv's platform. Unlike SaaS, you avoid perpetual subscription fees, leading to substantial long-term savings, especially as your usage scales. Your investment is in an asset you own.",
+          "question": "How does the cost compare to off-the-shelf computer vision solutions?"
+        },
+        {
+          "answer": "Security is paramount. When you build with Kliv, you control where your data resides and how it's processed. This means you can implement stringent security protocols, comply with specific regulations (like GDPR or HIPAA), and avoid transmitting sensitive visual data to unknown third parties.",
+          "question": "How secure are these custom-built vision applications?"
+        },
+        {
+          "answer": "Absolutely. Custom computer vision applications are designed for adaptability. As your operational needs evolve, or if new types of objects/anomalies emerge, you can retrain your models with new data and update the application logic quickly, without reliance on a vendor's update cycle.",
+          "question": "Can I update or train my vision model with new data after deployment?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to bring your vision to life?",
+      "type": "cta",
+      "content": "Stop limiting your capabilities with generic tools. Build the precise computer vision system your business demands with AI-powered development."
+    }
+  ],
+  "title": "Computer Vision Applications"
+}

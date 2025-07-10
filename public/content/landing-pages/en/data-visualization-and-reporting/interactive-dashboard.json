@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create an interactive dashboard that visualizes sales data from a SQL database, allows filtering by region and product, and shows trends over time with dynamic charts.",
+  "description": "Build custom interactive dashboards and reporting tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your dashboard",
+    "subtitle": "Transform your raw data into insightful, interactive dashboards tailored to your exact business needs, built quickly with Kliv's AI platform.",
+    "title": "Create your own interactive dashboards"
+  },
+  "metaDescription": "Design and deploy powerful interactive dashboards with Kliv. Connect to various data sources, visualize key metrics, and enable dynamic filtering for real-time insights.",
+  "sections": [
+    {
+      "title": "The importance of custom interactive dashboards",
+      "type": "text",
+      "content": "In today's data-rich environment, extracting meaningful insights is crucial. Generic dashboard tools often fall short, forcing you to compromise on specific visualizations, data sources, or user interactions. Building your own interactive dashboard ensures a perfect fit for your unique data, business logic, and user requirements, providing clarity where off-the-shelf solutions create clutter.\n\nKliv's platform empowers you to design highly specific, performant dashboards that directly address your analytical needs, without the limitations or licensing costs of predefined software."
+    },
+    {
+      "title": "Why build a tailor-made data visualization tool?",
+      "type": "markdown",
+      "content": "## The pitfalls of off-the-shelf reporting\n\nWhile pre-built dashboard solutions offer quick setup, they frequently come with significant drawbacks:\n\n- **Inflexible data models**: Struggling to integrate with your unique data schemas.\n- **Limited customization**: Unable to create the exact charts, KPIs, or user-flows you need.\n- **High recurring costs**: Subscriptions add up, especially for multiple users or data sources.\n- **Vendor lock-in**: Dependent on a single provider for updates, integrations, and support.\n- **Performance issues**: Generic solutions can be slow when handling large, complex datasets.\n\n## The compelling reasons for a custom approach\n\nAI-driven development makes custom interactive dashboards not just feasible, but advantageous for businesses of all sizes:\n\n### Precision insights\nYour custom dashboard will perfectly reflect your business logic and metrics. No more trying to fit a square peg into a round hole; you define the data relationships and visualizations that genuinely matter to your operations.\n\n### Unparalleled data connectivity\nConnect to *any* data source – be it a legacy database, a cloud service, an API endpoint, or even complex spreadsheets. Your dashboard becomes a unified view of all your critical information.\n\n### Superior user experience\nDesign an interface that is intuitive for your specific users. Include only the filters, drill-downs, and export options they need, making data exploration efficient and actionable.\n\n### Cost efficiency over time\nAfter the initial build, your custom solution avoids the escalating per-user or per-data-source fees common with commercial tools. This translates to significant savings and a higher return on investment.\n\n### Future-proof scalability\nAs your business evolves, so can your dashboard. Easily add new data sources, refine metrics, introduce new visualization types, or integrate with new operational systems without being constrained by a vendor's roadmap.\n\n## Real-world impact\n\nCustom dashboards are empowering diverse sectors:\n\n**E-commerce**: A real-time executive dashboard displaying sales conversion rates, average order value segmented by product category, and customer lifetime value, updated every 15 minutes.\n\n**Healthcare**: A clinic performance dashboard showing patient wait times, resource utilization, and appointment no-show rates by practitioner and week, enabling immediate operational adjustments.\n\n**Financial Services**: A portfolio performance dashboard allowing fund managers to dynamically filter by asset class, region, and risk level, with custom calculations for P&L and risk exposure.\n\n**Manufacturing**: An operational dashboard visualizing production line efficiency, defect rates per shift, and machine uptime, with drill-downs to individual sensor data for predictive maintenance.\n\n## Leveraging AI for rapid development\n\nBuilding sophisticated data visualization tools is no longer a multi-month project for specialized consultants. Kliv's AI transforms the process:\n\n- **Declarative design**: Describe your data, metrics, and desired interactions in plain language.\n- **Automated layout**: AI assists in arranging charts and controls for optimal readability.\n- **Smart data mapping**: AI helps connect data fields to appropriate visual elements.\n- **Incremental refinement**: Iterate quickly and see changes instantly without coding.\n\n## Start creating now\n\nDon't settle for generic insights. Build a dashboard that speaks your business's language, powered by your data, designed by you. Kliv provides the platform to make this a reality."
+    },
+    {
+      "title": "Interactive dashboard ideas to explore",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize key marketing campaign performance metrics",
+          "prompt": "Create an interactive marketing dashboard showing website traffic, lead conversion rates, and campaign ROI, allowing filtering by source and date range, with drill-down capabilities.",
+          "title": "Marketing campaign performance"
+        },
+        {
+          "description": "Monitor human resources KPIs and employee engagement",
+          "prompt": "Build an HR analytics dashboard displaying employee turnover rates, average time to hire, and training completion percentages, with breakdowns by department and tenure.",
+          "title": "Human Resources analytics"
+        },
+        {
+          "description": "Track and manage project progress and resource allocation",
+          "prompt": "Design a project management dashboard to visualize task completion status, resource allocation across projects, and budget vs actual spending, with filters for project manager and status.",
+          "title": "Project progress tracker"
+        },
+        {
+          "description": "Analyze customer support effiency and satisfaction",
+          "prompt": "Develop a customer service dashboard that shows ticket resolution times, customer satisfaction scores (CSAT), and support agent performance, allowing filtering by channel and issue type.",
+          "title": "Customer service insights"
+        },
+        {
+          "description": "Oversee and optimize supply chain operations",
+          "prompt": "Create a supply chain dashboard visualizing inventory levels, vendor performance metrics, and logistics costs, with interactive maps and filters for region and product line.",
+          "title": "Supply chain optimization"
+        },
+        {
+          "description": "Monitor and control IoT device data and status",
+          "prompt": "Build an IoT device monitoring dashboard displaying real-time sensor data (temperature, pressure), device status (online/offline), and alerts, with custom thresholds and historical data views.",
+          "title": "IoT device monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements for your data insights",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate real-time data streaming capabilities to update charts automatically every few seconds.",
+          "title": "Add real-time data updates"
+        },
+        {
+          "prompt": "Implement user authentication and role-based access control so different users see different data or dashboards.",
+          "title": "Implement user security and roles"
+        },
+        {
+          "prompt": "Add a feature to export selected chart data or the entire dashboard to PDF or CSV.",
+          "title": "Enable data export options"
+        },
+        {
+          "prompt": "Incorporate AI-driven insights, such as anomaly detection or predictive analytics, directly into the dashboard.",
+          "title": "Add AI-powered insights"
+        },
+        {
+          "prompt": "Develop automated report generation, allowing users to schedule daily/weekly email reports of key metrics.",
+          "title": "Automate report distribution"
+        },
+        {
+          "prompt": "Add drill-through capabilities, allowing users to click on a data point in a chart and see underlying raw data.",
+          "title": "Add drill-through functionality"
+        },
+        {
+          "prompt": "Include an alert system that triggers notifications (email/SMS) when metrics cross specific thresholds.",
+          "title": "Develop custom alert system"
+        },
+        {
+          "prompt": "Design a mobile-responsive view of the dashboard for viewing on smartphones and tablets.",
+          "title": "Optimize for mobile devices"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for powerful dashboards",
+      "type": "features",
+      "items": [
+        {
+          "description": "Connect seamlessly to SQL, NoSQL, APIs, cloud services, and more.",
+          "icon": "🔗",
+          "title": "Multi-source data connectors"
+        },
+        {
+          "description": "Create various chart types: line, bar, pie, scatter, heatmaps, and custom visuals.",
+          "icon": "📈",
+          "title": "Rich visualization library"
+        },
+        {
+          "description": "Enable dynamic filtering, sorting, drill-downs, and customizable interactions.",
+          "icon": "🖱️",
+          "title": "Interactive controls"
+        },
+        {
+          "description": "Visualize data in real-time with direct connections and live updates.",
+          "icon": "⏱️",
+          "title": "Real-time data processing"
+        },
+        {
+          "description": "Design pixel-perfect layouts for optimal readability and aesthetic appeal.",
+          "icon": "🎨",
+          "title": "Fully customizable UI"
+        },
+        {
+          "description": "Ensure high performance with optimized data querying and rendering engines.",
+          "icon": "⚡",
+          "title": "Scalable performance"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building dashboards with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional interactive dashboard can take anywhere from a few hours for simple visualizations to a few days or weeks for highly complex, multi-source enterprise systems. Kliv significantly accelerates this process.",
+          "question": "How long does it take to build an interactive dashboard?"
+        },
+        {
+          "answer": "No, extensive coding is not required. Kliv's AI-driven approach allows you to describe your desired dashboard components and data connections using natural language, enabling rapid prototyping and development.",
+          "question": "Do I need to be a programmer to build a dashboard?"
+        },
+        {
+          "answer": "Yes, you can integrate your custom dashboard with almost any data source that provides an API, a database connection (SQL, NoSQL), or even structured files like CSVs or Excel sheets. Our platform is designed for broad compatibility.",
+          "question": "Can my dashboard connect to existing business databases and systems?"
+        },
+        {
+          "answer": "You own 100% of the intellectual property, including the code and data. This means you have full control over future modifications, hosting, and data security without vendor lock-in.",
+          "question": "What about data ownership and intellectual property?"
+        },
+        {
+          "answer": "While the initial development requires an investment, custom solutions often become more cost-effective than continuous subscription fees for commercial tools, especially as your user base or data volume grows. The return on investment typically appears quickly.",
+          "question": "Is building a custom dashboard more expensive than buying a commercial solution?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the flexibility to modify, enhance, or scale your dashboard as your business needs evolve. You can add new data sources, visualizations, or features anytime.",
+          "question": "Can I modify my dashboard after it's been built?"
+        },
+        {
+          "answer": "Kliv provides tools to help you build secure applications, including features for user authentication, authorization, and data encryption. You maintain control over your data's security posture and hosting environment.",
+          "question": "How secure are custom-built dashboards?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain true insight from your data?",
+      "type": "cta",
+      "content": "Stop wrestling with generic tools. Build a custom interactive dashboard that precisely answers your critical business questions, faster than ever before. Start transforming your data with Kliv today."
+    }
+  ],
+  "title": "Interactive Dashboard Builder"
+}

@@ -1,0 +1,164 @@
+{
+  "defaultPrompt": "I want to create a web application for recruiter onboarding and verification that allows agency managers to submit new recruiter profiles, verify their credentials, track their training progress, and manage compliance.",
+  "description": "Build a custom recruiter onboarding and verification application with Kliv for professional services and agencies.",
+  "hero": {
+    "cta": "Build Your Recruiter Onboarding Tool",
+    "subtitle": "Streamline vetting, training, and compliance for your recruitment workforce with custom applications built on Kliv.",
+    "title": "Custom Recruiter Onboarding & Verification Tools"
+  },
+  "metaDescription": "Create powerful recruiter onboarding and verification systems. Ensure compliance, accelerate training, and accurately vet your talent acquisition team with Kliv's platform.",
+  "sections": [
+    {
+      "title": "The Challenge of Scaling Your Recruiting Workforce",
+      "type": "text",
+      "content": "Rapid growth in the professional services and agency sectors often brings a significant challenge: efficiently onboarding and verifying a high volume of recruiters. Generic HR systems fall short, leading to lengthy onboarding times, inconsistent verification processes, and compliance risks.\n\nOff-the-shelf applicant tracking systems (ATS) or HRIS modules might handle basic data, but they rarely provide the deep customization needed for a specialized recruiter-centric workflow that encompasses complex credential verification, nuanced training paths, and ongoing compliance monitoring. This gap often results in manual workarounds, fragmented data, and a slower time-to-productivity for new hires."
+    },
+    {
+      "title": "Why a Custom-Built Recruiter Onboarding & Verification System?",
+      "type": "markdown",
+      "content": "## Limitations of Standard Solutions\n\nMany agencies and professional service firms struggle with:\n\n- **Inefficient Manual Processes**: Relying on spreadsheets, emails, and physical documents for background checks, contract signing, and training assignments.\n- **Compliance Gaps**: Difficulty tracking and proving that all necessary certifications, licenses, and background verifications are current and complete.\n- **Inconsistent Onboarding**: New recruiters may receive varying levels of training and access based on who is managing their onboarding, leading to performance disparities.\n- **Lack of Visibility**: Managers often lack a clear, real-time overview of recruiter readiness, training status, or pending verifications.\n- **Integration Headaches**: Standard HR platforms often don't seamlessly integrate with niche tools used in recruiting, like specialized assessment platforms or industry-specific certification bodies.\n\n## The Power of Tailored Solutions\n\nBuilding your own recruiter onboarding and verification application allows you to:\n\n### Define Your Own Workflow\nNo two agencies are identical. A custom system allows you to build a workflow that perfectly mirrors your specific vetting procedures, training modules, and compliance requirements. Automate steps like background checks, reference calls, skill assessments, and even legal document signing in a sequence that makes sense for your business.\n\n### Centralize All Data & Compliance\nGain a single source of truth for all recruiter-related data, from their initial application to ongoing performance and compliance records. This ensures all necessary documents, certifications, and training completions are accessible and verifiable, drastically reducing audit risk.\n\n### Accelerate Time-to-Productivity\nA streamlined onboarding process means new recruiters are ready to contribute faster. By automating administrative tasks and providing clear, trackable training paths, you reduce overhead and get talent acquisition specialists engaging with candidates sooner.\n\n### Enhanced Scalability\nAs your agency grows, your system grows with you. Easily add new verification types, adapt to evolving compliance regulations, or integrate with new tools without being constrained by a vendor's roadmap or pricing structure.\n\n## Real-World Impact\n\n- **Staffing Agencies**: Automatically verify recruiter certifications (e.g., specific industry knowledge, software proficiency), ensure background checks are complete, and track continuous professional development units.\n- **Consulting Firms**: Onboard new consultants by verifying academic credentials, project experience, and specialist certifications, linking these to internal project assignment systems.\n- **Boutique Recruitment Firms**: Manage complex fee structures, non-compete agreements, and specialized training specific to high-value executive search roles.\n\nKliv makes building these sophisticated, tailored systems accessible. Without deep coding knowledge, you can design, deploy, and manage an application that gives you a competitive edge in managing your most valuable asset: your recruiting team."
+    },
+    {
+      "title": "Recruiter Onboarding Ideas to Get You Started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Streamline new recruiter setup with automated forms and initial checks.",
+          "prompt": "Create an onboarding portal for new recruiters allowing them to upload resume, sign digital contracts, and complete basic personal information forms. Include automated welcome emails.",
+          "title": "Basic Recruiter Onboarding Portal"
+        },
+        {
+          "description": "Automate verification of licenses, certifications, and background checks.",
+          "prompt": "Build a verification system that triggers third-party background checks, verifies professional licenses with external databases, and tracks completion of industry-specific certifications for new recruiters.",
+          "title": "Credential & Background Verification System"
+        },
+        {
+          "description": "Develop custom training paths and track progress for recruiters.",
+          "prompt": "Design a training management module where recruiters can access mandatory training videos, complete quizzes, and track their progress through custom learning paths for different roles (e.g., IT vs. Healthcare recruiter).",
+          "title": "Recruiter Training & Development Hub"
+        },
+        {
+          "description": "Maintain audit trails for compliance and data privacy.",
+          "prompt": "Create a compliance tracking dashboard that shows each recruiter's status on data privacy training, anti-discrimination policies, and adherence to regulatory guidelines, with automated reminders for renewal.",
+          "title": "Regulatory Compliance Tracker for Recruiters"
+        },
+        {
+          "description": "Manage access to internal systems based on onboarding status.",
+          "prompt": "Develop an access management tool that automatically provisions or revokes access to internal ATS, CRM, and communication platforms based on a recruiter's onboarding completion status and role within the agency.",
+          "title": "Recruiter Access & Role Management"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Recruiter Onboarding Application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for recruiters to request access to new tools or training, with a manager approval workflow.",
+          "title": "Self-Service Access Requests"
+        },
+        {
+          "prompt": "Integrate with our existing HRIS (e.g., Workday) and ATS (e.g., Greenhouse) to sync recruiter data automatically.",
+          "title": "Third-Party System Integrations"
+        },
+        {
+          "prompt": "Build a dynamic dashboard for managers to view onboarding progress, compliance status, and training completion rates across their team.",
+          "title": "Manager Analytics Dashboard"
+        },
+        {
+          "prompt": "Implement AI-powered document analysis to automatically extract key information from recruiter resumes and certifications for validation.",
+          "title": "AI Document Processing"
+        },
+        {
+          "prompt": "Add a module for ongoing performance reviews and goal setting, linked to the recruiter's initial training and role.",
+          "title": "Performance & Goal Tracking"
+        },
+        {
+          "prompt": "Enable multi-factor authentication and granular role-based access control for heightened security.",
+          "title": "Advanced Security Features"
+        },
+        {
+          "prompt": "Develop a notification system to alert recruiters and managers about expiring certifications or upcoming training deadlines.",
+          "title": "Automated Alerts & Reminders"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities for Recruiter Management",
+      "type": "features",
+      "items": [
+        {
+          "description": "Create custom, multi-stage onboarding flows tailored to different recruiter roles.",
+          "icon": "🚀",
+          "title": "Configurable Onboarding Workflows"
+        },
+        {
+          "description": "Automated collection and verification of credentials, licenses, and background checks.",
+          "icon": "✅",
+          "title": "Automated Credential Verification"
+        },
+        {
+          "description": "Centralized database for all recruiter profiles, documents, and compliance records.",
+          "icon": "🗃️",
+          "title": "Recruiter Profile Management"
+        },
+        {
+          "description": "Track training modules, certifications, and professional development progress.",
+          "icon": "🎓",
+          "title": "Learning & Development Tracking"
+        },
+        {
+          "description": "Ensure adherence to regulatory requirements with auditable compliance trails.",
+          "icon": "⚖️",
+          "title": "Compliance & Audit Trails"
+        },
+        {
+          "description": "Integrate with external tools like HRIS, ATS, or background check providers.",
+          "icon": "🔗",
+          "title": "API & System Integrations"
+        },
+        {
+          "description": "Provide managers with real-time insights into team readiness and performance metrics.",
+          "icon": "📈",
+          "title": "Performance Dashboards"
+        }
+      ]
+    },
+    {
+      "title": "Common Questions About Building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom recruiter onboarding system with Kliv can be remarkably fast. Basic versions can be prototyped in hours, while a full-featured, integrated application might take a few days or weeks, depending on complexity and integrations. This is significantly faster than traditional development cycles.",
+          "question": "How quickly can I deploy a custom recruiter onboarding solution?"
+        },
+        {
+          "answer": "You don't need any prior coding experience. Kliv's AI platform allows you to describe your desired features and workflows in plain language. The AI translates your requirements into functional application components, making custom software accessible to anyone.",
+          "question": "Is coding knowledge required to build these applications?"
+        },
+        {
+          "answer": "Absolutely. Your custom application can be designed to integrate with a wide range of external systems, including popular HRIS platforms (e.g., Workday, BambooHR), Applicant Tracking Systems (e.g., Greenhouse, Lever), background check services, and even industry-specific certification bodies, usually through APIs.",
+          "question": "Can the custom system integrate with our existing HR or ATS platforms?"
+        },
+        {
+          "answer": "Yes, security is a paramount concern. When you build with Kliv, you control the data, hosting environment, and security protocols. This often allows for a higher level of customization and control over data privacy and compliance compared to off-the-shelf solutions where you rely solely on the vendor's security practices.",
+          "question": "How secure is a custom-built solution for sensitive recruiter data?"
+        },
+        {
+          "answer": "The cost model differs significantly. Instead of recurring subscription fees that increase with users or features, building with Kliv is typically a one-time development investment. Over time, a custom solution can prove far more cost-effective, offering superior ROI and complete ownership.",
+          "question": "How does the cost compare to commercial recruiter management software?"
+        },
+        {
+          "answer": "Yes, complete flexibility is a core advantage. As your agency's needs evolve, you can easily modify workflows, add new verification steps, update training content, or integrate new tools. This adaptability ensures your system always meets your current and future operational requirements.",
+          "question": "Can the application be easily updated or modified after launch?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Transform Your Recruiter Onboarding?",
+      "type": "cta",
+      "content": "Stop wrestling with rigid systems. Build an intelligent, compliant, and efficient recruiter onboarding and verification application tailored exactly to your agency's needs. Start building your custom solution with Kliv today."
+    }
+  ],
+  "title": "Recruiter Onboarding & Verification"
+}

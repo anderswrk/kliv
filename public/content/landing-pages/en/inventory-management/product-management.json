@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a custom inventory management system that tracks stock levels, manages orders, handles returns, and provides alerts for low inventory.",
+  "description": "Build custom inventory management applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start managing inventory",
+    "subtitle": "Gain precise control over your stock, optimize supply chains, and reduce costs with tailored inventory solutions.",
+    "title": "Build your own inventory management system"
+  },
+  "metaDescription": "Create powerful, custom inventory management tools using Kliv. Track stock, manage orders, and optimize your supply chain with precision.",
+  "sections": [
+    {
+      "title": "The challenge of off-the-shelf inventory software",
+      "type": "text",
+      "content": "In today's dynamic market, every business has unique inventory needs. Generic inventory software often forces you to compromise on features, integrate disparate systems, or adapt your processes to fit their limitations. This leads to inefficiencies, increased costs, and ultimately, loss of revenue.\n\nThe real power comes from a system designed specifically for your operations, not a one-size-fits-all solution. With AI-assisted development, building a bespoke inventory management system is now within reach, offering unparalleled control and flexibility without the prohibitive costs of traditional custom development."
+    },
+    {
+      "title": "Why a custom inventory management system makes sense",
+      "type": "markdown",
+      "content": "### The limitations of generic solutions\nStandard inventory software packages often fall short, leading to:\n\n-   **Process Mismatch**: Your workflows are unique; off-the-shelf solutions rarely align perfectly.\n-   **Hidden Costs**: Subscription fees, per-user charges, and add-on modules quickly add up.\n-   **Integration Headaches**: Difficulty connecting with your existing ERP, CRM, or e-commerce platforms.\n-   **Lack of Scalability**: Struggles to adapt as your business grows or pivots.\n-   **Data Silos**: Information fragmented across multiple incompatible systems.\n\n### The clear advantages of building your own\nLeveraging platforms like Kliv to create a custom inventory solution provides significant benefits:\n\n#### Precision tailored to your operations\nYour business isn't generic, so why should your software be? A custom system can perfectly mirror your specific product lines, warehousing methods, shipping processes, and reporting requirements.\n\n#### Cost-effectiveness and ownership\nInvest once in a solution you own, rather than perpetual subscriptions. This offers long-term savings and greater control over your technological assets.\n\n#### Seamless integration\nDesign your system to flawlessly connect with your existing point-of-sale systems, accounting software, e-commerce platforms, and logistics providers, creating a unified data ecosystem.\n\n#### Adaptability and future-proofing\nAs your business evolves, your system can evolve with it. Easily add new modules, modify existing features, or integrate emerging technologies without relying on a vendor's roadmap.\n\n#### Enhanced data insights\nCollect precisely the data you need for accurate forecasting, demand planning, and identifying trends, leading to smarter business decisions.\n\n### Real-world scenarios for custom inventory tools\n\n-   **Retail**: Dynamic stock allocation across multiple store locations and online channels, with real-time sales synchronization.\n-   **Manufacturing**: Raw material tracking from procurement to finished goods, managing complex bills of material (BOMs) and work-in-progress (WIP).\n-   **Wholesale & Distribution**: Optimized warehouse slotting, cross-docking capabilities, and integrated freight management.\n-   **Food & Beverage**: Lot tracking, expiration date management, and compliance reporting for perishable goods.\n-   **Rental Businesses**: Availability tracking for assets, maintenance scheduling, and customer usage history.\n\n### AI accelerates the build process\nBuilding complex systems no longer requires a team of developers and months of work. AI-powered platforms like Kliv translate your business requirements into functional applications rapidly:\n\n-   **Natural Language Interaction**: Describe your desired features in plain English.\n-   **Automated Code Generation**: AI handles the heavy lifting of writing and structuring the application's code.\n-   **Rapid Prototyping**: See a working version of your system in a fraction of the time.\n-   **Smart Optimization**: AI suggests improvements for performance and usability.\n\nBuilding your own inventory management system means investing in a strategic asset that grows with you, offering unparalleled efficiency and control."
+    },
+    {
+      "title": "Inventory management ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track unique serialized items from purchase to sale, including warranty and service history.",
+          "prompt": "Create an inventory system for tracking serialized products that captures serial numbers on receipt, links them to customer sales orders, and tracks warranty expiration dates.",
+          "title": "Serialized inventory tracker"
+        },
+        {
+          "description": "Manage stock across multiple warehouses or retail locations with consolidated reporting.",
+          "prompt": "Build an inventory management application that can handle stock levels for 5 different warehouse locations, allow transfers between them, and provide a consolidated view of all stock.",
+          "title": "Multi-location inventory hub"
+        },
+        {
+          "description": "Optimize raw material and component flow for manufacturing processes.",
+          "prompt": "Develop an inventory tool that manages raw materials for a manufacturing process, tracks usage per production run, and automatically triggers reorder alerts based on production schedules.",
+          "title": "Manufacturing material planner"
+        },
+        {
+          "description": "Implement first-in, first-out (FIFO) or last-in, first-out (LIFO) tracking for specific products.",
+          "prompt": "Design an inventory system that supports FIFO (First-In, First-Out) stock rotation for perishable goods, tracks batch numbers, and provides alerts for items nearing their expiry date.",
+          "title": "Batch & expiry date manager"
+        },
+        {
+          "description": "A system to conduct and reconcile physical inventory counts efficiently.",
+          "prompt": "Create a module for conducting regular physical inventory counts that can be updated via mobile devices, compares counts to system records, and generates variance reports for reconciliation.",
+          "title": "Cycle count tool"
+        },
+        {
+          "description": "Automate purchase order generation based on sales forecasts and current stock.",
+          "prompt": "Build an intelligent reordering system that analyzes sales trends and current stock levels to automatically generate purchase orders for suppliers, and tracks their delivery status until received.",
+          "title": "Smart reorder point system"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your inventory system further",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication system with different roles for warehouse staff, managers, and administrators.",
+          "title": "Implement user authentication & roles"
+        },
+        {
+          "prompt": "Integrate with a popular e-commerce platform (e.g., Shopify, WooCommerce) to automatically update online stock levels.",
+          "title": "Connect to e-commerce platforms"
+        },
+        {
+          "prompt": "Incorporate barcode or QR code scanning capabilities for faster receiving and dispatch.",
+          "title": "Add barcode/QR scanning"
+        },
+        {
+          "prompt": "Develop a reporting dashboard displaying key metrics like inventory turnover, stockout rates, and carrying costs.",
+          "title": "Build an analytics dashboard"
+        },
+        {
+          "prompt": "Add a module for managing product returns, including inspection, restocking, or disposal processes.",
+          "title": "Create a returns management module"
+        },
+        {
+          "prompt": "Forecast future demand based on historical sales data and seasonal trends.",
+          "title": "Integrate demand forecasting"
+        },
+        {
+          "prompt": "Set up automated alerts for low stock, overdue deliveries, or pending expirations via email or SMS.",
+          "title": "Implement automated alerts"
+        },
+        {
+          "prompt": "Add a feature for tracking inbound shipments from suppliers, including estimated arrival times and contents.",
+          "title": "Develop inbound logistics tracking"
+        },
+        {
+          "prompt": "Allow the system to generate shipping labels and track outbound shipments directly with carriers.",
+          "title": "Add shipping integration"
+        }
+      ]
+    },
+    {
+      "title": "Core inventory features you can build",
+      "type": "features",
+      "items": [
+        {
+          "description": "Maintain accurate counts of all products across all locations.",
+          "icon": "🔢",
+          "title": "Real-time stock tracking"
+        },
+        {
+          "description": "Manage incoming goods from suppliers and outgoing shipments to customers.",
+          "icon": "📦",
+          "title": "Order management (PO/SO)"
+        },
+        {
+          "description": "Organize products by location, category, and custom attributes.",
+          "icon": "📍",
+          "title": "Location & bin management"
+        },
+        {
+          "description": "Automate reordering based on thresholds or demand forecasting.",
+          "icon": "🔄",
+          "title": "Smart reorder alerts"
+        },
+        {
+          "description": "Connect with existing accounting, ERP, or POS systems.",
+          "icon": "🔗",
+          "title": "Seamless integrations"
+        },
+        {
+          "description": "Generate custom reports on inventory value, turnover, and historical data.",
+          "icon": "📈",
+          "title": "Custom reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic inventory system with Kliv can take as little as a few hours or days. More complex systems with advanced integrations and features might take a few weeks, significantly faster than traditional development methods.",
+          "question": "How quickly can I build a working inventory management system?"
+        },
+        {
+          "answer": "No, extensive coding knowledge is not required. Kliv’s AI platform translates your natural language descriptions into functional application code, guiding you through the development process step-by-step.",
+          "question": "Do I need to be a programmer to use Kliv for this?"
+        },
+        {
+          "answer": "Yes, your custom inventory system can integrate with virtually any existing software that offers an API or data export capabilities. This includes e-commerce platforms, ERP systems, accounting software, and CRMs.",
+          "question": "Can my custom system integrate with my existing business software?"
+        },
+        {
+          "answer": "You retain full ownership of the application you build. This includes the source code, data, and intellectual property. You are not locked into any proprietary system or vendor.",
+          "question": "Who owns the inventory management system I build?"
+        },
+        {
+          "answer": "While there's an initial investment in building, a custom system eliminates recurring subscription fees typical of off-the-shelf software. Over time, a custom solution is often more cost-effective and provides a higher ROI tailored to your specific needs.",
+          "question": "How does the cost compare to buying commercial inventory software?"
+        },
+        {
+          "answer": "Absolutely. One of the primary advantages of building with Kliv is the flexibility to modify, expand, and update your system as your business requirements change without vendor dependency.",
+          "question": "Can I modify my inventory system after it's built?"
+        },
+        {
+          "answer": "Yes, you have complete control over data security and hosting environments. You can implement the strictest security protocols, ensure data residency requirements are met, and avoid the shared security risks of multi-tenant SaaS solutions.",
+          "question": "Is a custom inventory solution more secure than off-the-shelf options?"
+        },
+        {
+          "answer": "Kliv provides AI-powered assistance for debugging, feature development, and performance optimization. For ongoing maintenance, you can manage it in-house or engage any developer to support your self-owned application.",
+          "question": "What kind of support is available after my system is deployed?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your inventory?",
+      "type": "cta",
+      "content": "Stop letting generic software dictate your operations. Build an inventory management system that perfectly fits your business."
+    }
+  ],
+  "title": "Custom Inventory Management Tools"
+}

@@ -1,0 +1,175 @@
+{
+  "defaultPrompt": "I want to create a home media server that can stream movies, TV shows, and music to multiple devices in my home, organize my media library, and allow remote access.",
+  "description": "Create your own flexible and powerful home media server to manage and stream your digital content.",
+  "hero": {
+    "cta": "Build Your Media Hub",
+    "subtitle": "Take control of your entertainment. Build a personalized home media server tailored to your content and devices.",
+    "title": "Your Custom Home Media Server"
+  },
+  "metaDescription": "Build a custom home media server with Kliv. Organize movies, TV shows, music, and photos, stream to any device, and enjoy complete control over your digital library.",
+  "sections": [
+    {
+      "title": "Why build a custom home media server?",
+      "type": "text",
+      "content": "In today's streaming landscape, owning your media library provides unparalleled freedom and flexibility. While subscription services dictate what you can watch and when, a custom home media server puts you in charge.\n\nOff-the-shelf solutions like Plex or Jellyfin are great starting points, but they come with limitations, pre-defined features, and often, a lack of deep customization. Building your own allows you to design a system that precisely fits your devices, file formats, and aesthetic preferences. It's about creating a truly personal entertainment experience, without recurring fees or unwanted features."
+    },
+    {
+      "title": "The case for a personalized media experience",
+      "type": "markdown",
+      "content": "## The challenges of commercial media solutions\n\nMany media enthusiasts find themselves frustrated by the constraints of commercial streaming services and even popular server software:\n\n- **Content availability**: Specific movies or shows may disappear from platforms.\n- **Subscription fatigue**: Managing multiple subscriptions becomes costly and complex.\n- **Format limitations**: Not all devices or services support every file format.\n- **Data privacy concerns**: Your viewing habits and data are often tracked.\n- **Lack of control**: Limited customization, interface options, or integration with smart home devices.\n\n## Why a custom-built server reigns supreme\n\nBuilding your own media server addresses these issues directly, giving you complete sovereignty over your digital content:\n\n### Unrestricted content library\nHost all your digital movies, TV shows, music, and photos in one place, accessible on demand. No more worrying about content disappearing or regional restrictions.\n\n### Tailored streaming experience\nDesign the streaming interface, categorize your media exactly how you want, and optimize for your specific home network and playback devices (smart TVs, phones, tablets, gaming consoles).\n\n### Future-proof flexibility\nEasily integrate new playback devices, add advanced features like multi-room audio, or incorporate intelligent content recommendations powered by your own algorithms.\n\n### Cost-effective over time\nAfter the initial setup, a self-hosted server eliminates monthly subscription fees for accessing your own content, making it a sound long-term investment.\n\n### Ultimate privacy and security\nKeep your viewing habits and personal media files entirely within your control. You decide who has access and how your data is handled.\n\n## Real-world applications\n\nA custom home media server can be adapted for various scenarios:\n\n**Family Entertainment Hub**: A central server for movies, kids' shows, and family photos, accessible on any TV or tablet in the house.\n\n**Audiophile's Dream**: A dedicated music server with lossless audio support, custom playlists, and multi-room synchronization.\n\n**Professional Media Archive**: For videographers or photographers, a secure archive for raw footage and high-resolution images, with easy browsing and sharing.\n\n**Smart Home Integration**: Integrate media playback with lighting, climate control, and voice assistants for a truly immersive entertainment environment.\n\n## The Kliv advantage in media serving\n\nKliv leverages modern AI development capabilities to simplify building complex applications like media servers:\n\n- **Component generation**: Describe the elements you need (e.g., video player, content library, user authentication), and AI helps generate them.\n- **Integration assistance**: AI can suggest and help implement connections with databases, network protocols, and third-party APIs for metadata enrichment.\n- **Optimized performance**: Get guidance on building for efficient streaming and low latency, crucial for media applications.\n- **Intuitive UI creation**: Design a user interface that's perfectly suited for media browsing and playback, without needing complex UI/UX knowledge."
+    },
+    {
+      "title": "Home media server ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Centralized video streaming with metadata parsing",
+          "prompt": "Create a home media server specifically for movies and TV shows. It should automatically fetch metadata like cover art, summaries, and cast information, and allow streaming to smart TVs and mobile devices.",
+          "title": "Cinema Enthusiast's Vault"
+        },
+        {
+          "description": "Multi-room audio system with custom playlists",
+          "prompt": "Build a music-focused media server. It needs to support high-fidelity audio formats, allow creation of custom playlists, and stream to multiple audio zones or speakers simultaneously.",
+          "title": "Personalized Music Library"
+        },
+        {
+          "description": "A secure, searchable photo and video archive",
+          "prompt": "Develop a media server to store and organize my family photos and home videos. It should include facial recognition for tagging, location-based sorting, and secure sharing options for family members.",
+          "title": "Family Picture & Video Hub"
+        },
+        {
+          "description": "Live TV and DVR functionality for home network",
+          "prompt": "Design a media server that integrates with an over-the-air antenna to stream live TV. It should also have DVR capabilities to record shows and allow playback on any device within the home network.",
+          "title": "DIY Live TV & DVR"
+        },
+        {
+          "description": "Game streaming from PC to other devices",
+          "prompt": "Create a basic game streaming server that can stream PC games from my main gaming rig to lower-powered devices like laptops or tablets on the same home network.",
+          "title": "In-Home Game Streamer"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your media server",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user management system with profiles for each family member, including separate watch histories and personalized recommendations.",
+          "title": "User Profiles & Recommendations"
+        },
+        {
+          "prompt": "Implement automatic download and organization of new TV show episodes or movies based on a watchlist.",
+          "title": "Automated Content Acquisition"
+        },
+        {
+          "prompt": "Integrate with voice assistants (e.g., Alexa, Google Assistant) to control media playback and content search.",
+          "title": "Voice Control Integration"
+        },
+        {
+          "prompt": "Develop a lightweight mobile companion app for remote control and casting to devices.",
+          "title": "Mobile Remote App"
+        },
+        {
+          "prompt": "Add advanced parental controls for content filtering and setting time limits for children's profiles.",
+          "title": "Parental Control Features"
+        },
+        {
+          "prompt": "Incorporate a transcoder that can convert media on-the-fly to optimize it for different playback devices and network conditions.",
+          "title": "On-the-Fly Transcoding"
+        },
+        {
+          "prompt": "Set up a content request feature where family members can submit requests for new movies or shows to be added.",
+          "title": "Content Request System"
+        },
+        {
+          "prompt": "Add support for subtitles, multiple audio tracks, and audio delay correction during playback.",
+          "title": "Advanced Playback Options"
+        },
+        {
+          "prompt": "Build a dashboard to monitor server health, storage usage, and active streams.",
+          "title": "Server Monitoring Dashboard"
+        }
+      ]
+    },
+    {
+      "title": "Essential media server features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Organize movies, TV shows, music, and photos with rich metadata.",
+          "icon": "📚",
+          "title": "Comprehensive Content Library"
+        },
+        {
+          "description": "Stream content to smart TVs, mobile devices, PCs, and gaming consoles.",
+          "icon": "📺",
+          "title": "Multi-Device Streaming"
+        },
+        {
+          "description": "Allow secure access to your media from outside your home network.",
+          "icon": "🌐",
+          "title": "Remote Access"
+        },
+        {
+          "description": "Intuitive web interface for browsing, searching, and managing your media.",
+          "icon": "💻",
+          "title": "User-Friendly Interface"
+        },
+        {
+          "description": "Categorize, tag, and search your content with ease.",
+          "icon": "🔍",
+          "title": "Advanced Search & Filtering"
+        },
+        {
+          "description": "Automatically fetch movie posters, show info, and music album art.",
+          "icon": "🧩",
+          "title": "Metadata & Artwork Auto-fetch"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom home media server with Kliv can range from a few hours for a basic setup to a few days for a richly featured system. The AI accelerates development significantly.",
+          "question": "How long does it take to build a home media server?"
+        },
+        {
+          "answer": "No, you do not need to be a coding expert. Kliv's platform allows you to describe your desired features in natural language, and the AI assists in generating the necessary components and code.",
+          "question": "Do I need coding skills to build one of these?"
+        },
+        {
+          "answer": "Yes, your custom media server can be designed to integrate with various devices (Smart TVs, Rokus, Fire Sticks, game consoles, mobile phones, etc.) and even smart home systems through their APIs or standard protocols.",
+          "question": "Can I stream to all my existing devices?"
+        },
+        {
+          "answer": "You maintain full ownership and control. Your media server's application code, data, and configuration are entirely yours, allowing for complete customization and hosting freedom.",
+          "question": "Who owns the media server once it's built?"
+        },
+        {
+          "answer": "While there's an initial setup investment (hardware, if needed), your custom server eliminates recurring subscription fees common with commercial media services and some pre-packaged server solutions. This leads to long-term savings.",
+          "question": "Is building my own media server cost-effective?"
+        },
+        {
+          "answer": "Absolutely. The self-hosted nature means you directly control security updates and access. You avoid trusting third-party services with your content and viewing habits, offering greater privacy and security.",
+          "question": "How secure is a custom-built media server?"
+        },
+        {
+          "answer": "Your custom server is highly flexible. You can easily add new features, support new media formats, or integrate with new services as your needs evolve, without waiting for a vendor update.",
+          "question": "Can I add features or modify it later?"
+        },
+        {
+          "answer": "While direct media conversion is often handled by specific codecs or hardware, Kliv can help you build features that detect common formats and suggest optimal streaming configurations for different devices.",
+          "question": "Can Kliv help with media format conversion or transcoding?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your ultimate entertainment center?",
+      "type": "cta",
+      "content": "Stop being limited by streaming services. Create a media server that truly serves your content, your devices, and your viewing preferences. Start building your custom home media hub today."
+    }
+  ],
+  "title": "Build Your Own Home Media Server"
+}

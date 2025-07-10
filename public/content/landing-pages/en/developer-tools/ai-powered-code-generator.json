@@ -1,0 +1,163 @@
+{
+  "defaultPrompt": "I want to create an AI-powered code generator that can take natural language descriptions and produce production-ready code snippets or full functions in Python, JavaScript, and Java.",
+  "description": "Develop bespoke AI-powered code generation applications effortlessly with Kliv's platform.",
+  "hero": {
+    "cta": "Start Generating Code",
+    "subtitle": "Accelerate development and empower your team with tailored AI code generation tools built on Kliv's flexible platform.",
+    "title": "Build your own AI Code Generator"
+  },
+  "metaDescription": "Create custom AI-powered code generators with Kliv. Enhance developer productivity, generate code in multiple languages, and integrate seamlessly with your existing workflows.",
+  "sections": [
+    {
+      "title": "The growing need for intelligent code assistance",
+      "type": "text",
+      "content": "In today's fast-paced development environment, demand for efficiency is paramount. While off-the-shelf AI code assistants offer generalized help, they often fall short in understanding specific project contexts, architectural patterns, or proprietary libraries. Building your own AI code generator provides the precision and integration needed to truly transform your software development lifecycle. With platforms like Kliv, this powerful capability is now within reach for any team."
+    },
+    {
+      "title": "Why a custom AI code generator?",
+      "type": "markdown",
+      "content": "## Limitations of generic AI coding tools\n\nExisting AI coding assistants, though useful, often have significant drawbacks when applied to specialized development:\n\n- **Lack of context**: They struggle to understand unique business logic, domain-specific language (DSL), or internal best practices.\n- **Limited customization**: Adapting their output to your team's coding conventions, architectural patterns, or legacy systems is difficult.\n- **Data privacy concerns**: Feeding proprietary codebase into third-party AI models can pose security and compliance risks.\n- **Generic output**: The generated code often requires significant refactoring to align with your project's quality standards and maintainability.\n\n## The power of a tailored solution\n\nKliv empowers you to create an AI code generator that is purpose-built for your needs. Here's why a custom approach is superior:\n\n### Understands your ecosystem\nTrain your AI model on your own codebase, documentation, and architectural guidelines. This ensures the generated code is deeply contextual, highly relevant, and immediately usable.\n\n### Enforces best practices\nConfigure the AI to adhere strictly to your team's coding standards, security policies, and design patterns, reducing technical debt and improving code quality from day one.\n\n### Seamless integration\nDesign your tool to integrate directly into your existing IDEs, CI/CD pipelines, or project management systems, minimizing disruption and maximizing adoption.\n\n### Data sovereignty\nKeep your sensitive code and intellectual property within your own infrastructure, ensuring complete control and compliance with internal and external regulations.\n\n### Cost-effectiveness\nAvoid recurring subscription fees for generalized tools. A one-time development effort via Kliv results in an asset you own, tailored to deliver specific, measurable ROI.\n\n## Real-world impact\n\nBusinesses leveraging custom AI code generation are seeing tangible benefits:\n\n**Web Development**: Generate boilerplate for new components, API endpoints, or database schemas in seconds, consistent with front-end frameworks like React or Angular.\n\n**Data Science**: Automate the creation of data cleaning scripts, feature engineering pipelines, or model evaluation functions, integrated with specific data sources.\n\n**Game Development**: Quickly scaffold common game mechanics, UI elements, or character behaviors based on your engine's specific API.\n\n**DevOps**: Generate configuration files (e.g., Kubernetes YAML, Terraform HCL) or CI/CD pipeline definitions that adhere to your infrastructure-as-code standards.\n\n## How Kliv simplifies custom AI development\n\nKliv abstracts away the complexities of AI model training, deployment, and infrastructure management. You focus on defining the logic and the desired output, and Kliv handles the rest:\n\n- **Visual builder**: Design custom UIs for prompts and outputs without writing front-end code.\n- **Flexible AI backend**: Choose or fine-tune models to best suit your code generation tasks.\n- **Scalable infrastructure**: Your AI code generator runs on a robust, scalable cloud environment.\n- **Built-in version control**: Iterate on your tool with confidence, tracking changes and rolling back if needed.\n\nInvest in a tool that understands your code as well as you do. Build your custom AI code generator with Kliv."
+    },
+    {
+      "title": "Code generation ideas to explore",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Generate React components from simple descriptors.",
+          "prompt": "Create an AI-powered system that takes a description of a user interface component (e.g., 'a button with an icon and text, supports loading state') and generates a production-ready React component with props and basic styling.",
+          "title": "Frontend Component Generator"
+        },
+        {
+          "description": "Automate database schema and ORM model creation.",
+          "prompt": "Build a tool that accepts a natural language description of a data entity (e.g., 'a user with name, email, and a list of orders') and generates SQL schema migrations and corresponding SQLAlchemy/Django ORM models.",
+          "title": "Database Schema & ORM Generator"
+        },
+        {
+          "description": "Generate API endpoints with business logic.",
+          "prompt": "Develop an AI that can take a concise functional requirement (e.g., 'create a Python Flask API endpoint for user registration with email validation and password hashing') and output the complete route and business logic.",
+          "title": "REST API Endpoint Builder"
+        },
+        {
+          "description": "Scaffold entire project structures.",
+          "prompt": "Create an application that generates a complete project boilerplate for a microservice in Node.js, including folder structure, package.json, basic server setup, and Dockerfile, based on specified dependencies.",
+          "title": "Microservice Boilerplate Creator"
+        },
+        {
+          "description": "Aide in writing unit tests for existing functions.",
+          "prompt": "Design an AI tool that takes an existing Python function as input and suggests or generates common unit tests using Pytest, including edge cases and mocking if necessary.",
+          "title": "Unit Test Assistant"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your code generation tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add the ability for users to provide custom code examples or architectural patterns for the AI to learn from.",
+          "title": "Enable Custom Fine-tuning"
+        },
+        {
+          "prompt": "Integrate the code generator directly into popular IDEs like VS Code or IntelliJ via a plugin architecture.",
+          "title": "IDE Plugin Integration"
+        },
+        {
+          "prompt": "Implement a feedback loop where developers can rate the generated code quality and provide specific corrections.",
+          "title": "User Feedback & Rating System"
+        },
+        {
+          "prompt": "Extend the generator to suggest and apply refactoring strategies to existing codebases.",
+          "title": "Code Refactoring Suggestions"
+        },
+        {
+          "prompt": "Allow the AI to learn and adapt to individual developer coding styles over time.",
+          "title": "Personalized Coding Style Adaptation"
+        },
+        {
+          "prompt": "Build a module that detects security vulnerabilities or common anti-patterns in generated code and suggests fixes.",
+          "title": "Security & Best Practices Checker"
+        },
+        {
+          "prompt": "Add version control integration to commit generated code directly to repositories like Git.",
+          "title": "Git Integration"
+        },
+        {
+          "prompt": "Enable the generation of code in multiple programming languages from the same prompt.",
+          "title": "Multi-language Output"
+        }
+      ]
+    },
+    {
+      "title": "Core capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Generate full functions and snippets based on natural language prompts.",
+          "icon": "✍️",
+          "title": "Contextual Code Generation"
+        },
+        {
+          "description": "Support for multiple programming languages, frameworks, and libraries.",
+          "icon": "🌐",
+          "title": "Multi-Language Support"
+        },
+        {
+          "description": "Train your AI models on your private codebase for highly relevant outputs.",
+          "icon": "🔒",
+          "title": "Private Dataset Training"
+        },
+        {
+          "description": "Define and enforce coding standards, architectural patterns, and quality gates.",
+          "icon": "📐",
+          "title": "Custom Style Enforcement"
+        },
+        {
+          "description": "Seamlessly connect with your existing developer tools and workflows.",
+          "icon": "🔗",
+          "title": "API & Webhook Integrations"
+        },
+        {
+          "description": "Scalable infrastructure to power intensive code generation tasks.",
+          "icon": "🚀",
+          "title": "High Performance & Scalability"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom AI code generator on Kliv can take anywhere from a few hours for a basic prototype to several days for a sophisticated tool with advanced integrations and fine-tuned models. The visual interface and AI assistance greatly accelerate the process.",
+          "question": "How long does it typically take to build an AI code generator?"
+        },
+        {
+          "answer": "No deep AI or programming knowledge is strictly required. Kliv's platform is designed for users to define their desired outcomes using natural language and visual tools. While understanding your specific code domain is crucial, the technical AI implementation is abstracted away.",
+          "question": "Do I need to be an AI expert or professional developer to build this?"
+        },
+        {
+          "answer": "Yes, you can integrate your custom AI code generator with various tools. Kliv supports API creation, webhooks, and direct connections to many services, allowing you to incorporate your generator into IDEs, CI/CD pipelines, or project management systems.",
+          "question": "Can the generated code be integrated into my existing development workflow or IDE?"
+        },
+        {
+          "answer": "You retain full ownership of all code generated by your custom tool and any data you use to train your models. Kliv provides the platform for building and hosting, but the intellectual property remains yours.",
+          "question": "Who owns the code generated by the AI model I build on Kliv?"
+        },
+        {
+          "answer": "Kliv provides secure environments for your applications. For sensitive codebases, you can use private hosting options and ensure that your data is not exposed to public models or third parties. You control the security configurations.",
+          "question": "How can I ensure the privacy and security of my proprietary code when training the AI?"
+        },
+        {
+          "answer": "A custom solution from Kliv offers a one-time development cost, transforming into an organizational asset. This often proves more cost-effective in the long run compared to recurring subscription fees for generic, less tailored third-party AI coding solutions.",
+          "question": "Is building a custom AI code generator more expensive than using off-the-shelf tools?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to revolutionize your coding process?",
+      "type": "cta",
+      "content": "Stop writing repetitive code and start building intelligent tools that write it for you. Start innovating with Kliv today."
+    }
+  ],
+  "title": "AI-Powered Code Generator"
+}

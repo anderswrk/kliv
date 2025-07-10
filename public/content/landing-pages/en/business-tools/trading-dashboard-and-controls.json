@@ -1,0 +1,181 @@
+{
+  "defaultPrompt": "I want to create a cryptocurrency trading dashboard that displays real-time price data, allows for market and limit order execution, includes portfolio tracking, and provides risk management controls.",
+  "description": "Build custom trading dashboards and control interfaces with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your trading tools",
+    "subtitle": "Gain an edge with bespoke trading dashboards and robust control systems, tailored exactly to your strategy and data needs.",
+    "title": "Build your own trading dashboard and controls"
+  },
+  "metaDescription": "Create powerful, custom trading dashboards and control applications with Kliv. Integrate real-time data, execute trades, and manage risk with precision.",
+  "sections": [
+    {
+      "title": "Why build your own trading tools?",
+      "type": "text",
+      "content": "In the fast-paced world of trading, generic platforms often fall short. They may lack specific features you need, charge exorbitant fees for advanced analytics, or limit your integration capabilities. Building your own trading dashboard and control system gives you unparalleled flexibility and a competitive advantage.\n\nTraditional off-the-shelf solutions force you into their predefined workflows and data visualizations. Custom-built tools, however, empower you to design interfaces that perfectly match your trading style, integrate with unique data sources, and implement proprietary strategies without compromise. With Kliv, the power to create sophisticated trading applications is now accessible to anyone, regardless of coding expertise."
+    },
+    {
+      "title": "The strategic advantage of tailored trading systems",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf trading platforms\n\nMany traders rely on commercial platforms that, while functional, come with significant drawbacks:\n\n- **Generic Feature Sets**: Rarely cater to niche strategies or obscure data points.\n- **High Recurring Costs**: Monthly or annual fees that can eat into profits, especially for advanced features.\n- **Data Silos**: Limited ability to integrate with diverse data sources, from alternative data feeds to internal research.\n- **Lack of Customization**: Inability to design layouts, indicators, or order entry forms precisely as desired.\n- **Vendor Lock-in**: Dependent on a third-party's development roadmap and security practices.\n\n## Why custom development redefines trading\n\nAI-powered development platforms like Kliv are democratizing the creation of highly specialized trading applications, offering compelling benefits:\n\n### Unmatched Customization\nDesign your dashboard to display exactly the information you need, how you need it. Create custom indicators, integrate your unique research, and build order entry forms optimized for your workflow.\n\n### Proprietary Strategy Implementation\nTranslate your unique trading ideas directly into executable code. Implement complex risk management rules, automated order types, and sophisticated alert systems that off-the-shelf platforms can't offer.\n\n### Cost Efficiency\nAfter an initial build, avoid recurring subscription fees for advanced features. Your tool is a one-time investment that serves your needs indefinitely, evolving with your strategy without additional licensing costs.\n\n### Data Integration Versatility\nConnect to any data source—market data, news feeds, social sentiment, macroeconomic indicators, even your own proprietary backtesting results. Consolidate all critical information into a single, unified view.\n\n### Enhanced Security & Control\nHost your application where you prefer, control access, and manage your sensitive data with peace of mind, reducing reliance on third-party security protocols.\n\n## Real-world applications of custom trading tools\n\nCustom dashboards are not just for institutional traders anymore:\n\n**Algorithmic Trading**: Build interfaces to monitor bot performance, adjust parameters, and execute emergency stops based on custom triggers.\n\n**Proprietary Research Dashboards**: Consolidate bespoke fundamental data models, quantitative analysis, and sentiment scores into a single, actionable view.\n\n**Risk Management & Compliance**: Create a real-time system to monitor portfolio exposure, capital utilization, and adherence to specific trading mandates.\n\n**Retail Investor Tools**: Design simplified, intuitive dashboards for personal use that focus on specific asset classes (e.g., options, crypto) or investment strategies.\n\n**Market Making Interfaces**: Develop custom UIs for quoting, managing inventory, and executing orders across multiple venues with high precision.\n\n## The AI advantage in financial innovation\n\nThe power of AI makes custom trading tool development faster and more accessible than ever:\n\n- **Rapid UI Generation**: Describe your desired layout, charts, and data points, and AI helps construct the interface.\n- **Integration Assistance**: AI can suggest and help implement connections to various exchange APIs, data providers, and backtesting engines.\n- **Code Optimization**: AI can refine the performance of your data processing and order execution logic.\n- **Adaptive Learning**: Tools can be designed to learn from your trading behavior, suggesting improvements or identifying patterns.\n\nInvest in a tool that truly reflects your trading philosophy. With Kliv, you can move from idea to execution quickly, building a competitive edge directly into your trading operations."
+    },
+    {
+      "title": "Trading dashboard ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize key crypto metrics and execute trades directly from the dashboard.",
+          "prompt": "Create a cryptocurrency trading dashboard that displays real-time BTC/USD price, candlestick charts, depth of market, and allows for market and limit order placement on a selected exchange with portfolio value tracking.",
+          "title": "Real-time Crypto Trading Dashboard"
+        },
+        {
+          "description": "Track options positions, implied volatility, and generate custom strategy P&L graphs.",
+          "prompt": "Build an options trading control panel showing current positions, Greeks (Delta, Gamma, Theta, Vega), implied volatility, and a P&L chart for selected strategies, allowing quick adjustments to existing orders.",
+          "title": "Advanced Options Trading Panel"
+        },
+        {
+          "description": "Keep tabs on multiple portfolios and their performance across different brokers.",
+          "prompt": "Develop a multi-broker portfolio aggregation dashboard that pulls data from various brokerage accounts, displays consolidated performance metrics (ROI, daily P&L), and alerts for significant position changes.",
+          "title": "Aggregated Portfolio Performance Tracker"
+        },
+        {
+          "description": "Simplify day trading with essential data and swift order entry.",
+          "prompt": "Design a day trading rapid execution interface with a single stock quote panel, one-click buy/sell buttons, a small order book visualization, and simple profit/loss display for active positions.",
+          "title": "High-Speed Day Trading Interface"
+        },
+        {
+          "description": "Monitor and control the status of multiple automated trading bots.",
+          "prompt": "Generate an algo trading bot monitoring and control center showing the status of 5 different trading bots, their current P&L, open orders, and a button to pause/resume individual bots.",
+          "title": "Algorithmic Bot Management System"
+        },
+        {
+          "description": "Track custom indicators and receive real-time alerts based on your rules.",
+          "prompt": "Create a custom indicator dashboard that visualizes a combination of moving averages and RSI across 3 different timeframes for a selected ticker, with customizable price and indicator alert triggers.",
+          "title": "Custom Technical Indicator Monitor"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your trading system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate real-time news feeds from financial sources and display headlines relevant to tracked assets.",
+          "title": "Add News & Sentiment Feeds"
+        },
+        {
+          "prompt": "Implement a backtesting module where users can test trading strategies against historical data.",
+          "title": "Include Strategy Backtester"
+        },
+        {
+          "prompt": "Add voice command functionality for common actions like 'buy 100 shares' or 'show P&L'.",
+          "title": "Develop Voice Command Integration"
+        },
+        {
+          "prompt": "Integrate with a CRM or client management system to track client trades or portfolio preferences.",
+          "title": "Connect to CRM for Client Portfolios"
+        },
+        {
+          "prompt": "Add a feature to log all trading activities, including entry/exit points, P&L, and notes.",
+          "title": "Build a Trading Journal"
+        },
+        {
+          "prompt": "Implement machine learning models to provide predictive analytics or identify trading patterns.",
+          "title": "Incorporate Predictive Analytics"
+        },
+        {
+          "prompt": "Add support for advanced options strategies like spreads, straddles, and butterflies with visual risk profiles.",
+          "title": "Expand Options Strategy Support"
+        },
+        {
+          "prompt": "Develop a heat map visualization to show sector performance or asset correlation.",
+          "title": "Create a Market Sector Heat Map"
+        },
+        {
+          "prompt": "Add two-factor authentication and role-based access control for enhanced security.",
+          "title": "Enhance Security Features"
+        }
+      ]
+    },
+    {
+      "title": "Essential trading system capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Stream real-time and historical market data from various exchanges and APIs.",
+          "icon": "📈",
+          "title": "Real-time Data Feeds"
+        },
+        {
+          "description": "Visualize price action with customizable charts, indicators, and drawing tools.",
+          "icon": "📊",
+          "title": "Interactive Charting"
+        },
+        {
+          "description": "Execute market, limit, stop-loss, and other complex order types with precision.",
+          "icon": "🎯",
+          "title": "Order Execution & Management"
+        },
+        {
+          "description": "Track current positions, portfolio value, and performance metrics across accounts.",
+          "icon": "💰",
+          "title": "Portfolio & Position Tracking"
+        },
+        {
+          "description": "Set customizable alerts for price movements, news events, or indicator crosses.",
+          "icon": "🔔",
+          "title": "Customizable Alerts"
+        },
+        {
+          "description": "Integrate with brokerage APIs, data vendors, and external financial tools.",
+          "icon": "🔗",
+          "title": "Brokerage & API Connectivity"
+        },
+        {
+          "description": "Implement automated risk checks, position limits, and capital allocation rules.",
+          "icon": "⚠️",
+          "title": "Risk Management Controls"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic, functional trading dashboard can take as little as a few hours with Kliv's AI assistance. More complex systems with advanced integrations and custom analytics might require a few days to a week of focused development.",
+          "question": "How quickly can I build a trading dashboard with Kliv?"
+        },
+        {
+          "answer": "No, you don't need to be a programmer. Kliv’s platform allows you to describe your desired features in plain language, and the AI helps generate the functional components. You'll primarily be configuring and customizing based on your trading needs.",
+          "question": "Do I need coding experience to create these tools?"
+        },
+        {
+          "answer": "Yes, your custom application can integrate with almost any brokerage or data provider that offers an API. You'll specify which APIs you want to connect to, and Kliv will guide you through the integration process.",
+          "question": "Can I connect my custom dashboard to my existing brokerage or data feeds?"
+        },
+        {
+          "answer": "You retain full ownership of the application you build. This includes the UI, the underlying logic, and the data it processes. You can deploy it independently and modify it as you see fit.",
+          "question": "Who owns the trading application I build on Kliv?"
+        },
+        {
+          "answer": "Building your own tool avoids recurring subscription fees common with commercial trading platforms. While there's an initial investment of time and potentially cloud hosting costs, the long-term savings and customization benefits often make it more cost-effective.",
+          "question": "Is building my own trading tool more affordable than subscribing to a platform?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the ability to adapt your tool. As your trading strategy evolves, you can easily add new features, adjust visualizations, or integrate new data sources without being dependent on a software vendor.",
+          "question": "Can I modify or expand my trading dashboard even after it's complete?"
+        },
+        {
+          "answer": "You have significant control over the security of your custom tool. You can implement robust authentication, encryption, and deploy it in a secure environment. This often provides more peace of mind than relying on a third-party's security infrastructure.",
+          "question": "How secure are custom-built trading applications?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of your trading?",
+      "type": "cta",
+      "content": "Stop adapting to generic software. Build a trading dashboard engineered for your success and gain a strategic edge today."
+    }
+  ],
+  "title": "Custom Trading Dashboards & Controls"
+}

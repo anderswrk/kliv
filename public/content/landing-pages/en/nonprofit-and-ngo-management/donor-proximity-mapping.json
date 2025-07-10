@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a donor proximity mapping application that visualizes donor locations, identifies high-value regions, and helps plan efficient outreach trips.",
+  "description": "Build custom donor proximity mapping tools to optimize fundraising efforts.",
+  "hero": {
+    "cta": "Map your donors",
+    "subtitle": "Visualize donor locations, identify high-potential areas, and streamline your fundraising outreach with custom proximity mapping applications built on Kliv's platform.",
+    "title": "Build your own donor proximity mapping tool"
+  },
+  "metaDescription": "Create powerful donor proximity mapping tools with Kliv. Enhance fundraising, plan efficient visits, and uncover regional giving trends with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build a custom donor proximity mapping tool?",
+      "type": "text",
+      "content": "In the world of nonprofit fundraising, understanding your donors is paramount. While CRM systems track contact details and giving history, they often lack the crucial spatial intelligence that can transform outreach strategies. Generic mapping tools might offer some visualization, but they rarely integrate deeply with your specific donor data, custom fields, or unique strategic goals.\n\nBuilding a custom donor proximity mapping tool allows nonprofits to move beyond static reports and embrace dynamic, actionable insights directly relevant to their specific fundraising model. It empowers development teams to optimize travel, identify new prospects in dense donor areas, and personalize outreach based on geographic connections. With Kliv, creating such a sophisticated, tailored tool is no longer a complex, expensive endeavor, making it accessible for organizations of all sizes."
+    },
+    {
+      "title": "The strategic advantage of tailored geographic insights",
+      "type": "markdown",
+      "content": "## The limitations of off-the-shelf mapping for nonprofits\n\nMany nonprofits try to piece together solutions from general mapping software or limited CRM add-ons. This often leads to:\n\n- **Incomplete data integration**: Inability to pull in all relevant donor fields (e.g., giving capacity, interests, last contact date) directly onto a map.\n- **Lack of custom visualization**: Generic pin drops don't allow for custom color-coding, sizing, or grouping based on giving levels, prospect status, or event attendance.\n- **Inefficient trip planning**: Difficulty in building optimized routes or identifying clusters of donors for in-person visits without manual export/import.\n- **No real-time insights**: Maps quickly become outdated without direct and live connections to your donor database.\n- **Security and privacy concerns**: Exporting sensitive donor data to third-party tools can pose compliance risks.\n\n## Why a custom solution is a fundraising game-changer\n\nLeveraging a platform like Kliv to build your own donor proximity mapping application offers unparalleled advantages:\n\n### Hyper-relevant data visualization\nDisplay specific donor attributes (e.g., major donor, recurring giver, event attendee, pending prospect) directly on your map. Use custom icons, colors, and labels to highlight key information at a glance, making complex data immediately understandable.\n\n### Optimized outreach and travel planning\nGenerate optimized travel routes based on donor locations, allowing fundraising teams to maximize efficiency for in-person meetings. Identify 'hot zones' with high concentrations of donors or prospects to focus local outreach efforts.\n\n### Enhanced prospect research\nUncover new potential donors in areas where existing supporters reside, enabling targeted local campaigns or friend-raising events. Proximity mapping can reveal untapped potential in previously overlooked neighborhoods.\n\n### Improved event planning\nVisualize where your event attendees live to select optimal venues, plan local transportation, or identify areas for targeted event promotion and follow-up activities.\n\n### Data security and ownership\nKeep your sensitive donor data secure within a system you control. No more exporting lists to external, generic mapping services, reducing privacy risks and maintaining compliance.\n\n### Tailored to your fundraising strategy\nUnlike generic tools, your custom application can be built to support your specific fundraising objectives – whether it's major gift cultivation, annual fund outreach, capital campaign planning, or volunteer recruitment.\n\n## Real-world impact\n\nImagine a major gifts officer who can:\n\n- Instantly see all major donors within a 5-mile radius of their next meeting.\n- Filter donors by interests to identify potential connections for a new program.\n- Generate an optimized driving route to visit five prospects and two current donors in a single afternoon.\n\nThis level of specificity and actionable intelligence is impossible with off-the-shelf products. By enabling rapid, AI-assisted development, Kliv democratizes access to these powerful, custom-built tools, allowing any nonprofit to achieve fundraising excellence."
+    },
+    {
+      "title": "Donor mapping ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize all current donors by giving tier to identify geographic trends in major gifts.",
+          "prompt": "Create a map application that shows all current donors, color-coded by giving level (e.g., $1-$999, $1,000-$4,999, $5,000+), and allows filtering by last gift date.",
+          "title": "Major donor geographic visualization"
+        },
+        {
+          "description": "Plan efficient routes for development officers to visit multiple donors in one trip.",
+          "prompt": "Build a tool where a user can select a starting point and multiple donor addresses, then generate an optimized driving route between them, including estimated travel times.",
+          "title": "Optimized donor visit planner"
+        },
+        {
+          "description": "Identify clusters of past event attendees to plan follow-up engagement or local mini-events.",
+          "prompt": "Develop a map that displays all past event attendees, clustered by zip code, allowing me to see which areas have high concentrations of engaged community members.",
+          "title": "Event attendee density map"
+        },
+        {
+          "description": "Locate prospective donors based on their proximity to existing high-value supporters.",
+          "prompt": "Create a proximity search feature where I can enter an address, and it shows all prospective donors within a specified radius (e.g., 1, 5, 10 miles), along with their estimated giving capacity.",
+          "title": "Prospect proximity finder"
+        },
+        {
+          "description": "Map volunteer locations and filter by skills for targeted recruitment or project assignment.",
+          "prompt": "Build a mapping application to display volunteer locations, allowing filtering by skills (e.g., marketing, event support, heavy lifting) to help assign them to local projects.",
+          "title": "Volunteer locator and skill matcher"
+        },
+        {
+          "description": "Visualize program beneficiaries to identify underserved areas or concentration of impact.",
+          "prompt": "Develop a map that shows the locations of all program beneficiaries, allowing me to overlay demographic data (e.g., poverty levels, age groups) to identify areas of greatest need.",
+          "title": "Beneficiary impact mapping"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your mapping application",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate with Google Calendar to automatically add planned donor visits to my schedule.",
+          "title": "Google Calendar integration"
+        },
+        {
+          "prompt": "Include an 'add new donor' form directly on the map, allowing for on-the-go data entry.",
+          "title": "On-map data entry"
+        },
+        {
+          "prompt": "Add a feature to log meeting notes and outcomes directly from the map interface after a visit.",
+          "title": "Meeting notes integration"
+        },
+        {
+          "prompt": "Build a dashboard to show key fundraising metrics on the map, such as donations by region or total raised from specific territories.",
+          "title": "Interactive fundraising dashboard"
+        },
+        {
+          "prompt": "Implement a 'heat map' overlay to visualize donation density across different geographic areas.",
+          "title": "Donation density heat map"
+        },
+        {
+          "prompt": "Allow users to draw custom boundaries on the map and calculate metrics (e.g., total donors, average gift) within those boundaries.",
+          "title": "Custom territory analysis"
+        },
+        {
+          "prompt": "Add the ability to upload and store relevant documents or photos tied to specific donor locations.",
+          "title": "Document and photo attachments"
+        },
+        {
+          "prompt": "Implement user roles and permissions so different staff members have access to specific datasets or mapping features.",
+          "title": "User access control"
+        },
+        {
+          "prompt": "Connect with external data sources like census data or wealth screening tools to enrich donor profiles on the map.",
+          "title": "External data enrichment"
+        }
+      ]
+    },
+    {
+      "title": "Key mapping capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Visually represent donor locations on an interactive map.",
+          "icon": "📍",
+          "title": "Geographic visualization"
+        },
+        {
+          "description": "Filter and display donors based on custom criteria like giving level, last gift, or interests.",
+          "icon": "🔍",
+          "title": "Advanced filtering"
+        },
+        {
+          "description": "Calculate and display optimized travel routes between multiple donor locations.",
+          "icon": "🗺️",
+          "title": "Route optimization"
+        },
+        {
+          "description": "Identify and highlight clusters of donors or prospects in specific areas.",
+          "icon": "💡",
+          "title": "Proximity analysis"
+        },
+        {
+          "description": "Securely integrate with your existing CRM or donor database for real-time data access.",
+          "icon": "🔗",
+          "title": "CRM data sync"
+        },
+        {
+          "description": "Visualize giving trends and outreach effectiveness by geographic region.",
+          "icon": "📈",
+          "title": "Regional insights"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "A basic donor mapping tool can be operational in a matter of hours or a day. More complex applications with deep CRM integrations and advanced analytics might take a few days to a week to perfect, but the initial version is always rapid.",
+          "question": "How quickly can a donor proximity mapping tool be built?"
+        },
+        {
+          "answer": "Not at all. Kliv's platform allows you to describe your desired features in plain language, and the AI assists in building the functionality. You focus on what you want the tool to do, not how to code it.",
+          "question": "Is technical expertise or coding knowledge required?"
+        },
+        {
+          "answer": "Yes, seamless integration is a core strength. Your custom mapping tool can connect with popular donor CRMs (like Salesforce, Raiser's Edge, DonorPerfect), accounting software, email platforms, and more, using APIs to ensure real-time data accuracy.",
+          "question": "Can this tool integrate with our existing donor CRM or database?"
+        },
+        {
+          "answer": "You retain full ownership of the application and all your donor data. Kliv helps you build it, but the resulting tool and its underlying code are yours. This gives you control over hosting, security, and future modifications.",
+          "question": "Who owns the data and the application once it's built?"
+        },
+        {
+          "answer": "Typically, a custom-built solution, while having an initial setup cost, proves significantly more cost-effective over its lifespan than recurring SaaS subscriptions. You pay once for the development, avoiding continuous monthly fees that can escalate.",
+          "question": "How does the cost compare to off-the-shelf mapping software subscriptions?"
+        },
+        {
+          "answer": "Absolutely. One of the main benefits of building custom is the flexibility. As your fundraising strategies evolve, you can easily add new features, change how data is displayed, or integrate new data sources without being constrained by a vendor's roadmap.",
+          "question": "Can we modify or add new features to the mapping tool after it's launched?"
+        },
+        {
+          "answer": "You have complete control over data security. Since you own the application, you decide where and how your data is hosted (e.g., on your own servers or a trusted cloud provider), ensuring it meets your organization's specific compliance and privacy requirements.",
+          "question": "How secure will our donor data be in a custom application?"
+        },
+        {
+          "answer": "Kliv offers active support throughout the development process, from initial design assistance to debugging and optimization. Furthermore, because you own the code, you're not reliant on a single vendor for ongoing maintenance or future enhancements.",
+          "question": "What kind of support is available if we encounter issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to unlock your fundraising potential?",
+      "type": "cta",
+      "content": "Stop guessing where your donors are. Build a custom donor proximity mapping tool and make every outreach effort count."
+    }
+  ],
+  "title": "Donor Proximity Mapping Tools"
+}

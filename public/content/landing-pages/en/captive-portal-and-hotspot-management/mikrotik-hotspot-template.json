@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a web application that generates custom MikroTik Hotspot login page templates, allowing users to customize branding, social login options, and data capture forms. It should provide a download link for the generated HTML/CSS/JS files.",
+  "description": "Design and deploy custom MikroTik Hotspot templates with Kliv's AI-driven development platform.",
+  "hero": {
+    "cta": "Build Your Custom Hotspot Template Generator",
+    "subtitle": "Create dynamic, branded captive portal pages for MikroTik Hotspots tailored to your business or client needs.",
+    "title": "Custom MikroTik Hotspot Template Creator"
+  },
+  "metaDescription": "Build a unique MikroTik Hotspot template generator application with Kliv. Customize login pages, integrate social logins, data capture, and more for a superior user experience.",
+  "sections": [
+    {
+      "title": "Why build your own MikroTik Hotspot Template Creator?",
+      "type": "text",
+      "content": "Off-the-shelf MikroTik hotspot templates often lack the specific branding, functionality, or user experience requirements that businesses truly need. Whether you're an ISP, a hotel, a cafe, or a managed service provider, a generic captive portal can detract from your brand and limit your ability to gather valuable user data.\n\nBuilding your own template creator allows you to offer highly customized solutions, integrate unique features like specific social login providers or advanced data capture forms, and ensure brand consistency across all your hotspot deployments. With Kliv, you can develop this sophisticated tool without deep coding expertise, transforming your service offering."
+    },
+    {
+      "title": "The power of a custom Captive Portal solution",
+      "type": "markdown",
+      "content": "## The limitations of generic templates\n\nMany businesses rely on free or basic MikroTik hotspot templates that offer limited customization. This often results in:\n\n- **Inconsistent branding**: Your WiFi login page might not match your company's look and feel.\n- **Lack of rich features**: No social logins, survey forms, or marketing opt-ins.\n- **Poor user experience**: Generic, clunky interfaces can frustrate users.\n- **Limited data insights**: Missed opportunities to collect valuable information for marketing or analytics.\n- **Security concerns**: Using templates from unverified sources can pose risks.\n\n## Why a custom MikroTik Hotspot Template Creator is a game-changer\n\nImagine a tool that lets you (or your clients) effortlessly design and deploy fully customized MikroTik hotspot login pages. Here's why this is invaluable:\n\n### Full branding control\nMatch every visual element – logos, colors, background images, fonts – to your precise brand guidelines. Provide a seamless experience from the moment users connect.\n\n### Enhanced user experience\nOffer multiple login options (social media, voucher, free access with data capture), multilingual support, and a clean, intuitive interface that encourages engagement.\n\n### Valuable data capture\nIntegrate forms to collect emails, phone numbers, or survey responses for marketing campaigns, customer feedback, or compliance.\n\n### Monetization opportunities\nIf you're a service provider, you can offer this as a premium service to your clients, allowing them to differentiate their offerings.\n\n### Flexibility and future-proofing\nEasily adapt to new features or security requirements. Your custom tool can evolve with your needs without waiting for third-party updates.\n\n## Real-world applications\n\nCustom MikroTik templates elevate the WiFi experience across various sectors:\n\n**Hospitality (Hotels, Cafes)**: Branded login pages, loyalty program sign-ups, special offers promoted directly on the portal.\n\n**Retail**: Data capture for marketing, tracking customer visits, promoting in-store events.\n\n**Education**: Secure login with terms of service, acceptable use policies, and informational messages.\n\n**Public WiFi**: Compliance with local regulations, clear usage policies, and targeted advertisements.\n\n**Managed Service Providers (MSPs)**: Offer a unique value proposition to clients by building and managing highly customized captive portals for their diverse needs.\n\n## The Kliv advantage for building this tool\n\nDeveloping a complex web application to generate custom templates used to be a daunting task. Kliv simplifies this:\n\n- **Declarative design**: Describe the features you need in plain language – Kliv helps build the UI and backend logic.\n- **Rapid prototyping**: See your template generator application come to life quickly.\n- **Component library**: Leverage pre-built components for common elements like social login buttons or input fields.\n- **Integration capabilities**: Connect to external APIs for marketing platforms or CRM systems if you wish.\n\nBy leveraging Kliv, you can create a powerful, self-sustaining template generation application that scales with your ambition, providing a competitive edge in the captive portal market."
+    },
+    {
+      "title": "MikroTik Hotspot Template Creator ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Generate a fully themed login page with company logo and background image.",
+          "prompt": "Create a web application that allows users to upload a logo and a background image, select a color scheme (primary, secondary, accent), and generates a MikroTik Hotspot login page HTML/CSS/JS file for download.",
+          "title": "Basic Branded Template Generator"
+        },
+        {
+          "description": "Include options for Facebook, Google, and email-based registration.",
+          "prompt": "Build a portal template generator where users can enable/disable social login options (Facebook, Google) and an email registration form, with basic styling controls and a download function.",
+          "title": "Social Login Integration Tool"
+        },
+        {
+          "description": "Design custom data capture forms for marketing leads.",
+          "prompt": "Develop an application that creates MikroTik Hotspot templates with customizable data capture forms (e.g., name, email, phone, checkbox for marketing opt-in) and allows users to define form fields.",
+          "title": "Marketing Data Capture Portal"
+        },
+        {
+          "description": "Support multiple languages for the login page interface.",
+          "prompt": "I need a tool to generate MikroTik Hotspot login pages with multi-language support (English, Spanish, French). Users should be able to input text for each language for all page elements.",
+          "title": "Multi-Language Template Creator"
+        },
+        {
+          "description": "Generate templates for Voucher, Username/Password, and Free Access methods.",
+          "prompt": "Create an application that allows selection of login methods (Voucher, Username/Password, Free Access) and generates the appropriate MikroTik Hotspot login page with configurable fields for each method.",
+          "title": "Login Method Selector Template"
+        },
+        {
+          "description": "Visualize template changes in real-time before download.",
+          "prompt": "Build a MikroTik Hotspot template generator that includes a real-time preview of the generated page as users make changes to colors, text, and image uploads.",
+          "title": "Live Preview Template Editor"
+        }
+      ]
+    },
+    {
+      "title": "Improve your Template Creator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a user authentication and management system so different users can create and save their own templates.",
+          "title": "User Account Management"
+        },
+        {
+          "prompt": "Integrate an API to directly push generated templates to a MikroTik RouterOS device (requires RouterOS API knowledge).",
+          "title": "Direct MikroTik Integration"
+        },
+        {
+          "prompt": "Implement a drag-and-drop visual editor for page layout customization instead of just form fields.",
+          "title": "Drag-and-Drop Editor"
+        },
+        {
+          "prompt": "Add pre-designed themes or templates as starting points for users.",
+          "title": "Themed Starting Points"
+        },
+        {
+          "prompt": "Include an analytics dashboard to track template downloads and usage (if integrated with a deployment system).",
+          "title": "Usage Analytics Dashboard"
+        },
+        {
+          "prompt": "Add a feature to export collected user data from the forms to a CSV file or integrate with a CRM system.",
+          "title": "Data Export and CRM Integration"
+        },
+        {
+          "prompt": "Allow users to include custom JavaScript for tracking or third-party integrations.",
+          "title": "Custom Script Inclusion"
+        },
+        {
+          "prompt": "Build a pricing and subscription model if you plan to offer this as a service.",
+          "title": "Subscription and Billing System"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Allow users to upload logos, background images, and define color palettes.",
+          "icon": "🎨",
+          "title": "Visual Customization Tools"
+        },
+        {
+          "description": "Enable social logins (Facebook, Google), email registration, or voucher-based access.",
+          "icon": "🔑",
+          "title": "Flexible Login Methods"
+        },
+        {
+          "description": "Design custom input forms to capture user data like email, name, or survey responses.",
+          "icon": "📝",
+          "title": "Data Capture Form Builder"
+        },
+        {
+          "description": "Automatically bundle and provide the necessary HTML, CSS, and JavaScript files for MikroTik.",
+          "icon": "⬇️",
+          "title": "Template File Generation"
+        },
+        {
+          "description": "Provide a real-time visual representation of the generated login page.",
+          "icon": "🖥️",
+          "title": "Live Preview Functionality"
+        },
+        {
+          "description": "Ensure the generated templates are responsive and work well on all devices.",
+          "icon": "📱",
+          "title": "Mobile-Responsive Output"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Kliv's platform accelerates development significantly. A basic MikroTik Hotspot template generator application can be prototyped and functional within days, with more advanced features added incrementally.",
+          "question": "How quickly can I build a MikroTik Hotspot Template Creator with Kliv?"
+        },
+        {
+          "answer": "Kliv uses natural language prompts to guide the AI in building your application. While understanding the core concepts of web design and MikroTik hotspots is beneficial, you don't need to write code.",
+          "question": "Do I need coding experience or MikroTik expertise to build this application?"
+        },
+        {
+          "answer": "Yes, you can design your application to integrate with various external services, such as marketing automation platforms (for lead capture), CRM systems, or even directly with MikroTik's API for advanced deployment features.",
+          "question": "Can the generated templates or collected data integrate with other systems?"
+        },
+        {
+          "answer": "Unlike SaaS solutions with recurring fees, building your own application with Kliv is typically a one-time development cost, giving you full ownership and control, which often results in long-term savings.",
+          "question": "How does the cost compare to subscribing to a third-party template service?"
+        },
+        {
+          "answer": "Absolutely. Since you own the application built on Kliv, you have complete flexibility to modify, update, and add new features as your requirements or MikroTik RouterOS versions evolve.",
+          "question": "Can I update or add new features to my template creator after it's built?"
+        },
+        {
+          "answer": "Kliv provides tools to generate robust, secure code. You can implement best practices for data handling, secure file generation, and user authentication within your custom application.",
+          "question": "How secure is the application and the generated templates?"
+        },
+        {
+          "answer": "Yes, Kliv provides options to deploy your application to various hosting environments, allowing you to choose the infrastructure that best suits your needs for scalability and control.",
+          "question": "Where will my custom MikroTik Hotspot Template Creator be hosted?"
+        }
+      ]
+    },
+    {
+      "title": "Unlock the true potential of your captive portals.",
+      "type": "cta",
+      "content": "Stop relying on generic solutions. Build a custom MikroTik Hotspot Template Creator that perfectly fits your brand and business objectives."
+    }
+  ],
+  "title": "MikroTik Hotspot Template Creator"
+}

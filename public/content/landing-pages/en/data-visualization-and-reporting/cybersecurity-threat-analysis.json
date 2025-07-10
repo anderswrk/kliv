@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a cybersecurity threat analysis dashboard that aggregates data from multiple security logs, visualizes attack vectors in real-time, and generates compliance reports.",
+  "description": "Build custom cybersecurity threat analysis and reporting tools with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start Analyzing Threats",
+    "subtitle": "Gain real-time insights into your security posture and proactively defend against cyber threats with custom-built analysis tools.",
+    "title": "Build your own cybersecurity threat analysis tools"
+  },
+  "metaDescription": "Create powerful cybersecurity threat analysis and reporting dashboards with Kliv. Aggregate data, visualize threats, and generate custom reports to enhance your security operations.",
+  "sections": [
+    {
+      "title": "Why build your own threat analysis and reporting tool?",
+      "type": "text",
+      "content": "In today's dynamic threat landscape, generic security solutions often fall short. They provide fragmented views, lack customization for your specific infrastructure, and bury critical insights under a mountain of irrelevant data. Trying to piece together a coherent security picture from disparate tools is a drain on resources and leaves your organization vulnerable.\n\nBuilding a custom cybersecurity threat analysis and reporting tool gives you the precision, control, and clarity you need. Instead of adapting to a vendor's limitations, you create a system that perfectly aligns with your unique threat model, regulatory requirements, and operational workflows. With AI-assisted development, bringing this tailored solution to life is faster and more accessible than ever before."
+    },
+    {
+      "title": "The strategic advantage of tailored cyber analytics",
+      "type": "markdown",
+      "content": "## The challenges with off-the-shelf security analytics\n\nMany organizations rely on Security Information and Event Management (SIEM) systems or security dashboards that come with pre-defined templates. While useful, they often present significant drawbacks:\n\n- **Information Overload**: Generic dashboards can overwhelm security teams with too much data, making it hard to identify actual threats.\n- **Lack of Context**: They often fail to contextualize threats within your specific network architecture, business processes, or asset criticality.\n- **Vendor Lock-in**: Customization requires specialized knowledge of the vendor's platform, leading to dependence and high consulting fees.\n- **Limited Reporting**: Pre-built reports may not meet specific regulatory compliance needs or internal audit requirements.\n- **Integration Headaches**: Connecting diverse security tools (firewalls, EDR, cloud logs) into a single, cohesive view is often complex and resource-intensive.\n\n## Why a custom approach transforms security operations\n\nLeveraging AI-powered platforms like Kliv to build your own threat analysis solution offers unparalleled advantages:\n\n### Holistic and Contextual View\nIntegrate data from all your security sources (network logs, endpoint detection, cloud security, identity management) into a single, unified dashboard optimized for *your* environment. Visualize attack chains specific to *your* critical assets, not just generic patterns.\n\n### Proactive Threat Hunting\nMove beyond reactive alerts. Design your tool to identify subtle anomalies, weak signals, and interconnected events that generic systems might miss, enabling proactive threat hunting based on your unique risk profile.\n\n### Tailored Reporting and Compliance\nGenerate bespoke reports that meet precise regulatory requirements (e.g., GDPR, HIPAA, SOC 2), internal audit needs, or executive summaries, all formatted exactly how you need them. No more manual data aggregation for compliance.\n\n### Reduced Alert Fatigue\nImplement custom correlation rules and intelligent filtering to prioritize true threats and reduce the flood of false positives, allowing your security analysts to focus on what truly matters.\n\n### Cost Efficiency and Ownership\nAvoid recurring, escalating subscription fees typical of traditional SIEMs. A custom solution with Kliv is a one-time investment that you own, giving you complete control over features, scaling, and long-term costs.\n\n## Real-world impact\n\nCustom threat analysis tools are revolutionizing how organizations manage cybersecurity:\n\n**Financial Services**: A custom dashboard aggregating transaction anomalies, access logs, and geo-IP data to detect and flag potential fraud attempts in real-time, tailored to specific financial products.\n\n**Healthcare Providers**: A system that correlates patient record access logs with anomalous network activity, flagging potential HIPAA violations or insider threats, and generating compliance reports for auditors.\n\n**Manufacturing**: An OT/ICS security monitoring solution that visualizes alerts from industrial control systems, SCADA networks, and IT infrastructure on a single interface, providing a consolidated view of operational cybersecurity risks.\n\n**SaaS Companies**: A tool that analyzes application logs, user behavior analytics, and WAF alerts to detect sophisticated web application attacks (e.g., account takeovers, API abuse) and provides actionable intelligence for incident response teams.\n\n## The AI acceleration\n\nBuilding such sophisticated tools traditionally required a deep bench of security architects and developers. Kliv's AI platform democratizes this capability:\n\n- **Conversational Development**: Describe your desired security insights and visualizations in plain language.\n- **Automated Data Integration**: AI assists in mapping and integrating diverse security data sources.\n- **Intelligent Dashboards**: Get suggestions for effective visualizations and reporting structures.\n- **Rapid Iteration**: Quickly prototype and refine your analysis capabilities as your threat landscape evolves.\n\nDon't let off-the-shelf limitations compromise your security. Build a threat analysis solution that works exactly for you."
+    },
+    {
+      "title": "Cybersecurity analysis ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Visualize login attempts, geographic origins, and successful authentications.",
+          "prompt": "Create a dashboard that shows real-time user authentication patterns, highlighting suspicious login attempts across different geographies and unusual times.",
+          "title": "User behavior anomaly detection"
+        },
+        {
+          "description": "Track open ports, unusual traffic, and network vulnerabilities.",
+          "prompt": "Build a network security visualization tool that maps active network connections, identifies open vulnerabilities, and alerts on unusual traffic patterns indicative of intrusions.",
+          "title": "Network flow and vulnerability mapping"
+        },
+        {
+          "description": "Summarize malware findings, attack types, and affected systems.",
+          "prompt": "Develop a threat intelligence dashboard that aggregates data on detected malware, categorizes attack types, and shows affected endpoints with remediation status.",
+          "title": "Endpoint protection overview"
+        },
+        {
+          "description": "Monitor cloud resource access, configuration changes, and compliance deviations.",
+          "prompt": "Design a cloud security posture management tool that monitors configuration drift, unauthorized access to cloud resources, and compliance with security baselines in AWS/Azure/GCP.",
+          "title": "Cloud security compliance dashboard"
+        },
+        {
+          "description": "Visualize email attack types, impersonation attempts, and URL clicks.",
+          "prompt": "Create an email security analytics tool that displays trends in phishing attempts, identifies commonly impersonated senders, and tracks user clicks on malicious links.",
+          "title": "Phishing campaign analysis"
+        },
+        {
+          "description": "Track vulnerabilities by asset, severity, and remediation progress.",
+          "prompt": "Build a vulnerability management portal that centralizes scan results, prioritizes vulnerabilities based on asset criticality, and tracks remediation efforts by team.",
+          "title": "Vulnerability lifecycle tracker"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your cyber analysis tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate a real-time alerting system that sends immediate notifications via Slack or email for critical security events.",
+          "title": "Add real-time alerts"
+        },
+        {
+          "prompt": "Implement machine learning models to detect predictive anomalies and future attack trends based on historical data.",
+          "title": "Incorporate predictive analytics"
+        },
+        {
+          "prompt": "Add a feature for detailed incident response workflows, allowing security teams to document actions and track investigation progress.",
+          "title": "Build incident response workflows"
+        },
+        {
+          "prompt": "Connect to external threat intelligence feeds (e.g., MITRE ATT&CK, VirusTotal) to enrich internal security data with global threat context.",
+          "title": "Integrate external threat intel"
+        },
+        {
+          "prompt": "Develop a reporting module that generates executive summaries, compliance reports (e.g., GDPR, HIPAA), and audit logs on a scheduled basis.",
+          "title": "Create automated compliance reports"
+        },
+        {
+          "prompt": "Allow users to customize dashboards and create their own query-based visualizations of security data without coding.",
+          "title": "Enable custom dashboards"
+        },
+        {
+          "prompt": "Implement role-based access control (RBAC) to ensure different users (e.g., analysts, managers, auditors) have appropriate data visibility.",
+          "title": "Add granular access controls"
+        },
+        {
+          "prompt": "Integrate into automated remediation playbooks for common threats, such as isolating infected endpoints or blocking malicious IPs.",
+          "title": "Develop automated remediation"
+        }
+      ]
+    },
+    {
+      "title": "Key cybersecurity analysis features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Collect and normalize security data from firewalls, endpoints, cloud logs, and applications.",
+          "icon": "⬇️",
+          "title": "Data Aggregation"
+        },
+        {
+          "description": "Create customizable dashboards and visualizations for threat landscapes, trends, and risk posture.",
+          "icon": "📊",
+          "title": "Interactive Dashboards"
+        },
+        {
+          "description": "Correlate events across different sources to detect complex attack patterns and anomalies.",
+          "icon": "🤝",
+          "title": "Event Correlation"
+        },
+        {
+          "description": "Generate on-demand or scheduled reports for compliance, audits, and executive briefings.",
+          "icon": "📄",
+          "title": "Custom Reporting"
+        },
+        {
+          "description": "Implement alerts and notifications for critical security incidents, delivered through various channels.",
+          "icon": "🚨",
+          "title": "Configurable Alerts"
+        },
+        {
+          "description": "Search and filter through vast amounts of security logs with intuitive interfaces and powerful queries.",
+          "icon": "🔍",
+          "title": "Log Search & Analysis"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional cybersecurity threat analysis dashboard can take as little as a few hours for basic needs, or a few days for complex enterprise-grade systems with multiple data integrations and custom reporting features.",
+          "question": "How quickly can I build a custom threat analysis tool?"
+        },
+        {
+          "answer": "No, you don't need to be a cybersecurity expert or a seasoned developer. Kliv's AI platform helps translate your operational needs into a working application. You describe your security data sources and what you want to visualize or report on.",
+          "question": "Do I need specialized cybersecurity or coding knowledge?"
+        },
+        {
+          "answer": "Yes, custom tools built on Kliv can integrate with virtually any security product or data source that provides an API or log export. This includes SIEMs, firewalls, EDR solutions, cloud platforms (AWS, Azure, GCP), identity providers, and more.",
+          "question": "Can this tool integrate with my existing security infrastructure?"
+        },
+        {
+          "answer": "You retain full ownership of the application, its codebase, and all the security data it processes. You decide where it's deployed and how your data is managed, ensuring maximum privacy and control.",
+          "question": "Who owns the data and the application I build?"
+        },
+        {
+          "answer": "Building a custom solution often results in significant cost savings over time. While SaaS SIEMs and analytics platforms have recurring, often escalating, subscription fees based on data volume, a Kliv-built tool is a one-time (or project-based) investment, leading to a much lower total cost of ownership.",
+          "question": "How does the cost compare to commercial SIEM or security analytics platforms?"
+        },
+        {
+          "answer": "Absolutely. Your custom tool is fully adaptable. As threats evolve or your infrastructure changes, you can easily modify data sources, dashboards, alerts, and reports to keep your security posture relevant and effective.",
+          "question": "Is the tool flexible enough to adapt to new threats and evolving systems?"
+        },
+        {
+          "answer": "You can deploy your custom tool in your own private cloud (e.g., AWS, Azure, Google Cloud) or on-premise, giving you complete control over security infrastructure, data residency, and compliance requirements.",
+          "question": "Where can the custom security analysis tool be hosted?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to fortify your defenses with custom intelligence?",
+      "type": "cta",
+      "content": "Stop sifting through fragmented data. Empower your security team with a bespoke threat analysis and reporting solution built for your unique challenges."
+    }
+  ],
+  "title": "Cybersecurity Threat Analysis"
+}

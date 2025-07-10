@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create an AI-powered currency identification app for visually impaired users. It should be able to recognize different denominations and currencies accurately using a smartphone camera and provide clear audio feedback.",
+  "description": "Empower visually impaired individuals with custom AI-powered currency identification tools.",
+  "hero": {
+    "cta": "Start Identifying",
+    "subtitle": "Create custom AI solutions for currency identification using Kliv's platform, providing independence and accessibility for visually impaired users.",
+    "title": "Build Your Own AI Currency Identifier"
+  },
+  "metaDescription": "Develop powerful AI-driven currency identification applications with Kliv for enhanced accessibility. Enable accurate and instant recognition of banknotes and coins for visually impaired users.",
+  "sections": [
+    {
+      "title": "Why Build a Custom AI Currency Identifier?",
+      "type": "text",
+      "content": "Off-the-shelf currency identification apps can be expensive, limited in currency support, or lack specific features crucial for a truly empowering user experience. Building your own AI-powered tool allows you to tailor it perfectly to the unique needs of your community or market.\n\nWith Kliv's accessible development platform, you can bring a truly impactful assistive technology solution to life without extensive coding expertise. Own your solution, ensure data privacy, and deliver precisely what's needed."
+    },
+    {
+      "title": "Empowering Independence: The Case for Custom Currency Identification Tools",
+      "type": "markdown",
+      "content": "For millions of people with visual impairments, accurately identifying banknotes and coins is a daily challenge that impacts their financial independence and confidence. Generic solutions often fall short, leading to frustration and continued reliance on others.\n\n## The Limitations of Ready-Made Solutions\n\nMany existing currency identification apps or devices come with significant drawbacks:\n\n- **Limited currency support:** They often only support a few major currencies, leaving users in other regions or travelers without a solution.\n- **High cost:** Dedicated hardware or premium app subscriptions can be prohibitively expensive.\n- **Lack of customization:** Inability to adjust voice feedback, interface, or specific recognition nuances.\n- **Data privacy concerns:** Uncertainty about where sensitive transaction data might be processed or stored.\n- **Inconsistent performance:** Reliance on internet connectivity or specific lighting conditions can make them unreliable.\n\n## The Power of a Tailored AI Solution\n\nBuilding a custom AI currency identification app with Kliv addresses these pain points by offering:\n\n### Unparalleled Accuracy and Reliability\nLeverage cutting-edge AI and machine learning to achieve high accuracy in diverse lighting conditions and angles. Train your model specifically on the currencies you need to support.\n\n### Broad Currency Support\nUnlike commercial apps, you can easily add support for virtually any currency, including obscure denominations or regional banknotes, by providing relevant training data.\n\n### Designed for True Accessibility\nCustomize every aspect of the user experience, from clear, concise audio feedback in multiple languages to tactile feedback or integration with existing assistive technologies.\n\n### Cost-Effectiveness and Ownership\nAvoid recurring subscription fees. A custom-built solution is a one-time investment that serves its users indefinitely, with full ownership and control over the software.\n\n### Enhanced Privacy and Security\nChoose how and where data is processed and stored, ensuring sensitive financial information remains private and secure.\n\n## Real-World Impact and Applications\n\nCustom AI currency identifiers can transform daily life:\n\n**Personal Use:** Individuals can confidently handle cash transactions, verify change, and manage their finances independently at stores, restaurants, or when traveling.\n\n**Financial Inclusion:** Banks and financial institutions can offer these tools to visually impaired clients, promoting greater financial independence and trust.\n\n**Retail & Hospitality:** Cashiers can use these tools to quickly verify currency for visually impaired customers, improving service quality and inclusivity.\n\n**Educational Settings:** Help train visually impaired students on currency recognition as part of life skills education.\n\n## The AI Advantage for Accessibility\n\nKliv's AI development platform simplifies the complex process of building vision-based AI applications:\n\n- **Visual-based training:** Easily upload images of banknotes and coins to train your AI model.\n- **Real-time processing:** Deploy models optimized for quick, on-device inference for instant feedback.\n- **Iterative development:** Quickly adjust and retrain your model as new banknotes are introduced or performance needs improvement.\n- **Deployment flexibility:** Create applications for iOS, Android, or even dedicated devices.\n\nEmpower your community with a tool that truly makes a difference. Start building your custom AI currency identification solution today."
+    },
+    {
+      "title": "Currency Identification Ideas to Build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "An app focusing on common US dollar denominations.",
+          "prompt": "Create an AI app that identifies US dollar bills ($1, $5, $10, $20, $50, $100) using a phone camera, providing clear audio output of the denomination.",
+          "title": "Basic US Dollar Identifier"
+        },
+        {
+          "description": "An app for recognizing Euro banknotes and coins.",
+          "prompt": "Build an AI tool that can distinguish between all Euro banknotes (5€ to 500€) and common Euro coins, giving audible confirmation.",
+          "title": "Euro Banknote & Coin Recognition"
+        },
+        {
+          "description": "An app supporting multiple major currencies for travelers.",
+          "prompt": "Develop an AI-powered travel app that identifies USD, EUR, GBP, JPY, and AUD banknotes, with language-specific audio feedback.",
+          "title": "Multi-Currency Travel Assistant"
+        },
+        {
+          "description": "An app for regional or less common currencies.",
+          "prompt": "I need an AI app to identify specific denominations of [Country X] currency, including both old and new series of banknotes, with high accuracy.",
+          "title": "Niche Currency Detector"
+        },
+        {
+          "description": "A tool that also detects counterfeit bills.",
+          "prompt": "Design an AI system that not only identifies currency denominations but also checks for common security features to flag potential counterfeit bills.",
+          "title": "Counterfeit Detection Feature"
+        },
+        {
+          "description": "An app assisting with coin counting.",
+          "prompt": "Create an AI application that can count and sum the value of a pile of mixed coins of a single currency, providing a total audio readout.",
+          "title": "Coin Summation Tool"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your AI Currency Identifier",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate text-to-speech to provide audio descriptions in multiple languages (e.g., Spanish, French, German).",
+          "title": "Add Multi-language Audio Output"
+        },
+        {
+          "prompt": "Develop a feature that allows users to provide feedback on recognition accuracy, sending anonymized data back for model improvement.",
+          "title": "Implement User Feedback Loop"
+        },
+        {
+          "prompt": "Add haptic feedback (vibration) patterns corresponding to different denominations.",
+          "title": "Incorporate Haptic Feedback"
+        },
+        {
+          "prompt": "Create an offline mode so the app can function without an internet connection once the model is downloaded.",
+          "title": "Enable Offline Functionality"
+        },
+        {
+          "prompt": "Add a historical log of identified currencies and their values for personal financial tracking.",
+          "title": "Include Transaction History Log"
+        },
+        {
+          "prompt": "Integrate with a smart wearable device (e.g., smart glasses) for hands-free identification.",
+          "title": "Connect to Wearable Devices"
+        },
+        {
+          "prompt": "Develop a 'learning mode' where users can train the app on new or unfamiliar notes by providing examples.",
+          "title": "Add User-Trainable Mode"
+        },
+        {
+          "prompt": "Create a comparison feature, allowing users to compare known good bills with potentially suspicious ones.",
+          "title": "Implement Comparison Feature"
+        },
+        {
+          "prompt": "Integrate with a cloud-based service for automatic model updates when new banknotes are released.",
+          "title": "Automate Model Updates"
+        }
+      ]
+    },
+    {
+      "title": "Key Features of Your Custom Identifier",
+      "type": "features",
+      "items": [
+        {
+          "description": "Real-time recognition of banknotes and coins using device cameras.",
+          "icon": "⚡",
+          "title": "Instant Recognition"
+        },
+        {
+          "description": "Adaptable AI models trained on specific currencies and denominations.",
+          "icon": "🧠",
+          "title": "Customizable AI Models"
+        },
+        {
+          "description": "Clear, spoken descriptions of identified currency and value.",
+          "icon": "🗣️",
+          "title": "Audio Feedback"
+        },
+        {
+          "description": "Functionality in diverse lighting conditions and angles.",
+          "icon": "💡",
+          "title": "Robust Performance"
+        },
+        {
+          "description": "Ability to operate without constant internet connectivity for privacy and reliability.",
+          "icon": "✈️",
+          "title": "Offline Capability"
+        },
+        {
+          "description": "Easy integration with accessibility features like screen readers and haptics.",
+          "icon": "🤝",
+          "title": "Seamless Accessibility"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom AI currency identifier with Kliv can take anywhere from a few hours for a basic version to a few days for a comprehensive, multi-currency application, depending on the complexity and volume of training data.",
+          "question": "How long does it take to build a functional currency identification app?"
+        },
+        {
+          "answer": "No, you don't need to be an expert in AI or coding. Kliv's platform is designed for intuitive development, allowing you to train models by providing examples of banknotes and coins, and then generating the application around it.",
+          "question": "Do I need AI or coding expertise to build this kind of app?"
+        },
+        {
+          "answer": "Yes, you have full control. You can choose to deploy your application offline for maximum privacy or integrate it with secure cloud services. All the data you use to train your model and the resulting application are yours.",
+          "question": "Can I ensure user privacy and data security with my custom app?"
+        },
+        {
+          "answer": "Your custom app can support virtually any currency, including region-specific banknotes or older series, as long as you provide sufficient training data (images) for the AI model to learn from.",
+          "question": "What currencies can my custom app support?"
+        },
+        {
+          "answer": "Once built, you own the application, eliminating recurring subscription fees common with commercial apps. The initial development cost on Kliv is a one-time investment that provides long-term value, often proving more economical.",
+          "question": "How does the cost compare to typical subscription-based currency ID apps?"
+        },
+        {
+          "answer": "Absolutely. You can continuously improve your app by adding new currency support, refining the AI model with more data, or integrating new features like multi-language audio, haptic feedback, or even counterfeit detection.",
+          "question": "Can I update or add new features to the app after it's built?"
+        },
+        {
+          "answer": "Kliv optimizes models for efficient on-device processing, meaning your app can function without an internet connection once the AI model is downloaded. This ensures immediate feedback and reliable performance anywhere.",
+          "question": "Does the app require an internet connection to work?"
+        },
+        {
+          "answer": "Since you build the app, you can ensure it integrates perfectly with existing accessibility features on target devices (e.g., iOS VoiceOver, Android TalkBack) and include custom accessibility options specific to your users' needs.",
+          "question": "How accessible will the custom-built app be for visually impaired users?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Empower with Your Own AI Solution?",
+      "type": "cta",
+      "content": "Stop waiting for generic solutions. Build a tailored AI currency identification tool that meets exact needs and makes a real difference. Start creating your accessible future today."
+    }
+  ],
+  "title": "AI-Powered Currency Identification"
+}

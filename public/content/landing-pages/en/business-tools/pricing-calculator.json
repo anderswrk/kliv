@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a custom pricing calculator that allows customers to get instant quotes for services by inputting variables like quantity, duration, and specific features, then generates a detailed breakdown and option to request a formal proposal.",
+  "description": "Build custom pricing calculator applications with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your calculator",
+    "subtitle": "Provide instant, accurate quotes for your products and services with custom-built pricing tools on Kliv's platform.",
+    "title": "Build your own dynamic pricing calculators"
+  },
+  "metaDescription": "Create powerful, custom pricing calculators with Kliv. Offer instant quotes, improve sales efficiency, and boost conversion rates with a tailor-made tool.",
+  "sections": [
+    {
+      "title": "Why build your own pricing calculator?",
+      "type": "text",
+      "content": "Providing accurate and timely quotes can be a bottleneck in any sales process. Off-the-shelf solutions are often too rigid, expensive, or lack the specific logic your business needs. Building a custom pricing calculator liberates you from these constraints, allowing you to create a tool that perfectly reflects your product or service offerings.\n\nWith AI-powered development platforms like Kliv, crafting a bespoke calculator is no longer a complex, resource-intensive task reserved for large enterprises. You gain full control over the inputs, calculations, and output, ensuring every quote is precise, consistent, and instantly available to your customers or sales team."
+    },
+    {
+      "title": "The strategic advantage of custom pricing tools",
+      "type": "markdown",
+      "content": "## The limitations of generic quoting methods\n\nMany businesses struggle with quoting, often relying on manual spreadsheets, basic web forms, or inflexible CRM modules. These approaches lead to:\n\n- **Inconsistent pricing**: Errors and variations in quotes due to manual calculations.\n- **Slow response times**: Delays in providing quotes, leading to lost opportunities.\n- **Lack of transparency**: Customers feeling unsure about how their price is determined.\n- **Complex updates**: Difficulty in adjusting pricing models as products evolve.\n- **High administrative burden**: Sales teams spending too much time on calculations instead of selling.\n\n## Why a tailor-made calculator drives growth\n\nCustom pricing calculators transform your sales process, offering significant competitive advantages:\n\n### Instant and accurate quotes\nEliminate delays and human error. Customers or sales reps can input variables and receive precise, instant quotes, accelerating the decision-making process.\n\n### Enhanced customer experience\nProvide transparency and empower customers to explore different configurations and see the direct impact on pricing, building trust and confidence.\n\n### Streamlined sales process\nFree up your sales team from tedious calculations, allowing them to focus on relationship building and closing deals. Automated quotes mean less back-and-forth.\n\n### Adaptable to complex logic\nYour business isn't simple, and your pricing shouldn't have to be. Custom tools handle tiered pricing, discounts, add-ons, regional variations, and complex conditional logic with ease.\n\n### Data-driven insights\nTrack which configurations customers are exploring most, identify popular features, and understand pricing sensitivities, informing your product development and sales strategies.\n\n## Real-world impact\n\nCustom pricing calculators are revolutionizing how businesses sell across various sectors:\n\n**Software-as-a-Service (SaaS)**: A calculator that allows prospective users to select features, user counts, and contract lengths to see an immediate monthly or annual subscription cost.\n\n**Manufacturing**: A tool for industrial equipment manufacturers where buyers input specifications like power output, material type, and customization options to get an estimated build cost and delivery timeline.\n\n**Service Bureaus**: A printing service that lets clients choose paper type, quantity, finishes, and delivery options, generating an instant quote and allowing them to upload their design files.\n\n**Home Improvement**: A flooring company offering an online calculator where customers enter room dimensions, material preferences (wood, tile, carpet), and installation services to get an estimated project cost.\n\n**Consulting Firms**: A calculator that estimates project fees based on the scope defined by the client (e.g., number of workshops, duration of engagement, senior consultant hours).\n\n## The Kliv advantage: AI-powered precision\n\nBuilding sophisticated tools normally demands deep technical skills. Kliv's AI platform simplifies this:\n\n- **Conversational development**: Describe your pricing rules in plain language, and Kliv helps translate them into a functional application.\n- **Component-based design**: Easily add inputs, outputs, conditional logic, and display options.\n- **Seamless integration**: Connect your calculator with CRM, ERP, or payment gateways for a full quote-to-cash process.\n- **Scalable and secure**: Deploy a robust tool that handles high traffic and protects sensitive pricing data."
+    },
+    {
+      "title": "Pricing calculator ideas to inspire you",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Calculate project costs based on tasks and hours",
+          "prompt": "Create a project cost calculator where users select project phases, estimated hours per phase, and hourly rates for different employee roles. It should display a total estimated cost and allow for a 10% contingency buffer.",
+          "title": "Consulting project cost estimator"
+        },
+        {
+          "description": "Estimate insurance premiums with customizable options",
+          "prompt": "Build an insurance premium calculator where users input vehicle type, age, driving history, desired coverage limits, and deductible options. It should provide an estimated annual premium based on predefined risk factors.",
+          "title": "Vehicle insurance quote generator"
+        },
+        {
+          "description": "Calculate custom software development fees",
+          "prompt": "Develop a software development cost calculator. Users can select module types (e.g., user authentication, payment processing, analytics dashboard), complexity levels (low, medium, high), and desired delivery timeline, which then provides an estimated cost range and development duration.",
+          "title": "Custom software development quote"
+        },
+        {
+          "description": "Determine printing costs for marketing materials",
+          "prompt": "Design a printing service price calculator. Allow users to choose product type (brochure, flyer, business card), paper stock, quantity, number of pages, color options (full color, black & white), and binding type, then generate the total print cost.",
+          "title": "Commercial printing quote tool"
+        },
+        {
+          "description": "Estimate construction or renovation expenses",
+          "prompt": "Build a home renovation cost estimator. Users should be able to specify room type (kitchen, bathroom), square footage, preferred material quality (standard, premium, luxury), and add-on services (e.g., demolition, design consultation), outputting a total estimated budget.",
+          "title": "Home renovation expense estimator"
+        },
+        {
+          "description": "Calculate shipping fees based on dimensions and destination",
+          "prompt": "Create a shipping cost calculator. Users input package dimensions (length, width, height), weight, origin postcode, destination postcode, and preferred shipping speed (standard, express), then receive an estimated shipping fee.",
+          "title": "Logistics and shipping rate calculator"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your pricing calculator",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate the calculator output directly with my CRM (e.g., Salesforce, HubSpot) to automatically create new leads or opportunities once a quote is generated.",
+          "title": "CRM integration"
+        },
+        {
+          "prompt": "Add a feature for users to save their quote, revisit it later, and receive an email with a summary of their configuration and pricing breakdown.",
+          "title": "Quote saving & emailing"
+        },
+        {
+          "prompt": "Implement a feature allowing the user to select multiple product configurations and compare their prices side-by-side on a summary page.",
+          "title": "Side-by-side comparison"
+        },
+        {
+          "prompt": "Add admin-only access to update pricing rules, add new products, or modify discount structures without needing to redeploy the application.",
+          "title": "Admin content management"
+        },
+        {
+          "prompt": "Include a feature to generate a professional PDF quote document directly from the calculator, branded with our company logo and contact information.",
+          "title": "PDF quote generation"
+        },
+        {
+          "prompt": "Integrate a payment gateway (e.g., Stripe, PayPal) so customers can directly checkout or pay a deposit based on the calculated price.",
+          "title": "Direct payment integration"
+        },
+        {
+          "prompt": "Build an analytics dashboard to track how many quotes are generated, which products/services are most frequently configured, and conversion rates from quotes to sales.",
+          "title": "Performance analytics"
+        },
+        {
+          "prompt": "Add conditional logic to show or hide certain input fields or features based on previous selections (e.g., if 'premium materials' are chosen, show 'premium finishes' options).",
+          "title": "Advanced conditional logic"
+        },
+        {
+          "prompt": "Enable multi-currency support and allow users to select their preferred currency for the quote, with real-time exchange rates if necessary.",
+          "title": "Multi-currency support"
+        }
+      ]
+    },
+    {
+      "title": "Key pricing calculator features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Define custom input fields (dropdowns, sliders, checkboxes) for all your pricing variables.",
+          "icon": "📝",
+          "title": "Customizable inputs"
+        },
+        {
+          "description": "Implement complex formulas, conditional logic, and tiered pricing structures.",
+          "icon": "🧮",
+          "title": "Sophisticated logic"
+        },
+        {
+          "description": "Present clear, immediate price totals and detailed breakdowns of all charges.",
+          "icon": "📈",
+          "title": "Instantaneous results"
+        },
+        {
+          "description": "Tailor the calculator's appearance to match your brand's look and feel.",
+          "icon": "✨",
+          "title": "Branding & styling"
+        },
+        {
+          "description": "Capture user input and generated quotes for sales follow-up and analysis.",
+          "icon": "💾",
+          "title": "Data capture"
+        },
+        {
+          "description": "Integrate with CRM, ERP, and payment systems for a seamless sales workflow.",
+          "icon": "🔗",
+          "title": "System integrations"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional pricing calculator with Kliv can take anywhere from a few hours to a couple of days, depending on the complexity of your pricing logic and the number of variables.",
+          "question": "How long does it take to develop a pricing calculator?"
+        },
+        {
+          "answer": "No coding is required. You describe your pricing rules and desired features in plain language, and Kliv's AI platform helps translate that into a working application. The focus is on your business logic, not code.",
+          "question": "Do I need technical skills or coding experience?"
+        },
+        {
+          "answer": "Yes, your custom calculator can be integrated with most popular CRMs (like Salesforce, HubSpot), ERP systems, email marketing platforms, and payment gateways through their APIs.",
+          "question": "Can the calculator integrate with my existing sales tools?"
+        },
+        {
+          "answer": "You retain full ownership of the application and its data. Kliv provides the platform to build it, but the intellectual property and all generated outputs are yours.",
+          "question": "Who owns the data and logic once the calculator is built?"
+        },
+        {
+          "answer": "Building with Kliv is typically a one-time development cost, which often proves more cost-effective in the long run than recurring subscription fees for SaaS calculators, especially if your needs are unique or complex.",
+          "question": "How does the cost compare to off-the-shelf calculator solutions?"
+        },
+        {
+          "answer": "Absolutely. You can easily modify inputs, update pricing rules, add new features, or change the design as your products, services, or market conditions evolve, giving you complete flexibility.",
+          "question": "Can I update or modify the calculator after it's launched?"
+        },
+        {
+          "answer": "Pricing calculators built with Kliv are designed for security. You control user access, data storage, and compliance measures, allowing you to meet your specific industry regulations and privacy requirements.",
+          "question": "Are these custom calculators secure?"
+        },
+        {
+          "answer": "Kliv's platform provides tools and support to help you throughout the development process. This includes AI guidance, testing functionalities, and resources to ensure your calculator works perfectly.",
+          "question": "What if I get stuck or need support during development?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to empower your sales with instant quotes?",
+      "type": "cta",
+      "content": "Stop the manual quoting grind. Build a custom pricing calculator that delivers accuracy, speed, and a superior customer experience, tailored specifically for your business."
+    }
+  ],
+  "title": "Pricing calculator applications"
+}

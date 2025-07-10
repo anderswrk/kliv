@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create a VPN usage tracker that monitors user connections, data transfer, and bandwidth usage, with analytics dashboards and alert notifications for unusual activity.",
+  "description": "Monitor and analyze VPN usage with custom-built tracking solutions powered by Kliv's AI platform.",
+  "hero": {
+    "cta": "Start tracking VPN usage",
+    "subtitle": "Gain deep insights into your network security and user activity by building a custom VPN usage tracking application with Kliv.",
+    "title": "Build your own VPN usage tracking tools"
+  },
+  "metaDescription": "Create powerful VPN usage tracking applications with Kliv. Monitor connections, data transfer, bandwidth, and user activity for enhanced security and compliance.",
+  "sections": [
+    {
+      "title": "The challenge of unmonitored VPN usage",
+      "type": "text",
+      "content": "In today's remote and hybrid work environments, Virtual Private Networks (VPNs) are crucial for secure access to corporate resources. However, without proper monitoring, VPN usage can create blind spots in your network security, lead to compliance issues, and make it difficult to identify suspicious activities or optimize network resources.\n\nOff-the-shelf VPN management tools often provide limited insights, lack customization options, and can be cumbersome to integrate into your existing infrastructure. Building a tailored solution allows you to capture exactly the data you need, in the format you prefer, ensuring better control and visibility."
+    },
+    {
+      "title": "Why a custom VPN usage tracker is essential",
+      "type": "markdown",
+      "content": "## The pitfalls of generic solutions\n\nMany organizations rely on basic VPN logs or overpriced, generic monitoring tools that fall short of providing comprehensive insights. These solutions often:\n\n- **Lack granular data**: Report only basic connection times, not detailed data transfer or application usage.\n- **Offer limited customization**: Can't be adapted to your specific compliance or auditing requirements.\n- **Create data silos**: Don't integrate well with your existing SIEM or analytics platforms.\n- **High recurring costs**: Subscription models can become prohibitively expensive, especially for large organizations.\n- **Security vulnerabilities**: Relying on third-party cloud services for sensitive network data introduces additional risks.\n\n## The power of tailored monitoring\n\nBuilding a custom VPN usage tracking application with Kliv changes the game. You gain the ability to:\n\n### Achieve precise visibility\nMonitor user-level connection details, data transfer volumes, connection durations, and even the resources accessed through the VPN. Identify peak times, bandwidth hogs, and potential policy violations with unparalleled accuracy.\n\n### Enhance security posture\nDetect unusual connection patterns, suspicious login attempts, or unauthorized data transfers in real time. Implement custom alerts and automated responses to mitigate threats immediately. Integrate with your threat intelligence feeds for proactive security.\n\n### Ensure compliance and auditing\nGenerate detailed, auditable reports for regulatory compliance (e.g., GDPR, HIPAA, ISO 27001). Track user activity trails to demonstrate adherence to internal policies and external regulations, simplifying audits.\n\n### Optimize network performance & cost\nUnderstand bandwidth consumption and user behavior to optimize VPN server capacity, identify bottlenecks, and allocate resources more efficiently. Reduce unnecessary infrastructure costs by right-sizing your VPN services.\n\n### Seamless integration\nDesign your tracker to integrate perfectly with your existing identity management systems (LDAP, Active Directory), SIEM tools, ticketing systems, and data visualization platforms. No more struggling with incompatible APIs or manual data exports.\n\n## Real-world applications of custom VPN tracking\n\nCustom VPN usage trackers developed with Kliv can support diverse use cases:\n\n**Enterprise Security**: Monitor for compromised accounts by detecting simultaneous logins from different locations, excessive data exfiltration, or unusual access patterns.\n\n**Remote Workforce Management**: Track remote employee connectivity, ensure adherence to 'work-from-home' policies, and provide proof of continuous security measures.\n\n**Developer Environments**: Securely track access to sensitive development servers and code repositories, ensuring only authorized personnel access critical systems.\n\n**Auditing & Compliance**: Automatically generate reports detailing who accessed what resources, when, and from where, crucial for financial, healthcare, or government regulations.\n\n**Bandwidth Optimization**: Identify users or applications consuming excessive bandwidth to optimize network capacity and prevent service degradation for other users.\n\n## The Kliv advantage\n\nBuilding sophisticated tracking systems is no longer exclusive to big tech. Kliv's AI-driven platform empowers you to:\n\n- **Leverage natural language**: Describe your monitoring needs, and Kliv's AI helps translate them into a functional application.\n- **Accelerated development**: Go from concept to deployment in days or weeks, bypassing traditional long development cycles.\n- **Full ownership**: Own your codebase, maintain complete control over your data, and avoid vendor lock-in.\n- **Scalability**: Build systems that scale with your growing user base and data volumes without prohibitive cost increases.\n- **Security by design**: Implement robust security features precisely tailored to your organization's standards.\n\n## Get started with enhanced VPN visibility\n\nStop relying on incomplete puzzle pieces. Build a comprehensive VPN usage tracking solution that gives you the full picture. With Kliv, you have the power to create a system that truly meets your security, compliance, and operational needs."
+    },
+    {
+      "title": "VPN usage tracking ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Track all successful and failed VPN login attempts for auditing.",
+          "prompt": "Create an application that logs all VPN connection attempts, including successful logins, failed attempts, user IDs, source IPs, and timestamps, and provides a searchable interface for historical data.",
+          "title": "Login attempt logger"
+        },
+        {
+          "description": "Monitor data uploaded and downloaded per VPN session.",
+          "prompt": "Build a system that monitors and records the total data transferred (in and out) for each active VPN session, aggregating this data per user and generating daily or weekly usage reports.",
+          "title": "Bandwidth usage monitor"
+        },
+        {
+          "description": "Alert on VPN users exceeding specific data caps.",
+          "prompt": "Develop an application that sets data transfer thresholds for individual VPN users or groups, and sends real-time alerts via email or Slack when these thresholds are exceeded within a defined period.",
+          "title": "Data cap notifier"
+        },
+        {
+          "description": "Visualize active VPN connections on a geographical map.",
+          "prompt": "Design a dashboard that displays all currently active VPN connections on a world map, showing the user's approximate location and connection duration, with drill-down capabilities for detailed info.",
+          "title": "Geographical connection visualizer"
+        },
+        {
+          "description": "Identify users with unusually long VPN session durations.",
+          "prompt": "Create a tool that tracks the duration of each VPN session per user, highlights sessions exceeding a specified maximum duration, and can automatically disconnect idle long-running connections.",
+          "title": "Long session detector"
+        },
+        {
+          "description": "Detect and alert on simultaneous VPN logins from different IPs.",
+          "prompt": "Build a security monitoring tool that identifies and alerts administrators when a single VPN user account is observed logging in simultaneously from two or more distinct IP addresses, indicating potential account compromise.",
+          "title": "Concurrent login threat detector"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your VPN tracking tool",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate the VPN usage data with our existing SIEM (Security Information and Event Management) system to correlate with other security logs.",
+          "title": "SIEM integration"
+        },
+        {
+          "prompt": "Add a feature to identify the specific internal resources (e.g., file servers, applications) that VPN users are accessing.",
+          "title": "Resource access tracking"
+        },
+        {
+          "prompt": "Implement machine learning to detect anomalous VPN activity patterns, like unusual connection times or data transfer volumes for a specific user.",
+          "title": "Anomaly detection with ML"
+        },
+        {
+          "prompt": "Create a self-service portal where users can view their own VPN connection history and data usage statistics.",
+          "title": "User self-service portal"
+        },
+        {
+          "prompt": "Add functionality to automatically block or quarantine VPN users detected with suspicious activity, requiring admin review.",
+          "title": "Automated threat response"
+        },
+        {
+          "prompt": "Generate a weekly or monthly summary report of all VPN usage, including top users, peak hours, and critical security events, sent to key stakeholders.",
+          "title": "Scheduled reporting"
+        },
+        {
+          "prompt": "Provide multi-factor authentication (MFA) enforcement for accessing the VPN usage tracking dashboard itself.",
+          "title": "MFA for dashboard"
+        },
+        {
+          "prompt": "Develop a module to manage user VPN profiles and access policies directly from the application.",
+          "title": "VPN policy management"
+        }
+      ]
+    },
+    {
+      "title": "Key features for your VPN usage tracker",
+      "type": "features",
+      "items": [
+        {
+          "description": "Log all VPN connection and disconnection events with detailed metadata.",
+          "icon": "📝",
+          "title": "Connection logging"
+        },
+        {
+          "description": "Monitor and aggregate inbound and outbound data transfer volumes per user and session.",
+          "icon": "📊",
+          "title": "Data traffic analysis"
+        },
+        {
+          "description": "Visualize key metrics like active users, bandwidth trends, and session durations.",
+          "icon": "📈",
+          "title": "Interactive dashboards"
+        },
+        {
+          "description": "Set up custom alerts for unusual activity, excessive usage, or security incidents.",
+          "icon": "🚨",
+          "title": "Real-time alerts"
+        },
+        {
+          "description": "Generate detailed, customizable reports for compliance, auditing, and operational insights.",
+          "icon": "📄",
+          "title": "Auditable reporting"
+        },
+        {
+          "description": "Securely integrate with various VPN servers, authentication systems, and other IT tools.",
+          "icon": "🔗",
+          "title": "Seamless integration"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic VPN usage tracker with Kliv can take as little as a few hours to a day. More complex systems with advanced analytics and integrations might take a few days to a week to refine and deploy.",
+          "question": "How long does it take to build a VPN usage tracking tool?"
+        },
+        {
+          "answer": "No, you do not need traditional coding experience. Kliv's platform allows you to describe your desired functionality in plain language, and the AI assists in generating and refining the application's code and structure.",
+          "question": "Do I need to be a developer or coder to build this type of tool?"
+        },
+        {
+          "answer": "Yes, your custom VPN usage tracker can integrate with most VPN servers (e.g., OpenVPN, WireGuard, IPsec), identity providers (e.g., Active Directory, Okta, Azure AD), and SIEM systems, provided they offer APIs or standard logging formats.",
+          "question": "Can my custom VPN tracker integrate with my existing VPN servers and IT infrastructure?"
+        },
+        {
+          "answer": "You own 100% of the application and its data. Kliv provides the development platform, but the intellectual property of your built solution belongs entirely to you. You decide where to deploy and store your data.",
+          "question": "Who owns the VPN usage tracking tool and the data it collects?"
+        },
+        {
+          "answer": "Building a custom tool often results in significant long-term savings compared to recurring SaaS subscriptions. While there's an upfront development effort, you avoid continuous licensing costs and can tailor the solution precisely to your needs, preventing unnecessary feature bloat.",
+          "question": "How does the cost compare to off-the-shelf VPN monitoring solutions?"
+        },
+        {
+          "answer": "Absolutely. Custom tools are inherently flexible. You can easily modify existing features, add new data sources, enhance reporting, or integrate with new systems as your security and compliance needs evolve. This adaptability is a key advantage over rigid SaaS products.",
+          "question": "Can I modify or expand the tracking capabilities after the initial build?"
+        },
+        {
+          "answer": "Yes, potentially making it more secure. Because you control the development and deployment environment, you can implement security best practices tailored to your organization, reducing reliance on third-party security postures and potential supply chain vulnerabilities inherent in external SaaS solutions.",
+          "question": "Is a custom-built VPN usage tracker more secure than using a third-party service?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to gain full control over your VPN security?",
+      "type": "cta",
+      "content": "Stop guessing about VPN usage. Build a precise, powerful, and private tracking solution that fits your exact needs with Kliv. Secure your network, ensure compliance, and optimize performance."
+    }
+  ],
+  "title": "VPN Usage Tracking"
+}

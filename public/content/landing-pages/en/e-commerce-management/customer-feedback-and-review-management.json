@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a customer feedback and review management system that collects reviews from multiple platforms, uses AI to analyze sentiment, and helps me respond efficiently.",
+  "description": "Build custom customer feedback and review management systems with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start managing reviews",
+    "subtitle": "Gain competitive insights and boost your brand reputation with custom-built tools.",
+    "title": "Build your own customer feedback and review management tools"
+  },
+  "metaDescription": "Create powerful customer feedback and review management tools with Kliv. Collect, analyze, and respond to customer insights effectively.",
+  "sections": [
+    {
+      "title": "Why invest in a custom review management system?",
+      "type": "text",
+      "content": "In today's digital marketplace, customer reviews are vital for e-commerce success. They influence purchasing decisions, build trust, and provide invaluable insights for product and service improvement. Relying on generic, off-the-shelf solutions often means compromising on features, dealing with data silos, and paying for unused functionalities.\n\nKliv offers a powerful alternative: building a bespoke system tailored to your exact needs. This approach allows you to unify feedback channels, apply advanced analytics, and automate responses, all while maintaining full control over your data and intellectual property."
+    },
+    {
+      "title": "The strategic advantage of tailored feedback systems",
+      "type": "markdown",
+      "content": "## Challenges with Universal Solutions\nOff-the-shelf customer review platforms often come with limitations that can hinder effective feedback management:\n\n- **Inflexible Integrations**: Difficulty connecting with specific e-commerce platforms, CRM systems, or internal tools.\n- **Generic Analytics**: Lack of deep, industry-specific sentiment analysis or trend identification.\n- **Data Privacy Concerns**: Storing sensitive customer data on third-party servers, raising compliance issues.\n- **Feature Overload/Underload**: Paying for features you don't need, or missing critical ones for your niche.\n- **Vendor Lock-in**: Limited control over future development and reliance on a vendor's roadmap.\n\n## Benefits of a Custom-Built Solution\nCreating your own customer feedback and review management system with Kliv offers significant strategic advantages:\n\n### Unified Data View\nConsolidate reviews from various sources (e.g., website, Google, Amazon, social media) into a single dashboard. Get a holistic view of customer sentiment without juggling multiple logins and spreadsheets.\n\n### Advanced Analytical Capabilities\nGo beyond basic sentiment. Implement custom AI models to identify specific product flaws, common customer service issues, trending keywords, and geographic sentiment variations crucial for your business.\n\n### Enhanced Customer Engagement\nAutomate personalized responses based on review content and sentiment. Prioritize negative reviews for immediate attention and identify positive reviews for public sharing or marketing campaigns.\n\n### Competitive Intelligence\nMonitor competitor reviews more effectively. Analyze their strengths and weaknesses revealed in customer feedback to inform your own product development and marketing strategies.\n\n### Cost Efficiency and Ownership\nAvoid recurring subscription fees that escalate with usage or features. A one-time investment in a custom build means you own the software, control its evolution, and can scale it without additional vendor costs.\n\n## Real-world Impact\nCustom feedback systems are transforming how businesses listen to their customers:\n\n**Fashion Retail**: Automatically tagging product reviews by garment fit, material quality, and style to inform design improvements and personalized marketing.\n\n**SaaS Companies**: Analyzing feature requests and bug reports from various channels, routing them to the relevant development teams, and updating users on resolution status.\n\n**Restaurant Chains**: Aggregating location-specific reviews, identifying common complaints about service or food quality, and empowering local managers with actionable insights.\n\n**Hardware Manufacturers**: Parsing technical support requests and product reviews for specific error codes or failure modes to accelerate product iterations and warranty claim processing.\n\n## Build with AI, Not Code\nKliv's platform simplifies the development process:\n\n- **Prompt-Based Development**: Clearly describe your desired features in plain language, and our AI assists in generating functional code.\n- **Rapid Iteration**: Design, test, and deploy features quickly, adapting to market needs and customer feedback.\n- **Pre-built Components**: Leverage a library of modules for common tasks like data collection, text analysis, and notification triggers.\n- **Scalable Architecture**: Build systems that can handle increasing volumes of reviews and integrate new data sources as your business grows.\n\nInvest in a solution that gives you a genuine competitive edge by truly understanding and acting on customer feedback."
+    },
+    {
+      "title": "Customer feedback tool ideas to explore",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Consolidate and analyze reviews from across the web.",
+          "prompt": "Create a unified dashboard to collect customer reviews from Google My Business, Yelp, Amazon, and my e-commerce website. Display overall sentiment for each platform and aggregate positive keywords.",
+          "title": "Multi-platform review aggregator"
+        },
+        {
+          "description": "Automate responses and identify key issues from feedback.",
+          "prompt": "Build a system that identifies common complaints from support tickets and product reviews, categorizes them (e.g., 'shipping delay', 'broken product'), and suggests templated responses for customer service agents.",
+          "title": "AI-powered sentiment analyzer and responder"
+        },
+        {
+          "description": "Engage customers and gather targeted feedback.",
+          "prompt": "Develop a post-purchase feedback loop that emails customers a survey after delivery, collects star ratings and open-ended comments, and flags low ratings for immediate follow-up.",
+          "title": "Automated post-purchase feedback loop"
+        },
+        {
+          "description": "Track product performance through customer reviews.",
+          "prompt": "Design a tool that tracks reviews specific to individual product SKUs. It should identify common pros and cons for each product based on customer comments and display them on a product insights dashboard.",
+          "title": "Product-specific review analytics"
+        },
+        {
+          "description": "Monitor and analyze competitor brand perception.",
+          "prompt": "Build a system to monitor public reviews and mentions of my top three competitors across social media and review sites. Provide a comparison of sentiment trends and identify key differences in customer perception.",
+          "title": "Competitor review monitoring"
+        },
+        {
+          "description": "Identify and mobilize happy customers for marketing.",
+          "prompt": "Create a tool that identifies customers who leave 5-star reviews or highly positive comments. Automatically send them an invitation to join a brand ambassador program or share their review on social media.",
+          "title": "Review-based brand advocacy program"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your feedback system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature to automatically tag reviews with keywords extracted using natural language processing (NLP), like 'delivery', 'packaging', 'customer service', 'product quality'.",
+          "title": "Add automated keyword tagging"
+        },
+        {
+          "prompt": "Integrate a real-time alerting system that notifies department heads via Slack or email when sentiment for specific products drops below a threshold.",
+          "title": "Implement real-time sentiment alerts"
+        },
+        {
+          "prompt": "Build a dashboard feature displaying a net promoter score (NPS) change over time, correlated with marketing campaigns or product launches.",
+          "title": "Display NPS trends on a dashboard"
+        },
+        {
+          "prompt": "Develop a module for A/B testing different review request emails or survey landing page designs to optimize conversion rates.",
+          "title": "Enable A/B testing for feedback requests"
+        },
+        {
+          "prompt": "Create an internal knowledge base that automatically populates with FAQs derived from frequently asked questions in customer reviews.",
+          "title": "Generate FAQ from feedback"
+        },
+        {
+          "prompt": "Add a user management module that assigns review response tasks to specific team members based on review content or sentiment, with due dates.",
+          "title": "Implement task assignment for responses"
+        },
+        {
+          "prompt": "Integrate with a CRM system to link customer reviews directly to customer profiles for a 360-degree view of shopper interactions.",
+          "title": "CRM integration for customer profiles"
+        },
+        {
+          "prompt": "Allow users to manually mark reviews for internal follow-up, categorize them by issue type, and add notes for team collaboration.",
+          "title": "Add manual review flagging and notes"
+        },
+        {
+          "prompt": "Build an API endpoint for external systems to submit reviews directly to your custom platform, enabling even more diverse data collection.",
+          "title": "Create API for review submission"
+        }
+      ]
+    },
+    {
+      "title": "Core feedback management capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Collect and unify feedback from various online sources (e.g., e-commerce site, social media, review sites).",
+          "icon": "📥",
+          "title": "Multi-channel data ingestion"
+        },
+        {
+          "description": "Utilize AI to categorize reviews, identify key themes, and gauge sentiment (positive, negative, neutral).",
+          "icon": "🧠",
+          "title": "AI-powered sentiment analysis"
+        },
+        {
+          "description": "Create customizable dashboards to visualize review volume, sentiment trends, and popular keywords.",
+          "icon": "📈",
+          "title": "Insightful analytics & reporting"
+        },
+        {
+          "description": "Streamline communication by drafting and sending responses directly from your dashboard.",
+          "icon": "💬",
+          "title": "Direct response integration"
+        },
+        {
+          "description": "Set up alerts for new reviews, sudden drops in sentiment, or specific keywords that require immediate attention.",
+          "icon": "🚨",
+          "title": "Customizable alert system"
+        },
+        {
+          "description": "Generate automated reports on review performance, customer satisfaction, and product-specific feedback.",
+          "icon": "📊",
+          "title": "Automated reporting"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic customer feedback system with Kliv can take as little as a few hours, depending on complexity. More sophisticated tools with advanced AI and integrations might take a few days of iterative refinement.",
+          "question": "What's the typical timeline to build a customer feedback system?"
+        },
+        {
+          "answer": "No coding is required. Kliv's platform allows you to describe your desired features and functionalities in plain language. The AI translates your requirements into a functional application.",
+          "question": "Do I need to be a developer or have coding skills?"
+        },
+        {
+          "answer": "Yes, your custom system can integrate with almost any e-commerce platform, CRM, social media, or review site that offers an API. This ensures seamless data flow and centralized management.",
+          "question": "Can this system integrate with my existing e-commerce platforms and CRMs?"
+        },
+        {
+          "answer": "You retain full ownership of the custom application and all the data it processes. You decide where it's hosted and how your data is managed, ensuring maximum privacy and security.",
+          "question": "Who owns the data and the application once it's built?"
+        },
+        {
+          "answer": "Building a custom solution often proves more cost-effective in the long run. While SaaS tools have recurring subscriptions that scale with usage or features, your custom Kliv-built tool is a one-time investment that you own and control.",
+          "question": "How does the cost compare to off-the-shelf feedback software subscriptions?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits of building with Kliv is complete flexibility. You can continuously add new features, adjust sentiment analysis parameters, or integrate new feedback sources as your business evolves.",
+          "question": "Can I easily add new features or modify the system after it's launched?"
+        },
+        {
+          "answer": "By building your own system, you dictate the security protocols and where your sensitive customer data resides, bypassing potential vulnerabilities or data breaches associated with third-party service providers.",
+          "question": "How secure is a custom-built review management system?"
+        },
+        {
+          "answer": "Kliv provides guided support throughout the build process, including AI assistance for troubleshooting and optimization. Since you possess the core application, you have ultimate control over its maintenance and future development.",
+          "question": "What kind of support is available if I encounter issues?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to master your customer feedback?",
+      "type": "cta",
+      "content": "Stop reacting and start proacting. Build a review management system that truly serves your business needs."
+    }
+  ],
+  "title": "Customer feedback & review management systems"
+}

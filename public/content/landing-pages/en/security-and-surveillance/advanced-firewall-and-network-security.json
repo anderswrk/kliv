@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to build an advanced firewall system that uses AI to detect anomalies, block sophisticated cyber threats, and provide real-time alerts.",
+  "description": "Develop custom, intelligent firewall and network security applications with Kliv's AI platform.",
+  "hero": {
+    "cta": "Build Your Secure Network",
+    "subtitle": "Design and deploy intelligent firewalls and comprehensive network security solutions tailored to your unique infrastructure and threat landscape.",
+    "title": "Custom Advanced Firewall & Network Security"
+  },
+  "metaDescription": "Create powerful, AI-driven firewall and network security tools with Kliv. Protect your assets from evolving cyber threats with bespoke solutions.",
+  "sections": [
+    {
+      "title": "The Imperative for Tailored Network Defense",
+      "type": "text",
+      "content": "In today's interconnected world, generic security solutions often fall short. Cyber threats are constantly evolving, becoming more sophisticated and targeted. Businesses need network defenses that are not just strong but also intelligent, adaptive, and specifically designed for their unique operational environment.\n\nOff-the-shelf firewalls provide a baseline, but they can't address nuanced attack vectors or integrate seamlessly with specialized workflows. Building your custom advanced firewall and network security application allows for unparalleled control, deeper integration, and proactive defense capabilities that off-the-shelf products simply can't match."
+    },
+    {
+      "title": "Why Build Your Own Advanced Network Defense System?",
+      "type": "markdown",
+      "content": "## The Limitations of Ready-Made Security Solutions\n\nMany organizations rely on commercial firewalls and security suites, yet still face breaches. This is often due to:\n\n- **One-size-fits-all rules**: Generic rulesets miss highly specific or emergent threats relevant to your industry.\n- **Vendor lock-in**: Limited customization options and reliance on vendor update cycles.\n- **Integration challenges**: Difficulty in seamlessly integrating with proprietary internal systems or niche third-party tools.\n- **Cost inefficiencies**: Paying for unused features or scaling costs disproportionately with network growth.\n- **Reactive security**: Most commercial solutions are designed to react to known threats, leaving zero-day exploits as major vulnerabilities.\n\n## The Strategic Advantage of Custom-Built Security\n\nLeveraging AI-powered platforms like Kliv to build your own security solution offers significant strategic advantages:\n\n### Hyper-Tailored Threat Detection\nCustom systems can be trained on your specific network traffic patterns, application usage, and historical threat data, allowing for highly accurate anomaly detection and identification of threats that would bypass generic signature-based systems.\n\n### Proactive Defense and Incident Response\nImplement predictive analytics to anticipate attacks based on early indicators. Automate sophisticated incident response workflows like isolating compromised devices, blocking malicious IPs, or initiating forensic data collection in real-time.\n\n### Seamless Integration\nDesign your security solution to natively integrate with your SIEM, SOAR platforms, internal applications, cloud environments, and physical infrastructure without complex APIs or middleware.\n\n### Cost Optimization\nInvest in exactly the features you need, eliminating unnecessary recurring subscription fees for redundant capabilities. Scale your security infrastructure precisely as your business evolves.\n\n### Granular Control and Compliance\nMaintain complete oversight over data flows, access controls, and logging mechanisms. Ensure strict adherence to specific regulatory compliance requirements (e.g., HIPAA, GDPR, PCI DSS) with custom audit trails and reporting.\n\n### Future-Proof Adaptability\nAs new threats emerge or your network infrastructure changes, you can rapidly adapt and deploy new security modules or rulesets without waiting for vendor updates.\n\n## Real-World Impact\n\nCustom security solutions built with AI are reshaping how organizations protect their assets:\n\n**Financial Services**: A custom system monitors transactional data for behavioral anomalies indicative of fraud, blocking suspicious transactions in milliseconds.\n\n**Manufacturing**: An AI-driven firewall isolates operational technology (OT) network segments, detecting and preventing unauthorized access attempts or malware lateral movement, ensuring production continuity.\n\n**Healthcare**: A bespoke security layer encrypts patient data in transit and at rest, while intelligently filtering out phishing attempts targeting medical personnel.\n\n**E-commerce**: An adaptive defense mechanism analyzes website traffic for abnormal bot behavior, preventing DDoS attacks and protecting against credential stuffing attempts.\n\n## AI: The Game Changer in Security Development\n\nThe power of AI makes building advanced security solutions accessible:\n\n- **Intelligent Rule Generation**: AI can propose optimal firewall rules based on observed network behavior and known vulnerabilities.\n- **Automated Threat Intelligence**: Integrate and process vast amounts of global threat intelligence to inform your defensive posture.\n- **Behavioral Analytics**: AI-driven behavioral models differentiate legitimate user and system activities from malicious ones.\n- **Rapid Development**: AI accelerates the creation of complex security logic, allowing security teams to quickly prototype and deploy solutions.\n\nThe most effective security is one that understands your unique environment. With Kliv, you can stop reacting to threats and start building your own proactive, intelligent defense."
+    },
+    {
+      "title": "Advanced Network Security Concepts to Explore",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Intelligent, adaptive packet filtering and traffic inspection",
+          "prompt": "Create an AI-powered firewall that performs deep packet inspection, applies machine learning to identify anomalous traffic patterns, and automatically updates blocking rules based on detected threats.",
+          "title": "AI-Driven Firewall Rules Engine"
+        },
+        {
+          "description": "Automated response to detected intrusions and threats",
+          "prompt": "Develop a Security Orchestration, Automation, and Response (SOAR) system that integrates with existing security tools, automates incident response playbooks for common attacks, and provides a centralized dashboard for security analysts.",
+          "title": "Automated Incident Response Platform"
+        },
+        {
+          "description": "Real-time threat detection based on user and entity behavior",
+          "prompt": "Build a User and Entity Behavior Analytics (UEBA) application that profiles normal user behavior, detects deviations indicative of insider threats or compromised accounts, and triggers alerts or automated containment actions.",
+          "title": "Behavioral Anomaly Detection System"
+        },
+        {
+          "description": "Automated vulnerability scanning and patch management",
+          "prompt": "Design a vulnerability management tool that scans network devices and applications for known vulnerabilities, prioritizes them based on exploitability and impact, and integrates with patch management systems for automated remediation.",
+          "title": "Proactive Vulnerability Management"
+        },
+        {
+          "description": "Secure communication channels with intelligent access control",
+          "prompt": "Implement a Zero Trust Network Access (ZTNA) solution that continuously verifies user and device identity, evaluates device posture, and grants least-privilege access to resources regardless of network location.",
+          "title": "Zero Trust Access Orchestration"
+        },
+        {
+          "description": "Monitoring and protecting critical industrial control systems",
+          "prompt": "Create an Industrial Control System (ICS) security monitoring tool that passively analyzes SCADA network traffic, identifies unauthorized commands or unusual operational states, and alerts operators to potential cyber-physical threats.",
+          "title": "OT Network Security Monitor"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Custom Security Solution",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Integrate advanced threat intelligence feeds from multiple sources to enrich threat detection capabilities.",
+          "title": "Implement External Threat Intel Feeds"
+        },
+        {
+          "prompt": "Add a module for sandboxing suspicious files or URLs to analyze their behavior safely before they can affect the network.",
+          "title": "Develop a Malware Sandboxing Feature"
+        },
+        {
+          "prompt": "Create a visual network topology map that dynamically updates and highlights active threats or vulnerable assets.",
+          "title": "Build a Real-Time Network Visualization"
+        },
+        {
+          "prompt": "Incorporate a honeypot system that attracts and captures information about attack methodologies without affecting production systems.",
+          "title": "Deploy Dynamic Honeypots"
+        },
+        {
+          "prompt": "Add capabilities for automated penetration testing and red-teaming simulations to continuously validate defensive measures.",
+          "title": "Add Automated Pen-Testing"
+        },
+        {
+          "prompt": "Develop a secure key management system for cryptographic keys used across the network infrastructure.",
+          "title": "Integrate Secure Key Management"
+        },
+        {
+          "prompt": "Implement blockchain-based logging to ensure the immutability and integrity of security logs for forensic analysis.",
+          "title": "Enable Blockchain-Backed Logging"
+        },
+        {
+          "prompt": "Create an AI assistant for security analysts that can answer queries about threats, provide recommendations, and summarize security incidents.",
+          "title": "Build an AI Security Assistant"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities of Custom Network Security",
+      "type": "features",
+      "items": [
+        {
+          "description": "Analyze network traffic for deep insights and anomaly detection.",
+          "icon": "🔎",
+          "title": "Deep Packet Inspection (DPI)"
+        },
+        {
+          "description": "Intelligent learning to identify and block novel threats.",
+          "icon": "🧠",
+          "title": "AI-Powered Threat Prevention"
+        },
+        {
+          "description": "Automated responses to detected security incidents.",
+          "icon": "🛡️",
+          "title": "Automated Remediation"
+        },
+        {
+          "description": "Fine-grained control over network access based on roles and context.",
+          "icon": "🔑",
+          "title": "Identity-Based Access Control"
+        },
+        {
+          "description": "Comprehensive logging and forensic analysis tools.",
+          "icon": "📜",
+          "title": "Advanced Logging & Reporting"
+        },
+        {
+          "description": "Seamlessly connect with existing enterprise security tools.",
+          "icon": "🤝",
+          "title": "Extensible API Integrations"
+        }
+      ]
+    },
+    {
+      "title": "Practical Questions About Building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "With Kliv, a foundational custom firewall or network security module can be prototyped and functional within days. The total development time for a full-scale solution depends on complexity and features, but it is significantly faster than traditional development methods.",
+          "question": "How long will it take to build an advanced network security application?"
+        },
+        {
+          "answer": "You possess full ownership of the source code, data, and all intellectual property generated. Kliv is a development platform, not a SaaS provider for the end-product.",
+          "question": "Who owns the generated code and the security solution once it's built?"
+        },
+        {
+          "answer": "Kliv's platform generates robust, production-ready code. You can deploy your custom solution on your own servers, in your private cloud, or any preferred hosting environment, ensuring maximum control and adherence to your security policies.",
+          "question": "Where can the custom security application be deployed?"
+        },
+        {
+          "answer": "Yes, our platform is designed to handle sensitive data with built-in security features and best practices for code generation. You can also implement additional encryption, access controls, and compliance measures specific to your industry's requirements.",
+          "question": "Is building security applications on Kliv secure for sensitive network data?"
+        },
+        {
+          "answer": "While a basic understanding of networking concepts is beneficial for defining requirements, Kliv's AI-driven approach significantly reduces the need for extensive coding or cybersecurity development expertise. You describe the functionality, and the AI assists in building it.",
+          "question": "Do I need to be a cybersecurity expert or a developer to use Kliv for this?"
+        },
+        {
+          "answer": "The cost model for building with Kliv is typically a one-time development investment rather than ongoing subscriptions. This often results in substantial long-term savings compared to continuously purchasing and licensing commercial security software, especially for custom requirements.",
+          "question": "How does the cost of building compare to buying commercial security software?"
+        },
+        {
+          "answer": "Absolutely. One of the core benefits is the ability to continuously adapt. You can easily add new features, adjust threat intelligence feeds, modify rulesets, or integrate with new infrastructures as your security needs evolve.",
+          "question": "Can the custom firewall adapt to new threats and network changes over time?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Fortify Your Network with Intelligence?",
+      "type": "cta",
+      "content": "Stop relying on generic defenses. Build a truly intelligent and adaptive network security system that gives you complete control over your cyber defense posture."
+    }
+  ],
+  "title": "Advanced Firewall & Network Security"
+}

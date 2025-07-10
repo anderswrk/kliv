@@ -1,0 +1,172 @@
+{
+  "defaultPrompt": "I want to create an AI-powered code assistant that can generate code snippets, explain complex functions, and help debug errors in Python and JavaScript applications.",
+  "description": "Develop powerful AI-powered code assistants and compilers for any programming language.",
+  "hero": {
+    "cta": "Start Building Your AI Dev Tool",
+    "subtitle": "Revolutionize development workflows with custom AI-powered code assistants and specialized compilers built on Kliv's platform.",
+    "title": "Build Your Own AI Code Assistant & Compiler"
+  },
+  "metaDescription": "Create highly specialized AI code assistants and bespoke compilers with Kliv. Tailor them to specific languages, frameworks, or domains to boost developer productivity.",
+  "sections": [
+    {
+      "title": "The Next Generation of Developer Tools",
+      "type": "text",
+      "content": "In a world increasingly driven by code, developers constantly seek tools that enhance productivity, reduce errors, and accelerate development cycles. While general-purpose AI coding assistants exist, the true power lies in building specialized tools tailored to unique needs, niche languages, or proprietary frameworks.\n\nKliv empowers you to create custom AI code assistants that understand your specific domain, and even compilers optimized for your custom syntaxes or performance requirements. Move beyond generic help and build an AI developer companion that speaks your codebase's language."
+    },
+    {
+      "title": "Why Develop a Custom AI Code Assistant or Compiler?",
+      "type": "markdown",
+      "content": "## Limitations of Off-the-Shelf Solutions\n\nExisting AI coding assistants and compilers, while powerful, often fall short for specific use cases:\n- **Generalization**: They are trained on vast public datasets, which might lack expertise in niche industry-specific code, legacy systems, or internal frameworks.\n- **Vendor Lock-in**: Relying on external tools means being subject to their terms, pricing changes, and feature roadmaps.\n- **Lack of Customization**: It's hard to fine-tune them for specific coding styles, architectural patterns, or security compliance rules.\n- **Performance for Niche Languages**: Generic compilers may not offer the optimization or specific error handling required for less common or proprietary languages.\n\n## The Advantages of Building Your Own\n\nWith platforms like Kliv, developing a custom AI code assistant or compiler is no longer an insurmountable task. Here’s why it’s a strategic move:\n\n### Hyper-Specialization\nTrain your AI on your organization's specific codebase, design patterns, and internal libraries. This allows for unparalleled accuracy in code generation, refactoring suggestions, and bug detection, making it an invaluable tool for your development team.\n\n### Complete Control & Security\nYou own the intellectual property and data. This ensures sensitive code and algorithms remain secure within your environment, preventing data leakage or misuse by third parties. You control updates, features, and deployment.\n\n### Cost Efficiency in the Long Run\nAvoid recurring subscription fees for large teams. A custom-built solution represents a one-time investment with continuous returns, especially as your team grows or your needs evolve.\n\n### Tailored Performance\nFor compilers, you can optimize for specific hardware targets, performance characteristics, or even incorporate unique language features that commercial compilers do not support.\n\n### Competitive Advantage\nGain an edge by enabling your developers to work faster, produce higher-quality code, and innovate more rapidly. This directly translates to quicker product cycles and more robust software.\n\n## Real-World Potential\n\nImagine these scenarios:\n\n- **Legacy System Modernization**: An AI that understands COBOL or Fortran, helping to refactor old code into modern languages or identify performance bottlenecks.\n- **Domain-Specific Language (DSL) Support**: A custom compiler coupled with an AI assistant that provides intelligent auto-completion and error checking for your internal DSLs.\n- **Security-First Coding**: An AI trained to detect and suggest fixes for common vulnerabilities specific to your application's architecture.\n- **Game Development**: An AI assistant that knows the ins and outs of a specific game engine's API, accelerating asset creation and scripting.\n\nUsing AI-powered development platforms simplifies the complex task of building these sophisticated tools. Kliv bridges the gap, allowing you to focus on the 'what' rather than the 'how' of creating advanced developer aids."
+    },
+    {
+      "title": "AI Code Assistant & Compiler Ideas",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "An AI assistant for legacy COBOL code modernization",
+          "prompt": "Create an AI code assistant that can analyze COBOL code, explain complex sections, suggest refactoring for modern best practices, and identify potential bugs or security vulnerabilities specific to mainframe environments.",
+          "title": "COBOL Modernization Assistant"
+        },
+        {
+          "description": "A specialized compiler for a custom scripting language",
+          "prompt": "Build a compiler for a new domain-specific scripting language designed for financial modeling, including a lexical analyzer, parser, semantic analyzer, and code generator for optimized execution.",
+          "title": "Financial DSL Compiler"
+        },
+        {
+          "description": "Real-time AI pair programmer for a niche framework",
+          "prompt": "Develop an AI pair programmer trained exclusively on the documentation and codebase of the 'AeroEngine' aeronautics framework, capable of generating accurate boilerplate code, debugging, and API usage examples.",
+          "title": "AeroEngine AI Assistant"
+        },
+        {
+          "description": "An AI tool for generating secure Solidity smart contracts",
+          "prompt": "Create an AI assistant focused on Solidity, providing secure code generation for smart contracts, auditing for common vulnerabilities like reentrancy attacks, and suggesting gas optimizations.",
+          "title": "Secure Smart Contract AI"
+        },
+        {
+          "description": "A low-latency C++ compiler for embedded systems",
+          "prompt": "Design a custom C++ compiler optimized for a specific ARM microcontroller family, focusing on generating highly efficient, low-latency machine code for real-time embedded applications.",
+          "title": "Embedded C++ Compiler"
+        },
+        {
+          "description": "AI-powered tool for internal API integration management",
+          "prompt": "Build an AI code assistant specifically for integrating with our internal REST APIs. It should be able to generate client-side code snippets, explain API endpoints, and troubleshoot common integration issues based on internal documentation.",
+          "title": "Internal API Integration Assistant"
+        }
+      ]
+    },
+    {
+      "title": "Enhance Your Developer Tools",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add a feature for cross-language translation, so the AI can convert code snippets from Python to Java or C#.",
+          "title": "Cross-Language Code Conversion"
+        },
+        {
+          "prompt": "Integrate with a version control system (e.g., Git) to provide contextual suggestions based on recent commits and branch history.",
+          "title": "Version Control Integration"
+        },
+        {
+          "prompt": "Implement a 'test case generation' feature where the AI can automatically create unit tests for newly written or refactored functions.",
+          "title": "Automated Unit Test Generation"
+        },
+        {
+          "prompt": "Add a user feedback mechanism to continuously retrain and improve the AI model based on developer interactions and corrections.",
+          "title": "Continuous AI Improvement Loop"
+        },
+        {
+          "prompt": "Develop a plugin for popular IDEs (VS Code, IntelliJ) to seamlessly integrate the AI assistant's functionality directly into the development environment.",
+          "title": "IDE Plugin Development"
+        },
+        {
+          "prompt": "For the compiler, add advanced static analysis capabilities to detect potential runtime errors before compilation.",
+          "title": "Advanced Static Analysis"
+        },
+        {
+          "prompt": "Enable the AI assistant to perform code quality checks and suggest improvements based on defined coding standards and style guides.",
+          "title": "Code Quality Enforcement"
+        },
+        {
+          "prompt": "Add a feature where the AI can simulate code execution in a sandbox environment to predict outcomes or identify potential errors.",
+          "title": "Code Execution Simulation"
+        }
+      ]
+    },
+    {
+      "title": "Key Capabilities for Your Custom Dev Tool",
+      "type": "features",
+      "items": [
+        {
+          "description": "Generate code snippets, functions, or full modules based on natural language descriptions.",
+          "icon": "📝",
+          "title": "Intelligent Code Generation"
+        },
+        {
+          "description": "Translate difficult code, explain complex algorithms, or summarize large code blocks.",
+          "icon": "📖",
+          "title": "Contextual Code Explanation"
+        },
+        {
+          "description": "Provide real-time suggestions and automatic fixes for syntax, logic, and runtime errors.",
+          "icon": "🐛",
+          "title": "Smart Debugging & Error Correction"
+        },
+        {
+          "description": "Parse custom syntaxes, perform lexical analysis, and generate optimized machine code.",
+          "icon": "⚙️",
+          "title": "Bespoke Compiler Design"
+        },
+        {
+          "description": "Integrate with version control, project management, and CI/CD pipelines.",
+          "icon": "🔗",
+          "title": "Seamless Ecosystem Integration"
+        },
+        {
+          "description": "Train the AI on your proprietary codebase and documentation for hyper-accurate suggestions.",
+          "icon": "🧠",
+          "title": "Custom Model Training"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions About Building Dev Tools with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a custom AI code assistant or compiler with Kliv can range from a few days for a basic prototype to several weeks for a highly specialized, production-ready system, depending on complexity and scope.",
+          "question": "How long does it take to build a custom AI code assistant or compiler?"
+        },
+        {
+          "answer": "You need a strong understanding of the programming language or domain you want to support. While Kliv's AI handles much of the underlying development, defining the core logic and training data requires domain expertise. No deep AI or machine learning expertise is typically needed.",
+          "question": "What technical prerequisites are needed to build these tools?"
+        },
+        {
+          "answer": "Absolutely. Kliv-built applications can integrate with popular IDEs (like VS Code, IntelliJ, Eclipse) via extensions, and with version control systems (Git), CI/CD pipelines, and other developer tools using standard APIs.",
+          "question": "Can these custom tools integrate with existing development environments?"
+        },
+        {
+          "answer": "You retain full ownership and intellectual property rights over the AI models, code, and any data used for training. Kliv provides the platform for building, but the resulting assets are yours.",
+          "question": "Who owns the intellectual property of the AI model and code generated?"
+        },
+        {
+          "answer": "Yes, AI models can be continuously retrained and refined. As your codebase evolves or new patterns emerge, you can update the training data to keep your AI assistant or compiler relevant and accurate.",
+          "question": "Can the AI models be updated or retrained after initial deployment?"
+        },
+        {
+          "answer": "Custom tools built on Kliv offer superior data privacy as you control the environment and data flow. Unlike SaaS solutions where your code might be processed by third-party servers, your custom tool processes data within your defined security perimeter.",
+          "question": "How do data privacy and security compare to using off-the-shelf solutions?"
+        },
+        {
+          "answer": "Maintenance involves monitoring performance, updating training data as your code practices evolve, and potentially adding new features. Kliv’s platform facilitates these updates with minimal effort.",
+          "question": "What kind of ongoing maintenance do these custom tools require?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to Transform Your Development Workflow?",
+      "type": "cta",
+      "content": "Stop adapting to generic tools. Build the precise AI-powered code assistant or custom compiler that perfectly fits your team's unique needs and gives you a significant competitive edge."
+    }
+  ],
+  "title": "AI-Powered Code Assistant & Compiler"
+}

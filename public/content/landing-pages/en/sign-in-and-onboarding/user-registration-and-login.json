@@ -1,0 +1,180 @@
+{
+  "defaultPrompt": "I want to create a secure user registration and login system with email verification, password reset, and user profile management capabilities.",
+  "description": "Build custom user registration and login systems with Kliv's AI-powered platform.",
+  "hero": {
+    "cta": "Start building your authentication",
+    "subtitle": "Develop robust, secure, and customizable user registration and login systems tailored to your application's needs.",
+    "title": "Build your own user registration and login systems"
+  },
+  "metaDescription": "Create powerful user registration and login tools with Kliv. Implement secure authentication, profile management, and seamless onboarding with custom-built applications.",
+  "sections": [
+    {
+      "title": "Why build your own user authentication?",
+      "type": "text",
+      "content": "In today's digital landscape, a seamless and secure user experience starts with registration and login. While off-the-shelf solutions exist, they often come with limitations, rigid branding, and recurring costs that don't scale efficiently with your growth.\n\nBuilding your own user authentication system offers unparalleled control, security, and customization. With AI-powered development platforms like Kliv, creating a tailored solution is no longer a complex or time-consuming task typically reserved for large development teams. You can design a system that not only meets your exact security requirements but also perfectly aligns with your brand's look and feel, enhancing user trust and retention from the very first interaction."
+    },
+    {
+      "title": "The strategic advantage of custom authentication",
+      "type": "markdown",
+      "content": "## Challenges with generic authentication solutions\n\nMany businesses opt for third-party authentication services, only to face issues like:\n\n- **Inflexible branding**: Difficulty in fully integrating the look and feel into your distinct brand.\n- **Vendor lock-in**: Dependence on a single provider, making migration difficult and costly.\n- **Limited customization**: Inability to implement specific user flows or unique security features.\n- **Scalability concerns**: Tiered pricing models that become expensive as your user base grows.\n- **Data privacy**: Less control over how user data is handled and stored by external providers.\n\n## Why a custom-built approach is superior\n\nLeveraging AI to build your own authentication system empowers you with:\n\n### Complete brand integration\nEnsure every touchpoint, from signup to login, matches your brand's aesthetics and voice, offering a truly cohesive user experience.\n\n### Enhanced security and compliance\nImplement the specific security protocols and compliance standards (e.g., GDPR, HIPAA) that your application requires, without compromise.\n\n### Optimized user journeys\nDesign user flows that are intuitive and efficient, reducing friction during registration and login, which improves conversion and retention rates.\n\n### Cost-effectiveness at scale\nPay for what you build once, eliminating recurring subscription fees. This model becomes significantly more cost-effective as your user base expands.\n\n### Future-proof flexibility\nEasily adapt and extend your authentication system as your application evolves, integrating new technologies or adding advanced features like multi-factor authentication (MFA) or single sign-on (SSO).\n\n## Real-world applications of custom authentication\n\nCustom authentication systems are critical across various industries:\n\n**SaaS Platforms**: Tailoring multi-tenancy support, granular access controls, and integrated subscription management.\n\n**E-commerce**: Implementing personalized shopping experiences through persistent login, social logins, and secure payment integrations.\n\n**Healthcare Apps**: Ensuring stringent HIPAA compliance with secure patient data access and multi-factor authentication for sensitive information.\n\n**EdTech**: Managing student and instructor accounts, course access, and progress tracking with role-based permissions.\n\n**Internal Business Tools**: Creating secured employee portals with SSO capabilities, integrating with existing corporate directories.\n\n## The Kliv AI advantage\n\nKliv revolutionizes the way you build authentication:\n\n- **Natural language prompts**: Describe your desired features in plain English.\n- **Rapid development**: Go from concept to a working system in hours or days.\n- **Automated security best practices**: AI helps implement robust security measures from the ground up.\n- **Scalable architecture**: Solutions built to handle millions of users without sacrificing performance.\n\nStart building your tailored, secure, and scalable user authentication system on Kliv today. Your users deserve a custom experience."
+    },
+    {
+      "title": "User authentication ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Secure user registration with email verification",
+          "prompt": "Create a user registration system that requires email confirmation, generates a unique user ID, and stores user data securely.",
+          "title": "Basic registration & login"
+        },
+        {
+          "description": "Implement password recovery and management",
+          "prompt": "Build a password reset functionality that sends a secure link to the user's email, allowing them to create a new password after verification.",
+          "title": "Password reset & management"
+        },
+        {
+          "description": "Enable social logins for easier access",
+          "prompt": "Develop a system that allows users to register and log in using their Google, Facebook, or Apple accounts, linking them to a user profile.",
+          "title": "Social media login integration"
+        },
+        {
+          "description": "Manage user profiles and settings",
+          "prompt": "Design a user profile management dashboard where users can update their personal information, change passwords, and manage notification preferences.",
+          "title": "User profile management"
+        },
+        {
+          "description": "Allow different access levels for users",
+          "prompt": "Implement role-based access control where users can be assigned roles like 'admin', 'editor', or 'guest', each with different permissions.",
+          "title": "Role-based access control (RBAC)"
+        },
+        {
+          "description": "Set up multi-factor security for sensitive accounts",
+          "prompt": "Add multi-factor authentication (MFA) using time-based one-time passwords (TOTP) or SMS codes for enhanced security on login.",
+          "title": "Multi-Factor Authentication (MFA)"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your authentication system",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add security features like brute-force protection and suspicious login attempt detection with alerts to admin.",
+          "title": "Implement advanced security features"
+        },
+        {
+          "prompt": "Create a robust logging and auditing system for all user authentication activities, including failed logins and password changes.",
+          "title": "Build comprehensive audit trails"
+        },
+        {
+          "prompt": "Integrate with a CRM or marketing automation platform to track user signups and engagement.",
+          "title": "Connect with CRM/Marketing tools"
+        },
+        {
+          "prompt": "Develop an admin dashboard to manage users, roles, and permissions, including the ability to suspend or delete accounts.",
+          "title": "Create an admin user management panel"
+        },
+        {
+          "prompt": "Implement single sign-on (SSO) capabilities allowing users to access multiple linked applications with one login.",
+          "title": "Add Single Sign-On (SSO)"
+        },
+        {
+          "prompt": "Design onboarding flows that guide new users through initial setup and feature discovery after registration.",
+          "title": "Enhance user onboarding flows"
+        },
+        {
+          "prompt": "Allow users to securely upload and manage profile pictures or other files within their profile settings.",
+          "title": "Enable profile picture uploads"
+        },
+        {
+          "prompt": "Add a feature for users to merge accounts from different platforms or un-link social media accounts.",
+          "title": "Implement account linking/unlinking"
+        },
+        {
+          "prompt": "Develop an API for external applications to securely authenticate users or retrieve user data.",
+          "title": "Create a secure authentication API"
+        }
+      ]
+    },
+    {
+      "title": "Key authentication features",
+      "type": "features",
+      "items": [
+        {
+          "description": "Securely manage user accounts, passwords, and profiles with robust encryption.",
+          "icon": "🔒",
+          "title": "User Accounts & Management"
+        },
+        {
+          "description": "Implement multi-factor authentication (MFA) for an added layer of security.",
+          "icon": "📱",
+          "title": "Multi-Factor Authentication"
+        },
+        {
+          "description": "Allow users to sign up and log in using popular social media platforms.",
+          "icon": "🌐",
+          "title": "Social Login Integration"
+        },
+        {
+          "description": "Define and manage user roles (e.g., admin, editor, basic user) with specific permissions.",
+          "icon": "🔑",
+          "title": "Role-Based Access Control"
+        },
+        {
+          "description": "Automate password resets and secure credential recovery processes.",
+          "icon": "🔄",
+          "title": "Password Recovery"
+        },
+        {
+          "description": "Track user activity, login history, and changes for security and compliance.",
+          "icon": "📚",
+          "title": "Audit Logs"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a basic user registration and login system can take just a few hours with Kliv. More complex systems with advanced security and integrations might take a few days to fully develop and integrate.",
+          "question": "How long does it take to build a custom authentication system?"
+        },
+        {
+          "answer": "No coding experience is required. Kliv's AI allows you to describe your desired authentication features in plain language, and it handles the underlying code generation and setup.",
+          "question": "Do I need to be a developer to build this?"
+        },
+        {
+          "answer": "Yes, systems built on Kliv can integrate with virtually any external service that offers an API, including CRM platforms, marketing automation tools, payment gateways, and more.",
+          "question": "Can I integrate my custom authentication with other services?"
+        },
+        {
+          "answer": "You retain full ownership of the code and the entire system. Kliv provides the platform to build it, but the resulting application is yours to control, host, and modify as needed.",
+          "question": "Who owns the authentication system I build?"
+        },
+        {
+          "answer": "Custom-built authentication systems often offer superior long-term cost savings compared to SaaS solutions, which charge recurring fees that escalate with your user base. You pay a one-time development cost, and subsequent maintenance is minimal.",
+          "question": "Is building my own authentication system more cost-effective than using a SaaS provider?"
+        },
+        {
+          "answer": "Absolutely. Custom systems offer unparalleled flexibility. You can add new authentication methods, modify user flows, implement new security protocols, or scale performance as your application grows and evolves.",
+          "question": "Can I easily update or expand my authentication system later?"
+        },
+        {
+          "answer": "Yes, in many cases, custom-built systems can be more secure because you have direct control over security protocols, data storage, and compliance. You avoid reliance on third-party security practices.",
+          "question": "Are custom-built authentication solutions secure?"
+        },
+        {
+          "answer": "Kliv provides comprehensive tools for monitoring, debugging, and optimizing your application. Since you control the code, you can also hire any developer to assist you, ensuring you're never locked into a single support vendor.",
+          "question": "What kind of support is available for managing the system after it's built?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to build your secure user foundation?",
+      "type": "cta",
+      "content": "Stop relying on generic solutions. Create a user registration and login system that truly fits your application's needs and enhances user trust."
+    }
+  ],
+  "title": "User Registration & Login Systems"
+}

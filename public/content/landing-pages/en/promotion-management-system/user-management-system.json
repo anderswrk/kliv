@@ -1,0 +1,171 @@
+{
+  "defaultPrompt": "I want to create a user management system that can register new users, assign roles and permissions, track user activity, and allow for password resets.",
+  "description": "Build custom user management systems with Kliv's AI-powered platform for any application.",
+  "hero": {
+    "cta": "Start building your UMS",
+    "subtitle": "Securely manage user identities, access, and roles for any application or service with tailored solutions.",
+    "title": "Build your own user management system"
+  },
+  "metaDescription": "Create powerful user management systems with Kliv. Securely manage user identities, roles, and access, tailor-made for your specific application needs.",
+  "sections": [
+    {
+      "title": "Why build a custom user management system?",
+      "type": "text",
+      "content": "In today's interconnected world, every application, from an internal dashboard to a customer-facing portal, needs robust user management. While off-the-shelf solutions exist, they often come with limitations, unnecessary features, or integration headaches that don't quite fit your unique requirements.\n\nBuilding your own user management system (UMS) gives you complete control over security, data, and user experience. With AI-powered development platforms like Kliv, this level of customization is no longer reserved for large enterprises with dedicated development teams."
+    },
+    {
+      "title": "The case for a tailored UMS",
+      "type": "markdown",
+      "content": "## Off-the-shelf vs. Custom-built\n\nGeneric UMS solutions or embedded authentication services often constrain your application's design and functionality. They might force you to:\n\n- **Compromise on user experience**: Rigid login flows or profile pages.\n- **Overpay for unused features**: Large feature sets, only a fraction of which you need.\n- **Face integration challenges**: Difficulty connecting with your unique tech stack.\n- **Relinquish data control**: Your user data resides on a third-party server.\n- **Limit scalability**: Not fully aligned with your future growth plans.\n\n## Advantages of a custom-built UMS\n\nBringing your user management in-house or building it specifically for your application offers significant benefits:\n\n### Granular control over security\nYou dictate authentication methods (MFA, SSO), password policies, and data encryption. You own the security posture end-to-end, critical for sensitive user data.\n\n### Perfect fit for your application\nDesign user roles, permissions, and profiles that precisely match the needs of your application's functionality. No more shoehorning your app into a generic user structure.\n\n### Cost-efficiency and ownership\nOnce built, your custom UMS is a owned asset, not a recurrent subscription. This eliminates ongoing monthly fees, leading to long-term savings.\n\n### Seamless integration\nBuilt around your specific application, it integrates perfectly with your existing databases, APIs, and other internal systems. No more wrestling with third-party connectors.\n\n### Future-proof scalability\nAs your user base grows or your application evolves, your UMS can scale and adapt. Add new features like advanced analytics, social logins, or custom workflows without external dependencies.\n\n## Real-world UMS applications\n\nCustom user management is vital for diverse applications:\n\n**Internal Business Applications**: Control employee access to sensitive data, project management tools, or CRM systems based on roles and departments.\n\n**Customer Portals**: Allow customers to manage their profiles, subscriptions, order history, and preferences directly within a secure, branded environment.\n\n**SaaS Platforms**: Implement multi-tenant architectures where each customer organization has its own set of users and unique permissions within the platform.\n\n**Educational Platforms**: Manage student and teacher accounts, track course progress, assign grades, and control access to learning materials.\n\n**Healthcare Systems**: Securely manage patient and practitioner accounts, ensuring compliance with strict privacy regulations (e.g., HIPAA) and audit trails.\n\n## The power of AI-driven development\n\nDeveloping complex systems like a UMS used to be a long, resource-intensive process. Kliv's AI platform simplifies this:\n\n- **Accelerated development**: Build sophisticated systems in a fraction of the traditional time.\n- **Natural language interface**: Describe user flows and security requirements in plain English.\n- **Automated code generation**: AI handles the heavy lifting of writing secure, efficient code.\n- **Built-in best practices**: Benefit from AI-driven suggestions for security, performance, and scalability."
+    },
+    {
+      "title": "User management system ideas to get you started",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Register, authenticate, and manage customer accounts for an e-commerce store.",
+          "prompt": "Create a user management system for an e-commerce platform that handles customer registration, login, profile updates, order history viewing, and password resets.",
+          "title": "Customer portal UMS"
+        },
+        {
+          "description": "Define and manage hierarchical roles and permissions for internal team members.",
+          "prompt": "Build an internal user management system with role-based access control (RBAC) that allows administrators to assign roles (e.g., 'Viewer', 'Editor', 'Admin') to employees for different modules of a business application.",
+          "title": "Internal enterprise RBAC"
+        },
+        {
+          "description": "Manage student and teacher accounts for an online learning platform.",
+          "prompt": "Develop a user management system for an educational platform with separate user types for 'Students' and 'Teachers', enabling teachers to manage courses and students to enroll and track progress.",
+          "title": "Online learning UMS"
+        },
+        {
+          "description": "Handle user sign-up, login, and profile for a content subscription service.",
+          "prompt": "Design a UMS for a premium content subscription website, including user registration, secure login with multi-factor authentication (MFA), subscription tier management, and content access control.",
+          "title": "Subscription service UMS"
+        },
+        {
+          "description": "Provide a secure access system for managing patient health records.",
+          "prompt": "Create a HIPAA-compliant user management system for a healthcare provider, ensuring secure patient and practitioner logins, permission-based access to medical records, and audit trails for all data access.",
+          "title": "Healthcare patient portal"
+        }
+      ]
+    },
+    {
+      "title": "Ways to enhance your UMS",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add social login options (Google, Facebook, Apple) to the registration and login process.",
+          "title": "Integrate social logins"
+        },
+        {
+          "prompt": "Implement multi-factor authentication (MFA) using TOTP (Time-based One-Time Password) or email/SMS codes.",
+          "title": "Implement MFA"
+        },
+        {
+          "prompt": "Build an admin dashboard for managing users, roles, and permissions, including search and filter functionalities.",
+          "title": "Create admin dashboard"
+        },
+        {
+          "prompt": "Add an API for external applications to authenticate users and check permissions.",
+          "title": "Develop a REST API"
+        },
+        {
+          "prompt": "Integrate with an identity provider for Single Sign-On (SSO) capabilities.",
+          "title": "Enable SSO"
+        },
+        {
+          "prompt": "Add granular auditing and logging of all user activities for compliance and security monitoring.",
+          "title": "Incorporate audit trails"
+        },
+        {
+          "prompt": "Implement email verification for new user registrations to confirm account ownership.",
+          "title": "Add email verification"
+        },
+        {
+          "prompt": "Create a feature for users to self-manage their profile information and account settings.",
+          "title": "Add user self-service"
+        }
+      ]
+    },
+    {
+      "title": "Key UMS Capabilities",
+      "type": "features",
+      "items": [
+        {
+          "description": "Secure user registration, login, and password management.",
+          "icon": "🔒",
+          "title": "Identity management"
+        },
+        {
+          "description": "Define and assign roles (e.g., Admin, User, Guest) and granular permissions.",
+          "icon": "⚙️",
+          "title": "Role-Based Access Control"
+        },
+        {
+          "description": "Authenticate users via passwords, social accounts, or multi-factor methods.",
+          "icon": "🔑",
+          "title": "Flexible authentication"
+        },
+        {
+          "description": "Track user actions, login attempts, and system changes for security and compliance.",
+          "icon": "🔎",
+          "title": "Activity logging"
+        },
+        {
+          "description": "Allow users to manage their own profiles, security settings, and data.",
+          "icon": "👤",
+          "title": "Self-service options"
+        },
+        {
+          "description": "Seamlessly connect with existing internal systems and external services.",
+          "icon": "🤝",
+          "title": "Integration readiness"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "The initial build can be remarkably fast – a basic, functional UMS can be ready within hours or a few days. More complex systems with advanced security features and integrations might take a couple of weeks to refine.",
+          "question": "How quickly can I deploy a custom user management system?"
+        },
+        {
+          "answer": "No deep coding expertise is necessary. Kliv's platform allows you to describe your requirements in plain language, and the AI assists in generating and structuring the application's code and components.",
+          "question": "Do I need to be a developer to build a UMS on Kliv?"
+        },
+        {
+          "answer": "Absolutely. You can integrate your custom UMS with virtually any existing database, application, or service that supports standard APIs. This includes CRM systems, ERPs, marketing platforms, and more.",
+          "question": "Can this UMS integrate with my existing backend systems?"
+        },
+        {
+          "answer": "All the intellectual property, including the system's code and logical design, is entirely yours. You maintain full ownership and control over the created solution.",
+          "question": "Who owns the user management system once it's built?"
+        },
+        {
+          "answer": "A custom UMS offers significant cost savings over time by eliminating recurring subscription fees. While there's an initial development investment, the long-term total cost of ownership is often much lower, especially for larger user bases.",
+          "question": "How does the cost compare to off-the-shelf UMS solutions?"
+        },
+        {
+          "answer": "Yes, flexibility is a core advantage. You can continuously modify, update, and add new features to your UMS as your application evolves or new security standards emerge, ensuring it always meets your needs.",
+          "question": "Can I easily update or expand the UMS after it's live?"
+        },
+        {
+          "answer": "You have complete control over data storage and security protocols. This allows you to implement highly specific security measures and ensure compliance with relevant data privacy regulations (e.g., GDPR, HIPAA), often exceeding generic SaaS offerings.",
+          "question": "How secure are custom user management systems built with Kliv?"
+        },
+        {
+          "answer": "Kliv provides tools for collaboration, version control, and testing, making it straightforward to manage the development process. For ongoing maintenance, its modular design helps in managing updates and bug fixes efficiently.",
+          "question": "What's the process for maintaining the UMS post-development?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to take control of user access and security?",
+      "type": "cta",
+      "content": "Stop adapting to rigid user management platforms. Build a solution that's precisely engineered for your application's unique requirements."
+    }
+  ],
+  "title": "Custom User Management Systems"
+}

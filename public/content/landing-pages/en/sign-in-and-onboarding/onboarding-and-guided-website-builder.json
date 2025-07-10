@@ -1,0 +1,176 @@
+{
+  "defaultPrompt": "I want to create an interactive onboarding flow for new users, guiding them through setting up their profile and preferences, with conditional steps based on their role and immediate needs. It needs to feel personal and efficient.",
+  "description": "Create custom interactive onboarding and guided website flows that convert and engage users from day one.",
+  "hero": {
+    "cta": "Start building your onboarding experience",
+    "subtitle": "Design and deploy personalized onboarding experiences and guided tours, ensuring every user feels understood and engaged from their very first interaction. Turn visitors into loyal users quickly.",
+    "title": "Build Engaging Onboarding & Guided Website Experiences"
+  },
+  "metaDescription": "Transform your user journey with custom onboarding flows and guided website tours. Kliv's AI-powered platform helps you build interactive experiences that boost engagement and reduce churn.",
+  "sections": [
+    {
+      "title": "Why invest in custom onboarding and guided tours?",
+      "type": "text",
+      "content": "First impressions matter, especially in the digital realm. A smooth, intuitive onboarding process can drastically improve user retention, while a well-designed guided tour can accelerate feature adoption. Generic solutions often fall short, offering rigid pathways that don't adapt to individual user needs or your product's unique selling points.\n\nBuilding your own gives you unparalleled control. You can craft an experience that truly resonates with your audience, guides them precisely where they need to go, and educates them effectively, turning tentative visitors into confident, active users."
+    },
+    {
+      "title": "The strategic advantage of tailored user guidance",
+      "type": "markdown",
+      "content": "## Overcoming common user journey pitfalls\n\nMany products struggle with:\n\n- **High churn rates:** Users abandon products when initial setup or value proposition isn't clear.\n- **Low feature adoption:** Users don't discover or utilize key features crucial for their success.\n- **Support overload:** Confused users flood support channels with basic questions.\n- **Inconsistent experience:** Different users get different or incomplete introductions to your platform.\n\n## Why a custom approach wins\n\nBy leveraging Kliv to build bespoke onboarding and guided experiences, you gain:\n\n### Precision targeting\nTailor flows based on user roles, past behavior, or demographic data. Deliver the right information to the right user at the right time, minimizing friction and maximizing relevance.\n\n### Seamless integration\nUnlike third-party overlays, custom solutions are baked directly into your application, ensuring a native look and feel. This eliminates visual inconsistencies and potential performance bottlenecks.\n\n### Adaptability & iteration\nProducts evolve, and so should your onboarding. Easily modify, A/B test, and iterate on your guided flows without dependency on external vendors, ensuring your user experience always aligns with your product development.\n\n### Data-driven insights\nTrack user progress through the onboarding, identify drop-off points, and understand which guidance pathways are most effective. This data feeds directly into improving your product and user experience.\n\n### Enhanced brand authority\nDemonstrate attention to detail and user-centricity. A polished, personalized onboarding process reinforces your brand's professionalism and commitment to user success.\n\n## Real-world impact\n\nCustom guided experiences aren't just about aesthetics; they drive measurable business outcomes:\n\n**SaaS applications**: Personalized first-login flows based on subscription tier or indicated primary use case, dramatically increasing conversion from trial to paid.\n\n**E-commerce platforms**: Interactive guides that highlight new features like personalized shopping lists or advanced search filters, leading to higher average order values.\n\n**Internal tools**: Onboarding for new employees to familiarize them with complex internal systems and standard operating procedures, reducing training time and errors.\n\n**Educational platforms**: Adaptive learning paths that guide students through course setup and progress tracking, improving course completion rates.\n\n## The Kliv difference\n\nKliv transforms the complex process of building interactive user guidance into an intuitive, AI-accelerated journey:\n\n- **Component-based design**: Create modular steps, tooltips, and modals that can be reused across different flows.\n- **Conditional logic**: Build intelligent pathways that adapt based on user input, profile data, or real-time actions.\n- **Visual flow builders**: Design complete user journeys with drag-and-drop ease, seeing the path visually before deployment.\n- **Performance optimization**: Ensure your guided experiences are lightweight and don't impair application speed.\n\nDon't let your valuable features go undiscovered. Invest in custom, intelligent user guidance with Kliv, and watch your user engagement and retention soar."
+    },
+    {
+      "title": "Onboarding and guided tour ideas to build",
+      "type": "prompt-examples",
+      "items": [
+        {
+          "description": "Welcome new users with a personalized setup experience.",
+          "prompt": "Create an interactive new user wizard that gathers essential profile information, personalizes their dashboard based on selected interests, and then provides a quick tour of key navigation elements.",
+          "title": "Personalized Welcome Wizard"
+        },
+        {
+          "description": "Introduce new features effectively to existing users.",
+          "prompt": "Develop a feature tour that appears only for existing users upon release of a major update, highlighting new functionalities with clear explanations and interactive steps to try them out.",
+          "title": "New Feature Walkthrough"
+        },
+        {
+          "description": "Showcase advanced functionality with step-by-step guidance.",
+          "prompt": "Build a multi-step product tour for a complex analytics dashboard, guiding users through creating their first report, setting up filters, and understanding data visualizations, with progress tracking.",
+          "title": "Complex Product Tour"
+        },
+        {
+          "description": "Help users recover and re-engage, turning mistakes into learning.",
+          "prompt": "Design a 'recovery' onboarding flow that activates when a user has been inactive for a while or repeatedly fails to complete a key action. It should re-familiarize them with crucial features and prompt re-engagement.",
+          "title": "Re-engagement Flow"
+        },
+        {
+          "description": "Contextual help that appears when and where it's needed.",
+          "prompt": "Create a contextual help system where specific tooltips or mini-guides appear when a user hovers over certain elements or spends too long on a particular page, offering assistance without interrupting their flow.",
+          "title": "Contextual Help Overlays"
+        },
+        {
+          "description": "Simplify the process of setting up external integrations.",
+          "prompt": "Develop an integration setup wizard that guides users step-by-step through connecting their account with third-party services like CRM or email marketing platforms, including API key input and testing.",
+          "title": "Integration Setup Wizard"
+        }
+      ]
+    },
+    {
+      "title": "Enhance your user guidance solutions",
+      "type": "improvement-ideas",
+      "items": [
+        {
+          "prompt": "Add A/B testing capabilities to different onboarding pathways to determine which performs best for conversion and retention.",
+          "title": "Implement A/B Testing"
+        },
+        {
+          "prompt": "Integrate progress tracking and completion rates for each step of the onboarding flow into an analytics dashboard.",
+          "title": "Build Analytics Dashboard"
+        },
+        {
+          "prompt": "Incorporate conditional branching logic, so the onboarding flow adapts in real-time based on user input or previous actions.",
+          "title": "Add Conditional Logic"
+        },
+        {
+          "prompt": "Allow administrators to easily customize and update the text, images, and order of onboarding steps without code deployment.",
+          "title": "Create an Admin Panel for Content"
+        },
+        {
+          "prompt": "Add a 'skip tour' or 'remind me later' option for users who don't want to complete the entire flow at once.",
+          "title": "Include Opt-Out/Postpone Options"
+        },
+        {
+          "prompt": "Develop multi-language support for all onboarding elements, allowing users to select their preferred language.",
+          "title": "Add Multi-Language Support"
+        },
+        {
+          "prompt": "Integrate with a CRM or email marketing tool to trigger automated follow-up emails based on onboarding progress or completion.",
+          "title": "Integrate with Marketing Automation"
+        },
+        {
+          "prompt": "Build a user feedback mechanism within the onboarding process, allowing users to rate their experience or leave comments.",
+          "title": "Add In-Product Feedback"
+        },
+        {
+          "prompt": "Include interactive elements like mini-quizzes or 'try it now' buttons within the guided tours to encourage hands-on learning.",
+          "title": "Incorporate Interactive Learning"
+        }
+      ]
+    },
+    {
+      "title": "Key capabilities for exceptional user guidance",
+      "type": "features",
+      "items": [
+        {
+          "description": "Craft dynamic onboarding flows that adapt to individual user behavior and attributes.",
+          "icon": "🧠",
+          "title": "Intelligent Branching"
+        },
+        {
+          "description": "Visually design multi-step guided tours and onboarding sequences with intuitive drag-and-drop tools.",
+          "icon": "🎨",
+          "title": "Visual Flow Editor"
+        },
+        {
+          "description": "Deploy context-sensitive tooltips, modals, and spotlights to highlight elements exactly when needed.",
+          "icon": "💡",
+          "title": "Contextual UI Overlays"
+        },
+        {
+          "description": "Integrate with your existing user data and authentication systems for seamless personalization.",
+          "icon": "🔗",
+          "title": "Seamless Data Integration"
+        },
+        {
+          "description": "Track user progress, completion rates, and drop-off points to continuously optimize your journeys.",
+          "icon": "📈",
+          "title": "Advanced Analytics"
+        },
+        {
+          "description": "Ensure your custom experiences are performant and visually consistent with your product's design.",
+          "icon": "⚡",
+          "title": "Optimized Performance"
+        }
+      ]
+    },
+    {
+      "title": "Frequently asked questions about building with Kliv",
+      "type": "faq",
+      "items": [
+        {
+          "answer": "Building a functional onboarding flow with Kliv can take anywhere from a few hours for a basic sequence to a few days for a complex, branching, and highly personalized experience. The AI significantly accelerates the initial development.",
+          "question": "How long does it take to build a custom onboarding flow?"
+        },
+        {
+          "answer": "No, you don't need any coding skills. Kliv's platform allows you to describe your desired onboarding experience using natural language, and the AI helps generate the underlying structure and components.",
+          "question": "Do I need to be a developer or have coding experience?"
+        },
+        {
+          "answer": "Yes, you can integrate your custom onboarding and guided tours with your existing user databases, CRM systems, analytics platforms, and any other tools that expose an API. This allows for rich personalization and data capture.",
+          "question": "Can these custom experiences integrate with my existing user data and systems?"
+        },
+        {
+          "answer": "Absolutely. Because you own the underlying code and structure, you have full control. You can modify every aspect of the flow, add new steps, change conditions, or completely redesign segments as your product evolves.",
+          "question": "How flexible are these custom-built solutions once they are deployed?"
+        },
+        {
+          "answer": "Building with Kliv incurs a one-time development cost instead of recurring subscription fees typical of SaaS solutions. Over time, for complex or evolving needs, a custom solution built with Kliv often proves more cost-effective.",
+          "question": "How does the cost compare to off-the-shelf onboarding tools?"
+        },
+        {
+          "answer": "Your intellectual property is always yours. The code generated and the unique flows you design belong entirely to you. You can host them wherever you prefer.",
+          "question": "Who owns the intellectual property of the custom solutions I build?"
+        },
+        {
+          "answer": "Yes, security is paramount. As you build the solution, you define where user data is stored and how it's handled, giving you complete control over security protocols and compliance (e.g., GDPR, HIPAA), often surpassing the security provided by generic third-party tools.",
+          "question": "Are these custom onboarding solutions secure?"
+        }
+      ]
+    },
+    {
+      "title": "Ready to craft unforgettable first impressions?",
+      "type": "cta",
+      "content": "Stop losing users at the first step. Build a truly engaging, custom onboarding experience that turns visitors into lifelong customers with Kliv."
+    }
+  ],
+  "title": "Custom Onboarding and Guided Website Builder"
+}
