@@ -748,7 +748,7 @@ export function DynamicLandingPage() {
               <Card className="p-8 bg-card border-2 border-border hover:border-primary/30 transition-all duration-300 shadow-lg hover:shadow-xl">
                 <div className="space-y-6">
                   {/* Reinforcement text about building apps and websites */}
-                  <p className="text-base text-muted-foreground text-center">
+                  <p className="text-lg text-muted-foreground text-center">
                     {t('landing.buildPrompt', {
                       topic: formatCategoryName(category || '')
                     })}
