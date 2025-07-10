@@ -748,8 +748,10 @@ export function DynamicLandingPage() {
               <Card className="p-8 bg-card border-2 border-border hover:border-primary/30 transition-all duration-300 shadow-lg hover:shadow-xl">
                 <div className="space-y-6">
                   {/* Reinforcement text about building apps and websites */}
-                  <p className="text-sm text-muted-foreground text-center">
-                    {t('landing.buildPrompt', `Just enter your ${formatCategoryName(category || '')} idea into the text box and Kliv will build it for you`)}
+                  <p className="text-base text-muted-foreground text-center">
+                    {t('landing.buildPrompt', {
+                      topic: formatCategoryName(category || '')
+                    })}
                   </p>
                   
                   {/* Input Label */}
