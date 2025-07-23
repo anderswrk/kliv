@@ -1,3 +1,4 @@
+
 {
   "nav": {
     "features": "Features",
@@ -303,6 +304,9 @@
       "Custom": "* Single Sign-on (SAML)\n* Custom integrations\n* Dedicated support\n* SLA guarantee"
     }
   },
+  "common": {
+    "loading": "Loading..."
+  },
   "tenantSignup": {
     "getStarted": "Get started",
     "defaultTagline": "Create beautiful apps and websites with just a prompt",
@@ -331,7 +335,8 @@
     "googleAuthError": "Unable to authenticate with Google",
     "ssoError": "Your organization is already set up with an account. Click <a href=\"/!saml/login/{{domain}}\">here</a> to sign in or contact your system administrator.",
     "userExistsError": "There is already a user registered with that email address. You can use the password recovery function on the login screen to reset your password.",
-    "next": "Next"
+    "next": "Next",
+    "back": "Back"
   },
   "login": {
     "welcomeBack": "Welcome back",
