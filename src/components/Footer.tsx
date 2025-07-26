@@ -110,7 +110,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-border">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col justify-between items-center">
             <p className="text-sm text-muted-foreground">
               {t('footer.copyright')}
             </p>
