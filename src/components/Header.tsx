@@ -58,7 +58,11 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <LocalizedLink to="/" className="text-2xl font-bold text-gradient">
+            <LocalizedLink 
+              to="/" 
+              className="text-2xl font-bold text-gradient"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            >
               Kliv
             </LocalizedLink>
           </div>
