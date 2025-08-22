@@ -12,58 +12,64 @@ interface Testimonial {
 const TestimonialsSection = () => {
   const { t } = useTranslation();
 
-  const testimonials: Testimonial[] = [
+  const testimonialKeys = [
     {
-      quote: t('testimonials.githubIntegration'),
-      author: t('testimonials.emmaChenAuthor'),
-      title: t('testimonials.emmaChenTitle'),
+      quote: 'testimonials.githubIntegration',
+      author: 'testimonials.emmaChenAuthor',
+      title: 'testimonials.emmaChenTitle',
     },
     {
-      quote: t('testimonials.launchedFaster'),
-      author: t('testimonials.carlosAuthor'),
-      title: t('testimonials.carlosTitle'),
+      quote: 'testimonials.launchedFaster',
+      author: 'testimonials.carlosAuthor',
+      title: 'testimonials.carlosTitle',
     },
     {
-      quote: t('testimonials.clientSiteUp'),
-      author: t('testimonials.yukiAuthor'),
-      title: t('testimonials.yukiTitle'),
+      quote: 'testimonials.clientSiteUp',
+      author: 'testimonials.yukiAuthor',
+      title: 'testimonials.yukiTitle',
     },
     {
-      quote: t('testimonials.onlineStoreConfused'),
-      author: t('testimonials.jenniferAuthor'),
-      title: t('testimonials.jenniferTitle'),
+      quote: 'testimonials.onlineStoreConfused',
+      author: 'testimonials.jenniferAuthor',
+      title: 'testimonials.jenniferTitle',
     },
     {
-      quote: t('testimonials.noHostingAccounts'),
-      author: t('testimonials.alexKAuthor'),
-      title: t('testimonials.alexKTitle'),
+      quote: 'testimonials.noHostingAccounts',
+      author: 'testimonials.alexKAuthor',
+      title: 'testimonials.alexKTitle',
     },
     {
-      quote: t('testimonials.featuresNeeded'),
-      author: t('testimonials.lucasAuthor'),
-      title: t('testimonials.lucasTitle'),
+      quote: 'testimonials.featuresNeeded',
+      author: 'testimonials.lucasAuthor',
+      title: 'testimonials.lucasTitle',
     },
     {
-      quote: t('testimonials.learnedToCode'),
-      author: t('testimonials.mohamedAuthor'),
-      title: t('testimonials.mohamedTitle'),
+      quote: 'testimonials.learnedToCode',
+      author: 'testimonials.mohamedAuthor',
+      title: 'testimonials.mohamedTitle',
     },
     {
-      quote: t('testimonials.japaneseExplanation'),
-      author: t('testimonials.keikoAuthor'),
-      title: t('testimonials.keikoTitle'),
+      quote: 'testimonials.japaneseExplanation',
+      author: 'testimonials.keikoAuthor',
+      title: 'testimonials.keikoTitle',
     },
     {
-      quote: t('testimonials.ideaToLive'),
-      author: t('testimonials.rachelAuthor'),
-      title: t('testimonials.rachelTitle'),
+      quote: 'testimonials.ideaToLive',
+      author: 'testimonials.rachelAuthor',
+      title: 'testimonials.rachelTitle',
     },
     {
-      quote: t('testimonials.threeSites'),
-      author: t('testimonials.diegoAuthor'),
-      title: t('testimonials.diegoTitle'),
+      quote: 'testimonials.threeSites',
+      author: 'testimonials.diegoAuthor',
+      title: 'testimonials.diegoTitle',
     },
   ];
+
+  const testimonials: Testimonial[] = testimonialKeys.map(keys => ({
+    quote: t(keys.quote),
+    author: t(keys.author),
+    title: t(keys.title),
+  }));
 
   // Duplicate the testimonials array to create seamless infinite scroll
   const duplicatedTestimonials = [...testimonials, ...testimonials];

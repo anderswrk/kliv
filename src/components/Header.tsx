@@ -27,6 +27,9 @@ export function Header() {
   ];
 
   const navigation = [
+    { name: t('nav.howItWorks'), href: '#how-it-works' },
+    { name: t('nav.features'), href: '#features' },
+    { name: t('nav.pricing'), href: '/pricing' },
   ];
 
   const handleLanguageChange = (newLang: string) => {
@@ -53,13 +56,23 @@ export function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navigation.map((item) => (
-              <LocalizedLink
-                key={item.name}
-                to={item.href}
-                className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-              >
-                {item.name}
-              </LocalizedLink>
+              item.href.startsWith('#') ? (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <LocalizedLink
+                  key={item.name}
+                  to={item.href}
+                  className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+                >
+                  {item.name}
+                </LocalizedLink>
+              )
             ))}
           </nav>
 
@@ -128,14 +141,25 @@ export function Header() {
           <div className="md:hidden py-4 border-t border-border animate-fade-in">
             <div className="flex flex-col space-y-4">
               {navigation.map((item) => (
-                <LocalizedLink
-                  key={item.name}
-                  to={item.href}
-                  className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.name}
-                </LocalizedLink>
+                item.href.startsWith('#') ? (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    {item.name}
+                  </a>
+                ) : (
+                  <LocalizedLink
+                    key={item.name}
+                    to={item.href}
+                    className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    {item.name}
+                  </LocalizedLink>
+                )
               ))}
               <div className="flex items-center justify-between pt-4 border-t border-border">
                 <div className="flex items-center space-x-2">
