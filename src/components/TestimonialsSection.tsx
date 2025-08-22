@@ -9,7 +9,7 @@ interface Testimonial {
   title: string;
 }
 
-const TestimonialsSection: React.FC = () => {
+const TestimonialsSection = () => {
   const { t } = useTranslation();
 
   const testimonials: Testimonial[] = [
