@@ -19,6 +19,7 @@ import { NotFound } from "./pages/NotFound";
 import { DynamicLandingPage } from "./pages/DynamicLandingPage";
 import { Inspiration } from "./pages/Inspiration";
 import { CategoryPage } from "./pages/CategoryPage"; // Import the new CategoryPage
+import { ScrollToTop } from "./components/ScrollToTop";
 import { initializeGclidTracking } from "./utils/gclid";
 import "./i18n";
 import { useEffect } from "react";
@@ -38,6 +39,7 @@ const App = () => {
           <Toaster />
           <Sonner />
           <BrowserRouter>
+            <ScrollToTop />
             <Routes>
               {/* Redirect root to default language */}
               <Route path="/" element={<LanguageRouter><Index /></LanguageRouter>} />
