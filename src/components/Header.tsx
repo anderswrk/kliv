@@ -32,6 +32,16 @@ export function Header() {
     { name: t('nav.pricing'), href: '/pricing' },
   ];
 
+  const handleAnchorClick = (href: string, e: React.MouseEvent) => {
+    if (href.startsWith('#')) {
+      const isOnHomePage = location.pathname === `/${lang}` || location.pathname === '/';
+      if (!isOnHomePage) {
+        e.preventDefault();
+        navigate(`/${lang || 'en'}${href}`);
+      }
+    }
+  };
+
   const handleLanguageChange = (newLang: string) => {
     const currentPath = location.pathname;
     const currentLang = lang || 'en';
@@ -60,6 +70,7 @@ export function Header() {
                 <a
                   key={item.name}
                   href={item.href}
+                  onClick={(e) => handleAnchorClick(item.href, e)}
                   className="text-muted-foreground hover:text-foreground transition-colors duration-200"
                 >
                   {item.name}
@@ -145,8 +156,11 @@ export function Header() {
                   <a
                     key={item.name}
                     href={item.href}
+                    onClick={(e) => {
+                      handleAnchorClick(item.href, e);
+                      setMobileMenuOpen(false);
+                    }}
                     className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-                    onClick={() => setMobileMenuOpen(false)}
                   >
                     {item.name}
                   </a>
