@@ -5,48 +5,21 @@ import { Card, CardContent } from '@/components/ui/card';
 export function FeaturesSection() {
   const { t } = useTranslation();
 
-  const features = [
-    {
-      title: "Hosting Included",
-      description: "No servers to manage, no deployment headaches. Your app goes live instantly with lightning-fast global CDN.",
-      delay: '0ms'
-    },
-    {
-      title: "Your Own Domain",
-      description: "Connect your custom domain with one click. Professional URLs that reflect your brand.",
-      delay: '100ms'
-    },
-    {
-      title: "GitHub Sync",
-      description: "Keep your source code safe. Enable GitHub syncing to maintain full ownership and version history.",
-      delay: '200ms'
-    },
-    {
-      title: "AI Builds For You",
-      description: "Describe your vision and watch it come to life. Our AI understands your requirements and creates production-ready code.",
-      delay: '300ms'
-    },
-    {
-      title: "Code & Preview",
-      description: "Edit your source code directly if you want. See results instantly with live preview - no refresh needed.",
-      delay: '400ms'
-    },
-    {
-      title: "Time Travel",
-      description: "Every change is snapshotted. Made a mistake? Go back to any previous version with one click.",
-      delay: '500ms'
-    },
-    {
-      title: "Mobile First",
-      description: "Built responsive from the ground up. Your apps look perfect on every device, every time.",
-      delay: '600ms'
-    }
+  const featureKeys = [
+    { key: 'hosting', delay: '0ms' },
+    { key: 'domain', delay: '100ms' },
+    { key: 'github', delay: '200ms' },
+    { key: 'ai', delay: '300ms' },
+    { key: 'editing', delay: '400ms' },
+    { key: 'snapshots', delay: '500ms' },
+    { key: 'mobile', delay: '600ms' }
   ];
 
   return (
-    <section id="features" className="py-24 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-900 dark:to-gray-800 relative overflow-hidden">
+    <section id="features" className="py-24 bg-gradient-to-br from-gray-50 via-slate-100 to-gray-200 dark:from-gray-900 dark:via-slate-800 dark:to-gray-700 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] dark:bg-grid-slate-700/25"></div>
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-96 bg-gradient-to-r from-gray-300/20 via-slate-400/30 to-gray-300/20 blur-3xl"></div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-20">
@@ -54,26 +27,26 @@ export function FeaturesSection() {
             ✨ Everything You Need
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-gray-700 to-gray-800 dark:from-white dark:via-gray-200 dark:to-gray-300 bg-clip-text text-transparent leading-tight">
-            Powerful Features
+            {t('features.title')}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Stop wrestling with deployment pipelines and build configurations. Kliv handles the technical complexity so you can focus on creating.
+            {t('features.subtitle')}
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {features.map((feature, index) => (
+          {featureKeys.map((feature, index) => (
             <Card 
-              key={index} 
+              key={feature.key} 
               className="group hover:shadow-2xl hover:shadow-gray-500/10 transition-all duration-500 border-0 bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl hover:scale-[1.02] hover:-translate-y-2"
               style={{ animationDelay: feature.delay }}
             >
               <CardContent className="p-8">
                 <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white group-hover:text-gray-700 dark:group-hover:text-gray-200 transition-colors">
-                  {feature.title}
+                  {t(`features.${feature.key}.title`)}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  {feature.description}
+                  {t(`features.${feature.key}.description`)}
                 </p>
                 
                 {/* Subtle glow effect */}
