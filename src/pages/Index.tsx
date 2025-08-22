@@ -13,8 +13,9 @@ export const Index = () => {
       <main className="pt-16">
         <HeroSection />
         <CommunityShowcase />
+        <HowItWorksSection />
         <FeaturesSection />
-        <TestimonialsSection /> {/* Add the TestimonialsSection */}
+        <TestimonialsSection />
       </main>
       <Footer />
     </div>
