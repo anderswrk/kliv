@@ -92,7 +92,7 @@ export const Inspiration = () => {
     return (
       <div className="min-h-screen bg-background">
         <Header />
-        <main className="pt-24">
+        <main className="pt-16">
           <div className="container mx-auto px-4 py-16">
             <div className="text-center">
               <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto"></div>
@@ -109,9 +109,9 @@ export const Inspiration = () => {
     <div className="min-h-screen bg-background">
       <Header />
       
-      <main className="pt-24">
+      <main className="pt-16">
         {/* Header */}
-        <div className="border-b border-border bg-muted/30 pt-16">
+        <div className="border-b border-border bg-muted/30">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="max-w-3xl mx-auto text-center">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
