@@ -65,17 +65,29 @@ const TestimonialsSection: React.FC = () => {
     },
   ];
 
+  // Duplicate the testimonials array to create seamless infinite scroll
+  const duplicatedTestimonials = [...testimonials, ...testimonials];
+
   return (
-    <section className="py-16 bg-gray-50 dark:bg-gray-900">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">
-          {t('testimonials.title')}
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <Card key={index} className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden transform transition-transform hover:scale-105 duration-300">
+    <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
+      <div className="container mx-auto px-4 mb-12">
+        <div className="text-center max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            {t('testimonials.title')}
+          </h2>
+          <p className="text-xl text-gray-600 dark:text-gray-400">
+            What our users say about Kliv
+          </p>
+        </div>
+      </div>
+
+      {/* Scrolling Carousel */}
+      <div className="relative">
+        <div className="flex animate-scroll-left space-x-6 w-max">
+          {duplicatedTestimonials.map((testimonial, index) => (
+            <Card key={`${testimonial.author}-${index}`} className="w-96 flex-shrink-0 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <CardContent className="p-6">
-                <p className="text-gray-700 dark:text-gray-300 text-lg italic mb-4">"{testimonial.quote}"</p>
+                <p className="text-gray-700 dark:text-gray-300 text-lg italic mb-4 line-clamp-3">"{testimonial.quote}"</p>
                 <div className="flex items-center">
                   <Avatar className="h-12 w-12 mr-4">
                     <AvatarImage src={`https://api.dicebear.com/7.x/initials/svg?seed=${testimonial.author}`} alt={testimonial.author} />

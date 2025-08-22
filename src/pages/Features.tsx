@@ -230,36 +230,6 @@ export function Features() {
               </div>
             </div>
 
-            {/* Technology Stack */}
-            <div>
-              <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold mb-4">{t('features.page.technology.title')}</h2>
-              </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {technologyFeatures.map((feature, index) => (
-                  <Card key={index} className="border-0 shadow-sm hover:shadow-lg transition-shadow duration-300">
-                    <CardContent className="p-8">
-                      <div className="flex items-start space-x-4">
-                        <div className="flex-shrink-0">
-                          <div className="inline-flex p-3 rounded-xl bg-purple-500/10">
-                            <feature.icon className="h-6 w-6 text-purple-600" />
-                          </div>
-                        </div>
-                        <div>
-                          <h3 className="text-xl font-semibold mb-3">
-                            {feature.title}
-                          </h3>
-                          <p className="text-muted-foreground leading-relaxed">
-                            {feature.description}
-                          </p>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </main>
