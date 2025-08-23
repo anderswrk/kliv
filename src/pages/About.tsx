@@ -11,7 +11,7 @@ export function About() {
         <div className="bg-gradient-to-r from-gray-100 via-slate-100 to-gray-200 dark:from-gray-800 dark:via-gray-700 dark:to-gray-600 py-20">
           <div className="container mx-auto px-4">
             <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900 dark:text-white">
-              About Us
+              About Kliv
             </h1>
           </div>
         </div>
@@ -26,7 +26,7 @@ export function About() {
               </h2>
               <div className="text-gray-700 dark:text-gray-300 space-y-4">
                 <p>
-                  I've been an engineer since the early 2000s and I've always loved writing code. It's my type of creative work. Some people paint, some write music. I can't do either of those things well. But I can write code well. There's a real joy in taking basic logical building blocks and shape them into something useful and elegant.
+                  I've been an engineer for a fairly long time now and I've always loved writing code. It's my type of creative work. Some people paint, some write music. I can't do either of those things well. But I can write code well. There's a real joy in taking basic logical building blocks and shape them into something useful and elegant.
                 </p>
                 <p>
                   That kind of deep, hands-on programming will always have a place.

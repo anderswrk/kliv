@@ -56,17 +56,7 @@ export function FeaturesSection() {
           ))}
         </div>
 
-        {/* Bottom CTA section */}
-        <div className="text-center mt-20">
-          <div className="inline-flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-            <div className="flex -space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-gray-400 to-gray-600 rounded-full border-2 border-white dark:border-slate-800"></div>
-              <div className="w-8 h-8 bg-gradient-to-r from-gray-500 to-gray-700 rounded-full border-2 border-white dark:border-slate-800"></div>
-              <div className="w-8 h-8 bg-gradient-to-r from-gray-600 to-gray-800 rounded-full border-2 border-white dark:border-slate-800"></div>
-            </div>
-            <span>Trusted by thousands of developers worldwide</span>
-          </div>
-        </div>
+
       </div>
     </section>
   );
