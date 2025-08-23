@@ -26,8 +26,8 @@ export function About() {
             
             {/* Founder's Note */}
             <section>
-              <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-gray-100">founder's note</h2>
-              <div className="prose prose-lg max-w-none text-gray-600 dark:text-gray-300 space-y-6">
+              <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100">Founder's note</h2>
+              <div className="prose max-w-none text-gray-600 dark:text-gray-300 space-y-6">
                 <p>
                   I've been an engineer since the early 2000s. I've always loved writing code — not just for what it enables, but for what it is. It's creative. Some people paint, some write music. I build things from code. There's a real joy in taking basic logical building blocks and shaping them into something useful, elegant, even beautiful.
                 </p>
@@ -61,8 +61,8 @@ export function About() {
 
             {/* What is Kliv */}
             <section>
-              <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-gray-100">what is kliv</h2>
-              <div className="prose prose-lg max-w-none text-gray-600 dark:text-gray-300 space-y-6">
+              <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100">What is Kliv</h2>
+              <div className="prose max-w-none text-gray-600 dark:text-gray-300 space-y-6">
                 <p>
                   Kliv is a programmable canvas where AI can build and ship real software — not mockups, not demos, but production-ready code.
                 </p>
@@ -79,21 +79,21 @@ export function About() {
 
             {/* Where we're going */}
             <section>
-              <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-gray-100">where we're going</h2>
-              <div className="prose prose-lg max-w-none text-gray-600 dark:text-gray-300 space-y-6">
+              <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100">Where we're going</h2>
+              <div className="prose max-w-none text-gray-600 dark:text-gray-300 space-y-6">
                 <p>
                   Today, Kliv builds frontends. Tomorrow, it builds systems.
                 </p>
                 <p>The roadmap is about unlocking deeper capabilities:</p>
                 <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                  <li>background jobs</li>
-                  <li>queues and workers</li>
+                  <li>Background jobs</li>
+                  <li>Queues and workers</li>
                   <li>API endpoints</li>
-                  <li>workflows</li>
-                  <li>backend business logic</li>
-                  <li>full data pipelines</li>
-                  <li>permission models</li>
-                  <li>full infrastructure-as-code</li>
+                  <li>Workflows</li>
+                  <li>Backend business logic</li>
+                  <li>Full data pipelines</li>
+                  <li>Permission models</li>
+                  <li>Full infrastructure-as-code</li>
                 </ul>
                 <p>
                   We're paving the road so the AI can assemble more of the stack — not in a fragile way, but in a way that holds up. The goal is not to fake software with pretty UI. It's to build real systems using real components, wired together by intelligent composition.
