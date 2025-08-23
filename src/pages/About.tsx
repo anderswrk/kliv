@@ -69,6 +69,38 @@ export function About() {
                 <p>{t('aboutPage.whereWereGoing.paragraph2')}</p>
               </div>
             </section>
+
+            {/* Investors */}
+            <section>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+                {t('aboutPage.investors.title')}
+              </h2>
+              <div className="text-gray-700 dark:text-gray-300 space-y-4">
+                <p>{t('aboutPage.investors.paragraph1')}</p>
+                <p>
+                  {t('aboutPage.investors.paragraph2')}{' '}
+                  <a 
+                    href="https://rational.ventures/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 dark:text-blue-400 hover:underline"
+                  >
+                    {t('aboutPage.investors.rationalVentures')}
+                  </a>
+                  {t('aboutPage.investors.paragraph2Suffix')}
+                </p>
+                <p>
+                  {t('aboutPage.investors.paragraph3')}{' '}
+                  <a 
+                    href="mailto:hello@kliv.dev"
+                    className="text-blue-600 dark:text-blue-400 hover:underline"
+                  >
+                    hello@kliv.dev
+                  </a>
+                  {t('aboutPage.investors.paragraph3Suffix')}
+                </p>
+              </div>
+            </section>
           </div>
         </div>
       </main>
