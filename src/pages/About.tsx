@@ -27,13 +27,34 @@ export function About() {
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
                 {t('aboutPage.foundersNote.title')}
               </h2>
-              <div className="text-gray-700 dark:text-gray-300 space-y-4">
-                <p>{t('aboutPage.foundersNote.paragraph1')}</p>
-                <p>{t('aboutPage.foundersNote.paragraph2')}</p>
-                <p>{t('aboutPage.foundersNote.paragraph3')}</p>
-                <p>{t('aboutPage.foundersNote.paragraph4')}</p>
-                <p>{t('aboutPage.foundersNote.paragraph5')}</p>
-                <p>{t('aboutPage.foundersNote.paragraph6')}</p>
+              <div className="flex flex-col lg:flex-row gap-8 items-start">
+                {/* Founder Photo */}
+                <div className="flex-shrink-0">
+                  <div className="w-48 h-48 rounded-lg overflow-hidden shadow-lg">
+                    <img 
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                      alt={t('aboutPage.foundersNote.founderAlt')}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                
+                {/* Note Content */}
+                <div className="flex-1 text-gray-700 dark:text-gray-300 space-y-4">
+                  <p>{t('aboutPage.foundersNote.paragraph1')}</p>
+                  <p>{t('aboutPage.foundersNote.paragraph2')}</p>
+                  <p>{t('aboutPage.foundersNote.paragraph3')}</p>
+                  <p>{t('aboutPage.foundersNote.paragraph4')}</p>
+                  <p>{t('aboutPage.foundersNote.paragraph5')}</p>
+                  <p>{t('aboutPage.foundersNote.paragraph6')}</p>
+                  
+                  {/* Signature */}
+                  <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
+                    <p className="text-gray-900 dark:text-white font-medium">
+                      {t('aboutPage.foundersNote.signature')}
+                    </p>
+                  </div>
+                </div>
               </div>
             </section>
 
