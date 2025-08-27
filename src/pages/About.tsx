@@ -32,7 +32,7 @@ export function About() {
                 <div className="flex-shrink-0">
                   <div className="w-48 h-48 rounded-lg overflow-hidden shadow-lg">
                     <img 
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                      src="/content/img/anders-profile-greyscale.jpg"
                       alt={t('aboutPage.foundersNote.founderAlt')}
                       className="w-full h-full object-cover"
                     />
@@ -51,7 +51,12 @@ export function About() {
                   {/* Signature */}
                   <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
                     <p className="text-gray-900 dark:text-white font-medium">
-                      {t('aboutPage.foundersNote.signature')}
+                      —<a 
+                        href="mailto:anders@kliv.dev" 
+                        className="text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300"
+                      >
+                        Anders Olsson
+                      </a>, Founder, Kliv
                     </p>
                   </div>
                 </div>
