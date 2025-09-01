@@ -12,7 +12,9 @@ export function FeaturesSection() {
     { key: 'ai', delay: '300ms' },
     { key: 'editing', delay: '400ms' },
     { key: 'snapshots', delay: '500ms' },
-    { key: 'mobile', delay: '600ms' }
+    { key: 'mobile', delay: '600ms' },
+    { key: 'teamInvite', delay: '700ms' },
+    { key: 'roleAccess', delay: '800ms' }
   ];
 
   return (
