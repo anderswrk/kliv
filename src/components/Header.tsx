@@ -10,7 +10,8 @@ import {
   DropdownMenuTrigger 
 } from '@/components/ui/dropdown-menu';
 import { useTheme } from '@/components/theme-provider';
-import { Moon, Sun, Globe, Menu, X } from 'lucide-react';
+import { useUserSession } from '../hooks/useUserSession';
+import { Moon, Sun, Globe, Menu, X, User, LogOut } from 'lucide-react';
 
 export function Header() {
   const { t, i18n } = useTranslation();
@@ -19,6 +20,7 @@ export function Header() {
   const { lang } = useParams<{ lang: string }>();
   const navigate = useNavigate();
   const location = useLocation();
+  const { isLoggedIn, userName, loading, goToPortal } = useUserSession();
 
   const languages = [
     { code: 'en', name: 'English' },
@@ -127,12 +129,30 @@ export function Header() {
             </Button>
 
             {/* Auth Buttons */}
-            <Button variant="ghost" size="sm" asChild>
-              <LocalizedLink to="/login">{t('nav.signIn')}</LocalizedLink>
-            </Button>
-            <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
-              <LocalizedLink to="/signup">{t('nav.getStarted')}</LocalizedLink>
-            </Button>
+            {loading ? (
+              <Button variant="ghost" size="sm" disabled>
+                <div className="w-4 h-4 border-2 border-gray-300 border-t-gray-600 rounded-full animate-spin" />
+              </Button>
+            ) : isLoggedIn ? (
+              <div className="flex items-center space-x-2">
+                <span className="text-sm text-muted-foreground">
+                  Welcome, {userName}
+                </span>
+                <Button variant="ghost" size="sm" onClick={goToPortal}>
+                  <User className="h-4 w-4 mr-2" />
+                  Portal
+                </Button>
+              </div>
+            ) : (
+              <>
+                <Button variant="ghost" size="sm" asChild>
+                  <LocalizedLink to="/login">{t('nav.signIn')}</LocalizedLink>
+                </Button>
+                <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
+                  <LocalizedLink to="/signup">{t('nav.getStarted')}</LocalizedLink>
+                </Button>
+              </>
+            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -214,12 +234,30 @@ export function Header() {
                 </div>
               </div>
               <div className="flex flex-col space-y-2 pt-2">
-                <Button variant="ghost" size="sm" className="justify-start" asChild>
-                  <LocalizedLink to="/login">{t('nav.signIn')}</LocalizedLink>
-                </Button>
-                <Button size="sm" className="bg-primary hover:bg-primary/90" asChild>
-                  <LocalizedLink to="/signup">{t('nav.getStarted')}</LocalizedLink>
-                </Button>
+                {loading ? (
+                  <Button variant="ghost" size="sm" className="justify-start" disabled>
+                    <div className="w-4 h-4 border-2 border-gray-300 border-t-gray-600 rounded-full animate-spin" />
+                  </Button>
+                ) : isLoggedIn ? (
+                  <>
+                    <div className="px-3 py-2 text-sm text-muted-foreground">
+                      Welcome, {userName}
+                    </div>
+                    <Button variant="ghost" size="sm" className="justify-start" onClick={goToPortal}>
+                      <User className="h-4 w-4 mr-2" />
+                      Portal
+                    </Button>
+                  </>
+                ) : (
+                  <>
+                    <Button variant="ghost" size="sm" className="justify-start" asChild>
+                      <LocalizedLink to="/login">{t('nav.signIn')}</LocalizedLink>
+                    </Button>
+                    <Button size="sm" className="bg-primary hover:bg-primary/90 justify-start" asChild>
+                      <LocalizedLink to="/signup">{t('nav.getStarted')}</LocalizedLink>
+                    </Button>
+                  </>
+                )}
               </div>
             </div>
           </div>

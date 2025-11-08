@@ -1,3 +1,4 @@
+import React from 'react';
 import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
 import { FeaturesSection } from '@/components/FeaturesSection';
@@ -5,8 +6,16 @@ import CommunityShowcase from '@/components/CommunityShowcase';
 import HowItWorksSection from '@/components/HowItWorksSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import { Footer } from '@/components/Footer';
+import { useUserSession } from '../hooks/useUserSession';
 
 export const Index = () => {
+  const { refreshSession } = useUserSession();
+
+  // Refresh session when the home page loads to ensure header state is current
+  React.useEffect(() => {
+    refreshSession();
+  }, [refreshSession]);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />

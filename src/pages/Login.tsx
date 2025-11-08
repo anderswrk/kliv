@@ -16,6 +16,7 @@ import axios from 'axios';
 import { startAuthentication } from '@simplewebauthn/browser';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
+import { useUserSession } from '../hooks/useUserSession';
 
 // Form schemas
 const loginSchema = z.object({
@@ -69,8 +70,9 @@ export default function Login({
 }: LoginProps) {
   const { t, i18n } = useTranslation();
   const { theme } = useTheme();
+  const { isLoggedIn, loading, goToPortal } = useUserSession();
   const [state, setState] = useState<LoginState>('login');
-  const [loading, setLoading] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [resetSuccess, setResetSuccess] = useState(false);
   const [authReason, setAuthReason] = useState<string | null>(null);
@@ -154,8 +156,14 @@ export default function Login({
     }
   }, [oauthGoogleClientId, ssoBoot]);
 
-  // Check for atoken on mount
+  // Check for atoken on mount and redirect if already logged in
   useEffect(() => {
+    // If user is already logged in and not in reauthentication mode, redirect to portal
+    if (isLoggedIn && !reauthentication && !atoken && !ssoBoot) {
+      goToPortal();
+      return;
+    }
+
     const urlParams = new URLSearchParams(window.location.search);
     const atokenParam = urlParams.get('atoken');
     
@@ -167,7 +175,7 @@ export default function Login({
     if (isSso && reauthentication) {
       setState('sso-reauth');
     }
-  }, [isSso, reauthentication]);
+  }, [isLoggedIn, reauthentication, atoken, ssoBoot, goToPortal]);
 
   const clearAuthenticationData = () => {
     setLoginData({});
@@ -263,7 +271,7 @@ export default function Login({
 
   const onSubmit = async (data: any) => {
     setMessage(null);
-    setLoading(true);
+    setSubmitting(true);
 
     const submitData = {
       email: data.email ?? knownEmail,
@@ -319,7 +327,7 @@ export default function Login({
         window.location.href = targetUrl;
       }
     } catch (error: any) {
-      setLoading(false);
+      setSubmitting(false);
       
       if (error.response?.data?.error === 'sso') {
         window.location.href = `/!saml/login/${error.response.data.domain}?return=${encodeURIComponent(window.location.href)}`;
@@ -342,6 +350,7 @@ export default function Login({
 
   const onRecoverSubmit = async (data: RecoveryFormData) => {
     setMessage(null);
+    setSubmitting(true);
     try {
       await axios.post('/api/v1/user/reset_password', { email: data.email }, {
         headers: {
@@ -357,11 +366,14 @@ export default function Login({
       } else {
         setMessage(error.message);
       }
+    } finally {
+      setSubmitting(false);
     }
   };
 
   const onTotpSubmit = async (data: TotpFormData) => {
     setMessage(null);
+    setSubmitting(true);
     try {
       const sessionResponse = await axios.post('/api/v1/user/session', {
         email: loginData.email ?? knownEmail,
@@ -413,6 +425,8 @@ export default function Login({
       } else {
         setMessage(error.message);
       }
+    } finally {
+      setSubmitting(false);
     }
   };
 
@@ -443,8 +457,19 @@ export default function Login({
     onSubmit(data);
   };
 
-  if (atoken) {
-    return null; // Loading state while processing atoken
+  if (atoken || loading) {
+    return (
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-grow flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8 pt-28 sm:pt-24 lg:pt-20">
+          <div className="text-center">
+            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4" />
+            <p className="text-muted-foreground">Checking authentication status...</p>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    );
   }
 
   return (
@@ -500,9 +525,9 @@ export default function Login({
                       <Button 
                         onClick={onReauthenticateWithSSOButtonClick}
                         className="w-full"
-                        disabled={loading}
+                        disabled={submitting}
                       >
-                        {loading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+                        {submitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                         {t('login.continue')}
                       </Button>
                     </div>
@@ -529,8 +554,8 @@ export default function Login({
                             </FormItem>
                           )}
                         />
-                        <Button type="submit" className="w-full" disabled={loading}>
-                          {loading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+                        <Button type="submit" className="w-full" disabled={submitting}>
+                          {submitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                           {t('login.goToLoginButton')}
                         </Button>
                         <Button
@@ -567,8 +592,8 @@ export default function Login({
                             </FormItem>
                           )}
                         />
-                        <Button type="submit" className="w-full" disabled={loading}>
-                          {loading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+                        <Button type="submit" className="w-full" disabled={submitting}>
+                          {submitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                           {t('login.send')}
                         </Button>
                         <Button
@@ -609,8 +634,8 @@ export default function Login({
                               </FormItem>
                             )}
                           />
-                          <Button type="submit" className="w-full" disabled={loading}>
-                            {loading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+                          <Button type="submit" className="w-full" disabled={submitting}>
+                            {submitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                             {t('login.logInButton')}
                           </Button>
                           <Button
@@ -710,8 +735,8 @@ export default function Login({
                             </div>
                           )}
 
-                          <Button type="submit" className="w-full" disabled={loading}>
-                            {loading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+                          <Button type="submit" className="w-full" disabled={submitting}>
+                            {submitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                             {t(reauthentication ? 'login.continueButton' : 'login.logInButton')}
                           </Button>
                         </form>
@@ -735,7 +760,7 @@ export default function Login({
                             variant="outline"
                             onClick={onGoogleLoginClick}
                             className="w-full"
-                            disabled={loading}
+                            disabled={submitting}
                           >
                             <svg className="mr-2 h-4 w-4" viewBox="0 0 19 19" fill="none">
                               <path d="M17.2627 7.9495H16.625V7.91665H9.5V11.0833H13.9741C13.3214 12.9267 11.5674 14.25 9.5 14.25C6.87681 14.25 4.75 12.1232 4.75 9.49998C4.75 6.87679 6.87681 4.74998 9.5 4.74998C10.7109 4.74998 11.8125 5.20677 12.6512 5.95292L14.8905 3.71369C13.4765 2.39596 11.5853 1.58331 9.5 1.58331C5.12802 1.58331 1.58334 5.128 1.58334 9.49998C1.58334 13.872 5.12802 17.4166 9.5 17.4166C13.872 17.4166 17.4167 13.872 17.4167 9.49998C17.4167 8.96917 17.362 8.45102 17.2627 7.9495Z" fill="#FFC107"/>
@@ -754,7 +779,7 @@ export default function Login({
                             variant="outline"
                             onClick={loginAzureAd}
                             className="w-full"
-                            disabled={loading}
+                            disabled={submitting}
                           >
                             <svg className="mr-2 h-4 w-4" viewBox="0 0 19 19" fill="none">
                               <path d="M9.0299 9.0299H0V0H9.0299V9.0299Z" fill="#F1511B"/>
@@ -772,7 +797,7 @@ export default function Login({
                           variant="outline"
                           onClick={onPasskeyLoginClick}
                           className="w-full"
-                          disabled={loading}
+                          disabled={submitting}
                         >
                           <Key className="mr-2 h-4 w-4" />
                           {t(reauthentication ? 'login.continueWithPasskey' : 'login.signInWithPasskey')}
