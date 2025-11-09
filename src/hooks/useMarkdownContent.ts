@@ -29,7 +29,7 @@ export function useMarkdownContent(contentType: 'terms' | 'privacy' | 'security'
         
         try {
           // Try to load the content for the current language
-          const response = await fetch(`/content/${contentType}/${language}.md`);
+          const response = await fetch(`/content/docs/${contentType}/${language}.md`);
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
@@ -39,7 +39,7 @@ export function useMarkdownContent(contentType: 'terms' | 'privacy' | 'security'
           console.warn(`Failed to load ${contentType} content for language ${language}, falling back to English`);
           // Fallback to English if the language file doesn't exist
           try {
-            const fallbackResponse = await fetch(`/content/${contentType}/en.md`);
+            const fallbackResponse = await fetch(`/content/docs/${contentType}/en.md`);
             if (!fallbackResponse.ok) {
               throw new Error(`HTTP error! status: ${fallbackResponse.status}`);
             }
