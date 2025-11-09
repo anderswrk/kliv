@@ -11,6 +11,7 @@ import { ArrowRight, MessageSquare, Copy, ChevronDown, ChevronUp, Lightbulb } fr
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { useTypingAnimation } from '@/hooks/useTypingAnimation';
+import db from '@/lib/shared/kliv-database';
 
 interface LandingPageContent {
   title: string;
@@ -159,30 +160,58 @@ export function DynamicLandingPage() {
         setLoading(true);
         setError(false);
         
-        // Construct the path for the JSON file
-        const contentPath = subcategory 
-          ? `${category}/${subcategory}`
-          : category;
+        // Get the slug for the specific page
+        const pageSlug = subcategory || category;
         
-        const response = await fetch(`/content/landing-pages/${lang}/${contentPath}.json`);
-        
-        if (!response.ok) {
-          throw new Error('Content not found');
+        if (!pageSlug) {
+          throw new Error('Missing page slug');
         }
         
-        const data = await response.json();
-        setContent(data);
+        // Fetch from database directly
+        const pages = await db.query('landing_pages', {
+          slug: `eq.${pageSlug}`
+        });
+        
+        if (!Array.isArray(pages) || pages.length === 0) {
+          throw new Error('No content found');
+        }
+        
+        const pageData = pages[0];
+        
+        // Parse the sections JSON
+        let parsedSections = [];
+        try {
+          parsedSections = JSON.parse(pageData.sections || '[]');
+        } catch (e) {
+          console.error('Error parsing sections:', e);
+        }
+        
+        // Transform data to match expected interface
+        const transformedData: LandingPageContent = {
+          title: pageData.title,
+          description: pageData.description,
+          metaDescription: pageData.meta_description || pageData.description,
+          hero: {
+            title: pageData.hero_title || pageData.title,
+            subtitle: pageData.hero_subtitle || pageData.description,
+            cta: pageData.hero_cta || 'Start Building'
+          },
+          sections: parsedSections,
+          defaultPrompt: pageData.default_prompt
+        };
+        
+        setContent(transformedData);
         
         // Set default prompt if available
-        if (data.defaultPrompt && !message) {
-          setMessage(data.defaultPrompt);
+        if (transformedData.defaultPrompt && !message) {
+          setMessage(transformedData.defaultPrompt);
         }
         
         // Update page title and meta description
-        document.title = `${data.title} | Kliv`;
+        document.title = `${transformedData.title} | Kliv`;
         const metaDescription = document.querySelector('meta[name="description"]');
         if (metaDescription) {
-          metaDescription.setAttribute('content', data.metaDescription);
+          metaDescription.setAttribute('content', transformedData.metaDescription);
         }
 
         // Add OpenGraph meta tags
@@ -207,22 +236,22 @@ export function DynamicLandingPage() {
         };
 
         // OpenGraph tags
-        updateOrCreateMetaTag('og:title', data.title);
-        updateOrCreateMetaTag('og:description', data.metaDescription);
+        updateOrCreateMetaTag('og:title', transformedData.title);
+        updateOrCreateMetaTag('og:description', transformedData.metaDescription);
         updateOrCreateMetaTag('og:url', window.location.href);
         updateOrCreateMetaTag('og:type', 'website');
         updateOrCreateMetaTag('og:site_name', 'Kliv');
         
         // Twitter Card tags
         updateOrCreateNameMetaTag('twitter:card', 'summary_large_image');
-        updateOrCreateNameMetaTag('twitter:title', data.title);
-        updateOrCreateNameMetaTag('twitter:description', data.metaDescription);
+        updateOrCreateNameMetaTag('twitter:title', transformedData.title);
+        updateOrCreateNameMetaTag('twitter:description', transformedData.metaDescription);
         updateOrCreateNameMetaTag('twitter:site', '@kliv');
 
         // Add hero image as og:image if available
-        if (data.hero.image) {
-          updateOrCreateMetaTag('og:image', new URL(data.hero.image, window.location.origin).href);
-          updateOrCreateNameMetaTag('twitter:image', new URL(data.hero.image, window.location.origin).href);
+        if (transformedData.hero.image) {
+          updateOrCreateMetaTag('og:image', new URL(transformedData.hero.image, window.location.origin).href);
+          updateOrCreateNameMetaTag('twitter:image', new URL(transformedData.hero.image, window.location.origin).href);
         }
 
         // Add breadcrumb structured data
@@ -250,15 +279,15 @@ export function DynamicLandingPage() {
         const structuredData = {
           "@context": "https://schema.org",
           "@type": "WebPage",
-          "name": data.title,
-          "description": data.metaDescription,
+          "name": transformedData.title,
+          "description": transformedData.metaDescription,
           "url": window.location.href,
           "breadcrumb": breadcrumbStructuredData,
           "mainEntity": {
             "@type": "SoftwareApplication",
             "name": "Kliv AI Platform",
             "applicationCategory": "DeveloperApplication",
-            "description": data.description,
+            "description": transformedData.description,
             "offers": {
               "@type": "Offer",
               "price": "0",
@@ -268,7 +297,7 @@ export function DynamicLandingPage() {
         };
 
         // Add FAQ structured data if FAQ section exists
-        const faqSection = data.sections.find(section => section.type === 'faq');
+        const faqSection = transformedData.sections.find(section => section.type === 'faq');
         if (faqSection && faqSection.items) {
           structuredData.mainEntity = {
             "@type": "FAQPage",
@@ -301,6 +330,39 @@ export function DynamicLandingPage() {
       } finally {
         setLoading(false);
       }
+    };
+
+    // Helper function to convert category display name to slug
+    const getCategorySlugFromName = (categoryName: string) => {
+      const nameToSlug: Record<string, string> = {
+        'AI & Machine Learning': 'ai-and-machine-learning',
+        'E-commerce Management': 'e-commerce-management',
+        'CRM & Customer Relationship Management': 'crm-customer-relationship-management',
+        'Civic & Government Tools': 'civic-and-government-tools',
+        'No-Code & Automation Tools': 'no-code-and-automation-tools',
+        'Business & Portfolio Websites': 'business-and-portfolio-websites',
+        'Health & Wellness': 'health-and-wellness',
+        'Financial Services & Banking': 'financial-services-and-banking',
+        'Media & Entertainment': 'media-and-entertainment',
+        'Educational Tools': 'educational-tools',
+        'Productivity Tools': 'productivity-tools',
+        'Website Building': 'website-building',
+        'Gaming & Entertainment': 'gaming-and-entertainment',
+        'Social Media Management': 'social-media-management',
+        'Sports & Recreation': 'sports-and-recreation',
+        'Travel & Tourism': 'travel-and-tourism',
+        'Real Estate Management': 'real-estate-management',
+        'Healthcare': 'healthcare',
+        'Restaurant & Food Service': 'restaurant-and-food-service',
+        'Inventory Management': 'inventory-management',
+        'Employee & HR Management': 'employee-and-hr-management',
+        'Project Management & Collaboration': 'project-management-and-collaboration',
+        'Transportation & Logistics': 'transportation-and-logistics',
+        'Security & Surveillance': 'security-and-surveillance',
+        'Sustainability & Environment': 'sustainability-and-environment'
+      };
+      
+      return nameToSlug[categoryName] || categoryName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
     };
 
     if (category) {

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content API Test</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .test-section {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+        .loading { color: #666; }
+        .success { color: #16a34a; }
+        .error { color: #dc2626; }
+        pre {
+            background: #f3f4f6;
+            padding: 12px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-size: 12px;
+        }
+        button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #2563eb;
+        }
+    </style>
+</head>
+<body>
+    <h1>Content API Test</h1>
+    
+    <div class="test-section">
+        <h2>1. Test Content SDK Import</h2>
+        <div id="import-test" class="loading">Testing import...</div>
+    </div>
+
+    <div class="test-section">
+        <h2>2. List Root Files</h2>
+        <button onclick="listRootFiles()">List Files</button>
+        <div id="root-test" class="loading">Click button to test</div>
+    </div>
+
+    <div class="test-section">
+        <h2>3. List Landing Pages</h2>
+        <button onclick="listLandingPages()">List Landing Pages</button>
+        <div id="landing-test" class="loading">Click button to test</div>
+    </div>
+
+    <div class="test-section">
+        <h2>4. List Specific Language</h2>
+        <button onclick="listEnglishPages()">List English Only</button>
+        <div id="english-test" class="loading">Click button to test</div>
+    </div>
+
+    <script type="module">
+        let content = null;
+        
+        // Test import
+        try {
+            const {content: contentSDK} = await import('/sdk/kliv-content.js');
+            content = contentSDK;
+            document.getElementById('import-test').className = 'success';
+            document.getElementById('import-test').textContent = '✅ Successfully imported kliv-content.js';
+        } catch (error) {
+            document.getElementById('import-test').className = 'error';
+            document.getElementById('import-test').textContent = `❌ Import failed: ${error.message}`;
+        }
+
+        // Test functions
+        async function listRootFiles() {
+            const element = document.getElementById('root-test');
+            element.className = 'loading';
+            element.textContent = 'Listing files...';
+            
+            try {
+                const result = await content.listFiles();
+                element.className = 'success';
+                element.innerHTML = `
+                    ✅ Success! Found ${result.files.length} files
+                    <pre>${JSON.stringify(result.files.slice(0, 10), null, 2)}</pre>
+                    ${result.files.length > 10 ? `<p>... and ${result.files.length - 10} more files</p>` : ''}
+                `;
+            } catch (error) {
+                element.className = 'error';
+                element.innerHTML = `❌ Error: ${error.message}`;
+            }
+        }
+
+        async function listLandingPages() {
+            const element = document.getElementById('landing-test');
+            element.className = 'loading';
+            element.textContent = 'Listing landing pages...';
+            
+            try {
+                const result = await content.listFiles('/content/landing-pages/');
+                element.className = 'success';
+                element.innerHTML = `
+                    ✅ Success! Found ${result.files.length} landing page files
+                    <pre>${JSON.stringify(result.files.slice(0, 10), null, 2)}</pre>
+                    ${result.files.length > 10 ? `<p>... and ${result.files.length - 10} more files</p>` : ''}
+                `;
+            } catch (error) {
+                element.className = 'error';
+                element.innerHTML = `❌ Error: ${error.message}`;
+            }
+        }
+
+        async function listEnglishPages() {
+            const element = document.getElementById('english-test');
+            element.className = 'loading';
+            element.textContent = 'Listing English landing pages...';
+            
+            try {
+                const result = await content.listFiles('/content/landing-pages/en/');
+                element.className = 'success';
+                element.innerHTML = `
+                    ✅ Success! Found ${result.files.length} English landing page files
+                    <pre>${JSON.stringify(result.files.slice(0, 10), null, 2)}</pre>
+                    ${result.files.length > 10 ? `<p>... and ${result.files.length - 10} more files</p>` : ''}
+                `;
+            } catch (error) {
+                element.className = 'error';
+                element.innerHTML = `❌ Error: ${error.message}`;
+            }
+        }
+
+        // Make functions globally available
+        window.listRootFiles = listRootFiles;
+        window.listLandingPages = listLandingPages;
+        window.listEnglishPages = listEnglishPages;
+    </script>
+</body>
+</html>

@@ -10,6 +10,7 @@ import { Button } from '@/components/ui/button';
 import { Search, ExternalLink, Lightbulb } from 'lucide-react';
 import { LocalizedLink } from '@/components/LocalizedLink';
 import { Breadcrumb } from '@/components/Breadcrumb';
+import db from '@/lib/shared/kliv-database';
 
 interface InspirationPage {
   title: string;
@@ -41,20 +42,57 @@ export const CategoryPage = () => {
   useEffect(() => {
     const loadInspirationData = async () => {
       try {
-        const response = await fetch(`/content/inspiration/${lang || 'en'}.json`);
-        if (response.ok) {
-          const data = await response.json();
-          setInspirationData(data);
+        const categories = await db.query('landing_categories');
+        const allPages = await db.query('landing_pages');
 
-          // Find the display name for the current category slug
-          const foundCategory = Object.values(data).find(
-            (cat: CategoryData) => cat.slug === categorySlug
+        // Transform data into the expected format
+        const transformedData: InspirationData = {};
+        categories.forEach(category => {
+          const categoryPages = allPages.filter(page => page.category_name === category.name);
+          transformedData[category.name] = {
+            slug: category.slug,
+            pages: categoryPages.map(page => {
+              // Parse sections to extract features and tags if available
+              let features: string[] = [];
+              let tags: string[] = [];
+              
+              try {
+                const sections = JSON.parse(page.sections || '[]');
+                const featuresSection = sections.find((s: any) => s.type === 'features');
+                if (featuresSection?.items) {
+                  features = featuresSection.items.map((item: any) => item.title || item.description || '');
+                }
+                // Extract potential tags from various sections
+                const allText = sections.map((s: any) => s.content || '').join(' ');
+                // Simple tag extraction - you can enhance this
+                tags = features.slice(0, 5); // Use first 5 features as tags
+              } catch (e) {
+                // Ignore parsing errors
+              }
+              
+              return {
+                title: page.title,
+                description: page.description,
+                slug: page.slug,
+                subcategory: null, // Not currently in database schema
+                url: `/${lang || 'en'}/${category.slug}/${page.slug}`,
+                features,
+                tags
+              };
+            })
+          };
+        });
+
+        setInspirationData(transformedData);
+
+        // Find the display name for the current category slug
+        const foundCategory = Object.values(transformedData).find(
+          (cat: CategoryData) => cat.slug === categorySlug
+        );
+        if (foundCategory) {
+          setCategoryDisplayName(
+            Object.keys(transformedData).find(key => transformedData[key].slug === categorySlug) || categorySlug || ''
           );
-          if (foundCategory) {
-            setCategoryDisplayName(
-              Object.keys(data).find(key => data[key].slug === categorySlug) || categorySlug
-            );
-          }
         }
       } catch (error) {
         console.error('Error loading inspiration data:', error);

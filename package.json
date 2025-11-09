@@ -5,13 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate-sitemap && npm run generate-inspiration && vite build",
-    "build:dev": "npm run generate-sitemap && npm run generate-inspiration && vite build --mode development",
+    "build": "npm run generate-sitemap-from-db && npm run generate-inspiration && vite build",
+    "build:dev": "npm run generate-sitemap-from-db && npm run generate-inspiration && vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate-sitemap": "node scripts/generate-sitemap.js",
     "generate-inspiration": "node scripts/generate-inspiration-data.js",
-    "build:sitemap": "npm run generate-sitemap && npm run build"
+    "generate-sitemap-from-db": "node scripts/generate-sitemap-from-db.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -60,6 +59,7 @@
     "react": "^18.3.1",
     "react-day-picker": "^8.10.1",
     "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
     "react-hook-form": "^7.53.0",
     "react-i18next": "^15.6.0",
     "react-markdown": "^10.1.0",
