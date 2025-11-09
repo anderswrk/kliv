@@ -62,7 +62,7 @@ const App = () => {
               <Route path="/:lang/inspiration" element={<LanguageRouter><Inspiration /></LanguageRouter>} />
               <Route path="/:lang/inspiration/:categorySlug" element={<LanguageRouter><CategoryPage /></LanguageRouter>} /> {/* New route for category pages */}
               <Route path="/migrate" element={<MigrationPage />} /> {/* Migration page - no language wrapper */}
-              <Route path="/sitemap.xml" element={<SitemapProxy />} /> {/* Sitemap - no language wrapper */}
+              <Route path="/dynamic-sitemap.xml" element={<SitemapProxy />} /> {/* Dynamic sitemap - no language wrapper */}
               
               {/* Dynamic landing pages - two levels deep */}
               <Route path="/:lang/:category/:subcategory" element={<LanguageRouter><DynamicLandingPage /></LanguageRouter>} />
