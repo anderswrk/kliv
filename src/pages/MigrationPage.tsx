@@ -60,24 +60,35 @@ export const MigrationPage = () => {
       const inspirationResponse = await fetch('/content/inspiration/en.json');
       const inspirationData = await inspirationResponse.json();
 
-      // Step 2: Clear existing data
-      setMigrationStatus('Clearing existing data...');
+      // Step 2: Get existing data to avoid duplicates
+      setMigrationStatus('Checking existing data...');
       setMigrationProgress(20);
       
-      await db.delete('inspiration_entries', {_row_id: 'gt.0'});
-      await db.delete('landing_pages', {_row_id: 'gt.0'});
-      await db.delete('landing_categories', {_row_id: 'gt.0'});
+      const existingPages = await db.query('landing_pages');
+      const existingCategories = await db.query('landing_categories');
+      const existingInspiration = await db.query('inspiration_entries');
+      
+      const existingPageKeys = new Set(existingPages.map((p: any) => `${p.language || 'en'}-${p.slug}`));
+      const existingCategoryNames = new Set(existingCategories.map((c: any) => c.name));
+      const existingInspirationKeys = new Set(existingInspiration.map((i: any) => `${i.category_name}-${i.page_slug}`));
 
-      // Step 3: Insert categories
-      setMigrationStatus('Inserting categories...');
+      // Step 3: Insert new categories (skip existing)
+      setMigrationStatus('Checking and inserting new categories...');
       setMigrationProgress(30);
       
       const categories: Record<string, string> = {};
       let categoryOrder = 0;
+      let newCategoriesCount = 0;
       
       for (const [categoryName, categoryData] of Object.entries(inspirationData)) {
         const category = categoryData as any;
         categories[categoryName] = category.slug;
+        
+        // Skip if category already exists
+        if (existingCategoryNames.has(categoryName)) {
+          console.log(`Skipping existing category: ${categoryName}`);
+          continue;
+        }
         
         await db.insert('landing_categories', {
           name: categoryName,
@@ -85,76 +96,112 @@ export const MigrationPage = () => {
           description: `Landing pages for ${categoryName}`,
           display_order: categoryOrder++
         });
+        newCategoriesCount++;
+        console.log(`Added new category: ${categoryName}`);
       }
+      
+      console.log(`Added ${newCategoriesCount} new categories`);
 
-      // Step 4: Process landing page files dynamically
-      setMigrationStatus('Processing landing page files...');
+      // Step 4: Process all landing page files dynamically
+      setMigrationStatus('Scanning and processing landing page files...');
       setMigrationProgress(40);
       
       const categoryToSlug = categories;
       let pagesProcessed = 0;
+      let newPagesCount = 0;
+      let filesScanned = 0;
 
-      // First, let's get a list of all category directories by trying common ones
-      const categorySlugs = Object.values(categoryToSlug);
+      // Load the index files directly - much more efficient
+      const languages = ['en', 'ja', 'sv'];
       
-      for (const categorySlug of categorySlugs) {
+      for (const language of languages) {
         try {
-          // Try to get a known file to verify the category exists
-          const testResponse = await fetch(`/content/landing-pages/en/${categorySlug}/general.json`);
+          // Load the inspiration index file for this language
+          const indexResponse = await fetch(`/content/inspiration/${language}.json`);
+          if (!indexResponse.ok) {
+            console.log(`Inspiration index not found for language: ${language}`);
+            continue;
+          }
           
-          if (testResponse.ok) {
-            // Category exists, let's try to process some common files
-            const commonFiles = ['general.json'];
+          const inspirationIndex = await indexResponse.json();
+          
+          for (const [categoryName, categoryData] of Object.entries(inspirationIndex)) {
+            const category = categoryData as any;
+            const categorySlug = category.slug;
             
-            for (const filename of commonFiles) {
+            for (const page of category.pages) {
+              const pageSlug = page.slug;
+              const pageKey = `${language}-${pageSlug}`;
+              
+              // Skip if page already exists
+              if (existingPageKeys.has(pageKey)) {
+                pagesProcessed++;
+                continue;
+              }
+              
               try {
-                const pageResponse = await fetch(`/content/landing-pages/en/${categorySlug}/${filename}`);
-                if (!pageResponse.ok) continue;
+                filesScanned++;
+                const pageResponse = await fetch(`/content/landing-pages/${language}/${categorySlug}/${pageSlug}.json`);
+                if (!pageResponse.ok) {
+                  console.log(`File not found: ${language}/${categorySlug}/${pageSlug}.json`);
+                  continue;
+                }
                 
                 const pageData = await pageResponse.json();
-                const pageSlug = filename.replace('.json', '');
                 
-                // Find category name from slug
-                const categoryName = Object.keys(categoryToSlug).find(name => 
-                  categoryToSlug[name] === categorySlug
-                );
+                await db.insert('landing_pages', {
+                  language,
+                  slug: pageSlug,
+                  category_name: categoryName,
+                  title: pageData.title,
+                  description: pageData.description,
+                  default_prompt: pageData.defaultPrompt,
+                  meta_description: pageData.metaDescription,
+                  hero_title: pageData.hero?.title,
+                  hero_subtitle: pageData.hero?.subtitle,
+                  hero_cta: pageData.hero?.cta,
+                  sections: JSON.stringify(pageData.sections || []),
+                  file_path: `/content/landing-pages/${language}/${categorySlug}/${pageSlug}.json`
+                });
+                newPagesCount++;
+                console.log(`Added new page: ${pageKey}`);
                 
-                if (categoryName) {
-                  await db.insert('landing_pages', {
-                    slug: pageSlug,
-                    category_name: categoryName,
-                    title: pageData.title,
-                    description: pageData.description,
-                    default_prompt: pageData.defaultPrompt,
-                    meta_description: pageData.metaDescription,
-                    hero_title: pageData.hero?.title,
-                    hero_subtitle: pageData.hero?.subtitle,
-                    hero_cta: pageData.hero?.cta,
-                    sections: JSON.stringify(pageData.sections || []),
-                    file_path: `/content/landing-pages/en/${categorySlug}/${filename}`
-                  });
-                  pagesProcessed++;
-                }
               } catch (err) {
-                console.error(`Error processing ${filename} in ${categorySlug}:`, err);
+                console.error(`Error processing page ${pageKey}:`, err);
+                continue;
               }
+              
+              pagesProcessed++;
             }
           }
+          
+          // Update progress
+          setMigrationProgress(40 + Math.floor((pagesProcessed / 1000) * 30));
+          
         } catch (err) {
-          console.log(`Category ${categorySlug} may not exist, skipping...`);
+          console.error(`Error processing language ${language}:`, err);
+          continue;
         }
-        
-        setMigrationProgress(40 + (pagesProcessed * 2)); // Scale progress based on pages processed
       }
+      
+      console.log(`Scanned ${filesScanned} files, added ${newPagesCount} new pages`);
 
-      // Step 5: Insert inspiration entries
-      setMigrationStatus('Inserting inspiration entries...');
+      // Step 5: Insert new inspiration entries (skip existing)
+      setMigrationStatus('Checking and inserting new inspiration entries...');
       setMigrationProgress(70);
       
-      let inspirationEntries = 0;
+      let newInspirationCount = 0;
       for (const [categoryName, categoryData] of Object.entries(inspirationData)) {
         const category = categoryData as any;
         for (const page of category.pages) {
+          const inspirationKey = `${categoryName}-${page.slug}`;
+          
+          // Skip if inspiration entry already exists
+          if (existingInspirationKeys.has(inspirationKey)) {
+            console.log(`Skipping existing inspiration entry: ${inspirationKey}`);
+            continue;
+          }
+          
           await db.insert('inspiration_entries', {
             category_name: categoryName,
             category_slug: category.slug,
@@ -166,12 +213,15 @@ export const MigrationPage = () => {
             features: JSON.stringify(page.features || []),
             tags: JSON.stringify(page.tags || [])
           });
-          inspirationEntries++;
+          newInspirationCount++;
+          console.log(`Added new inspiration entry: ${inspirationKey}`);
         }
       }
+      
+      console.log(`Added ${newInspirationCount} new inspiration entries`);
 
       setMigrationProgress(100);
-      setMigrationStatus('Migration completed successfully!');
+      setMigrationStatus(`Delta migration completed! Added ${newCategoriesCount} new categories, ${newPagesCount} new pages, and ${newInspirationCount} new inspiration entries.`);
       setIsComplete(true);
       
       // Reload stats
@@ -310,7 +360,7 @@ export const MigrationPage = () => {
                   </Button>
                   
                   <div className="text-xs text-muted-foreground">
-                    <strong>Note:</strong> This will clear all existing content and migrate data from the /content/landing-pages and /content/inspiration directories.
+                    <strong>Note:</strong> This will scan for new content and only add missing pages, categories, and inspiration entries. Existing data will be preserved.
                   </div>
                 </div>
               </CardContent>

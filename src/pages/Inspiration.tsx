@@ -41,8 +41,11 @@ export const Inspiration = () => {
   useEffect(() => {
     const loadInspirationData = async () => {
       try {
+        const currentLang = lang || 'en';
         const categories = await db.query('landing_categories');
-        const allPages = await db.query('landing_pages');
+        const allPages = await db.query('landing_pages', {
+          language: `eq.${currentLang}`
+        });
 
         // Transform data into the expected format
         const transformedData: InspirationData = {};
@@ -85,6 +88,8 @@ export const Inspiration = () => {
         setInspirationData(transformedData);
       } catch (error) {
         console.error('Error loading inspiration data:', error);
+        // Still set empty data to show the "no apps found" state
+        setInspirationData({});
       } finally {
         setLoading(false);
       }
@@ -123,8 +128,11 @@ export const Inspiration = () => {
     return filtered;
   }, [inspirationData, searchTerm, selectedCategory]);
 
-  const totalPages = Object.values(inspirationData).reduce((sum, cat) => sum + cat.pages.length, 0);
-  const categories = Object.keys(inspirationData);
+  const totalPages = React.useMemo(() => 
+    Object.values(inspirationData).reduce((sum, cat) => sum + cat.pages.length, 0),
+    [inspirationData]
+  );
+  const categories = React.useMemo(() => Object.keys(inspirationData), [inspirationData]);
 
   if (loading) {
     return (
