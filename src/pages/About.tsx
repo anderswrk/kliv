@@ -32,7 +32,7 @@ export function About() {
                 <div className="flex-shrink-0">
                   <div className="w-48 h-48 rounded-lg overflow-hidden shadow-lg">
                     <img 
-                      src="/content/img/anders-profile.jpg"
+                      src="/content/images/anders-profile.jpg"
                       alt={t('aboutPage.foundersNote.founderAlt')}
                       className="w-full h-full object-cover"
                     />
