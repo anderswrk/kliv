@@ -21,6 +21,7 @@ import { DynamicLandingPage } from "./pages/DynamicLandingPage";
 import { Inspiration } from "./pages/Inspiration";
 import { CategoryPage } from "./pages/CategoryPage"; // Import the new CategoryPage
 import { MigrationPage } from "./pages/MigrationPage"; // Import the migration page
+import SitemapProxy from "./components/SitemapProxy"; // Import the sitemap proxy
 import { ScrollToTop } from "./components/ScrollToTop";
 import { initializeGclidTracking } from "./utils/gclid";
 import "./i18n";
@@ -61,6 +62,7 @@ const App = () => {
               <Route path="/:lang/inspiration" element={<LanguageRouter><Inspiration /></LanguageRouter>} />
               <Route path="/:lang/inspiration/:categorySlug" element={<LanguageRouter><CategoryPage /></LanguageRouter>} /> {/* New route for category pages */}
               <Route path="/migrate" element={<MigrationPage />} /> {/* Migration page - no language wrapper */}
+              <Route path="/sitemap.xml" element={<SitemapProxy />} /> {/* Sitemap - no language wrapper */}
               
               {/* Dynamic landing pages - two levels deep */}
               <Route path="/:lang/:category/:subcategory" element={<LanguageRouter><DynamicLandingPage /></LanguageRouter>} />

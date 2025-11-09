@@ -5,12 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate-sitemap-from-db && npm run generate-inspiration && vite build",
-    "build:dev": "npm run generate-sitemap-from-db && npm run generate-inspiration && vite build --mode development",
+    "build": "npm run generate-inspiration && vite build",
+    "build:dev": "npm run generate-inspiration && vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate-inspiration": "node scripts/generate-inspiration-data.js",
-    "generate-sitemap-from-db": "node scripts/generate-sitemap-from-db.js"
+    "generate-inspiration": "node scripts/generate-inspiration-data.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
