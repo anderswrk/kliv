@@ -136,11 +136,11 @@ export function Header() {
             ) : isLoggedIn ? (
               <div className="flex items-center space-x-2">
                 <span className="text-sm text-muted-foreground">
-                  Welcome, {userName}
+                  {t('nav.welcomeBack', { firstName: userName.split(' ')[0] })}
                 </span>
                 <Button variant="ghost" size="sm" onClick={goToPortal}>
                   <User className="h-4 w-4 mr-2" />
-                  Portal
+                  {t('nav.portalButton')}
                 </Button>
               </div>
             ) : (
@@ -241,11 +241,11 @@ export function Header() {
                 ) : isLoggedIn ? (
                   <>
                     <div className="px-3 py-2 text-sm text-muted-foreground">
-                      Welcome, {userName}
+                      {t('nav.welcomeBack', { firstName: userName.split(' ')[0] })}
                     </div>
                     <Button variant="ghost" size="sm" className="justify-start" onClick={goToPortal}>
                       <User className="h-4 w-4 mr-2" />
-                      Portal
+                      {t('nav.portalButton')}
                     </Button>
                   </>
                 ) : (
