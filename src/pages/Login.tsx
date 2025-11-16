@@ -461,7 +461,7 @@ export default function Login({
     return (
       <div className="min-h-screen flex flex-col">
         <Header />
-        <main className="flex-grow flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8 pt-28 sm:pt-24 lg:pt-20">
+        <main className="flex-grow flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8 pt-28 sm:pt-24 lg:pt-20 bg-gradient-to-b from-muted/30 to-background">
           <div className="text-center">
             <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4" />
             <p className="text-muted-foreground">Checking authentication status...</p>
@@ -475,9 +475,9 @@ export default function Login({
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-grow flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8 pt-28 sm:pt-24 lg:pt-20">
+      <main className="flex-grow flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8 pt-28 sm:pt-24 lg:pt-20 bg-gradient-to-b from-muted/30 to-background">
         <div className="w-full max-w-md">
-          <Card className="w-full">
+          <Card className="w-full border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
             <CardHeader className="space-y-1">
               <CardTitle className="text-2xl font-bold text-center">
                 {t('login.welcomeBack')}
