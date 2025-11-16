@@ -131,18 +131,18 @@ export function Pricing() {
             <main className="pt-16">
                 {/* Header */}
                 <div className="border-b border-border/50 bg-gradient-to-b from-muted/30 to-background">
-                    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                        <div className="max-w-4xl mx-auto text-center">
-                            <div className="inline-flex items-center px-5 py-2.5 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-6 backdrop-blur-sm">
+                    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
+                        <div className="max-w-3xl mx-auto text-center">
+                            <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-4 backdrop-blur-sm">
                                 <DollarSign className="w-4 h-4 mr-2 text-primary"/>
                                 <span className="text-sm font-semibold text-primary">{t('pricing.badge')}</span>
                             </div>
-                            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-[1.1]">
+                            <h1 className="text-3xl sm:text-4xl font-bold mb-3 leading-[1.1]">
                                 <span className="text-gradient">
                                     {t('pricing.title')}
                                 </span>
                             </h1>
-                            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
+                            <p className="text-base text-muted-foreground leading-relaxed">
                                 {t('pricing.subtitle')}
                             </p>
                         </div>
@@ -151,12 +151,12 @@ export function Pricing() {
 
                 {/* Billing Interval Selector */}
                 {pricingData && !loading && !error && (
-                    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
                         <div className="flex justify-center">
                             <div className="inline-flex rounded-xl border border-border/50 p-1.5 bg-muted/30 backdrop-blur-sm shadow-sm">
                                 <button
                                     type="button"
-                                    className={`px-8 py-3 text-sm font-semibold rounded-lg transition-all duration-200 ${
+                                    className={`px-6 py-2.5 text-sm font-semibold rounded-lg transition-all duration-200 ${
                                         selectedInterval === 'month'
                                             ? 'bg-primary text-primary-foreground shadow-md'
                                             : 'text-muted-foreground hover:text-foreground'
@@ -167,7 +167,7 @@ export function Pricing() {
                                 </button>
                                 <button
                                     type="button"
-                                    className={`px-8 py-3 text-sm font-semibold rounded-lg transition-all duration-200 relative ${
+                                    className={`px-6 py-2.5 text-sm font-semibold rounded-lg transition-all duration-200 relative ${
                                         selectedInterval === 'year'
                                             ? 'bg-primary text-primary-foreground shadow-md'
                                             : 'text-muted-foreground hover:text-foreground'
@@ -185,22 +185,22 @@ export function Pricing() {
                 )}
 
                 {/* Pricing Content */}
-                <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-20">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-16">
                     {loading && (
                         <div className="max-w-6xl mx-auto">
                             <div className="plan-container">
                                 {[1, 2, 3].map((i) => (
-                                    <Card key={i} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg" style={{width: '360px'}}>
-                                        <CardContent className="p-8">
-                                            <div className="space-y-6">
-                                                <Skeleton className="h-8 w-3/4"/>
-                                                <Skeleton className="h-12 w-1/2"/>
-                                                <Skeleton className="h-6 w-2/3"/>
-                                                <Skeleton className="h-10 w-full"/>
-                                                <div className="space-y-3">
-                                                    <Skeleton className="h-4 w-full"/>
-                                                    <Skeleton className="h-4 w-full"/>
-                                                    <Skeleton className="h-4 w-2/3"/>
+                                    <Card key={i} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg" style={{width: '320px'}}>
+                                        <CardContent className="p-6">
+                                            <div className="space-y-4">
+                                                <Skeleton className="h-7 w-3/4"/>
+                                                <Skeleton className="h-10 w-1/2"/>
+                                                <Skeleton className="h-5 w-2/3"/>
+                                                <Skeleton className="h-9 w-full"/>
+                                                <div className="space-y-2">
+                                                    <Skeleton className="h-3 w-full"/>
+                                                    <Skeleton className="h-3 w-full"/>
+                                                    <Skeleton className="h-3 w-2/3"/>
                                                 </div>
                                             </div>
                                         </CardContent>

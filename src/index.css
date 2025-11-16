@@ -132,12 +132,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 28px;
+    gap: 24px;
   }
 
   .plan-card {
     position: relative;
-    width: 360px;
+    width: 320px;
 
     .plan-card-normal {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -148,7 +148,7 @@
     }
 
     .plan-card-highlight {
-      border-radius: 20px;
+      border-radius: 16px;
       background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(169, 55%, 55%) 100%);
       display: flex;
       justify-content: center;
@@ -159,17 +159,17 @@
       .plan-card-highlight-title {
         color: #FFF;
         text-align: center;
-        font-size: 14px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         text-transform: uppercase;
         letter-spacing: 0.05em;
-        margin: 14px 0;
+        margin: 12px 0;
       }
 
       .plan-card-body {
-        border-radius: 0 0 20px 20px;
+        border-radius: 0 0 16px 16px;
       }
     }
 
@@ -179,33 +179,33 @@
     }
 
     .plan-card-body {
-      border-radius: 20px;
+      border-radius: 16px;
       background: hsl(var(--card) / 0.8);
       backdrop-filter: blur(24px);
       display: flex;
       justify-content: center;
       flex-direction: column;
-      gap: 8px;
-      padding: 32px 0 0 0;
+      gap: 6px;
+      padding: 24px 0 0 0;
       border: 1px solid hsl(var(--border) / 0.5);
       box-shadow: 0 8px 32px -8px hsl(var(--foreground) / 0.1);
 
       .title {
         color: hsl(var(--primary));
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        min-height: 32px;
+        min-height: 28px;
         transition: color 0.2s ease;
       }
 
       .product-name {
         color: hsl(var(--primary));
         text-align: center;
-        min-height: 24px;
-        padding: 24px 24px 0 24px;
+        min-height: 22px;
+        padding: 20px 20px 0 20px;
 
         .plan-selector {
           border: 1px solid hsl(var(--border) / 0.5);
@@ -233,17 +233,17 @@
       .price {
         color: hsl(var(--foreground));
         text-align: center;
-        font-size: 56px;
+        font-size: 48px;
         font-style: normal;
         font-weight: 800;
         line-height: 1;
-        margin: 8px 0;
+        margin: 4px 0;
       }
 
       .notices {
         position: absolute;
         left: 12px;
-        top: 56px;
+        top: 48px;
         display: flex;
         gap: 8px;
       }
@@ -251,14 +251,14 @@
       .notice {
         color: hsl(var(--foreground));
         text-align: center;
-        font-size: 11px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
         text-transform: uppercase;
         letter-spacing: 0.05em;
         border: 1px solid hsl(var(--border) / 0.6);
-        padding: 4px 8px;
+        padding: 3px 6px;
         border-radius: 6px;
         background: hsl(var(--card));
         user-select: none;
@@ -268,16 +268,16 @@
       .period {
         color: hsl(var(--muted-foreground));
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
-        min-height: 32px;
-        margin-bottom: 4px;
+        min-height: 24px;
+        margin-bottom: 2px;
       }
 
       .select-button {
-        margin: 28px 24px;
+        margin: 20px 20px;
         font-weight: 600;
         transition: all 0.2s ease;
       }
@@ -287,14 +287,15 @@
       }
 
       .features {
-        margin: 0 28px 32px 28px;
-        padding-top: 24px;
+        margin: 0 24px 24px 24px;
+        padding-top: 20px;
         border-top: 1px solid hsl(var(--border) / 0.4);
         
         p {
-          margin: 0.75rem 0;
+          margin: 0.5rem 0;
           color: hsl(var(--foreground));
-          line-height: 1.6;
+          line-height: 1.5;
+          font-size: 0.9rem;
         }
         
         ul {
@@ -304,18 +305,19 @@
         }
         
         li {
-          margin: 0.5rem 0;
+          margin: 0.4rem 0;
           padding-left: 0;
           color: hsl(var(--foreground));
-          line-height: 1.6;
+          line-height: 1.5;
+          font-size: 0.9rem;
         }
         
         li:before {
           content: "•";
           color: hsl(var(--primary));
-          margin-right: 0.75rem;
+          margin-right: 0.6rem;
           font-weight: 700;
-          font-size: 1.2em;
+          font-size: 1.1em;
         }
       }
     }
