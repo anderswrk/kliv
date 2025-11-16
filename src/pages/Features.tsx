@@ -159,11 +159,6 @@ export function Features() {
       title: t('features.page.technology.shadcn.title'),
       description: t('features.page.technology.shadcn.description'),
     },
-    {
-      icon: Database,
-      title: t('features.page.technology.supabase.title'),
-      description: t('features.page.technology.supabase.description'),
-    },
   ];
 
   return (
