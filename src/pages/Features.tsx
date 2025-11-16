@@ -135,9 +135,9 @@ export function Features() {
 
   const technologyFeatures = [
     {
-      icon: Layers,
-      title: t('features.page.technology.react.title'),
-      description: t('features.page.technology.react.description'),
+      icon: Component,
+      title: t('features.page.technology.shadcn.title'),
+      description: t('features.page.technology.shadcn.description'),
     },
     {
       icon: Palette,
@@ -145,9 +145,9 @@ export function Features() {
       description: t('features.page.technology.tailwind.description'),
     },
     {
-      icon: Component,
-      title: t('features.page.technology.shadcn.title'),
-      description: t('features.page.technology.shadcn.description'),
+      icon: Layers,
+      title: t('features.page.technology.react.title'),
+      description: t('features.page.technology.react.description'),
     },
   ];
 
