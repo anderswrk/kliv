@@ -265,9 +265,9 @@ export function Features() {
               </div>
             </div>
 
-            {/* Core Development Features - Alternating Layout */}
+            {/* Core Development Features - Clean Grid */}
             <div className="mb-24">
-              <div className="text-center mb-16">
+              <div className="text-center mb-12">
                 <h2 className="text-2xl sm:text-3xl font-bold mb-3 leading-[1.1]">
                   <span className="text-gradient">
                     {t('features.page.core.title')}
@@ -278,31 +278,18 @@ export function Features() {
                 </p>
               </div>
               
-              <div className="space-y-20">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {coreFeatures.map((feature, index) => (
-                  <div key={index} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-12 items-center`}>
-                    {/* Icon/Visual Side */}
-                    <div className="flex-shrink-0 w-full lg:w-1/3">
-                      <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl blur-3xl"></div>
-                        <div className="relative bg-gradient-to-br from-card/90 to-card/70 dark:from-card/80 dark:to-card/60 backdrop-blur-xl rounded-3xl p-12 border border-border/50 flex items-center justify-center aspect-square">
-                          <feature.icon className="h-24 w-24 text-primary" strokeWidth={1.5} />
-                        </div>
-                      </div>
+                  <div key={index} className="group relative overflow-hidden rounded-2xl border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl p-8 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1">
+                    <div className="inline-flex p-3 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300 mb-4">
+                      <feature.icon className="h-7 w-7 text-primary" />
                     </div>
-                    
-                    {/* Content Side */}
-                    <div className="flex-1">
-                      <div className="inline-flex items-center px-3 py-1.5 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 mb-4">
-                        <span className="text-xs font-semibold text-primary">Feature {index + 1}</span>
-                      </div>
-                      <h3 className="text-xl sm:text-2xl font-bold mb-4">
-                        {feature.title}
-                      </h3>
-                      <p className="text-base text-muted-foreground leading-relaxed">
-                        {feature.description}
-                      </p>
-                    </div>
+                    <h3 className="text-lg font-bold mb-3 group-hover:text-primary transition-colors">
+                      {feature.title}
+                    </h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {feature.description}
+                    </p>
                   </div>
                 ))}
               </div>
