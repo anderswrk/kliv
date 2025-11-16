@@ -51,12 +51,7 @@ export function About() {
                   {/* Signature */}
                   <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
                     <p className="text-gray-900 dark:text-white font-medium">
-                      —<a 
-                        href="mailto:anders@kliv.dev" 
-                        className="text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300"
-                      >
-                        Anders Olsson
-                      </a>, Founder, Kliv
+                      —Anders Olsson, Founder, Kliv
                     </p>
                   </div>
                 </div>
