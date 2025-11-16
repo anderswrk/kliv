@@ -85,13 +85,6 @@ export function FeaturesSection() {
             );
           })}
         </div>
-
-        {/* Bottom CTA hint */}
-        <div className="text-center mt-20">
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            All managed automatically by AI. Just describe what you need and watch your app come to life.
-          </p>
-        </div>
       </div>
     </section>
   );
