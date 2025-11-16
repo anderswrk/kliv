@@ -248,7 +248,7 @@ export function Features() {
               {/* Kliv Cloud Features Grid */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {klivCloudFeatures.map((feature, index) => (
-                  <Card key={index} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 group">
+                  <Card key={index} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-xl transition-shadow duration-300 group">
                     <CardContent className="p-6">
                       <div className="inline-flex p-3 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300 mb-4">
                         <feature.icon className="h-6 w-6 text-primary" />
@@ -265,9 +265,9 @@ export function Features() {
               </div>
             </div>
 
-            {/* Core Development Features - Clean Grid */}
+            {/* Core Development Features - Alternating Layout */}
             <div className="mb-24">
-              <div className="text-center mb-12">
+              <div className="text-center mb-16">
                 <h2 className="text-2xl sm:text-3xl font-bold mb-3 leading-[1.1]">
                   <span className="text-gradient">
                     {t('features.page.core.title')}
@@ -278,18 +278,34 @@ export function Features() {
                 </p>
               </div>
               
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="space-y-16">
                 {coreFeatures.map((feature, index) => (
-                  <div key={index} className="group relative overflow-hidden rounded-2xl border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl p-8 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1">
-                    <div className="inline-flex p-3 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300 mb-4">
-                      <feature.icon className="h-7 w-7 text-primary" />
+                  <div key={index} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 lg:gap-12 items-center`}>
+                    {/* Icon Side */}
+                    <div className="flex-shrink-0 w-full lg:w-2/5">
+                      <div className="relative group">
+                        {/* Subtle glow effect */}
+                        <div className="absolute -inset-4 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-3xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        
+                        {/* Main icon container */}
+                        <div className="relative bg-gradient-to-br from-muted/50 to-muted/30 dark:from-muted/30 dark:to-muted/10 backdrop-blur-sm rounded-2xl p-12 lg:p-16 border border-border/50 flex items-center justify-center">
+                          <feature.icon className="h-20 w-20 lg:h-24 lg:w-24 text-primary" strokeWidth={1.5} />
+                        </div>
+                        
+                        {/* Decorative corner accent */}
+                        <div className={`absolute ${index % 2 === 0 ? '-bottom-3 -right-3' : '-bottom-3 -left-3'} w-16 h-16 bg-primary/20 dark:bg-primary/30 rounded-full blur-xl`}></div>
+                      </div>
                     </div>
-                    <h3 className="text-lg font-bold mb-3 group-hover:text-primary transition-colors">
-                      {feature.title}
-                    </h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      {feature.description}
-                    </p>
+                    
+                    {/* Content Side */}
+                    <div className="flex-1 space-y-4">
+                      <h3 className="text-xl lg:text-2xl font-bold">
+                        {feature.title}
+                      </h3>
+                      <p className="text-base text-muted-foreground leading-relaxed">
+                        {feature.description}
+                      </p>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -349,7 +365,7 @@ export function Features() {
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {deploymentFeatures.map((feature, index) => (
-                  <div key={index} className="group relative overflow-hidden rounded-2xl border border-border/50 bg-gradient-to-br from-card/90 to-card/70 dark:from-card/80 dark:to-card/60 backdrop-blur-xl p-8 hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-300 hover:-translate-y-1">
+                  <div key={index} className="group relative overflow-hidden rounded-2xl border border-border/50 bg-gradient-to-br from-card/90 to-card/70 dark:from-card/80 dark:to-card/60 backdrop-blur-xl p-8 hover:shadow-xl transition-shadow duration-300">
                     {/* Decorative gradient */}
                     <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-emerald-500/10 to-transparent rounded-bl-full"></div>
                     
