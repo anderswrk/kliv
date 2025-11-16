@@ -46,6 +46,16 @@ export function Footer() {
                   {t('footer.inspiration')}
                 </LocalizedLink>
               </li>
+              <li>
+                <a 
+                  href="https://docs.kliv.dev/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {t('nav.docs')}
+                </a>
+              </li>
             </ul>
           </div>
 

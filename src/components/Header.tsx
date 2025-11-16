@@ -31,6 +31,7 @@ export function Header() {
   const navigation = [
     { name: t('nav.features'), href: '/features' },
     { name: t('nav.pricing'), href: '/pricing' },
+    { name: t('nav.docs'), href: 'https://docs.kliv.dev/', external: true },
   ];
 
   const handleAnchorClick = (href: string, e: React.MouseEvent) => {
@@ -77,6 +78,12 @@ export function Header() {
                     href={item.href}
                     onClick={(e) => handleAnchorClick(item.href, e)}
                   >
+                    {item.name}
+                  </a>
+                </Button>
+              ) : item.external ? (
+                <Button key={item.name} variant="ghost" size="sm" asChild>
+                  <a href={item.href} target="_blank" rel="noopener noreferrer">
                     {item.name}
                   </a>
                 </Button>
@@ -181,6 +188,17 @@ export function Header() {
                         handleAnchorClick(item.href, e);
                         setMobileMenuOpen(false);
                       }}
+                    >
+                      {item.name}
+                    </a>
+                  </Button>
+                ) : item.external ? (
+                  <Button key={item.name} variant="ghost" size="sm" className="justify-start" asChild>
+                    <a 
+                      href={item.href} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
                     </a>
