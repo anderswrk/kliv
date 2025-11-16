@@ -5,8 +5,8 @@ export function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-background border-t border-border">
-      <div className="container mx-auto px-4 py-12">
+    <footer className="bg-muted/30 border-t border-border/50 backdrop-blur-sm">
+      <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">

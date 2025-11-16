@@ -75,13 +75,21 @@ const TestimonialsSection = () => {
   const duplicatedTestimonials = [...testimonials, ...testimonials];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
-      <div className="container mx-auto px-4 mb-12">
+    <section className="py-32 bg-gradient-to-b from-background to-muted/30 overflow-hidden relative">
+      {/* Background decoration */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(0,119,255,0.05),transparent_50%)]"></div>
+      
+      <div className="container mx-auto px-4 mb-16 relative">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            {t('testimonials.title')}
+          <div className="inline-flex items-center px-5 py-2.5 bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 rounded-full text-sm font-semibold mb-8 backdrop-blur-sm">
+            <span className="text-primary">Trusted by Builders</span>
+          </div>
+          <h2 className="text-5xl sm:text-6xl font-bold mb-8 leading-[1.1]">
+            <span className="text-gradient">
+              {t('testimonials.title')}
+            </span>
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400">
+          <p className="text-xl sm:text-2xl text-muted-foreground leading-relaxed">
             What our users say about Kliv
           </p>
         </div>
@@ -91,17 +99,19 @@ const TestimonialsSection = () => {
       <div className="relative">
         <div className="flex animate-scroll-left space-x-6 w-max">
           {duplicatedTestimonials.map((testimonial, index) => (
-            <Card key={`${testimonial.author}-${index}`} className="w-96 flex-shrink-0 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-              <CardContent className="p-6">
-                <p className="text-gray-700 dark:text-gray-300 text-lg italic mb-4 line-clamp-3">"{testimonial.quote}"</p>
+            <Card key={`${testimonial.author}-${index}`} className="w-[420px] flex-shrink-0 bg-card/80 dark:bg-card/60 backdrop-blur-xl border border-border/50 shadow-xl hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-2">
+              <CardContent className="p-8">
+                <p className="text-foreground text-lg mb-6 line-clamp-3 leading-relaxed">"{testimonial.quote}"</p>
                 <div className="flex items-center">
-                  <Avatar className="h-12 w-12 mr-4">
+                  <Avatar className="h-14 w-14 mr-4 ring-2 ring-primary/10">
                     <AvatarImage src={`https://api.dicebear.com/7.x/initials/svg?seed=${testimonial.author}`} alt={testimonial.author} />
-                    <AvatarFallback>{testimonial.author.split(' ').map(n => n[0]).join('')}</AvatarFallback>
+                    <AvatarFallback className="bg-gradient-to-br from-primary to-accent text-white font-semibold">
+                      {testimonial.author.split(' ').map(n => n[0]).join('')}
+                    </AvatarFallback>
                   </Avatar>
                   <div>
-                    <p className="font-semibold text-gray-900 dark:text-white">{testimonial.author}</p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">{testimonial.title}</p>
+                    <p className="font-bold text-foreground">{testimonial.author}</p>
+                    <p className="text-sm text-muted-foreground">{testimonial.title}</p>
                   </div>
                 </div>
               </CardContent>

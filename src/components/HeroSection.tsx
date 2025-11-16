@@ -98,42 +98,42 @@ export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-2">
       {/* Background Elements */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-blue-500/5 to-indigo-500/5" />
-      <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-background/50" />
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-accent/5 to-primary/10" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(0,119,255,0.08),transparent_50%),radial-gradient(circle_at_80%_80%,rgba(255,107,107,0.08),transparent_50%)]" />
       
       {/* Animated Background Orbs */}
-      <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse delay-1000" />
+      <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-primary/10 rounded-full blur-3xl animate-pulse" />
+      <div className="absolute bottom-1/4 right-1/4 w-[600px] h-[600px] bg-accent/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-5xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8 animate-fade-in">
+          <div className="inline-flex items-center px-5 py-2.5 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-10 animate-fade-in backdrop-blur-sm">
             <Sparkles className="w-4 h-4 mr-2 text-primary" />
-            <span className="text-sm font-medium text-primary">
+            <span className="text-sm font-semibold text-primary">
               {t('hero.badge')}
             </span>
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in">
+          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-bold mb-8 animate-fade-in leading-[1.1]">
             <span className="text-gradient">
               {t('hero.title')}
             </span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl sm:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
+          <p className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground mb-16 max-w-3xl mx-auto animate-fade-in leading-relaxed">
             {t('hero.subtitle')}
           </p>
 
           {/* Main Message Input */}
-          <Card className="p-8 mb-8 bg-card border-2 border-border hover:border-primary/30 transition-all duration-300 shadow-lg hover:shadow-xl animate-scale-in rounded">
+          <Card className="p-10 mb-8 bg-card/80 dark:bg-card/60 backdrop-blur-xl border-2 border-border/50 hover:border-primary/40 transition-all duration-300 shadow-2xl hover:shadow-primary/10 animate-scale-in">
             <div className="space-y-6">
               {/* Input Label */}
               <div className="flex items-center gap-2 text-left">
                 <MessageSquare className="h-5 w-5 text-primary" />
-                <label className="text-sm font-medium text-foreground">
+                <label className="text-base font-semibold text-foreground">
                   {t('hero.inputLabel')}
                 </label>
               </div>
@@ -147,10 +147,10 @@ export function HeroSection() {
                   onChange={handleInputChange}
                   onFocus={handleInputFocus}
                   onBlur={handleInputBlur}
-                  className="min-h-[140px] text-lg resize-none border-2 border-input bg-background focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all duration-200 rounded p-4"
+                  className="min-h-[160px] text-lg resize-none border-2 border-input bg-background/50 dark:bg-background/30 backdrop-blur-sm focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all duration-200 p-5"
                 />
                 {message.length > 0 && (
-                  <div className="absolute bottom-3 right-3 text-xs text-muted-foreground">
+                  <div className="absolute bottom-4 right-4 text-xs text-muted-foreground bg-background/80 dark:bg-background/60 px-2 py-1 rounded">
                     {message.length} {t('hero.charactersCount')}
                   </div>
                 )}
@@ -158,14 +158,14 @@ export function HeroSection() {
               
               <div className="flex flex-col sm:flex-row gap-4 items-center justify-between">
                 <div className="flex flex-wrap gap-2 items-center">
-                  <span className="text-sm text-muted-foreground">
+                  <span className="text-sm font-medium text-muted-foreground">
                     {t('hero.examples.label')}
                   </span>
                   {examples.map((example, index) => (
                     <button
                       key={index}
                       onClick={() => handleExampleClick(example)}
-                      className="text-sm text-primary hover:text-primary/80 underline underline-offset-2 transition-colors px-2 py-1 rounded hover:bg-primary/5"
+                      className="text-sm font-medium text-primary hover:text-accent underline underline-offset-2 transition-colors px-3 py-1.5 rounded-full hover:bg-primary/10"
                     >
                       {example.short}
                     </button>
@@ -175,7 +175,7 @@ export function HeroSection() {
                 <Button
                   onClick={handleStartBuilding}
                   size="lg"
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 min-w-[160px]"
+                  className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-xl hover:shadow-2xl hover:shadow-accent/20 transition-all duration-300 min-w-[180px] text-base font-semibold px-8 py-6"
                 >
                   {t('hero.cta')}
                   <ArrowRight className="ml-2 h-5 w-5" />

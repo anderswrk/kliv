@@ -55,7 +55,7 @@ export function Header() {
   };
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
+    <header className="fixed top-0 w-full z-50 bg-background/70 backdrop-blur-xl border-b border-border/50 shadow-sm">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -148,7 +148,7 @@ export function Header() {
                 <Button variant="ghost" size="sm" asChild>
                   <LocalizedLink to="/login">{t('nav.signIn')}</LocalizedLink>
                 </Button>
-                <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
+                <Button size="sm" className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold shadow-lg hover:shadow-xl hover:shadow-accent/20 transition-all" asChild>
                   <LocalizedLink to="/signup">{t('nav.getStarted')}</LocalizedLink>
                 </Button>
               </>
@@ -253,7 +253,7 @@ export function Header() {
                     <Button variant="ghost" size="sm" className="justify-start" asChild>
                       <LocalizedLink to="/login">{t('nav.signIn')}</LocalizedLink>
                     </Button>
-                    <Button size="sm" className="bg-primary hover:bg-primary/90 justify-start" asChild>
+                    <Button size="sm" className="bg-accent hover:bg-accent/90 font-semibold shadow-lg hover:shadow-xl justify-start" asChild>
                       <LocalizedLink to="/signup">{t('nav.getStarted')}</LocalizedLink>
                     </Button>
                   </>

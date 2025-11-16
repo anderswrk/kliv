@@ -105,13 +105,21 @@ const CommunityShowcase: React.FC = () => {
 
   return (
     <>
-      <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50 overflow-hidden">
-        <div className="container mx-auto px-4 mb-12">
+      <section className="py-32 bg-gradient-to-b from-muted/30 to-background overflow-hidden relative">
+        {/* Background decoration */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(255,107,107,0.05),transparent_50%)]"></div>
+        
+        <div className="container mx-auto px-4 mb-16 relative">
           <div className="text-center max-w-3xl mx-auto">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              {t('community.title')}
+            <div className="inline-flex items-center px-5 py-2.5 bg-accent/10 dark:bg-accent/20 border border-accent/20 dark:border-accent/30 rounded-full text-sm font-semibold mb-8 backdrop-blur-sm">
+              <span className="text-accent">Built by Creators</span>
+            </div>
+            <h2 className="text-5xl sm:text-6xl font-bold mb-8 leading-[1.1]">
+              <span className="text-gradient">
+                {t('community.title')}
+              </span>
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="text-xl sm:text-2xl text-muted-foreground leading-relaxed">
               {t('community.subtitle')}
             </p>
           </div>
@@ -123,39 +131,40 @@ const CommunityShowcase: React.FC = () => {
             {duplicatedApps.map((app, index) => (
               <Card 
                 key={`${app.uuid}-${index}`} 
-                className="w-80 flex-shrink-0 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 bg-white/80 backdrop-blur-sm border-0 shadow-lg cursor-pointer"
+                className="w-[360px] flex-shrink-0 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-2 bg-card/80 dark:bg-card/60 backdrop-blur-xl border border-border/50 shadow-xl cursor-pointer overflow-hidden group"
                 onClick={() => handleAppClick(app)}
               >
-                <div className="relative overflow-hidden rounded-t-lg">
+                <div className="relative overflow-hidden">
                   <img 
                     src={app.imageUrl || '/placeholder.svg'} 
                     alt={app.name}
-                    className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
+                    className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-110"
                     onError={e => (e.currentTarget.src = '/placeholder.svg')}
                   />
-                  <div className="absolute top-3 right-3">
-                    <Badge variant="secondary" className="bg-white/90 text-gray-700">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute top-4 right-4">
+                    <Badge className="bg-background/90 dark:bg-background/80 backdrop-blur-sm text-foreground border-0 shadow-lg">
                       {app.category}
                     </Badge>
                   </div>
                 </div>
                 
                 <CardContent className="p-6">
-                  <div className="flex items-start justify-between mb-2">
-                    <h3 className="text-xl font-semibold text-gray-900 line-clamp-1">
+                  <div className="flex items-start justify-between mb-3">
+                    <h3 className="text-xl font-bold text-foreground line-clamp-1 group-hover:text-primary transition-colors">
                       {app.name}
                     </h3>
-                    <Button variant="ghost" size="sm" className="p-1 h-auto">
+                    <Button variant="ghost" size="sm" className="p-1 h-auto hover:text-primary">
                       <ExternalLink className="w-4 h-4" />
                     </Button>
                   </div>
                   
-                  <p className="text-gray-600 mb-3 line-clamp-2 text-sm leading-relaxed">
+                  <p className="text-muted-foreground mb-4 line-clamp-2 text-sm leading-relaxed">
                     {app.description}
                   </p>
                   
-                  <div className="flex items-center text-sm text-gray-500">
-                    <span className="rounded-full bg-gray-200 w-6 h-6 flex items-center justify-center mr-2 text-xs font-bold uppercase text-gray-700">
+                  <div className="flex items-center text-sm text-muted-foreground">
+                    <span className="rounded-full bg-gradient-to-br from-primary to-accent w-7 h-7 flex items-center justify-center mr-2 text-xs font-bold text-white">
                       {app.organizationName?.[0] || '?'}
                     </span>
                     <span className="font-medium">{t('community.by')} {app.organizationName}</span>
