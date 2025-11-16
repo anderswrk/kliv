@@ -14,6 +14,7 @@ interface Testimonial {
   quote: string;
   author: string;
   title: string;
+  image: string;
 }
 
 const TestimonialsSection = () => {
@@ -37,51 +38,61 @@ const TestimonialsSection = () => {
       quote: 'testimonials.githubIntegration',
       author: 'testimonials.emmaChenAuthor',
       title: 'testimonials.emmaChenTitle',
+      image: '/content/images/testimonials/emma.png',
     },
     {
       quote: 'testimonials.launchedFaster',
       author: 'testimonials.carlosAuthor',
       title: 'testimonials.carlosTitle',
+      image: '/content/images/testimonials/carlos.png',
     },
     {
       quote: 'testimonials.clientSiteUp',
       author: 'testimonials.yukiAuthor',
       title: 'testimonials.yukiTitle',
+      image: '/content/images/testimonials/yuki.png',
     },
     {
       quote: 'testimonials.onlineStoreConfused',
       author: 'testimonials.jenniferAuthor',
       title: 'testimonials.jenniferTitle',
+      image: '/content/images/testimonials/jennifer.png',
     },
     {
       quote: 'testimonials.noHostingAccounts',
       author: 'testimonials.alexKAuthor',
       title: 'testimonials.alexKTitle',
+      image: '/content/images/testimonials/alexk.png',
     },
     {
       quote: 'testimonials.featuresNeeded',
       author: 'testimonials.lucasAuthor',
       title: 'testimonials.lucasTitle',
+      image: '/content/images/testimonials/lucas.png',
     },
     {
       quote: 'testimonials.learnedToCode',
       author: 'testimonials.mohamedAuthor',
       title: 'testimonials.mohamedTitle',
+      image: '/content/images/testimonials/mohamed.png',
     },
     {
       quote: 'testimonials.japaneseExplanation',
       author: 'testimonials.keikoAuthor',
       title: 'testimonials.keikoTitle',
+      image: '/content/images/testimonials/keiko.png',
     },
     {
       quote: 'testimonials.ideaToLive',
       author: 'testimonials.rachelAuthor',
       title: 'testimonials.rachelTitle',
+      image: '/content/images/testimonials/rachel.png',
     },
     {
       quote: 'testimonials.threeSites',
       author: 'testimonials.diegoAuthor',
       title: 'testimonials.diegoTitle',
+      image: '/content/images/testimonials/diego.png',
     },
   ];
 
@@ -89,6 +100,7 @@ const TestimonialsSection = () => {
     quote: t(keys.quote),
     author: t(keys.author),
     title: t(keys.title),
+    image: keys.image,
   }));
 
   return (
@@ -131,7 +143,7 @@ const TestimonialsSection = () => {
                   {/* Avatar positioned at top corner */}
                   <div className="absolute top-2 left-6 z-10">
                     <Avatar className="h-14 w-14 ring-4 ring-background shadow-lg">
-                      <AvatarImage src={`https://api.dicebear.com/7.x/initials/svg?seed=${testimonial.author}&backgroundColor=0077ff,a855f7,ec4899,f59e0b`} alt={testimonial.author} />
+                      <AvatarImage src={testimonial.image} alt={testimonial.author} />
                       <AvatarFallback className="bg-gradient-to-br from-primary/90 to-purple-500/90 text-white text-sm font-semibold">
                         {testimonial.author.split(' ').map(n => n[0]).join('')}
                       </AvatarFallback>

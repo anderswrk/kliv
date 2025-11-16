@@ -41,6 +41,7 @@
         "clsx": "^2.1.1",
         "cmdk": "^1.0.0",
         "date-fns": "^3.6.0",
+        "embla-carousel-autoplay": "^8.6.0",
         "embla-carousel-react": "^8.3.0",
         "i18next": "^25.3.2",
         "i18next-browser-languagedetector": "^8.2.0",
@@ -614,6 +615,8 @@
     "electron-to-chromium": ["electron-to-chromium@1.5.24", "", {}, "sha512-0x0wLCmpdKFCi9ulhvYZebgcPmHTkFVUfU2wzDykadkslKwT4oAmDTHEKLnlrDsMGZe4B+ksn8quZfZjYsBetA=="],
 
     "embla-carousel": ["embla-carousel@8.3.0", "", {}, "sha512-Ve8dhI4w28qBqR8J+aMtv7rLK89r1ZA5HocwFz6uMB/i5EiC7bGI7y+AM80yAVUJw3qqaZYK7clmZMUR8kM3UA=="],
+
+    "embla-carousel-autoplay": ["embla-carousel-autoplay@8.6.0", "", { "peerDependencies": { "embla-carousel": "8.6.0" } }, "sha512-OBu5G3nwaSXkZCo1A6LTaFMZ8EpkYbwIaH+bPqdBnDGQ2fh4+NbzjXjs2SktoPNKCtflfVMc75njaDHOYXcrsA=="],
 
     "embla-carousel-react": ["embla-carousel-react@8.3.0", "", { "dependencies": { "embla-carousel": "8.3.0", "embla-carousel-reactive-utils": "8.3.0" }, "peerDependencies": { "react": "^16.8.0 || ^17.0.1 || ^18.0.0" } }, "sha512-P1FlinFDcIvggcErRjNuVqnUR8anyo8vLMIH8Rthgofw7Nj8qTguCa2QjFAbzxAUTQTPNNjNL7yt0BGGinVdFw=="],
 
