@@ -76,7 +76,7 @@ export function Pricing() {
     // Create a free plan object
     const freePlan: Plan = {
         uuid: 'free-plan',
-        productName: 'Basic Access',
+        productName: 'Starter',
         name: 'Free Plan',
         features: '• Build unlimited projects\n• Community support\n• Basic templates',
         planType: 'free',
