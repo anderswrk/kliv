@@ -1,127 +1,297 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { useTranslation } from 'react-i18next';
+import { Card, CardContent } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { Heart, Rocket, Target, TrendingUp, Code, Users, Sparkles } from 'lucide-react';
 
 export function About() {
   const { t } = useTranslation();
+
+  const values = [
+    {
+      icon: Heart,
+      title: t('about.values.accessibility.title'),
+      description: t('about.values.accessibility.description')
+    },
+    {
+      icon: Sparkles,
+      title: t('about.values.innovation.title'),
+      description: t('about.values.innovation.description')
+    },
+    {
+      icon: Target,
+      title: t('about.values.empowerment.title'),
+      description: t('about.values.empowerment.description')
+    },
+    {
+      icon: Users,
+      title: t('about.values.community.title'),
+      description: t('about.values.community.description')
+    }
+  ];
 
   return (
     <div className="min-h-screen bg-background">
       <Header />
       
       <main className="pt-16">
-        {/* Header */}
-        <div className="bg-gradient-to-r from-gray-100 via-slate-100 to-gray-200 dark:from-gray-800 dark:via-gray-700 dark:to-gray-600 py-20">
-          <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900 dark:text-white">
-              {t('aboutPage.title')}
-            </h1>
+        {/* Hero Section */}
+        <div className="border-b border-border/50 bg-gradient-to-b from-muted/30 to-background">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div className="max-w-4xl mx-auto text-center">
+              <Badge className="mb-6 px-4 py-2 bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 text-primary hover:bg-primary/20">
+                <Heart className="w-4 h-4 mr-2 inline" />
+                {t('about.badge')}
+              </Badge>
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-[1.1]">
+                <span className="text-gradient">{t('about.title')}</span>
+              </h1>
+              <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+                {t('about.subtitle')}
+              </p>
+            </div>
           </div>
         </div>
 
-        {/* Content */}
-        <div className="container mx-auto px-4 py-20 max-w-4xl">
-          <div className="space-y-12">
-            {/* Founder's Note */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                {t('aboutPage.foundersNote.title')}
-              </h2>
-              <div className="flex flex-col lg:flex-row gap-8 items-start">
-                {/* Founder Photo */}
-                <div className="flex-shrink-0">
-                  <div className="w-48 h-48 rounded-lg overflow-hidden shadow-lg">
-                    <img 
-                      src="/content/images/anders-profile.jpg"
-                      alt={t('aboutPage.foundersNote.founderAlt')}
-                      className="w-full h-full object-cover"
-                    />
+        {/* Founder's Note Section */}
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="max-w-5xl mx-auto">
+            <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg overflow-hidden">
+              <CardContent className="p-8 sm:p-12">
+                <div className="flex items-center gap-3 mb-8">
+                  <div className="p-2 bg-primary/10 dark:bg-primary/20 rounded-lg">
+                    <Code className="w-6 h-6 text-primary" />
                   </div>
+                  <h2 className="text-2xl sm:text-3xl font-bold">
+                    {t('aboutPage.foundersNote.title')}
+                  </h2>
                 </div>
-                
-                {/* Note Content */}
-                <div className="flex-1 text-gray-700 dark:text-gray-300 space-y-4">
-                  <p>{t('aboutPage.foundersNote.paragraph1')}</p>
-                  <p>{t('aboutPage.foundersNote.paragraph2')}</p>
-                  <p>{t('aboutPage.foundersNote.paragraph3')}</p>
-                  <p>{t('aboutPage.foundersNote.paragraph4')}</p>
-                  <p>{t('aboutPage.foundersNote.paragraph5')}</p>
-                  <p>{t('aboutPage.foundersNote.paragraph6')}</p>
+
+                <div className="flex flex-col lg:flex-row gap-8 items-start">
+                  {/* Founder Photo */}
+                  <div className="flex-shrink-0">
+                    <div className="w-48 h-48 rounded-2xl overflow-hidden shadow-xl ring-2 ring-border/50">
+                      <img 
+                        src="/content/images/anders-profile.jpg"
+                        alt={t('aboutPage.foundersNote.founderAlt')}
+                        className="w-full h-full object-cover"
+                        style={{width: '192px'}}
+                      />
+                    </div>
+                  </div>
                   
-                  {/* Signature */}
-                  <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
-                    <p className="text-gray-900 dark:text-white font-medium">
-                      —Anders Olsson, Founder, Kliv
-                    </p>
+                  {/* Note Content */}
+                  <div className="flex-1 text-muted-foreground space-y-4 text-base leading-relaxed">
+                    <p>{t('aboutPage.foundersNote.paragraph1')}</p>
+                    <p>{t('aboutPage.foundersNote.paragraph2')}</p>
+                    <p>{t('aboutPage.foundersNote.paragraph3')}</p>
+                    <p>{t('aboutPage.foundersNote.paragraph4')}</p>
+                    <p>{t('aboutPage.foundersNote.paragraph5')}</p>
+                    <p>{t('aboutPage.foundersNote.paragraph6')}</p>
+                    
+                    {/* Signature */}
+                    <div className="pt-6 mt-6 border-t border-border/50">
+                      <p className="text-foreground font-semibold text-lg">
+                        —Anders Olsson, Founder, Kliv
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </section>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
 
-            {/* What is Kliv */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                {t('aboutPage.whatIsKliv.title')}
-              </h2>
-              <div className="text-gray-700 dark:text-gray-300 space-y-4">
-                <p>{t('aboutPage.whatIsKliv.paragraph1')}</p>
-                <p>{t('aboutPage.whatIsKliv.paragraph2')}</p>
+        {/* Mission Section */}
+        <div className="border-t border-border/50 bg-gradient-to-b from-muted/10 to-background">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div className="max-w-5xl mx-auto">
+              <div className="text-center mb-12">
+                <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-4 backdrop-blur-sm">
+                  <Target className="w-4 h-4 mr-2 text-primary"/>
+                  <span className="text-sm font-semibold text-primary">{t('about.mission.title')}</span>
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-bold mb-6">
+                  {t('about.mission.title')}
+                </h2>
               </div>
-            </section>
 
-            {/* Where we're going */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+              <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
+                <CardContent className="p-8 sm:p-12">
+                  <div className="text-muted-foreground space-y-6 text-base leading-relaxed">
+                    <p className="text-lg">{t('about.mission.paragraph1')}</p>
+                    <p className="text-lg">{t('about.mission.paragraph2')}</p>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+
+        {/* Values Grid */}
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4">Our Values</h2>
+              <p className="text-muted-foreground text-lg">The principles that guide everything we do</p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {values.map((value, index) => {
+                const Icon = value.icon;
+                return (
+                  <Card key={index} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <CardContent className="p-8">
+                      <div className="flex items-start gap-4">
+                        <div className="p-3 bg-primary/10 dark:bg-primary/20 rounded-xl flex-shrink-0">
+                          <Icon className="w-6 h-6 text-primary" />
+                        </div>
+                        <div>
+                          <h3 className="text-xl font-bold mb-2">{value.title}</h3>
+                          <p className="text-muted-foreground leading-relaxed">{value.description}</p>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+
+        {/* What is Kliv */}
+        <div className="border-t border-border/50 bg-gradient-to-b from-muted/10 to-background">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div className="max-w-5xl mx-auto">
+              <div className="text-center mb-12">
+                <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-4 backdrop-blur-sm">
+                  <Rocket className="w-4 h-4 mr-2 text-primary"/>
+                  <span className="text-sm font-semibold text-primary">Platform</span>
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-bold mb-6">
+                  {t('aboutPage.whatIsKliv.title')}
+                </h2>
+              </div>
+
+              <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
+                <CardContent className="p-8 sm:p-12">
+                  <div className="text-muted-foreground space-y-6 text-base leading-relaxed">
+                    <p className="text-lg">{t('aboutPage.whatIsKliv.paragraph1')}</p>
+                    <p>{t('aboutPage.whatIsKliv.paragraph2')}</p>
+                    <p>{t('aboutPage.whatIsKliv.paragraph3')}</p>
+                    <p>{t('aboutPage.whatIsKliv.paragraph4')}</p>
+                    <p>{t('aboutPage.whatIsKliv.paragraph5')}</p>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+
+        {/* Where We're Going */}
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-4 backdrop-blur-sm">
+                <TrendingUp className="w-4 h-4 mr-2 text-primary"/>
+                <span className="text-sm font-semibold text-primary">Roadmap</span>
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-6">
                 {t('aboutPage.whereWereGoing.title')}
               </h2>
-              <div className="text-gray-700 dark:text-gray-300 space-y-4">
-                <p>{t('aboutPage.whereWereGoing.paragraph1')}</p>
-                <p>{t('aboutPage.whereWereGoing.listIntro')}</p>
-                <ul className="list-disc list-inside space-y-1">
-                  <li>{t('aboutPage.whereWereGoing.features.backgroundJobs')}</li>
-                  <li>{t('aboutPage.whereWereGoing.features.queuesWorkers')}</li>
-                  <li>{t('aboutPage.whereWereGoing.features.apiEndpoints')}</li>
-                  <li>{t('aboutPage.whereWereGoing.features.workflows')}</li>
-                  <li>{t('aboutPage.whereWereGoing.features.backendLogic')}</li>
-                  <li>{t('aboutPage.whereWereGoing.features.dataPipelines')}</li>
-                  <li>{t('aboutPage.whereWereGoing.features.permissions')}</li>
-                  <li>{t('aboutPage.whereWereGoing.features.infrastructure')}</li>
-                </ul>
-                <p>{t('aboutPage.whereWereGoing.paragraph2')}</p>
-              </div>
-            </section>
+            </div>
 
-            {/* Investors */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                {t('aboutPage.investors.title')}
-              </h2>
-              <div className="text-gray-700 dark:text-gray-300 space-y-4">
-                <p>{t('aboutPage.investors.paragraph1')}</p>
-                <p>
-                  {t('aboutPage.investors.paragraph2')}{' '}
-                  <a 
-                    href="https://rational.ventures/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-600 dark:text-blue-400 hover:underline"
-                  >
-                    {t('aboutPage.investors.rationalVentures')}
-                  </a>
-                  {t('aboutPage.investors.paragraph2Suffix')}
-                </p>
-                <p>
-                  {t('aboutPage.investors.paragraph3')}{' '}
-                  <a 
-                    href="mailto:hello@kliv.dev"
-                    className="text-blue-600 dark:text-blue-400 hover:underline"
-                  >
-                    hello@kliv.dev
-                  </a>
-                  {t('aboutPage.investors.paragraph3Suffix')}
-                </p>
+            <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
+              <CardContent className="p-8 sm:p-12">
+                <div className="text-muted-foreground space-y-6 text-base leading-relaxed">
+                  <p className="text-lg">{t('aboutPage.whereWereGoing.paragraph1')}</p>
+                  <p>{t('aboutPage.whereWereGoing.listIntro')}</p>
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 my-6">
+                    <li className="flex items-center gap-2">
+                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
+                      {t('aboutPage.whereWereGoing.features.backgroundJobs')}
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
+                      {t('aboutPage.whereWereGoing.features.queuesWorkers')}
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
+                      {t('aboutPage.whereWereGoing.features.apiEndpoints')}
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
+                      {t('aboutPage.whereWereGoing.features.workflows')}
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
+                      {t('aboutPage.whereWereGoing.features.backendLogic')}
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
+                      {t('aboutPage.whereWereGoing.features.dataPipelines')}
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
+                      {t('aboutPage.whereWereGoing.features.permissions')}
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
+                      {t('aboutPage.whereWereGoing.features.infrastructure')}
+                    </li>
+                  </ul>
+                  <p className="text-lg font-medium text-foreground">{t('aboutPage.whereWereGoing.paragraph2')}</p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+
+        {/* Investors Section */}
+        <div className="border-t border-border/50 bg-gradient-to-b from-muted/10 to-background">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div className="max-w-5xl mx-auto">
+              <div className="text-center mb-12">
+                <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-4 backdrop-blur-sm">
+                  <TrendingUp className="w-4 h-4 mr-2 text-primary"/>
+                  <span className="text-sm font-semibold text-primary">Backed By</span>
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-bold mb-6">
+                  {t('aboutPage.investors.title')}
+                </h2>
               </div>
-            </section>
+
+              <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
+                <CardContent className="p-8 sm:p-12">
+                  <div className="text-muted-foreground space-y-6 text-base leading-relaxed">
+                    <p className="text-lg">{t('aboutPage.investors.paragraph1')}</p>
+                    <p>
+                      {t('aboutPage.investors.paragraph2')}{' '}
+                      <a 
+                        href="https://rational.ventures/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline font-semibold"
+                      >
+                        {t('aboutPage.investors.rationalVentures')}
+                      </a>
+                      {t('aboutPage.investors.paragraph2Suffix')}
+                    </p>
+                    <p>
+                      {t('aboutPage.investors.paragraph3')}{' '}
+                      <a 
+                        href="mailto:hello@kliv.dev"
+                        className="text-primary hover:underline font-semibold"
+                      >
+                        hello@kliv.dev
+                      </a>
+                      {t('aboutPage.investors.paragraph3Suffix')}
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </main>
