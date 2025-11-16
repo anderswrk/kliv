@@ -3,7 +3,7 @@ import { Footer } from '@/components/Footer';
 import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Newspaper, Download, Mail, Calendar, Users, Sparkles, Award } from 'lucide-react';
+import { Newspaper, Download, Mail, Calendar, Users, Sparkles } from 'lucide-react';
 
 export function Press() {
   const { t } = useTranslation();
@@ -26,26 +26,7 @@ export function Press() {
     }
   ];
 
-  const assets = [
-    {
-      icon: Download,
-      title: t('press.assets.logo.title'),
-      description: t('press.assets.logo.description'),
-      link: '#'
-    },
-    {
-      icon: Download,
-      title: t('press.assets.screenshots.title'),
-      description: t('press.assets.screenshots.description'),
-      link: '#'
-    },
-    {
-      icon: Download,
-      title: t('press.assets.brandGuide.title'),
-      description: t('press.assets.brandGuide.description'),
-      link: '#'
-    }
-  ];
+
 
   return (
     <div className="min-h-screen bg-background">
@@ -140,89 +121,25 @@ export function Press() {
 
         {/* Press Assets */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-4">{t('press.assets.title')}</h2>
-              <p className="text-muted-foreground text-lg">{t('press.assets.subtitle')}</p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {assets.map((asset, index) => {
-                const Icon = asset.icon;
-                return (
-                  <Card key={index} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer group">
-                    <CardContent className="p-6">
-                      <div className="flex flex-col items-center text-center">
-                        <div className="p-3 bg-primary/10 dark:bg-primary/20 rounded-xl mb-4 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors">
-                          <Icon className="w-6 h-6 text-primary" />
-                        </div>
-                        <h3 className="text-lg font-bold mb-2">{asset.title}</h3>
-                        <p className="text-sm text-muted-foreground mb-4">{asset.description}</p>
-                        <span className="text-sm text-primary font-semibold group-hover:underline">
-                          {t('press.assets.downloadCta')} →
-                        </span>
-                      </div>
-                    </CardContent>
-                  </Card>
-                );
-              })}
-            </div>
-
-            <div className="mt-8 text-center">
-              <p className="text-sm text-muted-foreground">
-                {t('press.assets.moreInfo')}{' '}
-                <a href="mailto:press@kliv.dev" className="text-primary hover:underline font-semibold">
+          <div className="max-w-4xl mx-auto">
+            <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
+              <CardContent className="p-8 sm:p-12 text-center">
+                <div className="inline-flex p-4 bg-primary/10 dark:bg-primary/20 rounded-2xl mb-6">
+                  <Download className="w-8 h-8 text-primary" />
+                </div>
+                <h2 className="text-2xl sm:text-3xl font-bold mb-4">{t('press.assets.title')}</h2>
+                <p className="text-base text-muted-foreground leading-relaxed mb-6 max-w-2xl mx-auto">
+                  {t('press.assets.contactForMaterials')}
+                </p>
+                <a 
+                  href="mailto:press@kliv.dev"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+                >
+                  <Mail className="w-4 h-4" />
                   press@kliv.dev
                 </a>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Recent News */}
-        <div className="border-t border-border/50 bg-gradient-to-b from-muted/10 to-background">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
-            <div className="max-w-5xl mx-auto">
-              <div className="text-center mb-12">
-                <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-4 backdrop-blur-sm">
-                  <Award className="w-4 h-4 mr-2 text-primary"/>
-                  <span className="text-sm font-semibold text-primary">{t('press.news.badge')}</span>
-                </div>
-                <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-                  {t('press.news.title')}
-                </h2>
-              </div>
-
-              <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
-                <CardContent className="p-8 sm:p-12">
-                  <div className="space-y-8">
-                    {/* News Item 1 */}
-                    <div className="border-b border-border/50 pb-8 last:border-0 last:pb-0">
-                      <div className="flex items-start gap-4">
-                        <div className="flex-shrink-0 w-2 h-2 rounded-full bg-primary mt-2"></div>
-                        <div className="flex-1">
-                          <div className="text-sm text-muted-foreground mb-2">{t('press.news.items.launch.date')}</div>
-                          <h3 className="text-xl font-bold mb-2">{t('press.news.items.launch.title')}</h3>
-                          <p className="text-base text-muted-foreground leading-relaxed">{t('press.news.items.launch.description')}</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* News Item 2 */}
-                    <div className="border-b border-border/50 pb-8 last:border-0 last:pb-0">
-                      <div className="flex items-start gap-4">
-                        <div className="flex-shrink-0 w-2 h-2 rounded-full bg-primary mt-2"></div>
-                        <div className="flex-1">
-                          <div className="text-sm text-muted-foreground mb-2">{t('press.news.items.funding.date')}</div>
-                          <h3 className="text-xl font-bold mb-2">{t('press.news.items.funding.title')}</h3>
-                          <p className="text-base text-muted-foreground leading-relaxed">{t('press.news.items.funding.description')}</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
 
