@@ -175,7 +175,7 @@ export function Pricing() {
                                     onClick={() => setSelectedInterval('year')}
                                 >
                                     {t('billing.yearly')}
-                                    <span className="absolute -top-3 -right-3 bg-emerald-500 text-white text-xs px-2.5 py-1 rounded-full font-bold shadow-lg">
+                                    <span className="absolute -top-3 -right-5 bg-emerald-500 text-white text-xs px-2.5 py-1 rounded-full font-bold shadow-lg">
                                         {t('billing.save20')}
                                     </span>
                                 </button>
