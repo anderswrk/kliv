@@ -29,7 +29,7 @@ export function FeaturesSection() {
   ];
 
   return (
-    <section id="features" className="py-32 bg-gradient-to-b from-background via-muted/20 to-background relative overflow-hidden">
+    <section id="features" className="py-20 bg-gradient-to-b from-background via-muted/20 to-background relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
@@ -37,17 +37,17 @@ export function FeaturesSection() {
       </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
-        <div className="text-center mb-20">
-          <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-500/10 via-emerald-500/10 to-blue-500/10 border border-blue-500/20 rounded-full text-sm font-semibold mb-8 backdrop-blur-sm">
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-500/10 via-emerald-500/10 to-blue-500/10 border border-blue-500/20 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
             <Database className="w-4 h-4 text-blue-600 dark:text-blue-400" />
             <span className="text-blue-700 dark:text-blue-400">Complete Backend Included</span>
           </div>
-          <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 leading-[1.1]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-[1.1]">
             <span className="text-gradient">
               {t('features.title')}
             </span>
           </h2>
-          <p className="text-xl sm:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             {t('features.subtitle')}
           </p>
         </div>

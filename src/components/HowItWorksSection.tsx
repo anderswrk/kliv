@@ -29,22 +29,22 @@ const HowItWorksSection = () => {
   ];
 
   return (
-    <section id="how-it-works" className="py-32 bg-background relative overflow-hidden">
+    <section id="how-it-works" className="py-20 bg-background relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(255,107,107,0.05),transparent_50%)]"></div>
       
       <div className="container mx-auto px-4 relative">
-        <div className="text-center max-w-3xl mx-auto mb-20">
-          <div className="inline-flex items-center px-5 py-2.5 bg-accent/10 dark:bg-accent/20 border border-accent/20 dark:border-accent/30 rounded-full text-sm font-semibold mb-8 backdrop-blur-sm">
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="inline-flex items-center px-5 py-2.5 bg-accent/10 dark:bg-accent/20 border border-accent/20 dark:border-accent/30 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
             <Sparkles className="w-4 h-4 mr-2 text-accent" />
             <span className="text-accent">Simple Process</span>
           </div>
-          <h2 className="text-5xl sm:text-6xl font-bold mb-8 leading-[1.1]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-[1.1]">
             <span className="text-gradient">
               {t('howItWorks.title')}
             </span>
           </h2>
-          <p className="text-xl sm:text-2xl text-muted-foreground leading-relaxed">
+          <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
             {t('howItWorks.subtitle')}
           </p>
         </div>

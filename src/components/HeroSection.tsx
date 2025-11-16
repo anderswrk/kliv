@@ -116,14 +116,14 @@ export function HeroSection() {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-bold mb-8 animate-fade-in leading-[1.1]">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in leading-[1.1]">
             <span className="text-gradient">
               {t('hero.title')}
             </span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground mb-16 max-w-3xl mx-auto animate-fade-in leading-relaxed">
+          <p className="text-lg sm:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in leading-relaxed">
             {t('hero.subtitle')}
           </p>
 
