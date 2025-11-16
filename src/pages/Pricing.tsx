@@ -130,17 +130,19 @@ export function Pricing() {
 
             <main className="pt-16">
                 {/* Header */}
-                <div className="border-b border-border bg-muted/30">
+                <div className="border-b border-border/50 bg-gradient-to-b from-muted/30 to-background">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                        <div className="max-w-3xl mx-auto text-center">
-                            <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
+                        <div className="max-w-4xl mx-auto text-center">
+                            <div className="inline-flex items-center px-5 py-2.5 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-6 backdrop-blur-sm">
                                 <DollarSign className="w-4 h-4 mr-2 text-primary"/>
-                                <span className="text-sm font-medium text-primary">{t('pricing.badge')}</span>
+                                <span className="text-sm font-semibold text-primary">{t('pricing.badge')}</span>
                             </div>
-                            <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-                                {t('pricing.title')}
+                            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-[1.1]">
+                                <span className="text-gradient">
+                                    {t('pricing.title')}
+                                </span>
                             </h1>
-                            <p className="text-xl text-muted-foreground">
+                            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
                                 {t('pricing.subtitle')}
                             </p>
                         </div>
@@ -149,14 +151,14 @@ export function Pricing() {
 
                 {/* Billing Interval Selector */}
                 {pricingData && !loading && !error && (
-                    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
                         <div className="flex justify-center">
-                            <div className="inline-flex rounded-lg border border-border p-1 bg-muted/30">
+                            <div className="inline-flex rounded-xl border border-border/50 p-1.5 bg-muted/30 backdrop-blur-sm shadow-sm">
                                 <button
                                     type="button"
-                                    className={`px-6 py-2 text-sm font-medium rounded-md transition-all ${
+                                    className={`px-8 py-3 text-sm font-semibold rounded-lg transition-all duration-200 ${
                                         selectedInterval === 'month'
-                                            ? 'bg-background text-foreground shadow-sm'
+                                            ? 'bg-primary text-primary-foreground shadow-md'
                                             : 'text-muted-foreground hover:text-foreground'
                                     }`}
                                     onClick={() => setSelectedInterval('month')}
@@ -165,15 +167,15 @@ export function Pricing() {
                                 </button>
                                 <button
                                     type="button"
-                                    className={`px-6 py-2 text-sm font-medium rounded-md transition-all relative ${
+                                    className={`px-8 py-3 text-sm font-semibold rounded-lg transition-all duration-200 relative ${
                                         selectedInterval === 'year'
-                                            ? 'bg-background text-foreground shadow-sm'
+                                            ? 'bg-primary text-primary-foreground shadow-md'
                                             : 'text-muted-foreground hover:text-foreground'
                                     }`}
                                     onClick={() => setSelectedInterval('year')}
                                 >
                                     {t('billing.yearly')}
-                                    <span className="absolute -top-2 -right-2 bg-green-500 text-white text-xs px-2 py-0.5 rounded-full font-semibold">
+                                    <span className="absolute -top-2 -right-2 bg-emerald-500 text-white text-xs px-2.5 py-1 rounded-full font-bold shadow-lg">
                                         {t('billing.save20')}
                                     </span>
                                 </button>
@@ -183,12 +185,12 @@ export function Pricing() {
                 )}
 
                 {/* Pricing Content */}
-                <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-20">
                     {loading && (
                         <div className="max-w-6xl mx-auto">
                             <div className="plan-container">
                                 {[1, 2, 3].map((i) => (
-                                    <Card key={i} className="border-0 shadow-sm" style={{width: '300px'}}>
+                                    <Card key={i} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg" style={{width: '360px'}}>
                                         <CardContent className="p-8">
                                             <div className="space-y-6">
                                                 <Skeleton className="h-8 w-3/4"/>
@@ -209,14 +211,14 @@ export function Pricing() {
                     )}
 
                     {error && (
-                        <div className="text-center py-8">
-                            <p className="text-destructive mb-4">{t('pricing.errorLoading')}</p>
+                        <div className="text-center py-12">
+                            <p className="text-destructive font-semibold mb-2">{t('pricing.errorLoading')}</p>
                             <p className="text-muted-foreground text-sm">{error}</p>
                         </div>
                     )}
 
                     {pricingData && !loading && !error && (
-                        <div className="max-w-6xl mx-auto">
+                        <div className="max-w-7xl mx-auto">
                             <div className="plan-container">
                                 {/* Always show free plan first */}
                                 <PlanCard
@@ -236,7 +238,7 @@ export function Pricing() {
                                 ))}
 
                                 {!pricingData.plans.length && (
-                                    <div className="col-span-full text-center py-8">
+                                    <div className="col-span-full text-center py-12">
                                         <p className="text-muted-foreground">{t('pricing.noPlansAvailable')}</p>
                                     </div>
                                 )}

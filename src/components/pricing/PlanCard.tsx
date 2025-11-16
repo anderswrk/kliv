@@ -260,7 +260,7 @@ export function PlanCard({plan, plans, buttonMessage, onButtonClick}: PlanCardPr
     return (
         <div className="plan-card">
             {isHighlighted ? (
-                <div className="plan-card-highlight">
+                <div className="plan-card-highlight group">
                     <div className="plan-card-highlight-title">
                         {currentPlan.highlight}
                     </div>
@@ -278,7 +278,7 @@ export function PlanCard({plan, plans, buttonMessage, onButtonClick}: PlanCardPr
                     </div>
                 </div>
             ) : (
-                <div className="plan-card-normal">
+                <div className="plan-card-normal group">
                     <div className="plan-card-body">
                         <PlanCardContent
                             currentPlan={localizedCurrentPlan}
