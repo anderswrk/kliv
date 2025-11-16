@@ -476,28 +476,16 @@ export default function Login({
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-grow flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8 pt-28 sm:pt-24 lg:pt-20">
-        <div className="w-full max-w-[1000px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            {/* Left side - Image (desktop only) */}
-            <div className="hidden lg:flex items-center justify-center">
-              <img
-                src={theme === 'dark' ? "https://data.rationalbi.com/assets/kliv/img/kliv-signup-dark.png" : "https://data.rationalbi.com/assets/kliv/img/kliv-signup-light.png"}
-                alt="Login"
-                className="w-full max-w-md"
-              />
-            </div>
-
-            {/* Right side - Login form */}
-            <div className="flex justify-center">
-              <Card className="w-full max-w-md">
-                <CardHeader className="space-y-1">
-                  <CardTitle className="text-2xl font-bold text-center">
-                    {t('login.welcomeBack')}
-                  </CardTitle>
-                  <CardDescription className="text-center">
-                    {t('login.enterCredentials')}
-                  </CardDescription>
-                </CardHeader>
+        <div className="w-full max-w-md">
+          <Card className="w-full">
+            <CardHeader className="space-y-1">
+              <CardTitle className="text-2xl font-bold text-center">
+                {t('login.welcomeBack')}
+              </CardTitle>
+              <CardDescription className="text-center">
+                {t('login.enterCredentials')}
+              </CardDescription>
+            </CardHeader>
                 <CardContent className="space-y-4">
                   {/* Error/Success Messages */}
                   {message && (
@@ -820,8 +808,6 @@ export default function Login({
                   )}
                 </CardContent>
               </Card>
-            </div>
-          </div>
         </div>
       </main>
       <Footer />
