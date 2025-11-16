@@ -715,19 +715,35 @@
     },
     "whereWereGoing": {
       "title": "Vart vi är på väg",
-      "paragraph1": "Vi når snabbt en punkt där att konstruera frontend för en app eller webbplats med AI är ett mestadels löst problem. Fokuset ligger nu på att möjliggöra mer avancerad backendfunktionalitet som går hand i hand med frontend:",
+      "paragraph1": "Att bygga frontendapplikationer med AI är i stort sett löst. Vårt fokus nu är att expandera Kliv Cloud med infrastrukturfunktioner som driver verkliga applikationer:",
       "listIntro": "Här är vad vi bygger härnäst:",
       "features": {
-        "backgroundJobs": "Bakgrundsjobb",
-        "queuesWorkers": "Köer och workers",
-        "apiEndpoints": "API-endpoints",
-        "workflows": "Arbetsflöden",
-        "backendLogic": "Backend-affärslogik",
-        "dataPipelines": "Fullständiga datapipelines",
-        "permissions": "Behörighetsmodeller",
-        "infrastructure": "Fullständig infrastruktur-som-kod"
+        "scheduled": {
+          "title": "Schemalagda jobb",
+          "description": "Kör backenduppgifter på schema - dagliga rapporter, städjobb och återkommande processer"
+        },
+        "webhooks": {
+          "title": "Webhooks & händelser",
+          "description": "Reagera på externa händelser från betalningsleverantörer, CRM och tredjepartstjänster"
+        },
+        "streaming": {
+          "title": "Streaming-svar",
+          "description": "Strömma stora datamängder och realtids-AI-svar utan att vänta på fullständig färdigställande"
+        },
+        "realtime": {
+          "title": "Realtidsprenumerationer",
+          "description": "Live-databasuppdateringar, kollaborativ redigering och omedelbara notifieringar över klienter"
+        },
+        "vector": {
+          "title": "Vektorsökning",
+          "description": "Semantisk sökning och AI-drivna rekommendationer med vektorinbäddningar"
+        },
+        "queues": {
+          "title": "Bakgrundsköer",
+          "description": "Bearbeta tunga arbetsbelastningar asynkront - bildbehandling, exporter och batch-operationer"
+        }
       },
-      "paragraph2": "Vi banar snabbt vägen så att AI kan sammanställa mer av stacken — på ett sätt som håller."
+      "paragraph2": "Vi expanderar plattformen så att AI kan sammanställa mer av din infrastrukturstack — tillförlitligt och i stor skala."
     },
     "investors": {
       "title": "Investerare",

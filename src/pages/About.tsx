@@ -207,40 +207,62 @@ export function About() {
                 <div className="text-muted-foreground space-y-6 text-base leading-relaxed">
                   <p>{t('aboutPage.whereWereGoing.paragraph1')}</p>
                   <p>{t('aboutPage.whereWereGoing.listIntro')}</p>
-                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 my-6">
-                    <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
-                      {t('aboutPage.whereWereGoing.features.backgroundJobs')}
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
-                      {t('aboutPage.whereWereGoing.features.queuesWorkers')}
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
-                      {t('aboutPage.whereWereGoing.features.apiEndpoints')}
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
-                      {t('aboutPage.whereWereGoing.features.workflows')}
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
-                      {t('aboutPage.whereWereGoing.features.backendLogic')}
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
-                      {t('aboutPage.whereWereGoing.features.dataPipelines')}
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
-                      {t('aboutPage.whereWereGoing.features.permissions')}
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
-                      {t('aboutPage.whereWereGoing.features.infrastructure')}
-                    </li>
-                  </ul>
+                  <div className="space-y-4 my-6">
+                    <div className="flex items-start space-x-3">
+                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-cyan-500/20 dark:bg-cyan-500/30 flex items-center justify-center mt-0.5">
+                        <div className="w-2 h-2 rounded-full bg-cyan-600 dark:bg-cyan-400"></div>
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-semibold mb-1">{t('aboutPage.whereWereGoing.features.scheduled.title')}</h3>
+                        <p className="text-sm text-muted-foreground">{t('aboutPage.whereWereGoing.features.scheduled.description')}</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-500/20 dark:bg-emerald-500/30 flex items-center justify-center mt-0.5">
+                        <div className="w-2 h-2 rounded-full bg-emerald-600 dark:bg-emerald-400"></div>
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-semibold mb-1">{t('aboutPage.whereWereGoing.features.webhooks.title')}</h3>
+                        <p className="text-sm text-muted-foreground">{t('aboutPage.whereWereGoing.features.webhooks.description')}</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-500/20 dark:bg-blue-500/30 flex items-center justify-center mt-0.5">
+                        <div className="w-2 h-2 rounded-full bg-blue-600 dark:bg-blue-400"></div>
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-semibold mb-1">{t('aboutPage.whereWereGoing.features.streaming.title')}</h3>
+                        <p className="text-sm text-muted-foreground">{t('aboutPage.whereWereGoing.features.streaming.description')}</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-amber-500/20 dark:bg-amber-500/30 flex items-center justify-center mt-0.5">
+                        <div className="w-2 h-2 rounded-full bg-amber-600 dark:bg-amber-400"></div>
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-semibold mb-1">{t('aboutPage.whereWereGoing.features.realtime.title')}</h3>
+                        <p className="text-sm text-muted-foreground">{t('aboutPage.whereWereGoing.features.realtime.description')}</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-purple-500/20 dark:bg-purple-500/30 flex items-center justify-center mt-0.5">
+                        <div className="w-2 h-2 rounded-full bg-purple-600 dark:bg-purple-400"></div>
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-semibold mb-1">{t('aboutPage.whereWereGoing.features.vector.title')}</h3>
+                        <p className="text-sm text-muted-foreground">{t('aboutPage.whereWereGoing.features.vector.description')}</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-rose-500/20 dark:bg-rose-500/30 flex items-center justify-center mt-0.5">
+                        <div className="w-2 h-2 rounded-full bg-rose-600 dark:bg-rose-400"></div>
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-semibold mb-1">{t('aboutPage.whereWereGoing.features.queues.title')}</h3>
+                        <p className="text-sm text-muted-foreground">{t('aboutPage.whereWereGoing.features.queues.description')}</p>
+                      </div>
+                    </div>
+                  </div>
                   <p>{t('aboutPage.whereWereGoing.paragraph2')}</p>
                 </div>
               </CardContent>

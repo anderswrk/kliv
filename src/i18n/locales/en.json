@@ -718,19 +718,35 @@
     },
     "whereWereGoing": {
       "title": "Where we're going",
-      "paragraph1": "We're quickly reaching a point where constructing the frontend of an app or website with AI is a mostly solved problem. The focus is now on enabling more advanced backend functionality to go along with the frontend:",
+      "paragraph1": "Building frontend applications with AI is largely solved. Our focus now is expanding Kliv Cloud with the infrastructure features that power real-world applications:",
       "listIntro": "Here's what we're building next:",
       "features": {
-        "backgroundJobs": "Background jobs",
-        "queuesWorkers": "Queues and workers",
-        "apiEndpoints": "API endpoints",
-        "workflows": "Workflows",
-        "backendLogic": "Backend business logic",
-        "dataPipelines": "Full data pipelines",
-        "permissions": "Permission models",
-        "infrastructure": "Full infrastructure-as-code"
+        "scheduled": {
+          "title": "Scheduled Jobs",
+          "description": "Run backend tasks on a schedule - daily reports, cleanup jobs, and recurring processes"
+        },
+        "webhooks": {
+          "title": "Webhooks & Events",
+          "description": "React to external events from payment providers, CRMs, and third-party services"
+        },
+        "streaming": {
+          "title": "Streaming Responses",
+          "description": "Stream large datasets and real-time AI responses without waiting for full completion"
+        },
+        "realtime": {
+          "title": "Real-time Subscriptions",
+          "description": "Live database updates, collaborative editing, and instant notifications across clients"
+        },
+        "vector": {
+          "title": "Vector Search",
+          "description": "Semantic search and AI-powered recommendations using vector embeddings"
+        },
+        "queues": {
+          "title": "Background Queues",
+          "description": "Process heavy workloads asynchronously - image processing, exports, and batch operations"
+        }
       },
-      "paragraph2": "We're quickly paving the road so the AI can assemble more of the stack — in a way that holds up."
+      "paragraph2": "We're expanding the platform so AI can assemble more of your infrastructure stack — reliably and at scale."
     },
     "investors": {
       "title": "Investors",
