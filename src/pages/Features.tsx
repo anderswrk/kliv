@@ -164,12 +164,12 @@ export function Features() {
                 <Code className="w-4 h-4 mr-2 text-primary" />
                 <span className="text-sm font-semibold text-primary">{t('features.page.badge')}</span>
               </div>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-[1.1]">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-[1.1]">
                 <span className="text-gradient">
                   {t('features.page.title')}
                 </span>
               </h1>
-              <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
+              <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
                 {t('features.page.subtitle')}
               </p>
             </div>
@@ -186,7 +186,7 @@ export function Features() {
                   <Cloud className="w-4 h-4 mr-2 text-cyan-600 dark:text-cyan-400" />
                   <span className="text-sm font-semibold text-cyan-700 dark:text-cyan-400">Kliv Cloud</span>
                 </div>
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-[1.1]">
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 leading-[1.1]">
                   <span className="text-gradient">
                     {t('features.page.klivCloud.title')}
                   </span>
@@ -196,10 +196,10 @@ export function Features() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
                 {/* Left: Description */}
                 <div className="space-y-6">
-                  <p className="text-lg text-muted-foreground leading-relaxed">
+                  <p className="text-base text-muted-foreground leading-relaxed">
                     {t('features.page.klivCloud.intro')}
                   </p>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
+                  <p className="text-base text-muted-foreground leading-relaxed">
                     {t('features.page.klivCloud.enterprise')}
                   </p>
                 </div>
@@ -253,7 +253,7 @@ export function Features() {
                       <div className="inline-flex p-3 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300 mb-4">
                         <feature.icon className="h-6 w-6 text-primary" />
                       </div>
-                      <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">
+                      <h3 className="text-base font-bold mb-2 group-hover:text-primary transition-colors">
                         {feature.title}
                       </h3>
                       <p className="text-muted-foreground leading-relaxed text-sm">
@@ -268,12 +268,12 @@ export function Features() {
             {/* Core Development Features - Alternating Layout */}
             <div className="mb-24">
               <div className="text-center mb-16">
-                <h2 className="text-3xl sm:text-4xl font-bold mb-3 leading-[1.1]">
+                <h2 className="text-2xl sm:text-3xl font-bold mb-3 leading-[1.1]">
                   <span className="text-gradient">
                     {t('features.page.core.title')}
                   </span>
                 </h2>
-                <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                <p className="text-base text-muted-foreground max-w-2xl mx-auto">
                   {t('features.page.subtitle')}
                 </p>
               </div>
@@ -296,10 +296,10 @@ export function Features() {
                       <div className="inline-flex items-center px-3 py-1.5 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 mb-4">
                         <span className="text-xs font-semibold text-primary">Feature {index + 1}</span>
                       </div>
-                      <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+                      <h3 className="text-xl sm:text-2xl font-bold mb-4">
                         {feature.title}
                       </h3>
-                      <p className="text-lg text-muted-foreground leading-relaxed">
+                      <p className="text-base text-muted-foreground leading-relaxed">
                         {feature.description}
                       </p>
                     </div>
@@ -311,7 +311,7 @@ export function Features() {
             {/* Development Workflow - Process Flow */}
             <div className="mb-24 bg-gradient-to-br from-muted/30 to-background rounded-3xl p-8 lg:p-12 border border-border/50">
               <div className="text-center mb-12">
-                <h2 className="text-3xl sm:text-4xl font-bold mb-3 leading-[1.1]">
+                <h2 className="text-2xl sm:text-3xl font-bold mb-3 leading-[1.1]">
                   <span className="text-gradient">
                     {t('features.page.development.title')}
                   </span>
@@ -336,11 +336,11 @@ export function Features() {
                       <div className="flex-1 pb-6">
                         <div className="flex items-center gap-3 mb-2">
                           <feature.icon className="h-5 w-5 text-primary" />
-                          <h3 className="text-xl font-bold group-hover:text-primary transition-colors">
+                          <h3 className="text-lg font-bold group-hover:text-primary transition-colors">
                             {feature.title}
                           </h3>
                         </div>
-                        <p className="text-muted-foreground leading-relaxed">
+                        <p className="text-sm text-muted-foreground leading-relaxed">
                           {feature.description}
                         </p>
                       </div>
@@ -353,7 +353,7 @@ export function Features() {
             {/* Deployment Options - Grid with Large Icons */}
             <div className="mb-24">
               <div className="text-center mb-12">
-                <h2 className="text-3xl sm:text-4xl font-bold mb-3 leading-[1.1]">
+                <h2 className="text-2xl sm:text-3xl font-bold mb-3 leading-[1.1]">
                   <span className="text-gradient">
                     {t('features.page.deployment.title')}
                   </span>
@@ -370,10 +370,10 @@ export function Features() {
                       <div className="inline-flex p-3 rounded-2xl bg-emerald-500/10 dark:bg-emerald-500/20 mb-4">
                         <feature.icon className="h-8 w-8 text-emerald-600 dark:text-emerald-400" />
                       </div>
-                      <h3 className="text-xl font-bold mb-3 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                      <h3 className="text-lg font-bold mb-3 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
                         {feature.title}
                       </h3>
-                      <p className="text-muted-foreground leading-relaxed">
+                      <p className="text-sm text-muted-foreground leading-relaxed">
                         {feature.description}
                       </p>
                     </div>
@@ -389,12 +389,12 @@ export function Features() {
               <div className="absolute bottom-0 right-0 w-64 h-64 bg-gradient-to-tl from-blue-500/10 to-transparent rounded-full blur-3xl"></div>
               
               <div className="relative text-center">
-                <h2 className="text-2xl sm:text-3xl font-bold mb-3 leading-[1.1]">
+                <h2 className="text-xl sm:text-2xl font-bold mb-3 leading-[1.1]">
                   <span className="text-gradient">
                     {t('features.page.technology.title')}
                   </span>
                 </h2>
-                <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
+                <p className="text-sm text-muted-foreground mb-8 max-w-2xl mx-auto">
                   Built on industry-leading technologies that ensure quality, performance, and maintainability
                 </p>
                 
