@@ -120,8 +120,8 @@ export function About() {
               <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
                 <CardContent className="p-8 sm:p-12">
                   <div className="text-muted-foreground space-y-6 text-base leading-relaxed">
-                    <p className="text-lg">{t('about.mission.paragraph1')}</p>
-                    <p className="text-lg">{t('about.mission.paragraph2')}</p>
+                    <p>{t('about.mission.paragraph1')}</p>
+                    <p>{t('about.mission.paragraph2')}</p>
                   </div>
                 </CardContent>
               </Card>
@@ -177,7 +177,7 @@ export function About() {
               <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
                 <CardContent className="p-8 sm:p-12">
                   <div className="text-muted-foreground space-y-6 text-base leading-relaxed">
-                    <p className="text-lg">{t('aboutPage.whatIsKliv.paragraph1')}</p>
+                    <p>{t('aboutPage.whatIsKliv.paragraph1')}</p>
                     <p>{t('aboutPage.whatIsKliv.paragraph2')}</p>
                     <p>{t('aboutPage.whatIsKliv.paragraph3')}</p>
                     <p>{t('aboutPage.whatIsKliv.paragraph4')}</p>
@@ -205,7 +205,7 @@ export function About() {
             <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
               <CardContent className="p-8 sm:p-12">
                 <div className="text-muted-foreground space-y-6 text-base leading-relaxed">
-                  <p className="text-lg">{t('aboutPage.whereWereGoing.paragraph1')}</p>
+                  <p>{t('aboutPage.whereWereGoing.paragraph1')}</p>
                   <p>{t('aboutPage.whereWereGoing.listIntro')}</p>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 my-6">
                     <li className="flex items-center gap-2">
@@ -241,7 +241,7 @@ export function About() {
                       {t('aboutPage.whereWereGoing.features.infrastructure')}
                     </li>
                   </ul>
-                  <p className="text-lg font-medium text-foreground">{t('aboutPage.whereWereGoing.paragraph2')}</p>
+                  <p>{t('aboutPage.whereWereGoing.paragraph2')}</p>
                 </div>
               </CardContent>
             </Card>
@@ -265,7 +265,7 @@ export function About() {
               <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
                 <CardContent className="p-8 sm:p-12">
                   <div className="text-muted-foreground space-y-6 text-base leading-relaxed">
-                    <p className="text-lg">{t('aboutPage.investors.paragraph1')}</p>
+                    <p>{t('aboutPage.investors.paragraph1')}</p>
                     <p>
                       {t('aboutPage.investors.paragraph2')}{' '}
                       <a 
