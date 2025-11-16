@@ -40,7 +40,7 @@ export function FeaturesSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-500/10 via-emerald-500/10 to-blue-500/10 border border-blue-500/20 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
             <Database className="w-4 h-4 text-blue-600 dark:text-blue-400" />
-            <span className="text-blue-700 dark:text-blue-400">Complete Backend Included</span>
+            <span className="text-blue-700 dark:text-blue-400">{t('features.badge')}</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-[1.1]">
             <span className="text-gradient">

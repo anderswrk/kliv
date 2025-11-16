@@ -75,6 +75,7 @@
     }
   },
   "features": {
+    "badge": "Complete Backend Included",
     "title": "Everything Your App Needs",
     "subtitle": "Build complete applications with user accounts, data storage, file uploads, and email — all managed by AI. No technical setup required.",
     "userAccounts": {
@@ -210,6 +211,7 @@
       },
       "technology": {
         "title": "Technology Stack",
+        "subtitle": "Built on industry-leading technologies that ensure quality, performance, and maintainability",
         "react": {
           "title": "React & TypeScript",
           "description": "Built with the latest React and TypeScript for type-safe, maintainable code that scales with your project."
@@ -221,6 +223,46 @@
         "shadcn": {
           "title": "Shadcn/ui Components",
           "description": "Pre-built, accessible components that follow modern design principles and best practices."
+        }
+      },
+      "highlights": {
+        "automaticSetup": {
+          "title": "Automatic Setup",
+          "description": "AI creates your database, functions, and access control"
+        },
+        "enterpriseSecurity": {
+          "title": "Enterprise Security",
+          "description": "Row-level security, encryption, and audit trails"
+        },
+        "visualAdmin": {
+          "title": "Visual Admin",
+          "description": "Manage data, monitor functions, no code required"
+        },
+        "globalReplication": {
+          "title": "Global Replication",
+          "description": "Fast, reliable database with automatic backups"
+        }
+      },
+      "coreDetails": {
+        "aiChat": {
+          "point1": "Describe complex features in plain language and watch them come to life",
+          "point2": "Iterate naturally through conversation — no technical documentation needed",
+          "point3": "Works with databases, APIs, authentication, and complex business logic"
+        },
+        "livePreview": {
+          "point1": "Professional UI components styled with Tailwind CSS out of the box",
+          "point2": "Fully responsive layouts that work perfectly on mobile, tablet, and desktop",
+          "point3": "Accessible components following WCAG guidelines for inclusive user experiences"
+        },
+        "codeGeneration": {
+          "point1": "Live preview updates instantly as you make changes — see results in real-time",
+          "point2": "Test on any device or browser directly from your workspace",
+          "point3": "Fast iteration cycles mean less waiting, more creating"
+        },
+        "responsive": {
+          "point1": "Automatic GitHub integration keeps your code safe and version-controlled",
+          "point2": "Clean, maintainable code you can take anywhere — no vendor lock-in",
+          "point3": "Export and deploy to any hosting platform that supports React applications"
         }
       }
     }

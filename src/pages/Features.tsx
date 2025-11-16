@@ -211,8 +211,8 @@ export function Features() {
                       <div className="w-2 h-2 rounded-full bg-cyan-600 dark:bg-cyan-400"></div>
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1">Automatic Setup</h3>
-                      <p className="text-sm text-muted-foreground">AI creates your database, functions, and access control</p>
+                      <h3 className="font-semibold mb-1">{t('features.page.highlights.automaticSetup.title')}</h3>
+                      <p className="text-sm text-muted-foreground">{t('features.page.highlights.automaticSetup.description')}</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -220,8 +220,8 @@ export function Features() {
                       <div className="w-2 h-2 rounded-full bg-emerald-600 dark:bg-emerald-400"></div>
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1">Enterprise Security</h3>
-                      <p className="text-sm text-muted-foreground">Row-level security, encryption, and audit trails</p>
+                      <h3 className="font-semibold mb-1">{t('features.page.highlights.enterpriseSecurity.title')}</h3>
+                      <p className="text-sm text-muted-foreground">{t('features.page.highlights.enterpriseSecurity.description')}</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -229,8 +229,8 @@ export function Features() {
                       <div className="w-2 h-2 rounded-full bg-blue-600 dark:bg-blue-400"></div>
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1">Visual Admin</h3>
-                      <p className="text-sm text-muted-foreground">Manage data, monitor functions, no code required</p>
+                      <h3 className="font-semibold mb-1">{t('features.page.highlights.visualAdmin.title')}</h3>
+                      <p className="text-sm text-muted-foreground">{t('features.page.highlights.visualAdmin.description')}</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -238,8 +238,8 @@ export function Features() {
                       <div className="w-2 h-2 rounded-full bg-amber-600 dark:bg-amber-400"></div>
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1">Global Replication</h3>
-                      <p className="text-sm text-muted-foreground">Fast, reliable database with automatic backups</p>
+                      <h3 className="font-semibold mb-1">{t('features.page.highlights.globalReplication.title')}</h3>
+                      <p className="text-sm text-muted-foreground">{t('features.page.highlights.globalReplication.description')}</p>
                     </div>
                   </div>
                 </div>
@@ -327,15 +327,15 @@ export function Features() {
                             <>
                               <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
                                 <span className="text-primary mt-0.5">•</span>
-                                <span>Describe complex features in plain language and watch them come to life</span>
+                                <span>{t('features.page.coreDetails.aiChat.point1')}</span>
                               </p>
                               <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
                                 <span className="text-primary mt-0.5">•</span>
-                                <span>Iterate naturally through conversation — no technical documentation needed</span>
+                                <span>{t('features.page.coreDetails.aiChat.point2')}</span>
                               </p>
                               <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
                                 <span className="text-primary mt-0.5">•</span>
-                                <span>Works with databases, APIs, authentication, and complex business logic</span>
+                                <span>{t('features.page.coreDetails.aiChat.point3')}</span>
                               </p>
                             </>
                           )}
@@ -343,15 +343,15 @@ export function Features() {
                             <>
                               <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
                                 <span className="text-primary mt-0.5">•</span>
-                                <span>Professional UI components styled with Tailwind CSS out of the box</span>
+                                <span>{t('features.page.coreDetails.livePreview.point1')}</span>
                               </p>
                               <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
                                 <span className="text-primary mt-0.5">•</span>
-                                <span>Fully responsive layouts that work perfectly on mobile, tablet, and desktop</span>
+                                <span>{t('features.page.coreDetails.livePreview.point2')}</span>
                               </p>
                               <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
                                 <span className="text-primary mt-0.5">•</span>
-                                <span>Accessible components following WCAG guidelines for inclusive user experiences</span>
+                                <span>{t('features.page.coreDetails.livePreview.point3')}</span>
                               </p>
                             </>
                           )}
@@ -359,15 +359,15 @@ export function Features() {
                             <>
                               <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
                                 <span className="text-primary mt-0.5">•</span>
-                                <span>Live preview updates instantly as you make changes — see results in real-time</span>
+                                <span>{t('features.page.coreDetails.codeGeneration.point1')}</span>
                               </p>
                               <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
                                 <span className="text-primary mt-0.5">•</span>
-                                <span>Test on any device or browser directly from your workspace</span>
+                                <span>{t('features.page.coreDetails.codeGeneration.point2')}</span>
                               </p>
                               <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
                                 <span className="text-primary mt-0.5">•</span>
-                                <span>Fast iteration cycles mean less waiting, more creating</span>
+                                <span>{t('features.page.coreDetails.codeGeneration.point3')}</span>
                               </p>
                             </>
                           )}
@@ -375,15 +375,15 @@ export function Features() {
                             <>
                               <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
                                 <span className="text-primary mt-0.5">•</span>
-                                <span>Automatic GitHub integration keeps your code safe and version-controlled</span>
+                                <span>{t('features.page.coreDetails.responsive.point1')}</span>
                               </p>
                               <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
                                 <span className="text-primary mt-0.5">•</span>
-                                <span>Clean, maintainable code you can take anywhere — no vendor lock-in</span>
+                                <span>{t('features.page.coreDetails.responsive.point2')}</span>
                               </p>
                               <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
                                 <span className="text-primary mt-0.5">•</span>
-                                <span>Export and deploy to any hosting platform that supports React applications</span>
+                                <span>{t('features.page.coreDetails.responsive.point3')}</span>
                               </p>
                             </>
                           )}
@@ -482,7 +482,7 @@ export function Features() {
                   </span>
                 </h2>
                 <p className="text-sm text-muted-foreground mb-8 max-w-2xl mx-auto">
-                  Built on industry-leading technologies that ensure quality, performance, and maintainability
+                  {t('features.page.technology.subtitle')}
                 </p>
                 
                 <div className="flex flex-wrap justify-center gap-4">
