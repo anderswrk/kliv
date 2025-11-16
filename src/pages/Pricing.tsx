@@ -276,9 +276,9 @@ export function Pricing() {
                                 <thead>
                                     <tr className="border-b-2 border-border">
                                         <th className="text-left p-4 font-semibold text-foreground"></th>
-                                        <th className="text-center p-4 font-bold text-foreground">Free</th>
-                                        <th className="text-center p-4 font-bold text-primary">Professional</th>
-                                        <th className="text-center p-4 font-bold text-foreground">Custom</th>
+                                        <th className="text-center p-4 font-bold text-foreground">{t('planContent.plans.Free')}</th>
+                                        <th className="text-center p-4 font-bold text-primary">{t('planContent.plans.Professional')}</th>
+                                        <th className="text-center p-4 font-bold text-foreground">{t('planContent.plans.Custom')}</th>
                                     </tr>
                                 </thead>
                                 <tbody>
