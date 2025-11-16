@@ -455,9 +455,95 @@
       "Custom": "For teams and enterprises at scale"
     },
     "features": {
-      "Basic Access": "**Everything you need to start building**\n\n✓ Unlimited public projects  \n✓ 10 daily AI credits  \n✓ React + TypeScript + Tailwind  \n✓ Live preview & code editor  \n✓ Free hosting on kliv.site  \n✓ Database & authentication  \n✓ File uploads & email  \n✓ Community support  \n✓ Export to GitHub",
-      "Professional": "**Everything in Free, plus:**\n\n✓ Private projects  \n✓ 100+ daily AI credits  \n✓ Custom domains (www.yourbiz.com)  \n✓ Priority AI response  \n✓ Remove Kliv branding  \n✓ Team collaboration  \n✓ Priority support  \n✓ Advanced analytics  \n✓ Faster build times  \n✓ Extended revision history",
-      "Custom": "**Everything in Professional, plus:**\n\n✓ Dedicated private enclave  \n✓ Custom credit allocation  \n✓ Single Sign-On (SAML/SSO)  \n✓ Advanced security & compliance  \n✓ Dedicated account manager  \n✓ Custom SLA guarantee  \n✓ Volume discounts  \n✓ On-premise deployment option  \n✓ Custom integrations & APIs  \n✓ Training & onboarding  \n✓ 24/7 priority support"
+      "Basic Access": "**Everything you need to start building**\n\n✓ Unlimited public projects  \n✓ 10 credits per day (30/month)  \n✓ React + TypeScript + Tailwind  \n✓ Live preview & code editor  \n✓ Free hosting on kliv.site  \n✓ Database & authentication  \n✓ File uploads & email  \n✓ Email support  \n✓ Community support  \n✓ Export to GitHub",
+      "Professional": "**Everything in Free, plus:**\n\n✓ Private projects  \n✓ 100+ credits per month  \n✓ Custom domains (www.yourbiz.com)  \n✓ Priority AI response  \n✓ Remove Kliv branding  \n✓ Team collaboration  \n✓ Priority support  \n✓ Extended revision history",
+      "Custom": "**Everything in Professional, plus:**\n\n✓ Dedicated private enclave  \n✓ Custom credit allocation  \n✓ Single Sign-On (SAML/SSO)  \n✓ Advanced security & compliance  \n✓ Advanced analytics  \n✓ Dedicated account manager  \n✓ Custom SLA guarantee  \n✓ Volume discounts  \n✓ On-premise deployment option  \n✓ Custom integrations & APIs  \n✓ Training & onboarding  \n✓ 24/7 priority support"
+    },
+    "featureMatrix": {
+      "title": "Compare Plans",
+      "subtitle": "See which features are included in each plan",
+      "features": {
+        "aiCredits": "AI Credits",
+        "publicProjects": "Public Projects",
+        "privateProjects": "Private Projects",
+        "customDomains": "Custom Domains",
+        "hosting": "Free Hosting",
+        "database": "Database & Auth",
+        "fileUploads": "File Uploads",
+        "emailDelivery": "Email Delivery",
+        "support": "Support",
+        "branding": "Remove Branding",
+        "collaboration": "Team Collaboration",
+        "analytics": "Advanced Analytics",
+        "revisionHistory": "Revision History",
+        "github": "GitHub Export",
+        "sso": "SSO/SAML",
+        "sla": "Custom SLA",
+        "enclave": "Private Enclave",
+        "onPremise": "On-Premise Option"
+      },
+      "values": {
+        "free": {
+          "aiCredits": "10/day (30/month)",
+          "publicProjects": "Unlimited",
+          "privateProjects": "—",
+          "customDomains": "—",
+          "hosting": "✓",
+          "database": "✓",
+          "fileUploads": "✓",
+          "emailDelivery": "✓",
+          "support": "Email + Community",
+          "branding": "—",
+          "collaboration": "—",
+          "analytics": "—",
+          "revisionHistory": "Basic",
+          "github": "✓",
+          "sso": "—",
+          "sla": "—",
+          "enclave": "—",
+          "onPremise": "—"
+        },
+        "professional": {
+          "aiCredits": "100+/month",
+          "publicProjects": "Unlimited",
+          "privateProjects": "✓",
+          "customDomains": "✓",
+          "hosting": "✓",
+          "database": "✓",
+          "fileUploads": "✓",
+          "emailDelivery": "✓",
+          "support": "Priority",
+          "branding": "✓",
+          "collaboration": "✓",
+          "analytics": "—",
+          "revisionHistory": "Extended",
+          "github": "✓",
+          "sso": "—",
+          "sla": "—",
+          "enclave": "—",
+          "onPremise": "—"
+        },
+        "custom": {
+          "aiCredits": "Custom",
+          "publicProjects": "Unlimited",
+          "privateProjects": "✓",
+          "customDomains": "✓",
+          "hosting": "✓",
+          "database": "✓",
+          "fileUploads": "✓",
+          "emailDelivery": "✓",
+          "support": "24/7 Dedicated",
+          "branding": "✓",
+          "collaboration": "✓",
+          "analytics": "✓",
+          "revisionHistory": "Full",
+          "github": "✓",
+          "sso": "✓",
+          "sla": "✓",
+          "enclave": "✓",
+          "onPremise": "✓"
+        }
+      }
     }
   },
   "common": {

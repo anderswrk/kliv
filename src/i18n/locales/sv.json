@@ -455,9 +455,95 @@
       "Custom": "För team och företag i stor skala"
     },
     "features": {
-      "Basic Access": "**Allt du behöver för att börja bygga**\n\n✓ Obegränsade offentliga projekt  \n✓ 10 dagliga AI-krediter  \n✓ React + TypeScript + Tailwind  \n✓ Live förhandsvisning & kodredigerare  \n✓ Gratis hosting på kliv.site  \n✓ Databas & autentisering  \n✓ Filuppladdning & e-post  \n✓ Community-support  \n✓ Exportera till GitHub",
-      "Professional": "**Allt i Gratis, plus:**\n\n✓ Privata projekt  \n✓ 100+ dagliga AI-krediter  \n✓ Anpassade domäner (www.dittföretag.se)  \n✓ Prioriterad AI-respons  \n✓ Ta bort Kliv-varumärke  \n✓ Teamsamarbete  \n✓ Prioriterad support  \n✓ Avancerad analys  \n✓ Snabbare byggtider  \n✓ Utökad revisionshistorik",
-      "Custom": "**Allt i Professionell, plus:**\n\n✓ Dedikerad privat enklav  \n✓ Anpassad kredittilldelning  \n✓ Single Sign-On (SAML/SSO)  \n✓ Avancerad säkerhet & compliance  \n✓ Dedikerad kontoansvarig  \n✓ Anpassad SLA-garanti  \n✓ Volymrabatter  \n✓ On-premise distributionsalternativ  \n✓ Anpassade integrationer & API:er  \n✓ Utbildning & onboarding  \n✓ 24/7 prioriterad support"
+      "Basic Access": "**Allt du behöver för att börja bygga**\n\n✓ Obegränsade offentliga projekt  \n✓ 10 krediter per dag (30/månad)  \n✓ React + TypeScript + Tailwind  \n✓ Live förhandsvisning & kodredigerare  \n✓ Gratis hosting på kliv.site  \n✓ Databas & autentisering  \n✓ Filuppladdning & e-post  \n✓ E-postsupport  \n✓ Community-support  \n✓ Exportera till GitHub",
+      "Professional": "**Allt i Gratis, plus:**\n\n✓ Privata projekt  \n✓ 100+ krediter per månad  \n✓ Anpassade domäner (www.dittföretag.se)  \n✓ Prioriterad AI-respons  \n✓ Ta bort Kliv-varumärke  \n✓ Teamsamarbete  \n✓ Prioriterad support  \n✓ Utökad revisionshistorik",
+      "Custom": "**Allt i Professionell, plus:**\n\n✓ Dedikerad privat enklav  \n✓ Anpassad kredittilldelning  \n✓ Single Sign-On (SAML/SSO)  \n✓ Avancerad säkerhet & compliance  \n✓ Avancerad analys  \n✓ Dedikerad kontoansvarig  \n✓ Anpassad SLA-garanti  \n✓ Volymrabatter  \n✓ On-premise distributionsalternativ  \n✓ Anpassade integrationer & API:er  \n✓ Utbildning & onboarding  \n✓ 24/7 prioriterad support"
+    },
+    "featureMatrix": {
+      "title": "Jämför planer",
+      "subtitle": "Se vilka funktioner som ingår i varje plan",
+      "features": {
+        "aiCredits": "AI-krediter",
+        "publicProjects": "Offentliga projekt",
+        "privateProjects": "Privata projekt",
+        "customDomains": "Anpassade domäner",
+        "hosting": "Gratis hosting",
+        "database": "Databas & auth",
+        "fileUploads": "Filuppladdning",
+        "emailDelivery": "E-postleverans",
+        "support": "Support",
+        "branding": "Ta bort varumärke",
+        "collaboration": "Teamsamarbete",
+        "analytics": "Avancerad analys",
+        "revisionHistory": "Revisionshistorik",
+        "github": "GitHub-export",
+        "sso": "SSO/SAML",
+        "sla": "Anpassad SLA",
+        "enclave": "Privat enklav",
+        "onPremise": "On-premise-alternativ"
+      },
+      "values": {
+        "free": {
+          "aiCredits": "10/dag (30/månad)",
+          "publicProjects": "Obegränsade",
+          "privateProjects": "—",
+          "customDomains": "—",
+          "hosting": "✓",
+          "database": "✓",
+          "fileUploads": "✓",
+          "emailDelivery": "✓",
+          "support": "E-post + community",
+          "branding": "—",
+          "collaboration": "—",
+          "analytics": "—",
+          "revisionHistory": "Grundläggande",
+          "github": "✓",
+          "sso": "—",
+          "sla": "—",
+          "enclave": "—",
+          "onPremise": "—"
+        },
+        "professional": {
+          "aiCredits": "100+/månad",
+          "publicProjects": "Obegränsade",
+          "privateProjects": "✓",
+          "customDomains": "✓",
+          "hosting": "✓",
+          "database": "✓",
+          "fileUploads": "✓",
+          "emailDelivery": "✓",
+          "support": "Prioriterad",
+          "branding": "✓",
+          "collaboration": "✓",
+          "analytics": "—",
+          "revisionHistory": "Utökad",
+          "github": "✓",
+          "sso": "—",
+          "sla": "—",
+          "enclave": "—",
+          "onPremise": "—"
+        },
+        "custom": {
+          "aiCredits": "Anpassad",
+          "publicProjects": "Obegränsade",
+          "privateProjects": "✓",
+          "customDomains": "✓",
+          "hosting": "✓",
+          "database": "✓",
+          "fileUploads": "✓",
+          "emailDelivery": "✓",
+          "support": "24/7 dedikerad",
+          "branding": "✓",
+          "collaboration": "✓",
+          "analytics": "✓",
+          "revisionHistory": "Full",
+          "github": "✓",
+          "sso": "✓",
+          "sla": "✓",
+          "enclave": "✓",
+          "onPremise": "✓"
+        }
+      }
     }
   },
   "common": {
