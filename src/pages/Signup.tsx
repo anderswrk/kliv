@@ -622,7 +622,7 @@ export function Signup() {
                             {t('tenantSignup.back')}
                           </Button>
                         )}
-                        <Button type="submit" className="w-full h-11" disabled={isLoading}>
+                        <Button type="submit" className="w-full h-11 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold shadow-lg hover:shadow-xl hover:shadow-accent/20 transition-all" disabled={isLoading}>
                           {isLoading ? t('common.loading') : t('tenantSignup.next')}
                         </Button>
                       </div>
