@@ -126,9 +126,9 @@ const TestimonialsSection = () => {
           <CarouselContent className="-ml-6">
             {testimonials.map((testimonial, index) => (
               <CarouselItem key={index} className="pl-6 md:basis-1/2 lg:basis-1/3">
-                <div className="relative group h-full bg-card/40 dark:bg-card/20 backdrop-blur-sm rounded-2xl p-8 pt-12 border border-border/40 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
+                <div className="relative group h-full bg-card/40 dark:bg-card/20 backdrop-blur-sm rounded-2xl p-8 pt-12 border border-border/40 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5 overflow-visible">
                   {/* Avatar positioned at top corner */}
-                  <div className="absolute -top-6 right-6">
+                  <div className="absolute -top-6 left-6">
                     <Avatar className="h-14 w-14 ring-4 ring-background shadow-lg">
                       <AvatarImage src={`https://api.dicebear.com/7.x/initials/svg?seed=${testimonial.author}&backgroundColor=0077ff,a855f7,ec4899,f59e0b`} alt={testimonial.author} />
                       <AvatarFallback className="bg-gradient-to-br from-primary/90 to-purple-500/90 text-white text-sm font-semibold">
