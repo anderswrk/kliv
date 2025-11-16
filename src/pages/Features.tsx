@@ -170,10 +170,10 @@ export function Features() {
     <div className="min-h-screen bg-background">
       <Header />
       
-      <main className="pt-24">
+      <main className="pt-20">
         {/* Header */}
-        <div className="border-b border-border bg-muted/30 pt-16">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="border-b border-border bg-muted/30 pt-8">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="max-w-3xl mx-auto text-center">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
                 <Code className="w-4 h-4 mr-2 text-primary" />
