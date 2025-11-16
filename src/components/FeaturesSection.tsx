@@ -1,5 +1,6 @@
 
 import { useTranslation } from 'react-i18next';
+import { Card, CardContent } from '@/components/ui/card';
 import { 
   UserCircle2, 
   Database, 
@@ -16,51 +17,15 @@ export function FeaturesSection() {
   const { t } = useTranslation();
 
   const featureKeys = [
-    { 
-      key: 'userAccounts', 
-      icon: UserCircle2, 
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=400&fit=crop&q=80'
-    },
-    { 
-      key: 'database', 
-      icon: Database, 
-      image: 'https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=600&h=400&fit=crop&q=80'
-    },
-    { 
-      key: 'fileUploads', 
-      icon: Upload, 
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop&q=80'
-    },
-    { 
-      key: 'email', 
-      icon: Mail, 
-      image: 'https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=600&h=400&fit=crop&q=80'
-    },
-    { 
-      key: 'hosting', 
-      icon: Zap, 
-      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop&q=80'
-    },
-    { 
-      key: 'domain', 
-      icon: Globe, 
-      image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop&q=80'
-    },
-    { 
-      key: 'mobile', 
-      icon: Smartphone, 
-      image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop&q=80'
-    },
-    { 
-      key: 'team', 
-      icon: Users, 
-      image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop&q=80'
-    },
-    { 
-      key: 'ai', 
-      icon: Sparkles, 
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop&q=80'
-    }
+    { key: 'userAccounts', icon: UserCircle2 },
+    { key: 'database', icon: Database },
+    { key: 'fileUploads', icon: Upload },
+    { key: 'email', icon: Mail },
+    { key: 'hosting', icon: Zap },
+    { key: 'domain', icon: Globe },
+    { key: 'mobile', icon: Smartphone },
+    { key: 'team', icon: Users },
+    { key: 'ai', icon: Sparkles }
   ];
 
   return (
@@ -87,48 +52,25 @@ export function FeaturesSection() {
           </p>
         </div>
 
-        <div className="space-y-16 max-w-6xl mx-auto">
-          {featureKeys.map((feature, index) => {
-            return (
-              <div 
-                key={feature.key} 
-                className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 lg:gap-12 items-center`}
-              >
-                {/* Image Side */}
-                <div className="flex-shrink-0 w-full lg:w-2/5">
-                  <div className="relative group">
-                    {/* Subtle glow effect */}
-                    <div className="absolute -inset-3 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    
-                    {/* Main image container */}
-                    <div className="relative overflow-hidden rounded-xl border border-border/50 bg-muted/30">
-                      <img 
-                        src={feature.image} 
-                        alt={t(`features.${feature.key}.title`)}
-                        className="w-full h-auto aspect-[3/2] object-cover"
-                        loading="lazy"
-                      />
-                      {/* Subtle gradient overlay */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
-                    </div>
-                    
-                    {/* Decorative corner accent */}
-                    <div className={`absolute ${index % 2 === 0 ? '-bottom-2 -right-2' : '-bottom-2 -left-2'} w-12 h-12 bg-primary/20 dark:bg-primary/30 rounded-full blur-lg`}></div>
-                  </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {featureKeys.map((feature, index) => (
+            <Card 
+              key={feature.key} 
+              className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-xl transition-shadow duration-300 group"
+            >
+              <CardContent className="p-6">
+                <div className="inline-flex p-3 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300 mb-4">
+                  <feature.icon className="h-6 w-6 text-primary" />
                 </div>
-                
-                {/* Content Side */}
-                <div className="flex-1 space-y-3">
-                  <h3 className="text-xl lg:text-2xl font-bold">
-                    {t(`features.${feature.key}.title`)}
-                  </h3>
-                  <p className="text-base text-muted-foreground leading-relaxed">
-                    {t(`features.${feature.key}.description`)}
-                  </p>
-                </div>
-              </div>
-            );
-          })}
+                <h3 className="text-base font-bold mb-2 group-hover:text-primary transition-colors">
+                  {t(`features.${feature.key}.title`)}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed text-sm">
+                  {t(`features.${feature.key}.description`)}
+                </p>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </div>
     </section>
