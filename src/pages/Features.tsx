@@ -279,102 +279,119 @@ export function Features() {
               </div>
               
               <div className="space-y-12">
-                {coreFeatures.map((feature, index) => (
-                  <div key={index} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 items-start`}>
-                    {/* Icon Side */}
-                    <div className="flex-shrink-0 w-full lg:w-1/3">
-                      <div className="relative group">
-                        {/* Subtle glow effect */}
-                        <div className="absolute -inset-3 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                        
-                        {/* Main icon container */}
-                        <div className="relative bg-gradient-to-br from-muted/50 to-muted/30 dark:from-muted/30 dark:to-muted/10 backdrop-blur-sm rounded-xl p-8 border border-border/50 flex items-center justify-center">
-                          <feature.icon className="h-12 w-12 text-primary" strokeWidth={1.5} />
+                {coreFeatures.map((feature, index) => {
+                  // Stock photo URLs for each feature
+                  const images = [
+                    'https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop&q=80', // Team collaboration
+                    'https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&h=400&fit=crop&q=80', // Design/UI
+                    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&q=80', // Development/coding
+                    'https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&h=400&fit=crop&q=80', // Deployment/github
+                  ];
+                  
+                  return (
+                    <div key={index} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 items-start`}>
+                      {/* Image Side */}
+                      <div className="flex-shrink-0 w-full lg:w-1/3">
+                        <div className="relative group">
+                          {/* Subtle glow effect */}
+                          <div className="absolute -inset-3 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                          
+                          {/* Main image container */}
+                          <div className="relative overflow-hidden rounded-xl border border-border/50 bg-muted/30">
+                            <img 
+                              src={images[index]} 
+                              alt={feature.title}
+                              className="w-full h-auto aspect-[3/2] object-cover"
+                              loading="lazy"
+                            />
+                            {/* Subtle gradient overlay */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
+                          </div>
+                          
+                          {/* Decorative corner accent */}
+                          <div className={`absolute ${index % 2 === 0 ? '-bottom-2 -right-2' : '-bottom-2 -left-2'} w-12 h-12 bg-primary/20 dark:bg-primary/30 rounded-full blur-lg`}></div>
                         </div>
-                        
-                        {/* Decorative corner accent */}
-                        <div className={`absolute ${index % 2 === 0 ? '-bottom-2 -right-2' : '-bottom-2 -left-2'} w-12 h-12 bg-primary/20 dark:bg-primary/30 rounded-full blur-lg`}></div>
+                      </div>
+                      
+                      {/* Content Side */}
+                      <div className="flex-1 space-y-3">
+                        <h3 className="text-lg lg:text-xl font-bold">
+                          {feature.title}
+                        </h3>
+                        <p className="text-base text-muted-foreground leading-relaxed">
+                          {feature.description}
+                        </p>
+                        {/* Additional descriptive points */}
+                        <div className="pt-2 space-y-2">
+                          {index === 0 && (
+                            <>
+                              <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                                <span className="text-primary mt-0.5">•</span>
+                                <span>Describe complex features in plain language and watch them come to life</span>
+                              </p>
+                              <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                                <span className="text-primary mt-0.5">•</span>
+                                <span>Iterate naturally through conversation — no technical documentation needed</span>
+                              </p>
+                              <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                                <span className="text-primary mt-0.5">•</span>
+                                <span>Works with databases, APIs, authentication, and complex business logic</span>
+                              </p>
+                            </>
+                          )}
+                          {index === 1 && (
+                            <>
+                              <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                                <span className="text-primary mt-0.5">•</span>
+                                <span>Professional UI components styled with Tailwind CSS out of the box</span>
+                              </p>
+                              <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                                <span className="text-primary mt-0.5">•</span>
+                                <span>Fully responsive layouts that work perfectly on mobile, tablet, and desktop</span>
+                              </p>
+                              <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                                <span className="text-primary mt-0.5">•</span>
+                                <span>Accessible components following WCAG guidelines for inclusive user experiences</span>
+                              </p>
+                            </>
+                          )}
+                          {index === 2 && (
+                            <>
+                              <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                                <span className="text-primary mt-0.5">•</span>
+                                <span>Live preview updates instantly as you make changes — see results in real-time</span>
+                              </p>
+                              <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                                <span className="text-primary mt-0.5">•</span>
+                                <span>Test on any device or browser directly from your workspace</span>
+                              </p>
+                              <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                                <span className="text-primary mt-0.5">•</span>
+                                <span>Fast iteration cycles mean less waiting, more creating</span>
+                              </p>
+                            </>
+                          )}
+                          {index === 3 && (
+                            <>
+                              <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                                <span className="text-primary mt-0.5">•</span>
+                                <span>Automatic GitHub integration keeps your code safe and version-controlled</span>
+                              </p>
+                              <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                                <span className="text-primary mt-0.5">•</span>
+                                <span>Clean, maintainable code you can take anywhere — no vendor lock-in</span>
+                              </p>
+                              <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                                <span className="text-primary mt-0.5">•</span>
+                                <span>Export and deploy to any hosting platform that supports React applications</span>
+                              </p>
+                            </>
+                          )}
+                        </div>
                       </div>
                     </div>
-                    
-                    {/* Content Side */}
-                    <div className="flex-1 space-y-3">
-                      <h3 className="text-lg lg:text-xl font-bold">
-                        {feature.title}
-                      </h3>
-                      <p className="text-base text-muted-foreground leading-relaxed">
-                        {feature.description}
-                      </p>
-                      {/* Additional descriptive points */}
-                      <div className="pt-2 space-y-2">
-                        {index === 0 && (
-                          <>
-                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
-                              <span className="text-primary mt-0.5">•</span>
-                              <span>Describe complex features in plain language and watch them come to life</span>
-                            </p>
-                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
-                              <span className="text-primary mt-0.5">•</span>
-                              <span>Iterate naturally through conversation — no technical documentation needed</span>
-                            </p>
-                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
-                              <span className="text-primary mt-0.5">•</span>
-                              <span>Works with databases, APIs, authentication, and complex business logic</span>
-                            </p>
-                          </>
-                        )}
-                        {index === 1 && (
-                          <>
-                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
-                              <span className="text-primary mt-0.5">•</span>
-                              <span>Professional UI components styled with Tailwind CSS out of the box</span>
-                            </p>
-                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
-                              <span className="text-primary mt-0.5">•</span>
-                              <span>Fully responsive layouts that work perfectly on mobile, tablet, and desktop</span>
-                            </p>
-                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
-                              <span className="text-primary mt-0.5">•</span>
-                              <span>Accessible components following WCAG guidelines for inclusive user experiences</span>
-                            </p>
-                          </>
-                        )}
-                        {index === 2 && (
-                          <>
-                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
-                              <span className="text-primary mt-0.5">•</span>
-                              <span>Live preview updates instantly as you make changes — see results in real-time</span>
-                            </p>
-                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
-                              <span className="text-primary mt-0.5">•</span>
-                              <span>Test on any device or browser directly from your workspace</span>
-                            </p>
-                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
-                              <span className="text-primary mt-0.5">•</span>
-                              <span>Fast iteration cycles mean less waiting, more creating</span>
-                            </p>
-                          </>
-                        )}
-                        {index === 3 && (
-                          <>
-                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
-                              <span className="text-primary mt-0.5">•</span>
-                              <span>Automatic GitHub integration keeps your code safe and version-controlled</span>
-                            </p>
-                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
-                              <span className="text-primary mt-0.5">•</span>
-                              <span>Clean, maintainable code you can take anywhere — no vendor lock-in</span>
-                            </p>
-                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
-                              <span className="text-primary mt-0.5">•</span>
-                              <span>Export and deploy to any hosting platform that supports React applications</span>
-                            </p>
-                          </>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
 
