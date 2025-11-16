@@ -81,6 +81,14 @@ export function Footer() {
                   {t('footer.careers')}
                 </LocalizedLink>
               </li>
+              <li>
+                <LocalizedLink 
+                  to="/press" 
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Press
+                </LocalizedLink>
+              </li>
             </ul>
           </div>
 
