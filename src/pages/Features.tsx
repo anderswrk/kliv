@@ -36,37 +36,31 @@ export function Features() {
       icon: Database,
       title: t('features.page.klivCloud.database.title'),
       description: t('features.page.klivCloud.database.description'),
-      gradient: 'from-cyan-500 to-cyan-600',
     },
     {
       icon: Layout,
       title: t('features.page.klivCloud.content.title'),
       description: t('features.page.klivCloud.content.description'),
-      gradient: 'from-emerald-500 to-emerald-600',
     },
     {
       icon: Shield,
       title: t('features.page.klivCloud.secrets.title'),
       description: t('features.page.klivCloud.secrets.description'),
-      gradient: 'from-amber-500 to-amber-600',
     },
     {
       icon: Server,
       title: t('features.page.klivCloud.functions.title'),
       description: t('features.page.klivCloud.functions.description'),
-      gradient: 'from-violet-500 to-violet-600',
     },
     {
       icon: Cpu,
       title: t('features.page.klivCloud.admin.title'),
       description: t('features.page.klivCloud.admin.description'),
-      gradient: 'from-rose-500 to-rose-600',
     },
     {
       icon: Mail,
       title: t('features.page.klivCloud.email.title'),
       description: t('features.page.klivCloud.email.description'),
-      gradient: 'from-blue-500 to-blue-600',
     },
   ];
 
@@ -75,25 +69,21 @@ export function Features() {
       icon: MessageSquare,
       title: t('features.page.core.aiChat.title'),
       description: t('features.page.core.aiChat.description'),
-      gradient: 'from-blue-500 to-blue-600',
     },
     {
       icon: Eye,
       title: t('features.page.core.livePreview.title'),
       description: t('features.page.core.livePreview.description'),
-      gradient: 'from-green-500 to-green-600',
     },
     {
       icon: Code,
       title: t('features.page.core.codeGeneration.title'),
       description: t('features.page.core.codeGeneration.description'),
-      gradient: 'from-purple-500 to-purple-600',
     },
     {
       icon: Smartphone,
       title: t('features.page.core.responsive.title'),
       description: t('features.page.core.responsive.description'),
-      gradient: 'from-indigo-500 to-indigo-600',
     },
   ];
 
@@ -214,19 +204,25 @@ export function Features() {
             </div>
 
             {/* Kliv Cloud Features */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
               {klivCloudFeatures.map((feature, index) => (
-                <Card key={index} className="group hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl hover:scale-[1.02] hover:-translate-y-1">
-                  <CardContent className="p-6 text-center">
-                    <div className={`inline-flex p-4 rounded-2xl bg-gradient-to-br ${feature.gradient} mb-5 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
-                      <feature.icon className="h-6 w-6 text-white" />
+                <Card key={index} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 group">
+                  <CardContent className="p-6">
+                    <div className="flex items-start space-x-4">
+                      <div className="flex-shrink-0">
+                        <div className="inline-flex p-3 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300">
+                          <feature.icon className="h-6 w-6 text-primary" />
+                        </div>
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">
+                          {feature.title}
+                        </h3>
+                        <p className="text-muted-foreground leading-relaxed text-sm">
+                          {feature.description}
+                        </p>
+                      </div>
                     </div>
-                    <h3 className="text-lg font-bold mb-3 group-hover:text-primary transition-colors">
-                      {feature.title}
-                    </h3>
-                    <p className="text-muted-foreground leading-relaxed text-sm">
-                      {feature.description}
-                    </p>
                   </CardContent>
                 </Card>
               ))}
@@ -241,19 +237,25 @@ export function Features() {
               </h2>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
               {coreFeatures.map((feature, index) => (
-                <Card key={index} className="group hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl hover:scale-[1.02] hover:-translate-y-1">
-                  <CardContent className="p-5 text-center">
-                    <div className={`inline-flex p-3 rounded-2xl bg-gradient-to-br ${feature.gradient} mb-4 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
-                      <feature.icon className="h-6 w-6 text-white" />
+                <Card key={index} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 group">
+                  <CardContent className="p-6">
+                    <div className="flex items-start space-x-4">
+                      <div className="flex-shrink-0">
+                        <div className="inline-flex p-3 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300">
+                          <feature.icon className="h-6 w-6 text-primary" />
+                        </div>
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">
+                          {feature.title}
+                        </h3>
+                        <p className="text-muted-foreground leading-relaxed text-sm">
+                          {feature.description}
+                        </p>
+                      </div>
                     </div>
-                    <h3 className="text-base font-bold mb-2 group-hover:text-primary transition-colors">
-                      {feature.title}
-                    </h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed">
-                      {feature.description}
-                    </p>
                   </CardContent>
                 </Card>
               ))}
