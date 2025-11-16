@@ -55,34 +55,34 @@ export function About() {
         </div>
 
         {/* Founder's Note Section */}
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="max-w-5xl mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="max-w-4xl mx-auto">
             <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg overflow-hidden">
-              <CardContent className="p-8 sm:p-12">
-                <div className="flex items-center gap-3 mb-8">
+              <CardContent className="p-6 sm:p-8">
+                <div className="flex items-center gap-3 mb-6">
                   <div className="p-2 bg-primary/10 dark:bg-primary/20 rounded-lg">
-                    <Code className="w-6 h-6 text-primary" />
+                    <Code className="w-5 h-5 text-primary" />
                   </div>
-                  <h2 className="text-2xl sm:text-3xl font-bold">
+                  <h2 className="text-xl sm:text-2xl font-bold">
                     {t('aboutPage.foundersNote.title')}
                   </h2>
                 </div>
 
-                <div className="flex flex-col lg:flex-row gap-8 items-start">
+                <div className="flex flex-col sm:flex-row gap-6 items-start">
                   {/* Founder Photo */}
                   <div className="flex-shrink-0">
-                    <div className="w-48 h-48 rounded-2xl overflow-hidden shadow-xl ring-2 ring-border/50">
+                    <div className="w-20 h-20 rounded-xl overflow-hidden shadow-lg ring-2 ring-border/50">
                       <img 
                         src="/content/images/anders-profile.jpg"
                         alt={t('aboutPage.foundersNote.founderAlt')}
                         className="w-full h-full object-cover"
-                        style={{width: '192px'}}
+                        style={{width: '80px'}}
                       />
                     </div>
                   </div>
                   
                   {/* Note Content */}
-                  <div className="flex-1 text-muted-foreground space-y-4 text-base leading-relaxed">
+                  <div className="flex-1 text-muted-foreground space-y-3 text-sm leading-relaxed">
                     <p>{t('aboutPage.foundersNote.paragraph1')}</p>
                     <p>{t('aboutPage.foundersNote.paragraph2')}</p>
                     <p>{t('aboutPage.foundersNote.paragraph3')}</p>
@@ -91,8 +91,8 @@ export function About() {
                     <p>{t('aboutPage.foundersNote.paragraph6')}</p>
                     
                     {/* Signature */}
-                    <div className="pt-6 mt-6 border-t border-border/50">
-                      <p className="text-foreground font-semibold text-lg">
+                    <div className="pt-4 mt-4 border-t border-border/50">
+                      <p className="text-foreground font-semibold text-sm">
                         —Anders Olsson, Founder, Kliv
                       </p>
                     </div>
