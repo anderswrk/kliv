@@ -3,6 +3,14 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { 
+  Cloud,
+  Database, 
+  Shield, 
+  Server, 
+  FileText, 
+  Mail, 
+  Layout,
+  Cpu,
   MessageSquare, 
   Eye, 
   Code, 
@@ -17,12 +25,50 @@ import {
   Copy,
   Layers,
   Palette,
-  Component,
-  Database
+  Component
 } from 'lucide-react';
 
 export function Features() {
   const { t } = useTranslation();
+
+  const klivCloudFeatures = [
+    {
+      icon: Database,
+      title: t('features.page.klivCloud.database.title'),
+      description: t('features.page.klivCloud.database.description'),
+      gradient: 'from-cyan-500 to-cyan-600',
+    },
+    {
+      icon: Layout,
+      title: t('features.page.klivCloud.content.title'),
+      description: t('features.page.klivCloud.content.description'),
+      gradient: 'from-emerald-500 to-emerald-600',
+    },
+    {
+      icon: Shield,
+      title: t('features.page.klivCloud.secrets.title'),
+      description: t('features.page.klivCloud.secrets.description'),
+      gradient: 'from-amber-500 to-amber-600',
+    },
+    {
+      icon: Server,
+      title: t('features.page.klivCloud.functions.title'),
+      description: t('features.page.klivCloud.functions.description'),
+      gradient: 'from-violet-500 to-violet-600',
+    },
+    {
+      icon: Cpu,
+      title: t('features.page.klivCloud.admin.title'),
+      description: t('features.page.klivCloud.admin.description'),
+      gradient: 'from-rose-500 to-rose-600',
+    },
+    {
+      icon: Mail,
+      title: t('features.page.klivCloud.email.title'),
+      description: t('features.page.klivCloud.email.description'),
+      gradient: 'from-blue-500 to-blue-600',
+    },
+  ];
 
   const coreFeatures = [
     {
@@ -143,9 +189,49 @@ export function Features() {
           </div>
         </div>
 
-        {/* Core Features */}
+        {/* Kliv Cloud Backend */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="max-w-6xl mx-auto">
+            {/* Kliv Cloud Introduction */}
+            <div className="text-center mb-16">
+              <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-cyan-500/10 to-emerald-500/10 border border-cyan-500/20 mb-6">
+                <Cloud className="w-4 h-4 mr-2 text-cyan-600" />
+                <span className="text-sm font-medium text-cyan-700">Kliv Cloud</span>
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4">{t('features.page.klivCloud.title')}</h2>
+              <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+                {t('features.page.klivCloud.subtitle')}
+              </p>
+              <div className="bg-gradient-to-r from-cyan-50 to-emerald-50 dark:from-cyan-950/20 dark:to-emerald-950/20 rounded-2xl p-8 max-w-4xl mx-auto">
+                <p className="text-muted-foreground leading-relaxed mb-6">
+                  {t('features.page.klivCloud.intro')}
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  {t('features.page.klivCloud.enterprise')}
+                </p>
+              </div>
+            </div>
+
+            {/* Kliv Cloud Features */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+              {klivCloudFeatures.map((feature, index) => (
+                <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-0 bg-card/50 backdrop-blur-sm">
+                  <CardContent className="p-6 text-center">
+                    <div className={`inline-flex p-4 rounded-2xl bg-gradient-to-r ${feature.gradient} mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                      <feature.icon className="h-6 w-6 text-white" />
+                    </div>
+                    <h3 className="text-lg font-semibold mb-3">
+                      {feature.title}
+                    </h3>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      {feature.description}
+                    </p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+
+            {/* Core Development Features */}
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">{t('features.page.core.title')}</h2>
             </div>

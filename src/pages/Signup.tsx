@@ -449,7 +449,7 @@ export function Signup() {
     <div className="flex flex-col min-h-screen bg-background dark:bg-background">
       <Header />
       <main className="flex-grow flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 min-h-[calc(100vh-200px)] pt-24">
-        <div className="w-full max-w-[1000px]">
+        <div className="w-full max-w-lg">
           <Card className="border-0 shadow-lg dark:bg-[#18181b] dark:text-white">
             <CardHeader className="text-center pb-4 pt-6">
               <CardTitle className="text-2xl sm:text-3xl font-bold">{t('tenantSignup.getStarted')}</CardTitle>
@@ -468,19 +468,8 @@ export function Signup() {
                 </Alert>
               )}
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-                {/* Left: Image (desktop only) */}
-                <div className="hidden lg:flex items-center justify-center">
-                  <img
-                    src={theme === 'dark' ? "https://data.rationalbi.com/assets/kliv/img/kliv-signup-dark.png" : "https://data.rationalbi.com/assets/kliv/img/kliv-signup-light.png"}
-                    alt="Sign up illustration"
-                    className="max-w-full max-h-[500px] object-contain"
-                  />
-                </div>
-                {/* Right: Form, Divider, Google Signup */}
-                <div className="flex flex-col justify-center w-full py-8 lg:py-0 lg:pl-12">
-                  <Form {...form}>
-                    <form ref={formRef} onSubmit={form.handleSubmit(step === 1 ? onStep1Submit : onStep2Submit)} className="space-y-4">
+              <Form {...form}>
+                <form ref={formRef} onSubmit={form.handleSubmit(step === 1 ? onStep1Submit : onStep2Submit)} className="space-y-4">
                       {step === 1 && (
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                           <FormField
@@ -494,7 +483,7 @@ export function Signup() {
                                     type="email" 
                                     placeholder={t('tenantSignup.emailPlaceholder')} 
                                     autoComplete="email"
-                                    className="h-10"
+                                    className="h-11"
                                     {...field} 
                                   />
                                 </FormControl>
@@ -512,7 +501,7 @@ export function Signup() {
                                   <Input 
                                     placeholder={t('tenantSignup.namePlaceholder')} 
                                     autoComplete="name"
-                                    className="h-10"
+                                    className="h-11"
                                     {...field} 
                                   />
                                 </FormControl>
@@ -539,7 +528,7 @@ export function Signup() {
                                     type="password" 
                                     placeholder={t('tenantSignup.passwordPlaceholder')} 
                                     autoComplete="new-password"
-                                    className="h-10"
+                                    className="h-11"
                                     {...field} 
                                   />
                                 </FormControl>
@@ -558,7 +547,7 @@ export function Signup() {
                                     type="password" 
                                     placeholder="" 
                                     autoComplete="new-password"
-                                    className="h-10"
+                                    className="h-11"
                                     {...field} 
                                   />
                                 </FormControl>
@@ -581,7 +570,7 @@ export function Signup() {
                                   <Input 
                                     placeholder={t('tenantSignup.companyNamePlaceholder')} 
                                     autoComplete="off"
-                                    className="h-10"
+                                    className="h-11"
                                     {...field} 
                                   />
                                 </FormControl>
@@ -600,7 +589,7 @@ export function Signup() {
                                     <Input 
                                       placeholder={t('tenantSignup.adminDomainPlaceholder')} 
                                       autoComplete="off"
-                                      className="rounded-r-none h-10"
+                                      className="rounded-r-none h-11"
                                       {...field} 
                                     />
                                     <span className="inline-flex items-center px-3 border border-l-0 rounded-r-md bg-muted text-muted-foreground text-sm">
@@ -623,7 +612,7 @@ export function Signup() {
                           <Button
                             type="button"
                             variant="outline"
-                            className="w-full h-10"
+                            className="w-full h-11"
                             onClick={() => {
                               setStep(1);
                               setErrorMessage(null);
@@ -633,7 +622,7 @@ export function Signup() {
                             {t('tenantSignup.back')}
                           </Button>
                         )}
-                        <Button type="submit" className="w-full h-10" disabled={isLoading}>
+                        <Button type="submit" className="w-full h-11" disabled={isLoading}>
                           {isLoading ? t('common.loading') : t('tenantSignup.next')}
                         </Button>
                       </div>
@@ -665,11 +654,9 @@ export function Signup() {
                     </svg>
                     {t('tenantSignup.signUpWithGoogle')}
                   </Button>
-                  <p className="text-xs text-muted-foreground text-center lg:text-left">
+                  <p className="text-xs text-muted-foreground text-center">
                     {t('tenantSignup.googleSignupTerms')}
                   </p>
-                </div>
-              </div>
             </CardContent>
           </Card>
         </div>

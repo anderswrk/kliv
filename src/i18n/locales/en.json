@@ -174,6 +174,40 @@
           "description": "Fork and remix existing projects to create new variations. Perfect for learning and building upon existing ideas."
         }
       },
+      "klivCloud": {
+        "title": "Kliv Cloud Backend",
+        "subtitle": "Complete backend infrastructure managed by AI. No server configuration, database setup, or API deployment required.",
+        "intro": "Kliv Cloud provides a complete backend for your applications, automatically built and managed by your AI assistant. When you describe what your app needs, the AI sets up a secure database, creates server-side functions, manages API credentials, and configures access control — all without you writing a single line of code.",
+        "enterprise": "Your backend runs on enterprise-grade infrastructure with globally replicated databases, row-level security, automatic audit trails, and encrypted secrets storage. Everything is accessible through a visual admin interface where you can view your data, monitor functions, and manage your project.",
+        "database": {
+          "title": "Database",
+          "description": "Store your application data with automatic security, backups, and audit trails. The AI creates tables, configures relationships, and manages all technical details."
+        },
+        "content": {
+          "title": "Content Storage",
+          "description": "Upload and manage files like images, documents, and videos with automatic optimization and access control. Perfect for user avatars, file sharing, and image galleries."
+        },
+        "secrets": {
+          "title": "Secrets Management",
+          "description": "Securely store API credentials and sensitive configuration. Secrets are encrypted, masked in the UI, and automatically available to your functions."
+        },
+        "functions": {
+          "title": "Edge Functions",
+          "description": "Server-side JavaScript for complex logic, external API integration, and secure operations. The AI writes the code based on your description."
+        },
+        "admin": {
+          "title": "Admin Interface",
+          "description": "Visual tools to browse data, monitor functions, check logs, and manage your backend without writing code."
+        },
+        "email": {
+          "title": "Email Delivery",
+          "description": "Send transactional emails, notifications, and marketing messages with template management and custom SMTP support."
+        },
+        "emailTemplates": {
+          "title": "Email Templates",
+          "description": "Create reusable email templates with Markdown formatting and dynamic variables for personalized messaging."
+        }
+      },
       "technology": {
         "title": "Technology Stack",
         "react": {
@@ -187,10 +221,6 @@
         "shadcn": {
           "title": "Shadcn/ui Components",
           "description": "Pre-built, accessible components that follow modern design principles and best practices."
-        },
-        "supabase": {
-          "title": "Supabase Integration",
-          "description": "Seamless backend integration with authentication, database, and real-time features built-in."
         }
       }
     }
@@ -351,7 +381,7 @@
       "Custom": "Custom"
     },
     "features": {
-      "Basic Access": "* Public projects\n* 5 daily credits\n* Community support",
+      "Basic Access": "* Public projects\n* 10 daily agentic credits\n* Community support",
       "Professional": "Everything in Free, plus:\n* Unlimited projects\n* Additional daily credits\n* Priority support\n* Custom domains\n* Unlimited users",
       "Custom": "* Single Sign-on (SAML)\n* Custom integrations\n* Dedicated support\n* SLA guarantee"
     }

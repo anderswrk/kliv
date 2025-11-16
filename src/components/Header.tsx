@@ -30,7 +30,7 @@ export function Header() {
 
   const navigation = [
     { name: t('nav.howItWorks'), href: '#how-it-works' },
-    { name: t('nav.features'), href: '#features' },
+    { name: t('nav.features'), href: '/features' },
     { name: t('nav.pricing'), href: '/pricing' },
   ];
 

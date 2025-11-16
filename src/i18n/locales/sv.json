@@ -174,6 +174,40 @@
           "description": "Forka och remixa befintliga projekt för att skapa nya variationer. Perfekt för lärande och att bygga vidare på befintliga idéer."
         }
       },
+      "klivCloud": {
+        "title": "Kliv Cloud Backend",
+        "subtitle": "Komplett backend-infrastruktur hanterad av AI. Inget serverkonfiguration, databasuppställning eller API-distribution krävs.",
+        "intro": "Kliv Cloud tillhandahåller en komplett backend för dina applikationer, automatiskt byggd och hanterad av din AI-assistent. När du beskriver vad din app behöver, sätter AI:n upp en säker databas, skapar serversidofunktioner, hanterar API-uppgifter och konfigurerar åtkomstkontroll — allt utan att du skriver en enda rad kod.",
+        "enterprise": "Din backend körs på infrastruktur i företagsklass med globalt replikerade databaser, säkerhet på radnivå, automatiska revisionsspår och krypterad lagring av hemligheter. Allt är tillgängligt via ett visuellt admin-gränssnitt där du kan visa dina data, övervaka funktioner och hantera ditt projekt.",
+        "database": {
+          "title": "Databas",
+          "description": "Lagra dina applikationsdata med automatisk säkerhet, säkerhetskopior och revisionsspår. AI:n skapar tabeller, konfigurerar relationer och hanterar alla tekniska detaljer."
+        },
+        "content": {
+          "title": "Innehållslagring",
+          "description": "Ladda upp och hantera filer som bilder, dokument och videor med automatisk optimering och åtkomstkontroll. Perfekt för användaravatarer, fildelning och bildgallerier."
+        },
+        "secrets": {
+          "title": "Hemlighetshantering",
+          "description": "Lagra API-uppgifter och känslig konfiguration säkert. Hemligheter är krypterade, maskerade i gränssnittet och automatiskt tillgängliga för dina funktioner."
+        },
+        "functions": {
+          "title": "Edge Functions",
+          "description": "Serversidans JavaScript för komplex logik, extern API-integration och säkra operationer. AI:n skriver koden baserat på din beskrivning."
+        },
+        "admin": {
+          "title": "Admin-gränssnitt",
+          "description": "Visuella verktyg för att bläddra i data, övervaka funktioner, kontrollera loggar och hantera din backend utan att skriva kod."
+        },
+        "email": {
+          "title": "E-postleverans",
+          "description": "Skicka transaktionsmejl, notifieringar och marknadsföringsmeddelanden med mallhantering och anpassat SMTP-stöd."
+        },
+        "emailTemplates": {
+          "title": "E-postmallar",
+          "description": "Skapa återanvändbara e-postmallar med Markdown-formatering och dynamiska variabler för personifierade meddelanden."
+        }
+      },
       "technology": {
         "title": "Teknisk stack",
         "react": {
@@ -187,10 +221,6 @@
         "shadcn": {
           "title": "Shadcn/ui-komponenter",
           "description": "Förbyggda, tillgängliga komponenter som följer moderna designprinciper och bästa praxis."
-        },
-        "supabase": {
-          "title": "Supabase-integration",
-          "description": "Sömlös backend-integration med autentisering, databas och realtidsfunktioner inbyggda."
         }
       }
     }
