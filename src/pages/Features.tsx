@@ -265,9 +265,9 @@ export function Features() {
               </div>
             </div>
 
-            {/* Core Development Features */}
-            <div className="mb-20">
-              <div className="text-center mb-12">
+            {/* Core Development Features - Alternating Layout */}
+            <div className="mb-24">
+              <div className="text-center mb-16">
                 <h2 className="text-3xl sm:text-4xl font-bold mb-3 leading-[1.1]">
                   <span className="text-gradient">
                     {t('features.page.core.title')}
@@ -278,130 +278,141 @@ export function Features() {
                 </p>
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-20">
                 {coreFeatures.map((feature, index) => (
-                  <Card key={index} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 group">
-                    <CardContent className="p-6">
-                      <div className="flex items-start space-x-4">
-                        <div className="flex-shrink-0">
-                          <div className="inline-flex p-3 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300">
-                            <feature.icon className="h-6 w-6 text-primary" />
-                          </div>
-                        </div>
-                        <div>
-                          <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">
-                            {feature.title}
-                          </h3>
-                          <p className="text-muted-foreground leading-relaxed text-sm">
-                            {feature.description}
-                          </p>
+                  <div key={index} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-12 items-center`}>
+                    {/* Icon/Visual Side */}
+                    <div className="flex-shrink-0 w-full lg:w-1/3">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl blur-3xl"></div>
+                        <div className="relative bg-gradient-to-br from-card/90 to-card/70 dark:from-card/80 dark:to-card/60 backdrop-blur-xl rounded-3xl p-12 border border-border/50 flex items-center justify-center aspect-square">
+                          <feature.icon className="h-24 w-24 text-primary" strokeWidth={1.5} />
                         </div>
                       </div>
-                    </CardContent>
-                  </Card>
+                    </div>
+                    
+                    {/* Content Side */}
+                    <div className="flex-1">
+                      <div className="inline-flex items-center px-3 py-1.5 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 mb-4">
+                        <span className="text-xs font-semibold text-primary">Feature {index + 1}</span>
+                      </div>
+                      <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+                        {feature.title}
+                      </h3>
+                      <p className="text-lg text-muted-foreground leading-relaxed">
+                        {feature.description}
+                      </p>
+                    </div>
+                  </div>
                 ))}
               </div>
             </div>
 
-            {/* Combined: Development & Deployment */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
-              {/* Development Tools */}
-              <div>
-                <div className="mb-8">
-                  <h2 className="text-2xl sm:text-3xl font-bold mb-3 leading-[1.1]">
-                    <span className="text-gradient">
-                      {t('features.page.development.title')}
-                    </span>
-                  </h2>
-                </div>
-                
-                <div className="space-y-4">
-                  {developmentFeatures.map((feature, index) => (
-                    <Card key={index} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 group">
-                      <CardContent className="p-5">
-                        <div className="flex items-start space-x-3">
-                          <div className="flex-shrink-0">
-                            <div className="inline-flex p-2.5 rounded-xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300">
-                              <feature.icon className="h-5 w-5 text-primary" />
-                            </div>
-                          </div>
-                          <div>
-                            <h3 className="font-bold mb-1 group-hover:text-primary transition-colors">
-                              {feature.title}
-                            </h3>
-                            <p className="text-muted-foreground leading-relaxed text-sm">
-                              {feature.description}
-                            </p>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </div>
+            {/* Development Workflow - Process Flow */}
+            <div className="mb-24 bg-gradient-to-br from-muted/30 to-background rounded-3xl p-8 lg:p-12 border border-border/50">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl sm:text-4xl font-bold mb-3 leading-[1.1]">
+                  <span className="text-gradient">
+                    {t('features.page.development.title')}
+                  </span>
+                </h2>
               </div>
-
-              {/* Deployment & Sharing */}
-              <div>
-                <div className="mb-8">
-                  <h2 className="text-2xl sm:text-3xl font-bold mb-3 leading-[1.1]">
-                    <span className="text-gradient">
-                      {t('features.page.deployment.title')}
-                    </span>
-                  </h2>
-                </div>
-                
-                <div className="space-y-4">
-                  {deploymentFeatures.map((feature, index) => (
-                    <Card key={index} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-2xl hover:shadow-accent/5 transition-all duration-300 hover:-translate-y-1 group">
-                      <CardContent className="p-5">
-                        <div className="flex items-start space-x-3">
-                          <div className="flex-shrink-0">
-                            <div className="inline-flex p-2.5 rounded-xl bg-emerald-500/10 dark:bg-emerald-500/20 group-hover:bg-emerald-500/20 dark:group-hover:bg-emerald-500/30 transition-colors duration-300">
-                              <feature.icon className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
-                            </div>
-                          </div>
-                          <div>
-                            <h3 className="font-bold mb-1 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
-                              {feature.title}
-                            </h3>
-                            <p className="text-muted-foreground leading-relaxed text-sm">
-                              {feature.description}
-                            </p>
-                          </div>
+              
+              <div className="max-w-3xl mx-auto space-y-6">
+                {developmentFeatures.map((feature, index) => (
+                  <div key={index} className="relative">
+                    {/* Connector Line */}
+                    {index < developmentFeatures.length - 1 && (
+                      <div className="absolute left-6 top-16 w-0.5 h-12 bg-gradient-to-b from-primary/50 to-primary/20"></div>
+                    )}
+                    
+                    <div className="flex items-start gap-6 group">
+                      {/* Number Badge */}
+                      <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-primary/20">
+                        {index + 1}
+                      </div>
+                      
+                      {/* Content */}
+                      <div className="flex-1 pb-6">
+                        <div className="flex items-center gap-3 mb-2">
+                          <feature.icon className="h-5 w-5 text-primary" />
+                          <h3 className="text-xl font-bold group-hover:text-primary transition-colors">
+                            {feature.title}
+                          </h3>
                         </div>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </div>
+                        <p className="text-muted-foreground leading-relaxed">
+                          {feature.description}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
 
-            {/* Technology Stack */}
-            <div className="text-center">
-              <div className="mb-8">
+            {/* Deployment Options - Grid with Large Icons */}
+            <div className="mb-24">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl sm:text-4xl font-bold mb-3 leading-[1.1]">
+                  <span className="text-gradient">
+                    {t('features.page.deployment.title')}
+                  </span>
+                </h2>
+              </div>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                {deploymentFeatures.map((feature, index) => (
+                  <div key={index} className="group relative overflow-hidden rounded-2xl border border-border/50 bg-gradient-to-br from-card/90 to-card/70 dark:from-card/80 dark:to-card/60 backdrop-blur-xl p-8 hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-300 hover:-translate-y-1">
+                    {/* Decorative gradient */}
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-emerald-500/10 to-transparent rounded-bl-full"></div>
+                    
+                    <div className="relative">
+                      <div className="inline-flex p-3 rounded-2xl bg-emerald-500/10 dark:bg-emerald-500/20 mb-4">
+                        <feature.icon className="h-8 w-8 text-emerald-600 dark:text-emerald-400" />
+                      </div>
+                      <h3 className="text-xl font-bold mb-3 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                        {feature.title}
+                      </h3>
+                      <p className="text-muted-foreground leading-relaxed">
+                        {feature.description}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Technology Stack - Simple Banner Style */}
+            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-50 to-blue-50 dark:from-indigo-950/30 dark:to-blue-950/30 border border-indigo-200/50 dark:border-indigo-800/50 p-12">
+              {/* Decorative elements */}
+              <div className="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-indigo-500/10 to-transparent rounded-full blur-3xl"></div>
+              <div className="absolute bottom-0 right-0 w-64 h-64 bg-gradient-to-tl from-blue-500/10 to-transparent rounded-full blur-3xl"></div>
+              
+              <div className="relative text-center">
                 <h2 className="text-2xl sm:text-3xl font-bold mb-3 leading-[1.1]">
                   <span className="text-gradient">
                     {t('features.page.technology.title')}
                   </span>
                 </h2>
-              </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-                {technologyFeatures.map((feature, index) => (
-                  <Card key={index} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 group">
-                    <CardContent className="p-6">
-                      <div className="inline-flex p-3 rounded-2xl bg-indigo-500/10 dark:bg-indigo-500/20 group-hover:bg-indigo-500/20 dark:group-hover:bg-indigo-500/30 transition-colors duration-300 mb-4">
-                        <feature.icon className="h-6 w-6 text-indigo-600 dark:text-indigo-400" />
+                <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
+                  Built on industry-leading technologies that ensure quality, performance, and maintainability
+                </p>
+                
+                <div className="flex flex-wrap justify-center gap-4">
+                  {technologyFeatures.map((feature, index) => (
+                    <div key={index} className="group inline-flex items-center gap-3 px-6 py-4 bg-white/80 dark:bg-black/20 backdrop-blur-xl rounded-2xl border border-indigo-200/50 dark:border-indigo-800/50 hover:border-indigo-400 dark:hover:border-indigo-600 hover:shadow-lg transition-all duration-300">
+                      <feature.icon className="h-6 w-6 text-indigo-600 dark:text-indigo-400" />
+                      <div className="text-left">
+                        <h3 className="font-bold text-sm group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                          {feature.title}
+                        </h3>
+                        <p className="text-xs text-muted-foreground">
+                          {feature.description}
+                        </p>
                       </div>
-                      <h3 className="font-bold mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
-                        {feature.title}
-                      </h3>
-                      <p className="text-muted-foreground leading-relaxed text-sm">
-                        {feature.description}
-                      </p>
-                    </CardContent>
-                  </Card>
-                ))}
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
 
