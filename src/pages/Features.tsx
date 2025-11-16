@@ -278,33 +278,100 @@ export function Features() {
                 </p>
               </div>
               
-              <div className="space-y-16">
+              <div className="space-y-12">
                 {coreFeatures.map((feature, index) => (
-                  <div key={index} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 lg:gap-12 items-center`}>
+                  <div key={index} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 items-start`}>
                     {/* Icon Side */}
-                    <div className="flex-shrink-0 w-full lg:w-2/5">
+                    <div className="flex-shrink-0 w-full lg:w-1/3">
                       <div className="relative group">
                         {/* Subtle glow effect */}
-                        <div className="absolute -inset-4 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-3xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        <div className="absolute -inset-3 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         
                         {/* Main icon container */}
-                        <div className="relative bg-gradient-to-br from-muted/50 to-muted/30 dark:from-muted/30 dark:to-muted/10 backdrop-blur-sm rounded-2xl p-12 lg:p-16 border border-border/50 flex items-center justify-center">
-                          <feature.icon className="h-20 w-20 lg:h-24 lg:w-24 text-primary" strokeWidth={1.5} />
+                        <div className="relative bg-gradient-to-br from-muted/50 to-muted/30 dark:from-muted/30 dark:to-muted/10 backdrop-blur-sm rounded-xl p-8 border border-border/50 flex items-center justify-center">
+                          <feature.icon className="h-12 w-12 text-primary" strokeWidth={1.5} />
                         </div>
                         
                         {/* Decorative corner accent */}
-                        <div className={`absolute ${index % 2 === 0 ? '-bottom-3 -right-3' : '-bottom-3 -left-3'} w-16 h-16 bg-primary/20 dark:bg-primary/30 rounded-full blur-xl`}></div>
+                        <div className={`absolute ${index % 2 === 0 ? '-bottom-2 -right-2' : '-bottom-2 -left-2'} w-12 h-12 bg-primary/20 dark:bg-primary/30 rounded-full blur-lg`}></div>
                       </div>
                     </div>
                     
                     {/* Content Side */}
-                    <div className="flex-1 space-y-4">
-                      <h3 className="text-xl lg:text-2xl font-bold">
+                    <div className="flex-1 space-y-3">
+                      <h3 className="text-lg lg:text-xl font-bold">
                         {feature.title}
                       </h3>
                       <p className="text-base text-muted-foreground leading-relaxed">
                         {feature.description}
                       </p>
+                      {/* Additional descriptive points */}
+                      <div className="pt-2 space-y-2">
+                        {index === 0 && (
+                          <>
+                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>Describe complex features in plain language and watch them come to life</span>
+                            </p>
+                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>Iterate naturally through conversation — no technical documentation needed</span>
+                            </p>
+                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>Works with databases, APIs, authentication, and complex business logic</span>
+                            </p>
+                          </>
+                        )}
+                        {index === 1 && (
+                          <>
+                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>Professional UI components styled with Tailwind CSS out of the box</span>
+                            </p>
+                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>Fully responsive layouts that work perfectly on mobile, tablet, and desktop</span>
+                            </p>
+                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>Accessible components following WCAG guidelines for inclusive user experiences</span>
+                            </p>
+                          </>
+                        )}
+                        {index === 2 && (
+                          <>
+                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>Live preview updates instantly as you make changes — see results in real-time</span>
+                            </p>
+                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>Test on any device or browser directly from your workspace</span>
+                            </p>
+                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>Fast iteration cycles mean less waiting, more creating</span>
+                            </p>
+                          </>
+                        )}
+                        {index === 3 && (
+                          <>
+                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>Automatic GitHub integration keeps your code safe and version-controlled</span>
+                            </p>
+                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>Clean, maintainable code you can take anywhere — no vendor lock-in</span>
+                            </p>
+                            <p className="text-sm text-muted-foreground/90 flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>Export and deploy to any hosting platform that supports React applications</span>
+                            </p>
+                          </>
+                        )}
+                      </div>
                     </div>
                   </div>
                 ))}
