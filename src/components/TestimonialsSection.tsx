@@ -12,7 +12,6 @@ interface Testimonial {
 const TestimonialsSection = () => {
   const { t } = useTranslation();
 
-  // Show only featured testimonials for a cleaner look
   const testimonialKeys = [
     {
       quote: 'testimonials.githubIntegration',
@@ -25,9 +24,44 @@ const TestimonialsSection = () => {
       title: 'testimonials.carlosTitle',
     },
     {
+      quote: 'testimonials.clientSiteUp',
+      author: 'testimonials.yukiAuthor',
+      title: 'testimonials.yukiTitle',
+    },
+    {
+      quote: 'testimonials.onlineStoreConfused',
+      author: 'testimonials.jenniferAuthor',
+      title: 'testimonials.jenniferTitle',
+    },
+    {
+      quote: 'testimonials.noHostingAccounts',
+      author: 'testimonials.alexKAuthor',
+      title: 'testimonials.alexKTitle',
+    },
+    {
+      quote: 'testimonials.featuresNeeded',
+      author: 'testimonials.lucasAuthor',
+      title: 'testimonials.lucasTitle',
+    },
+    {
+      quote: 'testimonials.learnedToCode',
+      author: 'testimonials.mohamedAuthor',
+      title: 'testimonials.mohamedTitle',
+    },
+    {
+      quote: 'testimonials.japaneseExplanation',
+      author: 'testimonials.keikoAuthor',
+      title: 'testimonials.keikoTitle',
+    },
+    {
       quote: 'testimonials.ideaToLive',
       author: 'testimonials.rachelAuthor',
       title: 'testimonials.rachelTitle',
+    },
+    {
+      quote: 'testimonials.threeSites',
+      author: 'testimonials.diegoAuthor',
+      title: 'testimonials.diegoTitle',
     },
   ];
 
