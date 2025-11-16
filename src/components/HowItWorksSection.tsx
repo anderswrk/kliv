@@ -49,29 +49,108 @@ const HowItWorksSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-          {steps.map((step, index) => (
-            <Card key={index} className="relative bg-card/80 dark:bg-card/60 backdrop-blur-xl border border-border/50 hover:shadow-2xl hover:shadow-primary/5 hover:-translate-y-2 transition-all duration-300 group">
-              <CardContent className="p-8 text-center">
-                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2">
-                  <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent text-white rounded-full flex items-center justify-center font-bold text-base shadow-lg">
+        {/* Timeline */}
+        <div className="relative max-w-5xl mx-auto">
+          {/* Center line - hidden on mobile */}
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary/20 via-accent/40 to-primary/20"></div>
+          
+          {steps.map((step, index) => {
+            const isEven = index % 2 === 0;
+            const colors = [
+              { gradient: 'from-cyan-500 to-blue-500', glow: 'shadow-cyan-500/50', bg: 'bg-cyan-500/10 dark:bg-cyan-500/20' },
+              { gradient: 'from-emerald-500 to-green-500', glow: 'shadow-emerald-500/50', bg: 'bg-emerald-500/10 dark:bg-emerald-500/20' },
+              { gradient: 'from-amber-500 to-orange-500', glow: 'shadow-amber-500/50', bg: 'bg-amber-500/10 dark:bg-amber-500/20' },
+              { gradient: 'from-purple-500 to-pink-500', glow: 'shadow-purple-500/50', bg: 'bg-purple-500/10 dark:bg-purple-500/20' }
+            ];
+            
+            return (
+              <div key={index} className="relative mb-16 last:mb-0">
+                {/* Mobile layout */}
+                <div className="md:hidden flex items-start space-x-4">
+                  {/* Number badge */}
+                  <div className={`flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-br ${colors[index].gradient} shadow-lg ${colors[index].glow} flex items-center justify-center text-white font-bold text-lg`}>
                     {index + 1}
                   </div>
-                </div>
-                <div className="mt-6 mb-6">
-                  <div className="inline-flex p-4 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300">
-                    <step.icon className="w-10 h-10 text-primary" />
+                  
+                  {/* Content */}
+                  <div className="flex-1">
+                    <div className={`inline-flex p-3 rounded-xl ${colors[index].bg} mb-3`}>
+                      <step.icon className="w-6 h-6 text-primary" />
+                    </div>
+                    <h3 className="text-xl font-bold mb-2">
+                      {step.title}
+                    </h3>
+                    <p className="text-sm text-muted-foreground">
+                      {step.description}
+                    </p>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-4 group-hover:text-primary transition-colors">
-                  {step.title}
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  {step.description}
-                </p>
-              </CardContent>
-            </Card>
-          ))}
+
+                {/* Desktop timeline layout */}
+                <div className="hidden md:flex items-center">
+                  {isEven ? (
+                    <>
+                      {/* Left content */}
+                      <div className="w-1/2 pr-12 text-right">
+                        <Card className="inline-block text-left bg-card/80 dark:bg-card/60 backdrop-blur-xl border border-border/50 hover:shadow-xl transition-all duration-300">
+                          <CardContent className="p-6">
+                            <div className={`inline-flex p-3 rounded-xl ${colors[index].bg} mb-3`}>
+                              <step.icon className="w-6 h-6 text-primary" />
+                            </div>
+                            <h3 className="text-lg font-bold mb-2">
+                              {step.title}
+                            </h3>
+                            <p className="text-sm text-muted-foreground">
+                              {step.description}
+                            </p>
+                          </CardContent>
+                        </Card>
+                      </div>
+                      
+                      {/* Center badge */}
+                      <div className={`relative z-10 flex-shrink-0 w-14 h-14 rounded-full bg-gradient-to-br ${colors[index].gradient} shadow-xl ${colors[index].glow} flex items-center justify-center text-white font-bold text-xl`}>
+                        {index + 1}
+                        {/* Decorative pulse */}
+                        <div className={`absolute inset-0 rounded-full bg-gradient-to-br ${colors[index].gradient} opacity-75 animate-ping`}></div>
+                      </div>
+                      
+                      {/* Right spacer */}
+                      <div className="w-1/2 pl-12"></div>
+                    </>
+                  ) : (
+                    <>
+                      {/* Left spacer */}
+                      <div className="w-1/2 pr-12"></div>
+                      
+                      {/* Center badge */}
+                      <div className={`relative z-10 flex-shrink-0 w-14 h-14 rounded-full bg-gradient-to-br ${colors[index].gradient} shadow-xl ${colors[index].glow} flex items-center justify-center text-white font-bold text-xl`}>
+                        {index + 1}
+                        {/* Decorative pulse */}
+                        <div className={`absolute inset-0 rounded-full bg-gradient-to-br ${colors[index].gradient} opacity-75 animate-ping`}></div>
+                      </div>
+                      
+                      {/* Right content */}
+                      <div className="w-1/2 pl-12">
+                        <Card className="bg-card/80 dark:bg-card/60 backdrop-blur-xl border border-border/50 hover:shadow-xl transition-all duration-300">
+                          <CardContent className="p-6">
+                            <div className={`inline-flex p-3 rounded-xl ${colors[index].bg} mb-3`}>
+                              <step.icon className="w-6 h-6 text-primary" />
+                            </div>
+                            <h3 className="text-lg font-bold mb-2">
+                              {step.title}
+                            </h3>
+                            <p className="text-sm text-muted-foreground">
+                              {step.description}
+                            </p>
+                          </CardContent>
+                        </Card>
+                      </div>
+                    </>
+                  )}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
