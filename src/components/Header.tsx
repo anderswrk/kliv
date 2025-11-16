@@ -69,25 +69,23 @@ export function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-2">
             {navigation.map((item) => (
               item.href.startsWith('#') ? (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  onClick={(e) => handleAnchorClick(item.href, e)}
-                  className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-                >
-                  {item.name}
-                </a>
+                <Button key={item.name} variant="ghost" size="sm" asChild>
+                  <a
+                    href={item.href}
+                    onClick={(e) => handleAnchorClick(item.href, e)}
+                  >
+                    {item.name}
+                  </a>
+                </Button>
               ) : (
-                <LocalizedLink
-                  key={item.name}
-                  to={item.href}
-                  className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-                >
-                  {item.name}
-                </LocalizedLink>
+                <Button key={item.name} variant="ghost" size="sm" asChild>
+                  <LocalizedLink to={item.href}>
+                    {item.name}
+                  </LocalizedLink>
+                </Button>
               )
             ))}
           </nav>
@@ -173,29 +171,29 @@ export function Header() {
         {/* Mobile Menu */}
         {mobileMenuOpen && (
           <div className="md:hidden py-4 border-t border-border animate-fade-in">
-            <div className="flex flex-col space-y-4">
+            <div className="flex flex-col space-y-2">
               {navigation.map((item) => (
                 item.href.startsWith('#') ? (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    onClick={(e) => {
-                      handleAnchorClick(item.href, e);
-                      setMobileMenuOpen(false);
-                    }}
-                    className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-                  >
-                    {item.name}
-                  </a>
+                  <Button key={item.name} variant="ghost" size="sm" className="justify-start" asChild>
+                    <a
+                      href={item.href}
+                      onClick={(e) => {
+                        handleAnchorClick(item.href, e);
+                        setMobileMenuOpen(false);
+                      }}
+                    >
+                      {item.name}
+                    </a>
+                  </Button>
                 ) : (
-                  <LocalizedLink
-                    key={item.name}
-                    to={item.href}
-                    className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {item.name}
-                  </LocalizedLink>
+                  <Button key={item.name} variant="ghost" size="sm" className="justify-start" asChild>
+                    <LocalizedLink
+                      to={item.href}
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      {item.name}
+                    </LocalizedLink>
+                  </Button>
                 )
               ))}
               <div className="flex items-center justify-between pt-4 border-t border-border">
