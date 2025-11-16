@@ -478,15 +478,15 @@ export default function Login({
       <main className="flex-grow flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8 pt-28 sm:pt-24 lg:pt-20 bg-gradient-to-b from-muted/30 to-background">
         <div className="w-full max-w-md">
           <Card className="w-full border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
-            <CardHeader className="space-y-1">
-              <CardTitle className="text-2xl font-bold text-center">
+            <CardHeader className="space-y-1 text-center pb-4 pt-6">
+              <CardTitle className="text-2xl sm:text-3xl font-bold">
                 {t('login.welcomeBack')}
               </CardTitle>
-              <CardDescription className="text-center">
+              <CardDescription className="text-sm sm:text-base mt-1">
                 {t('login.enterCredentials')}
               </CardDescription>
             </CardHeader>
-                <CardContent className="space-y-4">
+                <CardContent className="space-y-4 px-6 sm:px-10 pb-6">
                   {/* Error/Success Messages */}
                   {message && (
                     <Alert variant="destructive">
