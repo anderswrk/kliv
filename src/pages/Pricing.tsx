@@ -13,6 +13,7 @@ import {Card, CardContent} from '@/components/ui/card';
 import {Skeleton} from '@/components/ui/skeleton';
 import {DollarSign} from 'lucide-react';
 import {PlanCard} from '@/components/pricing/PlanCard';
+import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from '@/components/ui/accordion';
 
 interface Plan {
     uuid: string;
@@ -245,6 +246,68 @@ export function Pricing() {
                             </div>
                         </div>
                     )}
+                </div>
+
+                {/* FAQ Section */}
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-border/50">
+                    <div className="max-w-3xl mx-auto">
+                        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-3">
+                            {t('pricing.faq.title')}
+                        </h2>
+                        <p className="text-muted-foreground text-center mb-8">
+                            {t('pricing.subtitle')}
+                        </p>
+                        <Accordion type="single" collapsible className="w-full">
+                            <AccordionItem value="item-1">
+                                <AccordionTrigger className="text-left">
+                                    {t('pricing.faq.q1.question')}
+                                </AccordionTrigger>
+                                <AccordionContent className="text-muted-foreground">
+                                    {t('pricing.faq.q1.answer')}
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem value="item-2">
+                                <AccordionTrigger className="text-left">
+                                    {t('pricing.faq.q2.question')}
+                                </AccordionTrigger>
+                                <AccordionContent className="text-muted-foreground">
+                                    {t('pricing.faq.q2.answer')}
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem value="item-3">
+                                <AccordionTrigger className="text-left">
+                                    {t('pricing.faq.q3.question')}
+                                </AccordionTrigger>
+                                <AccordionContent className="text-muted-foreground">
+                                    {t('pricing.faq.q3.answer')}
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem value="item-4">
+                                <AccordionTrigger className="text-left">
+                                    {t('pricing.faq.q4.question')}
+                                </AccordionTrigger>
+                                <AccordionContent className="text-muted-foreground">
+                                    {t('pricing.faq.q4.answer')}
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem value="item-5">
+                                <AccordionTrigger className="text-left">
+                                    {t('pricing.faq.q5.question')}
+                                </AccordionTrigger>
+                                <AccordionContent className="text-muted-foreground">
+                                    {t('pricing.faq.q5.answer')}
+                                </AccordionContent>
+                            </AccordionItem>
+                            <AccordionItem value="item-6">
+                                <AccordionTrigger className="text-left">
+                                    {t('pricing.faq.q6.question')}
+                                </AccordionTrigger>
+                                <AccordionContent className="text-muted-foreground">
+                                    {t('pricing.faq.q6.answer')}
+                                </AccordionContent>
+                            </AccordionItem>
+                        </Accordion>
+                    </div>
                 </div>
             </main>
 

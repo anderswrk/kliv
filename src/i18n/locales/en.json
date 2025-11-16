@@ -273,9 +273,9 @@
     "subtitle": "Start building for free, upgrade when you need more power",
     "errorLoading": "Error loading pricing information",
     "noPlansAvailable": "No plans available at this time.",
-    "getStarted": "Get Started",
-    "subscribe": "Subscribe",
-    "contactUs": "Contact Us",
+    "getStarted": "Get Started Free",
+    "subscribe": "Start Building",
+    "contactUs": "Contact Sales",
     "free": "Free",
     "custom": "Custom",
     "customPricing": "Custom pricing",
@@ -294,7 +294,34 @@
     "testPlan": "This is a test plan",
     "test": "Test",
     "signupsDisabled": "Signups are disabled for this plan",
-    "disabled": "Disabled"
+    "disabled": "Disabled",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "What are agentic credits?",
+        "answer": "Agentic credits power the AI that builds your apps. Each credit lets the AI make one change to your project. Most features take 5-15 credits to build. Credits refresh daily."
+      },
+      "q2": {
+        "question": "Can I cancel anytime?",
+        "answer": "Yes, you can cancel your subscription at any time. Your plan will remain active until the end of your billing period, and you won't be charged again."
+      },
+      "q3": {
+        "question": "What happens to my apps if I downgrade?",
+        "answer": "Your apps stay online and fully functional. You'll keep access to everything you've built. Downgrading only affects your daily credit allocation and premium features."
+      },
+      "q4": {
+        "question": "Do you offer refunds?",
+        "answer": "We offer a 14-day money-back guarantee on all paid plans. If you're not satisfied within the first two weeks, we'll refund your payment in full."
+      },
+      "q5": {
+        "question": "Can I upgrade or downgrade my plan?",
+        "answer": "Yes, you can change your plan at any time. Upgrades take effect immediately. Downgrades take effect at the end of your current billing cycle."
+      },
+      "q6": {
+        "question": "What does Enterprise include?",
+        "answer": "Enterprise plans include dedicated infrastructure, custom SLA guarantees, priority support, SSO/SAML integration, advanced security features, and volume discounts for teams."
+      }
+    }
   },
   "billing": {
     "monthly": "Monthly",
@@ -422,10 +449,15 @@
       "400 credits / month": "400 credits / month",
       "Custom": "Custom"
     },
+    "descriptions": {
+      "Basic Access": "Perfect for learning and side projects",
+      "Professional": "For creators building real products",
+      "Custom": "For teams and enterprises at scale"
+    },
     "features": {
-      "Basic Access": "* Public projects\n* 10 daily agentic credits\n* Community support",
-      "Professional": "Everything in Free, plus:\n* Unlimited projects\n* Additional daily credits\n* Priority support\n* Custom domains\n* Unlimited users",
-      "Custom": "* Single Sign-on (SAML)\n* Custom integrations\n* Dedicated support\n* SLA guarantee"
+      "Basic Access": "**Everything you need to start building**\n\n✓ Unlimited public projects\n✓ 10 daily AI credits\n✓ React + TypeScript + Tailwind\n✓ Live preview & code editor\n✓ Free hosting on kliv.site\n✓ Database & authentication\n✓ File uploads & email\n✓ Community support\n✓ Export to GitHub",
+      "Professional": "**Everything in Free, plus:**\n\n✓ Private projects\n✓ 100+ daily AI credits\n✓ Custom domains (www.yourbiz.com)\n✓ Priority AI response\n✓ Remove Kliv branding\n✓ Team collaboration\n✓ Priority support\n✓ Advanced analytics\n✓ Faster build times\n✓ Extended revision history",
+      "Custom": "**Everything in Professional, plus:**\n\n✓ Dedicated private enclave\n✓ Custom credit allocation\n✓ Single Sign-On (SAML/SSO)\n✓ Advanced security & compliance\n✓ Dedicated account manager\n✓ Custom SLA guarantee\n✓ Volume discounts\n✓ On-premise deployment option\n✓ Custom integrations & APIs\n✓ Training & onboarding\n✓ 24/7 priority support"
     }
   },
   "common": {

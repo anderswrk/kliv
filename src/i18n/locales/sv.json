@@ -273,9 +273,9 @@
     "subtitle": "Börja bygga gratis, uppgradera när du behöver mer kraft",
     "errorLoading": "Fel vid laddning av prisinformation",
     "noPlansAvailable": "Inga planer tillgängliga för tillfället.",
-    "getStarted": "Kom igång",
-    "subscribe": "Prenumerera",
-    "contactUs": "Kontakta oss",
+    "getStarted": "Kom igång gratis",
+    "subscribe": "Börja bygga",
+    "contactUs": "Kontakta försäljning",
     "free": "Gratis",
     "custom": "Anpassad",
     "customPricing": "Anpassad prissättning",
@@ -294,7 +294,34 @@
     "testPlan": "Detta är en testplan",
     "test": "Test",
     "signupsDisabled": "Registreringar är inaktiverade för denna plan",
-    "disabled": "Inaktiverad"
+    "disabled": "Inaktiverad",
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": {
+        "question": "Vad är agentiska krediter?",
+        "answer": "Agentiska krediter driver AI:n som bygger dina appar. Varje kredit låter AI:n göra en förändring i ditt projekt. De flesta funktioner tar 5-15 krediter att bygga. Krediter fylls på dagligen."
+      },
+      "q2": {
+        "question": "Kan jag avsluta när som helst?",
+        "answer": "Ja, du kan avsluta din prenumeration när som helst. Din plan förblir aktiv till slutet av din faktureringsperiod, och du debiteras inte igen."
+      },
+      "q3": {
+        "question": "Vad händer med mina appar om jag nedgraderar?",
+        "answer": "Dina appar stannar online och fungerar fullt ut. Du behåller tillgång till allt du har byggt. Nedgradering påverkar bara din dagliga kredittilldelning och premiumfunktioner."
+      },
+      "q4": {
+        "question": "Erbjuder ni återbetalning?",
+        "answer": "Vi erbjuder 14 dagars pengarna-tillbaka-garanti på alla betalda planer. Om du inte är nöjd inom de första två veckorna återbetalar vi din betalning i sin helhet."
+      },
+      "q5": {
+        "question": "Kan jag uppgradera eller nedgradera min plan?",
+        "answer": "Ja, du kan ändra din plan när som helst. Uppgraderingar träder i kraft omedelbart. Nedgraderingar träder i kraft i slutet av din nuvarande faktureringscykel."
+      },
+      "q6": {
+        "question": "Vad ingår i Enterprise?",
+        "answer": "Enterprise-planer inkluderar dedikerad infrastruktur, anpassade SLA-garantier, prioriterad support, SSO/SAML-integration, avancerade säkerhetsfunktioner och volymrabatter för team."
+      }
+    }
   },
   "billing": {
     "monthly": "Månadsvis",
@@ -422,10 +449,15 @@
       "400 credits / month": "400 krediter / månad",
       "Custom": "Anpassad"
     },
+    "descriptions": {
+      "Basic Access": "Perfekt för lärande och sidoprojekt",
+      "Professional": "För skapare som bygger riktiga produkter",
+      "Custom": "För team och företag i stor skala"
+    },
     "features": {
-      "Basic Access": "* Offentliga projekt\n* 5 dagliga krediter\n* Community-support",
-      "Professional": "Allt i Gratis, plus:\n* Obegränsade projekt\n* Ytterligare dagliga krediter\n* Prioriterad support\n* Anpassade domäner\n* Obegränsade användare",
-      "Custom": "* Single Sign-on (SAML)\n* Anpassade integrationer\n* Dedikerad support\n* SLA-garanti"
+      "Basic Access": "**Allt du behöver för att börja bygga**\n\n✓ Obegränsade offentliga projekt\n✓ 10 dagliga AI-krediter\n✓ React + TypeScript + Tailwind\n✓ Live förhandsvisning & kodredigerare\n✓ Gratis hosting på kliv.site\n✓ Databas & autentisering\n✓ Filuppladdning & e-post\n✓ Community-support\n✓ Exportera till GitHub",
+      "Professional": "**Allt i Gratis, plus:**\n\n✓ Privata projekt\n✓ 100+ dagliga AI-krediter\n✓ Anpassade domäner (www.dittföretag.se)\n✓ Prioriterad AI-respons\n✓ Ta bort Kliv-varumärke\n✓ Teamsamarbete\n✓ Prioriterad support\n✓ Avancerad analys\n✓ Snabbare byggtider\n✓ Utökad revisionshistorik",
+      "Custom": "**Allt i Professionell, plus:**\n\n✓ Dedikerad privat enklav\n✓ Anpassad kredittilldelning\n✓ Single Sign-On (SAML/SSO)\n✓ Avancerad säkerhet & compliance\n✓ Dedikerad kontoansvarig\n✓ Anpassad SLA-garanti\n✓ Volymrabatter\n✓ On-premise distributionsalternativ\n✓ Anpassade integrationer & API:er\n✓ Utbildning & onboarding\n✓ 24/7 prioriterad support"
     }
   },
   "common": {

@@ -150,11 +150,20 @@ export function PlanCard({plan, plans, buttonMessage, onButtonClick}: PlanCardPr
         return translated !== key ? translated : originalFeatures;
     };
 
+    const getLocalizedDescription = (groupName: string | undefined, productName: string) => {
+        const nameToUse = groupName || productName;
+        if (!nameToUse) return '';
+        const key = `planContent.descriptions.${nameToUse}`;
+        const translated = t(key);
+        return translated !== key ? translated : '';
+    };
+
     const localizedCurrentPlan = {
         ...currentPlan,
         productName: getLocalizedProductName(currentPlan.productName),
         name: getLocalizedPlanName(currentPlan.name),
         description: getLocalizedPlanName(currentPlan.description || currentPlan.name),
+        planDescription: getLocalizedDescription(currentPlan.group, currentPlan.productName),
         features: getLocalizedFeatures(currentPlan.group, currentPlan.productName, currentPlan.features),
         preferredCurrency: getPlanCurrency(currentPlan),
         preferredUnitAmount: getPlanUnitAmount(currentPlan)
@@ -165,6 +174,7 @@ export function PlanCard({plan, plans, buttonMessage, onButtonClick}: PlanCardPr
         productName: getLocalizedProductName(plan.productName),
         name: getLocalizedPlanName(plan.name),
         description: getLocalizedPlanName(plan.description || plan.name),
+        planDescription: getLocalizedDescription(plan.group, plan.productName),
         features: getLocalizedFeatures(plan.group, plan.productName, plan.features),
         preferredCurrency: getPlanCurrency(plan),
         preferredUnitAmount: getPlanUnitAmount(plan)
@@ -302,6 +312,7 @@ interface PlanCardContentProps {
         productName: string;
         name: string;
         description?: string;
+        planDescription?: string;
         features: string;
         preferredCurrency?: string;
         preferredUnitAmount?: number;
@@ -310,6 +321,7 @@ interface PlanCardContentProps {
         productName: string;
         name: string;
         description?: string;
+        planDescription?: string;
         features: string;
         preferredCurrency?: string;
         preferredUnitAmount?: number;
@@ -354,6 +366,13 @@ function PlanCardContent({
             <div className="title">
                 {currentPlan.group || currentPlan.productName}
             </div>
+
+            {/* Plan Description */}
+            {currentPlan.planDescription && (
+                <div className="plan-description">
+                    {currentPlan.planDescription}
+                </div>
+            )}
 
             {/* Price */}
             <div className="price">

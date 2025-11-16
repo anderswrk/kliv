@@ -202,6 +202,17 @@
         transition: color 0.2s ease;
       }
 
+      .plan-description {
+        color: hsl(var(--muted-foreground));
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.4;
+        min-height: 20px;
+        margin: 4px 20px 0 20px;
+      }
+
       .product-name {
         color: hsl(var(--primary));
         text-align: center;
