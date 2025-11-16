@@ -181,7 +181,7 @@ export function Signup() {
     
     // Auto-focus first input
     setTimeout(() => {
-      const firstInput = formRef.current?.querySelector('input[type="email"]');
+      const firstInput = formRef.current?.querySelector('input');
       if (firstInput instanceof HTMLElement) {
         firstInput.focus();
       }
@@ -474,15 +474,14 @@ export function Signup() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                           <FormField
                             control={form.control}
-                            name="email"
+                            name="name"
                             render={({ field }) => (
                               <FormItem className="sm:col-span-2">
-                                <FormLabel className="text-sm">{t('tenantSignup.email')} *</FormLabel>
+                                <FormLabel className="text-sm">{t('tenantSignup.name')} *</FormLabel>
                                 <FormControl>
                                   <Input 
-                                    type="email" 
-                                    placeholder={t('tenantSignup.emailPlaceholder')} 
-                                    autoComplete="email"
+                                    placeholder={t('tenantSignup.namePlaceholder')} 
+                                    autoComplete="name"
                                     className="h-11"
                                     {...field} 
                                   />
@@ -493,14 +492,15 @@ export function Signup() {
                           />
                           <FormField
                             control={form.control}
-                            name="name"
+                            name="email"
                             render={({ field }) => (
                               <FormItem className="sm:col-span-2">
-                                <FormLabel className="text-sm">{t('tenantSignup.name')} *</FormLabel>
+                                <FormLabel className="text-sm">{t('tenantSignup.email')} *</FormLabel>
                                 <FormControl>
                                   <Input 
-                                    placeholder={t('tenantSignup.namePlaceholder')} 
-                                    autoComplete="name"
+                                    type="email" 
+                                    placeholder={t('tenantSignup.emailPlaceholder')} 
+                                    autoComplete="email"
                                     className="h-11"
                                     {...field} 
                                   />
