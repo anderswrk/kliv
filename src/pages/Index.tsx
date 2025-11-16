@@ -5,6 +5,7 @@ import { FeaturesSection } from '@/components/FeaturesSection';
 import CommunityShowcase from '@/components/CommunityShowcase';
 import HowItWorksSection from '@/components/HowItWorksSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import { CTASection } from '@/components/CTASection';
 import { Footer } from '@/components/Footer';
 import { useUserSession } from '../hooks/useUserSession';
 
@@ -25,6 +26,7 @@ export const Index = () => {
         <HowItWorksSection />
         <FeaturesSection />
         <TestimonialsSection />
+        <CTASection />
       </main>
       <Footer />
     </div>
