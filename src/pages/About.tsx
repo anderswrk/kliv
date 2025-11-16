@@ -55,51 +55,58 @@ export function About() {
         </div>
 
         {/* Founder's Note Section */}
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="max-w-4xl mx-auto">
-            <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg overflow-hidden">
-              <CardContent className="p-6 sm:p-8">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="p-2 bg-primary/10 dark:bg-primary/20 rounded-lg">
-                    <Code className="w-5 h-5 text-primary" />
-                  </div>
-                  <h2 className="text-xl sm:text-2xl font-bold">
-                    {t('aboutPage.foundersNote.title')}
-                  </h2>
-                </div>
-
-                <div className="flex flex-col sm:flex-row gap-6 items-start">
-                  {/* Founder Photo */}
-                  <div className="flex-shrink-0">
-                    <div className="w-20 h-20 rounded-xl overflow-hidden shadow-lg ring-2 ring-border/50">
-                      <img 
-                        src="/content/images/anders-profile.jpg"
-                        alt={t('aboutPage.foundersNote.founderAlt')}
-                        className="w-full h-full object-cover"
-                        style={{width: '80px'}}
-                      />
-                    </div>
+            {/* Compact quote-style card */}
+            <div className="relative">
+              <Card className="border border-border/50 bg-gradient-to-br from-card/90 via-card/80 to-card/70 dark:from-card/70 dark:via-card/60 dark:to-card/50 backdrop-blur-xl shadow-lg overflow-hidden">
+                <CardContent className="p-8 relative">
+                  {/* Decorative quote mark */}
+                  <div className="absolute top-4 right-6 text-6xl text-primary/10 dark:text-primary/20 font-serif leading-none select-none">
+                    "
                   </div>
                   
-                  {/* Note Content */}
-                  <div className="flex-1 text-muted-foreground space-y-3 text-sm leading-relaxed">
-                    <p>{t('aboutPage.foundersNote.paragraph1')}</p>
-                    <p>{t('aboutPage.foundersNote.paragraph2')}</p>
-                    <p>{t('aboutPage.foundersNote.paragraph3')}</p>
-                    <p>{t('aboutPage.foundersNote.paragraph4')}</p>
-                    <p>{t('aboutPage.foundersNote.paragraph5')}</p>
-                    <p>{t('aboutPage.foundersNote.paragraph6')}</p>
-                    
-                    {/* Signature */}
-                    <div className="pt-4 mt-4 border-t border-border/50">
-                      <p className="text-foreground font-semibold text-sm">
-                        —Anders Olsson, Founder, Kliv
-                      </p>
+                  {/* Content with avatar inline */}
+                  <div className="relative">
+                    <div className="flex items-start gap-4 mb-6">
+                      {/* Small avatar similar to testimonials */}
+                      <div className="flex-shrink-0">
+                        <div className="w-16 h-16 rounded-full overflow-hidden shadow-lg ring-2 ring-primary/20">
+                          <img 
+                            src="/content/images/anders-profile.jpg"
+                            alt={t('aboutPage.foundersNote.founderAlt')}
+                            className="w-full h-full object-cover"
+                            style={{width: '64px'}}
+                          />
+                        </div>
+                      </div>
+                      
+                      <div className="flex-1 pt-1">
+                        <div className="flex items-center gap-2 mb-1">
+                          <h3 className="font-bold text-lg text-foreground">Anders Olsson</h3>
+                          <span className="text-sm text-muted-foreground">·</span>
+                          <span className="text-sm text-muted-foreground">Founder, Kliv</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                          <Code className="w-3 h-3 text-primary" />
+                          <span>{t('aboutPage.foundersNote.title')}</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Message - condensed */}
+                    <div className="text-muted-foreground space-y-4 text-base leading-relaxed pl-0">
+                      <p>{t('aboutPage.foundersNote.paragraph1')}</p>
+                      <p>{t('aboutPage.foundersNote.paragraph2')}</p>
+                      <p>{t('aboutPage.foundersNote.paragraph3')}</p>
+                      <p>{t('aboutPage.foundersNote.paragraph4')}</p>
+                      <p>{t('aboutPage.foundersNote.paragraph5')}</p>
+                      <p>{t('aboutPage.foundersNote.paragraph6')}</p>
                     </div>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
 
