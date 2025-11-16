@@ -11,7 +11,7 @@ import {Header} from '@/components/Header';
 import {Footer} from '@/components/Footer';
 import {Card, CardContent} from '@/components/ui/card';
 import {Skeleton} from '@/components/ui/skeleton';
-import {DollarSign} from 'lucide-react';
+import {DollarSign, Check, X} from 'lucide-react';
 import {PlanCard} from '@/components/pricing/PlanCard';
 import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from '@/components/ui/accordion';
 
@@ -124,6 +124,17 @@ export function Pricing() {
     }) : [];
 
     const groupedPlans = groupPlansByGroup(filteredPlans);
+
+    // Helper to render feature values with icons
+    const renderFeatureValue = (value: string) => {
+        if (value === '✓') {
+            return <Check className="w-5 h-5 mx-auto text-emerald-500" />;
+        }
+        if (value === '—') {
+            return <X className="w-5 h-5 mx-auto text-muted-foreground/40" />;
+        }
+        return <span>{value}</span>;
+    };
 
     return (
         <div className="min-h-screen bg-background pricing-page">
@@ -273,75 +284,75 @@ export function Pricing() {
                                 <tbody>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('pricing.featureMatrix.features.aiCredits')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.free.aiCredits')}</td>
-                                        <td className="p-4 text-center text-foreground font-semibold">{t('pricing.featureMatrix.values.professional.aiCredits')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.custom.aiCredits')}</td>
+                                        <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('pricing.featureMatrix.values.free.aiCredits'))}</td>
+                                        <td className="p-4 text-center text-foreground font-semibold text-sm">{renderFeatureValue(t('pricing.featureMatrix.values.professional.aiCredits'))}</td>
+                                        <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('pricing.featureMatrix.values.custom.aiCredits'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('pricing.featureMatrix.features.publicProjects')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.free.publicProjects')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.professional.publicProjects')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.custom.publicProjects')}</td>
+                                        <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('pricing.featureMatrix.values.free.publicProjects'))}</td>
+                                        <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('pricing.featureMatrix.values.professional.publicProjects'))}</td>
+                                        <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('pricing.featureMatrix.values.custom.publicProjects'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('pricing.featureMatrix.features.privateProjects')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.free.privateProjects')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.professional.privateProjects')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.custom.privateProjects')}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.free.privateProjects'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.professional.privateProjects'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.custom.privateProjects'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('pricing.featureMatrix.features.customDomains')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.free.customDomains')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.professional.customDomains')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.custom.customDomains')}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.free.customDomains'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.professional.customDomains'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.custom.customDomains'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('pricing.featureMatrix.features.hosting')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.free.hosting')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.professional.hosting')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.custom.hosting')}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.free.hosting'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.professional.hosting'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.custom.hosting'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('pricing.featureMatrix.features.database')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.free.database')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.professional.database')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.custom.database')}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.free.database'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.professional.database'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.custom.database'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('pricing.featureMatrix.features.support')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.free.support')}</td>
-                                        <td className="p-4 text-center text-foreground font-semibold">{t('pricing.featureMatrix.values.professional.support')}</td>
-                                        <td className="p-4 text-center text-foreground font-semibold">{t('pricing.featureMatrix.values.custom.support')}</td>
+                                        <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('pricing.featureMatrix.values.free.support'))}</td>
+                                        <td className="p-4 text-center text-foreground font-semibold text-sm">{renderFeatureValue(t('pricing.featureMatrix.values.professional.support'))}</td>
+                                        <td className="p-4 text-center text-foreground font-semibold text-sm">{renderFeatureValue(t('pricing.featureMatrix.values.custom.support'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('pricing.featureMatrix.features.branding')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.free.branding')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.professional.branding')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.custom.branding')}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.free.branding'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.professional.branding'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.custom.branding'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('pricing.featureMatrix.features.collaboration')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.free.collaboration')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.professional.collaboration')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.custom.collaboration')}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.free.collaboration'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.professional.collaboration'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.custom.collaboration'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('pricing.featureMatrix.features.analytics')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.free.analytics')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.professional.analytics')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.custom.analytics')}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.free.analytics'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.professional.analytics'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.custom.analytics'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('pricing.featureMatrix.features.sso')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.free.sso')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.professional.sso')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.custom.sso')}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.free.sso'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.professional.sso'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.custom.sso'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('pricing.featureMatrix.features.enclave')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.free.enclave')}</td>
-                                        <td className="p-4 text-center text-muted-foreground">{t('pricing.featureMatrix.values.professional.enclave')}</td>
-                                        <td className="p-4 text-center text-primary">{t('pricing.featureMatrix.values.custom.enclave')}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.free.enclave'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.professional.enclave'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('pricing.featureMatrix.values.custom.enclave'))}</td>
                                     </tr>
                                 </tbody>
                             </table>
