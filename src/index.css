@@ -180,7 +180,7 @@
 
     .plan-card-body {
       border-radius: 16px;
-      background: hsl(var(--card) / 0.8);
+      background: linear-gradient(to bottom, hsl(var(--muted) / 0.3), hsl(var(--muted) / 0.15));
       backdrop-filter: blur(24px);
       display: flex;
       justify-content: center;
@@ -189,6 +189,7 @@
       padding: 24px 0 0 0;
       border: 1px solid hsl(var(--border) / 0.5);
       box-shadow: 0 8px 32px -8px hsl(var(--foreground) / 0.1);
+      min-height: 550px;
 
       .title {
         color: hsl(var(--primary));
@@ -290,6 +291,7 @@
         margin: 0 24px 24px 24px;
         padding-top: 20px;
         border-top: 1px solid hsl(var(--border) / 0.4);
+        flex-grow: 1;
         
         p {
           margin: 0.5rem 0;
