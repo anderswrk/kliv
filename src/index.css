@@ -140,11 +140,11 @@
     width: 320px;
 
     .plan-card-normal {
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transition: box-shadow 0.3s ease;
     }
 
     .plan-card-normal:hover {
-      transform: translateY(-4px);
+      box-shadow: 0 12px 40px -8px hsl(var(--foreground) / 0.15);
     }
 
     .plan-card-highlight {
@@ -154,7 +154,7 @@
       justify-content: center;
       flex-direction: column;
       box-shadow: 0 12px 40px -8px hsl(var(--primary) / 0.3);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transition: box-shadow 0.3s ease;
 
       .plan-card-highlight-title {
         color: #FFF;
@@ -174,7 +174,6 @@
     }
 
     .plan-card-highlight:hover {
-      transform: translateY(-6px);
       box-shadow: 0 20px 60px -8px hsl(var(--primary) / 0.4);
     }
 
@@ -295,7 +294,7 @@
       }
 
       .select-button:hover {
-        transform: scale(1.02);
+        opacity: 0.9;
       }
 
       .features {
