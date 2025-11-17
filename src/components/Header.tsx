@@ -143,7 +143,7 @@ export function Header() {
                   {t('nav.welcomeBack', { firstName: userName.split(' ')[0] })}
                 </span>
                 <Button variant="ghost" size="sm" className="bg-accent hover:bg-accent/90 text-accent-foreground" onClick={goToPortal}>
-                  <User className="h-4 w-4 mr-1" />
+                  <User className="h-4 w-4" />
                   {t('nav.portalButton')}
                 </Button>
               </div>
@@ -259,7 +259,7 @@ export function Header() {
                       {t('nav.welcomeBack', { firstName: userName.split(' ')[0] })}
                     </div>
                     <Button variant="ghost" size="sm" className="justify-start bg-accent hover:bg-accent/90 text-accent-foreground" onClick={goToPortal}>
-                      <User className="h-4 w-4 mr-1" />
+                      <User className="h-4 w-4" />
                       {t('nav.portalButton')}
                     </Button>
                   </>
