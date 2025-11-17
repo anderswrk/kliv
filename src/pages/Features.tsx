@@ -281,12 +281,12 @@ export function Features() {
               
               <div className="space-y-12">
                 {coreFeatures.map((feature, index) => {
-                  // Stock photo URLs for each feature
+                  // Screenshot images for each feature
                   const images = [
-                    'https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop&q=80', // Team collaboration
-                    'https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&h=400&fit=crop&q=80', // Design/UI
-                    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&q=80', // Development/coding
-                    'https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&h=400&fit=crop&q=80', // Deployment/github
+                    '/content/images/screens/screen1.png',
+                    '/content/images/screens/screen2.png',
+                    '/content/images/screens/screen3.png',
+                    '/content/images/screens/screen4.png',
                   ];
                   
                   return (
