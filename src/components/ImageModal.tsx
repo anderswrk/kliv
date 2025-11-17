@@ -9,6 +9,8 @@ interface ImageModalProps {
 }
 
 export function ImageModal({ isOpen, onClose, imageSrc, alt }: ImageModalProps) {
+  console.log('ImageModal render:', { isOpen, imageSrc, alt });
+  
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {

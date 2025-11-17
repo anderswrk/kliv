@@ -307,7 +307,10 @@ export function Features() {
                               alt={feature.title}
                               className="w-full h-auto aspect-[3/2] object-cover transition-transform duration-300 group-hover:scale-105"
                               loading="lazy"
-                              onClick={() => setModalImage({ src: images[index], alt: feature.title })}
+                              onClick={() => {
+                                console.log('Image clicked!', { src: images[index], alt: feature.title });
+                                setModalImage({ src: images[index], alt: feature.title });
+                              }}
                             />
                             {/* Subtle gradient overlay */}
                             <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
