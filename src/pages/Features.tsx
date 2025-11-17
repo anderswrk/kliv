@@ -1,5 +1,5 @@
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { CTASection } from '@/components/CTASection';
@@ -34,6 +34,8 @@ import {
 export function Features() {
   const { t } = useTranslation();
   const [modalImage, setModalImage] = useState<{ src: string; alt: string } | null>(null);
+  
+  console.log('Features component render - modalImage:', modalImage);
 
   const klivCloudFeatures = [
     {
