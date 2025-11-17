@@ -179,19 +179,22 @@ export function Careers() {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-gradient-to-b from-background via-muted/10 to-background">
       <Header />
       
       <main className="pt-16">
         {/* Header */}
-        <div className="border-b border-border bg-muted/30">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="relative border-b border-border/50 overflow-hidden">
+          {/* Gradient background */}
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
+          
+          <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="max-w-3xl mx-auto text-center">
-              <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
+              <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6 backdrop-blur-sm">
                 <Users className="w-4 h-4 mr-2 text-primary" />
                 <span className="text-sm font-medium text-primary">{t('careers.badge')}</span>
               </div>
-              <h1 className="text-4xl sm:text-5xl font-bold mb-4">
+              <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
                 {t('careers.title')}
               </h1>
               <p className="text-xl text-muted-foreground">
@@ -204,9 +207,9 @@ export function Careers() {
         {/* Introduction */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="max-w-4xl mx-auto">
-            <Card className="border-0 shadow-sm mb-16">
-              <CardContent className="p-8">
-                <div className="prose prose-lg max-w-none">
+            <Card className="border border-border/50 shadow-2xl bg-card/95 backdrop-blur-xl mb-16">
+              <CardContent className="p-8 sm:p-12">
+                <div className="prose prose-lg max-w-none dark:prose-invert">
                   <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                     {t('careers.intro.paragraph1')}
                   </p>
@@ -225,11 +228,11 @@ export function Careers() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {cultureValues.map((value, index) => (
-                  <Card key={index} className="border-0 shadow-sm hover:shadow-lg transition-shadow duration-300">
+                  <Card key={index} className="border border-border/50 shadow-xl bg-card/95 backdrop-blur-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
                     <CardContent className="p-8">
                       <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
-                          <div className={`inline-flex p-3 rounded-xl bg-gradient-to-r ${value.gradient}`}>
+                          <div className={`inline-flex p-3 rounded-xl bg-gradient-to-r ${value.gradient} shadow-lg`}>
                             <value.icon className="h-6 w-6 text-white" />
                           </div>
                         </div>
@@ -256,7 +259,7 @@ export function Careers() {
                   {t('careers.openings.subtitle')}
                 </p>
                 
-                <Card className="border-0 shadow-sm bg-primary/5">
+                <Card className="border border-primary/20 shadow-lg bg-primary/5 backdrop-blur-sm">
                   <CardContent className="p-6">
                     <div className="flex items-center justify-center space-x-2 text-sm">
                       <Mail className="h-4 w-4 text-primary" />
@@ -277,7 +280,7 @@ export function Careers() {
                 </Card>
               </div>
 
-              <Card className="border-0 shadow-sm">
+              <Card className="border border-border/50 shadow-2xl bg-card/95 backdrop-blur-xl">
                 <CardContent className="p-8">
                   <Accordion type="single" collapsible className="w-full">
                     {jobOpenings.map((job) => (

@@ -142,7 +142,7 @@ export function Header() {
                 <span className="text-sm text-muted-foreground">
                   {t('nav.welcomeBack', { firstName: userName.split(' ')[0] })}
                 </span>
-                <Button variant="ghost" size="sm" onClick={goToPortal}>
+                <Button variant="ghost" size="sm" className="bg-accent hover:bg-accent/90 text-accent-foreground" onClick={goToPortal}>
                   <User className="h-4 w-4 mr-2" />
                   {t('nav.portalButton')}
                 </Button>
@@ -258,7 +258,7 @@ export function Header() {
                     <div className="px-3 py-2 text-sm text-muted-foreground">
                       {t('nav.welcomeBack', { firstName: userName.split(' ')[0] })}
                     </div>
-                    <Button variant="ghost" size="sm" className="justify-start" onClick={goToPortal}>
+                    <Button variant="ghost" size="sm" className="justify-start bg-accent hover:bg-accent/90 text-accent-foreground" onClick={goToPortal}>
                       <User className="h-4 w-4 mr-2" />
                       {t('nav.portalButton')}
                     </Button>

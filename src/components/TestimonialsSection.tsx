@@ -112,7 +112,7 @@ const TestimonialsSection = () => {
       <div className="container mx-auto px-4 mb-20 relative">
         <div className="text-center max-w-3xl mx-auto">
           <div className="inline-flex items-center px-5 py-2.5 bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
-            <span className="text-primary">Trusted by Builders</span>
+            <span className="text-primary">{t('testimonials.badge')}</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-[1.1]">
             <span className="text-gradient">
@@ -120,7 +120,7 @@ const TestimonialsSection = () => {
             </span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-            Real feedback from people building with Kliv
+            {t('testimonials.subtitle')}
           </p>
         </div>
       </div>

@@ -140,8 +140,8 @@ export function About() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-4">Our Values</h2>
-              <p className="text-muted-foreground text-lg">The principles that guide everything we do</p>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4">{t('about.values.title')}</h2>
+              <p className="text-muted-foreground text-lg">{t('about.values.subtitle')}</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -174,7 +174,7 @@ export function About() {
               <div className="text-center mb-12">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-4 backdrop-blur-sm">
                   <Rocket className="w-4 h-4 mr-2 text-primary"/>
-                  <span className="text-sm font-semibold text-primary">Platform</span>
+                  <span className="text-sm font-semibold text-primary">{t('aboutPage.badges.platform')}</span>
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-bold mb-6">
                   {t('aboutPage.whatIsKliv.title')}
@@ -202,7 +202,7 @@ export function About() {
             <div className="text-center mb-12">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-4 backdrop-blur-sm">
                 <TrendingUp className="w-4 h-4 mr-2 text-primary"/>
-                <span className="text-sm font-semibold text-primary">Roadmap</span>
+                <span className="text-sm font-semibold text-primary">{t('aboutPage.badges.roadmap')}</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-bold mb-6">
                 {t('aboutPage.whereWereGoing.title')}
@@ -284,7 +284,7 @@ export function About() {
               <div className="text-center mb-12">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-4 backdrop-blur-sm">
                   <TrendingUp className="w-4 h-4 mr-2 text-primary"/>
-                  <span className="text-sm font-semibold text-primary">Backed By</span>
+                  <span className="text-sm font-semibold text-primary">{t('aboutPage.badges.backedBy')}</span>
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-bold mb-6">
                   {t('aboutPage.investors.title')}

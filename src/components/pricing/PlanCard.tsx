@@ -185,6 +185,10 @@ export function PlanCard({plan, plans, buttonMessage, onButtonClick}: PlanCardPr
 
         if (!plan) return "";
 
+        if (plan.planType === "free") {
+            return t('pricing.freeSubtitle');
+        }
+
         if (plan.billingScheme === "per_unit" && plan.unitAmount === 0) {
             return "";
         }
@@ -410,7 +414,14 @@ function PlanCardContent({
                     </a>
                 </Button>
             ) : (
-                <Button onClick={handleJoinClick} className="select-button">
+                <Button 
+                    onClick={handleJoinClick} 
+                    className={`select-button ${
+                        (currentPlan.group === 'Professional' || currentPlan.productName === 'Professional') 
+                            ? 'bg-accent hover:bg-accent/90 text-accent-foreground font-semibold shadow-lg hover:shadow-xl' 
+                            : ''
+                    }`}
+                >
                     {buttonMessage}
                 </Button>
             )}

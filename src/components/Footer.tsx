@@ -86,7 +86,7 @@ export function Footer() {
                   to="/press" 
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Press
+                  {t('footer.press')}
                 </LocalizedLink>
               </li>
             </ul>
