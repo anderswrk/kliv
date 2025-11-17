@@ -1,7 +1,9 @@
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { CTASection } from '@/components/CTASection';
+import { ImageModal } from '@/components/ImageModal';
 import { Card, CardContent } from '@/components/ui/card';
 import { 
   Cloud,
@@ -31,6 +33,7 @@ import {
 
 export function Features() {
   const { t } = useTranslation();
+  const [modalImage, setModalImage] = useState<{ src: string; alt: string } | null>(null);
 
   const klivCloudFeatures = [
     {
@@ -298,15 +301,26 @@ export function Features() {
                           <div className="absolute -inset-3 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                           
                           {/* Main image container */}
-                          <div className="relative overflow-hidden rounded-xl border border-border/50 bg-muted/30">
+                          <div className="relative overflow-hidden rounded-xl border border-border/50 bg-muted/30 cursor-pointer group">
                             <img 
                               src={images[index]} 
                               alt={feature.title}
-                              className="w-full h-auto aspect-[3/2] object-cover"
+                              className="w-full h-auto aspect-[3/2] object-cover transition-transform duration-300 group-hover:scale-105"
                               loading="lazy"
+                              onClick={() => setModalImage({ src: images[index], alt: feature.title })}
                             />
                             {/* Subtle gradient overlay */}
                             <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
+                            
+                            {/* Zoom indicator on hover */}
+                            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                              <div className="bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2 text-sm font-medium">
+                                <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                                </svg>
+                                <span>Click to enlarge</span>
+                              </div>
+                            </div>
                           </div>
                           
                           {/* Decorative corner accent */}
@@ -507,6 +521,14 @@ export function Features() {
           </div>
         </div>
       </main>
+
+      {/* Image Modal */}
+      <ImageModal
+        isOpen={modalImage !== null}
+        onClose={() => setModalImage(null)}
+        imageSrc={modalImage?.src || ''}
+        alt={modalImage?.alt || ''}
+      />
 
       <CTASection />
       <Footer />
