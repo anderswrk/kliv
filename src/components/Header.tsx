@@ -138,7 +138,7 @@ export function Header() {
                 <div className="w-4 h-4 border-2 border-gray-300 border-t-gray-600 rounded-full animate-spin" />
               </Button>
             ) : isLoggedIn ? (
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-4">
                 <span className="text-sm text-muted-foreground">
                   {t('nav.welcomeBack', { firstName: userName.split(' ')[0] })}
                 </span>
@@ -255,7 +255,7 @@ export function Header() {
                   </Button>
                 ) : isLoggedIn ? (
                   <>
-                    <div className="px-3 py-2 text-sm text-muted-foreground">
+                    <div className="px-3 py-3 text-sm text-muted-foreground">
                       {t('nav.welcomeBack', { firstName: userName.split(' ')[0] })}
                     </div>
                     <Button variant="ghost" size="sm" className="justify-start bg-accent hover:bg-accent/90 text-accent-foreground" onClick={goToPortal}>
