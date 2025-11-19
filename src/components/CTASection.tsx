@@ -1,7 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Button } from '@/components/ui/button';
-import { LocalizedLink } from './LocalizedLink';
-import { ArrowRight } from 'lucide-react';
+import { GetStartedCTA } from './GetStartedCTA';
 
 export function CTASection() {
   const { t } = useTranslation();
@@ -19,28 +17,7 @@ export function CTASection() {
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
             {t('cta.description')}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-            <Button 
-              size="lg" 
-              className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold shadow-lg hover:shadow-xl hover:shadow-accent/20 transition-all text-base sm:text-lg h-12 sm:h-14 px-8"
-              asChild
-            >
-              <LocalizedLink to="/signup">
-                {t('cta.getStarted')}
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </LocalizedLink>
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="text-base sm:text-lg h-12 sm:h-14 px-8 border-2"
-              asChild
-            >
-              <LocalizedLink to="/features">
-                {t('cta.learnMore')}
-              </LocalizedLink>
-            </Button>
-          </div>
+          <GetStartedCTA />
         </div>
       </div>
     </section>

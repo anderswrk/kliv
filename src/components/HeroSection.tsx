@@ -1,15 +1,18 @@
-import { useState, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { Card } from '@/components/ui/card';
 import { ArrowRight, Sparkles, MessageSquare } from 'lucide-react';
 import { useTypingAnimation } from '@/hooks/useTypingAnimation';
+import { useUserSession } from '../hooks/useUserSession';
 
 export function HeroSection() {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const { lang } = useParams<{ lang: string }>();
+  const { isLoggedIn, goToPortal } = useUserSession();
   const [message, setMessage] = useState('');
   const [isInputFocused, setIsInputFocused] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
@@ -39,18 +42,24 @@ export function HeroSection() {
       full: t('hero.examples.blogFull')
     }
   ];
-
-  const handleStartBuilding = () => {
-    // Navigate to the signup page with the prompt as a URL parameter
-    const params = new URLSearchParams();
-    if (message.trim()) {
-      params.set('prompt', message.trim());
+const handleStartBuilding = () => {
+    // Check if user is logged in
+    if (isLoggedIn) {
+      // User is logged in, go to portal with prompt in URL
+      goToPortal(message.trim());
+    } else {
+      // User is not logged in, navigate to signup page with the prompt as a URL parameter
+      const currentLang = lang || 'en';
+      const params = new URLSearchParams();
+      if (message.trim()) {
+        params.set('prompt', message.trim());
+      }
+      
+      const queryString = params.toString();
+      const url = queryString ? `/${currentLang}/signup?${queryString}` : `/${currentLang}/signup`;
+      
+      navigate(url);
     }
-    
-    const queryString = params.toString();
-    const url = queryString ? `/signup?${queryString}` : '/signup';
-    
-    navigate(url);
   };
 
   const handleExampleClick = (example: { short: string; full: string }) => {

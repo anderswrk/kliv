@@ -292,7 +292,11 @@ export function PlanCard({plan, plans, buttonMessage, onButtonClick}: PlanCardPr
                     </div>
                 </div>
             ) : (
-                <div className="plan-card-normal group">
+                <div className={`plan-card-normal group ${
+                    (currentPlan.group === 'Professional' || currentPlan.productName === 'Professional') 
+                        ? 'preferred' 
+                        : ''
+                }`}>
                     <div className="plan-card-body">
                         <PlanCardContent
                             currentPlan={localizedCurrentPlan}

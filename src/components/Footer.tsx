@@ -89,6 +89,7 @@ export function Footer() {
                   {t('footer.press')}
                 </LocalizedLink>
               </li>
+  
             </ul>
           </div>
 

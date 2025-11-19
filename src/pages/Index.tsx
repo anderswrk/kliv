@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
 import { FeaturesSection } from '@/components/FeaturesSection';
+import { GetStartedCTA } from '@/components/GetStartedCTA';
 import CommunityShowcase from '@/components/CommunityShowcase';
 import HowItWorksSection from '@/components/HowItWorksSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
@@ -23,6 +24,7 @@ export const Index = () => {
       <main className="pt-4">
         <HeroSection />
         <CommunityShowcase />
+        <GetStartedCTA variant="compact" className="bg-muted/30 py-12" />
         <HowItWorksSection />
         <FeaturesSection />
         <TestimonialsSection />

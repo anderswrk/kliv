@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { CTASection } from '@/components/CTASection';
+import { GetStartedCTA } from '@/components/GetStartedCTA';
 
 import { Card, CardContent } from '@/components/ui/card';
 import { 

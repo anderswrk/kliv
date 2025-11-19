@@ -276,35 +276,42 @@ export function Pricing() {
                                 <thead>
                                     <tr className="border-b-2 border-border">
                                         <th className="text-left p-4 font-semibold text-foreground"></th>
-                                        <th className="text-center p-4 font-bold text-foreground">{t('planContent.plans.Free')}</th>
-                                        <th className="text-center p-4 font-bold text-primary">{t('planContent.plans.Professional')}</th>
-                                        <th className="text-center p-4 font-bold text-foreground">{t('planContent.plans.Custom')}</th>
+                                        <th className="text-center p-4">
+                                            <div className="font-bold text-foreground mb-3">{t('planContent.plans.Free')}</div>
+                                            <button
+                                                onClick={handleFreePlanClick}
+                                                className="px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors text-sm font-semibold w-full max-w-[160px]"
+                                            >
+                                                {t('pricing.getStarted')}
+                                            </button>
+                                        </th>
+                                        <th className="text-center p-4">
+                                            <div className="font-bold text-foreground mb-3">{t('planContent.plans.Professional')}</div>
+                                            <button
+                                                onClick={() => groupedPlans.length > 0 && handlePaidPlanClick(groupedPlans[0].plans[0])}
+                                                className="px-4 py-2 rounded-lg bg-orange-500 text-white hover:bg-orange-600 transition-colors text-sm font-semibold w-full max-w-[160px] shadow-md"
+                                            >
+                                                {t('pricing.subscribe')}
+                                            </button>
+                                        </th>
+                                        <th className="text-center p-4">
+                                            <div className="font-bold text-foreground mb-3">{t('planContent.plans.Custom')}</div>
+                                            <button
+                                                onClick={() => window.location.href = 'mailto:sales@kliv.dev'}
+                                                className="px-4 py-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors text-sm font-semibold w-full max-w-[160px]"
+                                            >
+                                                {t('pricing.contactUs')}
+                                            </button>
+                                        </th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
-                                        <td className="p-4 font-medium text-foreground">{t('planContent.featureMatrix.features.aiCredits')}</td>
-                                        <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('planContent.featureMatrix.values.free.aiCredits'))}</td>
-                                        <td className="p-4 text-center text-foreground font-semibold text-sm">{renderFeatureValue(t('planContent.featureMatrix.values.professional.aiCredits'))}</td>
-                                        <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('planContent.featureMatrix.values.custom.aiCredits'))}</td>
-                                    </tr>
+                                    {/* Features all plans have */}
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('planContent.featureMatrix.features.publicProjects')}</td>
                                         <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('planContent.featureMatrix.values.free.publicProjects'))}</td>
                                         <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('planContent.featureMatrix.values.professional.publicProjects'))}</td>
                                         <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('planContent.featureMatrix.values.custom.publicProjects'))}</td>
-                                    </tr>
-                                    <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
-                                        <td className="p-4 font-medium text-foreground">{t('planContent.featureMatrix.features.privateProjects')}</td>
-                                        <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.free.privateProjects'))}</td>
-                                        <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.professional.privateProjects'))}</td>
-                                        <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.custom.privateProjects'))}</td>
-                                    </tr>
-                                    <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
-                                        <td className="p-4 font-medium text-foreground">{t('planContent.featureMatrix.features.customDomains')}</td>
-                                        <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.free.customDomains'))}</td>
-                                        <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.professional.customDomains'))}</td>
-                                        <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.custom.customDomains'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('planContent.featureMatrix.features.hosting')}</td>
@@ -319,10 +326,30 @@ export function Pricing() {
                                         <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.custom.database'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
+                                        <td className="p-4 font-medium text-foreground">{t('planContent.featureMatrix.features.aiCredits')}</td>
+                                        <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('planContent.featureMatrix.values.free.aiCredits'))}</td>
+                                        <td className="p-4 text-center text-foreground font-semibold text-sm">{renderFeatureValue(t('planContent.featureMatrix.values.professional.aiCredits'))}</td>
+                                        <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('planContent.featureMatrix.values.custom.aiCredits'))}</td>
+                                    </tr>
+                                    <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('planContent.featureMatrix.features.support')}</td>
                                         <td className="p-4 text-center text-muted-foreground text-sm">{renderFeatureValue(t('planContent.featureMatrix.values.free.support'))}</td>
                                         <td className="p-4 text-center text-foreground font-semibold text-sm">{renderFeatureValue(t('planContent.featureMatrix.values.professional.support'))}</td>
                                         <td className="p-4 text-center text-foreground font-semibold text-sm">{renderFeatureValue(t('planContent.featureMatrix.values.custom.support'))}</td>
+                                    </tr>
+                                    
+                                    {/* Features Professional and Custom have */}
+                                    <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
+                                        <td className="p-4 font-medium text-foreground">{t('planContent.featureMatrix.features.privateProjects')}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.free.privateProjects'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.professional.privateProjects'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.custom.privateProjects'))}</td>
+                                    </tr>
+                                    <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
+                                        <td className="p-4 font-medium text-foreground">{t('planContent.featureMatrix.features.customDomains')}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.free.customDomains'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.professional.customDomains'))}</td>
+                                        <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.custom.customDomains'))}</td>
                                     </tr>
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('planContent.featureMatrix.features.branding')}</td>
@@ -336,6 +363,8 @@ export function Pricing() {
                                         <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.professional.collaboration'))}</td>
                                         <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.custom.collaboration'))}</td>
                                     </tr>
+                                    
+                                    {/* Features only Custom has */}
                                     <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
                                         <td className="p-4 font-medium text-foreground">{t('planContent.featureMatrix.features.analytics')}</td>
                                         <td className="p-4 text-center">{renderFeatureValue(t('planContent.featureMatrix.values.free.analytics'))}</td>

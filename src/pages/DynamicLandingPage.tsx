@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useParams, Navigate, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Header } from '@/components/Header';
@@ -54,6 +54,7 @@ export function DynamicLandingPage() {
   const [message, setMessage] = useState('');
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
   const [isInputFocused, setIsInputFocused] = useState(false);
+  const [isTranslatedFromEnglish, setIsTranslatedFromEnglish] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   // Get prompt examples from the content
@@ -167,16 +168,35 @@ export function DynamicLandingPage() {
           throw new Error('Missing page slug');
         }
         
-        // Fetch from database directly
+        // Fetch from database directly with language filter
+        const currentLang = lang || 'en';
         const pages = await db.query('landing_pages', {
-          slug: `eq.${pageSlug}`
+          slug: `eq.${pageSlug}`,
+          language: `eq.${currentLang}`
         });
         
-        if (!Array.isArray(pages) || pages.length === 0) {
+        // If no content found in current language, try English as fallback
+        let pageData = null;
+        let usingFallback = false;
+        if (Array.isArray(pages) && pages.length > 0) {
+          pageData = pages[0];
+        } else if (currentLang !== 'en') {
+          // Try English fallback
+          const englishPages = await db.query('landing_pages', {
+            slug: `eq.${pageSlug}`,
+            language: 'eq.en'
+          });
+          if (Array.isArray(englishPages) && englishPages.length > 0) {
+            pageData = englishPages[0];
+            usingFallback = true;
+          }
+        }
+        
+        if (!pageData) {
           throw new Error('No content found');
         }
         
-        const pageData = pages[0];
+        setIsTranslatedFromEnglish(usingFallback);
         
         // Parse the sections JSON
         let parsedSections = [];
@@ -775,6 +795,15 @@ export function DynamicLandingPage() {
       {/* Breadcrumb Navigation */}
       <div className="pt-16 bg-muted/20 border-b border-border">
         <Breadcrumb items={getBreadcrumbItems()} lang={lang || 'en'} />
+        {isTranslatedFromEnglish && (
+          <div className="container mx-auto px-4 py-2">
+            <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg px-3 py-2 text-sm">
+              <span className="text-yellow-800 dark:text-yellow-200">
+                {t('landing.englishFallback', 'This content is currently available in English only. We\'re working on translating it to your language.')}
+              </span>
+            </div>
+          </div>
+        )}
       </div>
       
       {/* Hero Section with optional hero image */}

@@ -143,7 +143,7 @@ const TestimonialsSection = () => {
                   {/* Avatar positioned at top corner */}
                   <div className="absolute top-2 left-6 z-10">
                     <Avatar className="h-14 w-14 ring-4 ring-background shadow-lg">
-                      <AvatarImage src={testimonial.image} alt={testimonial.author} />
+                      <AvatarImage src={testimonial.image + '?w=150'} alt={testimonial.author} />
                       <AvatarFallback className="bg-gradient-to-br from-primary/90 to-purple-500/90 text-white text-sm font-semibold">
                         {testimonial.author.split(' ').map(n => n[0]).join('')}
                       </AvatarFallback>

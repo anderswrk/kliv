@@ -23,6 +23,7 @@ import { CategoryPage } from "./pages/CategoryPage"; // Import the new CategoryP
 import { MigrationPage } from "./pages/MigrationPage"; // Import the migration page
 import AdminMigration from "./pages/AdminMigration"; // Import admin migration page
 import { Press } from "./pages/Press";
+import { Contact } from "./pages/Contact";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { initializeGclidTracking } from "./utils/gclid";
 import "./i18n";
@@ -56,6 +57,7 @@ const App = () => {
               <Route path="/:lang/pricing" element={<LanguageRouter><Pricing /></LanguageRouter>} />
               <Route path="/:lang/careers" element={<LanguageRouter><Careers /></LanguageRouter>} />
               <Route path="/:lang/press" element={<LanguageRouter><Press /></LanguageRouter>} />
+              <Route path="/:lang/contact" element={<LanguageRouter><Contact /></LanguageRouter>} />
               <Route path="/:lang/privacy" element={<LanguageRouter><Privacy /></LanguageRouter>} />
               <Route path="/:lang/terms" element={<LanguageRouter><Terms /></LanguageRouter>} />
               <Route path="/:lang/security" element={<LanguageRouter><Security /></LanguageRouter>} />
@@ -78,6 +80,7 @@ const App = () => {
               <Route path="/pricing" element={<LanguageRouter><Pricing /></LanguageRouter>} />
               <Route path="/careers" element={<LanguageRouter><Careers /></LanguageRouter>} />
               <Route path="/press" element={<LanguageRouter><Press /></LanguageRouter>} />
+              <Route path="/contact" element={<LanguageRouter><Contact /></LanguageRouter>} />
               <Route path="/privacy" element={<LanguageRouter><Privacy /></LanguageRouter>} />
               <Route path="/terms" element={<LanguageRouter><Terms /></LanguageRouter>} />
               <Route path="/security" element={<LanguageRouter><Security /></LanguageRouter>} />

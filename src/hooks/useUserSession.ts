@@ -22,9 +22,12 @@ export const useUserSession = () => {
     refreshSession();
   }, [refreshSession]);
 
-  const goToPortal = useCallback(() => {
+  const goToPortal = useCallback((prompt?: string) => {
     if (session?.portalUrl) {
-      window.location.href = session.portalUrl;
+      const portalUrl = prompt 
+        ? `${session.portalUrl}?prompt=${encodeURIComponent(prompt)}` 
+        : session.portalUrl;
+      window.location.href = portalUrl;
     }
   }, [session?.portalUrl]);
 
