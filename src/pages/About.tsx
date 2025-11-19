@@ -296,63 +296,39 @@ export function About() {
                 </p>
               </div>
 
-              <div className="space-y-8">
-                {/* Current Investor */}
-                <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
-                  <CardContent className="p-8 sm:p-12">
-                    <div className="flex flex-col items-center text-center mb-8">
-                      <div className="mb-6 p-6 bg-muted/50 dark:bg-muted/30 rounded-2xl">
-                        <TrendingUp className="w-12 h-12 text-primary" />
-                      </div>
-                      <h3 className="text-2xl font-bold mb-3">
-                        <a 
-                          href="https://rational.ventures/" 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="text-primary hover:underline transition-all"
-                        >
-                          {t('aboutPage.investors.rationalVentures')}
-                        </a>
-                      </h3>
-                      <p className="text-muted-foreground text-base leading-relaxed max-w-2xl">
-                        {t('aboutPage.investors.investorDescription')}
-                      </p>
+              <Card className="border-2 border-primary/20 bg-gradient-to-br from-primary/5 via-card/80 to-card/60 backdrop-blur-xl shadow-lg">
+                <CardContent className="p-8 sm:p-12">
+                  <div className="text-center">
+                    <div className="mb-6 mx-auto w-16 h-16 p-4 bg-primary/10 dark:bg-primary/20 rounded-2xl flex items-center justify-center">
+                      <TrendingUp className="w-8 h-8 text-primary" />
                     </div>
-                  </CardContent>
-                </Card>
-
-                {/* Investment Inquiry Section */}
-                <Card className="border-2 border-primary/20 bg-gradient-to-br from-primary/5 via-card/80 to-card/60 backdrop-blur-xl shadow-lg">
-                  <CardContent className="p-8 sm:p-12">
-                    <div className="text-center">
-                      <h3 className="text-2xl font-bold mb-4">
-                        {t('aboutPage.investors.investmentInquiry.title')}
-                      </h3>
-                      <p className="text-muted-foreground text-base leading-relaxed mb-8 max-w-2xl mx-auto">
-                        {t('aboutPage.investors.investmentInquiry.description')}
-                      </p>
-                      
-                      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                        <LocalizedLink
-                          to="/contact"
-                          className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl"
-                        >
-                          {t('aboutPage.investors.investmentInquiry.contactButton')}
-                        </LocalizedLink>
-                        <span className="text-sm text-muted-foreground">
-                          {t('aboutPage.investors.investmentInquiry.or')}
-                        </span>
-                        <a
-                          href="mailto:investors@kliv.dev"
-                          className="inline-flex items-center gap-2 text-primary hover:underline font-semibold"
-                        >
-                          investors@kliv.dev
-                        </a>
-                      </div>
+                    <h3 className="text-2xl font-bold mb-4">
+                      {t('aboutPage.investors.investmentInquiry.title')}
+                    </h3>
+                    <p className="text-muted-foreground text-base leading-relaxed mb-8 max-w-2xl mx-auto">
+                      {t('aboutPage.investors.investmentInquiry.description')}
+                    </p>
+                    
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                      <LocalizedLink
+                        to="/contact"
+                        className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl"
+                      >
+                        {t('aboutPage.investors.investmentInquiry.contactButton')}
+                      </LocalizedLink>
+                      <span className="text-sm text-muted-foreground">
+                        {t('aboutPage.investors.investmentInquiry.or')}
+                      </span>
+                      <a
+                        href="mailto:investors@kliv.dev"
+                        className="inline-flex items-center gap-2 text-primary hover:underline font-semibold"
+                      >
+                        investors@kliv.dev
+                      </a>
                     </div>
-                  </CardContent>
-                </Card>
-              </div>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
