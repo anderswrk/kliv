@@ -54,13 +54,13 @@ export function Press() {
               <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 backdrop-blur-sm">
                 <Mail className="w-5 h-5 text-primary" />
                 <div className="text-left">
-                  <div className="text-sm text-muted-foreground">{t('press.contact.label')}</div>
-                  <LocalizedLink
-                    to="/contact"
+                  <div className="text-sm text-muted-foreground">{t('press.contact.alternativeLabel')}</div>
+                  <a
+                    href="mailto:press@kliv.dev"
                     className="text-primary font-semibold hover:underline"
                   >
-                    {t('press.contact.label')}
-                  </LocalizedLink>
+                    press@kliv.dev
+                  </a>
                 </div>
               </div>
             </div>
@@ -155,15 +155,24 @@ export function Press() {
                 </div>
                 <h2 className="text-2xl sm:text-3xl font-bold mb-4">{t('press.contactSection.title')}</h2>
                 <p className="text-base text-muted-foreground leading-relaxed mb-6 max-w-2xl mx-auto">
-                  {t('press.contactSection.description')}
+                  {t('press.contactSection.description')} {t('press.contactSection.emailInfo')}
                 </p>
-                <LocalizedLink
-                  to="/contact"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
-                >
-                  <Mail className="w-4 h-4" />
-                  {t('press.contact.label')}
-                </LocalizedLink>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                  <LocalizedLink
+                    to="/contact"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+                  >
+                    <Mail className="w-4 h-4" />
+                    {t('press.contact.label')}
+                  </LocalizedLink>
+                  <a
+                    href="mailto:press@kliv.dev"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-secondary text-secondary-foreground rounded-lg font-semibold hover:bg-secondary/80 transition-colors"
+                  >
+                    <Mail className="w-4 h-4" />
+                    press@kliv.dev
+                  </a>
+                </div>
               </CardContent>
             </Card>
           </div>
