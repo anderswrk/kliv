@@ -34,12 +34,10 @@ export function setLanguageCookie(locale: string): void {
   const parts = hostname.split('.');
   const domain = parts.length >= 2 ? `.${parts.slice(-2).join('.')}` : hostname;
   
-  // Clear any existing lang cookies (old ones without domain, or kliv_lang)
+  // Clear any existing lang cookies with different domain settings
   document.cookie = `lang=; path=${path}; max-age=0`;
   document.cookie = `lang=; path=${path}; max-age=0; domain=${domain}`;
   document.cookie = `lang=; path=${path}; max-age=0; domain=${hostname}`;
-  document.cookie = `kliv_lang=; path=${path}; max-age=0`;
-  document.cookie = `kliv_lang=; path=${path}; max-age=0; domain=${domain}`;
   
   // Set the new cookie with root domain
   document.cookie = `lang=${locale}; path=${path}; max-age=${maxAge}; domain=${domain}`;
