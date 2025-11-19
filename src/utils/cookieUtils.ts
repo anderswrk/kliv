@@ -30,6 +30,8 @@ export function setLanguageCookie(locale: string): void {
   const path = '/';
   
   document.cookie = `lang=${locale}; path=${path}; max-age=${maxAge}; SameSite=Lax`;
+  
+  console.log('cookieUtils: Set lang cookie:', locale, '| Result:', document.cookie);
 }
 
 /**

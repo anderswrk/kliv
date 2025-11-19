@@ -50,7 +50,10 @@ export function Header() {
     const currentLang = lang || 'en';
     
     // Set the 'lang' cookie with full locale code (e.g., 'en-US', 'ja-JP')
-    setLanguageCookie(getFullLocale(newLang));
+    const fullLocale = getFullLocale(newLang);
+    console.log('Header: Language changed to:', newLang, '-> setting cookie:', fullLocale);
+    setLanguageCookie(fullLocale);
+    console.log('Header: Cookie after setting:', document.cookie);
     
     // Replace current language in path with new language
     const newPath = currentPath.replace(`/${currentLang}`, `/${newLang}`);

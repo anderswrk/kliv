@@ -23,18 +23,24 @@ export function LanguageRouter({ children }: LanguageRouterProps) {
       
       // Check for 'lang' cookie first
       const cookieLocale = getLanguageFromCookie();
+      console.log('LanguageRouter: No lang in URL. Cookie value:', cookieLocale);
+      console.log('LanguageRouter: All cookies:', document.cookie);
+      
       if (cookieLocale) {
         // Extract language code from locale (e.g., 'en-US' -> 'en')
         const cookieLang = getLanguageCode(cookieLocale);
+        console.log('LanguageRouter: Extracted language from cookie:', cookieLang);
         if (supportedLanguages.includes(cookieLang)) {
           detectedLang = cookieLang;
         }
       } else {
         // Fallback to browser language preference
         const browserLang = navigator.language.split('-')[0];
+        console.log('LanguageRouter: No cookie found, using browser lang:', browserLang);
         detectedLang = supportedLanguages.includes(browserLang) ? browserLang : defaultLanguage;
       }
       
+      console.log('LanguageRouter: Redirecting to:', `/${detectedLang}${location.pathname}`);
       navigate(`/${detectedLang}${location.pathname}${location.search}`, { replace: true });
       return;
     }
@@ -46,7 +52,10 @@ export function LanguageRouter({ children }: LanguageRouterProps) {
     }
 
     // Set the 'lang' cookie when language is determined from URL
-    setLanguageCookie(getFullLocale(lang));
+    const fullLocale = getFullLocale(lang);
+    console.log('LanguageRouter: Setting cookie for lang:', lang, '-> full locale:', fullLocale);
+    setLanguageCookie(fullLocale);
+    console.log('LanguageRouter: Cookie after setting:', document.cookie);
 
     // Change i18n language if it doesn't match URL
     if (i18n.language !== lang) {
