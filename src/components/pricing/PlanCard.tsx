@@ -10,6 +10,7 @@ import {useTranslation} from 'react-i18next';
 import {Card, CardContent} from '@/components/ui/card';
 import {Button} from '@/components/ui/button';
 import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from '@/components/ui/select';
+import {LocalizedLink} from '@/components/LocalizedLink';
 import ReactMarkdown from 'react-markdown';
 
 interface Plan {
@@ -413,9 +414,9 @@ function PlanCardContent({
             {/* Action Button */}
             {currentPlan.planType === 'url' ? (
                 <Button asChild className="select-button">
-                    <a href={currentPlan.url} target="_blank" rel="noopener noreferrer">
+                    <LocalizedLink to="/contact">
                         {t('pricing.contactUs')}
-                    </a>
+                    </LocalizedLink>
                 </Button>
             ) : (
                 <Button 
