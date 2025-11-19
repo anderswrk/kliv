@@ -1,5 +1,6 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { LocalizedLink } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -309,12 +310,12 @@ export function About() {
                     </p>
                     <p>
                       {t('aboutPage.investors.paragraph3')}{' '}
-                      <a 
-                        href="mailto:hello@kliv.dev"
+                      <LocalizedLink
+                        to="/contact"
                         className="text-primary hover:underline font-semibold"
                       >
                         hello@kliv.dev
-                      </a>
+                      </LocalizedLink>
                       {t('aboutPage.investors.paragraph3Suffix')}
                     </p>
                   </div>

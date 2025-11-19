@@ -5,10 +5,12 @@
  * The copyright notice above does not evidence any actual or intended publication of such source code.
  */
 
-import {useState, useEffect} from 'react';
-import {useTranslation} from 'react-i18next';
-import {Header} from '@/components/Header';
-import {Footer} from '@/components/Footer';
+import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
+import { Header } from '@/components/Header';
+import { LocalizedLink } from '@/components/LocalizedLink';
+import { Footer } from '@/components/Footer';
 import {Card, CardContent} from '@/components/ui/card';
 import {Skeleton} from '@/components/ui/skeleton';
 import {DollarSign, Check, X} from 'lucide-react';
@@ -48,6 +50,7 @@ interface GroupedPlan {
 
 export function Pricing() {
     const {t} = useTranslation();
+    const navigate = useNavigate();
     const [pricingData, setPricingData] = useState<PricingData | null>(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
@@ -296,12 +299,12 @@ export function Pricing() {
                                         </th>
                                         <th className="text-center p-4">
                                             <div className="font-bold text-foreground mb-3">{t('planContent.plans.Custom')}</div>
-                                            <button
-                                                onClick={() => window.location.href = 'mailto:sales@kliv.dev'}
-                                                className="px-4 py-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors text-sm font-semibold w-full max-w-[160px]"
+                                            <LocalizedLink 
+                                                to="/contact"
+                                                className="px-4 py-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors text-sm font-semibold w-full max-w-[160px] block text-center"
                                             >
                                                 {t('pricing.contactUs')}
-                                            </button>
+                                            </LocalizedLink>
                                         </th>
                                     </tr>
                                 </thead>

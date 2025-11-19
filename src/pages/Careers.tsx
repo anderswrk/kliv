@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { LocalizedLink } from '@/components/LocalizedLink';
 import { Card, CardContent } from '@/components/ui/card';
 import { 
   Accordion,
@@ -266,12 +267,12 @@ export function Careers() {
                       <span className="text-muted-foreground">
                         {t('careers.openings.apply')}
                       </span>
-                      <a 
-                        href="mailto:careers@kliv.dev" 
+                      <LocalizedLink 
+                        to="/contact"
                         className="text-primary hover:text-primary/80 transition-colors font-medium"
                       >
                         {t('careers.openings.email')}
-                      </a>
+                      </LocalizedLink>
                     </div>
                     <p className="text-xs text-muted-foreground mt-2">
                       {t('careers.openings.include')}
@@ -334,9 +335,9 @@ export function Careers() {
                             
                             <div className="pt-4 border-t border-border">
                               <Button asChild>
-                                <a href={`mailto:careers@kliv.dev?subject=Application for ${job.title}&body=Hi Kliv team,%0D%0A%0D%0AI'm interested in applying for the ${job.title} position. Please find my resume attached.%0D%0A%0D%0ABest regards`}>
+                                <LocalizedLink to="/contact">
                                   Apply for this position
-                                </a>
+                                </LocalizedLink>
                               </Button>
                             </div>
                           </div>

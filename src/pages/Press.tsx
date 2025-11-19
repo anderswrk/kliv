@@ -1,8 +1,10 @@
+import { useTranslation } from 'react-i18next';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { useTranslation } from 'react-i18next';
+import { LocalizedLink } from '@/components/LocalizedLink';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
 import { Newspaper, Download, Mail, Calendar, Users, Sparkles } from 'lucide-react';
 
 export function Press() {
@@ -53,12 +55,12 @@ export function Press() {
                 <Mail className="w-5 h-5 text-primary" />
                 <div className="text-left">
                   <div className="text-sm text-muted-foreground">{t('press.contact.label')}</div>
-                  <a 
-                    href="mailto:press@kliv.dev" 
+                  <LocalizedLink
+                    to="/contact"
                     className="text-primary font-semibold hover:underline"
                   >
-                    press@kliv.dev
-                  </a>
+                    {t('press.contact.label')}
+                  </LocalizedLink>
                 </div>
               </div>
             </div>
@@ -131,13 +133,13 @@ export function Press() {
                 <p className="text-base text-muted-foreground leading-relaxed mb-6 max-w-2xl mx-auto">
                   {t('press.assets.contactForMaterials')}
                 </p>
-                <a 
-                  href="mailto:press@kliv.dev"
+                <LocalizedLink
+                  to="/contact"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  press@kliv.dev
-                </a>
+                  {t('press.contact.label')}
+                </LocalizedLink>
               </CardContent>
             </Card>
           </div>
@@ -155,13 +157,13 @@ export function Press() {
                 <p className="text-base text-muted-foreground leading-relaxed mb-6 max-w-2xl mx-auto">
                   {t('press.contactSection.description')}
                 </p>
-                <a 
-                  href="mailto:press@kliv.dev"
+                <LocalizedLink
+                  to="/contact"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  press@kliv.dev
-                </a>
+                  {t('press.contact.label')}
+                </LocalizedLink>
               </CardContent>
             </Card>
           </div>
