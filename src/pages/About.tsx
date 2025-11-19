@@ -308,27 +308,25 @@ export function About() {
                       </a>
                       {t('aboutPage.investors.paragraph2Suffix')}
                     </p>
-                    <div className="space-y-4">
-                          <p>
-                            {t('aboutPage.investors.paragraph3')}{' '}
-                            <LocalizedLink
-                              to="/contact"
-                              className="text-primary hover:underline font-semibold"
-                            >
-                              {t('aboutPage.investors.contactForm')}
-                            </LocalizedLink>
-                            {t('aboutPage.investors.paragraph3Suffix')}
-                          </p>
-                          <p className="text-sm text-muted-foreground">
-                            {t('aboutPage.investors.emailDirectly')}{' '}
-                            <a
-                              href="mailto:investors@kliv.dev"
-                              className="text-primary hover:underline font-semibold"
-                            >
-                              investors@kliv.dev
-                            </a>
-                          </p>
-                        </div>
+<p>
+                      {t('aboutPage.investors.paragraph3')}{' '}
+                      <LocalizedLink
+                        to="/contact"
+                        className="text-primary hover:underline font-semibold"
+                      >
+                        {t('aboutPage.investors.contactForm')}
+                      </LocalizedLink>
+                      {t('aboutPage.investors.paragraph3Suffix')}
+                    </p>
+                    <p className="text-base text-muted-foreground leading-relaxed">
+                      {t('aboutPage.investors.emailDirectly')}{' '}
+                      <a
+                        href="mailto:investors@kliv.dev"
+                        className="text-primary hover:underline font-semibold"
+                      >
+                        investors@kliv.dev
+                      </a>
+                    </p>
                   </div>
                 </CardContent>
               </Card>
