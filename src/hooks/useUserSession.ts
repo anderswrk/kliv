@@ -24,7 +24,7 @@ export const useUserSession = () => {
 
   const goToPortal = useCallback((prompt?: string) => {
     if (session?.portalUrl) {
-      const portalUrl = prompt && prompt.trim() 
+      const portalUrl = typeof prompt === 'string' && prompt.trim() 
         ? `${session.portalUrl}?prompt=${encodeURIComponent(prompt.trim())}` 
         : session.portalUrl;
       window.location.href = portalUrl;
