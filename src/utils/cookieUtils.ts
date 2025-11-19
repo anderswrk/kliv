@@ -29,9 +29,14 @@ export function setLanguageCookie(locale: string): void {
   const maxAge = 365 * 24 * 60 * 60; // 1 year
   const path = '/';
   
-  document.cookie = `lang=${locale}; path=${path}; max-age=${maxAge}; SameSite=Lax`;
+  // Extract root domain (e.g., 'kliv.dev' from 'subdomain.kliv.dev')
+  const hostname = window.location.hostname;
+  const parts = hostname.split('.');
+  const domain = parts.length >= 2 ? `.${parts.slice(-2).join('.')}` : hostname;
   
-  console.log('cookieUtils: Set lang cookie:', locale, '| Result:', document.cookie);
+  document.cookie = `lang=${locale}; path=${path}; max-age=${maxAge}; domain=${domain}`;
+  
+  console.log('cookieUtils: Set lang cookie:', locale, 'domain:', domain, '| Result:', document.cookie);
 }
 
 /**
