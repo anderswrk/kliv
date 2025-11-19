@@ -43,8 +43,8 @@ export function Contact() {
     
     if (!formData.name || !formData.email || !formData.subject || !formData.message) {
       toast({
-        title: "Missing information",
-        description: "Please fill out all fields.",
+        title: t('contact.validation.missingFields'),
+        description: t('contact.validation.pleaseFillOutAll'),
         variant: "destructive"
       });
       return;
@@ -56,8 +56,8 @@ export function Contact() {
       const response = await functions.post('contact', formData);
 
       toast({
-        title: "Message sent!",
-        description: "We'll get back to you as soon as possible.",
+        title: t('contact.success.title'),
+        description: t('contact.success.description'),
       });
 
       // Reset form
@@ -70,8 +70,8 @@ export function Contact() {
 
     } catch (error) {
       toast({
-        title: "Something went wrong",
-        description: "Please try again or email us directly at hello@kliv.dev",
+        title: t('contact.error.title'),
+        description: t('contact.error.description'),
         variant: "destructive"
       });
     } finally {
@@ -90,15 +90,15 @@ export function Contact() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="inline-flex items-center px-5 py-2.5 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-6 backdrop-blur-sm">
                 <Mail className="w-4 h-4 mr-2 text-primary" />
-                <span className="text-sm font-semibold text-primary">Get in Touch</span>
+                <span className="text-sm font-semibold text-primary">{t('contact.badge')}</span>
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-[1.1]">
                 <span className="text-gradient">
-                  Contact Us
+                  {t('contact.title')}
                 </span>
               </h1>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                Have questions, feedback, or need help? We'd love to hear from you. Send us a message and we'll get back to you as soon as possible.
+                {t('contact.subtitle')}
               </p>
             </div>
           </div>
@@ -110,19 +110,19 @@ export function Contact() {
             <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
               <CardHeader>
                 <CardTitle className="text-xl font-semibold">
-                  Send us a message
+                  {t('contact.formTitle')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="name">Name *</Label>
+                      <Label htmlFor="name">{t('contact.nameLabel')} {t('contact.required')}</Label>
                       <Input
                         id="name"
                         name="name"
                         type="text"
-                        placeholder="Your name"
+                        placeholder={t('contact.namePlaceholder')}
                         value={formData.name}
                         onChange={handleInputChange}
                         required
@@ -130,12 +130,12 @@ export function Contact() {
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="email">Email *</Label>
+                      <Label htmlFor="email">{t('contact.emailLabel')} {t('contact.required')}</Label>
                       <Input
                         id="email"
                         name="email"
                         type="email"
-                        placeholder="your@email.com"
+                        placeholder={t('contact.emailPlaceholder')}
                         value={formData.email}
                         onChange={handleInputChange}
                         required
@@ -145,12 +145,12 @@ export function Contact() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="subject">Subject *</Label>
+                    <Label htmlFor="subject">{t('contact.subjectLabel')} {t('contact.required')}</Label>
                     <Input
                       id="subject"
                       name="subject"
                       type="text"
-                      placeholder="What is this about?"
+                      placeholder={t('contact.subjectPlaceholder')}
                       value={formData.subject}
                       onChange={handleInputChange}
                       required
@@ -159,11 +159,11 @@ export function Contact() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="message">Message *</Label>
+                    <Label htmlFor="message">{t('contact.messageLabel')} {t('contact.required')}</Label>
                     <Textarea
                       id="message"
                       name="message"
-                      placeholder="Tell us more about what you need help with..."
+                      placeholder={t('contact.messagePlaceholder')}
                       value={formData.message}
                       onChange={handleInputChange}
                       required
@@ -178,13 +178,13 @@ export function Contact() {
                     disabled={isSubmitting}
                   >
                     <Send className="w-4 h-4 mr-2" />
-                    {isSubmitting ? 'Sending...' : 'Send Message'}
+                    {isSubmitting ? t('contact.submit.sending') : t('contact.submit.sendMessage')}
                   </Button>
                 </form>
 
                 <div className="mt-8 pt-8 border-t border-border/50">
                   <p className="text-sm text-muted-foreground text-center">
-                    Or email us directly at{' '}
+                    {t('contact.alternativeContact')}{' '}
                     <a 
                       href="mailto:hello@kliv.dev" 
                       className="text-primary hover:text-primary/80 transition-colors font-medium"
