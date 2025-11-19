@@ -1,5 +1,6 @@
 
 import { createContext, useContext, useEffect, useState } from "react"
+import { getThemeFromCookie, setThemeCookie } from "@/utils/cookieUtils"
 
 type Theme = "dark" | "light" | "system"
 
@@ -24,11 +25,10 @@ const ThemeProviderContext = createContext<ThemeProviderState>(initialState)
 export function ThemeProvider({
   children,
   defaultTheme = "system",
-  storageKey = "kliv-ui-theme",
   ...props
 }: ThemeProviderProps) {
   const [theme, setTheme] = useState<Theme>(
-    () => (localStorage.getItem(storageKey) as Theme) || defaultTheme
+    () => (getThemeFromCookie() as Theme) || defaultTheme
   )
 
   useEffect(() => {
@@ -52,7 +52,7 @@ export function ThemeProvider({
   const value = {
     theme,
     setTheme: (theme: Theme) => {
-      localStorage.setItem(storageKey, theme)
+      setThemeCookie(theme)
       setTheme(theme)
     },
   }

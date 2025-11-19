@@ -64,3 +64,44 @@ export function getFullLocale(langCode: string): string {
   };
   return localeMap[langCode] || 'en-US';
 }
+
+/**
+ * Get theme from the 'theme' cookie
+ * Returns the theme value (e.g., 'light', 'dark', 'system')
+ */
+export function getThemeFromCookie(): string | null {
+  if (typeof document === 'undefined') return null;
+  
+  const cookies = document.cookie.split(';');
+  for (const cookie of cookies) {
+    const [name, value] = cookie.trim().split('=');
+    if (name === 'theme') {
+      return value || null;
+    }
+  }
+  return null;
+}
+
+/**
+ * Set the 'theme' cookie
+ * @param theme - Theme value ('light', 'dark', 'system')
+ */
+export function setThemeCookie(theme: string): void {
+  if (typeof document === 'undefined') return;
+  
+  const maxAge = 365 * 24 * 60 * 60; // 1 year
+  const path = '/';
+  
+  // Extract root domain (e.g., 'kliv.dev' from 'subdomain.kliv.dev')
+  const hostname = window.location.hostname;
+  const parts = hostname.split('.');
+  const domain = parts.length >= 2 ? `.${parts.slice(-2).join('.')}` : hostname;
+  
+  // Clear any existing theme cookies with different domain settings
+  document.cookie = `theme=; path=${path}; max-age=0`;
+  document.cookie = `theme=; path=${path}; max-age=0; domain=${domain}`;
+  document.cookie = `theme=; path=${path}; max-age=0; domain=${hostname}`;
+  
+  // Set the new cookie with root domain
+  document.cookie = `theme=${theme}; path=${path}; max-age=${maxAge}; domain=${domain}`;
+}
