@@ -27,9 +27,10 @@ export function ThemeProvider({
   defaultTheme = "system",
   ...props
 }: ThemeProviderProps) {
-  const [theme, setTheme] = useState<Theme>(
-    () => (getThemeFromCookie() as Theme) || defaultTheme
-  )
+  const [theme, setTheme] = useState<Theme>(() => {
+    const cookieTheme = getThemeFromCookie() as Theme
+    return cookieTheme || defaultTheme
+  })
 
   useEffect(() => {
     const root = window.document.documentElement
@@ -47,6 +48,23 @@ export function ThemeProvider({
     }
 
     root.classList.add(theme)
+  }, [theme])
+
+  // Listen for system theme changes when using "system" theme
+  useEffect(() => {
+    if (theme !== "system") return
+
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)")
+    
+    const handleChange = () => {
+      const root = window.document.documentElement
+      root.classList.remove("light", "dark")
+      const systemTheme = mediaQuery.matches ? "dark" : "light"
+      root.classList.add(systemTheme)
+    }
+
+    mediaQuery.addEventListener("change", handleChange)
+    return () => mediaQuery.removeEventListener("change", handleChange)
   }, [theme])
 
   const value = {
