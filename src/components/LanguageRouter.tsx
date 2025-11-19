@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { getLanguageFromCookie, setLanguageCookie, normalizeLanguageCode } from '../utils/cookieUtils';
 
 interface LanguageRouterProps {
   children: React.ReactNode;
@@ -16,11 +17,21 @@ export function LanguageRouter({ children }: LanguageRouterProps) {
   const defaultLanguage = 'en';
 
   useEffect(() => {
-    // If no language in URL, detect browser language
+    // If no language in URL, detect language from cookie first, then browser
     if (!lang) {
-      // Get browser language preference
-      const browserLang = navigator.language.split('-')[0]; // Get just the language code (e.g., 'ja' from 'ja-JP')
-      const detectedLang = supportedLanguages.includes(browserLang) ? browserLang : defaultLanguage;
+      // Check for language cookie first
+      const cookieLang = getLanguageFromCookie();
+      let detectedLang = defaultLanguage;
+      
+      if (cookieLang) {
+        // Normalize cookie language (e.g., 'ja-JP' -> 'ja')
+        const normalizedCookieLang = normalizeLanguageCode(cookieLang);
+        detectedLang = supportedLanguages.includes(normalizedCookieLang) ? normalizedCookieLang : defaultLanguage;
+      } else {
+        // Fallback to browser language preference
+        const browserLang = normalizeLanguageCode(navigator.language);
+        detectedLang = supportedLanguages.includes(browserLang) ? browserLang : defaultLanguage;
+      }
       
       navigate(`/${detectedLang}${location.pathname}${location.search}`, { replace: true });
       return;
@@ -31,6 +42,9 @@ export function LanguageRouter({ children }: LanguageRouterProps) {
       navigate(`/${defaultLanguage}${location.pathname.replace(`/${lang}`, '')}${location.search}`, { replace: true });
       return;
     }
+
+    // Set cookie when language is determined from URL
+    setLanguageCookie(lang);
 
     // Change i18n language if it doesn't match URL
     if (i18n.language !== lang) {

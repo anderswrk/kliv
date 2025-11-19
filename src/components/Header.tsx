@@ -11,6 +11,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { useTheme } from '@/components/theme-provider';
 import { useUserSession } from '../hooks/useUserSession';
+import { setLanguageCookie } from '../utils/cookieUtils';
 import { Moon, Sun, Globe, Menu, X, User, LogOut } from 'lucide-react';
 
 export function Header() {
@@ -47,6 +48,9 @@ export function Header() {
   const handleLanguageChange = (newLang: string) => {
     const currentPath = location.pathname;
     const currentLang = lang || 'en';
+    
+    // Set the language cookie
+    setLanguageCookie(newLang);
     
     // Replace current language in path with new language
     const newPath = currentPath.replace(`/${currentLang}`, `/${newLang}`);
