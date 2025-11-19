@@ -1,3 +1,4 @@
+import React from 'react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { LocalizedLink } from '@/components/LocalizedLink';
@@ -292,7 +293,7 @@ export function About() {
                 </h2>
               </div>
 
-              <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
+<Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
                 <CardContent className="p-8 sm:p-12">
                   <div className="text-muted-foreground space-y-6 text-base leading-relaxed">
                     <p>{t('aboutPage.investors.paragraph1')}</p>
@@ -306,9 +307,7 @@ export function About() {
                       >
                         {t('aboutPage.investors.rationalVentures')}
                       </a>
-                      {t('aboutPage.investors.paragraph2Suffix')}
-                    </p>
-<p>
+                      {t('aboutPage.investors.paragraph2Suffix')}{' '}
                       {t('aboutPage.investors.paragraph3')}{' '}
                       <LocalizedLink
                         to="/contact"
@@ -316,16 +315,14 @@ export function About() {
                       >
                         {t('aboutPage.investors.contactForm')}
                       </LocalizedLink>
-                      {t('aboutPage.investors.paragraph3Suffix')}
-                    </p>
-                    <p className="text-base text-muted-foreground leading-relaxed">
+                      {t('aboutPage.investors.paragraph3Suffix')}{' '}
                       {t('aboutPage.investors.emailDirectly')}{' '}
                       <a
                         href="mailto:investors@kliv.dev"
                         className="text-primary hover:underline font-semibold"
                       >
                         investors@kliv.dev
-                      </a>
+                      </a>.
                     </p>
                   </div>
                 </CardContent>
