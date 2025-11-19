@@ -89,7 +89,14 @@ export function Footer() {
                   {t('footer.press')}
                 </LocalizedLink>
               </li>
-  
+              <li>
+                <LocalizedLink 
+                  to="/contact" 
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Contact
+                </LocalizedLink>
+              </li>
             </ul>
           </div>
 
