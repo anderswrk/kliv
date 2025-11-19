@@ -291,42 +291,68 @@ export function About() {
                 <h2 className="text-3xl sm:text-4xl font-bold mb-6">
                   {t('aboutPage.investors.title')}
                 </h2>
+                <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                  {t('aboutPage.investors.subtitle')}
+                </p>
               </div>
 
-<Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
-                <CardContent className="p-8 sm:p-12">
-                  <div className="text-muted-foreground space-y-6 text-base leading-relaxed">
-                    <p>{t('aboutPage.investors.paragraph1')}</p>
-                    <p>
-                      {t('aboutPage.investors.paragraph2')}{' '}
-                      <a 
-                        href="https://rational.ventures/" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-primary hover:underline font-semibold"
-                      >
-                        {t('aboutPage.investors.rationalVentures')}
-                      </a>
-                      {t('aboutPage.investors.paragraph2Suffix')}{' '}
-                      {t('aboutPage.investors.paragraph3')}{' '}
-                      <LocalizedLink
-                        to="/contact"
-                        className="text-primary hover:underline font-semibold"
-                      >
-                        {t('aboutPage.investors.contactForm')}
-                      </LocalizedLink>
-                      {t('aboutPage.investors.paragraph3Suffix')}{' '}
-                      {t('aboutPage.investors.emailDirectly')}{' '}
-                      <a
-                        href="mailto:investors@kliv.dev"
-                        className="text-primary hover:underline font-semibold"
-                      >
-                        investors@kliv.dev
-                      </a>.
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
+              <div className="space-y-8">
+                {/* Current Investor */}
+                <Card className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg">
+                  <CardContent className="p-8 sm:p-12">
+                    <div className="flex flex-col items-center text-center mb-8">
+                      <div className="mb-6 p-6 bg-muted/50 dark:bg-muted/30 rounded-2xl">
+                        <TrendingUp className="w-12 h-12 text-primary" />
+                      </div>
+                      <h3 className="text-2xl font-bold mb-3">
+                        <a 
+                          href="https://rational.ventures/" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-primary hover:underline transition-all"
+                        >
+                          {t('aboutPage.investors.rationalVentures')}
+                        </a>
+                      </h3>
+                      <p className="text-muted-foreground text-base leading-relaxed max-w-2xl">
+                        {t('aboutPage.investors.investorDescription')}
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* Investment Inquiry Section */}
+                <Card className="border-2 border-primary/20 bg-gradient-to-br from-primary/5 via-card/80 to-card/60 backdrop-blur-xl shadow-lg">
+                  <CardContent className="p-8 sm:p-12">
+                    <div className="text-center">
+                      <h3 className="text-2xl font-bold mb-4">
+                        {t('aboutPage.investors.investmentInquiry.title')}
+                      </h3>
+                      <p className="text-muted-foreground text-base leading-relaxed mb-8 max-w-2xl mx-auto">
+                        {t('aboutPage.investors.investmentInquiry.description')}
+                      </p>
+                      
+                      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                        <LocalizedLink
+                          to="/contact"
+                          className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl"
+                        >
+                          {t('aboutPage.investors.investmentInquiry.contactButton')}
+                        </LocalizedLink>
+                        <span className="text-sm text-muted-foreground">
+                          {t('aboutPage.investors.investmentInquiry.or')}
+                        </span>
+                        <a
+                          href="mailto:investors@kliv.dev"
+                          className="inline-flex items-center gap-2 text-primary hover:underline font-semibold"
+                        >
+                          investors@kliv.dev
+                        </a>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
             </div>
           </div>
         </div>
