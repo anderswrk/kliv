@@ -156,16 +156,18 @@ export default function Login({
     }
   }, [oauthGoogleClientId, ssoBoot]);
 
-// Check for atoken on mount and redirect if already logged in
+  // Check for atoken on mount and redirect if already logged in
   useEffect(() => {
-    // Only auto-redirect if user is already logged in AND this is an embedded login view
-    // If user navigates directly to /login page, allow them to login again to prevent loops
-    if (isLoggedIn && !reauthentication && !atoken && !ssoBoot && embedded) {
+    const urlParams = new URLSearchParams(window.location.search);
+    const noRedirect = urlParams.get('no_redirect') || urlParams.get('stay');
+    
+    // If user is already logged in and not in reauthentication mode, redirect to portal
+    // UNLESS they have a no_redirect or stay parameter (to prevent redirect loops)
+    if (isLoggedIn && !reauthentication && !atoken && !ssoBoot && !noRedirect) {
       goToPortal();
       return;
     }
 
-    const urlParams = new URLSearchParams(window.location.search);
     const atokenParam = urlParams.get('atoken');
     
     if (atokenParam) {
@@ -176,9 +178,9 @@ export default function Login({
     if (isSso && reauthentication) {
       setState('sso-reauth');
     }
-  }, [isLoggedIn, reauthentication, atoken, ssoBoot, embedded, goToPortal]);
+  }, [isLoggedIn, reauthentication, atoken, ssoBoot, goToPortal]);
 
-const clearAuthenticationData = () => {
+  const clearAuthenticationData = () => {
     setLoginData({});
     setMessage(null);
   };
@@ -188,6 +190,10 @@ const clearAuthenticationData = () => {
     clearAuthenticationData();
     setResetSuccess(false);
   };
+
+  const onRecoveryButtonClick = () => {
+    setState('recover');
+    clearAuthenticationData();
   };
 
   const onSsoButtonClick = () => {
@@ -234,7 +240,7 @@ const clearAuthenticationData = () => {
 
   const onPasskeyLoginClick = async () => {
     try {
-setSubmitting(true);
+      setLoading(true);
       const passkeyData = await axios.post('/api/v1/user/passkey', {
         command: 'assert'
       }, {
@@ -250,7 +256,8 @@ setSubmitting(true);
       const publicKeyCredential = await startAuthentication({
         optionsJSON: passkeyResponse.data.publicKey
       });
-setSubmitting(false);
+
+      setLoading(false);
       await onSubmit({ passkeyToken: publicKeyCredential, uuid: passkeyResponse.uuid });
 
     } catch (error) {
@@ -258,7 +265,7 @@ setSubmitting(false);
       setMessage('Unable to authenticate with the selected passkey.');
     } finally {
       setLoading(false);
-setSubmitting(false);
+    }
   };
 
   const onReauthenticateWithSSOButtonClick = () => {
