@@ -126,9 +126,7 @@ const handleStartBuilding = () => {
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in leading-[1.1]">
-            <span className="text-gradient">
-              {t('hero.title')}
-            </span>
+            <span className="text-gradient" dangerouslySetInnerHTML={{ __html: t('hero.title') }} />
           </h1>
 
           {/* Subtitle */}
