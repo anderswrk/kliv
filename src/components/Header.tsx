@@ -75,8 +75,7 @@ export function Header() {
               <img 
                 src="/content/images/kliv.svg" 
                 alt="Kliv" 
-                className="h-10 w-auto"
-                style={{minWidth: '40px'}}
+                className="h-6 w-auto"
               />
             </LocalizedLink>
           </div>
