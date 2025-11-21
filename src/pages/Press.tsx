@@ -33,15 +33,15 @@ export function Press() {
   const brandColors = [
     {
       name: 'Primary Blue',
-      hex: '#0080FF',
-      hsl: 'hsl(210, 100%, 50%)',
-      rgb: 'rgb(0, 128, 255)',
+      hex: '#1768B5',
+      hsl: 'hsl(207, 77%, 40%)',
+      rgb: 'rgb(23, 104, 181)',
       usage: 'Primary brand color, CTAs, links, highlights'
     },
     {
       name: 'Accent Orange',
       hex: '#FF6629',
-      hsl: 'hsl(16, 100%, 66%)',
+      hsl: 'hsl(16, 100%, 58%)',
       rgb: 'rgb(255, 102, 41)',
       usage: 'Secondary accent, gradients, emphasis'
     }
