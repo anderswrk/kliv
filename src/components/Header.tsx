@@ -69,15 +69,15 @@ export function Header() {
           <div className="flex items-center">
             <LocalizedLink 
               to="/" 
-              className="flex items-center gap-2"
+              className="flex items-center"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
               <img 
                 src="/content/images/kliv.svg" 
                 alt="Kliv" 
-                className="h-8 w-8"
+                className="h-10 w-auto"
+                style={{minWidth: '40px'}}
               />
-              <span className="text-2xl font-bold text-gradient">Kliv</span>
             </LocalizedLink>
           </div>
 
