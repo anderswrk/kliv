@@ -156,18 +156,9 @@ export default function Login({
     }
   }, [oauthGoogleClientId, ssoBoot]);
 
-  // Check for atoken on mount and redirect if already logged in
+  // Check for atoken on mount - NO automatic redirect
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
-    const noRedirect = urlParams.get('no_redirect') || urlParams.get('stay');
-    
-    // If user is already logged in and not in reauthentication mode, redirect to portal
-    // UNLESS they have a no_redirect or stay parameter (to prevent redirect loops)
-    if (isLoggedIn && !reauthentication && !atoken && !ssoBoot && !noRedirect) {
-      goToPortal();
-      return;
-    }
-
     const atokenParam = urlParams.get('atoken');
     
     if (atokenParam) {
@@ -178,7 +169,7 @@ export default function Login({
     if (isSso && reauthentication) {
       setState('sso-reauth');
     }
-  }, [isLoggedIn, reauthentication, atoken, ssoBoot, goToPortal]);
+  }, [isSso, reauthentication]);
 
   const clearAuthenticationData = () => {
     setLoginData({});
