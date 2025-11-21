@@ -69,6 +69,11 @@ export function Press() {
       description: 'High resolution white logo for print'
     },
     {
+      name: 'Logo (Vector SVG)',
+      file: '/content/resources/media/kliv.svg',
+      description: 'Scalable vector format for web and professional design'
+    },
+    {
       name: 'Logo (Vector EPS)',
       file: '/content/resources/media/kliv.eps',
       description: 'Scalable vector format for professional design'
