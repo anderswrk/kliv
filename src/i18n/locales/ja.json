@@ -750,6 +750,70 @@
       "title": "メディアお問い合わせ",
       "description": "プレスのお問い合わせ、インタビュー、またはKlivに関する追加情報については、プレスチームにご連絡ください。通常24時間以内に返信いたします。",
       "emailInfo": "プレスのお問い合わせについては、press@kliv.dev まで直接メールでお問い合わせいただくこともできます。"
+    },
+    "brandAssets": {
+      "badge": "メディアキット",
+      "title": "ブランド資料",
+      "subtitle": "編集利用向けにロゴとブランド素材をダウンロード",
+      "logoDownloads": {
+        "title": "ロゴダウンロード",
+        "assets": {
+          "transparentPng": {
+            "name": "ロゴ（透明PNG）",
+            "description": "Web使用向けの標準解像度"
+          },
+          "transparentPng300": {
+            "name": "ロゴ（透明PNG 300dpi）",
+            "description": "印刷物向けの高解像度"
+          },
+          "whitePng": {
+            "name": "ロゴ（白PNG）",
+            "description": "暗い背景での使用向け"
+          },
+          "whitePng300": {
+            "name": "ロゴ（白PNG 300dpi）",
+            "description": "印刷物向けの高解像度白ロゴ"
+          },
+          "svg": {
+            "name": "ロゴ（ベクターSVG）",
+            "description": "Webとプロフェッショナルデザイン向けのスケーラブルなベクター形式"
+          },
+          "eps": {
+            "name": "ロゴ（ベクターEPS）",
+            "description": "プロフェッショナルデザイン向けのスケーラブルなベクター形式"
+          },
+          "pdf": {
+            "name": "ロゴ（PDF）",
+            "description": "ほとんどの用途に適したユニバーサル形式"
+          }
+        },
+        "download": "ダウンロード"
+      },
+      "colors": {
+        "title": "ブランドカラー",
+        "primaryBlue": {
+          "name": "プライマリーブルー",
+          "usage": "プライマリーブランドカラー、CTA、リンク、ハイライト"
+        },
+        "accentOrange": {
+          "name": "アクセントオレンジ",
+          "usage": "セカンダリーアクセント、グラデーション、強調"
+        }
+      },
+      "typography": {
+        "title": "タイポグラフィ",
+        "primaryFont": "プライマリーフォント",
+        "primaryFontValue": "Geist（サンセリフ）",
+        "brandName": "ブランド名",
+        "brandNameValue": "常に大文字で表記：「Kliv」（「kliv」や「KLIV」ではなく）"
+      },
+      "guidelines": {
+        "title": "使用ガイドライン",
+        "clearSpace": "ロゴは適切な余白を確保して使用",
+        "proportions": "元の比率を維持",
+        "whiteLogo": "暗い背景では白ロゴを使用",
+        "contrast": "十分なコントラストを確保"
+      }
     }
   },
   "aboutPage": {

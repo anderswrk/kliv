@@ -32,56 +32,56 @@ export function Press() {
 
   const brandColors = [
     {
-      name: 'Primary Blue',
+      name: t('press.brandAssets.colors.primaryBlue.name'),
       hex: '#1768B5',
       hsl: 'hsl(207, 77%, 40%)',
       rgb: 'rgb(23, 104, 181)',
-      usage: 'Primary brand color, CTAs, links, highlights'
+      usage: t('press.brandAssets.colors.primaryBlue.usage')
     },
     {
-      name: 'Accent Orange',
+      name: t('press.brandAssets.colors.accentOrange.name'),
       hex: '#FF6629',
       hsl: 'hsl(16, 100%, 58%)',
       rgb: 'rgb(255, 102, 41)',
-      usage: 'Secondary accent, gradients, emphasis'
+      usage: t('press.brandAssets.colors.accentOrange.usage')
     }
   ];
 
   const logoAssets = [
     {
-      name: 'Logo (Transparent PNG)',
+      name: t('press.brandAssets.logoDownloads.assets.transparentPng.name'),
       file: '/content/resources/media/kliv-transparent.png',
-      description: 'Standard resolution for web use'
+      description: t('press.brandAssets.logoDownloads.assets.transparentPng.description')
     },
     {
-      name: 'Logo (Transparent PNG 300dpi)',
+      name: t('press.brandAssets.logoDownloads.assets.transparentPng300.name'),
       file: '/content/resources/media/kliv-transparent-300dpi.png',
-      description: 'High resolution for print materials'
+      description: t('press.brandAssets.logoDownloads.assets.transparentPng300.description')
     },
     {
-      name: 'Logo (White PNG)',
+      name: t('press.brandAssets.logoDownloads.assets.whitePng.name'),
       file: '/content/resources/media/kliv-white.png',
-      description: 'For use on dark backgrounds'
+      description: t('press.brandAssets.logoDownloads.assets.whitePng.description')
     },
     {
-      name: 'Logo (White PNG 300dpi)',
+      name: t('press.brandAssets.logoDownloads.assets.whitePng300.name'),
       file: '/content/resources/media/kliv-white-300dpi.png',
-      description: 'High resolution white logo for print'
+      description: t('press.brandAssets.logoDownloads.assets.whitePng300.description')
     },
     {
-      name: 'Logo (Vector SVG)',
+      name: t('press.brandAssets.logoDownloads.assets.svg.name'),
       file: '/content/resources/media/kliv.svg',
-      description: 'Scalable vector format for web and professional design'
+      description: t('press.brandAssets.logoDownloads.assets.svg.description')
     },
     {
-      name: 'Logo (Vector EPS)',
+      name: t('press.brandAssets.logoDownloads.assets.eps.name'),
       file: '/content/resources/media/kliv.eps',
-      description: 'Scalable vector format for professional design'
+      description: t('press.brandAssets.logoDownloads.assets.eps.description')
     },
     {
-      name: 'Logo (PDF)',
+      name: t('press.brandAssets.logoDownloads.assets.pdf.name'),
       file: '/content/resources/media/kliv.pdf',
-      description: 'Universal format, suitable for most uses'
+      description: t('press.brandAssets.logoDownloads.assets.pdf.description')
     }
   ];
 
@@ -188,10 +188,10 @@ export function Press() {
             <div className="text-center mb-12">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30 mb-4 backdrop-blur-sm">
                 <FileImage className="w-4 h-4 mr-2 text-primary"/>
-                <span className="text-sm font-semibold text-primary">Media Kit</span>
+                <span className="text-sm font-semibold text-primary">{t('press.brandAssets.badge')}</span>
               </div>
-              <h2 className="text-3xl sm:text-4xl font-bold mb-4">Brand Assets</h2>
-              <p className="text-muted-foreground text-lg">Download our logos and brand materials for editorial use</p>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4">{t('press.brandAssets.title')}</h2>
+              <p className="text-muted-foreground text-lg">{t('press.brandAssets.subtitle')}</p>
             </div>
 
             {/* Logo Downloads */}
@@ -201,7 +201,7 @@ export function Press() {
                   <div className="p-2 bg-primary/10 dark:bg-primary/20 rounded-lg">
                     <Download className="w-5 h-5 text-primary" />
                   </div>
-                  <h3 className="text-2xl font-bold">Logo Downloads</h3>
+                  <h3 className="text-2xl font-bold">{t('press.brandAssets.logoDownloads.title')}</h3>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {logoAssets.map((asset, index) => (
@@ -215,7 +215,7 @@ export function Press() {
                           className="inline-flex items-center gap-2 text-sm text-primary hover:underline font-medium"
                         >
                           <Download className="w-4 h-4" />
-                          Download
+                          {t('press.brandAssets.logoDownloads.download')}
                         </a>
                       </div>
                     </div>
@@ -231,7 +231,7 @@ export function Press() {
                   <div className="p-2 bg-primary/10 dark:bg-primary/20 rounded-lg">
                     <Palette className="w-5 h-5 text-primary" />
                   </div>
-                  <h3 className="text-2xl font-bold">Brand Colors</h3>
+                  <h3 className="text-2xl font-bold">{t('press.brandAssets.colors.title')}</h3>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {brandColors.map((color, index) => (
@@ -311,16 +311,16 @@ export function Press() {
                     <div className="p-2 bg-primary/10 dark:bg-primary/20 rounded-lg">
                       <Type className="w-5 h-5 text-primary" />
                     </div>
-                    <h3 className="text-xl font-bold">Typography</h3>
+                    <h3 className="text-xl font-bold">{t('press.brandAssets.typography.title')}</h3>
                   </div>
                   <div className="space-y-4">
                     <div>
-                      <div className="font-semibold mb-2">Primary Font</div>
-                      <div className="text-muted-foreground">Geist (sans-serif)</div>
+                      <div className="font-semibold mb-2">{t('press.brandAssets.typography.primaryFont')}</div>
+                      <div className="text-muted-foreground">{t('press.brandAssets.typography.primaryFontValue')}</div>
                     </div>
                     <div>
-                      <div className="font-semibold mb-2">Brand Name</div>
-                      <div className="text-muted-foreground">Always capitalize: "Kliv" (not "kliv" or "KLIV")</div>
+                      <div className="font-semibold mb-2">{t('press.brandAssets.typography.brandName')}</div>
+                      <div className="text-muted-foreground">{t('press.brandAssets.typography.brandNameValue')}</div>
                     </div>
                   </div>
                 </CardContent>
@@ -332,24 +332,24 @@ export function Press() {
                     <div className="p-2 bg-primary/10 dark:bg-primary/20 rounded-lg">
                       <Check className="w-5 h-5 text-primary" />
                     </div>
-                    <h3 className="text-xl font-bold">Usage Guidelines</h3>
+                    <h3 className="text-xl font-bold">{t('press.brandAssets.guidelines.title')}</h3>
                   </div>
                   <ul className="space-y-3 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <Check className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Use logos with adequate clear space</span>
+                      <span>{t('press.brandAssets.guidelines.clearSpace')}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Maintain original proportions</span>
+                      <span>{t('press.brandAssets.guidelines.proportions')}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Use white logo on dark backgrounds</span>
+                      <span>{t('press.brandAssets.guidelines.whiteLogo')}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Ensure sufficient contrast</span>
+                      <span>{t('press.brandAssets.guidelines.contrast')}</span>
                     </li>
                   </ul>
                 </CardContent>
