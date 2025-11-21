@@ -105,7 +105,7 @@ const handleStartBuilding = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-2">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-accent/5 to-primary/10" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(0,119,255,0.08),transparent_50%),radial-gradient(circle_at_80%_80%,rgba(255,107,107,0.08),transparent_50%)]" />
