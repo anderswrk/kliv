@@ -73,7 +73,7 @@ export function Header() {
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
               <img 
-                src="/content/images/kliv.svg" 
+                src={theme === 'dark' ? "/content/images/kliv-darkmode.svg" : "/content/images/kliv.svg"} 
                 alt="Kliv" 
                 className="h-6 w-auto"
               />
