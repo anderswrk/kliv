@@ -147,8 +147,8 @@ const handleStartBuilding = () => {
             spotlightOverflow={true}
             alwaysOn={true}
             dualSpotlights={true}
-            animationSpeed={1200}
-            animationSpeed2={1500}
+            animationSpeed={1560}
+            animationSpeed2={1950}
           >
             <div className="space-y-6">
               {/* Input Label */}
