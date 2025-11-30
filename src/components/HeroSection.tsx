@@ -143,7 +143,7 @@ const handleStartBuilding = () => {
             lightSpotlightColor2="255, 120, 60"
             spotlightSize={550}
             spotlightOpacity={0.18}
-            spotlightOpacityLight={0.6}
+            spotlightOpacityLight={0.3}
             spotlightOverflow={true}
             alwaysOn={true}
             dualSpotlights={true}
