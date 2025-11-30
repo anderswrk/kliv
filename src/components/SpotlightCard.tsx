@@ -92,21 +92,42 @@ const SpotlightCard = ({
   const currentPosition = alwaysOn && !isHovering ? animatedPosition : mousePosition;
   const showSpotlight = alwaysOn || isHovering;
 
+  // Extract primary color from gradient for radial spotlight
+  const extractColor = (gradient: string) => {
+    const match = gradient.match(/rgb\((\d+),\s*(\d+),\s*(\d+)\)/);
+    if (match) {
+      return { r: parseInt(match[1]), g: parseInt(match[2]), b: parseInt(match[3]) };
+    }
+    return { r: 59, g: 130, b: 246 }; // fallback blue
+  };
+
+  const color = extractColor(isDark ? gradientColors : lightGradientColors);
+  const baseOpacity = showSpotlight ? (isDark ? spotlightOpacity : spotlightOpacityLight) : 0;
+
+  // Create smooth radial gradient with multiple stops to prevent banding
+  const smoothRadialGradient = `radial-gradient(circle, 
+    rgba(${color.r}, ${color.g}, ${color.b}, ${baseOpacity * 0.8}) 0%, 
+    rgba(${color.r}, ${color.g}, ${color.b}, ${baseOpacity * 0.6}) 15%, 
+    rgba(${color.r}, ${color.g}, ${color.b}, ${baseOpacity * 0.4}) 30%, 
+    rgba(${color.r}, ${color.g}, ${color.b}, ${baseOpacity * 0.25}) 45%, 
+    rgba(${color.r}, ${color.g}, ${color.b}, ${baseOpacity * 0.12}) 60%, 
+    rgba(${color.r}, ${color.g}, ${color.b}, ${baseOpacity * 0.05}) 75%, 
+    rgba(${color.r}, ${color.g}, ${color.b}, 0) 100%
+  )`;
+
   const spotlightElement = !spotlightDisabled && (
     <span
       className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2"
       style={{
-        backgroundImage: isDark ? gradientColors : lightGradientColors,
+        background: smoothRadialGradient,
         left: currentPosition.x,
         top: currentPosition.y,
-        opacity: showSpotlight ? (isDark ? spotlightOpacity : spotlightOpacityLight) : 0,
         width: `${spotlightSize}px`,
         height: `${spotlightSize}px`,
         borderRadius: "50%",
-        filter: `blur(${spotlightBlur}px)`,
         transition: alwaysOn && !isHovering 
-          ? `left ${animationSpeed}ms ease-in-out, top ${animationSpeed}ms ease-in-out, opacity 300ms`
-          : 'opacity 300ms',
+          ? `left ${animationSpeed}ms ease-in-out, top ${animationSpeed}ms ease-in-out, background 300ms`
+          : 'background 300ms',
       }}
     />
   );
