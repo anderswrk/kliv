@@ -1,6 +1,5 @@
 
 import { useTranslation } from 'react-i18next';
-import { Card, CardContent } from '@/components/ui/card';
 import { 
   UserCircle2, 
   Database, 
@@ -12,6 +11,7 @@ import {
   Users, 
   Sparkles 
 } from 'lucide-react';
+import SpotlightCard from '@/components/SpotlightCard';
 
 export function FeaturesSection() {
   const { t } = useTranslation();
@@ -111,22 +111,27 @@ export function FeaturesSection() {
           {/* Bottom features - card style for emphasis */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {featureKeys.slice(6).map((feature) => (
-              <Card 
+              <SpotlightCard 
                 key={feature.key} 
-                className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-xl transition-shadow duration-300 group"
+                className="p-6 group"
+                gradientColors="linear-gradient(136deg, rgb(59, 130, 246), rgb(99, 102, 241))"
+                lightGradientColors="linear-gradient(136deg, rgb(96, 165, 250), rgb(129, 140, 248))"
+                spotlightSize={300}
+                spotlightBlur={100}
+                spotlightOpacity={0.25}
+                spotlightOpacityLight={0.15}
+                spotlightOverflow={false}
               >
-                <CardContent className="p-6">
-                  <div className="inline-flex p-3 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300 mb-4">
-                    <feature.icon className="h-6 w-6 text-primary" />
-                  </div>
-                  <h3 className="text-base font-bold mb-2 group-hover:text-primary transition-colors">
-                    {t(`features.${feature.key}.title`)}
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed text-sm">
-                    {t(`features.${feature.key}.description`)}
-                  </p>
-                </CardContent>
-              </Card>
+                <div className="inline-flex p-3 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300 mb-4">
+                  <feature.icon className="h-6 w-6 text-primary" />
+                </div>
+                <h3 className="text-base font-bold mb-2 group-hover:text-primary transition-colors">
+                  {t(`features.${feature.key}.title`)}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed text-sm">
+                  {t(`features.${feature.key}.description`)}
+                </p>
+              </SpotlightCard>
             ))}
           </div>
         </div>

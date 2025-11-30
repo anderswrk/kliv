@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { Card, CardContent } from '@/components/ui/card';
 import { MessageSquare, Code, Rocket, Sparkles } from 'lucide-react';
+import SpotlightCard from '@/components/SpotlightCard';
 
 const HowItWorksSection = () => {
   const { t } = useTranslation();
@@ -92,19 +92,26 @@ const HowItWorksSection = () => {
                     <>
                       {/* Left content */}
                       <div className="w-1/2 pr-12 text-right">
-                        <Card className="inline-block text-left bg-card/80 dark:bg-card/60 backdrop-blur-xl border border-border/50 hover:shadow-xl transition-all duration-300">
-                          <CardContent className="p-6">
-                            <div className={`inline-flex p-3 rounded-xl ${colors[index].bg} mb-3`}>
-                              <step.icon className="w-6 h-6 text-primary" />
-                            </div>
-                            <h3 className="text-lg font-bold mb-2">
-                              {step.title}
-                            </h3>
-                            <p className="text-sm text-muted-foreground">
-                              {step.description}
-                            </p>
-                          </CardContent>
-                        </Card>
+                        <SpotlightCard 
+                          className="inline-block text-left p-6"
+                          gradientColors="linear-gradient(136deg, rgb(59, 130, 246), rgb(99, 102, 241))"
+                          lightGradientColors="linear-gradient(136deg, rgb(96, 165, 250), rgb(129, 140, 248))"
+                          spotlightSize={300}
+                          spotlightBlur={100}
+                          spotlightOpacity={0.25}
+                          spotlightOpacityLight={0.15}
+                          spotlightOverflow={false}
+                        >
+                          <div className={`inline-flex p-3 rounded-xl ${colors[index].bg} mb-3`}>
+                            <step.icon className="w-6 h-6 text-primary" />
+                          </div>
+                          <h3 className="text-lg font-bold mb-2">
+                            {step.title}
+                          </h3>
+                          <p className="text-sm text-muted-foreground">
+                            {step.description}
+                          </p>
+                        </SpotlightCard>
                       </div>
                       
                       {/* Center badge */}
@@ -131,19 +138,26 @@ const HowItWorksSection = () => {
                       
                       {/* Right content */}
                       <div className="w-1/2 pl-12">
-                        <Card className="bg-card/80 dark:bg-card/60 backdrop-blur-xl border border-border/50 hover:shadow-xl transition-all duration-300">
-                          <CardContent className="p-6">
-                            <div className={`inline-flex p-3 rounded-xl ${colors[index].bg} mb-3`}>
-                              <step.icon className="w-6 h-6 text-primary" />
-                            </div>
-                            <h3 className="text-lg font-bold mb-2">
-                              {step.title}
-                            </h3>
-                            <p className="text-sm text-muted-foreground">
-                              {step.description}
-                            </p>
-                          </CardContent>
-                        </Card>
+                        <SpotlightCard 
+                          className="p-6"
+                          gradientColors="linear-gradient(136deg, rgb(59, 130, 246), rgb(99, 102, 241))"
+                          lightGradientColors="linear-gradient(136deg, rgb(96, 165, 250), rgb(129, 140, 248))"
+                          spotlightSize={300}
+                          spotlightBlur={100}
+                          spotlightOpacity={0.25}
+                          spotlightOpacityLight={0.15}
+                          spotlightOverflow={false}
+                        >
+                          <div className={`inline-flex p-3 rounded-xl ${colors[index].bg} mb-3`}>
+                            <step.icon className="w-6 h-6 text-primary" />
+                          </div>
+                          <h3 className="text-lg font-bold mb-2">
+                            {step.title}
+                          </h3>
+                          <p className="text-sm text-muted-foreground">
+                            {step.description}
+                          </p>
+                        </SpotlightCard>
                       </div>
                     </>
                   )}
