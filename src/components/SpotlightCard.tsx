@@ -81,77 +81,60 @@ const SpotlightCard = ({
   const color2 = isDark ? spotlightColor2 : lightSpotlightColor2;
   const opacity = isDark ? spotlightOpacity : spotlightOpacityLight;
 
-  // Animated sweeping movement for alwaysOn mode - Spotlight 1
+  // Continuous fluid animation for alwaysOn mode - both spotlights
   useEffect(() => {
     if (!alwaysOn || spotlightDisabled) return;
 
-    let angle = 0; // Start at top-right quadrant
-    let sweepDirection = 1;
+    let animationId: number;
+    let angle1 = 0;
+    let angle2 = Math.PI; // Start opposite
     
-    const moveSpotlight = () => {
-      if (!cardRef.current) return;
+    // Speed factors based on animationSpeed (lower = faster)
+    const speed1 = 3000 / animationSpeed;
+    const speed2 = 3000 / animationSpeed2;
+    
+    // Wobble offsets for organic motion
+    let wobble1 = 0;
+    let wobble2 = Math.PI * 0.7;
+    
+    const animate = () => {
+      if (!cardRef.current) {
+        animationId = requestAnimationFrame(animate);
+        return;
+      }
+      
       const rect = cardRef.current.getBoundingClientRect();
       const centerX = rect.width / 2;
       const centerY = rect.height / 2;
       
-      // Create sweeping arc motion from the center
-      const radiusX = rect.width * 0.35;
-      const radiusY = rect.height * 0.6; // More vertical movement
+      // Spotlight 1 - sweeping arc with wobble
+      const radiusX1 = rect.width * 0.35;
+      const radiusY1 = rect.height * 0.55;
+      angle1 += 0.012 * speed1;
+      wobble1 += 0.023 * speed1;
       
-      // Add some randomness to the sweep
-      angle += (0.4 + Math.random() * 0.5) * sweepDirection;
-      if (Math.random() < 0.15) sweepDirection *= -1; // Occasionally reverse
+      const x1 = centerX + Math.cos(angle1) * radiusX1 + Math.sin(wobble1 * 1.7) * 30;
+      const y1 = centerY + Math.sin(angle1 * 0.8) * radiusY1 + Math.cos(wobble1 * 1.3) * 25;
+      setAnimatedPosition1({ x: x1, y: y1 });
       
-      const x = centerX + Math.cos(angle) * radiusX + (Math.random() - 0.5) * 50;
-      const y = centerY + Math.sin(angle) * radiusY + (Math.random() - 0.5) * 40;
+      // Spotlight 2 - different pattern for variety
+      if (dualSpotlights) {
+        const radiusX2 = rect.width * 0.38;
+        const radiusY2 = rect.height * 0.5;
+        angle2 += 0.015 * speed2;
+        wobble2 += 0.019 * speed2;
+        
+        const x2 = centerX + Math.cos(angle2 * 1.1) * radiusX2 + Math.sin(wobble2 * 1.4) * 35;
+        const y2 = centerY + Math.sin(angle2) * radiusY2 + Math.cos(wobble2 * 1.6) * 30;
+        setAnimatedPosition2({ x: x2, y: y2 });
+      }
       
-      setAnimatedPosition1({ x, y });
+      animationId = requestAnimationFrame(animate);
     };
-
-    moveSpotlight();
-    const interval = setInterval(moveSpotlight, animationSpeed);
-    return () => clearInterval(interval);
-  }, [alwaysOn, spotlightDisabled, animationSpeed, spotlightSize]);
-
-  // Animated sweeping movement for alwaysOn mode - Spotlight 2
-  useEffect(() => {
-    if (!alwaysOn || spotlightDisabled || !dualSpotlights) return;
-
-    let angle = Math.PI; // Start exactly opposite (bottom-left quadrant)
-    let sweepDirection = -1; // Move opposite direction
-    let interval: ReturnType<typeof setInterval>;
     
-    const moveSpotlight = () => {
-      if (!cardRef.current) return;
-      const rect = cardRef.current.getBoundingClientRect();
-      const centerX = rect.width / 2;
-      const centerY = rect.height / 2;
-      
-      // Create sweeping arc motion
-      const radiusX = rect.width * 0.4;
-      const radiusY = rect.height * 0.55;
-      
-      // Slightly different sweep pattern
-      angle += (0.35 + Math.random() * 0.6) * sweepDirection;
-      if (Math.random() < 0.12) sweepDirection *= -1;
-      
-      const x = centerX + Math.cos(angle) * radiusX + (Math.random() - 0.5) * 60;
-      const y = centerY + Math.sin(angle) * radiusY + (Math.random() - 0.5) * 50;
-      
-      setAnimatedPosition2({ x, y });
-    };
-
-    // Offset start for desync effect
-    const timeout = setTimeout(() => {
-      moveSpotlight();
-      interval = setInterval(moveSpotlight, animationSpeed2);
-    }, animationSpeed2 / 3);
-
-    return () => {
-      clearTimeout(timeout);
-      if (interval) clearInterval(interval);
-    };
-  }, [alwaysOn, spotlightDisabled, dualSpotlights, animationSpeed2, spotlightSize]);
+    animationId = requestAnimationFrame(animate);
+    return () => cancelAnimationFrame(animationId);
+  }, [alwaysOn, spotlightDisabled, dualSpotlights, animationSpeed, animationSpeed2]);
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!cardRef.current) return;
@@ -170,7 +153,7 @@ const SpotlightCard = ({
   const pos1 = alwaysOn ? animatedPosition1 : mousePosition;
   const pos2 = animatedPosition2;
 
-  const createSpotlightStyle = (pos: {x: number, y: number}, color: string, speed: number, visible: boolean): React.CSSProperties => ({
+  const createSpotlightStyle = (pos: {x: number, y: number}, color: string, visible: boolean): React.CSSProperties => ({
     background: `radial-gradient(circle at center, 
       rgba(${color}, ${visible ? opacity : 0}) 0%, 
       rgba(${color}, ${visible ? opacity * 0.92 : 0}) 10%, 
@@ -189,7 +172,7 @@ const SpotlightCard = ({
     borderRadius: "50%",
     filter: `blur(${spotlightSize * 0.15}px)`,
     transition: alwaysOn 
-      ? `left ${speed * 0.65}ms cubic-bezier(0.25, 0.1, 0.25, 1), top ${speed * 0.65}ms cubic-bezier(0.25, 0.1, 0.25, 1), background 500ms ease`
+      ? 'background 500ms ease'
       : 'background 400ms ease',
   });
 
@@ -198,21 +181,21 @@ const SpotlightCard = ({
       {/* Primary spotlight */}
       <span
         className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 will-change-transform"
-        style={createSpotlightStyle(pos1, color1, animationSpeed, showSpotlight)}
+        style={createSpotlightStyle(pos1, color1, showSpotlight)}
       />
       
       {/* Secondary spotlight for dual mode */}
       {dualSpotlights && (
         <span
           className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 will-change-transform"
-          style={createSpotlightStyle(pos2, color2, animationSpeed2, showSpotlight)}
+          style={createSpotlightStyle(pos2, color2, showSpotlight)}
         />
       )}
     </>
   );
 
   // Create subdued spotlight style for overflow (lower opacity, more blur)
-  const createSubduedSpotlightStyle = (pos: {x: number, y: number}, color: string, speed: number, visible: boolean): React.CSSProperties => {
+  const createSubduedSpotlightStyle = (pos: {x: number, y: number}, color: string, visible: boolean): React.CSSProperties => {
     const subduedOpacity = opacity * 0.25; // Much dimmer outside
     return {
       background: `radial-gradient(circle at center, 
@@ -230,7 +213,7 @@ const SpotlightCard = ({
       borderRadius: "50%",
       filter: `blur(${spotlightSize * 0.25}px)`,
       transition: alwaysOn 
-        ? `left ${speed * 0.65}ms cubic-bezier(0.25, 0.1, 0.25, 1), top ${speed * 0.65}ms cubic-bezier(0.25, 0.1, 0.25, 1), background 500ms ease`
+        ? 'background 500ms ease'
         : 'background 400ms ease',
     };
   };
@@ -240,14 +223,14 @@ const SpotlightCard = ({
       {/* Primary spotlight - subdued for overflow */}
       <span
         className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 will-change-transform"
-        style={createSubduedSpotlightStyle(pos1, color1, animationSpeed, showSpotlight)}
+        style={createSubduedSpotlightStyle(pos1, color1, showSpotlight)}
       />
       
       {/* Secondary spotlight for dual mode - subdued */}
       {dualSpotlights && (
         <span
           className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 will-change-transform"
-          style={createSubduedSpotlightStyle(pos2, color2, animationSpeed2, showSpotlight)}
+          style={createSubduedSpotlightStyle(pos2, color2, showSpotlight)}
         />
       )}
     </>
