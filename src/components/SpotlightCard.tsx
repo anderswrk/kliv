@@ -58,8 +58,9 @@ const SpotlightCard = ({
 }: SpotlightCardProps) => {
   const cardRef = useRef<HTMLDivElement>(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [animatedPosition1, setAnimatedPosition1] = useState({ x: 100, y: 80 });
-  const [animatedPosition2, setAnimatedPosition2] = useState({ x: 300, y: 120 });
+  // Start positions far apart - opposite corners
+  const [animatedPosition1, setAnimatedPosition1] = useState({ x: 80, y: 60 });
+  const [animatedPosition2, setAnimatedPosition2] = useState({ x: 500, y: 280 });
   const [isHovering, setIsHovering] = useState(false);
   const { theme } = useTheme();
   const isDark = theme === "dark" || (theme === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
@@ -84,7 +85,7 @@ const SpotlightCard = ({
   useEffect(() => {
     if (!alwaysOn || spotlightDisabled) return;
 
-    let angle = Math.random() * Math.PI * 2; // Start at random angle
+    let angle = 0; // Start at top-right quadrant
     let sweepDirection = 1;
     
     const moveSpotlight = () => {
@@ -116,8 +117,8 @@ const SpotlightCard = ({
   useEffect(() => {
     if (!alwaysOn || spotlightDisabled || !dualSpotlights) return;
 
-    let angle = Math.random() * Math.PI * 2 + Math.PI; // Start opposite to spotlight 1
-    let sweepDirection = -1; // Start opposite direction
+    let angle = Math.PI; // Start exactly opposite (bottom-left quadrant)
+    let sweepDirection = -1; // Move opposite direction
     let interval: ReturnType<typeof setInterval>;
     
     const moveSpotlight = () => {
