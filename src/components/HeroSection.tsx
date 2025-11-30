@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
-import { Card } from '@/components/ui/card';
+import SpotlightCard from '@/components/SpotlightCard';
 import { ArrowRight, Sparkles, MessageSquare } from 'lucide-react';
 import { useTypingAnimation } from '@/hooks/useTypingAnimation';
 import { useUserSession } from '../hooks/useUserSession';
