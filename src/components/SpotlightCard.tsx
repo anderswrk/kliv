@@ -138,8 +138,8 @@ const SpotlightCard = ({
 
   const showSpotlight = alwaysOn || isHovering;
 
-  // Position logic
-  const pos1 = alwaysOn && !isHovering ? animatedPosition1 : mousePosition;
+  // Position logic - when alwaysOn, always use animated positions (ignore mouse)
+  const pos1 = alwaysOn ? animatedPosition1 : mousePosition;
   const pos2 = animatedPosition2;
 
   const createSpotlightStyle = (pos: {x: number, y: number}, color: string, speed: number, visible: boolean): React.CSSProperties => ({
@@ -159,7 +159,8 @@ const SpotlightCard = ({
     width: `${spotlightSize}px`,
     height: `${spotlightSize}px`,
     borderRadius: "50%",
-    transition: alwaysOn && !isHovering 
+    filter: `blur(${spotlightSize * 0.15}px)`,
+    transition: alwaysOn 
       ? `left ${speed}ms cubic-bezier(0.25, 0.1, 0.25, 1), top ${speed}ms cubic-bezier(0.25, 0.1, 0.25, 1), background 500ms ease`
       : 'background 400ms ease',
   });
