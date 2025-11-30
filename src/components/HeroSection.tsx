@@ -168,7 +168,7 @@ const handleStartBuilding = () => {
                   onChange={handleInputChange}
                   onFocus={handleInputFocus}
                   onBlur={handleInputBlur}
-                  className="min-h-[160px] text-lg resize-none border-2 border-input bg-background/50 dark:bg-background/30 backdrop-blur-sm focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all duration-200 p-5"
+                  className="min-h-[160px] text-lg resize-none border-2 border-input bg-background focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all duration-200 p-5"
                 />
                 {message.length > 0 && (
                   <div className="absolute bottom-4 right-4 text-xs text-muted-foreground bg-background/80 dark:bg-background/60 px-2 py-1 rounded">
