@@ -1,4 +1,4 @@
-import React, { useRef, useState, ReactNode } from "react";
+import React, { useRef, useState, useEffect, ReactNode } from "react";
 import { useTheme } from "@/components/theme-provider";
 
 interface SpotlightCardProps {
@@ -20,6 +20,10 @@ interface SpotlightCardProps {
   spotlightOpacityLight?: number;
   /** Disable the spotlight effect entirely */
   spotlightDisabled?: boolean;
+  /** Always show spotlight (animated randomly) instead of only on hover */
+  alwaysOn?: boolean;
+  /** Speed of random animation in ms (default: 3000) */
+  animationSpeed?: number;
 }
 
 const SpotlightCard = ({ 
@@ -33,12 +37,38 @@ const SpotlightCard = ({
   spotlightOpacity = 0.4,
   spotlightOpacityLight = 0.25,
   spotlightDisabled = false,
+  alwaysOn = false,
+  animationSpeed = 3000,
 }: SpotlightCardProps) => {
   const cardRef = useRef<HTMLDivElement>(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [animatedPosition, setAnimatedPosition] = useState({ x: 200, y: 100 });
   const [isHovering, setIsHovering] = useState(false);
   const { theme } = useTheme();
   const isDark = theme === "dark" || (theme === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+
+  // Animated random movement for alwaysOn mode
+  useEffect(() => {
+    if (!alwaysOn || spotlightDisabled) return;
+
+    const moveSpotlight = () => {
+      if (!cardRef.current) return;
+      const rect = cardRef.current.getBoundingClientRect();
+      // Random position within the card bounds with some padding
+      const padding = spotlightSize / 4;
+      const x = padding + Math.random() * (rect.width - padding * 2);
+      const y = padding + Math.random() * (rect.height - padding * 2);
+      setAnimatedPosition({ x, y });
+    };
+
+    // Initial position
+    moveSpotlight();
+
+    // Set up interval for continuous movement
+    const interval = setInterval(moveSpotlight, animationSpeed);
+
+    return () => clearInterval(interval);
+  }, [alwaysOn, spotlightDisabled, animationSpeed, spotlightSize]);
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!cardRef.current) return;
@@ -58,18 +88,25 @@ const SpotlightCard = ({
     setIsHovering(false);
   };
 
+  // Determine position and opacity based on mode
+  const currentPosition = alwaysOn && !isHovering ? animatedPosition : mousePosition;
+  const showSpotlight = alwaysOn || isHovering;
+
   const spotlightElement = !spotlightDisabled && (
     <span
-      className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 transition-opacity duration-300"
+      className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2"
       style={{
         backgroundImage: isDark ? gradientColors : lightGradientColors,
-        left: mousePosition.x,
-        top: mousePosition.y,
-        opacity: isHovering ? (isDark ? spotlightOpacity : spotlightOpacityLight) : 0,
+        left: currentPosition.x,
+        top: currentPosition.y,
+        opacity: showSpotlight ? (isDark ? spotlightOpacity : spotlightOpacityLight) : 0,
         width: `${spotlightSize}px`,
         height: `${spotlightSize}px`,
         borderRadius: "50%",
         filter: `blur(${spotlightBlur}px)`,
+        transition: alwaysOn && !isHovering 
+          ? `left ${animationSpeed}ms ease-in-out, top ${animationSpeed}ms ease-in-out, opacity 300ms`
+          : 'opacity 300ms',
       }}
     />
   );
