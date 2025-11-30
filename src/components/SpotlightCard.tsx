@@ -189,7 +189,7 @@ const SpotlightCard = ({
     borderRadius: "50%",
     filter: `blur(${spotlightSize * 0.15}px)`,
     transition: alwaysOn 
-      ? `left ${speed}ms cubic-bezier(0.25, 0.1, 0.25, 1), top ${speed}ms cubic-bezier(0.25, 0.1, 0.25, 1), background 500ms ease`
+      ? `left ${speed * 0.65}ms cubic-bezier(0.25, 0.1, 0.25, 1), top ${speed * 0.65}ms cubic-bezier(0.25, 0.1, 0.25, 1), background 500ms ease`
       : 'background 400ms ease',
   });
 
@@ -230,7 +230,7 @@ const SpotlightCard = ({
       borderRadius: "50%",
       filter: `blur(${spotlightSize * 0.25}px)`,
       transition: alwaysOn 
-        ? `left ${speed}ms cubic-bezier(0.25, 0.1, 0.25, 1), top ${speed}ms cubic-bezier(0.25, 0.1, 0.25, 1), background 500ms ease`
+        ? `left ${speed * 0.65}ms cubic-bezier(0.25, 0.1, 0.25, 1), top ${speed * 0.65}ms cubic-bezier(0.25, 0.1, 0.25, 1), background 500ms ease`
         : 'background 400ms ease',
     };
   };
