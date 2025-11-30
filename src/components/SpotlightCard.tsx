@@ -144,14 +144,14 @@ const SpotlightCard = ({
 
   const createSpotlightStyle = (pos: {x: number, y: number}, color: string, speed: number, visible: boolean): React.CSSProperties => ({
     background: `radial-gradient(circle at center, 
-      rgba(${color}, ${visible ? opacity * 0.95 : 0}) 0%, 
-      rgba(${color}, ${visible ? opacity * 0.75 : 0}) 8%, 
-      rgba(${color}, ${visible ? opacity * 0.55 : 0}) 18%, 
-      rgba(${color}, ${visible ? opacity * 0.38 : 0}) 28%, 
-      rgba(${color}, ${visible ? opacity * 0.25 : 0}) 40%, 
-      rgba(${color}, ${visible ? opacity * 0.15 : 0}) 52%, 
-      rgba(${color}, ${visible ? opacity * 0.08 : 0}) 65%, 
-      rgba(${color}, ${visible ? opacity * 0.03 : 0}) 80%, 
+      rgba(${color}, ${visible ? opacity : 0}) 0%, 
+      rgba(${color}, ${visible ? opacity * 0.92 : 0}) 10%, 
+      rgba(${color}, ${visible ? opacity * 0.78 : 0}) 22%, 
+      rgba(${color}, ${visible ? opacity * 0.6 : 0}) 35%, 
+      rgba(${color}, ${visible ? opacity * 0.4 : 0}) 48%, 
+      rgba(${color}, ${visible ? opacity * 0.22 : 0}) 60%, 
+      rgba(${color}, ${visible ? opacity * 0.1 : 0}) 75%, 
+      rgba(${color}, ${visible ? opacity * 0.03 : 0}) 88%, 
       rgba(${color}, 0) 100%
     )`,
     left: pos.x,

@@ -141,9 +141,9 @@ const handleStartBuilding = () => {
             spotlightColor2="255, 140, 80"
             lightSpotlightColor="255, 180, 70"
             lightSpotlightColor2="255, 120, 60"
-            spotlightSize={450}
-            spotlightOpacity={0.55}
-            spotlightOpacityLight={0.35}
+            spotlightSize={550}
+            spotlightOpacity={0.9}
+            spotlightOpacityLight={0.6}
             spotlightOverflow={true}
             alwaysOn={true}
             dualSpotlights={true}
