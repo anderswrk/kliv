@@ -137,12 +137,12 @@ const handleStartBuilding = () => {
           {/* Main Message Input */}
           <SpotlightCard 
             className="p-10 mb-8 animate-scale-in"
-            gradientColors="linear-gradient(136deg, rgb(0, 119, 255), rgb(255, 107, 107))"
-            lightGradientColors="linear-gradient(136deg, rgb(59, 130, 246), rgb(244, 63, 94))"
-            spotlightSize={500}
-            spotlightBlur={100}
-            spotlightOpacity={0.5}
-            spotlightOpacityLight={0.3}
+            gradientColors="linear-gradient(136deg, rgb(220, 80, 80), rgb(180, 60, 90))"
+            lightGradientColors="linear-gradient(136deg, rgb(239, 68, 68), rgb(220, 38, 38))"
+            spotlightSize={350}
+            spotlightBlur={120}
+            spotlightOpacity={0.25}
+            spotlightOpacityLight={0.15}
             spotlightOverflow={false}
           >
             <div className="space-y-6">
