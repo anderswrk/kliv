@@ -144,7 +144,7 @@ const handleStartBuilding = () => {
             spotlightSize={550}
             spotlightOpacity={0.18}
             spotlightOpacityLight={0.3}
-            spotlightOverflow={true}
+            spotlightOverflow={false}
             alwaysOn={true}
             dualSpotlights={true}
             animationSpeed={2340}
