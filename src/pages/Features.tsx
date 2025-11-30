@@ -3,6 +3,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { CTASection } from '@/components/CTASection';
 import { GetStartedCTA } from '@/components/GetStartedCTA';
+import SpotlightCard from '@/components/SpotlightCard';
 
 import { Card, CardContent } from '@/components/ui/card';
 import { 
@@ -253,19 +254,27 @@ export function Features() {
               {/* Kliv Cloud Features Grid */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {klivCloudFeatures.map((feature, index) => (
-                  <Card key={index} className="border border-border/50 bg-card/80 dark:bg-card/60 backdrop-blur-xl shadow-lg hover:shadow-xl transition-shadow duration-300 group">
-                    <CardContent className="p-6">
-                      <div className="inline-flex p-3 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300 mb-4">
-                        <feature.icon className="h-6 w-6 text-primary" />
-                      </div>
-                      <h3 className="text-base font-bold mb-2 group-hover:text-primary transition-colors">
-                        {feature.title}
-                      </h3>
-                      <p className="text-muted-foreground leading-relaxed text-sm">
-                        {feature.description}
-                      </p>
-                    </CardContent>
-                  </Card>
+                  <SpotlightCard 
+                    key={index} 
+                    className="p-6 group"
+                    gradientColors="linear-gradient(136deg, rgb(59, 130, 246), rgb(99, 102, 241))"
+                    lightGradientColors="linear-gradient(136deg, rgb(96, 165, 250), rgb(129, 140, 248))"
+                    spotlightSize={300}
+                    spotlightBlur={100}
+                    spotlightOpacity={0.25}
+                    spotlightOpacityLight={0.15}
+                    spotlightOverflow={false}
+                  >
+                    <div className="inline-flex p-3 rounded-2xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300 mb-4">
+                      <feature.icon className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="text-base font-bold mb-2 group-hover:text-primary transition-colors">
+                      {feature.title}
+                    </h3>
+                    <p className="text-muted-foreground leading-relaxed text-sm">
+                      {feature.description}
+                    </p>
+                  </SpotlightCard>
                 ))}
               </div>
             </div>
@@ -456,22 +465,27 @@ export function Features() {
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {deploymentFeatures.map((feature, index) => (
-                  <div key={index} className="group relative overflow-hidden rounded-2xl border border-border/50 bg-gradient-to-br from-card/90 to-card/70 dark:from-card/80 dark:to-card/60 backdrop-blur-xl p-8 hover:shadow-xl transition-shadow duration-300">
-                    {/* Decorative gradient */}
-                    <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-emerald-500/10 to-transparent rounded-bl-full"></div>
-                    
-                    <div className="relative">
-                      <div className="inline-flex p-3 rounded-2xl bg-emerald-500/10 dark:bg-emerald-500/20 mb-4">
-                        <feature.icon className="h-8 w-8 text-emerald-600 dark:text-emerald-400" />
-                      </div>
-                      <h3 className="text-lg font-bold mb-3 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
-                        {feature.title}
-                      </h3>
-                      <p className="text-sm text-muted-foreground leading-relaxed">
-                        {feature.description}
-                      </p>
+                  <SpotlightCard 
+                    key={index} 
+                    className="p-8 group"
+                    gradientColors="linear-gradient(136deg, rgb(59, 130, 246), rgb(99, 102, 241))"
+                    lightGradientColors="linear-gradient(136deg, rgb(96, 165, 250), rgb(129, 140, 248))"
+                    spotlightSize={300}
+                    spotlightBlur={100}
+                    spotlightOpacity={0.25}
+                    spotlightOpacityLight={0.15}
+                    spotlightOverflow={false}
+                  >
+                    <div className="inline-flex p-3 rounded-2xl bg-emerald-500/10 dark:bg-emerald-500/20 mb-4">
+                      <feature.icon className="h-8 w-8 text-emerald-600 dark:text-emerald-400" />
                     </div>
-                  </div>
+                    <h3 className="text-lg font-bold mb-3 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                      {feature.title}
+                    </h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {feature.description}
+                    </p>
+                  </SpotlightCard>
                 ))}
               </div>
             </div>
