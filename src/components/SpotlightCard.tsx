@@ -210,16 +210,58 @@ const SpotlightCard = ({
     </>
   );
 
-  // Overflow variant: spotlights extend beyond card bounds
+  // Create subdued spotlight style for overflow (lower opacity, more blur)
+  const createSubduedSpotlightStyle = (pos: {x: number, y: number}, color: string, speed: number, visible: boolean): React.CSSProperties => {
+    const subduedOpacity = opacity * 0.25; // Much dimmer outside
+    return {
+      background: `radial-gradient(circle at center, 
+        rgba(${color}, ${visible ? subduedOpacity : 0}) 0%, 
+        rgba(${color}, ${visible ? subduedOpacity * 0.85 : 0}) 15%, 
+        rgba(${color}, ${visible ? subduedOpacity * 0.6 : 0}) 35%, 
+        rgba(${color}, ${visible ? subduedOpacity * 0.3 : 0}) 55%, 
+        rgba(${color}, ${visible ? subduedOpacity * 0.1 : 0}) 75%, 
+        rgba(${color}, 0) 100%
+      )`,
+      left: pos.x,
+      top: pos.y,
+      width: `${spotlightSize * 1.2}px`,
+      height: `${spotlightSize * 1.2}px`,
+      borderRadius: "50%",
+      filter: `blur(${spotlightSize * 0.25}px)`,
+      transition: alwaysOn 
+        ? `left ${speed}ms cubic-bezier(0.25, 0.1, 0.25, 1), top ${speed}ms cubic-bezier(0.25, 0.1, 0.25, 1), background 500ms ease`
+        : 'background 400ms ease',
+    };
+  };
+
+  const subduedSpotlightElements = !spotlightDisabled && (
+    <>
+      {/* Primary spotlight - subdued for overflow */}
+      <span
+        className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 will-change-transform"
+        style={createSubduedSpotlightStyle(pos1, color1, animationSpeed, showSpotlight)}
+      />
+      
+      {/* Secondary spotlight for dual mode - subdued */}
+      {dualSpotlights && (
+        <span
+          className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 will-change-transform"
+          style={createSubduedSpotlightStyle(pos2, color2, animationSpeed2, showSpotlight)}
+        />
+      )}
+    </>
+  );
+
+  // Overflow variant: spotlights primarily inside card with subdued overflow outside
   if (spotlightOverflow) {
     return (
       <div className="relative">
-        {/* Spotlights positioned outside card for overflow effect */}
-        <div className="absolute inset-0 z-0 overflow-visible">
-          {spotlightElements}
+        {/* Subdued spotlights outside card for soft overflow effect */}
+        <div className="absolute inset-0 z-0 overflow-visible pointer-events-none">
+          {subduedSpotlightElements}
         </div>
         
-        {/* Card */}
+        {/* Card with main spotlights inside */}
         <div
           ref={cardRef}
           className={`relative z-10 overflow-hidden rounded-2xl border-2 border-slate-200/50 dark:border-white/10 backdrop-blur-[13px] bg-white/60 dark:bg-white/5 shadow-lg dark:shadow-none transition-colors duration-300 ${className}`}
@@ -227,6 +269,8 @@ const SpotlightCard = ({
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
+          {/* Main spotlights inside the card */}
+          {spotlightElements}
           <div className="relative z-10">
             {children}
           </div>
