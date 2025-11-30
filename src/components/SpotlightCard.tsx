@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect, ReactNode, useId } from "react";
+import React, { useRef, useState, useEffect, ReactNode } from "react";
 import { useTheme } from "@/components/theme-provider";
 
 interface SpotlightCardProps {
@@ -63,7 +63,6 @@ const SpotlightCard = ({
   const [isHovering, setIsHovering] = useState(false);
   const { theme } = useTheme();
   const isDark = theme === "dark" || (theme === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
-  const filterId = useId();
 
   // Extract color from legacy gradient format if provided
   const extractColorFromGradient = (gradient: string): string | null => {
@@ -167,37 +166,17 @@ const SpotlightCard = ({
 
   const spotlightElements = !spotlightDisabled && (
     <>
-      {/* SVG filter for subtle noise to break up banding */}
-      <svg width="0" height="0" style={{ position: 'absolute', visibility: 'hidden' }}>
-        <defs>
-          <filter id={`spotlight-noise-${filterId}`} x="0%" y="0%" width="100%" height="100%">
-            <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise" stitchTiles="stitch" />
-            <feColorMatrix type="saturate" values="0" />
-            <feComponentTransfer>
-              <feFuncA type="linear" slope="0.08" />
-            </feComponentTransfer>
-            <feBlend in="SourceGraphic" in2="noise" mode="overlay" />
-          </filter>
-        </defs>
-      </svg>
-      
       {/* Primary spotlight */}
       <span
         className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 will-change-transform"
-        style={{
-          ...createSpotlightStyle(pos1, color1, animationSpeed, showSpotlight),
-          filter: `url(#spotlight-noise-${filterId})`,
-        }}
+        style={createSpotlightStyle(pos1, color1, animationSpeed, showSpotlight)}
       />
       
       {/* Secondary spotlight for dual mode */}
       {dualSpotlights && (
         <span
           className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 will-change-transform"
-          style={{
-            ...createSpotlightStyle(pos2, color2, animationSpeed2, showSpotlight),
-            filter: `url(#spotlight-noise-${filterId})`,
-          }}
+          style={createSpotlightStyle(pos2, color2, animationSpeed2, showSpotlight)}
         />
       )}
     </>
