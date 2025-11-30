@@ -135,7 +135,16 @@ const handleStartBuilding = () => {
           </p>
 
           {/* Main Message Input */}
-          <Card className="p-10 mb-8 bg-card/80 dark:bg-card/60 backdrop-blur-xl border-2 border-border/50 hover:border-primary/40 transition-all duration-300 shadow-2xl hover:shadow-primary/10 animate-scale-in">
+          <SpotlightCard 
+            className="p-10 mb-8 animate-scale-in"
+            gradientColors="linear-gradient(136deg, rgb(0, 119, 255), rgb(255, 107, 107))"
+            lightGradientColors="linear-gradient(136deg, rgb(59, 130, 246), rgb(244, 63, 94))"
+            spotlightSize={500}
+            spotlightBlur={100}
+            spotlightOpacity={0.5}
+            spotlightOpacityLight={0.3}
+            spotlightOverflow={false}
+          >
             <div className="space-y-6">
               {/* Input Label */}
               <div className="flex items-center gap-2 text-left">
@@ -189,7 +198,7 @@ const handleStartBuilding = () => {
                 </Button>
               </div>
             </div>
-          </Card>
+          </SpotlightCard>
         </div>
       </div>
     </section>
