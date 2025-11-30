@@ -1,147 +1,218 @@
-import React, { useRef, useState, useEffect, ReactNode } from "react";
+import React, { useRef, useState, useEffect, ReactNode, useId } from "react";
 import { useTheme } from "@/components/theme-provider";
 
 interface SpotlightCardProps {
   children: ReactNode;
   className?: string;
-  /** Gradient colors for dark mode */
-  gradientColors?: string;
-  /** Gradient colors for light mode */
-  lightGradientColors?: string;
-  /** Whether the spotlight glow extends outside the card bounds (default: true) */
+  /** Primary spotlight color as "r, g, b" (default: warm gold) */
+  spotlightColor?: string;
+  /** Secondary spotlight color for dual mode (default: warm orange) */
+  spotlightColor2?: string;
+  /** Light mode primary color */
+  lightSpotlightColor?: string;
+  /** Light mode secondary color */
+  lightSpotlightColor2?: string;
+  /** Whether the spotlight glow extends outside the card bounds (default: false) */
   spotlightOverflow?: boolean;
-  /** Size of the spotlight in pixels (default: 400) */
+  /** Size of the spotlight in pixels (default: 350) */
   spotlightSize?: number;
-  /** Blur amount in pixels (default: 80) */
-  spotlightBlur?: number;
-  /** Opacity of spotlight when hovering (0-1) - dark mode (default: 0.4) */
+  /** Opacity of spotlight (0-1) - dark mode (default: 0.6) */
   spotlightOpacity?: number;
-  /** Opacity of spotlight when hovering (0-1) - light mode (default: 0.25) */
+  /** Opacity of spotlight (0-1) - light mode (default: 0.35) */
   spotlightOpacityLight?: number;
   /** Disable the spotlight effect entirely */
   spotlightDisabled?: boolean;
   /** Always show spotlight (animated randomly) instead of only on hover */
   alwaysOn?: boolean;
-  /** Speed of random animation in ms (default: 3000) */
+  /** Use dual spotlights for movie premiere effect */
+  dualSpotlights?: boolean;
+  /** Speed of primary spotlight animation in ms (default: 2500) */
   animationSpeed?: number;
+  /** Secondary spotlight animation speed (default: 3200) */
+  animationSpeed2?: number;
+  // Legacy props for backward compatibility
+  gradientColors?: string;
+  lightGradientColors?: string;
+  spotlightBlur?: number;
 }
 
 const SpotlightCard = ({ 
   children, 
   className = "",
-  gradientColors = "linear-gradient(136deg, rgb(255, 155, 38), rgb(107, 33, 239))",
-  lightGradientColors = "linear-gradient(136deg, rgb(251, 191, 36), rgb(139, 92, 246))",
-  spotlightOverflow = true,
-  spotlightSize = 400,
-  spotlightBlur = 80,
-  spotlightOpacity = 0.4,
-  spotlightOpacityLight = 0.25,
+  spotlightColor = "255, 195, 90",
+  spotlightColor2 = "255, 155, 70",
+  lightSpotlightColor = "255, 170, 60",
+  lightSpotlightColor2 = "255, 130, 50",
+  spotlightOverflow = false,
+  spotlightSize = 350,
+  spotlightOpacity = 0.6,
+  spotlightOpacityLight = 0.35,
   spotlightDisabled = false,
   alwaysOn = false,
-  animationSpeed = 3000,
+  dualSpotlights = false,
+  animationSpeed = 2500,
+  animationSpeed2 = 3200,
+  // Legacy props - extract color if provided
+  gradientColors,
+  lightGradientColors,
 }: SpotlightCardProps) => {
   const cardRef = useRef<HTMLDivElement>(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [animatedPosition, setAnimatedPosition] = useState({ x: 200, y: 100 });
+  const [animatedPosition1, setAnimatedPosition1] = useState({ x: 100, y: 80 });
+  const [animatedPosition2, setAnimatedPosition2] = useState({ x: 300, y: 120 });
   const [isHovering, setIsHovering] = useState(false);
   const { theme } = useTheme();
   const isDark = theme === "dark" || (theme === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+  const filterId = useId();
 
-  // Animated random movement for alwaysOn mode
+  // Extract color from legacy gradient format if provided
+  const extractColorFromGradient = (gradient: string): string | null => {
+    const match = gradient.match(/rgb\((\d+),\s*(\d+),\s*(\d+)\)/);
+    if (match) {
+      return `${match[1]}, ${match[2]}, ${match[3]}`;
+    }
+    return null;
+  };
+
+  // Use legacy colors if provided, otherwise use new format
+  const color1 = isDark 
+    ? (gradientColors ? extractColorFromGradient(gradientColors) || spotlightColor : spotlightColor)
+    : (lightGradientColors ? extractColorFromGradient(lightGradientColors) || lightSpotlightColor : lightSpotlightColor);
+  const color2 = isDark ? spotlightColor2 : lightSpotlightColor2;
+  const opacity = isDark ? spotlightOpacity : spotlightOpacityLight;
+
+  // Animated random movement for alwaysOn mode - Spotlight 1
   useEffect(() => {
     if (!alwaysOn || spotlightDisabled) return;
 
     const moveSpotlight = () => {
       if (!cardRef.current) return;
       const rect = cardRef.current.getBoundingClientRect();
-      // Random position within the card bounds with some padding
-      const padding = spotlightSize / 4;
+      const padding = spotlightSize / 3;
       const x = padding + Math.random() * (rect.width - padding * 2);
       const y = padding + Math.random() * (rect.height - padding * 2);
-      setAnimatedPosition({ x, y });
+      setAnimatedPosition1({ x, y });
     };
 
-    // Initial position
     moveSpotlight();
-
-    // Set up interval for continuous movement
     const interval = setInterval(moveSpotlight, animationSpeed);
-
     return () => clearInterval(interval);
   }, [alwaysOn, spotlightDisabled, animationSpeed, spotlightSize]);
 
+  // Animated random movement for alwaysOn mode - Spotlight 2
+  useEffect(() => {
+    if (!alwaysOn || spotlightDisabled || !dualSpotlights) return;
+
+    let interval: ReturnType<typeof setInterval>;
+    
+    const moveSpotlight = () => {
+      if (!cardRef.current) return;
+      const rect = cardRef.current.getBoundingClientRect();
+      const padding = spotlightSize / 3;
+      const x = padding + Math.random() * (rect.width - padding * 2);
+      const y = padding + Math.random() * (rect.height - padding * 2);
+      setAnimatedPosition2({ x, y });
+    };
+
+    // Offset start for desync effect
+    const timeout = setTimeout(() => {
+      moveSpotlight();
+      interval = setInterval(moveSpotlight, animationSpeed2);
+    }, animationSpeed2 / 3);
+
+    return () => {
+      clearTimeout(timeout);
+      if (interval) clearInterval(interval);
+    };
+  }, [alwaysOn, spotlightDisabled, dualSpotlights, animationSpeed2, spotlightSize]);
+
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!cardRef.current) return;
-    
     const rect = cardRef.current.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
-    
     setMousePosition({ x, y });
   };
 
-  const handleMouseEnter = () => {
-    setIsHovering(true);
-  };
+  const handleMouseEnter = () => setIsHovering(true);
+  const handleMouseLeave = () => setIsHovering(false);
 
-  const handleMouseLeave = () => {
-    setIsHovering(false);
-  };
-
-  // Determine position and opacity based on mode
-  const currentPosition = alwaysOn && !isHovering ? animatedPosition : mousePosition;
   const showSpotlight = alwaysOn || isHovering;
 
-  // Extract primary color from gradient for radial spotlight
-  const extractColor = (gradient: string) => {
-    const match = gradient.match(/rgb\((\d+),\s*(\d+),\s*(\d+)\)/);
-    if (match) {
-      return { r: parseInt(match[1]), g: parseInt(match[2]), b: parseInt(match[3]) };
-    }
-    return { r: 59, g: 130, b: 246 }; // fallback blue
-  };
+  // Position logic
+  const pos1 = alwaysOn && !isHovering ? animatedPosition1 : mousePosition;
+  const pos2 = animatedPosition2;
 
-  const color = extractColor(isDark ? gradientColors : lightGradientColors);
-  const baseOpacity = showSpotlight ? (isDark ? spotlightOpacity : spotlightOpacityLight) : 0;
+  const createSpotlightStyle = (pos: {x: number, y: number}, color: string, speed: number, visible: boolean): React.CSSProperties => ({
+    background: `radial-gradient(circle at center, 
+      rgba(${color}, ${visible ? opacity * 0.95 : 0}) 0%, 
+      rgba(${color}, ${visible ? opacity * 0.75 : 0}) 8%, 
+      rgba(${color}, ${visible ? opacity * 0.55 : 0}) 18%, 
+      rgba(${color}, ${visible ? opacity * 0.38 : 0}) 28%, 
+      rgba(${color}, ${visible ? opacity * 0.25 : 0}) 40%, 
+      rgba(${color}, ${visible ? opacity * 0.15 : 0}) 52%, 
+      rgba(${color}, ${visible ? opacity * 0.08 : 0}) 65%, 
+      rgba(${color}, ${visible ? opacity * 0.03 : 0}) 80%, 
+      rgba(${color}, 0) 100%
+    )`,
+    left: pos.x,
+    top: pos.y,
+    width: `${spotlightSize}px`,
+    height: `${spotlightSize}px`,
+    borderRadius: "50%",
+    transition: alwaysOn && !isHovering 
+      ? `left ${speed}ms cubic-bezier(0.25, 0.1, 0.25, 1), top ${speed}ms cubic-bezier(0.25, 0.1, 0.25, 1), background 500ms ease`
+      : 'background 400ms ease',
+  });
 
-  // Create smooth radial gradient with multiple stops to prevent banding
-  const smoothRadialGradient = `radial-gradient(circle, 
-    rgba(${color.r}, ${color.g}, ${color.b}, ${baseOpacity * 0.8}) 0%, 
-    rgba(${color.r}, ${color.g}, ${color.b}, ${baseOpacity * 0.6}) 15%, 
-    rgba(${color.r}, ${color.g}, ${color.b}, ${baseOpacity * 0.4}) 30%, 
-    rgba(${color.r}, ${color.g}, ${color.b}, ${baseOpacity * 0.25}) 45%, 
-    rgba(${color.r}, ${color.g}, ${color.b}, ${baseOpacity * 0.12}) 60%, 
-    rgba(${color.r}, ${color.g}, ${color.b}, ${baseOpacity * 0.05}) 75%, 
-    rgba(${color.r}, ${color.g}, ${color.b}, 0) 100%
-  )`;
-
-  const spotlightElement = !spotlightDisabled && (
-    <span
-      className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2"
-      style={{
-        background: smoothRadialGradient,
-        left: currentPosition.x,
-        top: currentPosition.y,
-        width: `${spotlightSize}px`,
-        height: `${spotlightSize}px`,
-        borderRadius: "50%",
-        transition: alwaysOn && !isHovering 
-          ? `left ${animationSpeed}ms ease-in-out, top ${animationSpeed}ms ease-in-out, background 300ms`
-          : 'background 300ms',
-      }}
-    />
+  const spotlightElements = !spotlightDisabled && (
+    <>
+      {/* SVG filter for subtle noise to break up banding */}
+      <svg width="0" height="0" style={{ position: 'absolute', visibility: 'hidden' }}>
+        <defs>
+          <filter id={`spotlight-noise-${filterId}`} x="0%" y="0%" width="100%" height="100%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise" stitchTiles="stitch" />
+            <feColorMatrix type="saturate" values="0" />
+            <feComponentTransfer>
+              <feFuncA type="linear" slope="0.08" />
+            </feComponentTransfer>
+            <feBlend in="SourceGraphic" in2="noise" mode="overlay" />
+          </filter>
+        </defs>
+      </svg>
+      
+      {/* Primary spotlight */}
+      <span
+        className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 will-change-transform"
+        style={{
+          ...createSpotlightStyle(pos1, color1, animationSpeed, showSpotlight),
+          filter: `url(#spotlight-noise-${filterId})`,
+        }}
+      />
+      
+      {/* Secondary spotlight for dual mode */}
+      {dualSpotlights && (
+        <span
+          className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 will-change-transform"
+          style={{
+            ...createSpotlightStyle(pos2, color2, animationSpeed2, showSpotlight),
+            filter: `url(#spotlight-noise-${filterId})`,
+          }}
+        />
+      )}
+    </>
   );
 
-  // Overflow variant: spotlight outside card, can extend beyond bounds
+  // Overflow variant: spotlights extend beyond card bounds
   if (spotlightOverflow) {
     return (
       <div className="relative">
-        {/* Spotlight positioned outside card for overflow effect */}
-        <div className="absolute inset-0 z-0">
-          {spotlightElement}
+        {/* Spotlights positioned outside card for overflow effect */}
+        <div className="absolute inset-0 z-0 overflow-visible">
+          {spotlightElements}
         </div>
         
-        {/* Card with clipped content */}
+        {/* Card */}
         <div
           ref={cardRef}
           className={`relative z-10 overflow-hidden rounded-2xl border-2 border-slate-200/50 dark:border-white/10 backdrop-blur-[13px] bg-white/60 dark:bg-white/5 shadow-lg dark:shadow-none transition-colors duration-300 ${className}`}
@@ -157,7 +228,7 @@ const SpotlightCard = ({
     );
   }
 
-  // Contained variant: spotlight clipped to card bounds
+  // Contained variant: spotlight clipped to card bounds (default)
   return (
     <div
       ref={cardRef}
@@ -166,10 +237,7 @@ const SpotlightCard = ({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      {/* Spotlight clipped inside card */}
-      {spotlightElement}
-      
-      {/* Content */}
+      {spotlightElements}
       <div className="relative z-10">
         {children}
       </div>
