@@ -80,16 +80,30 @@ const SpotlightCard = ({
   const color2 = isDark ? spotlightColor2 : lightSpotlightColor2;
   const opacity = isDark ? spotlightOpacity : spotlightOpacityLight;
 
-  // Animated random movement for alwaysOn mode - Spotlight 1
+  // Animated sweeping movement for alwaysOn mode - Spotlight 1
   useEffect(() => {
     if (!alwaysOn || spotlightDisabled) return;
 
+    let angle = Math.random() * Math.PI * 2; // Start at random angle
+    let sweepDirection = 1;
+    
     const moveSpotlight = () => {
       if (!cardRef.current) return;
       const rect = cardRef.current.getBoundingClientRect();
-      const padding = spotlightSize / 3;
-      const x = padding + Math.random() * (rect.width - padding * 2);
-      const y = padding + Math.random() * (rect.height - padding * 2);
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      
+      // Create sweeping arc motion from the center
+      const radiusX = rect.width * 0.35;
+      const radiusY = rect.height * 0.6; // More vertical movement
+      
+      // Add some randomness to the sweep
+      angle += (0.4 + Math.random() * 0.5) * sweepDirection;
+      if (Math.random() < 0.15) sweepDirection *= -1; // Occasionally reverse
+      
+      const x = centerX + Math.cos(angle) * radiusX + (Math.random() - 0.5) * 50;
+      const y = centerY + Math.sin(angle) * radiusY + (Math.random() - 0.5) * 40;
+      
       setAnimatedPosition1({ x, y });
     };
 
@@ -98,18 +112,31 @@ const SpotlightCard = ({
     return () => clearInterval(interval);
   }, [alwaysOn, spotlightDisabled, animationSpeed, spotlightSize]);
 
-  // Animated random movement for alwaysOn mode - Spotlight 2
+  // Animated sweeping movement for alwaysOn mode - Spotlight 2
   useEffect(() => {
     if (!alwaysOn || spotlightDisabled || !dualSpotlights) return;
 
+    let angle = Math.random() * Math.PI * 2 + Math.PI; // Start opposite to spotlight 1
+    let sweepDirection = -1; // Start opposite direction
     let interval: ReturnType<typeof setInterval>;
     
     const moveSpotlight = () => {
       if (!cardRef.current) return;
       const rect = cardRef.current.getBoundingClientRect();
-      const padding = spotlightSize / 3;
-      const x = padding + Math.random() * (rect.width - padding * 2);
-      const y = padding + Math.random() * (rect.height - padding * 2);
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      
+      // Create sweeping arc motion
+      const radiusX = rect.width * 0.4;
+      const radiusY = rect.height * 0.55;
+      
+      // Slightly different sweep pattern
+      angle += (0.35 + Math.random() * 0.6) * sweepDirection;
+      if (Math.random() < 0.12) sweepDirection *= -1;
+      
+      const x = centerX + Math.cos(angle) * radiusX + (Math.random() - 0.5) * 60;
+      const y = centerY + Math.sin(angle) * radiusY + (Math.random() - 0.5) * 50;
+      
       setAnimatedPosition2({ x, y });
     };
 
