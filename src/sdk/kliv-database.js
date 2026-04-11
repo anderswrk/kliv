@@ -1,3 +1,1 @@
-import db from 'kliv-database.js';
-
-export default db;
+ad33e7a8ff53569057a3675329383341c9284f25
