@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { Header } from '@/components/Header';
 import { LocalizedLink } from '@/components/LocalizedLink';
 import { Footer } from '@/components/Footer';
@@ -46,6 +46,8 @@ interface PricingData {
 export function Pricing() {
     const {t} = useTranslation();
     const navigate = useNavigate();
+    const {lang} = useParams();
+    const currentLang = lang || 'en';
     const [pricingData, setPricingData] = useState<PricingData | null>(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
@@ -86,7 +88,7 @@ export function Pricing() {
     };
 
     const handleFreePlanClick = () => {
-        window.location.href = '/!organization/create';
+        navigate(`/${currentLang}/signup`);
     };
 
     const handlePaidPlanClick = (plan: Plan) => {
